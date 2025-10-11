@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">=16.20.4",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "developmentClient": false,
+      "distribution": "internal",
+      "env": {
+        "EXPO_BUILD_ANDROID_GRADLE_VERSION": "8.3"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_BUILD_ANDROID_GRADLE_VERSION": "8.3"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

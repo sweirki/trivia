@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "megawowtrivia",
     "name": "mega-wow-trivia",
     "slug": "mega-wow-trivia",
     "version": "1.0.0",
@@ -21,10 +22,32 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ],
+      "package": "com.anonymous.megawowtrivia"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+  [
+    "react-native-google-mobile-ads",
+    {
+      "android_app_id": "ca-app-pub-3940256099942544~3347511713",
+      "ios_app_id": "ca-app-pub-3940256099942544~1458002511"
+    }
+  ],
+  "expo-audio",
+  "expo-router"
+],
+
+    "extra": {
+      "eas": {
+        "projectId": "675e3f57-bc76-496b-8a4c-2fcb11db0555"
+      }
     }
   }
 }

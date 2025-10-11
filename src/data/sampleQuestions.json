@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "category": "General",
+    "difficulty": "easy",
+    "text": "What is the capital city of France?",
+    "options": ["Madrid", "Berlin", "Paris", "Rome"],
+    "correctIndex": 2
+  },
+  {
+    "id": "2",
+    "category": "Science",
+    "difficulty": "easy",
+    "text": "Water boils at what temperature at sea level?",
+    "options": ["90°C", "100°C", "120°C", "80°C"],
+    "correctIndex": 1
+  },
+  {
+    "id": "3",
+    "category": "Math",
+    "difficulty": "medium",
+    "text": "What is 7 × 8?",
+    "options": ["54", "56", "64", "58"],
+    "correctIndex": 1
+  }
+]
