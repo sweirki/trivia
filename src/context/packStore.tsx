@@ -97,20 +97,22 @@ export const PackProvider = ({ children }) => {
     await AsyncStorage.setItem('packs', JSON.stringify(updated));
     // Optional: delete from Firestore
   };
-const incrementStats = async (packId, correct = true) => {
-  setPacks((prev) =>
-    prev.map((p) =>
-      p.id === packId
-        ? {
-            ...p,
-            playCount: (p.playCount || 0) + 1,
-            correctCount: correct ? (p.correctCount || 0) + 1 : p.correctCount || 0,
-            incorrectCount: !correct ? (p.incorrectCount || 0) + 1 : p.incorrectCount || 0,
-          }
-        : p
-    )
-  );
-};
+
+  // 📊 Track stats per pack
+  const incrementStats = async (packId, correct = true) => {
+    setPacks((prev) =>
+      prev.map((p) =>
+        p.id === packId
+          ? {
+              ...p,
+              playCount: (p.playCount || 0) + 1,
+              correctCount: correct ? (p.correctCount || 0) + 1 : p.correctCount || 0,
+              incorrectCount: !correct ? (p.incorrectCount || 0) + 1 : p.incorrectCount || 0,
+            }
+          : p
+      )
+    );
+  };
 
   // 🔍 Get pack by ID
   const getPackById = (id) => packs.find((p) => p.id === id);
