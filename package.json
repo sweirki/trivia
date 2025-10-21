@@ -1,0 +1,24 @@
+{
+  "name": "trivia",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@react-native-community/cli-server-api": "^20.0.2",
+    "@types/react": "~18.2.14",
+    "expo": "^54.0.00",
+    "expo-cli": "^6.3.12",
+    "expo-status-bar": "~1.6.0",
+    "metro": "^0.76.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.2.0",
+    "react-native": "^0.82.1",
+    "react-native-web": "^0.21.2",
+    "typescript": "^5.9.3"
+  }
+}
