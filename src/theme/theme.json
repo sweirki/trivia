@@ -1,0 +1,18 @@
+{
+  "colors": {
+    "background": "#ffffff",
+    "primary": "#4A90E2",
+    "accent": "#F5A623",
+    "text": "#333333",
+    "correct": "#27ae60",
+    "wrong": "#c0392b"
+  },
+  "fonts": {
+    "heading": "System",
+    "body": "System"
+  },
+  "layout": {
+    "padding": 20,
+    "borderRadius": 8
+  }
+}
