@@ -1,4 +1,5 @@
 import React from 'react';
+import { AuthProvider } from './src/context/authStore'; // 🔐 Phase 22
 import { ScrollView, StyleSheet } from 'react-native';
 import CreatorDashboard from './src/screens/CreatorDashboard';
 import { ThemeProvider } from './src/context/ThemeProvider';
@@ -23,6 +24,7 @@ import LanguageToggle from './src/screens/LanguageToggle'; // 🌍 NEW
 export default function App() {
   return (
     <ThemeProvider>
+      <AuthProvider> {/* ✅ NEW */}
       <CoinProvider>
         <PackProvider>
           <TournamentProvider>

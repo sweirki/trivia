@@ -1,5 +1,14 @@
 export async function generateAIQuestion(category = 'general', difficulty = 'medium', language = 'en') {
   try {
+    export const optimizeQuestion = async (question: string, topic: string) => {
+  const res = await fetch('https://your-api.com/generate-question', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt: `Rewrite this trivia question about ${topic}: ${question}` }),
+  });
+  const data = await res.json();
+  return data.rewritten || question;
+};
     const response = await fetch('https://your-api.com/generate-question', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

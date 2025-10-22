@@ -8,7 +8,6 @@ export const PackProvider = ({ children }) => {
   const [packs, setPacks] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // 🔄 Load packs from Firebase or fallback to AsyncStorage
   useEffect(() => {
     const loadPacks = async () => {
       try {
@@ -32,7 +31,6 @@ export const PackProvider = ({ children }) => {
     loadPacks();
   }, []);
 
-  // ➕ Create a user-defined pack
   const createPack = async ({ name, category, questions, language = 'en', source = 'user' }) => {
     const newPack = {
       id: Date.now(),
@@ -48,7 +46,6 @@ export const PackProvider = ({ children }) => {
     syncPack(newPack);
   };
 
-  // 🧠 Generate a mock AI pack
   const generatePack = async () => {
     const newPack = {
       id: Date.now(),
@@ -90,16 +87,13 @@ export const PackProvider = ({ children }) => {
     syncPack(newPack);
   };
 
-  // ❌ Remove a pack
   const removePack = async (id) => {
     const updated = packs.filter((p) => p.id !== id);
     setPacks(updated);
     await AsyncStorage.setItem('packs', JSON.stringify(updated));
-    // Optional: delete from Firestore
   };
 
-  // 📊 Track stats per pack
-  const incrementStats = async (packId, correct = true) => {
+  const incrementStats = (packId, correct = true) => {
     setPacks((prev) =>
       prev.map((p) =>
         p.id === packId
@@ -114,10 +108,8 @@ export const PackProvider = ({ children }) => {
     );
   };
 
-  // 🔍 Get pack by ID
   const getPackById = (id) => packs.find((p) => p.id === id);
 
-  // 🔎 Filter packs by language, category, or source
   const getFilteredPacks = ({ language, category, source }) => {
     return packs.filter((p) => {
       return (
@@ -147,3 +139,11 @@ export const PackProvider = ({ children }) => {
 };
 
 export const usePacks = () => useContext(PackContext);
+
+// ✅ Export for Jest testing
+export const incrementStatsForTest = (pack, correct = true) => {
+  if (!pack) return;
+  pack.playCount = (pack.playCount || 0) + 1;
+  pack.correctCount = correct ? (pack.correctCount || 0) + 1 : pack.correctCount || 0;
+  pack.incorrectCount = !correct ? (pack.incorrectCount || 0) + 1 : pack.incorrectCount || 0;
+};
