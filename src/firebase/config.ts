@@ -1,9 +1,8 @@
 // src/firebase/config.ts
 import { initializeApp, getApps, getApp } from "firebase/app";
-import { getAuth } from "firebase/auth";         // ✅ Safe for Expo SDK 54
-import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore/lite"; // ✅ lite = JS-only Firestore
 
-// --- Firebase web configuration ---
 const firebaseConfig = {
   apiKey: "AIzaSyCoDJkrIkxSHfTdUKc3XzbzSTQirUFvenA",
   authDomain: "trivia-d6fcc.firebaseapp.com",
@@ -14,12 +13,8 @@ const firebaseConfig = {
   measurementId: "G-409NCPEWV1",
 };
 
-// --- Initialize the app only once ---
-const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
+const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
 
-// --- Web-safe Auth & Firestore (no native crash) ---
 export const auth = getAuth(app);
-export const db = getFirestore(app);
-
-// --- Optional default export ---
+export const db = getFirestore(app); // JS-only — no native code
 export default app;
