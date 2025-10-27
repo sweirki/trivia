@@ -1,0 +1,54 @@
+// theme.ts
+export const themes = {
+  neon: {
+    background: '#0B0014',
+    text: '#E0E0FF',
+    accent: '#00BFFF',     // Electric blue glow
+    card: '#1A0033',
+    glow: '#6B3FA0',       // Neon violet edge
+    button: '#00BFFF',
+    buttonText: '#FFFFFF',
+  },
+  gold: {
+    background: '#FDF6E3',
+    text: '#3C2A00',
+    accent: '#D8B24A',     // Gentle gold tone
+    card: '#FFF3C2',
+    glow: '#E6C75E',
+    button: '#D8B24A',
+    buttonText: '#2B1A00',
+  },
+  dark: {
+    background: '#121212',
+    text: '#EEEEEE',
+    accent: '#FF4081',
+    card: '#1E1E1E',
+    glow: '#FF80AB',
+    button: '#FF4081',
+    buttonText: '#FFFFFF',
+  },
+  light: {
+    background: '#FFFFFF',
+    text: '#222222',
+    accent: '#007BFF',
+    card: '#F0F0F0',
+    glow: '#7FAFFF',
+    button: '#007BFF',
+    buttonText: '#FFFFFF',
+  },
+  sunset: {
+    background: '#FFECD2',
+    text: '#4B2E2E',
+    accent: '#FF6F61',
+    card: '#FFE4C4',
+    glow: '#FF9E80',
+    button: '#FF6F61',
+    buttonText: '#4B2E2E',
+  },
+} as const;
+
+export type ThemeName = keyof typeof themes;
+export type Theme = typeof themes[ThemeName];
+
+// Optional helper
+export const getTheme = (name: ThemeName = 'neon'): Theme => themes[name];

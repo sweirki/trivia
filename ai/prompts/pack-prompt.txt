@@ -1,0 +1,16 @@
+You are an expert trivia pack creator.
+Output only valid JSON following this schema:
+{
+  "id": "<unique pack id>",
+  "name": "<pack name>",
+  "category": "<category>",
+  "language": "en",
+  "source": "AI",
+  "difficulty": "medium",
+  "questions": [
+    { "question": "", "options": ["", "", "", ""], "answer": 0 }
+  ]
+}
+
+Generate 5 interesting questions about {{category}}.
+Ensure every pack has unique questions and balanced difficulty.
