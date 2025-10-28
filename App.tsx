@@ -24,31 +24,32 @@ import LanguageToggle from './src/screens/LanguageToggle'; // 🌍 NEW
 export default function App() {
   return (
     <ThemeProvider>
-      <AuthProvider> {/* ✅ NEW */}
-      <CoinProvider>
-        <PackProvider>
-          <TournamentProvider>
-            <MatchProvider>
-              <StoreProvider>
-                <ScrollView contentContainerStyle={styles.container}>
-                  <LanguageToggle /> {/* 🌍 Language switcher */}
-                  <CreatePack />
-                  <GeneratePack />
-                  <AIQuestionBuilder />
-                  <CreatorDashboard />
-                  <CreateTournament />
-                  <PlayTournament tournamentId={123} player="Yaseen" />
-                  <Leaderboard tournamentId={123} />
-                  <TriviaGame />
-                  <MultiplayerGame matchId={456} />
-                  <CoinStore />
-                  <BoosterShop />
-                </ScrollView>
-              </StoreProvider>
-            </MatchProvider>
-          </TournamentProvider>
-        </PackProvider>
-      </CoinProvider>
+      <AuthProvider> {/* ✅ keep this open */}
+        <CoinProvider>
+          <PackProvider>
+            <TournamentProvider>
+              <MatchProvider>
+                <StoreProvider>
+                  <ScrollView contentContainerStyle={styles.container}>
+                    <LanguageToggle /> {/* 🌍 Language switcher */}
+                    <CreatePack />
+                    <GeneratePack />
+                    <AIQuestionBuilder />
+                    <CreatorDashboard />
+                    <CreateTournament />
+                    <PlayTournament tournamentId={123} player="Yaseen" />
+                    <Leaderboard tournamentId={123} />
+                    <TriviaGame />
+                    <MultiplayerGame matchId={456} />
+                    <CoinStore />
+                    <BoosterShop />
+                  </ScrollView>
+                </StoreProvider>
+              </MatchProvider>
+            </TournamentProvider>
+          </PackProvider>
+        </CoinProvider>
+      </AuthProvider> {/* ✅ add this closing tag */}
     </ThemeProvider>
   );
 }
