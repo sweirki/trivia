@@ -4,8 +4,7 @@ import { router } from "expo-router";
 
 import { usePowerUpStore } from "@/arena/store/usePowerUpStore";
 import { useArenaRewardsEngine } from "@/arena/store/useArenaRewardsEngine";
-import { usePowerArenaMatchStore } from "./store/usePowerArenaMatchStore";
-
+import { usePowerArenaMatchStore } from "@/arena/power/store/usePowerArenaMatchStore";
 export default function PowerResult() {
   const { score, resetMatch } = usePowerArenaMatchStore();
   const { usedThisMatch } = usePowerUpStore() as any;
@@ -45,12 +44,12 @@ export default function PowerResult() {
     rewardPower({ score, powerUpsUsed });
 
     resetMatch();
-    router.replace("/(app)/arena");
+    router.replace("/(app)/arena_reset");
   };
 
   const handleReplay = () => {
     resetMatch();
-    router.replace("/(app)/arena/power");
+    router.replace("/(app)/arena_reset/power");
   };
 
   // ---- UI ----

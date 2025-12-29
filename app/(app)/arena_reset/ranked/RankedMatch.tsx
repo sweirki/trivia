@@ -63,7 +63,7 @@ export default function RankedMatch() {
   // ---------------------------------
   useEffect(() => {
     if (matchState === "finished") {
-      router.replace("/arena_reset/ranked/RankedResult");
+    router.replace("/(app)/arena_reset/ranked/RankedResult");
     }
   }, [matchState]);
 

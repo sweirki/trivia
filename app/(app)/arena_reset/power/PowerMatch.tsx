@@ -2,7 +2,8 @@ import React, { useEffect, useRef } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { router } from "expo-router";
 import { usePowerUpStore } from "@/arena/store/usePowerUpStore";
-import { usePowerArenaMatchStore } from "./store/usePowerArenaMatchStore";
+import { usePowerArenaMatchStore } from "@/arena/power/store/usePowerArenaMatchStore";
+
 
 export default function PowerMatch() {
  const {

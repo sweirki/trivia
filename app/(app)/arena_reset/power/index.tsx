@@ -4,7 +4,7 @@ import { useArenaStore } from "@/arena/store/useArenaStore";
 import { usePowerUpStore } from "@/arena/store/usePowerUpStore";
 import { router } from "expo-router";
 import { s } from "@/arena/theme/arenaSizing";
-import { usePowerArenaMatchStore } from "./store/usePowerArenaMatchStore";
+import { usePowerArenaMatchStore } from "@/arena/power/store/usePowerArenaMatchStore";
 import sampleQuestions from "../../../../assets/data/sampleQuestions.json";
 type RawQuestion = {
   id: string;
@@ -38,7 +38,7 @@ usePowerArenaMatchStore.getState().startMatch(questions);
 
 
 
-  router.push("/(app)/arena/power/PowerMatch");
+  router.push("/(app)/arena_reset/power/PowerMatch");
 };
 
 
@@ -67,7 +67,7 @@ usePowerArenaMatchStore.getState().startMatch(questions);
 
         <TouchableOpacity
           style={styles.manageBtn}
-          onPress={() => router.push("/(app)/arena/shop")}
+          onPress={() => router.push("/(app)/arena_reset/shop")}
         >
           <Text style={styles.manageText}>Manage Power-Ups</Text>
         </TouchableOpacity>
