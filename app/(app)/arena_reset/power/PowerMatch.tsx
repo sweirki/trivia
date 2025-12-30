@@ -25,7 +25,7 @@ export default function PowerMatch() {
   doubleScoreActive,
 } = usePowerArenaMatchStore();
 
-
+const navigatedRef = useRef(false);
 const answeredRef = useRef(false);
 const powerUsedRef = useRef(false);
 
@@ -44,22 +44,13 @@ const blocked = !q;
 
 
   // TIMER
-  useEffect(() => {
-    if (matchEnded) return;
+ useEffect(() => {
+  if (matchEnded && !navigatedRef.current) {
+    navigatedRef.current = true;
+    router.replace("/(app)/arena_reset/power/PowerResult");
+  }
+}, [matchEnded]);
 
-    const id = setInterval(() => {
-      tick();
-    }, 1000);
-
-    return () => clearInterval(id);
-  }, [matchEnded]);
-
-  // NAVIGATE ON END
-  useEffect(() => {
-    if (matchEnded) {
-      router.replace("/(app)/arena_reset/power/PowerResult");
-    }
-  }, [matchEnded]);
 
 const isCorrectPick = (picked: string, q: any) => {
   const norm = (v: any) => String(v ?? "").trim().toLowerCase();

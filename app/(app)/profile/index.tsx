@@ -2,6 +2,8 @@ import React from "react";
 import { StyleSheet, Image, ScrollView } from "react-native";
 import { Text, View, useTheme } from "@/theme";
 import { usePlayerStore } from "@/store/usePlayerStore";
+import { Pressable } from "react-native";
+import { router } from "expo-router";
 
 export default function ProfileScreen() {
   const theme = useTheme();
@@ -48,6 +50,35 @@ export default function ProfileScreen() {
           value={bestTournamentFinish ?? "—"}
         />
       </View>
+{/* ============================
+    FRIENDS
+============================ */}
+<View style={styles.section}>
+  <Pressable
+    onPress={() => router.push("/leaderboard")}
+    style={{
+      paddingVertical: 14,
+      paddingHorizontal: 16,
+      borderRadius: 12,
+      backgroundColor: "#1e1e2a",
+    }}
+  >
+    <Text style={{ fontSize: 16, fontWeight: "700", color: "#fff" }}>
+      👥 Friends
+    </Text>
+
+    <Text
+      style={{
+        marginTop: 4,
+        fontSize: 13,
+        opacity: 0.7,
+        color: "#fff",
+      }}
+    >
+      Compete, challenge, and compare ranks
+    </Text>
+  </Pressable>
+</View>
 
       {/* ============================
           TITLES

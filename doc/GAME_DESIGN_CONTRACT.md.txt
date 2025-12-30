@@ -1,0 +1,63 @@
+TRIVIA APP — DESIGN CONTRACT
+Last updated: 2025-12-29
+
+=====================================
+SECTION 1 — CANONICAL RANK CURVE
+=====================================
+
+Metric:
+- XP (promotion-only, no decay, no demotion)
+
+Tiers:
+- Bronze: 0 – 2,999 XP
+- Silver: 3,000 – 7,999 XP
+- Gold: 8,000 – 17,999 XP
+- Platinum: 18,000 – 34,999 XP
+- Diamond: 35,000 – 59,999 XP
+- Master: 60,000+ XP
+
+Rules:
+- XP never resets
+- No seasons yet
+- No rank decay
+- Rank changes only on XP threshold crossing
+
+=====================================
+SECTION 2 — DAILY STREAK REWARDS
+=====================================
+
+Rules:
+- Streak increments once per calendar day
+- Any completed match counts
+- Missing a day resets streak to 0
+- Rewards are claimed manually
+
+Days 1–7:
+1: +100 Coins
+2: +150 Coins
+3: +1 Ticket
+4: +200 Coins
+5: +1 Ticket
+6: +250 Coins
+7: +2 Tickets + 1 Gem
+
+Days 8–14:
+8: +300 Coins
+9: +1 Ticket
+10: +350 Coins
+11: +1 Ticket
+12: +400 Coins
+13: +1 Gem
+14: +2 Tickets + 2 Gems
+
+Days 15–30:
+15: +500 Coins
+18: +1 Ticket
+21: +1 Gem
+24: +1 Ticket
+30: +3 Tickets + 3 Gems + Badge (future)
+
+Day 31+:
+- Rewards loop every 7 days:
+  - Coins / Tickets / Gem pattern
+- No exponential growth

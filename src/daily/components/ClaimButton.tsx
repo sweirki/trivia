@@ -4,7 +4,12 @@ import React, { useRef } from "react";
 import { TouchableOpacity, Text, StyleSheet, Animated } from "react-native";
 import { useDailyRewardStore } from "@/store/useDailyRewardStore";
 
-export default function ClaimButton() {
+type ClaimButtonProps = {
+  onClaimed?: () => void;
+};
+
+export default function ClaimButton({ onClaimed }: ClaimButtonProps) {
+
   const scale = useRef(new Animated.Value(1)).current;
 
   const canClaim = useDailyRewardStore((s) => s.canClaim);
@@ -18,10 +23,12 @@ export default function ClaimButton() {
   const pressOut = () =>
     Animated.spring(scale, { toValue: 1, useNativeDriver: true }).start();
 
-  const handlePress = () => {
-    if (disabled) return;
-    claim();
-  };
+ const handlePress = () => {
+  if (disabled) return;
+  claim();
+  onClaimed?.();
+};
+
 
   return (
     <Animated.View style={{ transform: [{ scale }] }}>

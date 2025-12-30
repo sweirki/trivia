@@ -75,7 +75,9 @@ const handleClaim = () => {
           </Text>
         </View>
 
-        <ClaimButton />
+     <ClaimButton onClaimed={handleClaim} />
+
+
       </ScrollView>
     </View>
   );

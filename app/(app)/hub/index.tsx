@@ -9,6 +9,7 @@ import {
   Image,
 } from "react-native";
 import { useRouter } from "expo-router";
+import { Pressable } from "react-native";
 import { ACHIEVEMENT_META } from "@/data/achievementMeta";
 import { useDailyRewardStore } from "@/store/useDailyRewardStore";
 
@@ -37,6 +38,46 @@ function HubTile({ label, icon, color, onPress }: HubTileProps) {
   );
 }
 
+const RANK_TIERS = [
+  { name: "Bronze", min: 0, max: 2999 },
+  { name: "Silver", min: 3000, max: 7999 },
+  { name: "Gold", min: 8000, max: 17999 },
+  { name: "Platinum", min: 18000, max: 34999 },
+  { name: "Diamond", min: 35000, max: 59999 },
+  { name: "Master", min: 60000, max: Infinity },
+];
+
+function getRankProgress(xp: number) {
+  const currentIndex = RANK_TIERS.findIndex(
+    (t) => xp >= t.min && xp <= t.max
+  );
+
+  const current = RANK_TIERS[currentIndex];
+  const next = RANK_TIERS[currentIndex + 1] ?? null;
+
+  if (!next) {
+    return {
+      current,
+      next: null,
+      progress: 1,
+      remaining: 0,
+    };
+  }
+
+  const progress =
+    (xp - current.min) / (next.min - current.min);
+
+  const remaining = next.min - xp;
+
+  return {
+    current,
+    next,
+    progress: Math.max(0, Math.min(1, progress)),
+    remaining,
+  };
+}
+
+
 export default function HubScreen() {
   const router = useRouter();
 
@@ -44,6 +85,7 @@ export default function HubScreen() {
   // PLAYER STATS
   // -----------------------------
   const xp = usePlayerStore((s) => s.xp);
+  const rankProgress = getRankProgress(xp);
   const level = usePlayerStore((s) => s.level);
   const coins = usePlayerStore((s) => s.coins);
   const gems = usePlayerStore((s) => s.gems);
@@ -130,7 +172,12 @@ const rewardAvailable = canClaimDaily();
       {/* ---------------------------------------------------------------- */}
       {/* HERO TILE (LEVEL + XP BAR) */}
       {/* ---------------------------------------------------------------- */}
-      <View style={styles.heroCard}>
+     <Pressable
+  onLongPress={() => router.push("/leaderboard")}
+  delayLongPress={600}
+>
+  <View style={styles.heroCard}>
+
         <Text style={styles.levelLabel}>Level {level}</Text>
 
         <View style={styles.xpBar}>
@@ -152,6 +199,51 @@ const rewardAvailable = canClaimDaily();
 </Text>
 
       </View>
+        
+</Pressable>
+
+{/* ---------------------------------------------------------------- */}
+{/* TODAY PANEL (Phase 2.0) */}
+{/* ---------------------------------------------------------------- */}
+<View style={styles.todayCard}>
+  <Text style={styles.todayTitle}>Today</Text>
+
+  <View style={styles.todayRow}>
+    <Text style={styles.todayLabel}>🏆 Your Rank</Text>
+    <Text style={styles.todayValue}>Global • TBD</Text>
+  </View>
+
+  <View style={styles.todayRow}>
+    <Text style={styles.todayLabel}>🎯 Today’s Goal</Text>
+    <Text style={styles.todayValue}>Play 1 Arena match</Text>
+  </View>
+
+  <View style={styles.todayRow}>
+    <Text style={styles.todayLabel}>⏰ Next Event</Text>
+    <Text style={styles.todayValue}>In 12h 34m</Text>
+  </View>
+  {rankProgress.next && (
+  <View style={{ marginTop: 12 }}>
+    <Text style={styles.todayLabel}>
+      {rankProgress.current.name} → {rankProgress.next.name}
+    </Text>
+
+    <View style={styles.rankBar}>
+      <View
+        style={[
+          styles.rankFill,
+          { width: `${rankProgress.progress * 100}%` },
+        ]}
+      />
+    </View>
+
+    <Text style={styles.rankText}>
+      {rankProgress.remaining} XP to {rankProgress.next.name}
+    </Text>
+  </View>
+)}
+
+</View>
 
       {/* ---------------------------------------------------------------- */}
       {/* MAIN BUTTONS */}
@@ -245,6 +337,60 @@ econBar: {
   marginTop: 10,
   marginBottom: 24,
 },
+
+todayCard: {
+  backgroundColor: "#111",
+  padding: 18,
+  borderRadius: 16,
+  marginBottom: 24,
+  borderWidth: 1,
+  borderColor: "#333",
+},
+rankBar: {
+  height: 10,
+  backgroundColor: "#333",
+  borderRadius: 6,
+  overflow: "hidden",
+  marginTop: 6,
+},
+
+rankFill: {
+  height: "100%",
+  backgroundColor: "#FFD700",
+},
+
+rankText: {
+  marginTop: 4,
+  fontSize: 13,
+  fontWeight: "700",
+  color: "#FFD700",
+},
+
+todayTitle: {
+  fontSize: 18,
+  fontWeight: "800",
+  color: "#FFD700",
+  marginBottom: 12,
+},
+
+todayRow: {
+  flexDirection: "row",
+  justifyContent: "space-between",
+  marginBottom: 8,
+},
+
+todayLabel: {
+  fontSize: 15,
+  fontWeight: "600",
+  color: "#ccc",
+},
+
+todayValue: {
+  fontSize: 15,
+  fontWeight: "700",
+  color: "#FFD700",
+},
+
 
 achievementTeaser: {
   marginTop: 16,
