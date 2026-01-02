@@ -12,7 +12,7 @@ import { useRouter } from "expo-router";
 import { Pressable } from "react-native";
 import { ACHIEVEMENT_META } from "@/data/achievementMeta";
 import { useDailyRewardStore } from "@/store/useDailyRewardStore";
-
+import { useChallengesStore } from "@/challenges/store/useChallengesStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { useAchievementsStore } from "@/store/achievementsStore";
 
@@ -75,11 +75,23 @@ function getRankProgress(xp: number) {
     progress: Math.max(0, Math.min(1, progress)),
     remaining,
   };
+ 
+
 }
 
 
 export default function HubScreen() {
   const router = useRouter();
+ const todayChallenge = useChallengesStore(
+  (s) => s.getTodayDailyChallenge()
+);
+const ensureTodayDailyChallenge = useChallengesStore(
+  (s) => s.ensureTodayDailyChallenge
+);
+
+useEffect(() => {
+  ensureTodayDailyChallenge();
+}, []);
 
   // -----------------------------
   // PLAYER STATS
@@ -136,7 +148,12 @@ const rewardAvailable = canClaimDaily();
     .length;
 
   return (
-    <Animated.View style={[styles.container, { opacity: fade }]}>
+   <Animated.ScrollView
+  style={[styles.container, { opacity: fade }]}
+  contentContainerStyle={{ paddingBottom: 40 }}
+  showsVerticalScrollIndicator={false}
+>
+
       {/* ---------------------------------------------------------------- */}
       {/* TOP ECONOMY BAR (Coins / Gems / Tickets / VIP) */}
       {/* ---------------------------------------------------------------- */}
@@ -208,16 +225,28 @@ const rewardAvailable = canClaimDaily();
 <View style={styles.todayCard}>
   <Text style={styles.todayTitle}>Today</Text>
 
-  <View style={styles.todayRow}>
-    <Text style={styles.todayLabel}>🏆 Your Rank</Text>
-    <Text style={styles.todayValue}>Global • TBD</Text>
-  </View>
+ <View style={styles.todayRow}>
+  <Text style={styles.todayLabel}>🎯 Today’s Challenge</Text>
 
-  <View style={styles.todayRow}>
-    <Text style={styles.todayLabel}>🎯 Today’s Goal</Text>
-    <Text style={styles.todayValue}>Play 1 Arena match</Text>
-  </View>
+  {todayChallenge ? (
+    todayChallenge.status === "completed" ? (
+     <Text style={styles.todayValue}>
+  Completed — come back tomorrow 🌙
+</Text>
 
+    ) : (
+      <TouchableOpacity
+        onPress={() => router.push("/challenges")}
+      >
+        <Text style={[styles.todayValue, { color: "#00E676" }]}>
+          Play Now →
+        </Text>
+      </TouchableOpacity>
+    )
+  ) : (
+    <Text style={styles.todayValue}>Loading…</Text>
+  )}
+</View>
   <View style={styles.todayRow}>
     <Text style={styles.todayLabel}>⏰ Next Event</Text>
     <Text style={styles.todayValue}>In 12h 34m</Text>
@@ -294,6 +323,15 @@ const rewardAvailable = canClaimDaily();
 
   {rewardAvailable && <View style={styles.badge} />}
 </TouchableOpacity>
+<TouchableOpacity
+  style={styles.secondaryBtn}
+  onPress={() => router.push("/more")}
+>
+  <Text style={styles.secondaryBtnText}>
+    More
+  </Text>
+</TouchableOpacity>
+
 {activeAchievement && (
   <TouchableOpacity
     style={styles.achievementTeaser}
@@ -311,12 +349,12 @@ const rewardAvailable = canClaimDaily();
   </TouchableOpacity>
 )}
 
-
       {/* ---------------------------------------------------------------- */}
       {/* FOOTER */}
       {/* ---------------------------------------------------------------- */}
       <Text style={styles.footerText}>Trivia Master • A++++ Edition</Text>
-    </Animated.View>
+    </Animated.ScrollView>
+
   );
 }
 
