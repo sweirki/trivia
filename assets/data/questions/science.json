@@ -1270,7 +1270,99 @@
     "answers": ["Microscope", "Telescope", "Spectrometer", "Accelerometer"],
     "correct": "Telescope"
   },
-  
+    
+  {
+    "id": 481,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What part of the human body produces adrenaline?",
+    "answers": ["Thyroid", "Pancreas", "Adrenal glands", "Pituitary gland"],
+    "correct": "Adrenal glands"
+  },
+  {
+    "id": 482,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of rock is formed by heat and pressure?",
+    "answers": ["Igneous", "Sedimentary", "Metamorphic", "Volcanic"],
+    "correct": "Metamorphic"
+  },
+  {
+    "id": 483,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What is the main function of the circulatory system?",
+    "answers": ["Digest food", "Transport nutrients and oxygen", "Remove waste", "Control movement"],
+    "correct": "Transport nutrients and oxygen"
+  },
+  {
+    "id": 484,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What gas is produced by animals during respiration?",
+    "answers": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "correct": "Carbon Dioxide"
+  },
+  {
+    "id": 485,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of energy is stored in food?",
+    "answers": ["Thermal energy", "Chemical energy", "Electrical energy", "Mechanical energy"],
+    "correct": "Chemical energy"
+  },
+  {
+    "id": 486,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What term describes the bending of waves around obstacles?",
+    "answers": ["Reflection", "Refraction", "Diffraction", "Interference"],
+    "correct": "Diffraction"
+  },
+  {
+    "id": 487,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What type of organism feeds on dead organic matter?",
+    "answers": ["Producer", "Consumer", "Scavenger", "Decomposer"],
+    "correct": "Decomposer"
+  },
+  {
+    "id": 488,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What part of the cell regulates what enters and leaves the cell?",
+    "answers": ["Nucleus", "Cell membrane", "Cytoplasm", "Cell wall"],
+    "correct": "Cell membrane"
+  },
+  {
+    "id": 489,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the name of the scale used to measure the acidity of a solution?",
+    "answers": ["Richter scale", "pH scale", "Kelvin scale", "Fahrenheit scale"],
+    "correct": "pH scale"
+  },
+  {
+    "id": 490,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What term describes a change in an organism caused by its environment?",
+    "answers": ["Mutation", "Adaptation", "Evolution", "Variation"],
+    "correct": "Adaptation"
+    },
+    
+
 
 
 
