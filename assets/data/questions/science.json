@@ -180,4 +180,97 @@
     "answers": ["Physics", "Chemistry", "Biology", "Geology"],
     "correct": "Biology"
    },
+  
+  {
+    "id": 361,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What device is used to observe very small objects?",
+    "answers": ["Telescope", "Microscope", "Periscope", "Binoculars"],
+    "correct": "Microscope"
+  },
+  {
+    "id": 362,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of blood cells help fight infection?",
+    "answers": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+    "correct": "White blood cells"
+  },
+  {
+    "id": 363,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What planet is closest to the Sun?",
+    "answers": ["Venus", "Earth", "Mercury", "Mars"],
+    "correct": "Mercury"
+  },
+  {
+    "id": 364,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What is the boiling point of water at sea level in Celsius?",
+    "answers": ["50", "75", "100", "150"],
+    "correct": "100"
+  },
+  {
+    "id": 365,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What natural process causes erosion?",
+    "answers": ["Wind", "Water", "Ice", "All of the above"],
+    "correct": "All of the above"
+  },
+  {
+    "id": 366,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What part of the brain controls balance and coordination?",
+    "answers": ["Cerebrum", "Medulla", "Cerebellum", "Thalamus"],
+    "correct": "Cerebellum"
+  },
+  {
+    "id": 367,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for sodium?",
+    "answers": ["So", "Na", "S", "Sn"],
+    "correct": "Na"
+  },
+  {
+    "id": 368,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What law states that energy cannot be created or destroyed?",
+    "answers": ["Law of Gravity", "Law of Motion", "Law of Conservation of Energy", "Law of Thermodynamics"],
+    "correct": "Law of Conservation of Energy"
+  },
+  {
+    "id": 369,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What gas do humans exhale as a waste product?",
+    "answers": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"],
+    "correct": "Carbon Dioxide"
+  },
+  {
+    "id": 370,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What field of science deals with the study of matter and energy?",
+    "answers": ["Biology", "Chemistry", "Physics", "Astronomy"],
+    "correct": "Physics"
+    },
+  }
+
 
