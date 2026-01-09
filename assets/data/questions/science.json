@@ -544,8 +544,192 @@
     "answers": ["Evaporation", "Condensation", "Sublimation", "Deposition"],
     "correct": "Sublimation"
   },
+  
   {
-    
+    "id": 401,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of scientist studies fossils?",
+    "answers": ["Biologist", "Archaeologist", "Paleontologist", "Geologist"],
+    "correct": "Paleontologist"
+  },
+  {
+    "id": 402,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What gas makes up most of the Sun?",
+    "answers": ["Oxygen", "Carbon Dioxide", "Hydrogen", "Helium"],
+    "correct": "Hydrogen"
+  },
+  {
+    "id": 403,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What organ in the human body controls hormones?",
+    "answers": ["Brain", "Pancreas", "Endocrine glands", "Liver"],
+    "correct": "Endocrine glands"
+  },
+  {
+    "id": 404,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of energy is produced by moving electrons?",
+    "answers": ["Thermal", "Chemical", "Electrical", "Mechanical"],
+    "correct": "Electrical"
+  },
+  {
+    "id": 405,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What is the main function of red blood cells?",
+    "answers": ["Fight infection", "Transport oxygen", "Clot blood", "Digest nutrients"],
+    "correct": "Transport oxygen"
+  },
+  {
+    "id": 406,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for potassium?",
+    "answers": ["P", "Pt", "K", "Po"],
+    "correct": "K"
+  },
+  {
+    "id": 407,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What law states that for every action there is an equal and opposite reaction?",
+    "answers": ["Law of Inertia", "Law of Acceleration", "Newton's Third Law", "Law of Gravity"],
+    "correct": "Newton's Third Law"
+  },
+  {
+    "id": 408,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What type of radiation is used in X-ray imaging?",
+    "answers": ["Ultraviolet", "Gamma", "X-ray", "Infrared"],
+    "correct": "X-ray"
+  },
+  {
+    "id": 409,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What part of the plant transports water from roots to leaves?",
+    "answers": ["Phloem", "Xylem", "Stem", "Leaf vein"],
+    "correct": "Xylem"
+  },
+  {
+    "id": 410,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the name of the force that opposes motion through a fluid?",
+    "answers": ["Gravity", "Drag", "Friction", "Lift"],
+    "correct": "Drag"
+    },
+  
+  {
+    "id": 411,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What organ in the human body is responsible for removing waste from the blood?",
+    "answers": ["Liver", "Lungs", "Kidneys", "Pancreas"],
+    "correct": "Kidneys"
+  },
+  {
+    "id": 412,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of energy comes from the Sun?",
+    "answers": ["Chemical", "Nuclear", "Solar", "Mechanical"],
+    "correct": "Solar"
+  },
+  {
+    "id": 413,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What gas is needed for combustion to occur?",
+    "answers": ["Nitrogen", "Oxygen", "Carbon Dioxide", "Helium"],
+    "correct": "Oxygen"
+  },
+  {
+    "id": 414,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What layer of the atmosphere contains the ozone layer?",
+    "answers": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+    "correct": "Stratosphere"
+  },
+  {
+    "id": 415,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What part of the human skeleton protects the brain?",
+    "answers": ["Ribs", "Skull", "Spine", "Pelvis"],
+    "correct": "Skull"
+  },
+  {
+    "id": 416,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What term describes the change in frequency of a wave relative to an observer?",
+    "answers": ["Refraction", "Interference", "Doppler effect", "Resonance"],
+    "correct": "Doppler effect"
+  },
+  {
+    "id": 417,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What type of bond involves the sharing of electrons between atoms?",
+    "answers": ["Ionic bond", "Hydrogen bond", "Covalent bond", "Metallic bond"],
+    "correct": "Covalent bond"
+  },
+  {
+    "id": 418,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What organelle is responsible for protein synthesis in a cell?",
+    "answers": ["Nucleus", "Ribosome", "Mitochondria", "Lysosome"],
+    "correct": "Ribosome"
+  },
+  {
+    "id": 419,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What phenomenon explains why the sky appears blue?",
+    "answers": ["Reflection", "Scattering", "Refraction", "Diffusion"],
+    "correct": "Scattering"
+  },
+  {
+    "id": 420,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the name of the process by which cells divide to produce two identical cells?",
+    "answers": ["Meiosis", "Fusion", "Mitosis", "Replication"],
+    "correct": "Mitosis"
+   },
+
+
+
+
 
 
 
