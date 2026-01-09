@@ -726,7 +726,96 @@
     "answers": ["Meiosis", "Fusion", "Mitosis", "Replication"],
     "correct": "Mitosis"
    },
-
+  {
+    "id": 421,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of animal has a backbone?",
+    "answers": ["Invertebrate", "Vertebrate", "Amphibian", "Reptile"],
+    "correct": "Vertebrate"
+  },
+  {
+    "id": 422,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What part of the ear is responsible for hearing?",
+    "answers": ["Eardrum", "Cochlea", "Ear canal", "Auditory nerve"],
+    "correct": "Cochlea"
+  },
+  {
+    "id": 423,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What gas is commonly used to inflate balloons?",
+    "answers": ["Oxygen", "Hydrogen", "Helium", "Nitrogen"],
+    "correct": "Helium"
+  },
+  {
+    "id": 424,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of rock is marble?",
+    "answers": ["Igneous", "Sedimentary", "Metamorphic", "Volcanic"],
+    "correct": "Metamorphic"
+  },
+  {
+    "id": 425,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What part of a plant anchors it in the ground?",
+    "answers": ["Stem", "Leaf", "Root", "Flower"],
+    "correct": "Root"
+  },
+  {
+    "id": 426,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What law describes the relationship between pressure and volume of a gas?",
+    "answers": ["Charles's Law", "Boyle's Law", "Newton's Law", "Ohm's Law"],
+    "correct": "Boyle's Law"
+  },
+  {
+    "id": 427,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What type of electromagnetic wave has the shortest wavelength?",
+    "answers": ["Radio waves", "Microwaves", "X-rays", "Gamma rays"],
+    "correct": "Gamma rays"
+  },
+  {
+    "id": 428,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What organ system controls movement and posture?",
+    "answers": ["Digestive system", "Nervous system", "Muscular system", "Circulatory system"],
+    "correct": "Muscular system"
+  },
+  {
+    "id": 429,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What chemical element has the atomic number 6?",
+    "answers": ["Oxygen", "Nitrogen", "Carbon", "Boron"],
+    "correct": "Carbon"
+  },
+  {
+    "id": 430,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the name of the process that converts sugar into energy in cells?",
+    "answers": ["Photosynthesis", "Respiration", "Fermentation", "Digestion"],
+    "correct": "Respiration"
+    },
 
 
 
