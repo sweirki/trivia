@@ -816,7 +816,98 @@
     "answers": ["Photosynthesis", "Respiration", "Fermentation", "Digestion"],
     "correct": "Respiration"
     },
+     {
+    "id": 431,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of energy is associated with an object’s position?",
+    "answers": ["Kinetic energy", "Thermal energy", "Potential energy", "Chemical energy"],
+    "correct": "Potential energy"
+  },
+  {
+    "id": 432,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What part of the human body produces bile?",
+    "answers": ["Pancreas", "Stomach", "Liver", "Gallbladder"],
+    "correct": "Liver"
+  },
+  {
+    "id": 433,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of organism makes its own food using sunlight?",
+    "answers": ["Heterotroph", "Autotroph", "Decomposer", "Parasite"],
+    "correct": "Autotroph"
+  },
+  {
+    "id": 434,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What planet has the most moons in our solar system?",
+    "answers": ["Earth", "Jupiter", "Saturn", "Neptune"],
+    "correct": "Saturn"
+  },
+  {
+    "id": 435,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of weather instrument measures wind speed?",
+    "answers": ["Barometer", "Anemometer", "Thermometer", "Hygrometer"],
+    "correct": "Anemometer"
+  },
+  {
+    "id": 436,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What term describes a solution that cannot dissolve any more solute?",
+    "answers": ["Dilute", "Unsaturated", "Supersaturated", "Saturated"],
+    "correct": "Saturated"
+  },
+  {
+    "id": 437,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What type of blood vessel carries blood away from the heart?",
+    "answers": ["Vein", "Capillary", "Artery", "Venule"],
+    "correct": "Artery"
+  },
+  {
+    "id": 438,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What phenomenon causes a moving sound source to change pitch?",
+    "answers": ["Echo", "Resonance", "Doppler effect", "Interference"],
+    "correct": "Doppler effect"
+  },
+  {
+    "id": 439,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What part of the atom determines its chemical behavior?",
+    "answers": ["Protons", "Neutrons", "Electrons", "Nucleus"],
+    "correct": "Electrons"
+  },
+  {
+    "id": 440,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the name of the process by which plants lose water through their leaves?",
+    "answers": ["Respiration", "Transpiration", "Evaporation", "Osmosis"],
+    "correct": "Transpiration"
 
+  },
+  
 
 
 
