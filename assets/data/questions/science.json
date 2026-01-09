@@ -907,7 +907,100 @@
     "correct": "Transpiration"
 
   },
+    
+  {
+    "id": 441,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of scientist studies the Earth’s physical structure?",
+    "answers": ["Astronomer", "Geologist", "Meteorologist", "Ecologist"],
+    "correct": "Geologist"
+  },
+  {
+    "id": 442,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What is the main function of the lungs?",
+    "answers": ["Pump blood", "Digest food", "Exchange gases", "Filter waste"],
+    "correct": "Exchange gases"
+  },
+  {
+    "id": 443,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of energy is stored in fossil fuels?",
+    "answers": ["Mechanical", "Thermal", "Chemical", "Nuclear"],
+    "correct": "Chemical"
+  },
+  {
+    "id": 444,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What layer of the Earth is the hottest?",
+    "answers": ["Crust", "Mantle", "Outer core", "Inner core"],
+    "correct": "Inner core"
+  },
+  {
+    "id": 445,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What is the main source of energy for life on Earth?",
+    "answers": ["Wind", "Water", "The Sun", "Electricity"],
+    "correct": "The Sun"
+  },
+  {
+    "id": 446,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What term describes an organism that breaks down dead matter?",
+    "answers": ["Producer", "Consumer", "Decomposer", "Parasite"],
+    "correct": "Decomposer"
+  },
+  {
+    "id": 447,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What law explains why a satellite stays in orbit?",
+    "answers": ["Law of Inertia", "Law of Gravity", "Law of Conservation of Energy", "Newton's First Law"],
+    "correct": "Law of Gravity"
+  },
+  {
+    "id": 448,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What part of the brain is responsible for conscious thought?",
+    "answers": ["Cerebellum", "Medulla", "Cerebrum", "Brainstem"],
+    "correct": "Cerebrum"
+  },
+  {
+    "id": 449,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the term for the total mass of all organisms in an area?",
+    "answers": ["Population", "Community", "Biome", "Biomass"],
+    "correct": "Biomass"
+  },
+  {
+    "id": 450,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What process converts atmospheric nitrogen into a form plants can use?",
+    "answers": ["Photosynthesis", "Nitrogen fixation", "Respiration", "Decomposition"],
+    "correct": "Nitrogen fixation"
+  },
   
+}
+
 
 
 
