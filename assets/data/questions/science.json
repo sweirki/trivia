@@ -1361,7 +1361,98 @@
     "answers": ["Mutation", "Adaptation", "Evolution", "Variation"],
     "correct": "Adaptation"
     },
-    
+      
+  {
+    "id": 491,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What part of the human body is responsible for vision?",
+    "answers": ["Brain", "Eyes", "Optic nerve", "Retina"],
+    "correct": "Eyes"
+  },
+  {
+    "id": 492,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of energy is associated with heat?",
+    "answers": ["Chemical energy", "Mechanical energy", "Thermal energy", "Electrical energy"],
+    "correct": "Thermal energy"
+  },
+  {
+    "id": 493,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What gas is essential for photosynthesis?",
+    "answers": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "correct": "Carbon Dioxide"
+  },
+  {
+    "id": 494,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What part of the atom has no electric charge?",
+    "answers": ["Electron", "Proton", "Neutron", "Nucleus"],
+    "correct": "Neutron"
+  },
+  {
+    "id": 495,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What natural process turns liquid water into ice?",
+    "answers": ["Condensation", "Evaporation", "Freezing", "Sublimation"],
+    "correct": "Freezing"
+  },
+  {
+    "id": 496,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What term describes the splitting of an atom’s nucleus?",
+    "answers": ["Fusion", "Fission", "Radiation", "Ionization"],
+    "correct": "Fission"
+  },
+  {
+    "id": 497,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What scientific law relates voltage, current, and resistance?",
+    "answers": ["Ohm's Law", "Newton's Law", "Faraday's Law", "Coulomb's Law"],
+    "correct": "Ohm's Law"
+  },
+  {
+    "id": 498,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What part of the brain processes sensory information?",
+    "answers": ["Cerebellum", "Medulla", "Thalamus", "Brainstem"],
+    "correct": "Thalamus"
+  },
+  {
+    "id": 499,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What term describes the gradual change of species over time?",
+    "answers": ["Adaptation", "Mutation", "Evolution", "Selection"],
+    "correct": "Evolution"
+  },
+  {
+    "id": 500,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What scientific term describes the amount of matter in an object?",
+    "answers": ["Volume", "Density", "Mass", "Weight"],
+    "correct": "Mass"
+  }
+
 
 
 
