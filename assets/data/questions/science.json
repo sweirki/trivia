@@ -1089,6 +1089,98 @@
     "answers": ["Radiation", "Conduction", "Convection", "Insulation"],
     "correct": "Conduction"
    },
+  {
+    "id": 461,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What organ in the human body produces urine?",
+    "answers": ["Bladder", "Kidneys", "Liver", "Pancreas"],
+    "correct": "Kidneys"
+  },
+  {
+    "id": 462,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of star is the Sun?",
+    "answers": ["Red giant", "White dwarf", "Yellow dwarf", "Neutron star"],
+    "correct": "Yellow dwarf"
+  },
+  {
+    "id": 463,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What simple machine is a seesaw an example of?",
+    "answers": ["Pulley", "Inclined plane", "Lever", "Wheel and axle"],
+    "correct": "Lever"
+  },
+  {
+    "id": 464,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What gas is released when hydrogen burns in oxygen?",
+    "answers": ["Oxygen", "Hydrogen", "Water vapor", "Carbon dioxide"],
+    "correct": "Water vapor"
+  },
+  {
+    "id": 465,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What part of the human body contains the smallest bones?",
+    "answers": ["Hand", "Foot", "Ear", "Spine"],
+    "correct": "Ear"
+  },
+  {
+    "id": 466,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What term describes the total number of protons in an atom?",
+    "answers": ["Atomic mass", "Mass number", "Atomic number", "Isotope number"],
+    "correct": "Atomic number"
+  },
+  {
+    "id": 467,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What type of cloud is associated with thunderstorms?",
+    "answers": ["Stratus", "Cirrus", "Cumulonimbus", "Altostratus"],
+    "correct": "Cumulonimbus"
+  },
+  {
+    "id": 468,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What principle explains why airplanes can fly?",
+    "answers": ["Newton's First Law", "Bernoulli's principle", "Law of Gravity", "Ohm's Law"],
+    "correct": "Bernoulli's principle"
+  },
+  {
+    "id": 469,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What part of the nervous system controls involuntary actions?",
+    "answers": ["Central nervous system", "Peripheral nervous system", "Autonomic nervous system", "Somatic nervous system"],
+    "correct": "Autonomic nervous system"
+  },
+  {
+    "id": 470,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the term for a group of atoms bonded together?",
+    "answers": ["Element", "Compound", "Molecule", "Mixture"],
+    "correct": "Molecule"
+   },
+
+}
 
 
 
