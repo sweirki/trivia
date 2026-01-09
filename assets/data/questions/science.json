@@ -1179,9 +1179,98 @@
     "answers": ["Element", "Compound", "Molecule", "Mixture"],
     "correct": "Molecule"
    },
-
-}
-
+  
+  {
+    "id": 471,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What organ in the human body stores bile?",
+    "answers": ["Liver", "Pancreas", "Gallbladder", "Stomach"],
+    "correct": "Gallbladder"
+  },
+  {
+    "id": 472,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of energy travels in waves and can move through empty space?",
+    "answers": ["Sound energy", "Mechanical energy", "Electromagnetic energy", "Chemical energy"],
+    "correct": "Electromagnetic energy"
+  },
+  {
+    "id": 473,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What layer of the Earth is composed mainly of iron and nickel?",
+    "answers": ["Crust", "Mantle", "Core", "Lithosphere"],
+    "correct": "Core"
+  },
+  {
+    "id": 474,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What process allows plants to absorb water through their roots?",
+    "answers": ["Transpiration", "Osmosis", "Photosynthesis", "Diffusion"],
+    "correct": "Osmosis"
+  },
+  {
+    "id": 475,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What part of the human brain controls breathing and heart rate?",
+    "answers": ["Cerebrum", "Cerebellum", "Medulla", "Thalamus"],
+    "correct": "Medulla"
+  },
+  {
+    "id": 476,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What law describes how the force between two electric charges changes with distance?",
+    "answers": ["Ohm's Law", "Coulomb's Law", "Faraday's Law", "Ampere's Law"],
+    "correct": "Coulomb's Law"
+  },
+  {
+    "id": 477,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What type of reaction absorbs energy from its surroundings?",
+    "answers": ["Exothermic", "Endothermic", "Catalytic", "Neutral"],
+    "correct": "Endothermic"
+  },
+  {
+    "id": 478,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the name of the pigment that gives plants their green color?",
+    "answers": ["Carotene", "Chlorophyll", "Melanin", "Hemoglobin"],
+    "correct": "Chlorophyll"
+  },
+  {
+    "id": 479,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What term describes the movement of molecules from high to low concentration?",
+    "answers": ["Osmosis", "Diffusion", "Active transport", "Filtration"],
+    "correct": "Diffusion"
+  },
+  {
+    "id": 480,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What scientific instrument is used to study stars and galaxies?",
+    "answers": ["Microscope", "Telescope", "Spectrometer", "Accelerometer"],
+    "correct": "Telescope"
+  },
+  
 
 
 
