@@ -1,1 +1,93 @@
-[]
+[
+  {
+    "id": 341,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "easy",
+    "text": "What planet is known as the Red Planet?",
+    "answers": ["Earth", "Mars", "Venus", "Jupiter"],
+    "correct": "Mars"
+  },
+  {
+    "id": 342,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "easy",
+    "text": "What gas do plants absorb from the atmosphere?",
+    "answers": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "correct": "Carbon Dioxide"
+  },
+  {
+    "id": 343,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "easy",
+    "text": "What part of the human body pumps blood?",
+    "answers": ["Lungs", "Brain", "Heart", "Liver"],
+    "correct": "Heart"
+  },
+  {
+    "id": 344,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "easy",
+    "text": "What force pulls objects toward the Earth?",
+    "answers": ["Magnetism", "Gravity", "Friction", "Electricity"],
+    "correct": "Gravity"
+  },
+  {
+    "id": 345,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "easy",
+    "text": "What is the chemical symbol for water?",
+    "answers": ["O2", "CO2", "H2O", "NaCl"],
+    "correct": "H2O"
+  },
+  {
+    "id": 346,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What organ is responsible for filtering blood in the human body?",
+    "answers": ["Heart", "Lungs", "Kidneys", "Stomach"],
+    "correct": "Kidneys"
+  },
+  {
+    "id": 347,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of energy is stored in food?",
+    "answers": ["Thermal", "Chemical", "Electrical", "Nuclear"],
+    "correct": "Chemical"
+  },
+  {
+    "id": 348,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What part of a cell contains genetic material?",
+    "answers": ["Ribosome", "Nucleus", "Cytoplasm", "Membrane"],
+    "correct": "Nucleus"
+  },
+  {
+    "id": 349,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What gas is most abundant in the Earth's atmosphere?",
+    "answers": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "correct": "Nitrogen"
+  },
+  {
+    "id": 350,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What scientific instrument is used to measure temperature?",
+    "answers": ["Barometer", "Thermometer", "Hygrometer", "Altimeter"],
+    "correct": "Thermometer"
+  }
+]
+
