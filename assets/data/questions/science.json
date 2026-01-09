@@ -88,6 +88,96 @@
     "text": "What scientific instrument is used to measure temperature?",
     "answers": ["Barometer", "Thermometer", "Hygrometer", "Altimeter"],
     "correct": "Thermometer"
-  }
-]
+   },
+
+  {
+    "id": 351,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What part of the human eye controls the amount of light entering?",
+    "answers": ["Lens", "Retina", "Pupil", "Cornea"],
+    "correct": "Pupil"
+  },
+  {
+    "id": 352,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of rock is formed from cooled lava or magma?",
+    "answers": ["Sedimentary", "Metamorphic", "Igneous", "Fossil"],
+    "correct": "Igneous"
+  },
+  {
+    "id": 353,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What vitamin is produced when human skin is exposed to sunlight?",
+    "answers": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+    "correct": "Vitamin D"
+  },
+  {
+    "id": 354,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What force resists motion between two surfaces in contact?",
+    "answers": ["Gravity", "Friction", "Momentum", "Inertia"],
+    "correct": "Friction"
+  },
+  {
+    "id": 355,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "Which organ in the human body produces insulin?",
+    "answers": ["Liver", "Pancreas", "Kidneys", "Stomach"],
+    "correct": "Pancreas"
+  },
+  {
+    "id": 356,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the process by which plants make their own food?",
+    "answers": ["Respiration", "Digestion", "Photosynthesis", "Fermentation"],
+    "correct": "Photosynthesis"
+  },
+  {
+    "id": 357,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the smallest unit of life?",
+    "answers": ["Atom", "Molecule", "Cell", "Tissue"],
+    "correct": "Cell"
+  },
+  {
+    "id": 358,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What term describes an animal that eats both plants and meat?",
+    "answers": ["Herbivore", "Carnivore", "Omnivore", "Insectivore"],
+    "correct": "Omnivore"
+  },
+  {
+    "id": 359,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What gas is released during photosynthesis?",
+    "answers": ["Carbon Dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+    "correct": "Oxygen"
+  },
+  {
+    "id": 360,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What branch of science studies living organisms?",
+    "answers": ["Physics", "Chemistry", "Biology", "Geology"],
+    "correct": "Biology"
+   },
 
