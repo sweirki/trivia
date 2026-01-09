@@ -362,5 +362,96 @@
     "answers": ["Volt", "Ohm", "Ampere", "Watt"],
     "correct": "Ampere"
    },
+  
+  {
+    "id": 381,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What part of the human body is responsible for producing red blood cells?",
+    "answers": ["Heart", "Liver", "Bone marrow", "Spleen"],
+    "correct": "Bone marrow"
+  },
+  {
+    "id": 382,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of energy is stored in a stretched rubber band?",
+    "answers": ["Kinetic energy", "Thermal energy", "Elastic potential energy", "Chemical energy"],
+    "correct": "Elastic potential energy"
+  },
+  {
+    "id": 383,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What layer of the Earth lies directly beneath the crust?",
+    "answers": ["Core", "Mantle", "Outer core", "Inner core"],
+    "correct": "Mantle"
+  },
+  {
+    "id": 384,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What is the name of the galaxy that contains our solar system?",
+    "answers": ["Andromeda", "Milky Way", "Triangulum", "Sombrero"],
+    "correct": "Milky Way"
+  },
+  {
+    "id": 385,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What process causes water vapor to change into liquid droplets?",
+    "answers": ["Evaporation", "Condensation", "Freezing", "Sublimation"],
+    "correct": "Condensation"
+  },
+  {
+    "id": 386,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What branch of biology focuses on the study of heredity?",
+    "answers": ["Ecology", "Genetics", "Botany", "Zoology"],
+    "correct": "Genetics"
+  },
+  {
+    "id": 387,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What term describes the tendency of an object to resist changes in motion?",
+    "answers": ["Force", "Acceleration", "Inertia", "Velocity"],
+    "correct": "Inertia"
+  },
+  {
+    "id": 388,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What instrument is used to measure earthquakes?",
+    "answers": ["Barometer", "Seismograph", "Thermometer", "Spectrometer"],
+    "correct": "Seismograph"
+  },
+  {
+    "id": 389,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the main function of the ozone layer?",
+    "answers": ["Produce oxygen", "Trap heat", "Block harmful ultraviolet radiation", "Create clouds"],
+    "correct": "Block harmful ultraviolet radiation"
+  },
+  {
+    "id": 390,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What type of wave does not require a medium to travel?",
+    "answers": ["Sound wave", "Water wave", "Mechanical wave", "Electromagnetic wave"],
+    "correct": "Electromagnetic wave"
+  }
 
 
