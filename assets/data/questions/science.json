@@ -998,8 +998,97 @@
     "answers": ["Photosynthesis", "Nitrogen fixation", "Respiration", "Decomposition"],
     "correct": "Nitrogen fixation"
   },
-  
-}
+    
+  {
+    "id": 451,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of blood cell is responsible for clotting?",
+    "answers": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+    "correct": "Platelets"
+  },
+  {
+    "id": 452,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What force keeps planets moving around the Sun?",
+    "answers": ["Magnetism", "Friction", "Gravity", "Inertia"],
+    "correct": "Gravity"
+  },
+  {
+    "id": 453,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What part of the human body regulates body temperature?",
+    "answers": ["Heart", "Skin", "Liver", "Lungs"],
+    "correct": "Skin"
+  },
+  {
+    "id": 454,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of energy is produced by vibrating objects?",
+    "answers": ["Light energy", "Sound energy", "Thermal energy", "Electrical energy"],
+    "correct": "Sound energy"
+  },
+  {
+    "id": 455,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What is the main function of the large intestine?",
+    "answers": ["Digest nutrients", "Absorb water", "Produce enzymes", "Pump blood"],
+    "correct": "Absorb water"
+  },
+  {
+    "id": 456,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What term describes the speed of an object in a given direction?",
+    "answers": ["Speed", "Acceleration", "Velocity", "Momentum"],
+    "correct": "Velocity"
+  },
+  {
+    "id": 457,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the smallest particle of an element that retains its properties?",
+    "answers": ["Molecule", "Atom", "Ion", "Electron"],
+    "correct": "Atom"
+  },
+  {
+    "id": 458,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What type of cell division produces reproductive cells?",
+    "answers": ["Mitosis", "Binary fission", "Meiosis", "Budding"],
+    "correct": "Meiosis"
+  },
+  {
+    "id": 459,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What phenomenon causes objects to float or sink in a fluid?",
+    "answers": ["Gravity", "Buoyancy", "Density", "Pressure"],
+    "correct": "Buoyancy"
+  },
+  {
+    "id": 460,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What scientific term describes heat transfer through direct contact?",
+    "answers": ["Radiation", "Conduction", "Convection", "Insulation"],
+    "correct": "Conduction"
+   },
 
 
 
