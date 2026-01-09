@@ -271,6 +271,96 @@
     "answers": ["Biology", "Chemistry", "Physics", "Astronomy"],
     "correct": "Physics"
     },
-  }
+
+  {
+    "id": 371,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What instrument is used to measure atmospheric pressure?",
+    "answers": ["Thermometer", "Barometer", "Anemometer", "Hygrometer"],
+    "correct": "Barometer"
+  },
+  {
+    "id": 372,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of eclipse occurs when the Moon blocks the Sun?",
+    "answers": ["Lunar eclipse", "Solar eclipse", "Partial eclipse", "Annular eclipse"],
+    "correct": "Solar eclipse"
+  },
+  {
+    "id": 373,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What organ in plants is mainly responsible for photosynthesis?",
+    "answers": ["Root", "Stem", "Leaf", "Flower"],
+    "correct": "Leaf"
+  },
+  {
+    "id": 374,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What is the main gas found in the air we breathe?",
+    "answers": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "correct": "Nitrogen"
+  },
+  {
+    "id": 375,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "medium",
+    "text": "What type of energy does a moving object have?",
+    "answers": ["Potential energy", "Chemical energy", "Kinetic energy", "Thermal energy"],
+    "correct": "Kinetic energy"
+  },
+  {
+    "id": 376,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What part of the atom has a positive electric charge?",
+    "answers": ["Electron", "Neutron", "Proton", "Nucleus"],
+    "correct": "Proton"
+  },
+  {
+    "id": 377,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What term describes a substance that speeds up a chemical reaction without being consumed?",
+    "answers": ["Reactant", "Product", "Catalyst", "Enzyme"],
+    "correct": "Catalyst"
+  },
+  {
+    "id": 378,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What is the name of the process by which liquid water turns into vapor?",
+    "answers": ["Condensation", "Evaporation", "Sublimation", "Precipitation"],
+    "correct": "Evaporation"
+  },
+  {
+    "id": 379,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What type of scientist studies weather and climate?",
+    "answers": ["Geologist", "Meteorologist", "Biologist", "Astronomer"],
+    "correct": "Meteorologist"
+  },
+  {
+    "id": 380,
+    "category": "Science",
+    "premium": false,
+    "difficulty": "hard",
+    "text": "What unit is used to measure electric current?",
+    "answers": ["Volt", "Ohm", "Ampere", "Watt"],
+    "correct": "Ampere"
+   },
 
 
