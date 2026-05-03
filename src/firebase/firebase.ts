@@ -1,33 +1,11 @@
-// firebase/firebase.ts — Final Expo-Compatible Firebase Setup
+// src/firebase/firebase.ts
 
 import { initializeApp, getApps } from "firebase/app";
-import {
-  initializeAuth,
-  getAuth,
-  getReactNativePersistence,
-  onAuthStateChanged,
-  signInWithEmailAndPassword,
-  createUserWithEmailAndPassword,
-  sendPasswordResetEmail,
-  signOut,
-  User,
-} from "firebase/auth";
-
-
-import {
-  initializeFirestore,
-  doc,
-  getDoc,
-  setDoc,
-  serverTimestamp,
-  collection,
-  getDocs,
-} from "firebase/firestore";
-
-import AsyncStorage from "@react-native-async-storage/async-storage";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 // -------------------------------------------------------------
-// Your Firebase config (from the new project)
+// Firebase config
 // -------------------------------------------------------------
 const firebaseConfig = {
   apiKey: "AIzaSyDL2CNlwi2PXbfI0sOu9WaR-LqJqA8nwg0",
@@ -36,58 +14,20 @@ const firebaseConfig = {
   storageBucket: "trivia-bca7f.firebasestorage.app",
   messagingSenderId: "95103599948",
   appId: "1:95103599948:web:ce7e49d6468d51d3cbbbe9",
-  measurementId: "G-FP3XTLBZNJ",
 };
 
 // -------------------------------------------------------------
-// Prevent double initialization of the Firebase app
+// App (singleton)
 // -------------------------------------------------------------
-const app = getApps().length ? getApps()[0] : initializeApp(firebaseConfig);
-
-// -------------------------------------------------------------
-// Auth (Expo Router SAFE — lazy init)
-// -------------------------------------------------------------
-import type { Auth } from "firebase/auth";
-
-let authInstance: Auth | null = null;
-
-export function getAuthInstance() {
-  if (authInstance) return authInstance;
-
-  authInstance = initializeAuth(app, {
-    persistence: getReactNativePersistence(AsyncStorage),
-  });
-
-  return authInstance;
-}
-
-
+export const app =
+  getApps().length > 0 ? getApps()[0] : initializeApp(firebaseConfig);
 
 // -------------------------------------------------------------
-// Firestore (Expo Safe Mode)
+// Auth (basic — persistence handled by Firebase default)
 // -------------------------------------------------------------
-export const db = initializeFirestore(app, {
-  experimentalForceLongPolling: true,
-  useFetchStreams: false,
-  localCache: false,
-});
+export const auth = getAuth(app);
 
 // -------------------------------------------------------------
-// Export helpers used in stores/hooks
+// Firestore
 // -------------------------------------------------------------
-export {
-  onAuthStateChanged,
-  signInWithEmailAndPassword,
-  createUserWithEmailAndPassword,
-  sendPasswordResetEmail,
-  signOut,
-  doc,
-  getDoc,
-  setDoc,
-  serverTimestamp,
-  collection,
-  getDocs,
-  User,
-};
-
-
+export const db = getFirestore(app);

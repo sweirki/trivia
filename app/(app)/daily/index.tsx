@@ -1,43 +1,49 @@
 // /app/(app)/daily/index.tsx
-// A+++++ DAILY REWARD SCREEN (7-Day Cycle)
+// DAILY REWARDS — C2 ENGINE (LOCKED)
 
 import React, { useState } from "react";
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from "react-native";
+import {
+  View,
+  Text,
+  StyleSheet,
+  ScrollView,
+  TouchableOpacity,
+} from "react-native";
 import { useRouter } from "expo-router";
+import { evaluateDailyClaim } from "@/daily/dailyLogic";
 
-import { useDailyRewardStore } from "@/store/useDailyRewardStore";
+import { usePlayerStore } from "@/store/usePlayerStore";
+import { claimDailyReward } from "@/daily/dailyService";
+import { getDailyReward } from "@/daily/rewardTable";
 
 import RewardDayBox from "@/daily/components/RewardDayBox";
 import ClaimButton from "@/daily/components/ClaimButton";
 import RewardFX from "@/daily/components/RewardFX";
 
 export default function DailyRewardsScreen() {
-  const [fxTrigger, setFxTrigger] = useState(false);
-
   const router = useRouter();
 
- const canClaim = useDailyRewardStore((s) => s.canClaim);
-const claim = useDailyRewardStore((s) => s.claim);
+  const daily = usePlayerStore((s) => s.daily);
+  const streak = daily?.streak ?? 0;
+  const lastClaimDate = daily?.lastClaimDate ?? null;
 
-// TEMP: static streak display (safe placeholder)
-const streak = 1;
+  const today = new Date().toISOString().slice(0, 10);
+  const evaluation = evaluateDailyClaim(
+  lastClaimDate,
+  today
+);
 
-const todayClaimed = !canClaim();
 
-const rewards = {
-  coins: 100,
-  gems: 0,
-  xp: 0,
-};
+ 
+  const [fxTrigger, setFxTrigger] = useState(false);
+  const [rewardResult, setRewardResult] = useState<{
+    coins: number;
+    xp: number;
+  } | null>(null);
 
-const handleClaim = () => {
-  if (!canClaim()) return;
+  const nextStreak = evaluation.canClaim ? streak + 1 : streak;
 
-  claim();
-  setFxTrigger(true);
-  setTimeout(() => setFxTrigger(false), 1200);
-};
-
+  const todayReward = getDailyReward(nextStreak);
 
   return (
     <View style={styles.root}>
@@ -50,34 +56,53 @@ const handleClaim = () => {
         </TouchableOpacity>
 
         <Text style={styles.title}>Daily Rewards</Text>
-        <Text style={styles.subtitle}>Come back every day to earn streak bonuses!</Text>
+        <Text style={styles.subtitle}>
+          Come back every day to build your streak
+        </Text>
 
-        {/* 7 DAY GRID */}
+        {/* Streak */}
+        <Text style={styles.streakText}>
+          🔥 Current streak: {streak} day{streak === 1 ? "" : "s"}
+        </Text>
+
+        {/* 7 Day Grid */}
         <View style={styles.grid}>
           {[1, 2, 3, 4, 5, 6, 7].map((day) => (
             <RewardDayBox
               key={day}
               day={day}
-              currentDay={streak + 1}
-              claimed={todayClaimed && day === streak}
-              upcoming={day > streak + 1}
+              currentDay={nextStreak}
+             claimed={!evaluation.canClaim && day === streak}
+
+              upcoming={day > nextStreak}
             />
           ))}
         </View>
 
-        {/* Rewards summary */}
+        {/* Reward Summary */}
         <View style={styles.rewardInfo}>
-          <Text style={styles.rewardText}>Today's Reward:</Text>
+          <Text style={styles.rewardText}>Today’s Reward</Text>
           <Text style={styles.rewardValue}>
-            +{rewards.coins} Coins  
-            {rewards.gems > 0 ? ` • +${rewards.gems} Gem` : ""}  
-            {rewards.xp > 0 ? ` • +${rewards.xp} XP` : ""}
+            +{todayReward.coins} Coins
+            {todayReward.xp > 0 ? ` • +${todayReward.xp} XP` : ""}
           </Text>
         </View>
 
-     <ClaimButton onClaimed={handleClaim} />
+        {/* Claim Button */}
+    <ClaimButton />
 
 
+
+        {/* Success Feedback */}
+        {rewardResult && (
+          <View style={styles.successBox}>
+            <Text style={styles.successText}>🎉 Reward Claimed!</Text>
+            <Text style={styles.successSub}>
+              +{rewardResult.coins} Coins
+              {rewardResult.xp > 0 ? ` • +${rewardResult.xp} XP` : ""}
+            </Text>
+          </View>
+        )}
       </ScrollView>
     </View>
   );
@@ -110,7 +135,14 @@ const styles = StyleSheet.create({
   subtitle: {
     color: "#FFEABE",
     fontSize: 14,
-    marginBottom: 20,
+    marginBottom: 12,
+  },
+
+  streakText: {
+    color: "#FFD700",
+    fontSize: 16,
+    fontWeight: "700",
+    marginBottom: 18,
   },
 
   grid: {
@@ -136,6 +168,26 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "700",
   },
-});
 
+  successBox: {
+    marginTop: 20,
+    padding: 16,
+    borderRadius: 12,
+    backgroundColor: "#111",
+    alignItems: "center",
+  },
+
+  successText: {
+    color: "#FFD700",
+    fontSize: 16,
+    fontWeight: "800",
+  },
+
+  successSub: {
+    color: "#FFF",
+    marginTop: 6,
+    fontSize: 14,
+    fontWeight: "600",
+  },
+});
 

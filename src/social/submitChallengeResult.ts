@@ -1,5 +1,5 @@
 import { doc, getDoc, updateDoc } from "firebase/firestore";
-import { db } from "../../firebase/firebase";
+import { db } from "@/firebase/firebase";
 
 export async function submitChallengeResult(
   challengeId: string,
@@ -80,3 +80,4 @@ export async function submitChallengeResult(
 
   await updateDoc(ref, updates);
 }
+

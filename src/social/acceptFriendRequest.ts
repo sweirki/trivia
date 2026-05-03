@@ -1,5 +1,5 @@
 import { doc, getDoc, updateDoc } from "firebase/firestore";
-import { db } from "../../firebase/firebase";
+import { db } from "@/firebase/firebase";
 
 function getFriendshipId(uidA: string, uidB: string): string {
   return [uidA, uidB].sort().join("_");
@@ -32,3 +32,4 @@ export async function acceptFriendRequest(
     updatedAt: Date.now(),
   });
 }
+

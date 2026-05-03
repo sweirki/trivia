@@ -1,7 +1,7 @@
 // src/arena/ranked/rankedMatchmaker.ts
 
 import { nanoid } from "nanoid/non-secure";
-import { Question } from "@/types/question";
+import type { NormalizedQuestion as Question } from "@/questions/normalizeQuestions";
 import { RANKED_MATCH_CONFIG, RANKED_AI_DEFAULT } from "./rankedConstants";
 import { RankedMatch } from "./rankedTypes";
 
@@ -60,3 +60,4 @@ export function createRankedMatch(
     createdAt: Date.now(),
   };
 }
+

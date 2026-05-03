@@ -82,8 +82,8 @@ const advanceMap: Record<
 // STORE
 // --------------------------------------------------
 
- export const useTournamentStore = create(
-  persist<TournamentStoreState>(
+export const useTournamentStore = create<TournamentStoreState>()(
+  persist(
 
     (set, get) => ({
       // ----------------------------------------------
@@ -212,9 +212,11 @@ const advanceMap: Record<
     {
       name: "tournament-store",
       storage: createJSONStorage(() => AsyncStorage),
-      partialize: (state) => ({
-        activeTournament: state.activeTournament,
-      }),
+     partialize: (state) => ({
+  activeTournament: state.activeTournament,
+}),
+
     }
   )
 );
+

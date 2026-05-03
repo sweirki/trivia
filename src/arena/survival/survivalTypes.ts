@@ -13,3 +13,4 @@ questions: any[];
   startedAt: number;
   endedAt?: number;
 };
+

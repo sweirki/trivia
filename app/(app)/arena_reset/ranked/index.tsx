@@ -25,7 +25,8 @@ export default function RankedArenaEntry() {
 
   await startRankedMatch();   // 🔴 THIS WAS MISSING
 
-  router.push("/(app)/arena/ranked/RankedMatch");
+router.push("/arena_reset/ranked/RankedMatch");
+
 };
 
 
@@ -188,6 +189,7 @@ const styles = StyleSheet.create({
     fontSize: s(16),
   },
 });
+
 
 
 

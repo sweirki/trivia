@@ -1,7 +1,7 @@
 // src/challenges/store/useChallengesStore.ts
 
 import { create } from 'zustand';
-import type { Challenge, ChallengePlayer } from '../types';
+import type { Challenge, ChallengePlayer, ChallengeStatus } from '../types';
 import { saveItem, StorageKeys } from '../../storage/storage';
 import { getTodayKey } from '../../liveops/utils/time';
 import { useProfileStore } from '../../profile/store/useProfileStore';
@@ -53,7 +53,11 @@ export const useChallengesStore = create<ChallengesState>((set, get) => ({
     if (!challenge) return;
 
     const updatedIncoming = incoming.filter((c) => c.id !== id);
-    const updatedActive = [...active, { ...challenge, status: 'active' }];
+    const updatedActive = [
+  ...active,
+  { ...challenge, status: 'active' as ChallengeStatus },
+];
+
 
     set({
       incoming: updatedIncoming,
@@ -73,7 +77,11 @@ export const useChallengesStore = create<ChallengesState>((set, get) => ({
     if (!challenge) return;
 
     const updatedIncoming = incoming.filter((c) => c.id !== id);
-    const updatedHistory = [...history, { ...challenge, status: 'declined' }];
+   const updatedHistory = [
+  ...history,
+  { ...challenge, status: 'declined' as ChallengeStatus },
+];
+
 
     set({
       incoming: updatedIncoming,
@@ -97,7 +105,8 @@ export const useChallengesStore = create<ChallengesState>((set, get) => ({
       ...history,
       {
         ...challenge,
-        status: 'completed',
+      status: 'completed' as ChallengeStatus,
+
         myScore,
         opponentScore,
       },
@@ -148,7 +157,7 @@ export const useChallengesStore = create<ChallengesState>((set, get) => ({
       id: `daily-${todayKey}`,
       type: 'daily',
       dayKey: todayKey,
-      status: 'active',
+     status: 'active' as ChallengeStatus,
       createdAt: Date.now(),
       from: systemPlayer,
       to: systemPlayer,
@@ -214,3 +223,4 @@ export const useChallengesStore = create<ChallengesState>((set, get) => ({
   },
 
 }));
+

@@ -66,3 +66,4 @@ export const usePowerUpStore = create<PowerUpState>((set, get) => ({
     set({ powerups: { ...INITIAL_POWERUPS } });
   },
 }));
+

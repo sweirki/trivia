@@ -45,3 +45,4 @@ export const useSurvivalHistoryStore = create<SurvivalHistoryState>()(
     }
   )
 );
+

@@ -11,6 +11,9 @@ import { useArenaStore } from "@/arena/store/useArenaStore";
 import { useArenaRankSystem } from "@/arena/store/useArenaRankSystem";
 import { useRankedHistoryStore } from "@/arena/store/useRankedHistoryStore";
 import { useArenaRewardsEngine } from "@/arena/store/useArenaRewardsEngine";
+import { useAuthStore } from "@/store/useAuthStore";
+import { useSeasonStore } from "@/seasons/store/useSeasonStore";
+import { SEASON_XP } from "@/seasons/seasonXpRules";
 
 type CompetitiveResult = {
   mode: "ranked";
@@ -29,6 +32,8 @@ const reportCompetitiveResult = (result: CompetitiveResult) => {
 
 
 export default function RankedResult() {
+  const uid = useAuthStore((s) => s.user?.uid) ?? null;
+
   const { player, opponent, resetArena } = useArenaStore();
 
   const {
@@ -36,6 +41,7 @@ export default function RankedResult() {
     rank,
     addWin,
     addLoss,
+    
   } = useArenaRankSystem();
 const rewardRanked = useArenaRewardsEngine(
   (s) => s.rewardRanked
@@ -305,3 +311,4 @@ resultReason: {
     fontWeight: "600",
   },
 });
+

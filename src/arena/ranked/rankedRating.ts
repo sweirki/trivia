@@ -61,3 +61,4 @@ export function resolveTier(rating: number): RankedTier {
 
   return "Bronze"; // safety fallback
 }
+

@@ -6,7 +6,7 @@ import {
   where,
   setDoc,
 } from "firebase/firestore";
-import { db } from "../../firebase/firebase";
+import { db } from "@/firebase/firebase";
 
 function makeQuestionSetId(uidA: string, uidB: string): string {
   // deterministic seed so both players get the same questions
@@ -51,3 +51,4 @@ export async function sendChallenge(
     expiresAt,
   });
 }
+

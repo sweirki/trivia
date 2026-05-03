@@ -114,7 +114,8 @@ export default function ArenaHub() {
           <TouchableOpacity
             style={styles.historyBox}
             onPress={() =>
-              router.push("/(app)/arena_reset/history")
+              router.push("../arena_reset/history")
+
             }
           >
             <Text style={styles.historyTitle}>
@@ -143,7 +144,8 @@ export default function ArenaHub() {
           <TouchableOpacity
             style={styles.shopBox}
             onPress={() =>
-              router.push("/(app)/arena_reset/shop")
+              router.push("/shop")
+
             }
           >
             <Text style={styles.shopText}>
@@ -328,3 +330,4 @@ const styles = StyleSheet.create({
     fontSize: s(18),
   },
 });
+

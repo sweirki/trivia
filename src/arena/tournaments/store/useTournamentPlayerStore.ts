@@ -22,3 +22,4 @@ export const useTournamentPlayerStore = create<TournamentPlayerState>(
     resetPlayer: () => set({ playerUid: null, totalScore: 0 }),
   })
 );
+

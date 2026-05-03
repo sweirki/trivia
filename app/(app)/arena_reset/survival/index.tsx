@@ -10,7 +10,8 @@ export default function SurvivalEntry() {
  const handleStart = () => {
   useArenaStore.getState().resetArena();
   setMode("survival");
-  router.push("/(app)/arena/survival/SurvivalMatch");
+  router.push("/arena_reset/survival/SurvivalMatch");
+
 };
 
   return (
@@ -128,4 +129,5 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+
 

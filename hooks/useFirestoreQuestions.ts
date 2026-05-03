@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { db, collection, getDocs } from "../firebase/firebase";
+import { db, collection, getDocs } from "@/firebase/firebase";
 
 export function useFirestoreQuestions() {
   const [questions, setQuestions] = useState([]);
@@ -29,5 +29,6 @@ export function useFirestoreQuestions() {
 
   return { questions, loading };
 }
+
 
 

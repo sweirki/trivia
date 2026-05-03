@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { router } from "expo-router";
 import { s } from "@/arena/theme/arenaSizing";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
+import { useQuickGameStore } from "@/store/useQuickGameStore";
 
 export default function TournamentEntry() {
   // --------------------------------------------------
@@ -62,12 +63,21 @@ export default function TournamentEntry() {
   // --------------------------------------------------
   // JOIN
   // --------------------------------------------------
-  const handleJoin = () => {
-    const ok = joinTournament("local-user", "You");
-    if (!ok) return;
+const handleJoin = () => {
+  
+  const questionsCount =
+    tournament?.config.questionsPerMatch ?? 10;
 
-    router.push("/(app)/arena_reset/tournaments/waiting");
-  };
+  // START TOURNAMENT GAME
+  useQuickGameStore
+    .getState()
+    .initTournamentGame(null, questionsCount);
+
+  // GO DIRECTLY TO GAMEPLAY
+  router.push("/(app)/play/game");
+
+};
+
 
   // --------------------------------------------------
   // RENDER
@@ -116,6 +126,9 @@ export default function TournamentEntry() {
               ))
             )}
           </View>
+<Text style={styles.repeatableNote}>
+  You can join multiple times. Each entry costs coins.
+</Text>
 
           {/* Join */}
           <TouchableOpacity style={styles.joinBtn} onPress={handleJoin}>
@@ -145,6 +158,13 @@ const styles = StyleSheet.create({
     fontWeight: "800",
     marginBottom: s(6),
   },
+  
+repeatableNote: {
+  color: "#888",
+  fontSize: s(13),
+  marginBottom: s(12),
+  textAlign: "center",
+},
 
   modeType: {
     color: "#aaa",
@@ -228,3 +248,4 @@ const styles = StyleSheet.create({
 
   error: { color: "#fff", fontSize: s(20), marginTop: s(40) },
 });
+

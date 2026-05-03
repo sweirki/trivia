@@ -1,6 +1,6 @@
 import { doc, getDoc, setDoc, serverTimestamp } from "firebase/firestore";
 import { updateDoc } from "firebase/firestore";
-import { db } from "../../firebase/firebase";
+import { db } from "@/firebase/firebase";
 
 // ⬆️ add to existing imports
 
@@ -52,3 +52,4 @@ export async function getOrCreateProfile(uid: string): Promise<PlayerIdentity> {
 
   return profile;
 }
+

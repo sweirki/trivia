@@ -25,3 +25,4 @@ export function finishSurvivalGame() {
   const { endRun } = useSurvivalArenaStore.getState();
   endRun();
 }
+

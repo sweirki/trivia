@@ -1,5 +1,5 @@
 import { doc, getDoc, updateDoc } from "firebase/firestore";
-import { db } from "../../firebase/firebase";
+import { db } from "@/firebase/firebase";
 
 export async function acceptChallenge(
   challengeId: string,
@@ -31,3 +31,4 @@ export async function acceptChallenge(
     acceptedAt: Date.now(),
   });
 }
+

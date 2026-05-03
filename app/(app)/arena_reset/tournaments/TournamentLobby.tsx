@@ -7,7 +7,7 @@ import { useTournamentStore } from "@/arena/store/useTournamentStore";
 export default function TournamentLobby() {
   const {
     tournament,
-    start,
+    startTournament,
   } = useTournamentStore();
 
   // --------------------------------------------
@@ -33,7 +33,7 @@ export default function TournamentLobby() {
   // START HANDLER
   // --------------------------------------------
   const handleStart = () => {
-    start();
+    startTournament();
     router.replace("/(app)/arena_reset/tournaments/TournamentBracket");
   };
 
@@ -132,3 +132,4 @@ const styles = StyleSheet.create({
     fontSize: s(18),
   },
 });
+

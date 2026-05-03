@@ -1,22 +1,34 @@
-// /app/play/(screens)/quick.tsx — A+++++ QuickPlay Launcher
+// app/(app)/play/(screens)/quick.tsx — Box-style Quick Play
+
 import React, { useEffect, useRef } from "react";
 import {
   View,
   Text,
-  TouchableOpacity,
   StyleSheet,
+  Pressable,
   Animated,
 } from "react-native";
 import { useRouter, useLocalSearchParams } from "expo-router";
-import type { QuickMode } from "@/store/useQuickGameStore";
 
+import type { QuickMode } from "@/store/useQuickGameStore";
 import { useQuickGameStore } from "@/store/useQuickGameStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { CATEGORIES } from "@/data/categories";
 
+const MODES: {
+  key: QuickMode;
+  title: string;
+  subtitle: string;
+}[] = [
+  { key: "classic", title: "Classic", subtitle: "Balanced challenge" },
+  { key: "speed", title: "Speed", subtitle: "Fast-paced runs" },
+  { key: "timed60", title: "60 Seconds", subtitle: "Short timer rush" },
+  { key: "timed90", title: "90 Seconds", subtitle: "Long timer endurance" },
+  { key: "sudden", title: "Sudden Death", subtitle: "One mistake ends it" },
+];
+
 export default function QuickPlay() {
   const router = useRouter();
-
   const { category: paramCategory } = useLocalSearchParams();
 
   const setCategory = useQuickGameStore((s) => s.setCategory);
@@ -31,34 +43,30 @@ export default function QuickPlay() {
   useEffect(() => {
     Animated.timing(fade, {
       toValue: 1,
-      duration: 500,
+      duration: 400,
       useNativeDriver: true,
     }).start();
   }, []);
 
-  // --------------------------------------------
-  // RESOLVE CATEGORY (fallback-safe)
-  // --------------------------------------------
- const resolveCategory = () => {
-  let id = paramCategory as string | undefined;
+  // --------------------------------------------------
+  // CATEGORY RESOLUTION (unchanged logic)
+  // --------------------------------------------------
+  const resolveCategory = () => {
+    let id = paramCategory as string | undefined;
 
-  // 1) No param → pick RANDOM free category
-  if (!id) {
-    const freeCats = CATEGORIES.filter((c) => !c.premium);
-    id = freeCats[Math.floor(Math.random() * freeCats.length)].id;
-  }
+    if (!id) {
+      const free = CATEGORIES.filter((c) => !c.premium);
+      id = free[Math.floor(Math.random() * free.length)].id;
+    }
 
-  // 2) If param points to premium and user is not allowed → fallback RANDOM free
-  const meta = CATEGORIES.find((c) => c.id === id);
+    const meta = CATEGORIES.find((c) => c.id === id);
+    if (meta?.premium && !ownedPacks.includes(id) && vipTier < 3) {
+      const free = CATEGORIES.filter((c) => !c.premium);
+      id = free[Math.floor(Math.random() * free.length)].id;
+    }
 
-  if (meta?.premium && !ownedPacks.includes(id) && vipTier < 3) {
-    const freeCats = CATEGORIES.filter((c) => !c.premium);
-    id = freeCats[Math.floor(Math.random() * freeCats.length)].id;
-  }
-
-  return id;
-};
-
+    return id;
+  };
 
   const activeCategory = resolveCategory();
 
@@ -66,45 +74,50 @@ export default function QuickPlay() {
     setCategory(activeCategory);
   }, [activeCategory]);
 
-  const startQuickGame = (mode: QuickMode) => {
+  const start = (mode: QuickMode) => {
     resetGame();
     initGame(mode, activeCategory);
     router.replace("/play/game");
   };
 
-  const getCategoryLabel = (id) => {
+  const getCategoryLabel = (id: string) => {
     const c = CATEGORIES.find((x) => x.id === id);
-    return c?.label || id;
+    return c?.label ?? id;
   };
 
-  // --------------------------------------------
-  // MODE BUTTON
-  // --------------------------------------------
-  const ModeButton = ({ title, subtitle, mode }) => {
+  // --------------------------------------------------
+  // MODE CARD
+  // --------------------------------------------------
+  const ModeCard = ({ title, subtitle, mode }: any) => {
     const scale = useRef(new Animated.Value(1)).current;
 
     return (
-      <Animated.View style={[styles.modeWrapper, { transform: [{ scale }] }]}>
-        <TouchableOpacity
-          activeOpacity={0.85}
-          style={styles.modeBtn}
+      <Animated.View style={{ transform: [{ scale }] }}>
+        <Pressable
           onPressIn={() =>
             Animated.spring(scale, {
-              toValue: 0.93,
+              toValue: 0.96,
               useNativeDriver: true,
             }).start()
           }
           onPressOut={() =>
             Animated.spring(scale, {
               toValue: 1,
-              friction: 5,
+              friction: 6,
               useNativeDriver: true,
-            }).start(() => startQuickGame(mode))
+            }).start(() => start(mode))
           }
+          style={styles.card}
         >
-          <Text style={styles.modeTitle}>{title}</Text>
-          <Text style={styles.modeSubtitle}>{subtitle}</Text>
-        </TouchableOpacity>
+         <Text style={styles.cardTitle} numberOfLines={1}>
+  {title}
+</Text>
+
+      <Text style={styles.cardSub} numberOfLines={2}>
+  {subtitle}
+</Text>
+
+        </Pressable>
       </Animated.View>
     );
   };
@@ -116,144 +129,132 @@ export default function QuickPlay() {
 
         <View style={styles.categoryBadge}>
           <Text style={styles.categoryLabel}>Category</Text>
-          <Text style={styles.categoryName}>{getCategoryLabel(activeCategory)}</Text>
+          <Text style={styles.categoryName}>
+            {getCategoryLabel(activeCategory)}
+          </Text>
         </View>
 
-        {/* VIP BENEFIT MESSAGE */}
         {vipTier >= 3 && (
           <Text style={styles.vipNotice}>
-            ⭐ VIP Tier {vipTier}: All categories unlocked!
+            ⭐ VIP Tier {vipTier}: All categories unlocked
           </Text>
         )}
 
-        <Text style={styles.modeSelectLabel}>Choose a Mode</Text>
+        <View style={styles.grid}>
+          {MODES.map((m) => (
+            <ModeCard
+              key={m.key}
+              title={m.title}
+              subtitle={m.subtitle}
+              mode={m.key}
+            />
+          ))}
+        </View>
 
-        <ModeButton
-          title="Classic"
-          subtitle="Balanced challenge"
-          mode="classic"
-        />
-        <ModeButton
-          title="Speed"
-          subtitle="Fast-paced runs"
-          mode="speed"
-        />
-        <ModeButton
-          title="60 Seconds"
-          subtitle="Short timer rush"
-          mode="timed60"
-        />
-        <ModeButton
-          title="90 Seconds"
-          subtitle="Long timer endurance"
-          mode="timed90"
-        />
-        <ModeButton
-          title="Sudden Death"
-          subtitle="One mistake ends the run"
-          mode="sudden"
-        />
-
-        <TouchableOpacity
-       onPress={() => router.replace("./categorySelect")}
-
+        <Pressable
+          onPress={() => router.replace("./categorySelect")}
           style={styles.backBtn}
         >
           <Text style={styles.backText}>← Change Category</Text>
-        </TouchableOpacity>
+        </Pressable>
       </Animated.View>
     </View>
   );
 }
 
-// -----------------------------------------------------------
-// 🎨  A+++++ VISUALS
-// -----------------------------------------------------------
+// --------------------------------------------------
+// STYLES — aligned with CategorySelect
+// --------------------------------------------------
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor: "#000",
+    backgroundColor: "#0B1220",
   },
 
   container: {
-    paddingTop: 60,
-    paddingHorizontal: 18,
-    paddingBottom: 70,
+    paddingTop: 56,
+    paddingHorizontal: 20,
+    paddingBottom: 60,
   },
 
   heading: {
-    fontSize: 30,
+    fontSize: 28,
     fontWeight: "800",
-    color: "#F5E6C6",
+    color: "#FFD166",
     textAlign: "center",
-    marginBottom: 20,
+    marginBottom: 18,
   },
 
   categoryBadge: {
-    backgroundColor: "rgba(255,255,255,0.06)",
-    borderRadius: 14,
-    paddingVertical: 12,
-    paddingHorizontal: 18,
-    borderWidth: 1.4,
-    borderColor: "#D8B24A",
     alignSelf: "center",
-    marginBottom: 28,
+    backgroundColor: "#121A2F",
+    borderRadius: 14,
+    paddingVertical: 10,
+    paddingHorizontal: 18,
+    borderWidth: 1,
+    borderColor: "rgba(234,179,8,0.4)",
+    marginBottom: 22,
   },
 
   categoryLabel: {
-    textAlign: "center",
     fontSize: 12,
-    color: "#D8B24A",
+    textAlign: "center",
+    color: "#EAB308",
   },
 
   categoryName: {
-    textAlign: "center",
-    fontSize: 18,
-    fontWeight: "700",
-    color: "#FFF2C7",
     marginTop: 4,
+    fontSize: 17,
+    fontWeight: "700",
+    color: "#E5E7EB",
+    textAlign: "center",
   },
 
   vipNotice: {
     textAlign: "center",
-    color: "#FFD700",
-    marginBottom: 16,
-    fontSize: 14,
+    fontSize: 13,
     fontWeight: "600",
+    color: "#FFD166",
+    marginBottom: 18,
   },
 
-  modeSelectLabel: {
-    color: "#F5E6C6",
+  grid: {
+    
+    
+    gap: 14,
+    
+  },
+
+  card: {
+    width: "100%",
+    minHeight: 96,
+  paddingVertical: 14,
+  paddingHorizontal: 12,
+    backgroundColor: "#121A2F",
+    
+    padding: 14,
+    justifyContent: "center",
+    alignItems: "center",
+    borderWidth: 1,
+    borderColor: "rgba(234,179,8,0.35)",
+    shadowColor: "#000",
+    shadowOpacity: 0.25,
+    shadowRadius: 8,
+    elevation: 4,
+  },
+
+  cardTitle: {
     fontSize: 16,
-    fontWeight: "700",
-    marginBottom: 16,
+    fontWeight: "800",
+    color: "#E5E7EB",
+    marginBottom: 6,
     textAlign: "center",
   },
 
-  modeWrapper: {
-    marginBottom: 14,
-  },
-
-  modeBtn: {
-    backgroundColor: "rgba(255,255,255,0.07)",
-    borderRadius: 16,
-    paddingVertical: 18,
-    paddingHorizontal: 20,
-    borderWidth: 1.6,
-    borderColor: "#CFAE64",
-    alignItems: "center",
-  },
-
-  modeTitle: {
-    color: "#FFF0D0",
-    fontSize: 20,
-    fontWeight: "700",
-    marginBottom: 4,
-  },
-
-  modeSubtitle: {
-    color: "#D8C7A0",
-    fontSize: 13,
+  cardSub: {
+    fontSize: 12,
+    color: "#9CA3AF",
+    textAlign: "center",
   },
 
   backBtn: {
@@ -262,10 +263,9 @@ const styles = StyleSheet.create({
   },
 
   backText: {
-    color: "#F5E6C6",
-    fontSize: 15,
+    fontSize: 14,
+    color: "#E5E7EB",
     opacity: 0.8,
   },
 });
-
 

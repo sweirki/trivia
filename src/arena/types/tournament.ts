@@ -22,8 +22,13 @@ export interface Tournament {
   id: string;
   name: string;
   createdAt: number;
+  startsAt: number;
+  currentStage: "qualifier" | "semifinal" | "final"; // ⭐ ADD THIS
   status: TournamentStatus;
   config: TournamentConfig;
   players: TournamentPlayer[];
   winnerUid?: string;
 }
+
+
+

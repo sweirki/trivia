@@ -5,3 +5,4 @@ export interface TournamentBracket {
   semifinals: TournamentMatch[];
   final: TournamentMatch | null;
 }
+

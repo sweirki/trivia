@@ -15,3 +15,4 @@ export interface TournamentMatch {
   resolvedAt?: number;
   resolutionReason?: "normal" | "timeout" | "forfeit";
 }
+

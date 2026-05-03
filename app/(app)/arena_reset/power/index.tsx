@@ -6,12 +6,8 @@ import { router } from "expo-router";
 import { s } from "@/arena/theme/arenaSizing";
 import { usePowerArenaMatchStore } from "@/arena/power/store/usePowerArenaMatchStore";
 import sampleQuestions from "../../../../assets/data/sampleQuestions.json";
-type RawQuestion = {
-  id: string;
-  question: string;
-  answers: string[];
-  correctAnswer: string;
-};
+import type { RawQuestion } from "@/questions/normalizeQuestions";
+
 
 export default function PowerUpArenaEntry() {
   const { setMode } = useArenaStore();
@@ -67,7 +63,7 @@ usePowerArenaMatchStore.getState().startMatch(questions);
 
         <TouchableOpacity
           style={styles.manageBtn}
-          onPress={() => router.push("/(app)/arena_reset/shop")}
+          onPress={() => router.push("/shop")}
         >
           <Text style={styles.manageText}>Manage Power-Ups</Text>
         </TouchableOpacity>
@@ -201,5 +197,6 @@ const styles = StyleSheet.create({
     fontWeight: "700",
   },
 });
+
 
 

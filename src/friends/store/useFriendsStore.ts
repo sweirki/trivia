@@ -1,7 +1,8 @@
 // src/friends/store/useFriendsStore.ts
 
 import { create } from 'zustand';
-import type { Friend, FriendRequest } from '../types';
+import type { Friend, FriendRequest, FriendStatus } from '../types';
+
 import { saveItem, StorageKeys } from '../../storage/storage';
 
 interface FriendsState {
@@ -31,10 +32,11 @@ export const useFriendsStore = create<FriendsState>((set, get) => ({
     const request = requests.find((r) => r.id === id);
     if (!request) return;
 
-    const updatedFriends = [
-      ...friends,
-      { ...request.from, status: 'accepted' },
-    ];
+   const updatedFriends = [
+  ...friends,
+  { ...request.from, status: 'accepted' as FriendStatus },
+];
+
     const updatedRequests = requests.filter((r) => r.id !== id);
 
     set({
@@ -59,4 +61,5 @@ export const useFriendsStore = create<FriendsState>((set, get) => ({
     });
   },
 }));
+
 

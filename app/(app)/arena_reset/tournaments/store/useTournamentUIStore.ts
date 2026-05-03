@@ -34,3 +34,4 @@ export const useTournamentUIStore = create<TournamentUIState>(
 export default function RouteShim() {
   return null;
 }
+

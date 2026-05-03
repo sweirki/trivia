@@ -391,3 +391,4 @@ submitMatchResult: (matchId, scoreA, scoreB) => {
     }
   )
 );
+

@@ -1,43 +1,41 @@
-// app/achievements/AchievementModal.tsx
-import React from 'react';
-import { View, Text, Modal, StyleSheet, TouchableOpacity, Image } from 'react-native';
-import { useTheme } from '@/theme';
-import ConfettiView from '../play/components/ConfettiView';
-import { useAchievementsStore } from '@/store/achievementsStore';
+import React from "react";
+import { View, Text, Modal, StyleSheet, TouchableOpacity } from "react-native";
+import { useTheme } from "@/theme";
 
-export default function AchievementModal({ visible, achievementId, onClose }) {
+type Props = {
+  visible: boolean;
+  achievement: {
+    id: string;
+    name?: string;
+    description?: string;
+  } | null;
+  onClose: () => void;
+};
+
+export default function AchievementModal({
+  visible,
+  achievement,
+  onClose,
+}: Props) {
   const theme = useTheme();
 
-  if (!achievementId) return null;
-
-  const achievement = ACHIEVEMENTS.find((a) => a.id === achievementId);
-  if (!achievement) return null;
+  if (!visible || !achievement) return null;
 
   return (
-    <Modal transparent visible={visible} animationType="fade">
+    <Modal transparent animationType="fade" visible={visible}>
       <View style={styles.overlay}>
-        <View style={[styles.card, { backgroundColor: theme.colors.backgroundSoft }]}>
-
-          <ConfettiView />
-
-          <Image source={achievement.icon} style={styles.icon} />
-
-          <Text style={[styles.name, { color: theme.colors.gold }]}>
-            {achievement.name}
+        <View style={[styles.card, { backgroundColor: theme.colors.background }]}>
+          <Text style={[styles.title, { color: theme.colors.gold }]}>
+            {achievement.name ?? "Achievement Unlocked"}
           </Text>
 
-          <Text style={[styles.desc, { color: theme.colors.text }]}>
-            {achievement.description}
-          </Text>
-
-          <Text style={[styles.reward, { color: theme.colors.textMuted }]}>
-            +{achievement.xpReward} XP
+          <Text style={[styles.desc, { color: theme.colors.textMuted }]}>
+            {achievement.description ?? "You unlocked a new achievement."}
           </Text>
 
           <TouchableOpacity style={styles.button} onPress={onClose}>
-            <Text style={styles.buttonTxt}>Continue</Text>
+            <Text style={styles.buttonText}>Close</Text>
           </TouchableOpacity>
-
         </View>
       </View>
     </Modal>
@@ -47,49 +45,38 @@ export default function AchievementModal({ visible, achievementId, onClose }) {
 const styles = StyleSheet.create({
   overlay: {
     flex: 1,
-    backgroundColor: 'rgba(0,0,0,0.65)',
-    justifyContent: 'center',
-    alignItems: 'center',
+    backgroundColor: "rgba(0,0,0,0.7)",
+    justifyContent: "center",
+    alignItems: "center",
     padding: 20,
   },
   card: {
-    width: '100%',
-    borderRadius: 20,
-    padding: 30,
-    alignItems: 'center',
-    position: 'relative',
+    width: "100%",
+    borderRadius: 16,
+    padding: 24,
+    alignItems: "center",
   },
-  icon: {
-    width: 64,
-    height: 64,
-    marginBottom: 20,
-  },
-  name: {
-    fontSize: 24,
-    fontWeight: '800',
+  title: {
+    fontSize: 22,
+    fontWeight: "800",
     marginBottom: 10,
-    textAlign: 'center',
+    textAlign: "center",
   },
   desc: {
     fontSize: 15,
-    textAlign: 'center',
-    marginBottom: 14,
-  },
-  reward: {
-    fontSize: 16,
+    textAlign: "center",
     marginBottom: 20,
   },
   button: {
-    backgroundColor: '#FFD700',
-    paddingVertical: 14,
-    paddingHorizontal: 40,
-    borderRadius: 12,
+    backgroundColor: "#FFD700",
+    paddingHorizontal: 32,
+    paddingVertical: 12,
+    borderRadius: 10,
   },
-  buttonTxt: {
-    color: '#000',
-    fontSize: 18,
-    fontWeight: '700',
+  buttonText: {
+    fontWeight: "700",
+    color: "#000",
+    fontSize: 16,
   },
 });
-
 

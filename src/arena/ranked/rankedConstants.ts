@@ -40,3 +40,4 @@ export const RANKED_MATCH_CONFIG = {
 export const RANKED_AI_DEFAULT = {
   BASE_RATING: 1000,
 };
+

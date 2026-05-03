@@ -29,3 +29,4 @@ export interface Challenge {
   rewardClaimed?: boolean;
 }
 
+

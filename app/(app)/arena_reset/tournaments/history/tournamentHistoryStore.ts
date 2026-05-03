@@ -8,3 +8,4 @@ export interface TournamentHistoryRecord {
 export default function RouteShim() {
   return null;
 }
+

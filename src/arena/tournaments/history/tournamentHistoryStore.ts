@@ -5,3 +5,4 @@ export interface TournamentHistoryRecord {
   placement: number;
   rewardCoins: number;
 }
+

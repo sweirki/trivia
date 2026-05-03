@@ -5,7 +5,8 @@ import { RankedMatch, RankedMatchResult, RankedPlayerState } from "./rankedTypes
 import { RANKED_ELO } from "./rankedConstants";
 import { createRankedMatch } from "./rankedMatchmaker";
 import { calculateNewRating, resolveTier } from "./rankedRating";
-import { Question } from "@/types/question";
+import type { NormalizedQuestion as Question } from "@/questions/normalizeQuestions";
+
 
 type RankedArenaState = {
   // player ranked state
@@ -98,3 +99,4 @@ export const useRankedArenaStore = create<RankedArenaState>((set, get) => ({
     set({ currentMatch: null });
   },
 }));
+

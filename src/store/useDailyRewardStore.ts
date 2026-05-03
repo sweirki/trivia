@@ -52,3 +52,4 @@ export const useDailyRewardStore = create<DailyRewardState>()(
     }
   )
 );
+

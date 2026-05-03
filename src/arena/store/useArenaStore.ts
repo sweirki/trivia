@@ -18,13 +18,17 @@ interface ArenaOpponent {
   avatar: string;
   difficulty: string;
   score: number;
+  sr: number; // ⭐ ADD THIS
 }
 
+
 interface ArenaPlayer {
+  id: string; // ⭐ ADD THIS LINE
   score: number;
   streak: number;
   powerupsUsed: number;
 }
+
 
 interface ArenaStoreState {
   mode: ArenaMode;
@@ -83,11 +87,13 @@ export const useArenaStore = create<ArenaStoreState>((set, get) => ({
   mode: null,
   matchState: "idle",
 
-  player: {
-    score: 0,
-    streak: 0,
-    powerupsUsed: 0,
-  },
+ player: {
+  id: "player", // ⭐ ADD THIS
+  score: 0,
+  streak: 0,
+  powerupsUsed: 0,
+},
+
 
   opponent: null,
 
@@ -109,15 +115,17 @@ export const useArenaStore = create<ArenaStoreState>((set, get) => ({
   setMatchState: (state) => set({ matchState: state }),
 
   setOpponent: (opp) =>
-    set({
-      opponent: {
-        id: opp.id,
-        name: opp.name,
-        avatar: opp.avatar,
-        difficulty: opp.difficulty,
-        score: 0,
-      },
-    }),
+  set({
+    opponent: {
+      id: opp.id,
+      name: opp.name,
+      avatar: opp.avatar,
+      difficulty: opp.difficulty,
+      score: 0,
+      sr: opp.sr ?? 0,
+    },
+  }),
+
 
   activatePowerUp: (type) => {
     if (type === "freeze") set({ powerFreeze: true });
@@ -231,7 +239,8 @@ startRankedMatch: async () => {
     matchState: "in-match",     // Move directly to in-match
     questions: shuffled,
     currentQuestionIndex: 0,
-    player: { score: 0, streak: 0, powerupsUsed: 0 },
+    player: { id: "player", score: 0, streak: 0, powerupsUsed: 0 },
+
   });
 },
 
@@ -261,7 +270,7 @@ startRankedMatch: async () => {
     set({
       mode: null,
       matchState: "idle",
-      player: { score: 0, streak: 0, powerupsUsed: 0 },
+      player: { id: "player", score: 0, streak: 0, powerupsUsed: 0 },
       opponent: null,
       questions: [],
       currentQuestionIndex: 0,
@@ -272,5 +281,6 @@ startRankedMatch: async () => {
       powerReveal: false,
     }),
 }));
+
 
 

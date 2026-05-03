@@ -5,35 +5,46 @@ import { create } from "zustand";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { persist, createJSONStorage } from "zustand/middleware";
 
-export const usePowerUpStore = create(
+// -----------------------------------------------------
+// TYPES
+// -----------------------------------------------------
+type PowerUpType = "doubleXP" | "skipQuestion" | "revealAnswer";
+
+type PowerUpInventory = Record<PowerUpType, number>;
+
+type PowerUpState = {
+  inventory: PowerUpInventory;
+  addPowerUp: (type: PowerUpType, amount?: number) => void;
+  usePowerUp: (type: PowerUpType) => void;
+  resetPowerUps: () => void;
+};
+
+// -----------------------------------------------------
+// STORE
+// -----------------------------------------------------
+export const usePowerUpStore = create<PowerUpState>()(
   persist(
     (set, get) => ({
-      // -----------------------------------------------------
       // PLAYER OWNED POWERUPS (JSON SAFE)
-      // -----------------------------------------------------
       inventory: {
         doubleXP: 0,
         skipQuestion: 0,
         revealAnswer: 0,
       },
 
-      // -----------------------------------------------------
       // ADD POWERUP
-      // -----------------------------------------------------
       addPowerUp: (type, amount = 1) => {
         set((state) => ({
           inventory: {
             ...state.inventory,
-            [type]: (state.inventory[type] || 0) + amount,
+            [type]: state.inventory[type] + amount,
           },
         }));
       },
 
-      // -----------------------------------------------------
       // USE POWERUP
-      // -----------------------------------------------------
       usePowerUp: (type) => {
-        const current = get().inventory[type] || 0;
+        const current = get().inventory[type];
         if (current <= 0) return;
 
         set((state) => ({
@@ -44,9 +55,7 @@ export const usePowerUpStore = create(
         }));
       },
 
-      // -----------------------------------------------------
       // RESET ALL POWERUPS
-      // -----------------------------------------------------
       resetPowerUps: () =>
         set({
           inventory: {
@@ -56,10 +65,6 @@ export const usePowerUpStore = create(
           },
         }),
     }),
-
-    // -----------------------------------------------------
-    // SAFE PERSISTENCE CONFIG
-    // -----------------------------------------------------
     {
       name: "powerups-store",
       storage: createJSONStorage(() => AsyncStorage),
@@ -69,5 +74,4 @@ export const usePowerUpStore = create(
     }
   )
 );
-
 

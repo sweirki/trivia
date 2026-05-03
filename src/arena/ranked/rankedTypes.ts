@@ -1,6 +1,7 @@
 // src/arena/ranked/rankedTypes.ts
 
-import { Question } from "@/types/question";
+import type { NormalizedQuestion as Question } from "@/questions/normalizeQuestions";
+
 
 /**
  * Ranked match lifecycle
@@ -55,3 +56,4 @@ export type RankedPlayerState = {
  * Result of a ranked match
  */
 export type RankedMatchResult = "win" | "loss" | "draw";
+

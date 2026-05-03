@@ -6,7 +6,9 @@ import { useSurvivalHistoryStore } from "@/arena/store/useSurvivalHistoryStore";
 import { useArenaRewardsEngine } from "@/arena/store/useArenaRewardsEngine";
 
 export default function SurvivalResult() {
-  const { survivalScore, resetArena } = useArenaStore();
+  const { player, resetArena } = useArenaStore();
+const survivalScore = player.score;
+
 
   const rounds = survivalScore ?? 0;
 const addRun = useSurvivalHistoryStore((s) => s.addRun);
@@ -18,7 +20,8 @@ const rewardSurvival = useArenaRewardsEngine(
     addRun(rounds);
     rewardSurvival({ rounds });
     resetArena();
-    router.replace("/(app)/arena");
+   router.replace("/arena_reset");
+
   };
 
   return (
@@ -86,3 +89,4 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 });
+

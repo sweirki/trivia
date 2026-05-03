@@ -4,6 +4,20 @@ import {
   View as RNView,
   useColorScheme,
 } from "react-native";
+const COLORS = {
+  bg: "#0E1424",          // deep navy (not black)
+  card: "#1A2238",        // card surface
+  cardSoft: "#202A44",    // subtle alt card
+  border: "#2E3A5C",
+
+  gold: "#F5C451",        // softened gold
+  goldSoft: "#FFD978",
+
+  textPrimary: "#FFFFFF",
+  textSecondary: "#9AA3B2",
+
+  green: "#3DDC97",       // play now
+};
 
 const gold = "#D8B24A";
 const goldSoft = "#FBE7A1";
@@ -14,15 +28,18 @@ const white = "#FFFFFF";
 type Theme = {
   scheme: "light" | "dark";
   colors: {
-    background: string;
-    surface: string;
-    card: string;
-    text: string;
-    textMuted: string;
-    gold: string;
-    goldSoft: string;
-    border: string;
-  };
+  background: string;
+  backgroundSoft: string;
+  surface: string;
+  card: string;
+  text: string;
+  textMuted: string;
+  gold: string;
+  goldSoft: string;
+  border: string;
+  error: string;
+};
+
   spacing: {
     xs: number;
     sm: number;
@@ -40,7 +57,8 @@ type Theme = {
   };
 };
 
-const ThemeContext = createContext<Theme | null>(null);
+export const ThemeContext = createContext<Theme | null>(null);
+
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const scheme = useColorScheme() ?? "dark";
@@ -49,16 +67,19 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const theme: Theme = useMemo(() => {
     return {
       scheme,
-      colors: {
-        background: isLight ? white : black,
-        surface: isLight ? "#f4f4f4" : dark,
-        card: isLight ? "#ffffff" : "#1A1A1A",
-        text: isLight ? "#111" : "#fff",
-        textMuted: isLight ? "#555" : "#999",
-        gold,
-        goldSoft,
-        border: isLight ? "#ddd" : "#333",
-      },
+   colors: {
+  background: isLight ? white : black,
+  backgroundSoft: isLight ? "#f4f4f4" : "#1A2238",
+  surface: isLight ? "#f4f4f4" : dark,
+  card: isLight ? "#ffffff" : "#1A1A1A",
+  text: isLight ? "#111" : "#fff",
+  textMuted: isLight ? "#555" : "#999",
+  gold,
+  goldSoft,
+  border: isLight ? "#ddd" : "#333",
+  error: "#E74C3C",
+},
+
 
       spacing: {
         xs: 4,
@@ -119,5 +140,6 @@ export function View(props: any) {
   );
 }
 export default ThemeProvider;
+
 
 

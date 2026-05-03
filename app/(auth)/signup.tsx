@@ -1,8 +1,14 @@
 import React, { useState } from "react";
-import { View, StyleSheet, TextInput, TouchableOpacity } from "react-native";
+import {
+  View,
+  StyleSheet,
+  TextInput,
+  Pressable,
+} from "react-native";
 import { Text } from "@/theme";
 import { useRouter } from "expo-router";
 import { useAuthStore } from "@/store/useAuthStore";
+
 export default function SignupScreen() {
   const router = useRouter();
   const { signup, loading } = useAuthStore();
@@ -21,86 +27,128 @@ export default function SignupScreen() {
 
   return (
     <View style={styles.root}>
-      <Text style={styles.title}>Create Account</Text>
-      <Text style={styles.subtitle}>Start saving your progress in the cloud</Text>
-
-      <TextInput
-        placeholder="Email"
-        placeholderTextColor="#777"
-        style={styles.input}
-        autoCapitalize="none"
-        keyboardType="email-address"
-        value={email}
-        onChangeText={setEmail}
-      />
-
-      <TextInput
-        placeholder="Password"
-        placeholderTextColor="#777"
-        style={styles.input}
-        secureTextEntry
-        value={password}
-        onChangeText={setPassword}
-      />
-
-      <TouchableOpacity style={styles.primaryBtn} onPress={onSignup} disabled={loading}>
-        <Text style={styles.primaryText}>
-          {loading ? "Creating..." : "Sign Up"}
+      {/* ===== HEADER ===== */}
+      <View style={styles.header}>
+        <Text style={styles.title}>Create your account</Text>
+        <Text style={styles.subtitle}>
+          Save your progress and level up across devices
         </Text>
-      </TouchableOpacity>
+      </View>
 
-      <TouchableOpacity onPress={() => router.replace("/(auth)/login")}>
-        <Text style={styles.link}>Already have an account? Login</Text>
-      </TouchableOpacity>
+      {/* ===== CARD ===== */}
+      <View style={styles.card}>
+        <TextInput
+          placeholder="Email"
+          placeholderTextColor="#6B7280"
+          style={styles.input}
+          autoCapitalize="none"
+          keyboardType="email-address"
+          value={email}
+          onChangeText={setEmail}
+        />
+
+        <TextInput
+          placeholder="Password"
+          placeholderTextColor="#6B7280"
+          style={styles.input}
+          secureTextEntry
+          value={password}
+          onChangeText={setPassword}
+        />
+      </View>
+
+      {/* ===== PRIMARY BUTTON ===== */}
+      <Pressable
+        onPress={onSignup}
+        disabled={loading}
+        style={({ pressed }) => [
+          styles.primaryBtn,
+          pressed && { opacity: 0.85 },
+        ]}
+      >
+        <Text style={styles.primaryText}>
+          {loading ? "Creating…" : "Create account"}
+        </Text>
+      </Pressable>
+
+      {/* ===== LINK ===== */}
+      <Pressable onPress={() => router.replace("/(auth)/login")}>
+        <Text style={styles.link}>
+          Already have an account? Sign in
+        </Text>
+      </Pressable>
     </View>
   );
 }
 
+/* ================= STYLES ================= */
+
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor: "#000",
-    paddingHorizontal: 22,
-    paddingTop: 80,
+    backgroundColor: "#0B1220",
+    paddingHorizontal: 20,
   },
+
+  header: {
+    marginTop: 72,
+    alignItems: "center",
+    marginBottom: 28,
+  },
+
   title: {
-    fontSize: 28,
+    fontSize: 19,
     fontWeight: "800",
-    color: "#FBECC5",
-    marginBottom: 6,
+    color: "#F6C453",
   },
+
   subtitle: {
-    fontSize: 14,
-    color: "#D8C7A0",
-    marginBottom: 30,
+    marginTop: 4,
+    fontSize: 11,
+    color: "#9AA3B2",
+    textAlign: "center",
   },
+
+  card: {
+    backgroundColor: "#141C2E",
+    borderRadius: 16,
+    padding: 14,
+    borderWidth: 1,
+    borderColor: "#24304C",
+    marginBottom: 16,
+  },
+
   input: {
-    backgroundColor: "rgba(255,255,255,0.06)",
+    backgroundColor: "#1B243A",
     borderRadius: 12,
-    paddingVertical: 12,
-    paddingHorizontal: 14,
-    color: "#fff",
-    borderWidth: 1.2,
-    borderColor: "rgba(255,255,255,0.12)",
-    marginBottom: 14,
+    paddingVertical: 10,
+    paddingHorizontal: 12,
+    color: "#FFFFFF",
+    borderWidth: 1,
+    borderColor: "#24304C",
+    marginBottom: 10,
+    fontSize: 13,
   },
+
   primaryBtn: {
-    backgroundColor: "#FFD775",
-    borderRadius: 12,
+    marginTop: 4,
     paddingVertical: 12,
-    marginBottom: 12,
+    borderRadius: 16,
+    backgroundColor: "#F6C453",
   },
+
   primaryText: {
     textAlign: "center",
-    fontSize: 16,
-    fontWeight: "700",
-    color: "#000",
-  },
-  link: {
-    color: "#FBECC5",
-    marginTop: 8,
     fontSize: 14,
+    fontWeight: "800",
+    color: "#0B1220",
+  },
+
+  link: {
+    marginTop: 10,
+    fontSize: 11,
+    color: "#9AA3B2",
+    textAlign: "center",
   },
 });
-
 

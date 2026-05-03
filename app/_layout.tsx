@@ -9,12 +9,21 @@ import BackgroundMusicPlayer from "@/components/BackgroundMusicPlayer";
 import { useAuthStore } from "@/store/useAuthStore";
 
 export default function Root() {
-  const { initAuth } = useAuthStore();
+ const { initAuth, loadCloudProfile } = useAuthStore();
+
 
   // Initialize authentication ONCE
   useEffect(() => {
     initAuth();
   }, []);
+const user = useAuthStore((s) => s.user);
+
+useEffect(() => {
+  if (!user) return;
+
+  loadCloudProfile();
+}, [user]);
+
 
   return (
     <ThemeProvider>
@@ -27,5 +36,6 @@ export default function Root() {
     </ThemeProvider>
   );
 }
+
 
 

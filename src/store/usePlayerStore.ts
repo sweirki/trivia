@@ -1,16 +1,25 @@
 // /store/usePlayerStore.ts
 import { create } from "zustand";
-import { getAuthInstance } from "@/firebase/firebase";
+import { auth } from "@/firebase/firebase";
+import { onGameFinished } from '../achievements/achievementHooks';
+import { getAuth } from "firebase/auth";
+import { app } from "@/firebase/firebase";
+import { DailyState } from "@/daily/types";
+import { PlayerCosmeticsState } from "@/cosmetics/playerCosmetics";
+import { COSMETICS_CATALOG } from "@/cosmetics/catalog";
+import { useSeasonStore } from "@/seasons/store/useSeasonStore";
+import { SEASON_XP } from "@/seasons/seasonXpRules";
 
 import { persist, createJSONStorage } from "zustand/middleware";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { db } from "@/firebase/firebase";
 import {
-  db,
   doc,
   getDoc,
   setDoc,
   serverTimestamp,
-} from "../../firebase/firebase";
+} from "firebase/firestore";
+
 import NetInfo from "@react-native-community/netinfo";
 
 // XP curve
@@ -30,9 +39,72 @@ const defaultInventory = {
   coinBoost1: 0,
   gemPack1: 0,
   timeBooster: 0,
+  
+
 };
 
 export interface PlayerStoreState {
+daily: DailyState;
+streak: number;
+
+setDaily: (daily: DailyState) => void;
+weekly: {
+  weekKey: string;
+  progress: number;
+  claimed: boolean;
+};
+setWeekly: (weekly: {
+  weekKey: string;
+  progress: number;
+  claimed: boolean;
+}) => void;
+claimWeeklyReward: (reward: { xp: number; coins: number }) => void;
+
+// ----------------------------
+// COSMETICS — STORE ENGINE (C3.2)
+// ----------------------------
+purchaseCosmetic: (id: string) => {
+  success: boolean;
+  reason?: "ALREADY_OWNED" | "INSUFFICIENT_COINS" | "NOT_FOUND";
+};
+isCosmeticOwned: (id: string) => boolean;
+
+// ----------------------------
+// COSMETICS — EQUIP (C3.4)
+// ----------------------------
+equipCosmetic: (id: string) => boolean;
+unequipCosmetic: (
+  type: "avatar" | "frame" | "badge" | "theme"
+) => void;
+justLeveledUp: boolean;
+clearLevelUpFlag: () => void;
+
+// ----------------------------
+// LIFETIME STATS (Phase C1)
+// ----------------------------
+totalGamesPlayed: number;
+totalWins: number;
+
+incrementGamesPlayed: () => void;
+incrementWins: () => void;
+incrementDailyStreak: () => void;
+resetDailyStreak: () => void;
+
+
+// ----------------------------
+// COSMETICS (Phase C3)
+// ----------------------------
+cosmetics: PlayerCosmeticsState;
+setCosmetics: (cosmetics: PlayerCosmeticsState) => void;
+
+
+
+// ----------------------------
+// AUTH IDENTITY (Phase C1)
+// ----------------------------
+userId: string | null;
+setUserId: (id: string | null) => void;
+
   // CORE
   xp: number;
   level: number;
@@ -41,14 +113,10 @@ export interface PlayerStoreState {
   tickets: number;
 
   vipTier: number;
+  setVIPTier: (tier: number) => void;
   ownedPacks: string[];
   inventory: Record<string, number>;
 
-  streak: number;
-  lastDailyClaim: number;
-
-  justLeveledUp: boolean;
-  clearLevelUpFlag: () => void;
 
   // CLOUD / OFFLINE
   offlineQueue: { xp: number; coins: number; gems: number }[];
@@ -73,9 +141,6 @@ export interface PlayerStoreState {
   spendGems: (amount: number) => boolean;
   spendTickets: (amount: number) => boolean;
 
-  // DAILY (this already exists in your store object, so it MUST be in the type)
-  claimDaily: () => void;
-
   // SYNC
   syncNow: () => Promise<void>;
   flushQueue: (userId: string) => Promise<void>;
@@ -89,6 +154,8 @@ export interface PlayerStoreState {
   purchaseInventoryItem: (id: string, qty: number) => void;
 
   grantItem: (id: string, qty: number) => void;
+  addBooster: (id: string) => void;
+
   consumeItem: (id: string) => void;
   purchasePack: (id: string) => void;
   upgradeVIP: (tier: number) => void;
@@ -104,38 +171,104 @@ export interface PlayerStoreState {
   // DIRECT XP
   addXPDirect: (amount: number) => void;
 
+
+  
   // ----------------------------
-  // PLAYER IDENTITY (PHASE C)
-  // ----------------------------
-  tournamentsPlayed: number;
-  tournamentsWon: number;
-  bestTournamentFinish: number | null;
-  titles: string[];
+// PLAYER IDENTITY (PHASE 10B)
+// ----------------------------
+nickname: string | null;
+avatarId: string | null;
+
+setNickname: (name: string) => void;
+setAvatar: (id: string) => void;
+
+  // ---------------------------------------------------------
+// PLAYER IDENTITY (PHASE C)
+// ---------------------------------------------------------
+tournamentsPlayed: number;
+tournamentsWon: number;
+bestTournamentFinish: number | null;
+titles: string[];
+
+tournamentHistory: {
+  tournamentId: string;
+  position: number;
+  totalPlayers: number;
+  timestamp: number;
+}[];
 
   recordTournamentResult: (result: {
     position: number;
     totalPlayers: number;
   }) => void;
 
-  tournamentHistory: {
-    tournamentId: string;
-    position: number;
-    totalPlayers: number;
-    timestamp: number;
-  }[];
 }
 // Player Store
 export const usePlayerStore = create<PlayerStoreState>()(
+
   persist(
     (set, get) => ({
+
+streak: 0,
+
+
+      
       // ---------------------------------------------------------
       // CORE STATS
       // ---------------------------------------------------------
       xp: 0,
       level: 1,
       coins: 500,
+      daily: {
+    lastClaimDate: null,
+    streak: 0,
+    totalClaims: 0,
+  },
+weekly: {
+  weekKey: "",
+  progress: 0,
+  claimed: false,
+},
+
+ setDaily: (daily) =>
+  set({
+    daily,
+    streak: daily.streak,
+  }),
+
+setWeekly: (weekly) => set({ weekly }),
+
+
+claimWeeklyReward: (reward) => {
+  const { weekly, applyReward } = get();
+
+  if (weekly.claimed) return;
+
+  applyReward(reward.xp, reward.coins);
+
+  set({
+    weekly: {
+      ...weekly,
+      claimed: true,
+    },
+    
+  });
+  const uid = get().userId;
+if (uid) {
+  void useSeasonStore.getState().addSeasonXp(uid, SEASON_XP.WEEKLY_CLAIM);
+}
+
+},
+
       gems: 20,
       tickets: 3,
+
+// ----------------------------
+// LIFETIME STATS (Phase C1)
+// ----------------------------
+totalGamesPlayed: 0,
+totalWins: 0,
+
 
       // ---------------------------------------------------------
       // ECONOMY SYSTEM
@@ -144,11 +277,15 @@ export const usePlayerStore = create<PlayerStoreState>()(
       ownedPacks: [],
       inventory: defaultInventory,
 
-      // ---------------------------------------------------------
-      // DAILY + STREAK
-      // ---------------------------------------------------------
-      streak: 0,
-      lastDailyClaim: 0,
+// ---------------------------------------------------------
+// PLAYER IDENTITY (PHASE 10B)
+// ---------------------------------------------------------
+nickname: null,
+avatarId: null,
+
+userId: null,
+setUserId: (id) => set({ userId: id }),
+
 
       // ---------------------------------------------------------
       // PLAYER IDENTITY (PHASE C)
@@ -156,14 +293,155 @@ export const usePlayerStore = create<PlayerStoreState>()(
       tournamentsPlayed: 0,
       tournamentsWon: 0,
       bestTournamentFinish: null,
-       tournamentHistory: [],
+      tournamentHistory: [],
       titles: [],
+// ----------------------------
+// COSMETICS (Phase C3)
+// ----------------------------
+cosmetics: {
+  owned: { avatar_01: true },
+  equipped: { AVATAR: "avatar_01" },
+},
+
+
+setCosmetics: (cosmetics) => set({ cosmetics }),
+
+// ----------------------------
+// COSMETICS — STORE ENGINE (C3.2)
+// ----------------------------
+isCosmeticOwned: (id) => {
+  return get().cosmetics.owned[id] === true;
+},
+purchaseCosmetic: (id) => {
+  const catalogItem = COSMETICS_CATALOG.find(
+    (item) => item.id === id
+  );
+
+  if (!catalogItem) {
+    return { success: false, reason: "NOT_FOUND" };
+  }
+
+  const { coins, gems, cosmetics } = get();
+
+  if (cosmetics.owned?.[id] === true) {
+    return { success: false, reason: "ALREADY_OWNED" };
+  }
+
+  const price = catalogItem.price;
+  if (!price) {
+    return { success: false, reason: "NOT_FOUND" };
+  }
+
+  // ---- COINS ----
+  if (price.currency === "COINS") {
+    if (coins < price.amount) {
+      return { success: false, reason: "INSUFFICIENT_COINS" };
+    }
+
+    set({
+      coins: coins - price.amount,
+    });
+  }
+
+  // ---- GEMS ----
+  else if (price.currency === "GEMS") {
+    if (gems < price.amount) {
+      return { success: false, reason: "INSUFFICIENT_COINS" };
+    }
+
+    set({
+      gems: gems - price.amount,
+    });
+  }
+
+  else {
+    return { success: false, reason: "NOT_FOUND" };
+  }
+
+  // Grant ownership
+  set({
+    cosmetics: {
+      ...cosmetics,
+      owned: {
+        ...(cosmetics.owned ?? {}),
+        [id]: true,
+      },
+    },
+    version: get().version + 1,
+  });
+
+  get().syncNow?.();
+
+  return { success: true };
+},
+
+
+// ----------------------------
+// COSMETICS — EQUIP (C3.4)
+// ----------------------------
+equipCosmetic: (id) => {
+  const { cosmetics } = get();
+
+ if (cosmetics.owned?.[id] !== true) {
+  return false;
+}
+
+const item = COSMETICS_CATALOG.find((c) => c.id === id);
+if (!item) return false;
+
+set({
+  cosmetics: {
+    ...cosmetics,
+    equipped: {
+      ...(cosmetics.equipped ?? {}),
+      [item.category]: id,
+    },
+  },
+  version: get().version + 1,
+});
+
+get().syncNow?.();
+return true;
+
+},
+unequipCosmetic: (type) => {
+  const { cosmetics } = get();
+
+  set({
+    cosmetics: {
+      ...cosmetics,
+      equipped: {
+        ...cosmetics.equipped,
+        [type]: null,
+      },
+    },
+    version: get().version + 1,
+  });
+
+  get().syncNow?.();
+},
+
+
+
 
       // ---------------------------------------------------------
       // SYSTEM FLAGS
       // ---------------------------------------------------------
       justLeveledUp: false,
       clearLevelUpFlag: () => set({ justLeveledUp: false }),
+
+// ---------------------------------------------------------
+// PLAYER IDENTITY ACTIONS (PHASE 10B)
+// ---------------------------------------------------------
+setNickname: (name: string) =>
+  set({
+    nickname: name.trim().length > 0 ? name.trim() : null,
+  }),
+
+setAvatar: (id: string) =>
+  set({
+    avatarId: id,
+  }),
 
       // ---------------------------------------------------------
       // CLOUD SYNC CORE DATA
@@ -191,6 +469,9 @@ export const usePlayerStore = create<PlayerStoreState>()(
         inv[id] = (inv[id] || 0) + qty;
         set({ inventory: inv });
       },
+addBooster: (id) => {
+  get().grantItem(id, 1);
+},
 
       consumeItem: (id) => {
         const inv = { ...get().inventory };
@@ -209,6 +490,10 @@ export const usePlayerStore = create<PlayerStoreState>()(
         const t = Math.max(0, Math.min(4, tier));
         set({ vipTier: t });
       },
+setVIPTier: (tier) => {
+  const t = Math.max(0, Math.min(4, tier));
+  set({ vipTier: t });
+},
 
       activateBoost: (type, value, duration) => {
         const boosts = { ...get().activeBoosts } as any;
@@ -222,94 +507,54 @@ export const usePlayerStore = create<PlayerStoreState>()(
         }, duration);
       },
 
-      // ---------------------------------------------------------
-      // DAILY CLAIM + STREAK
-      // ---------------------------------------------------------
-      claimDaily: () => {
-        const now = Date.now();
-        const last = get().lastDailyClaim;
-        if (now - last < 86400000) return;
-
-        let streak = get().streak + 1;
-        if (streak > 7) streak = 1;
-
-        const dailyXP = 50 * streak;
-        const dailyCoins = 20 * streak;
-        const dailyGems = streak === 7 ? 5 : 0;
-
-        let totalXP = get().xp + dailyXP;
-        let level = get().level;
-        let leveled = false;
-        let req = xpCurve(level);
-
-        while (totalXP >= req) {
-          totalXP -= req;
-          level++;
-          leveled = true;
-          req = xpCurve(level);
-        }
-
-        set({
-          xp: totalXP,
-          level,
-          coins: get().coins + dailyCoins,
-          gems: get().gems + dailyGems,
-          streak,
-          lastDailyClaim: now,
-          justLeveledUp: leveled,
-        });
-      },
 
       // ---------------------------------------------------------
       // REWARD ENGINE — XP / COINS / GEMS / BOOSTS / VIP
       // ---------------------------------------------------------
-      applyReward: (rawXP, rawCoins = 0, rawGems = 0) => {
-        const vip = vipMulti(get().vipTier);
+     applyReward: (rawXP, rawCoins = 0, rawGems = 0) => {
+  const vip = vipMulti(get().vipTier);
 
-        let xp = clamp(rawXP);
-        let coins = clamp(rawCoins);
-        let gems = clamp(rawGems);
+ let xpGain = clamp(rawXP);
 
-        xp = Math.floor(xp * vip + xp * (get().activeBoosts.xp || 0));
-        coins = Math.floor(coins + coins * (get().activeBoosts.coins || 0));
-        gems = Math.floor(gems + gems * (get().activeBoosts.gems || 0));
 
-        const queue = [...get().offlineQueue, { xp, coins, gems }];
+  let coinsGain = clamp(rawCoins);
+  let gemsGain = clamp(rawGems);
 
-        let totalXP = get().xp;
-        let totalCoins = get().coins;
-        let totalGems = get().gems;
+  xpGain = Math.floor(xpGain * vip + xpGain * (get().activeBoosts.xp || 0));
+  coinsGain = Math.floor(coinsGain + coinsGain * (get().activeBoosts.coins || 0));
+  gemsGain = Math.floor(gemsGain + gemsGain * (get().activeBoosts.gems || 0));
 
-        for (let i = 0; i < queue.length; i++) {
-          totalXP += queue[i].xp;
-          totalCoins += queue[i].coins;
-          totalGems += queue[i].gems;
-        }
+  // ✅ apply ONLY this reward to local totals
+  const nextCoins = get().coins + coinsGain;
+  const nextGems = get().gems + gemsGain;
 
-        let level = get().level;
-        let leveled = false;
-        let req = xpCurve(level);
+  // ✅ level progression from current xp + this xpGain
+  let remainingXP = get().xp + xpGain;
+  let level = get().level;
+  let leveled = false;
 
-        let remainingXP = totalXP;
-        while (remainingXP >= req) {
-          remainingXP -= req;
-          level++;
-          leveled = true;
-          req = xpCurve(level);
-        }
+  let req = xpCurve(level);
+  while (remainingXP >= req) {
+    remainingXP -= req;
+    level++;
+    leveled = true;
+    req = xpCurve(level);
+  }
 
-        set({
-          xp: remainingXP,
-          level,
-          coins: totalCoins,
-          gems: totalGems,
-          offlineQueue: queue,
-          justLeveledUp: leveled,
-        });
+  // ✅ queue deltas for later cloud sync
+  const nextQueue = [...get().offlineQueue, { xp: xpGain, coins: coinsGain, gems: gemsGain }];
 
-        get().syncNow();
-      },
+  set({
+    xp: remainingXP,
+    level,
+    coins: nextCoins,
+    gems: nextGems,
+    offlineQueue: nextQueue,
+    justLeveledUp: leveled,
+  });
 
+  get().syncNow();
+},
       // ---------------------------------------------------------
       // DIRECT AWARD FUNCTIONS (SHOP, EVENTS, ARENA)
       // ---------------------------------------------------------
@@ -329,14 +574,17 @@ export const usePlayerStore = create<PlayerStoreState>()(
         let userId: string | null = null;
 
         try {
-          const { getAuthInstance } = await import("@/firebase/firebase");
-          const auth = getAuthInstance();
+          
           userId = auth.currentUser?.uid ?? null;
         } catch {
+        
           return;
         }
 
         if (!userId) return;
+
+set({ userId });
+
 
         const ref = doc(db, "players", userId);
 
@@ -351,14 +599,15 @@ export const usePlayerStore = create<PlayerStoreState>()(
           set({
             xp: cloud.xp ?? 0,
             level: cloud.level ?? 1,
-            coins: cloud.coins ?? 0,
-            gems: cloud.gems ?? 0,
-            tickets: cloud.tickets ?? 0,
+          
+           
+           
             vipTier: cloud.vipTier ?? 0,
             ownedPacks: cloud.ownedPacks ?? [],
             inventory: cloud.inventory ?? defaultInventory,
-            streak: cloud.streak ?? 0,
-            lastDailyClaim: cloud.lastDailyClaim ?? 0,
+         
+
+cosmetics: cloud.cosmetics ?? get().cosmetics,
 
             // PHASE C identity load
             tournamentsPlayed: cloud.tournamentsPlayed ?? 0,
@@ -372,6 +621,24 @@ export const usePlayerStore = create<PlayerStoreState>()(
             justLeveledUp: false,
           });
         }
+       // ⬇️ THIS MUST BE A NEW set() CALL
+const dailyData =
+  cloud.daily ?? {
+    lastClaimDate: null,
+    streak: 0,
+    totalClaims: 0,
+  };
+
+set({
+  daily: dailyData,
+  streak: dailyData.streak,
+  weekly: cloud.weekly ?? {
+    weekKey: "",
+    progress: 0,
+    claimed: false,
+  },
+});
+
       },
 
       // ---------------------------------------------------------
@@ -387,14 +654,20 @@ export const usePlayerStore = create<PlayerStoreState>()(
           xp: get().xp,
           level: get().level,
           coins: get().coins,
+          daily: get().daily,
+          weekly: get().weekly,
+
+cosmetics: get().cosmetics,
+
           gems: get().gems,
+          totalGamesPlayed: get().totalGamesPlayed,
+totalWins: get().totalWins,
+
           tickets: get().tickets,
           vipTier: get().vipTier,
           ownedPacks: get().ownedPacks,
           inventory: get().inventory,
-          streak: get().streak,
-          lastDailyClaim: get().lastDailyClaim,
-
+      
           // PHASE C identity persist
           tournamentsPlayed: get().tournamentsPlayed,
           tournamentsWon: get().tournamentsWon,
@@ -423,8 +696,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
         let userId: string | null = null;
 
         try {
-          const { getAuthInstance } = await import("@/firebase/firebase");
-          const auth = getAuthInstance();
+        
           userId = auth.currentUser?.uid ?? null;
         } catch {
           return;
@@ -491,11 +763,9 @@ export const usePlayerStore = create<PlayerStoreState>()(
       },
 
       resetSeasonProgress: () => {
-        set({
-          streak: 0,
-          lastDailyClaim: 0,
-        });
-      },
+  set({});
+},
+
 
       grantSeasonalItem: (id, qty) => {
         get().grantItem(id, qty);
@@ -524,6 +794,42 @@ export const usePlayerStore = create<PlayerStoreState>()(
           justLeveledUp: leveled,
         });
       },
+// ----------------------------
+// LIFETIME STATS MUTATORS
+// ----------------------------
+incrementGamesPlayed: () =>
+  set({ totalGamesPlayed: get().totalGamesPlayed + 1 }),
+
+incrementWins: () =>
+  set({ totalWins: get().totalWins + 1 }),
+incrementDailyStreak: () => {
+  const d = get().daily;
+
+  const next = {
+    ...d,
+    streak: d.streak + 1,
+    totalClaims: d.totalClaims + 1,
+    lastClaimDate: new Date().toISOString(),
+  };
+
+  set({
+    daily: next,
+    streak: next.streak,
+  });
+},
+
+resetDailyStreak: () => {
+  const next = {
+    lastClaimDate: null,
+    streak: 0,
+    totalClaims: 0,
+  };
+
+  set({
+    daily: next,
+    streak: 0,
+  });
+},
 
       // ---------------------------------------------------------
       // PLAYER IDENTITY — TOURNAMENT RESULTS (PHASE C)
@@ -585,10 +891,25 @@ export const usePlayerStore = create<PlayerStoreState>()(
         return true;
       },
     }),
-    {
-      name: "player-store",
-      storage: createJSONStorage(() => AsyncStorage),
-      version: 1,
-    }
-  )
+   {
+  name: "player-store",
+  storage: createJSONStorage(() => AsyncStorage),
+  version: 2,
+
+  migrate: (persistedState: any, version: number) => {
+    return {
+      ...persistedState,
+      daily: {
+        lastClaimDate: null,
+        streak: 0,
+          totalClaims: 0,
+        },
+      };
+    },
+  }
+)
 );
+
+
+
+

@@ -13,13 +13,22 @@
     },
     "types": ["expo-router"]
   },
-  "include": [
-    "app",
-    "src",
-    "index.ts",
-    "index.tsx",
-    "App.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
+ "include": [
+  "app/**/*.ts",
+  "app/**/*.tsx",
+
+  "src/**/*.ts",
+  "src/**/*.tsx",
+
+  "index.ts",
+  "index.tsx",
+  "App.tsx",
+  ".expo/types/**/*.ts",
+  "expo-env.d.ts"
+],
+
+ "exclude": [
+  "app/debug.tsx"
+]
+
 }

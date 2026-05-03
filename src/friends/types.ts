@@ -16,3 +16,4 @@ export interface FriendRequest {
   from: Friend;
   createdAt: number;
 }
+

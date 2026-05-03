@@ -78,7 +78,8 @@ const hasRank =
           DAILY TOURNAMENT (PRIORITY)
       ============================ */}
       <View style={[styles.dailyBox, dailyAccent]}>
-        <Text style={styles.dailyTitle}>🎯 Daily Tournament</Text>
+        <Text style={styles.dailyTitle}>🏆 Arena Tournament</Text>
+
 
         <Text style={styles.dailyStatus}>
           {playedToday ? "Completed today ✓" : "Play today’s tournament"}
@@ -92,9 +93,10 @@ const hasRank =
           disabled={playedToday}
           onPress={() => router.push("/(app)/arena_reset/tournaments")}
         >
-          <Text style={styles.dailyBtnText}>
-            {playedToday ? "Done" : "Play Daily"}
-          </Text>
+         <Text style={styles.dailyBtnText}>
+  {playedToday ? "Completed" : "Play Tournament"}
+</Text>
+
         </TouchableOpacity>
       </View>
 
@@ -307,3 +309,4 @@ const styles = StyleSheet.create({
   },
   modeText: { color: "#fff", textAlign: "center", fontSize: s(18) },
 });
+

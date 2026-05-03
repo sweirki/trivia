@@ -5,7 +5,7 @@ import {
   where,
   documentId,
 } from "firebase/firestore";
-import { db } from "../../firebase/firebase";
+import { db } from "@/firebase/firebase";
 import { PlayerIdentity } from "../profile/getOrCreateProfile";
 
 export type FriendsLeaderboardEntry = PlayerIdentity & {
@@ -58,3 +58,4 @@ export async function getFriendsLeaderboard(
 
   return results;
 }
+

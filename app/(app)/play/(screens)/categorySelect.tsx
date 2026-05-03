@@ -1,152 +1,212 @@
-// /app/play/(screens)/categorySelect.tsx
 import React from "react";
 import {
   View,
   Text,
-  Image,
-  TouchableOpacity,
   StyleSheet,
-  FlatList,
-  Dimensions,
+  Pressable,
+  ScrollView,
 } from "react-native";
 import { useRouter } from "expo-router";
-import { useTheme } from "@/theme";
-
-import { useQuickGameStore } from "@/store/useQuickGameStore";
+import { CATEGORIES } from "@/data/categories";
 import { usePlayerStore } from "@/store/usePlayerStore";
 
-import { CATEGORIES } from "@/data/categories";
-
-const { width } = Dimensions.get("window");
-const TILE = (width - 40 - 24) / 3;
-
 export default function CategorySelect() {
-  const theme = useTheme();
+ const CATEGORIES = [
+  { key: "geography", label: "Geography", icon: "🌍", premium: false },
+  { key: "science", label: "Science", icon: "🧪", premium: false },
+  { key: "history", label: "History", icon: "📜", premium: false },
+  { key: "movies", label: "Movies", icon: "🎬", premium: false },
+  { key: "music", label: "Music", icon: "🎵", premium: false },
+  { key: "literature", label: "Literature", icon: "📖", premium: false },
+  { key: "sports", label: "Sports", icon: "🏆", premium: false },
+  { key: "general", label: "General Knowledge", icon: "❓", premium: false },
+  { key: "logic", label: "Logic", icon: "♟️", premium: false },
+  { key: "technology", label: "Technology", icon: "💻", premium: false },
+  { key: "gaming", label: "Gaming", icon: "🎮", premium: false },
+
+  // PREMIUM
+  { key: "anime", label: "Anime", icon: "🌸", premium: true },
+  { key: "celebrities", label: "Celebrities", icon: "⭐", premium: true },
+  { key: "food", label: "Food", icon: "🍔", premium: true },
+  { key: "space", label: "Space", icon: "🪐", premium: true },
+  { key: "mythology", label: "Mythology", icon: "⚡", premium: true },
+  { key: "animals", label: "Animals", icon: "🐾", premium: true },
+];
+
+
+
+
   const router = useRouter();
+  const owned = usePlayerStore((s) => s.ownedPacks);
 
-  const resetGame = useQuickGameStore((s) => s.resetGame);
-  const setCategory = useQuickGameStore((s) => s.setCategory);
+  const free = CATEGORIES.filter((c) => !c.premium);
+  const premium = CATEGORIES.filter((c) => c.premium);
 
-  const ownedPacks = usePlayerStore((s) => s.ownedPacks);
-  const vipTier = usePlayerStore((s) => s.vipTier);
+ const renderCard = (c: any, locked: boolean) => (
+  <Pressable
+    key={c.key}
+    disabled={locked}
+    onPress={() =>
+      router.push(`/play/quick?category=${c.key}`)
+    }
+    style={({ pressed }) => [
+      styles.card,
+      locked && styles.cardLocked,
+      pressed && !locked && { transform: [{ scale: 0.97 }] },
+    ]}
+  >
+    <View style={styles.iconWrap}>
+      <Text style={[styles.icon, locked && styles.iconLocked]}>
+        {c.icon}
+      </Text>
+    </View>
 
-  const isUnlocked = (item) => {
-    if (!item.premium) return true;
-    if (ownedPacks.includes(item.id)) return true;
-    if (vipTier >= 3) return true; // VIP unlock rule
-    return false;
-  };
+    {/* NAME — THIS WAS MISSING */}
+    <Text
+      style={[
+        styles.cardTitle,
+        locked && styles.textMuted,
+      ]}
+      numberOfLines={2}
+  
+    >
+      {c.label}
+    </Text>
 
-  const handlePress = (item) => {
-  if (!isUnlocked(item)) return;
+    {locked && <Text style={styles.lock}>🔒</Text>}
+  </Pressable>
+);
 
-  const { initGame } = useQuickGameStore.getState();
-
-  // Default Quick Play mode
-  const mode = "classic";
-
- setCategory(item.id);
-router.push("/(app)/play/modeSelect");
-};
- const renderItem = ({ item }) => {
-    const unlocked = isUnlocked(item);
-
-    return (
-      <TouchableOpacity
-        activeOpacity={0.8}
-        onPress={() => unlocked && handlePress(item)}
-        style={[
-          styles.tile,
-          {
-            borderColor: unlocked
-              ? theme.colors.gold
-              : "rgba(255,255,255,0.15)",
-            opacity: unlocked ? 1 : 0.45,
-          },
-        ]}
-      >
-        <Image source={item.icon} style={styles.icon} />
-
-        {!unlocked && (
-          <View style={styles.lockBadge}>
-            <Text style={styles.lockText}>🔒</Text>
-          </View>
-        )}
-
-        <Text style={[styles.label, { color: item.color }]}>
-          {item.label}
-        </Text>
-      </TouchableOpacity>
-    );
-  };
 
   return (
-    <View style={[styles.container, { backgroundColor: "#000" }]}>
-      <Text style={[styles.title, { color: theme.colors.text }]}>
-        Choose Category
-      </Text>
+    <ScrollView
+      style={styles.root}
+      contentContainerStyle={styles.container}
+      showsVerticalScrollIndicator={false}
+    >
+      <Text style={styles.title}>Choose Category</Text>
 
-      <FlatList
-        data={CATEGORIES}
-        numColumns={3}
-        renderItem={renderItem}
-        keyExtractor={(item) => item.id}
-        columnWrapperStyle={styles.row}
-        contentContainerStyle={{ paddingBottom: 40 }}
-        showsVerticalScrollIndicator={false}
-      />
-    </View>
+      {/* FREE */}
+    <View style={styles.grid}>
+  {free.map(c => renderCard(c, false))}
+</View>
+
+<Text style={styles.section}>Premium Categories</Text>
+<Text style={styles.sectionSub}>Unlock with VIP or Coins</Text>
+
+<View style={styles.grid}>
+  {premium.map(c =>
+    renderCard(c, !owned.includes(c.key))
+  )}
+</View>
+
+
+      <View style={{ height: 40 }} />
+    </ScrollView>
   );
 }
 
-const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20 },
-  title: {
-    fontSize: 22,
-    fontWeight: "800",
-    textAlign: "center",
-    marginBottom: 16,
-  },
-  row: {
-    justifyContent: "space-between",
-    marginBottom: 16,
-  },
-  tile: {
-    width: TILE,
-    height: TILE * 1.15,
-    backgroundColor: "rgba(255,255,255,0.06)",
-    borderRadius: 14,
-    borderWidth: 1.4,
-    justifyContent: "center",
-    alignItems: "center",
-    padding: 8,
-    position: "relative",
-  },
-  icon: {
-    width: 32,
-    height: 32,
-    marginBottom: 8,
-    resizeMode: "contain",
-  },
-  label: {
-    fontSize: 13,
-    fontWeight: "700",
-    textAlign: "center",
-    marginTop: 2,
-  },
-  lockBadge: {
-    position: "absolute",
-    top: 4,
-    right: 4,
-    backgroundColor: "rgba(0,0,0,0.55)",
-    paddingHorizontal: 6,
-    paddingVertical: 2,
-    borderRadius: 8,
-  },
-  lockText: {
-    color: "#fff",
-    fontSize: 14,
-  },
-});
+/* -------------------------------------------------------------------------- */
+/*                                    STYLE                                   */
+/* -------------------------------------------------------------------------- */
 
+const styles = StyleSheet.create({
+  root: {
+    flex: 1,
+    backgroundColor: "#0B1220",
+  },
+  container: {
+    padding: 20,
+  },
+
+  title: {
+    fontSize: 26,
+    fontWeight: "800",
+    color: "#FFD166",
+    marginBottom: 20,
+  },
+
+  section: {
+    marginTop: 30,
+    fontSize: 18,
+    fontWeight: "700",
+    color: "#E5E7EB",
+  },
+  sectionSub: {
+    marginTop: 4,
+    marginBottom: 16,
+    color: "#9CA3AF",
+    fontSize: 13,
+  },
+
+  grid: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 14,
+  },
+
+card: {
+  width: "30%",
+  aspectRatio: 1,
+  backgroundColor: "#121A2F",
+  borderRadius: 18,
+  paddingVertical: 14,
+  paddingHorizontal: 8,
+  alignItems: "center",
+  justifyContent: "center",
+  borderWidth: 1,
+borderColor: "rgba(234, 179, 8, 0.35)", // soft gold
+
+  shadowColor: "#000",
+  shadowOpacity: 0.25,
+  shadowRadius: 10,
+  elevation: 4,
+},
+
+  cardLocked: {
+    backgroundColor: "#0F1628",
+    opacity: 0.55,
+  },
+
+ iconWrap: {
+  width: 46,
+  height: 46,
+  borderRadius: 23,
+  backgroundColor: "#1E293B",
+  alignItems: "center",
+  justifyContent: "center",
+  marginBottom: 8,
+},
+
+
+  icon: {
+    color: "#FFD166",
+    fontSize: 20,
+    fontWeight: "700",
+  },
+
+  iconLocked: {
+    color: "#6B7280",
+  },
+
+ cardTitle: {
+  fontSize: 13,
+  fontWeight: "700",
+  color: "#E5E7EB",
+  textAlign: "center",
+  lineHeight: 16,
+},
+
+  textMuted: {
+    color: "#9CA3AF",
+  },
+
+ lock: {
+  position: "absolute",
+  top: 8,
+  right: 8,
+  fontSize: 13,
+},
+
+});
 

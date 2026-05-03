@@ -307,3 +307,4 @@ const styles = StyleSheet.create({
   },
   modeText: { color: "#fff", textAlign: "center", fontSize: s(18) },
 });
+

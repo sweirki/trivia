@@ -12,11 +12,20 @@ import { useRouter } from "expo-router";
 import { Audio } from "expo-av";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
 import { useLocalSearchParams } from "expo-router";
+import { getWeekKeyUTC } from "@/weekly/weeklyLogic";
 
 import { useQuickGameStore } from "@/store/useQuickGameStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
 
+import { useAuthStore } from "@/store/useAuthStore";
+
+
+import { onGameFinished } from "@/achievements/achievementHooks";
+
+
 export default function GameScreen() {
+ const gameStartRef = useRef<number>(Date.now());
+
   const router = useRouter();
 const resetGame = useQuickGameStore((s) => s.resetGame);
   const gameContext = useQuickGameStore((s) => s.gameContext);
@@ -74,9 +83,29 @@ console.log("TOURNAMENT?", gameContext, "matchId=", matchId);
     } catch {}
   }
 
-  useEffect(() => {
-    loadSounds();
-  }, []);
+ useEffect(() => {
+  let mounted = true;
+
+  const initSounds = async () => {
+    try {
+      await loadSounds();
+
+      if (!mounted) return;
+
+      await correctSFX.current?.setVolumeAsync(0.85);
+      await wrongSFX.current?.setVolumeAsync(0.7);
+      await suddenSFX.current?.setVolumeAsync(0.9);
+      await startSFX.current?.setVolumeAsync(0.6);
+    } catch {}
+  };
+
+  initSounds();
+
+  return () => {
+    mounted = false;
+  };
+}, []);
+
 
   async function safePlay(ref) {
     try {
@@ -103,24 +132,28 @@ console.log("TOURNAMENT?", gameContext, "matchId=", matchId);
 
   const timerPulse = useRef(new Animated.Value(1)).current;
 
-  useEffect(() => {
-    if (mode === "timed60" || mode === "timed90") {
-      Animated.loop(
-        Animated.sequence([
-          Animated.timing(timerPulse, {
-            toValue: 1.15,
-            duration: 600,
-            useNativeDriver: true,
-          }),
-          Animated.timing(timerPulse, {
-            toValue: 1,
-            duration: 600,
-            useNativeDriver: true,
-          }),
-        ])
-      ).start();
-    }
-  }, []);
+ useEffect(() => {
+  if (mode !== "timed60" && mode !== "timed90") return;
+
+  const loop = Animated.loop(
+    Animated.sequence([
+      Animated.timing(timerPulse, {
+        toValue: 1.15,
+        duration: 600,
+        useNativeDriver: true,
+      }),
+      Animated.timing(timerPulse, {
+        toValue: 1,
+        duration: 600,
+        useNativeDriver: true,
+      }),
+    ])
+  );
+
+  loop.start();
+  return () => loop.stop();
+}, [mode]);
+
 
   const lowTimePulse = useRef(new Animated.Value(1)).current;
 
@@ -144,35 +177,126 @@ console.log("TOURNAMENT?", gameContext, "matchId=", matchId);
   // ---------------------------------------------------------
   // GAME OVER
   // ---------------------------------------------------------
- useEffect(() => {
+  useEffect(() => {
   if (!gameOver) return;
 
   const t = setTimeout(() => {
-   if (gameContext === "tournament" && matchId) {
- const latestScore = useQuickGameStore.getState().score;
-const totalQ = useQuickGameStore.getState().questions.length || 10;
+    if (gameContext === "tournament") {
+      const latestScore =
+        useQuickGameStore.getState().score;
+      const totalQ =
+        useQuickGameStore.getState().questions.length || 10;
 
-// TEMP bot score (until we tune properly)
-const botScore = Math.max(
-  0,
-  Math.min(totalQ, latestScore + (Math.floor(Math.random() * 3) - 2)) // -2..0..+? small swing
-);
-submitMatchResult(matchId, latestScore, botScore);
+      const botScore = Math.max(
+        0,
+        Math.min(
+          totalQ,
+          latestScore +
+            (Math.floor(Math.random() * 3) - 2)
+        )
+      );
 
-
-}
- else {
-      // Normal game flow
-      router.replace("/(app)/play/(screens)/result");
+      // Submit result if tournament exists
+      if (matchId) {
+        submitMatchResult(matchId, latestScore, botScore);
+      }
     }
+
+    const { earnedXP, earnedCoins, earnedGems } =
+  useQuickGameStore.getState();
+
+if (earnedXP || earnedCoins || earnedGems) {
+  usePlayerStore
+    .getState()
+    .applyReward(earnedXP, earnedCoins, earnedGems);
+}
+// ----------------------------
+// LIFETIME STATS (Phase C1)
+// ----------------------------
+const player = usePlayerStore.getState();
+player.incrementGamesPlayed();
+
+if (score > 0) {
+  player.incrementWins();
+}
+
+
+// ----------------------------
+// ACHIEVEMENTS — GAME FINISH (Phase C1)
+// ----------------------------
+
+const totalQuestions =
+  useQuickGameStore.getState().questions.length;
+
+const correctCount =
+  useQuickGameStore.getState().answerHistory?.filter(
+    (a) => a.correct
+  ).length ?? 0;
+
+
+ const uid = useAuthStore.getState().user?.uid ?? null;
+
+const playerState = usePlayerStore.getState();
+onGameFinished({
+  userId: uid,
+  won: score > 0,
+  correctCount,
+  totalQuestions,
+  durationMs: Date.now() - gameStartRef.current,
+  totalGamesPlayed: playerState.totalGamesPlayed,
+  totalWins: playerState.totalWins,
+  winStreak: streak,
+});
+
+// ✅ SET DAILY RESULT FOR RESULT SCREEN
+if (mode === "daily") {
+  const accuracy =
+    totalQuestions === 0 ? 0 : correctCount / totalQuestions;
+
+  useQuickGameStore.getState().setDailyResult({
+    accuracy,
+    passed: accuracy >= 0.8,
+    perfect: accuracy === 1,
+  });
+}
+
+
+// ✅ MARK DAILY AS PLAYED (BLOCK REPLAY)
+if (mode === "daily") {
+  usePlayerStore.getState().setDaily({
+    ...usePlayerStore.getState().daily,
+    lastClaimDate: new Date().toISOString().slice(0, 10),
+  });
+}
+
+// 🗓️ WEEKLY PROGRESS
+if (mode === "daily") {
+  const store = usePlayerStore.getState();
+  const currentWeek = getWeekKeyUTC();
+
+  if (store.weekly.weekKey !== currentWeek) {
+    store.setWeekly({
+      weekKey: currentWeek,
+      progress: 1,
+      claimed: false,
+    });
+  } else {
+    store.setWeekly({
+      ...store.weekly,
+      progress: store.weekly.progress + 1,
+    });
+  }
+}
+
+
+
+// 🔥 ALWAYS go to result screen
+router.replace("/(app)/play/(screens)/result");
   }, 300);
 
   return () => clearTimeout(t);
 }, [gameOver]);
 
-
-
- 
 
   // ---------------------------------------------------------
   // SAFE ANSWER HANDLER — NEW A++++ logic
@@ -182,17 +306,18 @@ submitMatchResult(matchId, latestScore, botScore);
 
     blockInput();
 
-    if (mode === "sudden" && ans !== current.correct) {
-      Vibration.vibrate(80);
-      await safePlay(suddenSFX);
-    } else if (ans === current.correct) {
-      await safePlay(correctSFX);
-    } else {
-      await safePlay(wrongSFX);
-      Vibration.vibrate(60);
-    }
+const wasCorrect = handleAnswer(ans);
 
-    handleAnswer(ans);
+if (mode === "sudden" && !wasCorrect) {
+  Vibration.vibrate(40);
+  await safePlay(suddenSFX);
+} else if (wasCorrect) {
+  await safePlay(correctSFX);
+} else {
+  await safePlay(wrongSFX);
+  Vibration.vibrate(30);
+}
+
   };
 
   // ---------------------------------------------------------
@@ -220,7 +345,7 @@ submitMatchResult(matchId, latestScore, botScore);
           style={[
             styles.timer,
             { transform: [{ scale: timerPulse }, { scale: lowTimePulse }] },
-            timeLeft <= 5 && { color: "#ff4d4d" },
+           timeLeft <= 5 && { color: "#FF6B6B" },
           ]}
         >
           {timeLeft}s
@@ -233,15 +358,17 @@ submitMatchResult(matchId, latestScore, botScore);
 
       <Animated.View style={{ opacity: fadeAnim }}>
         {current.answers.map((a: string, i: number) => (
-          <TouchableOpacity
-            key={i}
-            onPress={() => onAnswer(a)}
-            style={[
-              styles.answerBtn,
-              locked && { opacity: 0.65 },
-              boosts.xp > 0 && { borderColor: "#FFD700" },
-            ]}
-          >
+        <TouchableOpacity
+  key={i}
+  onPress={() => onAnswer(a)}
+  activeOpacity={0.85}
+  style={[
+    styles.answerBtn,
+    locked && { opacity: 0.65 },
+    boosts.xp > 0 && { borderColor: "#F5C451" },
+  ]}
+>
+
             <Text style={styles.answerText}>{a}</Text>
           </TouchableOpacity>
         ))}
@@ -259,14 +386,14 @@ submitMatchResult(matchId, latestScore, botScore);
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#0a0518",
+   backgroundColor: "#0E1424",
     paddingHorizontal: 18,
     justifyContent: "center",
   },
 
   holoOverlay: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: "rgba(120, 60, 255, 0.14)",
+    backgroundColor: "rgba(120, 60, 255, 0.08)",
   },
 
   header: {
@@ -320,12 +447,12 @@ const styles = StyleSheet.create({
   },
 
   answerBtn: {
-    backgroundColor: "#1b1036",
+   backgroundColor: "#1A2038",
     paddingVertical: 14,
     paddingHorizontal: 18,
     borderRadius: 12,
     marginBottom: 10,
-    borderColor: "#7b4bff",
+    borderColor: "#4C5CFF",
     borderWidth: 1.2,
   },
 
@@ -347,4 +474,5 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 });
+
 

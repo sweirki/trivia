@@ -15,13 +15,14 @@ export default function ModeSelectScreen() {
     return null;
   }
 
-  const startMode = (modeKey: string) => {
+   const startMode = (modeKey: string) => {
     const { initGame } = useQuickGameStore.getState();
 
-    initGame(modeKey, category);
+    initGame(modeKey as any, category);
 
     router.replace("./game");
   };
+
 
   return (
     <View style={styles.container}>
@@ -93,3 +94,4 @@ const styles = StyleSheet.create({
     marginTop: 3,
   },
 });
+

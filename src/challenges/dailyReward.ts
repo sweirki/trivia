@@ -3,3 +3,4 @@ export const DAILY_CHALLENGE_REWARD = {
   xp: 25,
   tickets: 1,
 };
+
