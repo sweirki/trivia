@@ -1,0 +1,25 @@
+appId: ${APP_ID}
+---
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible:
+      id: "screen-hub"
+    timeout: 15000
+
+- tapOn:
+    id: "hub-quick-play-button"
+- extendedWaitUntil:
+    visible:
+      id: "screen-quick-play"
+    timeout: 10000
+
+# Phase 12 regression focus: route must stay stable after Q9/Q10 migration.
+- assertVisible:
+    id: "quick-mode-sudden"
+- tapOn:
+    id: "quick-mode-sudden"
+- extendedWaitUntil:
+    visible:
+      id: "screen-game"
+    timeout: 15000

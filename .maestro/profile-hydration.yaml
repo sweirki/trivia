@@ -1,0 +1,17 @@
+appId: ${APP_ID}
+---
+- launchApp
+
+- assertVisible:
+    id: "screen-hub"
+
+- tapOn:
+    id: "hub-profile-button"
+
+- assertVisible:
+    id: "screen-profile"
+
+- pressKey: back
+
+- assertVisible:
+    id: "screen-hub"

@@ -1,210 +1,134 @@
-// /app/(app)/hub/index.tsx — A+++++ HOME HUB
-import React, { useEffect, useRef } from "react";
+// /app/(app)/hub/index.tsx — Redesigned TriviaWorld Hub
+import React, { useEffect, useMemo, useRef } from "react";
 import {
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
   Animated,
-  Image,
   Easing,
+  Image,
+  ImageBackground,
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
-
 import { useRouter } from "expo-router";
+import { LinearGradient } from "expo-linear-gradient";
+
 import { auth } from "@/firebase/firebase";
-import { Pressable } from "react-native";
 import { ACHIEVEMENT_META } from "@/data/achievementMeta";
 import { useQuickGameStore } from "@/store/useQuickGameStore";
 import { useIdentityStore } from "@/identity/store/useIdentityStore";
+import { useAuthStore } from "@/store/useAuthStore";
 import { AVATARS } from "@/identity/avatars/avatarDefinitions";
 import { useSeasonStore } from "@/seasons/store/useSeasonStore";
-import { CURRENT_SEASON } from "@/seasons/seasonDefinitions";
-import { getAuth } from "firebase/auth";
-import { app } from "@/firebase/firebase";
 import { useSeasonCountdown } from "@/seasons/hooks/useSeasonCountdown";
-import { SeasonCountdown } from "@/seasons/components/SeasonCountdown";
-
-
-
-
 import { useChallengesStore } from "@/challenges/store/useChallengesStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
+import { useEntitlementStore } from "@/store/entitlementStore";
 import { useAchievementsStore } from "@/store/achievementsStore";
-const HUB_SCALE = 0.9;
+import {
+  getDayKeyUTC,
+  xpRequiredForLevel,
+  WEEKLY_DAILY_REWARD,
+  WEEKLY_DAILY_TARGET,
+} from "@/economy/economyRules";
+import { getWeekKeyUTC } from "@/weekly/weeklyLogic";
+import { getRankProgress } from "./hub.helpers";
 
-// Hub Tile Component
-interface HubTileProps {
-  label: string;
-  icon: any;
-  color: string;
-  onPress: () => void;
-}
-
-function HubTile({ label, icon, color, onPress }: HubTileProps) {
-  return (
-    <TouchableOpacity
-      style={[styles.secondaryBtn, { borderColor: color }]}
-      onPress={onPress}
-    >
-      <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "center" }}>
-        <Image source={icon} style={styles.econIcon} />
-        <Text style={styles.secondaryBtnText}>{label}</Text>
-      </View>
-    </TouchableOpacity>
-  );
-}
-
-const RANK_TIERS = [
-  { name: "Bronze", min: 0, max: 2999 },
-  { name: "Silver", min: 3000, max: 7999 },
-  { name: "Gold", min: 8000, max: 17999 },
-  { name: "Platinum", min: 18000, max: 34999 },
-  { name: "Diamond", min: 35000, max: 59999 },
-  { name: "Master", min: 60000, max: Infinity },
-];
-
-function getRankProgress(xp: number) {
-  const currentIndex = RANK_TIERS.findIndex(
-    (t) => xp >= t.min && xp <= t.max
-  );
-
-  const current = RANK_TIERS[currentIndex];
-  const next = RANK_TIERS[currentIndex + 1] ?? null;
-
-  if (!next) {
-    return {
-      current,
-      next: null,
-      progress: 1,
-      remaining: 0,
-    };
-  }
-
-  const progress =
-    (xp - current.min) / (next.min - current.min);
-
-  const remaining = next.min - xp;
-
-   return {
-    current,
-    next,
-    progress: Math.max(0, Math.min(1, progress)),
-    remaining,
-  };
-}
-
-
+const HUB_HERO = require("../../../assets/images/modes/hub_hero_banner.webp");
+const QUICK_PLAY_ART = require("../../../assets/images/modes/quick_play_card_art.webp");
+const ARENA_ART = require("../../../assets/images/modes/arena_mode_art.webp");
+const DAILY_ART = require("../../../assets/images/modes/daily_mode_art.webp");
+const LOBBY_ART = require("../../../assets/images/modes/lobby_mode_art.webp");
+const SHOP_ART = require("../../../assets/images/modes/shop_mode_art.webp");
 
 export default function HubScreen() {
-  const avatarId = useIdentityStore(
-    (s) => s.identity?.avatarId
-  );
+  const router = useRouter();
 
- const avatar =
-  avatarId
-    ? AVATARS.find((a) => a.id === avatarId) ?? AVATARS[0]
-    : AVATARS[0];
-const { formatted, ended } = useSeasonCountdown();
-const resetSeason = useSeasonStore((s) => s.resetSeason);
-
-  const season = useSeasonStore((s) => s.season);
-const claimSeasonReward = useSeasonStore((s) => s.claimSeasonReward);
-
-const nextClaimableTier =
-  season
-    ? (() => {
-        for (let t = 1; t <= season.tier; t++) {
-          if (!season.claimedTiers?.includes(t)) return t;
-        }
-        return null;
-      })()
+  const user = useAuthStore((s) => s.user);
+  const isGuest = useAuthStore((s) => s.isGuest);
+  const avatarId = useIdentityStore((s) => s.identity?.avatarId);
+  const avatar = user && !isGuest && avatarId
+    ? AVATARS.find((a) => a.id === avatarId) ?? null
     : null;
 
+  const { ended } = useSeasonCountdown();
+  const resetSeason = useSeasonStore((s) => s.resetSeason);
+
   const level = usePlayerStore((s) => s.level);
-const justLeveledUp = usePlayerStore((s) => s.justLeveledUp);
-const clearLevelUpFlag = usePlayerStore((s) => s.clearLevelUpFlag);
-
-  const router = useRouter();
- const todayChallenge = useChallengesStore(
-  (s) => s.getTodayDailyChallenge()
-);
-const ensureTodayDailyChallenge = useChallengesStore(
-  (s) => s.ensureTodayDailyChallenge
-);
-
-useEffect(() => {
-  ensureTodayDailyChallenge();
-}, []);
-useEffect(() => {
-  if (!ended) return;
-
-  const uid = auth.currentUser?.uid ?? null;
-  if (!uid) return;
-
-  resetSeason(uid);
-}, [ended]);
-
-  // -----------------------------
-  // PLAYER STATS
-  // -----------------------------
   const xp = usePlayerStore((s) => s.xp);
-  const rankProgress = getRankProgress(xp);
- 
   const coins = usePlayerStore((s) => s.coins);
   const gems = usePlayerStore((s) => s.gems);
   const tickets = usePlayerStore((s) => s.tickets);
-  const vipTier = usePlayerStore((s) => s.vipTier);
-const dailyStreak = usePlayerStore((s) => s.daily?.streak ?? 0);
-const lastClaimDate = usePlayerStore((s) => s.daily?.lastClaimDate ?? null);
-const todayKey = new Date().toISOString().slice(0, 10);
-const weekly = usePlayerStore((s) => s.weekly ?? {
-  weekKey: "",
-  progress: 0,
-  claimed: false,
-});
+  const dailyStreak = usePlayerStore((s) => s.daily?.streak ?? 0);
+  const lastClaimDate = usePlayerStore((s) => s.daily?.lastClaimDate ?? null);
+  const weekly = usePlayerStore((s) => s.weekly ?? { weekKey: "", progress: 0, claimed: false });
 
-const WEEKLY_TARGET = 5;
-const WEEKLY_REWARD = { xp: 300, coins: 100 };
+  const justLeveledUp = usePlayerStore((s) => s.justLeveledUp);
+  const clearLevelUpFlag = usePlayerStore((s) => s.clearLevelUpFlag);
 
+  const vipExpiresAt = useEntitlementStore((s) => s.vipExpiresAt);
+  const vipTier = useEntitlementStore((s) => s.vipTier);
+  const isVIPActive = Date.now() < (vipExpiresAt || 0);
+
+  const todayChallenge = useChallengesStore((s) => s.getTodayDailyChallenge());
+  const ensureTodayDailyChallenge = useChallengesStore((s) => s.ensureTodayDailyChallenge);
 
   const achievements = useAchievementsStore((s) => s.achievements);
-const activeAchievement = Object.values(achievements).find(
-  (a: any) => !a.unlocked
-);
+  const activeAchievement = Object.values(achievements).find((a: any) => !a.unlocked);
 
-  // NEW — dynamic XP curve to match A+++++ PlayerStore
-  const xpRequiredForLevel = (lvl: number) => lvl * 150 + lvl * lvl * 6;
+  const todayKey = getDayKeyUTC();
+  const currentWeekKey = getWeekKeyUTC();
+  const lastDailyPlayDate = (weekly as any).lastDailyPlayDate ?? null;
+
+  const weeklyTarget = WEEKLY_DAILY_TARGET;
+  const weeklyReward = WEEKLY_DAILY_REWARD;
+  const weeklyProgress = Math.max(
+    weekly.weekKey === currentWeekKey ? weekly.progress : 0,
+    Math.min(dailyStreak, weeklyTarget)
+  );
+
   const xpRequired = xpRequiredForLevel(level);
+  const xpPercent = xpRequired > 0 ? Math.min(1, xp / xpRequired) : 0;
+  const rankProgress = getRankProgress(xp);
 
- const xpPercent = xpRequired > 0 ? Math.min(1, xp / xpRequired) : 0;
-const xpAnim = useRef(new Animated.Value(0)).current;
-
-useEffect(() => {
-  if (!justLeveledUp) return;
-
-  const t = setTimeout(() => {
-    clearLevelUpFlag();
-  }, 3000);
-
-  return () => clearTimeout(t);
-}, [justLeveledUp]);
-
-
-useEffect(() => {
-  Animated.timing(xpAnim, {
-    toValue: xpPercent,
-    duration: 700,
-    easing: Easing.out(Easing.cubic),
-    useNativeDriver: false,
-  }).start();
-}, [xpPercent]);
-
-
-
-  // -----------------------------
-  // ANIMATIONS
-  // -----------------------------
   const fade = useRef(new Animated.Value(0)).current;
+  const xpAnim = useRef(new Animated.Value(0)).current;
+  const pulse = useRef(new Animated.Value(0)).current;
+
+  useEffect(() => {
+    ensureTodayDailyChallenge();
+  }, [ensureTodayDailyChallenge]);
+
+  useEffect(() => {
+    if (!ended) return;
+
+    const uid = auth.currentUser?.uid ?? null;
+    if (uid) resetSeason(uid);
+  }, [ended, resetSeason]);
+
+  useEffect(() => {
+    if (dailyStreak <= 0) return;
+
+    const currentProgress = weekly.weekKey === currentWeekKey ? weekly.progress : 0;
+    const repairedProgress = Math.max(currentProgress, Math.min(dailyStreak, weeklyTarget));
+
+    if (weekly.weekKey !== currentWeekKey || weekly.progress < repairedProgress) {
+      usePlayerStore.getState().setWeekly({
+        ...weekly,
+        weekKey: currentWeekKey,
+        progress: repairedProgress,
+        claimed: weekly.weekKey === currentWeekKey ? weekly.claimed : false,
+        lastDailyPlayDate,
+      } as any);
+    }
+  }, [currentWeekKey, dailyStreak, lastDailyPlayDate, weekly, weeklyTarget]);
+
+  useEffect(() => {
+    if (!justLeveledUp) return;
+
+    const timer = setTimeout(clearLevelUpFlag, 3000);
+    return () => clearTimeout(timer);
+  }, [justLeveledUp, clearLevelUpFlag]);
 
   useEffect(() => {
     Animated.timing(fade, {
@@ -213,736 +137,875 @@ useEffect(() => {
       useNativeDriver: true,
     }).start();
 
-    const activeAchievement = Object.values(achievements).find(
-  (a: any) => !a.unlocked
-);
+    Animated.timing(xpAnim, {
+      toValue: xpPercent,
+      duration: 700,
+      easing: Easing.out(Easing.cubic),
+      useNativeDriver: false,
+    }).start();
 
+    Animated.loop(
+      Animated.sequence([
+        Animated.timing(pulse, {
+          toValue: 1,
+          duration: 1300,
+          easing: Easing.inOut(Easing.quad),
+          useNativeDriver: true,
+        }),
+        Animated.timing(pulse, {
+          toValue: 0,
+          duration: 1300,
+          easing: Easing.inOut(Easing.quad),
+          useNativeDriver: true,
+        }),
+      ])
+    ).start();
+  }, [fade, pulse, xpAnim, xpPercent]);
 
-  }, []);
+  const todayStatus = useMemo(() => {
+    if (!todayChallenge) return "Loading…";
+    if (lastDailyPlayDate === todayKey) return "Completed today ✓";
+    return "Play Now →";
+  }, [lastDailyPlayDate, todayChallenge, todayKey]);
 
-  // -----------------------------
-  // ACHIEVEMENT PREVIEW
-  // -----------------------------
- const totalAchievements = Object.keys(achievements || {}).length;
+  const startDailyGame = () => {
+    if (!todayChallenge || lastDailyPlayDate === todayKey) return;
 
-  const unlocked = Object.values(achievements).filter((a: any) => a.unlocked)
-    .length;
+    const game = useQuickGameStore.getState();
+    game.initGame("daily", "daily");
+    router.push("/(app)/play/game");
+  };
 
   return (
- <Animated.ScrollView
-  style={[styles.container, { opacity: fade }]}
-  contentContainerStyle={{
-    padding: 22,
-    paddingBottom: 60,
-  }}
-  showsVerticalScrollIndicator={false}
->
+    <Animated.ScrollView
+      testID="screen-hub"
+      style={[styles.container, { opacity: fade }]}
+      contentContainerStyle={styles.content}
+      showsVerticalScrollIndicator={false}
+    >
+      <View style={styles.topBar}>
+        <Pressable
+          testID="hub-profile-button"
+          accessibilityLabel="Open Profile"
+          onPress={() => router.push("/profile")}
+          style={({ pressed }) => [styles.avatarWrap, pressed && styles.pressed]}
+        >
+          {avatar ? (
+            <Image source={avatar.asset} style={styles.avatar} />
+          ) : (
+            <View style={styles.avatarPlaceholder} />
+          )}
+        </Pressable>
 
+        <View style={styles.economyCluster}>
+          <CurrencyChip icon={require("../../assets/icons/coin.png")} value={coins} />
+          <CurrencyChip icon={require("../../assets/icons/gem.png")} value={gems} />
+          <CurrencyChip icon={require("../../assets/icons/ticket.png")} value={tickets} />
+        </View>
 
-      {/* ---------------------------------------------------------------- */}
-      {/* TOP ECONOMY BAR (Coins / Gems / Tickets / VIP) */}
-      {/* ---------------------------------------------------------------- */}
- <View style={styles.econBar}>
-  <Pressable onPress={() => router.push("/profile")}>
-    <Image
-      source={avatar.asset}
-     style={{
-  width: 68,
-  height: 68,
-  borderRadius: 24,
-  marginRight: 14,
-  borderWidth: 2,
-  borderColor: "#F6C453",
-}}
+        {isVIPActive ? (
+          <View style={styles.vipBadge}>
+            <Text style={styles.vipText}>VIP {vipTier || 1}</Text>
+          </View>
+        ) : (
+          <Pressable
+            testID="hub-vip-store-button"
+            accessibilityLabel="Open VIP Store"
+            onPress={() => router.push("/store?tab=vip" as any)}
+            style={({ pressed }) => [styles.vipBadgeLocked, pressed && styles.pressed]}
+          >
+            <Text style={styles.vipTextLocked}>VIP OFF</Text>
+          </Pressable>
+        )}
+      </View>
 
-    />
-  </Pressable>
+      <ImageBackground source={HUB_HERO} style={styles.hero} imageStyle={styles.heroImage}>
+        <View style={styles.heroShade}>
+          <Text style={styles.heroKicker}>TRIVIAWORLD</Text>
+          <Text style={styles.heroTitle}>Ready to Play?</Text>
+          <Text style={styles.heroSub}>Win XP, coins, streaks, and rewards.</Text>
 
-  <View style={styles.econItem}>
-    <Image
-      source={require("../../assets/icons/coin.png")}
-      style={styles.econIcon}
-    />
-    <Text style={styles.econText}>{coins}</Text>
-  </View>
+          <ProgressPill
+            level={level}
+            xp={xp}
+            xpRequired={xpRequired}
+            xpAnim={xpAnim}
+            dailyStreak={dailyStreak}
+            onLongPress={() => router.push("/leaderboard")}
+          />
+        </View>
+      </ImageBackground>
 
+      <View style={styles.sectionHeader}>
+        <Text style={styles.sectionTitle}>Play</Text>
+        <Text style={styles.sectionHint}>Choose your next run</Text>
+      </View>
 
-  <View style={styles.econItem}>
-    <Image
-      source={require("../../assets/icons/gem.png")}
-      style={styles.econIcon}
-    />
-    <Text style={styles.econText}>{gems}</Text>
-  </View>
-
-  <View style={styles.econItem}>
-    <Image
-      source={require("../../assets/icons/ticket.png")}
-      style={styles.econIcon}
-    />
-    <Text style={styles.econText}>{tickets}</Text>
-  </View>
-
-  
-</View>
-
-
-      {/* ---------------------------------------------------------------- */}
-      {/* HERO TILE (LEVEL + XP BAR) */}
-      {/* ---------------------------------------------------------------- */}
-      
-  <Pressable
-  onLongPress={() => router.push("/leaderboard")}
-  delayLongPress={600}
-  style={({ pressed }) => pressed && { opacity: 0.85 }}
->
-  <View style={styles.heroCard}>
-    <Text style={styles.levelLabel}>Level {level}</Text>
-
-    <View style={styles.xpBar}>
-     <Animated.View
-  style={[
-    styles.xpFill,
-    {
-      width: xpAnim.interpolate({
-        inputRange: [0, 1],
-        outputRange: ["0%", "100%"],
-      }),
-    },
-  ]}
-/>
-
-    </View>
-
-    <Text style={styles.xpText}>
-      {xp} / {xpRequired} XP
-    </Text>
-
-    <Text style={styles.streakText}>
-      🔥 Streak: {dailyStreak} day{dailyStreak === 1 ? "" : "s"}
-    </Text>
-  </View>
-</Pressable>
-{/* SEASON PROGRESS */}
-{season && (
-  <View style={styles.todayCard}>
-    <Text style={styles.todayTitle}>Season Progress</Text>
-
-    <Text style={styles.todayLabel}>
-      Tier {season.tier} • {season.xp} XP
-    </Text>
-
-    <View style={styles.rankBar}>
-      <View
-        style={[
-          styles.xpFill,
-          {
-            width: `${
-              season.tier === 0
-                ? 0
-                : Math.min(
-                    1,
-                    season.xp /
-                      CURRENT_SEASON.tiers[Math.max(season.tier - 1, 0)].xp
-                  ) * 100
-            }%`,
-          },
-        ]}
+      <ModeCard
+        testID="hub-quick-play-button"
+        title="Quick Play"
+        subtitle="Instant match • Fast XP"
+        cta="Play"
+        art={QUICK_PLAY_ART}
+        large
+        pulse={pulse}
+        onPress={() => router.push("./play/(screens)/quick")}
       />
-    </View>
 
-    {/* 🔥 NEW — SEASON COUNTDOWN */}
-    <SeasonCountdown
-      formatted={formatted}
-      ended={ended}
-    />
-  </View>
-)}
+      <View style={styles.grid}>
+        <ModeCard
+          testID="hub-arena-button"
+          title="Arena"
+          subtitle="Competitive"
+          art={ARENA_ART}
+          compact
+          onPress={() => router.push("./arena_reset")}
+        />
 
-{/* SEASON REWARD CLAIM (Phase 6.3) */}
-{season && nextClaimableTier && (
-  <TouchableOpacity
-    style={styles.mainBtn}
-    activeOpacity={0.9}
-    onPress={() => {
-      const uid = auth.currentUser?.uid ?? null;
-      if (!uid) return;
+        <ModeCard
+          testID="hub-daily-button"
+          title="Daily"
+          subtitle="Rewards • Streak"
+          art={DAILY_ART}
+          compact
+          badge={lastClaimDate !== todayKey}
+          onPress={() => router.push("./daily")}
+        />
 
-      claimSeasonReward(uid, nextClaimableTier);
-    }}
-  >
-    <Text style={styles.mainBtnText}>
-      Claim Season Reward (Tier {nextClaimableTier})
-    </Text>
-  </TouchableOpacity>
-)}
+        <ModeCard
+          testID="hub-lobby-button"
+          title="Lobby"
+          subtitle="Profile • More"
+          art={LOBBY_ART}
+          compact
+          onPress={() => router.push("/more")}
+        />
 
+        <ModeCard
+          testID="hub-shop-button"
+          title="Shop"
+          subtitle="VIP • Store"
+          art={SHOP_ART}
+          compact
+          onPress={() => router.push("/store" as any)}
+        />
+      </View>
 
-{/* ---------------------------------------------------------------- */}
-{/* TODAY PANEL (Phase 2.0) */}
-{/* ---------------------------------------------------------------- */}
-<View style={styles.todayCard}>
-  <Text style={styles.todayTitle}>Today</Text>
+      <InfoCard title="Today">
+        <Pressable
+          accessibilityLabel="Today's Challenge"
+          onPress={startDailyGame}
+          style={({ pressed }) => [styles.infoRow, pressed && todayChallenge && lastDailyPlayDate !== todayKey && styles.pressed]}
+        >
+          <View>
+            <Text style={styles.infoLabel}>🎯 Today’s Challenge</Text>
+            <Text style={styles.infoSub}>Daily streak pressure</Text>
+          </View>
+          <Text style={[styles.infoValue, todayChallenge && lastDailyPlayDate !== todayKey && styles.greenText]}>
+            {todayStatus}
+          </Text>
+        </Pressable>
+      </InfoCard>
 
- <View style={styles.todayRow}>
-  <Text style={styles.todayLabel}>🎯 Today’s Challenge</Text>
+      <InfoCard title="This Week">
+        <View style={styles.infoRow}>
+          <View>
+            <Text style={styles.infoLabel}>🗓️ Weekly Challenge</Text>
+            <Text style={styles.infoSub}>Complete {weeklyTarget} Daily games this week</Text>
+          </View>
+          <Text style={styles.infoValue}>
+            {Math.min(weeklyProgress, weeklyTarget)} / {weeklyTarget}
+          </Text>
+        </View>
 
-  {todayChallenge ? (
-   lastClaimDate === todayKey
- ? (
-     <Text style={styles.todayValue}>
-  Completed — come back tomorrow 🌙
-</Text>
+        <View style={styles.bar}>
+          <View style={[styles.barFill, { width: `${Math.min(1, weeklyProgress / weeklyTarget) * 100}%` }]} />
+        </View>
 
-    ) : (
-     <TouchableOpacity
-  onPress={() => {
-    if (lastClaimDate === todayKey) return;
+        {weeklyProgress >= weeklyTarget && !weekly.claimed && (
+          <Pressable
+            style={({ pressed }) => [styles.claimButton, pressed && styles.pressed]}
+            onPress={() => usePlayerStore.getState().claimWeeklyReward(weeklyReward)}
+          >
+            <Text style={styles.claimText}>Claim Weekly Reward</Text>
+          </Pressable>
+        )}
 
-const game = useQuickGameStore.getState();
-game.initGame("daily", "daily");
-router.push("/(app)/play/game");
+        {weekly.claimed && <Text style={styles.claimedText}>Weekly reward claimed ✓</Text>}
+      </InfoCard>
 
-  }}
->
+      {rankProgress.next && (
+        <InfoCard title="Rank Progress">
+          <View style={styles.infoRow}>
+            <Text style={styles.infoLabel}>
+              {rankProgress.current.name} → {rankProgress.next.name}
+            </Text>
+            <Text style={styles.infoValue}>{rankProgress.remaining} XP</Text>
+          </View>
 
-        <Text style={[styles.todayValue, { color: "#00E676" }]}>
-          Play Now →
-        </Text>
-      </TouchableOpacity>
-    )
-  ) : (
-    <Text style={styles.todayValue}>Loading…</Text>
-  )}
-</View>
-{/* ---------------------------------------------------------------- */}
-{/* WEEKLY CHALLENGE */}
-{/* ---------------------------------------------------------------- */}
-<View style={styles.todayCard}>
-  <Text style={styles.todayTitle}>This Week</Text>
+          <View style={styles.bar}>
+            <Animated.View
+              style={[
+                styles.barFill,
+                {
+                  width: xpAnim.interpolate({
+                    inputRange: [0, 1],
+                    outputRange: ["0%", "100%"],
+                  }),
+                },
+              ]}
+            />
+          </View>
+        </InfoCard>
+      )}
 
-  <View style={styles.todayRow}>
-    <Text style={styles.todayLabel}>🗓️ Weekly Challenge</Text>
+      {activeAchievement && (
+        <Pressable
+          style={({ pressed }) => [styles.achievementCard, pressed && styles.pressed]}
+          onPress={() => router.push("./achievements")}
+        >
+          <Text style={styles.achievementTitle}>Achievement in progress</Text>
+          <Text style={styles.achievementText}>
+            {(ACHIEVEMENT_META[(activeAchievement as any).id]?.title ?? (activeAchievement as any).id)} —{" "}
+            {(activeAchievement as any).progress} / {(activeAchievement as any).target}
+          </Text>
+        </Pressable>
+      )}
 
-    <Text style={styles.todayValue}>
-      {Math.min(weekly.progress, WEEKLY_TARGET)} / {WEEKLY_TARGET} Dailies
-    </Text>
-  </View>
-
-  <View style={styles.rankBar}>
-    <View
-      style={[
-        styles.xpFill,
-        {
-          width: `${Math.min(
-            1,
-            weekly.progress / WEEKLY_TARGET
-          ) * 100}%`,
-        },
-      ]}
-    />
-  </View>
-
-  <Text style={styles.rankText}>
-    Complete {WEEKLY_TARGET} Daily games this week
-  </Text>
-  {weekly.progress >= WEEKLY_TARGET && !weekly.claimed && (
-  <TouchableOpacity
-    style={styles.mainBtn}
-    onPress={() =>
-      usePlayerStore
-        .getState()
-        .claimWeeklyReward(WEEKLY_REWARD)
-    }
-  >
-    <Text style={styles.mainBtnText}>
-      Claim Weekly Reward
-    </Text>
-  </TouchableOpacity>
-)}
-
-{weekly.claimed && (
-  <Text style={[styles.rankText, { color: "#4CAF50" }]}>
-    Weekly reward claimed ✓
-  </Text>
-)}
-
-</View>
-
-  <View style={styles.todayRow}>
-    <Text style={styles.todayLabel}>⏰ Next Event</Text>
-    <Text style={styles.todayValue}>In 12h 34m</Text>
-  </View>
-  {rankProgress.next && (
-  <View style={{ marginTop: 12 }}>
-    <Text style={styles.todayLabel}>
-      {rankProgress.current.name} → {rankProgress.next.name}
-    </Text>
-
-    <View style={styles.rankBar}>
-     <Animated.View
-  style={[
-    styles.xpFill,
-    {
-      width: xpAnim.interpolate({
-        inputRange: [0, 1],
-        outputRange: ["0%", "100%"],
-      }),
-    },
-  ]}
-/>
-
-    </View>
-
-    <Text style={styles.rankText}>
-      {rankProgress.remaining} XP to {rankProgress.next.name}
-    </Text>
-  </View>
-)}
-
-{justLeveledUp && (
-  <View style={styles.levelUpOverlay}>
-    <View style={styles.levelUpCard}>
-      <Text style={styles.levelUpTitle}>Level Up!</Text>
-      <Text style={styles.levelUpText}>You reached Level {level}</Text>
-    </View>
-  </View>
-)}
-
-
-</View>
-
-      {/* ---------------------------------------------------------------- */}
-      {/* MAIN BUTTONS */}
-      {/* ---------------------------------------------------------------- */}
-    <TouchableOpacity
-  style={styles.mainBtn}
-  activeOpacity={0.9}
-  onPress={() => router.push("./play/(screens)/quick")}
->
-  <Text style={styles.mainBtnText}>Quick Play</Text>
-<Text style={styles.mainHint}>Fast • Fun • No Pressure</Text>
-
-</TouchableOpacity>
-<View style={{ marginBottom: 18 }}>
-
- <HubTile
-  label="Arena · Competitive"
-  icon={require("@assets/icons/arena.png")}
-  color="#3DDC97"
-  onPress={() => router.push("./arena_reset")}
-/>
-
-</View>
-{/* SEASON HISTORY */}
-<TouchableOpacity
-  style={styles.secondaryBtn}
-  onPress={() => router.push("/seasons/history")}
->
-  <Text style={styles.secondaryBtnText}>
-    🏆 Season History
-  </Text>
-</TouchableOpacity>
-
-{/* DAILY REWARD */}
-<View style={styles.boxRow}>
-  <Pressable
-    style={styles.smallBox}
-    onPress={() => router.push("./daily")}
-  >
-    <Text style={styles.boxTitle}>Daily</Text>
-    <Text style={styles.boxSub}>Rewards · Streak</Text>
- {usePlayerStore.getState().daily?.lastClaimDate !==
-  new Date().toISOString().slice(0, 10) && (
-  <View style={styles.badge} />
-)}
-
-
-  </Pressable>
-
-  <Pressable
-    style={styles.smallBox}
-    onPress={() => router.push("/more")}
-  >
-    <Text style={styles.boxTitle}>More</Text>
-    <Text style={styles.boxSub}>Profile · Store</Text>
-  </Pressable>
-</View>
-
-
-{activeAchievement && (
-  <TouchableOpacity
-    style={styles.achievementTeaser}
-    onPress={() => router.push("./achievements")}
-    activeOpacity={0.85}
-  >
-    <Text style={styles.achievementTitle}>
-      🎯 Achievement in progress
-    </Text>
-    <Text style={styles.achievementText}>
-      {(ACHIEVEMENT_META[activeAchievement.id]?.title ??
-        activeAchievement.id)}{" "}
-      — {activeAchievement.progress} / {activeAchievement.target}
-    </Text>
-  </TouchableOpacity>
-)}
-
-    
+      {justLeveledUp && (
+        <View style={styles.levelUpOverlay} pointerEvents="none">
+          <View style={styles.levelUpCard}>
+            <Text style={styles.levelUpTitle}>Level Up!</Text>
+            <Text style={styles.levelUpText}>You reached Level {level}</Text>
+          </View>
+        </View>
+      )}
     </Animated.ScrollView>
-
   );
 }
-// ----------------------------------------------------------------
-// STYLES
-// ----------------------------------------------------------------
+
+function CurrencyChip({ icon, value }: { icon: any; value: number }) {
+  return (
+    <View style={styles.currencyChip}>
+      <Image source={icon} style={styles.currencyIcon} />
+      <Text style={styles.currencyText}>{value}</Text>
+    </View>
+  );
+}
+
+function ProgressPill({
+  level,
+  xp,
+  xpRequired,
+  xpAnim,
+  dailyStreak,
+  onLongPress,
+}: {
+  level: number;
+  xp: number;
+  xpRequired: number;
+  xpAnim: Animated.Value;
+  dailyStreak: number;
+  onLongPress: () => void;
+}) {
+  return (
+    <Pressable
+      testID="hub-level-card"
+      accessibilityLabel="Level Card"
+      onLongPress={onLongPress}
+      delayLongPress={600}
+      style={({ pressed }) => [styles.progressPill, pressed && styles.pressed]}
+    >
+      <View style={styles.progressTop}>
+        <Text style={styles.progressLevel}>Level {level}</Text>
+        <Text style={styles.progressXp}>{xp} / {xpRequired} XP</Text>
+      </View>
+
+      <View style={styles.progressBar}>
+        <Animated.View
+          style={[
+            styles.progressFill,
+            {
+              width: xpAnim.interpolate({
+                inputRange: [0, 1],
+                outputRange: ["0%", "100%"],
+              }),
+            },
+          ]}
+        />
+      </View>
+
+      <Text style={styles.streakText}>
+        🔥 Streak: {dailyStreak} day{dailyStreak === 1 ? "" : "s"}
+      </Text>
+    </Pressable>
+  );
+}
+
+function ModeCard({
+  title,
+  subtitle,
+  cta,
+  art,
+  onPress,
+  testID,
+  large,
+  compact,
+  badge,
+  pulse,
+}: {
+  title: string;
+  subtitle: string;
+  cta?: string;
+  art: any;
+  onPress: () => void;
+  testID: string;
+  large?: boolean;
+  compact?: boolean;
+  badge?: boolean;
+  pulse?: Animated.Value;
+}) {
+  const glowStyle = pulse
+    ? {
+        opacity: pulse.interpolate({
+          inputRange: [0, 1],
+          outputRange: [0.12, 0.3],
+        }),
+        transform: [
+          {
+            scale: pulse.interpolate({
+              inputRange: [0, 1],
+              outputRange: [1, 1.02],
+            }),
+          },
+        ],
+      }
+    : null;
+
+  return (
+    <Pressable
+      testID={testID}
+      accessibilityLabel={title}
+      onPress={onPress}
+      style={({ pressed }) => [
+        styles.modeCard,
+        large && styles.modeCardLarge,
+        compact && styles.modeCardCompact,
+        pressed && styles.pressed,
+      ]}
+    >
+      {pulse && <Animated.View pointerEvents="none" style={[styles.cardGlow, glowStyle]} />}
+
+      <ImageBackground source={art} style={styles.modeArt} imageStyle={styles.modeArtImage}>
+        <View style={[styles.modeOverlay, compact && styles.modeOverlayCompact]}>
+          <View style={styles.modeCopy}>
+            <Text style={[styles.modeTitle, compact && styles.modeTitleCompact]} numberOfLines={1}>
+              {title}
+            </Text>
+            <Text style={[styles.modeSub, compact && styles.modeSubCompact]} numberOfLines={1}>
+              {subtitle}
+            </Text>
+            {cta && (
+              <View style={styles.ctaPill}>
+                <Text style={styles.ctaText}>{cta}</Text>
+              </View>
+            )}
+          </View>
+
+          {badge && <View style={styles.redBadge} />}
+        </View>
+      </ImageBackground>
+    </Pressable>
+  );
+}
+
+function InfoCard({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <LinearGradient
+      colors={["rgba(28,38,68,0.96)", "rgba(10,15,32,0.98)"]}
+      start={{ x: 0, y: 0 }}
+      end={{ x: 1, y: 1 }}
+      style={styles.infoCard}
+    >
+      <View pointerEvents="none" style={styles.infoGoldGlow} />
+      <Text style={styles.infoTitle}>{title}</Text>
+      {children}
+    </LinearGradient>
+  );
+}
+
 const styles = StyleSheet.create({
   container: {
-  flex: 1,
-  backgroundColor: "#101623",
-},
+    flex: 1,
+    backgroundColor: "#080D1A",
+  },
 
-/* TOP ECONOMY BAR */
-econBar: {
-  flexDirection: "row",
-  alignItems: "center",
-  justifyContent: "flex-end",
-  marginTop: 10,
-  marginBottom: 14,
-},
+  content: {
+    paddingHorizontal: 18,
+    paddingTop: 38,
+    paddingBottom: 64,
+  },
 
-levelUpOverlay: {
-  position: "absolute",
-  top: 0,
-  left: 0,
-  right: 0,
-  bottom: 0,
-  justifyContent: "center",
-  alignItems: "center",
-  backgroundColor: "rgba(0,0,0,0.35)",
-},
+  topBar: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 16,
+    gap: 8,
+  },
 
-levelUpCard: {
-  backgroundColor: "#111827",
-  paddingVertical: 20,
-  paddingHorizontal: 28,
-  borderRadius: 16,
-  alignItems: "center",
-  shadowColor: "#000",
-  shadowOpacity: 0.3,
-  shadowRadius: 12,
-  elevation: 6,
-},
+  avatarWrap: {
+    width: 50,
+    height: 50,
+    borderRadius: 18,
+  },
 
-levelUpTitle: {
-  fontSize: 18,
-  fontWeight: "700",
-  color: "#FACC15",
-  marginBottom: 6,
-},
+  avatar: {
+    width: 50,
+    height: 50,
+    borderRadius: 18,
+    borderWidth: 2,
+    borderColor: "#F6C453",
+  },
 
-levelUpText: {
-  fontSize: 14,
-  color: "#E5E7EB",
-},
+  avatarPlaceholder: {
+    width: 50,
+    height: 50,
+    borderRadius: 18,
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.14)",
+    backgroundColor: "#111827",
+  },
 
+  economyCluster: {
+    flex: 1,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 7,
+  },
 
-todayCard: {
-  backgroundColor: "#1D2438",
-  padding: 12,
-  borderRadius: 16,
-  marginBottom: 16,
-  borderWidth: 1,
-  borderColor: "#222",
-},
+  currencyChip: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "rgba(20,28,48,0.86)",
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.08)",
+    borderRadius: 999,
+    paddingHorizontal: 8,
+    paddingVertical: 6,
+  },
 
-utilityTile: {
-  backgroundColor: "#1A2032",
-  padding: 16,
-  borderRadius: 16,
-  marginBottom: 14,
-  borderWidth: 1,
-  borderColor: "#333",
-  flexDirection: "row",
-  justifyContent: "space-between",
-  alignItems: "center",
-},
-utilityTitle: {
-  fontSize: 17,
-  fontWeight: "800",
-  color: "#F5C451",
-},
-utilitySub: {
-  marginTop: 4,
-  fontSize: 13,
-  fontWeight: "600",
-  color: "#999",
-},
+  currencyIcon: {
+    width: 18,
+    height: 18,
+    resizeMode: "contain",
+    marginRight: 4,
+  },
 
-rankBar: {
-  height: 10,
-  backgroundColor: "#333",
-  borderRadius: 6,
-  overflow: "hidden",
-  marginTop: 6,
-},
-
-rankFill: {
-  height: "100%",
-  backgroundColor: "#F5B942",
-},
-mainHint: {
-  marginTop: 4,
-  textAlign: "center",
-  fontSize: 12,
-  fontWeight: "600",
-  color: "#2B2F36",
-  opacity: 0.7,
-},
-
-
-rankText: {
-  marginTop: 4,
-  fontSize: 13,
-  fontWeight: "700",
-  color: "#F5B942",
-},
-
-todayTitle: {
-  fontSize: 18,
-  fontWeight: "800",
-  color: "#F5B942",
-  marginBottom: 12,
-},
-
-todayRow: {
-  flexDirection: "column",
-  gap: 4,
-  marginBottom: 8,
-},
-
-
-todayLabel: {
-  fontSize: 12,
-  fontWeight: "600",
-  color: "#E5E7EB",
-},
-
-todayValue: {
-  fontSize: 12,
-  fontWeight: "700",
-  color: "#F5B942",
-},
-
-
-achievementTeaser: {
-  marginTop: 16,
-  padding: 14,
-  borderRadius: 14,
-  backgroundColor: "#1A2032",
-  borderWidth: 1,
-  borderColor: "#333",
-},
-
-achievementTitle: {
-  fontSize: 14,
-  fontWeight: "800",
-  color: "#F5B942",
-  marginBottom: 4,
-},
-
-achievementText: {
-  fontSize: 13,
-  color: "#ccc",
-},
-
-
-dailySubText: {
-  marginTop: 4,
-  fontSize: 13,
-  fontWeight: "600",
-  color: "#9AA3B2",
-},
-
-econItem: {
-  flexDirection: "row",
-  alignItems: "center",
-  marginLeft: 16,
-},
-
-econIcon: {
-  width: 28,
-  height: 28,
-  resizeMode: "contain",
-  marginRight: 6,
-},
-
-econText: {
-  color: "#F5B942",
-  fontSize: 18,
-  fontWeight: "800",
-},
+  currencyText: {
+    color: "#F5B942",
+    fontSize: 12,
+    fontWeight: "900",
+  },
 
   vipBadge: {
     backgroundColor: "#F5B942",
-    marginLeft: 14,
     paddingHorizontal: 10,
-    paddingVertical: 4,
-    borderRadius: 8,
+    paddingVertical: 7,
+    borderRadius: 999,
   },
 
   vipText: {
-    fontWeight: "800",
-    color: "#000",
-    fontSize: 14,
+    color: "#111827",
+    fontSize: 11,
+    fontWeight: "900",
   },
 
-  /* HERO CARD */
-  heroCard: {
-    backgroundColor: "#1A2032",
-    padding: 15,
-    borderRadius: 16,
-    marginBottom: 18,
-    borderColor: "rgba(255, 200, 61, 0.55)",
+  vipBadgeLocked: {
+    backgroundColor: "rgba(20,28,48,0.9)",
     borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.12)",
+    paddingHorizontal: 10,
+    paddingVertical: 7,
+    borderRadius: 999,
   },
 
-  levelLabel: {
+  vipTextLocked: {
+    color: "#AEB7C8",
+    fontSize: 11,
+    fontWeight: "900",
+  },
+
+  hero: {
+    minHeight: 238,
+    borderRadius: 30,
+    overflow: "hidden",
+    marginBottom: 18,
+    backgroundColor: "#111827",
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.12)",
+  },
+
+  heroImage: {
+    resizeMode: "cover",
+  },
+
+  heroShade: {
+    flex: 1,
+    justifyContent: "flex-start",
+    padding: 20,
+    paddingTop: 34,
+    backgroundColor: "rgba(4,8,18,0.48)",
+  },
+
+  heroKicker: {
     color: "#F5B942",
-    fontSize: 17,
+    fontSize: 11,
+    fontWeight: "900",
+    letterSpacing: 1.4,
+    marginBottom: 5,
+  },
+
+  heroTitle: {
+    color: "#FFFFFF",
+    fontSize: 25,
+    fontWeight: "900",
+    letterSpacing: -0.5,
+  },
+
+  heroSub: {
+    color: "#CFD6E6",
+    fontSize: 13,
+    fontWeight: "700",
+    marginTop: 4,
+    marginBottom: 12,
+  },
+
+  progressPill: {
+    backgroundColor: "rgba(10,15,30,0.78)",
+    borderWidth: 1,
+    borderColor: "rgba(245,185,66,0.5)",
+    borderRadius: 20,
+    padding: 11,
+    marginTop: 10,
+  },
+
+  progressTop: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 8,
+  },
+
+  progressLevel: {
+    color: "#F5B942",
+    fontSize: 14,
+    fontWeight: "900",
+  },
+
+  progressXp: {
+    color: "#E9EDF7",
+    fontSize: 11,
     fontWeight: "800",
-    marginBottom: 10,
   },
 
-  xpBar: {
-  height: 14,
-  backgroundColor: "#2A3147",
-  borderRadius: 8,
-  overflow: "hidden",
-  marginBottom: 7,
-},
+  progressBar: {
+    height: 8,
+    borderRadius: 999,
+    overflow: "hidden",
+    backgroundColor: "rgba(255,255,255,0.14)",
+  },
 
- xpFill: {
-  height: "100%",
-  backgroundColor: "#F5B942",
-},
+  progressFill: {
+    height: "100%",
+    backgroundColor: "#F5B942",
+  },
 
-
-  xpText: {
+  streakText: {
     color: "#F5B942",
-    fontSize: 10,
+    fontSize: 11,
+    fontWeight: "800",
+    marginTop: 8,
     textAlign: "right",
   },
 
-  /* MAIN BUTTON */
-  mainBtn: {
-  backgroundColor: "#E6B83F",
-  paddingVertical: 14,
-  borderRadius: 18,
-  marginBottom: 15,
-},
-
-mainBtnText: {
-  textAlign: "center",
-  fontSize: 17,
-  fontWeight: "800",
-  color: "#111827",
-},
-
-
-  /* SECONDARY BUTTONS */
-secondaryBtn: {
-  backgroundColor: "#1A1A1A",
-  paddingVertical: 14,
-  borderRadius: 14,
-  marginBottom: 10,
-  borderWidth: 1,
-  borderColor: "#333",
-},
-
-
-  secondaryBtnText: {
-    textAlign: "center",
-    fontSize: 14,
-    fontWeight: "700",
-    color: "#E5E7EB",
+  sectionHeader: {
+    marginBottom: 10,
   },
 
-  footerText: {
-    marginTop: 30,
-    textAlign: "center",
-    color: "#555",
+  sectionTitle: {
+    color: "#FFFFFF",
+    fontSize: 22,
+    fontWeight: "900",
+  },
+
+  sectionHint: {
+    color: "#8792AA",
+    fontSize: 11,
+    fontWeight: "800",
+    marginTop: 2,
+  },
+
+  modeCard: {
+    borderRadius: 24,
+    overflow: "hidden",
+    backgroundColor: "#111827",
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.1)",
+    shadowColor: "#000",
+    shadowOpacity: 0.26,
+    shadowRadius: 14,
+    shadowOffset: { width: 0, height: 8 },
+    elevation: 6,
+  },
+
+  modeCardLarge: {
+    height: 138,
+    marginBottom: 16,
+  },
+
+  modeCardCompact: {
+    width: "48%",
+    height: 116,
+    marginBottom: 14,
+  },
+
+  cardGlow: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "#F5B942",
+    borderRadius: 24,
+  },
+
+  modeArt: {
+    flex: 1,
+  },
+
+  modeArtImage: {
+    resizeMode: "cover",
+  },
+
+  modeOverlay: {
+    flex: 1,
+    padding: 16,
+    justifyContent: "center",
+    backgroundColor: "rgba(3,7,18,0.16)",
+  },
+
+  modeOverlayCompact: {
+    padding: 13,
+    justifyContent: "flex-end",
+    backgroundColor: "rgba(3,7,18,0.25)",
+  },
+
+  modeCopy: {
+    maxWidth: "58%",
+  },
+
+  modeTitle: {
+    color: "#FFFFFF",
+    fontSize: 25,
+    fontWeight: "900",
+    letterSpacing: -0.3,
+  },
+
+  modeTitleCompact: {
+    fontSize: 16,
+  },
+
+  modeSub: {
+    color: "#C9D1E3",
+    fontSize: 13,
+    fontWeight: "800",
+    marginTop: 4,
+  },
+
+  modeSubCompact: {
+    fontSize: 11,
+  },
+
+  ctaPill: {
+    marginTop: 13,
+    alignSelf: "flex-start",
+    backgroundColor: "#F5B942",
+    borderRadius: 999,
+    paddingHorizontal: 18,
+    paddingVertical: 8,
+  },
+
+  ctaText: {
+    color: "#101623",
     fontSize: 12,
+    fontWeight: "900",
   },
-  dailyBtn: {
-  backgroundColor: "#222",
-  paddingVertical: 14,
-  borderRadius: 14,
-  marginBottom: 14,
-  borderWidth: 1,
-  borderColor: "#444",
-  flexDirection: "row",
-  justifyContent: "center",
-  alignItems: "center",
-  position: "relative",
-},
 
-boxRow: {
-  flexDirection: "row",
-  justifyContent: "space-between",
-  marginBottom: 22,
-},
+  redBadge: {
+    position: "absolute",
+    top: 12,
+    right: 12,
+    width: 12,
+    height: 12,
+    borderRadius: 6,
+    backgroundColor: "#FF3B30",
+    borderWidth: 2,
+    borderColor: "#FFFFFF",
+  },
 
+  grid: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
+    marginBottom: 2,
+  },
 
-smallBox: {
-  width: "48%",
-  height: 96,
-  backgroundColor: "#1A2032",
-  paddingVertical: 14,
-  paddingHorizontal: 12,
-  borderRadius: 16,
-  borderWidth: 1,
-  borderColor: "#333",
-  justifyContent: "center",
-  position: "relative",
-  shadowColor: "#000",
-shadowOpacity: 0.25,
-shadowRadius: 6,
-elevation: 3,
+  infoCard: {
+    borderWidth: 1,
+    borderColor: "rgba(245,185,66,0.18)",
+    borderRadius: 22,
+    padding: 16,
+    marginTop: 14,
+    overflow: "hidden",
+    shadowColor: "#F5B942",
+    shadowOpacity: 0.10,
+    shadowRadius: 14,
+    shadowOffset: { width: 0, height: 7 },
+    elevation: 5,
+  },
 
-},
+  infoTitle: {
+    color: "#F5B942",
+    fontSize: 17,
+    fontWeight: "900",
+    marginBottom: 12,
+    textShadowColor: "rgba(245,185,66,0.25)",
+    textShadowRadius: 8,
+  },
 
-boxTitle: {
-  fontSize: 16,
-  fontWeight: "800",
-  color: "#F5B942",
-  marginBottom: 4,
-  textAlign: "center",
-},
+  infoRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: 12,
+  },
 
-boxSub: {
-  fontSize: 12,
-  fontWeight: "600",
-  color: "#9AA3B2",
-  textAlign: "center",
-},
+  infoLabel: {
+    color: "#FFFFFF",
+    fontSize: 13,
+    fontWeight: "900",
+  },
 
+  infoSub: {
+    color: "#AAB4D6",
+    fontSize: 12,
+    fontWeight: "800",
+    marginTop: 3,
+  },
 
-badge: {
-  width: 12,
-  height: 12,
-  backgroundColor: "#FF3B30",
-  borderRadius: 6,
-  position: "absolute",
-  right: 16,
-  top: 12,
-},
-streakText: {
-  color: "#F5B942",
-  fontSize: 12,
-  fontWeight: "700",
-  marginTop: 6,
-  textAlign: "right",
-},
+  infoValue: {
+    color: "#F5B942",
+    fontSize: 12,
+    fontWeight: "900",
+  },
 
+  greenText: {
+    color: "#35F2A1",
+  },
+
+  bar: {
+    height: 9,
+    borderRadius: 999,
+    backgroundColor: "rgba(255,255,255,0.08)",
+    marginTop: 14,
+    overflow: "hidden",
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.05)",
+  },
+
+  barFill: {
+    height: "100%",
+    backgroundColor: "#F5B942",
+    shadowColor: "#F5B942",
+    shadowOpacity: 0.55,
+    shadowRadius: 8,
+  },
+
+  claimButton: {
+    marginTop: 14,
+    backgroundColor: "#F5B942",
+    borderRadius: 16,
+    paddingVertical: 12,
+    alignItems: "center",
+  },
+
+  claimText: {
+    color: "#111827",
+    fontSize: 14,
+    fontWeight: "900",
+  },
+
+  claimedText: {
+    color: "#35F2A1",
+    fontSize: 12,
+    fontWeight: "900",
+    marginTop: 13,
+  },
+
+  achievementCard: {
+    backgroundColor: "rgba(22,30,52,0.92)",
+    borderWidth: 1,
+    borderColor: "rgba(245,185,66,0.28)",
+    borderRadius: 22,
+    padding: 18,
+    marginTop: 14,
+  },
+
+  achievementTitle: {
+    color: "#F5B942",
+    fontSize: 14,
+    fontWeight: "900",
+    marginBottom: 5,
+  },
+
+  achievementText: {
+    color: "#D7DEEC",
+    fontSize: 13,
+    fontWeight: "700",
+  },
+
+  levelUpOverlay: {
+    position: "absolute",
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 0,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "rgba(0,0,0,0.35)",
+  },
+
+  levelUpCard: {
+    backgroundColor: "#111827",
+    borderWidth: 1,
+    borderColor: "rgba(245,185,66,0.5)",
+    borderRadius: 22,
+    paddingVertical: 22,
+    paddingHorizontal: 30,
+    alignItems: "center",
+  },
+
+  levelUpTitle: {
+    color: "#F5B942",
+    fontSize: 22,
+    fontWeight: "900",
+  },
+
+  levelUpText: {
+    color: "#E5E7EB",
+    fontSize: 14,
+    fontWeight: "800",
+    marginTop: 6,
+  },
+
+  pressed: {
+    opacity: 0.82,
+    transform: [{ scale: 0.985 }],
+  },
 });
-

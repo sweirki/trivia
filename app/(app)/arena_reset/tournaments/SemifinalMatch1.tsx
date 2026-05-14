@@ -4,6 +4,13 @@ import { router } from "expo-router";
 import { useArenaStore } from "@/arena/store/useArenaStore";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
 
+
+type TournamentQuestion = {
+  question: string;
+  answers: string[];
+  correctAnswer: string;
+};
+
 export default function SemifinalMatch1() {
   const {
     questions,
@@ -60,7 +67,7 @@ setOpponent(players[1] ?? null);
     setMatchState("in-match");
   }, []);
 
-  const q = questions[currentQuestionIndex];
+  const q = questions[currentQuestionIndex] as TournamentQuestion;
   const blocked = !q;
 
 
@@ -149,13 +156,14 @@ setOpponent(players[1] ?? null);
 
         <Text style={styles.timer}>⏳ {timeLeft}s</Text>
 
-        <Text style={styles.question}>{q.question}</Text>
+        <Text style={styles.question}>{typeof q.question === "string" ? q.question : ""}</Text>
 
-        {q.answers.map((a, i) => (
+        {(Array.isArray(q.answers) ? q.answers : []).map((a: string, i: number) => (
           <TouchableOpacity
             key={i}
             style={styles.answerBtn}
             onPress={() => handleAnswer(a)}
+            activeOpacity={0.72}
           >
             <Text style={styles.answerText}>{a}</Text>
           </TouchableOpacity>
@@ -220,6 +228,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 });
+
 
 
 

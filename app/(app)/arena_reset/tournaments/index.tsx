@@ -1,42 +1,71 @@
-import React, { useEffect, useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import React, { useEffect, useMemo, useState } from "react";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  ScrollView,
+} from "react-native";
 import { router } from "expo-router";
 import { s } from "@/arena/theme/arenaSizing";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
-import { useQuickGameStore } from "@/store/useQuickGameStore";
+import { useAuthStore } from "@/store/useAuthStore";
+import { usePlayerStore } from "@/store/usePlayerStore";
+
+const EVENT_ROTATION = [
+  {
+    tier: "BRONZE CUP",
+    subtitle: "Daily Open",
+    reward: "Starter rewards & easy seeding",
+    accent: "#CD7F32",
+  },
+  {
+    tier: "SILVER CLASH",
+    subtitle: "Competitive Event",
+    reward: "Higher SR & bigger rewards",
+    accent: "#C0C0C0",
+  },
+  {
+    tier: "GOLD MAJOR",
+    subtitle: "Weekend Major",
+    reward: "Elite rewards & prestige",
+    accent: "#FFD54F",
+  },
+];
 
 export default function TournamentEntry() {
-  // --------------------------------------------------
-  // STORE
-  // --------------------------------------------------
-  const tournament = useTournamentStore(s => s.tournament);
-  const joinTournament = useTournamentStore(s => s.joinTournament);
+  const tournament = useTournamentStore((state) => state.tournament);
+  const lifecycle = useTournamentStore((state) => state.lifecycle);
 
-  // --------------------------------------------------
-  // LOCAL STATE
-  // --------------------------------------------------
-  const [countdown, setCountdown] = useState("TBA");
+  const [countdown, setCountdown] = useState("LIVE NOW");
 
-  // --------------------------------------------------
-  // DERIVED DATA (SAFE)
-  // --------------------------------------------------
-  const startTime = tournament
-    ? tournament.createdAt + 60_000
-    : null;
+  const currentEvent = useMemo(() => {
+    const day = new Date().getDay();
 
-  const rules = tournament
-    ? [
-        `${tournament.config.questionsPerMatch} questions per match`,
-        `${tournament.config.timePerQuestion}s per question`,
-      ]
-    : [];
+    if (day === 5 || day === 6) {
+      return EVENT_ROTATION[2];
+    }
 
-  // --------------------------------------------------
-  // COUNTDOWN TIMER
-  // --------------------------------------------------
+    if (day === 3 || day === 4) {
+      return EVENT_ROTATION[1];
+    }
+
+    return EVENT_ROTATION[0];
+  }, []);
+
+  useEffect(() => {
+    const store = useTournamentStore.getState();
+
+    if (!store.tournament || store.lifecycle === "CREATED") {
+      store.loadActiveTournament();
+    }
+  }, []);
+
+  const startTime = tournament ? tournament.createdAt + 60_000 : null;
+
   useEffect(() => {
     if (!startTime) {
-      setCountdown("TBA");
+      setCountdown("LIVE NOW");
       return;
     }
 
@@ -44,208 +73,282 @@ export default function TournamentEntry() {
       const diff = startTime - Date.now();
 
       if (diff <= 0) {
-        setCountdown("STARTING NOW!");
+        setCountdown("LIVE NOW");
         return;
       }
 
       const h = Math.floor(diff / (1000 * 60 * 60));
       const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-      const s = Math.floor((diff % (1000 * 60)) / 1000);
+      const sec = Math.floor((diff % (1000 * 60)) / 1000);
 
-      setCountdown(`${h}h ${m}m ${s}s`);
+      setCountdown(`${h}h ${m}m ${sec}s`);
     };
 
     update();
     const id = setInterval(update, 1000);
+
     return () => clearInterval(id);
   }, [startTime]);
 
-  // --------------------------------------------------
-  // JOIN
-  // --------------------------------------------------
-const handleJoin = () => {
-  
-  const questionsCount =
-    tournament?.config.questionsPerMatch ?? 10;
+  const handleJoin = () => {
+    let store = useTournamentStore.getState();
 
-  // START TOURNAMENT GAME
-  useQuickGameStore
-    .getState()
-    .initTournamentGame(null, questionsCount);
+    if (!store.tournament || store.lifecycle === "CREATED") {
+      store.loadActiveTournament();
+      store = useTournamentStore.getState();
+    }
 
-  // GO DIRECTLY TO GAMEPLAY
-  router.push("/(app)/play/game");
+    if (store.lifecycle === "COMPLETED") {
+      store.resetTournament();
+      store.loadActiveTournament();
+      store = useTournamentStore.getState();
+    }
 
-};
+    const user = useAuthStore.getState().user;
+    const player = usePlayerStore.getState();
+    const uid = user?.uid ?? "guest-player";
+    const username = player.nickname ?? user?.displayName ?? "You";
 
+    if (store.lifecycle === "OPEN") {
+      store.joinTournament(uid, username);
+      store.lockTournament();
+      store.startTournament();
+    }
 
-  // --------------------------------------------------
-  // RENDER
-  // --------------------------------------------------
+    const latest = useTournamentStore.getState();
+    const bracket = latest.bracket;
+
+    const nextMatch =
+      bracket?.qualifiers.find(
+        (match) =>
+          !match.completed &&
+          (match.playerAUid === uid || match.playerBUid === uid)
+      ) ??
+      bracket?.semifinals.find(
+        (match) =>
+          !match.completed &&
+          (match.playerAUid === uid || match.playerBUid === uid)
+      ) ??
+      (bracket?.final &&
+      !bracket.final.completed &&
+      (bracket.final.playerAUid === uid || bracket.final.playerBUid === uid)
+        ? bracket.final
+        : null) ??
+      bracket?.qualifiers.find((match) => !match.completed) ??
+      bracket?.semifinals.find((match) => !match.completed) ??
+      (bracket?.final && !bracket.final.completed ? bracket.final : null);
+
+    if (nextMatch?.id) {
+      router.push(`/(app)/arena_reset/tournaments/match/${nextMatch.id}` as any);
+      return;
+    }
+
+    router.push("/(app)/arena_reset/tournaments/TournamentBracket" as any);
+  };
+
+  const rewardCoins = tournament?.config.rewardCoins ?? 100;
+  const entryFeeCoins = tournament?.config.entryFeeCoins ?? 50;
+  const questionsPerMatch = tournament?.config.questionsPerMatch ?? 10;
+  const timePerQuestion = tournament?.config.timePerQuestion ?? 10;
+  const isCompleted = lifecycle === "COMPLETED";
+
   return (
-    <View style={styles.container}>
-      {!tournament ? (
-        <Text style={styles.error}>
-          No active tournament available.
+    <ScrollView
+      style={styles.screen}
+      contentContainerStyle={styles.content}
+      showsVerticalScrollIndicator={false}
+    >
+      <View
+        style={[
+          styles.heroCard,
+          { borderColor: currentEvent.accent },
+        ]}
+      >
+        <Text style={styles.liveTag}>TOURNAMENT EVENT</Text>
+
+        <Text style={styles.heroTitle}>{currentEvent.tier}</Text>
+
+        <Text style={styles.heroSubtitle}>{currentEvent.subtitle}</Text>
+
+        <View style={styles.countdownRow}>
+          <Text style={styles.countdownLabel}>
+            {isCompleted ? "Next Run" : "Event Status"}
+          </Text>
+          <Text style={styles.countdownValue}>
+            {isCompleted ? "READY" : countdown}
+          </Text>
+        </View>
+      </View>
+
+      <View style={styles.sectionCard}>
+        <Text style={styles.sectionTitle}>Event Rewards</Text>
+
+        <Text style={styles.rewardCoins}>{rewardCoins} Coins</Text>
+
+        <Text style={styles.rewardSubtext}>{currentEvent.reward}</Text>
+      </View>
+
+      <View style={styles.sectionCard}>
+        <Text style={styles.sectionTitle}>Entry Requirements</Text>
+
+        <Text style={styles.ruleLine}>• Entry Fee: {entryFeeCoins} coins</Text>
+        <Text style={styles.ruleLine}>• {questionsPerMatch} questions per match</Text>
+        <Text style={styles.ruleLine}>• {timePerQuestion}s per question</Text>
+        <Text style={styles.ruleLine}>• Higher placements earn prestige rewards</Text>
+      </View>
+
+      <View style={styles.warningCard}>
+        <Text style={styles.warningTitle}>Tournament Pressure</Text>
+
+        <Text style={styles.warningText}>
+          Lose and your run ends. Win rounds to advance, build champion momentum,
+          and claim the top reward.
         </Text>
-      ) : (
-        <>
-          <Text style={styles.title}>{tournament.name}</Text>
-          <Text style={styles.modeType}>Arena Tournament</Text>
+      </View>
 
-          {/* Countdown */}
-          <View style={styles.countdownBox}>
-            <Text style={styles.countdownLabel}>Starts In</Text>
-            <Text style={styles.countdownValue}>{countdown}</Text>
-          </View>
+      <TouchableOpacity style={styles.joinButton} onPress={handleJoin} activeOpacity={0.72}>
+        <Text style={styles.joinButtonText}>
+          {isCompleted ? "Start New Tournament" : "Enter Tournament"}
+        </Text>
 
-          {/* Prize */}
-          <View style={styles.prizeBox}>
-            <Text style={styles.prizeLabel}>Prize Pool</Text>
-            <Text style={styles.prizeValue}>
-              {tournament.config.rewardCoins} Coins
-            </Text>
-          </View>
-
-          {/* Entry Fee */}
-          <View style={styles.entryBox}>
-            <Text style={styles.entryLabel}>Entry Fee</Text>
-            <Text style={styles.entryValue}>
-              {tournament.config.entryFeeCoins} Coins
-            </Text>
-          </View>
-
-          {/* Rules */}
-          <View style={styles.rulesBox}>
-            <Text style={styles.rulesTitle}>Rules</Text>
-            {rules.length === 0 ? (
-              <Text style={styles.rule}>No special rules.</Text>
-            ) : (
-              rules.map((r, i) => (
-                <Text key={i} style={styles.rule}>• {r}</Text>
-              ))
-            )}
-          </View>
-<Text style={styles.repeatableNote}>
-  You can join multiple times. Each entry costs coins.
-</Text>
-
-          {/* Join */}
-          <TouchableOpacity style={styles.joinBtn} onPress={handleJoin}>
-            <Text style={styles.joinText}>Join Tournament</Text>
-          </TouchableOpacity>
-        </>
-      )}
-    </View>
+        <Text style={styles.joinButtonSubtext}>Compete. Survive. Climb.</Text>
+      </TouchableOpacity>
+    </ScrollView>
   );
 }
 
-// --------------------------------------------------
-// STYLES (UNCHANGED)
-// --------------------------------------------------
 const styles = StyleSheet.create({
-  container: {
+  screen: {
     flex: 1,
-    backgroundColor: "#0e0e14",
-    paddingTop: s(50),
-    paddingHorizontal: s(20),
-    alignItems: "center",
+    backgroundColor: "#050512",
   },
 
-  title: {
-    color: "#FFD54F",
-    fontSize: s(32),
+  content: {
+    paddingTop: s(22),
+    paddingBottom: s(190),
+    paddingHorizontal: s(16),
+  },
+
+  heroCard: {
+    backgroundColor: "#131326",
+    borderWidth: 1.5,
+    borderRadius: s(20),
+    padding: s(18),
+    marginBottom: s(14),
+  },
+
+  liveTag: {
+    color: "#FF8A65",
+    fontSize: s(12),
     fontWeight: "800",
+    marginBottom: s(10),
+    letterSpacing: 1,
+  },
+
+  heroTitle: {
+    color: "#fff",
+    fontSize: s(28),
+    fontWeight: "900",
+  },
+
+  heroSubtitle: {
+    color: "#b0b0c3",
+    fontSize: s(16),
+    marginTop: s(4),
+    marginBottom: s(12),
+  },
+
+  countdownRow: {
+    backgroundColor: "#1B1B34",
+    borderRadius: s(14),
+    padding: s(13),
+  },
+
+  countdownLabel: {
+    color: "#8f8fa5",
+    fontSize: s(13),
     marginBottom: s(6),
   },
-  
-repeatableNote: {
-  color: "#888",
-  fontSize: s(13),
-  marginBottom: s(12),
-  textAlign: "center",
-},
 
-  modeType: {
-    color: "#aaa",
-    fontSize: s(16),
-    marginBottom: s(30),
-  },
-
-  countdownBox: {
-    backgroundColor: "#1b1b27",
-    width: "85%",
-    padding: s(20),
-    borderRadius: s(14),
-    alignItems: "center",
-    marginBottom: s(30),
-  },
-  countdownLabel: { color: "#aaa", fontSize: s(16) },
   countdownValue: {
     color: "#FFD54F",
+    fontSize: s(19),
+    fontWeight: "800",
+  },
+
+  sectionCard: {
+    backgroundColor: "#101020",
+    borderRadius: s(16),
+    padding: s(16),
+    marginBottom: s(12),
+  },
+
+  sectionTitle: {
+    color: "#fff",
+    fontSize: s(18),
+    fontWeight: "800",
+    marginBottom: s(10),
+  },
+
+  rewardCoins: {
+    color: "#FFD54F",
     fontSize: s(26),
+    fontWeight: "900",
+  },
+
+  rewardSubtext: {
+    color: "#a5a5b8",
+    fontSize: s(14),
+    marginTop: s(8),
+  },
+
+  ruleLine: {
+    color: "#cfcfe1",
+    fontSize: s(14),
+    marginBottom: s(7),
+  },
+
+  warningCard: {
+    backgroundColor: "#2A2108",
+    borderWidth: 1,
+    borderColor: "#7A5A00",
+    borderRadius: s(16),
+    padding: s(15),
+    marginBottom: s(18),
+  },
+
+  warningTitle: {
+    color: "#FFD54F",
+    fontSize: s(18),
+    fontWeight: "800",
+    marginBottom: s(10),
+  },
+
+  warningText: {
+    color: "#E8DDB5",
+    fontSize: s(14),
+    lineHeight: s(19),
+  },
+
+  joinButton: {
+    backgroundColor: "#FFD54F",
+    borderRadius: s(14),
+    paddingVertical: s(12),
+    alignItems: "center",
+    marginBottom: s(34),
+  },
+
+  joinButtonText: {
+    color: "#000",
+    fontSize: s(19),
+    fontWeight: "900",
+  },
+
+  joinButtonSubtext: {
+    color: "#3d2c00",
+    fontSize: s(13),
     fontWeight: "700",
     marginTop: s(4),
   },
-
-  prizeBox: {
-    backgroundColor: "#151521",
-    width: "85%",
-    padding: s(20),
-    borderRadius: s(14),
-    alignItems: "center",
-    marginBottom: s(20),
-  },
-  prizeLabel: { color: "#aaa", fontSize: s(16) },
-  prizeValue: {
-    color: "#4FC3F7",
-    fontSize: s(26),
-    fontWeight: "700",
-  },
-
-  entryBox: {
-    backgroundColor: "#151521",
-    width: "85%",
-    padding: s(20),
-    borderRadius: s(14),
-    alignItems: "center",
-    marginBottom: s(30),
-  },
-  entryLabel: { color: "#aaa", fontSize: s(16) },
-  entryValue: {
-    color: "#E53935",
-    fontSize: s(26),
-    fontWeight: "700",
-  },
-
-  rulesBox: {
-    backgroundColor: "#14141e",
-    width: "85%",
-    padding: s(20),
-    borderRadius: s(14),
-    marginBottom: s(40),
-  },
-  rulesTitle: {
-    color: "#fff",
-    fontSize: s(20),
-    marginBottom: s(10),
-    textAlign: "center",
-  },
-  rule: { color: "#aaa", fontSize: s(14), marginBottom: s(6) },
-
-  joinBtn: {
-    backgroundColor: "#FFD54F",
-    paddingVertical: s(16),
-    width: "85%",
-    borderRadius: s(14),
-  },
-  joinText: {
-    textAlign: "center",
-    fontSize: s(18),
-    fontWeight: "700",
-    color: "#000",
-  },
-
-  error: { color: "#fff", fontSize: s(20), marginTop: s(40) },
 });
 

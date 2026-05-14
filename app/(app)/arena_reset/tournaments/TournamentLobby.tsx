@@ -57,7 +57,7 @@ export default function TournamentLobby() {
       </View>
 
       {ready ? (
-        <TouchableOpacity style={styles.startBtn} onPress={handleStart}>
+        <TouchableOpacity style={styles.startBtn} onPress={handleStart} activeOpacity={0.72}>
           <Text style={styles.startText}>Start Tournament</Text>
         </TouchableOpacity>
       ) : (
@@ -132,4 +132,5 @@ const styles = StyleSheet.create({
     fontSize: s(18),
   },
 });
+
 

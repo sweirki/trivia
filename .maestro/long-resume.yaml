@@ -1,0 +1,42 @@
+appId: ${APP_ID}
+---
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible:
+      id: "screen-hub"
+    timeout: 15000
+
+- tapOn:
+    id: "hub-profile-button"
+- extendedWaitUntil:
+    visible:
+      id: "screen-profile"
+    timeout: 10000
+- back
+- extendedWaitUntil:
+    visible:
+      id: "screen-hub"
+    timeout: 10000
+
+- tapOn:
+    id: "hub-daily-button"
+- extendedWaitUntil:
+    visible:
+      id: "screen-daily"
+    timeout: 10000
+- back
+- extendedWaitUntil:
+    visible:
+      id: "screen-hub"
+    timeout: 10000
+
+- stopApp
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible:
+      id: "screen-hub"
+    timeout: 15000
+- assertVisible:
+    id: "hub-quick-play-button"

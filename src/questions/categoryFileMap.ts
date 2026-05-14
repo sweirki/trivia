@@ -1,18 +1,29 @@
 // src/questions/categoryFileMap.ts
-// IMPORTANT: Metro bundler requires static require() paths.
+// Backward-compatible helpers kept for older imports.
+// The real Phase 3 source of truth is questionRegistry.ts.
 
-export type CategoryKey =
-  | 'science'
-  | 'history'
-  | 'movies'
-  | 'geography'
-  | 'generalknowledge';
+import {
+  getQuestionPack,
+  getPlayableQuestionPacks,
+  hasPlayableQuestionPack,
+  normalizeCategoryId,
+} from "./questionRegistry";
 
-export const categoryFileMap: Record<CategoryKey, any> = {
-  science: require('../../assets/data/questions/science.json'),
-  history: require('../../assets/data/questions/history.json'),
-  movies: require('../../assets/data/questions/movies.json'),
-  geography: require('../../assets/data/questions/Geography.json'),
-  generalknowledge: require('../../assets/data/questions/generalKnowledge.json'),
-};
+export type CategoryKey = string;
+
+export const categoryFileMap: Record<string, any[]> = getPlayableQuestionPacks().reduce<
+  Record<string, any[]>
+>((acc, pack) => {
+  acc[pack.id] = pack.raw;
+  return acc;
+}, {});
+
+export function toCategoryKey(category: string | null | undefined): CategoryKey | null {
+  const id = normalizeCategoryId(category);
+  return id && getQuestionPack(id) ? id : null;
+}
+
+export function isPlayableCategory(category: string | null | undefined): boolean {
+  return hasPlayableQuestionPack(category);
+}
 

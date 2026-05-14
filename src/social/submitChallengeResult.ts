@@ -81,3 +81,4 @@ export async function submitChallengeResult(
   await updateDoc(ref, updates);
 }
 
+

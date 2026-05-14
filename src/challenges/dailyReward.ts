@@ -4,3 +4,4 @@ export const DAILY_CHALLENGE_REWARD = {
   tickets: 1,
 };
 
+

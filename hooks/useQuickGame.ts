@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import sampleQuestions from "@assets/data/sampleQuestions.json";
-import { detectCategoryForQuestion } from "@/utils/categoryAutoDetect";
+import { buildGameplayQuestions } from "@/questions/gameplayQuestions";
 
 export default function useQuickGame(mode, category) {
   const [question, setQuestion] = useState(null);
@@ -17,25 +16,25 @@ export default function useQuickGame(mode, category) {
   // LOAD QUESTIONS BY CATEGORY
   // ---------------------------
  useEffect(() => {
-  const enriched = sampleQuestions.map((q, i) => {
-    const detected = detectCategoryForQuestion(q.text);
-    const cleanCategory = typeof detected === "string" ? detected : detected?.id;
+  const final = buildGameplayQuestions({
+    mode:
+      mode === "speed" ||
+      mode === "timed60" ||
+      mode === "timed90" ||
+      mode === "sudden" ||
+      mode === "daily"
+        ? mode
+        : "classic",
+    category: stableCategory,
+    allowPremium: false,
+  }).map((q) => ({
+    id: q.id,
+    question: q.text,
+    answers: q.answers,
+    correctAnswer: q.correctAnswer,
+    category: q.category,
+  }));
 
-    return {
-      id: i,
-      question: q.text,
-      answers: q.answers,
-      correctAnswer: q.correct,
-      category: cleanCategory,
-    };
-  });
-
-  const filtered = enriched.filter((q) => q.category === stableCategory);
-
-  // Choose final set ONCE
-  const final = filtered.length >= 5 ? filtered : enriched;
-
-  // DO NOT compare JSON strings (causes loop)
   if (questions.length === 0) {
     setQuestions(final);
   }

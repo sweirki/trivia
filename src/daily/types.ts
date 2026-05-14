@@ -4,3 +4,4 @@ export type DailyState = {
   totalClaims: number;          // lifetime
 };
 
+

@@ -1,0 +1,30 @@
+appId: ${APP_ID}
+---
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible:
+      id: "screen-hub"
+    timeout: 15000
+
+- tapOn:
+    id: "hub-quick-play-button"
+- extendedWaitUntil:
+    visible:
+      id: "screen-quick-play"
+    timeout: 10000
+
+- assertVisible:
+    id: "quick-mode-classic"
+- assertVisible:
+    id: "quick-mode-speed"
+- assertVisible:
+    id: "quick-mode-timed60"
+
+# Start one match to verify the game route mounts. This does not assert reward values.
+- tapOn:
+    id: "quick-mode-classic"
+- extendedWaitUntil:
+    visible:
+      id: "screen-game"
+    timeout: 15000

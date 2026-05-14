@@ -15,7 +15,6 @@ type GameResult = {
 };
 
 export async function onGameFinished(result: GameResult) {
-  console.log("🔥 onGameFinished CALLED", result);
 
   const { userId } = result;
 
@@ -24,7 +23,6 @@ export async function onGameFinished(result: GameResult) {
     return;
   }
 
-  console.log("[C1] onGameFinished EXECUTED for uid:", userId);
 
   // ----------------------------
   // FIRST-TIME ACHIEVEMENTS
@@ -113,4 +111,5 @@ export async function onGameFinished(result: GameResult) {
     5
   );
 }
+
 

@@ -21,67 +21,61 @@ type PowerResultPayload = {
 // --------------------------------------------------
 // REWARD ENGINE
 // --------------------------------------------------
+type ArenaRewardDelta = {
+  coins: number;
+  arenaTokens: number;
+};
+
 type ArenaRewardsEngine = {
-  rewardRanked: (data: RankedResultPayload) => void;
-  rewardSurvival: (data: SurvivalResultPayload) => void;
-  rewardPower: (data: PowerResultPayload) => void;
+  previewRanked: (data: RankedResultPayload) => ArenaRewardDelta;
+  previewSurvival: (data: SurvivalResultPayload) => ArenaRewardDelta;
+  previewPower: (data: PowerResultPayload) => ArenaRewardDelta;
+  rewardRanked: (data: RankedResultPayload) => ArenaRewardDelta;
+  rewardSurvival: (data: SurvivalResultPayload) => ArenaRewardDelta;
+  rewardPower: (data: PowerResultPayload) => ArenaRewardDelta;
+};
+
+const applyReward = (reward: ArenaRewardDelta) => {
+  const { earnCoins, earnArenaTokens } = useArenaEconomyStore.getState();
+
+  if (reward.coins > 0) earnCoins(reward.coins);
+  if (reward.arenaTokens > 0) earnArenaTokens(reward.arenaTokens);
+
+  return reward;
+};
+
+const rankedReward = ({ didWin }: RankedResultPayload): ArenaRewardDelta => ({
+  // Ranked is a paid risk mode: winner gets a clean 2x-style payout.
+  // Loser receives no coins, preventing "farm while losing" behavior.
+  coins: didWin ? 200 : 0,
+  arenaTokens: didWin ? 2 : 0,
+});
+
+const survivalReward = ({ rounds }: SurvivalResultPayload): ArenaRewardDelta => {
+  if (rounds <= 0) return { coins: 0, arenaTokens: 0 };
+
+  const coins = Math.min(300, rounds * 12);
+  const arenaTokens = rounds >= 20 ? 4 : rounds >= 10 ? 2 : 0;
+
+  return { coins, arenaTokens };
+};
+
+const powerReward = ({ score, powerUpsUsed }: PowerResultPayload): ArenaRewardDelta => {
+  const didStrongRun = score >= 12;
+  const didEfficientRun = score >= 18 && powerUpsUsed <= 3;
+
+  return {
+    coins: Math.max(0, score * 10),
+    arenaTokens: didEfficientRun ? 3 : didStrongRun ? 1 : 0,
+  };
 };
 
 export const useArenaRewardsEngine = create<ArenaRewardsEngine>(() => ({
-  // --------------------------------
-  // RANKED
-  // --------------------------------
-  rewardRanked: ({ didWin, playerScore }) => {
-    const { earnCoins, earnArenaTokens } =
-      useArenaEconomyStore.getState();
+  previewRanked: rankedReward,
+  previewSurvival: survivalReward,
+  previewPower: powerReward,
 
-    // Coins: always earned
-    const coins = 20 + playerScore * 5;
-    earnCoins(coins);
-
-    // Tokens: wins only
-    if (didWin) {
-      earnArenaTokens(3);
-    }
-  },
-
-  // --------------------------------
-  // SURVIVAL
-  // --------------------------------
-  rewardSurvival: ({ rounds }) => {
-    const { earnCoins, earnArenaTokens } =
-      useArenaEconomyStore.getState();
-
-    // Coins scale with endurance
-    const coins = Math.min(150, rounds * 6);
-    earnCoins(coins);
-
-    // Tokens for strong runs only
-    if (rounds >= 10) {
-      earnArenaTokens(2);
-    }
-    if (rounds >= 20) {
-      earnArenaTokens(2); // bonus
-    }
-  },
-
-  // --------------------------------
-  // POWER-UP ARENA
-  // --------------------------------
-  rewardPower: ({ score, powerUpsUsed }) => {
-    const { earnCoins, earnArenaTokens } =
-      useArenaEconomyStore.getState();
-
-    // Coins scale with score
-    earnCoins(score * 8);
-
-    // Tokens reward efficiency
-    if (score >= 4 && powerUpsUsed <= 3) {
-      earnArenaTokens(2);
-    }
-    if (score === 6 && powerUpsUsed <= 2) {
-      earnArenaTokens(2); // perfect play bonus
-    }
-  },
+  rewardRanked: (data) => applyReward(rankedReward(data)),
+  rewardSurvival: (data) => applyReward(survivalReward(data)),
+  rewardPower: (data) => applyReward(powerReward(data)),
 }));
-

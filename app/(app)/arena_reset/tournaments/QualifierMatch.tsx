@@ -6,6 +6,13 @@ import { useArenaStore } from "@/arena/store/useArenaStore";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
 import { s } from "@/arena/theme/arenaSizing";
 
+
+type TournamentQuestion = {
+  question: string;
+  answers: string[];
+  correctAnswer: string;
+};
+
 export default function TournamentMatch() {
   const { matchId } = useLocalSearchParams<{ matchId: string }>();
 
@@ -77,7 +84,7 @@ useEffect(() => {
 }, [tournament, matchId, loadQuestions, setMatchState]);
 
 
-  const q = questions[currentQuestionIndex];
+  const q = questions[currentQuestionIndex] as TournamentQuestion;
  const blocked = !q || !matchInfo;
 
 
@@ -163,14 +170,15 @@ if (!q || !matchInfo) {
       <Text style={styles.timer}>⏳ {timeLeft}s</Text>
 
       {/* QUESTION */}
-      <Text style={styles.question}>{q.question}</Text>
+      <Text style={styles.question}>{typeof q.question === "string" ? q.question : ""}</Text>
 
       {/* ANSWERS */}
-      {q.answers.map((a: string, idx: number) => (
+      {(Array.isArray(q.answers) ? q.answers : []).map((a: string, idx: number) => (
         <TouchableOpacity
           key={idx}
           style={styles.answerBtn}
           onPress={() => handleAnswer(a)}
+          activeOpacity={0.72}
         >
           <Text style={styles.answerText}>{a}</Text>
         </TouchableOpacity>
@@ -239,4 +247,5 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 });
+
 

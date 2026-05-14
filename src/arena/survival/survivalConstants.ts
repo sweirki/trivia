@@ -5,3 +5,4 @@ export const SURVIVAL_CONFIG = {
   RAMP_INTERVAL: 5, // every X correct answers, difficulty increases
 };
 
+

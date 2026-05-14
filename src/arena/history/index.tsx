@@ -113,10 +113,10 @@ export default function ArenaHub() {
           {/* ------------------------------------ */}
           <TouchableOpacity
             style={styles.historyBox}
-            onPress={() =>
-              router.push("../arena_reset/history")
-
-            }
+            onPress={() => {
+              router.push("../arena_reset/history");
+            }}
+            activeOpacity={0.72}
           >
             <Text style={styles.historyTitle}>
               Match History
@@ -129,7 +129,7 @@ export default function ArenaHub() {
           {/* ------------------------------------ */}
           {/* ARENA PASS */}
           {/* ------------------------------------ */}
-          <TouchableOpacity style={styles.passBox}>
+          <TouchableOpacity style={styles.passBox} activeOpacity={0.72}>
             <Text style={styles.passTitle}>
               Arena Pass
             </Text>
@@ -143,10 +143,10 @@ export default function ArenaHub() {
           {/* ------------------------------------ */}
           <TouchableOpacity
             style={styles.shopBox}
-            onPress={() =>
-              router.push("/shop")
-
-            }
+            onPress={() => {
+              router.push("/store");
+            }}
+            activeOpacity={0.72}
           >
             <Text style={styles.shopText}>
               Arena Shop
@@ -181,7 +181,7 @@ function ArenaButton({
     <TouchableOpacity
       style={styles.modeButton}
       onPress={onPress}
-    >
+     activeOpacity={0.72}>
       <Text style={styles.modeText}>{label}</Text>
     </TouchableOpacity>
   );
@@ -330,4 +330,5 @@ const styles = StyleSheet.create({
     fontSize: s(18),
   },
 });
+
 

@@ -15,3 +15,4 @@ export function getWeekKeyUTC(date = new Date()) {
   return `${d.getUTCFullYear()}-W${String(weekNo).padStart(2, "0")}`;
 }
 
+

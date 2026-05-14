@@ -6,3 +6,4 @@ export const DAILY_CONFIG = {
   PERFECT_ACCURACY: 1,
 };
 
+

@@ -1,4 +1,6 @@
 export function useRenderLog(name: string) {
-  console.log(`[RENDER] ${name}`);
+  if (__DEV__) {
+    console.warn(`[RENDER] ${name}`);
+  }
 }
 

@@ -24,6 +24,9 @@ export enum CosmeticCategory {
   AVATAR_FRAME = "AVATAR_FRAME",
   PROFILE_BACKGROUND = "PROFILE_BACKGROUND",
   BADGE = "BADGE",
+  ARENA_BANNER = "ARENA_BANNER",
+  ANSWER_TRAIL = "ANSWER_TRAIL",
+  STREAK_AURA = "STREAK_AURA",
 }
 
 /**
@@ -97,6 +100,8 @@ export type CosmeticItem = {
   /** Availability */
   limited?: boolean; // seasonal / event-limited
   seasonId?: string; // if tied to a season
+  vipOnly?: boolean; // cosmetic requires active VIP to purchase/equip
+  unlockType?: "STORE" | "VIP" | "SEASON" | "ACHIEVEMENT" | "EVENT";
 
   /** Metadata */
   createdAt?: string;
@@ -120,4 +125,5 @@ export type EquippedCosmetics = Partial<Record<CosmeticCategory, string>>; // ca
  * - If a future feature needs gameplay impact, it is NOT a cosmetic.
  * - Do NOT add fields like: power, bonus, multiplier, boost, stat, effect.
  */
+
 

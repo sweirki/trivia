@@ -15,3 +15,4 @@ export function badgeLabel(badgeId: string | null | undefined): string | null {
   return SEASON_BADGES[badgeId]?.label ?? null;
 }
 
+

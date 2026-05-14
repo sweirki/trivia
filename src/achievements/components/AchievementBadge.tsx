@@ -1,49 +1,48 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-export default function AchievementBadge({
-  achievement,
-  unlocked,
-}: {
-  achievement: any;
+type Props = {
+  achievement: {
+    title?: string;
+    name?: string;
+    description?: string;
+  };
   unlocked: boolean;
-}) {
-  return (
-    <View
-      style={[
-        styles.card,
-        unlocked ? styles.unlocked : styles.locked,
-      ]}
-    >
-      <Text
-        style={[
-          styles.title,
-          unlocked ? styles.titleUnlocked : styles.titleLocked,
-        ]}
-        numberOfLines={2}
-      >
-        {achievement.title}
-      </Text>
+};
 
-      <Text style={styles.desc} numberOfLines={3}>
+export default function AchievementBadge({ achievement, unlocked }: Props) {
+  return (
+    <View style={[styles.card, unlocked ? styles.unlocked : styles.locked]}>
+      <View style={styles.topRow}>
+        <Text
+          style={[styles.title, unlocked ? styles.titleUnlocked : styles.titleLocked]}
+          numberOfLines={1}
+        >
+          {achievement.title ?? achievement.name}
+        </Text>
+
+        <View style={[styles.statusIcon, unlocked ? styles.statusUnlocked : styles.statusLocked]}>
+          <Text style={[styles.statusText, unlocked ? styles.statusTextUnlocked : styles.statusTextLocked]}>
+            {unlocked ? "✓" : "🔒"}
+          </Text>
+        </View>
+      </View>
+
+      <Text style={styles.desc} numberOfLines={2}>
         {achievement.description}
       </Text>
-
-      {!unlocked && <Text style={styles.lock}>LOCKED</Text>}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   card: {
-    height: 136,
-    borderRadius: 18,
-    padding: 14,
-    justifyContent: "space-between",
-   backgroundColor: "#12182A",
-borderWidth: 1,
-borderColor: "#2A334A",
-
+    minHeight: 94,
+    borderRadius: 14,
+    paddingHorizontal: 12,
+    paddingVertical: 12,
+    backgroundColor: "#12182A",
+    borderWidth: 1,
   },
 
   unlocked: {
@@ -52,14 +51,23 @@ borderColor: "#2A334A",
 
   locked: {
     borderColor: "#334155",
+    opacity: 0.82,
   },
 
- title: {
-  fontSize: 13,
-  fontWeight: "800",
-  color: "#E5E7EB",
-  lineHeight: 17,
-},
+  topRow: {
+    minHeight: 22,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: 8,
+  },
+
+  title: {
+    flex: 1,
+    fontSize: 13,
+    lineHeight: 17,
+    fontWeight: "800",
+  },
 
   titleUnlocked: {
     color: "#F5B942",
@@ -70,20 +78,43 @@ borderColor: "#2A334A",
   },
 
   desc: {
-    marginTop: 4,
+    marginTop: 10,
     fontSize: 11,
     lineHeight: 15,
-    color: "#94A3B2",
+    color: "#94A3B8",
   },
 
- lock: {
-  marginTop: 6,
-  fontSize: 8,
-  fontWeight: "700",
-  color: "#b0c57e",
-  letterSpacing: 1.2,
-},
+  statusIcon: {
+    width: 22,
+    height: 22,
+    borderRadius: 11,
+    alignItems: "center",
+    justifyContent: "center",
+  },
 
+  statusUnlocked: {
+    borderWidth: 1,
+    borderColor: "#F5B942",
+  },
 
+  statusLocked: {
+    borderWidth: 1,
+    borderColor: "#475569",
+  },
+
+  statusText: {
+    fontSize: 12,
+    fontWeight: "900",
+    lineHeight: 16,
+  },
+
+  statusTextUnlocked: {
+    color: "#F5B942",
+  },
+
+  statusTextLocked: {
+    fontSize: 10,
+    color: "#CBD5E1",
+  },
 });
 

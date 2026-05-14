@@ -1,12 +1,10 @@
 // src/firebase/firebase.ts
 
 import { initializeApp, getApps } from "firebase/app";
-import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import * as FirebaseAuth from "firebase/auth";
 
-// -------------------------------------------------------------
-// Firebase config
-// -------------------------------------------------------------
 const firebaseConfig = {
   apiKey: "AIzaSyDL2CNlwi2PXbfI0sOu9WaR-LqJqA8nwg0",
   authDomain: "trivia-bca7f.firebaseapp.com",
@@ -16,18 +14,26 @@ const firebaseConfig = {
   appId: "1:95103599948:web:ce7e49d6468d51d3cbbbe9",
 };
 
-// -------------------------------------------------------------
-// App (singleton)
-// -------------------------------------------------------------
 export const app =
   getApps().length > 0 ? getApps()[0] : initializeApp(firebaseConfig);
 
-// -------------------------------------------------------------
-// Auth (basic — persistence handled by Firebase default)
-// -------------------------------------------------------------
-export const auth = getAuth(app);
+let authInstance: FirebaseAuth.Auth;
 
-// -------------------------------------------------------------
-// Firestore
-// -------------------------------------------------------------
+try {
+  const maybeCreateAsyncStorage = (AsyncStorage as any).createAsyncStorage;
+
+  const persistence = maybeCreateAsyncStorage
+    ? (FirebaseAuth as any).getReactNativePersistence(
+        maybeCreateAsyncStorage("app")
+      )
+    : (FirebaseAuth as any).getReactNativePersistence(AsyncStorage);
+
+  authInstance = (FirebaseAuth as any).initializeAuth(app, {
+    persistence,
+  });
+} catch {
+  authInstance = FirebaseAuth.getAuth(app);
+}
+
+export const auth = authInstance;
 export const db = getFirestore(app);

@@ -9,14 +9,17 @@ import { db } from "@/firebase/firebase";
 import { PlayerIdentity } from "../profile/getOrCreateProfile";
 
 export type FriendsLeaderboardEntry = PlayerIdentity & {
-  rankValue: number; // reuse existing metric (XP, score, etc.)
+  uid: string;
+  rankValue: number;
+  challengeWins?: number;
+  challengePlayed?: number;
 };
 
 export async function getFriendsLeaderboard(
   myUid: string
 ): Promise<FriendsLeaderboardEntry[]> {
-  // 1) Get accepted friendships
   const friendshipsRef = collection(db, "friendships");
+
   const friendshipsQuery = query(
     friendshipsRef,
     where("status", "==", "accepted"),
@@ -37,25 +40,57 @@ export async function getFriendsLeaderboard(
 
   if (uidList.length === 0) return [];
 
-  // 2) Fetch player profiles
   const playersRef = collection(db, "players");
+
   const playersQuery = query(
     playersRef,
     where(documentId(), "in", uidList)
   );
 
-  const playersSnap = await getDocs(playersQuery);
+  const [playersSnap, completedChallengeSnap] = await Promise.all([
+    getDocs(playersQuery),
+    getDocs(
+      query(
+        collection(db, "challenge_requests"),
+        where("users", "array-contains", myUid),
+        where("status", "==", "completed")
+      )
+    ),
+  ]);
 
-  // ⚠️ TEMPORARY rankValue placeholder
-  // Replace with your real metric later (XP / rank / score)
+  const challengeWins: Record<string, number> = {};
+  const challengePlayed: Record<string, number> = {};
+
+  completedChallengeSnap.forEach((doc) => {
+    const data = doc.data() as any;
+    const users = Array.isArray(data.users) ? data.users : [];
+
+    users.forEach((uid: string) => {
+      if (!uidList.includes(uid)) return;
+      challengePlayed[uid] = (challengePlayed[uid] ?? 0) + 1;
+    });
+
+    const winner = data.winner;
+    if (typeof winner === "string" && winner !== "draw" && uidList.includes(winner)) {
+      challengeWins[winner] = (challengeWins[winner] ?? 0) + 1;
+    }
+  });
+
   const results: FriendsLeaderboardEntry[] = playersSnap.docs.map((doc) => {
-    const data = doc.data() as PlayerIdentity;
+    const data = doc.data() as any;
+    const wins = challengeWins[doc.id] ?? 0;
+    const played = challengePlayed[doc.id] ?? 0;
+    const xp = typeof data.xp === "number" ? data.xp : 0;
+
     return {
       ...data,
-      rankValue: 0,
+      uid: doc.id,
+      challengeWins: wins,
+      challengePlayed: played,
+      rankValue: wins * 100000 + xp,
     };
   });
 
-  return results;
+  return results.sort((a, b) => b.rankValue - a.rankValue);
 }
 

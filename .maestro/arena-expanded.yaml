@@ -1,0 +1,16 @@
+appId: ${APP_ID}
+---
+- launchApp
+
+- assertVisible:
+    id: "screen-hub"
+
+- tapOn: "Arena · Competitive"
+
+- assertVisible:
+    id: "screen-arena"
+
+- pressKey: back
+
+- assertVisible:
+    id: "screen-hub"

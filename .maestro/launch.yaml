@@ -1,0 +1,11 @@
+appId: ${APP_ID}
+---
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible:
+      id: "screen-hub"
+    timeout: 15000
+- assertVisible:
+    id: "hub-quick-play-button"
+- assertVisible: "Daily"

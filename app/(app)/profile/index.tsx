@@ -1,6 +1,4 @@
-import React from "react";
 import {
-  StyleSheet,
   Image,
   View,
   ScrollView,
@@ -8,553 +6,364 @@ import {
 } from "react-native";
 
 import { Text } from "@/theme";
+import ScreenShell from "@/components/ScreenShell";
 import { AVATARS } from "@/identity/avatars/avatarDefinitions";
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { useAuthStore } from "@/store/useAuthStore";
+import { useEntitlementStore } from "@/store/entitlementStore";
+import { formatVipTimeLeft } from "@/economy/vipPerks";
 import { useRouter } from "expo-router";
-
+import { useHistoryStore } from "@/store/historyStore";
+import AnimatedProgressBar from "@/components/AnimatedProgressBar";
+import GoldCard from "@/components/GoldCard";
+import { CosmeticCategory } from "@/cosmetics/types";
+import { getEquippedCosmetic } from "@/cosmetics/cosmeticSelectors";
+import { getCosmeticAssetSource } from "@/cosmetics/cosmeticAssets";
+import { Grid, Section, Stat, Tile, profileStyles as styles } from "./profile.components";
 
 export default function ProfileScreen() {
-   console.log("PROFILE SCREEN LOADED");
-  const equipped = usePlayerStore((s) => s.cosmetics?.equipped ?? {});
+  const router = useRouter();
 
+  const history = useHistoryStore((s) => s.history) as Array<{
+  won?: boolean;
+  totalQuestions?: number;
+  correctCount?: number;
+  score?: number;
+}>;
+  const totalGamesPlayed = usePlayerStore((s) => s.totalGamesPlayed);
+  const totalPlayerWins = usePlayerStore((s) => s.totalWins);
 
- const router = useRouter();
-
-const {
-  level,
-  xp,
-  nickname,
-  tournamentsPlayed,
-  tournamentsWon,
-  bestTournamentFinish,
-  titles,
-  tournamentHistory,
-} = usePlayerStore();
-
-const xpRequired = level * 150 + level * level * 6;
-const displayName = nickname ?? "Player";
-
-const avatarId =
-  typeof (equipped as any)?.avatar === "string"
-    ? (equipped as any).avatar
-    : null;
-const avatar = AVATARS.find((a) => a.id === avatarId);
-
+  const {
+    level,
+    xp,
+    nickname,
+    avatarId: playerAvatarId,
+    avatarUri,
+    tournamentsWon,
+    bestTournamentFinish,
+    titles,
+    tournamentHistory,
+  } = usePlayerStore();
 
   const user = useAuthStore((s) => s.user);
+  const isGuest = useAuthStore((s) => s.isGuest);
   const logout = useAuthStore((s) => s.logout);
 
-  const xpPercent =
-    xpRequired > 0 ? Math.min(xp / xpRequired, 1) : 0;
+  const vipExpiresAt = useEntitlementStore((s) => s.vipExpiresAt);
+  const vipTier = useEntitlementStore((s) => s.vipTier);
+  const isVIPActive = Date.now() < (vipExpiresAt || 0);
+
+  const totalGames = totalGamesPlayed;
+  const totalWins = totalPlayerWins;
+
+  const totalQuestions = history.reduce(
+    (sum, g) => sum + (g.totalQuestions ?? 0),
+    0
+  );
+
+  const totalCorrect = history.reduce(
+    (sum, g) => sum + (g.correctCount ?? g.score ?? 0),
+    0
+  );
+
+  const accuracy =
+    totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
+
+  const xpRequired = level * 150 + level * level * 6;
+  const xpPercent = xpRequired > 0 ? Math.min(xp / xpRequired, 1) : 0;
+
+  const displayName = nickname ?? "Player";
+  const playerCosmetics = usePlayerStore((s) => s.cosmetics);
+  const equippedAvatar = getEquippedCosmetic(playerCosmetics, CosmeticCategory.AVATAR);
+  const equippedFrame = getEquippedCosmetic(playerCosmetics, CosmeticCategory.AVATAR_FRAME);
+  const equippedBadge = getEquippedCosmetic(playerCosmetics, CosmeticCategory.BADGE);
+  const equippedBackground = getEquippedCosmetic(playerCosmetics, CosmeticCategory.PROFILE_BACKGROUND);
+  const backgroundSource = getCosmeticAssetSource(equippedBackground?.icon);
+  const equippedAvatarSource = getCosmeticAssetSource(equippedAvatar?.icon);
+
+  const shouldShowAvatar = Boolean(user && !isGuest);
+  const avatar = shouldShowAvatar
+    ? AVATARS.find((a) => a.id === playerAvatarId)
+    : null;
 
   return (
-   <View style={styles.container}>
-    {typeof equipped.PROFILE_BACKGROUND === "string" &&
-  equipped.PROFILE_BACKGROUND.startsWith("http") && (
-    <Image
-      source={{ uri: equipped.PROFILE_BACKGROUND }}
-      style={styles.profileBackground}
-      resizeMode="cover"
-    />
-  )}
+    <ScreenShell accessibilityLabel="Profile screen" testID="screen-profile">
+      {backgroundSource && (
+        <Image
+          source={backgroundSource}
+          style={styles.profileBackground}
+          resizeMode="cover"
+        />
+      )}
 
-
-  <ScrollView
-    contentContainerStyle={styles.content}
-    showsVerticalScrollIndicator={false}
-  >
-
-      {/* ================= HEADER ================= */}
-      <View style={styles.header}>
-  <View style={styles.avatarFrame}>
-{avatar ? (
-  <Image source={avatar.asset} style={styles.avatar} />
-) : (
-  <View
-    style={[
-      styles.avatar,
-      { backgroundColor: "#1B243A" },
-    ]}
-  />
-)}
-
-</View>
-
-
-
-<Text style={styles.title}>{displayName}</Text>
-
-{equipped.BADGE && (
-  <View style={styles.badge}>
-    <Text style={styles.badgeText}>🏅</Text>
-  </View>
-)}
-
-<Text style={styles.sub}>
-  Level {level} • {xp} XP
-</Text>
-
-{/* ================= ACCOUNT ================= */}
-<View style={styles.accountBox}>
-  {user ? (
-    <>
-      <Text style={styles.accountText}>
-        Signed in as {user.email}
-      </Text>
-<Pressable
-  onPress={() => router.push("/identity/avatarPicker")}
-  style={({ pressed }) => [
-    styles.accountButton,
-    pressed && { opacity: 0.85 },
-  ]}
->
-
-  <Text style={styles.accountButtonText}>
-    Edit profile
-  </Text>
-</Pressable>
-
-      <Pressable
-        onPress={logout}
-        style={({ pressed }) => [
-          styles.accountButton,
-          pressed && { opacity: 0.85 },
-        ]}
+      <ScrollView
+        contentContainerStyle={styles.content}
+        showsVerticalScrollIndicator={false}
       >
-        <Text style={styles.accountButtonText}>Log out</Text>
-      </Pressable>
-    </>
-  ) : (
-    <>
-      <Text style={styles.accountText}>
-        Playing as Guest
-      </Text>
-      <Text style={styles.accountSub}>
-       Progress is saved on this device
-Sign in to back it up
-      </Text>
+        <GoldCard variant="premium" padding="md" style={styles.heroCard}>
+          <View style={styles.profileHeader}>
+            <View style={styles.avatarFrame}>
+              {shouldShowAvatar && avatarUri ? (
+              <Image
+  source={{ uri: avatarUri }}
+  style={styles.avatar}
+  resizeMode="cover"
+/>
+              ) : shouldShowAvatar && equippedAvatarSource ? (
+               <Image
+  source={equippedAvatarSource}
+  style={styles.avatar}
+  resizeMode="cover"
+/>
+              ) : shouldShowAvatar && avatar ? (
+              <Image
+  source={avatar.asset}
+  style={styles.avatar}
+  resizeMode="cover"
+/>
+              ) : (
+                <View style={[styles.avatar, { backgroundColor: "#1B243A" }]} />
+              )}
+            </View>
 
-      <Pressable
-        onPress={() => router.push("/login")}
-        style={({ pressed }) => [
-          styles.accountButton,
-          pressed && { opacity: 0.85 },
-        ]}
-      >
-        <Text style={styles.accountButtonText}>
-          Sign in / Create account
-        </Text>
-      </Pressable>
-    </>
-  )}
-</View>
+            <View style={styles.profileHeaderText}>
+              <Text style={styles.title}>{displayName}</Text>
 
-        <View style={styles.xpBar}>
+              <Text style={styles.sub}>
+                Level {level} • {xp} XP
+              </Text>
+
+              <View style={styles.identityBadgeRow}>
+                <View style={styles.identityBadge}>
+                  <Text style={styles.identityBadgeText}>🏅 Arena Profile</Text>
+                </View>
+
+                {equippedBadge && (
+                  <View style={styles.identityBadge}>
+                    <Text style={styles.identityBadgeText}>🏆 {equippedBadge.name}</Text>
+                  </View>
+                )}
+
+                {equippedFrame && (
+                  <View style={styles.identityBadge}>
+                    <Text style={styles.identityBadgeText}>🖼 {equippedFrame.name}</Text>
+                  </View>
+                )}
+              </View>
+            </View>
+          </View>
+
           <View
             style={[
-              styles.xpFill,
-              { width: `${xpPercent * 100}%` },
+              styles.vipProfileBadge,
+              isVIPActive
+                ? styles.vipProfileBadgeActive
+                : styles.vipProfileBadgeLocked,
             ]}
-          />
-        </View>
-        <Text style={styles.xpText}>
-          {xp} / {xpRequired} XP
-        </Text>
-      </View>
+          >
+            <Text
+              style={[
+                styles.vipProfileText,
+                isVIPActive
+                  ? styles.vipProfileTextActive
+                  : styles.vipProfileTextLocked,
+              ]}
+            >
+              {isVIPActive ? `VIP ${vipTier || 1} ACTIVE ✓` : "VIP NOT ACTIVE"}
+            </Text>
 
-      {/* ================= STATS ================= */}
-      <View style={styles.statsRow}>
-        <Stat label="Tournaments" value={tournamentsPlayed} />
-        <Stat label="Wins" value={tournamentsWon} />
-        <Stat
-          label="Best Finish"
-          value={bestTournamentFinish ?? "—"}
-        />
-      </View>
-
-      {/* ================= QUICK LINKS ================= */}
-      <Section title="Quick Access">
-        <Grid>
-          <Tile
-            title="Achievements"
-            sub="Your milestones"
-            onPress={() => router.push("/achievements")}
-          />
-          <Tile
-            title="Leaderboard"
-            sub="Global rankings"
-            onPress={() => router.push("/leaderboard")}
-          />
-        </Grid>
-      </Section>
-
-      {/* ================= PROFILE ================= */}
-      <Section title="Profile">
-        <Grid>
-          <Tile
-            title="Statistics"
-            sub="Performance breakdown"
-            onPress={() => router.push("/statistics" as any)}
-          />
-          <Tile
-            title="Friends"
-            sub="Social & invites"
-            onPress={() => router.push("/friends")}
-          />
-        </Grid>
-      </Section>
-
-      {/* ================= TITLES ================= */}
-      <Section title="Titles">
-        {titles.length === 0 ? (
-          <Text style={styles.empty}>
-            No titles yet — place high in tournaments to earn some.
-          </Text>
-        ) : (
-          <View style={styles.pills}>
-            {titles.map((t) => (
-              <View key={t} style={styles.pill}>
-                <Text style={styles.pillText}>{t}</Text>
-              </View>
-            ))}
+            <Text style={styles.vipProfileSub}>
+              {isVIPActive
+                ? `${formatVipTimeLeft(vipExpiresAt)} left`
+                : "Upgrade preview available in Store"}
+            </Text>
           </View>
-        )}
-      </Section>
 
-      {/* ================= HISTORY ================= */}
-      <Section title="Tournament History">
-        {tournamentHistory.length === 0 ? (
-          <Text style={styles.empty}>
-            You haven’t completed any tournaments yet.
+          <View style={styles.seasonBanner}>
+            <Text style={styles.seasonBannerLabel}>SEASON 1 PRESTIGE</Text>
+            <Text style={styles.seasonBannerTitle}>
+              Bronze Arena Competitor
+            </Text>
+            <Text style={styles.seasonBannerBody}>
+              Compete in ranked seasons, tournaments, and global leaderboards
+              to unlock elite rewards, borders, titles, and champion cosmetics.
+            </Text>
+          </View>
+
+          <AnimatedProgressBar
+            percent={xpPercent * 100}
+            height={10}
+            fillColor="#F6C453"
+            trackColor="#1B243A"
+            glowColor="#F6C453"
+            style={styles.xpBar}
+          />
+
+          <Text style={styles.xpText}>
+            {xp} / {xpRequired} XP
           </Text>
-        ) : (
-          tournamentHistory.map((h, i) => (
-            <View key={i} style={styles.historyRow}>
-              <Text style={styles.historyText}>
-                {h.position === 1 ? "🏆 Champion" : `#${h.position}`} •{" "}
-                {h.totalPlayers} players
+        </GoldCard>
+
+        <GoldCard variant="soft" padding="md" style={styles.accountBox}>
+          {user ? (
+            <>
+              <Text style={styles.accountText}>
+                Signed in as {user.email}
+                {user.emailVerified ? "" : " • not verified"}
               </Text>
-              <Text style={styles.historyDate}>
-                {new Date(h.timestamp).toLocaleDateString()}
+
+              <View style={styles.accountButtonRow}>
+                <Pressable
+                  onPress={() => router.push("/identity")}
+                  style={({ pressed }) => [
+                    styles.accountButton,
+                    pressed && { opacity: 0.85 },
+                  ]}
+                >
+                  <Text style={styles.accountButtonText}>Edit profile</Text>
+                </Pressable>
+
+                <Pressable
+                  onPress={async () => {
+                    await logout();
+                    router.replace("/(auth)/login");
+                  }}
+                  style={({ pressed }) => [
+                    styles.accountButton,
+                    pressed && { opacity: 0.85 },
+                  ]}
+                >
+                  <Text style={styles.accountButtonText}>Log out</Text>
+                </Pressable>
+              </View>
+            </>
+          ) : (
+            <>
+              <Text style={styles.accountText}>Playing as Guest</Text>
+              <Text style={styles.accountSub}>
+                Progress is saved on this device. Sign in to back it up.
               </Text>
+
+              <Pressable
+                onPress={() => router.push("/login")}
+                style={({ pressed }) => [
+                  styles.accountButton,
+                  pressed && { opacity: 0.85 },
+                ]}
+              >
+                <Text style={styles.accountButtonText}>
+                  Sign in / Create account
+                </Text>
+              </Pressable>
+            </>
+          )}
+        </GoldCard>
+
+        <View style={styles.statsRow}>
+          <Stat label="Games" value={totalGames} />
+          <Stat label="Wins" value={totalWins} />
+          <Stat label="Accuracy" value={`${accuracy}%`} />
+        </View>
+
+        <Section title="Competitive Identity">
+          <View style={styles.identityRow}>
+            <View style={styles.identityCard}>
+              <Text style={styles.identityValue}>🏆 {tournamentsWon}</Text>
+              <Text style={styles.identityLabel}>Tournament Wins</Text>
             </View>
-          ))
-        )}
-      </Section>
 
-     
-     
-    </ScrollView>
-    </View> 
+            <View style={styles.identityCard}>
+              <Text style={styles.identityValue}>🔥 {Math.max(totalWins, 0)}</Text>
+              <Text style={styles.identityLabel}>Competitive Wins</Text>
+            </View>
+
+            <View style={styles.identityCard}>
+              <Text style={styles.identityValue}>
+                👑 #{bestTournamentFinish || "-"}
+              </Text>
+              <Text style={styles.identityLabel}>Best Finish</Text>
+            </View>
+          </View>
+        </Section>
+
+        <Section title="Quick Access">
+          <Grid>
+            <Tile
+              title="Achievements"
+              sub="Your milestones"
+              onPress={() => router.push("/achievements")}
+            />
+            <Tile
+              title="Leaderboard"
+              sub="Global rankings"
+              onPress={() => router.push("/leaderboard")}
+            />
+          </Grid>
+        </Section>
+
+        <Section title="Profile">
+          <Grid>
+            <Tile
+              title="Statistics"
+              sub="Performance breakdown"
+              onPress={() => router.push("/statistics" as any)}
+            />
+            <Tile
+              title="Friends"
+              sub="Social & invites"
+              onPress={() => router.push("/friends")}
+            />
+          </Grid>
+        </Section>
+
+        <Section title="Titles">
+          {titles.length === 0 ? (
+            <Text style={styles.empty}>
+              No titles yet — place high in tournaments to earn some.
+            </Text>
+          ) : (
+            <View style={styles.pills}>
+              {titles.map((t) => (
+                <View key={t} style={styles.pill}>
+                  <Text style={styles.pillText}>{t}</Text>
+                </View>
+              ))}
+            </View>
+          )}
+
+          <View style={styles.futurePrestigeCard}>
+            <Text style={styles.futurePrestigeLabel}>FUTURE PRESTIGE</Text>
+            <Text style={styles.futurePrestigeTitle}>
+              Elite Cosmetics & Seasonal Frames
+            </Text>
+            <Text style={styles.futurePrestigeBody}>
+              Seasonal borders, animated frames, champion trophies, title
+              plates, and elite identity cosmetics are arriving in future Arena
+              seasons.
+            </Text>
+          </View>
+        </Section>
+
+        <Section title="Tournament History">
+          {tournamentHistory.length === 0 ? (
+            <Text style={styles.empty}>
+              You haven’t completed any tournaments yet.
+            </Text>
+          ) : (
+            tournamentHistory.map((h, i) => (
+              <View key={i} style={styles.historyRow}>
+                <Text style={styles.historyText}>
+                  {h.position === 1 ? "🏆 Champion" : `#${h.position}`} •{" "}
+                  {h.totalPlayers} players
+                </Text>
+                <Text style={styles.historyDate}>
+                  {new Date(h.timestamp).toLocaleDateString()}
+                </Text>
+              </View>
+            ))
+          )}
+        </Section>
+      </ScrollView>
+    </ScreenShell>
   );
 }
-
-/* ================= COMPONENTS ================= */
-
-function Section({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <View style={styles.section}>
-      <Text style={styles.sectionTitle}>{title}</Text>
-      {children}
-    </View>
-  );
-}
-
-function Grid({ children }: { children: React.ReactNode }) {
-  return <View style={styles.grid}>{children}</View>;
-}
-
-function Tile({
-  title,
-  sub,
-  onPress,
-}: {
-  title: string;
-  sub: string;
-  onPress: () => void;
-}) {
-  return (
-    <Pressable
-      onPress={onPress}
-      style={({ pressed }) => [
-        styles.tile,
-        pressed && { opacity: 0.85 },
-      ]}
-    >
-      <Text style={styles.tileTitle} numberOfLines={2}>
-        {title}
-      </Text>
-      <Text style={styles.tileSub} numberOfLines={2}>
-        {sub}
-      </Text>
-    </Pressable>
-  );
-}
-
-function Stat({
-  label,
-  value,
-}: {
-  label: string;
-  value: number | string;
-}) {
-  return (
-    <View style={styles.stat}>
-      <Text style={styles.statValue}>{value}</Text>
-      <Text style={styles.statLabel}>{label}</Text>
-    </View>
-    
-  );
-  
-}
-
-/* ================= STYLES ================= */
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#0B1220",
-  },
-
-  content: {
-    padding: 20,
-    paddingBottom: 48,
-  },
-
-  header: {
-    alignItems: "center",
-    marginBottom: 16,
-  },
-
-  avatar: {
-    width: 96,
-    height: 96,
-    borderRadius: 48,
-    marginBottom: 12,
-  },
-avatarFrame: {
-  padding: 4,
-  borderRadius: 52,
-  borderWidth: 2,
-  borderColor: "#F6C453",
-  marginBottom: 12,
-  backgroundColor: "#0B1220",
-},
-
-
-
-
- title: {
-  fontSize: 19,
-  fontWeight: "800",
-  color: "#F6C453",
-},
-
-
-  sub: {
-  fontSize: 10,
-  color: "#9AA3B2",
-  marginTop: 2,
-},
-
-
-  xpBar: {
-    marginTop: 14,
-    width: "100%",
-    height: 10,
-    backgroundColor: "#1B243A",
-    borderRadius: 8,
-    overflow: "hidden",
-  },
-
-  xpFill: {
-    height: "100%",
-    backgroundColor: "#F6C453",
-  },
-
-  xpText: {
-    marginTop: 4,
-    fontSize: 10,
-    color: "#9AA3B2",
-  },
-
-  statsRow: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    marginBottom: 16,
-  },
-badge: {
-  marginTop: 6,
-  paddingHorizontal: 10,
-  paddingVertical: 4,
-  borderRadius: 12,
-  backgroundColor: "#1B243A",
-  borderWidth: 1,
-  borderColor: "#24304C",
-},
-
-badgeText: {
-  fontSize: 12,
-  fontWeight: "700",
-  color: "#F6C453",
-},
-
-  stat: {
-  flex: 1,
-  backgroundColor: "#141C2E",
-  borderRadius: 14,
-  paddingVertical: 10,
-  marginHorizontal: 4,
-  alignItems: "center",
-  borderWidth: 1,
-  borderColor: "#24304C",
-},
-
-
-  statValue: {
-    fontSize: 14,
-    fontWeight: "800",
-    color: "#FFFFFF",
-  },
-
-  statLabel: {
-    marginTop: 2,
-    fontSize: 11,
-    color: "#9AA3B2",
-  },
-
-  section: {
-    marginBottom: 16,
-  },
-
-  sectionTitle: {
-    fontSize: 16,
-    fontWeight: "700",
-    color: "#FFFFFF",
-    marginBottom: 12,
-  },
-
-  grid: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 12,
-  },
-
- tile: {
-  width: "48%",
-  backgroundColor: "#141C2E",
-  borderRadius: 16,
-  padding: 12,
-  borderWidth: 1,
-  borderColor: "#24304C",
-},
-
-
-  tileTitle: {
-    fontSize: 13,
-    fontWeight: "700",
-    color: "#F6C453",
-  },
-
-  tileSub: {
-    marginTop: 4,
-    fontSize: 10,
-    color: "#9AA3B2",
-  },
-
-  pills: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 8,
-  },
-
-  pill: {
-    paddingHorizontal: 12,
-    paddingVertical: 6,
-    borderRadius: 20,
-    backgroundColor: "#1B243A",
-    borderWidth: 1,
-    borderColor: "#24304C",
-  },
-
-  pillText: {
-    fontSize: 12,
-    fontWeight: "700",
-    color: "#F6C453",
-  },
-
-  historyRow: {
-    paddingVertical: 10,
-    borderBottomWidth: 1,
-    borderBottomColor: "#24304C",
-  },
-
-  historyText: {
-    fontSize: 12,
-    color: "#FFFFFF",
-  },
-
-  historyDate: {
-    marginTop: 2,
-    fontSize: 12,
-    color: "#9AA3B2",
-  },
-
-  empty: {
-    fontSize: 10,
-    color: "#9AA3B2",
-  },
-
-  footer: {
-    textAlign: "center",
-    fontSize: 12,
-    color: "#4B556A",
-    marginTop: 12,
-  },
-
-  accountBox: {
-  marginTop: 12,
-  alignItems: "center",
-},
-
-accountText: {
-  fontSize: 11,
-  color: "#9AA3B2",
-},
-
-accountSub: {
-  marginTop: 2,
-  fontSize: 10,
-  color: "#6B7280",
-  textAlign: "center",
-},
-
-accountButton: {
-  marginTop: 8,
-  paddingHorizontal: 14,
-  paddingVertical: 6,
-  borderRadius: 14,
-  backgroundColor: "#1B243A",
-  borderWidth: 1,
-  borderColor: "#24304C",
-},
-
-accountButtonText: {
-  fontSize: 11,
-  fontWeight: "700",
-  color: "#F6C453",
-},
-profileBackground: {
-  ...StyleSheet.absoluteFillObject,
-  opacity: 0.12,
-},
-
-});
-

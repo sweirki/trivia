@@ -1,133 +1,143 @@
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
-import { useArenaStore } from "@/arena/store/useArenaStore";
-import { router } from "expo-router";
 import React from "react";
+import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
+import { router } from "expo-router";
+import { useArenaStore } from "@/arena/store/useArenaStore";
 import { s } from "@/arena/theme/arenaSizing";
 
 export default function SurvivalEntry() {
   const { player, setMode } = useArenaStore();
+  const bestStreak = player.streak ?? 0;
 
- const handleStart = () => {
-  useArenaStore.getState().resetArena();
-  setMode("survival");
-  router.push("/arena_reset/survival/SurvivalMatch");
-
-};
+  const handleStart = () => {
+    useArenaStore.getState().resetArena();
+    setMode("survival");
+    router.push("/(app)/arena_reset/survival/SurvivalMatch");
+  };
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+      <LinearGradient colors={["#3A1014", "#11111A"]} style={styles.heroCard}>
+        <Text style={styles.eyebrow}>SURVIVAL ARENA</Text>
+        <Text style={styles.title}>One Life. No Mercy.</Text>
+        <Text style={styles.subtitle}>
+          Every answer keeps the run alive. One mistake ends everything.
+        </Text>
 
-      {/* Header */}
-      <Text style={styles.title}>Survival Arena</Text>
-      <Text style={styles.sub}>One mistake. Endless rounds.</Text>
+        <View style={styles.liveRow}>
+          <Text style={styles.livePill}>LIVE PRESSURE</Text>
+          <Text style={styles.livePill}>ENDLESS RUN</Text>
+        </View>
+      </LinearGradient>
 
-      {/* Stats */}
-      <View style={styles.statsBox}>
-        <Text style={styles.statsTitle}>Your Best Streak</Text>
-        <Text style={styles.statsValue}>{player.streak ?? 0} rounds</Text>
+      <View style={styles.statGrid}>
+        <View style={styles.statCard}>
+          <Text style={styles.statLabel}>Best Run</Text>
+          <Text style={styles.statValue}>{bestStreak}</Text>
+          <Text style={styles.statHint}>rounds survived</Text>
+        </View>
 
-        <Text style={[styles.statsTitle, { marginTop: 20 }]}>Current Season High</Text>
-        <Text style={styles.statsValue}>{player.streak ?? 0} rounds</Text>
+        <View style={styles.statCard}>
+          <Text style={styles.statLabel}>Next Milestone</Text>
+          <Text style={styles.statValue}>{bestStreak < 5 ? 5 : bestStreak < 10 ? 10 : 20}</Text>
+          <Text style={styles.statHint}>prestige target</Text>
+        </View>
       </View>
 
-      {/* Rules */}
-      <View style={styles.rulesBox}>
-        <Text style={styles.rulesTitle}>Rules</Text>
-        <Text style={styles.rule}>• 1 life — one mistake eliminates you</Text>
-        <Text style={styles.rule}>• Rounds become harder over time</Text>
-        <Text style={styles.rule}>• Score = number of rounds survived</Text>
-        <Text style={styles.rule}>• Reach milestones to earn rewards</Text>
+      <View style={styles.panelDanger}>
+        <Text style={styles.panelTitle}>Run Energy</Text>
+        <Text style={styles.panelText}>🔥 Perfect answers build momentum.</Text>
+        <Text style={styles.panelText}>⏱️ Timer pressure increases the tension.</Text>
+        <Text style={styles.panelText}>🏆 Milestones become future profile flexes.</Text>
       </View>
 
-      {/* Start Button */}
-      <TouchableOpacity style={styles.startButton} onPress={handleStart}>
+      <View style={styles.panelReward}>
+        <Text style={styles.rewardTitle}>Emotional Reward</Text>
+        <Text style={styles.rewardText}>
+          Beat your best run to earn stronger victory moments, survival badges, and future seasonal rewards.
+        </Text>
+      </View>
+
+      <TouchableOpacity style={styles.startButton} onPress={handleStart} activeOpacity={0.9}>
         <Text style={styles.startText}>Begin Survival Run</Text>
+        <Text style={styles.startSubtext}>Hold the streak. Beat the fear.</Text>
       </TouchableOpacity>
-
-    </View>
+    </ScrollView>
   );
 }
 
-// ------------------------
-// STYLES
-// ------------------------
-
 const styles = StyleSheet.create({
-  container: {
+  container: { flex: 1, backgroundColor: "#0B0B12" },
+  content: { paddingTop: s(46), paddingHorizontal: s(18), paddingBottom: s(34) },
+  heroCard: {
+    borderRadius: s(24),
+    padding: s(22),
+    borderWidth: 1,
+    borderColor: "rgba(255, 82, 82, 0.38)",
+    shadowColor: "#E53935",
+    shadowOpacity: 0.28,
+    shadowRadius: 18,
+    elevation: 8,
+  },
+  eyebrow: { color: "#FF8A80", fontSize: s(12), fontWeight: "900", letterSpacing: 1.6 },
+  title: { color: "#FFFFFF", fontSize: s(34), fontWeight: "900", marginTop: s(8) },
+  subtitle: { color: "#D8D8E8", fontSize: s(15), lineHeight: s(22), marginTop: s(8) },
+  liveRow: { flexDirection: "row", flexWrap: "wrap", gap: s(8), marginTop: s(18) },
+  livePill: {
+    color: "#FFFFFF",
+    fontSize: s(11),
+    fontWeight: "900",
+    backgroundColor: "rgba(229, 57, 53, 0.24)",
+    borderColor: "rgba(255, 138, 128, 0.45)",
+    borderWidth: 1,
+    paddingHorizontal: s(10),
+    paddingVertical: s(6),
+    borderRadius: s(999),
+  },
+  statGrid: { flexDirection: "row", gap: s(12), marginTop: s(16) },
+  statCard: {
     flex: 1,
-    backgroundColor: "#0e0e14",
-    paddingHorizontal: s(20),
-    paddingTop: s(60),
-    alignItems: "center",
+    backgroundColor: "#151520",
+    borderRadius: s(18),
+    padding: s(16),
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.08)",
   },
-
-  title: {
-    fontSize: s(34),
-    fontWeight: "800",
-    color: "#E53935",
+  statLabel: { color: "#A9A9BC", fontSize: s(12), fontWeight: "800" },
+  statValue: { color: "#FFFFFF", fontSize: s(30), fontWeight: "900", marginTop: s(6) },
+  statHint: { color: "#777789", fontSize: s(12), marginTop: s(2) },
+  panelDanger: {
+    marginTop: s(16),
+    backgroundColor: "#171018",
+    borderRadius: s(20),
+    padding: s(18),
+    borderWidth: 1,
+    borderColor: "rgba(255, 82, 82, 0.24)",
   },
-
-  sub: {
-    color: "#aaa",
-    marginTop: s(4),
-    fontSize: s(16),
-    marginBottom: s(25),
+  panelTitle: { color: "#FFFFFF", fontSize: s(19), fontWeight: "900", marginBottom: s(10) },
+  panelText: { color: "#C8C8D8", fontSize: s(14), lineHeight: s(22), marginBottom: s(4) },
+  panelReward: {
+    marginTop: s(14),
+    backgroundColor: "#17140D",
+    borderRadius: s(20),
+    padding: s(18),
+    borderWidth: 1,
+    borderColor: "rgba(247, 201, 72, 0.25)",
   },
-
-  statsBox: {
-    width: "90%",
-    backgroundColor: "#161620",
-    padding: s(20),
-    borderRadius: s(14),
-    alignItems: "center",
-    marginBottom: s(25),
-  },
-
-  statsTitle: {
-    color: "#aaa",
-    fontSize: s(16),
-  },
-
-  statsValue: {
-    color: "#fff",
-    fontSize: s(28),
-    fontWeight: "700",
-    marginTop: s(6),
-  },
-
-  rulesBox: {
-    width: "90%",
-    backgroundColor: "#1c1c29",
-    padding: s(20),
-    borderRadius: s(14),
-    marginBottom: s(40),
-  },
-
-  rulesTitle: {
-    color: "#fff",
-    fontSize: s(20),
-    marginBottom: s(12),
-  },
-
-  rule: {
-    color: "#aaa",
-    fontSize: s(14),
-    marginBottom: s(6),
-  },
-
+  rewardTitle: { color: "#F7C948", fontSize: s(18), fontWeight: "900" },
+  rewardText: { color: "#D8D1B6", fontSize: s(14), lineHeight: s(21), marginTop: s(7) },
   startButton: {
-    width: "85%",
+    marginTop: s(22),
     backgroundColor: "#E53935",
     paddingVertical: s(18),
-    borderRadius: s(14),
+    borderRadius: s(18),
     alignItems: "center",
+    shadowColor: "#E53935",
+    shadowOpacity: 0.35,
+    shadowRadius: 16,
+    elevation: 8,
   },
-
-  startText: {
-    color: "#fff",
-    fontSize: s(18),
-    fontWeight: "600",
-  },
+  startText: { color: "#FFFFFF", fontSize: s(18), fontWeight: "900" },
+  startSubtext: { color: "rgba(255,255,255,0.78)", fontSize: s(12), fontWeight: "700", marginTop: s(4) },
 });
-
 

@@ -3,73 +3,46 @@ import { evaluateDailyClaim } from "./dailyLogic";
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { useSeasonStore } from "@/seasons/store/useSeasonStore";
 import { SEASON_XP } from "@/seasons/seasonXpRules";
-
-import { doc, updateDoc } from "firebase/firestore";
-import { db } from "@/firebase/firebase";
-
-function getTodayUTC(): string {
-  return new Date().toISOString().slice(0, 10);
-}
+import { getDayKeyUTC } from "@/economy/economyRules";
 
 export async function claimDailyReward() {
- 
-
-  const { daily, setDaily, applyReward } =
-    usePlayerStore.getState();
-
-  const today = getTodayUTC();
-
-  const evaluation = evaluateDailyClaim(
-    daily.lastClaimDate,
-    today
-  );
+  const store = usePlayerStore.getState();
+  const today = getDayKeyUTC();
+  const daily = store.daily;
+  const evaluation = evaluateDailyClaim(daily.lastClaimDate, today, daily.streak);
 
   if (!evaluation.canClaim) {
-    return {
-      success: false,
-      reason: "ALREADY_CLAIMED",
-    };
+    return { success: false as const, reason: "ALREADY_CLAIMED" as const };
   }
 
-  const nextStreak =
-    evaluation.isNewStreak
-      ? 1
-      : daily.streak + 1;
-
+  const nextStreak = evaluation.nextStreak;
   const reward = getDailyReward(nextStreak);
 
-  // Apply reward (XP / coins)
-  applyReward(reward.xp, reward.coins);
-
-// ✅ Season XP for Daily (Phase 6.2)
-useSeasonStore
-  .getState()
-  .addSeasonXp(usePlayerStore.getState().userId, SEASON_XP.DAILY_COMPLETE);
-
-   const updatedDaily = {
+  const updatedDaily = {
     lastClaimDate: today,
     streak: nextStreak,
     totalClaims: daily.totalClaims + 1,
   };
 
-  // 1️⃣ Update local store
-  setDaily(updatedDaily);
+  store.applyDailyReward(updatedDaily, {
+  xp: reward.xp,
+  coins: reward.coins,
+  gems: reward.gems,
+  tickets: reward.tickets,
+});
 
-  // 2️⃣ Persist to Firestore
-  const { userId } = usePlayerStore.getState();
-  if (userId) {
-    await updateDoc(
-      doc(db, "players", userId),
-      { daily: updatedDaily }
-    );
+void usePlayerStore.getState().syncNow?.();
+
+  const uid = usePlayerStore.getState().userId;
+  if (uid) {
+    void useSeasonStore.getState().addSeasonXp(uid, SEASON_XP.DAILY_COMPLETE);
   }
 
   return {
-    success: true,
+    success: true as const,
     reward,
     streak: nextStreak,
     isNewStreak: evaluation.isNewStreak,
   };
-
 }
 

@@ -4,6 +4,7 @@ import { View, Text, Modal, StyleSheet, TouchableOpacity } from "react-native";
 import { useTheme } from "@/theme";
 import ConfettiView from "./ConfettiView";
 import { usePlayerStore } from "@/store/usePlayerStore";
+import { feedback } from "@/feedback";
 
 export default function LevelUpModal({ visible, onClose }) {
   const theme = useTheme();
@@ -22,7 +23,10 @@ export default function LevelUpModal({ visible, onClose }) {
   };
 
   useEffect(() => {
-    if (visible) grantRewards();
+    if (!visible) return;
+
+    grantRewards();
+    feedback.levelUp();
   }, [visible]);
 
   return (
@@ -50,7 +54,13 @@ export default function LevelUpModal({ visible, onClose }) {
             +{rewardCoins} Coins {rewardGems > 0 ? ` • +${rewardGems} Gem` : ""}
           </Text>
 
-          <TouchableOpacity style={styles.button} onPress={onClose}>
+          <TouchableOpacity
+            style={styles.button}
+            onPress={() => {
+              feedback.tap();
+              onClose?.();
+            }}
+          >
             <Text style={styles.buttonTxt}>Continue</Text>
           </TouchableOpacity>
 
@@ -107,6 +117,7 @@ const styles = StyleSheet.create({
     fontWeight: "700",
   },
 });
+
 
 
 

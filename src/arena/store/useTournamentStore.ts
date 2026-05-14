@@ -125,7 +125,7 @@ loadActiveTournament: () => {
       maxPlayers: 8,
       questionsPerMatch: 10,
       timePerQuestion: 10,
-      rewardCoins: 500,
+      rewardCoins: 100,
       entryFeeCoins: 50,
     },
   } as Tournament,
@@ -391,4 +391,5 @@ submitMatchResult: (matchId, scoreA, scoreB) => {
     }
   )
 );
+
 

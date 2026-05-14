@@ -1,30 +1,48 @@
-// app/(app)/play/(screens)/quick.tsx — Box-style Quick Play
+
+// app/(app)/play/(screens)/quick.tsx — Compact premium Quick Play mode selection
 
 import React, { useEffect, useRef } from "react";
 import {
-  View,
-  Text,
-  StyleSheet,
-  Pressable,
   Animated,
+  ImageBackground,
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
 import { useRouter, useLocalSearchParams } from "expo-router";
 
 import type { QuickMode } from "@/store/useQuickGameStore";
 import { useQuickGameStore } from "@/store/useQuickGameStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
-import { CATEGORIES } from "@/data/categories";
+import { PLAYABLE_CATEGORIES, getPlayableCategoryById } from "@/data/categories";
+
+const HERO = require("../../../../assets/images/play/quick_play_hero_banner.webp");
 
 const MODES: {
   key: QuickMode;
-  title: string;
-  subtitle: string;
+  image: any;
 }[] = [
-  { key: "classic", title: "Classic", subtitle: "Balanced challenge" },
-  { key: "speed", title: "Speed", subtitle: "Fast-paced runs" },
-  { key: "timed60", title: "60 Seconds", subtitle: "Short timer rush" },
-  { key: "timed90", title: "90 Seconds", subtitle: "Long timer endurance" },
-  { key: "sudden", title: "Sudden Death", subtitle: "One mistake ends it" },
+  {
+    key: "classic",
+    image: require("../../../../assets/images/play/modes/classic_mode_art.webp"),
+  },
+  {
+    key: "speed",
+    image: require("../../../../assets/images/play/modes/speed_mode_art.webp"),
+  },
+  {
+    key: "timed60",
+    image: require("../../../../assets/images/play/modes/sixty_seconds_mode_card.webp"),
+  },
+  {
+    key: "timed90",
+    image: require("../../../../assets/images/play/modes/ninety_seconds_mode_art.webp"),
+  },
+  {
+    key: "sudden",
+    image: require("../../../../assets/images/play/modes/sudden_death_mode_art.webp"),
+  },
 ];
 
 export default function QuickPlay() {
@@ -34,8 +52,6 @@ export default function QuickPlay() {
   const setCategory = useQuickGameStore((s) => s.setCategory);
   const resetGame = useQuickGameStore((s) => s.resetGame);
   const initGame = useQuickGameStore((s) => s.initGame);
-
-  const ownedPacks = usePlayerStore((s) => s.ownedPacks);
   const vipTier = usePlayerStore((s) => s.vipTier);
 
   const fade = useRef(new Animated.Value(0)).current;
@@ -43,229 +59,274 @@ export default function QuickPlay() {
   useEffect(() => {
     Animated.timing(fade, {
       toValue: 1,
-      duration: 400,
+      duration: 260,
       useNativeDriver: true,
     }).start();
-  }, []);
+  }, [fade]);
 
-  // --------------------------------------------------
-  // CATEGORY RESOLUTION (unchanged logic)
-  // --------------------------------------------------
   const resolveCategory = () => {
-    let id = paramCategory as string | undefined;
+    const requested = Array.isArray(paramCategory) ? paramCategory[0] : paramCategory;
+    const requestedCategory = getPlayableCategoryById(requested);
 
-    if (!id) {
-      const free = CATEGORIES.filter((c) => !c.premium);
-      id = free[Math.floor(Math.random() * free.length)].id;
-    }
+    if (requestedCategory) return requestedCategory.id;
 
-    const meta = CATEGORIES.find((c) => c.id === id);
-    if (meta?.premium && !ownedPacks.includes(id) && vipTier < 3) {
-      const free = CATEGORIES.filter((c) => !c.premium);
-      id = free[Math.floor(Math.random() * free.length)].id;
-    }
+    const fallback = PLAYABLE_CATEGORIES[
+      Math.floor(Math.random() * PLAYABLE_CATEGORIES.length)
+    ];
 
-    return id;
+    return fallback.id;
   };
 
-  const activeCategory = resolveCategory();
+  const launchMode = (mode: QuickMode) => {
+    const categoryId = resolveCategory();
 
-  useEffect(() => {
-    setCategory(activeCategory);
-  }, [activeCategory]);
-
-  const start = (mode: QuickMode) => {
+    setCategory(categoryId);
     resetGame();
-    initGame(mode, activeCategory);
-    router.replace("/play/game");
+    initGame(mode, categoryId);
+
+    router.push("/play/game");
   };
 
-  const getCategoryLabel = (id: string) => {
-    const c = CATEGORIES.find((x) => x.id === id);
-    return c?.label ?? id;
-  };
-
-  // --------------------------------------------------
-  // MODE CARD
-  // --------------------------------------------------
-  const ModeCard = ({ title, subtitle, mode }: any) => {
-    const scale = useRef(new Animated.Value(1)).current;
-
-    return (
-      <Animated.View style={{ transform: [{ scale }] }}>
-        <Pressable
-          onPressIn={() =>
-            Animated.spring(scale, {
-              toValue: 0.96,
-              useNativeDriver: true,
-            }).start()
-          }
-          onPressOut={() =>
-            Animated.spring(scale, {
-              toValue: 1,
-              friction: 6,
-              useNativeDriver: true,
-            }).start(() => start(mode))
-          }
-          style={styles.card}
-        >
-         <Text style={styles.cardTitle} numberOfLines={1}>
-  {title}
-</Text>
-
-      <Text style={styles.cardSub} numberOfLines={2}>
-  {subtitle}
-</Text>
-
-        </Pressable>
-      </Animated.View>
-    );
-  };
+  const categoryLabel = String(paramCategory || "Random").toUpperCase();
 
   return (
-    <View style={styles.root}>
-      <Animated.View style={[styles.container, { opacity: fade }]}>
-        <Text style={styles.heading}>Quick Play</Text>
-
-        <View style={styles.categoryBadge}>
-          <Text style={styles.categoryLabel}>Category</Text>
-          <Text style={styles.categoryName}>
-            {getCategoryLabel(activeCategory)}
-          </Text>
+    <Animated.ScrollView
+      style={[styles.root, { opacity: fade }]}
+      contentContainerStyle={styles.container}
+      showsVerticalScrollIndicator={false}
+    >
+      <ImageBackground source={HERO} style={styles.hero} imageStyle={styles.heroImage}>
+        <View style={styles.heroOverlay}>
+          <Text style={styles.kicker}>QUICK PLAY</Text>
+          <Text style={styles.title}>Choose Your Challenge</Text>
+          <Text style={styles.subtitle}>Pick a mode and jump straight into trivia.</Text>
         </View>
+      </ImageBackground>
 
-        {vipTier >= 3 && (
-          <Text style={styles.vipNotice}>
-            ⭐ VIP Tier {vipTier}: All categories unlocked
-          </Text>
-        )}
-
-        <View style={styles.grid}>
-          {MODES.map((m) => (
-            <ModeCard
-              key={m.key}
-              title={m.title}
-              subtitle={m.subtitle}
-              mode={m.key}
-            />
-          ))}
+      <View style={styles.categoryRow}>
+        <View style={styles.categoryPill}>
+          <Text style={styles.categoryLabel}>CATEGORY • {categoryLabel}</Text>
         </View>
 
         <Pressable
-          onPress={() => router.replace("./categorySelect")}
-          style={styles.backBtn}
+          onPress={() => router.push("/play/categorySelect")}
+          style={({ pressed }) => [styles.changePill, pressed && styles.pressed]}
         >
-          <Text style={styles.backText}>← Change Category</Text>
+          <Text style={styles.changeText}>Change</Text>
         </Pressable>
-      </Animated.View>
-    </View>
+      </View>
+
+      <View style={styles.modeStack}>
+        {MODES.map((mode) => (
+          <Pressable
+            key={mode.key}
+            onPress={() => launchMode(mode.key)}
+            style={({ pressed }) => [styles.modeCard, pressed && styles.pressed]}
+          >
+            <ImageBackground
+              source={mode.image}
+              style={styles.modeImage}
+              imageStyle={styles.modeImageStyle}
+              resizeMode="cover"
+            >
+              <View style={styles.cardEdge} />
+            </ImageBackground>
+          </Pressable>
+        ))}
+      </View>
+
+      {!!vipTier && (
+        <View style={styles.vipBanner}>
+          <Text style={styles.vipTitle}>VIP ACTIVE</Text>
+          <Text style={styles.vipSub}>Bonus rewards enabled for Quick Play sessions.</Text>
+        </View>
+      )}
+
+      <Pressable
+        onPress={() => router.push("/play/categorySelect")}
+        style={({ pressed }) => [styles.backPill, pressed && styles.pressed]}
+      >
+        <Text style={styles.backText}>◀ Back to Categories</Text>
+      </Pressable>
+
+      <View style={{ height: 48 }} />
+    </Animated.ScrollView>
   );
 }
 
-// --------------------------------------------------
-// STYLES — aligned with CategorySelect
-// --------------------------------------------------
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor: "#0B1220",
+    backgroundColor: "#070B18",
   },
 
   container: {
-    paddingTop: 56,
-    paddingHorizontal: 20,
-    paddingBottom: 60,
-  },
+  paddingHorizontal: 18,
+  paddingTop: 20,
+  paddingBottom: 48,
+},
 
-  heading: {
-    fontSize: 28,
-    fontWeight: "800",
-    color: "#FFD166",
-    textAlign: "center",
-    marginBottom: 18,
-  },
-
-  categoryBadge: {
-    alignSelf: "center",
-    backgroundColor: "#121A2F",
-    borderRadius: 14,
-    paddingVertical: 10,
-    paddingHorizontal: 18,
+  hero: {
+    height: 164,
+    borderRadius: 26,
+    overflow: "hidden",
+    marginBottom: 14,
+    backgroundColor: "#11182D",
     borderWidth: 1,
-    borderColor: "rgba(234,179,8,0.4)",
-    marginBottom: 22,
+    borderColor: "rgba(245,185,66,0.12)",
+  },
+
+  heroImage: {
+    borderRadius: 26,
+  },
+
+  heroOverlay: {
+    flex: 1,
+    justifyContent: "flex-start",
+    padding: 20,
+    paddingTop: 32,
+    backgroundColor: "rgba(0,0,0,0.34)",
+  },
+
+  kicker: {
+    color: "#F5B942",
+    fontSize: 12,
+    fontWeight: "900",
+    letterSpacing: 1.3,
+    marginBottom: 4,
+  },
+
+  title: {
+    color: "#FFFFFF",
+    fontSize: 28,
+    fontWeight: "900",
+    marginBottom: 6,
+  },
+
+  subtitle: {
+    color: "#D8E1FF",
+    fontSize: 13,
+    fontWeight: "700",
+    maxWidth: "78%",
+  },
+
+  categoryRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 10,
+    marginBottom: 14,
+  },
+
+  categoryPill: {
+    flex: 1,
+    paddingHorizontal: 15,
+    paddingVertical: 10,
+    borderRadius: 999,
+    backgroundColor: "rgba(20,28,52,0.9)",
+    borderWidth: 1,
+    borderColor: "rgba(88,140,255,0.22)",
   },
 
   categoryLabel: {
+    color: "#DCE7FF",
     fontSize: 12,
-    textAlign: "center",
-    color: "#EAB308",
+    fontWeight: "900",
+    letterSpacing: 0.6,
   },
 
-  categoryName: {
-    marginTop: 4,
-    fontSize: 17,
-    fontWeight: "700",
-    color: "#E5E7EB",
-    textAlign: "center",
-  },
-
-  vipNotice: {
-    textAlign: "center",
-    fontSize: 13,
-    fontWeight: "600",
-    color: "#FFD166",
-    marginBottom: 18,
-  },
-
-  grid: {
-    
-    
-    gap: 14,
-    
-  },
-
-  card: {
-    width: "100%",
-    minHeight: 96,
-  paddingVertical: 14,
-  paddingHorizontal: 12,
-    backgroundColor: "#121A2F",
-    
-    padding: 14,
-    justifyContent: "center",
-    alignItems: "center",
+  changePill: {
+    paddingHorizontal: 14,
+    paddingVertical: 10,
+    borderRadius: 999,
+    backgroundColor: "rgba(245,185,66,0.14)",
     borderWidth: 1,
-    borderColor: "rgba(234,179,8,0.35)",
-    shadowColor: "#000",
-    shadowOpacity: 0.25,
-    shadowRadius: 8,
-    elevation: 4,
+    borderColor: "rgba(245,185,66,0.28)",
   },
 
-  cardTitle: {
-    fontSize: 16,
-    fontWeight: "800",
-    color: "#E5E7EB",
-    marginBottom: 6,
-    textAlign: "center",
-  },
-
-  cardSub: {
+  changeText: {
+    color: "#F5B942",
     fontSize: 12,
-    color: "#9CA3AF",
-    textAlign: "center",
+    fontWeight: "900",
   },
 
-  backBtn: {
-    marginTop: 26,
-    alignSelf: "center",
+ modeStack: {
+  gap: 10,
+  marginTop: 4,
+},
+
+ modeCard: {
+  height: 104,
+  borderRadius: 22,
+
+  marginBottom: 10,
+
+  borderWidth: 1.2,
+  borderColor: "rgba(245,185,66,0.22)",
+
+  shadowColor: "#000",
+  shadowOpacity: 0.28,
+  shadowRadius: 10,
+  shadowOffset: { width: 0, height: 6 },
+
+  elevation: 6,
+},
+
+  modeImage: {
+    flex: 1,
+  },
+
+  modeImageStyle: {
+    borderRadius: 22,
+  },
+
+  cardEdge: {
+    ...StyleSheet.absoluteFillObject,
+    borderRadius: 22,
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.06)",
+  },
+
+  vipBanner: {
+    marginTop: 16,
+    borderRadius: 22,
+    padding: 16,
+    backgroundColor: "rgba(28,38,68,0.96)",
+    borderWidth: 1,
+    borderColor: "rgba(245,185,66,0.16)",
+  },
+
+  vipTitle: {
+    color: "#F5B942",
+    fontSize: 14,
+    fontWeight: "900",
+    marginBottom: 4,
+  },
+
+  vipSub: {
+    color: "#DCE7FF",
+    fontSize: 12,
+    fontWeight: "700",
+  },
+
+  backPill: {
+    height: 48,
+    borderRadius: 999,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "rgba(20,28,52,0.82)",
+    borderWidth: 1,
+    borderColor: "rgba(88,140,255,0.22)",
+    marginTop: 16,
   },
 
   backText: {
-    fontSize: 14,
-    color: "#E5E7EB",
-    opacity: 0.8,
+    color: "#DCE7FF",
+    fontSize: 15,
+    fontWeight: "800",
+  },
+
+  pressed: {
+    opacity: 0.92,
+    transform: [{ scale: 0.985 }],
   },
 });
-

@@ -1,9 +1,12 @@
+
+type ArenaPayload = Record<string, unknown>;
+
 import { create } from "zustand";
+import { buildArenaQuestions } from "@/questions/gameplayQuestions";
 
 // TYPES ---------------------------------------------
 
 export type ArenaMode = "ranked" | "survival" | "power" | "tournament" | null;
-const sampleQuestions = require("../../../assets/data/sampleQuestions.json");
 
 export type ArenaMatchState =
   | "idle"
@@ -37,7 +40,7 @@ interface ArenaStoreState {
   player: ArenaPlayer;
   opponent: ArenaOpponent | null;
 
-  questions: any[];
+  questions: ArenaPayload[];
   currentQuestionIndex: number;
 
   isArenaLoading: boolean;
@@ -58,7 +61,7 @@ interface ArenaStoreState {
   deactivatePowerUp: (type: string) => void;
 
   // COMMON ACTIONS -----------------------------------
-  loadQuestions: (qs: any[]) => void;
+  loadQuestions: (qs: ArenaPayload[]) => void;
   nextQuestion: () => void;
   endMatch: () => void;
 
@@ -74,7 +77,7 @@ interface ArenaStoreState {
   startSurvival: () => void;
   survivalCorrect: () => void;
   survivalWrong: () => void;
-  setSurvivalQuestions: (qs: any[]) => void;
+  setSurvivalQuestions: (qs: ArenaPayload[]) => void;
 
   // RESET ---------------------------------------------
   resetArena: () => void;
@@ -192,10 +195,8 @@ startRankedMatch: async () => {
   const bot = ai.generateOpponent(rankSystem.sr);
   get().setOpponent(bot);
 
-  // LOAD QUESTIONS (CRITICAL)
-  const shuffled = [...sampleQuestions].sort(() => Math.random() - 0.5);
-  const selected = shuffled.slice(0, 5);
-  get().loadQuestions(selected);
+  // LOAD QUESTIONS FROM Q-ENGINE (Q10)
+  get().loadQuestions(buildArenaQuestions("ranked", 5));
 
   set({ matchState: "countdown" });
 
@@ -216,13 +217,12 @@ startRankedMatch: async () => {
     const ai = require("./useArenaOpponentAI").useArenaOpponentAI.getState();
     const decision = ai.getAnswerForQuestion(questionIndex);
 
-    if (!decision.willAnswer) return;
-
-    setTimeout(() => {
-      if (decision.correct) {
-        get().updateOpponentScore(1);
-      }
-    }, decision.delayMs);
+    // Resolve the bot score immediately before the match advances.
+    // The old delayed setTimeout often fired after nextQuestion()/finished,
+    // so bots looked like they answered but their score stayed at 0.
+    if (decision.willAnswer && decision.correct) {
+      get().updateOpponentScore(1);
+    }
   },
 
   // SURVIVAL MODE ------------------------------------
@@ -230,14 +230,14 @@ startRankedMatch: async () => {
   // Reset to idle state immediately to avoid white screen
   set({ matchState: "idle" });
 
-  // Load questions
-  const shuffled = [...sampleQuestions].sort(() => Math.random() - 0.5);
+  // Load questions from Q-engine (Q10)
+  const questions = buildArenaQuestions("survival", 25);
 
   // After setting idle state, start game logic
   set({
     isArenaLoading: false,      // Clears loading state
     matchState: "in-match",     // Move directly to in-match
-    questions: shuffled,
+    questions,
     currentQuestionIndex: 0,
     player: { id: "player", score: 0, streak: 0, powerupsUsed: 0 },
 
@@ -281,6 +281,7 @@ startRankedMatch: async () => {
       powerReveal: false,
     }),
 }));
+
 
 
 

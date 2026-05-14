@@ -6,35 +6,40 @@ import {
   TouchableOpacity,
   StyleSheet,
   Animated,
-  Vibration,
+  ImageBackground,
 } from "react-native";
 import { useRouter } from "expo-router";
-import { Audio } from "expo-av";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
 import { useLocalSearchParams } from "expo-router";
-import { getWeekKeyUTC } from "@/weekly/weeklyLogic";
+import { getGameCompletionReward, getDayKeyUTC, getWeekKeyUTC } from "@/economy/economyRules";
 
 import { useQuickGameStore } from "@/store/useQuickGameStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
+import { useHistoryStore } from "@/store/historyStore";
 
 import { useAuthStore } from "@/store/useAuthStore";
 
 
 import { onGameFinished } from "@/achievements/achievementHooks";
+import { useChallengesStore } from "@/challenges/store/useChallengesStore";
+import { feedback } from "@/feedback";
+import { trackEvent } from "@/observability";
 
+const GAME_BG = require("../../../assets/images/play/game/game_bg.webp");
 
 export default function GameScreen() {
  const gameStartRef = useRef<number>(Date.now());
+ const didFinalizeRef = useRef(false);
+ const answerFeedbackTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const router = useRouter();
-const resetGame = useQuickGameStore((s) => s.resetGame);
-  const gameContext = useQuickGameStore((s) => s.gameContext);
-
+  
   const submitMatchResult = useTournamentStore(
     (s) => s.submitMatchResult
   );
   
   const mode = useQuickGameStore((s) => s.mode);
+  const category = useQuickGameStore((s) => s.category);
   const idx = useQuickGameStore((s) => s.idx);
   const questions = useQuickGameStore((s) => s.questions);
   const score = useQuickGameStore((s) => s.score);
@@ -42,8 +47,10 @@ const resetGame = useQuickGameStore((s) => s.resetGame);
   const timeLeft = useQuickGameStore((s) => s.timeLeft);
   const gameOver = useQuickGameStore((s) => s.gameOver);
   const handleAnswer = useQuickGameStore((s) => s.handleAnswer);
-const { id: matchId } = useLocalSearchParams<{ id: string }>();
-console.log("TOURNAMENT?", gameContext, "matchId=", matchId);
+  const { id: matchId, challengeId } = useLocalSearchParams<{
+  id?: string;
+  challengeId?: string;
+}>();
 
   const current = questions[idx];
 
@@ -51,71 +58,18 @@ console.log("TOURNAMENT?", gameContext, "matchId=", matchId);
   const boosts = usePlayerStore((s) => s.activeBoosts);
 
   const [locked, setLocked] = useState(false);
+  const [answerFeedback, setAnswerFeedback] = useState<{
+    text: string;
+    tone: "correct" | "wrong" | "sudden";
+  } | null>(null);
 
-  const blockInput = () => {
-    setLocked(true);
-    setTimeout(() => setLocked(false), 450);
-  };
-
-  // ---------------------------------------------------------
-  // SOUND REFS (SAFE)
-  // ---------------------------------------------------------
-  const correctSFX = useRef<Audio.Sound | null>(null);
-  const wrongSFX = useRef<Audio.Sound | null>(null);
-  const suddenSFX = useRef<Audio.Sound | null>(null);
-  const startSFX = useRef<Audio.Sound | null>(null);
-
-  async function loadSounds() {
-    if (correctSFX.current) return;
-
-    try {
-      correctSFX.current = new Audio.Sound();
-      wrongSFX.current = new Audio.Sound();
-      suddenSFX.current = new Audio.Sound();
-      startSFX.current = new Audio.Sound();
-
-      await correctSFX.current.loadAsync(require("@assets/sounds/correct.mp3"));
-      await wrongSFX.current.loadAsync(require("@assets/sounds/error.mp3"));
-      await suddenSFX.current.loadAsync(require("@assets/sounds/round-end.mp3"));
-      await startSFX.current.loadAsync(require("@assets/sounds/click.mp3"));
-
-      await startSFX.current.playAsync();
-    } catch {}
-  }
-
- useEffect(() => {
-  let mounted = true;
-
-  const initSounds = async () => {
-    try {
-      await loadSounds();
-
-      if (!mounted) return;
-
-      await correctSFX.current?.setVolumeAsync(0.85);
-      await wrongSFX.current?.setVolumeAsync(0.7);
-      await suddenSFX.current?.setVolumeAsync(0.9);
-      await startSFX.current?.setVolumeAsync(0.6);
-    } catch {}
-  };
-
-  initSounds();
-
-  return () => {
-    mounted = false;
-  };
-}, []);
-
-
-  async function safePlay(ref) {
-    try {
-      if (!ref.current) return;
-      const s = await ref.current.getStatusAsync();
-      if (!s.isLoaded) return;
-      await ref.current.replayAsync();
-    } catch {}
-  }
-
+  useEffect(() => {
+    return () => {
+      if (answerFeedbackTimeoutRef.current) {
+        clearTimeout(answerFeedbackTimeoutRef.current);
+      }
+    };
+  }, []);
 
   // ---------------------------------------------------------
   // ANIMATIONS
@@ -129,6 +83,15 @@ console.log("TOURNAMENT?", gameContext, "matchId=", matchId);
       useNativeDriver: true,
     }).start();
   }, [idx]);
+
+  useEffect(() => {
+    void trackEvent("game_started", {
+      mode: mode ?? "unknown",
+      questionCount: questions.length,
+      hasChallenge: Boolean(challengeId),
+      hasTournamentMatch: Boolean(matchId),
+    });
+  }, [challengeId, matchId, mode, questions.length]);
 
   const timerPulse = useRef(new Animated.Value(1)).current;
 
@@ -175,208 +138,358 @@ console.log("TOURNAMENT?", gameContext, "matchId=", matchId);
   }, [timeLeft]);
 
   // ---------------------------------------------------------
-  // GAME OVER
+  // GAME OVER — single finalization authority
   // ---------------------------------------------------------
   useEffect(() => {
-  if (!gameOver) return;
+    if (!gameOver || didFinalizeRef.current) return;
 
-  const t = setTimeout(() => {
-    if (gameContext === "tournament") {
-      const latestScore =
-        useQuickGameStore.getState().score;
-      const totalQ =
-        useQuickGameStore.getState().questions.length || 10;
+    didFinalizeRef.current = true;
 
-      const botScore = Math.max(
-        0,
-        Math.min(
-          totalQ,
-          latestScore +
-            (Math.floor(Math.random() * 3) - 2)
-        )
-      );
+    const t = setTimeout(() => {
+      const quick = useQuickGameStore.getState();
+      const latestScore = quick.score;
+      const totalQuestions = quick.questions.length;
+      const correctCount = quick.answerHistory.filter((answer) => answer.correct).length;
+      const latestMode = quick.mode;
+      const latestStreak = quick.streak;
 
-      // Submit result if tournament exists
-      if (matchId) {
-        submitMatchResult(matchId, latestScore, botScore);
+      if (quick.gameContext === "tournament") {
+        const totalQ = totalQuestions || 10;
+        const botScore = Math.max(
+          0,
+          Math.min(totalQ, latestScore + (Math.floor(Math.random() * 3) - 2))
+        );
+
+        if (matchId) {
+          submitMatchResult(matchId, latestScore, botScore);
+        }
       }
-    }
 
-    const { earnedXP, earnedCoins, earnedGems } =
-  useQuickGameStore.getState();
+      const player = usePlayerStore.getState();
+      const accuracy = totalQuestions === 0 ? 0 : correctCount / totalQuestions;
+      const reward = getGameCompletionReward({
+        mode: latestMode,
+        totalQuestions,
+        correct: correctCount,
+        accuracy,
+        perfect: totalQuestions > 0 && correctCount === totalQuestions,
+      });
 
-if (earnedXP || earnedCoins || earnedGems) {
-  usePlayerStore
-    .getState()
-    .applyReward(earnedXP, earnedCoins, earnedGems);
-}
-// ----------------------------
-// LIFETIME STATS (Phase C1)
-// ----------------------------
-const player = usePlayerStore.getState();
-player.incrementGamesPlayed();
+      useQuickGameStore.setState({
+        earnedXP: reward.xp,
+        earnedCoins: reward.coins,
+        earnedGems: reward.gems,
+        earnedTickets: reward.tickets,
+      } as any);
 
-if (score > 0) {
-  player.incrementWins();
-}
+      if (reward.xp || reward.coins || reward.gems || reward.tickets) {
+        player.applyReward(reward.xp, reward.coins, reward.gems, reward.tickets);
+      }
 
+      const recordGameCompletion = (player as any).recordGameCompletion;
+      const retentionBonus =
+        typeof recordGameCompletion === "function"
+          ? recordGameCompletion({
+              accuracy,
+              won: latestScore > 0,
+            })
+          : { xp: 0, coins: 0, gems: 0, tickets: 0 };
 
-// ----------------------------
-// ACHIEVEMENTS — GAME FINISH (Phase C1)
-// ----------------------------
+      if (retentionBonus.xp || retentionBonus.coins || retentionBonus.gems || retentionBonus.tickets) {
+        useQuickGameStore.setState((state: any) => ({
+          earnedXP: state.earnedXP + retentionBonus.xp,
+          earnedCoins: state.earnedCoins + retentionBonus.coins,
+          earnedGems: state.earnedGems + retentionBonus.gems,
+          earnedTickets: state.earnedTickets + retentionBonus.tickets,
+        }));
+      }
 
-const totalQuestions =
-  useQuickGameStore.getState().questions.length;
+     useHistoryStore.getState().addResult({
+  mode: latestMode ?? "classic",
+  category: quick.category ?? undefined,
+  score: latestScore,
 
-const correctCount =
-  useQuickGameStore.getState().answerHistory?.filter(
-    (a) => a.correct
-  ).length ?? 0;
+  questions: totalQuestions,
+  correct: correctCount,
 
-
- const uid = useAuthStore.getState().user?.uid ?? null;
-
-const playerState = usePlayerStore.getState();
-onGameFinished({
-  userId: uid,
-  won: score > 0,
-  correctCount,
   totalQuestions,
-  durationMs: Date.now() - gameStartRef.current,
-  totalGamesPlayed: playerState.totalGamesPlayed,
-  totalWins: playerState.totalWins,
-  winStreak: streak,
-});
+  correctCount,
+  accuracy,
+  won: latestScore > 0,
+  xp: reward.xp + retentionBonus.xp,
+  coins: reward.coins + retentionBonus.coins,
+} as any);
 
-// ✅ SET DAILY RESULT FOR RESULT SCREEN
-if (mode === "daily") {
-  const accuracy =
-    totalQuestions === 0 ? 0 : correctCount / totalQuestions;
+      player.incrementGamesPlayed();
 
-  useQuickGameStore.getState().setDailyResult({
-    accuracy,
-    passed: accuracy >= 0.8,
-    perfect: accuracy === 1,
-  });
+      if (latestScore > 0) {
+        player.incrementWins();
+      }
+
+      if (challengeId) {
+  useChallengesStore
+    .getState()
+    .completeChallenge(String(challengeId), latestScore);
 }
+     
+      const uid = useAuthStore.getState().user?.uid ?? null;
+      const playerState = usePlayerStore.getState();
 
+      onGameFinished({
+        userId: uid,
+        won: latestScore > 0,
+        correctCount,
+        totalQuestions,
+        durationMs: Date.now() - gameStartRef.current,
+        totalGamesPlayed: playerState.totalGamesPlayed,
+        totalWins: playerState.totalWins,
+        winStreak: latestStreak,
+      });
 
-// ✅ MARK DAILY AS PLAYED (BLOCK REPLAY)
-if (mode === "daily") {
-  usePlayerStore.getState().setDaily({
-    ...usePlayerStore.getState().daily,
-    lastClaimDate: new Date().toISOString().slice(0, 10),
-  });
-}
+      if (latestMode === "daily") {
+        quick.setDailyResult({
+          accuracy,
+          passed: accuracy >= 0.8,
+          perfect: accuracy === 1,
+        });
 
-// 🗓️ WEEKLY PROGRESS
-if (mode === "daily") {
-  const store = usePlayerStore.getState();
-  const currentWeek = getWeekKeyUTC();
+        const store = usePlayerStore.getState();
+        const currentWeek = getWeekKeyUTC();
+        const today = getDayKeyUTC();
+        const lastDailyPlayDate = (store.weekly as any).lastDailyPlayDate ?? null;
 
-  if (store.weekly.weekKey !== currentWeek) {
-    store.setWeekly({
-      weekKey: currentWeek,
-      progress: 1,
-      claimed: false,
-    });
-  } else {
-    store.setWeekly({
-      ...store.weekly,
-      progress: store.weekly.progress + 1,
-    });
-  }
-}
+        if (store.weekly.weekKey !== currentWeek) {
+          store.setWeekly({
+            weekKey: currentWeek,
+            progress: 1,
+            claimed: false,
+            lastDailyPlayDate: today,
+          } as any);
+        } else if (lastDailyPlayDate !== today) {
+          store.setWeekly({
+            ...store.weekly,
+            progress: store.weekly.progress + 1,
+            lastDailyPlayDate: today,
+          } as any);
+        }
+      }
 
+      void trackEvent("game_completed", {
+        mode: latestMode ?? "classic",
+        score: latestScore,
+        totalQuestions,
+        correctCount,
+        accuracy,
+        durationMs: Date.now() - gameStartRef.current,
+        earnedXP: reward.xp + retentionBonus.xp,
+        earnedCoins: reward.coins + retentionBonus.coins,
+        earnedGems: reward.gems + retentionBonus.gems,
+        earnedTickets: reward.tickets + retentionBonus.tickets,
+        challenge: Boolean(challengeId),
+        tournament: Boolean(matchId),
+      });
 
+      router.replace("/(app)/play/(screens)/result");
+    }, 300);
 
-// 🔥 ALWAYS go to result screen
-router.replace("/(app)/play/(screens)/result");
-  }, 300);
-
-  return () => clearTimeout(t);
-}, [gameOver]);
-
+    return () => clearTimeout(t);
+  }, [gameOver, matchId, challengeId, router, submitMatchResult]);
 
   // ---------------------------------------------------------
   // SAFE ANSWER HANDLER — NEW A++++ logic
   // ---------------------------------------------------------
   const onAnswer = async (ans: string) => {
-    if (locked || gameOver) return;
+    if (locked || gameOver || !current) return;
 
-    blockInput();
+    if (answerFeedbackTimeoutRef.current) {
+      clearTimeout(answerFeedbackTimeoutRef.current);
+      answerFeedbackTimeoutRef.current = null;
+    }
 
-const wasCorrect = handleAnswer(ans);
+    const correctAnswerIndex = Number(current.correctAnswerIndex);
+    const wasCorrect = current.answers[correctAnswerIndex] === ans;
+    const answerIndex = current.answers.indexOf(ans);
+    const isSuddenDeathLoss = mode === "sudden" && !wasCorrect;
 
-if (mode === "sudden" && !wasCorrect) {
-  Vibration.vibrate(40);
-  await safePlay(suddenSFX);
-} else if (wasCorrect) {
-  await safePlay(correctSFX);
-} else {
-  await safePlay(wrongSFX);
-  Vibration.vibrate(30);
-}
+    setLocked(true);
+    setAnswerFeedback(
+      isSuddenDeathLoss
+        ? {
+            text: "Sudden Death over — one wrong answer ends the round!",
+            tone: "sudden",
+          }
+        : wasCorrect
+          ? {
+              text: "Correct! Good job.",
+              tone: "correct",
+            }
+          : {
+              text: "Not quite. Keep going!",
+              tone: "wrong",
+            }
+    );
 
+    if (isSuddenDeathLoss) {
+      feedback.suddenDeath();
+    } else if (wasCorrect) {
+      feedback.correct();
+    } else {
+      feedback.wrong();
+    }
+
+    const feedbackDelay = isSuddenDeathLoss ? 1200 : 650;
+
+    answerFeedbackTimeoutRef.current = setTimeout(() => {
+      const handledCorrect = handleAnswer(ans);
+
+      void trackEvent("answer_selected", {
+        mode: mode ?? "unknown",
+        questionIndex: idx,
+        answerIndex,
+        correct: handledCorrect,
+        streak: useQuickGameStore.getState().streak,
+      });
+
+      if (
+        handledCorrect &&
+        useQuickGameStore.getState().streak > 0 &&
+        useQuickGameStore.getState().streak % 5 === 0
+      ) {
+        feedback.streak();
+      }
+
+      setAnswerFeedback(null);
+      setLocked(false);
+      answerFeedbackTimeoutRef.current = null;
+    }, feedbackDelay);
   };
+
 
   // ---------------------------------------------------------
   // UI LAYER
   // ---------------------------------------------------------
+  const isTimedMode = mode === "timed60" || mode === "timed90";
+  const totalQuestions = questions.length || 1;
+  const progressPercent = `${Math.min(100, ((idx + 1) / totalQuestions) * 100)}%`;
+  const categoryLabel = String(category ?? "Trivia").toUpperCase();
+  const modeLabel = String(mode ?? "classic").replace("timed60", "60s").replace("timed90", "90s").toUpperCase();
+
   return (
-    <View style={styles.container}>
-  {!current ? (
-    <View style={styles.center}>
-      <Text style={styles.loading}>Loading…</Text>
-    </View>
-  ) : (
-    <>
-      <View style={styles.holoOverlay} />
+    <ImageBackground
+      testID="screen-game"
+      source={GAME_BG}
+      style={styles.container}
+      resizeMode="cover"
+    >
+      <View style={styles.screenShade} />
 
-      {/* Header */}
-      <View style={styles.header}>
-        <Text style={styles.score}>Score: {score}</Text>
-        <Text style={styles.streak}>🔥 {streak}</Text>
-        {vipTier > 0 && <Text style={styles.vipBadge}>VIP {vipTier}</Text>}
-      </View>
+      {!current ? (
+        <View testID="screen-game-loading" style={styles.center}>
+          <Text style={styles.loading}>Loading…</Text>
+        </View>
+      ) : (
+        <View style={styles.content}>
+          <View style={styles.header}>
+            <View style={styles.hudPill}>
+              <Text style={styles.hudLabel}>SCORE</Text>
+              <Text style={styles.hudValue}>{score}</Text>
+            </View>
 
-      {(mode === "timed60" || mode === "timed90") && (
-        <Animated.Text
-          style={[
-            styles.timer,
-            { transform: [{ scale: timerPulse }, { scale: lowTimePulse }] },
-           timeLeft <= 5 && { color: "#FF6B6B" },
-          ]}
-        >
-          {timeLeft}s
-        </Animated.Text>
+            {isTimedMode ? (
+              <Animated.View
+                style={[
+                  styles.timerOrb,
+                  { transform: [{ scale: timerPulse }, { scale: lowTimePulse }] },
+                  timeLeft <= 5 && styles.timerOrbDanger,
+                ]}
+              >
+                <Text style={[styles.timerText, timeLeft <= 5 && styles.timerTextDanger]}>
+                  {timeLeft}
+                </Text>
+              </Animated.View>
+            ) : (
+              <View style={styles.modeOrb}>
+                <Text style={styles.modeOrbText}>{modeLabel}</Text>
+              </View>
+            )}
+
+            <View style={styles.hudPill}>
+              <Text style={styles.hudLabel}>STREAK</Text>
+              <Text style={styles.hudValue}>🔥 {streak}</Text>
+            </View>
+          </View>
+
+          <View style={styles.chipRow}>
+            <View style={styles.categoryChip}>
+              <Text style={styles.categoryText}>{categoryLabel}</Text>
+            </View>
+
+            <View style={styles.questionChip}>
+              <Text style={styles.questionChipText}>
+                QUESTION {idx + 1} / {totalQuestions}
+              </Text>
+            </View>
+
+            {vipTier > 0 && (
+              <View style={styles.vipChip}>
+                <Text style={styles.vipChipText}>VIP {vipTier}</Text>
+              </View>
+            )}
+          </View>
+
+          <Animated.View style={[styles.questionCard, { opacity: fadeAnim }]}>
+            <View pointerEvents="none" style={styles.cardGlow} />
+            <Text style={styles.question}>{current.text}</Text>
+
+            <View style={styles.progressTrack}>
+              <View style={[styles.progressFill, { width: progressPercent }]} />
+            </View>
+          </Animated.View>
+
+          <Animated.View style={[styles.answers, { opacity: fadeAnim }]}>
+            {current.answers.map((a: string, i: number) => (
+              <TouchableOpacity
+                key={`${a}-${i}`}
+                testID={`game-answer-${i}`}
+                onPress={() => onAnswer(a)}
+                activeOpacity={0.86}
+                disabled={locked}
+                style={[
+                  styles.answerBtn,
+                  locked && styles.answerLocked,
+                  boosts.xp > 0 && styles.answerBoosted,
+                ]}
+              >
+                <View style={styles.answerLetter}>
+                  <Text style={styles.answerLetterText}>
+                    {String.fromCharCode(65 + i)}
+                  </Text>
+                </View>
+
+                <Text style={styles.answerText} numberOfLines={2}>
+                  {a}
+                </Text>
+
+                <Text style={styles.answerArrow}>›</Text>
+              </TouchableOpacity>
+            ))}
+          </Animated.View>
+
+          {answerFeedback && (
+            <View
+              style={[
+                styles.answerFeedback,
+                answerFeedback.tone === "correct" && styles.answerFeedbackCorrect,
+                answerFeedback.tone === "wrong" && styles.answerFeedbackWrong,
+                answerFeedback.tone === "sudden" && styles.answerFeedbackSudden,
+              ]}
+            >
+              <Text style={styles.answerFeedbackText}>{answerFeedback.text}</Text>
+            </View>
+          )}
+        </View>
       )}
-
-      <Animated.Text style={[styles.question, { opacity: fadeAnim }]}>
-        {current.text}
-      </Animated.Text>
-
-      <Animated.View style={{ opacity: fadeAnim }}>
-        {current.answers.map((a: string, i: number) => (
-        <TouchableOpacity
-  key={i}
-  onPress={() => onAnswer(a)}
-  activeOpacity={0.85}
-  style={[
-    styles.answerBtn,
-    locked && { opacity: 0.65 },
-    boosts.xp > 0 && { borderColor: "#F5C451" },
-  ]}
->
-
-            <Text style={styles.answerText}>{a}</Text>
-          </TouchableOpacity>
-        ))}
-      </Animated.View>
-    </>
-  )}
-</View>
-
+    </ImageBackground>
   );
 }
 
@@ -386,86 +499,301 @@ if (mode === "sudden" && !wasCorrect) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-   backgroundColor: "#0E1424",
-    paddingHorizontal: 18,
-    justifyContent: "center",
+    backgroundColor: "#070B18",
   },
 
-  holoOverlay: {
+  screenShade: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: "rgba(120, 60, 255, 0.08)",
+    backgroundColor: "rgba(0,0,0,0.48)",
+  },
+
+  content: {
+    flex: 1,
+    paddingHorizontal: 18,
+    paddingTop: 42,
+    paddingBottom: 22,
   },
 
   header: {
-    position: "absolute",
-    top: 48,
-    left: 18,
-    right: 18,
+    height: 70,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
   },
 
-  score: {
-    color: "#7af0ff",
+  hudPill: {
+    minWidth: 82,
+    borderRadius: 18,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    backgroundColor: "rgba(10,18,34,0.88)",
+    borderWidth: 1,
+    borderColor: "rgba(245,185,66,0.16)",
+    alignItems: "center",
+  },
+
+  hudLabel: {
+    color: "#8FA3D8",
+    fontSize: 9,
+    fontWeight: "900",
+    letterSpacing: 0.7,
+  },
+
+  hudValue: {
+    color: "#FFFFFF",
     fontSize: 18,
-    fontWeight: "700",
+    fontWeight: "900",
+    marginTop: 1,
   },
 
-  streak: {
-    color: "#ff67f7",
-    fontSize: 18,
-    fontWeight: "700",
+  timerOrb: {
+    width: 66,
+    height: 66,
+    borderRadius: 33,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "rgba(12,20,40,0.92)",
+    borderWidth: 3,
+    borderColor: "#56A6FF",
+    shadowColor: "#56A6FF",
+    shadowOpacity: 0.24,
+    shadowRadius: 12,
+    shadowOffset: { width: 0, height: 5 },
+    elevation: 8,
   },
 
-  vipBadge: {
-    backgroundColor: "#FFD700",
-    paddingHorizontal: 8,
-    paddingVertical: 3,
-    borderRadius: 7,
-    fontSize: 14,
-    fontWeight: "700",
-    color: "#000",
+  timerOrbDanger: {
+    borderColor: "#FF6262",
+    shadowColor: "#FF6262",
   },
 
-  timer: {
-    color: "#00eaff",
-    fontSize: 42,
-    textAlign: "center",
-    marginVertical: 16,
-    fontWeight: "800",
+  timerText: {
+    color: "#FFFFFF",
+    fontSize: 24,
+    fontWeight: "900",
+  },
+
+  timerTextDanger: {
+    color: "#FFB4B4",
+  },
+
+  modeOrb: {
+    minWidth: 66,
+    height: 46,
+    borderRadius: 23,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "rgba(245,185,66,0.12)",
+    borderWidth: 1,
+    borderColor: "rgba(245,185,66,0.28)",
+    paddingHorizontal: 10,
+  },
+
+  modeOrbText: {
+    color: "#F5B942",
+    fontSize: 11,
+    fontWeight: "900",
+  },
+
+  chipRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: 8,
+    marginTop: 14,
+    marginBottom: 14,
+  },
+
+  categoryChip: {
+    borderRadius: 999,
+    paddingHorizontal: 13,
+    paddingVertical: 7,
+    backgroundColor: "rgba(245,185,66,0.13)",
+    borderWidth: 1,
+    borderColor: "rgba(245,185,66,0.25)",
+  },
+
+  categoryText: {
+    color: "#F5B942",
+    fontSize: 11,
+    fontWeight: "900",
+    letterSpacing: 0.6,
+  },
+
+  questionChip: {
+    borderRadius: 999,
+    paddingHorizontal: 13,
+    paddingVertical: 7,
+    backgroundColor: "rgba(20,28,52,0.86)",
+    borderWidth: 1,
+    borderColor: "rgba(88,140,255,0.22)",
+  },
+
+  questionChipText: {
+    color: "#DCE7FF",
+    fontSize: 11,
+    fontWeight: "900",
+  },
+
+  vipChip: {
+    borderRadius: 999,
+    paddingHorizontal: 10,
+    paddingVertical: 7,
+    backgroundColor: "rgba(245,185,66,0.16)",
+    borderWidth: 1,
+    borderColor: "rgba(245,185,66,0.28)",
+  },
+
+  vipChipText: {
+    color: "#F5B942",
+    fontSize: 10,
+    fontWeight: "900",
+  },
+
+  questionCard: {
+    borderRadius: 24,
+    padding: 20,
+    minHeight: 160,
+    justifyContent: "center",
+    backgroundColor: "rgba(10,20,34,0.90)",
+    borderWidth: 1.2,
+    borderColor: "rgba(245,185,66,0.20)",
+    overflow: "hidden",
+    marginBottom: 18,
+    shadowColor: "#000",
+    shadowOpacity: 0.26,
+    shadowRadius: 14,
+    shadowOffset: { width: 0, height: 8 },
+    elevation: 8,
+  },
+
+  cardGlow: {
+    position: "absolute",
+    top: -50,
+    right: -35,
+    width: 125,
+    height: 125,
+    borderRadius: 63,
+    backgroundColor: "rgba(86,166,255,0.08)",
   },
 
   question: {
-    fontSize: 23,
-    color: "#ffffff",
-    textAlign: "center",
-    marginBottom: 26,
-    paddingHorizontal: 8,
-    fontWeight: "600",
+    color: "#FFFFFF",
+    fontSize: 22,
     lineHeight: 30,
+    fontWeight: "900",
+    marginBottom: 18,
+  },
+
+  progressTrack: {
+    height: 8,
+    borderRadius: 999,
+    backgroundColor: "rgba(255,255,255,0.09)",
+    overflow: "hidden",
+  },
+
+  progressFill: {
+    height: "100%",
+    backgroundColor: "#F5B942",
+  },
+
+  answers: {
+    gap: 10,
   },
 
   answerBtn: {
-   backgroundColor: "#1A2038",
-    paddingVertical: 14,
-    paddingHorizontal: 18,
-    borderRadius: 12,
-    marginBottom: 10,
-    borderColor: "#4C5CFF",
+    minHeight: 64,
+    borderRadius: 20,
+    paddingHorizontal: 14,
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "rgba(7,26,38,0.94)",
     borderWidth: 1.2,
+    borderColor: "rgba(86,166,255,0.22)",
+    shadowColor: "#000",
+    shadowOpacity: 0.20,
+    shadowRadius: 9,
+    shadowOffset: { width: 0, height: 5 },
+    elevation: 5,
+  },
+
+  answerLocked: {
+    opacity: 0.68,
+  },
+
+  answerBoosted: {
+    borderColor: "rgba(245,196,81,0.55)",
+  },
+
+  answerLetter: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    alignItems: "center",
+    justifyContent: "center",
+    marginRight: 14,
+    backgroundColor: "rgba(86,166,255,0.16)",
+    borderWidth: 1,
+    borderColor: "rgba(86,166,255,0.32)",
+  },
+
+  answerLetterText: {
+    color: "#66B3FF",
+    fontSize: 15,
+    fontWeight: "900",
   },
 
   answerText: {
-    color: "#dcd3ff",
-    fontSize: 18,
+    flex: 1,
+    color: "#FFFFFF",
+    fontSize: 16,
+    lineHeight: 20,
+    fontWeight: "800",
+  },
+
+  answerArrow: {
+    color: "#91A4D7",
+    fontSize: 25,
+    fontWeight: "800",
+    marginLeft: 8,
+  },
+
+  answerFeedback: {
+    marginTop: 14,
+    paddingVertical: 10,
+    paddingHorizontal: 14,
+    borderRadius: 18,
+    borderWidth: 1,
+    alignSelf: "stretch",
+  },
+
+  answerFeedbackCorrect: {
+    backgroundColor: "rgba(34,197,94,0.14)",
+    borderColor: "rgba(34,197,94,0.28)",
+  },
+
+  answerFeedbackWrong: {
+    backgroundColor: "rgba(255,98,98,0.14)",
+    borderColor: "rgba(255,98,98,0.30)",
+  },
+
+  answerFeedbackSudden: {
+    backgroundColor: "rgba(245,185,66,0.16)",
+    borderColor: "rgba(245,185,66,0.32)",
+  },
+
+  answerFeedbackText: {
+    color: "#FFFFFF",
+    fontSize: 14,
+    fontWeight: "900",
     textAlign: "center",
-    fontWeight: "600",
+    lineHeight: 19,
   },
 
   loading: {
     color: "white",
     fontSize: 20,
+    fontWeight: "800",
   },
 
   center: {
@@ -474,5 +802,3 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 });
-
-

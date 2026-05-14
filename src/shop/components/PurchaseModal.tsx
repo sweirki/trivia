@@ -8,6 +8,7 @@ import {
   StyleSheet,
   Animated,
 } from "react-native";
+import { feedback } from "@/feedback";
 
 export default function PurchaseModal({ visible, item, onConfirm, onClose }) {
   if (!item) return null;
@@ -23,11 +24,23 @@ export default function PurchaseModal({ visible, item, onConfirm, onClose }) {
           <Text style={styles.price}>{item.price}</Text>
 
           <View style={styles.buttons}>
-            <TouchableOpacity style={styles.cancelBtn} onPress={onClose}>
+            <TouchableOpacity
+              style={styles.cancelBtn}
+              onPress={() => {
+                feedback.tap();
+                onClose?.();
+              }}
+            >
               <Text style={styles.cancelText}>Cancel</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.confirmBtn} onPress={onConfirm}>
+            <TouchableOpacity
+              style={styles.confirmBtn}
+              onPress={() => {
+                feedback.purchaseSuccess();
+                onConfirm?.();
+              }}
+            >
               <Text style={styles.confirmText}>Buy</Text>
             </TouchableOpacity>
           </View>
@@ -114,6 +127,7 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
 });
+
 
 
 

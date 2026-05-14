@@ -1,0 +1,45 @@
+appId: ${APP_ID}
+---
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible:
+      id: "screen-hub"
+    timeout: 15000
+
+# Quick Play can open from the hub and render playable mode cards.
+- tapOn:
+    id: "hub-quick-play-button"
+- extendedWaitUntil:
+    visible:
+      id: "screen-quick-play"
+    timeout: 10000
+- assertVisible: "Classic"
+- back
+
+# Daily can open without hydration crashes.
+- extendedWaitUntil:
+    visible:
+      id: "screen-hub"
+    timeout: 10000
+- tapOn:
+    id: "hub-daily-button"
+- extendedWaitUntil:
+    visible:
+      id: "screen-daily"
+    timeout: 10000
+- assertVisible: "Streak"
+- back
+
+# Arena hub renders safely.
+- extendedWaitUntil:
+    visible:
+      id: "screen-hub"
+    timeout: 10000
+- tapOn: "Arena · Competitive"
+- extendedWaitUntil:
+    visible:
+      id: "screen-arena"
+    timeout: 10000
+- assertVisible: "LIVE ARENA"
+- back

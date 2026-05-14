@@ -1,59 +1,70 @@
-// src/daily/dailyLogic.ts
+import { getDayKeyUTC } from "@/economy/economyRules";
 
 type DailyEvaluationResult = {
   canClaim: boolean;
   nextStreak: number;
   isNewStreak: boolean;
+  alreadyClaimedToday: boolean;
+  daysSinceLastClaim: number | null;
 };
 
-function dayKey(date: Date) {
-  return date.toISOString().slice(0, 10); // YYYY-MM-DD
+const MS_PER_DAY = 86_400_000;
+
+function parseDayKey(day: string) {
+  return new Date(`${day}T00:00:00.000Z`);
+}
+
+export function getNextDailyStreak(currentStreak: number, isNewStreak: boolean) {
+  if (isNewStreak) return 1;
+
+  const next = Math.floor(currentStreak || 0) + 1;
+  return next > 7 ? 1 : next;
 }
 
 export function evaluateDailyClaim(
   lastClaimDay: string | null,
-  todayDay: string
+  todayDay: string = getDayKeyUTC(),
+  currentStreak = 0
 ): DailyEvaluationResult {
-  // First ever claim
   if (!lastClaimDay) {
     return {
       canClaim: true,
       nextStreak: 1,
       isNewStreak: true,
+      alreadyClaimedToday: false,
+      daysSinceLastClaim: null,
     };
   }
 
-  // Already claimed today
   if (lastClaimDay === todayDay) {
     return {
       canClaim: false,
-      nextStreak: 0,
+      nextStreak: Math.max(1, Math.floor(currentStreak || 1)),
       isNewStreak: false,
+      alreadyClaimedToday: true,
+      daysSinceLastClaim: 0,
     };
   }
 
-  const last = new Date(lastClaimDay);
-  const today = new Date(todayDay);
+  const last = parseDayKey(lastClaimDay);
+  const today = parseDayKey(todayDay);
+  const diffDays = Math.floor((today.getTime() - last.getTime()) / MS_PER_DAY);
 
-  const yesterday = new Date(today);
-  yesterday.setDate(today.getDate() - 1);
-
-  const yesterdayKey = dayKey(yesterday);
-
-  // Consecutive day → continue streak
-  if (lastClaimDay === yesterdayKey) {
+  if (diffDays === 1) {
     return {
       canClaim: true,
-      nextStreak: 0, // caller increments
+      nextStreak: getNextDailyStreak(currentStreak, false),
       isNewStreak: false,
+      alreadyClaimedToday: false,
+      daysSinceLastClaim: diffDays,
     };
   }
 
-  // Missed a day → reset streak
   return {
     canClaim: true,
     nextStreak: 1,
     isNewStreak: true,
+    alreadyClaimedToday: false,
+    daysSinceLastClaim: diffDays,
   };
 }
-

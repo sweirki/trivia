@@ -1,0 +1,19 @@
+appId: ${APP_ID}
+---
+- launchApp
+
+- assertVisible:
+    id: "screen-hub"
+
+- tapOn:
+    id: "hub-daily-button"
+
+- assertVisible:
+    id: "screen-daily"
+
+- assertVisible: "Streak"
+
+- pressKey: back
+
+- assertVisible:
+    id: "screen-hub"

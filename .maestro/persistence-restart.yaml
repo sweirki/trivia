@@ -1,0 +1,34 @@
+appId: ${APP_ID}
+---
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible:
+      id: "screen-hub"
+    timeout: 15000
+- assertVisible:
+    id: "hub-quick-play-button"
+
+# Exercise a lightweight route before restart.
+- tapOn:
+    id: "hub-quick-play-button"
+- extendedWaitUntil:
+    visible:
+      id: "screen-quick-play"
+    timeout: 10000
+- back
+- extendedWaitUntil:
+    visible:
+      id: "screen-hub"
+    timeout: 10000
+
+# Restart should preserve app session/local hydration and land back on the hub.
+- stopApp
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible:
+      id: "screen-hub"
+    timeout: 15000
+- assertVisible:
+    id: "hub-quick-play-button"

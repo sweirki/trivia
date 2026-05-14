@@ -41,3 +41,4 @@ export const RANKED_AI_DEFAULT = {
   BASE_RATING: 1000,
 };
 
+

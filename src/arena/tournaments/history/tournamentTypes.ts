@@ -5,3 +5,4 @@ export interface TournamentHistoryRecord {
   winnerUid: string;
   completedAt: number;
 }
+

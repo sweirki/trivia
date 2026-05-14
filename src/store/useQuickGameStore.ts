@@ -2,31 +2,40 @@
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { normalizeQuestions } from "@/questions/normalizeQuestions";
-import { loadCategoryQuestions } from "@/questions/loadCategoryQuestions";
 
-import { usePlayerStore } from "./usePlayerStore";
+import { getAdaptivePreferredDifficulty } from "@/questions/adaptiveDifficulty";
+import { loadCategoryQuestions } from "@/questions/loadCategoryQuestions";
 import { useAchievementsStore } from "./achievementsStore";
 import { useRankedArenaStore } from "@/arena/ranked/useRankedArenaStore";
 import { useSurvivalArenaStore } from "@/arena/survival/useSurvivalArenaStore";
+import { usePlayerStore } from "@/store/player/player.store";
+import {
+  buildCuratedQuestionsForMode,
+  calculateBaseXP,
+  calculateSpeedBonus,
+  calculateSuddenDeathBonusXP,
+  calculateTimedBonus,
+  clearGameTimer,
+  createFreshGameState,
+  getQuestionPool,
+  resolvePlayableCategoryId,
+} from "./quickGame.helpers";
 
-import { CATEGORIES } from "../data/categories";
-const rawQuestions = require("@assets/data/sampleQuestions.json");
-const sampleQuestions = normalizeQuestions(rawQuestions);
 
 
-// ---------------------------------------------------------
-// HELPERS (PURE)
-// ---------------------------------------------------------
-const shuffle = <T,>(arr: T[]) => {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
+const legacyFallbackQuestions: QuickQuestion[] = [];
+
+const recordQuestionsSeen = (questions: QuickQuestion[]) => {
+  if (!questions.length) return;
+
+  usePlayerStore
+    .getState()
+    .recordRecentQuestions(questions.map((question) => question.id));
 };
 
+// ---------------------------------------------------------
+// TYPES
+// ---------------------------------------------------------
 export type QuickMode =
   | "classic"
   | "speed"
@@ -38,39 +47,57 @@ export type QuickMode =
   | "daily"
   | null;
 
+
+  
+type Difficulty = "easy" | "medium" | "hard" | "expert";
+type GameContext = "quick" | "tournament";
+type GameTimer = ReturnType<typeof setInterval>;
+
+type QuickQuestion = {
+  id: number | string;
+  text: string;
+  answers: string[];
+  correctAnswerIndex: number | string;
+  difficulty: Difficulty;
+  category: string;
+};
+
 type AnswerHistoryItem = {
   questionId: number | string;
   chosen: string;
   correct: boolean;
-  difficulty: "easy" | "medium" | "hard";
+  difficulty: Difficulty;
   category: string;
 };
 
-type OfflineReward = { xp: number; coins: number; gems: number };
-type QuickGameState = {
-earnedXP: number;
-earnedCoins: number;
-earnedGems: number;
-  dailyResult: null | {
-    accuracy: number;
-    passed: boolean;
-    perfect: boolean;
-  };
+type DailyResult = {
+  accuracy: number;
+  passed: boolean;
+  perfect: boolean;
+};
 
-  setDailyResult: (result: {
-    accuracy: number;
-    passed: boolean;
-    perfect: boolean;
-  }) => void;
+type Summary = {
+  total: number;
+  correct: number;
+  wrong: number;
+  accuracy: number;
+};
+
+type QuickGameState = {
+  earnedXP: number;
+  earnedCoins: number;
+  earnedGems: number;
+  earnedTickets: number;
+  dailyResult: DailyResult | null;
 
   started: boolean;
   gameOver: boolean;
-  gameContext: "quick" | "tournament";
+  gameContext: GameContext;
   mode: QuickMode;
 
   category: string | null;
 
-  questions: any[];
+  questions: QuickQuestion[];
   idx: number;
 
   score: number;
@@ -78,36 +105,30 @@ earnedGems: number;
   combo: number;
 
   timeLeft: number | null;
-  timerId: any | null;
+  timerId: GameTimer | null;
 
   answerHistory: AnswerHistoryItem[];
 
-  // actions
-  getSummary: () => {
-    total: number;
-    correct: number;
-    wrong: number;
-    accuracy: number;
-  };
+  getSummary: () => Summary;
+  getDifficultyLevel: () => Difficulty;
 
-  getDifficultyLevel: () => "easy" | "medium" | "hard";
-
+  setDailyResult: (result: DailyResult) => void;
   setCategory: (id: string) => void;
   clearTimer: () => void;
 
   initGame: (mode: QuickMode, category: string) => void;
-    initTournamentGame: (category: string, questionsCount: number) => void;
- handleAnswer: (choice: string) => boolean;
+  initTournamentGame: (category: string, questionsCount: number) => void;
+  handleAnswer: (choice: string) => boolean;
 
   resetGame: () => void;
 };
 
+// ---------------------------------------------------------
+// STORE
+// ---------------------------------------------------------
 export const useQuickGameStore = create<QuickGameState>()(
   persist<QuickGameState>(
     (set, get) => ({
-      // ---------------------------------------------------------
-      // GAME STATE CORE
-      // ---------------------------------------------------------
       started: false,
       gameOver: false,
       gameContext: "quick",
@@ -126,19 +147,18 @@ export const useQuickGameStore = create<QuickGameState>()(
       timerId: null,
 
       answerHistory: [],
-earnedXP: 0,
-earnedCoins: 0,
-earnedGems: 0,
-dailyResult: null,
 
+      earnedXP: 0,
+      earnedCoins: 0,
+      earnedGems: 0,
+      earnedTickets: 0,
+      dailyResult: null,
 
-      // ---------------------------------------------------------
-      // SUMMARY
-      // ---------------------------------------------------------
       getSummary: () => {
-        const h = get().answerHistory;
-        const correct = h.filter((x) => x.correct).length;
-        const total = h.length;
+        const history = get().answerHistory;
+        const correct = history.filter((item) => item.correct).length;
+        const total = history.length;
+
         return {
           total,
           correct,
@@ -147,520 +167,402 @@ dailyResult: null,
         };
       },
 
-      // ---------------------------------------------------------
-      // ADAPTIVE DIFFICULTY
-      // ---------------------------------------------------------
       getDifficultyLevel: () => {
-        const s = get().streak;
-        if (s < 3) return "easy";
-        if (s < 6) return "medium";
-        return "hard";
+        const { mode } = get();
+        const playerSkill = usePlayerStore.getState().questionSkill;
+
+        return getAdaptivePreferredDifficulty(playerSkill, mode);
       },
+
+      setDailyResult: (result) => set({ dailyResult: result }),
 
       setCategory: (id) => set({ category: id }),
 
-      // ---------------------------------------------------------
-      // INTERNAL: TIMER CLEANUP (single authority)
-      // ---------------------------------------------------------
       clearTimer: () => {
-        const t = get().timerId;
-        if (t) clearInterval(t);
+        clearGameTimer(get().timerId);
         set({ timerId: null });
       },
 
-      // ---------------------------------------------------------
-      // INIT GAME (LOCKED PIPELINE)
-      // ---------------------------------------------------------
       initGame: (mode, category) => {
-                // ---------------------------------------------------------
-        // RANKED ARENA OVERRIDE (Phase 11.2)
-        // ---------------------------------------------------------
+        clearGameTimer(get().timerId);
+
+        const survivalRun = useSurvivalArenaStore.getState().currentRun;
+
+        if (survivalRun) {
+          const questions = survivalRun.questions as QuickQuestion[];
+
+          set(
+            createFreshGameState(
+              "survival",
+              "survival",
+              questions
+            )
+          );
+
+          recordQuestionsSeen(questions);
+
+          return;
+        }
+
         const rankedMatch = useRankedArenaStore.getState().currentMatch;
-// ---------------------------------------------------------
-// SURVIVAL ARENA OVERRIDE
-// ---------------------------------------------------------
-const survivalRun =
-  useSurvivalArenaStore.getState().currentRun;
-
-if (survivalRun) {
-  set({
-    started: true,
-    gameOver: false,
-    mode: "survival",
-    category: "survival",
-    questions: survivalRun.questions,
-    idx: 0,
-    score: 0,
-    combo: 0,
-    streak: 0,
-    timeLeft: null,
-    timerId: null,
-    answerHistory: [],
-  });
-
-  return;
-}
 
         if (rankedMatch) {
-          set({
-            started: true,
-            gameOver: false,
-            mode: "ranked",
-            category: "ranked",
-            questions: rankedMatch.questions,
-            idx: 0,
-            score: 0,
-            combo: 0,
-            streak: 0,
-            timeLeft: null,
-            timerId: null,
-            answerHistory: [],
-          });
+          const questions = rankedMatch.questions as QuickQuestion[];
+
+          set(
+            createFreshGameState(
+              "ranked",
+              "ranked",
+              questions
+            )
+          );
+
+          recordQuestionsSeen(questions);
 
           return;
         }
 
-        // kill any existing timer first
-        const prevTimer = get().timerId;
-        if (prevTimer) clearInterval(prevTimer);
+        const resolvedCategory = resolvePlayableCategoryId(category);
+        const basePool = getQuestionPool(
+          resolvedCategory,
+          "QuickGame",
+          loadCategoryQuestions as (category: string) => QuickQuestion[],
+          legacyFallbackQuestions
+        );
 
-        const owned = usePlayerStore.getState().ownedPacks;
-
-        // Gate premium packs (same as your logic)
-        const meta = CATEGORIES.find((c) => c.id === category);
-        const isLocked = meta?.premium && !owned.includes(meta.id);
-        if (isLocked) {
-          // Safety: refuse to start locked category
-          // (UI should prevent this, but store must be defensive)
-          set({
-            started: false,
-            gameOver: false,
-            mode: null,
-            category: null,
-            questions: [],
-            idx: 0,
-            score: 0,
-            combo: 0,
-            streak: 0,
-            timeLeft: null,
-            timerId: null,
-            answerHistory: [],
-          });
-          return;
-        }
-
-     let basePool: any[] = [];
-
-try {
-  basePool = loadCategoryQuestions(category);
-} catch (e) {
-  console.warn(
-    "[QuickGame] Category load failed, falling back to sampleQuestions:",
-    e
-  );
-
-  basePool = sampleQuestions.filter(
-    (q) => q.category === category
-  );
-}
-
-// 2) difficulty shaping (only when NOT speed)
-let final = basePool;
-if (mode !== "speed") {
-  const diff = get().getDifficultyLevel();
-  final = basePool.filter((q) => {
-    if (diff === "easy") return q.difficulty !== "hard";
-    if (diff === "medium") return q.difficulty !== "easy";
-    return true;
-  });
-}
-
-// 3) fallback if shaping removed all questions
-if (!final.length) final = basePool;
-
-// 4) LAST resort fallback (absolute safety)
-if (!final.length) final = sampleQuestions;
-
-
-        // 5) shuffle ONCE (critical)
-        final = shuffle(final);
-
-      // 6) apply per-mode limits (classic/speed/daily fixed counts)
-let limit = final;
-if (mode === "classic") limit = final.slice(0, 10);
-if (mode === "speed") limit = final.slice(0, 15);
-if (mode === "daily") limit = final.slice(0, 7);
-
-        // 7) commit state
-        set({
-          started: true,
-          gameOver: false,
-          mode,
-          category: category,
-          questions: limit,
-          idx: 0,
-          score: 0,
-          combo: 0,
-          streak: 0,
-          timeLeft: null,
-          timerId: null,
-          answerHistory: [],
+        const preferredDifficulty =
+          mode === "speed"
+            ? undefined
+            : getAdaptivePreferredDifficulty(usePlayerStore.getState().questionSkill, mode);
+        const fallbackPool = basePool.length ? basePool : legacyFallbackQuestions;
+        const recentQuestionIds = usePlayerStore.getState().recentQuestionIds;
+        const questions = buildCuratedQuestionsForMode(mode, resolvedCategory, fallbackPool, {
+          preferredDifficulty,
+          excludeQuestionIds: recentQuestionIds,
+          seed: `quick:${mode ?? "classic"}:${resolvedCategory}:${Date.now()}:${Math.random()}`,
         });
 
-        // 8) timed modes timer start (store-owned, leak-proof)
-        let duration = 0;
-        if (mode === "timed60") duration = 60;
-        if (mode === "timed90") duration = 90;
+        set(createFreshGameState(mode, resolvedCategory, questions));
+        recordQuestionsSeen(questions);
 
-        if (duration > 0) {
-          set({ timeLeft: duration });
+        const duration =
+          mode === "timed60" ? 60 : mode === "timed90" ? 90 : 0;
 
-          const timer = setInterval(() => {
-            const { timeLeft, gameOver } = get();
+        if (duration <= 0) return;
 
-            // if game ends for any reason, STOP TIMER (this fixes leaks)
-            if (gameOver) {
-              clearInterval(timer);
-              set({ timerId: null });
-              return;
-            }
+        set({ timeLeft: duration });
 
-            const safe = typeof timeLeft === "number" ? timeLeft : 0;
+        const timer = setInterval(() => {
+          const { timeLeft, gameOver } = get();
 
-            if (safe <= 1) {
-              clearInterval(timer);
-              set({ timeLeft: 0, gameOver: true, timerId: null });
-            } else {
-              set({ timeLeft: safe - 1 });
-            }
-          }, 1000);
+          if (gameOver) {
+            clearInterval(timer);
+            set({ timerId: null });
+            return;
+          }
 
-          set({ timerId: timer });
+          const safeTimeLeft = typeof timeLeft === "number" ? timeLeft : 0;
+
+          if (safeTimeLeft <= 1) {
+            clearInterval(timer);
+            set({ timeLeft: 0, gameOver: true, timerId: null });
+          } else {
+            set({ timeLeft: safeTimeLeft - 1 });
+          }
+        }, 1000);
+
+        set({ timerId: timer });
+      },
+
+      initTournamentGame: (category, questionsCount) => {
+        const resolvedCategory = resolvePlayableCategoryId(category);
+
+        clearGameTimer(get().timerId);
+
+        const basePool = getQuestionPool(
+          resolvedCategory,
+          "Tournament",
+          loadCategoryQuestions as (category: string) => QuickQuestion[],
+          legacyFallbackQuestions
+        );
+        const fallbackPool = basePool.length ? basePool : legacyFallbackQuestions;
+        const recentQuestionIds = usePlayerStore.getState().recentQuestionIds;
+        const questions = buildCuratedQuestionsForMode("classic", resolvedCategory, fallbackPool, {
+          tournamentCount: questionsCount,
+          excludeQuestionIds: recentQuestionIds,
+          seed: `tournament:${resolvedCategory}:${questionsCount}:${Date.now()}:${Math.random()}`,
+        });
+
+        set(
+          createFreshGameState(
+            "classic",
+            resolvedCategory,
+            questions,
+            "tournament"
+          )
+        );
+        recordQuestionsSeen(questions);
+      },
+
+      handleAnswer: (choice) => {
+        const { mode, idx, questions, streak, combo, category } = get();
+        const question = questions[idx];
+
+        if (!question) return false;
+
+        const correctAnswerIndex = Number(question.correctAnswerIndex);
+        const correct = question.answers[correctAnswerIndex] === choice;
+        const survivalRun = useSurvivalArenaStore.getState().currentRun;
+        const isTournament = get().gameContext === "tournament";
+
+        if (!correct && survivalRun) {
+          useSurvivalArenaStore.getState().endRun();
+          clearGameTimer(get().timerId);
+          set({ gameOver: true, timerId: null });
+
+          return correct;
         }
+
+        set((state) => ({
+          answerHistory: [
+            ...state.answerHistory,
+            {
+              questionId: question.id,
+              chosen: choice,
+              correct,
+              difficulty: question.difficulty,
+              category: question.category,
+            },
+          ],
+        }));
+
+        usePlayerStore.getState().recordQuestionPerformance({
+          questionId: question.id,
+          difficulty: question.difficulty,
+          correct,
+          category: question.category,
+          mode,
+        });
+
+        usePlayerStore.getState().recordQuestionAnalytics({
+          questionId: question.id,
+          difficulty: question.difficulty,
+          correct,
+          category: question.category,
+          mode,
+        });
+
+        if (!correct && mode === "sudden") {
+          clearGameTimer(get().timerId);
+
+          if (!isTournament) {
+            const summary = get().getSummary();
+            const bonusXP = calculateSuddenDeathBonusXP(summary.correct);
+
+            set((state) => ({
+              earnedXP: state.earnedXP + bonusXP,
+            }));
+          }
+
+          set({ gameOver: true, timerId: null });
+
+          return correct;
+        }
+
+        if (mode === "sudden" && correct) {
+          if (!isTournament) {
+            const achievements = useAchievementsStore.getState();
+            achievements.addProgress("combo", 1);
+            achievements.addProgress("category", 1, category);
+          }
+
+          const newStreak = streak + 1;
+          const newCombo = combo + 1;
+          const nextIndex = idx + 1;
+
+          set((state) => ({
+            streak: newStreak,
+            combo: newCombo,
+            score: state.score + 1,
+          }));
+
+          if (!isTournament) {
+            if (newCombo === 5) {
+              set((state) => ({ earnedXP: state.earnedXP + 15 }));
+            }
+
+            if (newCombo === 10) {
+              set((state) => ({ earnedXP: state.earnedXP + 40 }));
+            }
+
+            const earnedXP = calculateBaseXP(question.difficulty, mode);
+            const earnedCoins = Math.floor(2 + newStreak * 0.5);
+            const earnedGems = newCombo === 10 ? 1 : 0;
+
+            set((state) => ({
+              earnedXP: state.earnedXP + earnedXP,
+              earnedCoins: state.earnedCoins + earnedCoins,
+              earnedGems: state.earnedGems + earnedGems,
+            }));
+          }
+
+          if (nextIndex >= questions.length) {
+            clearGameTimer(get().timerId);
+
+            if (!isTournament) {
+              set((state) => ({
+                earnedXP: state.earnedXP + 40,
+                earnedCoins: state.earnedCoins + 4,
+              }));
+            }
+
+            set({ gameOver: true, timerId: null });
+
+            return correct;
+          }
+
+          set({ idx: nextIndex });
+
+          return correct;
+        }
+
+        if (correct) {
+          if (!isTournament) {
+            const achievements = useAchievementsStore.getState();
+            achievements.addProgress("combo", 1);
+            achievements.addProgress("category", 1, category);
+          }
+
+          const newStreak = streak + 1;
+          const newCombo = combo + 1;
+
+          set((state) => ({
+            streak: newStreak,
+            combo: newCombo,
+            score: state.score + 1,
+          }));
+
+          if (!isTournament) {
+            if (newCombo === 5) {
+              set((state) => ({ earnedXP: state.earnedXP + 15 }));
+            }
+
+            if (newCombo === 10) {
+              set((state) => ({ earnedXP: state.earnedXP + 40 }));
+            }
+
+            const earnedXP = calculateBaseXP(question.difficulty, mode);
+            const earnedCoins = Math.floor(2 + newStreak * 0.5);
+            const earnedGems = newCombo === 10 ? 1 : 0;
+
+            set((state) => ({
+              earnedXP: state.earnedXP + earnedXP,
+              earnedCoins: state.earnedCoins + earnedCoins,
+              earnedGems: state.earnedGems + earnedGems,
+            }));
+          }
+        } else {
+          set({ streak: 0, combo: 0 });
+        }
+
+        const nextIndex = idx + 1;
+
+        if (get().gameOver && mode !== "classic" && mode !== "daily") {
+          return correct;
+        }
+
+        if (mode === "timed60" || mode === "timed90") {
+          if ((get().timeLeft ?? 0) <= 0) {
+            if (!isTournament) {
+              const summary = get().getSummary();
+              const { bonusXP, bonusCoins } = calculateTimedBonus(
+                mode,
+                summary
+              );
+
+              set((state) => ({
+                earnedXP: state.earnedXP + bonusXP,
+                earnedCoins: state.earnedCoins + bonusCoins,
+              }));
+            }
+
+            set({ gameOver: true });
+
+            return correct;
+          }
+
+          set({
+            idx: idx + 1 >= questions.length ? 0 : idx + 1,
+          });
+
+          return correct;
+        }
+
+        if (mode === "speed") {
+          if (nextIndex >= questions.length) {
+            clearGameTimer(get().timerId);
+
+            if (!isTournament) {
+              const summary = get().getSummary();
+              const { bonusXP, bonusCoins } = calculateSpeedBonus(summary);
+
+              set((state) => ({
+                earnedXP: state.earnedXP + bonusXP,
+                earnedCoins: state.earnedCoins + bonusCoins,
+              }));
+            }
+
+            set({ gameOver: true, timerId: null });
+
+            return correct;
+          }
+
+          set({ idx: nextIndex });
+
+          return correct;
+        }
+
+        if ((mode === "classic" || mode === "daily") && nextIndex >= questions.length) {
+          clearGameTimer(get().timerId);
+
+          if (!isTournament) {
+            set((state) => ({
+              earnedXP: state.earnedXP + 30,
+              earnedCoins: state.earnedCoins + 3,
+            }));
+
+            if (get().getSummary().correct === questions.length) {
+              set((state) => ({
+                earnedXP: state.earnedXP + 25,
+                earnedCoins: state.earnedCoins + 5,
+                earnedGems: state.earnedGems + 1,
+              }));
+            }
+          }
+
+          set({ gameOver: true, timerId: null });
+
+          return correct;
+        }
+
+        if (mode === "classic" || mode === "daily") {
+          set({ idx: nextIndex });
+
+          return correct;
+        }
+
+        return correct;
       },
-
-            // ---------------------------------------------------------
-      // INIT TOURNAMENT GAME (ADD-ONLY, SAFE)
-      // ---------------------------------------------------------
-    initTournamentGame: (category, questionsCount) => {
-  const resolvedCategory =
-    category ||
-    CATEGORIES.find((c) => !c.premium)?.id ||
-    "science";
-
-  const prevTimer = get().timerId;
-  if (prevTimer) clearInterval(prevTimer);
-
-  let basePool: any[] = [];
-
-  try {
-    basePool = loadCategoryQuestions(resolvedCategory);
-  } catch (e) {
-    console.warn(
-      "[Tournament] Category load failed, falling back to sampleQuestions:",
-      e
-    );
-
-    basePool = sampleQuestions.filter(
-  (q) => q.category === resolvedCategory
-    );
-  }
-
-  if (!basePool.length) basePool = sampleQuestions;
-
-  const final = shuffle(basePool);
-  const limit = final.slice(0, questionsCount);
-
-  set({
-    started: true,
-    gameOver: false,
-    gameContext: "tournament",
-    mode: "classic",
-    category: resolvedCategory,
-    questions: limit,
-    idx: 0,
-    score: 0,
-    combo: 0,
-    streak: 0,
-    timeLeft: null,
-    timerId: null,
-    answerHistory: [],
-  });
-
-      },
-
-    // ---------------------------------------------------------
-// ANSWER HANDLING ENGINE (FINAL, CLEAN)
-// ---------------------------------------------------------
-handleAnswer: (choice) => {
-  const { mode, idx, questions, streak, combo, category } = get();
-  const q = questions[idx];
-  if (!q) return false;
-
-  const idxCorrect = Number(q.correctAnswerIndex);
-  const correct = q.answers[idxCorrect] === choice;
-
-  const survivalRun =
-    useSurvivalArenaStore.getState().currentRun;
-
-  // ---------------------------------------------------------
-  // SURVIVAL: wrong answer ends run immediately
-  // ---------------------------------------------------------
-  if (!correct && survivalRun) {
-    const { endRun } =
-      useSurvivalArenaStore.getState();
-    endRun();
-
-    const t = get().timerId;
-    if (t) clearInterval(t);
-
-    set({ gameOver: true, timerId: null });
-    return correct;
-  }
-
-  const achievements = useAchievementsStore.getState();
-  const player = usePlayerStore.getState();
-  const isTournament = get().gameContext === "tournament";
-
-  // ---------------------------------------------------------
-  // RECORD ANSWER HISTORY
-  // ---------------------------------------------------------
-  set((s) => ({
-    answerHistory: [
-      ...s.answerHistory,
-      {
-        questionId: q.id,
-        chosen: choice,
-        correct,
-        difficulty: q.difficulty,
-        category: q.category,
-      },
-    ],
-  }));
-
-  // ---------------------------------------------------------
-  // SUDDEN DEATH
-  // ---------------------------------------------------------
-if (!correct && mode === "sudden") {
-  const t = get().timerId;
-  if (t) clearInterval(t);
-
-  if (!isTournament) {
-    const summary = get().getSummary();
-
-    // Sudden Death reward philosophy:
-    // low frequency, high pride
- let bonusXP = 15; // minimum for courage
-
-if (summary.correct >= 5) bonusXP += 25;
-if (summary.correct >= 10) bonusXP += 40;
-if (summary.correct >= 15) bonusXP += 60;
-if (summary.correct >= 20) bonusXP += 80;
-
-
-   set((s) => ({
-  earnedXP: s.earnedXP + bonusXP,
-}));
-
-  }
-
-  set({ gameOver: true, timerId: null });
-  return correct;
-}
-// Sudden Death correct answer → advance
-if (mode === "sudden" && correct) {
-  set({ idx: idx + 1 });
-  return correct;
-}
-
-
-  // ---------------------------------------------------------
-  // CORRECT ANSWER REWARDS
-  // ---------------------------------------------------------
-  if (correct) {
-    if (!isTournament) {
-      achievements.addProgress("combo", 1);
-      achievements.addProgress("category", 1, category);
-    }
-
-    const newStreak = streak + 1;
-    const newCombo = combo + 1;
-
-    set({ streak: newStreak, combo: newCombo });
-    set((st) => ({ score: st.score + 1 }));
-
-    if (!isTournament) {
-   if (newCombo === 5) {
-  set((s) => ({ earnedXP: s.earnedXP + 15 }));
-}
-if (newCombo === 10) {
-  set((s) => ({ earnedXP: s.earnedXP + 40 }));
-}
-
-    }
-
-    let baseXP = 8;
-    if (q.difficulty === "medium") baseXP += 4;
-    if (q.difficulty === "hard") baseXP += 8;
-   if (mode === "speed") baseXP *= 1.25;
-    if (mode === "timed60") baseXP *= 1.2;
-    if (mode === "timed90") baseXP *= 1.3;
-    if (mode === "sudden") baseXP *= 1.5;
-
-    const coins = Math.floor(2 + newStreak * 0.5);
-    const gems = newCombo === 10 ? 1 : 0;
-
-    if (!isTournament) {
-   set((s) => ({
-  earnedXP: s.earnedXP + Math.floor(baseXP),
-  earnedCoins: s.earnedCoins + coins,
-  earnedGems: s.earnedGems + gems,
-}));
-
-
-    }
-  } else {
-    set({ streak: 0, combo: 0 });
-  }
-
-  // ---------------------------------------------------------
-  // NEXT QUESTION LOGIC
-  // ---------------------------------------------------------
-  const next = idx + 1;
-
- if (get().gameOver && mode !== "classic" && mode !== "daily") return correct;
-
- // Timed modes (TUNED)
-if (mode === "timed60" || mode === "timed90") {
-  if ((get().timeLeft ?? 0) <= 0) {
-    if (!isTournament) {
-      const summary = get().getSummary();
-
- let bonusXP = mode === "timed90" ? 30 : 20;
-let bonusCoins = 0;
-
-if (summary.correct >= 10)
-  bonusXP += mode === "timed90" ? 30 : 20;
-
-if (summary.correct >= 15)
-  bonusXP += mode === "timed90" ? 45 : 30;
-
-if (summary.correct >= 25 && mode === "timed90")
-  bonusXP += 60;
-
-if (summary.accuracy === 100)
-  bonusXP += mode === "timed90" ? 25 : 20;
-
-      // Small coin reward (timed is XP-focused)
-      if (summary.correct >= 10) bonusCoins = 1;
-      if (summary.correct >= 20) bonusCoins = 2;
-
-   set((s) => ({
-  earnedXP: s.earnedXP + bonusXP,
-  earnedCoins: s.earnedCoins + bonusCoins,
-}));
-
-    }
-
-    set({ gameOver: true });
-    return correct;
-  }
-
-  const loopIndex =
-    idx + 1 >= questions.length ? 0 : idx + 1;
-  set({ idx: loopIndex });
-  return correct;
-}
-
-
- // Speed mode end (TUNED)
-if (mode === "speed") {
-  if (next >= questions.length) {
-    const t = get().timerId;
-    if (t) clearInterval(t);
-
-    if (!isTournament) {
-      const summary = get().getSummary();
-
-      // Base finish bonus (always)
-  let bonusXP = 15;
-let bonusCoins = 1;
-
-if (summary.accuracy >= 70) bonusXP += 20;
-if (summary.accuracy === 100) {
-  bonusXP += 45;
-  bonusCoins += 2;
-}
-
-
-     set((s) => ({
-  earnedXP: s.earnedXP + bonusXP,
-  earnedCoins: s.earnedCoins + bonusCoins,
-}));
-
-    }
-
-    set({ gameOver: true, timerId: null });
-    return correct;
-  }
-
-  set({ idx: next });
-  return correct;
-}
-
-
-  // Classic mode
-if ((mode === "classic" || mode === "daily") && next >= questions.length) {
-
-  const t = get().timerId;
-  if (t) clearInterval(t);
-
-  if (!isTournament) {
-    // base completion reward
-    set((s) => ({
-      earnedXP: s.earnedXP + 30,
-      earnedCoins: s.earnedCoins + 3,
-    }));
-
-    // perfect game bonus
-    if (get().getSummary().correct === questions.length) {
-      set((s) => ({
-        earnedXP: s.earnedXP + 25,
-        earnedCoins: s.earnedCoins + 5,
-        earnedGems: s.earnedGems + 1,
-      }));
-    }
-  }
-
-  set({ gameOver: true, timerId: null });
-  return correct;
-}
-
-if (mode === "classic" || mode === "daily") {
-  set({ idx: next });
-  return correct;
-}
-
-},
-
-      // ---------------------------------------------------------
-      // RESET GAME (CLEAN)
-      // ---------------------------------------------------------
-            setDailyResult: (result) =>
-        set({ dailyResult: result }),
 
       resetGame: () => {
-        const t = get().timerId;
-        if (t) clearInterval(t);
+        clearGameTimer(get().timerId);
 
-        // Keep category selection (your original intent)
         const category = get().category;
 
         set({
           started: false,
           gameOver: false,
-                    gameContext: "quick",
-
+          gameContext: "quick",
           mode: null,
           category,
           questions: [],
@@ -672,14 +574,15 @@ if (mode === "classic" || mode === "daily") {
           timerId: null,
           answerHistory: [],
           earnedXP: 0,
-earnedCoins: 0,
-earnedGems: 0,
-
+          earnedCoins: 0,
+          earnedGems: 0,
+          earnedTickets: 0,
+          dailyResult: null,
         });
       },
     }),
     {
-     name: "quickgame-store",
+      name: "quickgame-store",
       storage: createJSONStorage(() => AsyncStorage),
       version: 1,
     }

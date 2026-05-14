@@ -7,6 +7,7 @@ import { usePlayerStore } from "@/store/usePlayerStore";
 
 import ConfettiView from "./ConfettiView";
 import XPProgressBar from "./XPProgressBar";
+import { feedback, playRewardFeedback } from "@/feedback";
 
 export default function ResultModal({ visible, onNext }) {
   const theme = useTheme();
@@ -47,6 +48,18 @@ export default function ResultModal({ visible, onNext }) {
     }
   }, [visible, justLeveledUp]);
 
+
+  useEffect(() => {
+    if (!visible) return;
+
+    playRewardFeedback({
+      xp: earnedXP,
+      coins: earnedCoins,
+      gems: earnedGems,
+      levelUp: justLeveledUp,
+    });
+  }, [visible, earnedXP, earnedCoins, earnedGems, justLeveledUp]);
+
   return (
     <Modal transparent visible={visible} animationType="fade">
       <View style={styles.overlay}>
@@ -85,6 +98,7 @@ export default function ResultModal({ visible, onNext }) {
           <TouchableOpacity
             style={styles.button}
             onPress={() => {
+              feedback.tap();
               useQuickGameStore.getState().resetGame();
               onNext && onNext();
             }}
@@ -156,6 +170,7 @@ const styles = StyleSheet.create({
     fontWeight: "700",
   },
 });
+
 
 
 

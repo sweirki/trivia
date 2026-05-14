@@ -1,0 +1,11 @@
+
+# Keep EAS build uploads small and avoid stale backup trees
+_backup_auth_fix/
+*.zip
+node_modules/
+.git/
+coverage/
+dist/
+build/
+*.log
+.DS_Store

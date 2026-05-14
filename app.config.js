@@ -9,7 +9,9 @@ export default {
   newArchEnabled: true,
 
   android: {
-    package: "com.trivia",
+    package: "com.sweirki.trivia",
+    versionCode: 3,
+    permissions: ["BILLING"],
     adaptiveIcon: {
       foregroundImage: "./assets/images/adaptive-icon.png",
       backgroundColor: "#ffffff",
@@ -20,6 +22,7 @@ export default {
 
   ios: {
     supportsTablet: true,
+    buildNumber: "3",
   },
 
   web: {
@@ -29,7 +32,15 @@ export default {
   },
 
   plugins: ["expo-router"],
+
   experiments: {
     typedRoutes: true,
+  },
+
+  extra: {
+    sentryDsn: process.env.EXPO_PUBLIC_SENTRY_DSN,
+    eas: {
+      projectId: "cbc00658-c6b8-4ddf-b396-378a53ceb701",
+    },
   },
 };

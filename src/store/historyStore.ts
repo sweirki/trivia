@@ -8,10 +8,16 @@ import { persist, createJSONStorage } from "zustand/middleware";
 // -----------------------------------------------------
 // TYPES
 // -----------------------------------------------------
-type HistoryEntry = {
+export type HistoryEntry = {
   mode: string;
   category?: string;
   score?: number;
+  totalQuestions?: number;
+  correctCount?: number;
+  accuracy?: number;
+  won?: boolean;
+  xp?: number;
+  coins?: number;
   date: number;
 };
 
@@ -40,7 +46,7 @@ export const useHistoryStore = create<HistoryState>()(
         };
 
         set((state) => ({
-          history: [...state.history, safeEntry],
+          history: [...state.history, safeEntry].slice(-50),
         }));
       },
 
@@ -56,4 +62,5 @@ export const useHistoryStore = create<HistoryState>()(
     }
   )
 );
+
 

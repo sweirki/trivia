@@ -4,3 +4,4 @@ export const DAILY_GAMEPLAY_CONFIG = {
   PERFECT_ACCURACY: 1,
 };
 
+

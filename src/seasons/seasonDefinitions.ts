@@ -70,3 +70,4 @@ export function badgeIdForTier(tier: number): string | null {
   return CURRENT_SEASON.tiers[tier - 1]?.badgeId ?? null;
 }
 
+

@@ -4,15 +4,16 @@ import {
   Text,
   TouchableOpacity,
   StyleSheet,
-  Alert,
 } from "react-native";
 
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { useArenaEconomyStore } from "@/arena/store/useArenaEconomyStore";
 import { useArenaShopStore } from "@/arena/store/useArenaShopStore";
 import { s } from "@/arena/theme/arenaSizing";
+import { useThemedAlert } from "@/components/ThemedAlert";
 
 export default function ArenaShop() {
+  const { showThemedAlert, themedAlert } = useThemedAlert();
   const coins = usePlayerStore((s) => s.coins);
   const arenaTokens = useArenaEconomyStore((s) => s.arenaTokens);
   const powerCharges = useArenaEconomyStore((s) => s.powerCharges);
@@ -24,13 +25,14 @@ export default function ArenaShop() {
   const handleBuy = (action: () => boolean, failMsg: string) => {
     const success = action();
     if (!success) {
-      Alert.alert("Purchase Failed", failMsg);
+      showThemedAlert("Purchase failed", failMsg, "danger");
     } else {
-      Alert.alert("Success", "Purchase completed!");
+      showThemedAlert("Purchase complete", "Your arena item has been added.", "success");
     }
   };
 
   return (
+    <>
     <View style={styles.container}>
       <Text style={styles.title}>Arena Shop</Text>
 
@@ -69,6 +71,8 @@ export default function ArenaShop() {
         }
       />
     </View>
+    {themedAlert}
+    </>
   );
 }
 
@@ -99,7 +103,7 @@ function ShopButton({
       style={[styles.item, disabled && styles.disabled]}
       disabled={disabled}
       onPress={onPress}
-    >
+     activeOpacity={0.72}>
       <Text style={styles.itemTitle}>{title}</Text>
       <Text style={styles.itemPrice}>{price}</Text>
     </TouchableOpacity>
@@ -169,4 +173,5 @@ const styles = StyleSheet.create({
     opacity: 0.4,
   },
 });
+
 

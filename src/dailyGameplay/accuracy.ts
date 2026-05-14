@@ -6,3 +6,4 @@ export function calculateAccuracy(
   return correctCount / totalQuestions;
 }
 
+

@@ -3,32 +3,46 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
-      "@app/*": ["app/*"],
-      "@assets/*": ["assets/*"],
-      "@components/*": ["components/*"],
-      "@hooks/*": ["hooks/*"],
-      "@constants/*": ["constants/*"],
-      "@services/*": ["services/*"]
+      "@/*": [
+        "src/*"
+      ],
+      "@app/*": [
+        "app/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@constants/*": [
+        "constants/*"
+      ],
+      "@services/*": [
+        "services/*"
+      ]
     },
-    "types": ["expo-router"]
+    "types": [
+      "expo-router",
+      "jest",
+      "node"
+    ]
   },
- "include": [
-  "app/**/*.ts",
-  "app/**/*.tsx",
-
-  "src/**/*.ts",
-  "src/**/*.tsx",
-
-  "index.ts",
-  "index.tsx",
-  "App.tsx",
-  ".expo/types/**/*.ts",
-  "expo-env.d.ts"
-],
-
- "exclude": [
-  "app/debug.tsx"
-]
-
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "index.ts",
+    "index.tsx",
+    "App.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ],
+  "exclude": [
+    "app/debug.tsx"
+  ]
 }

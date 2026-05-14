@@ -34,7 +34,7 @@ export default function CreateTournament() {
     <View style={styles.container}>
       <Text style={styles.title}>Create Tournament</Text>
 
-      <TouchableOpacity style={styles.btn} onPress={handleCreate}>
+      <TouchableOpacity style={styles.btn} onPress={handleCreate} activeOpacity={0.72}>
         <Text style={styles.btnText}>Start Lobby</Text>
       </TouchableOpacity>
     </View>
@@ -51,4 +51,5 @@ const styles = StyleSheet.create({
   },
   btnText: { color: "#fff", textAlign: "center" },
 });
+
 

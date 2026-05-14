@@ -118,7 +118,7 @@ return;
         </View>
 
         {/* Leave */}
-        <TouchableOpacity style={styles.leaveBtn} onPress={handleLeave}>
+        <TouchableOpacity style={styles.leaveBtn} onPress={handleLeave} activeOpacity={0.72}>
           <Text style={styles.leaveText}>Leave Tournament</Text>
         </TouchableOpacity>
       </>
@@ -216,4 +216,5 @@ const styles = StyleSheet.create({
     fontSize: s(20),
   },
 });
+
 

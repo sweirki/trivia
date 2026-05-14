@@ -1,3 +1,6 @@
+
+// app/(app)/play/(screens)/categorySelect.tsx
+
 import React from "react";
 import {
   View,
@@ -5,208 +8,383 @@ import {
   StyleSheet,
   Pressable,
   ScrollView,
+  Image,
+  ImageBackground,
 } from "react-native";
+
 import { useRouter } from "expo-router";
-import { CATEGORIES } from "@/data/categories";
-import { usePlayerStore } from "@/store/usePlayerStore";
+import { PLAYABLE_CATEGORIES, CATEGORIES } from "@/data/categories";
+
+const BG = require("../../../../assets/images/play/game/game_bg.webp");
 
 export default function CategorySelect() {
- const CATEGORIES = [
-  { key: "geography", label: "Geography", icon: "🌍", premium: false },
-  { key: "science", label: "Science", icon: "🧪", premium: false },
-  { key: "history", label: "History", icon: "📜", premium: false },
-  { key: "movies", label: "Movies", icon: "🎬", premium: false },
-  { key: "music", label: "Music", icon: "🎵", premium: false },
-  { key: "literature", label: "Literature", icon: "📖", premium: false },
-  { key: "sports", label: "Sports", icon: "🏆", premium: false },
-  { key: "general", label: "General Knowledge", icon: "❓", premium: false },
-  { key: "logic", label: "Logic", icon: "♟️", premium: false },
-  { key: "technology", label: "Technology", icon: "💻", premium: false },
-  { key: "gaming", label: "Gaming", icon: "🎮", premium: false },
-
-  // PREMIUM
-  { key: "anime", label: "Anime", icon: "🌸", premium: true },
-  { key: "celebrities", label: "Celebrities", icon: "⭐", premium: true },
-  { key: "food", label: "Food", icon: "🍔", premium: true },
-  { key: "space", label: "Space", icon: "🪐", premium: true },
-  { key: "mythology", label: "Mythology", icon: "⚡", premium: true },
-  { key: "animals", label: "Animals", icon: "🐾", premium: true },
-];
-
-
-
-
   const router = useRouter();
-  const owned = usePlayerStore((s) => s.ownedPacks);
 
-  const free = CATEGORIES.filter((c) => !c.premium);
-  const premium = CATEGORIES.filter((c) => c.premium);
-
- const renderCard = (c: any, locked: boolean) => (
-  <Pressable
-    key={c.key}
-    disabled={locked}
-    onPress={() =>
-      router.push(`/play/quick?category=${c.key}`)
-    }
-    style={({ pressed }) => [
-      styles.card,
-      locked && styles.cardLocked,
-      pressed && !locked && { transform: [{ scale: 0.97 }] },
-    ]}
-  >
-    <View style={styles.iconWrap}>
-      <Text style={[styles.icon, locked && styles.iconLocked]}>
-        {c.icon}
-      </Text>
-    </View>
-
-    {/* NAME — THIS WAS MISSING */}
-    <Text
-      style={[
-        styles.cardTitle,
-        locked && styles.textMuted,
-      ]}
-      numberOfLines={2}
-  
-    >
-      {c.label}
-    </Text>
-
-    {locked && <Text style={styles.lock}>🔒</Text>}
-  </Pressable>
-);
-
+  const comingSoonCount = CATEGORIES.filter(
+    (c) => !c.hasQuestions
+  ).length;
 
   return (
-    <ScrollView
+    <ImageBackground
+      source={BG}
       style={styles.root}
-      contentContainerStyle={styles.container}
-      showsVerticalScrollIndicator={false}
+      resizeMode="cover"
     >
-      <Text style={styles.title}>Choose Category</Text>
+      <View style={styles.overlay} />
 
-      {/* FREE */}
-    <View style={styles.grid}>
-  {free.map(c => renderCard(c, false))}
-</View>
+      <ScrollView
+        contentContainerStyle={styles.container}
+        showsVerticalScrollIndicator={false}
+      >
+        <View style={styles.hero}>
+          <Text style={styles.eyebrow}>TRIVIAWORLD</Text>
 
-<Text style={styles.section}>Premium Categories</Text>
-<Text style={styles.sectionSub}>Unlock with VIP or Coins</Text>
+          <Text style={styles.title}>
+            Choose Your{"\n"}Category
+          </Text>
 
-<View style={styles.grid}>
-  {premium.map(c =>
-    renderCard(c, !owned.includes(c.key))
-  )}
-</View>
+          <Text style={styles.subtitle}>
+            Pick a trivia world and start your next challenge.
+          </Text>
+        </View>
 
+        <Pressable
+          style={({ pressed }) => [
+            styles.featuredCard,
+            pressed && styles.cardPressed,
+          ]}
+          onPress={() => router.push("/play/quick?category=random")}
+        >
+          <View style={styles.featuredGlow} />
 
-      <View style={{ height: 40 }} />
-    </ScrollView>
+          <View style={styles.featuredContent}>
+            <Text style={styles.featuredLabel}>
+              QUICK START
+            </Text>
+
+            <Text style={styles.featuredTitle}>
+              Random Mix
+            </Text>
+
+            <Text style={styles.featuredText}>
+              Instant random category challenge
+            </Text>
+          </View>
+
+          <Text style={styles.featuredArrow}>›</Text>
+        </Pressable>
+
+        <View style={styles.grid}>
+          {PLAYABLE_CATEGORIES.map((category) => (
+            <Pressable
+              key={category.id}
+              onPress={() =>
+                router.push(
+                  `/play/quick?category=${category.id}`
+                )
+              }
+              style={({ pressed }) => [
+                styles.card,
+                {
+                  borderColor: category.color,
+                },
+                pressed && styles.tilePressed,
+              ]}
+            >
+              <View
+                style={[
+                  styles.cardGlow,
+                  {
+                    shadowColor: category.color,
+                  },
+                ]}
+              />
+
+              <View style={styles.iconWrap}>
+                {category.icon ? (
+                  <Image
+                    source={category.icon}
+                    style={styles.iconImage}
+                    resizeMode="contain"
+                  />
+                ) : (
+                  <Text style={styles.fallbackIcon}>
+                    ★
+                  </Text>
+                )}
+              </View>
+
+              <Text
+                style={styles.cardTitle}
+                numberOfLines={1}
+                adjustsFontSizeToFit
+                minimumFontScale={0.72}
+              >
+                {category.label}
+              </Text>
+            </Pressable>
+          ))}
+        </View>
+
+        {comingSoonCount > 0 && (
+          <View style={styles.notice}>
+            <Text style={styles.noticeTitle}>
+              More Worlds Incoming
+            </Text>
+
+            <Text style={styles.noticeText}>
+              {comingSoonCount} future categories are hidden
+              until their question packs are completed.
+            </Text>
+          </View>
+        )}
+
+        <View style={styles.bottomSpacer} />
+      </ScrollView>
+    </ImageBackground>
   );
 }
-
-/* -------------------------------------------------------------------------- */
-/*                                    STYLE                                   */
-/* -------------------------------------------------------------------------- */
 
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor: "#0B1220",
+    backgroundColor: "#050816",
   },
+
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(0,0,0,0.58)",
+  },
+
   container: {
-    padding: 20,
+    paddingTop: 18,
+    paddingHorizontal: 14,
+    paddingBottom: 70,
+  },
+
+  hero: {
+    marginBottom: 8,
+  },
+
+  eyebrow: {
+    color: "#F5C451",
+    fontSize: 11,
+    fontWeight: "900",
+    letterSpacing: 1.2,
+    marginBottom: 6,
   },
 
   title: {
-    fontSize: 26,
-    fontWeight: "800",
-    color: "#FFD166",
-    marginBottom: 20,
+    fontSize: 28,
+    lineHeight: 30,
+    fontWeight: "900",
+    color: "#FFFFFF",
+    letterSpacing: -0.8,
+    marginBottom: 6,
   },
 
-  section: {
-    marginTop: 30,
-    fontSize: 18,
+  subtitle: {
+    color: "#B8C3E6",
+    fontSize: 14,
+    lineHeight: 20,
     fontWeight: "700",
-    color: "#E5E7EB",
+    maxWidth: "92%",
   },
-  sectionSub: {
-    marginTop: 4,
-    marginBottom: 16,
-    color: "#9CA3AF",
-    fontSize: 13,
+
+  featuredCard: {
+    minHeight: 64,
+    borderRadius: 18,
+    padding: 11,
+
+    marginBottom: 12,
+
+    overflow: "hidden",
+
+    backgroundColor: "rgba(13,20,42,0.94)",
+
+    borderWidth: 1.2,
+    borderColor: "rgba(245,196,81,0.28)",
+
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+
+    shadowColor: "#F5C451",
+    shadowOpacity: 0.10,
+    shadowRadius: 10,
+    shadowOffset: { width: 0, height: 5 },
+
+    elevation: 5,
+  },
+
+  featuredGlow: {
+    position: "absolute",
+    right: -18,
+    top: -14,
+
+    width: 84,
+    height: 84,
+    borderRadius: 42,
+
+    backgroundColor: "rgba(86,166,255,0.08)",
+  },
+
+  featuredContent: {
+    flex: 1,
+  },
+
+  featuredLabel: {
+    color: "#F5C451",
+    fontSize: 10,
+    fontWeight: "900",
+    letterSpacing: 0.9,
+    marginBottom: 4,
+  },
+
+  featuredTitle: {
+    color: "#FFFFFF",
+    fontSize: 21,
+    fontWeight: "900",
+    marginBottom: 2,
+  },
+
+  featuredText: {
+    color: "#AAB8E8",
+    fontSize: 12,
+    fontWeight: "700",
+  },
+
+  featuredArrow: {
+    color: "#F5C451",
+    fontSize: 30,
+    fontWeight: "700",
+    marginLeft: 10,
   },
 
   grid: {
     flexDirection: "row",
     flexWrap: "wrap",
-    gap: 14,
+    justifyContent: "space-between",
+    rowGap: 10,
   },
 
-card: {
-  width: "30%",
-  aspectRatio: 1,
-  backgroundColor: "#121A2F",
-  borderRadius: 18,
-  paddingVertical: 14,
-  paddingHorizontal: 8,
-  alignItems: "center",
-  justifyContent: "center",
-  borderWidth: 1,
-borderColor: "rgba(234, 179, 8, 0.35)", // soft gold
+  card: {
+    width: "23%",
+    height: 92,
 
-  shadowColor: "#000",
-  shadowOpacity: 0.25,
-  shadowRadius: 10,
-  elevation: 4,
-},
+    borderRadius: 18,
 
-  cardLocked: {
-    backgroundColor: "#0F1628",
-    opacity: 0.55,
+    paddingHorizontal: 6,
+    paddingVertical: 9,
+
+    overflow: "hidden",
+
+    backgroundColor: "rgba(13,20,42,0.94)",
+
+    borderWidth: 1.2,
+
+    alignItems: "center",
+    justifyContent: "center",
+
+    shadowColor: "#000",
+    shadowOpacity: 0.18,
+    shadowRadius: 7,
+    shadowOffset: { width: 0, height: 4 },
+
+    elevation: 4,
   },
 
- iconWrap: {
-  width: 46,
-  height: 46,
-  borderRadius: 23,
-  backgroundColor: "#1E293B",
-  alignItems: "center",
-  justifyContent: "center",
-  marginBottom: 8,
-},
+  tilePressed: {
+    transform: [{ scale: 0.96 }],
+    opacity: 0.9,
+  },
 
+  cardPressed: {
+    transform: [{ scale: 0.985 }],
+    opacity: 0.92,
+  },
 
-  icon: {
-    color: "#FFD166",
-    fontSize: 20,
+  cardGlow: {
+    position: "absolute",
+    top: -22,
+    right: -22,
+
+    width: 58,
+    height: 58,
+
+    borderRadius: 29,
+
+    backgroundColor: "rgba(86,166,255,0.05)",
+
+    shadowOpacity: 0.28,
+    shadowRadius: 10,
+    shadowOffset: { width: 0, height: 0 },
+  },
+
+  iconWrap: {
+    width: 68,
+    height: 68,
+
+    borderRadius: 22,
+
+    backgroundColor: "rgba(20,31,58,0.96)",
+
+    alignItems: "center",
+    justifyContent: "center",
+
+    marginBottom: 6,
+
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.06)",
+  },
+
+  iconImage: {
+    width: 58,
+    height: 58,
+  },
+
+  fallbackIcon: {
+    color: "#F5C451",
+    fontSize: 28,
+    fontWeight: "900",
+  },
+
+  cardTitle: {
+    color: "#FFFFFF",
+    fontSize: 11,
+    lineHeight: 13,
+    fontWeight: "900",
+    textAlign: "center",
+  },
+
+  notice: {
+    marginTop: 14,
+
+    borderRadius: 18,
+
+    padding: 12,
+
+    backgroundColor: "rgba(13,20,42,0.94)",
+
+    borderWidth: 1,
+    borderColor: "rgba(245,196,81,0.22)",
+  },
+
+  noticeTitle: {
+    color: "#F5C451",
+    fontWeight: "900",
+    fontSize: 15,
+    marginBottom: 4,
+  },
+
+  noticeText: {
+    color: "#AAB8E8",
+    fontSize: 13,
+    lineHeight: 18,
     fontWeight: "700",
   },
 
-  iconLocked: {
-    color: "#6B7280",
+  bottomSpacer: {
+    height: 20,
   },
-
- cardTitle: {
-  fontSize: 13,
-  fontWeight: "700",
-  color: "#E5E7EB",
-  textAlign: "center",
-  lineHeight: 16,
-},
-
-  textMuted: {
-    color: "#9CA3AF",
-  },
-
- lock: {
-  position: "absolute",
-  top: 8,
-  right: 8,
-  fontSize: 13,
-},
-
 });
-
