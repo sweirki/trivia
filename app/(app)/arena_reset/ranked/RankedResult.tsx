@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
   Animated,
+  ImageBackground,
   ScrollView,
   StyleSheet,
   Text,
@@ -29,6 +30,9 @@ type CompetitiveResult = {
   questionsAnswered: number;
   durationSec: number;
 };
+
+const RANKED_VICTORY_HERO = require("../../../../assets/images/arena/ranked/ranked_victory_hero.webp");
+const RANKED_DEFEAT_HERO = require("../../../../assets/images/arena/ranked/ranked_defeat_hero.webp");
 
 const reportCompetitiveResult = (_result: CompetitiveResult) => {};
 
@@ -206,10 +210,18 @@ export default function RankedResult() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
       <Animated.View style={{ transform: [{ scale: heroPulse }] }}>
-        <LinearGradient
-          colors={didWin ? ["#44350E", "#11111B"] : ["#3A1D22", "#11111B"]}
+        <ImageBackground
+          source={didWin || isDraw ? RANKED_VICTORY_HERO : RANKED_DEFEAT_HERO}
+          resizeMode="cover"
+          imageStyle={styles.heroImage}
           style={styles.hero}
         >
+          <LinearGradient
+            pointerEvents="none"
+            colors={didWin || isDraw ? ["rgba(3,8,18,0.08)", "rgba(3,8,18,0.54)", "rgba(3,8,18,0.90)"] : ["rgba(32,6,12,0.12)", "rgba(3,8,18,0.62)", "rgba(3,8,18,0.92)"]}
+            locations={[0, 0.48, 1]}
+            style={StyleSheet.absoluteFillObject}
+          />
           <Text style={styles.eyebrow}>RANKED CEREMONY</Text>
           <Text style={styles.ceremonyIcon}>{ceremonyIcon}</Text>
           <Text style={styles.resultTitle}>{resultTitle}</Text>
@@ -223,7 +235,7 @@ export default function RankedResult() {
             {prestige.dangerZone && <Text style={styles.redBadge}>DANGER ZONE</Text>}
             {streakAfter >= 2 && <Text style={styles.greenBadge}>{streakAfter} STREAK</Text>}
           </View>
-        </LinearGradient>
+        </ImageBackground>
       </Animated.View>
 
       <View style={styles.scoreBox}>
@@ -336,7 +348,7 @@ export default function RankedResult() {
       </View>
 
       <TouchableOpacity
-        style={[styles.continueBtn, { backgroundColor: didWin ? "#F7C948" : "#FF5D5D" }]}
+        style={[styles.continueBtn, didWin || isDraw ? styles.continueWin : styles.continueLoss]}
         onPress={handleContinue}
         activeOpacity={0.9}
       >
@@ -349,7 +361,7 @@ export default function RankedResult() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#090912",
+    backgroundColor: "#071226",
   },
   content: {
     paddingTop: 42,
@@ -357,12 +369,17 @@ const styles = StyleSheet.create({
     paddingBottom: 190,
   },
   hero: {
-    borderRadius: 18,
-    padding: 13,
+    minHeight: 178,
+    borderRadius: 20,
+    padding: 15,
+    overflow: "hidden",
     marginBottom: 10,
     borderWidth: 1,
     borderColor: "rgba(247,201,72,0.28)",
     alignItems: "center",
+  },
+  heroImage: {
+    borderRadius: 20,
   },
   eyebrow: {
     color: "#F7C948",
@@ -423,7 +440,7 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
   scoreBox: {
-    backgroundColor: "#151521",
+    backgroundColor: "rgba(10,24,48,0.92)",
     borderRadius: 16,
     padding: 11,
     marginBottom: 8,
@@ -463,7 +480,7 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
   rewardPanel: {
-    backgroundColor: "#171423",
+    backgroundColor: "rgba(14,25,48,0.96)",
     borderRadius: 16,
     padding: 11,
     marginBottom: 8,
@@ -471,7 +488,7 @@ const styles = StyleSheet.create({
     borderColor: "rgba(247,201,72,0.22)",
   },
   panel: {
-    backgroundColor: "#151521",
+    backgroundColor: "rgba(10,24,48,0.92)",
     borderRadius: 16,
     padding: 11,
     marginBottom: 8,
@@ -479,7 +496,7 @@ const styles = StyleSheet.create({
     borderColor: "rgba(255,255,255,0.06)",
   },
   panelDark: {
-    backgroundColor: "#101018",
+    backgroundColor: "rgba(8,18,35,0.96)",
     borderRadius: 16,
     padding: 11,
     marginBottom: 8,
@@ -487,12 +504,12 @@ const styles = StyleSheet.create({
     borderColor: "rgba(247,201,72,0.18)",
   },
   dopaminePanel: {
-    backgroundColor: "#111827",
+    backgroundColor: "rgba(10,24,48,0.96)",
     borderRadius: 16,
     padding: 11,
     marginBottom: 10,
     borderWidth: 1,
-    borderColor: "#26344f",
+    borderColor: "rgba(143,230,255,0.18)",
   },
   dopamineTitle: {
     color: "#BBD7FF",
@@ -582,12 +599,22 @@ const styles = StyleSheet.create({
     marginTop: 5,
   },
   continueBtn: {
-    paddingVertical: 11,
+    paddingVertical: 12,
     borderRadius: 13,
     alignItems: "center",
   },
+  continueWin: {
+    backgroundColor: "#10233D",
+    borderWidth: 1,
+    borderColor: "#D6A84F",
+  },
+  continueLoss: {
+    backgroundColor: "#2A1320",
+    borderWidth: 1,
+    borderColor: "#FF5D5D",
+  },
   continueText: {
-    color: "#181300",
+    color: "#F7D37A",
     fontSize: 14,
     fontWeight: "900",
   },

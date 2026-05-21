@@ -15,7 +15,7 @@ import {
 import { useRouter } from "expo-router";
 import { PLAYABLE_CATEGORIES, CATEGORIES } from "@/data/categories";
 
-const BG = require("../../../../assets/images/play/game/game_bg.webp");
+const BG = require("../../../../assets/premium/atmospheres/premium_section_bg.webp");
 
 export default function CategorySelect() {
   const router = useRouter();
@@ -86,7 +86,7 @@ export default function CategorySelect() {
               style={({ pressed }) => [
                 styles.card,
                 {
-                  borderColor: category.color,
+                  shadowColor: category.color,
                 },
                 pressed && styles.tilePressed,
               ]}
@@ -153,30 +153,30 @@ const styles = StyleSheet.create({
 
   overlay: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: "rgba(0,0,0,0.58)",
+    backgroundColor: "rgba(0,0,0,0.62)",
   },
 
   container: {
-    paddingTop: 18,
-    paddingHorizontal: 14,
-    paddingBottom: 70,
+    paddingTop: 48,
+    paddingHorizontal: 16,
+    paddingBottom: 112,
   },
 
   hero: {
-    marginBottom: 8,
+    marginBottom: 18,
   },
 
   eyebrow: {
-    color: "#F5C451",
-    fontSize: 11,
+    color: "#D6A93A",
+    fontSize: 12,
     fontWeight: "900",
-    letterSpacing: 1.2,
-    marginBottom: 6,
+    letterSpacing: 1.6,
+    marginBottom: 5,
   },
 
   title: {
     fontSize: 28,
-    lineHeight: 30,
+    lineHeight: 33,
     fontWeight: "900",
     color: "#FFFFFF",
     letterSpacing: -0.8,
@@ -192,24 +192,24 @@ const styles = StyleSheet.create({
   },
 
   featuredCard: {
-    minHeight: 64,
-    borderRadius: 18,
-    padding: 11,
+    minHeight: 88,
+    borderRadius: 20,
+    padding: 16,
 
-    marginBottom: 12,
+    marginBottom: 18,
 
     overflow: "hidden",
 
-    backgroundColor: "rgba(13,20,42,0.94)",
+    backgroundColor: "rgba(8,17,34,0.86)",
 
-    borderWidth: 1.2,
-    borderColor: "rgba(245,196,81,0.28)",
+    borderWidth: 1,
+    borderColor: "rgba(214,169,58,0.24)",
 
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
 
-    shadowColor: "#F5C451",
+    shadowColor: "#D6A93A",
     shadowOpacity: 0.10,
     shadowRadius: 10,
     shadowOffset: { width: 0, height: 5 },
@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
   },
 
   featuredLabel: {
-    color: "#F5C451",
+    color: "#D6A93A",
     fontSize: 10,
     fontWeight: "900",
     letterSpacing: 0.9,
@@ -243,7 +243,7 @@ const styles = StyleSheet.create({
 
   featuredTitle: {
     color: "#FFFFFF",
-    fontSize: 21,
+    fontSize: 24,
     fontWeight: "900",
     marginBottom: 2,
   },
@@ -255,7 +255,7 @@ const styles = StyleSheet.create({
   },
 
   featuredArrow: {
-    color: "#F5C451",
+    color: "#D6A93A",
     fontSize: 30,
     fontWeight: "700",
     marginLeft: 10,
@@ -269,17 +269,17 @@ const styles = StyleSheet.create({
   },
 
   card: {
-    width: "23%",
-    height: 92,
+    width: "31%",
+    height: 108,
 
-    borderRadius: 18,
+    borderRadius: 20,
 
     paddingHorizontal: 6,
-    paddingVertical: 9,
+    paddingVertical: 8,
 
     overflow: "hidden",
 
-    backgroundColor: "rgba(13,20,42,0.94)",
+    backgroundColor: "rgba(10,18,36,0.92)",
 
     borderWidth: 1.2,
 
@@ -287,8 +287,8 @@ const styles = StyleSheet.create({
     justifyContent: "center",
 
     shadowColor: "#000",
-    shadowOpacity: 0.18,
-    shadowRadius: 7,
+    shadowOpacity: 0.14,
+    shadowRadius: 9,
     shadowOffset: { width: 0, height: 4 },
 
     elevation: 4,
@@ -309,8 +309,8 @@ const styles = StyleSheet.create({
     top: -22,
     right: -22,
 
-    width: 58,
-    height: 58,
+    width: 44,
+    height: 44,
 
     borderRadius: 29,
 
@@ -322,12 +322,12 @@ const styles = StyleSheet.create({
   },
 
   iconWrap: {
-    width: 68,
-    height: 68,
+    width: 70,
+    height: 70,
 
     borderRadius: 22,
 
-    backgroundColor: "rgba(20,31,58,0.96)",
+    backgroundColor: "rgba(18,28,52,0.22)",
 
     alignItems: "center",
     justifyContent: "center",
@@ -335,22 +335,22 @@ const styles = StyleSheet.create({
     marginBottom: 6,
 
     borderWidth: 1,
-    borderColor: "rgba(255,255,255,0.06)",
+    borderColor: "rgba(143,183,217,0.025)",
   },
 
   iconImage: {
-    width: 58,
-    height: 58,
+    width: 68,
+    height: 68,
   },
 
   fallbackIcon: {
-    color: "#F5C451",
-    fontSize: 28,
+    color: "#D6A93A",
+    fontSize: 36,
     fontWeight: "900",
   },
 
   cardTitle: {
-    color: "#FFFFFF",
+    color: "#EAF3FF",
     fontSize: 11,
     lineHeight: 13,
     fontWeight: "900",
@@ -358,20 +358,20 @@ const styles = StyleSheet.create({
   },
 
   notice: {
-    marginTop: 14,
+    marginTop: 18,
 
-    borderRadius: 18,
+    borderRadius: 20,
 
-    padding: 12,
+    padding: 14,
 
-    backgroundColor: "rgba(13,20,42,0.94)",
+    backgroundColor: "rgba(10,18,36,0.92)",
 
     borderWidth: 1,
-    borderColor: "rgba(245,196,81,0.22)",
+    borderColor: "rgba(214,169,58,0.20)",
   },
 
   noticeTitle: {
-    color: "#F5C451",
+    color: "#D6A93A",
     fontWeight: "900",
     fontSize: 15,
     marginBottom: 4,
@@ -385,6 +385,6 @@ const styles = StyleSheet.create({
   },
 
   bottomSpacer: {
-    height: 20,
+    height: 42,
   },
 });

@@ -1,5 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  ImageBackground,
+} from "react-native";
+
+const tournamentLobbyHero = require("../../../../assets/images/arena/tournaments/tournament_lobby_hero.webp");
+
 import { router } from "expo-router";
 import { s } from "@/arena/theme/arenaSizing";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
@@ -86,7 +95,8 @@ return;
   // RENDER
   // --------------------------------------------------
   return (
-  <View style={styles.container}>
+  <ImageBackground source={tournamentLobbyHero} imageStyle={styles.bgImage} style={styles.container}>
+    <View style={styles.bgShade} />
     {!tournament ? (
       <Text style={styles.error}>Tournament not found.</Text>
     ) : (
@@ -123,7 +133,7 @@ return;
         </TouchableOpacity>
       </>
     )}
-  </View>
+  </ImageBackground>
 );
 
 }
@@ -134,14 +144,22 @@ return;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#0e0e14",
-    paddingTop: s(60),
-    paddingHorizontal: s(20),
+    backgroundColor: "#050716",
+    paddingTop: s(72),
+    paddingHorizontal: s(18),
     alignItems: "center",
   },
 
+  bgImage: {
+    opacity: 1,
+  },
+  bgShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(5, 8, 20, 0.64)",
+  },
+
   title: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(30),
     fontWeight: "800",
   },
@@ -162,14 +180,14 @@ const styles = StyleSheet.create({
   },
   countdownLabel: { color: "#aaa", fontSize: s(14) },
   countdownValue: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(28),
     fontWeight: "700",
     marginTop: s(6),
   },
 
   playersBox: {
-    backgroundColor: "#151521",
+    backgroundColor: "#121724",
     width: "85%",
     padding: s(20),
     borderRadius: s(14),
@@ -178,14 +196,14 @@ const styles = StyleSheet.create({
   },
   playersLabel: { color: "#aaa", fontSize: s(14) },
   playersValue: {
-    color: "#4FC3F7",
+    color: "#6EC7F2",
     fontSize: s(26),
     marginTop: s(6),
     fontWeight: "700",
   },
 
   prizeBox: {
-    backgroundColor: "#151521",
+    backgroundColor: "#121724",
     width: "85%",
     padding: s(20),
     borderRadius: s(14),
@@ -194,14 +212,14 @@ const styles = StyleSheet.create({
   },
   prizeLabel: { color: "#aaa", fontSize: s(14) },
   prizeValue: {
-    color: "#E53935",
+    color: "#B34D4D",
     fontSize: s(26),
     marginTop: s(6),
     fontWeight: "700",
   },
 
   leaveBtn: {
-    backgroundColor: "#E53935",
+    backgroundColor: "#B34D4D",
     paddingVertical: s(16),
     paddingHorizontal: s(40),
     borderRadius: s(14),

@@ -5,7 +5,12 @@ import {
   Text,
   TouchableOpacity,
   View,
+  ImageBackground,
 } from "react-native";
+
+const tournamentResultHero = require("../../../../assets/images/arena/tournaments/tournament_result_hero.webp");
+const tournamentPrestigePanel = require("../../../../assets/images/arena/tournaments/tournament_prestige_panel.webp");
+
 import { LinearGradient } from "expo-linear-gradient";
 import { useRouter } from "expo-router";
 import { feedback } from "@/feedback";
@@ -161,10 +166,12 @@ export default function TournamentMatchResult() {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      <LinearGradient
-        colors={didWin ? ["#32260C", "#15101F", "#070713"] : ["#351821", "#15101F", "#070713"]}
+      <ImageBackground
+        source={tournamentResultHero}
+        imageStyle={styles.heroImage}
         style={styles.hero}
       >
+        <View style={styles.heroShade} />
         <View style={styles.heroTopRow}>
           <Text style={styles.eyebrow}>LIVE TOURNAMENT</Text>
           <Text style={styles.roundPill}>{round.label}</Text>
@@ -182,7 +189,7 @@ export default function TournamentMatchResult() {
               : "You survived the pressure round. The bracket opens and the next stage is waiting."
             : "Your run ends here, but the event record is saved. Re-enter the next cup stronger."}
         </Text>
-      </LinearGradient>
+      </ImageBackground>
 
       {showScore && (
         <View style={styles.scoreBox}>
@@ -247,7 +254,8 @@ export default function TournamentMatchResult() {
       )}
 
       {showRewards && (
-        <View style={styles.rewardPanel}>
+        <ImageBackground source={tournamentPrestigePanel} imageStyle={styles.rewardImage} style={styles.rewardPanel}>
+          <View style={styles.rewardShade} />
           <View style={styles.rewardArtSlot}>
             <Text style={styles.rewardIcon}>{didWin ? "🎁" : "⭐"}</Text>
           </View>
@@ -259,7 +267,7 @@ export default function TournamentMatchResult() {
                 : "+ Tournament history • + Comeback target • + Next cup motivation"}
             </Text>
           </View>
-        </View>
+        </ImageBackground>
       )}
 
       {showCTA && (
@@ -279,7 +287,7 @@ export default function TournamentMatchResult() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#070713",
+    backgroundColor: "#050716",
   },
   content: {
     paddingTop: 54,
@@ -290,7 +298,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#070713",
+    backgroundColor: "#050716",
     paddingHorizontal: 24,
   },
   title: {
@@ -305,6 +313,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   hero: {
+    overflow: "hidden",
     borderRadius: 30,
     padding: 22,
     borderWidth: 1,
@@ -312,6 +321,21 @@ const styles = StyleSheet.create({
     marginBottom: 16,
     overflow: "hidden",
   },
+  heroImage: {
+    borderRadius: 28,
+  },
+  heroShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(5, 8, 20, 0.44)",
+  },
+  rewardImage: {
+    borderRadius: 22,
+  },
+  rewardShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(12, 14, 24, 0.52)",
+  },
+
   heroTopRow: {
     flexDirection: "row",
     alignItems: "center",
@@ -319,14 +343,14 @@ const styles = StyleSheet.create({
     marginBottom: 18,
   },
   eyebrow: {
-    color: "#F7C948",
+    color: "#D6A93A",
     fontSize: 11,
     fontWeight: "900",
     letterSpacing: 1.4,
   },
   roundPill: {
-    color: "#070713",
-    backgroundColor: "#F7C948",
+    color: "#050716",
+    backgroundColor: "#D6A93A",
     fontSize: 11,
     fontWeight: "900",
     paddingHorizontal: 10,
@@ -394,7 +418,7 @@ const styles = StyleSheet.create({
     borderColor: "rgba(247,201,72,0.35)",
     alignItems: "center",
     justifyContent: "center",
-    marginBottom: 10,
+    marginBottom: 14,
   },
   avatarSlotRival: {
     width: 54,
@@ -405,7 +429,7 @@ const styles = StyleSheet.create({
     borderColor: "rgba(255,255,255,0.12)",
     alignItems: "center",
     justifyContent: "center",
-    marginBottom: 10,
+    marginBottom: 14,
   },
   avatarText: {
     color: "rgba(255,255,255,0.72)",
@@ -430,7 +454,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 12,
   },
   vs: {
-    color: "#F7C948",
+    color: "#D6A93A",
     fontSize: 13,
     fontWeight: "900",
     marginBottom: 8,
@@ -447,7 +471,7 @@ const styles = StyleSheet.create({
   },
   panel: {
     backgroundColor: "#11111A",
-    borderRadius: 24,
+    borderRadius: 22,
     padding: 18,
     borderWidth: 1,
     borderColor: "rgba(247,201,72,0.14)",
@@ -465,7 +489,7 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
   stepText: {
-    color: "#F7C948",
+    color: "#D6A93A",
     fontSize: 12,
     fontWeight: "900",
   },
@@ -494,7 +518,7 @@ const styles = StyleSheet.create({
     borderColor: "rgba(247,201,72,0.36)",
   },
   pathDotCurrent: {
-    shadowColor: "#F7C948",
+    shadowColor: "#D6A93A",
     shadowOpacity: 0.35,
     shadowRadius: 10,
     elevation: 3,
@@ -510,7 +534,7 @@ const styles = StyleSheet.create({
     fontWeight: "800",
   },
   pathLabelActive: {
-    color: "#F7C948",
+    color: "#D6A93A",
   },
   unlockBox: {
     backgroundColor: "rgba(247,201,72,0.10)",
@@ -538,8 +562,9 @@ const styles = StyleSheet.create({
     lineHeight: 19,
   },
   rewardPanel: {
+    overflow: "hidden",
     backgroundColor: "#151520",
-    borderRadius: 24,
+    borderRadius: 22,
     padding: 16,
     borderWidth: 1,
     borderColor: "rgba(255,255,255,0.08)",
@@ -576,17 +601,19 @@ const styles = StyleSheet.create({
     lineHeight: 19,
   },
   button: {
-    backgroundColor: "#F7C948",
+    backgroundColor: "#D6A93A",
+    borderWidth: 1,
+    borderColor: "rgba(255,231,158,0.42)",
     borderRadius: 20,
     paddingVertical: 16,
     alignItems: "center",
-    shadowColor: "#F7C948",
+    shadowColor: "#D6A93A",
     shadowOpacity: 0.24,
     shadowRadius: 12,
     elevation: 4,
   },
   buttonText: {
-    color: "#070713",
+    color: "#050716",
     fontSize: 17,
     fontWeight: "900",
   },

@@ -1,8 +1,13 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import { ImageBackground, View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { router, useLocalSearchParams } from "expo-router";
 import { useArenaStore } from "@/arena/store/useArenaStore";
 import { feedback } from "@/feedback";
+import { LinearGradient } from "expo-linear-gradient";
+
+const RANKED_VS_BACKGROUND = require("../../../../assets/images/arena/ranked/ranked_vs_background.webp");
+const RIVAL_CARD_ART = require("../../../../assets/images/arena/ranked/rival_card_art.webp");
+const RANKED_MATCH_HEADER = require("../../../../assets/images/arena/ranked/ranked_match_header.webp");
 
 const QUESTION_TIME = 15;
 const INTRO_COUNTDOWN_START = 3;
@@ -148,19 +153,22 @@ export default function RankedMatch() {
   if (introVisible) {
     return (
       <View style={styles.container}>
-        <View style={styles.introCard}>
+        <ImageBackground source={RANKED_VS_BACKGROUND} resizeMode="cover" imageStyle={styles.introImage} style={styles.introCard}>
+          <LinearGradient pointerEvents="none" colors={["rgba(3,8,18,0.12)", "rgba(3,8,18,0.58)", "rgba(3,8,18,0.92)"]} locations={[0,0.48,1]} style={StyleSheet.absoluteFillObject} />
           <Text style={styles.introLabel}>RANKED BATTLE</Text>
           <Text style={styles.introTitle}>VS</Text>
 
           <View style={styles.vsRow}>
             <View style={styles.playerCard}>
-              <Text style={styles.avatar}>🧠</Text>
+              <ImageBackground source={RIVAL_CARD_ART} resizeMode="cover" imageStyle={styles.playerArtImage} style={styles.playerArt} />
+              <Text style={styles.avatar}>YOU</Text>
               <Text style={styles.playerName}>You</Text>
               <Text style={styles.playerSub}>Climb. Protect. Promote.</Text>
             </View>
 
             <View style={styles.playerCard}>
-              <Text style={styles.avatar}>⚔️</Text>
+              <ImageBackground source={RIVAL_CARD_ART} resizeMode="cover" imageStyle={styles.playerArtImage} style={styles.playerArt} />
+              <Text style={styles.avatar}>AI</Text>
               <Text style={styles.playerName}>{rivalName}</Text>
               <Text style={styles.playerSub}>AI Rival</Text>
             </View>
@@ -176,7 +184,7 @@ export default function RankedMatch() {
           <Text style={styles.countdownBig}>
             {introCountdown > 0 ? introCountdown : "GO!"}
           </Text>
-        </View>
+        </ImageBackground>
       </View>
     );
   }
@@ -187,13 +195,14 @@ export default function RankedMatch() {
         <Text style={styles.loadingText}>Loading ranked battle...</Text>
       ) : (
         <>
-          <View style={styles.matchHeader}>
+          <ImageBackground source={RANKED_MATCH_HEADER} resizeMode="cover" imageStyle={styles.matchHeaderImage} style={styles.matchHeader}>
+            <LinearGradient pointerEvents="none" colors={["rgba(3,8,18,0.16)", "rgba(3,8,18,0.72)"]} start={{ x: 1, y: 0 }} end={{ x: 0, y: 1 }} style={StyleSheet.absoluteFillObject} />
             <Text style={styles.matchLabel}>RANKED ARENA</Text>
             <Text style={styles.header}>
               Question {currentQuestionIndex + 1}
             </Text>
             <Text style={styles.rivalText}>Opponent: {rivalName}</Text>
-          </View>
+          </ImageBackground>
 
           <Text style={styles.timer}>⏳ {timeLeft}s</Text>
 
@@ -220,7 +229,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 70,
     paddingHorizontal: 20,
-    backgroundColor: "#050512",
+    backgroundColor: "#071226",
   },
 
   loadingText: {
@@ -232,14 +241,17 @@ const styles = StyleSheet.create({
   },
 
   introCard: {
-    backgroundColor: "#141425",
+    backgroundColor: "#0A1830",
     borderRadius: 24,
     borderWidth: 1,
-    borderColor: "#FFD54F",
+    borderColor: "rgba(247,211,106,0.62)",
     padding: 22,
     alignItems: "center",
   },
 
+  introImage: {
+    borderRadius: 24,
+  },
   introLabel: {
     color: "#FFD54F",
     fontSize: 12,
@@ -264,19 +276,29 @@ const styles = StyleSheet.create({
 
   playerCard: {
     flex: 1,
-    backgroundColor: "#1d1d31",
+    backgroundColor: "rgba(10,24,48,0.86)",
     borderRadius: 18,
     padding: 14,
     alignItems: "center",
     borderWidth: 1,
-    borderColor: "#2e2e4a",
+    borderColor: "rgba(143,230,255,0.22)",
   },
 
   avatar: {
-    fontSize: 34,
+    fontSize: 15,
     marginBottom: 8,
   },
 
+  playerArt: {
+    width: "100%",
+    height: 38,
+    borderRadius: 12,
+    overflow: "hidden",
+    marginBottom: 8,
+  },
+  playerArtImage: {
+    borderRadius: 12,
+  },
   playerName: {
     color: "#fff",
     fontSize: 16,
@@ -293,10 +315,10 @@ const styles = StyleSheet.create({
 
   stakesCard: {
     width: "100%",
-    backgroundColor: "#2A2108",
+    backgroundColor: "rgba(14,25,48,0.88)",
     borderRadius: 16,
     borderWidth: 1,
-    borderColor: "#7A5A00",
+    borderColor: "rgba(247,211,106,0.32)",
     padding: 14,
     marginTop: 4,
   },
@@ -322,14 +344,18 @@ const styles = StyleSheet.create({
   },
 
   matchHeader: {
-    backgroundColor: "#141425",
+    backgroundColor: "#0A1830",
+    overflow: "hidden",
     borderRadius: 20,
     borderWidth: 1,
-    borderColor: "#2e2e4a",
+    borderColor: "rgba(143,230,255,0.22)",
     padding: 16,
     marginBottom: 18,
   },
 
+  matchHeaderImage: {
+    borderRadius: 20,
+  },
   matchLabel: {
     color: "#FFD54F",
     fontSize: 11,
@@ -368,12 +394,12 @@ const styles = StyleSheet.create({
   },
 
   answerButton: {
-    backgroundColor: "#1c1c29",
+    backgroundColor: "rgba(16,35,61,0.94)",
     padding: 15,
     borderRadius: 14,
     marginVertical: 6,
     borderWidth: 1,
-    borderColor: "#2b2b3f",
+    borderColor: "rgba(143,230,255,0.18)",
   },
 
   answerText: {

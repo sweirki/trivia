@@ -1,5 +1,14 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  ImageBackground,
+} from "react-native";
+
+const tournamentMatchBg = require("../../../../assets/images/arena/tournaments/tournament_match_bg.webp");
+
 import { router, useLocalSearchParams } from "expo-router";
 
 import { useArenaStore } from "@/arena/store/useArenaStore";
@@ -142,11 +151,12 @@ useEffect(() => {
   };
 if (!q || !matchInfo) {
   return (
-    <View style={styles.container}>
+    <ImageBackground source={tournamentMatchBg} imageStyle={styles.bgImage} style={styles.container}>
+      <View style={styles.bgShade} />
       <Text style={{ color: "#aaa", textAlign: "center" }}>
         Preparing match…
       </Text>
-    </View>
+    </ImageBackground>
   );
 }
 
@@ -154,7 +164,8 @@ if (!q || !matchInfo) {
   // UI
   // --------------------------------------------
   return (
-    <View style={styles.container}>
+    <ImageBackground source={tournamentMatchBg} imageStyle={styles.bgImage} style={styles.container}>
+      <View style={styles.bgShade} />
       {/* MATCH CONTEXT HEADER */}
       <View style={styles.header}>
         <Text style={styles.round}>{matchInfo.round}</Text>
@@ -183,16 +194,24 @@ if (!q || !matchInfo) {
           <Text style={styles.answerText}>{a}</Text>
         </TouchableOpacity>
       ))}
-    </View>
+    </ImageBackground>
   );
 }
 
 const styles = StyleSheet.create({
+  bgImage: {
+    opacity: 1,
+  },
+  bgShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(5, 7, 22, 0.64)",
+  },
+
   container: {
     flex: 1,
-    paddingTop: s(40),
-    paddingHorizontal: s(20),
-    backgroundColor: "#0e0e14",
+    paddingTop: s(54),
+    paddingHorizontal: s(18),
+    backgroundColor: "#050716",
   },
 
   header: {
@@ -201,7 +220,7 @@ const styles = StyleSheet.create({
   },
 
   round: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(26),
     fontWeight: "900",
   },
@@ -213,7 +232,7 @@ const styles = StyleSheet.create({
   },
 
   vs: {
-    color: "#4FC3F7",
+    color: "#6EC7F2",
     fontSize: s(18),
     textAlign: "center",
     marginBottom: s(12),
@@ -221,7 +240,7 @@ const styles = StyleSheet.create({
   },
 
   timer: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(22),
     textAlign: "center",
     marginBottom: s(20),

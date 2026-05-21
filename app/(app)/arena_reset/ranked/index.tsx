@@ -1,6 +1,7 @@
 import { useState } from "react";
 import {
   ActivityIndicator,
+  ImageBackground,
   ScrollView,
   StyleSheet,
   Text,
@@ -21,6 +22,9 @@ import { s } from "@/arena/theme/arenaSizing";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
 import { useThemedAlert } from "@/components/ThemedAlert";
 import AnimatedProgressBar from "@/components/AnimatedProgressBar";
+
+const RANKED_ENTRY_HERO = require("../../../../assets/images/arena/ranked/ranked_entry_hero.webp");
+const PRESTIGE_PANEL_ART = require("../../../../assets/images/arena/ranked/prestige_panel_art.webp");
 
 export default function RankedArenaEntry() {
   const { rank, sr, winStreak } = useArenaRankSystem();
@@ -73,7 +77,13 @@ export default function RankedArenaEntry() {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      <LinearGradient colors={["#2A1B4A", "#11111A"]} style={styles.heroCard}>
+      <ImageBackground source={RANKED_ENTRY_HERO} resizeMode="cover" imageStyle={styles.heroImage} style={styles.heroCard}>
+        <LinearGradient
+          pointerEvents="none"
+          colors={["rgba(3,8,18,0.08)", "rgba(3,8,18,0.42)", "rgba(3,8,18,0.88)"]}
+          locations={[0, 0.45, 1]}
+          style={StyleSheet.absoluteFillObject}
+        />
         <Text style={styles.eyebrow}>RANKED ARENA</Text>
         <Text style={styles.heroTitle}>{formatRank(rank)}</Text>
         <Text style={styles.heroSubtitle}>Skill Rating {sr}</Text>
@@ -83,7 +93,7 @@ export default function RankedArenaEntry() {
           {dangerZone && <Text style={styles.redBadge}>DANGER ZONE</Text>}
           {winStreak >= 3 && <Text style={styles.greenBadge}>{winStreak} WIN STREAK</Text>}
         </View>
-      </LinearGradient>
+      </ImageBackground>
 
       <View style={styles.panel}>
         <View style={styles.rowBetween}>
@@ -115,12 +125,19 @@ export default function RankedArenaEntry() {
         <Text style={styles.ruleLine}>• Danger Zone warns you when demotion risk is high.</Text>
       </View>
 
-      <View style={styles.panelGold}>
+      <ImageBackground source={PRESTIGE_PANEL_ART} resizeMode="cover" imageStyle={styles.panelGoldImage} style={styles.panelGold}>
+        <LinearGradient
+          pointerEvents="none"
+          colors={["rgba(3,8,18,0.22)", "rgba(3,8,18,0.76)"]}
+          start={{ x: 1, y: 0 }}
+          end={{ x: 0, y: 1 }}
+          style={StyleSheet.absoluteFillObject}
+        />
         <Text style={styles.rewardTitle}>Season Prestige</Text>
         <Text style={styles.rewardSubtitle}>
           Your highest rank this season will become a profile flex, reward tier, and tournament seed later.
         </Text>
-      </View>
+      </ImageBackground>
 
       {!searching ? (
         <TouchableOpacity style={styles.startButton} onPress={handleStart} activeOpacity={0.9}>
@@ -141,19 +158,24 @@ export default function RankedArenaEntry() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#0B0B12",
+    backgroundColor: "#071226",
   },
   content: {
-    paddingTop: s(46),
+    paddingTop: s(42),
     paddingHorizontal: s(18),
     paddingBottom: s(142),
   },
   heroCard: {
+    minHeight: s(170),
     borderRadius: s(24),
-    padding: s(22),
+    padding: s(20),
+    overflow: "hidden",
     marginBottom: s(18),
     borderWidth: 1,
-    borderColor: "rgba(247,201,72,0.28)",
+    borderColor: "rgba(190,231,255,0.28)",
+  },
+  heroImage: {
+    borderRadius: s(24),
   },
   eyebrow: {
     color: "#F7C948",
@@ -206,7 +228,7 @@ const styles = StyleSheet.create({
     fontSize: s(11),
   },
   panel: {
-    backgroundColor: "#151521",
+    backgroundColor: "rgba(10,24,48,0.92)",
     borderRadius: s(18),
     padding: s(18),
     marginBottom: s(14),
@@ -214,12 +236,15 @@ const styles = StyleSheet.create({
     borderColor: "rgba(255,255,255,0.06)",
   },
   panelGold: {
-    backgroundColor: "#211A0B",
+    backgroundColor: "#0E1930",
     borderRadius: s(18),
     padding: s(18),
     marginBottom: s(18),
     borderWidth: 1,
-    borderColor: "rgba(247,201,72,0.3)",
+    borderColor: "rgba(247,201,72,0.42)",
+  },
+  panelGoldImage: {
+    borderRadius: s(18),
   },
   rowBetween: {
     flexDirection: "row",
@@ -271,24 +296,26 @@ const styles = StyleSheet.create({
     lineHeight: s(20),
   },
   startButton: {
-    backgroundColor: "#F7C948",
+    backgroundColor: "#10233D",
+    borderWidth: 1,
+    borderColor: "#D6A84F",
     paddingVertical: s(14),
     borderRadius: s(16),
     alignItems: "center",
     marginBottom: s(16),
-    shadowColor: "#F7C948",
+    shadowColor: "#4DA3FF",
     shadowOpacity: 0.28,
     shadowRadius: 12,
     shadowOffset: { width: 0, height: 8 },
     elevation: 4,
   },
   startText: {
-    color: "#181300",
+    color: "#F7D37A",
     fontSize: s(19),
     fontWeight: "900",
   },
   startSubtext: {
-    color: "#4A3B00",
+    color: "#9FD9FF",
     fontSize: s(12),
     fontWeight: "800",
     marginTop: s(3),

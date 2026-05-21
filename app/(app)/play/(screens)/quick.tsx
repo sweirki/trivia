@@ -1,5 +1,5 @@
-
-// app/(app)/play/(screens)/quick.tsx — Compact premium Quick Play mode selection
+// app/(app)/play/(screens)/quick.tsx
+// Premium Quick Play — new asset-backed mode selection.
 
 import React, { useEffect, useRef } from "react";
 import {
@@ -17,31 +17,61 @@ import { useQuickGameStore } from "@/store/useQuickGameStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { PLAYABLE_CATEGORIES, getPlayableCategoryById } from "@/data/categories";
 
-const HERO = require("../../../../assets/images/play/quick_play_hero_banner.webp");
+const HERO = require("../../../../assets/premium/quick-play/quick_hero_atmosphere.webp");
 
 const MODES: {
   key: QuickMode;
+  title: string;
+  subtitle: string;
+  eyebrow: string;
   image: any;
+  accent: string;
+  titleColor: string;
 }[] = [
   {
     key: "classic",
-    image: require("../../../../assets/images/play/modes/classic_mode_art.webp"),
+    title: "Classic",
+    subtitle: "A clean trivia run with steady pacing.",
+    eyebrow: "STANDARD",
+    image: require("../../../../assets/premium/quick-play/mode_classic.webp"),
+    accent: "#D8B35E",
+    titleColor: "#FFF1C7",
   },
   {
     key: "speed",
-    image: require("../../../../assets/images/play/modes/speed_mode_art.webp"),
+    title: "Speed",
+    subtitle: "Answer fast and keep momentum alive.",
+    eyebrow: "FAST",
+    image: require("../../../../assets/premium/quick-play/mode_speed.webp"),
+    accent: "#6FD6FF",
+    titleColor: "#DDF6FF",
   },
   {
     key: "timed60",
-    image: require("../../../../assets/images/play/modes/sixty_seconds_mode_card.webp"),
+    title: "60 Seconds",
+    subtitle: "One minute. Maximum focus.",
+    eyebrow: "TIMER",
+    image: require("../../../../assets/premium/quick-play/mode_sixty.webp"),
+    accent: "#F0BC52",
+    titleColor: "#FFE6B2",
   },
   {
     key: "timed90",
-    image: require("../../../../assets/images/play/modes/ninety_seconds_mode_art.webp"),
+    title: "90 Seconds",
+    subtitle: "Balanced pressure with room to recover.",
+    eyebrow: "TIMER",
+    image: require("../../../../assets/premium/quick-play/mode_ninety.webp"),
+    accent: "#B68CFF",
+    titleColor: "#E9DBFF",
   },
   {
     key: "sudden",
-    image: require("../../../../assets/images/play/modes/sudden_death_mode_art.webp"),
+    title: "Sudden Death",
+    subtitle: "One mistake ends the run.",
+    eyebrow: "PRECISION",
+    image: require("../../../../assets/premium/quick-play/mode_sudden_death.webp"),
+    accent: "#FF6B7A",
+    titleColor: "#FFD8DE",
   },
 ];
 
@@ -87,7 +117,9 @@ export default function QuickPlay() {
     router.push("/play/game");
   };
 
-  const categoryLabel = String(paramCategory || "Random").toUpperCase();
+  const requestedCategory = Array.isArray(paramCategory) ? paramCategory[0] : paramCategory;
+  const selectedCategory = getPlayableCategoryById(requestedCategory);
+  const categoryLabel = selectedCategory?.label?.toUpperCase() ?? "RANDOM MIX";
 
   return (
     <Animated.ScrollView
@@ -99,7 +131,9 @@ export default function QuickPlay() {
         <View style={styles.heroOverlay}>
           <Text style={styles.kicker}>QUICK PLAY</Text>
           <Text style={styles.title}>Choose Your Challenge</Text>
-          <Text style={styles.subtitle}>Pick a mode and jump straight into trivia.</Text>
+          <Text style={styles.subtitle}>
+            Pick your pace. Build momentum. Start instantly.
+          </Text>
         </View>
       </ImageBackground>
 
@@ -129,7 +163,21 @@ export default function QuickPlay() {
               imageStyle={styles.modeImageStyle}
               resizeMode="cover"
             >
-              <View style={styles.cardEdge} />
+              <View style={styles.modeShade}>
+                <Text style={[styles.modeEyebrow, { color: mode.accent }]}>
+                  {mode.eyebrow}
+                </Text>
+                <Text style={[styles.modeTitle, { color: mode.titleColor }]}>
+                  {mode.title}
+                </Text>
+                <Text style={styles.modeSubtitle}>{mode.subtitle}</Text>
+                <View
+                  style={[
+                    styles.modeAccentBar,
+                    { backgroundColor: mode.accent },
+                  ]}
+                />
+              </View>
             </ImageBackground>
           </Pressable>
         ))}
@@ -138,7 +186,7 @@ export default function QuickPlay() {
       {!!vipTier && (
         <View style={styles.vipBanner}>
           <Text style={styles.vipTitle}>VIP ACTIVE</Text>
-          <Text style={styles.vipSub}>Bonus rewards enabled for Quick Play sessions.</Text>
+          <Text style={styles.vipSub}>Bonus rewards enabled for quick sessions.</Text>
         </View>
       )}
 
@@ -146,10 +194,10 @@ export default function QuickPlay() {
         onPress={() => router.push("/play/categorySelect")}
         style={({ pressed }) => [styles.backPill, pressed && styles.pressed]}
       >
-        <Text style={styles.backText}>◀ Back to Categories</Text>
+        <Text style={styles.backText}>Categories</Text>
       </Pressable>
 
-      <View style={{ height: 48 }} />
+      <View style={{ height: 42 }} />
     </Animated.ScrollView>
   );
 }
@@ -157,174 +205,178 @@ export default function QuickPlay() {
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor: "#070B18",
+    backgroundColor: "#070B12",
   },
-
   container: {
-  paddingHorizontal: 18,
-  paddingTop: 20,
-  paddingBottom: 48,
-},
-
+    paddingHorizontal: 18,
+    paddingTop: 34,
+    paddingBottom: 44,
+  },
   hero: {
-    height: 164,
-    borderRadius: 26,
+    height: 176,
+    borderRadius: 24,
     overflow: "hidden",
-    marginBottom: 14,
-    backgroundColor: "#11182D",
+    marginBottom: 18,
+    backgroundColor: "#101722",
     borderWidth: 1,
-    borderColor: "rgba(245,185,66,0.12)",
+    borderColor: "rgba(143,183,217,0.14)",
   },
-
   heroImage: {
-    borderRadius: 26,
+    borderRadius: 24,
   },
-
   heroOverlay: {
     flex: 1,
-    justifyContent: "flex-start",
+    justifyContent: "center",
     padding: 20,
-    paddingTop: 32,
-    backgroundColor: "rgba(0,0,0,0.34)",
+    backgroundColor: "rgba(3,7,13,0.40)",
   },
-
   kicker: {
-    color: "#F5B942",
-    fontSize: 12,
+    color: "#D8B35E",
+    fontSize: 11,
     fontWeight: "900",
-    letterSpacing: 1.3,
-    marginBottom: 4,
+    letterSpacing: 1.7,
+    marginBottom: 7,
+    textShadowColor: "rgba(0,0,0,0.45)",
+    textShadowRadius: 6,
   },
-
   title: {
     color: "#FFFFFF",
-    fontSize: 28,
+    fontSize: 30,
     fontWeight: "900",
-    marginBottom: 6,
+    letterSpacing: -0.7,
+    marginBottom: 8,
+    textShadowColor: "rgba(0,0,0,0.5)",
+    textShadowRadius: 10,
   },
-
   subtitle: {
-    color: "#D8E1FF",
+    color: "#D7E6F5",
     fontSize: 13,
-    fontWeight: "700",
-    maxWidth: "78%",
+    fontWeight: "800",
+    lineHeight: 20,
+    maxWidth: "82%",
+    textShadowColor: "rgba(0,0,0,0.45)",
+    textShadowRadius: 7,
   },
-
   categoryRow: {
     flexDirection: "row",
     alignItems: "center",
     gap: 10,
-    marginBottom: 14,
+    marginBottom: 16,
   },
-
   categoryPill: {
     flex: 1,
-    paddingHorizontal: 15,
-    paddingVertical: 10,
+    paddingHorizontal: 13,
+    paddingVertical: 9,
     borderRadius: 999,
-    backgroundColor: "rgba(20,28,52,0.9)",
+    backgroundColor: "rgba(18,26,38,0.72)",
     borderWidth: 1,
-    borderColor: "rgba(88,140,255,0.22)",
+    borderColor: "rgba(143,183,217,0.14)",
   },
-
   categoryLabel: {
-    color: "#DCE7FF",
-    fontSize: 12,
+    color: "#BFD4E8",
+    fontSize: 10,
     fontWeight: "900",
-    letterSpacing: 0.6,
+    letterSpacing: 0.7,
   },
-
   changePill: {
-    paddingHorizontal: 14,
-    paddingVertical: 10,
+    paddingHorizontal: 16,
+    paddingVertical: 9,
     borderRadius: 999,
-    backgroundColor: "rgba(245,185,66,0.14)",
+    backgroundColor: "rgba(18,26,38,0.72)",
     borderWidth: 1,
-    borderColor: "rgba(245,185,66,0.28)",
+    borderColor: "rgba(143,183,217,0.14)",
   },
-
   changeText: {
-    color: "#F5B942",
+    color: "#C9E3F7",
     fontSize: 12,
     fontWeight: "900",
   },
-
- modeStack: {
-  gap: 10,
-  marginTop: 4,
-},
-
- modeCard: {
-  height: 104,
-  borderRadius: 22,
-
-  marginBottom: 10,
-
-  borderWidth: 1.2,
-  borderColor: "rgba(245,185,66,0.22)",
-
-  shadowColor: "#000",
-  shadowOpacity: 0.28,
-  shadowRadius: 10,
-  shadowOffset: { width: 0, height: 6 },
-
-  elevation: 6,
-},
-
+  modeStack: {
+    gap: 12,
+    marginTop: 2,
+  },
+  modeCard: {
+    height: 108,
+    borderRadius: 19,
+    overflow: "hidden",
+    backgroundColor: "#101722",
+    borderWidth: 1,
+    borderColor: "rgba(143,183,217,0.14)",
+  },
   modeImage: {
     flex: 1,
   },
-
   modeImageStyle: {
-    borderRadius: 22,
+    borderRadius: 19,
   },
-
-  cardEdge: {
-    ...StyleSheet.absoluteFillObject,
-    borderRadius: 22,
-    borderWidth: 1,
-    borderColor: "rgba(255,255,255,0.06)",
+  modeShade: {
+    flex: 1,
+    justifyContent: "center",
+    paddingHorizontal: 14,
+    backgroundColor: "rgba(3,7,13,0.38)",
   },
-
+  modeEyebrow: {
+    color: "#C9E3F7",
+    fontSize: 10,
+    fontWeight: "900",
+    letterSpacing: 1.2,
+    marginBottom: 4,
+  },
+  modeTitle: {
+    color: "#EFF5FA",
+    fontSize: 20,
+    fontWeight: "900",
+    letterSpacing: -0.35,
+  },
+  modeSubtitle: {
+    color: "#AEBFD1",
+    fontSize: 12,
+    fontWeight: "700",
+    lineHeight: 18,
+    marginTop: 5,
+    maxWidth: "78%",
+  },
+  modeAccentBar: {
+    width: 44,
+    height: 3,
+    borderRadius: 999,
+    marginTop: 10,
+    opacity: 0.95,
+  },
   vipBanner: {
-    marginTop: 16,
-    borderRadius: 22,
-    padding: 16,
-    backgroundColor: "rgba(28,38,68,0.96)",
+    marginTop: 15,
+    borderRadius: 18,
+    padding: 14,
+    backgroundColor: "rgba(14,20,30,0.94)",
     borderWidth: 1,
-    borderColor: "rgba(245,185,66,0.16)",
+    borderColor: "rgba(143,183,217,0.14)",
   },
-
   vipTitle: {
-    color: "#F5B942",
-    fontSize: 14,
+    color: "#C9E3F7",
+    fontSize: 13,
     fontWeight: "900",
     marginBottom: 4,
   },
-
   vipSub: {
-    color: "#DCE7FF",
+    color: "#D6E6F5",
     fontSize: 12,
     fontWeight: "700",
   },
-
   backPill: {
-    height: 48,
+    height: 44,
     borderRadius: 999,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "rgba(20,28,52,0.82)",
+    backgroundColor: "rgba(14,20,30,0.82)",
     borderWidth: 1,
-    borderColor: "rgba(88,140,255,0.22)",
+    borderColor: "rgba(143,183,217,0.14)",
     marginTop: 16,
   },
-
   backText: {
-    color: "#DCE7FF",
-    fontSize: 15,
+    color: "#D6E6F5",
+    fontSize: 14,
     fontWeight: "800",
   },
-
   pressed: {
     opacity: 0.92,
     transform: [{ scale: 0.985 }],

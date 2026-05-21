@@ -1,11 +1,22 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import {
+  ImageBackground,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
 import { useArenaStore } from "@/arena/store/useArenaStore";
 import { feedback } from "@/feedback";
 
 const BASE_QUESTION_TIME = 12;
 const INTRO_COUNTDOWN_START = 3;
+
+const SURVIVAL_INTRO_ART = require("../../../../assets/images/arena/survival/survival_intro_hero.webp");
+const SURVIVAL_MATCH_HEADER_ART = require("../../../../assets/images/arena/survival/survival_match_header.webp");
+const SURVIVAL_PRESSURE_ART = require("../../../../assets/images/arena/survival/survival_pressure_panel.webp");
 
 type SurvivalQuestion = {
   text?: string;
@@ -74,12 +85,8 @@ export default function SurvivalMatch() {
   const roundTime = useMemo(() => getRoundTime(roundNumber), [roundNumber]);
   const dangerLevel = useMemo(() => getDangerLevel(roundNumber), [roundNumber]);
   const dangerColor = useMemo(() => getDangerColor(dangerLevel), [dangerLevel]);
-
   const blocked = !q || answers.length === 0;
 
-  // ---------------------------------
-  // INTRO COUNTDOWN
-  // ---------------------------------
   useEffect(() => {
     if (!introVisible) return;
 
@@ -100,9 +107,6 @@ export default function SurvivalMatch() {
     return () => clearInterval(interval);
   }, [introVisible]);
 
-  // ---------------------------------
-  // START SURVIVAL ONCE ONLY
-  // ---------------------------------
   useEffect(() => {
     if (introVisible) return;
     if (startedRef.current) return;
@@ -112,9 +116,6 @@ export default function SurvivalMatch() {
     startSurvival();
   }, [introVisible, matchState, startSurvival]);
 
-  // ---------------------------------
-  // RESULT ROUTE
-  // ---------------------------------
   useEffect(() => {
     if (matchState !== "finished") return;
     if (routedRef.current) return;
@@ -123,11 +124,6 @@ export default function SurvivalMatch() {
     router.replace("/(app)/arena_reset/survival/SurvivalResult");
   }, [matchState]);
 
-  // ---------------------------------
-  // TIMER SETUP
-  // Do NOT call survivalWrong inside setTimeLeft updater.
-  // React throws "Cannot update a component while rendering..." if Zustand updates there.
-  // ---------------------------------
   useEffect(() => {
     if (introVisible) return;
     if (matchState !== "in-match") return;
@@ -141,18 +137,8 @@ export default function SurvivalMatch() {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [
-    blocked,
-    currentQuestionIndex,
-    introVisible,
-    matchState,
-    roundTime,
-  ]);
+  }, [blocked, currentQuestionIndex, introVisible, matchState, roundTime]);
 
-  // ---------------------------------
-  // TIMEOUT HANDLER
-  // Safe place to call survivalWrong after timeLeft has updated.
-  // ---------------------------------
   useEffect(() => {
     if (introVisible) return;
     if (matchState !== "in-match") return;
@@ -162,17 +148,8 @@ export default function SurvivalMatch() {
 
     answeredRef.current = true;
     survivalWrong();
-  }, [
-    blocked,
-    introVisible,
-    matchState,
-    survivalWrong,
-    timeLeft,
-  ]);
+  }, [blocked, introVisible, matchState, survivalWrong, timeLeft]);
 
-  // ---------------------------------
-  // ANSWER HANDLER
-  // ---------------------------------
   const handleAnswer = (answer: string) => {
     if (answeredRef.current) return;
     if (!correctAnswer) return;
@@ -192,54 +169,75 @@ export default function SurvivalMatch() {
     }
   };
 
-  // ---------------------------------
-  // INTRO RENDER
-  // ---------------------------------
   if (introVisible) {
     return (
       <View style={styles.container}>
-        <View style={styles.introCard}>
+        <ImageBackground
+          source={SURVIVAL_INTRO_ART}
+          resizeMode="cover"
+          style={styles.introCard}
+          imageStyle={styles.introImage}
+        >
+          <LinearGradient
+            pointerEvents="none"
+            colors={[
+              "rgba(2,6,16,0.18)",
+              "rgba(2,8,20,0.58)",
+              "rgba(2,6,16,0.95)",
+            ]}
+            locations={[0, 0.5, 1]}
+            style={StyleSheet.absoluteFillObject}
+          />
+
           <Text style={styles.introLabel}>SURVIVAL ARENA</Text>
           <Text style={styles.introTitle}>Last As Long As You Can</Text>
-
-          <View style={styles.survivalIconSlot}>
-            <Text style={styles.survivalIcon}>💀</Text>
-          </View>
-
           <Text style={styles.introBody}>
-            Every wrong answer can end the run. Timers get tighter as danger rises.
+            One wrong answer can end the run. Timers get tighter as danger rises.
           </Text>
 
-          <Text style={styles.countdownBig}>
-            {introCountdown > 0 ? introCountdown : "GO!"}
-          </Text>
-        </View>
+          <View style={styles.countdownPlate}>
+            <Text style={styles.countdownBig}>
+              {introCountdown > 0 ? introCountdown : "GO!"}
+            </Text>
+          </View>
+        </ImageBackground>
       </View>
     );
   }
 
-  // ---------------------------------
-  // MATCH RENDER
-  // ---------------------------------
   return (
     <View style={styles.container}>
       {blocked ? (
         <View style={styles.loadingBox}>
-          <Text style={styles.loadingText}>Preparing survival run…</Text>
+          <Text style={styles.loadingText}>Preparing survival run...</Text>
         </View>
       ) : (
         <>
-          <View style={[styles.headerCard, { borderColor: dangerColor }]}>
+          <ImageBackground
+            source={SURVIVAL_MATCH_HEADER_ART}
+            resizeMode="cover"
+            style={[styles.headerCard, { borderColor: dangerColor }]}
+            imageStyle={styles.headerImage}
+          >
+            <LinearGradient
+              pointerEvents="none"
+              colors={[
+                "rgba(3,10,22,0.10)",
+                "rgba(3,13,28,0.48)",
+                "rgba(3,10,22,0.92)",
+              ]}
+              locations={[0, 0.5, 1]}
+              style={StyleSheet.absoluteFillObject}
+            />
+
             <Text style={[styles.dangerLabel, { color: dangerColor }]}>
               {dangerLevel}
             </Text>
-
             <Text style={styles.header}>Survival Round {roundNumber}</Text>
-
             <Text style={styles.headerSub}>
               Keep answering correctly. The arena gets harsher every wave.
             </Text>
-          </View>
+          </ImageBackground>
 
           <View style={styles.statusRow}>
             <View style={styles.statusBox}>
@@ -247,7 +245,7 @@ export default function SurvivalMatch() {
               <Text style={styles.statusLabel}>Round</Text>
             </View>
 
-            <View style={styles.statusBox}>
+            <View style={[styles.statusBox, { borderColor: dangerColor }]}>
               <Text style={[styles.statusValue, { color: dangerColor }]}>
                 {timeLeft}s
               </Text>
@@ -273,7 +271,23 @@ export default function SurvivalMatch() {
             </TouchableOpacity>
           ))}
 
-          <View style={styles.pressureCard}>
+          <ImageBackground
+            source={SURVIVAL_PRESSURE_ART}
+            resizeMode="cover"
+            style={styles.pressureCard}
+            imageStyle={styles.pressureImage}
+          >
+            <LinearGradient
+              pointerEvents="none"
+              colors={[
+                "rgba(3,10,22,0.20)",
+                "rgba(3,13,28,0.58)",
+                "rgba(3,10,22,0.94)",
+              ]}
+              locations={[0, 0.55, 1]}
+              style={StyleSheet.absoluteFillObject}
+            />
+
             <Text style={styles.pressureTitle}>Survival Pressure</Text>
             <Text style={styles.pressureText}>
               {dangerLevel === "STABLE"
@@ -284,7 +298,7 @@ export default function SurvivalMatch() {
                     ? "One mistake can crush the run. Focus."
                     : "Extreme pressure. Every tap matters now."}
             </Text>
-          </View>
+          </ImageBackground>
         </>
       )}
     </View>
@@ -294,73 +308,77 @@ export default function SurvivalMatch() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 88,
+    paddingTop: 84,
     paddingHorizontal: 16,
-    backgroundColor: "#070713",
+    backgroundColor: "#061426",
   },
 
   introCard: {
-    backgroundColor: "#151521",
-    borderRadius: 20,
+    minHeight: 330,
+    borderRadius: 24,
     borderWidth: 1,
-    borderColor: "#FF7043",
-    padding: 18,
+    borderColor: "rgba(255,112,67,0.62)",
+    padding: 20,
     alignItems: "center",
+    justifyContent: "center",
+    overflow: "hidden",
+    backgroundColor: "#071426",
   },
-
+  introImage: { borderRadius: 24 },
   introLabel: {
     color: "#FF7043",
     fontSize: 12,
     fontWeight: "900",
     letterSpacing: 1.2,
     marginBottom: 10,
+    textShadowColor: "rgba(0,0,0,0.9)",
+    textShadowRadius: 8,
   },
-
   introTitle: {
     color: "#FFFFFF",
-    fontSize: 22,
+    fontSize: 25,
     fontWeight: "900",
     textAlign: "center",
+    textShadowColor: "rgba(0,0,0,0.95)",
+    textShadowRadius: 10,
   },
-
-  survivalIconSlot: {
-    width: 74,
-    height: 74,
-    borderRadius: 22,
-    backgroundColor: "#241013",
-    borderWidth: 1,
-    borderColor: "#FF7043",
+  introBody: {
+    color: "#D8F2FF",
+    fontSize: 13,
+    fontWeight: "800",
+    lineHeight: 19,
+    textAlign: "center",
+    marginTop: 12,
+    maxWidth: 285,
+    textShadowColor: "rgba(0,0,0,0.9)",
+    textShadowRadius: 7,
+  },
+  countdownPlate: {
+    marginTop: 28,
+    minWidth: 88,
+    minHeight: 74,
+    borderRadius: 26,
     alignItems: "center",
     justifyContent: "center",
-    marginVertical: 18,
+    backgroundColor: "rgba(3,12,26,0.62)",
+    borderWidth: 1,
+    borderColor: "rgba(255,112,67,0.45)",
   },
-
-  survivalIcon: {
-    fontSize: 36,
-  },
-
-  introBody: {
-    color: "#cfc7d9",
-    fontSize: 12,
-    lineHeight: 18,
-    textAlign: "center",
-  },
-
   countdownBig: {
     color: "#FFD54F",
-    fontSize: 44,
+    fontSize: 48,
     fontWeight: "900",
-    marginTop: 18,
+    textShadowColor: "rgba(0,0,0,0.85)",
+    textShadowRadius: 8,
   },
 
   loadingBox: {
-    backgroundColor: "#151521",
+    backgroundColor: "#101B2D",
     borderRadius: 20,
     padding: 18,
     borderWidth: 1,
     borderColor: "#27273B",
   },
-
   loadingText: {
     color: "#FFFFFF",
     textAlign: "center",
@@ -369,31 +387,39 @@ const styles = StyleSheet.create({
   },
 
   headerCard: {
-    backgroundColor: "#151521",
-    borderRadius: 18,
+    minHeight: 122,
+    borderRadius: 20,
     borderWidth: 1.5,
     padding: 14,
     marginBottom: 10,
+    overflow: "hidden",
+    backgroundColor: "#08182C",
+    justifyContent: "flex-end",
   },
-
+  headerImage: { borderRadius: 20 },
   dangerLabel: {
     fontSize: 11,
     fontWeight: "900",
     letterSpacing: 1,
     marginBottom: 6,
+    textShadowColor: "rgba(0,0,0,0.9)",
+    textShadowRadius: 7,
   },
-
   header: {
     color: "#FFFFFF",
-    fontSize: 22,
+    fontSize: 23,
     fontWeight: "900",
+    textShadowColor: "rgba(0,0,0,0.95)",
+    textShadowRadius: 9,
   },
-
   headerSub: {
-    color: "#aaa8bc",
+    color: "#D8F2FF",
     fontSize: 11,
+    fontWeight: "700",
     lineHeight: 16,
     marginTop: 4,
+    textShadowColor: "rgba(0,0,0,0.9)",
+    textShadowRadius: 6,
   },
 
   statusRow: {
@@ -401,27 +427,24 @@ const styles = StyleSheet.create({
     gap: 8,
     marginBottom: 14,
   },
-
   statusBox: {
     flex: 1,
-    backgroundColor: "#111827",
-    borderRadius: 14,
+    backgroundColor: "#0A2138",
+    borderRadius: 15,
     paddingVertical: 10,
     alignItems: "center",
     borderWidth: 1,
-    borderColor: "#26344f",
+    borderColor: "rgba(79, 195, 247, 0.28)",
   },
-
   statusValue: {
     color: "#FFD54F",
-    fontSize: 18,
+    fontSize: 19,
     fontWeight: "900",
   },
-
   statusLabel: {
-    color: "#8d95aa",
+    color: "#9BAEC4",
     fontSize: 11,
-    fontWeight: "800",
+    fontWeight: "900",
     marginTop: 3,
   },
 
@@ -431,45 +454,49 @@ const styles = StyleSheet.create({
     marginVertical: 12,
     textAlign: "center",
     lineHeight: 24,
-    fontWeight: "800",
+    fontWeight: "900",
   },
-
   answerButton: {
-    backgroundColor: "#1c1c29",
-    padding: 12,
-    borderRadius: 12,
-    marginVertical: 4,
+    backgroundColor: "#0B2B45",
+    padding: 13,
+    borderRadius: 13,
+    marginVertical: 5,
     borderWidth: 1,
-    borderColor: "#2b2b3f",
+    borderColor: "rgba(79, 195, 247, 0.38)",
   },
-
   answerText: {
     color: "#FFFFFF",
     fontSize: 15,
     textAlign: "center",
-    fontWeight: "700",
+    fontWeight: "800",
   },
 
   pressureCard: {
-    backgroundColor: "#21160e",
-    borderRadius: 12,
-    padding: 12,
+    minHeight: 94,
+    borderRadius: 15,
+    padding: 13,
     borderWidth: 1,
-    borderColor: "#6d4b1e",
+    borderColor: "rgba(255,112,67,0.38)",
     marginTop: 12,
+    overflow: "hidden",
+    backgroundColor: "#0F1E34",
+    justifyContent: "flex-end",
   },
-
+  pressureImage: { borderRadius: 15 },
   pressureTitle: {
     color: "#FFD54F",
     fontSize: 15,
     fontWeight: "900",
-    marginBottom: 6,
+    marginBottom: 5,
+    textShadowColor: "rgba(0,0,0,0.85)",
+    textShadowRadius: 7,
   },
-
   pressureText: {
-    color: "#d5cabc",
+    color: "#D8F2FF",
     fontSize: 13,
-    lineHeight: 19,
+    fontWeight: "700",
+    lineHeight: 18,
+    textShadowColor: "rgba(0,0,0,0.8)",
+    textShadowRadius: 6,
   },
 });
-

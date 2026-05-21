@@ -1,5 +1,17 @@
 import React, { useMemo, useRef } from "react";
-import { ScrollView, View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import {
+  ScrollView,
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  ImageBackground,
+} from "react-native";
+
+const tournamentEntryHero = require("../../../../assets/images/arena/tournaments/tournament_entry_hero.webp");
+const tournamentBracketPanel = require("../../../../assets/images/arena/tournaments/tournament_bracket_panel.webp");
+const tournamentFinalsHero = require("../../../../assets/images/arena/tournaments/tournament_finals_hero.webp");
+
 import { router } from "expo-router";
 import { s } from "@/arena/theme/arenaSizing";
 
@@ -128,7 +140,8 @@ export default function TournamentBracket() {
       contentContainerStyle={styles.content}
       showsVerticalScrollIndicator={false}
     >
-      <View style={styles.hero}>
+      <ImageBackground source={tournamentEntryHero} imageStyle={styles.heroImage} style={styles.hero}>
+        <View style={styles.heroShade} />
         <Text style={styles.heroEyebrow}>LIVE TOURNAMENT</Text>
 
         <Text style={styles.title}>{tournamentTitle}</Text>
@@ -157,7 +170,7 @@ export default function TournamentBracket() {
             </Text>
           </View>
         </View>
-      </View>
+      </ImageBackground>
 
       <Text style={styles.roundTitle}>QUALIFIERS</Text>
 
@@ -191,7 +204,8 @@ export default function TournamentBracket() {
         </View>
       )}
 
-      <View style={styles.championSection}>
+      <ImageBackground source={tournamentFinalsHero} imageStyle={styles.championImage} style={styles.championSection}>
+        <View style={styles.championShade} />
         <Text style={styles.championEyebrow}>TOURNAMENT DESTINATION</Text>
 
         <Text style={styles.championTitle}>
@@ -214,7 +228,7 @@ export default function TournamentBracket() {
             </Text>
           </View>
         ) : null}
-      </View>
+      </ImageBackground>
     </ScrollView>
   );
 }
@@ -222,17 +236,18 @@ export default function TournamentBracket() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#090912",
+    backgroundColor: "#050716",
   },
 
   content: {
-    paddingTop: s(48),
+    paddingTop: s(62),
     paddingBottom: s(40),
     paddingHorizontal: s(18),
   },
 
   hero: {
-    backgroundColor: "#151521",
+    overflow: "hidden",
+    backgroundColor: "#121724",
     borderRadius: s(24),
     padding: s(22),
     borderWidth: 1,
@@ -240,8 +255,23 @@ const styles = StyleSheet.create({
     marginBottom: s(24),
   },
 
+  heroImage: {
+    borderRadius: s(24),
+  },
+  heroShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(5, 8, 20, 0.45)",
+  },
+  championImage: {
+    borderRadius: s(26),
+  },
+  championShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(5, 8, 20, 0.42)",
+  },
+
   heroEyebrow: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(11),
     fontWeight: "900",
     letterSpacing: 1,
@@ -276,13 +306,13 @@ const styles = StyleSheet.create({
   },
 
   progressPillText: {
-    color: "#F7C948",
+    color: "#D6A93A",
     fontSize: s(11),
     fontWeight: "800",
   },
 
   roundTitle: {
-    color: "#4FC3F7",
+    color: "#6EC7F2",
     fontSize: s(20),
     fontWeight: "900",
     marginBottom: s(14),
@@ -298,7 +328,7 @@ const styles = StyleSheet.create({
   },
 
   matchCard: {
-    backgroundColor: "#151521",
+    backgroundColor: "#121724",
     borderRadius: s(22),
     padding: s(18),
     marginBottom: s(16),
@@ -307,7 +337,7 @@ const styles = StyleSheet.create({
   },
 
   activeCard: {
-    borderColor: "#FFD54F",
+    borderColor: "#D6A93A",
   },
 
   completedCard: {
@@ -321,7 +351,7 @@ const styles = StyleSheet.create({
   },
 
   stageText: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(11),
     fontWeight: "900",
   },
@@ -361,19 +391,21 @@ const styles = StyleSheet.create({
   },
 
   vsText: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(11),
     fontWeight: "900",
   },
 
   playBtn: {
-    backgroundColor: "#FFD54F",
+    backgroundColor: "#D6A93A",
+    borderWidth: 1,
+    borderColor: "rgba(255,231,158,0.42)",
     paddingVertical: s(14),
     borderRadius: s(14),
   },
 
   playText: {
-    color: "#000",
+    color: "#0B1020",
     textAlign: "center",
     fontWeight: "900",
     fontSize: s(15),
@@ -412,7 +444,7 @@ const styles = StyleSheet.create({
   },
 
   finalLocked: {
-    backgroundColor: "#151521",
+    backgroundColor: "#121724",
     borderRadius: s(18),
     padding: s(18),
     alignItems: "center",
@@ -424,8 +456,9 @@ const styles = StyleSheet.create({
   },
 
   championSection: {
+    overflow: "hidden",
     marginTop: s(28),
-    backgroundColor: "#151521",
+    backgroundColor: "#121724",
     borderRadius: s(26),
     padding: s(24),
     borderWidth: 1,
@@ -433,7 +466,7 @@ const styles = StyleSheet.create({
   },
 
   championEyebrow: {
-    color: "#F7C948",
+    color: "#D6A93A",
     fontSize: s(11),
     fontWeight: "900",
     letterSpacing: 1,
@@ -460,11 +493,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginTop: s(18),
     borderWidth: 1,
-    borderColor: "#FFD54F",
+    borderColor: "#D6A93A",
   },
 
   championWinnerLabel: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(11),
     fontWeight: "900",
     letterSpacing: 1,

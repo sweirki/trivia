@@ -1,5 +1,17 @@
 import React, { useMemo, useRef, useEffect, useState } from "react";
-import { ScrollView, View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import {
+  ScrollView,
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  ImageBackground,
+} from "react-native";
+
+const tournamentLobbyHero = require("../../../../../assets/images/arena/tournaments/tournament_lobby_hero.webp");
+const tournamentBracketPanel = require("../../../../../assets/images/arena/tournaments/tournament_bracket_panel.webp");
+const tournamentFinalsHero = require("../../../../../assets/images/arena/tournaments/tournament_finals_hero.webp");
+
 import { useLocalSearchParams, router } from "expo-router";
 
 import { s } from "@/arena/theme/arenaSizing";
@@ -21,7 +33,7 @@ function getRoundTone(round: string) {
       liveTag: "GRAND FINAL",
       title: "CHAMPIONSHIP POINT",
       subtitle: "This is the crown match. Win now and become tournament champion.",
-      accent: "#FFD54F",
+      accent: "#D6A93A",
       cardColor: "#211904",
       pressureTitle: "Finals Pressure",
       pressureCopy: "One round decides the champion. Every answer can become the tournament moment.",
@@ -52,7 +64,7 @@ function getRoundTone(round: string) {
     liveTag: "QUALIFIER",
     title: "WIN TO ADVANCE",
     subtitle: "Start your run. Survive the bracket. Build prestige.",
-    accent: "#4FC3F7",
+    accent: "#6EC7F2",
     cardColor: "#0E1B24",
     pressureTitle: "Opening Round",
     pressureCopy: "Set the tone early. A strong qualifier gives the whole run momentum.",
@@ -93,6 +105,7 @@ export default function TournamentMatchScreen() {
   const roundLabel = useMemo(() => getRoundLabel(match, bracket), [match, bracket]);
   const tone = useMemo(() => getRoundTone(roundLabel), [roundLabel]);
   const isFinal = roundLabel === "Grand Final";
+  const heroArt = isFinal ? tournamentFinalsHero : tournamentLobbyHero;
 
   useEffect(() => {
     if (!match) return;
@@ -148,7 +161,9 @@ export default function TournamentMatchScreen() {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
-      <View
+      <ImageBackground
+        source={heroArt}
+        imageStyle={styles.heroImage}
         style={[
           styles.hero,
           {
@@ -157,6 +172,7 @@ export default function TournamentMatchScreen() {
           },
         ]}
       >
+        <View style={styles.heroShade} />
         <Text style={[styles.liveTag, { color: tone.accent }]}>{tone.liveTag}</Text>
         <Text style={styles.round}>{roundLabel}</Text>
         <Text style={[styles.heroTitle, { color: tone.accent }]}>{tone.title}</Text>
@@ -167,13 +183,18 @@ export default function TournamentMatchScreen() {
             <Text style={styles.finalBadgeText}>👑 CHAMPION WILL BE CROWNED</Text>
           </View>
         ) : null}
-      </View>
+      </ImageBackground>
 
       <View style={styles.assetRow}>
-        <View style={[styles.assetSlot, { borderColor: tone.accent }]}>
+        <ImageBackground
+          source={tournamentBracketPanel}
+          imageStyle={styles.assetImage}
+          style={[styles.assetSlot, { borderColor: tone.accent }]}
+        >
+          <View style={styles.assetShade} />
           <Text style={styles.assetIcon}>{tone.icon}</Text>
           <Text style={styles.assetLabel}>{tone.artLabel}</Text>
-        </View>
+        </ImageBackground>
 
         <View style={[styles.rewardSlot, isFinal && styles.finalRewardSlot]}>
           <Text style={styles.rewardIcon}>{isFinal ? "💎" : "🎁"}</Text>
@@ -201,12 +222,17 @@ export default function TournamentMatchScreen() {
         </View>
       </View>
 
-      <View style={[styles.pressureCard, { borderColor: tone.accent }]}>
+      <ImageBackground
+        source={tournamentBracketPanel}
+        imageStyle={styles.pressureImage}
+        style={[styles.pressureCard, { borderColor: tone.accent }]}
+      >
+        <View style={styles.pressureShade} />
         <Text style={[styles.pressureTitle, { color: tone.accent }]}>
           {tone.pressureTitle}
         </Text>
         <Text style={styles.pressureText}>{tone.pressureCopy}</Text>
-      </View>
+      </ImageBackground>
 
       <View style={styles.rulesCard}>
         <Text style={styles.rulesTitle}>Match Stakes</Text>
@@ -229,7 +255,7 @@ export default function TournamentMatchScreen() {
         </View>
       ) : (
         <TouchableOpacity
-          style={[styles.playBtn, { backgroundColor: tone.accent }]}
+          style={[styles.playBtn, { backgroundColor: "#2F8FC6" }]}
           onPress={handleStartCountdown}
           activeOpacity={0.9}
         >
@@ -244,7 +270,7 @@ export default function TournamentMatchScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#050512",
+    backgroundColor: "#050716",
   },
   content: {
     paddingTop: s(44),
@@ -252,11 +278,34 @@ const styles = StyleSheet.create({
     paddingBottom: s(132),
   },
   hero: {
+    overflow: "hidden",
     borderWidth: 1.5,
     borderRadius: s(24),
     padding: s(20),
     marginBottom: s(16),
   },
+  heroImage: {
+    borderRadius: s(24),
+  },
+  heroShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(5, 8, 20, 0.45)",
+  },
+  assetImage: {
+    borderRadius: s(18),
+  },
+  assetShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(8, 10, 22, 0.38)",
+  },
+  pressureImage: {
+    borderRadius: s(18),
+  },
+  pressureShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(8, 10, 22, 0.50)",
+  },
+
   liveTag: {
     fontSize: s(11),
     fontWeight: "900",
@@ -281,15 +330,15 @@ const styles = StyleSheet.create({
   },
   finalBadge: {
     marginTop: s(14),
-    backgroundColor: "#2B2415",
+    backgroundColor: "#241C0E",
     borderWidth: 1,
-    borderColor: "#FFD54F",
+    borderColor: "#D6A93A",
     borderRadius: s(999),
     paddingVertical: s(8),
     alignItems: "center",
   },
   finalBadgeText: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(11),
     fontWeight: "900",
     letterSpacing: 0.8,
@@ -300,9 +349,10 @@ const styles = StyleSheet.create({
     marginBottom: s(14),
   },
   assetSlot: {
+    overflow: "hidden",
     flex: 1,
     minHeight: s(96),
-    backgroundColor: "#111122",
+    backgroundColor: "#121724",
     borderWidth: 1,
     borderRadius: s(18),
     alignItems: "center",
@@ -330,15 +380,15 @@ const styles = StyleSheet.create({
     padding: s(12),
   },
   finalRewardSlot: {
-    borderColor: "#FFD54F",
-    backgroundColor: "#2B2107",
+    borderColor: "#D6A93A",
+    backgroundColor: "#241C0E",
   },
   rewardIcon: {
     fontSize: s(30),
     marginBottom: s(6),
   },
   rewardTitle: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(18),
     fontWeight: "900",
   },
@@ -348,7 +398,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   vsCard: {
-    backgroundColor: "#151527",
+    backgroundColor: "#121724",
     borderRadius: s(22),
     padding: s(16),
     flexDirection: "row",
@@ -387,7 +437,8 @@ const styles = StyleSheet.create({
     marginTop: s(4),
   },
   pressureCard: {
-    backgroundColor: "#151527",
+    overflow: "hidden",
+    backgroundColor: "#121724",
     borderRadius: s(18),
     padding: s(16),
     marginBottom: s(14),
@@ -404,7 +455,7 @@ const styles = StyleSheet.create({
     lineHeight: s(20),
   },
   rulesCard: {
-    backgroundColor: "#151527",
+    backgroundColor: "#121724",
     borderRadius: s(18),
     padding: s(16),
     marginBottom: s(18),
@@ -438,7 +489,7 @@ const styles = StyleSheet.create({
     marginTop: s(3),
   },
   countdownCard: {
-    backgroundColor: "#151527",
+    backgroundColor: "#121724",
     borderWidth: 1.5,
     borderRadius: s(22),
     paddingVertical: s(18),
@@ -455,10 +506,12 @@ const styles = StyleSheet.create({
   },
   secondaryButton: {
     marginTop: s(20),
-    backgroundColor: "#FFD54F",
+    backgroundColor: "#D6A93A",
+    borderWidth: 1,
+    borderColor: "rgba(255,231,158,0.42)",
     borderRadius: s(14),
     paddingVertical: s(14),
-    paddingHorizontal: s(20),
+    paddingHorizontal: s(18),
   },
   secondaryText: {
     color: "#050512",

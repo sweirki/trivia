@@ -1,11 +1,13 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
+  ImageBackground,
   ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
 } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
 
 import { usePowerUpStore } from "@/arena/store/usePowerUpStore";
@@ -13,6 +15,10 @@ import { usePowerArenaMatchStore } from "@/arena/power/store/usePowerArenaMatchS
 import { feedback } from "@/feedback";
 
 const INTRO_COUNTDOWN_START = 3;
+
+const POWER_INTRO_HERO = require("../../../../assets/images/arena/power/power_intro_hero.webp");
+const POWER_MATCH_HEADER = require("../../../../assets/images/arena/power/power_match_header.webp");
+const POWER_PRESSURE_PANEL = require("../../../../assets/images/arena/power/power_pressure_panel.webp");
 
 const POWER_META: Record<string, { label: string; icon: string; hint: string }> = {
   freeze: { label: "Freeze", icon: "❄️", hint: "Pause timer" },
@@ -239,8 +245,24 @@ export default function PowerMatch() {
 
   if (introVisible) {
     return (
-      <View style={styles.container}>
-        <View style={styles.introCard}>
+      <View style={styles.containerIntro}>
+        <ImageBackground
+          source={POWER_INTRO_HERO}
+          resizeMode="cover"
+          style={styles.introCard}
+          imageStyle={styles.introImage}
+        >
+          <LinearGradient
+            pointerEvents="none"
+            colors={[
+              "rgba(2,6,16,0.10)",
+              "rgba(4,10,22,0.52)",
+              "rgba(2,6,16,0.96)",
+            ]}
+            locations={[0, 0.5, 1]}
+            style={StyleSheet.absoluteFillObject}
+          />
+
           <Text style={styles.introLabel}>POWER-UP ARENA</Text>
           <Text style={styles.introTitle}>Tactical Battle</Text>
           <Text style={styles.introBody}>
@@ -254,17 +276,19 @@ export default function PowerMatch() {
             <Text style={styles.introPill}>🎯 Reveal</Text>
           </View>
 
-          <Text style={styles.countdownBig}>
-            {introCountdown > 0 ? introCountdown : "GO!"}
-          </Text>
-        </View>
+          <View style={styles.countdownPlate}>
+            <Text style={styles.countdownBig}>
+              {introCountdown > 0 ? introCountdown : "GO!"}
+            </Text>
+          </View>
+        </ImageBackground>
       </View>
     );
   }
 
   if (blocked) {
     return (
-      <View style={styles.container}>
+      <View style={styles.containerIntro}>
         <View style={styles.loadingCard}>
           <Text style={styles.loadingText}>Preparing tactical match…</Text>
         </View>
@@ -273,15 +297,35 @@ export default function PowerMatch() {
   }
 
   return (
-    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      <View style={styles.headerCard}>
+    <ScrollView
+      style={styles.container}
+      contentContainerStyle={styles.content}
+      showsVerticalScrollIndicator={false}
+    >
+      <ImageBackground
+        source={POWER_MATCH_HEADER}
+        resizeMode="cover"
+        style={styles.headerCard}
+        imageStyle={styles.headerImage}
+      >
+        <LinearGradient
+          pointerEvents="none"
+          colors={[
+            "rgba(3,10,22,0.08)",
+            "rgba(3,13,28,0.46)",
+            "rgba(3,10,22,0.92)",
+          ]}
+          locations={[0, 0.5, 1]}
+          style={StyleSheet.absoluteFillObject}
+        />
+
         <Text style={styles.headerLabel}>TACTICAL ROUND</Text>
         <View style={styles.headerRow}>
           <Text style={styles.header}>Power-Up Arena</Text>
           <Text style={styles.progressPill}>{progressLabel}</Text>
         </View>
         <Text style={styles.headerSub}>{pressureText}</Text>
-      </View>
+      </ImageBackground>
 
       <View style={styles.statusRow}>
         <View style={styles.statusBox}>
@@ -289,7 +333,7 @@ export default function PowerMatch() {
           <Text style={styles.statusLabel}>Score</Text>
         </View>
 
-        <View style={styles.statusBox}>
+        <View style={[styles.statusBox, timeLeft <= 3 && styles.statusBoxDanger]}>
           <Text style={[styles.statusValue, timeLeft <= 3 && styles.dangerText]}>
             {freezeActive ? "⏸" : `${timeLeft}s`}
           </Text>
@@ -305,9 +349,24 @@ export default function PowerMatch() {
       </View>
 
       {momentText ? (
-        <View style={styles.momentCard}>
+        <ImageBackground
+          source={POWER_PRESSURE_PANEL}
+          resizeMode="cover"
+          style={styles.momentCard}
+          imageStyle={styles.pressureImage}
+        >
+          <LinearGradient
+            pointerEvents="none"
+            colors={[
+              "rgba(3,10,22,0.18)",
+              "rgba(15,17,28,0.54)",
+              "rgba(3,10,22,0.92)",
+            ]}
+            locations={[0, 0.52, 1]}
+            style={StyleSheet.absoluteFillObject}
+          />
           <Text style={styles.momentText}>{momentText}</Text>
-        </View>
+        </ImageBackground>
       ) : lastPowerUsed ? (
         <View style={styles.feedbackCard}>
           <Text style={styles.feedbackText}>
@@ -338,40 +397,53 @@ export default function PowerMatch() {
         );
       })}
 
-      <View style={styles.powerBar}>
-        <PowerButton
-          type="freeze"
-          disabled={!hasPowerUp("freeze") || powerUsedRef.current}
-          active={freezeActive}
-          onPress={() => activate("freeze", activateFreeze)}
+      <ImageBackground
+        source={POWER_PRESSURE_PANEL}
+        resizeMode="cover"
+        style={styles.powerPanel}
+        imageStyle={styles.powerPanelImage}
+      >
+        <LinearGradient
+          pointerEvents="none"
+          colors={["rgba(3,10,22,0.42)", "rgba(3,10,22,0.96)"]}
+          style={StyleSheet.absoluteFillObject}
         />
+        <Text style={styles.powerPanelTitle}>Power Arsenal</Text>
+        <View style={styles.powerBar}>
+          <PowerButton
+            type="freeze"
+            disabled={!hasPowerUp("freeze") || powerUsedRef.current}
+            active={freezeActive}
+            onPress={() => activate("freeze", activateFreeze)}
+          />
 
-        <PowerButton
-          type="shield"
-          disabled={!hasPowerUp("shield") || powerUsedRef.current}
-          active={shieldActive}
-          onPress={() => activate("shield", activateShield)}
-        />
+          <PowerButton
+            type="shield"
+            disabled={!hasPowerUp("shield") || powerUsedRef.current}
+            active={shieldActive}
+            onPress={() => activate("shield", activateShield)}
+          />
 
-        <PowerButton
-          type="double"
-          disabled={!hasPowerUp("double") || powerUsedRef.current}
-          active={doubleScoreActive}
-          onPress={() => activate("double", activateDoubleScore)}
-        />
+          <PowerButton
+            type="double"
+            disabled={!hasPowerUp("double") || powerUsedRef.current}
+            active={doubleScoreActive}
+            onPress={() => activate("double", activateDoubleScore)}
+          />
 
-        <PowerButton
-          type="reroll"
-          disabled={!hasPowerUp("reroll") || powerUsedRef.current}
-          onPress={() => activate("reroll", rerollQuestion)}
-        />
+          <PowerButton
+            type="reroll"
+            disabled={!hasPowerUp("reroll") || powerUsedRef.current}
+            onPress={() => activate("reroll", rerollQuestion)}
+          />
 
-        <PowerButton
-          type="reveal"
-          disabled={!hasPowerUp("reveal") || powerUsedRef.current}
-          onPress={() => activate("reveal", revealTwoWrong)}
-        />
-      </View>
+          <PowerButton
+            type="reveal"
+            disabled={!hasPowerUp("reveal") || powerUsedRef.current}
+            onPress={() => activate("reveal", revealTwoWrong)}
+          />
+        </View>
+      </ImageBackground>
     </ScrollView>
   );
 }
@@ -408,9 +480,15 @@ function PowerButton({
 }
 
 const styles = StyleSheet.create({
+  containerIntro: {
+    flex: 1,
+    paddingTop: 92,
+    paddingHorizontal: 16,
+    backgroundColor: "#060716",
+  },
   container: {
     flex: 1,
-    backgroundColor: "#070713",
+    backgroundColor: "#060716",
   },
   content: {
     paddingHorizontal: 16,
@@ -418,62 +496,83 @@ const styles = StyleSheet.create({
     paddingBottom: 118,
   },
   introCard: {
-    marginHorizontal: 16,
-    marginTop: 112,
-    backgroundColor: "#111827",
-    borderRadius: 20,
+    minHeight: 350,
+    backgroundColor: "#081426",
+    borderRadius: 24,
     borderWidth: 1,
-    borderColor: "#4FC3F7",
-    padding: 18,
+    borderColor: "rgba(79,195,247,0.72)",
+    padding: 20,
     alignItems: "center",
+    justifyContent: "center",
+    overflow: "hidden",
   },
+  introImage: { borderRadius: 24 },
   introLabel: {
-    color: "#4FC3F7",
-    fontSize: 10,
+    color: "#81D4FA",
+    fontSize: 11,
     fontWeight: "900",
-    letterSpacing: 1.2,
+    letterSpacing: 1.3,
     marginBottom: 8,
+    textShadowColor: "rgba(0,0,0,0.9)",
+    textShadowRadius: 8,
   },
   introTitle: {
     color: "#FFFFFF",
-    fontSize: 24,
+    fontSize: 26,
     fontWeight: "900",
     textAlign: "center",
+    textShadowColor: "rgba(0,0,0,0.95)",
+    textShadowRadius: 10,
   },
   introBody: {
-    color: "#cfc7d9",
-    fontSize: 12,
-    lineHeight: 18,
+    color: "#DDF6FF",
+    fontSize: 13,
+    fontWeight: "800",
+    lineHeight: 19,
     textAlign: "center",
-    marginTop: 8,
+    marginTop: 10,
+    maxWidth: 295,
+    textShadowColor: "rgba(0,0,0,0.9)",
+    textShadowRadius: 7,
   },
   introGrid: {
     flexDirection: "row",
     flexWrap: "wrap",
     gap: 8,
     justifyContent: "center",
-    marginTop: 14,
+    marginTop: 16,
   },
   introPill: {
     color: "#DDF6FF",
     fontSize: 10,
     fontWeight: "900",
-    backgroundColor: "rgba(79,195,247,0.14)",
-    borderColor: "rgba(79,195,247,0.35)",
+    backgroundColor: "rgba(79,195,247,0.20)",
+    borderColor: "rgba(79,195,247,0.52)",
     borderWidth: 1,
     paddingHorizontal: 9,
     paddingVertical: 5,
     borderRadius: 999,
+    overflow: "hidden",
+  },
+  countdownPlate: {
+    marginTop: 28,
+    minWidth: 88,
+    minHeight: 74,
+    borderRadius: 26,
+    backgroundColor: "rgba(4,12,24,0.58)",
+    borderWidth: 1,
+    borderColor: "rgba(79,195,247,0.38)",
+    alignItems: "center",
+    justifyContent: "center",
   },
   countdownBig: {
     color: "#4FC3F7",
-    fontSize: 44,
+    fontSize: 46,
     fontWeight: "900",
-    marginTop: 18,
+    textShadowColor: "rgba(79,195,247,0.78)",
+    textShadowRadius: 16,
   },
   loadingCard: {
-    marginHorizontal: 16,
-    marginTop: 112,
     backgroundColor: "#151521",
     borderRadius: 18,
     padding: 16,
@@ -487,19 +586,25 @@ const styles = StyleSheet.create({
     fontWeight: "800",
   },
   headerCard: {
-    backgroundColor: "#111827",
-    borderRadius: 16,
+    minHeight: 142,
+    backgroundColor: "#101827",
+    borderRadius: 18,
     borderWidth: 1,
-    borderColor: "#26344f",
-    padding: 12,
-    marginBottom: 8,
+    borderColor: "rgba(79,195,247,0.46)",
+    padding: 14,
+    marginBottom: 10,
+    overflow: "hidden",
+    justifyContent: "flex-end",
   },
+  headerImage: { borderRadius: 18 },
   headerLabel: {
-    color: "#4FC3F7",
+    color: "#81D4FA",
     fontSize: 10,
     fontWeight: "900",
     letterSpacing: 1,
     marginBottom: 5,
+    textShadowColor: "rgba(0,0,0,0.9)",
+    textShadowRadius: 7,
   },
   headerRow: {
     flexDirection: "row",
@@ -509,9 +614,11 @@ const styles = StyleSheet.create({
   },
   header: {
     color: "#FFFFFF",
-    fontSize: 20,
+    fontSize: 21,
     fontWeight: "900",
     flex: 1,
+    textShadowColor: "rgba(0,0,0,0.95)",
+    textShadowRadius: 10,
   },
   progressPill: {
     color: "#061018",
@@ -521,13 +628,16 @@ const styles = StyleSheet.create({
     paddingHorizontal: 9,
     paddingVertical: 5,
     borderRadius: 999,
+    overflow: "hidden",
   },
   headerSub: {
-    color: "#aaa8bc",
+    color: "#DDF6FF",
     fontSize: 11,
     lineHeight: 15,
     marginTop: 4,
-    fontWeight: "600",
+    fontWeight: "700",
+    textShadowColor: "rgba(0,0,0,0.9)",
+    textShadowRadius: 7,
   },
   statusRow: {
     flexDirection: "row",
@@ -543,35 +653,36 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#2b2b3f",
   },
-  statusValue: {
-    color: "#4FC3F7",
-    fontSize: 18,
-    fontWeight: "900",
-  },
+  statusBoxDanger: { borderColor: "rgba(255,92,122,0.65)" },
+  statusValue: { color: "#4FC3F7", fontSize: 18, fontWeight: "900" },
   statusLabel: {
     color: "#8d95aa",
     fontSize: 10,
     fontWeight: "800",
     marginTop: 3,
   },
-  dangerText: {
-    color: "#FF5C7A",
-  },
+  dangerText: { color: "#FF5C7A" },
   momentCard: {
-    backgroundColor: "#241A05",
-    borderRadius: 12,
+    minHeight: 70,
+    borderRadius: 14,
     borderWidth: 1,
-    borderColor: "#F7C948",
+    borderColor: "rgba(247,201,72,0.64)",
     paddingVertical: 9,
     paddingHorizontal: 10,
     marginBottom: 10,
+    overflow: "hidden",
+    justifyContent: "center",
+    backgroundColor: "#241A05",
   },
+  pressureImage: { borderRadius: 14 },
   momentText: {
     color: "#F7C948",
     textAlign: "center",
     fontSize: 13,
     fontWeight: "900",
     letterSpacing: 0.5,
+    textShadowColor: "rgba(0,0,0,0.95)",
+    textShadowRadius: 8,
   },
   feedbackCard: {
     backgroundColor: "#102A3D",
@@ -612,29 +723,40 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#2b2b3f",
   },
-  answerEliminated: {
-    opacity: 0.28,
-  },
+  answerEliminated: { opacity: 0.28 },
   answerText: {
     color: "#FFFFFF",
     textAlign: "center",
     fontSize: 15,
     fontWeight: "700",
   },
-  eliminatedText: {
-    color: "#8b8b9d",
+  eliminatedText: { color: "#8b8b9d" },
+  powerPanel: {
+    marginTop: 10,
+    borderRadius: 18,
+    borderWidth: 1,
+    borderColor: "rgba(79,195,247,0.34)",
+    padding: 10,
+    overflow: "hidden",
+    backgroundColor: "#091A30",
+  },
+  powerPanelImage: { borderRadius: 18 },
+  powerPanelTitle: {
+    color: "#81D4FA",
+    fontSize: 10,
+    fontWeight: "900",
+    letterSpacing: 1.1,
+    marginBottom: 8,
   },
   powerBar: {
     flexDirection: "row",
     flexWrap: "nowrap",
     justifyContent: "space-between",
     gap: 6,
-    marginTop: 10,
-    marginBottom: 6,
   },
   pUpBtn: {
     flex: 1,
-    backgroundColor: "rgba(79,195,247,0.16)",
+    backgroundColor: "rgba(79,195,247,0.18)",
     borderWidth: 1,
     borderColor: "rgba(79,195,247,0.45)",
     paddingVertical: 8,
@@ -643,22 +765,13 @@ const styles = StyleSheet.create({
     alignItems: "center",
     minHeight: 72,
   },
-  pUpDisabled: {
-    opacity: 0.35,
-  },
+  pUpDisabled: { opacity: 0.35 },
   pUpActive: {
-    backgroundColor: "rgba(247,201,72,0.18)",
+    backgroundColor: "rgba(247,201,72,0.22)",
     borderColor: "#FFD54F",
   },
-  pUpIcon: {
-    fontSize: 16,
-    marginBottom: 2,
-  },
-  pUpText: {
-    color: "#DDF6FF",
-    fontWeight: "900",
-    fontSize: 10,
-  },
+  pUpIcon: { fontSize: 16, marginBottom: 2 },
+  pUpText: { color: "#DDF6FF", fontWeight: "900", fontSize: 10 },
   pUpHint: {
     color: "#90A4B8",
     fontWeight: "700",

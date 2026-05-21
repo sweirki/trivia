@@ -1,5 +1,14 @@
 import React from "react";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  ImageBackground,
+} from "react-native";
+
+const tournamentLobbyHero = require("../../../../assets/images/arena/tournaments/tournament_lobby_hero.webp");
+
 import { router } from "expo-router";
 import { s } from "@/arena/theme/arenaSizing";
 
@@ -15,9 +24,10 @@ export default function TournamentLobby() {
   // --------------------------------------------
   if (!tournament) {
     return (
-      <View style={styles.container}>
+      <ImageBackground source={tournamentLobbyHero} imageStyle={styles.bgImage} style={styles.container}>
+        <View style={styles.bgShade} />
         <Text style={styles.info}>No active tournament.</Text>
-      </View>
+      </ImageBackground>
     );
   }
 
@@ -41,7 +51,8 @@ export default function TournamentLobby() {
   // RENDER
   // --------------------------------------------
   return (
-    <View style={styles.container}>
+    <ImageBackground source={tournamentLobbyHero} imageStyle={styles.bgImage} style={styles.container}>
+      <View style={styles.bgShade} />
       <Text style={styles.title}>Tournament Lobby</Text>
 
       <Text style={styles.sub}>
@@ -65,7 +76,7 @@ export default function TournamentLobby() {
           Waiting for players…
         </Text>
       )}
-    </View>
+    </ImageBackground>
   );
 }
 
@@ -75,14 +86,22 @@ export default function TournamentLobby() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#0e0e14",
+    backgroundColor: "#050716",
     alignItems: "center",
-    paddingTop: s(60),
-    paddingHorizontal: s(20),
+    paddingTop: s(72),
+    paddingHorizontal: s(18),
+  },
+
+  bgImage: {
+    opacity: 1,
+  },
+  bgShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(5, 8, 20, 0.64)",
   },
 
   title: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(28),
     fontWeight: "800",
     marginBottom: s(20),
@@ -96,7 +115,7 @@ const styles = StyleSheet.create({
 
   playersBox: {
     width: "85%",
-    backgroundColor: "#151521",
+    backgroundColor: "#121724",
     padding: s(20),
     borderRadius: s(14),
     marginBottom: s(30),
@@ -109,7 +128,9 @@ const styles = StyleSheet.create({
   },
 
   startBtn: {
-    backgroundColor: "#FFD54F",
+    backgroundColor: "#D6A93A",
+    borderWidth: 1,
+    borderColor: "rgba(255,231,158,0.42)",
     paddingVertical: s(16),
     width: "85%",
     borderRadius: s(14),
@@ -119,7 +140,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: s(18),
     fontWeight: "700",
-    color: "#000",
+    color: "#0B1020",
   },
 
   waiting: {

@@ -7,6 +7,7 @@ import {
   StyleSheet,
   Animated,
   ImageBackground,
+  Easing,
 } from "react-native";
 import { useRouter } from "expo-router";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
@@ -25,7 +26,7 @@ import { useChallengesStore } from "@/challenges/store/useChallengesStore";
 import { feedback } from "@/feedback";
 import { trackEvent } from "@/observability";
 
-const GAME_BG = require("../../../assets/images/play/game/game_bg.webp");
+const GAME_BG = require("../../../assets/premium/atmospheres/premium_question_bg.webp");
 
 export default function GameScreen() {
  const gameStartRef = useRef<number>(Date.now());
@@ -58,6 +59,7 @@ export default function GameScreen() {
   const boosts = usePlayerStore((s) => s.activeBoosts);
 
   const [locked, setLocked] = useState(false);
+  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [answerFeedback, setAnswerFeedback] = useState<{
     text: string;
     tone: "correct" | "wrong" | "sudden";
@@ -119,6 +121,7 @@ export default function GameScreen() {
 
 
   const lowTimePulse = useRef(new Animated.Value(1)).current;
+  const panicOpacity = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
     if (timeLeft <= 5 && (mode === "timed60" || mode === "timed90")) {
@@ -136,6 +139,29 @@ export default function GameScreen() {
       ]).start();
     }
   }, [timeLeft]);
+
+  
+  useEffect(() => {
+    if (timeLeft <= 10 && isTimedMode) {
+      Animated.loop(
+        Animated.sequence([
+          Animated.timing(panicOpacity, {
+            toValue: 0.22,
+            duration: 450,
+            easing: Easing.linear,
+            useNativeDriver: true,
+          }),
+          Animated.timing(panicOpacity, {
+            toValue: 0.04,
+            duration: 450,
+            easing: Easing.linear,
+            useNativeDriver: true,
+          }),
+        ])
+      ).start();
+    }
+  }, [timeLeft, isTimedMode]);
+
 
   // ---------------------------------------------------------
   // GAME OVER — single finalization authority
@@ -312,6 +338,7 @@ export default function GameScreen() {
     const isSuddenDeathLoss = mode === "sudden" && !wasCorrect;
 
     setLocked(true);
+    setSelectedAnswer(ans);
     setAnswerFeedback(
       isSuddenDeathLoss
         ? {
@@ -360,6 +387,7 @@ export default function GameScreen() {
 
       setAnswerFeedback(null);
       setLocked(false);
+      setSelectedAnswer(null);
       answerFeedbackTimeoutRef.current = null;
     }, feedbackDelay);
   };
@@ -382,6 +410,16 @@ export default function GameScreen() {
       resizeMode="cover"
     >
       <View style={styles.screenShade} />
+
+      <Animated.View
+        pointerEvents="none"
+        style={[
+          styles.panicOverlay,
+          {
+            opacity: panicOpacity,
+          },
+        ]}
+      />
 
       {!current ? (
         <View testID="screen-game-loading" style={styles.center}>
@@ -458,6 +496,13 @@ export default function GameScreen() {
                   styles.answerBtn,
                   locked && styles.answerLocked,
                   boosts.xp > 0 && styles.answerBoosted,
+                  selectedAnswer === a && styles.answerPressed,
+                  selectedAnswer === a &&
+                    answerFeedback?.tone === "correct" &&
+                    styles.answerCorrect,
+                  selectedAnswer === a &&
+                    answerFeedback?.tone === "wrong" &&
+                    styles.answerWrong,
                 ]}
               >
                 <View style={styles.answerLetter}>
@@ -487,6 +532,13 @@ export default function GameScreen() {
               <Text style={styles.answerFeedbackText}>{answerFeedback.text}</Text>
             </View>
           )}
+          <View pointerEvents="none" style={styles.bottomAtmosphere}>
+            <View style={styles.bottomGlowLeft} />
+            <View style={styles.bottomGlowRight} />
+            <Text style={styles.bottomHint}>
+              {isTimedMode ? "TIME PRESSURE ACTIVE" : "BUILD MOMENTUM"}
+            </Text>
+          </View>
         </View>
       )}
     </ImageBackground>
@@ -502,6 +554,12 @@ const styles = StyleSheet.create({
     backgroundColor: "#070B18",
   },
 
+
+  panicOverlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(255,40,40,0.18)",
+  },
+
   screenShade: {
     ...StyleSheet.absoluteFillObject,
     backgroundColor: "rgba(0,0,0,0.48)",
@@ -510,7 +568,7 @@ const styles = StyleSheet.create({
   content: {
     flex: 1,
     paddingHorizontal: 18,
-    paddingTop: 42,
+    paddingTop: 72,
     paddingBottom: 22,
   },
 
@@ -721,6 +779,21 @@ const styles = StyleSheet.create({
     opacity: 0.68,
   },
 
+
+  answerPressed: {
+    transform: [{ scale: 0.985 }],
+  },
+
+  answerCorrect: {
+    borderColor: "rgba(70,255,170,0.95)",
+    backgroundColor: "rgba(25,80,55,0.92)",
+  },
+
+  answerWrong: {
+    borderColor: "rgba(255,98,98,0.95)",
+    backgroundColor: "rgba(70,18,18,0.92)",
+  },
+
   answerBoosted: {
     borderColor: "rgba(245,196,81,0.55)",
   },
@@ -788,6 +861,44 @@ const styles = StyleSheet.create({
     fontWeight: "900",
     textAlign: "center",
     lineHeight: 19,
+  },
+
+
+  bottomAtmosphere: {
+    flex: 1,
+    minHeight: 120,
+    marginTop: 20,
+    justifyContent: "flex-end",
+    alignItems: "center",
+    paddingBottom: 16,
+    overflow: "hidden",
+  },
+
+  bottomGlowLeft: {
+    position: "absolute",
+    left: -90,
+    bottom: -90,
+    width: 220,
+    height: 220,
+    borderRadius: 110,
+    backgroundColor: "rgba(86,166,255,0.10)",
+  },
+
+  bottomGlowRight: {
+    position: "absolute",
+    right: -100,
+    bottom: -100,
+    width: 240,
+    height: 240,
+    borderRadius: 120,
+    backgroundColor: "rgba(255,80,80,0.08)",
+  },
+
+  bottomHint: {
+    color: "rgba(220,230,245,0.42)",
+    fontSize: 10,
+    fontWeight: "900",
+    letterSpacing: 1.6,
   },
 
   loading: {

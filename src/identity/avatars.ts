@@ -8,15 +8,15 @@ export type Avatar = {
 export const AVATARS: Avatar[] = [
   {
     id: "avatar_01",
-    source: require("@assets/images/avatar.png"),
+    source: require("@assets/images/avatar.webp"),
   },
   {
     id: "avatar_02",
-    source: require("@assets/images/avatar.png"),
+    source: require("@assets/images/avatar.webp"),
   },
   {
     id: "avatar_03",
-    source: require("@assets/images/avatar.png"),
+    source: require("@assets/images/avatar.webp"),
   },
 ];
 

@@ -1,3 +1,4 @@
+// HUB_FULL_SCREEN_CODE_PASS
 // /app/(app)/hub/index.tsx — Redesigned TriviaWorld Hub
 import React, { useEffect, useMemo, useRef } from "react";
 import {
@@ -32,7 +33,11 @@ import {
   WEEKLY_DAILY_TARGET,
 } from "@/economy/economyRules";
 import { getWeekKeyUTC } from "@/weekly/weeklyLogic";
-import { getRankProgress } from "./hub.helpers";
+import {
+  getRankProgress,
+  HUB_MODE_TONES,
+  type HubModeTone,
+} from "./hub.helpers";
 
 const HUB_HERO = require("../../../assets/images/modes/hub_hero_banner.webp");
 const QUICK_PLAY_ART = require("../../../assets/images/modes/quick_play_card_art.webp");
@@ -47,9 +52,10 @@ export default function HubScreen() {
   const user = useAuthStore((s) => s.user);
   const isGuest = useAuthStore((s) => s.isGuest);
   const avatarId = useIdentityStore((s) => s.identity?.avatarId);
-  const avatar = user && !isGuest && avatarId
-    ? AVATARS.find((a) => a.id === avatarId) ?? null
-    : null;
+  const avatar =
+    user && !isGuest && avatarId
+      ? (AVATARS.find((a) => a.id === avatarId) ?? null)
+      : null;
 
   const { ended } = useSeasonCountdown();
   const resetSeason = useSeasonStore((s) => s.resetSeason);
@@ -61,7 +67,9 @@ export default function HubScreen() {
   const tickets = usePlayerStore((s) => s.tickets);
   const dailyStreak = usePlayerStore((s) => s.daily?.streak ?? 0);
   const lastClaimDate = usePlayerStore((s) => s.daily?.lastClaimDate ?? null);
-  const weekly = usePlayerStore((s) => s.weekly ?? { weekKey: "", progress: 0, claimed: false });
+  const weekly = usePlayerStore(
+    (s) => s.weekly ?? { weekKey: "", progress: 0, claimed: false },
+  );
 
   const justLeveledUp = usePlayerStore((s) => s.justLeveledUp);
   const clearLevelUpFlag = usePlayerStore((s) => s.clearLevelUpFlag);
@@ -71,10 +79,14 @@ export default function HubScreen() {
   const isVIPActive = Date.now() < (vipExpiresAt || 0);
 
   const todayChallenge = useChallengesStore((s) => s.getTodayDailyChallenge());
-  const ensureTodayDailyChallenge = useChallengesStore((s) => s.ensureTodayDailyChallenge);
+  const ensureTodayDailyChallenge = useChallengesStore(
+    (s) => s.ensureTodayDailyChallenge,
+  );
 
   const achievements = useAchievementsStore((s) => s.achievements);
-  const activeAchievement = Object.values(achievements).find((a: any) => !a.unlocked);
+  const activeAchievement = Object.values(achievements).find(
+    (a: any) => !a.unlocked,
+  );
 
   const todayKey = getDayKeyUTC();
   const currentWeekKey = getWeekKeyUTC();
@@ -84,7 +96,7 @@ export default function HubScreen() {
   const weeklyReward = WEEKLY_DAILY_REWARD;
   const weeklyProgress = Math.max(
     weekly.weekKey === currentWeekKey ? weekly.progress : 0,
-    Math.min(dailyStreak, weeklyTarget)
+    Math.min(dailyStreak, weeklyTarget),
   );
 
   const xpRequired = xpRequiredForLevel(level);
@@ -109,10 +121,17 @@ export default function HubScreen() {
   useEffect(() => {
     if (dailyStreak <= 0) return;
 
-    const currentProgress = weekly.weekKey === currentWeekKey ? weekly.progress : 0;
-    const repairedProgress = Math.max(currentProgress, Math.min(dailyStreak, weeklyTarget));
+    const currentProgress =
+      weekly.weekKey === currentWeekKey ? weekly.progress : 0;
+    const repairedProgress = Math.max(
+      currentProgress,
+      Math.min(dailyStreak, weeklyTarget),
+    );
 
-    if (weekly.weekKey !== currentWeekKey || weekly.progress < repairedProgress) {
+    if (
+      weekly.weekKey !== currentWeekKey ||
+      weekly.progress < repairedProgress
+    ) {
       usePlayerStore.getState().setWeekly({
         ...weekly,
         weekKey: currentWeekKey,
@@ -158,7 +177,7 @@ export default function HubScreen() {
           easing: Easing.inOut(Easing.quad),
           useNativeDriver: true,
         }),
-      ])
+      ]),
     ).start();
   }, [fade, pulse, xpAnim, xpPercent]);
 
@@ -188,7 +207,10 @@ export default function HubScreen() {
           testID="hub-profile-button"
           accessibilityLabel="Open Profile"
           onPress={() => router.push("/profile")}
-          style={({ pressed }) => [styles.avatarWrap, pressed && styles.pressed]}
+          style={({ pressed }) => [
+            styles.avatarWrap,
+            pressed && styles.pressed,
+          ]}
         >
           {avatar ? (
             <Image source={avatar.asset} style={styles.avatar} />
@@ -198,9 +220,18 @@ export default function HubScreen() {
         </Pressable>
 
         <View style={styles.economyCluster}>
-          <CurrencyChip icon={require("../../assets/icons/coin.png")} value={coins} />
-          <CurrencyChip icon={require("../../assets/icons/gem.png")} value={gems} />
-          <CurrencyChip icon={require("../../assets/icons/ticket.png")} value={tickets} />
+          <CurrencyChip
+            icon={require("../../assets/icons/coin.png")}
+            value={coins}
+          />
+          <CurrencyChip
+            icon={require("../../assets/icons/gem.png")}
+            value={gems}
+          />
+          <CurrencyChip
+            icon={require("../../assets/icons/ticket.png")}
+            value={tickets}
+          />
         </View>
 
         {isVIPActive ? (
@@ -212,18 +243,49 @@ export default function HubScreen() {
             testID="hub-vip-store-button"
             accessibilityLabel="Open VIP Store"
             onPress={() => router.push("/store?tab=vip" as any)}
-            style={({ pressed }) => [styles.vipBadgeLocked, pressed && styles.pressed]}
+            style={({ pressed }) => [
+              styles.vipBadgeLocked,
+              pressed && styles.pressed,
+            ]}
           >
             <Text style={styles.vipTextLocked}>VIP OFF</Text>
           </Pressable>
         )}
       </View>
 
-      <ImageBackground source={HUB_HERO} style={styles.hero} imageStyle={styles.heroImage}>
+      <ImageBackground
+        source={HUB_HERO}
+        style={styles.hero}
+        imageStyle={styles.heroImage}
+      >
+        <LinearGradient
+          pointerEvents="none"
+          colors={[
+            "rgba(3,8,18,0.04)",
+            "rgba(3,10,22,0.20)",
+            "rgba(3,8,18,0.58)",
+          ]}
+          start={{ x: 1, y: 0 }}
+          end={{ x: 0, y: 1 }}
+          style={styles.heroAtmosphereShade}
+        />
+        <LinearGradient
+          pointerEvents="none"
+          colors={[
+            "rgba(255,255,255,0.20)",
+            "rgba(36,200,255,0.08)",
+            "rgba(0,0,0,0)",
+          ]}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={styles.heroTopSheen}
+        />
         <View style={styles.heroShade}>
-          <Text style={styles.heroKicker}>TRIVIAWORLD</Text>
+          <Text style={styles.heroKicker}>TRIVIA SWEIRKI</Text>
           <Text style={styles.heroTitle}>Ready to Play?</Text>
-          <Text style={styles.heroSub}>Win XP, coins, streaks, and rewards.</Text>
+          <Text style={styles.heroSub}>
+            Enter a premium trivia run with focused pacing and clean rewards.
+          </Text>
 
           <ProgressPill
             level={level}
@@ -238,18 +300,21 @@ export default function HubScreen() {
 
       <View style={styles.sectionHeader}>
         <Text style={styles.sectionTitle}>Play</Text>
-        <Text style={styles.sectionHint}>Choose your next run</Text>
+        <Text style={styles.sectionHint}>
+          Focused modes and live progression
+        </Text>
       </View>
 
       <ModeCard
         testID="hub-quick-play-button"
         title="Quick Play"
-        subtitle="Instant match • Fast XP"
+        subtitle="Instant category mix • Clean XP pacing"
         cta="Play"
         art={QUICK_PLAY_ART}
         large
         pulse={pulse}
-        onPress={() => router.push("./play/(screens)/quick")}
+        tone={HUB_MODE_TONES.quick}
+        onPress={() => router.push("/play/quick?category=random" as any)}
       />
 
       <View style={styles.grid}>
@@ -258,8 +323,9 @@ export default function HubScreen() {
           title="Arena"
           subtitle="Competitive"
           art={ARENA_ART}
+          tone={HUB_MODE_TONES.arena}
           compact
-          onPress={() => router.push("./arena_reset")}
+          onPress={() => router.push("/arena_reset" as any)}
         />
 
         <ModeCard
@@ -267,9 +333,10 @@ export default function HubScreen() {
           title="Daily"
           subtitle="Rewards • Streak"
           art={DAILY_ART}
+          tone={HUB_MODE_TONES.daily}
           compact
           badge={lastClaimDate !== todayKey}
-          onPress={() => router.push("./daily")}
+          onPress={() => router.push("/daily" as any)}
         />
 
         <ModeCard
@@ -277,6 +344,7 @@ export default function HubScreen() {
           title="Lobby"
           subtitle="Profile • More"
           art={LOBBY_ART}
+          tone={HUB_MODE_TONES.lobby}
           compact
           onPress={() => router.push("/more")}
         />
@@ -286,6 +354,7 @@ export default function HubScreen() {
           title="Shop"
           subtitle="VIP • Store"
           art={SHOP_ART}
+          tone={HUB_MODE_TONES.shop}
           compact
           onPress={() => router.push("/store" as any)}
         />
@@ -295,13 +364,26 @@ export default function HubScreen() {
         <Pressable
           accessibilityLabel="Today's Challenge"
           onPress={startDailyGame}
-          style={({ pressed }) => [styles.infoRow, pressed && todayChallenge && lastDailyPlayDate !== todayKey && styles.pressed]}
+          style={({ pressed }) => [
+            styles.infoRow,
+            pressed &&
+              todayChallenge &&
+              lastDailyPlayDate !== todayKey &&
+              styles.pressed,
+          ]}
         >
           <View>
             <Text style={styles.infoLabel}>🎯 Today’s Challenge</Text>
             <Text style={styles.infoSub}>Daily streak pressure</Text>
           </View>
-          <Text style={[styles.infoValue, todayChallenge && lastDailyPlayDate !== todayKey && styles.greenText]}>
+          <Text
+            style={[
+              styles.infoValue,
+              todayChallenge &&
+                lastDailyPlayDate !== todayKey &&
+                styles.greenText,
+            ]}
+          >
             {todayStatus}
           </Text>
         </Pressable>
@@ -311,7 +393,9 @@ export default function HubScreen() {
         <View style={styles.infoRow}>
           <View>
             <Text style={styles.infoLabel}>🗓️ Weekly Challenge</Text>
-            <Text style={styles.infoSub}>Complete {weeklyTarget} Daily games this week</Text>
+            <Text style={styles.infoSub}>
+              Complete {weeklyTarget} Daily games this week
+            </Text>
           </View>
           <Text style={styles.infoValue}>
             {Math.min(weeklyProgress, weeklyTarget)} / {weeklyTarget}
@@ -319,19 +403,31 @@ export default function HubScreen() {
         </View>
 
         <View style={styles.bar}>
-          <View style={[styles.barFill, { width: `${Math.min(1, weeklyProgress / weeklyTarget) * 100}%` }]} />
+          <View
+            style={[
+              styles.barFill,
+              { width: `${Math.min(1, weeklyProgress / weeklyTarget) * 100}%` },
+            ]}
+          />
         </View>
 
         {weeklyProgress >= weeklyTarget && !weekly.claimed && (
           <Pressable
-            style={({ pressed }) => [styles.claimButton, pressed && styles.pressed]}
-            onPress={() => usePlayerStore.getState().claimWeeklyReward(weeklyReward)}
+            style={({ pressed }) => [
+              styles.claimButton,
+              pressed && styles.pressed,
+            ]}
+            onPress={() =>
+              usePlayerStore.getState().claimWeeklyReward(weeklyReward)
+            }
           >
             <Text style={styles.claimText}>Claim Weekly Reward</Text>
           </Pressable>
         )}
 
-        {weekly.claimed && <Text style={styles.claimedText}>Weekly reward claimed ✓</Text>}
+        {weekly.claimed && (
+          <Text style={styles.claimedText}>Weekly reward claimed ✓</Text>
+        )}
       </InfoCard>
 
       {rankProgress.next && (
@@ -361,13 +457,18 @@ export default function HubScreen() {
 
       {activeAchievement && (
         <Pressable
-          style={({ pressed }) => [styles.achievementCard, pressed && styles.pressed]}
-          onPress={() => router.push("./achievements")}
+          style={({ pressed }) => [
+            styles.achievementCard,
+            pressed && styles.pressed,
+          ]}
+          onPress={() => router.push("/achievements" as any)}
         >
           <Text style={styles.achievementTitle}>Achievement in progress</Text>
           <Text style={styles.achievementText}>
-            {(ACHIEVEMENT_META[(activeAchievement as any).id]?.title ?? (activeAchievement as any).id)} —{" "}
-            {(activeAchievement as any).progress} / {(activeAchievement as any).target}
+            {ACHIEVEMENT_META[(activeAchievement as any).id]?.title ??
+              (activeAchievement as any).id}{" "}
+            — {(activeAchievement as any).progress} /{" "}
+            {(activeAchievement as any).target}
           </Text>
         </Pressable>
       )}
@@ -418,7 +519,9 @@ function ProgressPill({
     >
       <View style={styles.progressTop}>
         <Text style={styles.progressLevel}>Level {level}</Text>
-        <Text style={styles.progressXp}>{xp} / {xpRequired} XP</Text>
+        <Text style={styles.progressXp}>
+          {xp} / {xpRequired} XP
+        </Text>
       </View>
 
       <View style={styles.progressBar}>
@@ -453,6 +556,7 @@ function ModeCard({
   compact,
   badge,
   pulse,
+  tone = HUB_MODE_TONES.quick,
 }: {
   title: string;
   subtitle: string;
@@ -464,18 +568,25 @@ function ModeCard({
   compact?: boolean;
   badge?: boolean;
   pulse?: Animated.Value;
+  tone?: HubModeTone;
 }) {
+  const isShop = title === "Shop";
+  const isArena = title === "Arena";
+  const isDaily = title === "Daily";
+  const isLobby = title === "Lobby";
+
   const glowStyle = pulse
     ? {
+        backgroundColor: tone.glow,
         opacity: pulse.interpolate({
           inputRange: [0, 1],
-          outputRange: [0.12, 0.3],
+          outputRange: [0.1, 0.22],
         }),
         transform: [
           {
             scale: pulse.interpolate({
               inputRange: [0, 1],
-              outputRange: [1, 1.02],
+              outputRange: [1, 1.015],
             }),
           },
         ],
@@ -494,17 +605,80 @@ function ModeCard({
         pressed && styles.pressed,
       ]}
     >
-      {pulse && <Animated.View pointerEvents="none" style={[styles.cardGlow, glowStyle]} />}
+      {pulse && (
+        <Animated.View
+          pointerEvents="none"
+          style={[styles.cardGlow, glowStyle]}
+        />
+      )}
 
-      <ImageBackground source={art} style={styles.modeArt} imageStyle={styles.modeArtImage}>
-        <View style={[styles.modeOverlay, compact && styles.modeOverlayCompact]}>
+      <View style={styles.modeSurface}>
+        <Image
+          source={art}
+          style={[
+            styles.modeArtLayer,
+            { opacity: tone.artOpacity },
+            large && styles.quickArtLayer,
+            compact && styles.compactArtLayer,
+            isShop && styles.shopArtLayer,
+            isDaily && styles.dailyArtLayer,
+            isArena && styles.arenaArtLayer,
+            isLobby && styles.lobbyArtLayer,
+          ]}
+        />
+
+        <LinearGradient
+          pointerEvents="none"
+          colors={tone.sheen}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={styles.modeMaterialSheen}
+        />
+
+      
+
+        <LinearGradient
+          pointerEvents="none"
+          colors={
+  compact
+    ? ["rgba(3,8,18,0.22)", "rgba(3,10,22,0.04)", "transparent"]
+    : ["rgba(3,8,18,0.62)", "rgba(3,10,22,0.22)", "rgba(3,10,22,0.02)"]
+}
+          start={{ x: 0, y: 0.45 }}
+          end={{ x: 1, y: 0.45 }}
+          style={styles.modeReadabilityShade}
+        />
+
+        <LinearGradient
+          pointerEvents="none"
+          colors={["rgba(0,0,0,0)", "rgba(0,0,0,0.05)"]}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 0, y: 1 }}
+          style={styles.modeBottomVignette}
+        />
+
+        <View
+          style={[styles.modeAccentBar, { backgroundColor: tone.accent }]}
+        />
+
+        <View
+          style={[styles.modeOverlay, compact && styles.modeOverlayCompact]}
+        >
           <View style={styles.modeCopy}>
-            <Text style={[styles.modeTitle, compact && styles.modeTitleCompact]} numberOfLines={1}>
+            <Text
+              style={[styles.modeTitle, compact && styles.modeTitleCompact]}
+              numberOfLines={1}
+            >
               {title}
             </Text>
-            <Text style={[styles.modeSub, compact && styles.modeSubCompact]} numberOfLines={1}>
+
+            <Text
+              style={[styles.modeSub, compact && styles.modeSubCompact]}
+              numberOfLines={2}
+            >
               {subtitle}
             </Text>
+
             {cta && (
               <View style={styles.ctaPill}>
                 <Text style={styles.ctaText}>{cta}</Text>
@@ -514,20 +688,51 @@ function ModeCard({
 
           {badge && <View style={styles.redBadge} />}
         </View>
-      </ImageBackground>
+      </View>
     </Pressable>
   );
 }
 
-function InfoCard({ title, children }: { title: string; children: React.ReactNode }) {
+function InfoCard({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) {
+  const isToday = title === "Today";
+  const isWeek = title === "This Week";
+
   return (
     <LinearGradient
-      colors={["rgba(28,38,68,0.96)", "rgba(10,15,32,0.98)"]}
+      colors={
+        isToday
+          ? ["rgba(16,42,72,0.96)", "rgba(6,24,46,0.98)"]
+          : ["rgba(15,34,62,0.95)", "rgba(6,20,42,0.98)"]
+      }
       start={{ x: 0, y: 0 }}
       end={{ x: 1, y: 1 }}
       style={styles.infoCard}
     >
-      <View pointerEvents="none" style={styles.infoGoldGlow} />
+      <LinearGradient
+        pointerEvents="none"
+        colors={[
+          "rgba(255,255,255,0.16)",
+          "rgba(36,200,255,0.04)",
+          "rgba(0,0,0,0)",
+        ]}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={styles.infoSheen}
+      />
+      <View
+        pointerEvents="none"
+        style={[
+          styles.infoCornerGlow,
+          isToday && styles.infoCornerGlowToday,
+          isWeek && styles.infoCornerGlowWeek,
+        ]}
+      />
       <Text style={styles.infoTitle}>{title}</Text>
       {children}
     </LinearGradient>
@@ -537,12 +742,12 @@ function InfoCard({ title, children }: { title: string; children: React.ReactNod
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#080D1A",
+    backgroundColor: "#071226",
   },
 
   content: {
-    paddingHorizontal: 18,
-    paddingTop: 38,
+    paddingHorizontal: 17,
+    paddingTop: 20,
     paddingBottom: 64,
   },
 
@@ -564,7 +769,7 @@ const styles = StyleSheet.create({
     height: 50,
     borderRadius: 18,
     borderWidth: 2,
-    borderColor: "#F6C453",
+    borderColor: "rgba(143,183,217,0.34)",
   },
 
   avatarPlaceholder: {
@@ -573,7 +778,7 @@ const styles = StyleSheet.create({
     borderRadius: 18,
     borderWidth: 1,
     borderColor: "rgba(255,255,255,0.14)",
-    backgroundColor: "#111827",
+    backgroundColor: "#12223A",
   },
 
   economyCluster: {
@@ -587,9 +792,9 @@ const styles = StyleSheet.create({
   currencyChip: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "rgba(20,28,48,0.86)",
+    backgroundColor: "rgba(18,31,54,0.88)",
     borderWidth: 1,
-    borderColor: "rgba(255,255,255,0.08)",
+    borderColor: "rgba(169,218,255,0.22)",
     borderRadius: 999,
     paddingHorizontal: 8,
     paddingVertical: 6,
@@ -603,13 +808,13 @@ const styles = StyleSheet.create({
   },
 
   currencyText: {
-    color: "#F5B942",
+    color: "#D5EFFF",
     fontSize: 12,
     fontWeight: "900",
   },
 
   vipBadge: {
-    backgroundColor: "#F5B942",
+    backgroundColor: "#8FE6FF",
     paddingHorizontal: 10,
     paddingVertical: 7,
     borderRadius: 999,
@@ -622,9 +827,9 @@ const styles = StyleSheet.create({
   },
 
   vipBadgeLocked: {
-    backgroundColor: "rgba(20,28,48,0.9)",
+    backgroundColor: "rgba(31,45,74,0.96)",
     borderWidth: 1,
-    borderColor: "rgba(255,255,255,0.12)",
+    borderColor: "rgba(169,218,255,0.22)",
     paddingHorizontal: 10,
     paddingVertical: 7,
     borderRadius: 999,
@@ -637,54 +842,69 @@ const styles = StyleSheet.create({
   },
 
   hero: {
-    minHeight: 238,
-    borderRadius: 30,
+    minHeight: 236,
+    borderRadius: 28,
     overflow: "hidden",
-    marginBottom: 18,
-    backgroundColor: "#111827",
+    marginBottom: 20,
+    backgroundColor: "#0A1830",
     borderWidth: 1,
-    borderColor: "rgba(255,255,255,0.12)",
+    borderColor: "rgba(190,231,255,0.26)",
+    shadowColor: "#000",
+    shadowOpacity: 0.38,
+    shadowRadius: 30,
+    shadowOffset: { width: 0, height: 14 },
+    elevation: 9,
   },
 
   heroImage: {
     resizeMode: "cover",
+    opacity: 1,
+  },
+
+  heroAtmosphereShade: {
+    ...StyleSheet.absoluteFillObject,
+  },
+
+  heroTopSheen: {
+    ...StyleSheet.absoluteFillObject,
   },
 
   heroShade: {
     flex: 1,
     justifyContent: "flex-start",
-    padding: 20,
-    paddingTop: 34,
-    backgroundColor: "rgba(4,8,18,0.48)",
+    padding: 19,
+    paddingTop: 25,
   },
 
   heroKicker: {
-    color: "#F5B942",
+    color: "#BFE8FF",
     fontSize: 11,
     fontWeight: "900",
-    letterSpacing: 1.4,
-    marginBottom: 5,
+    letterSpacing: 1.5,
+    marginBottom: 6,
   },
 
   heroTitle: {
-    color: "#FFFFFF",
-    fontSize: 25,
+    color: "#F4FAFF",
+    fontSize: 23,
     fontWeight: "900",
-    letterSpacing: -0.5,
+    letterSpacing: -0.45,
   },
 
   heroSub: {
-    color: "#CFD6E6",
+    color: "#C2D3E8",
     fontSize: 13,
     fontWeight: "700",
-    marginTop: 4,
+    lineHeight: 18,
+    marginTop: 5,
     marginBottom: 12,
+    maxWidth: "74%",
   },
 
   progressPill: {
-    backgroundColor: "rgba(10,15,30,0.78)",
+    backgroundColor: "rgba(8,18,38,0.68)",
     borderWidth: 1,
-    borderColor: "rgba(245,185,66,0.5)",
+    borderColor: "rgba(190,231,255,0.28)",
     borderRadius: 20,
     padding: 11,
     marginTop: 10,
@@ -697,7 +917,7 @@ const styles = StyleSheet.create({
   },
 
   progressLevel: {
-    color: "#F5B942",
+    color: "#A9CBE7",
     fontSize: 14,
     fontWeight: "900",
   },
@@ -712,16 +932,16 @@ const styles = StyleSheet.create({
     height: 8,
     borderRadius: 999,
     overflow: "hidden",
-    backgroundColor: "rgba(255,255,255,0.14)",
+    backgroundColor: "rgba(190,231,255,0.18)",
   },
 
   progressFill: {
     height: "100%",
-    backgroundColor: "#F5B942",
+    backgroundColor: "#8FE6FF",
   },
 
   streakText: {
-    color: "#F5B942",
+    color: "#A9CBE7",
     fontSize: 11,
     fontWeight: "800",
     marginTop: 8,
@@ -733,13 +953,13 @@ const styles = StyleSheet.create({
   },
 
   sectionTitle: {
-    color: "#FFFFFF",
-    fontSize: 22,
+    color: "#F4FAFF",
+    fontSize: 18,
     fontWeight: "900",
   },
 
   sectionHint: {
-    color: "#8792AA",
+    color: "#9CB1CB",
     fontSize: 11,
     fontWeight: "800",
     marginTop: 2,
@@ -748,31 +968,49 @@ const styles = StyleSheet.create({
   modeCard: {
     borderRadius: 24,
     overflow: "hidden",
-    backgroundColor: "#111827",
+    backgroundColor: "#0A172C",
     borderWidth: 1,
-    borderColor: "rgba(255,255,255,0.1)",
+    borderColor: "rgba(190,231,255,0.22)",
     shadowColor: "#000",
-    shadowOpacity: 0.26,
-    shadowRadius: 14,
-    shadowOffset: { width: 0, height: 8 },
-    elevation: 6,
+    shadowOpacity: 0.48,
+    shadowRadius: 30,
+    shadowOffset: { width: 0, height: 12 },
+    elevation: 9,
   },
 
   modeCardLarge: {
-    height: 138,
+    height: 140,
     marginBottom: 16,
   },
 
   modeCardCompact: {
     width: "48%",
-    height: 116,
+    height: 118,
     marginBottom: 14,
+    borderColor: "rgba(190,231,255,0.28)",
   },
 
   cardGlow: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: "#F5B942",
+    backgroundColor: "#8FE6FF",
     borderRadius: 24,
+  },
+
+  modeSurface: {
+    flex: 1,
+    backgroundColor: "#0A1930",
+    overflow: "hidden",
+    justifyContent: "center",
+  },
+
+  modeAccentBar: {
+    position: "absolute",
+    top: 0,
+    left: 12,
+    right: 12,
+    height: 1,
+    backgroundColor: "#8FB7D9",
+    opacity: 0.54,
   },
 
   modeArt: {
@@ -783,56 +1021,84 @@ const styles = StyleSheet.create({
     resizeMode: "cover",
   },
 
+  modeMaterialSheen: {
+    ...StyleSheet.absoluteFillObject,
+  },
+
+  modeIconReveal: {
+    position: "absolute",
+    top: 0,
+    right: 0,
+    bottom: 0,
+    width: "58%",
+  },
+
+  modeReadabilityShade: {
+    ...StyleSheet.absoluteFillObject,
+  },
+
+  modeBottomVignette: {
+    ...StyleSheet.absoluteFillObject,
+  },
+
   modeOverlay: {
     flex: 1,
     padding: 16,
     justifyContent: "center",
-    backgroundColor: "rgba(3,7,18,0.16)",
   },
 
   modeOverlayCompact: {
     padding: 13,
     justifyContent: "flex-end",
-    backgroundColor: "rgba(3,7,18,0.25)",
+    backgroundColor: "transparent",
   },
 
   modeCopy: {
-    maxWidth: "58%",
+    maxWidth: "64%",
   },
 
   modeTitle: {
-    color: "#FFFFFF",
-    fontSize: 25,
+    color: "#F4FAFF",
+    fontSize: 24,
     fontWeight: "900",
-    letterSpacing: -0.3,
+    letterSpacing: -0.35,
   },
 
-  modeTitleCompact: {
-    fontSize: 16,
+ modeTitleCompact: {
+  color: "#FFFFFF",
+  fontSize: 17,
+    textShadowColor: "rgba(0,0,0,0.95)",
+    textShadowRadius: 8,
   },
 
   modeSub: {
-    color: "#C9D1E3",
+    color: "#C1D6ED",
     fontSize: 13,
     fontWeight: "800",
     marginTop: 4,
   },
 
   modeSubCompact: {
+    color: "#BDD4EC",
     fontSize: 11,
+    textShadowColor: "rgba(0,0,0,0.86)",
+    textShadowRadius: 6,
   },
 
   ctaPill: {
     marginTop: 13,
     alignSelf: "flex-start",
-    backgroundColor: "#F5B942",
+    backgroundColor: "#D7F3FF",
     borderRadius: 999,
     paddingHorizontal: 18,
     paddingVertical: 8,
+    shadowColor: "#A9CBE7",
+    shadowOpacity: 0.22,
+    shadowRadius: 10,
   },
 
   ctaText: {
-    color: "#101623",
+    color: "#061223",
     fontSize: 12,
     fontWeight: "900",
   },
@@ -858,25 +1124,35 @@ const styles = StyleSheet.create({
 
   infoCard: {
     borderWidth: 1,
-    borderColor: "rgba(245,185,66,0.18)",
+    borderColor: "rgba(190,231,255,0.22)",
     borderRadius: 22,
     padding: 16,
     marginTop: 14,
     overflow: "hidden",
-    shadowColor: "#F5B942",
-    shadowOpacity: 0.10,
-    shadowRadius: 14,
-    shadowOffset: { width: 0, height: 7 },
-    elevation: 5,
+    shadowColor: "#000",
+    shadowOpacity: 0.38,
+    shadowRadius: 28,
+    shadowOffset: { width: 0, height: 10 },
+    elevation: 7,
+  },
+
+  infoGoldGlow: {
+    position: "absolute",
+    top: -32,
+    right: -18,
+    width: 132,
+    height: 88,
+    borderRadius: 80,
+    backgroundColor: "rgba(169,203,231,0.08)",
   },
 
   infoTitle: {
-    color: "#F5B942",
+    color: "#CBEFFF",
     fontSize: 17,
     fontWeight: "900",
     marginBottom: 12,
-    textShadowColor: "rgba(245,185,66,0.25)",
-    textShadowRadius: 8,
+    textShadowColor: "rgba(169,203,231,0.16)",
+    textShadowRadius: 7,
   },
 
   infoRow: {
@@ -887,20 +1163,20 @@ const styles = StyleSheet.create({
   },
 
   infoLabel: {
-    color: "#FFFFFF",
+    color: "#F2F7FF",
     fontSize: 13,
     fontWeight: "900",
   },
 
   infoSub: {
-    color: "#AAB4D6",
+    color: "#A8BAD4",
     fontSize: 12,
     fontWeight: "800",
     marginTop: 3,
   },
 
   infoValue: {
-    color: "#F5B942",
+    color: "#D5EFFF",
     fontSize: 12,
     fontWeight: "900",
   },
@@ -912,24 +1188,24 @@ const styles = StyleSheet.create({
   bar: {
     height: 9,
     borderRadius: 999,
-    backgroundColor: "rgba(255,255,255,0.08)",
+    backgroundColor: "rgba(190,231,255,0.16)",
     marginTop: 14,
     overflow: "hidden",
     borderWidth: 1,
-    borderColor: "rgba(255,255,255,0.05)",
+    borderColor: "rgba(190,231,255,0.14)",
   },
 
   barFill: {
     height: "100%",
-    backgroundColor: "#F5B942",
-    shadowColor: "#F5B942",
-    shadowOpacity: 0.55,
+    backgroundColor: "#8FE6FF",
+    shadowColor: "#A9CBE7",
+    shadowOpacity: 0.5,
     shadowRadius: 8,
   },
 
   claimButton: {
     marginTop: 14,
-    backgroundColor: "#F5B942",
+    backgroundColor: "#8FE6FF",
     borderRadius: 16,
     paddingVertical: 12,
     alignItems: "center",
@@ -949,7 +1225,7 @@ const styles = StyleSheet.create({
   },
 
   achievementCard: {
-    backgroundColor: "rgba(22,30,52,0.92)",
+    backgroundColor: "rgba(18,36,66,0.96)",
     borderWidth: 1,
     borderColor: "rgba(245,185,66,0.28)",
     borderRadius: 22,
@@ -958,14 +1234,14 @@ const styles = StyleSheet.create({
   },
 
   achievementTitle: {
-    color: "#F5B942",
+    color: "#A9CBE7",
     fontSize: 14,
     fontWeight: "900",
     marginBottom: 5,
   },
 
   achievementText: {
-    color: "#D7DEEC",
+    color: "#D2DEF0",
     fontSize: 13,
     fontWeight: "700",
   },
@@ -982,9 +1258,9 @@ const styles = StyleSheet.create({
   },
 
   levelUpCard: {
-    backgroundColor: "#111827",
+    backgroundColor: "#12223A",
     borderWidth: 1,
-    borderColor: "rgba(245,185,66,0.5)",
+    borderColor: "rgba(190,231,255,0.26)",
     borderRadius: 22,
     paddingVertical: 22,
     paddingHorizontal: 30,
@@ -992,7 +1268,7 @@ const styles = StyleSheet.create({
   },
 
   levelUpTitle: {
-    color: "#F5B942",
+    color: "#A9CBE7",
     fontSize: 22,
     fontWeight: "900",
   },
@@ -1002,6 +1278,86 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: "800",
     marginTop: 6,
+  },
+
+
+  modeArtLayer: {
+    ...StyleSheet.absoluteFillObject,
+    width: "100%",
+    height: "100%",
+    resizeMode: "cover",
+  },
+
+  quickArtLayer: {
+    transform: [{ scale: 1.03 }],
+  },
+
+  compactArtLayer: {
+    transform: [{ scale: 1.08 }],
+  },
+
+  shopArtLayer: {
+    opacity: 1,
+    transform: [{ scale: 1.18 }],
+  },
+
+  dailyArtLayer: {
+    opacity: 1,
+    transform: [{ scale: 1.13 }],
+  },
+
+  arenaArtLayer: {
+    opacity: 0.98,
+    transform: [{ scale: 1.11 }],
+  },
+
+  lobbyArtLayer: {
+    opacity: 0.98,
+    transform: [{ scale: 1.12 }],
+  },
+
+  iconSpotlight: {
+    position: "absolute",
+    right: -18,
+    top: 8,
+    width: 132,
+    height: 100,
+    borderRadius: 72,
+    opacity: 0.34,
+  },
+
+  iconSpotlightShop: {
+    opacity: 0.348,
+    right: -10,
+    top: 4,
+    width: 142,
+    height: 108,
+  },
+
+  iconSpotlightDaily: {
+    opacity: 0.344,
+  },
+
+  infoSheen: {
+    ...StyleSheet.absoluteFillObject,
+  },
+
+  infoCornerGlow: {
+    position: "absolute",
+    top: -34,
+    right: -18,
+    width: 132,
+    height: 88,
+    borderRadius: 80,
+    backgroundColor: "rgba(36,200,255,0.12)",
+  },
+
+  infoCornerGlowToday: {
+    backgroundColor: "rgba(47,224,162,0.14)",
+  },
+
+  infoCornerGlowWeek: {
+    backgroundColor: "rgba(143,183,217,0.14)",
   },
 
   pressed: {

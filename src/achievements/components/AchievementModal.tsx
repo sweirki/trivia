@@ -1,41 +1,48 @@
 import React from "react";
-import { View, Text, Modal, StyleSheet, TouchableOpacity } from "react-native";
-import { useTheme } from "@/theme";
+import { Modal, Pressable, StyleSheet, Text, View } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 
 type Props = {
   visible: boolean;
   achievement: {
     id: string;
+    title?: string;
     name?: string;
     description?: string;
   } | null;
   onClose: () => void;
 };
 
-export default function AchievementModal({
-  visible,
-  achievement,
-  onClose,
-}: Props) {
-  const theme = useTheme();
-
+export default function AchievementModal({ visible, achievement, onClose }: Props) {
   if (!visible || !achievement) return null;
 
   return (
-    <Modal transparent animationType="fade" visible={visible}>
+    <Modal transparent animationType="fade" visible={visible} onRequestClose={onClose}>
       <View style={styles.overlay}>
-        <View style={[styles.card, { backgroundColor: theme.colors.background }]}>
-          <Text style={[styles.title, { color: theme.colors.gold }]}>
-            {achievement.name ?? "Achievement Unlocked"}
-          </Text>
+        <View style={styles.card}>
+          <LinearGradient
+            pointerEvents="none"
+            colors={["rgba(14,32,58,0.98)", "rgba(7,17,31,0.98)", "rgba(5,10,20,0.99)"]}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={StyleSheet.absoluteFill}
+          />
+          <LinearGradient
+            pointerEvents="none"
+            colors={["rgba(159,231,255,0.18)", "rgba(255,214,110,0.08)", "rgba(0,0,0,0)"]}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={StyleSheet.absoluteFill}
+          />
 
-          <Text style={[styles.desc, { color: theme.colors.textMuted }]}>
-            {achievement.description ?? "You unlocked a new achievement."}
-          </Text>
+          <View style={styles.topGlow} />
+          <Text style={styles.kicker}>ACHIEVEMENT UNLOCKED</Text>
+          <Text style={styles.title}>{achievement.title ?? achievement.name ?? "Achievement"}</Text>
+          <Text style={styles.desc}>{achievement.description ?? "You unlocked a new achievement."}</Text>
 
-          <TouchableOpacity style={styles.button} onPress={onClose}>
+          <Pressable style={({ pressed }) => [styles.button, pressed && styles.pressed]} onPress={onClose}>
             <Text style={styles.buttonText}>Close</Text>
-          </TouchableOpacity>
+          </Pressable>
         </View>
       </View>
     </Modal>
@@ -45,39 +52,79 @@ export default function AchievementModal({
 const styles = StyleSheet.create({
   overlay: {
     flex: 1,
-    backgroundColor: "rgba(0,0,0,0.7)",
+    backgroundColor: "rgba(0,0,0,0.78)",
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
   },
   card: {
     width: "100%",
-    borderRadius: 16,
+    borderRadius: 28,
+    overflow: "hidden",
     padding: 24,
     alignItems: "center",
+    backgroundColor: "#07111F",
+    borderWidth: 1,
+    borderColor: "rgba(159,231,255,0.24)",
+    shadowColor: "#1E8CFF",
+    shadowOpacity: 0.18,
+    shadowRadius: 20,
+    shadowOffset: { width: 0, height: 10 },
+    elevation: 9,
+  },
+  topGlow: {
+    position: "absolute",
+    top: 0,
+    left: 24,
+    right: 24,
+    height: 1,
+    backgroundColor: "rgba(255,214,110,0.82)",
+  },
+  kicker: {
+    color: "#9FE7FF",
+    fontSize: 10,
+    lineHeight: 12,
+    fontWeight: "900",
+    letterSpacing: 1.5,
+    marginBottom: 9,
   },
   title: {
-    fontSize: 22,
-    fontWeight: "800",
-    marginBottom: 10,
+    color: "#F4FAFF",
+    fontSize: 24,
+    lineHeight: 29,
+    fontWeight: "900",
+    letterSpacing: -0.25,
     textAlign: "center",
   },
   desc: {
-    fontSize: 15,
+    color: "#BBD7FF",
+    fontSize: 13,
+    lineHeight: 19,
+    fontWeight: "700",
     textAlign: "center",
+    marginTop: 10,
     marginBottom: 20,
   },
   button: {
-    backgroundColor: "#FFD700",
-    paddingHorizontal: 32,
-    paddingVertical: 12,
-    borderRadius: 10,
+    minWidth: 142,
+    paddingHorizontal: 22,
+    paddingVertical: 11,
+    borderRadius: 999,
+    backgroundColor: "rgba(255,214,110,0.14)",
+    borderWidth: 1,
+    borderColor: "rgba(255,214,110,0.42)",
+    alignItems: "center",
   },
   buttonText: {
-    fontWeight: "700",
-    color: "#000",
-    fontSize: 16,
+    color: "#FFD66E",
+    fontSize: 12,
+    lineHeight: 15,
+    fontWeight: "900",
+    letterSpacing: 0.8,
+    textTransform: "uppercase",
+  },
+  pressed: {
+    opacity: 0.86,
+    transform: [{ scale: 0.985 }],
   },
 });
-
-

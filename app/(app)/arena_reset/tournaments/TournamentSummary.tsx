@@ -6,7 +6,12 @@ import {
   Text,
   TouchableOpacity,
   View,
+  ImageBackground,
 } from "react-native";
+
+const tournamentResultHero = require("../../../../assets/images/arena/tournaments/tournament_result_hero.webp");
+const tournamentPrestigePanel = require("../../../../assets/images/arena/tournaments/tournament_prestige_panel.webp");
+
 import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
 import { feedback } from "@/feedback";
@@ -133,14 +138,15 @@ export default function TournamentSummary() {
   return (
     <Animated.View style={[styles.container, { opacity: fadeAnim }]}> 
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
-        <LinearGradient colors={["#3A2A08", "#171321", "#090A12"]} style={styles.hero}>
+        <ImageBackground source={tournamentResultHero} imageStyle={styles.heroImage} style={styles.hero}>
+          <View style={styles.heroShade} />
           <Text style={styles.eyebrow}>LIVE EVENT COMPLETE</Text>
           <Text style={styles.trophySlot}>🏆</Text>
           <Text style={styles.title}>
             {summary.userIsChampion ? "You Are Champion" : "Tournament Complete"}
           </Text>
           <Text style={styles.subtitle}>{summary.cupTitle}</Text>
-        </LinearGradient>
+        </ImageBackground>
 
         <View style={styles.championCard}>
           <Text style={styles.cardEyebrow}>CHAMPION CROWN</Text>
@@ -202,12 +208,13 @@ export default function TournamentSummary() {
           ))}
         </View>
 
-        <View style={styles.seasonCard}>
+        <ImageBackground source={tournamentPrestigePanel} imageStyle={styles.seasonImage} style={styles.seasonCard}>
+          <View style={styles.seasonShade} />
           <Text style={styles.seasonTitle}>Season Prestige</Text>
           <Text style={styles.seasonText}>
             Tournament finishes will later feed seasonal seeding, profile trophies, elite frames, and champion history.
           </Text>
-        </View>
+        </ImageBackground>
 
         <TouchableOpacity style={styles.exitBtn} onPress={handleExit} activeOpacity={0.9}>
           <Text style={styles.exitText}>Return to Arena</Text>
@@ -220,10 +227,10 @@ export default function TournamentSummary() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#070812",
+    backgroundColor: "#050716",
   },
   content: {
-    paddingTop: 28,
+    paddingTop: 46,
     paddingHorizontal: 16,
     paddingBottom: 190,
   },
@@ -231,7 +238,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#070812",
+    backgroundColor: "#050716",
     padding: 24,
   },
   error: {
@@ -241,6 +248,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   hero: {
+    overflow: "hidden",
     borderRadius: 22,
     padding: 16,
     alignItems: "center",
@@ -248,8 +256,23 @@ const styles = StyleSheet.create({
     borderColor: "rgba(255,213,79,0.35)",
     marginBottom: 16,
   },
+  heroImage: {
+    borderRadius: 22,
+  },
+  heroShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(5, 8, 20, 0.44)",
+  },
+  seasonImage: {
+    borderRadius: 18,
+  },
+  seasonShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(18, 14, 10, 0.52)",
+  },
+
   eyebrow: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: 12,
     fontWeight: "900",
     letterSpacing: 1.4,
@@ -272,7 +295,7 @@ const styles = StyleSheet.create({
     marginTop: 6,
   },
   championCard: {
-    backgroundColor: "#161722",
+    backgroundColor: "#151724",
     borderRadius: 18,
     padding: 14,
     alignItems: "center",
@@ -281,7 +304,7 @@ const styles = StyleSheet.create({
     marginBottom: 14,
   },
   cardEyebrow: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: 12,
     fontWeight: "900",
     letterSpacing: 1.2,
@@ -315,10 +338,10 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   rewardCard: {
-    backgroundColor: "#12131D",
+    backgroundColor: "#111421",
     borderRadius: 18,
     padding: 14,
-    marginBottom: 10,
+    marginBottom: 14,
     borderWidth: 1,
     borderColor: "rgba(255,213,79,0.15)",
   },
@@ -326,7 +349,7 @@ const styles = StyleSheet.create({
     color: "#FFFFFF",
     fontSize: 18,
     fontWeight: "900",
-    marginBottom: 10,
+    marginBottom: 14,
   },
   rewardRow: {
     flexDirection: "row",
@@ -334,7 +357,7 @@ const styles = StyleSheet.create({
   },
   rewardBox: {
     flex: 1,
-    backgroundColor: "#1D1E2B",
+    backgroundColor: "#1A1C2A",
     borderRadius: 14,
     paddingVertical: 10,
     alignItems: "center",
@@ -344,7 +367,7 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   rewardValue: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: 15,
     fontWeight: "900",
   },
@@ -361,10 +384,10 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   standingsCard: {
-    backgroundColor: "#151620",
+    backgroundColor: "#151724",
     borderRadius: 18,
     padding: 14,
-    marginBottom: 10,
+    marginBottom: 14,
   },
   row: {
     flexDirection: "row",
@@ -379,7 +402,7 @@ const styles = StyleSheet.create({
     fontSize: 19,
     fontWeight: "900",
   },
-  gold: { color: "#FFD54F" },
+  gold: { color: "#D6A93A" },
   silver: { color: "#B9C1CB" },
   bronze: { color: "#D89B5E" },
   playerMeta: {
@@ -396,8 +419,8 @@ const styles = StyleSheet.create({
     marginTop: 2,
   },
   rowBadge: {
-    color: "#201400",
-    backgroundColor: "#FFD54F",
+    color: "#0B1020",
+    backgroundColor: "#D6A93A",
     fontSize: 10,
     fontWeight: "900",
     paddingHorizontal: 8,
@@ -405,6 +428,7 @@ const styles = StyleSheet.create({
     borderRadius: 999,
   },
   seasonCard: {
+    overflow: "hidden",
     backgroundColor: "rgba(255,213,79,0.10)",
     borderRadius: 16,
     padding: 13,
@@ -413,7 +437,7 @@ const styles = StyleSheet.create({
     marginBottom: 18,
   },
   seasonTitle: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: 16,
     fontWeight: "900",
     marginBottom: 6,
@@ -424,24 +448,28 @@ const styles = StyleSheet.create({
     lineHeight: 17,
   },
   exitBtn: {
-    backgroundColor: "#FFD54F",
-    borderRadius: 14,
+    backgroundColor: "#D6A93A",
+    borderWidth: 1,
+    borderColor: "rgba(255,231,158,0.42)",
+    borderRadius: 16,
     paddingVertical: 12,
     alignItems: "center",
   },
   exitText: {
-    color: "#181200",
+    color: "#0B1020",
     fontSize: 15,
     fontWeight: "900",
   },
   secondaryBtn: {
-    backgroundColor: "#FFD54F",
-    borderRadius: 14,
+    backgroundColor: "#D6A93A",
+    borderWidth: 1,
+    borderColor: "rgba(255,231,158,0.42)",
+    borderRadius: 16,
     paddingVertical: 13,
     paddingHorizontal: 22,
   },
   secondaryText: {
-    color: "#181200",
+    color: "#0B1020",
     fontWeight: "900",
   },
 });

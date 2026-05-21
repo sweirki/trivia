@@ -1,5 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  ImageBackground,
+} from "react-native";
+
+const tournamentMatchBg = require("../../../../assets/images/arena/tournaments/tournament_match_bg.webp");
+
 import { router } from "expo-router";
 import { useArenaStore } from "@/arena/store/useArenaStore";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
@@ -146,7 +155,8 @@ router.replace("/(app)/arena_reset/tournaments/TournamentSummary");
   // UI
   // ------------------------------------------------
  return (
-  <View style={styles.container}>
+  <ImageBackground source={tournamentMatchBg} imageStyle={styles.bgImage} style={styles.container}>
+      <View style={styles.bgShade} />
     {blocked ? (
       <Text style={{ color: "#fff", textAlign: "center", marginTop: 40 }}>
         Loading…
@@ -175,7 +185,7 @@ router.replace("/(app)/arena_reset/tournaments/TournamentSummary");
         ))}
       </>
     )}
-  </View>
+  </ImageBackground>
 );
 
 }
@@ -186,28 +196,36 @@ router.replace("/(app)/arena_reset/tournaments/TournamentSummary");
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 60,
+    paddingTop: 72,
     paddingHorizontal: 20,
-    backgroundColor: "#0e0e14",
+    backgroundColor: "#050716",
+  },
+
+  bgImage: {
+    opacity: 1,
+  },
+  bgShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(5, 8, 20, 0.56)",
   },
 
   title: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: 34,
     fontWeight: "900",
     textAlign: "center",
-    marginBottom: 10,
+    marginBottom: 14,
   },
 
   vs: {
-    color: "#4FC3F7",
+    color: "#6EC7F2",
     fontSize: 20,
     textAlign: "center",
     marginBottom: 20,
   },
 
   timer: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: 26,
     textAlign: "center",
     marginBottom: 25,

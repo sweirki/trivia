@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     padding: 22,
     backgroundColor: '#101623',
     borderWidth: 1,
-    borderColor: '#F5B942',
+    borderColor: 'rgba(143,183,217,0.26)',
   },
   emoji: {
     fontSize: 34,
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   title: {
-    color: '#F5B942',
+    color: '#8FB7D9',
     fontSize: 22,
     fontWeight: '900',
     textAlign: 'center',
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   primary: {
-    backgroundColor: '#F5B942',
+    backgroundColor: '#8FB7D9',
   },
   secondary: {
     backgroundColor: '#1A2032',

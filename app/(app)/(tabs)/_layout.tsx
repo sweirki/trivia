@@ -10,10 +10,10 @@ export default function TabLayout() {
         headerShown: false,
         tabBarStyle: {
           backgroundColor: theme.colors.card,
-          borderTopColor: theme.colors.gold,
-          borderTopWidth: 2,
+          borderTopColor: "rgba(143,183,217,0.18)",
+          borderTopWidth: 1,
         },
-        tabBarActiveTintColor: theme.colors.gold,
+        tabBarActiveTintColor: "#8FB7D9",
         tabBarInactiveTintColor: theme.colors.textMuted,
       }}
     />

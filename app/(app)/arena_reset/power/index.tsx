@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  ImageBackground,
   ScrollView,
   StyleSheet,
   Text,
@@ -13,6 +14,9 @@ import { useArenaStore } from "@/arena/store/useArenaStore";
 import { usePowerUpStore } from "@/arena/store/usePowerUpStore";
 import { usePowerArenaMatchStore } from "@/arena/power/store/usePowerArenaMatchStore";
 import { buildPowerArenaQuestions } from "@/questions/gameplayQuestions";
+
+const POWER_ENTRY_HERO = require("../../../../assets/images/arena/power/power_entry_hero.webp");
+const POWER_LOADOUT_PANEL = require("../../../../assets/images/arena/power/power_loadout_panel.webp");
 
 type PowerUpItem = {
   name?: string;
@@ -51,8 +55,28 @@ export default function PowerUpArenaEntry() {
   };
 
   return (
-    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      <LinearGradient colors={["#082B3D", "#10111A"]} style={styles.heroCard}>
+    <ScrollView
+      style={styles.container}
+      contentContainerStyle={styles.content}
+      showsVerticalScrollIndicator={false}
+    >
+      <ImageBackground
+        source={POWER_ENTRY_HERO}
+        resizeMode="cover"
+        imageStyle={styles.heroImage}
+        style={styles.heroCard}
+      >
+        <LinearGradient
+          pointerEvents="none"
+          colors={[
+            "rgba(2,8,18,0.10)",
+            "rgba(3,12,22,0.46)",
+            "rgba(2,6,16,0.92)",
+          ]}
+          locations={[0, 0.48, 1]}
+          style={StyleSheet.absoluteFillObject}
+        />
+
         <Text style={styles.eyebrow}>POWER-UP ARENA</Text>
         <Text style={styles.title}>Control the Chaos.</Text>
         <Text style={styles.subtitle}>
@@ -64,9 +88,25 @@ export default function PowerUpArenaEntry() {
           <Text style={styles.bluePill}>TACTICAL MATCH</Text>
           <Text style={styles.goldPill}>PRESTIGE REWARDS</Text>
         </View>
-      </LinearGradient>
+      </ImageBackground>
 
-      <View style={styles.card}>
+      <ImageBackground
+        source={POWER_LOADOUT_PANEL}
+        resizeMode="cover"
+        imageStyle={styles.panelImage}
+        style={styles.loadoutCard}
+      >
+        <LinearGradient
+          pointerEvents="none"
+          colors={[
+            "rgba(7,13,27,0.30)",
+            "rgba(13,17,30,0.72)",
+            "rgba(10,13,24,0.96)",
+          ]}
+          locations={[0, 0.55, 1]}
+          style={StyleSheet.absoluteFillObject}
+        />
+
         <View style={styles.rowBetween}>
           <View>
             <Text style={styles.sectionLabel}>LOADOUT</Text>
@@ -101,7 +141,7 @@ export default function PowerUpArenaEntry() {
         >
           <Text style={styles.secondaryButtonText}>Manage Power-Ups</Text>
         </TouchableOpacity>
-      </View>
+      </ImageBackground>
 
       <View style={styles.card}>
         <Text style={styles.sectionLabel}>TACTICS</Text>
@@ -111,21 +151,33 @@ export default function PowerUpArenaEntry() {
         <Text style={styles.panelText}>🎯 Smart timing creates comeback moments.</Text>
       </View>
 
-      <View style={styles.goldCard}>
+      <ImageBackground
+        source={POWER_LOADOUT_PANEL}
+        resizeMode="cover"
+        imageStyle={styles.goldImage}
+        style={styles.goldCard}
+      >
+        <LinearGradient
+          pointerEvents="none"
+          colors={["rgba(30,22,2,0.48)", "rgba(10,10,4,0.92)"]}
+          style={StyleSheet.absoluteFillObject}
+        />
         <Text style={styles.rewardTitle}>Prestige Hook</Text>
         <Text style={styles.rewardText}>
           Power-Up wins should become future badges, profile flexes, and limited
           event achievements.
         </Text>
-      </View>
+      </ImageBackground>
 
       <TouchableOpacity
         style={styles.startButton}
         onPress={handleStart}
         activeOpacity={0.9}
       >
-        <Text style={styles.startText}>Start Power Match</Text>
-        <Text style={styles.startSubtext}>Outplay. Outthink. Overpower.</Text>
+        <LinearGradient colors={["#66D8FF", "#1A9AD6"]} style={styles.startFill}>
+          <Text style={styles.startText}>Start Power Match</Text>
+          <Text style={styles.startSubtext}>Outplay. Outthink. Overpower.</Text>
+        </LinearGradient>
       </TouchableOpacity>
     </ScrollView>
   );
@@ -134,7 +186,7 @@ export default function PowerUpArenaEntry() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#0B0B12",
+    backgroundColor: "#070713",
   },
   content: {
     paddingTop: 48,
@@ -142,32 +194,43 @@ const styles = StyleSheet.create({
     paddingBottom: 128,
   },
   heroCard: {
+    minHeight: 220,
     borderRadius: 24,
     padding: 22,
+    overflow: "hidden",
+    justifyContent: "flex-end",
     borderWidth: 1,
-    borderColor: "rgba(79, 195, 247, 0.36)",
+    borderColor: "rgba(79, 195, 247, 0.52)",
     shadowColor: "#4FC3F7",
-    shadowOpacity: 0.24,
-    shadowRadius: 18,
+    shadowOpacity: 0.28,
+    shadowRadius: 20,
     elevation: 8,
   },
+  heroImage: { borderRadius: 24 },
   eyebrow: {
     color: "#81D4FA",
     fontSize: 12,
     fontWeight: "900",
     letterSpacing: 1.6,
+    textShadowColor: "rgba(0,0,0,0.95)",
+    textShadowRadius: 8,
   },
   title: {
     color: "#FFFFFF",
     fontSize: 34,
     fontWeight: "900",
     marginTop: 8,
+    textShadowColor: "rgba(0,0,0,0.95)",
+    textShadowRadius: 10,
   },
   subtitle: {
-    color: "#D8D8E8",
+    color: "#DDF6FF",
     fontSize: 15,
     lineHeight: 22,
     marginTop: 8,
+    fontWeight: "700",
+    textShadowColor: "rgba(0,0,0,0.9)",
+    textShadowRadius: 7,
   },
   pillRow: {
     flexDirection: "row",
@@ -179,24 +242,37 @@ const styles = StyleSheet.create({
     color: "#DDF6FF",
     fontSize: 11,
     fontWeight: "900",
-    backgroundColor: "rgba(79, 195, 247, 0.18)",
-    borderColor: "rgba(129, 212, 250, 0.45)",
+    backgroundColor: "rgba(79, 195, 247, 0.22)",
+    borderColor: "rgba(129, 212, 250, 0.60)",
     borderWidth: 1,
     paddingHorizontal: 10,
     paddingVertical: 6,
     borderRadius: 999,
+    overflow: "hidden",
   },
   goldPill: {
     color: "#FFF2BE",
     fontSize: 11,
     fontWeight: "900",
-    backgroundColor: "rgba(247, 201, 72, 0.16)",
-    borderColor: "rgba(247, 201, 72, 0.42)",
+    backgroundColor: "rgba(247, 201, 72, 0.20)",
+    borderColor: "rgba(247, 201, 72, 0.56)",
     borderWidth: 1,
     paddingHorizontal: 10,
     paddingVertical: 6,
     borderRadius: 999,
+    overflow: "hidden",
   },
+  loadoutCard: {
+    minHeight: 250,
+    marginTop: 16,
+    backgroundColor: "#121824",
+    borderRadius: 20,
+    padding: 18,
+    overflow: "hidden",
+    borderWidth: 1,
+    borderColor: "rgba(79, 195, 247, 0.26)",
+  },
+  panelImage: { borderRadius: 20 },
   card: {
     marginTop: 16,
     backgroundColor: "#121824",
@@ -210,9 +286,11 @@ const styles = StyleSheet.create({
     backgroundColor: "#17140D",
     borderRadius: 20,
     padding: 18,
+    overflow: "hidden",
     borderWidth: 1,
-    borderColor: "rgba(247, 201, 72, 0.25)",
+    borderColor: "rgba(247, 201, 72, 0.34)",
   },
+  goldImage: { borderRadius: 20 },
   rowBetween: {
     flexDirection: "row",
     alignItems: "center",
@@ -235,16 +313,19 @@ const styles = StyleSheet.create({
     color: "#4FC3F7",
     fontSize: 12,
     fontWeight: "900",
-    backgroundColor: "rgba(79, 195, 247, 0.12)",
+    backgroundColor: "rgba(79, 195, 247, 0.16)",
     paddingHorizontal: 10,
     paddingVertical: 5,
     borderRadius: 999,
+    overflow: "hidden",
   },
   emptyLoadout: {
-    marginTop: 14,
+    marginTop: 16,
     padding: 14,
     borderRadius: 14,
-    backgroundColor: "rgba(255,255,255,0.04)",
+    backgroundColor: "rgba(7, 11, 20, 0.62)",
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.06)",
   },
   emptyTitle: {
     color: "#FFFFFF",
@@ -252,41 +333,31 @@ const styles = StyleSheet.create({
     fontWeight: "800",
   },
   emptyText: {
-    color: "#AFAFC0",
+    color: "#C8C8D8",
     fontSize: 13,
     lineHeight: 19,
     marginTop: 5,
   },
-  powerList: {
-    marginTop: 12,
-  },
+  powerList: { marginTop: 12 },
   powerItem: {
     flexDirection: "row",
     justifyContent: "space-between",
     paddingVertical: 10,
     borderBottomWidth: 1,
-    borderBottomColor: "rgba(255,255,255,0.06)",
+    borderBottomColor: "rgba(255,255,255,0.08)",
   },
-  powerName: {
-    color: "#FFFFFF",
-    fontSize: 15,
-    fontWeight: "800",
-  },
-  powerQty: {
-    color: "#4FC3F7",
-    fontSize: 15,
-    fontWeight: "900",
-  },
+  powerName: { color: "#FFFFFF", fontSize: 15, fontWeight: "800" },
+  powerQty: { color: "#4FC3F7", fontSize: 15, fontWeight: "900" },
   secondaryButton: {
     marginTop: 16,
-    backgroundColor: "rgba(79, 195, 247, 0.14)",
+    backgroundColor: "rgba(79, 195, 247, 0.18)",
     paddingVertical: 13,
     borderRadius: 14,
     borderWidth: 1,
-    borderColor: "rgba(79, 195, 247, 0.28)",
+    borderColor: "rgba(79, 195, 247, 0.38)",
   },
   secondaryButtonText: {
-    color: "#81D4FA",
+    color: "#A7E8FF",
     textAlign: "center",
     fontSize: 15,
     fontWeight: "900",
@@ -298,11 +369,7 @@ const styles = StyleSheet.create({
     marginTop: 6,
     fontWeight: "600",
   },
-  rewardTitle: {
-    color: "#F7C948",
-    fontSize: 18,
-    fontWeight: "900",
-  },
+  rewardTitle: { color: "#F7C948", fontSize: 18, fontWeight: "900" },
   rewardText: {
     color: "#D8D1B6",
     fontSize: 14,
@@ -313,20 +380,18 @@ const styles = StyleSheet.create({
   startButton: {
     marginTop: 18,
     marginBottom: 10,
-    backgroundColor: "#4FC3F7",
-    paddingVertical: 14,
     borderRadius: 16,
-    alignItems: "center",
+    overflow: "hidden",
     shadowColor: "#4FC3F7",
-    shadowOpacity: 0.3,
+    shadowOpacity: 0.34,
     shadowRadius: 16,
     elevation: 8,
   },
-  startText: {
-    color: "#061018",
-    fontSize: 18,
-    fontWeight: "900",
+  startFill: {
+    paddingVertical: 14,
+    alignItems: "center",
   },
+  startText: { color: "#061018", fontSize: 18, fontWeight: "900" },
   startSubtext: {
     color: "rgba(6,16,24,0.75)",
     fontSize: 12,

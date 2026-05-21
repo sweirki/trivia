@@ -5,7 +5,12 @@ import {
   TouchableOpacity,
   StyleSheet,
   ScrollView,
+  ImageBackground,
 } from "react-native";
+
+const tournamentEntryHero = require("../../../../assets/images/arena/tournaments/tournament_entry_hero.webp");
+const tournamentPrestigePanel = require("../../../../assets/images/arena/tournaments/tournament_prestige_panel.webp");
+
 import { router } from "expo-router";
 import { s } from "@/arena/theme/arenaSizing";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
@@ -29,7 +34,7 @@ const EVENT_ROTATION = [
     tier: "GOLD MAJOR",
     subtitle: "Weekend Major",
     reward: "Elite rewards & prestige",
-    accent: "#FFD54F",
+    accent: "#D6A93A",
   },
 ];
 
@@ -158,12 +163,15 @@ export default function TournamentEntry() {
       contentContainerStyle={styles.content}
       showsVerticalScrollIndicator={false}
     >
-      <View
+      <ImageBackground
+        source={tournamentEntryHero}
+        imageStyle={styles.heroImage}
         style={[
           styles.heroCard,
           { borderColor: currentEvent.accent },
         ]}
       >
+        <View style={styles.heroShade} />
         <Text style={styles.liveTag}>TOURNAMENT EVENT</Text>
 
         <Text style={styles.heroTitle}>{currentEvent.tier}</Text>
@@ -178,7 +186,7 @@ export default function TournamentEntry() {
             {isCompleted ? "READY" : countdown}
           </Text>
         </View>
-      </View>
+      </ImageBackground>
 
       <View style={styles.sectionCard}>
         <Text style={styles.sectionTitle}>Event Rewards</Text>
@@ -197,14 +205,19 @@ export default function TournamentEntry() {
         <Text style={styles.ruleLine}>• Higher placements earn prestige rewards</Text>
       </View>
 
-      <View style={styles.warningCard}>
+      <ImageBackground
+        source={tournamentPrestigePanel}
+        imageStyle={styles.warningImage}
+        style={styles.warningCard}
+      >
+        <View style={styles.warningShade} />
         <Text style={styles.warningTitle}>Tournament Pressure</Text>
 
         <Text style={styles.warningText}>
           Lose and your run ends. Win rounds to advance, build champion momentum,
           and claim the top reward.
         </Text>
-      </View>
+      </ImageBackground>
 
       <TouchableOpacity style={styles.joinButton} onPress={handleJoin} activeOpacity={0.72}>
         <Text style={styles.joinButtonText}>
@@ -220,21 +233,37 @@ export default function TournamentEntry() {
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    backgroundColor: "#050512",
+    backgroundColor: "#050716",
   },
 
   content: {
-    paddingTop: s(22),
+    paddingTop: s(44),
     paddingBottom: s(190),
     paddingHorizontal: s(16),
   },
 
   heroCard: {
-    backgroundColor: "#131326",
+    overflow: "hidden",
+    backgroundColor: "#101827",
     borderWidth: 1.5,
     borderRadius: s(20),
     padding: s(18),
     marginBottom: s(14),
+  },
+
+  heroImage: {
+    borderRadius: s(20),
+  },
+  heroShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(5, 8, 20, 0.42)",
+  },
+  warningImage: {
+    borderRadius: s(16),
+  },
+  warningShade: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(15, 12, 18, 0.48)",
   },
 
   liveTag: {
@@ -271,13 +300,13 @@ const styles = StyleSheet.create({
   },
 
   countdownValue: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(19),
     fontWeight: "800",
   },
 
   sectionCard: {
-    backgroundColor: "#101020",
+    backgroundColor: "#121724",
     borderRadius: s(16),
     padding: s(16),
     marginBottom: s(12),
@@ -291,7 +320,7 @@ const styles = StyleSheet.create({
   },
 
   rewardCoins: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(26),
     fontWeight: "900",
   },
@@ -309,16 +338,17 @@ const styles = StyleSheet.create({
   },
 
   warningCard: {
-    backgroundColor: "#2A2108",
+    overflow: "hidden",
+    backgroundColor: "#131019",
     borderWidth: 1,
-    borderColor: "#7A5A00",
+    borderColor: "rgba(214,169,58,0.45)",
     borderRadius: s(16),
     padding: s(15),
     marginBottom: s(18),
   },
 
   warningTitle: {
-    color: "#FFD54F",
+    color: "#D6A93A",
     fontSize: s(18),
     fontWeight: "800",
     marginBottom: s(10),
@@ -331,7 +361,9 @@ const styles = StyleSheet.create({
   },
 
   joinButton: {
-    backgroundColor: "#FFD54F",
+    backgroundColor: "#D6A93A",
+    borderWidth: 1,
+    borderColor: "rgba(255,231,158,0.42)",
     borderRadius: s(14),
     paddingVertical: s(12),
     alignItems: "center",
@@ -339,7 +371,7 @@ const styles = StyleSheet.create({
   },
 
   joinButtonText: {
-    color: "#000",
+    color: "#0B1020",
     fontSize: s(19),
     fontWeight: "900",
   },

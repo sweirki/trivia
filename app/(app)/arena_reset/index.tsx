@@ -1,37 +1,55 @@
 import {
-  View,
-  Text,
-  TouchableOpacity,
+  Animated,
+  Image,
+  ImageBackground,
   ScrollView,
   StyleSheet,
-  Image,
-  Animated,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
 import React from "react";
-import { s } from "@/arena/theme/arenaSizing";
+
+import AnimatedProgressBar from "@/components/AnimatedProgressBar";
+import { useThemedAlert } from "@/components/ThemedAlert";
+import { CosmeticCategory } from "@/cosmetics/types";
+import { getCosmeticAssetSource } from "@/cosmetics/cosmeticAssets";
+import { getEquippedCosmetic } from "@/cosmetics/cosmeticSelectors";
 import { useArenaRankSystem } from "@/arena/store/useArenaRankSystem";
 import { useArenaStore } from "@/arena/store/useArenaStore";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
+import { s } from "@/arena/theme/arenaSizing";
 import { usePlayerStore } from "@/store/usePlayerStore";
+import { trackEvent, trackScreenView } from "@/observability";
 
-import { useThemedAlert } from "@/components/ThemedAlert";
-import { CosmeticCategory } from "@/cosmetics/types";
-import { getEquippedCosmetic } from "@/cosmetics/cosmeticSelectors";
-import { getCosmeticAssetSource } from "@/cosmetics/cosmeticAssets";
-import AnimatedProgressBar from "@/components/AnimatedProgressBar";
-import { trackScreenView, trackEvent } from "@/observability";
 import { ArenaModeCard } from "./arena.components";
 import { getSRPercent } from "./arena.helpers";
+
+const ARENA_HERO_ART = require("../../../assets/images/arena/arena_hero_banner.webp");
+const RANKED_MODE_ART = require("../../../assets/images/arena/ranked_mode_card.webp");
+const SURVIVAL_MODE_ART = require("../../../assets/images/arena/survival_mode_card.webp");
+const POWER_MODE_ART = require("../../../assets/images/arena/power_mode_card.webp");
+const TOURNAMENT_MODE_ART = require("../../../assets/images/arena/tournament_mode_card.webp");
 
 export default function ArenaHub() {
   const { showThemedAlert, themedAlert } = useThemedAlert();
   const { rank, sr, season } = useArenaRankSystem();
   const { lastDailyPlayedAt, weeklyPlays, dailyStreak } = useTournamentStore();
   const playerCosmetics = usePlayerStore((state) => state.cosmetics);
-  const equippedArenaBanner = getEquippedCosmetic(playerCosmetics, CosmeticCategory.ARENA_BANNER);
-  const equippedAnswerTrail = getEquippedCosmetic(playerCosmetics, CosmeticCategory.ANSWER_TRAIL);
-  const equippedStreakAura = getEquippedCosmetic(playerCosmetics, CosmeticCategory.STREAK_AURA);
+  const equippedArenaBanner = getEquippedCosmetic(
+    playerCosmetics,
+    CosmeticCategory.ARENA_BANNER,
+  );
+  const equippedAnswerTrail = getEquippedCosmetic(
+    playerCosmetics,
+    CosmeticCategory.ANSWER_TRAIL,
+  );
+  const equippedStreakAura = getEquippedCosmetic(
+    playerCosmetics,
+    CosmeticCategory.STREAK_AURA,
+  );
   const arenaBannerSource = getCosmeticAssetSource(equippedArenaBanner?.icon);
 
   const pulseAnim = React.useRef(new Animated.Value(1)).current;
@@ -41,7 +59,7 @@ export default function ArenaHub() {
     const pulseLoop = Animated.loop(
       Animated.sequence([
         Animated.timing(pulseAnim, {
-          toValue: 1.04,
+          toValue: 1.035,
           duration: 1200,
           useNativeDriver: true,
         }),
@@ -50,7 +68,7 @@ export default function ArenaHub() {
           duration: 1200,
           useNativeDriver: true,
         }),
-      ])
+      ]),
     );
 
     const glowLoop = Animated.loop(
@@ -65,7 +83,7 @@ export default function ArenaHub() {
           duration: 1600,
           useNativeDriver: true,
         }),
-      ])
+      ]),
     );
 
     pulseLoop.start();
@@ -89,19 +107,19 @@ export default function ArenaHub() {
   const weeklyPercent = (weeklyProgress / weeklyGoal) * 100;
   const weeklyAlmostDone = weeklyProgress === weeklyGoal - 1;
 
- React.useEffect(() => {
-  void trackScreenView("arena_hub", {
-    rank: rank?.league ?? "unknown",
-    sr,
-    weeklyProgress,
-    dailyStreak: safeDailyStreak,
-  });
+  React.useEffect(() => {
+    void trackScreenView("arena_hub", {
+      rank: rank?.league ?? "unknown",
+      sr,
+      weeklyProgress,
+      dailyStreak: safeDailyStreak,
+    });
 
-  void trackEvent("arena_entered", {
-    rank: rank?.league ?? "unknown",
-    sr,
-  });
-}, [rank?.league, safeDailyStreak, sr, weeklyProgress]);
+    void trackEvent("arena_entered", {
+      rank: rank?.league ?? "unknown",
+      sr,
+    });
+  }, [rank?.league, safeDailyStreak, sr, weeklyProgress]);
 
   const hasRank =
     !!rank && typeof rank.maxSR === "number" && typeof rank.minSR === "number";
@@ -121,9 +139,49 @@ export default function ArenaHub() {
   const isDangerZone = progress <= 18;
   const isOnFire = safeDailyStreak >= 2;
 
+  const pressureLabel = isNearPromotion
+    ? "Promotion Window"
+    : isDangerZone
+      ? "Danger Zone"
+      : "Rank Pressure";
+  const pressureColor = isDangerZone
+    ? "#FF5C7A"
+    : isNearPromotion
+      ? "#FFD36B"
+      : "#8FE6FF";
+
   return (
-    <ScrollView testID="screen-arena" style={styles.container} contentContainerStyle={styles.content}>
-      <View style={styles.heroCard}>
+    <ScrollView
+      testID="screen-arena"
+      style={styles.container}
+      contentContainerStyle={styles.content}
+      showsVerticalScrollIndicator={false}
+    >
+      <ImageBackground
+        source={ARENA_HERO_ART}
+        resizeMode="cover"
+        imageStyle={styles.heroImage}
+        style={styles.heroCard}
+      >
+        <LinearGradient
+          pointerEvents="none"
+          colors={[
+            "rgba(3,8,18,0.88)",
+            "rgba(3,8,18,0.50)",
+            "rgba(3,8,18,0.10)",
+          ]}
+          start={{ x: 0, y: 0.5 }}
+          end={{ x: 1, y: 0.5 }}
+          style={StyleSheet.absoluteFillObject}
+        />
+        <LinearGradient
+          pointerEvents="none"
+          colors={["rgba(255,255,255,0.14)", "rgba(60,205,255,0.04)", "rgba(0,0,0,0)"]}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={StyleSheet.absoluteFillObject}
+        />
+
         <View style={styles.liveRow}>
           <Animated.View style={{ transform: [{ scale: pulseAnim }] }}>
             <Text style={styles.livePill}>LIVE ARENA</Text>
@@ -132,19 +190,22 @@ export default function ArenaHub() {
           <Text style={styles.seasonPill}>Season {season}</Text>
         </View>
 
-        <Text style={styles.heroTitle}>Arena Season {season}</Text>
-        <Text style={styles.heroSubtitle}>
-          Ranked pressure, daily arena momentum, tournament glory, seasonal rewards, and prestige progression.
-        </Text>
+        <View style={styles.heroCopy}>
+          <Text style={styles.heroKicker}>COMPETITIVE ECOSYSTEM</Text>
+          <Text style={styles.heroTitle}>Arena Season {season}</Text>
+          <Text style={styles.heroSubtitle}>
+            Climb, protect rank, and win prestige rewards.
+          </Text>
+        </View>
 
         <View style={styles.heroStatsRow}>
-          <View style={styles.heroStatBox}>
+          <View style={styles.heroStatBoxPrimary}>
             <Text style={styles.heroStatValue}>{rank.league}</Text>
             <Text style={styles.heroStatLabel}>League</Text>
           </View>
 
           <View style={styles.heroStatBox}>
-            <Text style={styles.heroStatValue}>{sr}</Text>
+            <Text style={styles.heroStatValueBlue}>{sr}</Text>
             <Text style={styles.heroStatLabel}>SR</Text>
           </View>
 
@@ -157,37 +218,32 @@ export default function ArenaHub() {
         {(equippedArenaBanner || equippedAnswerTrail || equippedStreakAura) && (
           <View style={styles.cosmeticStrip}>
             {arenaBannerSource ? (
-              <Image source={arenaBannerSource} style={styles.cosmeticBannerThumb} resizeMode="cover" />
+              <Image
+                source={arenaBannerSource}
+                style={styles.cosmeticBannerThumb}
+                resizeMode="cover"
+              />
             ) : null}
             <View style={styles.cosmeticStripText}>
               <Text style={styles.cosmeticStripTitle}>Equipped Arena Style</Text>
-              <Text style={styles.cosmeticStripBody}>
-                {[equippedArenaBanner?.name, equippedAnswerTrail?.name, equippedStreakAura?.name].filter(Boolean).join(" • ")}
+              <Text style={styles.cosmeticStripBody} numberOfLines={1}>
+                {[
+                  equippedArenaBanner?.name,
+                  equippedAnswerTrail?.name,
+                  equippedStreakAura?.name,
+                ]
+                  .filter(Boolean)
+                  .join(" • ")}
               </Text>
             </View>
           </View>
         )}
-      </View>
+      </ImageBackground>
 
-      <Animated.View
-        style={[
-          styles.seasonLiveCard,
-          {
-            opacity: glowAnim,
-            transform: [{ scale: pulseAnim }],
-          },
-        ]}
+      <LinearGradient
+        colors={["rgba(20,44,78,0.96)", "rgba(8,19,40,0.98)"]}
+        style={styles.rankCard}
       >
-        <Text style={styles.seasonLiveLabel}>SEASON STATUS</Text>
-        <Text style={styles.seasonLiveTitle}>Season {season} Ends In</Text>
-        <Text style={styles.seasonCountdown}>12D 08H</Text>
-        <Text style={styles.seasonLiveBody}>
-          Top players will receive exclusive seasonal prestige, future profile borders,
-          champion frames, trophy cosmetics, and elite rewards.
-        </Text>
-      </Animated.View>
-
-      <View style={styles.rankCard}>
         <View style={styles.rankTopRow}>
           {rank.icon ? (
             <Image source={{ uri: rank.icon }} style={styles.rankIcon} />
@@ -198,10 +254,10 @@ export default function ArenaHub() {
           )}
 
           <View style={styles.rankTextBlock}>
+            <Text style={styles.rankLabel}>{pressureLabel}</Text>
             <Text style={styles.rankName}>
               {rank.league} {rank.division ? `• ${rank.division}` : ""}
             </Text>
-
             <Text style={styles.rankSubtitle}>
               {isNearPromotion
                 ? `${srToPromotion} SR from promotion. Push now.`
@@ -215,42 +271,49 @@ export default function ArenaHub() {
         <AnimatedProgressBar
           percent={progress}
           height={s(10)}
-          fillColor={isDangerZone ? "#FF5C7A" : isNearPromotion ? "#FFD36B" : "#56D67B"}
-          trackColor="#2c2c3b"
-          glowColor={isDangerZone ? "#FF5C7A" : isNearPromotion ? "#FFD36B" : "#56D67B"}
+          fillColor={pressureColor}
+          trackColor="rgba(190,231,255,0.16)"
+          glowColor={pressureColor}
           style={styles.progressBarWrapper}
         />
 
         <View style={styles.pressureRow}>
-          <Text style={[styles.pressureText, isNearPromotion && styles.goldText]}>
-            {isNearPromotion ? "Promotion Window" : "Promotion"}
+          <Text style={[styles.pressureText, { color: pressureColor }]}>
+            {Math.round(progress)}% through division
           </Text>
-
-          <Text style={[styles.pressureText, isDangerZone && styles.dangerText]}>
-            {isDangerZone ? "Danger Zone" : "Rank Shield"}
-          </Text>
+          <Text style={styles.pressureText}>Rank Shield</Text>
         </View>
-      </View>
+      </LinearGradient>
 
-      <View style={styles.majorCard}>
+      <Animated.View
+        style={[
+          styles.seasonLiveCard,
+          {
+            opacity: glowAnim,
+            transform: [{ scale: pulseAnim }],
+          },
+        ]}
+      >
+        <View>
+          <Text style={styles.seasonLiveLabel}>SEASON STATUS</Text>
+          <Text style={styles.seasonLiveTitle}>Season {season} Ends In</Text>
+        </View>
+        <Text style={styles.seasonCountdown}>12D 08H</Text>
+      </Animated.View>
+
+      <LinearGradient
+        colors={["rgba(247,211,106,0.18)", "rgba(12,28,56,0.98)"]}
+        style={styles.majorCard}
+      >
         <View style={styles.cardHeaderRow}>
           <Text style={styles.majorLabel}>DAILY ARENA</Text>
           <Text style={styles.countdownText}>Refreshes daily</Text>
         </View>
 
-        <Text style={styles.majorTitle}>⚔️ Daily Competitive Push</Text>
-
+        <Text style={styles.majorTitle}>Daily Competitive Push</Text>
         <Text style={styles.majorBody}>
-          Climb ranks, build streak momentum, earn rewards, and dominate today's arena rotation.
+          Play today’s ranked pressure run and keep momentum alive.
         </Text>
-
-        <View style={styles.pressureBox}>
-          <Text style={styles.pressureBoxTitle}>TODAY'S PRESSURE</Text>
-          <Text style={styles.pressureBoxText}>
-            Win arena battles to protect your division, increase streak bonuses,
-            and unlock higher prestige rewards.
-          </Text>
-        </View>
 
         <TouchableOpacity
           testID="arena-daily-ranked-button"
@@ -260,7 +323,7 @@ export default function ArenaHub() {
               showThemedAlert(
                 "Daily Arena Complete",
                 "You already completed today's Daily Arena. Come back tomorrow.",
-                "info"
+                "info",
               );
               return;
             }
@@ -276,7 +339,7 @@ export default function ArenaHub() {
             {playedToday ? "Played Today" : "Play Daily Arena"}
           </Text>
         </TouchableOpacity>
-      </View>
+      </LinearGradient>
 
       <View style={styles.energyGrid}>
         <View style={[styles.energyCard, weeklyAlmostDone && styles.glowBlue]}>
@@ -287,64 +350,78 @@ export default function ArenaHub() {
             percent={weeklyPercent}
             height={s(7)}
             fillColor="#4FC3F7"
-            trackColor="#2d3145"
+            trackColor="rgba(190,231,255,0.16)"
             glowColor="#4FC3F7"
             style={styles.smallBar}
           />
 
-          <Text style={styles.energyHint}>
-            {weeklyAlmostDone ? "One more run for the weekly chest." : "Build weekly arena momentum."}
+          <Text style={styles.energyHint} numberOfLines={2}>
+            {weeklyAlmostDone
+              ? "One more run for the weekly chest."
+              : "Build weekly arena momentum."}
           </Text>
         </View>
 
         <View style={[styles.energyCard, isOnFire && styles.glowOrange]}>
           <Text style={styles.energyTitle}>Streak Heat</Text>
           <Text style={styles.energyValue}>🔥 {safeDailyStreak}</Text>
-          <Text style={styles.energyHint}>
-            {isOnFire ? "You are on fire. Keep the chain alive." : "Play daily to start your fire streak."}
+          <Text style={styles.energyHint} numberOfLines={2}>
+            {isOnFire
+              ? "You are on fire. Keep the chain alive."
+              : "Play daily to start your streak."}
           </Text>
         </View>
       </View>
 
-      <View style={styles.rewardCard}>
-        <Text style={styles.rewardTitle}>Prestige Rewards</Text>
-        <Text style={styles.rewardText}>
-          Climb ranks, win cups, protect streaks, and build your profile identity with trophies, badges, coins, XP, and future cosmetics.
-        </Text>
-      </View>
+      <View style={styles.prestigeRow}>
+        <View style={styles.prestigeCard}>
+          <Text style={styles.prestigeLabel}>PRESTIGE</Text>
+          <Text style={styles.prestigeTitle}>Rewards</Text>
+          <Text style={styles.prestigeText} numberOfLines={2}>
+            Win cups, climb ranks, and build profile identity.
+          </Text>
+        </View>
 
-      <View style={styles.leaderboardTease}>
-        <Text style={styles.leaderboardLabel}>GLOBAL LEADERBOARDS</Text>
-        <Text style={styles.leaderboardTitle}>Top 100 Arena Players</Text>
-        <Text style={styles.leaderboardBody}>
-          Seasonal rankings, global prestige, tournament legends, and elite competitors are arriving soon.
-        </Text>
+        <View style={styles.prestigeCard}>
+          <Text style={styles.prestigeLabelBlue}>GLOBAL</Text>
+          <Text style={styles.prestigeTitle}>Top 100</Text>
+          <Text style={styles.prestigeText} numberOfLines={2}>
+            Seasonal rankings and elite competitors.
+          </Text>
+        </View>
       </View>
 
       <Animated.View style={[styles.eventCard, { transform: [{ scale: pulseAnim }] }]}>
         <Text style={styles.eventLabel}>LIMITED EVENT</Text>
-        <Text style={styles.eventTitle}>⚡ Lightning Cup Weekend</Text>
+        <Text style={styles.eventTitle}>Lightning Cup Weekend</Text>
         <Text style={styles.eventBody}>
-          Faster timers. Higher SR pressure. Exclusive rewards for top performers.
+          Faster timers. Higher SR pressure. Exclusive rewards.
         </Text>
-
-        <View style={styles.eventPillRow}>
-          <Text style={styles.eventPill}>LIVE</Text>
-          <Text style={styles.eventPill}>2x Prestige</Text>
-          <Text style={styles.eventPill}>Weekend Only</Text>
-        </View>
       </Animated.View>
 
       <View style={styles.modesWrapper}>
+        <Text style={styles.sectionTitle}>Choose Arena</Text>
+
         <ArenaModeCard
           testID="arena-mode-ranked"
-          icon="⚔️"
+          art={RANKED_MODE_ART}
+          accent="#D6A93A"
           title="Ranked Arena"
           subtitle="Entry: 5 tickets • Win: 200 coins + tokens."
-          tag={isNearPromotion ? "PROMOTION NEAR" : isDangerZone ? "PROTECT RANK" : "COMPETITIVE"}
+          tag={
+            isNearPromotion
+              ? "PROMOTION"
+              : isDangerZone
+                ? "PROTECT"
+                : "COMPETITIVE"
+          }
           onPress={() => {
             if (!usePlayerStore.getState().spendTickets(5)) {
-              showThemedAlert("Not enough tickets", "Ranked Arena requires 5 tickets.", "warning");
+              showThemedAlert(
+                "Not enough tickets",
+                "Ranked Arena requires 5 tickets.",
+                "warning",
+              );
               return;
             }
 
@@ -353,13 +430,18 @@ export default function ArenaHub() {
         />
 
         <ArenaModeCard
-          icon="💀"
+          art={SURVIVAL_MODE_ART}
+          accent="#8FE6FF"
           title="Survival Arena"
           subtitle="Entry: 4 tickets • Rewards scale with rounds survived."
           tag="HIGH SCORE"
           onPress={() => {
             if (!usePlayerStore.getState().spendTickets(4)) {
-              showThemedAlert("Not enough tickets", "Survival Arena requires 4 tickets.", "warning");
+              showThemedAlert(
+                "Not enough tickets",
+                "Survival Arena requires 4 tickets.",
+                "warning",
+              );
               return;
             }
 
@@ -370,13 +452,18 @@ export default function ArenaHub() {
         />
 
         <ArenaModeCard
-          icon="⚡"
+          art={POWER_MODE_ART}
+          accent="#4FC3F7"
           title="Power-Up Arena"
           subtitle="Entry: 5 tickets • Score-based coin reward."
           tag="STRATEGY"
           onPress={() => {
             if (!usePlayerStore.getState().spendTickets(5)) {
-              showThemedAlert("Not enough tickets", "Power-Up Arena requires 5 tickets.", "warning");
+              showThemedAlert(
+                "Not enough tickets",
+                "Power-Up Arena requires 5 tickets to enter.",
+                "warning",
+              );
               return;
             }
 
@@ -387,13 +474,18 @@ export default function ArenaHub() {
         <Animated.View style={{ transform: [{ scale: pulseAnim }] }}>
           <ArenaModeCard
             testID="arena-mode-tournaments"
-            icon="🏆"
+            art={TOURNAMENT_MODE_ART}
+            accent="#D6A93A"
             title="Tournaments"
             subtitle="Entry: 8 tickets • Highest-stakes Arena mode."
             tag="LIVE EVENT"
             onPress={() => {
               if (!usePlayerStore.getState().spendTickets(8)) {
-                showThemedAlert("Not enough tickets", "Tournaments require 8 tickets.", "warning");
+                showThemedAlert(
+                  "Not enough tickets",
+                  "Tournament entry requires 8 tickets.",
+                  "warning",
+                );
                 return;
               }
 
@@ -409,30 +501,46 @@ export default function ArenaHub() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#090912" },
-  content: { alignItems: "center", paddingHorizontal: s(14), paddingTop: s(14), paddingBottom: s(36) },
+  container: { flex: 1, backgroundColor: "#071226" },
+  content: {
+    alignItems: "center",
+    paddingHorizontal: s(14),
+    paddingTop: s(28),
+    paddingBottom: s(40),
+  },
 
   loadingContainer: {
     flex: 1,
-    backgroundColor: "#090912",
+    backgroundColor: "#071226",
     alignItems: "center",
     justifyContent: "center",
   },
-  loadingText: { color: "#aaa", fontSize: s(16) },
+  loadingText: { color: "#BBD7FF", fontSize: s(16), fontWeight: "800" },
 
   heroCard: {
     width: "100%",
-    backgroundColor: "#171423",
-    borderRadius: s(24),
-    padding: s(20),
+    minHeight: s(256),
+    borderRadius: s(28),
+    padding: s(22),
     borderWidth: 1,
-    borderColor: "#3d315f",
-    marginTop: s(76),
+    borderColor: "rgba(190,231,255,0.30)",
     marginBottom: s(14),
+    overflow: "hidden",
+    backgroundColor: "#0A1830",
+    shadowColor: "#000",
+    shadowOpacity: 0.42,
+    shadowRadius: s(28),
+    shadowOffset: { width: 0, height: s(12) },
+    elevation: 9,
   },
-  liveRow: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
+  heroImage: { borderRadius: s(28) },
+  liveRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
   livePill: {
-    color: "#120d05",
+    color: "#120D05",
     backgroundColor: "#FFD36B",
     paddingHorizontal: s(10),
     paddingVertical: s(5),
@@ -440,295 +548,338 @@ const styles = StyleSheet.create({
     fontSize: s(11),
     fontWeight: "900",
     letterSpacing: 0.8,
+    overflow: "hidden",
   },
   seasonPill: {
-    color: "#BBD7FF",
-    backgroundColor: "#1f2b45",
+    color: "#D8E7FF",
+    backgroundColor: "rgba(7,17,35,0.66)",
+    borderWidth: 1,
+    borderColor: "rgba(190,231,255,0.24)",
     paddingHorizontal: s(10),
     paddingVertical: s(5),
     borderRadius: s(999),
     fontSize: s(11),
-    fontWeight: "800",
+    fontWeight: "900",
+    overflow: "hidden",
   },
-  heroTitle: { color: "#fff", fontSize: s(25), fontWeight: "900", marginTop: s(14) },
-  heroSubtitle: { color: "#c8c4d8", fontSize: s(14), lineHeight: s(20), marginTop: s(8) },
-  heroStatsRow: { flexDirection: "row", gap: s(9), marginTop: s(14) },
+  heroCopy: {
+    maxWidth: "72%",
+    marginTop: s(30),
+  },
+  heroKicker: {
+    color: "#FFD36B",
+    fontSize: s(10),
+    fontWeight: "900",
+    letterSpacing: 1.15,
+    textShadowColor: "rgba(0,0,0,0.9)",
+    textShadowRadius: s(8),
+  },
+  heroTitle: {
+    color: "#FFFFFF",
+    fontSize: s(28),
+    fontWeight: "900",
+    marginTop: s(5),
+    letterSpacing: -0.5,
+    textShadowColor: "rgba(0,0,0,0.95)",
+    textShadowRadius: s(10),
+  },
+  heroSubtitle: {
+    color: "#D8E7FF",
+    fontSize: s(13),
+    fontWeight: "800",
+    lineHeight: s(18),
+    marginTop: s(7),
+    textShadowColor: "rgba(0,0,0,0.9)",
+    textShadowRadius: s(7),
+  },
+  heroStatsRow: {
+    flexDirection: "row",
+    gap: s(8),
+    marginTop: "auto",
+  },
   heroStatBox: {
     flex: 1,
-    backgroundColor: "#211d31",
+    backgroundColor: "rgba(12,26,48,0.78)",
+    borderWidth: 1,
+    borderColor: "rgba(190,231,255,0.24)",
     borderRadius: s(16),
-    paddingVertical: s(10),
+    paddingVertical: s(9),
+    alignItems: "center",
+  },
+  heroStatBoxPrimary: {
+    flex: 1.18,
+    backgroundColor: "rgba(247,211,106,0.16)",
+    borderWidth: 1,
+    borderColor: "rgba(247,211,106,0.38)",
+    borderRadius: s(16),
+    paddingVertical: s(9),
     alignItems: "center",
   },
   heroStatValue: { color: "#FFD36B", fontSize: s(15), fontWeight: "900" },
-  heroStatLabel: { color: "#8f8aa3", fontSize: s(11), marginTop: s(3) },
-
-  seasonLiveCard: {
-    width: "100%",
-    backgroundColor: "#151522",
-    borderRadius: s(16),
-    padding: s(14),
-    borderWidth: 1,
-    borderColor: "#32415f",
-    marginBottom: s(14),
-  },
-  seasonLiveLabel: {
+  heroStatValueBlue: { color: "#8FE6FF", fontSize: s(15), fontWeight: "900" },
+  heroStatLabel: {
     color: "#BBD7FF",
-    fontSize: s(11),
+    fontSize: s(10),
     fontWeight: "900",
-    letterSpacing: 1,
-  },
-  seasonLiveTitle: {
-    color: "#fff",
-    fontSize: s(18),
-    fontWeight: "900",
-    marginTop: s(7),
-  },
-  seasonCountdown: {
-    color: "#FFD36B",
-    fontSize: s(30),
-    fontWeight: "900",
-    marginTop: s(8),
-  },
-  seasonLiveBody: {
-    color: "#b9bfd2",
-    fontSize: s(13),
-    lineHeight: s(19),
-    marginTop: s(10),
+    marginTop: s(3),
+    textTransform: "uppercase",
+    letterSpacing: 0.55,
   },
 
   rankCard: {
     width: "100%",
-    backgroundColor: "#11111d",
-    borderRadius: s(22),
-    padding: s(14),
+    borderRadius: s(24),
+    padding: s(15),
     borderWidth: 1,
-    borderColor: "#292844",
-    marginBottom: s(14),
+    borderColor: "rgba(190,231,255,0.24)",
+    marginBottom: s(12),
+    overflow: "hidden",
   },
-  rankTopRow: { flexDirection: "row", alignItems: "center", gap: s(14) },
+  rankTopRow: { flexDirection: "row", alignItems: "center", gap: s(13) },
   rankIcon: { width: s(62), height: s(62) },
   rankIconFallback: {
     width: s(62),
     height: s(62),
     borderRadius: s(22),
-    backgroundColor: "#232337",
+    backgroundColor: "rgba(247,211,106,0.12)",
     alignItems: "center",
     justifyContent: "center",
     borderWidth: 1,
-    borderColor: "#FFD36B",
+    borderColor: "rgba(247,211,106,0.45)",
   },
   rankIconFallbackText: { fontSize: s(30) },
   rankTextBlock: { flex: 1 },
-  rankName: { color: "#fff", fontSize: s(19), fontWeight: "900" },
-  rankSubtitle: { color: "#aaa6bb", fontSize: s(13), marginTop: s(5), lineHeight: s(18) },
+  rankLabel: {
+    color: "#FFD36B",
+    fontSize: s(10),
+    fontWeight: "900",
+    letterSpacing: 0.9,
+    textTransform: "uppercase",
+  },
+  rankName: {
+    color: "#FFFFFF",
+    fontSize: s(19),
+    fontWeight: "900",
+    marginTop: s(3),
+  },
+  rankSubtitle: {
+    color: "#BBD7FF",
+    fontSize: s(12),
+    fontWeight: "800",
+    marginTop: s(4),
+    lineHeight: s(17),
+  },
   progressBarWrapper: {
     height: s(10),
-    backgroundColor: "#2c2c3b",
     borderRadius: s(999),
     overflow: "hidden",
-    marginTop: s(16),
-  },
-  progressBar: { height: s(10), backgroundColor: "#56D67B", borderRadius: s(999) },
-  progressPromotion: { backgroundColor: "#FFD36B" },
-  progressDanger: { backgroundColor: "#FF5C7A" },
-  pressureRow: { flexDirection: "row", justifyContent: "space-between", marginTop: s(10) },
-  pressureText: { color: "#8f8aa3", fontSize: s(12), fontWeight: "800" },
-  goldText: { color: "#FFD36B" },
-  dangerText: { color: "#FF6B82" },
-
-  majorCard: {
-    width: "100%",
-    backgroundColor: "#1b1624",
-    borderRadius: s(22),
-    padding: s(14),
-    borderWidth: 1,
-    borderColor: "#6d4b1e",
-    marginBottom: s(14),
-  },
-  cardHeaderRow: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
-  majorLabel: { color: "#FFD36B", fontSize: s(11), fontWeight: "900", letterSpacing: 1 },
-  countdownText: { color: "#ffb1bf", fontSize: s(12), fontWeight: "800" },
-  majorTitle: { color: "#fff", fontSize: s(19), fontWeight: "900", marginTop: s(9) },
-  majorBody: { color: "#c9c2d4", fontSize: s(13), lineHeight: s(19), marginTop: s(8) },
-  pressureBox: {
-    backgroundColor: "#241d14",
-    borderRadius: s(14),
-    padding: s(12),
-    marginTop: s(14),
-    borderWidth: 1,
-    borderColor: "#5b4721",
-  },
-  pressureBoxTitle: {
-    color: "#FFD36B",
-    fontWeight: "900",
-    fontSize: s(12),
-    marginBottom: s(6),
-  },
-  pressureBoxText: {
-    color: "#d4ccba",
-    fontSize: s(12),
-    lineHeight: s(18),
-  },
-  primaryButton: {
-    backgroundColor: "#FFD36B",
-    borderRadius: s(15),
-    paddingVertical: s(14),
-    alignItems: "center",
     marginTop: s(15),
   },
-  primaryButtonDisabled: {
-    opacity: 0.55,
+  pressureRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginTop: s(9),
   },
-  primaryButtonText: { color: "#16100a", fontWeight: "900", fontSize: s(15) },
+  pressureText: { color: "#9DB6D8", fontSize: s(11), fontWeight: "900" },
 
-  energyGrid: { width: "100%", flexDirection: "row", gap: s(12), marginBottom: s(14) },
-  energyCard: {
-    flex: 1,
-    backgroundColor: "#121422",
-    borderRadius: s(16),
-    padding: s(14),
-    borderWidth: 1,
-    borderColor: "#262b44",
-  },
-  glowBlue: { borderColor: "#4FC3F7" },
-  glowOrange: { borderColor: "#FF7043" },
-  energyTitle: { color: "#aeb4d1", fontSize: s(12), fontWeight: "800" },
-  energyValue: { color: "#fff", fontSize: s(22), fontWeight: "900", marginTop: s(7) },
-  energyHint: { color: "#858aa4", fontSize: s(11), lineHeight: s(15), marginTop: s(8) },
-  smallBar: {
-    height: s(7),
-    backgroundColor: "#2d3145",
-    borderRadius: s(999),
-    overflow: "hidden",
-    marginTop: s(10),
-  },
-
-  rewardCard: {
+  seasonLiveCard: {
     width: "100%",
-    backgroundColor: "#111827",
-    borderRadius: s(16),
+    backgroundColor: "rgba(12,28,56,0.92)",
+    borderRadius: s(19),
     padding: s(14),
     borderWidth: 1,
-    borderColor: "#26344f",
-    marginBottom: s(14),
+    borderColor: "rgba(143,230,255,0.30)",
+    marginBottom: s(12),
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
   },
-  rewardTitle: { color: "#BBD7FF", fontSize: s(16), fontWeight: "900" },
-  rewardText: { color: "#b7bfd2", fontSize: s(13), lineHeight: s(19), marginTop: s(7) },
-
-  leaderboardTease: {
-    width: "100%",
-    backgroundColor: "#12131c",
-    borderRadius: s(16),
-    padding: s(14),
-    borderWidth: 1,
-    borderColor: "#2a3040",
-    marginBottom: s(14),
-  },
-  leaderboardLabel: {
-    color: "#BBD7FF",
-    fontSize: s(11),
+  seasonLiveLabel: {
+    color: "#8FE6FF",
+    fontSize: s(10),
     fontWeight: "900",
     letterSpacing: 1,
   },
-  leaderboardTitle: {
-    color: "#fff",
-    fontSize: s(18),
+  seasonLiveTitle: {
+    color: "#FFFFFF",
+    fontSize: s(15),
     fontWeight: "900",
+    marginTop: s(4),
+  },
+  seasonCountdown: {
+    color: "#FFD36B",
+    fontSize: s(27),
+    fontWeight: "900",
+  },
+
+  majorCard: {
+    width: "100%",
+    borderRadius: s(22),
+    padding: s(15),
+    borderWidth: 1,
+    borderColor: "rgba(247,211,106,0.35)",
+    marginBottom: s(12),
+    overflow: "hidden",
+  },
+  cardHeaderRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  majorLabel: {
+    color: "#FFD36B",
+    fontSize: s(10),
+    fontWeight: "900",
+    letterSpacing: 1,
+  },
+  countdownText: { color: "#8FE6FF", fontSize: s(11), fontWeight: "900" },
+  majorTitle: {
+    color: "#FFFFFF",
+    fontSize: s(19),
+    fontWeight: "900",
+    marginTop: s(9),
+  },
+  majorBody: {
+    color: "#D8E7FF",
+    fontSize: s(12),
+    fontWeight: "800",
+    lineHeight: s(18),
+    marginTop: s(5),
+  },
+  primaryButton: {
+    backgroundColor: "#10233D",
+    borderRadius: s(16),
+    paddingVertical: s(13),
+    alignItems: "center",
+    marginTop: s(13),
+    borderWidth: 1,
+    borderColor: "#D6A84F",
+    shadowColor: "#4DA3FF",
+    shadowOpacity: 0.28,
+    shadowRadius: s(10),
+    shadowOffset: { width: 0, height: 0 },
+    elevation: 5,
+  },
+  primaryButtonDisabled: { opacity: 0.55 },
+  primaryButtonText: { color: "#F7D37A", fontWeight: "900", fontSize: s(14) },
+
+  energyGrid: { width: "100%", flexDirection: "row", gap: s(10), marginBottom: s(12) },
+  energyCard: {
+    flex: 1,
+    backgroundColor: "rgba(12,28,56,0.92)",
+    borderRadius: s(18),
+    padding: s(13),
+    borderWidth: 1,
+    borderColor: "rgba(190,231,255,0.20)",
+  },
+  glowBlue: { borderColor: "#4FC3F7" },
+  glowOrange: { borderColor: "#FF7043" },
+  energyTitle: { color: "#BBD7FF", fontSize: s(11), fontWeight: "900" },
+  energyValue: {
+    color: "#FFFFFF",
+    fontSize: s(22),
+    fontWeight: "900",
+    marginTop: s(6),
+  },
+  energyHint: {
+    color: "#9DB6D8",
+    fontSize: s(10),
+    fontWeight: "800",
+    lineHeight: s(14),
     marginTop: s(7),
   },
-  leaderboardBody: {
-    color: "#b7bfd2",
-    fontSize: s(13),
-    lineHeight: s(19),
-    marginTop: s(8),
+  smallBar: {
+    height: s(7),
+    borderRadius: s(999),
+    overflow: "hidden",
+    marginTop: s(9),
+  },
+
+  prestigeRow: { width: "100%", flexDirection: "row", gap: s(10), marginBottom: s(12) },
+  prestigeCard: {
+    flex: 1,
+    backgroundColor: "rgba(8,19,40,0.96)",
+    borderRadius: s(18),
+    padding: s(13),
+    borderWidth: 1,
+    borderColor: "rgba(190,231,255,0.20)",
+  },
+  prestigeLabel: {
+    color: "#FFD36B",
+    fontSize: s(10),
+    fontWeight: "900",
+    letterSpacing: 0.8,
+  },
+  prestigeLabelBlue: {
+    color: "#8FE6FF",
+    fontSize: s(10),
+    fontWeight: "900",
+    letterSpacing: 0.8,
+  },
+  prestigeTitle: {
+    color: "#FFFFFF",
+    fontSize: s(16),
+    fontWeight: "900",
+    marginTop: s(5),
+  },
+  prestigeText: {
+    color: "#9DB6D8",
+    fontSize: s(10),
+    fontWeight: "800",
+    lineHeight: s(14),
+    marginTop: s(5),
   },
 
   eventCard: {
     width: "100%",
-    backgroundColor: "#21160e",
-    borderRadius: s(16),
+    backgroundColor: "#0E1930",
+    borderRadius: s(18),
     padding: s(14),
     borderWidth: 1,
-    borderColor: "#6d4b1e",
+    borderColor: "#355D9B",
     marginBottom: s(14),
+    shadowColor: "#4DA3FF",
+    shadowOpacity: 0.18,
+    shadowRadius: s(12),
+    shadowOffset: { width: 0, height: 0 },
+    elevation: 4,
   },
   eventLabel: {
-    color: "#FFD36B",
-    fontSize: s(11),
+    color: "#F7D37A",
+    fontSize: s(10),
     fontWeight: "900",
     letterSpacing: 1,
   },
   eventTitle: {
-    color: "#fff",
-    fontSize: s(19),
+    color: "#FFFFFF",
+    fontSize: s(18),
     fontWeight: "900",
-    marginTop: s(8),
+    marginTop: s(7),
   },
   eventBody: {
-    color: "#d5cabc",
-    fontSize: s(13),
-    lineHeight: s(19),
-    marginTop: s(8),
-  },
-  eventPillRow: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: s(8),
-    marginTop: s(14),
-  },
-  eventPill: {
-    color: "#1a1204",
-    backgroundColor: "#FFD36B",
-    paddingHorizontal: s(10),
-    paddingVertical: s(5),
-    borderRadius: s(999),
-    fontSize: s(10),
-    fontWeight: "900",
+    color: "#BFE8FF",
+    fontSize: s(12),
+    fontWeight: "800",
+    lineHeight: s(17),
+    marginTop: s(6),
   },
 
-  modesWrapper: { width: "100%", gap: s(9) },
-  modeCard: {
-    width: "100%",
-    backgroundColor: "#151522",
-    borderRadius: s(16),
-    padding: s(14),
-    borderWidth: 1,
-    borderColor: "#28283c",
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  modeIconBox: {
-    width: s(42),
-    height: s(42),
-    borderRadius: s(14),
-    backgroundColor: "#232337",
-    alignItems: "center",
-    justifyContent: "center",
-    marginRight: s(12),
-  },
-  modeIcon: { fontSize: s(22) },
-  modeCopy: { flex: 1 },
-  modeTitleRow: { flexDirection: "row", alignItems: "center", gap: s(8), flexWrap: "wrap" },
-  modeTitle: { color: "#fff", fontSize: s(15), fontWeight: "900" },
-  modeTag: {
-    color: "#FFD36B",
-    backgroundColor: "#2b2415",
-    paddingHorizontal: s(7),
-    paddingVertical: s(3),
-    borderRadius: s(999),
-    fontSize: s(9),
+  modesWrapper: { width: "100%" },
+  sectionTitle: {
+    color: "#FFFFFF",
+    fontSize: s(18),
     fontWeight: "900",
+    marginBottom: s(10),
+    letterSpacing: -0.2,
   },
-  modeSubtitle: { color: "#9ca0b4", fontSize: s(12), lineHeight: s(17), marginTop: s(5) },
-  modeArrow: { color: "#777d94", fontSize: s(26), marginLeft: s(8) },
+
   cosmeticStrip: {
-    marginTop: s(14),
+    marginTop: s(12),
     padding: s(10),
     borderRadius: s(16),
     borderWidth: 1,
-    borderColor: "rgba(255, 211, 77, 0.28)",
-    backgroundColor: "rgba(255, 211, 77, 0.08)",
+    borderColor: "rgba(255, 211, 77, 0.30)",
+    backgroundColor: "rgba(7,17,35,0.62)",
     flexDirection: "row",
     alignItems: "center",
     gap: s(10),
@@ -754,4 +905,3 @@ const styles = StyleSheet.create({
     marginTop: s(3),
   },
 });
-
