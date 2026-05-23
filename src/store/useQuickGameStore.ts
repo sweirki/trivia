@@ -336,21 +336,9 @@ export const useQuickGameStore = create<QuickGameState>()(
           ],
         }));
 
-        usePlayerStore.getState().recordQuestionPerformance({
-          questionId: question.id,
-          difficulty: question.difficulty,
-          correct,
-          category: question.category,
-          mode,
-        });
+        // Deferred for performance: recording per-question performance live caused gameplay stutter.
 
-        usePlayerStore.getState().recordQuestionAnalytics({
-          questionId: question.id,
-          difficulty: question.difficulty,
-          correct,
-          category: question.category,
-          mode,
-        });
+        // Deferred for performance: recording per-question analytics live caused gameplay stutter.
 
         if (!correct && mode === "sudden") {
           clearGameTimer(get().timerId);
@@ -592,5 +580,6 @@ export const useQuickGameStore = create<QuickGameState>()(
     }
   )
 );
+
 
 
