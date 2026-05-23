@@ -142,25 +142,35 @@ export default function GameScreen() {
 
   
   useEffect(() => {
-    if (timeLeft <= 10 && isTimedMode) {
-      Animated.loop(
-        Animated.sequence([
-          Animated.timing(panicOpacity, {
-            toValue: 0.22,
-            duration: 450,
-            easing: Easing.linear,
-            useNativeDriver: true,
-          }),
-          Animated.timing(panicOpacity, {
-            toValue: 0.04,
-            duration: 450,
-            easing: Easing.linear,
-            useNativeDriver: true,
-          }),
-        ])
-      ).start();
+    if (!((mode === "timed60" || mode === "timed90")) || timeLeft > 10) {
+      panicOpacity.stopAnimation();
+      panicOpacity.setValue(0);
+      return;
     }
-  }, [timeLeft, isTimedMode]);
+
+    const loop = Animated.loop(
+      Animated.sequence([
+        Animated.timing(panicOpacity, {
+          toValue: 0.22,
+          duration: 450,
+          easing: Easing.linear,
+          useNativeDriver: true,
+        }),
+        Animated.timing(panicOpacity, {
+          toValue: 0.04,
+          duration: 450,
+          easing: Easing.linear,
+          useNativeDriver: true,
+        }),
+      ])
+    );
+
+    loop.start();
+
+    return () => {
+      loop.stop();
+    };
+  }, [mode, timeLeft <= 10]);
 
 
   // ---------------------------------------------------------
@@ -480,7 +490,7 @@ export default function GameScreen() {
             <Text style={styles.question}>{current.text}</Text>
 
             <View style={styles.progressTrack}>
-              <View style={[styles.progressFill, { width: progressPercent }]} />
+              <View style={[styles.progressFill, { width: progressPercent as any }]} />
             </View>
           </Animated.View>
 
@@ -913,3 +923,5 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 });
+
+
