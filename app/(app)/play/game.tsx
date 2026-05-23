@@ -65,6 +65,19 @@ export default function GameScreen() {
     tone: "correct" | "wrong" | "sudden";
   } | null>(null);
 
+useEffect(() => {
+  const t = setTimeout(() => {
+    void trackEvent("game_started", {
+      mode: mode ?? "unknown",
+      questionCount: questions.length,
+      hasChallenge: Boolean(challengeId),
+      hasTournamentMatch: Boolean(matchId),
+    });
+  }, 1200);
+
+  return () => clearTimeout(t);
+}, [challengeId, matchId, mode, questions.length]);
+
   useEffect(() => {
     return () => {
       if (answerFeedbackTimeoutRef.current) {
@@ -86,14 +99,18 @@ export default function GameScreen() {
     }).start();
   }, [idx]);
 
-  useEffect(() => {
+ useEffect(() => {
+  const t = setTimeout(() => {
     void trackEvent("game_started", {
       mode: mode ?? "unknown",
       questionCount: questions.length,
       hasChallenge: Boolean(challengeId),
       hasTournamentMatch: Boolean(matchId),
     });
-  }, [challengeId, matchId, mode, questions.length]);
+  }, 1200);
+
+  return () => clearTimeout(t);
+}, [challengeId, matchId, mode, questions.length]);
 
   const timerPulse = useRef(new Animated.Value(1)).current;
 
@@ -124,7 +141,7 @@ export default function GameScreen() {
   const panicOpacity = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
-    if (timeLeft <= 5 && (mode === "timed60" || mode === "timed90")) {
+    if ((timeLeft ?? 0) <= 5 && (mode === "timed60" || mode === "timed90")) {
       Animated.sequence([
         Animated.timing(lowTimePulse, {
           toValue: 1.3,
@@ -142,7 +159,7 @@ export default function GameScreen() {
 
   
   useEffect(() => {
-    if (!((mode === "timed60" || mode === "timed90")) || timeLeft > 10) {
+    if (!((mode === "timed60" || mode === "timed90")) || (timeLeft ?? 0) > 10) {
       panicOpacity.stopAnimation();
       panicOpacity.setValue(0);
       return;
@@ -170,7 +187,7 @@ export default function GameScreen() {
     return () => {
       loop.stop();
     };
-  }, [mode, timeLeft <= 10]);
+ }, [mode, (timeLeft ?? 0) <= 10]);
 
 
   // ---------------------------------------------------------
@@ -180,6 +197,10 @@ export default function GameScreen() {
     if (!gameOver || didFinalizeRef.current) return;
 
     didFinalizeRef.current = true;
+
+    requestAnimationFrame(() => {
+      router.replace("/(app)/play/(screens)/result");
+    });
 
     const t = setTimeout(() => {
       const quick = useQuickGameStore.getState();
@@ -211,17 +232,6 @@ export default function GameScreen() {
         perfect: totalQuestions > 0 && correctCount === totalQuestions,
       });
 
-      useQuickGameStore.setState({
-        earnedXP: reward.xp,
-        earnedCoins: reward.coins,
-        earnedGems: reward.gems,
-        earnedTickets: reward.tickets,
-      } as any);
-
-      if (reward.xp || reward.coins || reward.gems || reward.tickets) {
-        player.applyReward(reward.xp, reward.coins, reward.gems, reward.tickets);
-      }
-
       const recordGameCompletion = (player as any).recordGameCompletion;
       const retentionBonus =
         typeof recordGameCompletion === "function"
@@ -231,30 +241,37 @@ export default function GameScreen() {
             })
           : { xp: 0, coins: 0, gems: 0, tickets: 0 };
 
-      if (retentionBonus.xp || retentionBonus.coins || retentionBonus.gems || retentionBonus.tickets) {
-        useQuickGameStore.setState((state: any) => ({
-          earnedXP: state.earnedXP + retentionBonus.xp,
-          earnedCoins: state.earnedCoins + retentionBonus.coins,
-          earnedGems: state.earnedGems + retentionBonus.gems,
-          earnedTickets: state.earnedTickets + retentionBonus.tickets,
-        }));
+      const totalEarnedXP = reward.xp + retentionBonus.xp;
+      const totalEarnedCoins = reward.coins + retentionBonus.coins;
+      const totalEarnedGems = reward.gems + retentionBonus.gems;
+      const totalEarnedTickets = reward.tickets + retentionBonus.tickets;
+
+      useQuickGameStore.setState((state: any) => ({
+        earnedXP: state.earnedXP + totalEarnedXP,
+        earnedCoins: state.earnedCoins + totalEarnedCoins,
+        earnedGems: state.earnedGems + totalEarnedGems,
+        earnedTickets: state.earnedTickets + totalEarnedTickets,
+      }));
+
+      if (reward.xp || reward.coins || reward.gems || reward.tickets) {
+        player.applyReward(reward.xp, reward.coins, reward.gems, reward.tickets);
       }
 
-     useHistoryStore.getState().addResult({
-  mode: latestMode ?? "classic",
-  category: quick.category ?? undefined,
-  score: latestScore,
+      useHistoryStore.getState().addResult({
+        mode: latestMode ?? "classic",
+        category: quick.category ?? undefined,
+        score: latestScore,
 
-  questions: totalQuestions,
-  correct: correctCount,
+        questions: totalQuestions,
+        correct: correctCount,
 
-  totalQuestions,
-  correctCount,
-  accuracy,
-  won: latestScore > 0,
-  xp: reward.xp + retentionBonus.xp,
-  coins: reward.coins + retentionBonus.coins,
-} as any);
+        totalQuestions,
+        correctCount,
+        accuracy,
+        won: latestScore > 0,
+        xp: totalEarnedXP,
+        coins: totalEarnedCoins,
+      } as any);
 
       player.incrementGamesPlayed();
 
@@ -263,11 +280,11 @@ export default function GameScreen() {
       }
 
       if (challengeId) {
-  useChallengesStore
-    .getState()
-    .completeChallenge(String(challengeId), latestScore);
-}
-     
+        useChallengesStore
+          .getState()
+          .completeChallenge(String(challengeId), latestScore);
+      }
+
       const uid = useAuthStore.getState().user?.uid ?? null;
       const playerState = usePlayerStore.getState();
 
@@ -317,19 +334,18 @@ export default function GameScreen() {
         correctCount,
         accuracy,
         durationMs: Date.now() - gameStartRef.current,
-        earnedXP: reward.xp + retentionBonus.xp,
-        earnedCoins: reward.coins + retentionBonus.coins,
-        earnedGems: reward.gems + retentionBonus.gems,
-        earnedTickets: reward.tickets + retentionBonus.tickets,
+        earnedXP: totalEarnedXP,
+        earnedCoins: totalEarnedCoins,
+        earnedGems: totalEarnedGems,
+        earnedTickets: totalEarnedTickets,
         challenge: Boolean(challengeId),
         tournament: Boolean(matchId),
       });
-
-      router.replace("/(app)/play/(screens)/result");
-    }, 300);
+    }, 150);
 
     return () => clearTimeout(t);
   }, [gameOver, matchId, challengeId, router, submitMatchResult]);
+
 
   // ---------------------------------------------------------
   // SAFE ANSWER HANDLER — NEW A++++ logic
@@ -374,18 +390,19 @@ export default function GameScreen() {
       feedback.wrong();
     }
 
-    const feedbackDelay = isSuddenDeathLoss ? 1200 : 650;
+    const feedbackDelay = isSuddenDeathLoss ? 700 : 250;
 
     answerFeedbackTimeoutRef.current = setTimeout(() => {
       const handledCorrect = handleAnswer(ans);
 
-      void trackEvent("answer_selected", {
-        mode: mode ?? "unknown",
-        questionIndex: idx,
-        answerIndex,
-        correct: handledCorrect,
-        streak: useQuickGameStore.getState().streak,
-      });
+    // Deferred analytics for performance.
+// void trackEvent("answer_selected", {
+//   mode: mode ?? "unknown",
+//   questionIndex: idx,
+//   answerIndex,
+//   correct: handledCorrect,
+//   streak: useQuickGameStore.getState().streak,
+// });
 
       if (
         handledCorrect &&
@@ -448,10 +465,10 @@ export default function GameScreen() {
                 style={[
                   styles.timerOrb,
                   { transform: [{ scale: timerPulse }, { scale: lowTimePulse }] },
-                  timeLeft <= 5 && styles.timerOrbDanger,
+                 (timeLeft ?? 0) <= 5 && styles.timerOrbDanger
                 ]}
               >
-                <Text style={[styles.timerText, timeLeft <= 5 && styles.timerTextDanger]}>
+                <Text style={[styles.timerText,(timeLeft ?? 0) <= 5 && styles.timerTextDanger]}>
                   {timeLeft}
                 </Text>
               </Animated.View>
@@ -923,6 +940,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 });
+
+
 
 
 

@@ -48,22 +48,20 @@ export default function ResultsScreen() {
   );
   const vipExpiresAt = useEntitlementStore((s) => s.vipExpiresAt);
   const isVIPActive = Date.now() < (vipExpiresAt || 0);
-  const [offerVisible, setOfferVisible] = useState(true);
+  const [offerVisible, setOfferVisible] = useState(false);
 
   const router = useRouter();
 
-  const {
-    answerHistory,
-    score,
-    mode,
-    category,
-    resetGame,
-    earnedXP,
-    earnedCoins,
-    earnedGems,
-    earnedTickets,
-    dailyResult,
-  } = useQuickGameStore();
+  const answerHistory = useQuickGameStore((s) => s.answerHistory);
+  const score = useQuickGameStore((s) => s.score);
+  const mode = useQuickGameStore((s) => s.mode);
+  const category = useQuickGameStore((s) => s.category);
+  const resetGame = useQuickGameStore((s) => s.resetGame);
+  const earnedXP = useQuickGameStore((s) => s.earnedXP);
+  const earnedCoins = useQuickGameStore((s) => s.earnedCoins);
+  const earnedGems = useQuickGameStore((s) => s.earnedGems);
+  const earnedTickets = useQuickGameStore((s) => s.earnedTickets);
+  const dailyResult = useQuickGameStore((s) => s.dailyResult);
 
   const summary = useMemo(() => {
     const correct = answerHistory.filter((x) => x.correct).length;
