@@ -7,7 +7,7 @@ export const ARENA_OFFERS = [
     name: "Small Coin Pack",
     desc: "+500 Coins",
     price: 500,
-    icon: require("@assets/images/shop_coins.png"),
+    icon: require("@assets/images/shop_coins.webp"),
     give: { coins: 500 },
   },
   {
@@ -15,7 +15,7 @@ export const ARENA_OFFERS = [
     name: "Large Coin Pack",
     desc: "+2000 Coins",
     price: 1500,
-    icon: require("@assets/images/shop_coins.png"),
+    icon: require("@assets/images/shop_coins.webp"),
     give: { coins: 2000 },
   },
   {
@@ -31,7 +31,7 @@ export const ARENA_OFFERS = [
     name: "XP Boost x2",
     desc: "Double XP for 1 hour",
     price: 1200,
-    icon: require("@assets/images/shop_xp.png"),
+    icon: require("@assets/images/shop_xp.webp"),
     give: { xpBoost: 1 },
   },
   {
@@ -39,7 +39,7 @@ export const ARENA_OFFERS = [
     name: "Power-Up Bundle",
     desc: "50/50 + Freeze + Reveal",
     price: 1600,
-    icon: require("@assets/images/shop_bundle.png"),
+    icon: require("@assets/images/shop_bundle.webp"),
     give: { fifty: 1, freeze: 1, reveal: 1 },
   },
 ];

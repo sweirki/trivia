@@ -73,7 +73,7 @@ export const ACHIEVEMENTS = [
     id: "perfect_5",
     name: "Sharpshooter",
     description: "Finish a game with all answers correct (5 questions)",
-    icon: require("@assets/images/achievements/perfect.png"),
+    icon: require("@assets/images/achievements/perfect.webp"),
     xpReward: 50,
     type: "perfect",
     target: 5
@@ -82,7 +82,7 @@ export const ACHIEVEMENTS = [
     id: "perfect_10",
     name: "Flawless",
     description: "Finish a game with all answers correct (10 questions)",
-    icon: require("@assets/images/achievements/perfect.png"),
+    icon: require("@assets/images/achievements/perfect.webp"),
     xpReward: 100,
     type: "perfect",
     target: 10
@@ -93,7 +93,7 @@ export const ACHIEVEMENTS = [
     id: "accuracy_80",
     name: "Precise",
     description: "Maintain 80% accuracy",
-    icon: require("@assets/images/achievements/accuracy.png"),
+    icon: require("@assets/images/achievements/accuracy.webp"),
     xpReward: 40,
     type: "accuracy",
     target: 80
@@ -102,7 +102,7 @@ export const ACHIEVEMENTS = [
     id: "accuracy_90",
     name: "Sniper",
     description: "Maintain 90% accuracy",
-    icon: require("@assets/images/achievements/accuracy.png"),
+    icon: require("@assets/images/achievements/accuracy.webp"),
     xpReward: 75,
     type: "accuracy",
     target: 90
@@ -111,7 +111,7 @@ export const ACHIEVEMENTS = [
     id: "accuracy_100",
     name: "Perfectionist",
     description: "Maintain 100% accuracy",
-    icon: require("@assets/images/achievements/accuracy.png"),
+    icon: require("@assets/images/achievements/accuracy.webp"),
     xpReward: 150,
     type: "accuracy",
     target: 100
@@ -122,7 +122,7 @@ export const ACHIEVEMENTS = [
     id: "master_50",
     name: "Category Master",
     description: "Answer 50 questions in one category",
-    icon: require("@assets/images/achievements/master.png"),
+    icon: require("@assets/images/achievements/master.webp"),
     xpReward: 100,
     type: "category",
     target: 50
@@ -131,7 +131,7 @@ export const ACHIEVEMENTS = [
     id: "master_100",
     name: "Category Grandmaster",
     description: "Answer 100 questions in one category",
-    icon: require("@assets/images/achievements/master.png"),
+    icon: require("@assets/images/achievements/master.webp"),
     xpReward: 200,
     type: "category",
     target: 100
@@ -162,7 +162,7 @@ export const ACHIEVEMENTS = [
     id: "games_50",
     name: "Warrior",
     description: "Play 50 games",
-    icon: require("@assets/images/achievements/warrior.png"),
+    icon: require("@assets/images/achievements/warrior.webp"),
     xpReward: 100,
     type: "games",
     target: 50
@@ -171,7 +171,7 @@ export const ACHIEVEMENTS = [
     id: "games_100",
     name: "Marathoner",
     description: "Play 100 games",
-    icon: require("@assets/images/achievements/marathon.png"),
+    icon: require("@assets/images/achievements/marathon.webp"),
     xpReward: 200,
     type: "games",
     target: 100
