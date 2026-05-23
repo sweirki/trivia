@@ -19,8 +19,8 @@ import { usePlayerStore } from "@/store/usePlayerStore";
 const LEADERBOARD_ART = require("../../assets/images/lobby/leaderboard_card_art.webp");
 const LOBBY_HERO_ART = require("../../assets/images/lobby/lobby_hero_banner.webp");
 const PROFILE_PRESTIGE_BG = require("../../assets/premium/atmospheres/profile_prestige_bg.webp");
-const TROPHY_HALL_BG = require("../../assets/cosmetics/backgrounds/bg_trophy_hall_01.png");
-const STADIUM_LIGHTS_BG = require("../../assets/cosmetics/backgrounds/bg_stadium_lights_01.png");
+const TROPHY_HALL_BG = require("../../assets/cosmetics/backgrounds/bg_trophy_hall_01.webp");
+const STADIUM_LIGHTS_BG = require("../../assets/cosmetics/backgrounds/bg_stadium_lights_01.webp");
 
 type Tab = "global" | "friends";
 
