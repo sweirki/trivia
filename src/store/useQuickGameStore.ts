@@ -305,7 +305,20 @@ export const useQuickGameStore = create<QuickGameState>()(
       },
 
       handleAnswer: (choice) => {
-        const { mode, idx, questions, streak, combo, category } = get();
+        const state = get();
+        const {
+          mode,
+          idx,
+          questions,
+          streak,
+          combo,
+          category,
+          timerId,
+          gameContext,
+          timeLeft,
+          answerHistory,
+        } = state;
+
         const question = questions[idx];
 
         if (!question) return false;
@@ -313,231 +326,263 @@ export const useQuickGameStore = create<QuickGameState>()(
         const correctAnswerIndex = Number(question.correctAnswerIndex);
         const correct = question.answers[correctAnswerIndex] === choice;
         const survivalRun = useSurvivalArenaStore.getState().currentRun;
-        const isTournament = get().gameContext === "tournament";
+        const isTournament = gameContext === "tournament";
+
+        const nextAnswer: AnswerHistoryItem = {
+          questionId: question.id,
+          chosen: choice,
+          correct,
+          difficulty: question.difficulty,
+          category: question.category,
+        };
+
+        const nextAnswerHistory = [...answerHistory, nextAnswer];
+        const nextIndex = idx + 1;
+        const newStreak = correct ? streak + 1 : 0;
+        const newCombo = correct ? combo + 1 : 0;
+        const nextCorrectCount = nextAnswerHistory.filter((item) => item.correct).length;
+
+        const deferAchievementProgress = () => {
+          if (!correct || isTournament) return;
+
+          setTimeout(() => {
+            const achievements = useAchievementsStore.getState();
+            achievements.addProgress("combo", 1);
+            achievements.addProgress("category", 1, category);
+          }, 0);
+        };
 
         if (!correct && survivalRun) {
           useSurvivalArenaStore.getState().endRun();
-          clearGameTimer(get().timerId);
-          set({ gameOver: true, timerId: null });
+          clearGameTimer(timerId);
+
+          set({
+            answerHistory: nextAnswerHistory,
+            gameOver: true,
+            timerId: null,
+          });
 
           return correct;
         }
 
-        set((state) => ({
-          answerHistory: [
-            ...state.answerHistory,
-            {
-              questionId: question.id,
-              chosen: choice,
-              correct,
-              difficulty: question.difficulty,
-              category: question.category,
-            },
-          ],
-        }));
-
-        // Deferred for performance: recording per-question performance live caused gameplay stutter.
-
-        // Deferred for performance: recording per-question analytics live caused gameplay stutter.
-
         if (!correct && mode === "sudden") {
-          clearGameTimer(get().timerId);
+          clearGameTimer(timerId);
 
-          if (!isTournament) {
-            const summary = get().getSummary();
-            const bonusXP = calculateSuddenDeathBonusXP(summary.correct);
+          const bonusXP =
+            !isTournament ? calculateSuddenDeathBonusXP(nextCorrectCount) : 0;
 
-            set((state) => ({
-              earnedXP: state.earnedXP + bonusXP,
-            }));
-          }
-
-          set({ gameOver: true, timerId: null });
+          set((currentState) => ({
+            answerHistory: nextAnswerHistory,
+            earnedXP: currentState.earnedXP + bonusXP,
+            gameOver: true,
+            timerId: null,
+          }));
 
           return correct;
+        }
+
+        let earnedXPDelta = 0;
+        let earnedCoinsDelta = 0;
+        let earnedGemsDelta = 0;
+        let shouldEndGame = false;
+        let nextIdx = idx;
+
+        if (correct) {
+          deferAchievementProgress();
+
+          if (!isTournament) {
+            if (newCombo === 5) {
+              earnedXPDelta += 15;
+            }
+
+            if (newCombo === 10) {
+              earnedXPDelta += 40;
+            }
+
+            earnedXPDelta += calculateBaseXP(question.difficulty, mode);
+            earnedCoinsDelta += Math.floor(2 + newStreak * 0.5);
+            earnedGemsDelta += newCombo === 10 ? 1 : 0;
+          }
         }
 
         if (mode === "sudden" && correct) {
-          if (!isTournament) {
-            const achievements = useAchievementsStore.getState();
-            achievements.addProgress("combo", 1);
-            achievements.addProgress("category", 1, category);
-          }
-
-          const newStreak = streak + 1;
-          const newCombo = combo + 1;
-          const nextIndex = idx + 1;
-
-          set((state) => ({
-            streak: newStreak,
-            combo: newCombo,
-            score: state.score + 1,
-          }));
-
-          if (!isTournament) {
-            if (newCombo === 5) {
-              set((state) => ({ earnedXP: state.earnedXP + 15 }));
-            }
-
-            if (newCombo === 10) {
-              set((state) => ({ earnedXP: state.earnedXP + 40 }));
-            }
-
-            const earnedXP = calculateBaseXP(question.difficulty, mode);
-            const earnedCoins = Math.floor(2 + newStreak * 0.5);
-            const earnedGems = newCombo === 10 ? 1 : 0;
-
-            set((state) => ({
-              earnedXP: state.earnedXP + earnedXP,
-              earnedCoins: state.earnedCoins + earnedCoins,
-              earnedGems: state.earnedGems + earnedGems,
-            }));
-          }
-
           if (nextIndex >= questions.length) {
-            clearGameTimer(get().timerId);
+            clearGameTimer(timerId);
 
             if (!isTournament) {
-              set((state) => ({
-                earnedXP: state.earnedXP + 40,
-                earnedCoins: state.earnedCoins + 4,
-              }));
+              earnedXPDelta += 40;
+              earnedCoinsDelta += 4;
             }
 
-            set({ gameOver: true, timerId: null });
-
-            return correct;
+            shouldEndGame = true;
+          } else {
+            nextIdx = nextIndex;
           }
 
-          set({ idx: nextIndex });
-
-          return correct;
-        }
-
-        if (correct) {
-          if (!isTournament) {
-            const achievements = useAchievementsStore.getState();
-            achievements.addProgress("combo", 1);
-            achievements.addProgress("category", 1, category);
-          }
-
-          const newStreak = streak + 1;
-          const newCombo = combo + 1;
-
-          set((state) => ({
+          set((currentState) => ({
+            answerHistory: nextAnswerHistory,
             streak: newStreak,
             combo: newCombo,
-            score: state.score + 1,
+            score: currentState.score + 1,
+            earnedXP: currentState.earnedXP + earnedXPDelta,
+            earnedCoins: currentState.earnedCoins + earnedCoinsDelta,
+            earnedGems: currentState.earnedGems + earnedGemsDelta,
+            idx: nextIdx,
+            gameOver: shouldEndGame,
+            timerId: shouldEndGame ? null : currentState.timerId,
           }));
 
-          if (!isTournament) {
-            if (newCombo === 5) {
-              set((state) => ({ earnedXP: state.earnedXP + 15 }));
-            }
-
-            if (newCombo === 10) {
-              set((state) => ({ earnedXP: state.earnedXP + 40 }));
-            }
-
-            const earnedXP = calculateBaseXP(question.difficulty, mode);
-            const earnedCoins = Math.floor(2 + newStreak * 0.5);
-            const earnedGems = newCombo === 10 ? 1 : 0;
-
-            set((state) => ({
-              earnedXP: state.earnedXP + earnedXP,
-              earnedCoins: state.earnedCoins + earnedCoins,
-              earnedGems: state.earnedGems + earnedGems,
-            }));
-          }
-        } else {
-          set({ streak: 0, combo: 0 });
-        }
-
-        const nextIndex = idx + 1;
-
-        if (get().gameOver && mode !== "classic" && mode !== "daily") {
           return correct;
         }
 
         if (mode === "timed60" || mode === "timed90") {
-          if ((get().timeLeft ?? 0) <= 0) {
+          if ((timeLeft ?? 0) <= 0) {
             if (!isTournament) {
-              const summary = get().getSummary();
-              const { bonusXP, bonusCoins } = calculateTimedBonus(
-                mode,
-                summary
-              );
+              const summary: Summary = {
+                total: nextAnswerHistory.length,
+                correct: nextCorrectCount,
+                wrong: nextAnswerHistory.length - nextCorrectCount,
+                accuracy:
+                  nextAnswerHistory.length === 0
+                    ? 0
+                    : Math.round((nextCorrectCount / nextAnswerHistory.length) * 100),
+              };
 
-              set((state) => ({
-                earnedXP: state.earnedXP + bonusXP,
-                earnedCoins: state.earnedCoins + bonusCoins,
-              }));
+              const { bonusXP, bonusCoins } = calculateTimedBonus(mode, summary);
+              earnedXPDelta += bonusXP;
+              earnedCoinsDelta += bonusCoins;
             }
 
-            set({ gameOver: true });
+            set((currentState) => ({
+              answerHistory: nextAnswerHistory,
+              streak: newStreak,
+              combo: newCombo,
+              score: correct ? currentState.score + 1 : currentState.score,
+              earnedXP: currentState.earnedXP + earnedXPDelta,
+              earnedCoins: currentState.earnedCoins + earnedCoinsDelta,
+              earnedGems: currentState.earnedGems + earnedGemsDelta,
+              gameOver: true,
+            }));
 
             return correct;
           }
 
-          set({
+          set((currentState) => ({
+            answerHistory: nextAnswerHistory,
+            streak: newStreak,
+            combo: newCombo,
+            score: correct ? currentState.score + 1 : currentState.score,
+            earnedXP: currentState.earnedXP + earnedXPDelta,
+            earnedCoins: currentState.earnedCoins + earnedCoinsDelta,
+            earnedGems: currentState.earnedGems + earnedGemsDelta,
             idx: idx + 1 >= questions.length ? 0 : idx + 1,
-          });
+          }));
 
           return correct;
         }
 
         if (mode === "speed") {
           if (nextIndex >= questions.length) {
-            clearGameTimer(get().timerId);
+            clearGameTimer(timerId);
 
             if (!isTournament) {
-              const summary = get().getSummary();
-              const { bonusXP, bonusCoins } = calculateSpeedBonus(summary);
+              const summary: Summary = {
+                total: nextAnswerHistory.length,
+                correct: nextCorrectCount,
+                wrong: nextAnswerHistory.length - nextCorrectCount,
+                accuracy:
+                  nextAnswerHistory.length === 0
+                    ? 0
+                    : Math.round((nextCorrectCount / nextAnswerHistory.length) * 100),
+              };
 
-              set((state) => ({
-                earnedXP: state.earnedXP + bonusXP,
-                earnedCoins: state.earnedCoins + bonusCoins,
-              }));
+              const { bonusXP, bonusCoins } = calculateSpeedBonus(summary);
+              earnedXPDelta += bonusXP;
+              earnedCoinsDelta += bonusCoins;
             }
 
-            set({ gameOver: true, timerId: null });
+            set((currentState) => ({
+              answerHistory: nextAnswerHistory,
+              streak: newStreak,
+              combo: newCombo,
+              score: correct ? currentState.score + 1 : currentState.score,
+              earnedXP: currentState.earnedXP + earnedXPDelta,
+              earnedCoins: currentState.earnedCoins + earnedCoinsDelta,
+              earnedGems: currentState.earnedGems + earnedGemsDelta,
+              gameOver: true,
+              timerId: null,
+            }));
 
             return correct;
           }
 
-          set({ idx: nextIndex });
+          set((currentState) => ({
+            answerHistory: nextAnswerHistory,
+            streak: newStreak,
+            combo: newCombo,
+            score: correct ? currentState.score + 1 : currentState.score,
+            earnedXP: currentState.earnedXP + earnedXPDelta,
+            earnedCoins: currentState.earnedCoins + earnedCoinsDelta,
+            earnedGems: currentState.earnedGems + earnedGemsDelta,
+            idx: nextIndex,
+          }));
 
           return correct;
         }
 
         if ((mode === "classic" || mode === "daily") && nextIndex >= questions.length) {
-          clearGameTimer(get().timerId);
+          clearGameTimer(timerId);
 
           if (!isTournament) {
-            set((state) => ({
-              earnedXP: state.earnedXP + 30,
-              earnedCoins: state.earnedCoins + 3,
-            }));
+            earnedXPDelta += 30;
+            earnedCoinsDelta += 3;
 
-            if (get().getSummary().correct === questions.length) {
-              set((state) => ({
-                earnedXP: state.earnedXP + 25,
-                earnedCoins: state.earnedCoins + 5,
-                earnedGems: state.earnedGems + 1,
-              }));
+            if (nextCorrectCount === questions.length) {
+              earnedXPDelta += 25;
+              earnedCoinsDelta += 5;
+              earnedGemsDelta += 1;
             }
           }
 
-          set({ gameOver: true, timerId: null });
+          set((currentState) => ({
+            answerHistory: nextAnswerHistory,
+            streak: newStreak,
+            combo: newCombo,
+            score: correct ? currentState.score + 1 : currentState.score,
+            earnedXP: currentState.earnedXP + earnedXPDelta,
+            earnedCoins: currentState.earnedCoins + earnedCoinsDelta,
+            earnedGems: currentState.earnedGems + earnedGemsDelta,
+            gameOver: true,
+            timerId: null,
+          }));
 
           return correct;
         }
 
         if (mode === "classic" || mode === "daily") {
-          set({ idx: nextIndex });
+          set((currentState) => ({
+            answerHistory: nextAnswerHistory,
+            streak: newStreak,
+            combo: newCombo,
+            score: correct ? currentState.score + 1 : currentState.score,
+            earnedXP: currentState.earnedXP + earnedXPDelta,
+            earnedCoins: currentState.earnedCoins + earnedCoinsDelta,
+            earnedGems: currentState.earnedGems + earnedGemsDelta,
+            idx: nextIndex,
+          }));
 
           return correct;
         }
+
+        set((currentState) => ({
+          answerHistory: nextAnswerHistory,
+          streak: newStreak,
+          combo: newCombo,
+          score: correct ? currentState.score + 1 : currentState.score,
+          earnedXP: currentState.earnedXP + earnedXPDelta,
+          earnedCoins: currentState.earnedCoins + earnedCoinsDelta,
+          earnedGems: currentState.earnedGems + earnedGemsDelta,
+        }));
 
         return correct;
       },

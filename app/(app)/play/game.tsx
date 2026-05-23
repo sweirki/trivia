@@ -23,7 +23,7 @@ import { useAuthStore } from "@/store/useAuthStore";
 
 import { onGameFinished } from "@/achievements/achievementHooks";
 import { useChallengesStore } from "@/challenges/store/useChallengesStore";
-import { feedback } from "@/feedback";
+import { feedback, preloadFeedbackSounds } from "@/feedback";
 import { trackEvent } from "@/observability";
 
 const GAME_BG = require("../../../assets/premium/atmospheres/premium_question_bg.webp");
@@ -65,18 +65,6 @@ export default function GameScreen() {
     tone: "correct" | "wrong" | "sudden";
   } | null>(null);
 
-useEffect(() => {
-  const t = setTimeout(() => {
-    void trackEvent("game_started", {
-      mode: mode ?? "unknown",
-      questionCount: questions.length,
-      hasChallenge: Boolean(challengeId),
-      hasTournamentMatch: Boolean(matchId),
-    });
-  }, 1200);
-
-  return () => clearTimeout(t);
-}, [challengeId, matchId, mode, questions.length]);
 
   useEffect(() => {
     return () => {
@@ -84,6 +72,15 @@ useEffect(() => {
         clearTimeout(answerFeedbackTimeoutRef.current);
       }
     };
+  }, []);
+
+
+  useEffect(() => {
+    const t = setTimeout(() => {
+      void preloadFeedbackSounds(["tap", "correct", "wrong"]);
+    }, 300);
+
+    return () => clearTimeout(t);
   }, []);
 
   // ---------------------------------------------------------
