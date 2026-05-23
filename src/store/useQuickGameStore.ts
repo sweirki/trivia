@@ -585,7 +585,12 @@ export const useQuickGameStore = create<QuickGameState>()(
       name: "quickgame-store",
       storage: createJSONStorage(() => AsyncStorage),
       version: 1,
+      partialize: (state) => ({
+        category: state.category,
+        dailyResult: state.dailyResult,
+      } as any),
     }
   )
 );
+
 
