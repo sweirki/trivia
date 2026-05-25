@@ -40,7 +40,7 @@ function buildMatchQuestions() {
 
 export default function PowerUpArenaEntry() {
   const { setMode } = useArenaStore();
-  const { powerups } = usePowerUpStore();
+  const { powerups, resetPowerUsage } = usePowerUpStore();
 
   const equipped = getPowerUpEntries(powerups as PowerUpMap);
   const totalPowerups = equipped.reduce(
@@ -50,6 +50,7 @@ export default function PowerUpArenaEntry() {
 
   const handleStart = () => {
     setMode("power");
+    resetPowerUsage();
     usePowerArenaMatchStore.getState().startMatch(buildMatchQuestions());
     router.push("/(app)/arena_reset/power/PowerMatch");
   };
@@ -399,3 +400,5 @@ const styles = StyleSheet.create({
     marginTop: 4,
   },
 });
+
+

@@ -15,6 +15,8 @@ export interface OpponentProfile {
   name: string;
   avatar: string; // you can map this later to your avatar system
   difficulty: OpponentDifficulty;
+  title: string;
+  style: string;
   sr: number;
   accuracy: number; // 0–1 (e.g. 0.78 = 78% correct answers)
   minReactionMs: number;
@@ -66,6 +68,28 @@ function generateBotName(): string {
   const suffixes = ["Bot", "Master", "Wizard", "Hunter", "Champ", "Guru", "Storm", "Ghost", "Ace", "Strike"];
 
   return `${pickRandom(prefixes)}${pickRandom(suffixes)}`;
+}
+
+
+function getBotIdentity(difficulty: OpponentDifficulty): { title: string; style: string } {
+  switch (difficulty) {
+    case "BronzeAI":
+      return { title: "Rising Rival", style: "Swingy but beatable" };
+    case "SilverAI":
+      return { title: "Steady Climber", style: "Balanced pressure" };
+    case "GoldAI":
+      return { title: "Gold Gatekeeper", style: "Punishes sloppy streaks" };
+    case "PlatinumAI":
+      return { title: "Precision Rival", style: "Consistent under pressure" };
+    case "DiamondAI":
+      return { title: "Diamond Threat", style: "Fast and accurate" };
+    case "MasterAI":
+      return { title: "Master Duelist", style: "Rarely gives free rounds" };
+    case "GrandmasterAI":
+      return { title: "Grandmaster Mind", style: "Elite pacing" };
+    case "LegendaryAI":
+      return { title: "Legendary Rival", style: "Near-perfect pressure" };
+  }
 }
 
 // Map SR to a difficulty profile
@@ -127,12 +151,15 @@ function mapSRToDifficulty(playerSR: number): OpponentProfile {
   }
 
   const srJitter = randomInt(-60, 60); // make opponent SR not exactly equal to player SR
+  const identity = getBotIdentity(difficulty);
 
   return {
     id: `bot-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
     name: generateBotName(),
     avatar: "default-bot", // hook this into your avatar system later
     difficulty,
+    title: identity.title,
+    style: identity.style,
     sr: Math.max(0, playerSR + srJitter),
     accuracy,
     minReactionMs,
@@ -225,6 +252,8 @@ export const useArenaOpponentAI = create<OpponentAIState>((set, get) => ({
     });
   },
 }));
+
+
 
 
 

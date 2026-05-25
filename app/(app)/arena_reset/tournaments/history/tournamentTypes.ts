@@ -8,3 +8,5 @@ export default function TournamentTypesRoute() {
   return null;
 }
 
+
+

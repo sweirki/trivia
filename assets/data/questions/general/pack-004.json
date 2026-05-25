@@ -1,1 +1,2014 @@
-[]
+[
+  {
+    "id": 64001,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is home to the city of Zurich?",
+    "answers": [
+      "Austria",
+      "Germany",
+      "Belgium",
+      "Switzerland"
+    ],
+    "correctAnswer": "Switzerland",
+    "explanation": "Switzerland is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "switzerland"
+    ]
+  },
+  {
+    "id": 64002,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many continents begin with the letter A?",
+    "answers": [
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    "correctAnswer": "3",
+    "explanation": "The correct answer is 3.",
+    "tags": [
+      "general",
+      "easy"
+    ]
+  },
+  {
+    "id": 64003,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for the Great Red Spot storm?",
+    "answers": [
+      "Mars",
+      "Jupiter",
+      "Venus",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Jupiter is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "jupiter"
+    ]
+  },
+  {
+    "id": 64004,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is known for its hump?",
+    "answers": [
+      "Horse",
+      "Cow",
+      "Camel",
+      "Goat"
+    ],
+    "correctAnswer": "Camel",
+    "explanation": "Camel is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "camel"
+    ]
+  },
+  {
+    "id": 64005,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which famous structure is located in New York Harbor?",
+    "answers": [
+      "Empire State Building",
+      "Golden Gate Bridge",
+      "Big Ben",
+      "Statue of Liberty"
+    ],
+    "correctAnswer": "Statue of Liberty",
+    "explanation": "Statue of Liberty is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "statue-liberty"
+    ]
+  },
+  {
+    "id": 64006,
+    "category": "general",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which scientist discovered gravity after observing a falling apple?",
+    "answers": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Nikola Tesla"
+    ],
+    "correctAnswer": "Isaac Newton",
+    "explanation": "Isaac Newton is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "hard",
+      "isaac-newton"
+    ]
+  },
+  {
+    "id": 64007,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which beverage is made from cocoa beans?",
+    "answers": [
+      "Tea",
+      "Hot chocolate",
+      "Coffee",
+      "Milk"
+    ],
+    "correctAnswer": "Hot chocolate",
+    "explanation": "Hot chocolate is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "hot-chocolate"
+    ]
+  },
+  {
+    "id": 64008,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country has the capital city Beijing?",
+    "answers": [
+      "Japan",
+      "Mongolia",
+      "China",
+      "South Korea"
+    ],
+    "correctAnswer": "China",
+    "explanation": "China is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "china"
+    ]
+  },
+  {
+    "id": 64009,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which body part contains teeth?",
+    "answers": [
+      "Nose",
+      "Ear",
+      "Hand",
+      "Mouth"
+    ],
+    "correctAnswer": "Mouth",
+    "explanation": "Mouth is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "mouth"
+    ]
+  },
+  {
+    "id": 64010,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which continent is the country Chile located on?",
+    "answers": [
+      "South America",
+      "North America",
+      "Europe",
+      "Africa"
+    ],
+    "correctAnswer": "South America",
+    "explanation": "South America is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "south-america"
+    ]
+  },
+  {
+    "id": 64011,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is famous for carrying nuts and climbing trees?",
+    "answers": [
+      "Rabbit",
+      "Squirrel",
+      "Otter",
+      "Fox"
+    ],
+    "correctAnswer": "Squirrel",
+    "explanation": "Squirrel is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "squirrel"
+    ]
+  },
+  {
+    "id": 64012,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is known for the city of Havana?",
+    "answers": [
+      "Mexico",
+      "Brazil",
+      "Cuba",
+      "Spain"
+    ],
+    "correctAnswer": "Cuba",
+    "explanation": "Cuba is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "cuba"
+    ]
+  },
+  {
+    "id": 64013,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many months have 31 days?",
+    "answers": [
+      "6",
+      "5",
+      "8",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "explanation": "The correct answer is 7.",
+    "tags": [
+      "general",
+      "easy"
+    ]
+  },
+  {
+    "id": 64014,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which mountain range runs along western South America?",
+    "answers": [
+      "Andes",
+      "Alps",
+      "Rockies",
+      "Himalayas"
+    ],
+    "correctAnswer": "Andes",
+    "explanation": "Andes is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "andes"
+    ]
+  },
+  {
+    "id": 64015,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object is commonly used to cut paper?",
+    "answers": [
+      "Spoon",
+      "Scissors",
+      "Cup",
+      "Plate"
+    ],
+    "correctAnswer": "Scissors",
+    "explanation": "Scissors is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "scissors"
+    ]
+  },
+  {
+    "id": 64016,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is known for its loud roar?",
+    "answers": [
+      "Rabbit",
+      "Deer",
+      "Lion",
+      "Goat"
+    ],
+    "correctAnswer": "Lion",
+    "explanation": "Lion is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "lion"
+    ]
+  },
+  {
+    "id": 64017,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What color are most school buses in the United States?",
+    "answers": [
+      "Blue",
+      "Green",
+      "Red",
+      "Yellow"
+    ],
+    "correctAnswer": "Yellow",
+    "explanation": "Yellow is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "general",
+      "easy",
+      "yellow"
+    ]
+  },
+  {
+    "id": 64018,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which organ helps humans breathe by expanding and contracting?",
+    "answers": [
+      "Lungs",
+      "Heart",
+      "Kidneys",
+      "Liver"
+    ],
+    "correctAnswer": "Lungs",
+    "explanation": "Lungs is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "lungs"
+    ]
+  },
+  {
+    "id": 64019,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many hours are in half a day?",
+    "answers": [
+      "24",
+      "12",
+      "6",
+      "18"
+    ],
+    "correctAnswer": "12",
+    "explanation": "The correct answer is 12.",
+    "tags": [
+      "general",
+      "easy"
+    ]
+  },
+  {
+    "id": 64020,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is home to the city of Munich?",
+    "answers": [
+      "Austria",
+      "Switzerland",
+      "Germany",
+      "Belgium"
+    ],
+    "correctAnswer": "Germany",
+    "explanation": "Germany is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "germany"
+    ]
+  },
+  {
+    "id": 64021,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is commonly associated with tropical islands and pineapples on pizza debates?",
+    "answers": [
+      "Apple",
+      "Orange",
+      "Pear",
+      "Pineapple"
+    ],
+    "correctAnswer": "Pineapple",
+    "explanation": "Pineapple is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "pineapple"
+    ]
+  },
+  {
+    "id": 64022,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet has the most moons discovered so far?",
+    "answers": [
+      "Saturn",
+      "Earth",
+      "Mars",
+      "Venus"
+    ],
+    "correctAnswer": "Saturn",
+    "explanation": "Saturn is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "saturn"
+    ]
+  },
+  {
+    "id": 64023,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is famous for saying “moo”?",
+    "answers": [
+      "Dog",
+      "Cow",
+      "Duck",
+      "Horse"
+    ],
+    "correctAnswer": "Cow",
+    "explanation": "Cow is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "cow"
+    ]
+  },
+  {
+    "id": 64024,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which famous landmark is located in India and made of white marble?",
+    "answers": [
+      "Great Wall",
+      "Big Ben",
+      "Taj Mahal",
+      "Colosseum"
+    ],
+    "correctAnswer": "Taj Mahal",
+    "explanation": "Taj Mahal is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "taj-mahal"
+    ]
+  },
+  {
+    "id": 64025,
+    "category": "general",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which scientist invented the alternating current (AC) system?",
+    "answers": [
+      "Thomas Edison",
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Nikola Tesla"
+    ],
+    "correctAnswer": "Nikola Tesla",
+    "explanation": "Nikola Tesla is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "hard",
+      "nikola-tesla"
+    ]
+  },
+  {
+    "id": 64026,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object protects people from rain?",
+    "answers": [
+      "Umbrella",
+      "Pillow",
+      "Chair",
+      "Mirror"
+    ],
+    "correctAnswer": "Umbrella",
+    "explanation": "Umbrella is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "umbrella"
+    ]
+  },
+  {
+    "id": 64027,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country has the capital city Nairobi?",
+    "answers": [
+      "Nigeria",
+      "Kenya",
+      "Egypt",
+      "South Africa"
+    ],
+    "correctAnswer": "Kenya",
+    "explanation": "Kenya is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "kenya"
+    ]
+  },
+  {
+    "id": 64028,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which body part contains fingerprints?",
+    "answers": [
+      "Eyes",
+      "Ears",
+      "Fingers",
+      "Toes"
+    ],
+    "correctAnswer": "Fingers",
+    "explanation": "Fingers is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "fingers"
+    ]
+  },
+  {
+    "id": 64029,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which continent is the country Peru located in?",
+    "answers": [
+      "Africa",
+      "Europe",
+      "Asia",
+      "South America"
+    ],
+    "correctAnswer": "South America",
+    "explanation": "South America is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "south-america"
+    ]
+  },
+  {
+    "id": 64030,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is famous for having black-and-white stripes?",
+    "answers": [
+      "Zebra",
+      "Tiger",
+      "Leopard",
+      "Panda"
+    ],
+    "correctAnswer": "Zebra",
+    "explanation": "Zebra is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "zebra"
+    ]
+  },
+  {
+    "id": 64031,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is known for the city of Buenos Aires?",
+    "answers": [
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "Colombia"
+    ],
+    "correctAnswer": "Argentina",
+    "explanation": "Argentina is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "argentina"
+    ]
+  },
+  {
+    "id": 64032,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many sides does a hexagon have?",
+    "answers": [
+      "5",
+      "7",
+      "6",
+      "8"
+    ],
+    "correctAnswer": "6",
+    "explanation": "The correct answer is 6.",
+    "tags": [
+      "general",
+      "easy"
+    ]
+  },
+  {
+    "id": 64033,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which mountain is famous for being the tallest in Japan?",
+    "answers": [
+      "Mount Everest",
+      "K2",
+      "Mount Kilimanjaro",
+      "Mount Fuji"
+    ],
+    "correctAnswer": "Mount Fuji",
+    "explanation": "Mount Fuji is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "mount-fuji"
+    ]
+  },
+  {
+    "id": 64034,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object is commonly used to see your reflection?",
+    "answers": [
+      "Mirror",
+      "Plate",
+      "Book",
+      "Blanket"
+    ],
+    "correctAnswer": "Mirror",
+    "explanation": "Mirror is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "mirror"
+    ]
+  },
+  {
+    "id": 64035,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is known for its very long neck?",
+    "answers": [
+      "Horse",
+      "Giraffe",
+      "Camel",
+      "Elephant"
+    ],
+    "correctAnswer": "Giraffe",
+    "explanation": "Giraffe is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "giraffe"
+    ]
+  },
+  {
+    "id": 64036,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is famous for the city of Bangkok?",
+    "answers": [
+      "Vietnam",
+      "Malaysia",
+      "Thailand",
+      "Indonesia"
+    ],
+    "correctAnswer": "Thailand",
+    "explanation": "Thailand is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "thailand"
+    ]
+  },
+  {
+    "id": 64037,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What color is commonly associated with grass and leaves?",
+    "answers": [
+      "Blue",
+      "Purple",
+      "Orange",
+      "Green"
+    ],
+    "correctAnswer": "Green",
+    "explanation": "Green is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "general",
+      "easy",
+      "green"
+    ]
+  },
+  {
+    "id": 64038,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which organ is responsible for pumping blood through the body?",
+    "answers": [
+      "Heart",
+      "Brain",
+      "Lungs",
+      "Liver"
+    ],
+    "correctAnswer": "Heart",
+    "explanation": "Heart is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "heart"
+    ]
+  },
+  {
+    "id": 64039,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many minutes are in two hours?",
+    "answers": [
+      "60",
+      "120",
+      "180",
+      "90"
+    ],
+    "correctAnswer": "120",
+    "explanation": "The correct answer is 120.",
+    "tags": [
+      "general",
+      "easy",
+      "120"
+    ]
+  },
+  {
+    "id": 64040,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is home to the city of Auckland?",
+    "answers": [
+      "Australia",
+      "Canada",
+      "New Zealand",
+      "Ireland"
+    ],
+    "correctAnswer": "New Zealand",
+    "explanation": "New Zealand is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "new-zealand"
+    ]
+  },
+  {
+    "id": 64041,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is known for having seeds on the outside?",
+    "answers": [
+      "Banana",
+      "Apple",
+      "Orange",
+      "Strawberry"
+    ],
+    "correctAnswer": "Strawberry",
+    "explanation": "Strawberry is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "strawberry"
+    ]
+  },
+  {
+    "id": 64042,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is closest in size to Earth?",
+    "answers": [
+      "Venus",
+      "Mars",
+      "Mercury",
+      "Neptune"
+    ],
+    "correctAnswer": "Venus",
+    "explanation": "Venus is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "venus"
+    ]
+  },
+  {
+    "id": 64043,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is famous for hopping and having long ears?",
+    "answers": [
+      "Fox",
+      "Rabbit",
+      "Bear",
+      "Wolf"
+    ],
+    "correctAnswer": "Rabbit",
+    "explanation": "Rabbit is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "rabbit"
+    ]
+  },
+  {
+    "id": 64044,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which famous structure is located in Sydney, Australia?",
+    "answers": [
+      "Big Ben",
+      "Colosseum",
+      "Sydney Opera House",
+      "Statue of Liberty"
+    ],
+    "correctAnswer": "Sydney Opera House",
+    "explanation": "Sydney Opera House is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "sydney-opera"
+    ]
+  },
+  {
+    "id": 64045,
+    "category": "general",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which scientist developed the theory of evolution by natural selection?",
+    "answers": [
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Isaac Newton",
+      "Charles Darwin"
+    ],
+    "correctAnswer": "Charles Darwin",
+    "explanation": "Charles Darwin is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "hard",
+      "charles-darwin"
+    ]
+  },
+  {
+    "id": 64046,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object is commonly used to dry your body after a shower?",
+    "answers": [
+      "Towel",
+      "Blanket",
+      "Pillow",
+      "Curtain"
+    ],
+    "correctAnswer": "Towel",
+    "explanation": "Towel is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "towel"
+    ]
+  },
+  {
+    "id": 64047,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country has the capital city Lima?",
+    "answers": [
+      "Chile",
+      "Peru",
+      "Brazil",
+      "Colombia"
+    ],
+    "correctAnswer": "Peru",
+    "explanation": "Peru is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "peru"
+    ]
+  },
+  {
+    "id": 64048,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which body part do humans mainly use to chew food?",
+    "answers": [
+      "Hands",
+      "Eyes",
+      "Teeth",
+      "Knees"
+    ],
+    "correctAnswer": "Teeth",
+    "explanation": "Teeth is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "teeth"
+    ]
+  },
+  {
+    "id": 64049,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which continent contains the Sahara Desert?",
+    "answers": [
+      "Asia",
+      "Australia",
+      "South America",
+      "Africa"
+    ],
+    "correctAnswer": "Africa",
+    "explanation": "Africa is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "africa"
+    ]
+  },
+  {
+    "id": 64050,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is known for carrying a heavy shell and moving slowly?",
+    "answers": [
+      "Tortoise",
+      "Dog",
+      "Horse",
+      "Deer"
+    ],
+    "correctAnswer": "Tortoise",
+    "explanation": "Tortoise is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "tortoise"
+    ]
+  },
+  {
+    "id": 64051,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is famous for the city of Marrakesh?",
+    "answers": [
+      "Egypt",
+      "Morocco",
+      "Turkey",
+      "Tunisia"
+    ],
+    "correctAnswer": "Morocco",
+    "explanation": "Morocco is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "morocco"
+    ]
+  },
+  {
+    "id": 64052,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many legs does an insect typically have?",
+    "answers": [
+      "8",
+      "4",
+      "6",
+      "10"
+    ],
+    "correctAnswer": "6",
+    "explanation": "The correct answer is 6.",
+    "tags": [
+      "general",
+      "easy"
+    ]
+  },
+  {
+    "id": 64053,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which mountain is famous for being the tallest in Africa?",
+    "answers": [
+      "Mount Everest",
+      "Mount Fuji",
+      "K2",
+      "Mount Kilimanjaro"
+    ],
+    "correctAnswer": "Mount Kilimanjaro",
+    "explanation": "Mount Kilimanjaro is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "mount-kilimanjaro"
+    ]
+  },
+  {
+    "id": 64054,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object is commonly used to carry groceries?",
+    "answers": [
+      "Bag",
+      "Plate",
+      "Mirror",
+      "Pillow"
+    ],
+    "correctAnswer": "Bag",
+    "explanation": "Bag is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "bag"
+    ]
+  },
+  {
+    "id": 64055,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is known for having eight legs?",
+    "answers": [
+      "Dog",
+      "Spider",
+      "Bird",
+      "Fish"
+    ],
+    "correctAnswer": "Spider",
+    "explanation": "Spider is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "spider"
+    ]
+  },
+  {
+    "id": 64056,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is famous for the city of Copenhagen?",
+    "answers": [
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Finland"
+    ],
+    "correctAnswer": "Denmark",
+    "explanation": "Denmark is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "denmark"
+    ]
+  },
+  {
+    "id": 64057,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What color are strawberries when ripe?",
+    "answers": [
+      "Blue",
+      "Yellow",
+      "Purple",
+      "Red"
+    ],
+    "correctAnswer": "Red",
+    "explanation": "Red is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "general",
+      "easy",
+      "red"
+    ]
+  },
+  {
+    "id": 64058,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which organ helps clean waste from the blood?",
+    "answers": [
+      "Kidneys",
+      "Heart",
+      "Lungs",
+      "Stomach"
+    ],
+    "correctAnswer": "Kidneys",
+    "explanation": "Kidneys is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "kidneys"
+    ]
+  },
+  {
+    "id": 64059,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many days are in one week?",
+    "answers": [
+      "5",
+      "7",
+      "6",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "explanation": "The correct answer is 7.",
+    "tags": [
+      "general",
+      "easy"
+    ]
+  },
+  {
+    "id": 64060,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is home to the city of Oslo?",
+    "answers": [
+      "Sweden",
+      "Finland",
+      "Norway",
+      "Iceland"
+    ],
+    "correctAnswer": "Norway",
+    "explanation": "Norway is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "norway"
+    ]
+  },
+  {
+    "id": 64061,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is commonly green on the outside and red inside?",
+    "answers": [
+      "Banana",
+      "Pear",
+      "Kiwi",
+      "Watermelon"
+    ],
+    "correctAnswer": "Watermelon",
+    "explanation": "Watermelon is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "watermelon"
+    ]
+  },
+  {
+    "id": 64062,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its large rings?",
+    "answers": [
+      "Saturn",
+      "Mars",
+      "Mercury",
+      "Earth"
+    ],
+    "correctAnswer": "Saturn",
+    "explanation": "Saturn is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "saturn"
+    ]
+  },
+  {
+    "id": 64063,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is known for building honeycombs?",
+    "answers": [
+      "Ant",
+      "Bee",
+      "Butterfly",
+      "Wasp"
+    ],
+    "correctAnswer": "Bee",
+    "explanation": "Bee is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "bee"
+    ]
+  },
+  {
+    "id": 64064,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which famous landmark is located in Egypt?",
+    "answers": [
+      "Eiffel Tower",
+      "Colosseum",
+      "Great Pyramid of Giza",
+      "Big Ben"
+    ],
+    "correctAnswer": "Great Pyramid of Giza",
+    "explanation": "Great Pyramid of Giza is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "great-pyramid"
+    ]
+  },
+  {
+    "id": 64065,
+    "category": "general",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which scientist is famous for the equation E = mc²?",
+    "answers": [
+      "Isaac Newton",
+      "Nikola Tesla",
+      "Stephen Hawking",
+      "Albert Einstein"
+    ],
+    "correctAnswer": "Albert Einstein",
+    "explanation": "Albert Einstein is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "hard",
+      "albert-einstein"
+    ]
+  },
+  {
+    "id": 64066,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object is commonly used to eat soup?",
+    "answers": [
+      "Spoon",
+      "Fork",
+      "Knife",
+      "Plate"
+    ],
+    "correctAnswer": "Spoon",
+    "explanation": "Spoon is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "spoon"
+    ]
+  },
+  {
+    "id": 64067,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country has the capital city Helsinki?",
+    "answers": [
+      "Sweden",
+      "Finland",
+      "Norway",
+      "Denmark"
+    ],
+    "correctAnswer": "Finland",
+    "explanation": "Finland is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "finland"
+    ]
+  },
+  {
+    "id": 64068,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which body part helps humans smell scents?",
+    "answers": [
+      "Eyes",
+      "Ears",
+      "Nose",
+      "Hands"
+    ],
+    "correctAnswer": "Nose",
+    "explanation": "Nose is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "nose"
+    ]
+  },
+  {
+    "id": 64069,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is famous for barking?",
+    "answers": [
+      "Cat",
+      "Cow",
+      "Horse",
+      "Dog"
+    ],
+    "correctAnswer": "Dog",
+    "explanation": "Dog is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "dog"
+    ]
+  },
+  {
+    "id": 64070,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is known for the city of Seoul?",
+    "answers": [
+      "South Korea",
+      "China",
+      "Japan",
+      "Thailand"
+    ],
+    "correctAnswer": "South Korea",
+    "explanation": "South Korea is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "south-korea"
+    ]
+  },
+  {
+    "id": 64071,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many hours are there in three days?",
+    "answers": [
+      "48",
+      "72",
+      "24",
+      "96"
+    ],
+    "correctAnswer": "72",
+    "explanation": "The correct answer is 72.",
+    "tags": [
+      "general",
+      "easy"
+    ]
+  },
+  {
+    "id": 64072,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which mountain is the tallest in North America?",
+    "answers": [
+      "Mount Everest",
+      "K2",
+      "Denali",
+      "Mont Blanc"
+    ],
+    "correctAnswer": "Denali",
+    "explanation": "Denali is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "denali"
+    ]
+  },
+  {
+    "id": 64073,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object is commonly used to unlock a car or house?",
+    "answers": [
+      "Cup",
+      "Book",
+      "Plate",
+      "Key"
+    ],
+    "correctAnswer": "Key",
+    "explanation": "Key is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "key"
+    ]
+  },
+  {
+    "id": 64074,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is known for its black-and-white coloring and living in Antarctica?",
+    "answers": [
+      "Penguin",
+      "Polar Bear",
+      "Seal",
+      "Walrus"
+    ],
+    "correctAnswer": "Penguin",
+    "explanation": "Penguin is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "penguin"
+    ]
+  },
+  {
+    "id": 64075,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is famous for the city of Budapest?",
+    "answers": [
+      "Poland",
+      "Hungary",
+      "Romania",
+      "Austria"
+    ],
+    "correctAnswer": "Hungary",
+    "explanation": "Hungary is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "hungary"
+    ]
+  },
+  {
+    "id": 64076,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What color is commonly associated with the sky on a clear day?",
+    "answers": [
+      "Green",
+      "Red",
+      "Blue",
+      "Purple"
+    ],
+    "correctAnswer": "Blue",
+    "explanation": "Blue is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "general",
+      "easy",
+      "blue"
+    ]
+  },
+  {
+    "id": 64077,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which organ helps humans think and process information?",
+    "answers": [
+      "Heart",
+      "Lungs",
+      "Kidneys",
+      "Brain"
+    ],
+    "correctAnswer": "Brain",
+    "explanation": "Brain is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "brain"
+    ]
+  },
+  {
+    "id": 64078,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many months are in half a year?",
+    "answers": [
+      "6",
+      "12",
+      "3",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "explanation": "The correct answer is 6.",
+    "tags": [
+      "general",
+      "easy"
+    ]
+  },
+  {
+    "id": 64079,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is home to the city of Warsaw?",
+    "answers": [
+      "Germany",
+      "Poland",
+      "Ukraine",
+      "Hungary"
+    ],
+    "correctAnswer": "Poland",
+    "explanation": "Poland is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "poland"
+    ]
+  },
+  {
+    "id": 64080,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is commonly squeezed to make lemonade?",
+    "answers": [
+      "Orange",
+      "Apple",
+      "Lemon",
+      "Grape"
+    ],
+    "correctAnswer": "Lemon",
+    "explanation": "Lemon is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "lemon"
+    ]
+  },
+  {
+    "id": 64081,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known as the Blue Planet?",
+    "answers": [
+      "Mars",
+      "Venus",
+      "Mercury",
+      "Earth"
+    ],
+    "correctAnswer": "Earth",
+    "explanation": "Earth is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "earth"
+    ]
+  },
+  {
+    "id": 64082,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is famous for carrying bananas in cartoons?",
+    "answers": [
+      "Monkey",
+      "Tiger",
+      "Bear",
+      "Elephant"
+    ],
+    "correctAnswer": "Monkey",
+    "explanation": "Monkey is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "monkey"
+    ]
+  },
+  {
+    "id": 64083,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which famous landmark is located in France?",
+    "answers": [
+      "Big Ben",
+      "Eiffel Tower",
+      "Statue of Liberty",
+      "Sydney Opera House"
+    ],
+    "correctAnswer": "Eiffel Tower",
+    "explanation": "Eiffel Tower is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "eiffel-tower"
+    ]
+  },
+  {
+    "id": 64084,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object is commonly used to cut food at dinner?",
+    "answers": [
+      "Book",
+      "Cup",
+      "Knife",
+      "Brush"
+    ],
+    "correctAnswer": "Knife",
+    "explanation": "Knife is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "knife"
+    ]
+  },
+  {
+    "id": 64085,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which body part helps humans hear sounds?",
+    "answers": [
+      "Eyes",
+      "Hands",
+      "Feet",
+      "Ears"
+    ],
+    "correctAnswer": "Ears",
+    "explanation": "Ears is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "ears"
+    ]
+  },
+  {
+    "id": 64086,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which continent contains the country India?",
+    "answers": [
+      "Asia",
+      "Europe",
+      "Africa",
+      "Australia"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "Asia is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "asia"
+    ]
+  },
+  {
+    "id": 64087,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is famous for saying “quack”?",
+    "answers": [
+      "Chicken",
+      "Duck",
+      "Goose",
+      "Turkey"
+    ],
+    "correctAnswer": "Duck",
+    "explanation": "Duck is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "duck"
+    ]
+  },
+  {
+    "id": 64088,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is known for the city of Tokyo?",
+    "answers": [
+      "China",
+      "South Korea",
+      "Japan",
+      "Thailand"
+    ],
+    "correctAnswer": "Japan",
+    "explanation": "Japan is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "japan"
+    ]
+  },
+  {
+    "id": 64089,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many minutes are in one full day?",
+    "answers": [
+      "720",
+      "1200",
+      "1000",
+      "1440"
+    ],
+    "correctAnswer": "1440",
+    "explanation": "The correct answer is 1440.",
+    "tags": [
+      "general",
+      "easy",
+      "1440"
+    ]
+  },
+  {
+    "id": 64090,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which mountain range is located in Europe?",
+    "answers": [
+      "Alps",
+      "Andes",
+      "Himalayas",
+      "Rockies"
+    ],
+    "correctAnswer": "Alps",
+    "explanation": "Alps is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "alps"
+    ]
+  },
+  {
+    "id": 64091,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object is commonly used to tell the temperature outside?",
+    "answers": [
+      "Clock",
+      "Thermometer",
+      "Compass",
+      "Calculator"
+    ],
+    "correctAnswer": "Thermometer",
+    "explanation": "Thermometer is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "thermometer"
+    ]
+  },
+  {
+    "id": 64092,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is known for its ability to mimic human speech?",
+    "answers": [
+      "Eagle",
+      "Penguin",
+      "Parrot",
+      "Swan"
+    ],
+    "correctAnswer": "Parrot",
+    "explanation": "Parrot is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "parrot"
+    ]
+  },
+  {
+    "id": 64093,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What color are emerald gemstones?",
+    "answers": [
+      "Blue",
+      "Red",
+      "Yellow",
+      "Green"
+    ],
+    "correctAnswer": "Green",
+    "explanation": "Green is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "general",
+      "easy",
+      "green"
+    ]
+  },
+  {
+    "id": 64094,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which organ in the human body is mainly responsible for digestion?",
+    "answers": [
+      "Stomach",
+      "Heart",
+      "Brain",
+      "Lungs"
+    ],
+    "correctAnswer": "Stomach",
+    "explanation": "Stomach is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "stomach"
+    ]
+  },
+  {
+    "id": 64095,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many hours are in one week?",
+    "answers": [
+      "120",
+      "168",
+      "144",
+      "192"
+    ],
+    "correctAnswer": "168",
+    "explanation": "The correct answer is 168.",
+    "tags": [
+      "general",
+      "easy",
+      "168"
+    ]
+  },
+  {
+    "id": 64096,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is home to the city of Brussels?",
+    "answers": [
+      "France",
+      "Netherlands",
+      "Belgium",
+      "Luxembourg"
+    ],
+    "correctAnswer": "Belgium",
+    "explanation": "Belgium is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "belgium"
+    ]
+  },
+  {
+    "id": 64097,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is known for being yellow and sour?",
+    "answers": [
+      "Apple",
+      "Cherry",
+      "Pear",
+      "Lemon"
+    ],
+    "correctAnswer": "Lemon",
+    "explanation": "Lemon is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "lemon"
+    ]
+  },
+  {
+    "id": 64098,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is the smallest in our solar system?",
+    "answers": [
+      "Mercury",
+      "Mars",
+      "Venus",
+      "Earth"
+    ],
+    "correctAnswer": "Mercury",
+    "explanation": "Mercury is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "mercury"
+    ]
+  },
+  {
+    "id": 64099,
+    "category": "general",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is famous for storing nuts for winter?",
+    "answers": [
+      "Rabbit",
+      "Squirrel",
+      "Fox",
+      "Bear"
+    ],
+    "correctAnswer": "Squirrel",
+    "explanation": "Squirrel is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "easy",
+      "squirrel"
+    ]
+  },
+  {
+    "id": 64100,
+    "category": "general",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which famous landmark is located in Italy?",
+    "answers": [
+      "Big Ben",
+      "Statue of Liberty",
+      "Leaning Tower of Pisa",
+      "Sydney Opera House"
+    ],
+    "correctAnswer": "Leaning Tower of Pisa",
+    "explanation": "Leaning Tower of Pisa is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "medium",
+      "leaning-tower"
+    ]
+  },
+  {
+    "id": 64101,
+    "category": "general",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which scientist is known as the father of modern physics?",
+    "answers": [
+      "Isaac Newton",
+      "Nikola Tesla",
+      "Galileo Galilei",
+      "Albert Einstein"
+    ],
+    "correctAnswer": "Albert Einstein",
+    "explanation": "Albert Einstein is the correct answer to this general question.",
+    "tags": [
+      "general",
+      "hard",
+      "albert-einstein"
+    ]
+  }
+]

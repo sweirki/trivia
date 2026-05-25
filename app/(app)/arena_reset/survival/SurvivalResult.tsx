@@ -55,6 +55,9 @@ function getSurvivalTier(rounds: number) {
 export default function SurvivalResult() {
   const { player, resetArena } = useArenaStore();
   const addRun = useSurvivalHistoryStore((state) => state.addRun);
+  const bestScore = useSurvivalHistoryStore((state) => state.bestScore);
+  const totalRuns = useSurvivalHistoryStore((state) => state.totalRuns);
+  const unlockedMilestones = useSurvivalHistoryStore((state) => state.unlockedMilestones);
   const rewardSurvival = useArenaRewardsEngine((state) => state.rewardSurvival);
   const previewSurvival = useArenaRewardsEngine((state) => state.previewSurvival);
 
@@ -63,6 +66,13 @@ export default function SurvivalResult() {
     coins: 0,
     arenaTokens: 0,
   });
+  const [runReport, setRunReport] = useState({
+    previousBest: bestScore,
+    bestScore,
+    isPersonalBest: false,
+    totalRuns,
+    milestonesUnlocked: [] as number[],
+  });
 
   const rounds = player?.score ?? 0;
   const tier = useMemo(() => getSurvivalTier(rounds), [rounds]);
@@ -70,12 +80,27 @@ export default function SurvivalResult() {
     () => previewSurvival({ rounds }),
     [previewSurvival, rounds],
   );
-  const recordLabel = rounds >= 12 ? "SURVIVAL MILESTONE" : tier.label;
+  const isProjectedBest = rounds > bestScore;
+  const recordLabel = isProjectedBest
+    ? "NEW PERSONAL BEST"
+    : rounds >= 12
+      ? "SURVIVAL MILESTONE"
+      : tier.label;
+  const nextMilestone = [10, 20, 30, 40].find((milestone) => rounds < milestone);
+  const milestoneHint = runReport.milestonesUnlocked.length
+    ? `Milestone unlocked: ${runReport.milestonesUnlocked.join(" / ")} rounds.`
+    : nextMilestone
+      ? `Next milestone: survive ${nextMilestone} rounds.`
+      : "All core survival milestones reached.";
 
   const awardOnce = () => {
     if (rewardedRef.current) return;
     rewardedRef.current = true;
-    addRun(rounds);
+    const report = addRun(rounds);
+    setRunReport({
+      ...report,
+      milestonesUnlocked: report.milestonesUnlocked,
+    });
     const reward = rewardSurvival({ rounds });
     setRewardApplied(reward);
   };
@@ -126,6 +151,10 @@ export default function SurvivalResult() {
         <Text style={styles.badge}>{recordLabel}</Text>
         <Text style={styles.title}>{tier.headline}</Text>
         <Text style={styles.subtitle}>{tier.subtext}</Text>
+        <Text style={styles.subtitle}>{milestoneHint}</Text>
+        <Text style={styles.subtitle}>
+          Best: {runReport.bestScore || Math.max(bestScore, rounds)} rounds • Runs: {runReport.totalRuns || totalRuns + 1}
+        </Text>
       </ImageBackground>
 
       <View style={styles.statsRow}>
@@ -145,16 +174,20 @@ export default function SurvivalResult() {
         </View>
 
         <View style={styles.statCard}>
-          <Text style={styles.statLabel}>Style</Text>
-          <Text style={styles.statValueOrange}>{tier.identity}</Text>
+          <Text style={styles.statLabel}>Best</Text>
+          <Text style={styles.statValueOrange}>{runReport.isPersonalBest || isProjectedBest ? "NEW" : runReport.bestScore || bestScore}</Text>
         </View>
       </View>
 
       <LinearGradient colors={["#102744", "#091A30"]} style={styles.reportCard}>
         <Text style={styles.reportTitle}>Arena Pressure</Text>
         <Text style={styles.reportText}>
-          Every survival run counts toward your long-term arena identity.
-          Longer runs build prestige, history, and seasonal momentum.
+          {runReport.isPersonalBest || isProjectedBest
+            ? "Personal best secured. This run now anchors your Survival identity."
+            : `Best run remains ${runReport.bestScore || bestScore} rounds. Push past it for a stronger Survival badge.`}
+        </Text>
+        <Text style={styles.reportText}>
+          Milestones: {unlockedMilestones.length ? unlockedMilestones.join(" / ") : "none yet"} • Style: {tier.identity}
         </Text>
       </LinearGradient>
 
@@ -333,3 +366,5 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
 });
+
+

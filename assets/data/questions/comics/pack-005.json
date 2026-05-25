@@ -1,1 +1,782 @@
-[]
+[
+  {
+    "id": 62001,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Marvel hero became worthy enough to wield Stormbreaker in Avengers: Infinity War?",
+    "answers": [
+      "Thor",
+      "Captain America",
+      "Loki",
+      "Beta Ray Bill"
+    ],
+    "correctAnswer": "Thor",
+    "explanation": "Thor is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "thor"
+    ]
+  },
+  {
+    "id": 62002,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which superhero protects Gotham City alongside Batman as Batgirl?",
+    "answers": [
+      "Selina Kyle",
+      "Barbara Gordon",
+      "Kate Kane",
+      "Harley Quinn"
+    ],
+    "correctAnswer": "Barbara Gordon",
+    "explanation": "Barbara Gordon is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "barbara-gordon"
+    ]
+  },
+  {
+    "id": 62003,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Marvel hero is known for his red visor that controls optic blasts?",
+    "answers": [
+      "Havok",
+      "Cable",
+      "Cyclops",
+      "Bishop"
+    ],
+    "correctAnswer": "Cyclops",
+    "explanation": "Cyclops is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "cyclops"
+    ]
+  },
+  {
+    "id": 62004,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Batman villain became Harley Quinn’s partner in crime?",
+    "answers": [
+      "Penguin",
+      "Two-Face",
+      "Scarecrow",
+      "The Joker"
+    ],
+    "correctAnswer": "The Joker",
+    "explanation": "The Joker is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "joker"
+    ]
+  },
+  {
+    "id": 62005,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which superhero can phase through walls and is a member of the X-Men?",
+    "answers": [
+      "Kitty Pryde",
+      "Rogue",
+      "Storm",
+      "Mystique"
+    ],
+    "correctAnswer": "Kitty Pryde",
+    "explanation": "Kitty Pryde is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "kitty-pryde"
+    ]
+  },
+  {
+    "id": 62006,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which DC villain is obsessed with freezing Gotham City?",
+    "answers": [
+      "Captain Cold",
+      "Mr. Freeze",
+      "Killer Frost",
+      "Icicle"
+    ],
+    "correctAnswer": "Mr. Freeze",
+    "explanation": "Mr. Freeze is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "freeze"
+    ]
+  },
+  {
+    "id": 62007,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Marvel hero is a talking raccoon and member of the Guardians of the Galaxy?",
+    "answers": [
+      "Groot",
+      "Howard the Duck",
+      "Rocket Raccoon",
+      "Cosmo"
+    ],
+    "correctAnswer": "Rocket Raccoon",
+    "explanation": "Rocket Raccoon is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "rocket-raccoon"
+    ]
+  },
+  {
+    "id": 62008,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which DC hero is known for wearing a blue beetle scarab armor?",
+    "answers": [
+      "Booster Gold",
+      "Atom",
+      "Cyborg",
+      "Blue Beetle"
+    ],
+    "correctAnswer": "Blue Beetle",
+    "explanation": "Blue Beetle is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "blue-beetle"
+    ]
+  },
+  {
+    "id": 62009,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Marvel hero’s alter ego is Wade Wilson?",
+    "answers": [
+      "Deadpool",
+      "Punisher",
+      "Cable",
+      "Winter Soldier"
+    ],
+    "correctAnswer": "Deadpool",
+    "explanation": "Deadpool is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "deadpool"
+    ]
+  },
+  {
+    "id": 62010,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which DC storyline introduced the anti-monitor destroying multiple universes?",
+    "answers": [
+      "Infinite Crisis",
+      "Crisis on Infinite Earths",
+      "Blackest Night",
+      "Final Crisis"
+    ],
+    "correctAnswer": "Crisis on Infinite Earths",
+    "explanation": "Crisis on Infinite Earths is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "hard",
+      "crisis-infinite"
+    ]
+  },
+  {
+    "id": 62011,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Marvel hero is known as the Scarlet Witch?",
+    "answers": [
+      "Jean Grey",
+      "Black Widow",
+      "Wanda Maximoff",
+      "Rogue"
+    ],
+    "correctAnswer": "Wanda Maximoff",
+    "explanation": "Wanda Maximoff is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "wanda-maximoff"
+    ]
+  },
+  {
+    "id": 62012,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which DC antihero is famous for smoking cigarettes and using dark magic?",
+    "answers": [
+      "Doctor Fate",
+      "Etrigan",
+      "Spectre",
+      "John Constantine"
+    ],
+    "correctAnswer": "John Constantine",
+    "explanation": "John Constantine is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "john-constantine"
+    ]
+  },
+  {
+    "id": 62013,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Marvel hero can absorb powers and memories through touch?",
+    "answers": [
+      "Rogue",
+      "Mystique",
+      "Storm",
+      "Jean Grey"
+    ],
+    "correctAnswer": "Rogue",
+    "explanation": "Rogue is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "rogue"
+    ]
+  },
+  {
+    "id": 62014,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Spider-Man villain is a giant armored man with a rhino suit?",
+    "answers": [
+      "Scorpion",
+      "Rhino",
+      "Sandman",
+      "Shocker"
+    ],
+    "correctAnswer": "Rhino",
+    "explanation": "Rhino is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "rhino"
+    ]
+  },
+  {
+    "id": 62015,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which DC hero’s alter ego is Hal Jordan?",
+    "answers": [
+      "The Flash",
+      "Blue Beetle",
+      "Green Lantern",
+      "Green Arrow"
+    ],
+    "correctAnswer": "Green Lantern",
+    "explanation": "Green Lantern is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "green-lantern"
+    ]
+  },
+  {
+    "id": 62016,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Marvel villain uses a pumpkin bomb arsenal against Spider-Man?",
+    "answers": [
+      "Hobgoblin",
+      "Doctor Octopus",
+      "Mysterio",
+      "Green Goblin"
+    ],
+    "correctAnswer": "Green Goblin",
+    "explanation": "Green Goblin is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "green-goblin"
+    ]
+  },
+  {
+    "id": 62017,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which superhero team includes Cyclops, Wolverine, and Beast?",
+    "answers": [
+      "X-Men",
+      "Fantastic Four",
+      "The Avengers",
+      "Defenders"
+    ],
+    "correctAnswer": "X-Men",
+    "explanation": "X-Men is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "men"
+    ]
+  },
+  {
+    "id": 62018,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which DC villain controls electricity and frequently battles The Flash?",
+    "answers": [
+      "Captain Cold",
+      "Reverse-Flash",
+      "Weather Wizard",
+      "Mirror Master"
+    ],
+    "correctAnswer": "Reverse-Flash",
+    "explanation": "Reverse-Flash is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "reverse-flash"
+    ]
+  },
+  {
+    "id": 62019,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Marvel hero is known for the phrase “I can do this all day”?",
+    "answers": [
+      "Iron Man",
+      "Spider-Man",
+      "Captain America",
+      "Thor"
+    ],
+    "correctAnswer": "Captain America",
+    "explanation": "Captain America is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "captain-america"
+    ]
+  },
+  {
+    "id": 62020,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which DC hero transforms into a powerful being by shouting “Shazam”?",
+    "answers": [
+      "Black Adam",
+      "Doctor Fate",
+      "Superboy",
+      "Billy Batson"
+    ],
+    "correctAnswer": "Billy Batson",
+    "explanation": "Billy Batson is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "billy-batson"
+    ]
+  },
+  {
+    "id": 62021,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Marvel hero became the ruler of Asgard after Odin?",
+    "answers": [
+      "Thor",
+      "Loki",
+      "Balder",
+      "Heimdall"
+    ],
+    "correctAnswer": "Thor",
+    "explanation": "Thor is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "thor"
+    ]
+  },
+  {
+    "id": 62022,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which superhero is known as the Boy Wonder?",
+    "answers": [
+      "Nightwing",
+      "Robin",
+      "Superboy",
+      "Kid Flash"
+    ],
+    "correctAnswer": "Robin",
+    "explanation": "Robin is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "robin"
+    ]
+  },
+  {
+    "id": 62023,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Marvel hero can turn invisible as a member of the Fantastic Four?",
+    "answers": [
+      "Wasp",
+      "Rogue",
+      "Invisible Woman",
+      "Mystique"
+    ],
+    "correctAnswer": "Invisible Woman",
+    "explanation": "Invisible Woman is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "invisible-woman"
+    ]
+  },
+  {
+    "id": 62024,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Batman villain is a former psychiatrist named Harleen Quinzel?",
+    "answers": [
+      "Poison Ivy",
+      "Catwoman",
+      "Punchline",
+      "Harley Quinn"
+    ],
+    "correctAnswer": "Harley Quinn",
+    "explanation": "Harley Quinn is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "harley-quinn"
+    ]
+  },
+  {
+    "id": 62025,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Marvel hero fights vampires using swords and firearms?",
+    "answers": [
+      "Blade",
+      "Ghost Rider",
+      "Punisher",
+      "Moon Knight"
+    ],
+    "correctAnswer": "Blade",
+    "explanation": "Blade is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "blade"
+    ]
+  },
+  {
+    "id": 62026,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which DC hero wears a helmet containing the spirit of Nabu?",
+    "answers": [
+      "Spectre",
+      "Doctor Fate",
+      "Constantine",
+      "Etrigan"
+    ],
+    "correctAnswer": "Doctor Fate",
+    "explanation": "Doctor Fate is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "doctor-fate"
+    ]
+  },
+  {
+    "id": 62027,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Marvel hero is made entirely of orange rock-like skin?",
+    "answers": [
+      "Colossus",
+      "Juggernaut",
+      "Thing",
+      "Korg"
+    ],
+    "correctAnswer": "Thing",
+    "explanation": "Thing is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "thing"
+    ]
+  },
+  {
+    "id": 62028,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which DC villain often uses a giant coin to decide crimes?",
+    "answers": [
+      "Riddler",
+      "Joker",
+      "Black Mask",
+      "Two-Face"
+    ],
+    "correctAnswer": "Two-Face",
+    "explanation": "Two-Face is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "two-face"
+    ]
+  },
+  {
+    "id": 62029,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Marvel hero uses a bow and trick arrows as an Avenger?",
+    "answers": [
+      "Hawkeye",
+      "Green Arrow",
+      "Bullseye",
+      "Falcon"
+    ],
+    "correctAnswer": "Hawkeye",
+    "explanation": "Hawkeye is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "hawkeye"
+    ]
+  },
+  {
+    "id": 62030,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which DC villain famously killed Robin Jason Todd in A Death in the Family?",
+    "answers": [
+      "Bane",
+      "The Joker",
+      "Ra’s al Ghul",
+      "Scarecrow"
+    ],
+    "correctAnswer": "The Joker",
+    "explanation": "The Joker is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "hard",
+      "joker"
+    ]
+  },
+  {
+    "id": 62031,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Marvel hero can manipulate probability and chaos magic?",
+    "answers": [
+      "Jean Grey",
+      "Storm",
+      "Scarlet Witch",
+      "Rogue"
+    ],
+    "correctAnswer": "Scarlet Witch",
+    "explanation": "Scarlet Witch is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "scarlet-witch"
+    ]
+  },
+  {
+    "id": 62032,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which DC superheroine is an alien princess from Tamaran?",
+    "answers": [
+      "Raven",
+      "Supergirl",
+      "Vixen",
+      "Starfire"
+    ],
+    "correctAnswer": "Starfire",
+    "explanation": "Starfire is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "starfire"
+    ]
+  },
+  {
+    "id": 62033,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Marvel hero’s alter ego is T’Challa?",
+    "answers": [
+      "Black Panther",
+      "Falcon",
+      "Blade",
+      "Luke Cage"
+    ],
+    "correctAnswer": "Black Panther",
+    "explanation": "Black Panther is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "black-panther"
+    ]
+  },
+  {
+    "id": 62034,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Spider-Man villain controls electricity and blue lightning?",
+    "answers": [
+      "Shocker",
+      "Electro",
+      "Rhino",
+      "Scorpion"
+    ],
+    "correctAnswer": "Electro",
+    "explanation": "Electro is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "electro"
+    ]
+  },
+  {
+    "id": 62035,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which DC hero is part machine and part human?",
+    "answers": [
+      "Blue Beetle",
+      "Steel",
+      "Cyborg",
+      "Robotman"
+    ],
+    "correctAnswer": "Cyborg",
+    "explanation": "Cyborg is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "cyborg"
+    ]
+  },
+  {
+    "id": 62036,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Marvel villain wears a metal mask and green cloak?",
+    "answers": [
+      "Magneto",
+      "Red Skull",
+      "Loki",
+      "Doctor Doom"
+    ],
+    "correctAnswer": "Doctor Doom",
+    "explanation": "Doctor Doom is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "doctor-doom"
+    ]
+  },
+  {
+    "id": 62037,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which superhero is known for carrying a shield with a star emblem?",
+    "answers": [
+      "Captain America",
+      "US Agent",
+      "Winter Soldier",
+      "Falcon"
+    ],
+    "correctAnswer": "Captain America",
+    "explanation": "Captain America is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "captain-america"
+    ]
+  },
+  {
+    "id": 62038,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which DC villain is a genius billionaire and Superman’s greatest enemy?",
+    "answers": [
+      "Brainiac",
+      "Lex Luthor",
+      "Darkseid",
+      "Sinestro"
+    ],
+    "correctAnswer": "Lex Luthor",
+    "explanation": "Lex Luthor is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "medium",
+      "lex-luthor"
+    ]
+  },
+  {
+    "id": 62039,
+    "category": "comics",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Marvel hero’s real name is Peter Quill?",
+    "answers": [
+      "Nova",
+      "Rocket Raccoon",
+      "Star-Lord",
+      "Adam Warlock"
+    ],
+    "correctAnswer": "Star-Lord",
+    "explanation": "Star-Lord is the correct answer to this comics question.",
+    "tags": [
+      "comics",
+      "easy",
+      "star-lord"
+    ]
+  }
+]

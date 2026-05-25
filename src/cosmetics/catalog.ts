@@ -527,3 +527,5 @@ export const COSMETICS_CATALOG: CosmeticItem[] = [
     limited: true,
   },
 ];
+
+

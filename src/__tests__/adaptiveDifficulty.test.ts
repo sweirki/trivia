@@ -55,3 +55,5 @@ describe("adaptiveDifficulty", () => {
     expect(getAdaptivePreferredDifficulty(state, "daily")).toBe("medium");
   });
 });
+
+

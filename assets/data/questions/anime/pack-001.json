@@ -1,1 +1,4802 @@
-[]
+[
+  {
+    "id": 2501,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Naruto Uzumaki as he dreams of becoming Hokage?",
+    "answers": [
+      "Naruto",
+      "Death Note",
+      "Bleach",
+      "One Piece"
+    ],
+    "correctAnswer": "Naruto",
+    "explanation": "Naruto follows a young ninja who wants to earn recognition and become Hokage.",
+    "tags": [
+      "anime",
+      "shonen",
+      "naruto"
+    ]
+  },
+  {
+    "id": 2502,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In One Piece, what is Monkey D. Luffy searching for?",
+    "answers": [
+      "The Death Note",
+      "The One Piece",
+      "The Dragon Balls",
+      "The Philosopher's Stone"
+    ],
+    "correctAnswer": "The One Piece",
+    "explanation": "Luffy's journey is centered on finding the legendary treasure known as the One Piece.",
+    "tags": [
+      "anime",
+      "shonen",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 2503,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Goku and the Dragon Balls?",
+    "answers": [
+      "Demon Slayer",
+      "Jujutsu Kaisen",
+      "Dragon Ball",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Dragon Ball",
+    "explanation": "Dragon Ball follows Goku and adventures involving the wish-granting Dragon Balls.",
+    "tags": [
+      "anime",
+      "shonen",
+      "dragon-ball"
+    ]
+  },
+  {
+    "id": 2504,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime centers on Tanjiro Kamado fighting demons?",
+    "answers": [
+      "Mob Psycho 100",
+      "Black Clover",
+      "Tokyo Ghoul",
+      "Demon Slayer"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer follows Tanjiro after his family is attacked by demons.",
+    "tags": [
+      "anime",
+      "shonen",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 2505,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Death Note, what object gives Light Yagami the power to kill by writing names?",
+    "answers": [
+      "A notebook",
+      "A sword",
+      "A mask",
+      "A crystal"
+    ],
+    "correctAnswer": "A notebook",
+    "explanation": "The Death Note is a supernatural notebook that kills people whose names are written in it.",
+    "tags": [
+      "anime",
+      "thriller",
+      "death-note"
+    ]
+  },
+  {
+    "id": 2506,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is set in a world where humanity hides behind giant walls from Titans?",
+    "answers": [
+      "Vinland Saga",
+      "Attack on Titan",
+      "Code Geass",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan begins with humanity living inside walls to survive the threat of Titans.",
+    "tags": [
+      "anime",
+      "dark-fantasy",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 2507,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Fullmetal Alchemist: Brotherhood, what are Edward and Alphonse Elric trying to restore?",
+    "answers": [
+      "Their village",
+      "Their kingdom",
+      "Their bodies",
+      "Their memories"
+    ],
+    "correctAnswer": "Their bodies",
+    "explanation": "The Elric brothers seek a way to recover what they lost after a failed human transmutation.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "fullmetal-alchemist"
+    ]
+  },
+  {
+    "id": 2508,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Ash Ketchum and Pikachu?",
+    "answers": [
+      "Digimon Adventure",
+      "Yu-Gi-Oh!",
+      "Beyblade",
+      "Pokémon"
+    ],
+    "correctAnswer": "Pokémon",
+    "explanation": "Pokémon follows trainers such as Ash Ketchum and his partner Pikachu.",
+    "tags": [
+      "anime",
+      "adventure",
+      "pokemon"
+    ]
+  },
+  {
+    "id": 2509,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is about magical cards captured by Sakura Kinomoto?",
+    "answers": [
+      "Cardcaptor Sakura",
+      "Fruits Basket",
+      "Violet Evergarden",
+      "Sailor Moon"
+    ],
+    "correctAnswer": "Cardcaptor Sakura",
+    "explanation": "Cardcaptor Sakura follows Sakura as she collects magical Clow Cards.",
+    "tags": [
+      "anime",
+      "magical-girl",
+      "classic"
+    ]
+  },
+  {
+    "id": 2510,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features the Survey Corps?",
+    "answers": [
+      "Fairy Tail",
+      "Attack on Titan",
+      "Naruto",
+      "Bleach"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "The Survey Corps is the military branch that ventures beyond the walls in Attack on Titan.",
+    "tags": [
+      "anime",
+      "attack-on-titan",
+      "organizations"
+    ]
+  },
+  {
+    "id": 2511,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Bleach, what kind of being is Ichigo Kurosaki closely associated with becoming?",
+    "answers": [
+      "Pirate",
+      "Alchemist",
+      "Soul Reaper",
+      "Jinchuriki"
+    ],
+    "correctAnswer": "Soul Reaper",
+    "explanation": "Ichigo gains Soul Reaper powers and protects humans from dangerous spirits.",
+    "tags": [
+      "anime",
+      "shonen",
+      "bleach"
+    ]
+  },
+  {
+    "id": 2512,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features the Straw Hat Pirates?",
+    "answers": [
+      "Black Clover",
+      "Hunter x Hunter",
+      "Fairy Tail",
+      "One Piece"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "The Straw Hat Pirates are Luffy's crew in One Piece.",
+    "tags": [
+      "anime",
+      "one-piece",
+      "crews"
+    ]
+  },
+  {
+    "id": 2513,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In My Hero Academia, what are superpowers commonly called?",
+    "answers": [
+      "Quirks",
+      "Bankai",
+      "Nen",
+      "Cursed Energy"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "In My Hero Academia, most people are born with special abilities known as Quirks.",
+    "tags": [
+      "anime",
+      "superhero",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 2514,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Izuku Midoriya at U.A. High School?",
+    "answers": [
+      "Blue Lock",
+      "My Hero Academia",
+      "Haikyu!!",
+      "Kuroko's Basketball"
+    ],
+    "correctAnswer": "My Hero Academia",
+    "explanation": "Izuku Midoriya attends U.A. High School to train as a professional hero.",
+    "tags": [
+      "anime",
+      "superhero",
+      "school"
+    ]
+  },
+  {
+    "id": 2515,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Jujutsu Kaisen, what is Yuji Itadori connected to after eating a cursed object?",
+    "answers": [
+      "Zangetsu",
+      "Aizen",
+      "Sukuna",
+      "Kurama"
+    ],
+    "correctAnswer": "Sukuna",
+    "explanation": "Yuji becomes the vessel of Ryomen Sukuna after swallowing one of Sukuna's fingers.",
+    "tags": [
+      "anime",
+      "dark-fantasy",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 2516,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features cursed spirits and jujutsu sorcerers?",
+    "answers": [
+      "Noragami",
+      "Fire Force",
+      "Chainsaw Man",
+      "Jujutsu Kaisen"
+    ],
+    "correctAnswer": "Jujutsu Kaisen",
+    "explanation": "Jujutsu Kaisen centers on sorcerers who fight curses born from negative human emotions.",
+    "tags": [
+      "anime",
+      "dark-fantasy",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 2517,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Chainsaw Man, what kind of devil is Pochita?",
+    "answers": [
+      "Chainsaw Devil",
+      "Fox Devil",
+      "Gun Devil",
+      "Future Devil"
+    ],
+    "correctAnswer": "Chainsaw Devil",
+    "explanation": "Pochita is the Chainsaw Devil and becomes central to Denji's transformation.",
+    "tags": [
+      "anime",
+      "dark-fantasy",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 2518,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a hero named Saitama who defeats enemies with one punch?",
+    "answers": [
+      "Tiger & Bunny",
+      "One-Punch Man",
+      "Gintama",
+      "Mob Psycho 100"
+    ],
+    "correctAnswer": "One-Punch Man",
+    "explanation": "One-Punch Man follows Saitama, a hero so strong he often wins with a single punch.",
+    "tags": [
+      "anime",
+      "action",
+      "comedy"
+    ]
+  },
+  {
+    "id": 2519,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Shigeo Kageyama, a powerful psychic nicknamed Mob?",
+    "answers": [
+      "Noragami",
+      "One-Punch Man",
+      "Mob Psycho 100",
+      "The Disastrous Life of Saiki K."
+    ],
+    "correctAnswer": "Mob Psycho 100",
+    "explanation": "Mob Psycho 100 follows Mob, a quiet boy with extraordinary psychic abilities.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "mob-psycho"
+    ]
+  },
+  {
+    "id": 2520,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Hunter x Hunter, what energy system do skilled fighters learn to use?",
+    "answers": [
+      "Chakra",
+      "Ki",
+      "Cursed Energy",
+      "Nen"
+    ],
+    "correctAnswer": "Nen",
+    "explanation": "Nen is the core aura-based power system in Hunter x Hunter.",
+    "tags": [
+      "anime",
+      "shonen",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 2521,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Gon Freecss searching for his father?",
+    "answers": [
+      "Hunter x Hunter",
+      "Bleach",
+      "Fairy Tail",
+      "Naruto"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Gon becomes a Hunter partly to find his father, Ging Freecss.",
+    "tags": [
+      "anime",
+      "shonen",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 2522,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features the alchemy rule known as equivalent exchange?",
+    "answers": [
+      "Blue Exorcist",
+      "Fullmetal Alchemist: Brotherhood",
+      "Steins;Gate",
+      "Cowboy Bebop"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Equivalent exchange is a central principle of alchemy in Fullmetal Alchemist.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "fullmetal-alchemist"
+    ]
+  },
+  {
+    "id": 2523,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a volleyball team from Karasuno High?",
+    "answers": [
+      "Blue Lock",
+      "Free!",
+      "Haikyu!!",
+      "Ace of Diamond"
+    ],
+    "correctAnswer": "Haikyu!!",
+    "explanation": "Haikyu!! centers on Karasuno High School's volleyball team.",
+    "tags": [
+      "anime",
+      "sports",
+      "haikyu"
+    ]
+  },
+  {
+    "id": 2524,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime focuses on a high-stakes soccer training program to create the world's best striker?",
+    "answers": [
+      "Captain Tsubasa",
+      "Kuroko's Basketball",
+      "Haikyu!!",
+      "Blue Lock"
+    ],
+    "correctAnswer": "Blue Lock",
+    "explanation": "Blue Lock is built around an intense program designed to produce an elite striker.",
+    "tags": [
+      "anime",
+      "sports",
+      "blue-lock"
+    ]
+  },
+  {
+    "id": 2525,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is about basketball and the Generation of Miracles?",
+    "answers": [
+      "Kuroko's Basketball",
+      "Haikyu!!",
+      "Slam Dunk",
+      "Blue Lock"
+    ],
+    "correctAnswer": "Kuroko's Basketball",
+    "explanation": "Kuroko's Basketball features the legendary middle-school team known as the Generation of Miracles.",
+    "tags": [
+      "anime",
+      "sports",
+      "basketball"
+    ]
+  },
+  {
+    "id": 2526,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Hanamichi Sakuragi as he joins a basketball team?",
+    "answers": [
+      "Kuroko's Basketball",
+      "Slam Dunk",
+      "Ace of Diamond",
+      "Yuri!!! on Ice"
+    ],
+    "correctAnswer": "Slam Dunk",
+    "explanation": "Slam Dunk follows Sakuragi's growth after joining Shohoku's basketball team.",
+    "tags": [
+      "anime",
+      "sports",
+      "classic"
+    ]
+  },
+  {
+    "id": 2527,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is centered on competitive figure skating and Yuri Katsuki?",
+    "answers": [
+      "Sk8 the Infinity",
+      "Run with the Wind",
+      "Yuri!!! on Ice",
+      "Free!"
+    ],
+    "correctAnswer": "Yuri!!! on Ice",
+    "explanation": "Yuri!!! on Ice follows figure skater Yuri Katsuki and coach Victor Nikiforov.",
+    "tags": [
+      "anime",
+      "sports",
+      "figure-skating"
+    ]
+  },
+  {
+    "id": 2528,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features a group of Scouts fighting Titans?",
+    "answers": [
+      "Tokyo Ghoul",
+      "Claymore",
+      "Berserk",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "The Scout Regiment fights Titans and investigates the world beyond the walls.",
+    "tags": [
+      "anime",
+      "attack-on-titan",
+      "action"
+    ]
+  },
+  {
+    "id": 2529,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Tokyo Ghoul, what does Ken Kaneki become after a transplant?",
+    "answers": [
+      "Half-ghoul",
+      "Vampire",
+      "Demon",
+      "Soul Reaper"
+    ],
+    "correctAnswer": "Half-ghoul",
+    "explanation": "Kaneki becomes part-ghoul after receiving organs from a ghoul.",
+    "tags": [
+      "anime",
+      "dark-fantasy",
+      "tokyo-ghoul"
+    ]
+  },
+  {
+    "id": 2530,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a coffee shop called Anteiku?",
+    "answers": [
+      "Parasyte",
+      "Tokyo Ghoul",
+      "Psycho-Pass",
+      "Death Note"
+    ],
+    "correctAnswer": "Tokyo Ghoul",
+    "explanation": "Anteiku is an important meeting place for ghouls in Tokyo Ghoul.",
+    "tags": [
+      "anime",
+      "tokyo-ghoul",
+      "settings"
+    ]
+  },
+  {
+    "id": 2531,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Parasyte, what is the name often used for the parasite in Shinichi's right hand?",
+    "answers": [
+      "Happy",
+      "Ryuk",
+      "Migi",
+      "Puck"
+    ],
+    "correctAnswer": "Migi",
+    "explanation": "Migi is the parasite that takes over Shinichi's right hand in Parasyte.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "parasyte"
+    ]
+  },
+  {
+    "id": 2532,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime involves a device called the Sibyl System?",
+    "answers": [
+      "Steins;Gate",
+      "Ergo Proxy",
+      "Serial Experiments Lain",
+      "Psycho-Pass"
+    ],
+    "correctAnswer": "Psycho-Pass",
+    "explanation": "Psycho-Pass is set in a society monitored by the Sibyl System.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "psycho-pass"
+    ]
+  },
+  {
+    "id": 2533,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Rintaro Okabe and experiments with time travel?",
+    "answers": [
+      "Steins;Gate",
+      "Re:ZERO",
+      "Summer Time Rendering",
+      "Erased"
+    ],
+    "correctAnswer": "Steins;Gate",
+    "explanation": "Steins;Gate follows Okabe and his friends as they discover dangerous consequences of time travel.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "time-travel"
+    ]
+  },
+  {
+    "id": 2534,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a time-looping protagonist named Subaru Natsuki?",
+    "answers": [
+      "No Game No Life",
+      "Re:ZERO",
+      "Steins;Gate",
+      "Erased"
+    ],
+    "correctAnswer": "Re:ZERO",
+    "explanation": "Subaru experiences repeated deaths and returns by death in Re:ZERO.",
+    "tags": [
+      "anime",
+      "isekai",
+      "time-loop"
+    ]
+  },
+  {
+    "id": 2535,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a notebook carried by a shinigami named Ryuk?",
+    "answers": [
+      "Bleach",
+      "Noragami",
+      "Death Note",
+      "Soul Eater"
+    ],
+    "correctAnswer": "Death Note",
+    "explanation": "Ryuk drops the Death Note into the human world, starting the story.",
+    "tags": [
+      "anime",
+      "thriller",
+      "death-note"
+    ]
+  },
+  {
+    "id": 2536,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Edward Elric with a metal arm and leg?",
+    "answers": [
+      "Black Butler",
+      "Blue Exorcist",
+      "D.Gray-man",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Edward Elric uses automail prosthetics after losing limbs in a failed transmutation.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "fullmetal-alchemist"
+    ]
+  },
+  {
+    "id": 2537,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a pirate crew sailing the Grand Line?",
+    "answers": [
+      "One Piece",
+      "Magi",
+      "Black Clover",
+      "Fairy Tail"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "The Grand Line is the dangerous sea route central to One Piece's adventure.",
+    "tags": [
+      "anime",
+      "one-piece",
+      "adventure"
+    ]
+  },
+  {
+    "id": 2538,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Naruto, what is the name of the Nine-Tails sealed inside Naruto?",
+    "answers": [
+      "Shukaku",
+      "Kurama",
+      "Gyuki",
+      "Matatabi"
+    ],
+    "correctAnswer": "Kurama",
+    "explanation": "Kurama is the Nine-Tailed Fox sealed inside Naruto Uzumaki.",
+    "tags": [
+      "anime",
+      "naruto",
+      "tailed-beasts"
+    ]
+  },
+  {
+    "id": 2539,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features the Hidden Leaf Village?",
+    "answers": [
+      "Demon Slayer",
+      "Hunter x Hunter",
+      "Naruto",
+      "Bleach"
+    ],
+    "correctAnswer": "Naruto",
+    "explanation": "The Hidden Leaf Village is Naruto's home and one of the major ninja villages.",
+    "tags": [
+      "anime",
+      "naruto",
+      "settings"
+    ]
+  },
+  {
+    "id": 2540,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Demon Slayer, what breathing style does Tanjiro first learn formally?",
+    "answers": [
+      "Sound Breathing",
+      "Flame Breathing",
+      "Thunder Breathing",
+      "Water Breathing"
+    ],
+    "correctAnswer": "Water Breathing",
+    "explanation": "Tanjiro first trains in Water Breathing under Sakonji Urokodaki.",
+    "tags": [
+      "anime",
+      "demon-slayer",
+      "powers"
+    ]
+  },
+  {
+    "id": 2541,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Nezuko Kamado?",
+    "answers": [
+      "Demon Slayer",
+      "Jujutsu Kaisen",
+      "Spy x Family",
+      "Naruto"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Nezuko is Tanjiro's sister and one of the central characters of Demon Slayer.",
+    "tags": [
+      "anime",
+      "demon-slayer",
+      "characters"
+    ]
+  },
+  {
+    "id": 2542,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a family using false identities, including Loid, Yor, and Anya?",
+    "answers": [
+      "Kaguya-sama: Love Is War",
+      "Spy x Family",
+      "Buddy Daddies",
+      "The Promised Neverland"
+    ],
+    "correctAnswer": "Spy x Family",
+    "explanation": "Spy x Family centers on the Forger family, whose members each hide major secrets.",
+    "tags": [
+      "anime",
+      "comedy",
+      "spy-x-family"
+    ]
+  },
+  {
+    "id": 2543,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Spy x Family, what special ability does Anya have?",
+    "answers": [
+      "Shape-shifting",
+      "Time travel",
+      "Telepathy",
+      "Alchemy"
+    ],
+    "correctAnswer": "Telepathy",
+    "explanation": "Anya can read minds, which drives much of the comedy and tension in Spy x Family.",
+    "tags": [
+      "anime",
+      "spy-x-family",
+      "characters"
+    ]
+  },
+  {
+    "id": 2544,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Kaguya Shinomiya and Miyuki Shirogane trying to make the other confess?",
+    "answers": [
+      "Toradora!",
+      "Horimiya",
+      "Your Lie in April",
+      "Kaguya-sama: Love Is War"
+    ],
+    "correctAnswer": "Kaguya-sama: Love Is War",
+    "explanation": "Kaguya-sama turns romance into a battle of pride and strategy between two student council leaders.",
+    "tags": [
+      "anime",
+      "romance",
+      "comedy"
+    ]
+  },
+  {
+    "id": 2545,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows a boy named Shoyo Hinata who loves volleyball?",
+    "answers": [
+      "Haikyu!!",
+      "Slam Dunk",
+      "Free!",
+      "Blue Lock"
+    ],
+    "correctAnswer": "Haikyu!!",
+    "explanation": "Shoyo Hinata is the energetic volleyball player at the center of Haikyu!!.",
+    "tags": [
+      "anime",
+      "sports",
+      "haikyu"
+    ]
+  },
+  {
+    "id": 2546,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features the Hero Association and ranked heroes?",
+    "answers": [
+      "Mob Psycho 100",
+      "One-Punch Man",
+      "My Hero Academia",
+      "Tiger & Bunny"
+    ],
+    "correctAnswer": "One-Punch Man",
+    "explanation": "The Hero Association organizes heroes into classes and rankings in One-Punch Man.",
+    "tags": [
+      "anime",
+      "action",
+      "one-punch-man"
+    ]
+  },
+  {
+    "id": 2547,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features the city of Academy City and espers such as Mikoto Misaka?",
+    "answers": [
+      "Charlotte",
+      "Mob Psycho 100",
+      "A Certain Scientific Railgun",
+      "The Melancholy of Haruhi Suzumiya"
+    ],
+    "correctAnswer": "A Certain Scientific Railgun",
+    "explanation": "A Certain Scientific Railgun is set in Academy City and focuses on esper abilities.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "superpowers"
+    ]
+  },
+  {
+    "id": 2548,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a slime named Rimuru Tempest?",
+    "answers": [
+      "Konosuba",
+      "Re:ZERO",
+      "Overlord",
+      "That Time I Got Reincarnated as a Slime"
+    ],
+    "correctAnswer": "That Time I Got Reincarnated as a Slime",
+    "explanation": "Rimuru is reincarnated as a slime and builds a nation of monsters.",
+    "tags": [
+      "anime",
+      "isekai",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 2549,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Ainz Ooal Gown as an undead ruler in a fantasy world?",
+    "answers": [
+      "Overlord",
+      "The Rising of the Shield Hero",
+      "Goblin Slayer",
+      "Log Horizon"
+    ],
+    "correctAnswer": "Overlord",
+    "explanation": "Overlord follows Momonga, who becomes the undead ruler Ainz Ooal Gown.",
+    "tags": [
+      "anime",
+      "isekai",
+      "dark-fantasy"
+    ]
+  },
+  {
+    "id": 2550,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Naofumi Iwatani as the Shield Hero?",
+    "answers": [
+      "Sword Art Online",
+      "The Rising of the Shield Hero",
+      "Overlord",
+      "No Game No Life"
+    ],
+    "correctAnswer": "The Rising of the Shield Hero",
+    "explanation": "Naofumi is summoned as one of four heroes and must fight using a shield.",
+    "tags": [
+      "anime",
+      "isekai",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 2551,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is set inside virtual worlds and features Kirito?",
+    "answers": [
+      "No Game No Life",
+      "Accel World",
+      "Sword Art Online",
+      "Log Horizon"
+    ],
+    "correctAnswer": "Sword Art Online",
+    "explanation": "Sword Art Online follows Kirito through high-stakes virtual game worlds.",
+    "tags": [
+      "anime",
+      "isekai",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": 2552,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows siblings Sora and Shiro in a world where games decide conflicts?",
+    "answers": [
+      "Re:ZERO",
+      "Log Horizon",
+      "Konosuba",
+      "No Game No Life"
+    ],
+    "correctAnswer": "No Game No Life",
+    "explanation": "No Game No Life centers on genius gamer siblings in Disboard, a world ruled by games.",
+    "tags": [
+      "anime",
+      "isekai",
+      "games"
+    ]
+  },
+  {
+    "id": 2553,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Kazuma, Aqua, Megumin, and Darkness?",
+    "answers": [
+      "Konosuba",
+      "Re:ZERO",
+      "Overlord",
+      "Mushoku Tensei"
+    ],
+    "correctAnswer": "Konosuba",
+    "explanation": "Konosuba follows Kazuma's chaotic fantasy party after his reincarnation.",
+    "tags": [
+      "anime",
+      "isekai",
+      "comedy"
+    ]
+  },
+  {
+    "id": 2554,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features the MMORPG world of Elder Tale after players are trapped inside it?",
+    "answers": [
+      "Overlord",
+      "Log Horizon",
+      "Bofuri",
+      "Sword Art Online"
+    ],
+    "correctAnswer": "Log Horizon",
+    "explanation": "Log Horizon follows players adapting socially and politically after being trapped in Elder Tale.",
+    "tags": [
+      "anime",
+      "isekai",
+      "games"
+    ]
+  },
+  {
+    "id": 2555,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Thorfinn and is inspired by Viking-era history?",
+    "answers": [
+      "Drifters",
+      "Berserk",
+      "Vinland Saga",
+      "Kingdom"
+    ],
+    "correctAnswer": "Vinland Saga",
+    "explanation": "Vinland Saga follows Thorfinn through a story inspired by Viking history.",
+    "tags": [
+      "anime",
+      "historical",
+      "vinland-saga"
+    ]
+  },
+  {
+    "id": 2556,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Guts, a swordsman marked by tragedy and dark fantasy?",
+    "answers": [
+      "Claymore",
+      "Hellsing",
+      "Devilman Crybaby",
+      "Berserk"
+    ],
+    "correctAnswer": "Berserk",
+    "explanation": "Berserk is a dark fantasy centered on Guts and his brutal journey.",
+    "tags": [
+      "anime",
+      "dark-fantasy",
+      "classic"
+    ]
+  },
+  {
+    "id": 2557,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Lelouch gaining the power of Geass?",
+    "answers": [
+      "Code Geass",
+      "Psycho-Pass",
+      "Guilty Crown",
+      "Death Note"
+    ],
+    "correctAnswer": "Code Geass",
+    "explanation": "Lelouch receives Geass, a power that lets him command others under certain conditions.",
+    "tags": [
+      "anime",
+      "mecha",
+      "code-geass"
+    ]
+  },
+  {
+    "id": 2558,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features giant robots called Evangelions?",
+    "answers": [
+      "Gurren Lagann",
+      "Neon Genesis Evangelion",
+      "Gundam Wing",
+      "Code Geass"
+    ],
+    "correctAnswer": "Neon Genesis Evangelion",
+    "explanation": "Evangelions are central biomechanical units used to fight Angels.",
+    "tags": [
+      "anime",
+      "mecha",
+      "classic"
+    ]
+  },
+  {
+    "id": 2559,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is famous for the phrase “Believe in the me that believes in you”?",
+    "answers": [
+      "Code Geass",
+      "Evangelion",
+      "Gurren Lagann",
+      "Eureka Seven"
+    ],
+    "correctAnswer": "Gurren Lagann",
+    "explanation": "The phrase is closely associated with Kamina and the spirit of Gurren Lagann.",
+    "tags": [
+      "anime",
+      "mecha",
+      "gurren-lagann"
+    ]
+  },
+  {
+    "id": 2560,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which long-running franchise helped define the real robot mecha genre?",
+    "answers": [
+      "One Piece",
+      "Cowboy Bebop",
+      "Dragon Ball",
+      "Mobile Suit Gundam"
+    ],
+    "correctAnswer": "Mobile Suit Gundam",
+    "explanation": "Mobile Suit Gundam popularized more military and political approaches to mecha storytelling.",
+    "tags": [
+      "anime",
+      "mecha",
+      "gundam"
+    ]
+  },
+  {
+    "id": 2561,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows bounty hunters aboard the spaceship Bebop?",
+    "answers": [
+      "Cowboy Bebop",
+      "Outlaw Star",
+      "Space Dandy",
+      "Trigun"
+    ],
+    "correctAnswer": "Cowboy Bebop",
+    "explanation": "Cowboy Bebop follows Spike Spiegel and his crew of bounty hunters in space.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "classic"
+    ]
+  },
+  {
+    "id": 2562,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Vash the Stampede?",
+    "answers": [
+      "Cowboy Bebop",
+      "Trigun",
+      "Hellsing",
+      "Samurai Champloo"
+    ],
+    "correctAnswer": "Trigun",
+    "explanation": "Vash the Stampede is the pacifist gunslinger at the center of Trigun.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "classic"
+    ]
+  },
+  {
+    "id": 2563,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime blends hip-hop style with samurai-era adventure?",
+    "answers": [
+      "Dororo",
+      "Afro Samurai",
+      "Samurai Champloo",
+      "Rurouni Kenshin"
+    ],
+    "correctAnswer": "Samurai Champloo",
+    "explanation": "Samurai Champloo mixes Edo-period travel with modern music and style.",
+    "tags": [
+      "anime",
+      "samurai",
+      "classic"
+    ]
+  },
+  {
+    "id": 2564,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Kenshin Himura, a wandering swordsman?",
+    "answers": [
+      "Dororo",
+      "Bleach",
+      "Demon Slayer",
+      "Rurouni Kenshin"
+    ],
+    "correctAnswer": "Rurouni Kenshin",
+    "explanation": "Kenshin Himura is a former assassin who tries to live without killing.",
+    "tags": [
+      "anime",
+      "samurai",
+      "classic"
+    ]
+  },
+  {
+    "id": 2565,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Hyakkimaru recovering stolen body parts from demons?",
+    "answers": [
+      "Dororo",
+      "Inuyasha",
+      "Noragami",
+      "Blue Exorcist"
+    ],
+    "correctAnswer": "Dororo",
+    "explanation": "Dororo follows Hyakkimaru's quest to reclaim parts of his body taken by demons.",
+    "tags": [
+      "anime",
+      "historical-fantasy",
+      "dororo"
+    ]
+  },
+  {
+    "id": 2566,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Inuyasha and Kagome traveling through the feudal era?",
+    "answers": [
+      "Bleach",
+      "Inuyasha",
+      "Naruto",
+      "Rurouni Kenshin"
+    ],
+    "correctAnswer": "Inuyasha",
+    "explanation": "Inuyasha follows Kagome and Inuyasha across a fantasy version of Japan's feudal era.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "classic"
+    ]
+  },
+  {
+    "id": 2567,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a spirit world and Yusuke Urameshi?",
+    "answers": [
+      "Soul Eater",
+      "Bleach",
+      "Yu Yu Hakusho",
+      "Noragami"
+    ],
+    "correctAnswer": "Yu Yu Hakusho",
+    "explanation": "Yu Yu Hakusho follows Yusuke after he becomes involved with the spirit world.",
+    "tags": [
+      "anime",
+      "shonen",
+      "classic"
+    ]
+  },
+  {
+    "id": 2568,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Maka Albarn and weapon partners at Death Weapon Meister Academy?",
+    "answers": [
+      "Bleach",
+      "Blue Exorcist",
+      "D.Gray-man",
+      "Soul Eater"
+    ],
+    "correctAnswer": "Soul Eater",
+    "explanation": "Soul Eater follows students at DWMA who partner with living weapons.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "soul-eater"
+    ]
+  },
+  {
+    "id": 2569,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Rin Okumura, the son of Satan, training as an exorcist?",
+    "answers": [
+      "Blue Exorcist",
+      "Soul Eater",
+      "D.Gray-man",
+      "Noragami"
+    ],
+    "correctAnswer": "Blue Exorcist",
+    "explanation": "Rin Okumura trains to become an exorcist after learning his demonic heritage.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "blue-exorcist"
+    ]
+  },
+  {
+    "id": 2570,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Yato, a minor god trying to gain followers?",
+    "answers": [
+      "Natsume's Book of Friends",
+      "Noragami",
+      "Blue Exorcist",
+      "Bleach"
+    ],
+    "correctAnswer": "Noragami",
+    "explanation": "Noragami follows Yato, a little-known god who wants recognition.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "noragami"
+    ]
+  },
+  {
+    "id": 2571,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Takashi Natsume returning names to spirits?",
+    "answers": [
+      "Mushishi",
+      "Noragami",
+      "Natsume's Book of Friends",
+      "Mononoke"
+    ],
+    "correctAnswer": "Natsume's Book of Friends",
+    "explanation": "Natsume's Book of Friends centers on spirits whose names are recorded in a powerful book.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 2572,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Ginko as he studies mysterious lifeforms called Mushi?",
+    "answers": [
+      "Natsume's Book of Friends",
+      "xxxHolic",
+      "Mononoke",
+      "Mushishi"
+    ],
+    "correctAnswer": "Mushishi",
+    "explanation": "Mushishi follows Ginko as he investigates quiet, strange phenomena caused by Mushi.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "mushishi"
+    ]
+  },
+  {
+    "id": 2573,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features the Medicine Seller investigating supernatural Mononoke?",
+    "answers": [
+      "Mononoke",
+      "Ayakashi",
+      "Mushishi",
+      "Dororo"
+    ],
+    "correctAnswer": "Mononoke",
+    "explanation": "Mononoke follows the Medicine Seller as he uncovers the form, truth, and reason of spirits.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "horror"
+    ]
+  },
+  {
+    "id": 2574,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows a band called Kessoku Band?",
+    "answers": [
+      "K-On!",
+      "Bocchi the Rock!",
+      "Nana",
+      "Given"
+    ],
+    "correctAnswer": "Bocchi the Rock!",
+    "explanation": "Bocchi the Rock! follows Hitori Gotoh and Kessoku Band.",
+    "tags": [
+      "anime",
+      "music",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 2575,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a light music club with characters like Yui and Mio?",
+    "answers": [
+      "Nana",
+      "Carole & Tuesday",
+      "K-On!",
+      "Bocchi the Rock!"
+    ],
+    "correctAnswer": "K-On!",
+    "explanation": "K-On! centers on a high school light music club and its members.",
+    "tags": [
+      "anime",
+      "music",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 2576,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows two musicians trying to make it on Mars?",
+    "answers": [
+      "Your Lie in April",
+      "Nana",
+      "Given",
+      "Carole & Tuesday"
+    ],
+    "correctAnswer": "Carole & Tuesday",
+    "explanation": "Carole & Tuesday follows two young musicians in a futuristic Martian society.",
+    "tags": [
+      "anime",
+      "music",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": 2577,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Kousei Arima, a pianist affected by trauma?",
+    "answers": [
+      "Your Lie in April",
+      "Given",
+      "Nodame Cantabile",
+      "K-On!"
+    ],
+    "correctAnswer": "Your Lie in April",
+    "explanation": "Your Lie in April follows pianist Kousei Arima and violinist Kaori Miyazono.",
+    "tags": [
+      "anime",
+      "music",
+      "drama"
+    ]
+  },
+  {
+    "id": 2578,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime centers on a rock band and a romance involving Mafuyu?",
+    "answers": [
+      "Bocchi the Rock!",
+      "Given",
+      "Beck",
+      "Nana"
+    ],
+    "correctAnswer": "Given",
+    "explanation": "Given follows a band and emotional relationships connected to music.",
+    "tags": [
+      "anime",
+      "music",
+      "romance"
+    ]
+  },
+  {
+    "id": 2579,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Nana Osaki and Nana Komatsu after they meet on a train?",
+    "answers": [
+      "Honey and Clover",
+      "Paradise Kiss",
+      "Nana",
+      "Beck"
+    ],
+    "correctAnswer": "Nana",
+    "explanation": "Nana follows two women with the same name whose lives intertwine in Tokyo.",
+    "tags": [
+      "anime",
+      "drama",
+      "josei"
+    ]
+  },
+  {
+    "id": 2580,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows a cursed family whose members transform into zodiac animals?",
+    "answers": [
+      "Ouran High School Host Club",
+      "Toradora!",
+      "Kamisama Kiss",
+      "Fruits Basket"
+    ],
+    "correctAnswer": "Fruits Basket",
+    "explanation": "Fruits Basket centers on Tohru Honda and the Sohma family's zodiac curse.",
+    "tags": [
+      "anime",
+      "romance",
+      "drama"
+    ]
+  },
+  {
+    "id": 2581,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Haruhi Fujioka joining a host club?",
+    "answers": [
+      "Ouran High School Host Club",
+      "Maid Sama!",
+      "Kaguya-sama: Love Is War",
+      "Fruits Basket"
+    ],
+    "correctAnswer": "Ouran High School Host Club",
+    "explanation": "Haruhi becomes involved with the Ouran Academy Host Club after breaking a vase.",
+    "tags": [
+      "anime",
+      "romance",
+      "comedy"
+    ]
+  },
+  {
+    "id": 2582,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Taiga Aisaka and Ryuuji Takasu?",
+    "answers": [
+      "Golden Time",
+      "Toradora!",
+      "Horimiya",
+      "Clannad"
+    ],
+    "correctAnswer": "Toradora!",
+    "explanation": "Toradora! follows Taiga and Ryuuji as their relationships and feelings develop.",
+    "tags": [
+      "anime",
+      "romance",
+      "school"
+    ]
+  },
+  {
+    "id": 2583,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime focuses on Hori and Miyamura's relationship?",
+    "answers": [
+      "Toradora!",
+      "Orange",
+      "Horimiya",
+      "Ao Haru Ride"
+    ],
+    "correctAnswer": "Horimiya",
+    "explanation": "Horimiya follows the hidden sides and growing romance of Hori and Miyamura.",
+    "tags": [
+      "anime",
+      "romance",
+      "school"
+    ]
+  },
+  {
+    "id": 2584,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a group dealing with letters from the future to prevent regret?",
+    "answers": [
+      "Anohana",
+      "A Silent Voice",
+      "Erased",
+      "Orange"
+    ],
+    "correctAnswer": "Orange",
+    "explanation": "Orange centers on letters from the future that help students confront regret and loss.",
+    "tags": [
+      "anime",
+      "drama",
+      "romance"
+    ]
+  },
+  {
+    "id": 2585,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features friends reconnecting after the ghost of Menma appears?",
+    "answers": [
+      "Anohana",
+      "Angel Beats!",
+      "Clannad",
+      "Orange"
+    ],
+    "correctAnswer": "Anohana",
+    "explanation": "Anohana follows childhood friends brought together by Menma's ghost.",
+    "tags": [
+      "anime",
+      "drama",
+      "supernatural"
+    ]
+  },
+  {
+    "id": 2586,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features students in an afterlife school setting?",
+    "answers": [
+      "Clannad",
+      "Angel Beats!",
+      "Anohana",
+      "Charlotte"
+    ],
+    "correctAnswer": "Angel Beats!",
+    "explanation": "Angel Beats! takes place in an afterlife high school where students confront unfinished emotions.",
+    "tags": [
+      "anime",
+      "drama",
+      "supernatural"
+    ]
+  },
+  {
+    "id": 2587,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Violet as she writes letters and learns about emotion?",
+    "answers": [
+      "Your Lie in April",
+      "Maquia",
+      "Violet Evergarden",
+      "A Silent Voice"
+    ],
+    "correctAnswer": "Violet Evergarden",
+    "explanation": "Violet Evergarden follows Violet's work as an Auto Memory Doll after war.",
+    "tags": [
+      "anime",
+      "drama",
+      "kyoto-animation"
+    ]
+  },
+  {
+    "id": 2588,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime film centers on Shoya Ishida and Shoko Nishimiya?",
+    "answers": [
+      "The Girl Who Leapt Through Time",
+      "Your Name",
+      "Weathering with You",
+      "A Silent Voice"
+    ],
+    "correctAnswer": "A Silent Voice",
+    "explanation": "A Silent Voice explores bullying, guilt, disability, and reconciliation.",
+    "tags": [
+      "anime",
+      "film",
+      "drama"
+    ]
+  },
+  {
+    "id": 2589,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film features Taki and Mitsuha mysteriously swapping bodies?",
+    "answers": [
+      "Your Name",
+      "Spirited Away",
+      "A Silent Voice",
+      "Suzume"
+    ],
+    "correctAnswer": "Your Name",
+    "explanation": "Your Name follows Taki and Mitsuha as they swap bodies across distance and time.",
+    "tags": [
+      "anime",
+      "film",
+      "makoto-shinkai"
+    ]
+  },
+  {
+    "id": 2590,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime film follows Chihiro in a bathhouse for spirits?",
+    "answers": [
+      "Howl's Moving Castle",
+      "Spirited Away",
+      "Ponyo",
+      "Princess Mononoke"
+    ],
+    "correctAnswer": "Spirited Away",
+    "explanation": "Spirited Away follows Chihiro's journey through a supernatural bathhouse.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 2591,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Studio Ghibli film features the forest spirit Totoro?",
+    "answers": [
+      "Ponyo",
+      "Spirited Away",
+      "My Neighbor Totoro",
+      "Kiki's Delivery Service"
+    ],
+    "correctAnswer": "My Neighbor Totoro",
+    "explanation": "My Neighbor Totoro features the beloved forest spirit Totoro.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 2592,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Studio Ghibli film features San and the conflict between humans and forest gods?",
+    "answers": [
+      "Nausicaä of the Valley of the Wind",
+      "Spirited Away",
+      "The Wind Rises",
+      "Princess Mononoke"
+    ],
+    "correctAnswer": "Princess Mononoke",
+    "explanation": "Princess Mononoke explores conflict between industrial humans and forest spirits.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 2593,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film features Sophie and the wizard Howl?",
+    "answers": [
+      "Howl's Moving Castle",
+      "The Cat Returns",
+      "Whisper of the Heart",
+      "Castle in the Sky"
+    ],
+    "correctAnswer": "Howl's Moving Castle",
+    "explanation": "Howl's Moving Castle follows Sophie after she becomes entangled with Howl and a magical curse.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 2594,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime film features a young witch named Kiki starting a delivery service?",
+    "answers": [
+      "Only Yesterday",
+      "Kiki's Delivery Service",
+      "Ponyo",
+      "The Cat Returns"
+    ],
+    "correctAnswer": "Kiki's Delivery Service",
+    "explanation": "Kiki's Delivery Service follows a young witch finding independence in a new city.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 2595,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime film features a goldfish girl who wants to become human?",
+    "answers": [
+      "The Secret World of Arrietty",
+      "When Marnie Was There",
+      "Ponyo",
+      "Ocean Waves"
+    ],
+    "correctAnswer": "Ponyo",
+    "explanation": "Ponyo follows a magical fish-girl and her bond with a human boy.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 2596,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Studio Ghibli film is set in a polluted post-apocalyptic world with giant insects?",
+    "answers": [
+      "Castle in the Sky",
+      "Pom Poko",
+      "Princess Mononoke",
+      "Nausicaä of the Valley of the Wind"
+    ],
+    "correctAnswer": "Nausicaä of the Valley of the Wind",
+    "explanation": "Nausicaä explores ecology, war, and survival in a toxic future world.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 2597,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film features a girl who can literally leap through time?",
+    "answers": [
+      "The Girl Who Leapt Through Time",
+      "Summer Wars",
+      "Your Name",
+      "Paprika"
+    ],
+    "correctAnswer": "The Girl Who Leapt Through Time",
+    "explanation": "The Girl Who Leapt Through Time follows Makoto after she gains the ability to time-leap.",
+    "tags": [
+      "anime",
+      "film",
+      "time-travel"
+    ]
+  },
+  {
+    "id": 2598,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Satoshi Kon film explores dreams merging with reality through a device called the DC Mini?",
+    "answers": [
+      "Perfect Blue",
+      "Paprika",
+      "Millennium Actress",
+      "Tokyo Godfathers"
+    ],
+    "correctAnswer": "Paprika",
+    "explanation": "Paprika uses the DC Mini to blur the boundaries between dreams and reality.",
+    "tags": [
+      "anime",
+      "film",
+      "satoshi-kon"
+    ]
+  },
+  {
+    "id": 2599,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Satoshi Kon film follows a former idol whose reality begins to fracture?",
+    "answers": [
+      "Tokyo Godfathers",
+      "Millennium Actress",
+      "Perfect Blue",
+      "Paprika"
+    ],
+    "correctAnswer": "Perfect Blue",
+    "explanation": "Perfect Blue is a psychological thriller about identity, fame, and perception.",
+    "tags": [
+      "anime",
+      "film",
+      "psychological"
+    ]
+  },
+  {
+    "id": 2600,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime film features a virtual world called OZ?",
+    "answers": [
+      "The Girl Who Leapt Through Time",
+      "Belle",
+      "Paprika",
+      "Summer Wars"
+    ],
+    "correctAnswer": "Summer Wars",
+    "explanation": "Summer Wars involves a large online world called OZ and a family crisis.",
+    "tags": [
+      "anime",
+      "film",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": 2601,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film reimagines Beauty and the Beast through a virtual world called U?",
+    "answers": [
+      "Belle",
+      "Summer Wars",
+      "Bubble",
+      "Words Bubble Up Like Soda Pop"
+    ],
+    "correctAnswer": "Belle",
+    "explanation": "Belle follows Suzu as she becomes a singer in the virtual world U.",
+    "tags": [
+      "anime",
+      "film",
+      "music"
+    ]
+  },
+  {
+    "id": 2602,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film follows a schoolgirl and a dragon-like being while exploring doors and disasters?",
+    "answers": [
+      "Your Name",
+      "Suzume",
+      "Bubble",
+      "Weathering with You"
+    ],
+    "correctAnswer": "Suzume",
+    "explanation": "Suzume follows a journey involving mysterious doors and supernatural disasters.",
+    "tags": [
+      "anime",
+      "film",
+      "makoto-shinkai"
+    ]
+  },
+  {
+    "id": 2603,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Makoto Shinkai film centers on weather control and a “sunshine girl”?",
+    "answers": [
+      "5 Centimeters per Second",
+      "Your Name",
+      "Weathering with You",
+      "Suzume"
+    ],
+    "correctAnswer": "Weathering with You",
+    "explanation": "Weathering with You follows Hodaka and Hina, who can temporarily clear the weather.",
+    "tags": [
+      "anime",
+      "film",
+      "makoto-shinkai"
+    ]
+  },
+  {
+    "id": 2604,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Violet Evergarden's profession as an Auto Memory Doll?",
+    "answers": [
+      "86",
+      "Vivy: Fluorite Eye's Song",
+      "Plastic Memories",
+      "Violet Evergarden"
+    ],
+    "correctAnswer": "Violet Evergarden",
+    "explanation": "Auto Memory Dolls write letters for people who struggle to express their feelings.",
+    "tags": [
+      "anime",
+      "drama",
+      "kyoto-animation"
+    ]
+  },
+  {
+    "id": 2605,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features autonomous singing AI and a long mission to prevent war?",
+    "answers": [
+      "Vivy: Fluorite Eye's Song",
+      "Ergo Proxy",
+      "Psycho-Pass",
+      "Plastic Memories"
+    ],
+    "correctAnswer": "Vivy: Fluorite Eye's Song",
+    "explanation": "Vivy follows an AI singer tasked with altering history to prevent a future conflict.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "ai"
+    ]
+  },
+  {
+    "id": 2606,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features android companions called Giftia?",
+    "answers": [
+      "Ergo Proxy",
+      "Plastic Memories",
+      "Vivy: Fluorite Eye's Song",
+      "Chobits"
+    ],
+    "correctAnswer": "Plastic Memories",
+    "explanation": "Plastic Memories centers on Giftia androids and the emotional cost of retrieving them.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "drama"
+    ]
+  },
+  {
+    "id": 2607,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a post-apocalyptic world and autonomous robots in a story about two girls traveling?",
+    "answers": [
+      "Made in Abyss",
+      "Land of the Lustrous",
+      "Girls' Last Tour",
+      "From the New World"
+    ],
+    "correctAnswer": "Girls' Last Tour",
+    "explanation": "Girls' Last Tour follows Chito and Yuuri through a quiet ruined world.",
+    "tags": [
+      "anime",
+      "post-apocalyptic",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 2608,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Riko and Reg descending into a mysterious giant pit?",
+    "answers": [
+      "Tower of God",
+      "Shadows House",
+      "The Promised Neverland",
+      "Made in Abyss"
+    ],
+    "correctAnswer": "Made in Abyss",
+    "explanation": "Made in Abyss centers on the dangerous descent into the Abyss.",
+    "tags": [
+      "anime",
+      "adventure",
+      "dark-fantasy"
+    ]
+  },
+  {
+    "id": 2609,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Grace Field House and children discovering a dark secret?",
+    "answers": [
+      "The Promised Neverland",
+      "Erased",
+      "Made in Abyss",
+      "Shadows House"
+    ],
+    "correctAnswer": "The Promised Neverland",
+    "explanation": "The Promised Neverland begins with children learning the truth about their orphanage.",
+    "tags": [
+      "anime",
+      "thriller",
+      "dark-fantasy"
+    ]
+  },
+  {
+    "id": 2610,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features gem-like beings called Lustrous fighting Lunarians?",
+    "answers": [
+      "Made in Abyss",
+      "Land of the Lustrous",
+      "Houseki no Kuni",
+      "Vivy"
+    ],
+    "correctAnswer": "Land of the Lustrous",
+    "explanation": "Land of the Lustrous follows crystalline beings defending themselves from Lunarians.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "cgi"
+    ]
+  },
+  {
+    "id": 2611,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a boy named Senku rebuilding science after humanity is petrified?",
+    "answers": [
+      "Cells at Work!",
+      "The Ancient Magus' Bride",
+      "Dr. Stone",
+      "Fire Force"
+    ],
+    "correctAnswer": "Dr. Stone",
+    "explanation": "Dr. Stone follows Senku as he uses science to rebuild civilization.",
+    "tags": [
+      "anime",
+      "science",
+      "shonen"
+    ]
+  },
+  {
+    "id": 2612,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime personifies cells inside the human body?",
+    "answers": [
+      "Food Wars!",
+      "Dr. Stone",
+      "Silver Spoon",
+      "Cells at Work!"
+    ],
+    "correctAnswer": "Cells at Work!",
+    "explanation": "Cells at Work! turns human cells into characters performing biological functions.",
+    "tags": [
+      "anime",
+      "educational",
+      "biology"
+    ]
+  },
+  {
+    "id": 2613,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime centers on cooking battles at Totsuki Culinary Academy?",
+    "answers": [
+      "Food Wars!",
+      "Yakitate!! Japan",
+      "Toriko",
+      "Silver Spoon"
+    ],
+    "correctAnswer": "Food Wars!",
+    "explanation": "Food Wars! follows students competing in intense culinary battles at Totsuki.",
+    "tags": [
+      "anime",
+      "food",
+      "school"
+    ]
+  },
+  {
+    "id": 2614,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Yuugo Hachiken at an agricultural school?",
+    "answers": [
+      "Barakamon",
+      "Silver Spoon",
+      "Non Non Biyori",
+      "Food Wars!"
+    ],
+    "correctAnswer": "Silver Spoon",
+    "explanation": "Silver Spoon follows Hachiken's life and growth at an agricultural high school.",
+    "tags": [
+      "anime",
+      "slice-of-life",
+      "school"
+    ]
+  },
+  {
+    "id": 2615,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows a calligrapher moving to a rural island after a professional setback?",
+    "answers": [
+      "March Comes in Like a Lion",
+      "Silver Spoon",
+      "Barakamon",
+      "Usagi Drop"
+    ],
+    "correctAnswer": "Barakamon",
+    "explanation": "Barakamon follows Seishuu Handa as he grows through rural island life.",
+    "tags": [
+      "anime",
+      "slice-of-life",
+      "comedy"
+    ]
+  },
+  {
+    "id": 2616,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a professional shogi player named Rei Kiriyama?",
+    "answers": [
+      "Chihayafuru",
+      "Hikaru no Go",
+      "Your Lie in April",
+      "March Comes in Like a Lion"
+    ],
+    "correctAnswer": "March Comes in Like a Lion",
+    "explanation": "March Comes in Like a Lion follows Rei Kiriyama's emotional and professional journey in shogi.",
+    "tags": [
+      "anime",
+      "drama",
+      "sports"
+    ]
+  },
+  {
+    "id": 2617,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime focuses on competitive karuta?",
+    "answers": [
+      "Chihayafuru",
+      "Hikaru no Go",
+      "Run with the Wind",
+      "March Comes in Like a Lion"
+    ],
+    "correctAnswer": "Chihayafuru",
+    "explanation": "Chihayafuru follows Chihaya Ayase and the world of competitive karuta.",
+    "tags": [
+      "anime",
+      "sports",
+      "josei"
+    ]
+  },
+  {
+    "id": 2618,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Hikaru after he encounters the spirit of a Go master?",
+    "answers": [
+      "Akagi",
+      "Hikaru no Go",
+      "Chihayafuru",
+      "March Comes in Like a Lion"
+    ],
+    "correctAnswer": "Hikaru no Go",
+    "explanation": "Hikaru no Go follows Hikaru's growth in the board game Go after meeting Sai.",
+    "tags": [
+      "anime",
+      "sports",
+      "classic"
+    ]
+  },
+  {
+    "id": 2619,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a college running team aiming for the Hakone Ekiden?",
+    "answers": [
+      "Yuri!!! on Ice",
+      "Free!",
+      "Run with the Wind",
+      "Haikyu!!"
+    ],
+    "correctAnswer": "Run with the Wind",
+    "explanation": "Run with the Wind follows a group of runners training for the Hakone Ekiden.",
+    "tags": [
+      "anime",
+      "sports",
+      "running"
+    ]
+  },
+  {
+    "id": 2620,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime centers on a swimming club and characters like Haruka Nanase?",
+    "answers": [
+      "Sk8 the Infinity",
+      "Tsurune",
+      "Yuri!!! on Ice",
+      "Free!"
+    ],
+    "correctAnswer": "Free!",
+    "explanation": "Free! follows Haruka Nanase and friends through competitive swimming.",
+    "tags": [
+      "anime",
+      "sports",
+      "swimming"
+    ]
+  },
+  {
+    "id": 2621,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime focuses on skateboarding and a race called “S”?",
+    "answers": [
+      "Sk8 the Infinity",
+      "Air Gear",
+      "Free!",
+      "Initial D"
+    ],
+    "correctAnswer": "Sk8 the Infinity",
+    "explanation": "Sk8 the Infinity centers on underground skateboard races known as S.",
+    "tags": [
+      "anime",
+      "sports",
+      "skateboarding"
+    ]
+  },
+  {
+    "id": 2622,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is famous for downhill street racing and the Toyota AE86?",
+    "answers": [
+      "Wangan Midnight",
+      "Initial D",
+      "Redline",
+      "MF Ghost"
+    ],
+    "correctAnswer": "Initial D",
+    "explanation": "Initial D follows mountain pass racing and Takumi's AE86.",
+    "tags": [
+      "anime",
+      "racing",
+      "classic"
+    ]
+  },
+  {
+    "id": 2623,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film is known for an intense futuristic race called Yellowline/Redline?",
+    "answers": [
+      "Promare",
+      "Summer Wars",
+      "Redline",
+      "Akira"
+    ],
+    "correctAnswer": "Redline",
+    "explanation": "Redline is famous for stylized animation and high-speed futuristic racing.",
+    "tags": [
+      "anime",
+      "film",
+      "racing"
+    ]
+  },
+  {
+    "id": 2624,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which cyberpunk anime film is set in Neo-Tokyo and features Kaneda and Tetsuo?",
+    "answers": [
+      "Metropolis",
+      "Ghost in the Shell",
+      "Paprika",
+      "Akira"
+    ],
+    "correctAnswer": "Akira",
+    "explanation": "Akira is a landmark cyberpunk anime film centered on Neo-Tokyo and psychic power.",
+    "tags": [
+      "anime",
+      "film",
+      "cyberpunk"
+    ]
+  },
+  {
+    "id": 2625,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film features Major Motoko Kusanagi?",
+    "answers": [
+      "Ghost in the Shell",
+      "Akira",
+      "Paprika",
+      "Psycho-Pass"
+    ],
+    "correctAnswer": "Ghost in the Shell",
+    "explanation": "Ghost in the Shell follows Major Kusanagi in a cybernetic future.",
+    "tags": [
+      "anime",
+      "film",
+      "cyberpunk"
+    ]
+  },
+  {
+    "id": 2626,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime series explores social isolation and technology through Lain Iwakura?",
+    "answers": [
+      "Texhnolyze",
+      "Serial Experiments Lain",
+      "Boogiepop Phantom",
+      "Ergo Proxy"
+    ],
+    "correctAnswer": "Serial Experiments Lain",
+    "explanation": "Serial Experiments Lain explores identity, networks, and reality through Lain.",
+    "tags": [
+      "anime",
+      "psychological",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": 2627,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Re-l Mayer in a domed city after mysterious events involving Proxies?",
+    "answers": [
+      "Noein",
+      "Texhnolyze",
+      "Ergo Proxy",
+      "Psycho-Pass"
+    ],
+    "correctAnswer": "Ergo Proxy",
+    "explanation": "Ergo Proxy follows Re-l Mayer and Vincent Law in a philosophical sci-fi world.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "psychological"
+    ]
+  },
+  {
+    "id": 2628,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime is known for its bleak underground city of Lux and cybernetic body modification?",
+    "answers": [
+      "Ergo Proxy",
+      "Serial Experiments Lain",
+      "Akudama Drive",
+      "Texhnolyze"
+    ],
+    "correctAnswer": "Texhnolyze",
+    "explanation": "Texhnolyze is a dark sci-fi series set in the underground city of Lux.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "psychological"
+    ]
+  },
+  {
+    "id": 2629,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows criminals called Akudama in a futuristic Kansai?",
+    "answers": [
+      "Akudama Drive",
+      "Cyberpunk: Edgerunners",
+      "Dorohedoro",
+      "Psycho-Pass"
+    ],
+    "correctAnswer": "Akudama Drive",
+    "explanation": "Akudama Drive follows dangerous criminals in a stylized cyberpunk setting.",
+    "tags": [
+      "anime",
+      "cyberpunk",
+      "action"
+    ]
+  },
+  {
+    "id": 2630,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features David Martinez in Night City?",
+    "answers": [
+      "Ghost in the Shell",
+      "Cyberpunk: Edgerunners",
+      "Akudama Drive",
+      "Psycho-Pass"
+    ],
+    "correctAnswer": "Cyberpunk: Edgerunners",
+    "explanation": "Cyberpunk: Edgerunners follows David in the dangerous world of Night City.",
+    "tags": [
+      "anime",
+      "cyberpunk",
+      "action"
+    ]
+  },
+  {
+    "id": 2631,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Caiman searching for the sorcerer who changed his head?",
+    "answers": [
+      "Chainsaw Man",
+      "Tokyo Ghoul",
+      "Dorohedoro",
+      "Devilman Crybaby"
+    ],
+    "correctAnswer": "Dorohedoro",
+    "explanation": "Dorohedoro follows Caiman through a violent, strange world of sorcerers.",
+    "tags": [
+      "anime",
+      "dark-fantasy",
+      "dorohedoro"
+    ]
+  },
+  {
+    "id": 2632,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Devilman and explores humans becoming demons?",
+    "answers": [
+      "Tokyo Ghoul",
+      "Parasyte",
+      "Chainsaw Man",
+      "Devilman Crybaby"
+    ],
+    "correctAnswer": "Devilman Crybaby",
+    "explanation": "Devilman Crybaby is a modern adaptation of Go Nagai's Devilman story.",
+    "tags": [
+      "anime",
+      "horror",
+      "dark-fantasy"
+    ]
+  },
+  {
+    "id": 2633,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a vampire named Alucard serving the Hellsing Organization?",
+    "answers": [
+      "Hellsing Ultimate",
+      "Trinity Blood",
+      "Vampire Knight",
+      "Seraph of the End"
+    ],
+    "correctAnswer": "Hellsing Ultimate",
+    "explanation": "Hellsing Ultimate centers on Alucard and the Hellsing Organization's war against supernatural threats.",
+    "tags": [
+      "anime",
+      "horror",
+      "vampires"
+    ]
+  },
+  {
+    "id": 2634,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows humans fighting vampires after a virus wipes out many adults?",
+    "answers": [
+      "Vampire Knight",
+      "Seraph of the End",
+      "Hellsing Ultimate",
+      "Blood+"
+    ],
+    "correctAnswer": "Seraph of the End",
+    "explanation": "Seraph of the End follows children surviving in a world ruled by vampires.",
+    "tags": [
+      "anime",
+      "dark-fantasy",
+      "vampires"
+    ]
+  },
+  {
+    "id": 2635,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is set at Cross Academy and features vampires?",
+    "answers": [
+      "Hellsing Ultimate",
+      "Blood+",
+      "Vampire Knight",
+      "Seraph of the End"
+    ],
+    "correctAnswer": "Vampire Knight",
+    "explanation": "Vampire Knight is set at Cross Academy, where vampire and human students are separated by classes.",
+    "tags": [
+      "anime",
+      "romance",
+      "vampires"
+    ]
+  },
+  {
+    "id": 2636,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Saya Otonashi fighting Chiropterans?",
+    "answers": [
+      "Seraph of the End",
+      "Vampire Knight",
+      "Hellsing Ultimate",
+      "Blood+"
+    ],
+    "correctAnswer": "Blood+",
+    "explanation": "Blood+ follows Saya as she battles creatures known as Chiropterans.",
+    "tags": [
+      "anime",
+      "horror",
+      "action"
+    ]
+  },
+  {
+    "id": 2637,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features firefighters battling Infernals and a boy named Shinra?",
+    "answers": [
+      "Fire Force",
+      "Blue Exorcist",
+      "Soul Eater",
+      "Promare"
+    ],
+    "correctAnswer": "Fire Force",
+    "explanation": "Fire Force follows Shinra and special fire brigades fighting human combustions called Infernals.",
+    "tags": [
+      "anime",
+      "action",
+      "fire-force"
+    ]
+  },
+  {
+    "id": 2638,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film features firefighters fighting flame-wielding mutants called Burnish?",
+    "answers": [
+      "Akira",
+      "Promare",
+      "Fire Force",
+      "Redline"
+    ],
+    "correctAnswer": "Promare",
+    "explanation": "Promare centers on a conflict involving firefighters and the Burnish.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-trigger"
+    ]
+  },
+  {
+    "id": 2639,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime by Studio Trigger features Ryuko Matoi and a scissor blade?",
+    "answers": [
+      "Darling in the Franxx",
+      "Promare",
+      "Kill la Kill",
+      "Little Witch Academia"
+    ],
+    "correctAnswer": "Kill la Kill",
+    "explanation": "Kill la Kill follows Ryuko Matoi as she investigates her father's death.",
+    "tags": [
+      "anime",
+      "action",
+      "studio-trigger"
+    ]
+  },
+  {
+    "id": 2640,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Atsuko “Akko” Kagari at a magical academy?",
+    "answers": [
+      "Cardcaptor Sakura",
+      "Sailor Moon",
+      "Madoka Magica",
+      "Little Witch Academia"
+    ],
+    "correctAnswer": "Little Witch Academia",
+    "explanation": "Little Witch Academia follows Akko's dream of becoming a witch like her idol.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "studio-trigger"
+    ]
+  },
+  {
+    "id": 2641,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime deconstructs the magical-girl genre through Madoka Kaname?",
+    "answers": [
+      "Puella Magi Madoka Magica",
+      "Cardcaptor Sakura",
+      "Little Witch Academia",
+      "Sailor Moon"
+    ],
+    "correctAnswer": "Puella Magi Madoka Magica",
+    "explanation": "Madoka Magica is known for its darker take on magical-girl storytelling.",
+    "tags": [
+      "anime",
+      "magical-girl",
+      "dark-fantasy"
+    ]
+  },
+  {
+    "id": 2642,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Usagi Tsukino transforming into Sailor Moon?",
+    "answers": [
+      "Tokyo Mew Mew",
+      "Sailor Moon",
+      "Cardcaptor Sakura",
+      "Pretty Cure"
+    ],
+    "correctAnswer": "Sailor Moon",
+    "explanation": "Usagi Tsukino becomes Sailor Moon and fights to protect love and justice.",
+    "tags": [
+      "anime",
+      "magical-girl",
+      "classic"
+    ]
+  },
+  {
+    "id": 2643,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime franchise features magical girls known as Precure?",
+    "answers": [
+      "Sailor Moon",
+      "Madoka Magica",
+      "Pretty Cure",
+      "Cardcaptor Sakura"
+    ],
+    "correctAnswer": "Pretty Cure",
+    "explanation": "Pretty Cure is a long-running magical-girl franchise with many different teams.",
+    "tags": [
+      "anime",
+      "magical-girl",
+      "franchise"
+    ]
+  },
+  {
+    "id": 2644,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows magical girls battling witches in exchange for wishes?",
+    "answers": [
+      "Magical Girl Raising Project",
+      "Pretty Cure",
+      "Yuki Yuna is a Hero",
+      "Puella Magi Madoka Magica"
+    ],
+    "correctAnswer": "Puella Magi Madoka Magica",
+    "explanation": "In Madoka Magica, magical girls fight witches after contracts involving wishes.",
+    "tags": [
+      "anime",
+      "magical-girl",
+      "madoka"
+    ]
+  },
+  {
+    "id": 2645,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows a girl named Tohru living with dragons in modern Japan?",
+    "answers": [
+      "Miss Kobayashi's Dragon Maid",
+      "Inuyasha",
+      "The Ancient Magus' Bride",
+      "Fruits Basket"
+    ],
+    "correctAnswer": "Miss Kobayashi's Dragon Maid",
+    "explanation": "Miss Kobayashi's Dragon Maid follows Kobayashi and dragon characters adapting to daily life.",
+    "tags": [
+      "anime",
+      "comedy",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 2646,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Chise Hatori and Elias Ainsworth?",
+    "answers": [
+      "Violet Evergarden",
+      "The Ancient Magus' Bride",
+      "Spice and Wolf",
+      "Snow White with the Red Hair"
+    ],
+    "correctAnswer": "The Ancient Magus' Bride",
+    "explanation": "The Ancient Magus' Bride follows Chise's magical life with Elias.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "romance"
+    ]
+  },
+  {
+    "id": 2647,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Holo the wise wolf traveling with a merchant?",
+    "answers": [
+      "Maoyuu Maou Yuusha",
+      "Ascendance of a Bookworm",
+      "Spice and Wolf",
+      "The Ancient Magus' Bride"
+    ],
+    "correctAnswer": "Spice and Wolf",
+    "explanation": "Spice and Wolf follows merchant Kraft Lawrence and Holo through economics and travel.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "economics"
+    ]
+  },
+  {
+    "id": 2648,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Myne trying to make books in another world?",
+    "answers": [
+      "Mushoku Tensei",
+      "Spice and Wolf",
+      "The Saint's Magic Power is Omnipotent",
+      "Ascendance of a Bookworm"
+    ],
+    "correctAnswer": "Ascendance of a Bookworm",
+    "explanation": "Ascendance of a Bookworm follows Myne's love of books in a world where they are rare.",
+    "tags": [
+      "anime",
+      "isekai",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 2649,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows a recluse reincarnated as Rudeus Greyrat?",
+    "answers": [
+      "Mushoku Tensei",
+      "Re:ZERO",
+      "Overlord",
+      "Konosuba"
+    ],
+    "correctAnswer": "Mushoku Tensei",
+    "explanation": "Mushoku Tensei follows Rudeus Greyrat's second life in a fantasy world.",
+    "tags": [
+      "anime",
+      "isekai",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 2650,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a cautious hero summoned by goddess Ristarte?",
+    "answers": [
+      "The Rising of the Shield Hero",
+      "Cautious Hero",
+      "No Game No Life",
+      "Konosuba"
+    ],
+    "correctAnswer": "Cautious Hero",
+    "explanation": "Cautious Hero follows Seiya, who overprepares for nearly every threat.",
+    "tags": [
+      "anime",
+      "isekai",
+      "comedy"
+    ]
+  },
+  {
+    "id": 2651,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Catarina Claes trying to avoid doom flags?",
+    "answers": [
+      "Ouran High School Host Club",
+      "Kaguya-sama: Love Is War",
+      "My Next Life as a Villainess",
+      "Toradora!"
+    ],
+    "correctAnswer": "My Next Life as a Villainess",
+    "explanation": "Catarina realizes she has become the villainess of an otome game and tries to avoid bad endings.",
+    "tags": [
+      "anime",
+      "isekai",
+      "comedy"
+    ]
+  },
+  {
+    "id": 2652,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Tanya Degurechaff as a soldier in an alternate war-torn world?",
+    "answers": [
+      "86",
+      "Violet Evergarden",
+      "Drifters",
+      "The Saga of Tanya the Evil"
+    ],
+    "correctAnswer": "The Saga of Tanya the Evil",
+    "explanation": "Tanya is reincarnated into an alternate military world and becomes a powerful mage officer.",
+    "tags": [
+      "anime",
+      "isekai",
+      "military"
+    ]
+  },
+  {
+    "id": 2653,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features autonomous spider-like weapons called Legion?",
+    "answers": [
+      "86",
+      "Aldnoah.Zero",
+      "Code Geass",
+      "Vivy: Fluorite Eye's Song"
+    ],
+    "correctAnswer": "86",
+    "explanation": "86 features the Republic's war against the autonomous Legion.",
+    "tags": [
+      "anime",
+      "mecha",
+      "war"
+    ]
+  },
+  {
+    "id": 2654,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows child soldiers known as the Eighty-Six?",
+    "answers": [
+      "Gundam: Iron-Blooded Orphans",
+      "86",
+      "Code Geass",
+      "Aldnoah.Zero"
+    ],
+    "correctAnswer": "86",
+    "explanation": "86 focuses on marginalized soldiers forced to fight unmanned war machines.",
+    "tags": [
+      "anime",
+      "war",
+      "mecha"
+    ]
+  },
+  {
+    "id": 2655,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features orphaned pilots and a private military group called Tekkadan?",
+    "answers": [
+      "86",
+      "Code Geass",
+      "Mobile Suit Gundam: Iron-Blooded Orphans",
+      "Aldnoah.Zero"
+    ],
+    "correctAnswer": "Mobile Suit Gundam: Iron-Blooded Orphans",
+    "explanation": "Iron-Blooded Orphans follows Tekkadan and its young fighters.",
+    "tags": [
+      "anime",
+      "mecha",
+      "gundam"
+    ]
+  },
+  {
+    "id": 2656,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features the Martian Vers Empire and a conflict with Earth?",
+    "answers": [
+      "Code Geass",
+      "Valvrave the Liberator",
+      "86",
+      "Aldnoah.Zero"
+    ],
+    "correctAnswer": "Aldnoah.Zero",
+    "explanation": "Aldnoah.Zero centers on war between Earth and the Vers Empire from Mars.",
+    "tags": [
+      "anime",
+      "mecha",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": 2657,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Franxx units piloted in pairs?",
+    "answers": [
+      "Darling in the Franxx",
+      "Eureka Seven",
+      "Neon Genesis Evangelion",
+      "Gurren Lagann"
+    ],
+    "correctAnswer": "Darling in the Franxx",
+    "explanation": "Darling in the Franxx features mecha piloted by boy-girl pairs.",
+    "tags": [
+      "anime",
+      "mecha",
+      "romance"
+    ]
+  },
+  {
+    "id": 2658,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Renton Thurston and the Nirvash?",
+    "answers": [
+      "Gurren Lagann",
+      "Eureka Seven",
+      "Code Geass",
+      "Gundam Wing"
+    ],
+    "correctAnswer": "Eureka Seven",
+    "explanation": "Eureka Seven follows Renton and Eureka, with the mecha Nirvash playing a central role.",
+    "tags": [
+      "anime",
+      "mecha",
+      "adventure"
+    ]
+  },
+  {
+    "id": 2659,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a boy named Natsuki Subaru after he is transported to another world?",
+    "answers": [
+      "Overlord",
+      "Log Horizon",
+      "Re:ZERO",
+      "Konosuba"
+    ],
+    "correctAnswer": "Re:ZERO",
+    "explanation": "Subaru is transported to a fantasy world and discovers his return-by-death ability.",
+    "tags": [
+      "anime",
+      "isekai",
+      "re-zero"
+    ]
+  },
+  {
+    "id": 2660,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Rem and Ram as twin maids?",
+    "answers": [
+      "No Game No Life",
+      "Overlord",
+      "Konosuba",
+      "Re:ZERO"
+    ],
+    "correctAnswer": "Re:ZERO",
+    "explanation": "Rem and Ram are twin maids who serve Roswaal's mansion in Re:ZERO.",
+    "tags": [
+      "anime",
+      "isekai",
+      "characters"
+    ]
+  },
+  {
+    "id": 2661,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Megumin, a mage obsessed with explosion magic?",
+    "answers": [
+      "Konosuba",
+      "Re:ZERO",
+      "Overlord",
+      "Mushoku Tensei"
+    ],
+    "correctAnswer": "Konosuba",
+    "explanation": "Megumin is famous for specializing almost entirely in explosion magic.",
+    "tags": [
+      "anime",
+      "isekai",
+      "comedy"
+    ]
+  },
+  {
+    "id": 2662,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Aqua as a goddess with questionable usefulness?",
+    "answers": [
+      "Re:ZERO",
+      "Konosuba",
+      "Cautious Hero",
+      "No Game No Life"
+    ],
+    "correctAnswer": "Konosuba",
+    "explanation": "Aqua is a goddess who joins Kazuma's party and often causes chaos.",
+    "tags": [
+      "anime",
+      "isekai",
+      "comedy"
+    ]
+  },
+  {
+    "id": 2663,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Emilia, a silver-haired half-elf?",
+    "answers": [
+      "Spice and Wolf",
+      "Mushoku Tensei",
+      "Re:ZERO",
+      "Overlord"
+    ],
+    "correctAnswer": "Re:ZERO",
+    "explanation": "Emilia is one of the central characters in Re:ZERO.",
+    "tags": [
+      "anime",
+      "isekai",
+      "characters"
+    ]
+  },
+  {
+    "id": 2664,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Shiroe, a strategist trapped in Elder Tale?",
+    "answers": [
+      "Sword Art Online",
+      "Overlord",
+      "No Game No Life",
+      "Log Horizon"
+    ],
+    "correctAnswer": "Log Horizon",
+    "explanation": "Shiroe is known for his tactical thinking after players become trapped in Elder Tale.",
+    "tags": [
+      "anime",
+      "isekai",
+      "games"
+    ]
+  },
+  {
+    "id": 2665,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a virtual death game inside Aincrad?",
+    "answers": [
+      "Sword Art Online",
+      "Accel World",
+      "No Game No Life",
+      "Log Horizon"
+    ],
+    "correctAnswer": "Sword Art Online",
+    "explanation": "Aincrad is the deadly floating castle setting of Sword Art Online's first arc.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "sao"
+    ]
+  },
+  {
+    "id": 2666,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Haruyuki Arita entering an augmented-reality fighting program?",
+    "answers": [
+      "No Game No Life",
+      "Accel World",
+      "Sword Art Online",
+      "Log Horizon"
+    ],
+    "correctAnswer": "Accel World",
+    "explanation": "Accel World follows Haruyuki and the Brain Burst augmented-reality system.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "games"
+    ]
+  },
+  {
+    "id": 2667,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Soma Yukihira's cooking challenges?",
+    "answers": [
+      "Toriko",
+      "Yakitate!! Japan",
+      "Food Wars!",
+      "Silver Spoon"
+    ],
+    "correctAnswer": "Food Wars!",
+    "explanation": "Soma competes in cooking battles while attending Totsuki Culinary Academy.",
+    "tags": [
+      "anime",
+      "food",
+      "school"
+    ]
+  },
+  {
+    "id": 2668,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime focuses on bread-making competitions and a boy named Kazuma Azuma?",
+    "answers": [
+      "Toriko",
+      "Sweetness & Lightning",
+      "Food Wars!",
+      "Yakitate!! Japan"
+    ],
+    "correctAnswer": "Yakitate!! Japan",
+    "explanation": "Yakitate!! Japan follows Kazuma Azuma's dream of creating a national bread for Japan.",
+    "tags": [
+      "anime",
+      "food",
+      "comedy"
+    ]
+  },
+  {
+    "id": 2669,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows gourmet hunters searching for rare ingredients?",
+    "answers": [
+      "Toriko",
+      "Dungeon Meshi",
+      "Food Wars!",
+      "Yakitate!! Japan"
+    ],
+    "correctAnswer": "Toriko",
+    "explanation": "Toriko follows gourmet hunters in a world centered around extraordinary food creatures.",
+    "tags": [
+      "anime",
+      "food",
+      "adventure"
+    ]
+  },
+  {
+    "id": 2670,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows adventurers cooking monsters inside a dungeon?",
+    "answers": [
+      "Food Wars!",
+      "Delicious in Dungeon",
+      "Toriko",
+      "Campfire Cooking in Another World"
+    ],
+    "correctAnswer": "Delicious in Dungeon",
+    "explanation": "Delicious in Dungeon mixes fantasy exploration with cooking monsters for survival.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "food"
+    ]
+  },
+  {
+    "id": 2671,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a camp-loving girl named Rin Shima?",
+    "answers": [
+      "Barakamon",
+      "A Place Further than the Universe",
+      "Laid-Back Camp",
+      "Non Non Biyori"
+    ],
+    "correctAnswer": "Laid-Back Camp",
+    "explanation": "Laid-Back Camp follows relaxed camping adventures, including Rin Shima's solo trips.",
+    "tags": [
+      "anime",
+      "slice-of-life",
+      "iyashikei"
+    ]
+  },
+  {
+    "id": 2672,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows girls traveling to Antarctica?",
+    "answers": [
+      "Yuru Yuri",
+      "Laid-Back Camp",
+      "Girls' Last Tour",
+      "A Place Further than the Universe"
+    ],
+    "correctAnswer": "A Place Further than the Universe",
+    "explanation": "A Place Further than the Universe follows high school girls pursuing a trip to Antarctica.",
+    "tags": [
+      "anime",
+      "adventure",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 2673,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows rural life in Asahigaoka village?",
+    "answers": [
+      "Non Non Biyori",
+      "Laid-Back Camp",
+      "Barakamon",
+      "Flying Witch"
+    ],
+    "correctAnswer": "Non Non Biyori",
+    "explanation": "Non Non Biyori focuses on quiet rural school life in Asahigaoka.",
+    "tags": [
+      "anime",
+      "slice-of-life",
+      "iyashikei"
+    ]
+  },
+  {
+    "id": 2674,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows a young witch named Makoto Kowata moving to Aomori?",
+    "answers": [
+      "Kiki's Delivery Service",
+      "Flying Witch",
+      "Witch Hat Atelier",
+      "Little Witch Academia"
+    ],
+    "correctAnswer": "Flying Witch",
+    "explanation": "Flying Witch follows Makoto's gentle daily life as a witch in Aomori.",
+    "tags": [
+      "anime",
+      "slice-of-life",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 2675,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a psychic named Saiki Kusuo?",
+    "answers": [
+      "Hinamatsuri",
+      "Mob Psycho 100",
+      "The Disastrous Life of Saiki K.",
+      "One-Punch Man"
+    ],
+    "correctAnswer": "The Disastrous Life of Saiki K.",
+    "explanation": "Saiki K. is a comedy about a powerful psychic trying to live normally.",
+    "tags": [
+      "anime",
+      "comedy",
+      "supernatural"
+    ]
+  },
+  {
+    "id": 2676,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows alien teacher Koro-sensei and Class 3-E?",
+    "answers": [
+      "Great Teacher Onizuka",
+      "Mob Psycho 100",
+      "Sket Dance",
+      "Assassination Classroom"
+    ],
+    "correctAnswer": "Assassination Classroom",
+    "explanation": "Assassination Classroom follows students tasked with killing their superpowered teacher.",
+    "tags": [
+      "anime",
+      "comedy",
+      "school"
+    ]
+  },
+  {
+    "id": 2677,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows former biker Eikichi Onizuka becoming a teacher?",
+    "answers": [
+      "Great Teacher Onizuka",
+      "Gintama",
+      "School Rumble",
+      "Assassination Classroom"
+    ],
+    "correctAnswer": "Great Teacher Onizuka",
+    "explanation": "Great Teacher Onizuka follows Onizuka's unconventional approach to teaching.",
+    "tags": [
+      "anime",
+      "comedy",
+      "classic"
+    ]
+  },
+  {
+    "id": 2678,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a freelancing samurai named Gintoki Sakata?",
+    "answers": [
+      "Sket Dance",
+      "Gintama",
+      "Samurai Champloo",
+      "Rurouni Kenshin"
+    ],
+    "correctAnswer": "Gintama",
+    "explanation": "Gintama follows Gintoki and the Yorozuya in a comedic alternate-history Edo.",
+    "tags": [
+      "anime",
+      "comedy",
+      "samurai"
+    ]
+  },
+  {
+    "id": 2679,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows a workplace comedy about Wagnaria restaurant employees?",
+    "answers": [
+      "Blend S",
+      "Servant x Service",
+      "Working!!",
+      "The Devil Is a Part-Timer!"
+    ],
+    "correctAnswer": "Working!!",
+    "explanation": "Working!! is a workplace comedy set around the Wagnaria family restaurant.",
+    "tags": [
+      "anime",
+      "comedy",
+      "workplace"
+    ]
+  },
+  {
+    "id": 2680,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Maou working at a fast-food restaurant after coming to modern Tokyo?",
+    "answers": [
+      "Noragami",
+      "Blue Exorcist",
+      "Konosuba",
+      "The Devil Is a Part-Timer!"
+    ],
+    "correctAnswer": "The Devil Is a Part-Timer!",
+    "explanation": "The Devil Is a Part-Timer! turns a fantasy demon lord into a fast-food employee.",
+    "tags": [
+      "anime",
+      "comedy",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 2681,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a manga artist named Moritaka Mashiro and writer Akito Takagi?",
+    "answers": [
+      "Bakuman",
+      "Barakamon",
+      "Shirobako",
+      "Monthly Girls' Nozaki-kun"
+    ],
+    "correctAnswer": "Bakuman",
+    "explanation": "Bakuman follows two creators trying to succeed in the manga industry.",
+    "tags": [
+      "anime",
+      "industry",
+      "manga"
+    ]
+  },
+  {
+    "id": 2682,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is about producing anime at Musashino Animation?",
+    "answers": [
+      "Bakuman",
+      "Shirobako",
+      "Keep Your Hands Off Eizouken!",
+      "New Game!"
+    ],
+    "correctAnswer": "Shirobako",
+    "explanation": "Shirobako gives a behind-the-scenes look at anime production.",
+    "tags": [
+      "anime",
+      "industry",
+      "anime-production"
+    ]
+  },
+  {
+    "id": 2683,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows three girls trying to create animation at school?",
+    "answers": [
+      "Bakuman",
+      "New Game!",
+      "Keep Your Hands Off Eizouken!",
+      "Shirobako"
+    ],
+    "correctAnswer": "Keep Your Hands Off Eizouken!",
+    "explanation": "Eizouken follows students using imagination and teamwork to make animation.",
+    "tags": [
+      "anime",
+      "industry",
+      "creativity"
+    ]
+  },
+  {
+    "id": 2684,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Aoba Suzukaze working at a game company?",
+    "answers": [
+      "Wotakoi",
+      "Shirobako",
+      "Bakuman",
+      "New Game!"
+    ],
+    "correctAnswer": "New Game!",
+    "explanation": "New Game! follows Aoba's early career at a video game studio.",
+    "tags": [
+      "anime",
+      "workplace",
+      "games"
+    ]
+  },
+  {
+    "id": 2685,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows adult otaku romance in the workplace?",
+    "answers": [
+      "Wotakoi: Love Is Hard for Otaku",
+      "New Game!",
+      "Monthly Girls' Nozaki-kun",
+      "My Dress-Up Darling"
+    ],
+    "correctAnswer": "Wotakoi: Love Is Hard for Otaku",
+    "explanation": "Wotakoi focuses on adult relationships between otaku coworkers.",
+    "tags": [
+      "anime",
+      "romance",
+      "workplace"
+    ]
+  },
+  {
+    "id": 2686,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Marin Kitagawa and cosplay?",
+    "answers": [
+      "Horimiya",
+      "My Dress-Up Darling",
+      "Monthly Girls' Nozaki-kun",
+      "Wotakoi"
+    ],
+    "correctAnswer": "My Dress-Up Darling",
+    "explanation": "My Dress-Up Darling follows Marin and Wakana as they collaborate on cosplay.",
+    "tags": [
+      "anime",
+      "romance",
+      "cosplay"
+    ]
+  },
+  {
+    "id": 2687,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime comedy features a shoujo manga artist named Umetarou Nozaki?",
+    "answers": [
+      "Kaguya-sama: Love Is War",
+      "Wotakoi",
+      "Monthly Girls' Nozaki-kun",
+      "Ouran High School Host Club"
+    ],
+    "correctAnswer": "Monthly Girls' Nozaki-kun",
+    "explanation": "Nozaki-kun turns romantic comedy around misunderstandings and manga creation.",
+    "tags": [
+      "anime",
+      "romance",
+      "comedy"
+    ]
+  },
+  {
+    "id": 2688,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a rakugo performer through different eras of his life?",
+    "answers": [
+      "Kids on the Slope",
+      "Nana",
+      "March Comes in Like a Lion",
+      "Showa Genroku Rakugo Shinju"
+    ],
+    "correctAnswer": "Showa Genroku Rakugo Shinju",
+    "explanation": "Showa Genroku Rakugo Shinju explores rakugo performance, rivalry, and legacy.",
+    "tags": [
+      "anime",
+      "drama",
+      "performing-arts"
+    ]
+  },
+  {
+    "id": 2689,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows jazz-loving students Kaoru and Sentaro in the 1960s?",
+    "answers": [
+      "Kids on the Slope",
+      "Your Lie in April",
+      "Beck",
+      "Nana"
+    ],
+    "correctAnswer": "Kids on the Slope",
+    "explanation": "Kids on the Slope blends coming-of-age drama with jazz music.",
+    "tags": [
+      "anime",
+      "music",
+      "drama"
+    ]
+  },
+  {
+    "id": 2690,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Koyuki joining the band BECK?",
+    "answers": [
+      "Bocchi the Rock!",
+      "Beck",
+      "Given",
+      "Nana"
+    ],
+    "correctAnswer": "Beck",
+    "explanation": "Beck follows Koyuki's growth through rock music and friendship.",
+    "tags": [
+      "anime",
+      "music",
+      "classic"
+    ]
+  },
+  {
+    "id": 2691,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a cursed girl named Rika and sorcerer Yuta Okkotsu in its prequel film?",
+    "answers": [
+      "Demon Slayer: Mugen Train",
+      "The Last: Naruto the Movie",
+      "Jujutsu Kaisen 0",
+      "One Piece Film: Red"
+    ],
+    "correctAnswer": "Jujutsu Kaisen 0",
+    "explanation": "Jujutsu Kaisen 0 focuses on Yuta Okkotsu and Rika before the main series.",
+    "tags": [
+      "anime",
+      "film",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 2692,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film adapts the Mugen Train arc?",
+    "answers": [
+      "Dragon Ball Super: Broly",
+      "One Piece Film: Red",
+      "Jujutsu Kaisen 0",
+      "Demon Slayer: Mugen Train"
+    ],
+    "correctAnswer": "Demon Slayer: Mugen Train",
+    "explanation": "Mugen Train continues Tanjiro's story with Rengoku and the Flame Hashira.",
+    "tags": [
+      "anime",
+      "film",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 2693,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Dragon Ball film introduced Broly into the main modern continuity?",
+    "answers": [
+      "Dragon Ball Super: Broly",
+      "Dragon Ball Z: Resurrection 'F'",
+      "Dragon Ball Z: Battle of Gods",
+      "Dragon Ball Super: Super Hero"
+    ],
+    "correctAnswer": "Dragon Ball Super: Broly",
+    "explanation": "Dragon Ball Super: Broly reintroduced Broly in the Dragon Ball Super era.",
+    "tags": [
+      "anime",
+      "film",
+      "dragon-ball"
+    ]
+  },
+  {
+    "id": 2694,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which One Piece film features the singer Uta?",
+    "answers": [
+      "One Piece: Stampede",
+      "One Piece Film: Red",
+      "One Piece Film: Gold",
+      "One Piece Film: Z"
+    ],
+    "correctAnswer": "One Piece Film: Red",
+    "explanation": "One Piece Film: Red centers heavily on Uta, a world-famous singer.",
+    "tags": [
+      "anime",
+      "film",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 2695,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Phos, a gem-like protagonist?",
+    "answers": [
+      "Vivy: Fluorite Eye's Song",
+      "Houseki no Kuni",
+      "Land of the Lustrous",
+      "Made in Abyss"
+    ],
+    "correctAnswer": "Land of the Lustrous",
+    "explanation": "Phos is the central Lustrous character whose identity changes throughout the story.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "cgi"
+    ]
+  },
+  {
+    "id": 2696,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Tanjiro's black Nichirin sword?",
+    "answers": [
+      "Jujutsu Kaisen",
+      "Bleach",
+      "Naruto",
+      "Demon Slayer"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Nichirin swords are used by Demon Slayers, and Tanjiro's blade turns black.",
+    "tags": [
+      "anime",
+      "demon-slayer",
+      "weapons"
+    ]
+  },
+  {
+    "id": 2697,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Bleach, what is the name for a Soul Reaper's sword?",
+    "answers": [
+      "Zanpakuto",
+      "Nichirin Blade",
+      "Keyblade",
+      "Dragon Slayer"
+    ],
+    "correctAnswer": "Zanpakuto",
+    "explanation": "A Zanpakuto is the signature weapon of Soul Reapers in Bleach.",
+    "tags": [
+      "anime",
+      "bleach",
+      "weapons"
+    ]
+  },
+  {
+    "id": 2698,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Naruto, what energy is used to perform many ninja techniques?",
+    "answers": [
+      "Cursed Energy",
+      "Chakra",
+      "Reiatsu",
+      "Nen"
+    ],
+    "correctAnswer": "Chakra",
+    "explanation": "Chakra is the energy source used for jutsu in Naruto.",
+    "tags": [
+      "anime",
+      "naruto",
+      "powers"
+    ]
+  },
+  {
+    "id": 2699,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Bleach, what spiritual pressure is commonly called?",
+    "answers": [
+      "Haki",
+      "Chakra",
+      "Reiatsu",
+      "Nen"
+    ],
+    "correctAnswer": "Reiatsu",
+    "explanation": "Reiatsu refers to spiritual pressure in Bleach.",
+    "tags": [
+      "anime",
+      "bleach",
+      "powers"
+    ]
+  },
+  {
+    "id": 2700,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In One Piece, what power system includes Observation, Armament, and Conqueror's forms?",
+    "answers": [
+      "Nen",
+      "Chakra",
+      "Cursed Energy",
+      "Haki"
+    ],
+    "correctAnswer": "Haki",
+    "explanation": "Haki is a major power system in One Piece with several forms.",
+    "tags": [
+      "anime",
+      "one-piece",
+      "powers"
+    ]
+  },
+  {
+    "id": 2701,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Eren Yeager after Titans destroy his hometown?",
+    "answers": [
+      "Attack on Titan",
+      "Demon Slayer",
+      "Blue Exorcist",
+      "Tokyo Ghoul"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan begins with Eren witnessing the fall of his home and joining the fight against Titans.",
+    "tags": [
+      "anime",
+      "attack-on-titan",
+      "shonen"
+    ]
+  },
+  {
+    "id": 2702,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Naruto, which team originally includes Naruto, Sasuke, Sakura, and Kakashi?",
+    "answers": [
+      "Team Taka",
+      "Team 7",
+      "Team 10",
+      "Team Guy"
+    ],
+    "correctAnswer": "Team 7",
+    "explanation": "Team 7 is Naruto's original squad under Kakashi Hatake.",
+    "tags": [
+      "anime",
+      "naruto",
+      "teams"
+    ]
+  },
+  {
+    "id": 2703,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In One Piece, what is Zoro's dream?",
+    "answers": [
+      "To find the All Blue",
+      "To draw a world map",
+      "To become the world's greatest swordsman",
+      "To become Pirate King"
+    ],
+    "correctAnswer": "To become the world's greatest swordsman",
+    "explanation": "Roronoa Zoro aims to become the greatest swordsman in the world.",
+    "tags": [
+      "anime",
+      "one-piece",
+      "characters"
+    ]
+  },
+  {
+    "id": 2704,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Bleach, what is Rukia Kuchiki at the start of the story?",
+    "answers": [
+      "A Quincy",
+      "A Fullbringer",
+      "A Hollow",
+      "A Soul Reaper"
+    ],
+    "correctAnswer": "A Soul Reaper",
+    "explanation": "Rukia is a Soul Reaper whose meeting with Ichigo changes his life.",
+    "tags": [
+      "anime",
+      "bleach",
+      "characters"
+    ]
+  },
+  {
+    "id": 2705,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a school for heroes called U.A. High?",
+    "answers": [
+      "My Hero Academia",
+      "Fire Force",
+      "One-Punch Man",
+      "Tiger & Bunny"
+    ],
+    "correctAnswer": "My Hero Academia",
+    "explanation": "U.A. High is the elite hero-training school in My Hero Academia.",
+    "tags": [
+      "anime",
+      "my-hero-academia",
+      "school"
+    ]
+  },
+  {
+    "id": 2706,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Demon Slayer, which Hashira uses Flame Breathing?",
+    "answers": [
+      "Giyu Tomioka",
+      "Kyojuro Rengoku",
+      "Tengen Uzui",
+      "Muichiro Tokito"
+    ],
+    "correctAnswer": "Kyojuro Rengoku",
+    "explanation": "Kyojuro Rengoku is the Flame Hashira in Demon Slayer.",
+    "tags": [
+      "anime",
+      "demon-slayer",
+      "characters"
+    ]
+  },
+  {
+    "id": 2707,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Jujutsu Kaisen, who is known for the Limitless technique and Six Eyes?",
+    "answers": [
+      "Megumi Fushiguro",
+      "Suguru Geto",
+      "Satoru Gojo",
+      "Kento Nanami"
+    ],
+    "correctAnswer": "Satoru Gojo",
+    "explanation": "Gojo is famous for the Limitless cursed technique and the Six Eyes.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen",
+      "characters"
+    ]
+  },
+  {
+    "id": 2708,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Denji merging with Pochita?",
+    "answers": [
+      "Tokyo Ghoul",
+      "Dorohedoro",
+      "Devilman Crybaby",
+      "Chainsaw Man"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Denji becomes Chainsaw Man after merging with Pochita.",
+    "tags": [
+      "anime",
+      "chainsaw-man",
+      "dark-fantasy"
+    ]
+  },
+  {
+    "id": 2709,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Hunter x Hunter, what is Killua Zoldyck's family known for?",
+    "answers": [
+      "Assassination",
+      "Alchemy",
+      "Exorcism",
+      "Piracy"
+    ],
+    "correctAnswer": "Assassination",
+    "explanation": "The Zoldyck family is a famous family of assassins.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter",
+      "characters"
+    ]
+  },
+  {
+    "id": 2710,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Hunter x Hunter arc features the Chimera Ants?",
+    "answers": [
+      "Greed Island arc",
+      "Chimera Ant arc",
+      "Heavens Arena arc",
+      "Yorknew City arc"
+    ],
+    "correctAnswer": "Chimera Ant arc",
+    "explanation": "The Chimera Ant arc is one of Hunter x Hunter's most famous and intense story arcs.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter",
+      "arcs"
+    ]
+  },
+  {
+    "id": 2711,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a yellow electric mouse named Pikachu?",
+    "answers": [
+      "Beyblade",
+      "Digimon Adventure",
+      "Pokémon",
+      "Yo-kai Watch"
+    ],
+    "correctAnswer": "Pokémon",
+    "explanation": "Pikachu is the iconic partner Pokémon of Ash Ketchum.",
+    "tags": [
+      "anime",
+      "pokemon",
+      "classic"
+    ]
+  },
+  {
+    "id": 2712,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features digital monsters partnered with children?",
+    "answers": [
+      "Pokémon",
+      "Monster Rancher",
+      "Yo-kai Watch",
+      "Digimon Adventure"
+    ],
+    "correctAnswer": "Digimon Adventure",
+    "explanation": "Digimon Adventure follows children partnered with digital monsters in the Digital World.",
+    "tags": [
+      "anime",
+      "digimon",
+      "adventure"
+    ]
+  },
+  {
+    "id": 2713,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime franchise features duelists using cards and monsters?",
+    "answers": [
+      "Yu-Gi-Oh!",
+      "Bakugan",
+      "Pokémon",
+      "Beyblade"
+    ],
+    "correctAnswer": "Yu-Gi-Oh!",
+    "explanation": "Yu-Gi-Oh! centers on card duels involving monsters, spells, and traps.",
+    "tags": [
+      "anime",
+      "games",
+      "classic"
+    ]
+  },
+  {
+    "id": 2714,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is about spinning tops called Beyblades?",
+    "answers": [
+      "Medabots",
+      "Beyblade",
+      "Yu-Gi-Oh!",
+      "Bakugan"
+    ],
+    "correctAnswer": "Beyblade",
+    "explanation": "Beyblade centers on competitive battles using customized spinning tops.",
+    "tags": [
+      "anime",
+      "games",
+      "classic"
+    ]
+  },
+  {
+    "id": 2715,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features the Elric brothers searching for the Philosopher's Stone?",
+    "answers": [
+      "D.Gray-man",
+      "Blue Exorcist",
+      "Fullmetal Alchemist: Brotherhood",
+      "Magi"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Edward and Alphonse search for the Philosopher's Stone to restore their bodies.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 2716,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Fullmetal Alchemist character is known as the Flame Alchemist?",
+    "answers": [
+      "Maes Hughes",
+      "King Bradley",
+      "Alex Louis Armstrong",
+      "Roy Mustang"
+    ],
+    "correctAnswer": "Roy Mustang",
+    "explanation": "Roy Mustang is known as the Flame Alchemist because of his fire-based alchemy.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist",
+      "characters"
+    ]
+  },
+  {
+    "id": 2717,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features the Black Bulls magic knight squad?",
+    "answers": [
+      "Black Clover",
+      "Seven Deadly Sins",
+      "Fairy Tail",
+      "Magi"
+    ],
+    "correctAnswer": "Black Clover",
+    "explanation": "The Black Bulls are Asta's magic knight squad in Black Clover.",
+    "tags": [
+      "anime",
+      "black-clover",
+      "shonen"
+    ]
+  },
+  {
+    "id": 2718,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Asta, a boy born without magic?",
+    "answers": [
+      "Fairy Tail",
+      "Black Clover",
+      "Blue Exorcist",
+      "Soul Eater"
+    ],
+    "correctAnswer": "Black Clover",
+    "explanation": "Asta dreams of becoming Wizard King despite being born without magic.",
+    "tags": [
+      "anime",
+      "black-clover",
+      "characters"
+    ]
+  },
+  {
+    "id": 2719,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a wizard guild named Fairy Tail?",
+    "answers": [
+      "Magi",
+      "Edens Zero",
+      "Fairy Tail",
+      "Black Clover"
+    ],
+    "correctAnswer": "Fairy Tail",
+    "explanation": "Fairy Tail follows the adventures of a magical guild of the same name.",
+    "tags": [
+      "anime",
+      "fairy-tail",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 2720,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Natsu Dragneel and Happy?",
+    "answers": [
+      "Blue Exorcist",
+      "Black Clover",
+      "One Piece",
+      "Fairy Tail"
+    ],
+    "correctAnswer": "Fairy Tail",
+    "explanation": "Natsu and his flying cat companion Happy are central characters in Fairy Tail.",
+    "tags": [
+      "anime",
+      "fairy-tail",
+      "characters"
+    ]
+  },
+  {
+    "id": 2721,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features the Seven Deadly Sins as a group of knights?",
+    "answers": [
+      "The Seven Deadly Sins",
+      "Black Clover",
+      "Fairy Tail",
+      "Magi"
+    ],
+    "correctAnswer": "The Seven Deadly Sins",
+    "explanation": "The anime follows a legendary group of knights named after the Seven Deadly Sins.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "seven-deadly-sins"
+    ]
+  },
+  {
+    "id": 2722,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Alibaba, Aladdin, and Morgiana?",
+    "answers": [
+      "Black Clover",
+      "Magi",
+      "Blue Exorcist",
+      "Fairy Tail"
+    ],
+    "correctAnswer": "Magi",
+    "explanation": "Magi draws inspiration from Arabian Nights-style adventure and follows Aladdin, Alibaba, and Morgiana.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "adventure"
+    ]
+  },
+  {
+    "id": 2723,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features dungeon captures and Djinn Equip?",
+    "answers": [
+      "Orient",
+      "Fairy Tail",
+      "Magi",
+      "Black Clover"
+    ],
+    "correctAnswer": "Magi",
+    "explanation": "Magi includes magical dungeons and powers granted by Djinn.",
+    "tags": [
+      "anime",
+      "magi",
+      "powers"
+    ]
+  },
+  {
+    "id": 2724,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features a group called Night Raid fighting a corrupt empire?",
+    "answers": [
+      "Code Geass",
+      "Claymore",
+      "Berserk",
+      "Akame ga Kill!"
+    ],
+    "correctAnswer": "Akame ga Kill!",
+    "explanation": "Akame ga Kill! follows Night Raid as they oppose a brutal empire.",
+    "tags": [
+      "anime",
+      "dark-fantasy",
+      "action"
+    ]
+  },
+  {
+    "id": 2725,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows female warriors known as Claymores?",
+    "answers": [
+      "Claymore",
+      "Akame ga Kill!",
+      "Hellsing Ultimate",
+      "Berserk"
+    ],
+    "correctAnswer": "Claymore",
+    "explanation": "Claymore centers on hybrid warriors who fight monsters called Yoma.",
+    "tags": [
+      "anime",
+      "dark-fantasy",
+      "classic"
+    ]
+  },
+  {
+    "id": 2726,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features a demon butler named Sebastian Michaelis?",
+    "answers": [
+      "D.Gray-man",
+      "Black Butler",
+      "Blue Exorcist",
+      "Hellsing Ultimate"
+    ],
+    "correctAnswer": "Black Butler",
+    "explanation": "Sebastian Michaelis serves Ciel Phantomhive as a demon butler.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "black-butler"
+    ]
+  },
+  {
+    "id": 2727,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Allen Walker and the Black Order?",
+    "answers": [
+      "Blue Exorcist",
+      "Soul Eater",
+      "D.Gray-man",
+      "Black Butler"
+    ],
+    "correctAnswer": "D.Gray-man",
+    "explanation": "D.Gray-man follows exorcists of the Black Order fighting Akuma.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "classic"
+    ]
+  },
+  {
+    "id": 2728,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a book that can kill people by name?",
+    "answers": [
+      "Monster",
+      "Psycho-Pass",
+      "Code Geass",
+      "Death Note"
+    ],
+    "correctAnswer": "Death Note",
+    "explanation": "The Death Note kills people whose names are written inside while picturing their face.",
+    "tags": [
+      "anime",
+      "death-note",
+      "thriller"
+    ]
+  },
+  {
+    "id": 2729,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Dr. Kenzo Tenma after he saves Johan Liebert?",
+    "answers": [
+      "Monster",
+      "Paranoia Agent",
+      "Death Note",
+      "Psycho-Pass"
+    ],
+    "correctAnswer": "Monster",
+    "explanation": "Monster follows Tenma as he confronts the consequences of saving Johan Liebert.",
+    "tags": [
+      "anime",
+      "thriller",
+      "classic"
+    ]
+  },
+  {
+    "id": 2730,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features the mysterious attacker known as Lil' Slugger?",
+    "answers": [
+      "Monster",
+      "Paranoia Agent",
+      "Perfect Blue",
+      "Serial Experiments Lain"
+    ],
+    "correctAnswer": "Paranoia Agent",
+    "explanation": "Paranoia Agent revolves around social anxiety and attacks by Lil' Slugger.",
+    "tags": [
+      "anime",
+      "psychological",
+      "satoshi-kon"
+    ]
+  },
+  {
+    "id": 2731,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is centered on high-stakes gambling at Hyakkaou Private Academy?",
+    "answers": [
+      "Akagi",
+      "Death Parade",
+      "Kakegurui",
+      "Kaiji"
+    ],
+    "correctAnswer": "Kakegurui",
+    "explanation": "Kakegurui follows students whose school hierarchy is shaped by gambling.",
+    "tags": [
+      "anime",
+      "psychological",
+      "games"
+    ]
+  },
+  {
+    "id": 2732,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Kaiji Itou through extreme gambling and debt games?",
+    "answers": [
+      "One Outs",
+      "Kakegurui",
+      "Akagi",
+      "Kaiji"
+    ],
+    "correctAnswer": "Kaiji",
+    "explanation": "Kaiji is known for tense gambling scenarios and psychological pressure.",
+    "tags": [
+      "anime",
+      "games",
+      "thriller"
+    ]
+  },
+  {
+    "id": 2733,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime focuses on mahjong genius Shigeru Akagi?",
+    "answers": [
+      "Akagi",
+      "Kaiji",
+      "One Outs",
+      "Hikaru no Go"
+    ],
+    "correctAnswer": "Akagi",
+    "explanation": "Akagi follows a legendary mahjong player in high-stakes matches.",
+    "tags": [
+      "anime",
+      "games",
+      "classic"
+    ]
+  },
+  {
+    "id": 2734,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime mixes baseball strategy with gambling psychology through Tokuchi Toua?",
+    "answers": [
+      "Major",
+      "One Outs",
+      "Big Windup!",
+      "Ace of Diamond"
+    ],
+    "correctAnswer": "One Outs",
+    "explanation": "One Outs turns baseball into a psychological battle centered on pitcher Tokuchi Toua.",
+    "tags": [
+      "anime",
+      "sports",
+      "psychological"
+    ]
+  },
+  {
+    "id": 2735,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Eijun Sawamura pursuing baseball at Seidou High?",
+    "answers": [
+      "One Outs",
+      "Major",
+      "Ace of Diamond",
+      "Big Windup!"
+    ],
+    "correctAnswer": "Ace of Diamond",
+    "explanation": "Ace of Diamond follows Sawamura as he develops as a pitcher at Seidou High.",
+    "tags": [
+      "anime",
+      "sports",
+      "baseball"
+    ]
+  },
+  {
+    "id": 2736,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Goro Honda's life through baseball across many years?",
+    "answers": [
+      "Ace of Diamond",
+      "Big Windup!",
+      "Cross Game",
+      "Major"
+    ],
+    "correctAnswer": "Major",
+    "explanation": "Major tracks Goro's baseball journey from childhood into professional play.",
+    "tags": [
+      "anime",
+      "sports",
+      "baseball"
+    ]
+  },
+  {
+    "id": 2737,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is a boxing classic about Ippo Makunouchi?",
+    "answers": [
+      "Hajime no Ippo",
+      "Ashita no Joe",
+      "Baki",
+      "Megalo Box"
+    ],
+    "correctAnswer": "Hajime no Ippo",
+    "explanation": "Hajime no Ippo follows Ippo's growth from bullied student to boxer.",
+    "tags": [
+      "anime",
+      "sports",
+      "boxing"
+    ]
+  },
+  {
+    "id": 2738,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime reimagines boxing through gear-enhanced fights called Megalobox?",
+    "answers": [
+      "Ashita no Joe",
+      "Megalo Box",
+      "Hajime no Ippo",
+      "Baki"
+    ],
+    "correctAnswer": "Megalo Box",
+    "explanation": "Megalo Box features boxing-like matches enhanced by mechanical gear.",
+    "tags": [
+      "anime",
+      "sports",
+      "boxing"
+    ]
+  },
+  {
+    "id": 2739,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which classic boxing anime follows Joe Yabuki?",
+    "answers": [
+      "Hajime no Ippo",
+      "Megalo Box",
+      "Ashita no Joe",
+      "Baki"
+    ],
+    "correctAnswer": "Ashita no Joe",
+    "explanation": "Ashita no Joe is a foundational boxing anime centered on Joe Yabuki.",
+    "tags": [
+      "anime",
+      "sports",
+      "classic"
+    ]
+  },
+  {
+    "id": 2740,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows martial artist Baki Hanma?",
+    "answers": [
+      "Hajime no Ippo",
+      "Megalo Box",
+      "Kengan Ashura",
+      "Baki"
+    ],
+    "correctAnswer": "Baki",
+    "explanation": "Baki follows intense martial arts battles centered on Baki Hanma.",
+    "tags": [
+      "anime",
+      "martial-arts",
+      "action"
+    ]
+  }
+]

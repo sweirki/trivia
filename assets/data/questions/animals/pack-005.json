@@ -1,1 +1,4002 @@
-[]
+[
+  {
+    "id": 2001,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Salamander?",
+    "answers": [
+      "freshwater ponds, forests, and damp habitats",
+      "African savannas",
+      "oceans, coasts, reefs, or freshwater habitats",
+      "wetlands, lakes, and rivers"
+    ],
+    "correctAnswer": "freshwater ponds, forests, and damp habitats",
+    "explanation": "The Salamander is strongly associated with freshwater ponds, forests, and damp habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2002,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Carp?",
+    "answers": [
+      "speed and stealth while hunting",
+      "gills and bodies adapted to freshwater",
+      "gills and fins for underwater life",
+      "thick fur and strong insulation"
+    ],
+    "correctAnswer": "gills and bodies adapted to freshwater",
+    "explanation": "The Carp is known for gills and bodies adapted to freshwater.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "fish"
+    ]
+  },
+  {
+    "id": 2003,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Wombat?",
+    "answers": [
+      "fish",
+      "arachnid",
+      "mammal",
+      "mollusk"
+    ],
+    "correctAnswer": "mammal",
+    "explanation": "The Wombat is classified as a mammal.",
+    "tags": [
+      "animals",
+      "classification",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2004,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Tick?",
+    "answers": [
+      "freshwater ponds, forests, and damp habitats",
+      "Australian and nearby island habitats",
+      "open country and high perches",
+      "dry ground, forests, caves, or sheltered spaces"
+    ],
+    "correctAnswer": "dry ground, forests, caves, or sheltered spaces",
+    "explanation": "The Tick is strongly associated with dry ground, forests, caves, or sheltered spaces.",
+    "tags": [
+      "animals",
+      "habitat",
+      "arachnid"
+    ]
+  },
+  {
+    "id": 2005,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Mantis Shrimp?",
+    "answers": [
+      "crustacean",
+      "bird",
+      "mammal",
+      "fish"
+    ],
+    "correctAnswer": "crustacean",
+    "explanation": "The Mantis Shrimp is classified as a crustacean.",
+    "tags": [
+      "animals",
+      "classification",
+      "crustacean"
+    ]
+  },
+  {
+    "id": 2006,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Cuttlefish mainly eat?",
+    "answers": [
+      "fruit, seeds, and tree bark",
+      "small fish, crustaceans, and mollusks",
+      "grasses, leaves, and shoots",
+      "nectar, pollen, and flower petals"
+    ],
+    "correctAnswer": "small fish, crustaceans, and mollusks",
+    "explanation": "Cuttlefish are carnivorous hunters that mainly feed on small fish, crustaceans, and mollusks.",
+    "tags": [
+      "animals",
+      "diet",
+      "mollusk"
+    ]
+  },
+  {
+    "id": 2007,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Toucan?",
+    "answers": [
+      "open grasslands",
+      "streams, caves, forests, and wet ground",
+      "forests and tropical habitats",
+      "tropical forests and leafy habitats"
+    ],
+    "correctAnswer": "forests and tropical habitats",
+    "explanation": "The Toucan is strongly associated with forests and tropical habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "bird"
+    ]
+  },
+  {
+    "id": 2008,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Tiger Salamander?",
+    "answers": [
+      "wetlands, lakes, and rivers",
+      "African savannas",
+      "open country and high perches",
+      "streams, caves, forests, and wet ground"
+    ],
+    "correctAnswer": "streams, caves, forests, and wet ground",
+    "explanation": "The Tiger Salamander is strongly associated with streams, caves, forests, and wet ground.",
+    "tags": [
+      "animals",
+      "habitat",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2009,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Spring Peeper?",
+    "answers": [
+      "amphibian",
+      "reptile",
+      "arachnid",
+      "mollusk"
+    ],
+    "correctAnswer": "amphibian",
+    "explanation": "The Spring Peeper is classified as an amphibian.",
+    "tags": [
+      "animals",
+      "classification",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2010,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Red-eyed Tree Frog?",
+    "answers": [
+      "soil, wood, leaves, or social colonies",
+      "freshwater ponds, forests, and damp habitats",
+      "wetlands, lakes, and rivers",
+      "dry ground, forests, caves, or sheltered spaces"
+    ],
+    "correctAnswer": "freshwater ponds, forests, and damp habitats",
+    "explanation": "The Red-eyed Tree Frog is strongly associated with freshwater ponds, forests, and damp habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2011,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Ibex?",
+    "answers": [
+      "speed and stealth while hunting",
+      "adaptations for life around water",
+      "sure-footed climbing or mountain movement",
+      "sensitive skin that responds quickly to environmental change"
+    ],
+    "correctAnswer": "sure-footed climbing or mountain movement",
+    "explanation": "The Ibex is known for sure-footed climbing or mountain movement.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2012,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Wolverine?",
+    "answers": [
+      "gills and fins for underwater life",
+      "ground nesting or strong running ability",
+      "sensitive skin that responds quickly to environmental change",
+      "thick fur and strong insulation"
+    ],
+    "correctAnswer": "thick fur and strong insulation",
+    "explanation": "The Wolverine is known for thick fur and strong insulation.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2013,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Swan mainly eat?",
+    "answers": [
+      "aquatic plants, fish, insects, or small animals",
+      "leaves, grasses, fruit, or small animals",
+      "small mammals, birds, fish, or carrion",
+      "insects, rodents, eggs, or small animals"
+    ],
+    "correctAnswer": "aquatic plants, fish, insects, or small animals",
+    "explanation": "The Swan commonly feeds on aquatic plants, fish, insects, or small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "bird"
+    ]
+  },
+  {
+    "id": 2014,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Newt?",
+    "answers": [
+      "ground nesting or strong running ability",
+      "moist skin and a water-linked life cycle",
+      "specialized bodies for ocean survival",
+      "eight legs and no antennae"
+    ],
+    "correctAnswer": "moist skin and a water-linked life cycle",
+    "explanation": "The Newt is known for moist skin and a water-linked life cycle.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2015,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Garden Snail?",
+    "answers": [
+      "crustacean",
+      "reptile",
+      "mollusk",
+      "bird"
+    ],
+    "correctAnswer": "mollusk",
+    "explanation": "The Garden Snail is classified as a mollusk.",
+    "tags": [
+      "animals",
+      "classification",
+      "mollusk"
+    ]
+  },
+  {
+    "id": 2016,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Monarch Butterfly?",
+    "answers": [
+      "arachnid",
+      "amphibian",
+      "mammal",
+      "insect"
+    ],
+    "correctAnswer": "insect",
+    "explanation": "The Monarch Butterfly is classified as an insect.",
+    "tags": [
+      "animals",
+      "classification",
+      "insect"
+    ]
+  },
+  {
+    "id": 2017,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Peregrine Falcon?",
+    "answers": [
+      "bird",
+      "mammal",
+      "reptile",
+      "amphibian"
+    ],
+    "correctAnswer": "bird",
+    "explanation": "The Peregrine Falcon is classified as a bird.",
+    "tags": [
+      "animals",
+      "classification",
+      "bird"
+    ]
+  },
+  {
+    "id": 2018,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Wallaby?",
+    "answers": [
+      "reptile",
+      "mammal",
+      "bird",
+      "crustacean"
+    ],
+    "correctAnswer": "mammal",
+    "explanation": "The Wallaby is classified as a mammal.",
+    "tags": [
+      "animals",
+      "classification",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2019,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Jackal?",
+    "answers": [
+      "forests and tropical habitats",
+      "dry ground, forests, caves, or sheltered spaces",
+      "open grasslands",
+      "rivers, lakes, and freshwater systems"
+    ],
+    "correctAnswer": "open grasslands",
+    "explanation": "The Jackal is strongly associated with open grasslands.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2020,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Hummingbird mainly eat?",
+    "answers": [
+      "small to medium-sized prey animals",
+      "grasses, shrubs, leaves, or lichens",
+      "insects, fruit, leaves, or small animals",
+      "fruit, seeds, nectar, or insects"
+    ],
+    "correctAnswer": "fruit, seeds, nectar, or insects",
+    "explanation": "The Hummingbird commonly feeds on fruit, seeds, nectar, or insects.",
+    "tags": [
+      "animals",
+      "diet",
+      "bird"
+    ]
+  },
+  {
+    "id": 2021,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Sperm Whale?",
+    "answers": [
+      "streamlined bodies for swimming",
+      "moist skin and a water-linked life cycle",
+      "camouflage, climbing, or temperature regulation",
+      "adaptations for life around water"
+    ],
+    "correctAnswer": "streamlined bodies for swimming",
+    "explanation": "The Sperm Whale is known for streamlined bodies for swimming.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2022,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Hartebeest?",
+    "answers": [
+      "open country and high perches",
+      "African savannas",
+      "oceans, reefs, shorelines, or damp habitats",
+      "gardens, forests, and flowering plants"
+    ],
+    "correctAnswer": "African savannas",
+    "explanation": "The Hartebeest is strongly associated with African savannas.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2023,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Vulture?",
+    "answers": [
+      "soft bodies, often with shells or tentacles",
+      "speed and stealth while hunting",
+      "sharp talons and excellent eyesight",
+      "marsupial development with young carried in a pouch"
+    ],
+    "correctAnswer": "sharp talons and excellent eyesight",
+    "explanation": "The Vulture is known for sharp talons and excellent eyesight.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "bird"
+    ]
+  },
+  {
+    "id": 2024,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Desert Tortoise?",
+    "answers": [
+      "bird",
+      "fish",
+      "amphibian",
+      "reptile"
+    ],
+    "correctAnswer": "reptile",
+    "explanation": "The Desert Tortoise is classified as a reptile.",
+    "tags": [
+      "animals",
+      "classification",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2025,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Howler Monkey?",
+    "answers": [
+      "mammal",
+      "arachnid",
+      "bird",
+      "crustacean"
+    ],
+    "correctAnswer": "mammal",
+    "explanation": "The Howler Monkey is classified as a mammal.",
+    "tags": [
+      "animals",
+      "classification",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2026,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Green Iguana?",
+    "answers": [
+      "mollusk",
+      "reptile",
+      "amphibian",
+      "insect"
+    ],
+    "correctAnswer": "reptile",
+    "explanation": "The Green Iguana is classified as a reptile.",
+    "tags": [
+      "animals",
+      "classification",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2027,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Spotted Hyena?",
+    "answers": [
+      "wetlands, lakes, and rivers",
+      "open oceans and deep waters",
+      "open grasslands",
+      "warm wetlands and rivers"
+    ],
+    "correctAnswer": "open grasslands",
+    "explanation": "The Spotted Hyena is strongly associated with open grasslands.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2028,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Scorpion mainly eat?",
+    "answers": [
+      "fish, seals, berries, or seasonal foods",
+      "fruit, seeds, nectar, or insects",
+      "algae, plankton, detritus, or small prey",
+      "insects and other small animals"
+    ],
+    "correctAnswer": "insects and other small animals",
+    "explanation": "The Scorpion commonly feeds on insects and other small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "arachnid"
+    ]
+  },
+  {
+    "id": 2029,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Firefly?",
+    "answers": [
+      "insect",
+      "fish",
+      "arachnid",
+      "amphibian"
+    ],
+    "correctAnswer": "insect",
+    "explanation": "The Firefly is classified as an insect.",
+    "tags": [
+      "animals",
+      "classification",
+      "insect"
+    ]
+  },
+  {
+    "id": 2030,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Tamarin?",
+    "answers": [
+      "open oceans and deep waters",
+      "forests and wooded habitats",
+      "oceans, reefs, shorelines, or damp habitats",
+      "grasslands, farms, and open habitats"
+    ],
+    "correctAnswer": "forests and wooded habitats",
+    "explanation": "The Tamarin is strongly associated with forests and wooded habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2031,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Honeybee?",
+    "answers": [
+      "gills and fins for underwater life",
+      "camouflage, climbing, or temperature regulation",
+      "six legs and a segmented body",
+      "colorful plumage or specialized beaks"
+    ],
+    "correctAnswer": "six legs and a segmented body",
+    "explanation": "The Honeybee is known for six legs and a segmented body.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "insect"
+    ]
+  },
+  {
+    "id": 2032,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Wildebeest?",
+    "answers": [
+      "gardens, forests, and flowering plants",
+      "open country and high perches",
+      "rivers, lakes, and freshwater systems",
+      "African savannas"
+    ],
+    "correctAnswer": "African savannas",
+    "explanation": "The Wildebeest is strongly associated with African savannas.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2033,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Tokay Gecko mainly eat?",
+    "answers": [
+      "insects, fruit, leaves, or small animals",
+      "fish, birds, mammals, or other aquatic prey",
+      "fish, squid, plankton, or marine prey",
+      "small mammals, birds, fish, or carrion"
+    ],
+    "correctAnswer": "insects, fruit, leaves, or small animals",
+    "explanation": "The Tokay Gecko commonly feeds on insects, fruit, leaves, or small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2034,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Quokka?",
+    "answers": [
+      "open grasslands",
+      "Australian and nearby island habitats",
+      "gardens, forests, and flowering plants",
+      "warm wetlands and rivers"
+    ],
+    "correctAnswer": "Australian and nearby island habitats",
+    "explanation": "The Quokka is strongly associated with Australian and nearby island habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2035,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Gecko?",
+    "answers": [
+      "scaly skin and powerful jaws",
+      "sensitive skin that responds quickly to environmental change",
+      "dry scales that help reduce water loss",
+      "ground nesting or strong running ability"
+    ],
+    "correctAnswer": "dry scales that help reduce water loss",
+    "explanation": "The Gecko is known for dry scales that help reduce water loss.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2036,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Seahorse?",
+    "answers": [
+      "amphibian",
+      "mammal",
+      "mollusk",
+      "fish"
+    ],
+    "correctAnswer": "fish",
+    "explanation": "The Seahorse is classified as a fish.",
+    "tags": [
+      "animals",
+      "classification",
+      "fish"
+    ]
+  },
+  {
+    "id": 2037,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Red-eyed Tree Frog?",
+    "answers": [
+      "moist skin and a water-linked life cycle",
+      "sharp talons and excellent eyesight",
+      "speed and stealth while hunting",
+      "eight legs and no antennae"
+    ],
+    "correctAnswer": "moist skin and a water-linked life cycle",
+    "explanation": "The Red-eyed Tree Frog is known for moist skin and a water-linked life cycle.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2038,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Lorikeet?",
+    "answers": [
+      "deserts, scrublands, or rocky habitats",
+      "forests and tropical habitats",
+      "cold northern regions",
+      "open country and high perches"
+    ],
+    "correctAnswer": "forests and tropical habitats",
+    "explanation": "The Lorikeet is strongly associated with forests and tropical habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "bird"
+    ]
+  },
+  {
+    "id": 2039,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the African Wild Dog?",
+    "answers": [
+      "fish",
+      "bird",
+      "mammal",
+      "crustacean"
+    ],
+    "correctAnswer": "mammal",
+    "explanation": "The African Wild Dog is classified as a mammal.",
+    "tags": [
+      "animals",
+      "classification",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2040,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Leafcutter Ant?",
+    "answers": [
+      "grasslands, farms, and open habitats",
+      "deserts, scrublands, or rocky habitats",
+      "open country and high perches",
+      "soil, wood, leaves, or social colonies"
+    ],
+    "correctAnswer": "soil, wood, leaves, or social colonies",
+    "explanation": "The Leafcutter Ant is strongly associated with soil, wood, leaves, or social colonies.",
+    "tags": [
+      "animals",
+      "habitat",
+      "insect"
+    ]
+  },
+  {
+    "id": 2041,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Caecilian mainly eat?",
+    "answers": [
+      "insects, worms, and small invertebrates",
+      "nectar, leaves, pollen, or plant material",
+      "fish, seals, berries, or seasonal foods",
+      "algae, plankton, small fish, or reef invertebrates"
+    ],
+    "correctAnswer": "insects, worms, and small invertebrates",
+    "explanation": "The Caecilian commonly feeds on insects, worms, and small invertebrates.",
+    "tags": [
+      "animals",
+      "diet",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2042,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Dhole mainly eat?",
+    "answers": [
+      "fish, squid, krill, or marine prey",
+      "small to medium-sized prey animals",
+      "fruit, seeds, nectar, or insects",
+      "insects, rodents, eggs, or small animals"
+    ],
+    "correctAnswer": "small to medium-sized prey animals",
+    "explanation": "The Dhole commonly feeds on small to medium-sized prey animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2043,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Dhole?",
+    "answers": [
+      "specialized bodies for ocean survival",
+      "sensitive skin that responds quickly to environmental change",
+      "speed and stealth while hunting",
+      "ground nesting or strong running ability"
+    ],
+    "correctAnswer": "speed and stealth while hunting",
+    "explanation": "The Dhole is known for speed and stealth while hunting.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2044,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Alpaca?",
+    "answers": [
+      "fish",
+      "insect",
+      "bird",
+      "mammal"
+    ],
+    "correctAnswer": "mammal",
+    "explanation": "The Alpaca is classified as a mammal.",
+    "tags": [
+      "animals",
+      "classification",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2045,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Dhole?",
+    "answers": [
+      "mammal",
+      "insect",
+      "amphibian",
+      "reptile"
+    ],
+    "correctAnswer": "mammal",
+    "explanation": "The Dhole is classified as a mammal.",
+    "tags": [
+      "animals",
+      "classification",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2046,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Sea Otter mainly eat?",
+    "answers": [
+      "tree bark, roots, and grasses",
+      "shellfish, sea urchins, crabs, or fish",
+      "nectar, seeds, and flower petals",
+      "large land mammals and reptiles"
+    ],
+    "correctAnswer": "shellfish, sea urchins, crabs, or fish",
+    "explanation": "Sea otters mainly feed on shellfish, sea urchins, crabs, and fish.",
+    "tags": [
+      "animals",
+      "diet",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2047,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Rhea?",
+    "answers": [
+      "insect",
+      "fish",
+      "bird",
+      "reptile"
+    ],
+    "correctAnswer": "bird",
+    "explanation": "The Rhea is classified as a bird.",
+    "tags": [
+      "animals",
+      "classification",
+      "bird"
+    ]
+  },
+  {
+    "id": 2048,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Maned Wolf mainly eat?",
+    "answers": [
+      "insects, fruit, leaves, or small animals",
+      "nectar, leaves, pollen, or plant material",
+      "insects and other small animals",
+      "small to medium-sized prey animals"
+    ],
+    "correctAnswer": "small to medium-sized prey animals",
+    "explanation": "The Maned Wolf commonly feeds on small to medium-sized prey animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2049,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Guinea Fowl?",
+    "answers": [
+      "ground nesting or strong running ability",
+      "marsupial development with young carried in a pouch",
+      "sensitive skin that responds quickly to environmental change",
+      "dry scales that help reduce water loss"
+    ],
+    "correctAnswer": "ground nesting or strong running ability",
+    "explanation": "The Guinea Fowl is known for ground nesting or strong running ability.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "bird"
+    ]
+  },
+  {
+    "id": 2050,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Darwin's Frog?",
+    "answers": [
+      "gills and bodies adapted to freshwater",
+      "sensitive skin that responds quickly to environmental change",
+      "sure-footed climbing or mountain movement",
+      "streamlined bodies for swimming"
+    ],
+    "correctAnswer": "sensitive skin that responds quickly to environmental change",
+    "explanation": "The Darwin's Frog is known for sensitive skin that responds quickly to environmental change.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2051,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Red-tailed Hawk?",
+    "answers": [
+      "insect",
+      "amphibian",
+      "bird",
+      "arachnid"
+    ],
+    "correctAnswer": "bird",
+    "explanation": "The Red-tailed Hawk is classified as a bird.",
+    "tags": [
+      "animals",
+      "classification",
+      "bird"
+    ]
+  },
+  {
+    "id": 2052,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Flying Dragon mainly eat?",
+    "answers": [
+      "fruit, flowers, and seeds",
+      "grasses, leaves, and roots",
+      "fish, squid, and marine prey",
+      "insects and other small invertebrates"
+    ],
+    "correctAnswer": "insects and other small invertebrates",
+    "explanation": "Flying Dragons mainly feed on insects and other small invertebrates.",
+    "tags": [
+      "animals",
+      "diet",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2053,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Auk?",
+    "answers": [
+      "adaptations for life around water",
+      "marsupial development with young carried in a pouch",
+      "speed and stealth while hunting",
+      "eight legs and no antennae"
+    ],
+    "correctAnswer": "adaptations for life around water",
+    "explanation": "The Auk is known for adaptations for life around water.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "bird"
+    ]
+  },
+  {
+    "id": 2054,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Dugong?",
+    "answers": [
+      "sure-footed climbing or mountain movement",
+      "streamlined bodies for swimming",
+      "dry scales that help reduce water loss",
+      "marsupial development with young carried in a pouch"
+    ],
+    "correctAnswer": "streamlined bodies for swimming",
+    "explanation": "The Dugong is known for streamlined bodies for swimming.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2055,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Moray Eel?",
+    "answers": [
+      "warm wetlands and rivers",
+      "forests and wooded habitats",
+      "coral reefs and warm seas",
+      "Australian and nearby island habitats"
+    ],
+    "correctAnswer": "coral reefs and warm seas",
+    "explanation": "The Moray Eel is strongly associated with coral reefs and warm seas.",
+    "tags": [
+      "animals",
+      "habitat",
+      "fish"
+    ]
+  },
+  {
+    "id": 2056,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Ostrich mainly eat?",
+    "answers": [
+      "fish, squid, plankton, or marine prey",
+      "insects, worms, larvae, or tiny aquatic animals",
+      "nectar, leaves, pollen, or plant material",
+      "seeds, insects, grasses, or small animals"
+    ],
+    "correctAnswer": "seeds, insects, grasses, or small animals",
+    "explanation": "The Ostrich commonly feeds on seeds, insects, grasses, or small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "bird"
+    ]
+  },
+  {
+    "id": 2057,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Secretarybird?",
+    "answers": [
+      "open country and high perches",
+      "tropical forests and leafy habitats",
+      "oceans, reefs, shorelines, or damp habitats",
+      "warm wetlands and rivers"
+    ],
+    "correctAnswer": "open country and high perches",
+    "explanation": "The Secretarybird is strongly associated with open country and high perches.",
+    "tags": [
+      "animals",
+      "habitat",
+      "bird"
+    ]
+  },
+  {
+    "id": 2058,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Howler Monkey?",
+    "answers": [
+      "specialized bodies for ocean survival",
+      "complex social behavior",
+      "eight legs and no antennae",
+      "moist skin and a water-linked life cycle"
+    ],
+    "correctAnswer": "complex social behavior",
+    "explanation": "The Howler Monkey is known for complex social behavior.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2059,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Gannet?",
+    "answers": [
+      "crustacean",
+      "arachnid",
+      "bird",
+      "reptile"
+    ],
+    "correctAnswer": "bird",
+    "explanation": "The Gannet is classified as a bird.",
+    "tags": [
+      "animals",
+      "classification",
+      "bird"
+    ]
+  },
+  {
+    "id": 2060,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Oyster?",
+    "answers": [
+      "Australian and nearby island habitats",
+      "open country and high perches",
+      "coral reefs and warm seas",
+      "oceans, reefs, shorelines, or damp habitats"
+    ],
+    "correctAnswer": "oceans, reefs, shorelines, or damp habitats",
+    "explanation": "The Oyster is strongly associated with oceans, reefs, shorelines, or damp habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mollusk"
+    ]
+  },
+  {
+    "id": 2061,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Harvestman mainly eat?",
+    "answers": [
+      "insects and other small animals",
+      "fish, birds, mammals, or other aquatic prey",
+      "insects, fruit, leaves, or small animals",
+      "fish, seals, berries, or seasonal foods"
+    ],
+    "correctAnswer": "insects and other small animals",
+    "explanation": "The Harvestman commonly feeds on insects and other small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "arachnid"
+    ]
+  },
+  {
+    "id": 2062,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Roadrunner?",
+    "answers": [
+      "moist skin and a water-linked life cycle",
+      "ground nesting or strong running ability",
+      "scaly skin and powerful jaws",
+      "sharp talons and excellent eyesight"
+    ],
+    "correctAnswer": "ground nesting or strong running ability",
+    "explanation": "The Roadrunner is known for ground nesting or strong running ability.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "bird"
+    ]
+  },
+  {
+    "id": 2063,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Lorikeet mainly eat?",
+    "answers": [
+      "plant matter, fungi, nectar, or other small organisms",
+      "small to medium-sized prey animals",
+      "fruit, seeds, nectar, or insects",
+      "aquatic plants, fish, insects, or small animals"
+    ],
+    "correctAnswer": "fruit, seeds, nectar, or insects",
+    "explanation": "The Lorikeet commonly feeds on fruit, seeds, nectar, or insects.",
+    "tags": [
+      "animals",
+      "diet",
+      "bird"
+    ]
+  },
+  {
+    "id": 2064,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Sperm Whale mainly eat?",
+    "answers": [
+      "nectar, leaves, pollen, or plant material",
+      "algae, plankton, small fish, or reef invertebrates",
+      "grasses, leaves, and shoots",
+      "fish, squid, krill, or marine prey"
+    ],
+    "correctAnswer": "fish, squid, krill, or marine prey",
+    "explanation": "The Sperm Whale commonly feeds on fish, squid, krill, or marine prey.",
+    "tags": [
+      "animals",
+      "diet",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2065,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Wolf Spider?",
+    "answers": [
+      "arachnid",
+      "reptile",
+      "mammal",
+      "insect"
+    ],
+    "correctAnswer": "arachnid",
+    "explanation": "The Wolf Spider is classified as an arachnid.",
+    "tags": [
+      "animals",
+      "classification",
+      "arachnid"
+    ]
+  },
+  {
+    "id": 2066,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Krill mainly eat?",
+    "answers": [
+      "fruit, leaves, insects, and other small foods",
+      "algae, detritus, plankton, or small animals",
+      "small to medium-sized prey animals",
+      "aquatic plants, fish, insects, or small animals"
+    ],
+    "correctAnswer": "algae, detritus, plankton, or small animals",
+    "explanation": "The Krill commonly feeds on algae, detritus, plankton, or small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "crustacean"
+    ]
+  },
+  {
+    "id": 2067,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Red-tailed Hawk?",
+    "answers": [
+      "colorful plumage or specialized beaks",
+      "marsupial development with young carried in a pouch",
+      "sharp talons and excellent eyesight",
+      "scaly skin and powerful jaws"
+    ],
+    "correctAnswer": "sharp talons and excellent eyesight",
+    "explanation": "The Red-tailed Hawk is known for sharp talons and excellent eyesight.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "bird"
+    ]
+  },
+  {
+    "id": 2068,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Bearded Dragon?",
+    "answers": [
+      "insect",
+      "mammal",
+      "arachnid",
+      "reptile"
+    ],
+    "correctAnswer": "reptile",
+    "explanation": "The Bearded Dragon is classified as a reptile.",
+    "tags": [
+      "animals",
+      "classification",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2069,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Shrimp mainly eat?",
+    "answers": [
+      "algae, detritus, plankton, or small animals",
+      "fruit, seeds, nectar, or insects",
+      "algae, plankton, small fish, or reef invertebrates",
+      "small mammals, birds, fish, or carrion"
+    ],
+    "correctAnswer": "algae, detritus, plankton, or small animals",
+    "explanation": "The Shrimp commonly feeds on algae, detritus, plankton, or small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "crustacean"
+    ]
+  },
+  {
+    "id": 2070,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Woodpecker?",
+    "answers": [
+      "wetlands, lakes, and rivers",
+      "forests and tropical habitats",
+      "oceans and coastal waters",
+      "African savannas"
+    ],
+    "correctAnswer": "forests and tropical habitats",
+    "explanation": "The Woodpecker is strongly associated with forests and tropical habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "bird"
+    ]
+  },
+  {
+    "id": 2071,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Bluefin Tuna?",
+    "answers": [
+      "speed and stealth while hunting",
+      "ground nesting or strong running ability",
+      "specialized bodies for ocean survival",
+      "sure-footed climbing or mountain movement"
+    ],
+    "correctAnswer": "specialized bodies for ocean survival",
+    "explanation": "The Bluefin Tuna is known for specialized bodies for ocean survival.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "fish"
+    ]
+  },
+  {
+    "id": 2072,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Macaque mainly eat?",
+    "answers": [
+      "fish, birds, mammals, or other aquatic prey",
+      "grasses, shrubs, leaves, or lichens",
+      "insects and other small animals",
+      "fruit, leaves, insects, and other small foods"
+    ],
+    "correctAnswer": "fruit, leaves, insects, and other small foods",
+    "explanation": "The Macaque commonly feeds on fruit, leaves, insects, and other small foods.",
+    "tags": [
+      "animals",
+      "diet",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2073,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Emu?",
+    "answers": [
+      "bird",
+      "mammal",
+      "arachnid",
+      "mollusk"
+    ],
+    "correctAnswer": "bird",
+    "explanation": "The Emu is classified as a bird.",
+    "tags": [
+      "animals",
+      "classification",
+      "bird"
+    ]
+  },
+  {
+    "id": 2074,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Bullfrog mainly eat?",
+    "answers": [
+      "small to medium-sized prey animals",
+      "insects, worms, and small invertebrates",
+      "algae, plankton, detritus, or small prey",
+      "grasses, leaves, and shoots"
+    ],
+    "correctAnswer": "insects, worms, and small invertebrates",
+    "explanation": "The Bullfrog commonly feeds on insects, worms, and small invertebrates.",
+    "tags": [
+      "animals",
+      "diet",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2075,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Nautilus?",
+    "answers": [
+      "moist skin and a water-linked life cycle",
+      "six legs and a segmented body",
+      "soft bodies, often with shells or tentacles",
+      "camouflage, climbing, or temperature regulation"
+    ],
+    "correctAnswer": "soft bodies, often with shells or tentacles",
+    "explanation": "The Nautilus is known for soft bodies, often with shells or tentacles.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mollusk"
+    ]
+  },
+  {
+    "id": 2076,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Basilisk Lizard?",
+    "answers": [
+      "colorful plumage or specialized beaks",
+      "eight legs and no antennae",
+      "adaptations for life around water",
+      "camouflage, climbing, or temperature regulation"
+    ],
+    "correctAnswer": "camouflage, climbing, or temperature regulation",
+    "explanation": "The Basilisk Lizard is known for camouflage, climbing, or temperature regulation.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2077,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Beluga Whale?",
+    "answers": [
+      "mammal",
+      "bird",
+      "insect",
+      "fish"
+    ],
+    "correctAnswer": "mammal",
+    "explanation": "The Beluga Whale is classified as a mammal.",
+    "tags": [
+      "animals",
+      "classification",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2078,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Poison Dart Frog?",
+    "answers": [
+      "rivers, lakes, and freshwater systems",
+      "freshwater ponds, forests, and damp habitats",
+      "open oceans and deep waters",
+      "oceans, coasts, reefs, or freshwater habitats"
+    ],
+    "correctAnswer": "freshwater ponds, forests, and damp habitats",
+    "explanation": "The Poison Dart Frog is strongly associated with freshwater ponds, forests, and damp habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2079,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Monarch Butterfly?",
+    "answers": [
+      "highly specialized insect behavior",
+      "camouflage, climbing, or temperature regulation",
+      "six legs and a segmented body",
+      "sensitive skin that responds quickly to environmental change"
+    ],
+    "correctAnswer": "six legs and a segmented body",
+    "explanation": "The Monarch Butterfly is known for six legs and a segmented body.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "insect"
+    ]
+  },
+  {
+    "id": 2080,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Tamarin?",
+    "answers": [
+      "gills and bodies adapted to freshwater",
+      "marsupial development with young carried in a pouch",
+      "streamlined bodies for swimming",
+      "complex social behavior"
+    ],
+    "correctAnswer": "complex social behavior",
+    "explanation": "The Tamarin is known for complex social behavior.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2081,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Bandicoot?",
+    "answers": [
+      "mammal",
+      "amphibian",
+      "arachnid",
+      "fish"
+    ],
+    "correctAnswer": "mammal",
+    "explanation": "The Bandicoot is classified as a mammal.",
+    "tags": [
+      "animals",
+      "classification",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2082,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Pelican?",
+    "answers": [
+      "Australian and nearby island habitats",
+      "oceans, coasts, and islands",
+      "warm wetlands and rivers",
+      "forests and wooded habitats"
+    ],
+    "correctAnswer": "oceans, coasts, and islands",
+    "explanation": "The Pelican is strongly associated with oceans, coasts, and islands.",
+    "tags": [
+      "animals",
+      "habitat",
+      "bird"
+    ]
+  },
+  {
+    "id": 2083,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Lobster mainly eat?",
+    "answers": [
+      "fruit, leaves, insects, and other small foods",
+      "insects, plants, smaller fish, or detritus",
+      "algae, detritus, plankton, or small animals",
+      "small to medium-sized prey animals"
+    ],
+    "correctAnswer": "algae, detritus, plankton, or small animals",
+    "explanation": "The Lobster commonly feeds on algae, detritus, plankton, or small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "crustacean"
+    ]
+  },
+  {
+    "id": 2084,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Golden Eagle?",
+    "answers": [
+      "oceans and coastal waters",
+      "cold northern regions",
+      "warm wetlands and rivers",
+      "open country and high perches"
+    ],
+    "correctAnswer": "open country and high perches",
+    "explanation": "The Golden Eagle is strongly associated with open country and high perches.",
+    "tags": [
+      "animals",
+      "habitat",
+      "bird"
+    ]
+  },
+  {
+    "id": 2085,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Praying Mantis?",
+    "answers": [
+      "six legs and a segmented body",
+      "marsupial development with young carried in a pouch",
+      "gills and bodies adapted to freshwater",
+      "sensitive skin that responds quickly to environmental change"
+    ],
+    "correctAnswer": "six legs and a segmented body",
+    "explanation": "The Praying Mantis is known for six legs and a segmented body.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "insect"
+    ]
+  },
+  {
+    "id": 2086,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Moose?",
+    "answers": [
+      "forests and tropical habitats",
+      "cold northern regions",
+      "warm wetlands and rivers",
+      "oceans, coasts, reefs, or freshwater habitats"
+    ],
+    "correctAnswer": "cold northern regions",
+    "explanation": "The Moose is strongly associated with cold northern regions.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2087,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Duck?",
+    "answers": [
+      "marsupial development with young carried in a pouch",
+      "adaptations for life around water",
+      "long legs, webbed feet, or water-focused feeding",
+      "specialized bodies for ocean survival"
+    ],
+    "correctAnswer": "long legs, webbed feet, or water-focused feeding",
+    "explanation": "The Duck is known for long legs, webbed feet, or water-focused feeding.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "bird"
+    ]
+  },
+  {
+    "id": 2088,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Green Anaconda?",
+    "answers": [
+      "grasslands, farms, and open habitats",
+      "mountains, forests, or rugged terrain",
+      "oceans, reefs, shorelines, or damp habitats",
+      "tropical forests and leafy habitats"
+    ],
+    "correctAnswer": "tropical forests and leafy habitats",
+    "explanation": "The Green Anaconda is strongly associated with tropical forests and leafy habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2089,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Turkey?",
+    "answers": [
+      "ground nesting or strong running ability",
+      "sharp talons and excellent eyesight",
+      "gills and bodies adapted to freshwater",
+      "scaly skin and powerful jaws"
+    ],
+    "correctAnswer": "ground nesting or strong running ability",
+    "explanation": "The Turkey is known for ground nesting or strong running ability.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "bird"
+    ]
+  },
+  {
+    "id": 2090,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Sea Otter?",
+    "answers": [
+      "high mountain forests",
+      "kelp forests and northern coastal waters",
+      "dry deserts and rocky canyons",
+      "open grasslands and savannas"
+    ],
+    "correctAnswer": "kelp forests and northern coastal waters",
+    "explanation": "Sea otters are strongly associated with kelp forests and northern coastal waters.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2091,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Brown Bear mainly eat?",
+    "answers": [
+      "leaves, grasses, fruit, or small animals",
+      "fruit, leaves, insects, and other small foods",
+      "fish, seals, berries, or seasonal foods",
+      "seeds, insects, grasses, or small animals"
+    ],
+    "correctAnswer": "fish, seals, berries, or seasonal foods",
+    "explanation": "The Brown Bear commonly feeds on fish, seals, berries, or seasonal foods.",
+    "tags": [
+      "animals",
+      "diet",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2092,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Marmot mainly eat?",
+    "answers": [
+      "insects and other small animals",
+      "algae, plankton, small fish, or reef invertebrates",
+      "leaves, grasses, fruit, or small animals",
+      "grasses, shrubs, leaves, or lichens"
+    ],
+    "correctAnswer": "grasses, shrubs, leaves, or lichens",
+    "explanation": "The Marmot commonly feeds on grasses, shrubs, leaves, or lichens.",
+    "tags": [
+      "animals",
+      "diet",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2093,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Hellbender mainly eat?",
+    "answers": [
+      "insects, worms, larvae, or tiny aquatic animals",
+      "nectar, leaves, pollen, or plant material",
+      "plant matter, fungi, nectar, or other small organisms",
+      "insects, fruit, leaves, or small animals"
+    ],
+    "correctAnswer": "insects, worms, larvae, or tiny aquatic animals",
+    "explanation": "The Hellbender commonly feeds on insects, worms, larvae, or tiny aquatic animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2094,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Electric Eel?",
+    "answers": [
+      "crustacean",
+      "fish",
+      "insect",
+      "bird"
+    ],
+    "correctAnswer": "fish",
+    "explanation": "The Electric Eel is classified as a fish.",
+    "tags": [
+      "animals",
+      "classification",
+      "fish"
+    ]
+  },
+  {
+    "id": 2095,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Dugong?",
+    "answers": [
+      "coral reefs and warm seas",
+      "oceans, coasts, and islands",
+      "oceans and coastal waters",
+      "deserts, scrublands, or rocky habitats"
+    ],
+    "correctAnswer": "oceans and coastal waters",
+    "explanation": "The Dugong is strongly associated with oceans and coastal waters.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2096,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Alpaca?",
+    "answers": [
+      "warm wetlands and rivers",
+      "oceans and coastal waters",
+      "open oceans and deep waters",
+      "mountains, forests, or rugged terrain"
+    ],
+    "correctAnswer": "mountains, forests, or rugged terrain",
+    "explanation": "The Alpaca is strongly associated with mountains, forests, or rugged terrain.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2097,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Gila Monster?",
+    "answers": [
+      "deserts, scrublands, or rocky habitats",
+      "streams, caves, forests, and wet ground",
+      "warm wetlands and rivers",
+      "oceans and coastal waters"
+    ],
+    "correctAnswer": "deserts, scrublands, or rocky habitats",
+    "explanation": "The Gila Monster is strongly associated with deserts, scrublands, or rocky habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2098,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Great White Shark mainly eat?",
+    "answers": [
+      "seeds, insects, grasses, or small animals",
+      "fish, squid, plankton, or marine prey",
+      "algae, detritus, plankton, or small animals",
+      "fish, squid, krill, or marine prey"
+    ],
+    "correctAnswer": "fish, squid, plankton, or marine prey",
+    "explanation": "The Great White Shark commonly feeds on fish, squid, plankton, or marine prey.",
+    "tags": [
+      "animals",
+      "diet",
+      "fish"
+    ]
+  },
+  {
+    "id": 2099,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Dragonfly mainly eat?",
+    "answers": [
+      "algae and aquatic plants",
+      "nectar and flower pollen",
+      "insects and other small flying prey",
+      "grasses, leaves, and seeds"
+    ],
+    "correctAnswer": "insects and other small flying prey",
+    "explanation": "Dragonflies are carnivorous insects that mainly hunt other small flying insects.",
+    "tags": [
+      "animals",
+      "diet",
+      "insect"
+    ]
+  },
+  {
+    "id": 2100,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Krill?",
+    "answers": [
+      "eight legs and no antennae",
+      "sharp talons and excellent eyesight",
+      "scaly skin and powerful jaws",
+      "jointed legs and a hard outer shell"
+    ],
+    "correctAnswer": "jointed legs and a hard outer shell",
+    "explanation": "The Krill is known for jointed legs and a hard outer shell.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "crustacean"
+    ]
+  },
+  {
+    "id": 2101,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Tarantula?",
+    "answers": [
+      "eight legs and no antennae",
+      "streamlined bodies for swimming",
+      "complex social behavior",
+      "long legs, webbed feet, or water-focused feeding"
+    ],
+    "correctAnswer": "eight legs and no antennae",
+    "explanation": "The Tarantula is known for eight legs and no antennae.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "arachnid"
+    ]
+  },
+  {
+    "id": 2102,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Scarlet Macaw?",
+    "answers": [
+      "arachnid",
+      "bird",
+      "crustacean",
+      "mollusk"
+    ],
+    "correctAnswer": "bird",
+    "explanation": "The Scarlet Macaw is classified as a bird.",
+    "tags": [
+      "animals",
+      "classification",
+      "bird"
+    ]
+  },
+  {
+    "id": 2103,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Osprey?",
+    "answers": [
+      "oceans, coasts, and islands",
+      "cold northern regions",
+      "open country and high perches",
+      "African savannas"
+    ],
+    "correctAnswer": "open country and high perches",
+    "explanation": "The Osprey is strongly associated with open country and high perches.",
+    "tags": [
+      "animals",
+      "habitat",
+      "bird"
+    ]
+  },
+  {
+    "id": 2104,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Bilby?",
+    "answers": [
+      "crustacean",
+      "insect",
+      "mollusk",
+      "mammal"
+    ],
+    "correctAnswer": "mammal",
+    "explanation": "The Bilby is classified as a mammal.",
+    "tags": [
+      "animals",
+      "classification",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2105,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Saltwater Crocodile?",
+    "answers": [
+      "reptile",
+      "arachnid",
+      "insect",
+      "mollusk"
+    ],
+    "correctAnswer": "reptile",
+    "explanation": "The Saltwater Crocodile is classified as a reptile.",
+    "tags": [
+      "animals",
+      "classification",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2106,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Crayfish?",
+    "answers": [
+      "mountains, forests, or rugged terrain",
+      "oceans, coasts, reefs, or freshwater habitats",
+      "streams, caves, forests, and wet ground",
+      "cold northern regions"
+    ],
+    "correctAnswer": "oceans, coasts, reefs, or freshwater habitats",
+    "explanation": "The Crayfish is strongly associated with oceans, coasts, reefs, or freshwater habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "crustacean"
+    ]
+  },
+  {
+    "id": 2107,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Flamingo?",
+    "answers": [
+      "reptile",
+      "arachnid",
+      "bird",
+      "crustacean"
+    ],
+    "correctAnswer": "bird",
+    "explanation": "The Flamingo is classified as a bird.",
+    "tags": [
+      "animals",
+      "classification",
+      "bird"
+    ]
+  },
+  {
+    "id": 2108,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Snow Leopard?",
+    "answers": [
+      "adaptations for life around water",
+      "streamlined bodies for swimming",
+      "speed and stealth while hunting",
+      "sure-footed climbing or mountain movement"
+    ],
+    "correctAnswer": "sure-footed climbing or mountain movement",
+    "explanation": "The Snow Leopard is known for sure-footed climbing or mountain movement.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2109,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Manatee?",
+    "answers": [
+      "streamlined bodies for swimming",
+      "gills and fins for underwater life",
+      "eight legs and no antennae",
+      "sensitive skin that responds quickly to environmental change"
+    ],
+    "correctAnswer": "streamlined bodies for swimming",
+    "explanation": "The Manatee is known for streamlined bodies for swimming.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2110,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Green Anaconda mainly eat?",
+    "answers": [
+      "grasses, shrubs, and leaves",
+      "fish, birds, mammals, or reptiles",
+      "plankton and algae",
+      "fruit, flowers, and nectar"
+    ],
+    "correctAnswer": "fish, birds, mammals, or reptiles",
+    "explanation": "Green Anacondas are powerful predators that feed on fish, birds, mammals, and reptiles.",
+    "tags": [
+      "animals",
+      "diet",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2111,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Lionfish mainly eat?",
+    "answers": [
+      "tree bark and fungi",
+      "grasses, roots, and leaves",
+      "small fish and crustaceans",
+      "fruit, nectar, and seeds"
+    ],
+    "correctAnswer": "small fish and crustaceans",
+    "explanation": "Lionfish mainly prey on small fish and crustaceans.",
+    "tags": [
+      "animals",
+      "diet",
+      "fish"
+    ]
+  },
+  {
+    "id": 2112,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Golden Toad mainly eat?",
+    "answers": [
+      "small to medium-sized prey animals",
+      "algae, plankton, small fish, or reef invertebrates",
+      "grasses, leaves, and shoots",
+      "insects, worms, larvae, or tiny aquatic animals"
+    ],
+    "correctAnswer": "insects, worms, larvae, or tiny aquatic animals",
+    "explanation": "The Golden Toad commonly feeds on insects, worms, larvae, or tiny aquatic animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2113,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Barn Owl mainly eat?",
+    "answers": [
+      "small mammals, birds, and rodents",
+      "algae, plankton, and seaweed",
+      "grasses, fruit, and bark",
+      "nectar, leaves, and pollen"
+    ],
+    "correctAnswer": "small mammals, birds, and rodents",
+    "explanation": "Barn Owls mainly hunt small mammals and occasionally birds.",
+    "tags": [
+      "animals",
+      "diet",
+      "bird"
+    ]
+  },
+  {
+    "id": 2114,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Black Widow Spider?",
+    "answers": [
+      "streamlined bodies for swimming",
+      "eight legs and no antennae",
+      "hoofed herbivore adaptations",
+      "colorful plumage or specialized beaks"
+    ],
+    "correctAnswer": "eight legs and no antennae",
+    "explanation": "The Black Widow Spider is known for eight legs and no antennae.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "arachnid"
+    ]
+  },
+  {
+    "id": 2115,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Anglerfish?",
+    "answers": [
+      "eight legs and no antennae",
+      "scaly skin and powerful jaws",
+      "specialized bodies for ocean survival",
+      "hoofed herbivore adaptations"
+    ],
+    "correctAnswer": "specialized bodies for ocean survival",
+    "explanation": "The Anglerfish is known for specialized bodies for ocean survival.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "fish"
+    ]
+  },
+  {
+    "id": 2116,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Tree Monitor?",
+    "answers": [
+      "gardens, forests, and flowering plants",
+      "forests and wooded habitats",
+      "warm wetlands and rivers",
+      "tropical forests and leafy habitats"
+    ],
+    "correctAnswer": "tropical forests and leafy habitats",
+    "explanation": "The Tree Monitor is strongly associated with tropical forests and leafy habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2117,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Pelican?",
+    "answers": [
+      "large throat pouches for catching fish",
+      "powerful digging claws",
+      "thick fur for cold climates",
+      "venomous fangs and stealth hunting"
+    ],
+    "correctAnswer": "large throat pouches for catching fish",
+    "explanation": "Pelicans are known for their large throat pouches used to scoop up fish.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "bird"
+    ]
+  },
+  {
+    "id": 2118,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Caracal?",
+    "answers": [
+      "freshwater ponds, forests, and damp habitats",
+      "open grasslands",
+      "cold northern regions",
+      "oceans and coastal waters"
+    ],
+    "correctAnswer": "open grasslands",
+    "explanation": "The Caracal is strongly associated with open grasslands.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2119,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Walrus?",
+    "answers": [
+      "deserts, scrublands, or rocky habitats",
+      "wetlands, lakes, and rivers",
+      "cold northern regions",
+      "open oceans and deep waters"
+    ],
+    "correctAnswer": "cold northern regions",
+    "explanation": "The Walrus is strongly associated with cold northern regions.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2120,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Glass Frog?",
+    "answers": [
+      "gills and fins for underwater life",
+      "complex social behavior",
+      "six legs and a segmented body",
+      "moist skin and a water-linked life cycle"
+    ],
+    "correctAnswer": "moist skin and a water-linked life cycle",
+    "explanation": "The Glass Frog is known for moist skin and a water-linked life cycle.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2121,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Lobster?",
+    "answers": [
+      "oceans, coasts, reefs, or freshwater habitats",
+      "rivers, lakes, and freshwater systems",
+      "cold northern regions",
+      "forests and wooded habitats"
+    ],
+    "correctAnswer": "oceans, coasts, reefs, or freshwater habitats",
+    "explanation": "The Lobster is strongly associated with oceans, coasts, reefs, or freshwater habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "crustacean"
+    ]
+  },
+  {
+    "id": 2122,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Komodo Dragon mainly eat?",
+    "answers": [
+      "grasses, bark, and leaves",
+      "small mammals, birds, carrion, or reptiles",
+      "algae and plankton",
+      "nectar, flowers, and seeds"
+    ],
+    "correctAnswer": "small mammals, birds, carrion, or reptiles",
+    "explanation": "Komodo Dragons are carnivorous predators and scavengers that feed on mammals, birds, reptiles, and carrion.",
+    "tags": [
+      "animals",
+      "diet",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2123,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Albatross mainly eat?",
+    "answers": [
+      "leaves, grasses, fruit, or small animals",
+      "insects and other small animals",
+      "fish, squid, krill, or marine invertebrates",
+      "insects, rodents, eggs, or small animals"
+    ],
+    "correctAnswer": "fish, squid, krill, or marine invertebrates",
+    "explanation": "The Albatross commonly feeds on fish, squid, krill, or marine invertebrates.",
+    "tags": [
+      "animals",
+      "diet",
+      "bird"
+    ]
+  },
+  {
+    "id": 2124,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Swordfish?",
+    "answers": [
+      "African savannas",
+      "warm wetlands and rivers",
+      "open grasslands",
+      "open oceans and deep waters"
+    ],
+    "correctAnswer": "open oceans and deep waters",
+    "explanation": "The Swordfish is strongly associated with open oceans and deep waters.",
+    "tags": [
+      "animals",
+      "habitat",
+      "fish"
+    ]
+  },
+  {
+    "id": 2125,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Panther Chameleon?",
+    "answers": [
+      "tropical forests and leafy habitats",
+      "oceans, coasts, reefs, or freshwater habitats",
+      "oceans, coasts, and islands",
+      "Australian and nearby island habitats"
+    ],
+    "correctAnswer": "tropical forests and leafy habitats",
+    "explanation": "The Panther Chameleon is strongly associated with tropical forests and leafy habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2126,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Gibbon?",
+    "answers": [
+      "mollusk",
+      "mammal",
+      "amphibian",
+      "reptile"
+    ],
+    "correctAnswer": "mammal",
+    "explanation": "The Gibbon is classified as a mammal.",
+    "tags": [
+      "animals",
+      "classification",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2127,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Snowy Owl?",
+    "answers": [
+      "dense tropical rainforests",
+      "dry deserts and rocky valleys",
+      "Arctic tundra and open northern plains",
+      "warm coastal mangroves"
+    ],
+    "correctAnswer": "Arctic tundra and open northern plains",
+    "explanation": "Snowy Owls are strongly associated with Arctic tundra and open northern plains.",
+    "tags": [
+      "animals",
+      "habitat",
+      "bird"
+    ]
+  },
+  {
+    "id": 2128,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Axolotl mainly eat?",
+    "answers": [
+      "nectar, leaves, pollen, or plant material",
+      "insects, fruit, leaves, or small animals",
+      "aquatic plants, fish, insects, or small animals",
+      "insects, worms, and small invertebrates"
+    ],
+    "correctAnswer": "insects, worms, and small invertebrates",
+    "explanation": "The Axolotl commonly feeds on insects, worms, and small invertebrates.",
+    "tags": [
+      "animals",
+      "diet",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2129,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Cricket?",
+    "answers": [
+      "gardens, forests, and flowering plants",
+      "grasslands, farms, and open habitats",
+      "cold northern regions",
+      "streams, caves, forests, and wet ground"
+    ],
+    "correctAnswer": "gardens, forests, and flowering plants",
+    "explanation": "The Cricket is strongly associated with gardens, forests, and flowering plants.",
+    "tags": [
+      "animals",
+      "habitat",
+      "insect"
+    ]
+  },
+  {
+    "id": 2130,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Auk mainly eat?",
+    "answers": [
+      "insects, fruit, leaves, or small animals",
+      "fish, squid, krill, or marine invertebrates",
+      "fruit, leaves, insects, and other small foods",
+      "fish, seals, berries, or seasonal foods"
+    ],
+    "correctAnswer": "fish, squid, krill, or marine invertebrates",
+    "explanation": "The Auk commonly feeds on fish, squid, krill, or marine invertebrates.",
+    "tags": [
+      "animals",
+      "diet",
+      "bird"
+    ]
+  },
+  {
+    "id": 2131,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Lionfish?",
+    "answers": [
+      "warm wetlands and rivers",
+      "streams, caves, forests, and wet ground",
+      "coral reefs and warm seas",
+      "freshwater ponds, forests, and damp habitats"
+    ],
+    "correctAnswer": "coral reefs and warm seas",
+    "explanation": "The Lionfish is strongly associated with coral reefs and warm seas.",
+    "tags": [
+      "animals",
+      "habitat",
+      "fish"
+    ]
+  },
+  {
+    "id": 2132,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Jumping Spider mainly eat?",
+    "answers": [
+      "fish, birds, mammals, or other aquatic prey",
+      "insects, worms, and small invertebrates",
+      "small mammals, birds, fish, or carrion",
+      "insects and other small animals"
+    ],
+    "correctAnswer": "insects and other small animals",
+    "explanation": "The Jumping Spider commonly feeds on insects and other small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "arachnid"
+    ]
+  },
+  {
+    "id": 2133,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Capuchin Monkey?",
+    "answers": [
+      "mammal",
+      "reptile",
+      "fish",
+      "arachnid"
+    ],
+    "correctAnswer": "mammal",
+    "explanation": "The Capuchin Monkey is classified as a mammal.",
+    "tags": [
+      "animals",
+      "classification",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2134,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Cuttlefish?",
+    "answers": [
+      "sensitive skin that responds quickly to environmental change",
+      "soft bodies, often with shells or tentacles",
+      "six legs and a segmented body",
+      "specialized bodies for ocean survival"
+    ],
+    "correctAnswer": "soft bodies, often with shells or tentacles",
+    "explanation": "The Cuttlefish is known for soft bodies, often with shells or tentacles.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mollusk"
+    ]
+  },
+  {
+    "id": 2135,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Great White Shark?",
+    "answers": [
+      "crustacean",
+      "arachnid",
+      "fish",
+      "insect"
+    ],
+    "correctAnswer": "fish",
+    "explanation": "The Great White Shark is classified as a fish.",
+    "tags": [
+      "animals",
+      "classification",
+      "fish"
+    ]
+  },
+  {
+    "id": 2136,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Salmon mainly eat?",
+    "answers": [
+      "plant matter, fungi, nectar, or other small organisms",
+      "leaves, grasses, fruit, or small animals",
+      "fish, squid, krill, or marine prey",
+      "insects, plants, smaller fish, or detritus"
+    ],
+    "correctAnswer": "insects, plants, smaller fish, or detritus",
+    "explanation": "The Salmon commonly feeds on insects, plants, smaller fish, or detritus.",
+    "tags": [
+      "animals",
+      "diet",
+      "fish"
+    ]
+  },
+  {
+    "id": 2137,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Honeybee?",
+    "answers": [
+      "gardens, forests, and flowering plants",
+      "soil, wood, leaves, or social colonies",
+      "open country and high perches",
+      "forests and wooded habitats"
+    ],
+    "correctAnswer": "gardens, forests, and flowering plants",
+    "explanation": "The Honeybee is strongly associated with gardens, forests, and flowering plants.",
+    "tags": [
+      "animals",
+      "habitat",
+      "insect"
+    ]
+  },
+  {
+    "id": 2138,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Blue Crab mainly eat?",
+    "answers": [
+      "fruit, leaves, insects, and other small foods",
+      "algae, detritus, plankton, or small animals",
+      "fish, squid, krill, or marine prey",
+      "fish, seals, berries, or seasonal foods"
+    ],
+    "correctAnswer": "algae, detritus, plankton, or small animals",
+    "explanation": "The Blue Crab commonly feeds on algae, detritus, plankton, or small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "crustacean"
+    ]
+  },
+  {
+    "id": 2139,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Mandrill?",
+    "answers": [
+      "specialized bodies for ocean survival",
+      "streamlined bodies for swimming",
+      "complex social behavior",
+      "moist skin and a water-linked life cycle"
+    ],
+    "correctAnswer": "complex social behavior",
+    "explanation": "The Mandrill is known for complex social behavior.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2140,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Goose?",
+    "answers": [
+      "soft bodies, often with shells or tentacles",
+      "gills and bodies adapted to freshwater",
+      "specialized bodies for ocean survival",
+      "long legs, webbed feet, or water-focused feeding"
+    ],
+    "correctAnswer": "long legs, webbed feet, or water-focused feeding",
+    "explanation": "The Goose is known for long legs, webbed feet, or water-focused feeding.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "bird"
+    ]
+  },
+  {
+    "id": 2141,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Flamingo?",
+    "answers": [
+      "long legs, webbed feet, or water-focused feeding",
+      "ground nesting or strong running ability",
+      "sensitive skin that responds quickly to environmental change",
+      "eight legs and no antennae"
+    ],
+    "correctAnswer": "long legs, webbed feet, or water-focused feeding",
+    "explanation": "The Flamingo is known for long legs, webbed feet, or water-focused feeding.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "bird"
+    ]
+  },
+  {
+    "id": 2142,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Gorilla?",
+    "answers": [
+      "adaptations for life around water",
+      "complex social behavior",
+      "six legs and a segmented body",
+      "dry scales that help reduce water loss"
+    ],
+    "correctAnswer": "complex social behavior",
+    "explanation": "The Gorilla is known for complex social behavior.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2143,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Macaque?",
+    "answers": [
+      "open oceans and deep waters",
+      "gardens, forests, and flowering plants",
+      "forests and wooded habitats",
+      "oceans, coasts, and islands"
+    ],
+    "correctAnswer": "forests and wooded habitats",
+    "explanation": "The Macaque is strongly associated with forests and wooded habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2144,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Chameleon?",
+    "answers": [
+      "arachnid",
+      "crustacean",
+      "insect",
+      "reptile"
+    ],
+    "correctAnswer": "reptile",
+    "explanation": "The Chameleon is classified as a reptile.",
+    "tags": [
+      "animals",
+      "classification",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2145,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Green Tree Python?",
+    "answers": [
+      "tropical forests and leafy habitats",
+      "Australian and nearby island habitats",
+      "open grasslands",
+      "warm wetlands and rivers"
+    ],
+    "correctAnswer": "tropical forests and leafy habitats",
+    "explanation": "The Green Tree Python is strongly associated with tropical forests and leafy habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2146,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Boa Constrictor?",
+    "answers": [
+      "marsupial development with young carried in a pouch",
+      "camouflage, climbing, or temperature regulation",
+      "jointed legs and a hard outer shell",
+      "sensitive skin that responds quickly to environmental change"
+    ],
+    "correctAnswer": "camouflage, climbing, or temperature regulation",
+    "explanation": "The Boa Constrictor is known for camouflage, climbing, or temperature regulation.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2147,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Emperor Penguin mainly eat?",
+    "answers": [
+      "seeds, insects, grasses, or small animals",
+      "nectar, leaves, pollen, or plant material",
+      "fish, squid, krill, or marine invertebrates",
+      "insects, plants, smaller fish, or detritus"
+    ],
+    "correctAnswer": "fish, squid, krill, or marine invertebrates",
+    "explanation": "The Emperor Penguin commonly feeds on fish, squid, krill, or marine invertebrates.",
+    "tags": [
+      "animals",
+      "diet",
+      "bird"
+    ]
+  },
+  {
+    "id": 2148,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Tern mainly eat?",
+    "answers": [
+      "insects and other small animals",
+      "small to medium-sized prey animals",
+      "fish, squid, krill, or marine prey",
+      "fish, squid, krill, or marine invertebrates"
+    ],
+    "correctAnswer": "fish, squid, krill, or marine invertebrates",
+    "explanation": "The Tern commonly feeds on fish, squid, krill, or marine invertebrates.",
+    "tags": [
+      "animals",
+      "diet",
+      "bird"
+    ]
+  },
+  {
+    "id": 2149,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Camel Spider mainly eat?",
+    "answers": [
+      "insects and other small animals",
+      "insects, fruit, leaves, or small animals",
+      "grasses, leaves, and shoots",
+      "seeds, insects, grasses, or small animals"
+    ],
+    "correctAnswer": "insects and other small animals",
+    "explanation": "The Camel Spider commonly feeds on insects and other small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "arachnid"
+    ]
+  },
+  {
+    "id": 2150,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Emerald Tree Boa mainly eat?",
+    "answers": [
+      "grasses, bark, and leaves",
+      "small mammals, birds, and reptiles",
+      "fruit, nectar, and seeds",
+      "algae and plankton"
+    ],
+    "correctAnswer": "small mammals, birds, and reptiles",
+    "explanation": "Emerald Tree Boas are carnivorous snakes that prey on small mammals, birds, and reptiles.",
+    "tags": [
+      "animals",
+      "diet",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2151,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Serval mainly eat?",
+    "answers": [
+      "algae, detritus, plankton, or small animals",
+      "small mammals, birds, fish, or carrion",
+      "small to medium-sized prey animals",
+      "fruit, leaves, insects, and other small foods"
+    ],
+    "correctAnswer": "small to medium-sized prey animals",
+    "explanation": "The Serval commonly feeds on small to medium-sized prey animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2152,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Ostrich?",
+    "answers": [
+      "arachnid",
+      "fish",
+      "insect",
+      "bird"
+    ],
+    "correctAnswer": "bird",
+    "explanation": "The Ostrich is classified as a bird.",
+    "tags": [
+      "animals",
+      "classification",
+      "bird"
+    ]
+  },
+  {
+    "id": 2153,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Tern?",
+    "answers": [
+      "adaptations for life around water",
+      "long legs, webbed feet, or water-focused feeding",
+      "dry scales that help reduce water loss",
+      "camouflage, climbing, or temperature regulation"
+    ],
+    "correctAnswer": "adaptations for life around water",
+    "explanation": "The Tern is known for adaptations for life around water.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "bird"
+    ]
+  },
+  {
+    "id": 2154,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Snow Leopard?",
+    "answers": [
+      "forests and wooded habitats",
+      "mountains, forests, or rugged terrain",
+      "streams, caves, forests, and wet ground",
+      "rivers, lakes, and freshwater systems"
+    ],
+    "correctAnswer": "mountains, forests, or rugged terrain",
+    "explanation": "The Snow Leopard is strongly associated with mountains, forests, or rugged terrain.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2155,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Praying Mantis?",
+    "answers": [
+      "mollusk",
+      "bird",
+      "insect",
+      "crustacean"
+    ],
+    "correctAnswer": "insect",
+    "explanation": "The Praying Mantis is classified as an insect.",
+    "tags": [
+      "animals",
+      "classification",
+      "insect"
+    ]
+  },
+  {
+    "id": 2156,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Great White Shark?",
+    "answers": [
+      "oceans, coasts, reefs, or freshwater habitats",
+      "cold northern regions",
+      "forests and wooded habitats",
+      "open oceans and deep waters"
+    ],
+    "correctAnswer": "open oceans and deep waters",
+    "explanation": "The Great White Shark is strongly associated with open oceans and deep waters.",
+    "tags": [
+      "animals",
+      "habitat",
+      "fish"
+    ]
+  },
+  {
+    "id": 2157,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Cheetah?",
+    "answers": [
+      "open grasslands",
+      "dry ground, forests, caves, or sheltered spaces",
+      "forests and wooded habitats",
+      "oceans, coasts, and islands"
+    ],
+    "correctAnswer": "open grasslands",
+    "explanation": "The Cheetah is strongly associated with open grasslands.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2158,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Narwhal?",
+    "answers": [
+      "gardens, forests, and flowering plants",
+      "oceans and coastal waters",
+      "mountains, forests, or rugged terrain",
+      "forests and wooded habitats"
+    ],
+    "correctAnswer": "oceans and coastal waters",
+    "explanation": "The Narwhal is strongly associated with oceans and coastal waters.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2159,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Wildebeest mainly eat?",
+    "answers": [
+      "algae, plankton, small fish, or reef invertebrates",
+      "fish, squid, krill, or marine prey",
+      "grasses, leaves, and shoots",
+      "aquatic plants, fish, insects, or small animals"
+    ],
+    "correctAnswer": "grasses, leaves, and shoots",
+    "explanation": "The Wildebeest commonly feeds on grasses, leaves, and shoots.",
+    "tags": [
+      "animals",
+      "diet",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2160,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Trout?",
+    "answers": [
+      "reptile",
+      "amphibian",
+      "bird",
+      "fish"
+    ],
+    "correctAnswer": "fish",
+    "explanation": "The Trout is classified as a fish.",
+    "tags": [
+      "animals",
+      "classification",
+      "fish"
+    ]
+  },
+  {
+    "id": 2161,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Marbled Salamander?",
+    "answers": [
+      "amphibian",
+      "bird",
+      "reptile",
+      "insect"
+    ],
+    "correctAnswer": "amphibian",
+    "explanation": "The Marbled Salamander is classified as an amphibian.",
+    "tags": [
+      "animals",
+      "classification",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2162,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Orca?",
+    "answers": [
+      "mollusk",
+      "mammal",
+      "arachnid",
+      "crustacean"
+    ],
+    "correctAnswer": "mammal",
+    "explanation": "The Orca is classified as a mammal.",
+    "tags": [
+      "animals",
+      "classification",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2163,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Shrimp?",
+    "answers": [
+      "open grasslands",
+      "freshwater ponds, forests, and damp habitats",
+      "oceans, coasts, reefs, or freshwater habitats",
+      "oceans, coasts, and islands"
+    ],
+    "correctAnswer": "oceans, coasts, reefs, or freshwater habitats",
+    "explanation": "The Shrimp is strongly associated with oceans, coasts, reefs, or freshwater habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "crustacean"
+    ]
+  },
+  {
+    "id": 2164,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Oyster mainly eat?",
+    "answers": [
+      "fruit, seeds, nectar, or insects",
+      "fruit, leaves, insects, and other small foods",
+      "grasses, leaves, and shoots",
+      "algae, plankton, detritus, or small prey"
+    ],
+    "correctAnswer": "algae, plankton, detritus, or small prey",
+    "explanation": "The Oyster commonly feeds on algae, plankton, detritus, or small prey.",
+    "tags": [
+      "animals",
+      "diet",
+      "mollusk"
+    ]
+  },
+  {
+    "id": 2165,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Pelican mainly eat?",
+    "answers": [
+      "fish, squid, krill, or marine invertebrates",
+      "aquatic plants, fish, insects, or small animals",
+      "fish, squid, plankton, or marine prey",
+      "seeds, insects, grasses, or small animals"
+    ],
+    "correctAnswer": "fish, squid, krill, or marine invertebrates",
+    "explanation": "The Pelican commonly feeds on fish, squid, krill, or marine invertebrates.",
+    "tags": [
+      "animals",
+      "diet",
+      "bird"
+    ]
+  },
+  {
+    "id": 2166,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Kingsnake?",
+    "answers": [
+      "marsupial development with young carried in a pouch",
+      "dry scales that help reduce water loss",
+      "complex social behavior",
+      "highly specialized insect behavior"
+    ],
+    "correctAnswer": "dry scales that help reduce water loss",
+    "explanation": "The Kingsnake is known for dry scales that help reduce water loss.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2167,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Lyrebird mainly eat?",
+    "answers": [
+      "grass, bark, and leaves",
+      "nectar, pollen, and flowers",
+      "insects, spiders, and forest invertebrates",
+      "fish, squid, and marine prey"
+    ],
+    "correctAnswer": "insects, spiders, and forest invertebrates",
+    "explanation": "Lyrebirds mainly feed on insects, spiders, and other forest invertebrates.",
+    "tags": [
+      "animals",
+      "diet",
+      "bird"
+    ]
+  },
+  {
+    "id": 2168,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Snowshoe Hare?",
+    "answers": [
+      "eight legs and no antennae",
+      "specialized bodies for ocean survival",
+      "sharp talons and excellent eyesight",
+      "thick fur and strong insulation"
+    ],
+    "correctAnswer": "thick fur and strong insulation",
+    "explanation": "The Snowshoe Hare is known for thick fur and strong insulation.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2169,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Honeybee?",
+    "answers": [
+      "insect",
+      "crustacean",
+      "amphibian",
+      "bird"
+    ],
+    "correctAnswer": "insect",
+    "explanation": "The Honeybee is classified as an insect.",
+    "tags": [
+      "animals",
+      "classification",
+      "insect"
+    ]
+  },
+  {
+    "id": 2170,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Surinam Toad?",
+    "answers": [
+      "fish",
+      "amphibian",
+      "bird",
+      "insect"
+    ],
+    "correctAnswer": "amphibian",
+    "explanation": "The Surinam Toad is classified as an amphibian.",
+    "tags": [
+      "animals",
+      "classification",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2171,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Weevil?",
+    "answers": [
+      "scaly skin and powerful jaws",
+      "thick fur and strong insulation",
+      "highly specialized insect behavior",
+      "camouflage, climbing, or temperature regulation"
+    ],
+    "correctAnswer": "highly specialized insect behavior",
+    "explanation": "The Weevil is known for highly specialized insect behavior.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "insect"
+    ]
+  },
+  {
+    "id": 2172,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Mussel?",
+    "answers": [
+      "tropical forests and leafy habitats",
+      "African savannas",
+      "warm wetlands and rivers",
+      "oceans, reefs, shorelines, or damp habitats"
+    ],
+    "correctAnswer": "oceans, reefs, shorelines, or damp habitats",
+    "explanation": "The Mussel is strongly associated with oceans, reefs, shorelines, or damp habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mollusk"
+    ]
+  },
+  {
+    "id": 2173,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Beluga Whale?",
+    "answers": [
+      "oceans and coastal waters",
+      "dry ground, forests, caves, or sheltered spaces",
+      "oceans, coasts, and islands",
+      "wetlands, lakes, and rivers"
+    ],
+    "correctAnswer": "oceans and coastal waters",
+    "explanation": "The Beluga Whale is strongly associated with oceans and coastal waters.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2174,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Kestrel mainly eat?",
+    "answers": [
+      "algae, detritus, plankton, or small animals",
+      "small mammals, birds, fish, or carrion",
+      "fish, seals, berries, or seasonal foods",
+      "grasses, leaves, and shoots"
+    ],
+    "correctAnswer": "small mammals, birds, fish, or carrion",
+    "explanation": "The Kestrel commonly feeds on small mammals, birds, fish, or carrion.",
+    "tags": [
+      "animals",
+      "diet",
+      "bird"
+    ]
+  },
+  {
+    "id": 2175,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the King Crab mainly eat?",
+    "answers": [
+      "aquatic plants, fish, insects, or small animals",
+      "leaves, grasses, fruit, or small animals",
+      "algae, detritus, plankton, or small animals",
+      "algae, plankton, detritus, or small prey"
+    ],
+    "correctAnswer": "algae, detritus, plankton, or small animals",
+    "explanation": "The King Crab commonly feeds on algae, detritus, plankton, or small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "crustacean"
+    ]
+  },
+  {
+    "id": 2176,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Mite?",
+    "answers": [
+      "coral reefs and warm seas",
+      "wetlands, lakes, and rivers",
+      "streams, caves, forests, and wet ground",
+      "dry ground, forests, caves, or sheltered spaces"
+    ],
+    "correctAnswer": "dry ground, forests, caves, or sheltered spaces",
+    "explanation": "The Mite is strongly associated with dry ground, forests, caves, or sheltered spaces.",
+    "tags": [
+      "animals",
+      "habitat",
+      "arachnid"
+    ]
+  },
+  {
+    "id": 2177,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Bumblebee?",
+    "answers": [
+      "insect",
+      "fish",
+      "mammal",
+      "amphibian"
+    ],
+    "correctAnswer": "insect",
+    "explanation": "The Bumblebee is classified as an insect.",
+    "tags": [
+      "animals",
+      "classification",
+      "insect"
+    ]
+  },
+  {
+    "id": 2178,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Sugar Glider mainly eat?",
+    "answers": [
+      "large fish and squid",
+      "sap, nectar, insects, and fruit",
+      "grass, bark, and roots",
+      "plankton and algae"
+    ],
+    "correctAnswer": "sap, nectar, insects, and fruit",
+    "explanation": "Sugar Gliders mainly feed on sap, nectar, insects, and fruit.",
+    "tags": [
+      "animals",
+      "diet",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2179,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Piranha?",
+    "answers": [
+      "oceans, coasts, reefs, or freshwater habitats",
+      "forests and wooded habitats",
+      "rivers, lakes, and freshwater systems",
+      "wetlands, lakes, and rivers"
+    ],
+    "correctAnswer": "rivers, lakes, and freshwater systems",
+    "explanation": "The Piranha is strongly associated with rivers, lakes, and freshwater systems.",
+    "tags": [
+      "animals",
+      "habitat",
+      "fish"
+    ]
+  },
+  {
+    "id": 2180,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Arowana?",
+    "answers": [
+      "hoofed herbivore adaptations",
+      "highly specialized insect behavior",
+      "thick fur and strong insulation",
+      "gills and bodies adapted to freshwater"
+    ],
+    "correctAnswer": "gills and bodies adapted to freshwater",
+    "explanation": "The Arowana is known for gills and bodies adapted to freshwater.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "fish"
+    ]
+  },
+  {
+    "id": 2181,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Mussel?",
+    "answers": [
+      "mollusk",
+      "fish",
+      "amphibian",
+      "reptile"
+    ],
+    "correctAnswer": "mollusk",
+    "explanation": "The Mussel is classified as a mollusk.",
+    "tags": [
+      "animals",
+      "classification",
+      "mollusk"
+    ]
+  },
+  {
+    "id": 2182,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Mite mainly eat?",
+    "answers": [
+      "fruit, seeds, nectar, or insects",
+      "insects and other small animals",
+      "fish, squid, krill, or marine prey",
+      "fruit, leaves, insects, and other small foods"
+    ],
+    "correctAnswer": "insects and other small animals",
+    "explanation": "The Mite commonly feeds on insects and other small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "arachnid"
+    ]
+  },
+  {
+    "id": 2183,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Arowana?",
+    "answers": [
+      "mollusk",
+      "amphibian",
+      "fish",
+      "mammal"
+    ],
+    "correctAnswer": "fish",
+    "explanation": "The Arowana is classified as a fish.",
+    "tags": [
+      "animals",
+      "classification",
+      "fish"
+    ]
+  },
+  {
+    "id": 2184,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Green Tree Python mainly eat?",
+    "answers": [
+      "fish, seals, berries, or seasonal foods",
+      "leaves, grasses, fruit, or small animals",
+      "fish, squid, plankton, or marine prey",
+      "insects, fruit, leaves, or small animals"
+    ],
+    "correctAnswer": "insects, fruit, leaves, or small animals",
+    "explanation": "The Green Tree Python commonly feeds on insects, fruit, leaves, or small animals.",
+    "tags": [
+      "animals",
+      "diet",
+      "reptile"
+    ]
+  },
+  {
+    "id": 2185,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Tilapia?",
+    "answers": [
+      "gills and bodies adapted to freshwater",
+      "hoofed herbivore adaptations",
+      "sensitive skin that responds quickly to environmental change",
+      "specialized bodies for ocean survival"
+    ],
+    "correctAnswer": "gills and bodies adapted to freshwater",
+    "explanation": "The Tilapia is known for gills and bodies adapted to freshwater.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "fish"
+    ]
+  },
+  {
+    "id": 2186,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Arctic Fox mainly eat?",
+    "answers": [
+      "leaves, grasses, fruit, or small animals",
+      "fish, seals, berries, or seasonal foods",
+      "grasses, leaves, and shoots",
+      "fish, squid, krill, or marine prey"
+    ],
+    "correctAnswer": "fish, seals, berries, or seasonal foods",
+    "explanation": "The Arctic Fox commonly feeds on fish, seals, berries, or seasonal foods.",
+    "tags": [
+      "animals",
+      "diet",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2187,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Gorilla?",
+    "answers": [
+      "soil, wood, leaves, or social colonies",
+      "open oceans and deep waters",
+      "forests and wooded habitats",
+      "open country and high perches"
+    ],
+    "correctAnswer": "forests and wooded habitats",
+    "explanation": "The Gorilla is strongly associated with forests and wooded habitats.",
+    "tags": [
+      "animals",
+      "habitat",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2188,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Secretarybird?",
+    "answers": [
+      "speed and stealth while hunting",
+      "jointed legs and a hard outer shell",
+      "adaptations for life around water",
+      "sharp talons and excellent eyesight"
+    ],
+    "correctAnswer": "sharp talons and excellent eyesight",
+    "explanation": "The Secretarybird is known for sharp talons and excellent eyesight.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "bird"
+    ]
+  },
+  {
+    "id": 2189,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Carp?",
+    "answers": [
+      "rivers, lakes, and freshwater systems",
+      "warm wetlands and rivers",
+      "dry ground, forests, caves, or sheltered spaces",
+      "mountains, forests, or rugged terrain"
+    ],
+    "correctAnswer": "rivers, lakes, and freshwater systems",
+    "explanation": "The Carp is strongly associated with rivers, lakes, and freshwater systems.",
+    "tags": [
+      "animals",
+      "habitat",
+      "fish"
+    ]
+  },
+  {
+    "id": 2190,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Mite?",
+    "answers": [
+      "jointed legs and a hard outer shell",
+      "eight legs and no antennae",
+      "dry scales that help reduce water loss",
+      "speed and stealth while hunting"
+    ],
+    "correctAnswer": "eight legs and no antennae",
+    "explanation": "The Mite is known for eight legs and no antennae.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "arachnid"
+    ]
+  },
+  {
+    "id": 2191,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Oyster?",
+    "answers": [
+      "ground nesting or strong running ability",
+      "highly specialized insect behavior",
+      "soft bodies, often with shells or tentacles",
+      "marsupial development with young carried in a pouch"
+    ],
+    "correctAnswer": "soft bodies, often with shells or tentacles",
+    "explanation": "The Oyster is known for soft bodies, often with shells or tentacles.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mollusk"
+    ]
+  },
+  {
+    "id": 2192,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Bird-of-Paradise mainly eat?",
+    "answers": [
+      "seeds, insects, grasses, or small animals",
+      "aquatic plants, fish, insects, or small animals",
+      "algae, detritus, plankton, or small animals",
+      "fruit, seeds, nectar, or insects"
+    ],
+    "correctAnswer": "fruit, seeds, nectar, or insects",
+    "explanation": "The Bird-of-Paradise commonly feeds on fruit, seeds, nectar, or insects.",
+    "tags": [
+      "animals",
+      "diet",
+      "bird"
+    ]
+  },
+  {
+    "id": 2193,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Seagull?",
+    "answers": [
+      "bird",
+      "arachnid",
+      "insect",
+      "reptile"
+    ],
+    "correctAnswer": "bird",
+    "explanation": "The Seagull is classified as a bird.",
+    "tags": [
+      "animals",
+      "classification",
+      "bird"
+    ]
+  },
+  {
+    "id": 2194,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Giant Clam?",
+    "answers": [
+      "streamlined bodies for swimming",
+      "soft bodies, often with shells or tentacles",
+      "gills and fins for underwater life",
+      "eight legs and no antennae"
+    ],
+    "correctAnswer": "soft bodies, often with shells or tentacles",
+    "explanation": "The Giant Clam is known for soft bodies, often with shells or tentacles.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "mollusk"
+    ]
+  },
+  {
+    "id": 2195,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of animal is the Tiger Salamander?",
+    "answers": [
+      "bird",
+      "mammal",
+      "amphibian",
+      "mollusk"
+    ],
+    "correctAnswer": "amphibian",
+    "explanation": "The Tiger Salamander is classified as an amphibian.",
+    "tags": [
+      "animals",
+      "classification",
+      "amphibian"
+    ]
+  },
+  {
+    "id": 2196,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Cricket mainly eat?",
+    "answers": [
+      "fish, squid, and krill",
+      "tree bark and roots",
+      "large mammals and birds",
+      "plants, decaying matter, or small insects"
+    ],
+    "correctAnswer": "plants, decaying matter, or small insects",
+    "explanation": "Crickets are omnivores that feed on plants, decaying matter, and small insects.",
+    "tags": [
+      "animals",
+      "diet",
+      "insect"
+    ]
+  },
+  {
+    "id": 2197,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does the Beluga Whale mainly eat?",
+    "answers": [
+      "fish, squid, krill, or marine prey",
+      "plant matter, fungi, nectar, or other small organisms",
+      "algae, plankton, detritus, or small prey",
+      "nectar, leaves, pollen, or plant material"
+    ],
+    "correctAnswer": "fish, squid, krill, or marine prey",
+    "explanation": "The Beluga Whale commonly feeds on fish, squid, krill, or marine prey.",
+    "tags": [
+      "animals",
+      "diet",
+      "mammal"
+    ]
+  },
+  {
+    "id": 2198,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Scarlet Macaw?",
+    "answers": [
+      "hoofed herbivore adaptations",
+      "colorful plumage or specialized beaks",
+      "jointed legs and a hard outer shell",
+      "speed and stealth while hunting"
+    ],
+    "correctAnswer": "colorful plumage or specialized beaks",
+    "explanation": "The Scarlet Macaw is known for colorful plumage or specialized beaks.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "bird"
+    ]
+  },
+  {
+    "id": 2199,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which feature is strongly associated with the Manta Ray?",
+    "answers": [
+      "soft bodies, often with shells or tentacles",
+      "ground nesting or strong running ability",
+      "gills and fins for underwater life",
+      "gills and bodies adapted to freshwater"
+    ],
+    "correctAnswer": "gills and fins for underwater life",
+    "explanation": "The Manta Ray is known for gills and fins for underwater life.",
+    "tags": [
+      "animals",
+      "adaptations",
+      "fish"
+    ]
+  },
+  {
+    "id": 2200,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which habitat is most closely associated with the Cicada?",
+    "answers": [
+      "deserts, scrublands, or rocky habitats",
+      "oceans, reefs, shorelines, or damp habitats",
+      "freshwater ponds, forests, and damp habitats",
+      "soil, wood, leaves, or social colonies"
+    ],
+    "correctAnswer": "soil, wood, leaves, or social colonies",
+    "explanation": "The Cicada is strongly associated with soil, wood, leaves, or social colonies.",
+    "tags": [
+      "animals",
+      "habitat",
+      "insect"
+    ]
+  }
+]

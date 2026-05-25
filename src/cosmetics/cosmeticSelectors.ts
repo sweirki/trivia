@@ -39,3 +39,5 @@ export function getEquippedCosmetic(
 export function getCosmeticsByCategory(category: CosmeticCategory): CosmeticItem[] {
   return COSMETICS_CATALOG.filter((item) => item.category === category);
 }
+
+

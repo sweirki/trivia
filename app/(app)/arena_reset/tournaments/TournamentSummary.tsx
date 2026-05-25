@@ -18,6 +18,7 @@ import { feedback } from "@/feedback";
 
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
+import { getPlacementLabel, getTournamentPlacementReward } from "@/arena/tournaments/tournamentPrestige";
 
 function safeName(uid: string, name?: string) {
   if (name && name.trim().length > 0) return name.trim();
@@ -84,23 +85,34 @@ export default function TournamentSummary() {
 
     const standings = Array.from(winCount.entries())
       .sort((a, b) => b[1] - a[1])
-      .map(([uid, wins], index) => ({
-        uid,
-        wins,
-        position: index + 1,
-        name: safeName(uid, playersByUid.get(uid)),
-      }));
+      .map(([uid, wins], index) => {
+        const position = index + 1;
+        return {
+          uid,
+          wins,
+          position,
+          name: safeName(uid, playersByUid.get(uid)),
+          placementLabel: getPlacementLabel(position),
+          reward: getTournamentPlacementReward(position, Math.max(tournament.players.length, winCount.size, 2), tournament.config?.rewardCoins ?? 100),
+        };
+      });
 
     const championUid = tournament.winnerUid ?? standings[0]?.uid ?? "";
     const championName = safeName(championUid, playersByUid.get(championUid));
     const userIsChampion = Boolean(currentUid && championUid === currentUid);
     const totalPlayers = Math.max(tournament.players.length, standings.length, 2);
+    const championReward = getTournamentPlacementReward(1, totalPlayers, tournament.config?.rewardCoins ?? 100);
+    const userStanding = standings.find((player) => player.uid === currentUid) ?? null;
 
     return {
       championName,
       userIsChampion,
       totalPlayers,
-      rewardCoins: tournament.config?.rewardCoins ?? 100,
+      rewardCoins: championReward.coins,
+      rewardXp: championReward.xp,
+      rewardTokens: championReward.arenaTokens,
+      rewardBadge: championReward.badge,
+      userStanding,
       entryFeeCoins: tournament.config?.entryFeeCoins ?? 50,
       tournamentName: tournament.name || cupName(totalPlayers),
       cupTitle: cupName(totalPlayers),
@@ -171,18 +183,23 @@ export default function TournamentSummary() {
             </View>
             <View style={styles.rewardBox}>
               <Text style={styles.rewardIcon}>⭐</Text>
-              <Text style={styles.rewardValue}>+XP</Text>
+              <Text style={styles.rewardValue}>+{summary.rewardXp}</Text>
               <Text style={styles.rewardLabel}>Arena XP</Text>
             </View>
             <View style={styles.rewardBox}>
               <Text style={styles.rewardIcon}>🎖️</Text>
-              <Text style={styles.rewardValue}>Badge</Text>
+              <Text style={styles.rewardValue}>{summary.rewardBadge}</Text>
               <Text style={styles.rewardLabel}>Prestige</Text>
             </View>
           </View>
           <Text style={styles.noteText}>
-            Placeholder reward slots are ready for future trophy, chest, badge, and crown art.
+            Champion reward: {summary.rewardCoins} coins, {summary.rewardXp} XP, {summary.rewardTokens} Arena Tokens. Placement rewards now scale by bracket size.
           </Text>
+          {summary.userStanding ? (
+            <Text style={styles.noteText}>
+              Your finish: {summary.userStanding.placementLabel} • {summary.userStanding.reward.summary}
+            </Text>
+          ) : null}
         </View>
 
         <View style={styles.standingsCard}>
@@ -201,7 +218,7 @@ export default function TournamentSummary() {
               </Text>
               <View style={styles.playerMeta}>
                 <Text style={styles.playerName}>{player.name}</Text>
-                <Text style={styles.playerSub}>{player.wins} match win{player.wins === 1 ? "" : "s"}</Text>
+                <Text style={styles.playerSub}>{player.placementLabel} • {player.wins} match win{player.wins === 1 ? "" : "s"} • {player.reward.coins} coins</Text>
               </View>
               {player.position === 1 && <Text style={styles.rowBadge}>CROWNED</Text>}
             </View>
@@ -212,7 +229,7 @@ export default function TournamentSummary() {
           <View style={styles.seasonShade} />
           <Text style={styles.seasonTitle}>Season Prestige</Text>
           <Text style={styles.seasonText}>
-            Tournament finishes will later feed seasonal seeding, profile trophies, elite frames, and champion history.
+            Tournament finishes now feed placement identity, champion/finalist titles, bracket history, and future seasonal seeding.
           </Text>
         </ImageBackground>
 
@@ -473,4 +490,6 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
 });
+
+
 

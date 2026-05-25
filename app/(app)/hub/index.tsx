@@ -37,7 +37,7 @@ import {
   getRankProgress,
   HUB_MODE_TONES,
   type HubModeTone,
-} from "./hub.helpers";
+} from "@/screens/hub/hub.helpers";
 
 const HUB_HERO = require("../../../assets/images/modes/hub_hero_banner.webp");
 const QUICK_PLAY_ART = require("../../../assets/images/modes/quick_play_card_art.webp");
@@ -1365,3 +1365,5 @@ const styles = StyleSheet.create({
     transform: [{ scale: 0.985 }],
   },
 });
+
+

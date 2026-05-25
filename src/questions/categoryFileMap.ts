@@ -27,3 +27,5 @@ export function isPlayableCategory(category: string | null | undefined): boolean
   return hasPlayableQuestionPack(category);
 }
 
+
+

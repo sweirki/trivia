@@ -1,1 +1,3864 @@
-[]
+[
+  {
+    "id": 20501,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which war was fought between the Union and Confederacy?",
+    "answers": [
+      "American Civil War",
+      "World War I",
+      "Korean War",
+      "Revolutionary War"
+    ],
+    "correctAnswer": "American Civil War",
+    "explanation": "American Civil War is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "american-civil"
+    ]
+  },
+  {
+    "id": 20502,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which ancient civilization worshipped gods such as Zeus and Athena?",
+    "answers": [
+      "Romans",
+      "Greeks",
+      "Egyptians",
+      "Persians"
+    ],
+    "correctAnswer": "Greeks",
+    "explanation": "Greeks is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "greeks"
+    ]
+  },
+  {
+    "id": 20503,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which ruler was known as “Ivan the Terrible”?",
+    "answers": [
+      "Peter the Great",
+      "Nicholas II",
+      "Ivan IV of Russia",
+      "Alexander I"
+    ],
+    "correctAnswer": "Ivan IV of Russia",
+    "explanation": "Ivan IV of Russia is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "ivan-russia"
+    ]
+  },
+  {
+    "id": 20504,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous monument was built as a tomb for an Indian emperor’s wife?",
+    "answers": [
+      "Colosseum",
+      "Parthenon",
+      "Stonehenge",
+      "Taj Mahal"
+    ],
+    "correctAnswer": "Taj Mahal",
+    "explanation": "Taj Mahal is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "taj-mahal"
+    ]
+  },
+  {
+    "id": 20505,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Cold War conflict took place between North and South Korea?",
+    "answers": [
+      "Korean War",
+      "Vietnam War",
+      "Crimean War",
+      "Boer War"
+    ],
+    "correctAnswer": "Korean War",
+    "explanation": "Korean War is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "korean-war"
+    ]
+  },
+  {
+    "id": 20506,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which treaty officially ended World War I in 1919?",
+    "answers": [
+      "Treaty of Paris",
+      "Treaty of Versailles",
+      "Treaty of Vienna",
+      "Treaty of Rome"
+    ],
+    "correctAnswer": "Treaty of Versailles",
+    "explanation": "Treaty of Versailles is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "hard",
+      "treaty-versailles"
+    ]
+  },
+  {
+    "id": 20507,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which empire was centered in modern-day Turkey before World War I?",
+    "answers": [
+      "Roman Empire",
+      "British Empire",
+      "Ottoman Empire",
+      "Mongol Empire"
+    ],
+    "correctAnswer": "Ottoman Empire",
+    "explanation": "Ottoman Empire is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "ottoman-empire"
+    ]
+  },
+  {
+    "id": 20508,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which explorer’s crew completed the first trip around the world?",
+    "answers": [
+      "Christopher Columbus",
+      "Marco Polo",
+      "Amerigo Vespucci",
+      "Ferdinand Magellan"
+    ],
+    "correctAnswer": "Ferdinand Magellan",
+    "explanation": "Ferdinand Magellan is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "ferdinand-magellan"
+    ]
+  },
+  {
+    "id": 20509,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which ancient civilization used hieroglyphics?",
+    "answers": [
+      "Egyptians",
+      "Romans",
+      "Greeks",
+      "Vikings"
+    ],
+    "correctAnswer": "Egyptians",
+    "explanation": "Egyptians is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "egyptians"
+    ]
+  },
+  {
+    "id": 20510,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle in 1944 marked the Allied invasion of Nazi-occupied France?",
+    "answers": [
+      "Battle of Britain",
+      "D-Day",
+      "Battle of Midway",
+      "Battle of Stalingrad"
+    ],
+    "correctAnswer": "D-Day",
+    "explanation": "D-Day is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "day"
+    ]
+  },
+  {
+    "id": 20511,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who was the famous nurse known as “The Lady with the Lamp”?",
+    "answers": [
+      "Marie Curie",
+      "Joan of Arc",
+      "Florence Nightingale",
+      "Mother Teresa"
+    ],
+    "correctAnswer": "Florence Nightingale",
+    "explanation": "Florence Nightingale is the correct person for this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "florence-nightingale"
+    ]
+  },
+  {
+    "id": 20512,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built the city of Tenochtitlán?",
+    "answers": [
+      "Inca",
+      "Maya",
+      "Roman",
+      "Aztec"
+    ],
+    "correctAnswer": "Aztec",
+    "explanation": "Aztec is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "aztec"
+    ]
+  },
+  {
+    "id": 20513,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous leader crossed the Alps with elephants?",
+    "answers": [
+      "Hannibal",
+      "Julius Caesar",
+      "Alexander the Great",
+      "Napoleon"
+    ],
+    "correctAnswer": "Hannibal",
+    "explanation": "Hannibal is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "hannibal"
+    ]
+  },
+  {
+    "id": 20514,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country was divided into East and West after World War II?",
+    "answers": [
+      "France",
+      "Germany",
+      "Italy",
+      "Poland"
+    ],
+    "correctAnswer": "Germany",
+    "explanation": "Germany is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "germany"
+    ]
+  },
+  {
+    "id": 20515,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which explorer gave his name to the Americas?",
+    "answers": [
+      "Christopher Columbus",
+      "Ferdinand Magellan",
+      "Amerigo Vespucci",
+      "Marco Polo"
+    ],
+    "correctAnswer": "Amerigo Vespucci",
+    "explanation": "Amerigo Vespucci is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "amerigo-vespucci"
+    ]
+  },
+  {
+    "id": 20516,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous prison in France was stormed in 1789?",
+    "answers": [
+      "Tower of London",
+      "Alcatraz",
+      "Conciergerie",
+      "Bastille"
+    ],
+    "correctAnswer": "Bastille",
+    "explanation": "Bastille is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "bastille"
+    ]
+  },
+  {
+    "id": 20517,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which empire was known for its powerful navy and capital at Constantinople?",
+    "answers": [
+      "Byzantine Empire",
+      "Roman Empire",
+      "Ottoman Empire",
+      "Persian Empire"
+    ],
+    "correctAnswer": "Byzantine Empire",
+    "explanation": "Byzantine Empire is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "byzantine-empire"
+    ]
+  },
+  {
+    "id": 20518,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous explorer reached the South Pole in 1911?",
+    "answers": [
+      "Robert Falcon Scott",
+      "Roald Amundsen",
+      "Ernest Shackleton",
+      "James Cook"
+    ],
+    "correctAnswer": "Roald Amundsen",
+    "explanation": "Roald Amundsen is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "roald-amundsen"
+    ]
+  },
+  {
+    "id": 20519,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Roman city in Britain is famous for its ancient baths?",
+    "answers": [
+      "London",
+      "York",
+      "Bath",
+      "Manchester"
+    ],
+    "correctAnswer": "Bath",
+    "explanation": "Bath is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "bath"
+    ]
+  },
+  {
+    "id": 20520,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous document limited the power of the English king in 1215?",
+    "answers": [
+      "Bill of Rights",
+      "Declaration of Independence",
+      "Constitution",
+      "Magna Carta"
+    ],
+    "correctAnswer": "Magna Carta",
+    "explanation": "Magna Carta is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "magna-carta"
+    ]
+  },
+  {
+    "id": 20521,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country was ruled by the tsars before the Russian Revolution?",
+    "answers": [
+      "Russia",
+      "Poland",
+      "Germany",
+      "Austria"
+    ],
+    "correctAnswer": "Russia",
+    "explanation": "Russia is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "russia"
+    ]
+  },
+  {
+    "id": 20522,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who was the famous conqueror from Macedonia who created a vast empire?",
+    "answers": [
+      "Julius Caesar",
+      "Alexander the Great",
+      "Napoleon",
+      "Hannibal"
+    ],
+    "correctAnswer": "Alexander the Great",
+    "explanation": "Alexander the Great is the correct person for this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "alexander-great"
+    ]
+  },
+  {
+    "id": 20523,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which conflict was fought between North and South Vietnam?",
+    "answers": [
+      "Korean War",
+      "Cold War",
+      "Vietnam War",
+      "Crimean War"
+    ],
+    "correctAnswer": "Vietnam War",
+    "explanation": "Vietnam War is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "vietnam-war"
+    ]
+  },
+  {
+    "id": 20524,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which civilization built the Parthenon in Athens?",
+    "answers": [
+      "Romans",
+      "Egyptians",
+      "Persians",
+      "Greeks"
+    ],
+    "correctAnswer": "Greeks",
+    "explanation": "Greeks is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "greeks"
+    ]
+  },
+  {
+    "id": 20525,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which famous speech began with the words “Four score and seven years ago”?",
+    "answers": [
+      "Gettysburg Address",
+      "I Have a Dream",
+      "We Shall Fight on the Beaches",
+      "The Iron Curtain Speech"
+    ],
+    "correctAnswer": "Gettysburg Address",
+    "explanation": "Gettysburg Address is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "gettysburg-address"
+    ]
+  },
+  {
+    "id": 20526,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which dynasty built much of the Great Wall of China as seen today?",
+    "answers": [
+      "Qing Dynasty",
+      "Ming Dynasty",
+      "Han Dynasty",
+      "Tang Dynasty"
+    ],
+    "correctAnswer": "Ming Dynasty",
+    "explanation": "Ming Dynasty is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "hard",
+      "ming-dynasty"
+    ]
+  },
+  {
+    "id": 20527,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous ship carried tea during the Boston Tea Party protest?",
+    "answers": [
+      "Mayflower",
+      "Santa Maria",
+      "Dartmouth",
+      "Beagle"
+    ],
+    "correctAnswer": "Dartmouth",
+    "explanation": "Dartmouth is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "dartmouth"
+    ]
+  },
+  {
+    "id": 20528,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization was famous for gladiator battles?",
+    "answers": [
+      "Greeks",
+      "Egyptians",
+      "Vikings",
+      "Romans"
+    ],
+    "correctAnswer": "Romans",
+    "explanation": "Romans is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "romans"
+    ]
+  },
+  {
+    "id": 20529,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who became the first president of South Africa after apartheid ended?",
+    "answers": [
+      "Nelson Mandela",
+      "Desmond Tutu",
+      "F. W. de Klerk",
+      "Thabo Mbeki"
+    ],
+    "correctAnswer": "Nelson Mandela",
+    "explanation": "Nelson Mandela is the correct person for this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "nelson-mandela"
+    ]
+  },
+  {
+    "id": 20530,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which famous battle was fought in Belgium in 1815?",
+    "answers": [
+      "Battle of Hastings",
+      "Battle of Waterloo",
+      "Battle of Gettysburg",
+      "Battle of Verdun"
+    ],
+    "correctAnswer": "Battle of Waterloo",
+    "explanation": "Battle of Waterloo is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "battle-waterloo"
+    ]
+  },
+  {
+    "id": 20531,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous wall was built to protect northern China from invasions?",
+    "answers": [
+      "Berlin Wall",
+      "Hadrian’s Wall",
+      "Great Wall of China",
+      "Western Wall"
+    ],
+    "correctAnswer": "Great Wall of China",
+    "explanation": "Great Wall of China is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "great-wall"
+    ]
+  },
+  {
+    "id": 20532,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which ancient civilization used Sparta as one of its major city-states?",
+    "answers": [
+      "Roman",
+      "Persian",
+      "Egyptian",
+      "Greek"
+    ],
+    "correctAnswer": "Greek",
+    "explanation": "Greek is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "greek"
+    ]
+  },
+  {
+    "id": 20533,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous scientist formulated the laws of motion and gravity?",
+    "answers": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Nikola Tesla"
+    ],
+    "correctAnswer": "Isaac Newton",
+    "explanation": "Isaac Newton is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "isaac-newton"
+    ]
+  },
+  {
+    "id": 20534,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which emperor built a large empire stretching from France to Germany around AD 800?",
+    "answers": [
+      "Napoleon",
+      "Charlemagne",
+      "Julius Caesar",
+      "Otto I"
+    ],
+    "correctAnswer": "Charlemagne",
+    "explanation": "Charlemagne is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "charlemagne"
+    ]
+  },
+  {
+    "id": 20535,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which civilization famously used longships for raids across Europe?",
+    "answers": [
+      "Romans",
+      "Greeks",
+      "Vikings",
+      "Mongols"
+    ],
+    "correctAnswer": "Vikings",
+    "explanation": "Vikings is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "vikings"
+    ]
+  },
+  {
+    "id": 20536,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous city was buried by volcanic ash from Mount Vesuvius?",
+    "answers": [
+      "Athens",
+      "Rome",
+      "Carthage",
+      "Pompeii"
+    ],
+    "correctAnswer": "Pompeii",
+    "explanation": "Pompeii is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "pompeii"
+    ]
+  },
+  {
+    "id": 20537,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which ruler of France crowned himself emperor in 1804?",
+    "answers": [
+      "Napoleon Bonaparte",
+      "Louis XIV",
+      "Charlemagne",
+      "Robespierre"
+    ],
+    "correctAnswer": "Napoleon Bonaparte",
+    "explanation": "Napoleon Bonaparte is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "napoleon-bonaparte"
+    ]
+  },
+  {
+    "id": 20538,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous explorer sailed on the ship Beagle?",
+    "answers": [
+      "James Cook",
+      "Charles Darwin",
+      "Christopher Columbus",
+      "Ferdinand Magellan"
+    ],
+    "correctAnswer": "Charles Darwin",
+    "explanation": "Charles Darwin is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "charles-darwin"
+    ]
+  },
+  {
+    "id": 20539,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which empire ruled much of India before British control?",
+    "answers": [
+      "Ottoman Empire",
+      "Roman Empire",
+      "Mughal Empire",
+      "Mongol Empire"
+    ],
+    "correctAnswer": "Mughal Empire",
+    "explanation": "Mughal Empire is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "mughal-empire"
+    ]
+  },
+  {
+    "id": 20540,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who was the first woman to win a Nobel Prize?",
+    "answers": [
+      "Rosalind Franklin",
+      "Florence Nightingale",
+      "Ada Lovelace",
+      "Marie Curie"
+    ],
+    "correctAnswer": "Marie Curie",
+    "explanation": "Marie Curie is the correct person for this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "marie-curie"
+    ]
+  },
+  {
+    "id": 20541,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which event triggered the start of World War I in 1914?",
+    "answers": [
+      "Assassination of Archduke Franz Ferdinand",
+      "Attack on Pearl Harbor",
+      "Russian Revolution",
+      "Fall of Berlin Wall"
+    ],
+    "correctAnswer": "Assassination of Archduke Franz Ferdinand",
+    "explanation": "Assassination of Archduke Franz Ferdinand is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "assassination-archduke"
+    ]
+  },
+  {
+    "id": 20542,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which ancient civilization built the city of Petra?",
+    "answers": [
+      "Romans",
+      "Nabataeans",
+      "Greeks",
+      "Persians"
+    ],
+    "correctAnswer": "Nabataeans",
+    "explanation": "Nabataeans is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "nabataeans"
+    ]
+  },
+  {
+    "id": 20543,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which English queen was known as the “Virgin Queen”?",
+    "answers": [
+      "Victoria",
+      "Mary I",
+      "Elizabeth I",
+      "Anne"
+    ],
+    "correctAnswer": "Elizabeth I",
+    "explanation": "Elizabeth I is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "elizabeth"
+    ]
+  },
+  {
+    "id": 20544,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous American leader freed enslaved people with the Emancipation Proclamation?",
+    "answers": [
+      "George Washington",
+      "Thomas Jefferson",
+      "Theodore Roosevelt",
+      "Abraham Lincoln"
+    ],
+    "correctAnswer": "Abraham Lincoln",
+    "explanation": "Abraham Lincoln is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "abraham-lincoln"
+    ]
+  },
+  {
+    "id": 20545,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built roads connecting much of ancient Britain?",
+    "answers": [
+      "Romans",
+      "Vikings",
+      "Celts",
+      "Normans"
+    ],
+    "correctAnswer": "Romans",
+    "explanation": "Romans is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "romans"
+    ]
+  },
+  {
+    "id": 20546,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which battle in 480 BC featured 300 Spartan warriors?",
+    "answers": [
+      "Battle of Marathon",
+      "Battle of Thermopylae",
+      "Battle of Salamis",
+      "Battle of Troy"
+    ],
+    "correctAnswer": "Battle of Thermopylae",
+    "explanation": "Battle of Thermopylae is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "hard",
+      "battle-thermopylae"
+    ]
+  },
+  {
+    "id": 20547,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which explorer is credited with discovering the Pacific Ocean from the Americas?",
+    "answers": [
+      "Christopher Columbus",
+      "Ferdinand Magellan",
+      "Vasco Núñez de Balboa",
+      "Marco Polo"
+    ],
+    "correctAnswer": "Vasco Núñez de Balboa",
+    "explanation": "Vasco Núñez de Balboa is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "vasco-balboa"
+    ]
+  },
+  {
+    "id": 20548,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization used cuneiform writing on clay tablets?",
+    "answers": [
+      "Romans",
+      "Egyptians",
+      "Greeks",
+      "Sumerians"
+    ],
+    "correctAnswer": "Sumerians",
+    "explanation": "Sumerians is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "sumerians"
+    ]
+  },
+  {
+    "id": 20549,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous leader was known for his “I came, I saw, I conquered” quote?",
+    "answers": [
+      "Julius Caesar",
+      "Alexander the Great",
+      "Napoleon",
+      "Augustus"
+    ],
+    "correctAnswer": "Julius Caesar",
+    "explanation": "Julius Caesar is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "julius-caesar"
+    ]
+  },
+  {
+    "id": 20550,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which war was fought between Athens and Sparta?",
+    "answers": [
+      "Punic Wars",
+      "Peloponnesian War",
+      "Hundred Years’ War",
+      "Crimean War"
+    ],
+    "correctAnswer": "Peloponnesian War",
+    "explanation": "Peloponnesian War is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "peloponnesian-war"
+    ]
+  },
+  {
+    "id": 20551,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous activist rode buses during the Montgomery Bus Boycott?",
+    "answers": [
+      "Harriet Tubman",
+      "Susan B. Anthony",
+      "Rosa Parks",
+      "Eleanor Roosevelt"
+    ],
+    "correctAnswer": "Rosa Parks",
+    "explanation": "Rosa Parks is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "rosa-parks"
+    ]
+  },
+  {
+    "id": 20552,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which empire fought three major wars against Rome called the Punic Wars?",
+    "answers": [
+      "Persia",
+      "Greece",
+      "Egypt",
+      "Carthage"
+    ],
+    "correctAnswer": "Carthage",
+    "explanation": "Carthage is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "carthage"
+    ]
+  },
+  {
+    "id": 20553,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which invention is Alexander Graham Bell famous for?",
+    "answers": [
+      "Telephone",
+      "Light bulb",
+      "Radio",
+      "Television"
+    ],
+    "correctAnswer": "Telephone",
+    "explanation": "Telephone is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "telephone"
+    ]
+  },
+  {
+    "id": 20554,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Soviet spacecraft carried Yuri Gagarin into space?",
+    "answers": [
+      "Sputnik 1",
+      "Vostok 1",
+      "Apollo 11",
+      "Soyuz 1"
+    ],
+    "correctAnswer": "Vostok 1",
+    "explanation": "Vostok 1 is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "vostok"
+    ]
+  },
+  {
+    "id": 20555,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which civilization is famous for warriors called samurai?",
+    "answers": [
+      "Chinese",
+      "Korean",
+      "Japanese",
+      "Mongol"
+    ],
+    "correctAnswer": "Japanese",
+    "explanation": "Japanese is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "japanese"
+    ]
+  },
+  {
+    "id": 20556,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous structure in India was built by Emperor Shah Jahan?",
+    "answers": [
+      "Red Fort",
+      "Qutub Minar",
+      "Hawa Mahal",
+      "Taj Mahal"
+    ],
+    "correctAnswer": "Taj Mahal",
+    "explanation": "Taj Mahal is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "taj-mahal"
+    ]
+  },
+  {
+    "id": 20557,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which empire was ruled by Suleiman the Magnificent?",
+    "answers": [
+      "Ottoman Empire",
+      "Roman Empire",
+      "British Empire",
+      "Persian Empire"
+    ],
+    "correctAnswer": "Ottoman Empire",
+    "explanation": "Ottoman Empire is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "ottoman-empire"
+    ]
+  },
+  {
+    "id": 20558,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous woman flew solo across the Atlantic Ocean in 1932?",
+    "answers": [
+      "Valentina Tereshkova",
+      "Amelia Earhart",
+      "Marie Curie",
+      "Sally Ride"
+    ],
+    "correctAnswer": "Amelia Earhart",
+    "explanation": "Amelia Earhart is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "amelia-earhart"
+    ]
+  },
+  {
+    "id": 20559,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built aqueducts to transport water?",
+    "answers": [
+      "Greeks",
+      "Mayans",
+      "Romans",
+      "Persians"
+    ],
+    "correctAnswer": "Romans",
+    "explanation": "Romans is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "romans"
+    ]
+  },
+  {
+    "id": 20560,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous scientist discovered penicillin?",
+    "answers": [
+      "Louis Pasteur",
+      "Isaac Newton",
+      "Albert Einstein",
+      "Alexander Fleming"
+    ],
+    "correctAnswer": "Alexander Fleming",
+    "explanation": "Alexander Fleming is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "alexander-fleming"
+    ]
+  },
+  {
+    "id": 20561,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which event marked the end of World War II in Europe?",
+    "answers": [
+      "Germany surrendered",
+      "Attack on Pearl Harbor",
+      "D-Day",
+      "Battle of Stalingrad"
+    ],
+    "correctAnswer": "Germany surrendered",
+    "explanation": "Germany surrendered is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "germany-surrendered"
+    ]
+  },
+  {
+    "id": 20562,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which civilization is associated with the god Odin?",
+    "answers": [
+      "Romans",
+      "Vikings",
+      "Greeks",
+      "Egyptians"
+    ],
+    "correctAnswer": "Vikings",
+    "explanation": "Vikings is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "vikings"
+    ]
+  },
+  {
+    "id": 20563,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which queen of ancient Egypt allied with Julius Caesar and Mark Antony?",
+    "answers": [
+      "Nefertiti",
+      "Hatshepsut",
+      "Cleopatra",
+      "Boudica"
+    ],
+    "correctAnswer": "Cleopatra",
+    "explanation": "Cleopatra is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "cleopatra"
+    ]
+  },
+  {
+    "id": 20564,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous explorer reached the Caribbean islands in 1492?",
+    "answers": [
+      "Vasco da Gama",
+      "Marco Polo",
+      "James Cook",
+      "Christopher Columbus"
+    ],
+    "correctAnswer": "Christopher Columbus",
+    "explanation": "Christopher Columbus is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "christopher-columbus"
+    ]
+  },
+  {
+    "id": 20565,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which war was fought between Britain and France for control in North America during the 1700s?",
+    "answers": [
+      "French and Indian War",
+      "Civil War",
+      "Napoleonic Wars",
+      "Crimean War"
+    ],
+    "correctAnswer": "French and Indian War",
+    "explanation": "French and Indian War is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "french-indian"
+    ]
+  },
+  {
+    "id": 20566,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Chinese philosopher is known for teachings on morality and government?",
+    "answers": [
+      "Laozi",
+      "Confucius",
+      "Sun Tzu",
+      "Mencius"
+    ],
+    "correctAnswer": "Confucius",
+    "explanation": "Confucius is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "hard",
+      "confucius"
+    ]
+  },
+  {
+    "id": 20567,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous American speech included the phrase “I have a dream”?",
+    "answers": [
+      "Gettysburg Address",
+      "Farewell Address",
+      "Martin Luther King Jr. speech",
+      "Four Freedoms Speech"
+    ],
+    "correctAnswer": "Martin Luther King Jr. speech",
+    "explanation": "Martin Luther King Jr. speech is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "martin-luther"
+    ]
+  },
+  {
+    "id": 20568,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built giant stone heads on Easter Island?",
+    "answers": [
+      "Maya",
+      "Inca",
+      "Aztec",
+      "Rapa Nui"
+    ],
+    "correctAnswer": "Rapa Nui",
+    "explanation": "Rapa Nui is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "rapa-nui"
+    ]
+  },
+  {
+    "id": 20569,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which inventor is associated with the light bulb and phonograph?",
+    "answers": [
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Alexander Graham Bell",
+      "Guglielmo Marconi"
+    ],
+    "correctAnswer": "Thomas Edison",
+    "explanation": "Thomas Edison is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "thomas-edison"
+    ]
+  },
+  {
+    "id": 20570,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which military alliance opposed NATO during the Cold War?",
+    "answers": [
+      "League of Nations",
+      "Warsaw Pact",
+      "Axis Powers",
+      "Triple Entente"
+    ],
+    "correctAnswer": "Warsaw Pact",
+    "explanation": "Warsaw Pact is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "warsaw-pact"
+    ]
+  },
+  {
+    "id": 20571,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous city was once called Constantinople?",
+    "answers": [
+      "Athens",
+      "Rome",
+      "Istanbul",
+      "Jerusalem"
+    ],
+    "correctAnswer": "Istanbul",
+    "explanation": "Istanbul is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "istanbul"
+    ]
+  },
+  {
+    "id": 20572,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which explorer led the first expedition to circumnavigate the globe?",
+    "answers": [
+      "James Cook",
+      "Marco Polo",
+      "Christopher Columbus",
+      "Ferdinand Magellan"
+    ],
+    "correctAnswer": "Ferdinand Magellan",
+    "explanation": "Ferdinand Magellan is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "ferdinand-magellan"
+    ]
+  },
+  {
+    "id": 20573,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which ancient civilization built the pyramids at Teotihuacan?",
+    "answers": [
+      "Mesoamerican civilizations",
+      "Romans",
+      "Greeks",
+      "Egyptians"
+    ],
+    "correctAnswer": "Mesoamerican civilizations",
+    "explanation": "Mesoamerican civilizations is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "mesoamerican-civilizations"
+    ]
+  },
+  {
+    "id": 20574,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle is considered Napoleon’s final defeat?",
+    "answers": [
+      "Battle of Trafalgar",
+      "Battle of Waterloo",
+      "Battle of Leipzig",
+      "Battle of Austerlitz"
+    ],
+    "correctAnswer": "Battle of Waterloo",
+    "explanation": "Battle of Waterloo is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "battle-waterloo"
+    ]
+  },
+  {
+    "id": 20575,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which explorer is known for mapping parts of the Pacific Ocean and Australia?",
+    "answers": [
+      "Marco Polo",
+      "Christopher Columbus",
+      "James Cook",
+      "Amerigo Vespucci"
+    ],
+    "correctAnswer": "James Cook",
+    "explanation": "James Cook is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "james-cook"
+    ]
+  },
+  {
+    "id": 20576,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which ancient civilization built the famous city of Machu Picchu?",
+    "answers": [
+      "Maya",
+      "Aztec",
+      "Roman",
+      "Inca"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Inca is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "inca"
+    ]
+  },
+  {
+    "id": 20577,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country was ruled by Mao Zedong after the Chinese Revolution?",
+    "answers": [
+      "China",
+      "Japan",
+      "Korea",
+      "Vietnam"
+    ],
+    "correctAnswer": "China",
+    "explanation": "China is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "china"
+    ]
+  },
+  {
+    "id": 20578,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous explorer traveled the Silk Road to China?",
+    "answers": [
+      "Christopher Columbus",
+      "Marco Polo",
+      "Vasco da Gama",
+      "James Cook"
+    ],
+    "correctAnswer": "Marco Polo",
+    "explanation": "Marco Polo is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "marco-polo"
+    ]
+  },
+  {
+    "id": 20579,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization developed the first known written legal code under Hammurabi?",
+    "answers": [
+      "Romans",
+      "Greeks",
+      "Babylonians",
+      "Egyptians"
+    ],
+    "correctAnswer": "Babylonians",
+    "explanation": "Babylonians is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "babylonians"
+    ]
+  },
+  {
+    "id": 20580,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle in 1942 marked a turning point in the Pacific during World War II?",
+    "answers": [
+      "Battle of Britain",
+      "Battle of the Bulge",
+      "Battle of El Alamein",
+      "Battle of Midway"
+    ],
+    "correctAnswer": "Battle of Midway",
+    "explanation": "Battle of Midway is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "battle-midway"
+    ]
+  },
+  {
+    "id": 20581,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which empire was famous for its janissary soldiers?",
+    "answers": [
+      "Ottoman Empire",
+      "Roman Empire",
+      "British Empire",
+      "Mongol Empire"
+    ],
+    "correctAnswer": "Ottoman Empire",
+    "explanation": "Ottoman Empire is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "ottoman-empire"
+    ]
+  },
+  {
+    "id": 20582,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which ruler united much of Mongolia and surrounding lands in the 13th century?",
+    "answers": [
+      "Kublai Khan",
+      "Genghis Khan",
+      "Attila the Hun",
+      "Tamerlane"
+    ],
+    "correctAnswer": "Genghis Khan",
+    "explanation": "Genghis Khan is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "genghis-khan"
+    ]
+  },
+  {
+    "id": 20583,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous monument in Paris was completed for the 1889 World’s Fair?",
+    "answers": [
+      "Arc de Triomphe",
+      "Louvre Pyramid",
+      "Eiffel Tower",
+      "Notre-Dame"
+    ],
+    "correctAnswer": "Eiffel Tower",
+    "explanation": "Eiffel Tower is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "eiffel-tower"
+    ]
+  },
+  {
+    "id": 20584,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which war was fought between the Soviet Union and Afghanistan during the 1980s?",
+    "answers": [
+      "Crimean War",
+      "Korean War",
+      "Gulf War",
+      "Soviet-Afghan War"
+    ],
+    "correctAnswer": "Soviet-Afghan War",
+    "explanation": "Soviet-Afghan War is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "soviet-afghan"
+    ]
+  },
+  {
+    "id": 20585,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which ancient Greek historian is often called the “Father of History”?",
+    "answers": [
+      "Herodotus",
+      "Socrates",
+      "Plato",
+      "Thucydides"
+    ],
+    "correctAnswer": "Herodotus",
+    "explanation": "Herodotus is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "hard",
+      "herodotus"
+    ]
+  },
+  {
+    "id": 20586,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which civilization built the famous Hanging Gardens, one of the Seven Wonders?",
+    "answers": [
+      "Romans",
+      "Babylonians",
+      "Greeks",
+      "Persians"
+    ],
+    "correctAnswer": "Babylonians",
+    "explanation": "Babylonians is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "babylonians"
+    ]
+  },
+  {
+    "id": 20587,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which U.S. president resigned from office during the Watergate scandal?",
+    "answers": [
+      "John F. Kennedy",
+      "Ronald Reagan",
+      "Richard Nixon",
+      "Jimmy Carter"
+    ],
+    "correctAnswer": "Richard Nixon",
+    "explanation": "Richard Nixon is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "richard-nixon"
+    ]
+  },
+  {
+    "id": 20588,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which explorer is known for reaching the Cape of Good Hope route to India?",
+    "answers": [
+      "Christopher Columbus",
+      "Marco Polo",
+      "Amerigo Vespucci",
+      "Vasco da Gama"
+    ],
+    "correctAnswer": "Vasco da Gama",
+    "explanation": "Vasco da Gama is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "vasco-gama"
+    ]
+  },
+  {
+    "id": 20589,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which empire controlled much of Central and South America before Spanish conquest?",
+    "answers": [
+      "Aztec Empire",
+      "Roman Empire",
+      "Ottoman Empire",
+      "British Empire"
+    ],
+    "correctAnswer": "Aztec Empire",
+    "explanation": "Aztec Empire is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "aztec-empire"
+    ]
+  },
+  {
+    "id": 20590,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which city became divided by a wall during the Cold War?",
+    "answers": [
+      "Warsaw",
+      "Berlin",
+      "Prague",
+      "Vienna"
+    ],
+    "correctAnswer": "Berlin",
+    "explanation": "Berlin is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "berlin"
+    ]
+  },
+  {
+    "id": 20591,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which treaty created the League of Nations after World War I?",
+    "answers": [
+      "Treaty of Paris",
+      "Treaty of Rome",
+      "Treaty of Versailles",
+      "Treaty of Vienna"
+    ],
+    "correctAnswer": "Treaty of Versailles",
+    "explanation": "Treaty of Versailles is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "treaty-versailles"
+    ]
+  },
+  {
+    "id": 20592,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which civilization is famous for creating the Olympic Games?",
+    "answers": [
+      "Romans",
+      "Egyptians",
+      "Persians",
+      "Greeks"
+    ],
+    "correctAnswer": "Greeks",
+    "explanation": "Greeks is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "greeks"
+    ]
+  },
+  {
+    "id": 20593,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous American document begins with “We the People”?",
+    "answers": [
+      "United States Constitution",
+      "Declaration of Independence",
+      "Bill of Rights",
+      "Magna Carta"
+    ],
+    "correctAnswer": "United States Constitution",
+    "explanation": "United States Constitution is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "united-states"
+    ]
+  },
+  {
+    "id": 20594,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which emperor made Christianity legal in the Roman Empire?",
+    "answers": [
+      "Nero",
+      "Constantine",
+      "Augustus",
+      "Trajan"
+    ],
+    "correctAnswer": "Constantine",
+    "explanation": "Constantine is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "constantine"
+    ]
+  },
+  {
+    "id": 20595,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous monument in the United States was gifted by France?",
+    "answers": [
+      "Lincoln Memorial",
+      "Washington Monument",
+      "Statue of Liberty",
+      "Mount Rushmore"
+    ],
+    "correctAnswer": "Statue of Liberty",
+    "explanation": "Statue of Liberty is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "statue-liberty"
+    ]
+  },
+  {
+    "id": 20596,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which war included the Battle of Stalingrad?",
+    "answers": [
+      "World War I",
+      "Crimean War",
+      "Napoleonic Wars",
+      "World War II"
+    ],
+    "correctAnswer": "World War II",
+    "explanation": "World War II is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "world-war"
+    ]
+  },
+  {
+    "id": 20597,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built roads across the Andes Mountains?",
+    "answers": [
+      "Inca",
+      "Maya",
+      "Aztec",
+      "Roman"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Inca is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "inca"
+    ]
+  },
+  {
+    "id": 20598,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which explorer gave Europe detailed accounts of travels in Asia?",
+    "answers": [
+      "Christopher Columbus",
+      "Marco Polo",
+      "James Cook",
+      "Vasco da Gama"
+    ],
+    "correctAnswer": "Marco Polo",
+    "explanation": "Marco Polo is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "marco-polo"
+    ]
+  },
+  {
+    "id": 20599,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which queen ruled Russia and was known as “the Great”?",
+    "answers": [
+      "Elizabeth I",
+      "Victoria",
+      "Catherine the Great",
+      "Cleopatra"
+    ],
+    "correctAnswer": "Catherine the Great",
+    "explanation": "Catherine the Great is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "catherine-great"
+    ]
+  },
+  {
+    "id": 20600,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous battle was fought in 1066 in England?",
+    "answers": [
+      "Battle of Waterloo",
+      "Battle of Gettysburg",
+      "Battle of Agincourt",
+      "Battle of Hastings"
+    ],
+    "correctAnswer": "Battle of Hastings",
+    "explanation": "Battle of Hastings is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "battle-hastings"
+    ]
+  },
+  {
+    "id": 20601,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization used the city of Sparta as a military center?",
+    "answers": [
+      "Greeks",
+      "Romans",
+      "Persians",
+      "Egyptians"
+    ],
+    "correctAnswer": "Greeks",
+    "explanation": "Greeks is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "greeks"
+    ]
+  },
+  {
+    "id": 20602,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Carthaginian general crossed the Alps with elephants?",
+    "answers": [
+      "Scipio",
+      "Hannibal",
+      "Caesar",
+      "Pericles"
+    ],
+    "correctAnswer": "Hannibal",
+    "explanation": "Hannibal is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "hard",
+      "hannibal"
+    ]
+  },
+  {
+    "id": 20603,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous scientist is associated with the apple-and-gravity story?",
+    "answers": [
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Isaac Newton",
+      "Nikola Tesla"
+    ],
+    "correctAnswer": "Isaac Newton",
+    "explanation": "Isaac Newton is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "isaac-newton"
+    ]
+  },
+  {
+    "id": 20604,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which empire ruled Mexico before Spanish conquest?",
+    "answers": [
+      "Inca Empire",
+      "Roman Empire",
+      "Ottoman Empire",
+      "Aztec Empire"
+    ],
+    "correctAnswer": "Aztec Empire",
+    "explanation": "Aztec Empire is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "aztec-empire"
+    ]
+  },
+  {
+    "id": 20605,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous woman discovered radium with Pierre Curie?",
+    "answers": [
+      "Marie Curie",
+      "Rosalind Franklin",
+      "Florence Nightingale",
+      "Ada Lovelace"
+    ],
+    "correctAnswer": "Marie Curie",
+    "explanation": "Marie Curie is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "marie-curie"
+    ]
+  },
+  {
+    "id": 20606,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle stopped Napoleon’s invasion of Russia in 1812?",
+    "answers": [
+      "Battle of Waterloo",
+      "Battle of Borodino",
+      "Battle of Trafalgar",
+      "Battle of Leipzig"
+    ],
+    "correctAnswer": "Battle of Borodino",
+    "explanation": "Battle of Borodino is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "battle-borodino"
+    ]
+  },
+  {
+    "id": 20607,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which empire built the famous Colosseum in Rome?",
+    "answers": [
+      "Greek Empire",
+      "Ottoman Empire",
+      "Roman Empire",
+      "British Empire"
+    ],
+    "correctAnswer": "Roman Empire",
+    "explanation": "Roman Empire is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "roman-empire"
+    ]
+  },
+  {
+    "id": 20608,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which event in 1773 involved colonists dumping tea into Boston Harbor?",
+    "answers": [
+      "Boston Massacre",
+      "Stamp Act",
+      "Continental Congress",
+      "Boston Tea Party"
+    ],
+    "correctAnswer": "Boston Tea Party",
+    "explanation": "Boston Tea Party is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "boston-tea"
+    ]
+  },
+  {
+    "id": 20609,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who was the first emperor of France?",
+    "answers": [
+      "Napoleon Bonaparte",
+      "Louis XIV",
+      "Charlemagne",
+      "Robespierre"
+    ],
+    "correctAnswer": "Napoleon Bonaparte",
+    "explanation": "Napoleon Bonaparte is the correct person for this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "napoleon-bonaparte"
+    ]
+  },
+  {
+    "id": 20610,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built giant stone statues called moai?",
+    "answers": [
+      "Maya",
+      "Rapa Nui",
+      "Inca",
+      "Aztec"
+    ],
+    "correctAnswer": "Rapa Nui",
+    "explanation": "Rapa Nui is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "rapa-nui"
+    ]
+  },
+  {
+    "id": 20611,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which explorer is credited with naming the Pacific Ocean?",
+    "answers": [
+      "Christopher Columbus",
+      "James Cook",
+      "Ferdinand Magellan",
+      "Marco Polo"
+    ],
+    "correctAnswer": "Ferdinand Magellan",
+    "explanation": "Ferdinand Magellan is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "ferdinand-magellan"
+    ]
+  },
+  {
+    "id": 20612,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous structure in Rome was used for gladiator contests?",
+    "answers": [
+      "Pantheon",
+      "Parthenon",
+      "Forum",
+      "Colosseum"
+    ],
+    "correctAnswer": "Colosseum",
+    "explanation": "Colosseum is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "colosseum"
+    ]
+  },
+  {
+    "id": 20613,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which empire was centered in present-day Iran and fought ancient Greece?",
+    "answers": [
+      "Persian Empire",
+      "Roman Empire",
+      "Ottoman Empire",
+      "Mongol Empire"
+    ],
+    "correctAnswer": "Persian Empire",
+    "explanation": "Persian Empire is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "persian-empire"
+    ]
+  },
+  {
+    "id": 20614,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous activist helped lead the Indian independence movement through nonviolence?",
+    "answers": [
+      "Nelson Mandela",
+      "Mahatma Gandhi",
+      "Jawaharlal Nehru",
+      "Subhas Chandra Bose"
+    ],
+    "correctAnswer": "Mahatma Gandhi",
+    "explanation": "Mahatma Gandhi is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "mahatma-gandhi"
+    ]
+  },
+  {
+    "id": 20615,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which war ended with atomic bombs being dropped on Hiroshima and Nagasaki?",
+    "answers": [
+      "World War I",
+      "Korean War",
+      "World War II",
+      "Vietnam War"
+    ],
+    "correctAnswer": "World War II",
+    "explanation": "World War II is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "world-war"
+    ]
+  },
+  {
+    "id": 20616,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which civilization built the Parthenon?",
+    "answers": [
+      "Romans",
+      "Egyptians",
+      "Persians",
+      "Greeks"
+    ],
+    "correctAnswer": "Greeks",
+    "explanation": "Greeks is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "greeks"
+    ]
+  },
+  {
+    "id": 20617,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which ruler was known for conquering a vast empire from Greece to India?",
+    "answers": [
+      "Alexander the Great",
+      "Julius Caesar",
+      "Napoleon",
+      "Charlemagne"
+    ],
+    "correctAnswer": "Alexander the Great",
+    "explanation": "Alexander the Great is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "alexander-great"
+    ]
+  },
+  {
+    "id": 20618,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous ocean liner sank in 1912?",
+    "answers": [
+      "Britannic",
+      "Titanic",
+      "Lusitania",
+      "Mayflower"
+    ],
+    "correctAnswer": "Titanic",
+    "explanation": "Titanic is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "titanic"
+    ]
+  },
+  {
+    "id": 20619,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which empire controlled much of South America before Spanish conquest?",
+    "answers": [
+      "Aztec Empire",
+      "Roman Empire",
+      "Inca Empire",
+      "Ottoman Empire"
+    ],
+    "correctAnswer": "Inca Empire",
+    "explanation": "Inca Empire is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "inca-empire"
+    ]
+  },
+  {
+    "id": 20620,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who delivered the Gettysburg Address during the American Civil War?",
+    "answers": [
+      "George Washington",
+      "Thomas Jefferson",
+      "Ulysses S. Grant",
+      "Abraham Lincoln"
+    ],
+    "correctAnswer": "Abraham Lincoln",
+    "explanation": "Abraham Lincoln is the correct person for this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "abraham-lincoln"
+    ]
+  },
+  {
+    "id": 20621,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built step pyramids in Mesoamerica?",
+    "answers": [
+      "Maya",
+      "Romans",
+      "Greeks",
+      "Vikings"
+    ],
+    "correctAnswer": "Maya",
+    "explanation": "Maya is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "maya"
+    ]
+  },
+  {
+    "id": 20622,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which English document signed in 1215 limited royal authority?",
+    "answers": [
+      "Bill of Rights",
+      "Magna Carta",
+      "Petition of Right",
+      "Act of Settlement"
+    ],
+    "correctAnswer": "Magna Carta",
+    "explanation": "Magna Carta is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "hard",
+      "magna-carta"
+    ]
+  },
+  {
+    "id": 20623,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which famous scientist proposed the heliocentric model of the solar system?",
+    "answers": [
+      "Galileo Galilei",
+      "Isaac Newton",
+      "Nicolaus Copernicus",
+      "Johannes Kepler"
+    ],
+    "correctAnswer": "Nicolaus Copernicus",
+    "explanation": "Nicolaus Copernicus is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "nicolaus-copernicus"
+    ]
+  },
+  {
+    "id": 20624,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle in 1945 was the final major battle in Europe during World War II?",
+    "answers": [
+      "Battle of Britain",
+      "Battle of Midway",
+      "Battle of El Alamein",
+      "Battle of Berlin"
+    ],
+    "correctAnswer": "Battle of Berlin",
+    "explanation": "Battle of Berlin is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "battle-berlin"
+    ]
+  },
+  {
+    "id": 20625,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which civilization built roads, temples, and aqueducts across Europe?",
+    "answers": [
+      "Romans",
+      "Greeks",
+      "Egyptians",
+      "Persians"
+    ],
+    "correctAnswer": "Romans",
+    "explanation": "Romans is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "romans"
+    ]
+  },
+  {
+    "id": 20626,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which famous French queen was executed during the French Revolution?",
+    "answers": [
+      "Joan of Arc",
+      "Marie Antoinette",
+      "Catherine de Medici",
+      "Eleanor of Aquitaine"
+    ],
+    "correctAnswer": "Marie Antoinette",
+    "explanation": "Marie Antoinette is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "marie-antoinette"
+    ]
+  },
+  {
+    "id": 20627,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which explorer reached the Pacific Ocean after crossing the Isthmus of Panama?",
+    "answers": [
+      "Christopher Columbus",
+      "Marco Polo",
+      "Vasco Núñez de Balboa",
+      "James Cook"
+    ],
+    "correctAnswer": "Vasco Núñez de Balboa",
+    "explanation": "Vasco Núñez de Balboa is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "vasco-balboa"
+    ]
+  },
+  {
+    "id": 20628,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization fought Rome in the Punic Wars?",
+    "answers": [
+      "Persia",
+      "Greece",
+      "Egypt",
+      "Carthage"
+    ],
+    "correctAnswer": "Carthage",
+    "explanation": "Carthage is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "carthage"
+    ]
+  },
+  {
+    "id": 20629,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who became the first human to step on the Moon in 1969?",
+    "answers": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Michael Collins"
+    ],
+    "correctAnswer": "Neil Armstrong",
+    "explanation": "Neil Armstrong is the correct person for this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "neil-armstrong"
+    ]
+  },
+  {
+    "id": 20630,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country was reunified after the fall of the Berlin Wall?",
+    "answers": [
+      "Poland",
+      "Germany",
+      "Austria",
+      "Hungary"
+    ],
+    "correctAnswer": "Germany",
+    "explanation": "Germany is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "medium",
+      "germany"
+    ]
+  },
+  {
+    "id": 20631,
+    "category": "history",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which civilization is famous for warriors called Spartans?",
+    "answers": [
+      "Romans",
+      "Persians",
+      "Greeks",
+      "Egyptians"
+    ],
+    "correctAnswer": "Greeks",
+    "explanation": "Greeks is the correct answer to this history question.",
+    "tags": [
+      "history",
+      "easy",
+      "greeks"
+    ]
+  },
+  {
+    "id": 20632,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #1",
+    "answers": [
+      "Trafalgar",
+      "Austerlitz",
+      "Leipzig",
+      "Waterloo"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20633,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #2",
+    "answers": [
+      "Berlin Wall",
+      "Iron Curtain",
+      "Great Wall",
+      "Hadrian’s Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20634,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #3",
+    "answers": [
+      "Maya",
+      "Inca",
+      "Olmec",
+      "Aztec"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20635,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #4",
+    "answers": [
+      "Leipzig",
+      "Trafalgar",
+      "Waterloo",
+      "Austerlitz"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20636,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which wall divided Berlin during the Cold War? #5",
+    "answers": [
+      "Great Wall",
+      "Iron Curtain",
+      "Hadrian’s Wall",
+      "Berlin Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20637,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #6",
+    "answers": [
+      "Inca",
+      "Aztec",
+      "Olmec",
+      "Maya"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20638,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #7",
+    "answers": [
+      "Trafalgar",
+      "Waterloo",
+      "Leipzig",
+      "Austerlitz"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20639,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #8",
+    "answers": [
+      "Iron Curtain",
+      "Great Wall",
+      "Berlin Wall",
+      "Hadrian’s Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20640,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #9",
+    "answers": [
+      "Maya",
+      "Aztec",
+      "Olmec",
+      "Inca"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20641,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which battle marked Napoleon’s final defeat? #10",
+    "answers": [
+      "Waterloo",
+      "Trafalgar",
+      "Austerlitz",
+      "Leipzig"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20642,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #11",
+    "answers": [
+      "Hadrian’s Wall",
+      "Berlin Wall",
+      "Great Wall",
+      "Iron Curtain"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20643,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #12",
+    "answers": [
+      "Aztec",
+      "Olmec",
+      "Inca",
+      "Maya"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20644,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #13",
+    "answers": [
+      "Leipzig",
+      "Austerlitz",
+      "Trafalgar",
+      "Waterloo"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20645,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #14",
+    "answers": [
+      "Berlin Wall",
+      "Iron Curtain",
+      "Hadrian’s Wall",
+      "Great Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20646,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which civilization built Machu Picchu? #15",
+    "answers": [
+      "Olmec",
+      "Inca",
+      "Maya",
+      "Aztec"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20647,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #16",
+    "answers": [
+      "Trafalgar",
+      "Austerlitz",
+      "Waterloo",
+      "Leipzig"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20648,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #17",
+    "answers": [
+      "Great Wall",
+      "Hadrian’s Wall",
+      "Iron Curtain",
+      "Berlin Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20649,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #18",
+    "answers": [
+      "Inca",
+      "Olmec",
+      "Aztec",
+      "Maya"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20650,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #19",
+    "answers": [
+      "Trafalgar",
+      "Waterloo",
+      "Leipzig",
+      "Austerlitz"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20651,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which wall divided Berlin during the Cold War? #20",
+    "answers": [
+      "Iron Curtain",
+      "Hadrian’s Wall",
+      "Berlin Wall",
+      "Great Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20652,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #21",
+    "answers": [
+      "Olmec",
+      "Maya",
+      "Aztec",
+      "Inca"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20653,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #22",
+    "answers": [
+      "Waterloo",
+      "Trafalgar",
+      "Austerlitz",
+      "Leipzig"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20654,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #23",
+    "answers": [
+      "Great Wall",
+      "Berlin Wall",
+      "Hadrian’s Wall",
+      "Iron Curtain"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20655,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #24",
+    "answers": [
+      "Maya",
+      "Aztec",
+      "Inca",
+      "Olmec"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20656,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which battle marked Napoleon’s final defeat? #25",
+    "answers": [
+      "Austerlitz",
+      "Leipzig",
+      "Trafalgar",
+      "Waterloo"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20657,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #26",
+    "answers": [
+      "Berlin Wall",
+      "Great Wall",
+      "Hadrian’s Wall",
+      "Iron Curtain"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20658,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #27",
+    "answers": [
+      "Aztec",
+      "Inca",
+      "Maya",
+      "Olmec"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20659,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #28",
+    "answers": [
+      "Trafalgar",
+      "Leipzig",
+      "Waterloo",
+      "Austerlitz"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20660,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #29",
+    "answers": [
+      "Iron Curtain",
+      "Hadrian’s Wall",
+      "Great Wall",
+      "Berlin Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20661,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which civilization built Machu Picchu? #30",
+    "answers": [
+      "Inca",
+      "Olmec",
+      "Maya",
+      "Aztec"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20662,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #31",
+    "answers": [
+      "Leipzig",
+      "Waterloo",
+      "Trafalgar",
+      "Austerlitz"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20663,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #32",
+    "answers": [
+      "Great Wall",
+      "Hadrian’s Wall",
+      "Berlin Wall",
+      "Iron Curtain"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20664,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #33",
+    "answers": [
+      "Olmec",
+      "Aztec",
+      "Maya",
+      "Inca"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20665,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #34",
+    "answers": [
+      "Waterloo",
+      "Trafalgar",
+      "Leipzig",
+      "Austerlitz"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20666,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which wall divided Berlin during the Cold War? #35",
+    "answers": [
+      "Hadrian’s Wall",
+      "Berlin Wall",
+      "Great Wall",
+      "Iron Curtain"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20667,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #36",
+    "answers": [
+      "Maya",
+      "Olmec",
+      "Inca",
+      "Aztec"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20668,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #37",
+    "answers": [
+      "Austerlitz",
+      "Leipzig",
+      "Trafalgar",
+      "Waterloo"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20669,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #38",
+    "answers": [
+      "Berlin Wall",
+      "Hadrian’s Wall",
+      "Great Wall",
+      "Iron Curtain"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20670,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #39",
+    "answers": [
+      "Maya",
+      "Inca",
+      "Olmec",
+      "Aztec"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20671,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which battle marked Napoleon’s final defeat? #40",
+    "answers": [
+      "Leipzig",
+      "Austerlitz",
+      "Waterloo",
+      "Trafalgar"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20672,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #41",
+    "answers": [
+      "Iron Curtain",
+      "Great Wall",
+      "Hadrian’s Wall",
+      "Berlin Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20673,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #42",
+    "answers": [
+      "Inca",
+      "Olmec",
+      "Aztec",
+      "Maya"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20674,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #43",
+    "answers": [
+      "Leipzig",
+      "Waterloo",
+      "Trafalgar",
+      "Austerlitz"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20675,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #44",
+    "answers": [
+      "Hadrian’s Wall",
+      "Iron Curtain",
+      "Berlin Wall",
+      "Great Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20676,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which civilization built Machu Picchu? #45",
+    "answers": [
+      "Maya",
+      "Aztec",
+      "Olmec",
+      "Inca"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20677,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #46",
+    "answers": [
+      "Waterloo",
+      "Trafalgar",
+      "Austerlitz",
+      "Leipzig"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20678,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #47",
+    "answers": [
+      "Great Wall",
+      "Berlin Wall",
+      "Iron Curtain",
+      "Hadrian’s Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20679,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #48",
+    "answers": [
+      "Maya",
+      "Olmec",
+      "Inca",
+      "Aztec"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20680,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #49",
+    "answers": [
+      "Trafalgar",
+      "Leipzig",
+      "Austerlitz",
+      "Waterloo"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20681,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which wall divided Berlin during the Cold War? #50",
+    "answers": [
+      "Berlin Wall",
+      "Hadrian’s Wall",
+      "Great Wall",
+      "Iron Curtain"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20682,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #51",
+    "answers": [
+      "Aztec",
+      "Inca",
+      "Maya",
+      "Olmec"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20683,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #52",
+    "answers": [
+      "Leipzig",
+      "Austerlitz",
+      "Waterloo",
+      "Trafalgar"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20684,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #53",
+    "answers": [
+      "Great Wall",
+      "Hadrian’s Wall",
+      "Iron Curtain",
+      "Berlin Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20685,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #54",
+    "answers": [
+      "Inca",
+      "Maya",
+      "Olmec",
+      "Aztec"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20686,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which battle marked Napoleon’s final defeat? #55",
+    "answers": [
+      "Austerlitz",
+      "Waterloo",
+      "Trafalgar",
+      "Leipzig"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20687,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #56",
+    "answers": [
+      "Great Wall",
+      "Iron Curtain",
+      "Berlin Wall",
+      "Hadrian’s Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20688,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #57",
+    "answers": [
+      "Olmec",
+      "Aztec",
+      "Maya",
+      "Inca"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20689,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #58",
+    "answers": [
+      "Waterloo",
+      "Leipzig",
+      "Trafalgar",
+      "Austerlitz"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20690,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #59",
+    "answers": [
+      "Hadrian’s Wall",
+      "Berlin Wall",
+      "Iron Curtain",
+      "Great Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20691,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which civilization built Machu Picchu? #60",
+    "answers": [
+      "Maya",
+      "Olmec",
+      "Inca",
+      "Aztec"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20692,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #61",
+    "answers": [
+      "Trafalgar",
+      "Leipzig",
+      "Austerlitz",
+      "Waterloo"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20693,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #62",
+    "answers": [
+      "Berlin Wall",
+      "Hadrian’s Wall",
+      "Great Wall",
+      "Iron Curtain"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20694,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #63",
+    "answers": [
+      "Olmec",
+      "Inca",
+      "Maya",
+      "Aztec"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20695,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #64",
+    "answers": [
+      "Leipzig",
+      "Trafalgar",
+      "Waterloo",
+      "Austerlitz"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20696,
+    "category": "history",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which wall divided Berlin during the Cold War? #65",
+    "answers": [
+      "Iron Curtain",
+      "Hadrian’s Wall",
+      "Great Wall",
+      "Berlin Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20697,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #66",
+    "answers": [
+      "Inca",
+      "Olmec",
+      "Aztec",
+      "Maya"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20698,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which battle marked Napoleon’s final defeat? #67",
+    "answers": [
+      "Trafalgar",
+      "Waterloo",
+      "Austerlitz",
+      "Leipzig"
+    ],
+    "correctAnswer": "Waterloo",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20699,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which wall divided Berlin during the Cold War? #68",
+    "answers": [
+      "Great Wall",
+      "Iron Curtain",
+      "Berlin Wall",
+      "Hadrian’s Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  },
+  {
+    "id": 20700,
+    "category": "history",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which civilization built Machu Picchu? #69",
+    "answers": [
+      "Maya",
+      "Olmec",
+      "Aztec",
+      "Inca"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "history"
+    ]
+  }
+]

@@ -500,3 +500,5 @@ const styles = StyleSheet.create({
     textShadowRadius: 6,
   },
 });
+
+

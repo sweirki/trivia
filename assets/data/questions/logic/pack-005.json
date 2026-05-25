@@ -1,1 +1,723 @@
-[]
+[
+  {
+    "id": 32001,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number completes the sequence: 3, 8, 15, 24, 35, ?",
+    "answers": [
+      "48",
+      "46",
+      "49",
+      "50"
+    ],
+    "correctAnswer": "48",
+    "explanation": "48 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 32002,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which item is most likely used to measure length?",
+    "answers": [
+      "Clock",
+      "Ruler",
+      "Thermometer",
+      "Compass"
+    ],
+    "correctAnswer": "Ruler",
+    "explanation": "Ruler is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "ruler"
+    ]
+  },
+  {
+    "id": 32003,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If 6 boxes each contain 5 pencils, how many pencils are there in total?",
+    "answers": [
+      "25",
+      "35",
+      "30",
+      "40"
+    ],
+    "correctAnswer": "30",
+    "explanation": "The correct answer is 30.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 32004,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is greater than 75?",
+    "answers": [
+      "70",
+      "65",
+      "50",
+      "80"
+    ],
+    "correctAnswer": "80",
+    "explanation": "80 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 32005,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "If LAMP is coded as MBNQ, how is FISH coded using the same rule?",
+    "answers": [
+      "GJTI",
+      "EHRG",
+      "GJSH",
+      "HKTJ"
+    ],
+    "correctAnswer": "GJTI",
+    "explanation": "The correct answer is GJTI.",
+    "tags": [
+      "logic",
+      "hard",
+      "gjti"
+    ]
+  },
+  {
+    "id": 32006,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which word is the opposite of 'open'?",
+    "answers": [
+      "Wide",
+      "Closed",
+      "Bright",
+      "Tall"
+    ],
+    "correctAnswer": "Closed",
+    "explanation": "Closed is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "closed"
+    ]
+  },
+  {
+    "id": 32007,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which number comes next: 120, 100, 80, 60, ?",
+    "answers": [
+      "50",
+      "30",
+      "40",
+      "20"
+    ],
+    "correctAnswer": "40",
+    "explanation": "40 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 32008,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many corners does a square have?",
+    "answers": [
+      "3",
+      "5",
+      "6",
+      "4"
+    ],
+    "correctAnswer": "4",
+    "explanation": "The correct answer is 4.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 32009,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If Omar is first, Lina is second, and Sami is third, who is between Omar and Sami?",
+    "answers": [
+      "Lina",
+      "Omar",
+      "Sami",
+      "No one"
+    ],
+    "correctAnswer": "Lina",
+    "explanation": "The correct answer is Lina.",
+    "tags": [
+      "logic",
+      "medium",
+      "lina"
+    ]
+  },
+  {
+    "id": 32010,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number equals 4 multiplied by 5?",
+    "answers": [
+      "16",
+      "20",
+      "18",
+      "25"
+    ],
+    "correctAnswer": "20",
+    "explanation": "20 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 32011,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number comes next: 2, 6, 14, 30, 62, ?",
+    "answers": [
+      "124",
+      "128",
+      "126",
+      "130"
+    ],
+    "correctAnswer": "126",
+    "explanation": "126 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard",
+      "126"
+    ]
+  },
+  {
+    "id": 32012,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object is normally used to take pictures?",
+    "answers": [
+      "Lamp",
+      "Fork",
+      "Pillow",
+      "Camera"
+    ],
+    "correctAnswer": "Camera",
+    "explanation": "Camera is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "camera"
+    ]
+  },
+  {
+    "id": 32013,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If 24 students are split equally into 4 groups, how many students are in each group?",
+    "answers": [
+      "6",
+      "5",
+      "8",
+      "12"
+    ],
+    "correctAnswer": "6",
+    "explanation": "The correct answer is 6.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 32014,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is one less than 50?",
+    "answers": [
+      "48",
+      "49",
+      "51",
+      "59"
+    ],
+    "correctAnswer": "49",
+    "explanation": "49 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 32015,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number completes the pattern: 9, 18, 36, 72, ?",
+    "answers": [
+      "108",
+      "126",
+      "144",
+      "150"
+    ],
+    "correctAnswer": "144",
+    "explanation": "144 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard",
+      "144"
+    ]
+  },
+  {
+    "id": 32016,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which word is the opposite of 'light' when describing weight?",
+    "answers": [
+      "Bright",
+      "Soft",
+      "Thin",
+      "Heavy"
+    ],
+    "correctAnswer": "Heavy",
+    "explanation": "Heavy is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "heavy"
+    ]
+  },
+  {
+    "id": 32017,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If a pattern is circle, square, circle, square, what comes next?",
+    "answers": [
+      "Circle",
+      "Square",
+      "Triangle",
+      "Rectangle"
+    ],
+    "correctAnswer": "Circle",
+    "explanation": "The correct answer is Circle.",
+    "tags": [
+      "logic",
+      "medium",
+      "circle"
+    ]
+  },
+  {
+    "id": 32018,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is 11 plus 9?",
+    "answers": [
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "correctAnswer": "20",
+    "explanation": "20 is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 32019,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which number comes next: 2, 5, 8, 11, ?",
+    "answers": [
+      "13",
+      "15",
+      "14",
+      "16"
+    ],
+    "correctAnswer": "14",
+    "explanation": "14 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 32020,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object is used to tell direction?",
+    "answers": [
+      "Clock",
+      "Bottle",
+      "Pencil",
+      "Compass"
+    ],
+    "correctAnswer": "Compass",
+    "explanation": "Compass is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "compass"
+    ]
+  },
+  {
+    "id": 32021,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number completes the sequence: 1, 5, 14, 30, 55, ?",
+    "answers": [
+      "91",
+      "85",
+      "90",
+      "95"
+    ],
+    "correctAnswer": "91",
+    "explanation": "91 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 32022,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is an even number?",
+    "answers": [
+      "21",
+      "18",
+      "25",
+      "27"
+    ],
+    "correctAnswer": "18",
+    "explanation": "18 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 32023,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If one ticket costs 7 coins, how many coins do 5 tickets cost?",
+    "answers": [
+      "30",
+      "40",
+      "35",
+      "45"
+    ],
+    "correctAnswer": "35",
+    "explanation": "The correct answer is 35.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 32024,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which comes last in alphabetical order?",
+    "answers": [
+      "Apple",
+      "Monkey",
+      "River",
+      "Zebra"
+    ],
+    "correctAnswer": "Zebra",
+    "explanation": "Zebra is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "zebra"
+    ]
+  },
+  {
+    "id": 32025,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "If STAR is coded as TUBS, how is MOON coded using the same rule?",
+    "answers": [
+      "NPPO",
+      "LNNM",
+      "NPPM",
+      "OPPQ"
+    ],
+    "correctAnswer": "NPPO",
+    "explanation": "The correct answer is NPPO.",
+    "tags": [
+      "logic",
+      "hard",
+      "nppo"
+    ]
+  },
+  {
+    "id": 32026,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which shape has six sides?",
+    "answers": [
+      "Pentagon",
+      "Hexagon",
+      "Octagon",
+      "Triangle"
+    ],
+    "correctAnswer": "Hexagon",
+    "explanation": "Hexagon is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "hexagon"
+    ]
+  },
+  {
+    "id": 32027,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If Nora has 14 marbles and gives away 5, how many marbles remain?",
+    "answers": [
+      "8",
+      "10",
+      "9",
+      "11"
+    ],
+    "correctAnswer": "9",
+    "explanation": "The correct answer is 9.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 32028,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number comes after 199?",
+    "answers": [
+      "198",
+      "201",
+      "209",
+      "200"
+    ],
+    "correctAnswer": "200",
+    "explanation": "200 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "200"
+    ]
+  },
+  {
+    "id": 32029,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which number comes next: 5, 15, 25, 35, ?",
+    "answers": [
+      "45",
+      "40",
+      "50",
+      "55"
+    ],
+    "correctAnswer": "45",
+    "explanation": "45 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 32030,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which item is usually worn on the feet?",
+    "answers": [
+      "Gloves",
+      "Shoes",
+      "Hat",
+      "Scarf"
+    ],
+    "correctAnswer": "Shoes",
+    "explanation": "Shoes is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "shoes"
+    ]
+  },
+  {
+    "id": 32031,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number completes the sequence: 100, 81, 64, 49, ?",
+    "answers": [
+      "32",
+      "40",
+      "36",
+      "25"
+    ],
+    "correctAnswer": "36",
+    "explanation": "36 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 32032,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which word means the same as 'finish'?",
+    "answers": [
+      "Start",
+      "Open",
+      "Build",
+      "End"
+    ],
+    "correctAnswer": "End",
+    "explanation": "End is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "end"
+    ]
+  },
+  {
+    "id": 32033,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If a box has 3 red balls and 2 blue balls, how many balls are in the box?",
+    "answers": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "explanation": "The correct answer is 5.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 32034,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number equals 12 divided by 3?",
+    "answers": [
+      "3",
+      "4",
+      "6",
+      "9"
+    ],
+    "correctAnswer": "4",
+    "explanation": "4 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 32035,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number comes next: 1, 2, 6, 24, 120, ?",
+    "answers": [
+      "600",
+      "480",
+      "720",
+      "840"
+    ],
+    "correctAnswer": "720",
+    "explanation": "720 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard",
+      "720"
+    ]
+  },
+  {
+    "id": 32036,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which item is used to drink water?",
+    "answers": [
+      "Book",
+      "Shoe",
+      "Lamp",
+      "Cup"
+    ],
+    "correctAnswer": "Cup",
+    "explanation": "Cup is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "cup"
+    ]
+  },
+  {
+    "id": 32037,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If 3 notebooks cost 12 coins, how much does 1 notebook cost?",
+    "answers": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "explanation": "The correct answer is 4.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  }
+]

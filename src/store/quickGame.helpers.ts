@@ -241,3 +241,5 @@ export const calculateSpeedBonus = (summary: Summary) => {
 
   return { bonusXP, bonusCoins };
 };
+
+

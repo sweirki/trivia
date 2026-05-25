@@ -1,1 +1,781 @@
-[]
+[
+  {
+    "id": 11501,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which seafood is commonly served in sushi and known for its orange flesh?",
+    "answers": [
+      "Tuna",
+      "Octopus",
+      "Salmon",
+      "Eel"
+    ],
+    "correctAnswer": "Salmon",
+    "explanation": "Salmon is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "salmon"
+    ]
+  },
+  {
+    "id": 11502,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which dessert is commonly made with bananas, cream, and pie crust?",
+    "answers": [
+      "Cheesecake",
+      "Brownie",
+      "Cupcake",
+      "Banana cream pie"
+    ],
+    "correctAnswer": "Banana cream pie",
+    "explanation": "Banana cream pie is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "banana-cream"
+    ]
+  },
+  {
+    "id": 11503,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which food is commonly made by wrapping ingredients in seaweed and rice?",
+    "answers": [
+      "Sushi",
+      "Burrito",
+      "Dumpling",
+      "Taco"
+    ],
+    "correctAnswer": "Sushi",
+    "explanation": "Sushi is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "sushi"
+    ]
+  },
+  {
+    "id": 11504,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which French dessert is made from choux pastry filled with cream and topped with chocolate?",
+    "answers": [
+      "Macaron",
+      "Éclair",
+      "Crepe",
+      "Soufflé"
+    ],
+    "correctAnswer": "Éclair",
+    "explanation": "Éclair is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "clair"
+    ]
+  },
+  {
+    "id": 11505,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is commonly associated with tropical beaches and piña coladas?",
+    "answers": [
+      "Apple",
+      "Grape",
+      "Pineapple",
+      "Pear"
+    ],
+    "correctAnswer": "Pineapple",
+    "explanation": "Pineapple is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "pineapple"
+    ]
+  },
+  {
+    "id": 11506,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is famous for the spicy dish pad thai?",
+    "answers": [
+      "Vietnam",
+      "China",
+      "Japan",
+      "Thailand"
+    ],
+    "correctAnswer": "Thailand",
+    "explanation": "Thailand is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "thailand"
+    ]
+  },
+  {
+    "id": 11507,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which vegetable is commonly sliced into rings and added to burgers?",
+    "answers": [
+      "Onion",
+      "Turnip",
+      "Radish",
+      "Beet"
+    ],
+    "correctAnswer": "Onion",
+    "explanation": "Onion is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "onion"
+    ]
+  },
+  {
+    "id": 11508,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Italian pasta shape is bow-tie shaped?",
+    "answers": [
+      "Penne",
+      "Farfalle",
+      "Rigatoni",
+      "Linguine"
+    ],
+    "correctAnswer": "Farfalle",
+    "explanation": "Farfalle is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "farfalle"
+    ]
+  },
+  {
+    "id": 11509,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sweet spread is made from cocoa and hazelnuts?",
+    "answers": [
+      "Jam",
+      "Honey",
+      "Nutella",
+      "Peanut butter"
+    ],
+    "correctAnswer": "Nutella",
+    "explanation": "Nutella is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "nutella"
+    ]
+  },
+  {
+    "id": 11510,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Spanish cold soup is traditionally made with tomatoes and cucumbers?",
+    "answers": [
+      "Bisque",
+      "Pho",
+      "Minestrone",
+      "Gazpacho"
+    ],
+    "correctAnswer": "Gazpacho",
+    "explanation": "Gazpacho is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "gazpacho"
+    ]
+  },
+  {
+    "id": 11511,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is commonly red, round, and used to make ketchup?",
+    "answers": [
+      "Tomato",
+      "Apple",
+      "Cherry",
+      "Strawberry"
+    ],
+    "correctAnswer": "Tomato",
+    "explanation": "Tomato is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "tomato"
+    ]
+  },
+  {
+    "id": 11512,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which type of cheese is traditionally used in Greek cuisine and salads?",
+    "answers": [
+      "Cheddar",
+      "Feta",
+      "Mozzarella",
+      "Swiss"
+    ],
+    "correctAnswer": "Feta",
+    "explanation": "Feta is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "feta"
+    ]
+  },
+  {
+    "id": 11513,
+    "category": "food",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Japanese dish consists of savory pancakes filled with ingredients like cabbage and seafood?",
+    "answers": [
+      "Tempura",
+      "Takoyaki",
+      "Okonomiyaki",
+      "Udon"
+    ],
+    "correctAnswer": "Okonomiyaki",
+    "explanation": "Okonomiyaki is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "hard",
+      "okonomiyaki"
+    ]
+  },
+  {
+    "id": 11514,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which breakfast food is made by frying beaten eggs flat in a pan?",
+    "answers": [
+      "Toast",
+      "Muffin",
+      "Bagel",
+      "Omelet"
+    ],
+    "correctAnswer": "Omelet",
+    "explanation": "Omelet is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "omelet"
+    ]
+  },
+  {
+    "id": 11515,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which dessert is made from whipped egg whites and sugar baked until crisp?",
+    "answers": [
+      "Meringue",
+      "Brownie",
+      "Custard",
+      "Cannoli"
+    ],
+    "correctAnswer": "Meringue",
+    "explanation": "Meringue is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "meringue"
+    ]
+  },
+  {
+    "id": 11516,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is commonly yellow and curved?",
+    "answers": [
+      "Lemon",
+      "Banana",
+      "Mango",
+      "Pear"
+    ],
+    "correctAnswer": "Banana",
+    "explanation": "Banana is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "banana"
+    ]
+  },
+  {
+    "id": 11517,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Italian dish is traditionally topped with basil, mozzarella, and tomato sauce?",
+    "answers": [
+      "Lasagna",
+      "Carbonara",
+      "Margherita pizza",
+      "Risotto"
+    ],
+    "correctAnswer": "Margherita pizza",
+    "explanation": "Margherita pizza is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "margherita-pizza"
+    ]
+  },
+  {
+    "id": 11518,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which snack food is twisted and baked, often salted on the outside?",
+    "answers": [
+      "Cracker",
+      "Chip",
+      "Popcorn",
+      "Pretzel"
+    ],
+    "correctAnswer": "Pretzel",
+    "explanation": "Pretzel is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "pretzel"
+    ]
+  },
+  {
+    "id": 11519,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which seafood is commonly served steamed with melted butter and has large claws?",
+    "answers": [
+      "Lobster",
+      "Shrimp",
+      "Oyster",
+      "Tuna"
+    ],
+    "correctAnswer": "Lobster",
+    "explanation": "Lobster is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "lobster"
+    ]
+  },
+  {
+    "id": 11520,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is commonly used to make lemonade?",
+    "answers": [
+      "Orange",
+      "Lemon",
+      "Apple",
+      "Peach"
+    ],
+    "correctAnswer": "Lemon",
+    "explanation": "Lemon is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "lemon"
+    ]
+  },
+  {
+    "id": 11521,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Indian snack is a fried pastry filled with spiced potatoes or meat?",
+    "answers": [
+      "Naan",
+      "Biryani",
+      "Samosa",
+      "Tikka"
+    ],
+    "correctAnswer": "Samosa",
+    "explanation": "Samosa is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "samosa"
+    ]
+  },
+  {
+    "id": 11522,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which dessert is commonly made with layers of sponge cake and frosting?",
+    "answers": [
+      "Cookie",
+      "Pie",
+      "Pudding",
+      "Cake"
+    ],
+    "correctAnswer": "Cake",
+    "explanation": "Cake is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "cake"
+    ]
+  },
+  {
+    "id": 11523,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Italian food is commonly folded in half and stuffed with cheese before baking?",
+    "answers": [
+      "Calzone",
+      "Lasagna",
+      "Risotto",
+      "Bruschetta"
+    ],
+    "correctAnswer": "Calzone",
+    "explanation": "Calzone is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "calzone"
+    ]
+  },
+  {
+    "id": 11524,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which dessert is made by caramelizing sugar on top of a creamy custard?",
+    "answers": [
+      "Cheesecake",
+      "Crème brûlée",
+      "Brownie",
+      "Cannoli"
+    ],
+    "correctAnswer": "Crème brûlée",
+    "explanation": "Crème brûlée is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium"
+    ]
+  },
+  {
+    "id": 11525,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which vegetable is commonly mashed and served with gravy?",
+    "answers": [
+      "Carrot",
+      "Corn",
+      "Potato",
+      "Peas"
+    ],
+    "correctAnswer": "Potato",
+    "explanation": "Potato is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "potato"
+    ]
+  },
+  {
+    "id": 11526,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which seafood dish is made from raw fish cured in citrus juice?",
+    "answers": [
+      "Sashimi",
+      "Tempura",
+      "Paella",
+      "Ceviche"
+    ],
+    "correctAnswer": "Ceviche",
+    "explanation": "Ceviche is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "ceviche"
+    ]
+  },
+  {
+    "id": 11527,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which breakfast item is often toasted and spread with butter or jam?",
+    "answers": [
+      "Bagel",
+      "Brownie",
+      "Cookie",
+      "Donut"
+    ],
+    "correctAnswer": "Bagel",
+    "explanation": "Bagel is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "bagel"
+    ]
+  },
+  {
+    "id": 11528,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Italian cheese is soft, white, and commonly used on pizza?",
+    "answers": [
+      "Parmesan",
+      "Mozzarella",
+      "Cheddar",
+      "Brie"
+    ],
+    "correctAnswer": "Mozzarella",
+    "explanation": "Mozzarella is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "mozzarella"
+    ]
+  },
+  {
+    "id": 11529,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit has fuzzy brown skin and bright green flesh?",
+    "answers": [
+      "Pear",
+      "Peach",
+      "Kiwi",
+      "Apple"
+    ],
+    "correctAnswer": "Kiwi",
+    "explanation": "Kiwi is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "kiwi"
+    ]
+  },
+  {
+    "id": 11530,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which soup is traditionally made with seafood and saffron in southern France?",
+    "answers": [
+      "Gazpacho",
+      "Minestrone",
+      "Bisque",
+      "Bouillabaisse"
+    ],
+    "correctAnswer": "Bouillabaisse",
+    "explanation": "Bouillabaisse is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "bouillabaisse"
+    ]
+  },
+  {
+    "id": 11531,
+    "category": "food",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Japanese snack consists of octopus-filled batter balls?",
+    "answers": [
+      "Takoyaki",
+      "Yakitori",
+      "Onigiri",
+      "Tempura"
+    ],
+    "correctAnswer": "Takoyaki",
+    "explanation": "Takoyaki is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "hard",
+      "takoyaki"
+    ]
+  },
+  {
+    "id": 11532,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sweet topping is commonly poured over pancakes?",
+    "answers": [
+      "Mustard",
+      "Syrup",
+      "Ketchup",
+      "Mayonnaise"
+    ],
+    "correctAnswer": "Syrup",
+    "explanation": "Syrup is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "syrup"
+    ]
+  },
+  {
+    "id": 11533,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which pasta dish is traditionally served with pesto sauce?",
+    "answers": [
+      "Ravioli",
+      "Rigatoni",
+      "Trofie",
+      "Orzo"
+    ],
+    "correctAnswer": "Trofie",
+    "explanation": "Trofie is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "trofie"
+    ]
+  },
+  {
+    "id": 11534,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is commonly associated with Thanksgiving pies in the United States?",
+    "answers": [
+      "Banana",
+      "Mango",
+      "Lemon",
+      "Pumpkin"
+    ],
+    "correctAnswer": "Pumpkin",
+    "explanation": "Pumpkin is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "pumpkin"
+    ]
+  },
+  {
+    "id": 11535,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Chinese dish is made with roasted duck and thin pancakes?",
+    "answers": [
+      "Peking duck",
+      "Dim sum",
+      "Kung pao chicken",
+      "Chow mein"
+    ],
+    "correctAnswer": "Peking duck",
+    "explanation": "Peking duck is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "peking-duck"
+    ]
+  },
+  {
+    "id": 11536,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which frozen dessert is made without dairy and often fruit-based?",
+    "answers": [
+      "Gelato",
+      "Sorbet",
+      "Custard",
+      "Cheesecake"
+    ],
+    "correctAnswer": "Sorbet",
+    "explanation": "Sorbet is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "sorbet"
+    ]
+  },
+  {
+    "id": 11537,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which spice is made from dried flower buds and has a strong aromatic flavor?",
+    "answers": [
+      "Paprika",
+      "Turmeric",
+      "Clove",
+      "Cumin"
+    ],
+    "correctAnswer": "Clove",
+    "explanation": "Clove is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "clove"
+    ]
+  },
+  {
+    "id": 11538,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which vegetable is commonly used to make pickles?",
+    "answers": [
+      "Carrot",
+      "Pepper",
+      "Onion",
+      "Cucumber"
+    ],
+    "correctAnswer": "Cucumber",
+    "explanation": "Cucumber is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "cucumber"
+    ]
+  },
+  {
+    "id": 11539,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Middle Eastern dessert is made from shredded filo dough, cheese, and syrup?",
+    "answers": [
+      "Knafeh",
+      "Baklava",
+      "Halva",
+      "Basbousa"
+    ],
+    "correctAnswer": "Knafeh",
+    "explanation": "Knafeh is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "knafeh"
+    ]
+  }
+]

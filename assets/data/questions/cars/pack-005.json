@@ -1,1 +1,3602 @@
-[]
+[
+  {
+    "id": 7001,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #126",
+    "answers": [
+      "911",
+      "Cayman",
+      "944",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7002,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #127",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Front-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7003,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #128",
+    "answers": [
+      "K20",
+      "RB26",
+      "2JZ",
+      "13B"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7004,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #129",
+    "answers": [
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7005,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #130",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "944",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7006,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #131",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7007,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #132",
+    "answers": [
+      "RB26",
+      "13B",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7008,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #133",
+    "answers": [
+      "Rally Finland",
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7009,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #134",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "944",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7010,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #135",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7011,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #136",
+    "answers": [
+      "K20",
+      "13B",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7012,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #137",
+    "answers": [
+      "Rally Finland",
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7013,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #138",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "944",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7014,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #139",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Front-wheel drive",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7015,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #140",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7016,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #141",
+    "answers": [
+      "Rally Finland",
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7017,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #142",
+    "answers": [
+      "911",
+      "Cayman",
+      "918 Spyder",
+      "944"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7018,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #143",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7019,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #144",
+    "answers": [
+      "RB26",
+      "13B",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7020,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #145",
+    "answers": [
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7021,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #146",
+    "answers": [
+      "911",
+      "944",
+      "Cayman",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7022,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #147",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7023,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #148",
+    "answers": [
+      "13B",
+      "K20",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7024,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #149",
+    "answers": [
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7025,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #150",
+    "answers": [
+      "911",
+      "Cayman",
+      "944",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7026,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #151",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Front-wheel drive",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7027,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #152",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7028,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #153",
+    "answers": [
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7029,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #154",
+    "answers": [
+      "911",
+      "944",
+      "918 Spyder",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7030,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #155",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7031,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #156",
+    "answers": [
+      "K20",
+      "13B",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7032,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #157",
+    "answers": [
+      "Rally Finland",
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7033,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #158",
+    "answers": [
+      "911",
+      "944",
+      "918 Spyder",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7034,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #159",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7035,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #160",
+    "answers": [
+      "K20",
+      "RB26",
+      "2JZ",
+      "13B"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7036,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #161",
+    "answers": [
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7037,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #162",
+    "answers": [
+      "911",
+      "944",
+      "Cayman",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7038,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #163",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7039,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #164",
+    "answers": [
+      "RB26",
+      "K20",
+      "2JZ",
+      "13B"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7040,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #165",
+    "answers": [
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7041,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #166",
+    "answers": [
+      "911",
+      "Cayman",
+      "944",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7042,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #167",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Front-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7043,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #168",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7044,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #169",
+    "answers": [
+      "Daytona 500",
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7045,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #170",
+    "answers": [
+      "911",
+      "944",
+      "Cayman",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7046,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #171",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Front-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7047,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #172",
+    "answers": [
+      "K20",
+      "13B",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7048,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #173",
+    "answers": [
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "Rally Finland",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7049,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #174",
+    "answers": [
+      "911",
+      "Cayman",
+      "944",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7050,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #175",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7051,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #176",
+    "answers": [
+      "RB26",
+      "13B",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7052,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #177",
+    "answers": [
+      "Daytona 500",
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7053,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #178",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "944",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7054,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #179",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7055,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #180",
+    "answers": [
+      "K20",
+      "13B",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7056,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #181",
+    "answers": [
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "Rally Finland",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7057,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #182",
+    "answers": [
+      "911",
+      "944",
+      "Cayman",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7058,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #183",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7059,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #184",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7060,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #185",
+    "answers": [
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "Rally Finland",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7061,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #186",
+    "answers": [
+      "911",
+      "944",
+      "Cayman",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7062,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #187",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7063,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #188",
+    "answers": [
+      "RB26",
+      "13B",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7064,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #189",
+    "answers": [
+      "Rally Finland",
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7065,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #190",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "Cayman",
+      "944"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7066,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #191",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7067,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #192",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7068,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #193",
+    "answers": [
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7069,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #194",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "944",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7070,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #195",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7071,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #196",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7072,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #197",
+    "answers": [
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7073,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #198",
+    "answers": [
+      "911",
+      "944",
+      "918 Spyder",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7074,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #199",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7075,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #200",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7076,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #201",
+    "answers": [
+      "Daytona 500",
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7077,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #202",
+    "answers": [
+      "911",
+      "Cayman",
+      "918 Spyder",
+      "944"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7078,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #203",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7079,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #204",
+    "answers": [
+      "RB26",
+      "13B",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7080,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #205",
+    "answers": [
+      "Daytona 500",
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7081,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #206",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "Cayman",
+      "944"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7082,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #207",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7083,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #208",
+    "answers": [
+      "13B",
+      "K20",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7084,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #209",
+    "answers": [
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7085,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #210",
+    "answers": [
+      "911",
+      "Cayman",
+      "944",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7086,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #211",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7087,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #212",
+    "answers": [
+      "RB26",
+      "K20",
+      "2JZ",
+      "13B"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7088,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #213",
+    "answers": [
+      "Daytona 500",
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7089,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #214",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "Cayman",
+      "944"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7090,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #215",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7091,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #216",
+    "answers": [
+      "K20",
+      "13B",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7092,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #217",
+    "answers": [
+      "Daytona 500",
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7093,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #218",
+    "answers": [
+      "911",
+      "944",
+      "918 Spyder",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7094,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #219",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7095,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #220",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7096,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #221",
+    "answers": [
+      "Rally Finland",
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7097,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #222",
+    "answers": [
+      "911",
+      "944",
+      "918 Spyder",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7098,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #223",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Front-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7099,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #224",
+    "answers": [
+      "13B",
+      "K20",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7100,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #225",
+    "answers": [
+      "Rally Finland",
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7101,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #226",
+    "answers": [
+      "911",
+      "944",
+      "Cayman",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7102,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #227",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7103,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #228",
+    "answers": [
+      "RB26",
+      "13B",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7104,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #229",
+    "answers": [
+      "Rally Finland",
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7105,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #230",
+    "answers": [
+      "911",
+      "944",
+      "Cayman",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7106,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #231",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Front-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7107,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #232",
+    "answers": [
+      "RB26",
+      "K20",
+      "2JZ",
+      "13B"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7108,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #233",
+    "answers": [
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7109,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #234",
+    "answers": [
+      "911",
+      "944",
+      "918 Spyder",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7110,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #235",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7111,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #236",
+    "answers": [
+      "RB26",
+      "K20",
+      "2JZ",
+      "13B"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7112,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #237",
+    "answers": [
+      "Daytona 500",
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7113,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #238",
+    "answers": [
+      "911",
+      "944",
+      "918 Spyder",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7114,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #239",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7115,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #240",
+    "answers": [
+      "K20",
+      "RB26",
+      "2JZ",
+      "13B"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7116,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #241",
+    "answers": [
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7117,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #242",
+    "answers": [
+      "911",
+      "Cayman",
+      "918 Spyder",
+      "944"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7118,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #243",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7119,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #244",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7120,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #245",
+    "answers": [
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7121,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #246",
+    "answers": [
+      "911",
+      "Cayman",
+      "944",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7122,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #247",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7123,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #248",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7124,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #249",
+    "answers": [
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7125,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #250",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "Cayman",
+      "944"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7126,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #251",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7127,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #252",
+    "answers": [
+      "RB26",
+      "13B",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7128,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #253",
+    "answers": [
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7129,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #254",
+    "answers": [
+      "911",
+      "944",
+      "918 Spyder",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7130,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #255",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Front-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7131,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #256",
+    "answers": [
+      "K20",
+      "13B",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7132,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #257",
+    "answers": [
+      "Daytona 500",
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7133,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #258",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "944",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7134,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #259",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7135,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #260",
+    "answers": [
+      "13B",
+      "K20",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7136,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #261",
+    "answers": [
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7137,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #262",
+    "answers": [
+      "911",
+      "944",
+      "Cayman",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7138,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #263",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7139,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #264",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7140,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #265",
+    "answers": [
+      "Rally Finland",
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7141,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #266",
+    "answers": [
+      "911",
+      "Cayman",
+      "944",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7142,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #267",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7143,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #268",
+    "answers": [
+      "RB26",
+      "13B",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7144,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #269",
+    "answers": [
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7145,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #270",
+    "answers": [
+      "911",
+      "944",
+      "Cayman",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7146,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #271",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7147,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #272",
+    "answers": [
+      "RB26",
+      "13B",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7148,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #273",
+    "answers": [
+      "Rally Finland",
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7149,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #274",
+    "answers": [
+      "911",
+      "Cayman",
+      "944",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7150,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #275",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7151,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #276",
+    "answers": [
+      "13B",
+      "K20",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7152,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #277",
+    "answers": [
+      "Daytona 500",
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7153,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #278",
+    "answers": [
+      "911",
+      "Cayman",
+      "918 Spyder",
+      "944"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7154,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #279",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Front-wheel drive",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7155,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #280",
+    "answers": [
+      "K20",
+      "13B",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7156,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #281",
+    "answers": [
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7157,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #282",
+    "answers": [
+      "911",
+      "944",
+      "Cayman",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7158,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #283",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7159,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #284",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7160,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #285",
+    "answers": [
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7161,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #286",
+    "answers": [
+      "911",
+      "Cayman",
+      "944",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7162,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #287",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Front-wheel drive",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7163,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #288",
+    "answers": [
+      "K20",
+      "RB26",
+      "2JZ",
+      "13B"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7164,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #289",
+    "answers": [
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "Rally Finland",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7165,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #290",
+    "answers": [
+      "911",
+      "Cayman",
+      "944",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7166,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #291",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7167,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #292",
+    "answers": [
+      "K20",
+      "RB26",
+      "2JZ",
+      "13B"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7168,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #293",
+    "answers": [
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7169,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #294",
+    "answers": [
+      "911",
+      "944",
+      "918 Spyder",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7170,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #295",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7171,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #296",
+    "answers": [
+      "RB26",
+      "K20",
+      "2JZ",
+      "13B"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7172,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #297",
+    "answers": [
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "Rally Finland",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7173,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #298",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "944",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7174,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #299",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Front-wheel drive",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7175,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #300",
+    "answers": [
+      "RB26",
+      "13B",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7176,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #301",
+    "answers": [
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7177,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #302",
+    "answers": [
+      "911",
+      "944",
+      "Cayman",
+      "918 Spyder"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7178,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #303",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7179,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #304",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7180,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #305",
+    "answers": [
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7181,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #306",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "944",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7182,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #307",
+    "answers": [
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7183,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #308",
+    "answers": [
+      "13B",
+      "RB26",
+      "2JZ",
+      "K20"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7184,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #309",
+    "answers": [
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7185,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #310",
+    "answers": [
+      "911",
+      "Cayman",
+      "918 Spyder",
+      "944"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7186,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #311",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7187,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #312",
+    "answers": [
+      "RB26",
+      "K20",
+      "2JZ",
+      "13B"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7188,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #313",
+    "answers": [
+      "Daytona 500",
+      "Monaco Grand Prix",
+      "Rally Finland",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7189,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #314",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "944",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7190,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #315",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Mid-engine",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7191,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #316",
+    "answers": [
+      "13B",
+      "K20",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7192,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #317",
+    "answers": [
+      "Daytona 500",
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7193,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche model became famous through the Singer restoration program? #318",
+    "answers": [
+      "911",
+      "Cayman",
+      "918 Spyder",
+      "944"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7194,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #319",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Mid-engine"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7195,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #320",
+    "answers": [
+      "K20",
+      "13B",
+      "2JZ",
+      "RB26"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7196,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #321",
+    "answers": [
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "Rally Finland",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7197,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model became famous through the Singer restoration program? #322",
+    "answers": [
+      "911",
+      "944",
+      "918 Spyder",
+      "Cayman"
+    ],
+    "correctAnswer": "911",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7198,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What drivetrain layout is commonly associated with Subaru performance cars? #323",
+    "answers": [
+      "Mid-engine",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Front-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7199,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which legendary Toyota engine powers many Supra Mk4 builds? #324",
+    "answers": [
+      "K20",
+      "RB26",
+      "2JZ",
+      "13B"
+    ],
+    "correctAnswer": "2JZ",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  },
+  {
+    "id": 7200,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually at Circuit de la Sarthe? #325",
+    "answers": [
+      "Rally Finland",
+      "Monaco Grand Prix",
+      "Daytona 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "cars"
+    ]
+  }
+]

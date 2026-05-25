@@ -65,7 +65,38 @@ export const COSMETIC_UI_ASSETS: Record<string, ImageSourcePropType> = {
   "vip_store_hero_01": require("../../assets/cosmetics/system/vip_store_hero_01.webp"),
 };
 
+export const STORE_HERO_ASSETS: Record<string, ImageSourcePropType> = {
+  "store_bazaar_hero": require("../../assets/images/store/store_bazaar_hero.webp"),
+  "cosmetics_collection_hero": require("../../assets/images/store/cosmetics_collection_hero.webp"),
+  "vip_prestige_hero": require("../../assets/images/store/vip_prestige_hero.webp"),
+  "rarity_legendary_surface": require("../../assets/images/store/rarity_legendary_surface.webp"),
+  "vip_vault_overlay": require("../../assets/images/store/vip_vault_overlay.webp"),
+  "economy_engine_hero": require("../../assets/images/store/economy_engine_hero.webp"),
+  "gems_vault_hero": require("../../assets/images/store/gems_vault_hero.webp"),
+  "session_bundles_hero": require("../../assets/images/store/session_bundles_hero.webp"),
+  "boost_lab_hero": require("../../assets/images/store/boost_lab_hero.webp"),
+  "cosmetics_avatar_hero": require("../../assets/images/store/cosmetics_avatar_hero.webp"),
+  "cosmetics_frames_hero": require("../../assets/images/store/cosmetics_frames_hero.webp"),
+  "cosmetics_backgrounds_hero": require("../../assets/images/store/cosmetics_backgrounds_hero.webp"),
+  "cosmetics_badges_hero": require("../../assets/images/store/cosmetics_badges_hero.webp"),
+  "cosmetics_streaks_hero": require("../../assets/images/store/cosmetics_streaks_hero.webp"),
+  "cosmetics_banners_hero": require("../../assets/images/store/cosmetics_banners_hero.webp"),
+  "cosmetics_trails_hero": require("../../assets/images/store/cosmetics_trails_hero.webp"),
+  "featured_cosmetics_hero": require("../../assets/images/store/featured_cosmetics_hero.webp"),
+  "seasonal_cosmetics_hero": require("../../assets/images/store/seasonal_cosmetics_hero.webp"),
+  "tournament_cosmetics_hero": require("../../assets/images/store/tournament_cosmetics_hero.webp"),
+};
+
+
 export function getCosmeticAssetSource(key?: string | null): ImageSourcePropType | null {
   if (!key) return null;
   return COSMETIC_ASSETS[key] ?? COSMETIC_UI_ASSETS[key] ?? null;
 }
+
+export function getStoreHeroAsset(key?: string | null): ImageSourcePropType | null {
+  if (!key) return null;
+  return STORE_HERO_ASSETS[key] ?? null;
+}
+
+
+

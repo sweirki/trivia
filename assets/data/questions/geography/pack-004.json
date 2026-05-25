@@ -1,1 +1,1002 @@
-[]
+[
+  {
+    "id": 19001,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital city of Turkey?",
+    "answers": [
+      "Ankara",
+      "Istanbul",
+      "Izmir",
+      "Antalya"
+    ],
+    "correctAnswer": "Ankara",
+    "explanation": "Ankara is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "medium",
+      "ankara"
+    ]
+  },
+  {
+    "id": 19002,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which ocean is west of the United States?",
+    "answers": [
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ],
+    "correctAnswer": "Pacific Ocean",
+    "explanation": "Pacific Ocean is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "pacific-ocean"
+    ]
+  },
+  {
+    "id": 19003,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital city of Poland?",
+    "answers": [
+      "Kraków",
+      "Prague",
+      "Warsaw",
+      "Budapest"
+    ],
+    "correctAnswer": "Warsaw",
+    "explanation": "Warsaw is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "easy",
+      "warsaw"
+    ]
+  },
+  {
+    "id": 19004,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which continent is Peru located on?",
+    "answers": [
+      "North America",
+      "Europe",
+      "Asia",
+      "South America"
+    ],
+    "correctAnswer": "South America",
+    "explanation": "South America is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "south-america"
+    ]
+  },
+  {
+    "id": 19005,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital city of Saudi Arabia?",
+    "answers": [
+      "Riyadh",
+      "Dubai",
+      "Doha",
+      "Jeddah"
+    ],
+    "correctAnswer": "Riyadh",
+    "explanation": "Riyadh is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "medium",
+      "riyadh"
+    ]
+  },
+  {
+    "id": 19006,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country is home to the city of Cape Town?",
+    "answers": [
+      "Kenya",
+      "South Africa",
+      "Nigeria",
+      "Morocco"
+    ],
+    "correctAnswer": "South Africa",
+    "explanation": "South Africa is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "south-africa"
+    ]
+  },
+  {
+    "id": 19007,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital city of Denmark?",
+    "answers": [
+      "Stockholm",
+      "Oslo",
+      "Copenhagen",
+      "Helsinki"
+    ],
+    "correctAnswer": "Copenhagen",
+    "explanation": "Copenhagen is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "easy",
+      "copenhagen"
+    ]
+  },
+  {
+    "id": 19008,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which river is the longest in the world by most modern measurements?",
+    "answers": [
+      "Amazon",
+      "Yangtze",
+      "Mississippi",
+      "Nile"
+    ],
+    "correctAnswer": "Nile",
+    "explanation": "Nile is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "nile"
+    ]
+  },
+  {
+    "id": 19009,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country has the city of Athens?",
+    "answers": [
+      "Greece",
+      "Italy",
+      "Turkey",
+      "Cyprus"
+    ],
+    "correctAnswer": "Greece",
+    "explanation": "Greece is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "greece"
+    ]
+  },
+  {
+    "id": 19010,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital city of Chile?",
+    "answers": [
+      "Lima",
+      "Santiago",
+      "Bogotá",
+      "Buenos Aires"
+    ],
+    "correctAnswer": "Santiago",
+    "explanation": "Santiago is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "medium",
+      "santiago"
+    ]
+  },
+  {
+    "id": 19011,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which continent is Morocco located on?",
+    "answers": [
+      "Asia",
+      "Europe",
+      "Africa",
+      "South America"
+    ],
+    "correctAnswer": "Africa",
+    "explanation": "Africa is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "africa"
+    ]
+  },
+  {
+    "id": 19012,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is home to the city of Marrakesh?",
+    "answers": [
+      "Egypt",
+      "Tunisia",
+      "Jordan",
+      "Morocco"
+    ],
+    "correctAnswer": "Morocco",
+    "explanation": "Morocco is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "morocco"
+    ]
+  },
+  {
+    "id": 19013,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital city of Portugal?",
+    "answers": [
+      "Lisbon",
+      "Porto",
+      "Madrid",
+      "Barcelona"
+    ],
+    "correctAnswer": "Lisbon",
+    "explanation": "Lisbon is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "easy",
+      "lisbon"
+    ]
+  },
+  {
+    "id": 19014,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sea lies between Saudi Arabia and northeast Africa?",
+    "answers": [
+      "Black Sea",
+      "Red Sea",
+      "Arabian Sea",
+      "Mediterranean Sea"
+    ],
+    "correctAnswer": "Red Sea",
+    "explanation": "Red Sea is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "red-sea"
+    ]
+  },
+  {
+    "id": 19015,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital city of Colombia?",
+    "answers": [
+      "Lima",
+      "Quito",
+      "Bogotá",
+      "Caracas"
+    ],
+    "correctAnswer": "Bogotá",
+    "explanation": "Bogotá is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "medium",
+      "bogot"
+    ]
+  },
+  {
+    "id": 19016,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which country contains the region of Transylvania?",
+    "answers": [
+      "Hungary",
+      "Bulgaria",
+      "Serbia",
+      "Romania"
+    ],
+    "correctAnswer": "Romania",
+    "explanation": "Romania is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "hard",
+      "romania"
+    ]
+  },
+  {
+    "id": 19017,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which continent is Germany located on?",
+    "answers": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "North America"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Europe is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "europe"
+    ]
+  },
+  {
+    "id": 19018,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country has the city of Auckland?",
+    "answers": [
+      "Australia",
+      "New Zealand",
+      "Canada",
+      "Ireland"
+    ],
+    "correctAnswer": "New Zealand",
+    "explanation": "New Zealand is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "new-zealand"
+    ]
+  },
+  {
+    "id": 19019,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital city of Egypt?",
+    "answers": [
+      "Alexandria",
+      "Giza",
+      "Cairo",
+      "Riyadh"
+    ],
+    "correctAnswer": "Cairo",
+    "explanation": "Cairo is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "easy",
+      "cairo"
+    ]
+  },
+  {
+    "id": 19020,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which continent contains the country Nigeria?",
+    "answers": [
+      "Asia",
+      "Europe",
+      "South America",
+      "Africa"
+    ],
+    "correctAnswer": "Africa",
+    "explanation": "Africa is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "africa"
+    ]
+  },
+  {
+    "id": 19021,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country is home to the city of Mumbai?",
+    "answers": [
+      "India",
+      "Pakistan",
+      "Bangladesh",
+      "Nepal"
+    ],
+    "correctAnswer": "India",
+    "explanation": "India is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "india"
+    ]
+  },
+  {
+    "id": 19022,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital city of Hungary?",
+    "answers": [
+      "Warsaw",
+      "Budapest",
+      "Prague",
+      "Vienna"
+    ],
+    "correctAnswer": "Budapest",
+    "explanation": "Budapest is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "medium",
+      "budapest"
+    ]
+  },
+  {
+    "id": 19023,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which continent is Mexico located on?",
+    "answers": [
+      "South America",
+      "Europe",
+      "North America",
+      "Asia"
+    ],
+    "correctAnswer": "North America",
+    "explanation": "North America is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "north-america"
+    ]
+  },
+  {
+    "id": 19024,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is home to the city of Reykjavik?",
+    "answers": [
+      "Norway",
+      "Finland",
+      "Sweden",
+      "Iceland"
+    ],
+    "correctAnswer": "Iceland",
+    "explanation": "Iceland is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "iceland"
+    ]
+  },
+  {
+    "id": 19025,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital city of South Africa’s legislative branch?",
+    "answers": [
+      "Cape Town",
+      "Pretoria",
+      "Johannesburg",
+      "Durban"
+    ],
+    "correctAnswer": "Cape Town",
+    "explanation": "Cape Town is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "easy",
+      "cape-town"
+    ]
+  },
+  {
+    "id": 19026,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country is home to the city of Budapest?",
+    "answers": [
+      "Romania",
+      "Hungary",
+      "Austria",
+      "Poland"
+    ],
+    "correctAnswer": "Hungary",
+    "explanation": "Hungary is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "hungary"
+    ]
+  },
+  {
+    "id": 19027,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which lake is the largest freshwater lake by surface area?",
+    "answers": [
+      "Lake Victoria",
+      "Lake Baikal",
+      "Lake Superior",
+      "Caspian Sea"
+    ],
+    "correctAnswer": "Lake Superior",
+    "explanation": "Lake Superior is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "lake-superior"
+    ]
+  },
+  {
+    "id": 19028,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital city of Belgium?",
+    "answers": [
+      "Amsterdam",
+      "Antwerp",
+      "Luxembourg",
+      "Brussels"
+    ],
+    "correctAnswer": "Brussels",
+    "explanation": "Brussels is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "easy",
+      "brussels"
+    ]
+  },
+  {
+    "id": 19029,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country has the largest land area in the world?",
+    "answers": [
+      "Russia",
+      "Canada",
+      "China",
+      "United States"
+    ],
+    "correctAnswer": "Russia",
+    "explanation": "Russia is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "russia"
+    ]
+  },
+  {
+    "id": 19030,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which continent is Saudi Arabia located on?",
+    "answers": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Australia"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "Asia is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "asia"
+    ]
+  },
+  {
+    "id": 19031,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital city of Peru?",
+    "answers": [
+      "Santiago",
+      "Bogotá",
+      "Lima",
+      "Quito"
+    ],
+    "correctAnswer": "Lima",
+    "explanation": "Lima is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "medium",
+      "lima"
+    ]
+  },
+  {
+    "id": 19032,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country is famous for the city of Kraków?",
+    "answers": [
+      "Czech Republic",
+      "Hungary",
+      "Romania",
+      "Poland"
+    ],
+    "correctAnswer": "Poland",
+    "explanation": "Poland is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "poland"
+    ]
+  },
+  {
+    "id": 19033,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which ocean borders the eastern coast of the United States?",
+    "answers": [
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ],
+    "correctAnswer": "Atlantic Ocean",
+    "explanation": "Atlantic Ocean is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "atlantic-ocean"
+    ]
+  },
+  {
+    "id": 19034,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital city of Austria?",
+    "answers": [
+      "Salzburg",
+      "Vienna",
+      "Prague",
+      "Budapest"
+    ],
+    "correctAnswer": "Vienna",
+    "explanation": "Vienna is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "easy",
+      "vienna"
+    ]
+  },
+  {
+    "id": 19035,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is home to the ancient city of Petra?",
+    "answers": [
+      "Egypt",
+      "Israel",
+      "Jordan",
+      "Turkey"
+    ],
+    "correctAnswer": "Jordan",
+    "explanation": "Jordan is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "jordan"
+    ]
+  },
+  {
+    "id": 19036,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which continent is Chile located on?",
+    "answers": [
+      "North America",
+      "Europe",
+      "Asia",
+      "South America"
+    ],
+    "correctAnswer": "South America",
+    "explanation": "South America is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "south-america"
+    ]
+  },
+  {
+    "id": 19037,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital city of Iceland?",
+    "answers": [
+      "Reykjavik",
+      "Oslo",
+      "Helsinki",
+      "Copenhagen"
+    ],
+    "correctAnswer": "Reykjavik",
+    "explanation": "Reykjavik is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "medium",
+      "reykjavik"
+    ]
+  },
+  {
+    "id": 19038,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country has the city of Casablanca?",
+    "answers": [
+      "Tunisia",
+      "Morocco",
+      "Algeria",
+      "Egypt"
+    ],
+    "correctAnswer": "Morocco",
+    "explanation": "Morocco is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "morocco"
+    ]
+  },
+  {
+    "id": 19039,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which mountain range contains Mont Blanc?",
+    "answers": [
+      "Andes",
+      "Rockies",
+      "Alps",
+      "Himalayas"
+    ],
+    "correctAnswer": "Alps",
+    "explanation": "Alps is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "alps"
+    ]
+  },
+  {
+    "id": 19040,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is spread across both Europe and Asia?",
+    "answers": [
+      "France",
+      "Germany",
+      "Portugal",
+      "Turkey"
+    ],
+    "correctAnswer": "Turkey",
+    "explanation": "Turkey is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "turkey"
+    ]
+  },
+  {
+    "id": 19041,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which continent is France located on?",
+    "answers": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "Australia"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Europe is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "europe"
+    ]
+  },
+  {
+    "id": 19042,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital city of Nigeria?",
+    "answers": [
+      "Lagos",
+      "Abuja",
+      "Nairobi",
+      "Accra"
+    ],
+    "correctAnswer": "Abuja",
+    "explanation": "Abuja is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "medium",
+      "abuja"
+    ]
+  },
+  {
+    "id": 19043,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which river flows through the city of Budapest?",
+    "answers": [
+      "Rhine",
+      "Seine",
+      "Danube",
+      "Volga"
+    ],
+    "correctAnswer": "Danube",
+    "explanation": "Danube is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "danube"
+    ]
+  },
+  {
+    "id": 19044,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country is famous for the city of Naples?",
+    "answers": [
+      "Spain",
+      "France",
+      "Portugal",
+      "Italy"
+    ],
+    "correctAnswer": "Italy",
+    "explanation": "Italy is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "italy"
+    ]
+  },
+  {
+    "id": 19045,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital city of Vietnam?",
+    "answers": [
+      "Hanoi",
+      "Ho Chi Minh City",
+      "Bangkok",
+      "Phnom Penh"
+    ],
+    "correctAnswer": "Hanoi",
+    "explanation": "Hanoi is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "medium",
+      "hanoi"
+    ]
+  },
+  {
+    "id": 19046,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which continent is Thailand located on?",
+    "answers": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "Australia"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "Asia is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "asia"
+    ]
+  },
+  {
+    "id": 19047,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country has the most islands in the world?",
+    "answers": [
+      "Indonesia",
+      "Canada",
+      "Sweden",
+      "Philippines"
+    ],
+    "correctAnswer": "Sweden",
+    "explanation": "Sweden is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "sweden"
+    ]
+  },
+  {
+    "id": 19048,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital city of Pakistan?",
+    "answers": [
+      "Karachi",
+      "Lahore",
+      "Dhaka",
+      "Islamabad"
+    ],
+    "correctAnswer": "Islamabad",
+    "explanation": "Islamabad is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "geography",
+      "easy",
+      "islamabad"
+    ]
+  },
+  {
+    "id": 19049,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is home to the city of Dubrovnik?",
+    "answers": [
+      "Croatia",
+      "Serbia",
+      "Greece",
+      "Albania"
+    ],
+    "correctAnswer": "Croatia",
+    "explanation": "Croatia is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "medium",
+      "croatia"
+    ]
+  },
+  {
+    "id": 19050,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which continent is Norway located on?",
+    "answers": [
+      "Asia",
+      "Europe",
+      "North America",
+      "Africa"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Europe is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "europe"
+    ]
+  }
+]

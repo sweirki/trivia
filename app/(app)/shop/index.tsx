@@ -24,3 +24,5 @@ const styles = StyleSheet.create({
   text: { color: "#FFD34D", fontSize: 16, fontWeight: "900" },
 });
 
+
+

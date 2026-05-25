@@ -13,9 +13,15 @@ import { router, useLocalSearchParams } from "expo-router";
 
 import { useArenaStore } from "@/arena/store/useArenaStore";
 import { useArenaRankSystem } from "@/arena/store/useArenaRankSystem";
+import type { RankedIntegrityBreakdown } from "@/arena/store/useArenaRankSystem";
 import { useRankedHistoryStore } from "@/arena/store/useRankedHistoryStore";
+import { useArenaRivalHistoryStore } from "@/arena/store/useArenaRivalHistoryStore";
 import { useArenaRewardsEngine } from "@/arena/store/useArenaRewardsEngine";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
+import {
+  getArenaSeasonReward,
+  getRankLabel,
+} from "@/arena/season/arenaSeasonPrestige";
 import AnimatedProgressBar from "@/components/AnimatedProgressBar";
 import {
   buildRankedPrestigeState,
@@ -24,7 +30,7 @@ import {
 
 type CompetitiveResult = {
   mode: "ranked";
-  outcome: "win" | "loss";
+  outcome: "win" | "loss" | "draw";
   score: number;
   correctAnswers: number;
   questionsAnswered: number;
@@ -38,13 +44,26 @@ const reportCompetitiveResult = (_result: CompetitiveResult) => {};
 
 export default function RankedResult() {
   const { daily } = useLocalSearchParams<{ daily?: string }>();
-  const { player, opponent, resetArena } = useArenaStore();
-  const { sr, rank, winStreak, addWin, addLoss } = useArenaRankSystem();
+  const { player, opponent, questions, resetArena } = useArenaStore();
+  const {
+    sr,
+    rank,
+    winStreak,
+    highestSR,
+    highestRank,
+    addWin,
+    addLoss,
+    addDraw,
+  } = useArenaRankSystem();
   const addMatch = useRankedHistoryStore((state) => state.addMatch);
   const rewardRanked = useArenaRewardsEngine((state) => state.rewardRanked);
   const previewRanked = useArenaRewardsEngine((state) => state.previewRanked);
-  const markTournamentPlayed = useTournamentStore((state) => state.markTournamentPlayed);
-  const lastDailyPlayedAt = useTournamentStore((state) => state.lastDailyPlayedAt);
+  const markTournamentPlayed = useTournamentStore(
+    (state) => state.markTournamentPlayed,
+  );
+  const lastDailyPlayedAt = useTournamentStore(
+    (state) => state.lastDailyPlayedAt,
+  );
 
   const playerScore = player?.score ?? 0;
   const opponentScore = opponent?.score ?? 0;
@@ -52,13 +71,30 @@ export default function RankedResult() {
   const isDraw = playerScore === opponentScore;
   const srBefore = sr;
   const rankBefore = rank;
-  const rewardPreview = useMemo(() => previewRanked({ didWin, playerScore }), [didWin, playerScore, previewRanked]);
+  const questionsAnswered = Math.max(1, questions.length || 7);
+  const rankedContext = useMemo(
+    () => ({ playerScore, opponentScore, questionsAnswered }),
+    [opponentScore, playerScore, questionsAnswered],
+  );
+  const rewardPreview = useMemo(
+    () => previewRanked({ didWin, playerScore }),
+    [didWin, playerScore, previewRanked],
+  );
+  const seasonReward = useMemo(
+    () => getArenaSeasonReward(highestSR),
+    [highestSR],
+  );
 
   const [srAfter, setSrAfter] = useState(sr);
   const [rankAfter, setRankAfter] = useState(rank);
   const [streakAfter, setStreakAfter] = useState(winStreak);
   const [srDisplay, setSrDisplay] = useState(0);
-  const [rewardApplied, setRewardApplied] = useState({ coins: 0, arenaTokens: 0 });
+  const [rewardApplied, setRewardApplied] = useState({
+    coins: 0,
+    arenaTokens: 0,
+  });
+  const [integrityBreakdown, setIntegrityBreakdown] =
+    useState<RankedIntegrityBreakdown | null>(null);
 
   const srAnim = useRef(new Animated.Value(0)).current;
   const heroPulse = useRef(new Animated.Value(1)).current;
@@ -68,11 +104,18 @@ export default function RankedResult() {
     if (appliedRef.current) return;
     appliedRef.current = true;
 
-    if (didWin) {
-      addWin(opponent?.sr ?? srBefore);
-    } else {
-      addLoss(opponent?.sr ?? srBefore);
-    }
+    const opponentSR = opponent?.sr ?? srBefore;
+    const breakdown = didWin
+      ? addWin(opponentSR, rankedContext)
+      : isDraw
+        ? addDraw(opponentSR, rankedContext)
+        : addLoss(
+            opponentSR,
+            Math.abs(playerScore - opponentScore) <= 1,
+            rankedContext,
+          );
+
+    setIntegrityBreakdown(breakdown);
 
     const updatedRankState = useArenaRankSystem.getState();
     const updatedSR = updatedRankState.sr;
@@ -107,7 +150,7 @@ export default function RankedResult() {
     ]).start();
 
     addMatch({
-      result: didWin ? "win" : "loss",
+      result: didWin ? "win" : isDraw ? "draw" : "loss",
       playerScore,
       opponentScore,
       srBefore,
@@ -115,9 +158,21 @@ export default function RankedResult() {
       srDelta,
     });
 
+    useArenaRivalHistoryStore.getState().recordMatch({
+      rivalId: opponent?.id,
+      rivalName: opponent?.name ?? "Arena Rival",
+      rivalTitle: opponent?.title,
+      rivalStyle: opponent?.style,
+      outcome: didWin ? "win" : isDraw ? "draw" : "loss",
+      playerScore,
+      rivalScore: opponentScore,
+      srDelta,
+    });
+
     const today = new Date().toDateString();
     const alreadyClaimedDailyArena =
-      !!lastDailyPlayedAt && new Date(lastDailyPlayedAt).toDateString() === today;
+      !!lastDailyPlayedAt &&
+      new Date(lastDailyPlayedAt).toDateString() === today;
 
     if (daily === "1" && !alreadyClaimedDailyArena) {
       const reward = rewardRanked({ didWin, playerScore });
@@ -130,10 +185,10 @@ export default function RankedResult() {
 
     reportCompetitiveResult({
       mode: "ranked",
-      outcome: didWin ? "win" : "loss",
+      outcome: didWin ? "win" : isDraw ? "draw" : "loss",
       score: playerScore,
       correctAnswers: playerScore,
-      questionsAnswered: Math.max(playerScore + opponentScore, 1),
+      questionsAnswered,
       durationSec: 0,
     });
 
@@ -142,11 +197,15 @@ export default function RankedResult() {
     addLoss,
     addMatch,
     addWin,
+    addDraw,
     didWin,
+    isDraw,
     heroPulse,
     opponent?.sr,
     opponentScore,
     playerScore,
+    questionsAnswered,
+    rankedContext,
     rewardRanked,
     daily,
     lastDailyPlayedAt,
@@ -168,8 +227,10 @@ export default function RankedResult() {
         rankBefore,
         rankAfter,
         winStreak: streakAfter,
+        shieldConsumed: integrityBreakdown?.shieldConsumed,
+        promotionMatch: integrityBreakdown?.promotionMatch,
       }),
-    [didWin, srBefore, srAfter, rankBefore, rankAfter, streakAfter]
+    [didWin, srBefore, srAfter, rankBefore, rankAfter, streakAfter, integrityBreakdown],
   );
 
   const resultTitle = isDraw
@@ -188,13 +249,17 @@ export default function RankedResult() {
 
   const pressureMessage = prestige.promoted
     ? "Promotion secured. Your new division is unlocked — now defend it."
-    : prestige.promotionPressure
-      ? "Promotion is close. One strong run can push you over the line."
-      : prestige.dangerZone
-        ? "Danger zone active. Your next win matters."
-        : didWin
-          ? "Momentum secured. Stack SR before the season reset."
-          : "Recover quickly. One clean win can stop the slide.";
+    : prestige.shieldConsumed
+      ? "Your shield absorbed the demotion. The next match decides whether you stabilize."
+      : prestige.oneWinAway
+        ? "One win away. A clean match can unlock the next division."
+        : prestige.promotionPressure
+          ? "Promotion is close. One strong run can push you over the line."
+          : prestige.demotionDanger
+            ? "Demotion danger active. Your next win matters."
+            : didWin
+              ? "Momentum secured. Stack SR before the season reset."
+              : "Recover quickly. One clean win can stop the slide.";
 
   const continueLabel = didWin
     ? "Continue Climb"
@@ -208,7 +273,11 @@ export default function RankedResult() {
   };
 
   return (
-    <ScrollView style={styles.container} contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
+    <ScrollView
+      style={styles.container}
+      contentContainerStyle={styles.content}
+      showsVerticalScrollIndicator={false}
+    >
       <Animated.View style={{ transform: [{ scale: heroPulse }] }}>
         <ImageBackground
           source={didWin || isDraw ? RANKED_VICTORY_HERO : RANKED_DEFEAT_HERO}
@@ -218,7 +287,19 @@ export default function RankedResult() {
         >
           <LinearGradient
             pointerEvents="none"
-            colors={didWin || isDraw ? ["rgba(3,8,18,0.08)", "rgba(3,8,18,0.54)", "rgba(3,8,18,0.90)"] : ["rgba(32,6,12,0.12)", "rgba(3,8,18,0.62)", "rgba(3,8,18,0.92)"]}
+            colors={
+              didWin || isDraw
+                ? [
+                    "rgba(3,8,18,0.08)",
+                    "rgba(3,8,18,0.54)",
+                    "rgba(3,8,18,0.90)",
+                  ]
+                : [
+                    "rgba(32,6,12,0.12)",
+                    "rgba(3,8,18,0.62)",
+                    "rgba(3,8,18,0.92)",
+                  ]
+            }
             locations={[0, 0.48, 1]}
             style={StyleSheet.absoluteFillObject}
           />
@@ -228,12 +309,36 @@ export default function RankedResult() {
           <Text style={styles.resultSubtitle}>{resultSubtitle}</Text>
 
           <View style={styles.badgeRow}>
-            {prestige.promoted && <Text style={styles.goldBadge}>PROMOTED</Text>}
-            {prestige.promotionPressure && (
+            {prestige.promoted && (
+              <Text style={styles.goldBadge}>PROMOTED</Text>
+            )}
+            {prestige.promotionMatch && !prestige.promoted && (
+              <Text style={styles.goldBadge}>PROMOTION MATCH</Text>
+            )}
+            {prestige.oneWinAway && !prestige.promoted && (
+              <Text style={styles.goldBadge}>ONE WIN AWAY</Text>
+            )}
+            {prestige.promotionPressure && !prestige.oneWinAway && (
               <Text style={styles.goldBadge}>PROMOTION NEAR</Text>
             )}
-            {prestige.dangerZone && <Text style={styles.redBadge}>DANGER ZONE</Text>}
-            {streakAfter >= 2 && <Text style={styles.greenBadge}>{streakAfter} STREAK</Text>}
+            {prestige.dangerZone && (
+              <Text style={styles.redBadge}>DANGER ZONE</Text>
+            )}
+            {streakAfter >= 2 && (
+              <Text style={styles.greenBadge}>{streakAfter} STREAK</Text>
+            )}
+            {integrityBreakdown?.perfectMatch && (
+              <Text style={styles.cyanBadge}>PERFECT</Text>
+            )}
+            {integrityBreakdown?.closeMatch && !didWin && (
+              <Text style={styles.cyanBadge}>CLOSE MATCH</Text>
+            )}
+            {integrityBreakdown?.shieldConsumed && (
+              <Text style={styles.cyanBadge}>SHIELD USED</Text>
+            )}
+            {integrityBreakdown?.lowRankProtection && (
+              <Text style={styles.cyanBadge}>LOSS PROTECTED</Text>
+            )}
           </View>
         </ImageBackground>
       </Animated.View>
@@ -280,6 +385,34 @@ export default function RankedResult() {
         </View>
       </View>
 
+      {integrityBreakdown ? (
+        <View style={styles.integrityPanel}>
+          <Text style={styles.panelEyebrow}>SR BREAKDOWN</Text>
+          {integrityBreakdown.reasons.map((reason) => (
+            <View key={`${reason.label}-${reason.sr}`} style={styles.reasonRow}>
+              <Text style={styles.reasonLabel}>{reason.label}</Text>
+              <Text
+                style={[
+                  styles.reasonDelta,
+                  reason.tone === "bad"
+                    ? styles.reasonBad
+                    : reason.tone === "good"
+                      ? styles.reasonGood
+                      : styles.reasonNeutral,
+                ]}
+              >
+                {reason.sr > 0
+                  ? `+${reason.sr}`
+                  : reason.sr < 0
+                    ? reason.sr
+                    : "0"}{" "}
+                SR
+              </Text>
+            </View>
+          ))}
+        </View>
+      ) : null}
+
       <View style={styles.panel}>
         <View style={styles.rowBetween}>
           <View style={{ flex: 1 }}>
@@ -321,20 +454,66 @@ export default function RankedResult() {
         />
       </View>
 
+      <View
+        style={[
+          styles.promotionPanel,
+          prestige.promoted && styles.promotionPanelHot,
+          prestige.shieldConsumed && styles.promotionPanelShield,
+        ]}
+      >
+        <Text style={styles.panelEyebrow}>PROMOTION TRACK</Text>
+        <Text style={styles.panelTitle}>{prestige.headline}</Text>
+        {prestige.breakthroughLabel ? (
+          <Text style={styles.breakthroughText}>{prestige.breakthroughLabel}</Text>
+        ) : null}
+        <Text style={styles.pressureText}>{prestige.subtext}</Text>
+        <View style={styles.promotionMetaRow}>
+          <Text style={styles.promotionMetaPill}>
+            {prestige.oneWinAway
+              ? "1 WIN AWAY"
+              : prestige.promotionMatch
+                ? "PROMOTION MATCH"
+                : prestige.shieldActive
+                  ? "SHIELD READY"
+                  : "CLIMB ACTIVE"}
+          </Text>
+          {prestige.nextRankLabel ? (
+            <Text style={styles.promotionMetaText}>Target: {prestige.nextRankLabel}</Text>
+          ) : (
+            <Text style={styles.promotionMetaText}>Elite ceiling reached</Text>
+          )}
+        </View>
+      </View>
+
       <View style={styles.panelDark}>
         <Text style={styles.panelEyebrow}>PRESSURE REPORT</Text>
         <Text style={styles.panelTitle}>Rank Pressure</Text>
         <Text style={styles.pressureText}>{pressureMessage}</Text>
       </View>
 
+      <View style={styles.seasonPanel}>
+        <Text style={styles.panelEyebrow}>SEASON PRESTIGE</Text>
+        <Text style={styles.panelTitle}>{seasonReward.title}</Text>
+        <Text style={styles.pressureText}>
+          Peak: {getRankLabel(highestRank)} • {highestSR} SR.{" "}
+          {seasonReward.rewardLabel}
+        </Text>
+      </View>
+
       <View style={styles.dopaminePanel}>
         <Text style={styles.dopamineTitle}>
-          {didWin ? "Momentum Rewarded" : "Recovery Challenge"}
+          {didWin
+            ? "Momentum Rewarded"
+            : isDraw
+              ? "SR Protected"
+              : "Recovery Challenge"}
         </Text>
         <Text style={styles.dopamineText}>
           {didWin
             ? "Ranked history, rewards, and season climb were updated."
-            : "Your ranked history was updated. Return to the ladder and reclaim momentum."}
+            : isDraw
+              ? "Draw recorded. Your climb was protected — run it back and take the edge."
+              : "Your ranked history was updated. Return to the ladder and reclaim momentum."}
         </Text>
       </View>
 
@@ -343,12 +522,17 @@ export default function RankedResult() {
         <Text style={styles.dopamineText}>
           {didWin
             ? `You won +${rewardApplied.coins || rewardPreview.coins} coins and +${rewardApplied.arenaTokens || rewardPreview.arenaTokens} arena tokens.`
-            : "No coins awarded on a ranked loss. Entry cost was spent when you joined."}
+            : isDraw
+              ? "No coins awarded on a draw. SR was protected so the match still matters."
+              : "No coins awarded on a ranked loss. Entry cost was spent when you joined."}
         </Text>
       </View>
 
       <TouchableOpacity
-        style={[styles.continueBtn, didWin || isDraw ? styles.continueWin : styles.continueLoss]}
+        style={[
+          styles.continueBtn,
+          didWin || isDraw ? styles.continueWin : styles.continueLoss,
+        ]}
         onPress={handleContinue}
         activeOpacity={0.9}
       >
@@ -439,6 +623,15 @@ const styles = StyleSheet.create({
     fontSize: 9,
     fontWeight: "900",
   },
+  cyanBadge: {
+    color: "#062033",
+    backgroundColor: "#8FEAFF",
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 999,
+    fontSize: 9,
+    fontWeight: "900",
+  },
   scoreBox: {
     backgroundColor: "rgba(10,24,48,0.92)",
     borderRadius: 16,
@@ -479,6 +672,15 @@ const styles = StyleSheet.create({
     fontSize: 10,
     fontWeight: "900",
   },
+  seasonPanel: {
+    marginTop: 12,
+    padding: 14,
+    borderRadius: 18,
+    backgroundColor: "rgba(8,18,34,0.88)",
+    borderWidth: 1,
+    borderColor: "rgba(143,234,255,0.28)",
+  },
+
   rewardPanel: {
     backgroundColor: "rgba(14,25,48,0.96)",
     borderRadius: 16,
@@ -486,6 +688,40 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     borderWidth: 1,
     borderColor: "rgba(247,201,72,0.22)",
+  },
+  integrityPanel: {
+    backgroundColor: "rgba(7,20,38,0.96)",
+    borderRadius: 16,
+    padding: 11,
+    marginBottom: 8,
+    borderWidth: 1,
+    borderColor: "rgba(143,234,255,0.20)",
+  },
+  reasonRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: 10,
+    paddingVertical: 5,
+  },
+  reasonLabel: {
+    color: "#D8E7FF",
+    flex: 1,
+    fontSize: 11,
+    fontWeight: "800",
+  },
+  reasonDelta: {
+    fontSize: 11,
+    fontWeight: "900",
+  },
+  reasonGood: {
+    color: "#52D273",
+  },
+  reasonBad: {
+    color: "#FF6B6B",
+  },
+  reasonNeutral: {
+    color: "#BBD7FF",
   },
   panel: {
     backgroundColor: "rgba(10,24,48,0.92)",
@@ -502,6 +738,49 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     borderWidth: 1,
     borderColor: "rgba(247,201,72,0.18)",
+  },
+  promotionPanel: {
+    backgroundColor: "rgba(9,23,43,0.96)",
+    borderRadius: 16,
+    padding: 11,
+    marginBottom: 8,
+    borderWidth: 1,
+    borderColor: "rgba(143,234,255,0.20)",
+  },
+  promotionPanelHot: {
+    borderColor: "rgba(247,201,72,0.42)",
+    backgroundColor: "rgba(32,27,10,0.92)",
+  },
+  promotionPanelShield: {
+    borderColor: "rgba(143,234,255,0.40)",
+    backgroundColor: "rgba(9,30,48,0.94)",
+  },
+  breakthroughText: {
+    color: "#F7C948",
+    fontSize: 17,
+    fontWeight: "900",
+    marginTop: 5,
+  },
+  promotionMetaRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 8,
+    marginTop: 10,
+    flexWrap: "wrap",
+  },
+  promotionMetaPill: {
+    color: "#062033",
+    backgroundColor: "#8FEAFF",
+    borderRadius: 999,
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    fontSize: 9,
+    fontWeight: "900",
+  },
+  promotionMetaText: {
+    color: "#BBD7FF",
+    fontSize: 10.5,
+    fontWeight: "800",
   },
   dopaminePanel: {
     backgroundColor: "rgba(10,24,48,0.96)",
@@ -619,4 +898,6 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
 });
+
+
 

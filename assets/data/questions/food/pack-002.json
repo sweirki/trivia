@@ -1,1 +1,782 @@
-[]
+[
+  {
+    "id": 10501,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Italian frozen dessert is similar to ice cream but typically denser?",
+    "answers": [
+      "Gelato",
+      "Sorbet",
+      "Pudding",
+      "Custard"
+    ],
+    "correctAnswer": "Gelato",
+    "explanation": "Gelato is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "gelato"
+    ]
+  },
+  {
+    "id": 10502,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is famous for the noodle soup dish pho?",
+    "answers": [
+      "Thailand",
+      "Vietnam",
+      "China",
+      "Japan"
+    ],
+    "correctAnswer": "Vietnam",
+    "explanation": "Vietnam is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "vietnam"
+    ]
+  },
+  {
+    "id": 10503,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which food is made by frying thin slices of potatoes until crispy?",
+    "answers": [
+      "Pretzels",
+      "Crackers",
+      "Chips",
+      "Nachos"
+    ],
+    "correctAnswer": "Chips",
+    "explanation": "Chips is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "chips"
+    ]
+  },
+  {
+    "id": 10504,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which cheese is traditionally crumbled over Greek salads?",
+    "answers": [
+      "Mozzarella",
+      "Cheddar",
+      "Brie",
+      "Feta"
+    ],
+    "correctAnswer": "Feta",
+    "explanation": "Feta is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "feta"
+    ]
+  },
+  {
+    "id": 10505,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is commonly red and has seeds on the outside?",
+    "answers": [
+      "Strawberry",
+      "Cherry",
+      "Apple",
+      "Raspberry"
+    ],
+    "correctAnswer": "Strawberry",
+    "explanation": "Strawberry is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "strawberry"
+    ]
+  },
+  {
+    "id": 10506,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Mexican dish consists of a folded tortilla filled with meat and cheese?",
+    "answers": [
+      "Burrito",
+      "Quesadilla",
+      "Taco",
+      "Enchilada"
+    ],
+    "correctAnswer": "Quesadilla",
+    "explanation": "Quesadilla is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "quesadilla"
+    ]
+  },
+  {
+    "id": 10507,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which food is commonly eaten at breakfast and made from oats?",
+    "answers": [
+      "Pasta",
+      "Rice",
+      "Oatmeal",
+      "Soup"
+    ],
+    "correctAnswer": "Oatmeal",
+    "explanation": "Oatmeal is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "oatmeal"
+    ]
+  },
+  {
+    "id": 10508,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which type of seafood is known for having claws and a hard shell?",
+    "answers": [
+      "Salmon",
+      "Tuna",
+      "Sardine",
+      "Lobster"
+    ],
+    "correctAnswer": "Lobster",
+    "explanation": "Lobster is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "lobster"
+    ]
+  },
+  {
+    "id": 10509,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which vegetable is commonly used in salads and has crunchy green leaves?",
+    "answers": [
+      "Lettuce",
+      "Spinach",
+      "Cabbage",
+      "Kale"
+    ],
+    "correctAnswer": "Lettuce",
+    "explanation": "Lettuce is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "lettuce"
+    ]
+  },
+  {
+    "id": 10510,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Italian pasta dish traditionally contains eggs, cheese, pancetta, and black pepper?",
+    "answers": [
+      "Alfredo",
+      "Carbonara",
+      "Bolognese",
+      "Pesto"
+    ],
+    "correctAnswer": "Carbonara",
+    "explanation": "Carbonara is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "carbonara"
+    ]
+  },
+  {
+    "id": 10511,
+    "category": "food",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Japanese dish consists of battered and deep-fried seafood or vegetables?",
+    "answers": [
+      "Sukiyaki",
+      "Yakitori",
+      "Tempura",
+      "Udon"
+    ],
+    "correctAnswer": "Tempura",
+    "explanation": "Tempura is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "hard",
+      "tempura"
+    ]
+  },
+  {
+    "id": 10512,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is commonly associated with tropical piña colada drinks?",
+    "answers": [
+      "Mango",
+      "Papaya",
+      "Coconut",
+      "Pineapple"
+    ],
+    "correctAnswer": "Pineapple",
+    "explanation": "Pineapple is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "pineapple"
+    ]
+  },
+  {
+    "id": 10513,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Indian dish is made with butter chicken cooked in a creamy tomato sauce?",
+    "answers": [
+      "Murgh makhani",
+      "Biryani",
+      "Tandoori chicken",
+      "Vindaloo"
+    ],
+    "correctAnswer": "Murgh makhani",
+    "explanation": "Murgh makhani is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "murgh-makhani"
+    ]
+  },
+  {
+    "id": 10514,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which dessert is made from frozen flavored water without dairy?",
+    "answers": [
+      "Gelato",
+      "Sorbet",
+      "Custard",
+      "Cheesecake"
+    ],
+    "correctAnswer": "Sorbet",
+    "explanation": "Sorbet is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "sorbet"
+    ]
+  },
+  {
+    "id": 10515,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which bread is commonly used to make sandwiches in the Middle East?",
+    "answers": [
+      "Baguette",
+      "Ciabatta",
+      "Pita",
+      "Sourdough"
+    ],
+    "correctAnswer": "Pita",
+    "explanation": "Pita is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "pita"
+    ]
+  },
+  {
+    "id": 10516,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which breakfast item is made by frying batter in a flat circle?",
+    "answers": [
+      "Bagel",
+      "Croissant",
+      "Toast",
+      "Pancake"
+    ],
+    "correctAnswer": "Pancake",
+    "explanation": "Pancake is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "pancake"
+    ]
+  },
+  {
+    "id": 10517,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is famous for maple syrup production?",
+    "answers": [
+      "Canada",
+      "United States",
+      "Sweden",
+      "Norway"
+    ],
+    "correctAnswer": "Canada",
+    "explanation": "Canada is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "canada"
+    ]
+  },
+  {
+    "id": 10518,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which food is commonly wrapped in seaweed and filled with rice?",
+    "answers": [
+      "Taco",
+      "Sushi",
+      "Dumpling",
+      "Burrito"
+    ],
+    "correctAnswer": "Sushi",
+    "explanation": "Sushi is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "sushi"
+    ]
+  },
+  {
+    "id": 10519,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which dessert consists of pastry shells filled with sweet ricotta cheese?",
+    "answers": [
+      "Eclair",
+      "Macaron",
+      "Cannoli",
+      "Baklava"
+    ],
+    "correctAnswer": "Cannoli",
+    "explanation": "Cannoli is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "cannoli"
+    ]
+  },
+  {
+    "id": 10520,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which nut is commonly used to make peanut butter?",
+    "answers": [
+      "Almond",
+      "Walnut",
+      "Cashew",
+      "Peanut"
+    ],
+    "correctAnswer": "Peanut",
+    "explanation": "Peanut is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "peanut"
+    ]
+  },
+  {
+    "id": 10521,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Italian dish is made with rice slowly cooked in broth until creamy?",
+    "answers": [
+      "Risotto",
+      "Paella",
+      "Ramen",
+      "Gnocchi"
+    ],
+    "correctAnswer": "Risotto",
+    "explanation": "Risotto is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "risotto"
+    ]
+  },
+  {
+    "id": 10522,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which dessert is made from layered filo pastry, nuts, and honey syrup?",
+    "answers": [
+      "Cannoli",
+      "Baklava",
+      "Brownie",
+      "Tiramisu"
+    ],
+    "correctAnswer": "Baklava",
+    "explanation": "Baklava is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "baklava"
+    ]
+  },
+  {
+    "id": 10523,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is green on the outside and red on the inside with black seeds?",
+    "answers": [
+      "Kiwi",
+      "Apple",
+      "Watermelon",
+      "Pear"
+    ],
+    "correctAnswer": "Watermelon",
+    "explanation": "Watermelon is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "watermelon"
+    ]
+  },
+  {
+    "id": 10524,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is famous for dim sum cuisine?",
+    "answers": [
+      "Japan",
+      "Thailand",
+      "Vietnam",
+      "China"
+    ],
+    "correctAnswer": "China",
+    "explanation": "China is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "china"
+    ]
+  },
+  {
+    "id": 10525,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which food is made from milk and often eaten with cereal?",
+    "answers": [
+      "Milk",
+      "Butter",
+      "Cream",
+      "Yogurt"
+    ],
+    "correctAnswer": "Milk",
+    "explanation": "Milk is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "milk"
+    ]
+  },
+  {
+    "id": 10526,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which pasta shape resembles small pillows stuffed with filling?",
+    "answers": [
+      "Spaghetti",
+      "Ravioli",
+      "Penne",
+      "Farfalle"
+    ],
+    "correctAnswer": "Ravioli",
+    "explanation": "Ravioli is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "ravioli"
+    ]
+  },
+  {
+    "id": 10527,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which vegetable is commonly orange and known for improving eyesight?",
+    "answers": [
+      "Pumpkin",
+      "Sweet potato",
+      "Carrot",
+      "Pepper"
+    ],
+    "correctAnswer": "Carrot",
+    "explanation": "Carrot is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "carrot"
+    ]
+  },
+  {
+    "id": 10528,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which dish is traditionally made with chickpeas, tahini, lemon, and garlic?",
+    "answers": [
+      "Guacamole",
+      "Salsa",
+      "Tapenade",
+      "Hummus"
+    ],
+    "correctAnswer": "Hummus",
+    "explanation": "Hummus is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "hummus"
+    ]
+  },
+  {
+    "id": 10529,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sweet treat is commonly made from cocoa beans?",
+    "answers": [
+      "Chocolate",
+      "Candy",
+      "Marshmallow",
+      "Caramel"
+    ],
+    "correctAnswer": "Chocolate",
+    "explanation": "Chocolate is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "chocolate"
+    ]
+  },
+  {
+    "id": 10530,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is famous for traditional kimchi?",
+    "answers": [
+      "China",
+      "South Korea",
+      "Japan",
+      "Thailand"
+    ],
+    "correctAnswer": "South Korea",
+    "explanation": "South Korea is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "south-korea"
+    ]
+  },
+  {
+    "id": 10531,
+    "category": "food",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which French dish is made from duck or goose liver?",
+    "answers": [
+      "Coq au vin",
+      "Escargot",
+      "Foie gras",
+      "Bouillabaisse"
+    ],
+    "correctAnswer": "Foie gras",
+    "explanation": "Foie gras is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "hard",
+      "foie-gras"
+    ]
+  },
+  {
+    "id": 10532,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit is commonly used to make wine?",
+    "answers": [
+      "Apples",
+      "Cherries",
+      "Peaches",
+      "Grapes"
+    ],
+    "correctAnswer": "Grapes",
+    "explanation": "Grapes is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "grapes"
+    ]
+  },
+  {
+    "id": 10533,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which bread is long, thin, and strongly associated with France?",
+    "answers": [
+      "Baguette",
+      "Pita",
+      "Ciabatta",
+      "Brioche"
+    ],
+    "correctAnswer": "Baguette",
+    "explanation": "Baguette is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "baguette"
+    ]
+  },
+  {
+    "id": 10534,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which frozen dessert is often served on a stick?",
+    "answers": [
+      "Brownie",
+      "Popsicle",
+      "Cupcake",
+      "Muffin"
+    ],
+    "correctAnswer": "Popsicle",
+    "explanation": "Popsicle is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "popsicle"
+    ]
+  },
+  {
+    "id": 10535,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which seafood is commonly served raw in oysters bars?",
+    "answers": [
+      "Shrimp",
+      "Clams",
+      "Oysters",
+      "Crab"
+    ],
+    "correctAnswer": "Oysters",
+    "explanation": "Oysters is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "oysters"
+    ]
+  },
+  {
+    "id": 10536,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which breakfast food is commonly served with syrup and butter?",
+    "answers": [
+      "Toast",
+      "Bagels",
+      "Muffins",
+      "Waffles"
+    ],
+    "correctAnswer": "Waffles",
+    "explanation": "Waffles is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "waffles"
+    ]
+  },
+  {
+    "id": 10537,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Indian rice dish is often cooked with spices and meat?",
+    "answers": [
+      "Biryani",
+      "Curry",
+      "Naan",
+      "Samosa"
+    ],
+    "correctAnswer": "Biryani",
+    "explanation": "Biryani is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "biryani"
+    ]
+  },
+  {
+    "id": 10538,
+    "category": "food",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fruit has a hard shell and white flesh inside?",
+    "answers": [
+      "Melon",
+      "Coconut",
+      "Peach",
+      "Plum"
+    ],
+    "correctAnswer": "Coconut",
+    "explanation": "Coconut is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "easy",
+      "coconut"
+    ]
+  },
+  {
+    "id": 10539,
+    "category": "food",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Italian sauce is traditionally made with basil, garlic, pine nuts, and olive oil?",
+    "answers": [
+      "Marinara",
+      "Alfredo",
+      "Pesto",
+      "Carbonara"
+    ],
+    "correctAnswer": "Pesto",
+    "explanation": "Pesto is the correct answer to this food question.",
+    "tags": [
+      "food",
+      "medium",
+      "pesto"
+    ]
+  }
+]

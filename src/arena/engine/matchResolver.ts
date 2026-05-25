@@ -18,7 +18,8 @@ import { TournamentMatch } from "../types/match";
 export type MatchResolutionReason =
   | "normal"
   | "timeout"
-  | "forfeit";
+  | "forfeit"
+  | "tiebreak";
 
 interface ResolveMatchInput {
   scoreA: number;
@@ -35,7 +36,8 @@ export function resolveMatch(
     return match;
   }
 
-  const { scoreA, scoreB, reason = "normal" } = input;
+  const { scoreA, scoreB } = input;
+  let reason = input.reason ?? "normal";
 
   // SAFETY: deterministic winner selection
   let winnerUid: string | null = null;
@@ -48,6 +50,7 @@ export function resolveMatch(
     // TIE-BREAK RULE (deterministic)
     // NOTE: this can be upgraded later (speed, streaks, etc.)
     winnerUid = match.playerAUid;
+    reason = "tiebreak";
   }
 
   return {
@@ -60,5 +63,7 @@ export function resolveMatch(
     resolutionReason: reason,
   };
 }
+
+
 
 

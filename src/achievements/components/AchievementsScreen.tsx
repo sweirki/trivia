@@ -192,7 +192,7 @@ export default function AchievementsScreen() {
           <Image source={HERO_ART} style={styles.heroArt} resizeMode="cover" />
           <LinearGradient
             pointerEvents="none"
-            colors={["rgba(2,6,14,0.76)", "rgba(2,6,14,0.26)", "rgba(2,6,14,0.04)"]}
+            colors={["rgba(2,6,14,0.42)", "rgba(2,6,14,0.10)", "rgba(2,6,14,0)"]}
             locations={[0, 0.48, 1]}
             start={{ x: 0, y: 0.5 }}
             end={{ x: 1, y: 0.5 }}
@@ -200,7 +200,7 @@ export default function AchievementsScreen() {
           />
           <LinearGradient
             pointerEvents="none"
-            colors={["rgba(159,231,255,0.14)", "rgba(255,214,110,0.08)", "rgba(0,0,0,0)"]}
+            colors={["rgba(159,231,255,0.08)", "rgba(255,214,110,0.05)", "rgba(0,0,0,0)"]}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}
             style={StyleSheet.absoluteFill}
@@ -223,7 +223,7 @@ export default function AchievementsScreen() {
           <Image source={LOBBY_ART} style={styles.featuredArt} resizeMode="cover" />
           <LinearGradient
             pointerEvents="none"
-            colors={["rgba(2,6,14,0.88)", "rgba(2,6,14,0.58)"]}
+            colors={["rgba(2,6,14,0.52)", "rgba(2,6,14,0.22)"]}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}
             style={StyleSheet.absoluteFill}
@@ -276,7 +276,7 @@ export default function AchievementsScreen() {
 
 const styles = StyleSheet.create({
   shellContent: {
-    paddingTop: 18,
+    paddingTop: 10,
     paddingBottom: 52,
   },
   scrollContent: {
@@ -287,7 +287,7 @@ const styles = StyleSheet.create({
     alignItems: "flex-start",
     justifyContent: "space-between",
     gap: 12,
-    marginBottom: 14,
+    marginBottom: 8,
   },
   headerCopy: {
     flex: 1,
@@ -301,24 +301,24 @@ const styles = StyleSheet.create({
   },
   title: {
     color: "#F4FAFF",
-    fontSize: 28,
-    lineHeight: 32,
+    fontSize: 24,
+    lineHeight: 28,
     fontWeight: "900",
     letterSpacing: -0.45,
   },
   subtitle: {
     color: "#9FE7FF",
-    fontSize: 11.5,
-    lineHeight: 15,
+    fontSize: 11,
+    lineHeight: 14,
     fontWeight: "800",
     marginTop: 3,
   },
   countBadge: {
-    minWidth: 72,
+    minWidth: 64,
     marginTop: 5,
     paddingHorizontal: 11,
-    paddingVertical: 8,
-    borderRadius: 18,
+    paddingVertical: 7,
+    borderRadius: 16,
     alignItems: "center",
     backgroundColor: "rgba(8,17,31,0.78)",
     borderWidth: 1,
@@ -326,8 +326,8 @@ const styles = StyleSheet.create({
   },
   countValue: {
     color: "#FFD66E",
-    fontSize: 18,
-    lineHeight: 20,
+    fontSize: 16,
+    lineHeight: 18,
     fontWeight: "900",
   },
   countLabel: {
@@ -340,13 +340,13 @@ const styles = StyleSheet.create({
     marginTop: 2,
   },
   heroCard: {
-    minHeight: 152,
+    minHeight: 138,
     borderRadius: 26,
     overflow: "hidden",
     backgroundColor: "#07111F",
     borderWidth: 1,
     borderColor: "rgba(255,214,110,0.26)",
-    marginBottom: 18,
+    marginBottom: 14,
     shadowColor: "#1E8CFF",
     shadowOpacity: 0.14,
     shadowRadius: 17,
@@ -362,7 +362,7 @@ const styles = StyleSheet.create({
   heroInner: {
     flex: 1,
     justifyContent: "flex-end",
-    padding: 18,
+    padding: 16,
   },
   heroLabel: {
     color: "#9FE7FF",
@@ -381,8 +381,8 @@ const styles = StyleSheet.create({
   },
   heroTitle: {
     color: "#F4FAFF",
-    fontSize: 20,
-    lineHeight: 24,
+    fontSize: 18,
+    lineHeight: 22,
     fontWeight: "900",
     letterSpacing: -0.28,
     textShadowColor: "rgba(0,0,0,0.92)",
@@ -424,22 +424,22 @@ const styles = StyleSheet.create({
     textShadowRadius: 6,
   },
   featuredStrip: {
-    minHeight: 66,
+    minHeight: 58,
     borderRadius: 22,
     overflow: "hidden",
     backgroundColor: "#07111F",
     borderWidth: 1,
     borderColor: "rgba(119,174,255,0.18)",
-    marginBottom: 22,
+    marginBottom: 18,
   },
   featuredArt: {
     ...StyleSheet.absoluteFillObject,
     width: "100%",
     height: "100%",
-    opacity: 0.9,
+    opacity: 1,
   },
   featuredCopy: {
-    padding: 13,
+    padding: 12,
   },
   featuredLabel: {
     color: "#FFD66E",
@@ -459,14 +459,14 @@ const styles = StyleSheet.create({
     textShadowRadius: 6,
   },
   section: {
-    marginBottom: 22,
+    marginBottom: 18,
   },
   sectionHeaderRow: {
     flexDirection: "row",
     alignItems: "flex-end",
     justifyContent: "space-between",
     gap: 12,
-    marginBottom: 10,
+    marginBottom: 8,
   },
   sectionSub: {
     color: "#7E8EA7",
@@ -489,10 +489,12 @@ const styles = StyleSheet.create({
   },
   badgeWrapper: {
     width: "48.6%",
-    marginBottom: 10,
+    marginBottom: 8,
   },
   pressed: {
     opacity: 0.88,
     transform: [{ scale: 0.985 }],
   },
 });
+
+

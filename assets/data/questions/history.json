@@ -1,7 +1,7 @@
 [
   {
     "id": 501,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Who was the first President of the United States?",
@@ -11,11 +11,16 @@
       "John Adams",
       "Abraham Lincoln"
     ],
-    "correct": "George Washington"
+    "correctAnswer": "George Washington",
+    "explanation": "George Washington is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 502,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which ancient civilization built the pyramids?",
@@ -25,11 +30,16 @@
       "Egyptians",
       "Mayans"
     ],
-    "correct": "Egyptians"
+    "correctAnswer": "Egyptians",
+    "explanation": "Egyptians is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 503,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "What wall fell in 1989 symbolizing the end of the Cold War?",
@@ -39,11 +49,16 @@
       "Hadrian's Wall",
       "Western Wall"
     ],
-    "correct": "Berlin Wall"
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Berlin Wall is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 504,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which ship sank after hitting an iceberg in 1912?",
@@ -53,11 +68,16 @@
       "Titanic",
       "Olympic"
     ],
-    "correct": "Titanic"
+    "correctAnswer": "Titanic",
+    "explanation": "Titanic is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 505,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Who was known as the Maid of Orléans?",
@@ -67,11 +87,16 @@
       "Catherine the Great",
       "Eleanor of Aquitaine"
     ],
-    "correct": "Joan of Arc"
+    "correctAnswer": "Joan of Arc",
+    "explanation": "Joan of Arc is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 506,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire was ruled by Julius Caesar?",
@@ -81,11 +106,16 @@
       "Roman",
       "Ottoman"
     ],
-    "correct": "Roman"
+    "correctAnswer": "Roman",
+    "explanation": "Roman is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 507,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "In which year did World War II end?",
@@ -95,11 +125,16 @@
       "1945",
       "1946"
     ],
-    "correct": "1945"
+    "correctAnswer": "1945",
+    "explanation": "1945 is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 508,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which country gifted the Statue of Liberty to the USA?",
@@ -109,11 +144,16 @@
       "Italy",
       "Germany"
     ],
-    "correct": "France"
+    "correctAnswer": "France",
+    "explanation": "France is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 509,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Who was the first man to walk on the Moon?",
@@ -123,11 +163,16 @@
       "Neil Armstrong",
       "Michael Collins"
     ],
-    "correct": "Neil Armstrong"
+    "correctAnswer": "Neil Armstrong",
+    "explanation": "Neil Armstrong is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 510,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which ancient city was destroyed by Mount Vesuvius?",
@@ -137,11 +182,16 @@
       "Pompeii",
       "Carthage"
     ],
-    "correct": "Pompeii"
+    "correctAnswer": "Pompeii",
+    "explanation": "Pompeii is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 511,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which treaty ended World War I?",
@@ -151,11 +201,16 @@
       "Treaty of Rome",
       "Treaty of Vienna"
     ],
-    "correct": "Treaty of Versailles"
+    "correctAnswer": "Treaty of Versailles",
+    "explanation": "Treaty of Versailles is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 512,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Who was the first Emperor of Rome?",
@@ -165,11 +220,16 @@
       "Augustus",
       "Tiberius"
     ],
-    "correct": "Augustus"
+    "correctAnswer": "Augustus",
+    "explanation": "Augustus is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 513,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which civilization developed cuneiform writing?",
@@ -179,11 +239,16 @@
       "Sumerian",
       "Chinese"
     ],
-    "correct": "Sumerian"
+    "correctAnswer": "Sumerian",
+    "explanation": "Sumerian is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 514,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "What year did the French Revolution begin?",
@@ -193,11 +258,16 @@
       "1804",
       "1815"
     ],
-    "correct": "1789"
+    "correctAnswer": "1789",
+    "explanation": "1789 is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 515,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which Mongol leader founded the Mongol Empire?",
@@ -207,11 +277,16 @@
       "Attila the Hun",
       "Tamerlane"
     ],
-    "correct": "Genghis Khan"
+    "correctAnswer": "Genghis Khan",
+    "explanation": "Genghis Khan is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 516,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which ancient civilization built the Colosseum?",
@@ -221,11 +296,16 @@
       "Egyptians",
       "Persians"
     ],
-    "correct": "Romans"
+    "correctAnswer": "Romans",
+    "explanation": "Romans is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 517,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Who discovered America in 1492?",
@@ -235,11 +315,16 @@
       "Vasco da Gama",
       "Magellan"
     ],
-    "correct": "Christopher Columbus"
+    "correctAnswer": "Christopher Columbus",
+    "explanation": "Christopher Columbus is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 518,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which war was fought between the North and South in the United States?",
@@ -249,11 +334,16 @@
       "World War I",
       "Vietnam War"
     ],
-    "correct": "Civil War"
+    "correctAnswer": "Civil War",
+    "explanation": "Civil War is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 519,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Who was the first woman to fly solo across the Atlantic?",
@@ -263,11 +353,16 @@
       "Bessie Coleman",
       "Harriet Quimby"
     ],
-    "correct": "Amelia Earhart"
+    "correctAnswer": "Amelia Earhart",
+    "explanation": "Amelia Earhart is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 520,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which structure is associated with ancient China?",
@@ -277,11 +372,16 @@
       "Parthenon",
       "Machu Picchu"
     ],
-    "correct": "Great Wall"
+    "correctAnswer": "Great Wall",
+    "explanation": "Great Wall is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 521,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Who was the British Prime Minister during most of World War II?",
@@ -291,11 +391,16 @@
       "Margaret Thatcher",
       "Anthony Eden"
     ],
-    "correct": "Winston Churchill"
+    "correctAnswer": "Winston Churchill",
+    "explanation": "Winston Churchill is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 522,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire was known as the 'Sick Man of Europe'?",
@@ -305,11 +410,16 @@
       "Austrian",
       "Russian"
     ],
-    "correct": "Ottoman"
+    "correctAnswer": "Ottoman",
+    "explanation": "Ottoman is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 523,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "What was the primary language of the Roman Empire?",
@@ -319,11 +429,16 @@
       "Hebrew",
       "Arabic"
     ],
-    "correct": "Latin"
+    "correctAnswer": "Latin",
+    "explanation": "Latin is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 524,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which country was ruled by the Tsars?",
@@ -333,11 +448,16 @@
       "France",
       "Spain"
     ],
-    "correct": "Russia"
+    "correctAnswer": "Russia",
+    "explanation": "Russia is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 525,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Who wrote the Declaration of Independence?",
@@ -347,11 +467,16 @@
       "Thomas Jefferson",
       "James Madison"
     ],
-    "correct": "Thomas Jefferson"
+    "correctAnswer": "Thomas Jefferson",
+    "explanation": "Thomas Jefferson is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 526,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which battle marked Napoleon's final defeat?",
@@ -361,11 +486,16 @@
       "Waterloo",
       "Trafalgar"
     ],
-    "correct": "Waterloo"
+    "correctAnswer": "Waterloo",
+    "explanation": "Waterloo is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 527,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "What was the capital of the Aztec Empire?",
@@ -375,11 +505,16 @@
       "Chichen Itza",
       "Teotihuacan"
     ],
-    "correct": "Tenochtitlan"
+    "correctAnswer": "Tenochtitlan",
+    "explanation": "Tenochtitlan is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 528,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which document limited the power of the English monarchy in 1215?",
@@ -389,11 +524,16 @@
       "Habeas Corpus",
       "Act of Union"
     ],
-    "correct": "Magna Carta"
+    "correctAnswer": "Magna Carta",
+    "explanation": "Magna Carta is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 529,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which explorer was the first to circumnavigate the globe?",
@@ -403,11 +543,16 @@
       "Cook",
       "Drake"
     ],
-    "correct": "Magellan"
+    "correctAnswer": "Magellan",
+    "explanation": "Magellan is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 530,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which dynasty built most of the Great Wall?",
@@ -417,25 +562,16 @@
       "Ming",
       "Tang"
     ],
-    "correct": "Ming"
-  },
-  {
-    "id": 531,
-    "category": "History",
-    "premium": false,
-    "difficulty": "easy",
-    "text": "Which ancient civilization built Machu Picchu?",
-    "answers": [
-      "Aztec",
-      "Maya",
-      "Inca",
-      "Olmec"
-    ],
-    "correct": "Inca"
+    "correctAnswer": "Ming",
+    "explanation": "Ming is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 532,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Who was the first President of South Africa after apartheid?",
@@ -445,11 +581,16 @@
       "Thabo Mbeki",
       "F.W. de Klerk"
     ],
-    "correct": "Nelson Mandela"
+    "correctAnswer": "Nelson Mandela",
+    "explanation": "Nelson Mandela is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 533,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which war followed the attack on Pearl Harbor?",
@@ -459,11 +600,16 @@
       "Korean War",
       "Vietnam War"
     ],
-    "correct": "World War II"
+    "correctAnswer": "World War II",
+    "explanation": "World War II is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 534,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which famous ship was commanded by Captain Cook?",
@@ -473,11 +619,16 @@
       "Santa Maria",
       "Beagle"
     ],
-    "correct": "Endeavour"
+    "correctAnswer": "Endeavour",
+    "explanation": "Endeavour is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 535,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which ancient people are associated with democracy?",
@@ -487,11 +638,16 @@
       "Egyptians",
       "Persians"
     ],
-    "correct": "Greeks"
+    "correctAnswer": "Greeks",
+    "explanation": "Greeks is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 536,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which country was divided into East and West during the Cold War?",
@@ -501,11 +657,16 @@
       "Germany",
       "China"
     ],
-    "correct": "Germany"
+    "correctAnswer": "Germany",
+    "explanation": "Germany is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 537,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Who was the leader of the Soviet Union during World War II?",
@@ -515,11 +676,16 @@
       "Khrushchev",
       "Gorbachev"
     ],
-    "correct": "Stalin"
+    "correctAnswer": "Stalin",
+    "explanation": "Stalin is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 538,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire was famous for its road system?",
@@ -529,11 +695,16 @@
       "Mongol",
       "Ottoman"
     ],
-    "correct": "Roman"
+    "correctAnswer": "Roman",
+    "explanation": "Roman is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 539,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which revolution overthrew the Russian monarchy?",
@@ -543,11 +714,16 @@
       "Industrial Revolution",
       "Cultural Revolution"
     ],
-    "correct": "Russian Revolution"
+    "correctAnswer": "Russian Revolution",
+    "explanation": "Russian Revolution is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 540,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Who was the first female Prime Minister of the UK?",
@@ -557,11 +733,16 @@
       "Queen Elizabeth II",
       "Indira Gandhi"
     ],
-    "correct": "Margaret Thatcher"
+    "correctAnswer": "Margaret Thatcher",
+    "explanation": "Margaret Thatcher is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 541,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which ancient city was known as Byzantium?",
@@ -571,11 +752,16 @@
       "Athens",
       "Alexandria"
     ],
-    "correct": "Istanbul"
+    "correctAnswer": "Istanbul",
+    "explanation": "Istanbul is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 542,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which pharaoh's tomb was discovered intact in 1922?",
@@ -585,11 +771,16 @@
       "Akhenaten",
       "Khufu"
     ],
-    "correct": "Tutankhamun"
+    "correctAnswer": "Tutankhamun",
+    "explanation": "Tutankhamun is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 543,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "What was the primary cause of the Peloponnesian War?",
@@ -599,11 +790,16 @@
       "Power struggle between Athens and Sparta",
       "Territorial expansion"
     ],
-    "correct": "Power struggle between Athens and Sparta"
+    "correctAnswer": "Power struggle between Athens and Sparta",
+    "explanation": "Power struggle between Athens and Sparta is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 544,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which empire used the Inca road system?",
@@ -613,11 +809,16 @@
       "Inca",
       "Olmec"
     ],
-    "correct": "Inca"
+    "correctAnswer": "Inca",
+    "explanation": "Inca is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 545,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which English king had six wives?",
@@ -627,11 +828,16 @@
       "Edward VI",
       "Richard III"
     ],
-    "correct": "Henry VIII"
+    "correctAnswer": "Henry VIII",
+    "explanation": "Henry VIII is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 546,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which ancient civilization is associated with the Parthenon?",
@@ -641,11 +847,16 @@
       "Egyptian",
       "Persian"
     ],
-    "correct": "Greek"
+    "correctAnswer": "Greek",
+    "explanation": "Greek is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 547,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Who was the first human in space?",
@@ -655,11 +866,16 @@
       "Yuri Gagarin",
       "Alan Shepard"
     ],
-    "correct": "Yuri Gagarin"
+    "correctAnswer": "Yuri Gagarin",
+    "explanation": "Yuri Gagarin is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 548,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which empire built the aqueducts?",
@@ -669,11 +885,16 @@
       "Egyptian",
       "Persian"
     ],
-    "correct": "Roman"
+    "correctAnswer": "Roman",
+    "explanation": "Roman is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 549,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which war involved trenches and mustard gas?",
@@ -683,11 +904,16 @@
       "Crimean War",
       "Vietnam War"
     ],
-    "correct": "World War I"
+    "correctAnswer": "World War I",
+    "explanation": "World War I is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 550,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which famous leader said 'I have a dream'?",
@@ -697,11 +923,16 @@
       "Nelson Mandela",
       "Abraham Lincoln"
     ],
-    "correct": "Martin Luther King Jr."
+    "correctAnswer": "Martin Luther King Jr.",
+    "explanation": "Martin Luther King Jr. is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 551,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which civilization built Angkor Wat?",
@@ -711,11 +942,16 @@
       "Indian",
       "Chinese"
     ],
-    "correct": "Khmer"
+    "correctAnswer": "Khmer",
+    "explanation": "Khmer is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 552,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire was led by Suleiman the Magnificent?",
@@ -725,11 +961,16 @@
       "Persian",
       "Mughal"
     ],
-    "correct": "Ottoman"
+    "correctAnswer": "Ottoman",
+    "explanation": "Ottoman is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 553,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "What was the main cause of the American Civil War?",
@@ -739,11 +980,16 @@
       "Religion",
       "Trade"
     ],
-    "correct": "Slavery"
+    "correctAnswer": "Slavery",
+    "explanation": "Slavery is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 554,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which country launched the first artificial satellite?",
@@ -753,11 +999,16 @@
       "UK",
       "Germany"
     ],
-    "correct": "USSR"
+    "correctAnswer": "USSR",
+    "explanation": "USSR is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 555,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Who was the leader of Nazi Germany?",
@@ -767,11 +1018,16 @@
       "Mussolini",
       "Franco"
     ],
-    "correct": "Hitler"
+    "correctAnswer": "Hitler",
+    "explanation": "Hitler is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 556,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which city was the capital of the Byzantine Empire?",
@@ -781,11 +1037,16 @@
       "Athens",
       "Antioch"
     ],
-    "correct": "Constantinople"
+    "correctAnswer": "Constantinople",
+    "explanation": "Constantinople is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 557,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which empire collapsed after the Battle of Talas?",
@@ -795,11 +1056,16 @@
       "Persian",
       "Ottoman"
     ],
-    "correct": "Tang Chinese"
+    "correctAnswer": "Tang Chinese",
+    "explanation": "Tang Chinese is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 558,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which ancient civilization worshipped the sun god Ra?",
@@ -809,11 +1075,16 @@
       "Egyptian",
       "Mayan"
     ],
-    "correct": "Egyptian"
+    "correctAnswer": "Egyptian",
+    "explanation": "Egyptian is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 559,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which European power colonized Brazil?",
@@ -823,11 +1094,16 @@
       "Portugal",
       "Netherlands"
     ],
-    "correct": "Portugal"
+    "correctAnswer": "Portugal",
+    "explanation": "Portugal is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 560,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which war was triggered by the assassination of Archduke Franz Ferdinand?",
@@ -837,11 +1113,16 @@
       "Crimean War",
       "Balkan War"
     ],
-    "correct": "World War I"
+    "correctAnswer": "World War I",
+    "explanation": "World War I is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 561,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which ancient civilization used hieroglyphs?",
@@ -851,11 +1132,16 @@
       "Egyptian",
       "Persian"
     ],
-    "correct": "Egyptian"
+    "correctAnswer": "Egyptian",
+    "explanation": "Egyptian is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 562,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Who was the first woman Prime Minister of India?",
@@ -865,11 +1151,16 @@
       "Benazir Bhutto",
       "Sonia Gandhi"
     ],
-    "correct": "Indira Gandhi"
+    "correctAnswer": "Indira Gandhi",
+    "explanation": "Indira Gandhi is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 563,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which country built the Great Wall?",
@@ -879,11 +1170,16 @@
       "Korea",
       "Mongolia"
     ],
-    "correct": "China"
+    "correctAnswer": "China",
+    "explanation": "China is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 564,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which ancient civilization invented paper?",
@@ -893,11 +1189,16 @@
       "Chinese",
       "Indian"
     ],
-    "correct": "Chinese"
+    "correctAnswer": "Chinese",
+    "explanation": "Chinese is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 565,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Who was known as the Iron Lady?",
@@ -907,11 +1208,16 @@
       "Golda Meir",
       "Indira Gandhi"
     ],
-    "correct": "Margaret Thatcher"
+    "correctAnswer": "Margaret Thatcher",
+    "explanation": "Margaret Thatcher is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 566,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire ruled much of the Middle East before World War I?",
@@ -921,11 +1227,16 @@
       "Persian",
       "Mongol"
     ],
-    "correct": "Ottoman"
+    "correctAnswer": "Ottoman",
+    "explanation": "Ottoman is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 567,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which document abolished slavery in the United States?",
@@ -935,11 +1246,16 @@
       "Bill of Rights",
       "Constitution"
     ],
-    "correct": "Emancipation Proclamation"
+    "correctAnswer": "Emancipation Proclamation",
+    "explanation": "Emancipation Proclamation is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 568,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Who led the Cuban Revolution?",
@@ -949,11 +1265,16 @@
       "Batista",
       "Allende"
     ],
-    "correct": "Fidel Castro"
+    "correctAnswer": "Fidel Castro",
+    "explanation": "Fidel Castro is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 569,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which ancient city was famous for its library?",
@@ -963,11 +1284,16 @@
       "Alexandria",
       "Babylon"
     ],
-    "correct": "Alexandria"
+    "correctAnswer": "Alexandria",
+    "explanation": "Alexandria is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 570,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire built the Hagia Sophia?",
@@ -977,11 +1303,16 @@
       "Byzantine",
       "Persian"
     ],
-    "correct": "Byzantine"
+    "correctAnswer": "Byzantine",
+    "explanation": "Byzantine is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 571,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which battle is considered the turning point of the Eastern Front in World War II?",
@@ -991,11 +1322,16 @@
       "Leningrad",
       "Moscow"
     ],
-    "correct": "Stalingrad"
+    "correctAnswer": "Stalingrad",
+    "explanation": "Stalingrad is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 572,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which ancient law code is one of the oldest known?",
@@ -1005,11 +1341,16 @@
       "Magna Carta",
       "Twelve Tables"
     ],
-    "correct": "Code of Hammurabi"
+    "correctAnswer": "Code of Hammurabi",
+    "explanation": "Code of Hammurabi is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 573,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which empire was defeated at the Battle of Lepanto?",
@@ -1019,11 +1360,16 @@
       "French",
       "Russian"
     ],
-    "correct": "Ottoman"
+    "correctAnswer": "Ottoman",
+    "explanation": "Ottoman is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 574,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which civilization built the city of Carthage?",
@@ -1033,11 +1379,16 @@
       "Phoenician",
       "Egyptian"
     ],
-    "correct": "Phoenician"
+    "correctAnswer": "Phoenician",
+    "explanation": "Phoenician is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 575,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which European war lasted from 1618 to 1648?",
@@ -1047,11 +1398,16 @@
       "Seven Years' War",
       "Napoleonic Wars"
     ],
-    "correct": "Thirty Years' War"
+    "correctAnswer": "Thirty Years' War",
+    "explanation": "Thirty Years' War is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 576,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which famous wall divided Berlin?",
@@ -1061,11 +1417,16 @@
       "Berlin Wall",
       "Western Wall"
     ],
-    "correct": "Berlin Wall"
+    "correctAnswer": "Berlin Wall",
+    "explanation": "Berlin Wall is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 577,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which empire used gladiators for entertainment?",
@@ -1075,11 +1436,16 @@
       "Egyptian",
       "Persian"
     ],
-    "correct": "Roman"
+    "correctAnswer": "Roman",
+    "explanation": "Roman is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 578,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Who was the first female ruler of ancient Egypt?",
@@ -1089,11 +1455,16 @@
       "Nefertiti",
       "Isis"
     ],
-    "correct": "Hatshepsut"
+    "correctAnswer": "Hatshepsut",
+    "explanation": "Hatshepsut is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 579,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which civilization is known for the Trojan War?",
@@ -1103,11 +1474,16 @@
       "Persian",
       "Egyptian"
     ],
-    "correct": "Greek"
+    "correctAnswer": "Greek",
+    "explanation": "Greek is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 580,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which empire was centered in modern-day Mexico?",
@@ -1117,11 +1493,16 @@
       "Aztec",
       "Olmec"
     ],
-    "correct": "Aztec"
+    "correctAnswer": "Aztec",
+    "explanation": "Aztec is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 581,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire was ruled by Akbar the Great?",
@@ -1131,11 +1512,16 @@
       "Mughal",
       "Persian"
     ],
-    "correct": "Mughal"
+    "correctAnswer": "Mughal",
+    "explanation": "Mughal is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 582,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which war was fought between Greece and Persia?",
@@ -1145,11 +1531,16 @@
       "Punic Wars",
       "Crusades"
     ],
-    "correct": "Greco-Persian Wars"
+    "correctAnswer": "Greco-Persian Wars",
+    "explanation": "Greco-Persian Wars is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 583,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Who was the last Tsar of Russia?",
@@ -1159,11 +1550,16 @@
       "Peter the Great",
       "Ivan IV"
     ],
-    "correct": "Nicholas II"
+    "correctAnswer": "Nicholas II",
+    "explanation": "Nicholas II is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 584,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which ancient civilization is associated with ziggurats?",
@@ -1173,11 +1569,16 @@
       "Greek",
       "Roman"
     ],
-    "correct": "Sumerian"
+    "correctAnswer": "Sumerian",
+    "explanation": "Sumerian is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 585,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire built the city of Persepolis?",
@@ -1187,11 +1588,16 @@
       "Persian",
       "Assyrian"
     ],
-    "correct": "Persian"
+    "correctAnswer": "Persian",
+    "explanation": "Persian is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 586,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which treaty ended the Thirty Years' War?",
@@ -1201,11 +1607,16 @@
       "Treaty of Tordesillas",
       "Treaty of Paris"
     ],
-    "correct": "Treaty of Westphalia"
+    "correctAnswer": "Treaty of Westphalia",
+    "explanation": "Treaty of Westphalia is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 587,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which ancient civilization built Stonehenge?",
@@ -1215,11 +1626,16 @@
       "Neolithic Britons",
       "Viking"
     ],
-    "correct": "Neolithic Britons"
+    "correctAnswer": "Neolithic Britons",
+    "explanation": "Neolithic Britons is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 588,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which empire controlled the Silk Road?",
@@ -1229,11 +1645,16 @@
       "Ottoman",
       "Persian"
     ],
-    "correct": "Mongol"
+    "correctAnswer": "Mongol",
+    "explanation": "Mongol is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 589,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which country was formerly known as Persia?",
@@ -1243,11 +1664,16 @@
       "Turkey",
       "Syria"
     ],
-    "correct": "Iran"
+    "correctAnswer": "Iran",
+    "explanation": "Iran is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 590,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which ancient battle featured elephants in warfare?",
@@ -1257,11 +1683,16 @@
       "Cannae",
       "Hydaspes"
     ],
-    "correct": "Hydaspes"
+    "correctAnswer": "Hydaspes",
+    "explanation": "Hydaspes is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 591,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which ancient civilization worshipped many gods like Zeus?",
@@ -1271,11 +1702,16 @@
       "Egyptian",
       "Norse"
     ],
-    "correct": "Greek"
+    "correctAnswer": "Greek",
+    "explanation": "Greek is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 592,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Who was the leader of the American Civil Rights Movement?",
@@ -1285,11 +1721,16 @@
       "Rosa Parks",
       "Frederick Douglass"
     ],
-    "correct": "Martin Luther King Jr."
+    "correctAnswer": "Martin Luther King Jr.",
+    "explanation": "Martin Luther King Jr. is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 593,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which empire built roads across Europe?",
@@ -1299,11 +1740,16 @@
       "Ottoman",
       "Viking"
     ],
-    "correct": "Roman"
+    "correctAnswer": "Roman",
+    "explanation": "Roman is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 594,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which ancient civilization used the Olympic Games?",
@@ -1313,25 +1759,16 @@
       "Egyptian",
       "Persian"
     ],
-    "correct": "Greek"
-  },
-  {
-    "id": 595,
-    "category": "History",
-    "premium": false,
-    "difficulty": "easy",
-    "text": "Who was the first President of the United States?",
-    "answers": [
-      "John Adams",
-      "Thomas Jefferson",
-      "George Washington",
-      "James Madison"
-    ],
-    "correct": "George Washington"
+    "correctAnswer": "Greek",
+    "explanation": "Greek is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 596,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which war was fought between England and France for over 100 years?",
@@ -1341,11 +1778,16 @@
       "Thirty Years' War",
       "Napoleonic Wars"
     ],
-    "correct": "Hundred Years' War"
+    "correctAnswer": "Hundred Years' War",
+    "explanation": "Hundred Years' War is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 597,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which leader unified Germany in 1871?",
@@ -1355,11 +1797,16 @@
       "Frederick the Great",
       "Metternich"
     ],
-    "correct": "Otto von Bismarck"
+    "correctAnswer": "Otto von Bismarck",
+    "explanation": "Otto von Bismarck is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 598,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire ruled India before British control?",
@@ -1369,11 +1816,16 @@
       "Persian",
       "Maurya"
     ],
-    "correct": "Mughal"
+    "correctAnswer": "Mughal",
+    "explanation": "Mughal is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 599,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which ancient civilization developed democracy in Athens?",
@@ -1383,11 +1835,16 @@
       "Egyptian",
       "Persian"
     ],
-    "correct": "Greek"
+    "correctAnswer": "Greek",
+    "explanation": "Greek is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 600,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Who led the Indian independence movement?",
@@ -1397,11 +1854,16 @@
       "Bose",
       "Patel"
     ],
-    "correct": "Gandhi"
+    "correctAnswer": "Gandhi",
+    "explanation": "Gandhi is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 601,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which empire was defeated by Alexander the Great?",
@@ -1411,11 +1873,16 @@
       "Egyptian",
       "Ottoman"
     ],
-    "correct": "Persian"
+    "correctAnswer": "Persian",
+    "explanation": "Persian is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 602,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which ancient city was the capital of Assyria?",
@@ -1425,11 +1892,16 @@
       "Ur",
       "Susa"
     ],
-    "correct": "Nineveh"
+    "correctAnswer": "Nineveh",
+    "explanation": "Nineveh is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 603,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which document established the League of Nations?",
@@ -1439,11 +1911,16 @@
       "United Nations Charter",
       "Yalta Agreement"
     ],
-    "correct": "Treaty of Versailles"
+    "correctAnswer": "Treaty of Versailles",
+    "explanation": "Treaty of Versailles is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 604,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which empire used Janissaries as elite troops?",
@@ -1453,11 +1930,16 @@
       "Persian",
       "Mongol"
     ],
-    "correct": "Ottoman"
+    "correctAnswer": "Ottoman",
+    "explanation": "Ottoman is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 605,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which civilization built the Moai statues?",
@@ -1467,11 +1949,16 @@
       "Maya",
       "Aztec"
     ],
-    "correct": "Polynesian"
+    "correctAnswer": "Polynesian",
+    "explanation": "Polynesian is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 606,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which war was fought between North and South Korea?",
@@ -1481,11 +1968,16 @@
       "Cold War",
       "World War II"
     ],
-    "correct": "Korean War"
+    "correctAnswer": "Korean War",
+    "explanation": "Korean War is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 607,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Who was the first Emperor of China?",
@@ -1495,11 +1987,16 @@
       "Kublai Khan",
       "Sun Tzu"
     ],
-    "correct": "Qin Shi Huang"
+    "correctAnswer": "Qin Shi Huang",
+    "explanation": "Qin Shi Huang is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 608,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which civilization built pyramids in Central America?",
@@ -1509,11 +2006,16 @@
       "Roman",
       "Greek"
     ],
-    "correct": "Aztec"
+    "correctAnswer": "Aztec",
+    "explanation": "Aztec is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 609,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Who wrote the Communist Manifesto?",
@@ -1523,11 +2025,16 @@
       "Engels",
       "Marx and Engels"
     ],
-    "correct": "Marx and Engels"
+    "correctAnswer": "Marx and Engels",
+    "explanation": "Marx and Engels is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 610,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which ancient civilization used cuneiform?",
@@ -1537,11 +2044,16 @@
       "Sumerian",
       "Roman"
     ],
-    "correct": "Sumerian"
+    "correctAnswer": "Sumerian",
+    "explanation": "Sumerian is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 611,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire collapsed in 476 AD?",
@@ -1551,11 +2063,16 @@
       "Ottoman",
       "Persian"
     ],
-    "correct": "Roman"
+    "correctAnswer": "Roman",
+    "explanation": "Roman is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 612,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which ancient civilization practiced mummification?",
@@ -1565,11 +2082,16 @@
       "Egyptian",
       "Persian"
     ],
-    "correct": "Egyptian"
+    "correctAnswer": "Egyptian",
+    "explanation": "Egyptian is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 613,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Who was the first female monarch of England?",
@@ -1579,11 +2101,16 @@
       "Anne",
       "Victoria"
     ],
-    "correct": "Mary I"
+    "correctAnswer": "Mary I",
+    "explanation": "Mary I is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 614,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which country was formerly known as Siam?",
@@ -1593,11 +2120,16 @@
       "Laos",
       "Cambodia"
     ],
-    "correct": "Thailand"
+    "correctAnswer": "Thailand",
+    "explanation": "Thailand is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 615,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire used the legal code known as the Twelve Tables?",
@@ -1607,11 +2139,16 @@
       "Persian",
       "Babylonian"
     ],
-    "correct": "Roman"
+    "correctAnswer": "Roman",
+    "explanation": "Roman is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 616,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which battle ended the Napoleonic Wars?",
@@ -1621,11 +2158,16 @@
       "Austerlitz",
       "Borodino"
     ],
-    "correct": "Waterloo"
+    "correctAnswer": "Waterloo",
+    "explanation": "Waterloo is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 617,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which civilization created the epic of Gilgamesh?",
@@ -1635,11 +2177,16 @@
       "Assyrian",
       "Babylonian"
     ],
-    "correct": "Sumerian"
+    "correctAnswer": "Sumerian",
+    "explanation": "Sumerian is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 618,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which empire controlled Constantinople after 1453?",
@@ -1649,11 +2196,16 @@
       "Byzantine",
       "Persian"
     ],
-    "correct": "Ottoman"
+    "correctAnswer": "Ottoman",
+    "explanation": "Ottoman is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 619,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which ancient civilization built Teotihuacan?",
@@ -1663,11 +2215,16 @@
       "Unknown",
       "Olmec"
     ],
-    "correct": "Unknown"
+    "correctAnswer": "Unknown",
+    "explanation": "Unknown is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 620,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which empire used the feudal shogunate system?",
@@ -1677,11 +2234,16 @@
       "Korean",
       "Mongol"
     ],
-    "correct": "Japanese"
+    "correctAnswer": "Japanese",
+    "explanation": "Japanese is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 621,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which war was fought in Vietnam?",
@@ -1691,11 +2253,16 @@
       "Korean War",
       "World War II"
     ],
-    "correct": "Vietnam War"
+    "correctAnswer": "Vietnam War",
+    "explanation": "Vietnam War is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 622,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which ancient civilization worshipped Odin?",
@@ -1705,11 +2272,16 @@
       "Norse",
       "Celtic"
     ],
-    "correct": "Norse"
+    "correctAnswer": "Norse",
+    "explanation": "Norse is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 623,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which empire was ruled by Caesar?",
@@ -1719,11 +2291,16 @@
       "Persian",
       "Ottoman"
     ],
-    "correct": "Roman"
+    "correctAnswer": "Roman",
+    "explanation": "Roman is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 624,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which structure is a symbol of ancient Rome?",
@@ -1733,25 +2310,16 @@
       "Pyramids",
       "Ziggurat"
     ],
-    "correct": "Colosseum"
-  },
-  {
-    "id": 625,
-    "category": "History",
-    "premium": false,
-    "difficulty": "easy",
-    "text": "Who was the first man to walk on the Moon?",
-    "answers": [
-      "Yuri Gagarin",
-      "Buzz Aldrin",
-      "Neil Armstrong",
-      "Michael Collins"
-    ],
-    "correct": "Neil Armstrong"
+    "correctAnswer": "Colosseum",
+    "explanation": "Colosseum is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 626,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire ruled over ancient Persia?",
@@ -1761,11 +2329,16 @@
       "Ottoman",
       "Byzantine"
     ],
-    "correct": "Achaemenid"
+    "correctAnswer": "Achaemenid",
+    "explanation": "Achaemenid is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 627,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which movement aimed to end racial segregation in the US?",
@@ -1775,11 +2348,16 @@
       "Abolition",
       "Progressive Movement"
     ],
-    "correct": "Civil Rights Movement"
+    "correctAnswer": "Civil Rights Movement",
+    "explanation": "Civil Rights Movement is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 628,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which ancient civilization built the city of Ur?",
@@ -1789,11 +2367,16 @@
       "Babylonian",
       "Persian"
     ],
-    "correct": "Sumerian"
+    "correctAnswer": "Sumerian",
+    "explanation": "Sumerian is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 629,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire was led by Charlemagne?",
@@ -1803,11 +2386,16 @@
       "Ottoman Empire",
       "Roman Empire"
     ],
-    "correct": "Holy Roman Empire"
+    "correctAnswer": "Holy Roman Empire",
+    "explanation": "Holy Roman Empire is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 630,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which ancient civilization used the Rosetta Stone?",
@@ -1817,11 +2405,16 @@
       "Egyptian",
       "Persian"
     ],
-    "correct": "Egyptian"
+    "correctAnswer": "Egyptian",
+    "explanation": "Egyptian is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 631,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which war was ended by the Treaty of Utrecht?",
@@ -1831,11 +2424,16 @@
       "Thirty Years' War",
       "Napoleonic Wars"
     ],
-    "correct": "War of Spanish Succession"
+    "correctAnswer": "War of Spanish Succession",
+    "explanation": "War of Spanish Succession is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 632,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which ancient empire used satraps as governors?",
@@ -1845,11 +2443,16 @@
       "Persian",
       "Ottoman"
     ],
-    "correct": "Persian"
+    "correctAnswer": "Persian",
+    "explanation": "Persian is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 633,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which civilization built the palace at Knossos?",
@@ -1859,11 +2462,16 @@
       "Greek",
       "Roman"
     ],
-    "correct": "Minoan"
+    "correctAnswer": "Minoan",
+    "explanation": "Minoan is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 634,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which ancient civilization built the Nazca Lines?",
@@ -1873,11 +2481,16 @@
       "Maya",
       "Olmec"
     ],
-    "correct": "Nazca"
+    "correctAnswer": "Nazca",
+    "explanation": "Nazca is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 635,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which war introduced the use of tanks?",
@@ -1887,11 +2500,16 @@
       "Korean War",
       "Crimean War"
     ],
-    "correct": "World War I"
+    "correctAnswer": "World War I",
+    "explanation": "World War I is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 636,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which civilization built Stonehenge?",
@@ -1901,11 +2519,16 @@
       "Ancient Britons",
       "Vikings"
     ],
-    "correct": "Ancient Britons"
+    "correctAnswer": "Ancient Britons",
+    "explanation": "Ancient Britons is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 637,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Who was the first female US Secretary of State?",
@@ -1915,11 +2538,16 @@
       "Madeleine Albright",
       "Janet Reno"
     ],
-    "correct": "Madeleine Albright"
+    "correctAnswer": "Madeleine Albright",
+    "explanation": "Madeleine Albright is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 638,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which ancient civilization invented writing?",
@@ -1929,11 +2557,16 @@
       "Egyptian",
       "Chinese"
     ],
-    "correct": "Sumerian"
+    "correctAnswer": "Sumerian",
+    "explanation": "Sumerian is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 639,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which empire built the city of Rome?",
@@ -1943,11 +2576,16 @@
       "Etruscan",
       "Persian"
     ],
-    "correct": "Etruscan"
+    "correctAnswer": "Etruscan",
+    "explanation": "Etruscan is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 640,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "easy",
     "text": "Which war followed World War I?",
@@ -1957,11 +2595,16 @@
       "Korean War",
       "Vietnam War"
     ],
-    "correct": "World War II"
+    "correctAnswer": "World War II",
+    "explanation": "World War II is the correct answer.",
+    "tags": [
+      "history",
+      "easy"
+    ]
   },
   {
     "id": 641,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire built Petra?",
@@ -1971,11 +2614,16 @@
       "Greek",
       "Persian"
     ],
-    "correct": "Nabataean"
+    "correctAnswer": "Nabataean",
+    "explanation": "Nabataean is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 642,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which empire ruled Spain before the Reconquista?",
@@ -1985,11 +2633,16 @@
       "Moorish",
       "Frankish"
     ],
-    "correct": "Moorish"
+    "correctAnswer": "Moorish",
+    "explanation": "Moorish is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 643,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which country was formerly known as Rhodesia?",
@@ -1999,11 +2652,16 @@
       "Botswana",
       "Namibia"
     ],
-    "correct": "Zimbabwe"
+    "correctAnswer": "Zimbabwe",
+    "explanation": "Zimbabwe is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 644,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
@@ -2013,11 +2671,16 @@
       "Brezhnev",
       "Gorbachev"
     ],
-    "correct": "Khrushchev"
+    "correctAnswer": "Khrushchev",
+    "explanation": "Khrushchev is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 645,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "medium",
     "text": "Which ancient civilization built the Temple of Artemis?",
@@ -2027,11 +2690,16 @@
       "Persian",
       "Egyptian"
     ],
-    "correct": "Greek"
+    "correctAnswer": "Greek",
+    "explanation": "Greek is the correct answer.",
+    "tags": [
+      "history",
+      "medium"
+    ]
   },
   {
     "id": 646,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which empire was defeated at the Battle of Tours?",
@@ -2041,11 +2709,16 @@
       "Umayyad",
       "Byzantine"
     ],
-    "correct": "Umayyad"
+    "correctAnswer": "Umayyad",
+    "explanation": "Umayyad is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 647,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which ancient civilization built Hattusa?",
@@ -2055,11 +2728,16 @@
       "Persian",
       "Babylonian"
     ],
-    "correct": "Hittite"
+    "correctAnswer": "Hittite",
+    "explanation": "Hittite is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 648,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which treaty divided the New World between Spain and Portugal?",
@@ -2069,11 +2747,16 @@
       "Treaty of Utrecht",
       "Treaty of Westphalia"
     ],
-    "correct": "Treaty of Tordesillas"
+    "correctAnswer": "Treaty of Tordesillas",
+    "explanation": "Treaty of Tordesillas is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 649,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which civilization built the city of Mohenjo-daro?",
@@ -2083,11 +2766,16 @@
       "Egyptian",
       "Chinese"
     ],
-    "correct": "Indus Valley"
+    "correctAnswer": "Indus Valley",
+    "explanation": "Indus Valley is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   },
   {
     "id": 650,
-    "category": "History",
+    "category": "history",
     "premium": false,
     "difficulty": "hard",
     "text": "Which empire ruled Constantinople before the Ottomans?",
@@ -2097,6 +2785,11 @@
       "Persian",
       "Greek"
     ],
-    "correct": "Byzantine"
+    "correctAnswer": "Byzantine",
+    "explanation": "Byzantine is the correct answer.",
+    "tags": [
+      "history",
+      "hard"
+    ]
   }
 ]

@@ -1,1 +1,3802 @@
-[]
+[
+  {
+    "id": 54001,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes All of Us Are Dead?",
+    "answers": [
+      "zombie drama",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "zombie drama",
+    "explanation": "All of Us Are Dead is commonly recognized as a zombie drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54002,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Good Doctor?",
+    "answers": [
+      "New York City",
+      "San Jose",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "San Jose",
+    "explanation": "San Jose is a key setting connected to the story world of The Good Doctor.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54003,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Good Doctor?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "ABC",
+      "NBC"
+    ],
+    "correctAnswer": "ABC",
+    "explanation": "The Good Doctor became strongly associated with ABC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54004,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Good Doctor?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "medical drama"
+    ],
+    "correctAnswer": "medical drama",
+    "explanation": "The Good Doctor is commonly recognized as a medical drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54005,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Grey's Anatomy?",
+    "answers": [
+      "Seattle",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Seattle",
+    "explanation": "Seattle is a key setting connected to the story world of Grey's Anatomy.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54006,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Grey's Anatomy?",
+    "answers": [
+      "HBO",
+      "ABC",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "ABC",
+    "explanation": "Grey's Anatomy became strongly associated with ABC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54007,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Grey's Anatomy?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "medical drama",
+      "science fiction"
+    ],
+    "correctAnswer": "medical drama",
+    "explanation": "Grey's Anatomy is commonly recognized as a medical drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54008,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to ER?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Chicago"
+    ],
+    "correctAnswer": "Chicago",
+    "explanation": "Chicago is a key setting connected to the story world of ER.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54009,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with ER?",
+    "answers": [
+      "NBC",
+      "HBO",
+      "Netflix",
+      "ABC"
+    ],
+    "correctAnswer": "NBC",
+    "explanation": "ER became strongly associated with NBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54010,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes ER?",
+    "answers": [
+      "sitcom",
+      "medical drama",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "medical drama",
+    "explanation": "ER is commonly recognized as a medical drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54011,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to House?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Princeton-Plainsboro",
+      "Westeros"
+    ],
+    "correctAnswer": "Princeton-Plainsboro",
+    "explanation": "Princeton-Plainsboro is a key setting connected to the story world of House.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54012,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with House?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "Fox"
+    ],
+    "correctAnswer": "Fox",
+    "explanation": "House became strongly associated with Fox during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54013,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes House?",
+    "answers": [
+      "medical mystery",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "medical mystery",
+    "explanation": "House is commonly recognized as a medical mystery.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54014,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Scrubs?",
+    "answers": [
+      "New York City",
+      "Sacred Heart Hospital",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Sacred Heart Hospital",
+    "explanation": "Sacred Heart Hospital is a key setting connected to the story world of Scrubs.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54015,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Scrubs?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC/ABC",
+      "NBC"
+    ],
+    "correctAnswer": "NBC/ABC",
+    "explanation": "Scrubs became strongly associated with NBC/ABC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54016,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Scrubs?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "medical comedy"
+    ],
+    "correctAnswer": "medical comedy",
+    "explanation": "Scrubs is commonly recognized as a medical comedy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54017,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The West Wing?",
+    "answers": [
+      "White House",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "White House",
+    "explanation": "White House is a key setting connected to the story world of The West Wing.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54018,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The West Wing?",
+    "answers": [
+      "HBO",
+      "NBC",
+      "Netflix",
+      "ABC"
+    ],
+    "correctAnswer": "NBC",
+    "explanation": "The West Wing became strongly associated with NBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54019,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The West Wing?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "political drama",
+      "science fiction"
+    ],
+    "correctAnswer": "political drama",
+    "explanation": "The West Wing is commonly recognized as a political drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54020,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Newsroom?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "ACN newsroom"
+    ],
+    "correctAnswer": "ACN newsroom",
+    "explanation": "ACN newsroom is a key setting connected to the story world of The Newsroom.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54021,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Newsroom?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "HBO",
+    "explanation": "The Newsroom became strongly associated with HBO during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54022,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Newsroom?",
+    "answers": [
+      "sitcom",
+      "media drama",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "media drama",
+    "explanation": "The Newsroom is commonly recognized as a media drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54023,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Gilmore Girls?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Stars Hollow",
+      "Westeros"
+    ],
+    "correctAnswer": "Stars Hollow",
+    "explanation": "Stars Hollow is a key setting connected to the story world of Gilmore Girls.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54024,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Gilmore Girls?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "The WB/CW"
+    ],
+    "correctAnswer": "The WB/CW",
+    "explanation": "Gilmore Girls became strongly associated with The WB/CW during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54025,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Gilmore Girls?",
+    "answers": [
+      "comedy drama",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "comedy drama",
+    "explanation": "Gilmore Girls is commonly recognized as a comedy drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54026,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Gossip Girl?",
+    "answers": [
+      "New York City",
+      "Upper East Side",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Upper East Side",
+    "explanation": "Upper East Side is a key setting connected to the story world of Gossip Girl.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54027,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Gossip Girl?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "The CW",
+      "NBC"
+    ],
+    "correctAnswer": "The CW",
+    "explanation": "Gossip Girl became strongly associated with The CW during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54028,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Gossip Girl?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "teen drama"
+    ],
+    "correctAnswer": "teen drama",
+    "explanation": "Gossip Girl is commonly recognized as a teen drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54029,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to One Tree Hill?",
+    "answers": [
+      "Tree Hill",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Tree Hill",
+    "explanation": "Tree Hill is a key setting connected to the story world of One Tree Hill.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54030,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with One Tree Hill?",
+    "answers": [
+      "HBO",
+      "The WB/CW",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "The WB/CW",
+    "explanation": "One Tree Hill became strongly associated with The WB/CW during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54031,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes One Tree Hill?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "teen drama",
+      "science fiction"
+    ],
+    "correctAnswer": "teen drama",
+    "explanation": "One Tree Hill is commonly recognized as a teen drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54032,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The O.C.?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Orange County"
+    ],
+    "correctAnswer": "Orange County",
+    "explanation": "Orange County is a key setting connected to the story world of The O.C..",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54033,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The O.C.?",
+    "answers": [
+      "Fox",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Fox",
+    "explanation": "The O.C. became strongly associated with Fox during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54034,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The O.C.?",
+    "answers": [
+      "sitcom",
+      "teen drama",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "teen drama",
+    "explanation": "The O.C. is commonly recognized as a teen drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54035,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Friday Night Lights?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Dillon, Texas",
+      "Westeros"
+    ],
+    "correctAnswer": "Dillon, Texas",
+    "explanation": "Dillon, Texas is a key setting connected to the story world of Friday Night Lights.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54036,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Friday Night Lights?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "ABC",
+      "NBC"
+    ],
+    "correctAnswer": "NBC",
+    "explanation": "Friday Night Lights became strongly associated with NBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54037,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Friday Night Lights?",
+    "answers": [
+      "sports drama",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "sports drama",
+    "explanation": "Friday Night Lights is commonly recognized as a sports drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54038,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Glee?",
+    "answers": [
+      "New York City",
+      "William McKinley High School",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "William McKinley High School",
+    "explanation": "William McKinley High School is a key setting connected to the story world of Glee.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54039,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Glee?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "Fox",
+      "NBC"
+    ],
+    "correctAnswer": "Fox",
+    "explanation": "Glee became strongly associated with Fox during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54040,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Glee?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "musical comedy drama"
+    ],
+    "correctAnswer": "musical comedy drama",
+    "explanation": "Glee is commonly recognized as a musical comedy drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54041,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Euphoria?",
+    "answers": [
+      "suburban high school",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "suburban high school",
+    "explanation": "suburban high school is a key setting connected to the story world of Euphoria.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54042,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Euphoria?",
+    "answers": [
+      "Netflix",
+      "HBO",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "HBO",
+    "explanation": "Euphoria became strongly associated with HBO during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54043,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Euphoria?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "teen drama",
+      "science fiction"
+    ],
+    "correctAnswer": "teen drama",
+    "explanation": "Euphoria is commonly recognized as a teen drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54044,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Sex Education?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Moordale"
+    ],
+    "correctAnswer": "Moordale",
+    "explanation": "Moordale is a key setting connected to the story world of Sex Education.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54045,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Sex Education?",
+    "answers": [
+      "Netflix",
+      "HBO",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Sex Education became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54046,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Sex Education?",
+    "answers": [
+      "sitcom",
+      "teen comedy drama",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "teen comedy drama",
+    "explanation": "Sex Education is commonly recognized as a teen comedy drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54047,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Cobra Kai?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "San Fernando Valley",
+      "Westeros"
+    ],
+    "correctAnswer": "San Fernando Valley",
+    "explanation": "San Fernando Valley is a key setting connected to the story world of Cobra Kai.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54048,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Cobra Kai?",
+    "answers": [
+      "HBO",
+      "NBC",
+      "ABC",
+      "Netflix"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Cobra Kai became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54049,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Cobra Kai?",
+    "answers": [
+      "martial arts comedy drama",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "martial arts comedy drama",
+    "explanation": "Cobra Kai is commonly recognized as a martial arts comedy drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54050,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Umbrella Academy?",
+    "answers": [
+      "New York City",
+      "alternate timelines",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "alternate timelines",
+    "explanation": "alternate timelines is a key setting connected to the story world of The Umbrella Academy.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54051,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Umbrella Academy?",
+    "answers": [
+      "HBO",
+      "NBC",
+      "Netflix",
+      "ABC"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "The Umbrella Academy became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54052,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Umbrella Academy?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "superhero drama"
+    ],
+    "correctAnswer": "superhero drama",
+    "explanation": "The Umbrella Academy is commonly recognized as a superhero drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54053,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Peacemaker?",
+    "answers": [
+      "DC universe",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "DC universe",
+    "explanation": "DC universe is a key setting connected to the story world of Peacemaker.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54054,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Peacemaker?",
+    "answers": [
+      "HBO",
+      "HBO Max",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "HBO Max",
+    "explanation": "Peacemaker became strongly associated with HBO Max during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54055,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Peacemaker?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "superhero comedy",
+      "science fiction"
+    ],
+    "correctAnswer": "superhero comedy",
+    "explanation": "Peacemaker is commonly recognized as a superhero comedy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54056,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Flash?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Central City"
+    ],
+    "correctAnswer": "Central City",
+    "explanation": "Central City is a key setting connected to the story world of The Flash.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54057,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Flash?",
+    "answers": [
+      "The CW",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "The CW",
+    "explanation": "The Flash became strongly associated with The CW during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54058,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Flash?",
+    "answers": [
+      "sitcom",
+      "superhero drama",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "superhero drama",
+    "explanation": "The Flash is commonly recognized as a superhero drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54059,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Arrow?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Star City",
+      "Westeros"
+    ],
+    "correctAnswer": "Star City",
+    "explanation": "Star City is a key setting connected to the story world of Arrow.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54060,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Arrow?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "The CW"
+    ],
+    "correctAnswer": "The CW",
+    "explanation": "Arrow became strongly associated with The CW during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54061,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Arrow?",
+    "answers": [
+      "superhero drama",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "superhero drama",
+    "explanation": "Arrow is commonly recognized as a superhero drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54062,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Jessica Jones?",
+    "answers": [
+      "Los Angeles",
+      "New York City",
+      "Westeros",
+      "Hawkins, Indiana"
+    ],
+    "correctAnswer": "New York City",
+    "explanation": "New York City is a key setting connected to the story world of Jessica Jones.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54063,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Jessica Jones?",
+    "answers": [
+      "HBO",
+      "NBC",
+      "Netflix",
+      "ABC"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Jessica Jones became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54064,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Jessica Jones?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "superhero noir"
+    ],
+    "correctAnswer": "superhero noir",
+    "explanation": "Jessica Jones is commonly recognized as a superhero noir.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54065,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Survivor?",
+    "answers": [
+      "remote islands",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "remote islands",
+    "explanation": "remote islands is a key setting connected to the story world of Survivor.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54066,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Survivor?",
+    "answers": [
+      "HBO",
+      "CBS",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "CBS",
+    "explanation": "Survivor became strongly associated with CBS during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54067,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Survivor?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "reality competition",
+      "science fiction"
+    ],
+    "correctAnswer": "reality competition",
+    "explanation": "Survivor is commonly recognized as a reality competition.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54068,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Amazing Race?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "global race routes"
+    ],
+    "correctAnswer": "global race routes",
+    "explanation": "global race routes is a key setting connected to the story world of The Amazing Race.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54069,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Amazing Race?",
+    "answers": [
+      "CBS",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "CBS",
+    "explanation": "The Amazing Race became strongly associated with CBS during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54070,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Amazing Race?",
+    "answers": [
+      "sitcom",
+      "reality competition",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "reality competition",
+    "explanation": "The Amazing Race is commonly recognized as a reality competition.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54071,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to American Idol?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "singing competition stage",
+      "Westeros"
+    ],
+    "correctAnswer": "singing competition stage",
+    "explanation": "singing competition stage is a key setting connected to the story world of American Idol.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54072,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with American Idol?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "Fox/ABC"
+    ],
+    "correctAnswer": "Fox/ABC",
+    "explanation": "American Idol became strongly associated with Fox/ABC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54073,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes American Idol?",
+    "answers": [
+      "talent competition",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "talent competition",
+    "explanation": "American Idol is commonly recognized as a talent competition.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54074,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Voice?",
+    "answers": [
+      "New York City",
+      "singing competition stage",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "singing competition stage",
+    "explanation": "singing competition stage is a key setting connected to the story world of The Voice.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54075,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Voice?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "NBC",
+    "explanation": "The Voice became strongly associated with NBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54076,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Voice?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "talent competition"
+    ],
+    "correctAnswer": "talent competition",
+    "explanation": "The Voice is commonly recognized as a talent competition.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54077,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to RuPaul's Drag Race?",
+    "answers": [
+      "drag competition workroom",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "drag competition workroom",
+    "explanation": "drag competition workroom is a key setting connected to the story world of RuPaul's Drag Race.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54078,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with RuPaul's Drag Race?",
+    "answers": [
+      "HBO",
+      "Logo/VH1/MTV",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Logo/VH1/MTV",
+    "explanation": "RuPaul's Drag Race became strongly associated with Logo/VH1/MTV during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54079,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes RuPaul's Drag Race?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "reality competition",
+      "science fiction"
+    ],
+    "correctAnswer": "reality competition",
+    "explanation": "RuPaul's Drag Race is commonly recognized as a reality competition.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54080,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Top Chef?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "professional kitchens"
+    ],
+    "correctAnswer": "professional kitchens",
+    "explanation": "professional kitchens is a key setting connected to the story world of Top Chef.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54081,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Top Chef?",
+    "answers": [
+      "Bravo",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Bravo",
+    "explanation": "Top Chef became strongly associated with Bravo during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54082,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Top Chef?",
+    "answers": [
+      "sitcom",
+      "cooking competition",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "cooking competition",
+    "explanation": "Top Chef is commonly recognized as a cooking competition.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54083,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to MasterChef?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "MasterChef kitchen",
+      "Westeros"
+    ],
+    "correctAnswer": "MasterChef kitchen",
+    "explanation": "MasterChef kitchen is a key setting connected to the story world of MasterChef.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54084,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with MasterChef?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "Fox"
+    ],
+    "correctAnswer": "Fox",
+    "explanation": "MasterChef became strongly associated with Fox during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54085,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes MasterChef?",
+    "answers": [
+      "cooking competition",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "cooking competition",
+    "explanation": "MasterChef is commonly recognized as a cooking competition.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54086,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Great British Bake Off?",
+    "answers": [
+      "New York City",
+      "the Bake Off tent",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "the Bake Off tent",
+    "explanation": "the Bake Off tent is a key setting connected to the story world of The Great British Bake Off.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54087,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Great British Bake Off?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "Channel 4/BBC",
+      "NBC"
+    ],
+    "correctAnswer": "Channel 4/BBC",
+    "explanation": "The Great British Bake Off became strongly associated with Channel 4/BBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54088,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Great British Bake Off?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "baking competition"
+    ],
+    "correctAnswer": "baking competition",
+    "explanation": "The Great British Bake Off is commonly recognized as a baking competition.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54089,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Shark Tank?",
+    "answers": [
+      "business pitch room",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "business pitch room",
+    "explanation": "business pitch room is a key setting connected to the story world of Shark Tank.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54090,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Shark Tank?",
+    "answers": [
+      "HBO",
+      "ABC",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "ABC",
+    "explanation": "Shark Tank became strongly associated with ABC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54091,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Shark Tank?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "business reality",
+      "science fiction"
+    ],
+    "correctAnswer": "business reality",
+    "explanation": "Shark Tank is commonly recognized as a business reality.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54092,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Queer Eye?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "various communities"
+    ],
+    "correctAnswer": "various communities",
+    "explanation": "various communities is a key setting connected to the story world of Queer Eye.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54093,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Queer Eye?",
+    "answers": [
+      "Netflix",
+      "HBO",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Queer Eye became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54094,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Queer Eye?",
+    "answers": [
+      "sitcom",
+      "makeover reality",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "makeover reality",
+    "explanation": "Queer Eye is commonly recognized as a makeover reality.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54095,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Planet Earth?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "natural habitats",
+      "Westeros"
+    ],
+    "correctAnswer": "natural habitats",
+    "explanation": "natural habitats is a key setting connected to the story world of Planet Earth.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54096,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Planet Earth?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "BBC"
+    ],
+    "correctAnswer": "BBC",
+    "explanation": "Planet Earth became strongly associated with BBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54097,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Planet Earth?",
+    "answers": [
+      "nature documentary",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "nature documentary",
+    "explanation": "Planet Earth is commonly recognized as a nature documentary.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54098,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Blue Planet II?",
+    "answers": [
+      "New York City",
+      "world oceans",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "world oceans",
+    "explanation": "world oceans is a key setting connected to the story world of Blue Planet II.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54099,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Blue Planet II?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "BBC",
+      "NBC"
+    ],
+    "correctAnswer": "BBC",
+    "explanation": "Blue Planet II became strongly associated with BBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54100,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Blue Planet II?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "nature documentary"
+    ],
+    "correctAnswer": "nature documentary",
+    "explanation": "Blue Planet II is commonly recognized as a nature documentary.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54101,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Cosmos: A Spacetime Odyssey?",
+    "answers": [
+      "the universe",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "the universe",
+    "explanation": "the universe is a key setting connected to the story world of Cosmos: A Spacetime Odyssey.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54102,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Cosmos: A Spacetime Odyssey?",
+    "answers": [
+      "HBO",
+      "Fox/National Geographic",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Fox/National Geographic",
+    "explanation": "Cosmos: A Spacetime Odyssey became strongly associated with Fox/National Geographic during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54103,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Cosmos: A Spacetime Odyssey?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science documentary",
+      "science fiction"
+    ],
+    "correctAnswer": "science documentary",
+    "explanation": "Cosmos: A Spacetime Odyssey is commonly recognized as a science documentary.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54104,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to MythBusters?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "experiment workshop"
+    ],
+    "correctAnswer": "experiment workshop",
+    "explanation": "experiment workshop is a key setting connected to the story world of MythBusters.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54105,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with MythBusters?",
+    "answers": [
+      "Discovery Channel",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Discovery Channel",
+    "explanation": "MythBusters became strongly associated with Discovery Channel during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54106,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes MythBusters?",
+    "answers": [
+      "sitcom",
+      "science entertainment",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "science entertainment",
+    "explanation": "MythBusters is commonly recognized as a science entertainment.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54107,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Anthony Bourdain: Parts Unknown?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "global food destinations",
+      "Westeros"
+    ],
+    "correctAnswer": "global food destinations",
+    "explanation": "global food destinations is a key setting connected to the story world of Anthony Bourdain: Parts Unknown.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54108,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Anthony Bourdain: Parts Unknown?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "CNN"
+    ],
+    "correctAnswer": "CNN",
+    "explanation": "Anthony Bourdain: Parts Unknown became strongly associated with CNN during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54109,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Anthony Bourdain: Parts Unknown?",
+    "answers": [
+      "travel documentary",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "travel documentary",
+    "explanation": "Anthony Bourdain: Parts Unknown is commonly recognized as a travel documentary.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54110,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Parts Unknown?",
+    "answers": [
+      "New York City",
+      "global destinations",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "global destinations",
+    "explanation": "global destinations is a key setting connected to the story world of Parts Unknown.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54111,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Parts Unknown?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "CNN",
+      "NBC"
+    ],
+    "correctAnswer": "CNN",
+    "explanation": "Parts Unknown became strongly associated with CNN during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54112,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Parts Unknown?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "travel documentary"
+    ],
+    "correctAnswer": "travel documentary",
+    "explanation": "Parts Unknown is commonly recognized as a travel documentary.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54113,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Top Gear?",
+    "answers": [
+      "test track",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "test track",
+    "explanation": "test track is a key setting connected to the story world of Top Gear.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54114,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Top Gear?",
+    "answers": [
+      "HBO",
+      "BBC",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "BBC",
+    "explanation": "Top Gear became strongly associated with BBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54115,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Top Gear?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "automotive entertainment",
+      "science fiction"
+    ],
+    "correctAnswer": "automotive entertainment",
+    "explanation": "Top Gear is commonly recognized as a automotive entertainment.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54116,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Grand Tour?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "global car adventures"
+    ],
+    "correctAnswer": "global car adventures",
+    "explanation": "global car adventures is a key setting connected to the story world of The Grand Tour.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54117,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Grand Tour?",
+    "answers": [
+      "Prime Video",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Prime Video",
+    "explanation": "The Grand Tour became strongly associated with Prime Video during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54118,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Grand Tour?",
+    "answers": [
+      "sitcom",
+      "automotive entertainment",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "automotive entertainment",
+    "explanation": "The Grand Tour is commonly recognized as a automotive entertainment.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54119,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Jeopardy!?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "quiz show stage",
+      "Westeros"
+    ],
+    "correctAnswer": "quiz show stage",
+    "explanation": "quiz show stage is a key setting connected to the story world of Jeopardy!.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54120,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Jeopardy!?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "syndication"
+    ],
+    "correctAnswer": "syndication",
+    "explanation": "Jeopardy! became strongly associated with syndication during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54121,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Jeopardy!?",
+    "answers": [
+      "quiz show",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "quiz show",
+    "explanation": "Jeopardy! is commonly recognized as a quiz show.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54122,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Wheel of Fortune?",
+    "answers": [
+      "New York City",
+      "puzzle board stage",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "puzzle board stage",
+    "explanation": "puzzle board stage is a key setting connected to the story world of Wheel of Fortune.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54123,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Wheel of Fortune?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "syndication",
+      "NBC"
+    ],
+    "correctAnswer": "syndication",
+    "explanation": "Wheel of Fortune became strongly associated with syndication during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54124,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Wheel of Fortune?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "game show"
+    ],
+    "correctAnswer": "game show",
+    "explanation": "Wheel of Fortune is commonly recognized as a game show.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54125,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Who Wants to Be a Millionaire??",
+    "answers": [
+      "quiz show hot seat",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "quiz show hot seat",
+    "explanation": "quiz show hot seat is a key setting connected to the story world of Who Wants to Be a Millionaire?.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54126,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Who Wants to Be a Millionaire??",
+    "answers": [
+      "HBO",
+      "ABC",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "ABC",
+    "explanation": "Who Wants to Be a Millionaire? became strongly associated with ABC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54127,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Who Wants to Be a Millionaire??",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "game show",
+      "science fiction"
+    ],
+    "correctAnswer": "game show",
+    "explanation": "Who Wants to Be a Millionaire? is commonly recognized as a game show.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54128,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Price Is Right?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "game show stage"
+    ],
+    "correctAnswer": "game show stage",
+    "explanation": "game show stage is a key setting connected to the story world of The Price Is Right.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54129,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Price Is Right?",
+    "answers": [
+      "CBS",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "CBS",
+    "explanation": "The Price Is Right became strongly associated with CBS during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54130,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Price Is Right?",
+    "answers": [
+      "sitcom",
+      "game show",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "game show",
+    "explanation": "The Price Is Right is commonly recognized as a game show.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54131,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Saturday Night Live?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Studio 8H",
+      "Westeros"
+    ],
+    "correctAnswer": "Studio 8H",
+    "explanation": "Studio 8H is a key setting connected to the story world of Saturday Night Live.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54132,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Saturday Night Live?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "ABC",
+      "NBC"
+    ],
+    "correctAnswer": "NBC",
+    "explanation": "Saturday Night Live became strongly associated with NBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54133,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Saturday Night Live?",
+    "answers": [
+      "sketch comedy",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "sketch comedy",
+    "explanation": "Saturday Night Live is commonly recognized as a sketch comedy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54134,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Tonight Show?",
+    "answers": [
+      "New York City",
+      "late-night studio",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "late-night studio",
+    "explanation": "late-night studio is a key setting connected to the story world of The Tonight Show.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54135,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Tonight Show?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "NBC",
+    "explanation": "The Tonight Show became strongly associated with NBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54136,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Tonight Show?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "late-night talk show"
+    ],
+    "correctAnswer": "late-night talk show",
+    "explanation": "The Tonight Show is commonly recognized as a late-night talk show.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54137,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Daily Show?",
+    "answers": [
+      "news satire desk",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "news satire desk",
+    "explanation": "news satire desk is a key setting connected to the story world of The Daily Show.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54138,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Daily Show?",
+    "answers": [
+      "HBO",
+      "Comedy Central",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Comedy Central",
+    "explanation": "The Daily Show became strongly associated with Comedy Central during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54139,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Daily Show?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "satirical news",
+      "science fiction"
+    ],
+    "correctAnswer": "satirical news",
+    "explanation": "The Daily Show is commonly recognized as a satirical news.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54140,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Last Week Tonight?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "news desk"
+    ],
+    "correctAnswer": "news desk",
+    "explanation": "news desk is a key setting connected to the story world of Last Week Tonight.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54141,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Last Week Tonight?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "HBO",
+    "explanation": "Last Week Tonight became strongly associated with HBO during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54142,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Last Week Tonight?",
+    "answers": [
+      "sitcom",
+      "satirical news",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "satirical news",
+    "explanation": "Last Week Tonight is commonly recognized as a satirical news.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54143,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Sesame Street?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Sesame Street",
+      "Westeros"
+    ],
+    "correctAnswer": "Sesame Street",
+    "explanation": "Sesame Street is a key setting connected to the story world of Sesame Street.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54144,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Sesame Street?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "PBS/HBO"
+    ],
+    "correctAnswer": "PBS/HBO",
+    "explanation": "Sesame Street became strongly associated with PBS/HBO during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54145,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Sesame Street?",
+    "answers": [
+      "children's educational",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "children's educational",
+    "explanation": "Sesame Street is commonly recognized as a children's educational.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54146,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Mister Rogers' Neighborhood?",
+    "answers": [
+      "New York City",
+      "Neighborhood of Make-Believe",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Neighborhood of Make-Believe",
+    "explanation": "Neighborhood of Make-Believe is a key setting connected to the story world of Mister Rogers' Neighborhood.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54147,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Mister Rogers' Neighborhood?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "PBS",
+      "NBC"
+    ],
+    "correctAnswer": "PBS",
+    "explanation": "Mister Rogers' Neighborhood became strongly associated with PBS during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54148,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Mister Rogers' Neighborhood?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "children's educational"
+    ],
+    "correctAnswer": "children's educational",
+    "explanation": "Mister Rogers' Neighborhood is commonly recognized as a children's educational.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 54149,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Blue's Clues?",
+    "answers": [
+      "animated clue world",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "animated clue world",
+    "explanation": "animated clue world is a key setting connected to the story world of Blue's Clues.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 54150,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Blue's Clues?",
+    "answers": [
+      "HBO",
+      "Nickelodeon",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Nickelodeon",
+    "explanation": "Blue's Clues became strongly associated with Nickelodeon during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 54151,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Breaking Bad?",
+    "answers": [
+      "David Chase",
+      "Shonda Rhimes",
+      "Vince Gilligan",
+      "Aaron Sorkin"
+    ],
+    "correctAnswer": "Vince Gilligan",
+    "explanation": "Vince Gilligan is credited as a creator or major creative force behind Breaking Bad.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54152,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Better Call Saul?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes",
+      "Vince Gilligan and Peter Gould"
+    ],
+    "correctAnswer": "Vince Gilligan and Peter Gould",
+    "explanation": "Vince Gilligan and Peter Gould is credited as a creator or major creative force behind Better Call Saul.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54153,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of The Sopranos?",
+    "answers": [
+      "David Chase",
+      "Vince Gilligan",
+      "Shonda Rhimes",
+      "Aaron Sorkin"
+    ],
+    "correctAnswer": "David Chase",
+    "explanation": "David Chase is credited as a creator or major creative force behind The Sopranos.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54154,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of The Wire?",
+    "answers": [
+      "Vince Gilligan",
+      "David Simon",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "David Simon",
+    "explanation": "David Simon is credited as a creator or major creative force behind The Wire.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54155,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Game of Thrones?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "David Benioff and D. B. Weiss",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "David Benioff and D. B. Weiss",
+    "explanation": "David Benioff and D. B. Weiss is credited as a creator or major creative force behind Game of Thrones.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54156,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of House of the Dragon?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes",
+      "Ryan Condal and George R. R. Martin"
+    ],
+    "correctAnswer": "Ryan Condal and George R. R. Martin",
+    "explanation": "Ryan Condal and George R. R. Martin is credited as a creator or major creative force behind House of the Dragon.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54157,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Stranger Things?",
+    "answers": [
+      "the Duffer Brothers",
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "the Duffer Brothers",
+    "explanation": "the Duffer Brothers is credited as a creator or major creative force behind Stranger Things.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54158,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of The Crown?",
+    "answers": [
+      "Vince Gilligan",
+      "Peter Morgan",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Peter Morgan",
+    "explanation": "Peter Morgan is credited as a creator or major creative force behind The Crown.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54159,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of The Queen's Gambit?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Scott Frank and Allan Scott",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Scott Frank and Allan Scott",
+    "explanation": "Scott Frank and Allan Scott is credited as a creator or major creative force behind The Queen's Gambit.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54160,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Squid Game?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes",
+      "Hwang Dong-hyuk"
+    ],
+    "correctAnswer": "Hwang Dong-hyuk",
+    "explanation": "Hwang Dong-hyuk is credited as a creator or major creative force behind Squid Game.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54161,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Friends?",
+    "answers": [
+      "David Crane and Marta Kauffman",
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "David Crane and Marta Kauffman",
+    "explanation": "David Crane and Marta Kauffman is credited as a creator or major creative force behind Friends.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54162,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Seinfeld?",
+    "answers": [
+      "Vince Gilligan",
+      "Larry David and Jerry Seinfeld",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Larry David and Jerry Seinfeld",
+    "explanation": "Larry David and Jerry Seinfeld is credited as a creator or major creative force behind Seinfeld.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54163,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of The Office?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Greg Daniels",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Greg Daniels",
+    "explanation": "Greg Daniels is credited as a creator or major creative force behind The Office.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54164,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Parks and Recreation?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes",
+      "Greg Daniels and Michael Schur"
+    ],
+    "correctAnswer": "Greg Daniels and Michael Schur",
+    "explanation": "Greg Daniels and Michael Schur is credited as a creator or major creative force behind Parks and Recreation.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54165,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Brooklyn Nine-Nine?",
+    "answers": [
+      "Dan Goor and Michael Schur",
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Dan Goor and Michael Schur",
+    "explanation": "Dan Goor and Michael Schur is credited as a creator or major creative force behind Brooklyn Nine-Nine.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54166,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Modern Family?",
+    "answers": [
+      "Vince Gilligan",
+      "Christopher Lloyd and Steven Levitan",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Christopher Lloyd and Steven Levitan",
+    "explanation": "Christopher Lloyd and Steven Levitan is credited as a creator or major creative force behind Modern Family.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54167,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of How I Met Your Mother?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Carter Bays and Craig Thomas",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Carter Bays and Craig Thomas",
+    "explanation": "Carter Bays and Craig Thomas is credited as a creator or major creative force behind How I Met Your Mother.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54168,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of The Big Bang Theory?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes",
+      "Chuck Lorre and Bill Prady"
+    ],
+    "correctAnswer": "Chuck Lorre and Bill Prady",
+    "explanation": "Chuck Lorre and Bill Prady is credited as a creator or major creative force behind The Big Bang Theory.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54169,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Community?",
+    "answers": [
+      "Dan Harmon",
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Dan Harmon",
+    "explanation": "Dan Harmon is credited as a creator or major creative force behind Community.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54170,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Arrested Development?",
+    "answers": [
+      "Vince Gilligan",
+      "Mitchell Hurwitz",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Mitchell Hurwitz",
+    "explanation": "Mitchell Hurwitz is credited as a creator or major creative force behind Arrested Development.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54171,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Curb Your Enthusiasm?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Larry David",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Larry David",
+    "explanation": "Larry David is credited as a creator or major creative force behind Curb Your Enthusiasm.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54172,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of 30 Rock?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes",
+      "Tina Fey"
+    ],
+    "correctAnswer": "Tina Fey",
+    "explanation": "Tina Fey is credited as a creator or major creative force behind 30 Rock.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54173,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Veep?",
+    "answers": [
+      "Armando Iannucci",
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Armando Iannucci",
+    "explanation": "Armando Iannucci is credited as a creator or major creative force behind Veep.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54174,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Succession?",
+    "answers": [
+      "Vince Gilligan",
+      "Jesse Armstrong",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Jesse Armstrong",
+    "explanation": "Jesse Armstrong is credited as a creator or major creative force behind Succession.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54175,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Mad Men?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Matthew Weiner",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Matthew Weiner",
+    "explanation": "Matthew Weiner is credited as a creator or major creative force behind Mad Men.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54176,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Lost?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes",
+      "J. J. Abrams, Damon Lindelof, and Jeffrey Lieber"
+    ],
+    "correctAnswer": "J. J. Abrams, Damon Lindelof, and Jeffrey Lieber",
+    "explanation": "J. J. Abrams, Damon Lindelof, and Jeffrey Lieber is credited as a creator or major creative force behind Lost.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54177,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of The X-Files?",
+    "answers": [
+      "Chris Carter",
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Chris Carter",
+    "explanation": "Chris Carter is credited as a creator or major creative force behind The X-Files.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54178,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Twin Peaks?",
+    "answers": [
+      "Vince Gilligan",
+      "David Lynch and Mark Frost",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "David Lynch and Mark Frost",
+    "explanation": "David Lynch and Mark Frost is credited as a creator or major creative force behind Twin Peaks.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54179,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of The Twilight Zone?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Rod Serling",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Rod Serling",
+    "explanation": "Rod Serling is credited as a creator or major creative force behind The Twilight Zone.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54180,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Black Mirror?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes",
+      "Charlie Brooker"
+    ],
+    "correctAnswer": "Charlie Brooker",
+    "explanation": "Charlie Brooker is credited as a creator or major creative force behind Black Mirror.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54181,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Doctor Who?",
+    "answers": [
+      "Sydney Newman, C. E. Webber, and Donald Wilson",
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Sydney Newman, C. E. Webber, and Donald Wilson",
+    "explanation": "Sydney Newman, C. E. Webber, and Donald Wilson is credited as a creator or major creative force behind Doctor Who.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54182,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Star Trek: The Original Series?",
+    "answers": [
+      "Vince Gilligan",
+      "Gene Roddenberry",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Gene Roddenberry",
+    "explanation": "Gene Roddenberry is credited as a creator or major creative force behind Star Trek: The Original Series.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54183,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Star Trek: The Next Generation?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Gene Roddenberry",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Gene Roddenberry",
+    "explanation": "Gene Roddenberry is credited as a creator or major creative force behind Star Trek: The Next Generation.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54184,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of The Mandalorian?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes",
+      "Jon Favreau"
+    ],
+    "correctAnswer": "Jon Favreau",
+    "explanation": "Jon Favreau is credited as a creator or major creative force behind The Mandalorian.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54185,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Andor?",
+    "answers": [
+      "Tony Gilroy",
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Tony Gilroy",
+    "explanation": "Tony Gilroy is credited as a creator or major creative force behind Andor.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54186,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of The Last of Us?",
+    "answers": [
+      "Vince Gilligan",
+      "Craig Mazin and Neil Druckmann",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Craig Mazin and Neil Druckmann",
+    "explanation": "Craig Mazin and Neil Druckmann is credited as a creator or major creative force behind The Last of Us.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54187,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of The Walking Dead?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Frank Darabont",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Frank Darabont",
+    "explanation": "Frank Darabont is credited as a creator or major creative force behind The Walking Dead.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54188,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Battlestar Galactica?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes",
+      "Ronald D. Moore"
+    ],
+    "correctAnswer": "Ronald D. Moore",
+    "explanation": "Ronald D. Moore is credited as a creator or major creative force behind Battlestar Galactica.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54189,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of The Expanse?",
+    "answers": [
+      "Mark Fergus and Hawk Ostby",
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Mark Fergus and Hawk Ostby",
+    "explanation": "Mark Fergus and Hawk Ostby is credited as a creator or major creative force behind The Expanse.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54190,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Westworld?",
+    "answers": [
+      "Vince Gilligan",
+      "Jonathan Nolan and Lisa Joy",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Jonathan Nolan and Lisa Joy",
+    "explanation": "Jonathan Nolan and Lisa Joy is credited as a creator or major creative force behind Westworld.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54191,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Mr. Robot?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Sam Esmail",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Sam Esmail",
+    "explanation": "Sam Esmail is credited as a creator or major creative force behind Mr. Robot.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54192,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Fargo?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes",
+      "Noah Hawley"
+    ],
+    "correctAnswer": "Noah Hawley",
+    "explanation": "Noah Hawley is credited as a creator or major creative force behind Fargo.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54193,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of True Detective?",
+    "answers": [
+      "Nic Pizzolatto",
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Nic Pizzolatto",
+    "explanation": "Nic Pizzolatto is credited as a creator or major creative force behind True Detective.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54194,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Dexter?",
+    "answers": [
+      "Vince Gilligan",
+      "James Manos Jr.",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "James Manos Jr.",
+    "explanation": "James Manos Jr. is credited as a creator or major creative force behind Dexter.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54195,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Sherlock?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Steven Moffat and Mark Gatiss",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Steven Moffat and Mark Gatiss",
+    "explanation": "Steven Moffat and Mark Gatiss is credited as a creator or major creative force behind Sherlock.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54196,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Luther?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes",
+      "Neil Cross"
+    ],
+    "correctAnswer": "Neil Cross",
+    "explanation": "Neil Cross is credited as a creator or major creative force behind Luther.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54197,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Peaky Blinders?",
+    "answers": [
+      "Steven Knight",
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Steven Knight",
+    "explanation": "Steven Knight is credited as a creator or major creative force behind Peaky Blinders.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54198,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Downton Abbey?",
+    "answers": [
+      "Vince Gilligan",
+      "Julian Fellowes",
+      "David Chase",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Julian Fellowes",
+    "explanation": "Julian Fellowes is credited as a creator or major creative force behind Downton Abbey.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54199,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of The Handmaid's Tale?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Bruce Miller",
+      "Shonda Rhimes"
+    ],
+    "correctAnswer": "Bruce Miller",
+    "explanation": "Bruce Miller is credited as a creator or major creative force behind The Handmaid's Tale.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  },
+  {
+    "id": 54200,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is credited as a creator or key creator of Orange Is the New Black?",
+    "answers": [
+      "Vince Gilligan",
+      "David Chase",
+      "Shonda Rhimes",
+      "Jenji Kohan"
+    ],
+    "correctAnswer": "Jenji Kohan",
+    "explanation": "Jenji Kohan is credited as a creator or major creative force behind Orange Is the New Black.",
+    "tags": [
+      "tvshows",
+      "creators"
+    ]
+  }
+]

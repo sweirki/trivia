@@ -1,9 +1,6 @@
 // app/(app)/store/index.tsx
 // Phase 5.4 — Unified Store / Bazaar + Economy Engine preview.
 // UI displays economy state only; purchases still route through purchaseStore.
-import ScreenShell from "@/components/ScreenShell";
-import GoldCard from "@/components/GoldCard";
-
 import { useEffect, useMemo, useState } from "react";
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
@@ -19,7 +16,8 @@ import { useEntitlementStore } from "@/store/entitlementStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { usePurchaseStore } from "@/store/purchaseStore";
 import { trackEvent, trackScreenView } from "@/observability";
-import { StoreCosmeticCard as CosmeticCard, StoreMessageBanner, StoreProductCard as ProductCard, StoreTabBar } from "./store.components";
+import { getStoreHeroAsset } from "@/cosmetics/cosmeticAssets";
+import { StoreCosmeticCard as CosmeticCard, StoreHeroPanel, StoreMessageBanner, StoreProductCard as ProductCard, StoreTabBar } from "@/screens/store/store.components";
 
 type StoreTab = "offers" | "economy" | "gems" | "tickets" | "bundles" | "boosts" | "cosmetics" | "vip";
 
@@ -36,7 +34,182 @@ const STORE_TABS: { id: StoreTab; label: string }[] = [
 
 const COSMETIC_TABS: CosmeticCategory[] = COSMETIC_STORE_TABS;
 
+
+const STORE_HERO_BY_TAB: Record<StoreTab, {
+  asset: string;
+  eyebrow: string;
+  title: string;
+  body: string;
+  accent?: string;
+}> = {
+  offers: {
+    asset: "store_bazaar_hero",
+    eyebrow: "SMART OFFERS",
+    title: "Bazaar of Momentum",
+    body: "Personalized boosts, VIP routes, and session-ready rewards tuned for your next run.",
+    accent: "#FFD34D",
+  },
+  economy: {
+    asset: "economy_engine_hero",
+    eyebrow: "ECONOMY ENGINE",
+    title: "Progression Core",
+    body: "Track XP, streak multipliers, level rewards, and the long-term reward runway.",
+    accent: "#9FE7FF",
+  },
+  gems: {
+    asset: "gems_vault_hero",
+    eyebrow: "PREMIUM CURRENCY",
+    title: "Gem Vault",
+    body: "Premium currency for boosts, cosmetics, bundles, and future elite content.",
+    accent: "#74D9FF",
+  },
+  tickets: {
+    asset: "session_bundles_hero",
+    eyebrow: "PLAY MORE",
+    title: "Ticket Reserve",
+    body: "Refill your session runway and keep momentum alive across premium modes.",
+    accent: "#FFD34D",
+  },
+  bundles: {
+    asset: "session_bundles_hero",
+    eyebrow: "SESSION LOADOUTS",
+    title: "Bundle Prep",
+    body: "Tickets and timed boosts packaged for focused competitive runs.",
+    accent: "#FFD34D",
+  },
+  boosts: {
+    asset: "boost_lab_hero",
+    eyebrow: "POWER WINDOW",
+    title: "Boost Lab",
+    body: "Activate XP and coin multipliers before your next serious trivia session.",
+    accent: "#9FE7FF",
+  },
+  cosmetics: {
+    asset: "cosmetics_collection_hero",
+    eyebrow: "COLLECTION VAULT",
+    title: "Cosmetic Identity",
+    body: "Avatars, frames, badges, banners, trails, and aura rewards for your profile legacy.",
+    accent: "#C58CFF",
+  },
+  vip: {
+    asset: "vip_prestige_hero",
+    eyebrow: "VIP PRESTIGE",
+    title: "Elite Access",
+    body: "Preview the premium layer built for progression, identity, and exclusive rewards.",
+    accent: "#FFD34D",
+  },
+};
+
+const COSMETIC_HERO_BY_CATEGORY: Partial<Record<CosmeticCategory, {
+  asset: string;
+  eyebrow: string;
+  title: string;
+  body: string;
+  accent?: string;
+}>> = {
+  [CosmeticCategory.AVATAR]: {
+    asset: "cosmetics_avatar_hero",
+    eyebrow: "AVATAR IDENTITY",
+    title: "Choose Your Face",
+    body: "Premium portraits that define how your arena identity appears across the ecosystem.",
+    accent: "#9FE7FF",
+  },
+  [CosmeticCategory.AVATAR_FRAME]: {
+    asset: "cosmetics_frames_hero",
+    eyebrow: "PRESTIGE FRAMES",
+    title: "Frame Your Legacy",
+    body: "Elite borders and prestige rings for your profile presence.",
+    accent: "#FFD34D",
+  },
+  [CosmeticCategory.PROFILE_BACKGROUND]: {
+    asset: "cosmetics_backgrounds_hero",
+    eyebrow: "PROFILE SCENES",
+    title: "Set the Stage",
+    body: "Cinematic backgrounds for your public identity and progression story.",
+    accent: "#74D9FF",
+  },
+  [CosmeticCategory.BADGE]: {
+    asset: "cosmetics_badges_hero",
+    eyebrow: "STATUS BADGES",
+    title: "Show the Proof",
+    body: "Collectible prestige markers for mastery, loyalty, and elite accomplishments.",
+    accent: "#FFD34D",
+  },
+  [CosmeticCategory.STREAK_AURA]: {
+    asset: "cosmetics_streaks_hero",
+    eyebrow: "STREAK AURAS",
+    title: "Momentum Effects",
+    body: "Visual energy for hot streaks, daily commitment, and competitive identity.",
+    accent: "#FF8A5B",
+  },
+  [CosmeticCategory.ARENA_BANNER]: {
+    asset: "cosmetics_banners_hero",
+    eyebrow: "ARENA BANNERS",
+    title: "Enter Like a Champion",
+    body: "Tournament-ready banners for arena presentation and prestige moments.",
+    accent: "#FFD34D",
+  },
+  [CosmeticCategory.ANSWER_TRAIL]: {
+    asset: "cosmetics_trails_hero",
+    eyebrow: "ANSWER TRAILS",
+    title: "Leave a Signature",
+    body: "Fast, premium trail effects for confident answers and high-energy play.",
+    accent: "#9FE7FF",
+  },
+};
+
+
+
+const COSMETIC_SPOTLIGHTS = [
+  {
+    asset: "featured_cosmetics_hero",
+    eyebrow: "FEATURED",
+    title: "Collector Spotlight",
+    body: "Rotating prestige cosmetics and high-desire identity rewards.",
+    accent: "#FFD34D",
+  },
+  {
+    asset: "seasonal_cosmetics_hero",
+    eyebrow: "SEASONAL",
+    title: "Limited-Time Identity",
+    body: "Event-ready cosmetics built for future seasons and reward moments.",
+    accent: "#9FE7FF",
+  },
+  {
+    asset: "tournament_cosmetics_hero",
+    eyebrow: "TOURNAMENT",
+    title: "Champion Rewards",
+    body: "Prestige visuals for competitive status and arena glory.",
+    accent: "#C58CFF",
+  },
+];
+
 const formatTimeLeft = formatVipTimeLeft;
+
+
+function BalanceChip({
+  icon,
+  value,
+  label,
+  tone = "blue",
+}: {
+  icon: string;
+  value: string | number;
+  label: string;
+  tone?: "blue" | "gold" | "red" | "vip";
+}) {
+  return (
+    <View style={[styles.balanceChip, styles[`balanceChip_${tone}`]]}>
+      <View style={styles.balanceIconOrb}>
+        <Text allowFontScaling maxFontSizeMultiplier={1.1} style={styles.balanceIcon}>{icon}</Text>
+      </View>
+      <View style={styles.balanceCopy}>
+        <Text allowFontScaling maxFontSizeMultiplier={1.12} numberOfLines={1} style={styles.balanceValue}>{value}</Text>
+        <Text allowFontScaling maxFontSizeMultiplier={1.08} numberOfLines={1} style={styles.balanceLabel}>{label}</Text>
+      </View>
+    </View>
+  );
+}
 
 export default function StoreScreen() {
   const router = useRouter();
@@ -99,6 +272,12 @@ export default function StoreScreen() {
     [cosmeticTab]
   );
 
+  const activeHero = activeTab === "cosmetics"
+    ? (COSMETIC_HERO_BY_CATEGORY[cosmeticTab] ?? STORE_HERO_BY_TAB.cosmetics)
+    : STORE_HERO_BY_TAB[activeTab];
+
+  const activeHeroArt = getStoreHeroAsset(activeHero.asset);
+
   const runPurchase = async (productId: string) => {
     void trackEvent("purchase_started", { productId });
 
@@ -131,16 +310,14 @@ export default function StoreScreen() {
           <Text style={styles.back}>← Back</Text>
         </TouchableOpacity>
         <Text style={styles.title}>Store / Bazaar</Text>
-        <Text style={styles.subtitle}>Economy-ready store hub. Real-money purchases are RevenueCat-ready, not locally faked.</Text>
+        <Text style={styles.subtitle}>Premium economy, VIP progression, boosts, bundles, and collectible identity.</Text>
 
         <View style={styles.balanceRow}>
-          <Text style={styles.balance}>🪙 {coins}</Text>
-          <Text style={styles.balance}>💎 {gems}</Text>
-          <Text style={styles.balance}>🎟 {tickets}</Text>
-          <Text style={styles.balance}>LV {level}</Text>
-          <Text style={[styles.vipHeaderBadge, isVIPActive ? styles.vipHeaderBadgeActive : styles.vipHeaderBadgeLocked]}>
-            {isVIPActive ? "VIP ✓" : "VIP OFF"}
-          </Text>
+          <BalanceChip icon="🪙" value={coins} label="Coins" tone="gold" />
+          <BalanceChip icon="💎" value={gems} label="Gems" tone="blue" />
+          <BalanceChip icon="🎟" value={tickets} label="Tickets" tone="red" />
+          <BalanceChip icon="LV" value={level} label="Level" tone="blue" />
+          <BalanceChip icon="VIP" value={isVIPActive ? "ON" : "OFF"} label={isVIPActive ? "Active" : "Locked"} tone="vip" />
         </View>
       </View>
 
@@ -156,6 +333,13 @@ export default function StoreScreen() {
       <StoreMessageBanner message={message} onDismiss={() => setMessage(null)} />
 
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
+        <StoreHeroPanel
+          art={activeHeroArt}
+          eyebrow={activeHero.eyebrow}
+          title={activeHero.title}
+          body={activeHero.body}
+          accent={activeHero.accent}
+        />
         {activeTab === "offers" ? (
           <>
             <Text style={styles.sectionTitle}>Smart Offers</Text>
@@ -168,6 +352,8 @@ export default function StoreScreen() {
               const starterDisabled = offer.productId === "bundle_starter" && coins < 99;
               return (
                 <ProductCard
+                  artKey={activeHero.asset}
+                  accent={activeHero.accent}
                   key={offer.id}
                   title={offer.title}
                   subtitle={offer.message}
@@ -184,6 +370,8 @@ export default function StoreScreen() {
             })}
 
             <ProductCard
+                  artKey={activeHero.asset}
+                  accent={activeHero.accent}
               title="VIP Monthly"
               subtitle={STORE_CONFIG.vip.perks.join(" • ")}
               meta={isVIPActive ? `Active: ${formatTimeLeft(vipExpiresAt)} left` : STORE_CONFIG.vip.priceLabel}
@@ -249,6 +437,8 @@ export default function StoreScreen() {
               const amount = item.amount + item.bonusAmount;
               return (
                 <ProductCard
+                  artKey={activeHero.asset}
+                  accent={activeHero.accent}
                   key={item.id}
                   title={item.title}
                   subtitle={item.description}
@@ -261,6 +451,8 @@ export default function StoreScreen() {
               );
             })}
             <ProductCard
+                  artKey={activeHero.asset}
+                  accent={activeHero.accent}
               title="Starter Pack"
               subtitle="Best first purchase: gems, tickets, and a timed XP boost."
               meta="$2.99 • 250 gems • 15 tickets • 30m 2x XP"
@@ -277,6 +469,8 @@ export default function StoreScreen() {
             <Text style={styles.sectionTitle}>Play More</Text>
             {STORE_CONFIG.tickets.map((item) => (
               <ProductCard
+                  artKey={activeHero.asset}
+                  accent={activeHero.accent}
                 key={item.id}
                 title={item.title}
                 subtitle={item.description}
@@ -303,6 +497,8 @@ export default function StoreScreen() {
                 : "";
               return (
                 <ProductCard
+                  artKey={activeHero.asset}
+                  accent={activeHero.accent}
                   key={item.id}
                   title={item.title}
                   subtitle={item.description}
@@ -322,6 +518,8 @@ export default function StoreScreen() {
             <Text style={styles.sectionTitle}>Boosts</Text>
             {STORE_CONFIG.boosts.map((item) => (
               <ProductCard
+                  artKey={activeHero.asset}
+                  accent={activeHero.accent}
                 key={item.id}
                 title={item.title}
                 subtitle={item.description}
@@ -352,6 +550,21 @@ export default function StoreScreen() {
                 );
               })}
             </ScrollView>
+
+            <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.spotlightRail}>
+              {COSMETIC_SPOTLIGHTS.map((spotlight) => (
+                <View key={spotlight.asset} style={styles.spotlightCard}>
+                  <StoreHeroPanel
+                    art={getStoreHeroAsset(spotlight.asset)}
+                    eyebrow={spotlight.eyebrow}
+                    title={spotlight.title}
+                    body={spotlight.body}
+                    accent={spotlight.accent}
+                  />
+                </View>
+              ))}
+            </ScrollView>
+
             {filteredCosmetics.map((item) => (
               <CosmeticCard
                 key={item.id}
@@ -378,6 +591,8 @@ export default function StoreScreen() {
               <Text style={styles.vipStatusSub}>{vipStatusDetail}</Text>
             </View>
             <ProductCard
+                  artKey={activeHero.asset}
+                  accent={activeHero.accent}
               title={STORE_CONFIG.vip.title}
               subtitle={isVIPActive ? "VIP perks are active through entitlements." : "Subscribe through RevenueCat to activate VIP perks."}
               meta={isVIPActive ? `Active: ${formatTimeLeft(vipExpiresAt)} left` : STORE_CONFIG.vip.priceLabel}
@@ -416,30 +631,90 @@ export default function StoreScreen() {
 }
 
 const styles = StyleSheet.create({
-  root: { flex: 1, backgroundColor: "#080811" },
-  header: { paddingTop: 18, paddingHorizontal: 18, paddingBottom: 14, borderBottomWidth: 1, borderColor: "#1E2233" },
-  back: { color: "#F9B233", fontSize: 14, fontWeight: "800", marginBottom: 8 },
-  title: { color: "#FFD34D", fontSize: 28, fontWeight: "900" },
-  subtitle: { color: "#AAB0C0", marginTop: 6, fontSize: 12, lineHeight: 17 },
-  balanceRow: { flexDirection: "row", flexWrap: "wrap", gap: 10, marginTop: 12 },
-  balance: { color: "#FFFFFF", fontSize: 15, fontWeight: "900", backgroundColor: "#171B2A", paddingVertical: 7, paddingHorizontal: 10, borderRadius: 12 },
-  vipHeaderBadge: { fontSize: 12, fontWeight: "900", paddingVertical: 7, paddingHorizontal: 10, borderRadius: 12, overflow: "hidden" },
-  vipHeaderBadgeActive: { color: "#090909", backgroundColor: "#FFD34D" },
-  vipHeaderBadgeLocked: { color: "#AAB0C0", backgroundColor: "#171B2A" },
+  root: { flex: 1, backgroundColor: "#030615" },
+  header: { paddingTop: 16, paddingHorizontal: 16, paddingBottom: 12, borderBottomWidth: 1, borderColor: "rgba(110,170,255,0.14)", backgroundColor: "rgba(3,6,21,0.96)" },
+  back: { color: "#F9B233", fontSize: 13, fontWeight: "800", marginBottom: 7 },
+  title: { color: "#FFD34D", fontSize: 27, fontWeight: "900", letterSpacing: -0.45 },
+  subtitle: { color: "#B9C7DD", marginTop: 5, fontSize: 11.5, lineHeight: 16, fontWeight: "700" },
+  balanceRow: {
+    flexDirection: "row",
+    gap: 7,
+    marginTop: 11,
+  },
+  balanceChip: {
+    flex: 1,
+    minHeight: 48,
+    borderRadius: 16,
+    paddingHorizontal: 7,
+    paddingVertical: 7,
+    backgroundColor: "rgba(18,28,46,0.96)",
+    borderWidth: 1,
+    borderColor: "rgba(159,231,255,0.14)",
+    overflow: "hidden",
+    justifyContent: "center",
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 6,
+  },
+  balanceChip_gold: {
+    borderColor: "rgba(255,211,77,0.30)",
+    backgroundColor: "rgba(29,26,17,0.96)",
+  },
+  balanceChip_blue: {
+    borderColor: "rgba(116,217,255,0.24)",
+  },
+  balanceChip_red: {
+    borderColor: "rgba(255,118,118,0.20)",
+  },
+  balanceChip_vip: {
+    borderColor: "rgba(255,211,77,0.26)",
+    backgroundColor: "rgba(24,25,31,0.96)",
+  },
+  balanceIconOrb: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "rgba(255,255,255,0.08)",
+  },
+  balanceIcon: {
+    color: "#FFD34D",
+    fontSize: 9,
+    fontWeight: "900",
+  },
+  balanceCopy: {
+    flex: 1,
+    minWidth: 0,
+  },
+  balanceValue: {
+    color: "#FFFFFF",
+    fontSize: 14,
+    fontWeight: "900",
+    lineHeight: 16,
+  },
+  balanceLabel: {
+    color: "#8FA3C9",
+    fontSize: 7.5,
+    fontWeight: "900",
+    marginTop: 1,
+    textTransform: "uppercase",
+    letterSpacing: 0.2,
+  },
   tabsShell: { borderBottomWidth: 1, borderColor: "#1E2233" },
   tabsContent: { paddingHorizontal: 12, paddingVertical: 10 },
   tab: { paddingHorizontal: 14, height: 30, borderRadius: 15, backgroundColor: "#1A1D28", alignItems: "center", justifyContent: "center", marginRight: 8 },
-  smallTab: { paddingHorizontal: 12, height: 28, borderRadius: 14, backgroundColor: "#1A1D28", alignItems: "center", justifyContent: "center", marginRight: 8 },
-  tabActive: { backgroundColor: "#FFD34D" },
+  smallTab: { paddingHorizontal: 12, height: 29, borderRadius: 15, backgroundColor: "rgba(28,32,48,0.92)", alignItems: "center", justifyContent: "center", marginRight: 8, borderWidth: 1, borderColor: "rgba(159,231,255,0.08)" },
+  tabActive: { backgroundColor: "#FFD34D", borderColor: "rgba(255,211,77,0.70)" },
   tabText: { color: "#AAB0C0", fontSize: 11, fontWeight: "900" },
   tabTextActive: { color: "#090909" },
   messageBox: { margin: 12, marginBottom: 0, padding: 12, backgroundColor: "#16251A", borderWidth: 1, borderColor: "#2F8F46", borderRadius: 14 },
   messageText: { color: "#D8FFE1", fontSize: 12, fontWeight: "800" },
-  infoBox: { backgroundColor: "#11131E", borderRadius: 16, padding: 14, marginBottom: 14, borderWidth: 1, borderColor: "#2A3042" },
-  conversionBox: { backgroundColor: "#211B10", borderRadius: 16, padding: 14, marginBottom: 14, borderWidth: 1, borderColor: "#FFD34D" },
+  infoBox: { backgroundColor: "rgba(18,20,31,0.94)", borderRadius: 20, padding: 15, marginBottom: 14, borderWidth: 1, borderColor: "rgba(110,170,255,0.20)" },
+  conversionBox: { backgroundColor: "rgba(38,29,12,0.92)", borderRadius: 20, padding: 15, marginBottom: 14, borderWidth: 1, borderColor: "rgba(255,211,77,0.72)" },
   conversionTitle: { color: "#FFD34D", fontSize: 13, fontWeight: "900", marginBottom: 6 },
   conversionText: { color: "#F1DFAD", fontSize: 12, lineHeight: 18 },
-  vipStatusBox: { borderRadius: 16, padding: 14, marginBottom: 14, borderWidth: 1 },
+  vipStatusBox: { borderRadius: 20, padding: 15, marginBottom: 14, borderWidth: 1 },
   vipStatusActiveBox: { backgroundColor: "#1E2415", borderColor: "#FFD34D" },
   vipStatusLockedBox: { backgroundColor: "#11131E", borderColor: "#2A3042" },
   vipStatusTitle: { fontSize: 14, fontWeight: "900", marginBottom: 4 },
@@ -453,8 +728,8 @@ const styles = StyleSheet.create({
   successText: { color: "#D8FFE1", fontSize: 12, fontWeight: "800" },
   progressOuter: { height: 10, backgroundColor: "#252A3A", borderRadius: 999, overflow: "hidden", marginVertical: 10 },
   progressInner: { height: 10, backgroundColor: "#FFD34D", borderRadius: 999 },
-  content: { padding: 14, paddingBottom: 50 },
-  sectionTitle: { color: "#FFFFFF", fontSize: 16, fontWeight: "900", marginBottom: 12 },
+  content: { paddingHorizontal: 14, paddingTop: 14, paddingBottom: 52 },
+  sectionTitle: { color: "#FFFFFF", fontSize: 17, fontWeight: "900", marginBottom: 10, letterSpacing: -0.2 },
   card: {
     backgroundColor: "#171B2A",
     borderRadius: 16,
@@ -472,10 +747,16 @@ const styles = StyleSheet.create({
   disabledButton: { backgroundColor: "#2B2E39" },
   buyText: { color: "#090909", fontSize: 13, fontWeight: "900" },
   disabledText: { color: "#808696" },
-  cosmeticTabs: { paddingBottom: 12 },
+  cosmeticTabs: { paddingBottom: 10, paddingTop: 2 },
+  spotlightRail: { paddingBottom: 12, gap: 10 },
+  spotlightCard: { width: 260, marginRight: 10 },
   restoreButton: { marginTop: 4, height: 42, borderRadius: 14, borderWidth: 1, borderColor: "#FFD34D", alignItems: "center", justifyContent: "center" },
   restoreText: { color: "#FFD34D", fontWeight: "900" },
-  truthBox: { backgroundColor: "#11131E", borderRadius: 16, padding: 14, marginTop: 8, borderWidth: 1, borderColor: "#2A3042" },
+  truthBox: { backgroundColor: "rgba(18,20,31,0.94)", borderRadius: 20, padding: 15, marginTop: 8, borderWidth: 1, borderColor: "rgba(255,211,77,0.24)" },
   truthTitle: { color: "#FFD34D", fontWeight: "900", marginBottom: 6 },
   truthText: { color: "#B8BECC", fontSize: 12, lineHeight: 18 },
 });
+
+
+
+

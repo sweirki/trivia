@@ -1,4 +1,4 @@
-// app/(app)/store/store.components.tsx
+// app/(app)/stor@/screens/store/store.components.tsx
 // Phase 5F — Store screen UI extraction.
 // Pure presentational components only; purchase and persistence behavior stays in index.tsx.
 
@@ -207,3 +207,5 @@ const styles = StyleSheet.create({
   buyText: { color: "#090909", fontSize: 13, fontWeight: "900" },
   disabledText: { color: "#808696" },
 });
+
+

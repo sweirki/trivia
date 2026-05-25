@@ -1,1 +1,734 @@
-[]
+[
+  {
+    "id": 30501,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "If you have 5 apples and give away 2, how many apples remain?",
+    "answers": [
+      "2",
+      "4",
+      "3",
+      "7"
+    ],
+    "correctAnswer": "3",
+    "explanation": "The correct answer is 3.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 30502,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number comes next in the sequence: 2, 3, 5, 8, 12, 17, ?",
+    "answers": [
+      "21",
+      "24",
+      "25",
+      "23"
+    ],
+    "correctAnswer": "23",
+    "explanation": "23 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 30503,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which item is usually used to tell time?",
+    "answers": [
+      "Clock",
+      "Book",
+      "Chair",
+      "Bottle"
+    ],
+    "correctAnswer": "Clock",
+    "explanation": "Clock is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "clock"
+    ]
+  },
+  {
+    "id": 30504,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If A is before B and B is before C, which letter comes first?",
+    "answers": [
+      "B",
+      "A",
+      "C",
+      "None"
+    ],
+    "correctAnswer": "A",
+    "explanation": "The correct answer is A.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 30505,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is 9 plus 6?",
+    "answers": [
+      "14",
+      "16",
+      "15",
+      "18"
+    ],
+    "correctAnswer": "15",
+    "explanation": "15 is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 30506,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which number is the result of doubling 18?",
+    "answers": [
+      "34",
+      "38",
+      "40",
+      "36"
+    ],
+    "correctAnswer": "36",
+    "explanation": "36 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 30507,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which shape has no corners?",
+    "answers": [
+      "Circle",
+      "Square",
+      "Triangle",
+      "Rectangle"
+    ],
+    "correctAnswer": "Circle",
+    "explanation": "Circle is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "circle"
+    ]
+  },
+  {
+    "id": 30508,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number completes the pattern: 4, 9, 16, 25, ?",
+    "answers": [
+      "30",
+      "36",
+      "35",
+      "49"
+    ],
+    "correctAnswer": "36",
+    "explanation": "36 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 30509,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which comes first in alphabetical order?",
+    "answers": [
+      "Banana",
+      "Cherry",
+      "Apple",
+      "Date"
+    ],
+    "correctAnswer": "Apple",
+    "explanation": "Apple is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "apple"
+    ]
+  },
+  {
+    "id": 30510,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If every student in a class has a notebook, and Sara is in that class, what does Sara have?",
+    "answers": [
+      "A calculator",
+      "A backpack",
+      "A ruler",
+      "A notebook"
+    ],
+    "correctAnswer": "A notebook",
+    "explanation": "The correct answer is A notebook.",
+    "tags": [
+      "logic",
+      "medium",
+      "notebook"
+    ]
+  },
+  {
+    "id": 30511,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is 20 minus 7?",
+    "answers": [
+      "13",
+      "12",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "13",
+    "explanation": "13 is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 30512,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which number comes next: 1, 4, 7, 10, ?",
+    "answers": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "13",
+    "explanation": "13 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 30513,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is greater than 50?",
+    "answers": [
+      "45",
+      "30",
+      "60",
+      "49"
+    ],
+    "correctAnswer": "60",
+    "explanation": "60 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 30514,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "If a code changes A to C, B to D, and C to E, what does it change D to?",
+    "answers": [
+      "E",
+      "G",
+      "H",
+      "F"
+    ],
+    "correctAnswer": "F",
+    "explanation": "The correct answer is F.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 30515,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which pair adds up to 10?",
+    "answers": [
+      "4 and 6",
+      "3 and 8",
+      "5 and 7",
+      "2 and 9"
+    ],
+    "correctAnswer": "4 and 6",
+    "explanation": "4 and 6 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 30516,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which number comes next: 81, 72, 63, 54, ?",
+    "answers": [
+      "48",
+      "45",
+      "44",
+      "36"
+    ],
+    "correctAnswer": "45",
+    "explanation": "45 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 30517,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object is most likely to float in water?",
+    "answers": [
+      "Stone",
+      "Metal key",
+      "Wood",
+      "Brick"
+    ],
+    "correctAnswer": "Wood",
+    "explanation": "Wood is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "wood"
+    ]
+  },
+  {
+    "id": 30518,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If a train leaves at 2:00 and arrives 3 hours later, what time does it arrive?",
+    "answers": [
+      "4:00",
+      "6:00",
+      "3:00",
+      "5:00"
+    ],
+    "correctAnswer": "5:00",
+    "explanation": "The correct answer is 5:00.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 30519,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is one dozen?",
+    "answers": [
+      "12",
+      "10",
+      "11",
+      "13"
+    ],
+    "correctAnswer": "12",
+    "explanation": "12 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 30520,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number comes next: 1, 4, 9, 16, 25, ?",
+    "answers": [
+      "30",
+      "36",
+      "49",
+      "35"
+    ],
+    "correctAnswer": "36",
+    "explanation": "36 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 30521,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which word means the same as 'begin'?",
+    "answers": [
+      "End",
+      "Stop",
+      "Start",
+      "Finish"
+    ],
+    "correctAnswer": "Start",
+    "explanation": "Start is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "start"
+    ]
+  },
+  {
+    "id": 30522,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If one box holds 6 bottles, how many bottles do 4 boxes hold?",
+    "answers": [
+      "20",
+      "22",
+      "26",
+      "24"
+    ],
+    "correctAnswer": "24",
+    "explanation": "The correct answer is 24.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 30523,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is greater: 34 or 43?",
+    "answers": [
+      "43",
+      "34",
+      "Both are equal",
+      "Neither"
+    ],
+    "correctAnswer": "43",
+    "explanation": "43 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 30524,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "If RED is coded as 18-5-4, how is BLUE coded?",
+    "answers": [
+      "2-11-20-5",
+      "2-12-21-5",
+      "3-12-21-5",
+      "2-12-20-6"
+    ],
+    "correctAnswer": "2-12-21-5",
+    "explanation": "The correct answer is 2-12-21-5.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 30525,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many minutes are in one hour?",
+    "answers": [
+      "30",
+      "90",
+      "60",
+      "100"
+    ],
+    "correctAnswer": "60",
+    "explanation": "The correct answer is 60.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 30526,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which number comes next: 7, 14, 21, 28, ?",
+    "answers": [
+      "32",
+      "36",
+      "42",
+      "35"
+    ],
+    "correctAnswer": "35",
+    "explanation": "35 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 30527,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which word is the opposite of 'empty'?",
+    "answers": [
+      "Full",
+      "Open",
+      "Small",
+      "Quiet"
+    ],
+    "correctAnswer": "Full",
+    "explanation": "Full is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "full"
+    ]
+  },
+  {
+    "id": 30528,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If 5 people each receive 3 tickets, how many tickets are given out?",
+    "answers": [
+      "8",
+      "15",
+      "12",
+      "20"
+    ],
+    "correctAnswer": "15",
+    "explanation": "The correct answer is 15.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 30529,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number comes before 100?",
+    "answers": [
+      "101",
+      "98",
+      "99",
+      "90"
+    ],
+    "correctAnswer": "99",
+    "explanation": "99 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 30530,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number completes the sequence: 3, 6, 11, 18, 27, ?",
+    "answers": [
+      "36",
+      "39",
+      "40",
+      "38"
+    ],
+    "correctAnswer": "38",
+    "explanation": "38 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 30531,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which item is used for writing?",
+    "answers": [
+      "Pencil",
+      "Cup",
+      "Plate",
+      "Shoe"
+    ],
+    "correctAnswer": "Pencil",
+    "explanation": "Pencil is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "pencil"
+    ]
+  },
+  {
+    "id": 30532,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If Mia is taller than Leo, and Leo is taller than Omar, who is tallest?",
+    "answers": [
+      "Leo",
+      "Mia",
+      "Omar",
+      "They are equal"
+    ],
+    "correctAnswer": "Mia",
+    "explanation": "The correct answer is Mia.",
+    "tags": [
+      "logic",
+      "medium",
+      "mia"
+    ]
+  },
+  {
+    "id": 30533,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is equal to 5 plus 5?",
+    "answers": [
+      "9",
+      "11",
+      "10",
+      "15"
+    ],
+    "correctAnswer": "10",
+    "explanation": "10 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 30534,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number comes next: 1, 2, 4, 8, 16, ?",
+    "answers": [
+      "24",
+      "30",
+      "36",
+      "32"
+    ],
+    "correctAnswer": "32",
+    "explanation": "32 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 30535,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If 12 cookies are shared equally among 4 people, how many cookies does each person get?",
+    "answers": [
+      "3",
+      "2",
+      "4",
+      "6"
+    ],
+    "correctAnswer": "3",
+    "explanation": "The correct answer is 3.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 30536,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is half of 20?",
+    "answers": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "10",
+    "explanation": "10 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 30537,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which number comes next: 11, 22, 33, 44, ?",
+    "answers": [
+      "50",
+      "54",
+      "55",
+      "66"
+    ],
+    "correctAnswer": "55",
+    "explanation": "55 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 30538,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number completes the pattern: 1, 8, 27, 64, ?",
+    "answers": [
+      "100",
+      "121",
+      "144",
+      "125"
+    ],
+    "correctAnswer": "125",
+    "explanation": "125 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard",
+      "125"
+    ]
+  }
+]

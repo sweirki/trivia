@@ -1,1 +1,973 @@
-[]
+[
+  {
+    "id": 18001,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country owns Greenland?",
+    "answers": [
+      "Iceland",
+      "Norway",
+      "Canada",
+      "Denmark"
+    ],
+    "correctAnswer": "Denmark",
+    "explanation": "Denmark is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18002,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which river flows through Egypt?",
+    "answers": [
+      "Nile",
+      "Tigris",
+      "Euphrates",
+      "Jordan"
+    ],
+    "correctAnswer": "Nile",
+    "explanation": "Nile is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18003,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which city is known as the Big Apple?",
+    "answers": [
+      "Los Angeles",
+      "New York City",
+      "Chicago",
+      "Boston"
+    ],
+    "correctAnswer": "New York City",
+    "explanation": "New York City is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18004,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is bordered by both the Atlantic and Pacific Oceans?",
+    "answers": [
+      "USA",
+      "Canada",
+      "Panama",
+      "Mexico"
+    ],
+    "correctAnswer": "Panama",
+    "explanation": "Panama is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18005,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which country has the most islands?",
+    "answers": [
+      "Indonesia",
+      "Philippines",
+      "Japan",
+      "Sweden"
+    ],
+    "correctAnswer": "Sweden",
+    "explanation": "Sweden is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18006,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which desert lies between Israel and Jordan?",
+    "answers": [
+      "Negev",
+      "Sahara",
+      "Arabian",
+      "Syrian"
+    ],
+    "correctAnswer": "Negev",
+    "explanation": "Negev is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18007,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which country has the highest average elevation?",
+    "answers": [
+      "Nepal",
+      "Bhutan",
+      "Bolivia",
+      "Switzerland"
+    ],
+    "correctAnswer": "Bhutan",
+    "explanation": "Bhutan is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18008,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sea is shrinking rapidly due to irrigation?",
+    "answers": [
+      "Caspian Sea",
+      "Dead Sea",
+      "Aral Sea",
+      "Baltic Sea"
+    ],
+    "correctAnswer": "Aral Sea",
+    "explanation": "Aral Sea is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18009,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which African lake is the deepest?",
+    "answers": [
+      "Victoria",
+      "Malawi",
+      "Turkana",
+      "Tanganyika"
+    ],
+    "correctAnswer": "Tanganyika",
+    "explanation": "Tanganyika is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18010,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country has the capital city of Lisbon?",
+    "answers": [
+      "Portugal",
+      "Spain",
+      "Italy",
+      "France"
+    ],
+    "correctAnswer": "Portugal",
+    "explanation": "Portugal is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18011,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which continent is the Amazon rainforest on?",
+    "answers": [
+      "Africa",
+      "South America",
+      "Asia",
+      "Europe"
+    ],
+    "correctAnswer": "South America",
+    "explanation": "South America is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18012,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which US state is known as the Sunshine State?",
+    "answers": [
+      "California",
+      "Arizona",
+      "Florida",
+      "Texas"
+    ],
+    "correctAnswer": "Florida",
+    "explanation": "Florida is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18013,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country is famous for tulips and windmills?",
+    "answers": [
+      "Belgium",
+      "Denmark",
+      "Germany",
+      "Netherlands"
+    ],
+    "correctAnswer": "Netherlands",
+    "explanation": "Netherlands is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18014,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which ocean touches Antarctica?",
+    "answers": [
+      "Southern",
+      "Pacific",
+      "Atlantic",
+      "Indian"
+    ],
+    "correctAnswer": "Southern",
+    "explanation": "Southern is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18015,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country has the city of Marrakech?",
+    "answers": [
+      "Tunisia",
+      "Morocco",
+      "Algeria",
+      "Egypt"
+    ],
+    "correctAnswer": "Morocco",
+    "explanation": "Morocco is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18016,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which mountain range runs across Spain and France?",
+    "answers": [
+      "Alps",
+      "Carpathians",
+      "Pyrenees",
+      "Apennines"
+    ],
+    "correctAnswer": "Pyrenees",
+    "explanation": "Pyrenees is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18017,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which river flows through Budapest?",
+    "answers": [
+      "Rhine",
+      "Vistula",
+      "Elbe",
+      "Danube"
+    ],
+    "correctAnswer": "Danube",
+    "explanation": "Danube is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18018,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country is home to Mount Kilimanjaro?",
+    "answers": [
+      "Tanzania",
+      "Kenya",
+      "Uganda",
+      "Ethiopia"
+    ],
+    "correctAnswer": "Tanzania",
+    "explanation": "Tanzania is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18019,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Asian country has the most people?",
+    "answers": [
+      "India",
+      "China",
+      "Indonesia",
+      "Pakistan"
+    ],
+    "correctAnswer": "China",
+    "explanation": "China is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18020,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which country borders both the Caspian Sea and the Black Sea?",
+    "answers": [
+      "Turkey",
+      "Azerbaijan",
+      "Russia",
+      "Kazakhstan"
+    ],
+    "correctAnswer": "Russia",
+    "explanation": "Russia is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18021,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which African country has the longest coastline?",
+    "answers": [
+      "South Africa",
+      "Morocco",
+      "Egypt",
+      "Somalia"
+    ],
+    "correctAnswer": "Somalia",
+    "explanation": "Somalia is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18022,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which country is known as the Land of a Thousand Lakes?",
+    "answers": [
+      "Finland",
+      "Canada",
+      "Sweden",
+      "Norway"
+    ],
+    "correctAnswer": "Finland",
+    "explanation": "Finland is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18023,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which country contains the Atacama Desert?",
+    "answers": [
+      "Peru",
+      "Chile",
+      "Bolivia",
+      "Argentina"
+    ],
+    "correctAnswer": "Chile",
+    "explanation": "Chile is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18024,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Asian capital is sinking due to subsidence?",
+    "answers": [
+      "Bangkok",
+      "Manila",
+      "Jakarta",
+      "Hanoi"
+    ],
+    "correctAnswer": "Jakarta",
+    "explanation": "Jakarta is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18025,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country has the capital city of Athens?",
+    "answers": [
+      "Italy",
+      "Turkey",
+      "Cyprus",
+      "Greece"
+    ],
+    "correctAnswer": "Greece",
+    "explanation": "Greece is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18026,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which continent has the fewest people?",
+    "answers": [
+      "Antarctica",
+      "Australia",
+      "Europe",
+      "South America"
+    ],
+    "correctAnswer": "Antarctica",
+    "explanation": "Antarctica is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18027,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country is famous for Mount Everest?",
+    "answers": [
+      "India",
+      "Nepal",
+      "China",
+      "Bhutan"
+    ],
+    "correctAnswer": "Nepal",
+    "explanation": "Nepal is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18028,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which US state has the Grand Canyon?",
+    "answers": [
+      "Nevada",
+      "Utah",
+      "Arizona",
+      "Colorado"
+    ],
+    "correctAnswer": "Arizona",
+    "explanation": "Arizona is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18029,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which ocean borders Africa to the west?",
+    "answers": [
+      "Indian",
+      "Pacific",
+      "Southern",
+      "Atlantic"
+    ],
+    "correctAnswer": "Atlantic",
+    "explanation": "Atlantic is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18030,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country has the capital city of Reykjavik?",
+    "answers": [
+      "Iceland",
+      "Norway",
+      "Finland",
+      "Sweden"
+    ],
+    "correctAnswer": "Iceland",
+    "explanation": "Iceland is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18031,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which mountain range is the longest in the world?",
+    "answers": [
+      "Rockies",
+      "Andes",
+      "Himalayas",
+      "Alps"
+    ],
+    "correctAnswer": "Andes",
+    "explanation": "Andes is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18032,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which African country was formerly known as Zaire?",
+    "answers": [
+      "Angola",
+      "Gabon",
+      "DR Congo",
+      "Congo"
+    ],
+    "correctAnswer": "DR Congo",
+    "explanation": "DR Congo is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18033,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country borders the most other countries?",
+    "answers": [
+      "Russia",
+      "Brazil",
+      "Germany",
+      "China"
+    ],
+    "correctAnswer": "China",
+    "explanation": "China is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18034,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which river forms part of the border between the USA and Mexico?",
+    "answers": [
+      "Rio Grande",
+      "Colorado",
+      "Mississippi",
+      "Columbia"
+    ],
+    "correctAnswer": "Rio Grande",
+    "explanation": "Rio Grande is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18035,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which country has the highest waterfall in the world?",
+    "answers": [
+      "Brazil",
+      "Venezuela",
+      "USA",
+      "Peru"
+    ],
+    "correctAnswer": "Venezuela",
+    "explanation": "Venezuela is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18036,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which European country has the most lakes?",
+    "answers": [
+      "Sweden",
+      "Norway",
+      "Finland",
+      "Scotland"
+    ],
+    "correctAnswer": "Finland",
+    "explanation": "Finland is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18037,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sea is located between Saudi Arabia and Africa?",
+    "answers": [
+      "Mediterranean",
+      "Arabian Sea",
+      "Black Sea",
+      "Red Sea"
+    ],
+    "correctAnswer": "Red Sea",
+    "explanation": "Red Sea is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18038,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which country is both in Europe and Asia?",
+    "answers": [
+      "All of these",
+      "Russia",
+      "Turkey",
+      "Kazakhstan"
+    ],
+    "correctAnswer": "All of these",
+    "explanation": "All of these is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18039,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which African country is completely landlocked?",
+    "answers": [
+      "Kenya",
+      "Chad",
+      "Ethiopia",
+      "Gabon"
+    ],
+    "correctAnswer": "Chad",
+    "explanation": "Chad is the correct answer.",
+    "tags": [
+      "geography",
+      "hard"
+    ]
+  },
+  {
+    "id": 18040,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country has the capital city of Bern?",
+    "answers": [
+      "Austria",
+      "Germany",
+      "Switzerland",
+      "Belgium"
+    ],
+    "correctAnswer": "Switzerland",
+    "explanation": "Switzerland is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18041,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which continent is also a country?",
+    "answers": [
+      "Europe",
+      "Africa",
+      "Asia",
+      "Australia"
+    ],
+    "correctAnswer": "Australia",
+    "explanation": "Australia is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18042,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which river flows through Rome?",
+    "answers": [
+      "Tiber",
+      "Po",
+      "Arno",
+      "Danube"
+    ],
+    "correctAnswer": "Tiber",
+    "explanation": "Tiber is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18043,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country is famous for the fjords?",
+    "answers": [
+      "Sweden",
+      "Norway",
+      "Iceland",
+      "Finland"
+    ],
+    "correctAnswer": "Norway",
+    "explanation": "Norway is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18044,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which desert covers much of northern Africa?",
+    "answers": [
+      "Gobi",
+      "Kalahari",
+      "Sahara",
+      "Atacama"
+    ],
+    "correctAnswer": "Sahara",
+    "explanation": "Sahara is the correct answer.",
+    "tags": [
+      "geography",
+      "easy"
+    ]
+  },
+  {
+    "id": 18045,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country has the capital city of Prague?",
+    "answers": [
+      "Poland",
+      "Austria",
+      "Slovakia",
+      "Czech Republic"
+    ],
+    "correctAnswer": "Czech Republic",
+    "explanation": "Czech Republic is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18046,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which island nation lies southeast of India?",
+    "answers": [
+      "Sri Lanka",
+      "Indonesia",
+      "Maldives",
+      "Philippines"
+    ],
+    "correctAnswer": "Sri Lanka",
+    "explanation": "Sri Lanka is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18047,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which African river is the longest?",
+    "answers": [
+      "Congo",
+      "Nile",
+      "Niger",
+      "Zambezi"
+    ],
+    "correctAnswer": "Nile",
+    "explanation": "Nile is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18048,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which country contains the city of Dubrovnik?",
+    "answers": [
+      "Italy",
+      "Greece",
+      "Croatia",
+      "Slovenia"
+    ],
+    "correctAnswer": "Croatia",
+    "explanation": "Croatia is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18049,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which European river flows through Vienna, Bratislava, and Budapest?",
+    "answers": [
+      "Rhine",
+      "Elbe",
+      "Po",
+      "Danube"
+    ],
+    "correctAnswer": "Danube",
+    "explanation": "Danube is the correct answer.",
+    "tags": [
+      "geography",
+      "medium"
+    ]
+  },
+  {
+    "id": 18050,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country has the capital city Tokyo?",
+    "answers": [
+      "Japan",
+      "China",
+      "South Korea",
+      "Vietnam"
+    ],
+    "correctAnswer": "Japan",
+    "explanation": "Japan is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "japan"
+    ]
+  },
+  {
+    "id": 18051,
+    "category": "geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which continent is Canada located on?",
+    "answers": [
+      "Europe",
+      "North America",
+      "Asia",
+      "Australia"
+    ],
+    "correctAnswer": "North America",
+    "explanation": "North America is the correct answer to this geography question.",
+    "tags": [
+      "geography",
+      "easy",
+      "north-america"
+    ]
+  }
+]

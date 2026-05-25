@@ -51,3 +51,5 @@ export function isMusicEnabled() {
 export function isVibrationEnabled() {
   return useSettingsStore.getState().vibration;
 }
+
+

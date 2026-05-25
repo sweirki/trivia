@@ -1,196 +1,7 @@
 [
   {
-    "id": 62901,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Whiplash' in 2024?",
-    "answers": [
-      "aespa",
-      "IVE",
-      "LE SSERAFIM",
-      "ITZY"
-    ],
-    "correctAnswer": "aespa",
-    "explanation": "aespa is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "aespa"
-    ]
-  },
-  {
-    "id": 62902,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which K-Pop artist released the solo album 'Golden'?",
-    "answers": [
-      "Jungkook",
-      "RM",
-      "V",
-      "Jimin"
-    ],
-    "correctAnswer": "Jungkook",
-    "explanation": "Jungkook is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "jungkook"
-    ]
-  },
-  {
-    "id": 62903,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group is known for the song 'Mansae'?",
-    "answers": [
-      "SEVENTEEN",
-      "TXT",
-      "EXO",
-      "ATEEZ"
-    ],
-    "correctAnswer": "SEVENTEEN",
-    "explanation": "SEVENTEEN is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "seventeen"
-    ]
-  },
-  {
-    "id": 62904,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which K-Pop group debuted under Pledis Entertainment with the song 'Adore U'?",
-    "answers": [
-      "SEVENTEEN",
-      "NU'EST",
-      "fromis_9",
-      "AFTERSCHOOL"
-    ],
-    "correctAnswer": "SEVENTEEN",
-    "explanation": "SEVENTEEN is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "seventeen"
-    ]
-  },
-  {
-    "id": 62905,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'OMG'?",
-    "answers": [
-      "NewJeans",
-      "IVE",
-      "aespa",
-      "NMIXX"
-    ],
-    "correctAnswer": "NewJeans",
-    "explanation": "NewJeans is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "newjeans"
-    ]
-  },
-  {
-    "id": 62906,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which K-Pop group is associated with the fandom name 'ONCE'?",
-    "answers": [
-      "TWICE",
-      "BLACKPINK",
-      "ITZY",
-      "IVE"
-    ],
-    "correctAnswer": "TWICE",
-    "explanation": "TWICE is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "twice"
-    ]
-  },
-  {
-    "id": 62907,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Ringa Linga'?",
-    "answers": [
-      "Taeyang",
-      "G-Dragon",
-      "Kai",
-      "Zico"
-    ],
-    "correctAnswer": "Taeyang",
-    "explanation": "Taeyang is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "taeyang"
-    ]
-  },
-  {
-    "id": 62908,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which K-Pop artist released the album 'The Perfect Red Velvet'?",
-    "answers": [
-      "Red Velvet",
-      "TWICE",
-      "Girls' Generation",
-      "f(x)"
-    ],
-    "correctAnswer": "Red Velvet",
-    "explanation": "Red Velvet is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "red-velvet"
-    ]
-  },
-  {
-    "id": 62909,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Forever Young'?",
-    "answers": [
-      "BLACKPINK",
-      "IVE",
-      "aespa",
-      "TWICE"
-    ],
-    "correctAnswer": "BLACKPINK",
-    "explanation": "BLACKPINK is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "blackpink"
-    ]
-  },
-  {
-    "id": 62910,
-    "category": "k-pop",
+    "id": 25501,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BTS member released the solo song 'Arson'?",
@@ -203,120 +14,66 @@
     "correctAnswer": "J-Hope",
     "explanation": "J-Hope is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "hope"
+      "kpop"
     ]
   },
   {
-    "id": 62911,
-    "category": "k-pop",
+    "id": 25502,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Wave'?",
     "answers": [
-      "ATEEZ",
       "TXT",
+      "ATEEZ",
       "ENHYPEN",
       "TREASURE"
     ],
     "correctAnswer": "ATEEZ",
     "explanation": "ATEEZ is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "ateez"
+      "kpop"
     ]
   },
   {
-    "id": 62912,
-    "category": "k-pop",
+    "id": 25503,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the song 'Abracadabra' with Brown Eyed Girls?",
     "answers": [
-      "Brown Eyed Girls",
       "Wonder Girls",
       "KARA",
+      "Brown Eyed Girls",
       "2NE1"
     ],
     "correctAnswer": "Brown Eyed Girls",
     "explanation": "Brown Eyed Girls is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "brown-eyed"
+      "kpop"
     ]
   },
   {
-    "id": 62913,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Icy'?",
-    "answers": [
-      "ITZY",
-      "aespa",
-      "IVE",
-      "LE SSERAFIM"
-    ],
-    "correctAnswer": "ITZY",
-    "explanation": "ITZY is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "itzy"
-    ]
-  },
-  {
-    "id": 62914,
-    "category": "k-pop",
+    "id": 25504,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'Pirate King'?",
     "answers": [
-      "ATEEZ",
       "TXT",
       "ENHYPEN",
-      "TREASURE"
+      "TREASURE",
+      "ATEEZ"
     ],
     "correctAnswer": "ATEEZ",
     "explanation": "ATEEZ is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "ateez"
+      "kpop"
     ]
   },
   {
-    "id": 62915,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Queencard'?",
-    "answers": [
-      "(G)I-DLE",
-      "ITZY",
-      "aespa",
-      "IVE"
-    ],
-    "correctAnswer": "(G)I-DLE",
-    "explanation": "(G)I-DLE is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "dle"
-    ]
-  },
-  {
-    "id": 62916,
-    "category": "k-pop",
+    "id": 25505,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song '28 Reasons'?",
@@ -329,78 +86,66 @@
     "correctAnswer": "Seulgi",
     "explanation": "Seulgi is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "seulgi"
+      "kpop"
     ]
   },
   {
-    "id": 62917,
-    "category": "k-pop",
+    "id": 25506,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Deja Vu'?",
     "answers": [
-      "TXT",
       "ATEEZ",
+      "TXT",
       "EXO",
       "SEVENTEEN"
     ],
     "correctAnswer": "TXT",
     "explanation": "TXT is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "txt"
+      "kpop"
     ]
   },
   {
-    "id": 62918,
-    "category": "k-pop",
+    "id": 25507,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group is associated with the fandom name 'MOOMOO'?",
     "answers": [
-      "MAMAMOO",
       "Red Velvet",
       "TWICE",
+      "MAMAMOO",
       "IVE"
     ],
     "correctAnswer": "MAMAMOO",
     "explanation": "MAMAMOO is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "mamamoo"
+      "kpop"
     ]
   },
   {
-    "id": 62919,
-    "category": "k-pop",
+    "id": 25508,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Blue Hour'?",
     "answers": [
-      "TXT",
       "ENHYPEN",
       "ATEEZ",
-      "TREASURE"
+      "TREASURE",
+      "TXT"
     ],
     "correctAnswer": "TXT",
     "explanation": "TXT is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "txt"
+      "kpop"
     ]
   },
   {
-    "id": 62920,
-    "category": "k-pop",
+    "id": 25509,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the classic hit 'Gee'?",
@@ -413,78 +158,66 @@
     "correctAnswer": "Girls' Generation",
     "explanation": "Girls' Generation is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "girls-generation"
+      "kpop"
     ]
   },
   {
-    "id": 62921,
-    "category": "k-pop",
+    "id": 25510,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Super Lady'?",
     "answers": [
-      "(G)I-DLE",
       "IVE",
+      "(G)I-DLE",
       "aespa",
       "NMIXX"
     ],
     "correctAnswer": "(G)I-DLE",
     "explanation": "(G)I-DLE is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "dle"
+      "kpop"
     ]
   },
   {
-    "id": 62922,
-    "category": "k-pop",
+    "id": 25511,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BLACKPINK member released the solo song 'Lalisa'?",
     "answers": [
-      "Lisa",
       "Jennie",
       "Rosé",
+      "Lisa",
       "Jisoo"
     ],
     "correctAnswer": "Lisa",
     "explanation": "Lisa is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "lisa"
+      "kpop"
     ]
   },
   {
-    "id": 62923,
-    "category": "k-pop",
+    "id": 25512,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Turbulence'?",
     "answers": [
-      "ATEEZ",
       "TXT",
       "EXO",
-      "TREASURE"
+      "TREASURE",
+      "ATEEZ"
     ],
     "correctAnswer": "ATEEZ",
     "explanation": "ATEEZ is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "ateez"
+      "kpop"
     ]
   },
   {
-    "id": 62924,
-    "category": "k-pop",
+    "id": 25513,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the song 'Hello Bitches'?",
@@ -497,98 +230,66 @@
     "correctAnswer": "CL",
     "explanation": "CL is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard"
+      "kpop"
     ]
   },
   {
-    "id": 62925,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Ditto'?",
-    "answers": [
-      "NewJeans",
-      "IVE",
-      "LE SSERAFIM",
-      "aespa"
-    ],
-    "correctAnswer": "NewJeans",
-    "explanation": "NewJeans is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "newjeans"
-    ]
-  },
-  {
-    "id": 62926,
-    "category": "k-pop",
+    "id": 25514,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'Bon Bon Chocolat'?",
     "answers": [
-      "EVERGLOW",
       "STAYC",
+      "EVERGLOW",
       "aespa",
       "ITZY"
     ],
     "correctAnswer": "EVERGLOW",
     "explanation": "EVERGLOW is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "everglow"
+      "kpop"
     ]
   },
   {
-    "id": 62927,
-    "category": "k-pop",
+    "id": 25515,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Hala Hala'?",
     "answers": [
-      "ATEEZ",
       "TXT",
       "ENHYPEN",
+      "ATEEZ",
       "SEVENTEEN"
     ],
     "correctAnswer": "ATEEZ",
     "explanation": "ATEEZ is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "ateez"
+      "kpop"
     ]
   },
   {
-    "id": 62928,
-    "category": "k-pop",
+    "id": 25516,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the album 'Purpose'?",
     "answers": [
-      "Taeyeon",
       "IU",
       "Sunmi",
-      "BoA"
+      "BoA",
+      "Taeyeon"
     ],
     "correctAnswer": "Taeyeon",
     "explanation": "Taeyeon is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "taeyeon"
+      "kpop"
     ]
   },
   {
-    "id": 62929,
-    "category": "k-pop",
+    "id": 25517,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Stereotype'?",
@@ -601,140 +302,66 @@
     "correctAnswer": "STAYC",
     "explanation": "STAYC is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "stayc"
+      "kpop"
     ]
   },
   {
-    "id": 62930,
-    "category": "k-pop",
+    "id": 25518,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BTS member released the solo song 'Closer Than This'?",
     "answers": [
-      "Jimin",
       "RM",
+      "Jimin",
       "V",
       "Jungkook"
     ],
     "correctAnswer": "Jimin",
     "explanation": "Jimin is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "jimin"
+      "kpop"
     ]
   },
   {
-    "id": 62931,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Bouncy'?",
-    "answers": [
-      "ATEEZ",
-      "TXT",
-      "TREASURE",
-      "ENHYPEN"
-    ],
-    "correctAnswer": "ATEEZ",
-    "explanation": "ATEEZ is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "ateez"
-    ]
-  },
-  {
-    "id": 62932,
-    "category": "k-pop",
+    "id": 25519,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Electric Shock'?",
     "answers": [
-      "f(x)",
       "Girls' Generation",
       "KARA",
+      "f(x)",
       "SISTAR"
     ],
     "correctAnswer": "f(x)",
     "explanation": "f(x) is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard"
+      "kpop"
     ]
   },
   {
-    "id": 62933,
-    "category": "k-pop",
+    "id": 25520,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Dash'?",
     "answers": [
-      "NMIXX",
       "ITZY",
       "aespa",
-      "IVE"
+      "IVE",
+      "NMIXX"
     ],
     "correctAnswer": "NMIXX",
     "explanation": "NMIXX is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "nmixx"
+      "kpop"
     ]
   },
   {
-    "id": 62934,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which K-Pop group is associated with the fandom name 'FEARNOT'?",
-    "answers": [
-      "LE SSERAFIM",
-      "IVE",
-      "aespa",
-      "ITZY"
-    ],
-    "correctAnswer": "LE SSERAFIM",
-    "explanation": "LE SSERAFIM is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "sserafim"
-    ]
-  },
-  {
-    "id": 62935,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Perfect Night'?",
-    "answers": [
-      "LE SSERAFIM",
-      "NewJeans",
-      "IVE",
-      "STAYC"
-    ],
-    "correctAnswer": "LE SSERAFIM",
-    "explanation": "LE SSERAFIM is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "sserafim"
-    ]
-  },
-  {
-    "id": 62936,
-    "category": "k-pop",
+    "id": 25521,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the song 'Twit'?",
@@ -747,120 +374,66 @@
     "correctAnswer": "Hwasa",
     "explanation": "Hwasa is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "hwasa"
+      "kpop"
     ]
   },
   {
-    "id": 62937,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Magnetic'?",
-    "answers": [
-      "ILLIT",
-      "NMIXX",
-      "IVE",
-      "aespa"
-    ],
-    "correctAnswer": "ILLIT",
-    "explanation": "ILLIT is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "illit"
-    ]
-  },
-  {
-    "id": 62938,
-    "category": "k-pop",
+    "id": 25522,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'Movie Star'?",
     "answers": [
-      "CIX",
       "TREASURE",
+      "CIX",
       "TXT",
       "ATEEZ"
     ],
     "correctAnswer": "CIX",
     "explanation": "CIX is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "cix"
+      "kpop"
     ]
   },
   {
-    "id": 62939,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Supernova'?",
-    "answers": [
-      "aespa",
-      "IVE",
-      "LE SSERAFIM",
-      "NewJeans"
-    ],
-    "correctAnswer": "aespa",
-    "explanation": "aespa is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "aespa"
-    ]
-  },
-  {
-    "id": 62940,
-    "category": "k-pop",
+    "id": 25523,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'INVU'?",
     "answers": [
-      "Taeyeon",
       "IU",
       "Sunmi",
+      "Taeyeon",
       "BoA"
     ],
     "correctAnswer": "Taeyeon",
     "explanation": "Taeyeon is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "taeyeon"
+      "kpop"
     ]
   },
   {
-    "id": 62941,
-    "category": "k-pop",
+    "id": 25524,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Midas Touch'?",
     "answers": [
-      "KISS OF LIFE",
       "ILLIT",
       "NMIXX",
-      "IVE"
+      "IVE",
+      "KISS OF LIFE"
     ],
     "correctAnswer": "KISS OF LIFE",
     "explanation": "KISS OF LIFE is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "kiss-life"
+      "kpop"
     ]
   },
   {
-    "id": 62942,
-    "category": "k-pop",
+    "id": 25525,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group is associated with the fandom name 'BRIIZE'?",
@@ -873,120 +446,66 @@
     "correctAnswer": "RIIZE",
     "explanation": "RIIZE is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "riize"
+      "kpop"
     ]
   },
   {
-    "id": 62943,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'ETA'?",
-    "answers": [
-      "NewJeans",
-      "IVE",
-      "aespa",
-      "LE SSERAFIM"
-    ],
-    "correctAnswer": "NewJeans",
-    "explanation": "NewJeans is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "newjeans"
-    ]
-  },
-  {
-    "id": 62944,
-    "category": "k-pop",
+    "id": 25526,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the song 'Breathe' in 2016?",
     "answers": [
-      "Lee Hi",
       "IU",
+      "Lee Hi",
       "Taeyeon",
       "Sunmi"
     ],
     "correctAnswer": "Lee Hi",
     "explanation": "Lee Hi is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "lee"
+      "kpop"
     ]
   },
   {
-    "id": 62945,
-    "category": "k-pop",
+    "id": 25527,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Crazy' in 2024?",
     "answers": [
-      "LE SSERAFIM",
       "IVE",
       "aespa",
+      "LE SSERAFIM",
       "NMIXX"
     ],
     "correctAnswer": "LE SSERAFIM",
     "explanation": "LE SSERAFIM is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "sserafim"
+      "kpop"
     ]
   },
   {
-    "id": 62946,
-    "category": "k-pop",
+    "id": 25528,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BTS member released the solo album 'Muse'?",
     "answers": [
-      "Jimin",
       "RM",
       "V",
-      "Jungkook"
+      "Jungkook",
+      "Jimin"
     ],
     "correctAnswer": "Jimin",
     "explanation": "Jimin is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "jimin"
+      "kpop"
     ]
   },
   {
-    "id": 62947,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Wonderland'?",
-    "answers": [
-      "ATEEZ",
-      "TXT",
-      "TREASURE",
-      "ENHYPEN"
-    ],
-    "correctAnswer": "ATEEZ",
-    "explanation": "ATEEZ is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "ateez"
-    ]
-  },
-  {
-    "id": 62948,
-    "category": "k-pop",
+    "id": 25529,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group debuted under RBW Entertainment with the song 'Mr. Ambiguous'?",
@@ -999,162 +518,66 @@
     "correctAnswer": "MAMAMOO",
     "explanation": "MAMAMOO is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "mamamoo"
+      "kpop"
     ]
   },
   {
-    "id": 62949,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Get A Guitar'?",
-    "answers": [
-      "RIIZE",
-      "TWS",
-      "ZEROBASEONE",
-      "TXT"
-    ],
-    "correctAnswer": "RIIZE",
-    "explanation": "RIIZE is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "riize"
-    ]
-  },
-  {
-    "id": 62950,
-    "category": "k-pop",
+    "id": 25530,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BLACKPINK member released the solo song 'All Eyes On Me'?",
     "answers": [
-      "Jisoo",
       "Jennie",
+      "Jisoo",
       "Lisa",
       "Rosé"
     ],
     "correctAnswer": "Jisoo",
     "explanation": "Jisoo is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "jisoo"
+      "kpop"
     ]
   },
   {
-    "id": 62951,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Poppy'?",
-    "answers": [
-      "STAYC",
-      "ITZY",
-      "aespa",
-      "IVE"
-    ],
-    "correctAnswer": "STAYC",
-    "explanation": "STAYC is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "stayc"
-    ]
-  },
-  {
-    "id": 62952,
-    "category": "k-pop",
+    "id": 25531,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'Birthday' in 2022?",
     "answers": [
-      "Red Velvet's Seulgi",
       "Taeyeon",
       "IU",
+      "Red Velvet's Seulgi",
       "HyunA"
     ],
     "correctAnswer": "Red Velvet's Seulgi",
     "explanation": "Red Velvet's Seulgi is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "red-velvets"
+      "kpop"
     ]
   },
   {
-    "id": 62953,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Chk Chk Boom'?",
-    "answers": [
-      "Stray Kids",
-      "ATEEZ",
-      "TXT",
-      "ENHYPEN"
-    ],
-    "correctAnswer": "Stray Kids",
-    "explanation": "Stray Kids is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "stray-kids"
-    ]
-  },
-  {
-    "id": 62954,
-    "category": "k-pop",
+    "id": 25532,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'Face'?",
     "answers": [
-      "NU'EST",
       "SEVENTEEN",
       "TXT",
-      "EXO"
+      "EXO",
+      "NU'EST"
     ],
     "correctAnswer": "NU'EST",
     "explanation": "NU'EST is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "nuest"
+      "kpop"
     ]
   },
   {
-    "id": 62955,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Drama'?",
-    "answers": [
-      "aespa",
-      "IVE",
-      "LE SSERAFIM",
-      "ITZY"
-    ],
-    "correctAnswer": "aespa",
-    "explanation": "aespa is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "aespa"
-    ]
-  },
-  {
-    "id": 62956,
-    "category": "k-pop",
+    "id": 25533,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the song 'Palette' featuring G-Dragon?",
@@ -1167,119 +590,66 @@
     "correctAnswer": "IU",
     "explanation": "IU is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard"
+      "kpop"
     ]
   },
   {
-    "id": 62957,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Plot Twist'?",
-    "answers": [
-      "TWS",
-      "RIIZE",
-      "ZEROBASEONE",
-      "BOYNEXTDOOR"
-    ],
-    "correctAnswer": "TWS",
-    "explanation": "TWS is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "tws"
-    ]
-  },
-  {
-    "id": 62958,
-    "category": "k-pop",
+    "id": 25534,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group is associated with the fandom name 'NCTzen'?",
     "answers": [
-      "NCT",
       "EXO",
+      "NCT",
       "SHINee",
       "SEVENTEEN"
     ],
     "correctAnswer": "NCT",
     "explanation": "NCT is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "nct"
+      "kpop"
     ]
   },
   {
-    "id": 62959,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Maniac' in 2022?",
-    "answers": [
-      "Stray Kids",
-      "ATEEZ",
-      "TXT",
-      "TREASURE"
-    ],
-    "correctAnswer": "Stray Kids",
-    "explanation": "Stray Kids is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "stray-kids"
-    ]
-  },
-  {
-    "id": 62960,
-    "category": "k-pop",
+    "id": 25535,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Step' in 2011?",
     "answers": [
-      "KARA",
       "Girls' Generation",
       "2NE1",
+      "KARA",
       "Wonder Girls"
     ],
     "correctAnswer": "KARA",
     "explanation": "KARA is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "kara"
+      "kpop"
     ]
   },
   {
-    "id": 62961,
-    "category": "k-pop",
+    "id": 25536,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Sugar Rush Ride'?",
     "answers": [
-      "TXT",
       "ENHYPEN",
       "ATEEZ",
-      "SEVENTEEN"
+      "SEVENTEEN",
+      "TXT"
     ],
     "correctAnswer": "TXT",
     "explanation": "TXT is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "txt"
+      "kpop"
     ]
   },
   {
-    "id": 62962,
-    "category": "k-pop",
+    "id": 25537,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BTS member released the solo song 'Neuron'?",
@@ -1292,141 +662,66 @@
     "correctAnswer": "J-Hope",
     "explanation": "J-Hope is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "hope"
+      "kpop"
     ]
   },
   {
-    "id": 62963,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Batter Up'?",
-    "answers": [
-      "BABYMONSTER",
-      "ILLIT",
-      "Kep1er",
-      "NMIXX"
-    ],
-    "correctAnswer": "BABYMONSTER",
-    "explanation": "BABYMONSTER is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "babymonster"
-    ]
-  },
-  {
-    "id": 62964,
-    "category": "k-pop",
+    "id": 25538,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the song 'Noir'?",
     "answers": [
-      "Sunmi",
       "HyunA",
+      "Sunmi",
       "IU",
       "Taeyeon"
     ],
     "correctAnswer": "Sunmi",
     "explanation": "Sunmi is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "sunmi"
+      "kpop"
     ]
   },
   {
-    "id": 62965,
-    "category": "k-pop",
+    "id": 25539,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Armageddon'?",
     "answers": [
-      "aespa",
       "IVE",
       "LE SSERAFIM",
+      "aespa",
       "NMIXX"
     ],
     "correctAnswer": "aespa",
     "explanation": "aespa is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "aespa"
+      "kpop"
     ]
   },
   {
-    "id": 62966,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which K-Pop group debuted with the song 'Movie Star'?",
-    "answers": [
-      "CIX",
-      "TXT",
-      "TREASURE",
-      "ATEEZ"
-    ],
-    "correctAnswer": "CIX",
-    "explanation": "CIX is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "cix"
-    ]
-  },
-  {
-    "id": 62967,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Midas Touch'?",
-    "answers": [
-      "KISS OF LIFE",
-      "ILLIT",
-      "NMIXX",
-      "STAYC"
-    ],
-    "correctAnswer": "KISS OF LIFE",
-    "explanation": "KISS OF LIFE is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "kiss-life"
-    ]
-  },
-  {
-    "id": 62968,
-    "category": "k-pop",
+    "id": 25540,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Again & Again'?",
     "answers": [
-      "2PM",
       "SHINee",
       "TVXQ",
-      "BIGBANG"
+      "BIGBANG",
+      "2PM"
     ],
     "correctAnswer": "2PM",
     "explanation": "2PM is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "2pm"
+      "kpop"
     ]
   },
   {
-    "id": 62969,
-    "category": "k-pop",
+    "id": 25541,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Easy'?",
@@ -1439,139 +734,66 @@
     "correctAnswer": "LE SSERAFIM",
     "explanation": "LE SSERAFIM is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "sserafim"
+      "kpop"
     ]
   },
   {
-    "id": 62970,
-    "category": "k-pop",
+    "id": 25542,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group is associated with the fandom name 'PLLI'?",
     "answers": [
-      "TWS",
       "RIIZE",
+      "TWS",
       "BOYNEXTDOOR",
       "ZEROBASEONE"
     ],
     "correctAnswer": "TWS",
     "explanation": "TWS is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "tws"
+      "kpop"
     ]
   },
   {
-    "id": 62971,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Dash'?",
-    "answers": [
-      "NMIXX",
-      "ITZY",
-      "IVE",
-      "aespa"
-    ],
-    "correctAnswer": "NMIXX",
-    "explanation": "NMIXX is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "nmixx"
-    ]
-  },
-  {
-    "id": 62972,
-    "category": "k-pop",
+    "id": 25543,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the album 'Lilac'?",
     "answers": [
-      "IU",
       "Taeyeon",
       "Sunmi",
+      "IU",
       "BoA"
     ],
     "correctAnswer": "IU",
     "explanation": "IU is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard"
+      "kpop"
     ]
   },
   {
-    "id": 62973,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Supernova'?",
-    "answers": [
-      "aespa",
-      "IVE",
-      "LE SSERAFIM",
-      "NewJeans"
-    ],
-    "correctAnswer": "aespa",
-    "explanation": "aespa is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "aespa"
-    ]
-  },
-  {
-    "id": 62974,
-    "category": "k-pop",
+    "id": 25544,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BTS member released the solo album 'Right Place, Wrong Person'?",
     "answers": [
-      "RM",
       "Jimin",
       "V",
-      "Jungkook"
+      "Jungkook",
+      "RM"
     ],
     "correctAnswer": "RM",
     "explanation": "RM is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium"
+      "kpop"
     ]
   },
   {
-    "id": 62975,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Magnetic'?",
-    "answers": [
-      "ILLIT",
-      "NMIXX",
-      "IVE",
-      "Kep1er"
-    ],
-    "correctAnswer": "ILLIT",
-    "explanation": "ILLIT is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "illit"
-    ]
-  },
-  {
-    "id": 62976,
-    "category": "k-pop",
+    "id": 25545,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Fiction'?",
@@ -1584,141 +806,66 @@
     "correctAnswer": "BEAST",
     "explanation": "BEAST is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "beast"
+      "kpop"
     ]
   },
   {
-    "id": 62977,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Bubble Gum'?",
-    "answers": [
-      "NewJeans",
-      "ILLIT",
-      "IVE",
-      "KISS OF LIFE"
-    ],
-    "correctAnswer": "NewJeans",
-    "explanation": "NewJeans is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "newjeans"
-    ]
-  },
-  {
-    "id": 62978,
-    "category": "k-pop",
+    "id": 25546,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'Boy'?",
     "answers": [
-      "TREASURE",
       "TXT",
+      "TREASURE",
       "ENHYPEN",
       "RIIZE"
     ],
     "correctAnswer": "TREASURE",
     "explanation": "TREASURE is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "treasure"
+      "kpop"
     ]
   },
   {
-    "id": 62979,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Crazy Form'?",
-    "answers": [
-      "ATEEZ",
-      "TXT",
-      "SEVENTEEN",
-      "ENHYPEN"
-    ],
-    "correctAnswer": "ATEEZ",
-    "explanation": "ATEEZ is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "ateez"
-    ]
-  },
-  {
-    "id": 62980,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which K-Pop artist released the solo song 'Fine'?",
-    "answers": [
-      "Taeyeon",
-      "IU",
-      "Sunmi",
-      "BoA"
-    ],
-    "correctAnswer": "Taeyeon",
-    "explanation": "Taeyeon is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "taeyeon"
-    ]
-  },
-  {
-    "id": 62981,
-    "category": "k-pop",
+    "id": 25547,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Boom Boom Bass'?",
     "answers": [
-      "RIIZE",
       "TWS",
       "ZEROBASEONE",
+      "RIIZE",
       "TXT"
     ],
     "correctAnswer": "RIIZE",
     "explanation": "RIIZE is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "riize"
+      "kpop"
     ]
   },
   {
-    "id": 62982,
-    "category": "k-pop",
+    "id": 25548,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group is associated with the fandom name 'ZEROSE'?",
     "answers": [
-      "ZEROBASEONE",
       "RIIZE",
       "TWS",
-      "BOYNEXTDOOR"
+      "BOYNEXTDOOR",
+      "ZEROBASEONE"
     ],
     "correctAnswer": "ZEROBASEONE",
     "explanation": "ZEROBASEONE is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "zerobaseone"
+      "kpop"
     ]
   },
   {
-    "id": 62983,
-    "category": "k-pop",
+    "id": 25549,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Love 119'?",
@@ -1731,78 +878,66 @@
     "correctAnswer": "RIIZE",
     "explanation": "RIIZE is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "riize"
+      "kpop"
     ]
   },
   {
-    "id": 62984,
-    "category": "k-pop",
+    "id": 25550,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the classic song 'Roly-Poly'?",
     "answers": [
-      "T-ara",
       "KARA",
+      "T-ara",
       "2NE1",
       "Wonder Girls"
     ],
     "correctAnswer": "T-ara",
     "explanation": "T-ara is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "ara"
+      "kpop"
     ]
   },
   {
-    "id": 62985,
-    "category": "k-pop",
+    "id": 25551,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Earth, Wind & Fire'?",
     "answers": [
-      "BOYNEXTDOOR",
       "RIIZE",
       "TWS",
+      "BOYNEXTDOOR",
       "ZEROBASEONE"
     ],
     "correctAnswer": "BOYNEXTDOOR",
     "explanation": "BOYNEXTDOOR is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "boynextdoor"
+      "kpop"
     ]
   },
   {
-    "id": 62986,
-    "category": "k-pop",
+    "id": 25552,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BTS member released the solo documentary soundtrack song 'Closer to You'?",
     "answers": [
-      "Jungkook",
       "V",
       "RM",
-      "Jimin"
+      "Jimin",
+      "Jungkook"
     ],
     "correctAnswer": "Jungkook",
     "explanation": "Jungkook is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "jungkook"
+      "kpop"
     ]
   },
   {
-    "id": 62987,
-    "category": "k-pop",
+    "id": 25553,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Love Me Like This'?",
@@ -1815,78 +950,66 @@
     "correctAnswer": "NMIXX",
     "explanation": "NMIXX is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "nmixx"
+      "kpop"
     ]
   },
   {
-    "id": 62988,
-    "category": "k-pop",
+    "id": 25554,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the hit song 'Dally'?",
     "answers": [
-      "Hyolyn",
       "Sunmi",
+      "Hyolyn",
       "HyunA",
       "CL"
     ],
     "correctAnswer": "Hyolyn",
     "explanation": "Hyolyn is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "hyolyn"
+      "kpop"
     ]
   },
   {
-    "id": 62989,
-    "category": "k-pop",
+    "id": 25555,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Kill This Love'?",
     "answers": [
-      "BLACKPINK",
       "TWICE",
       "Red Velvet",
+      "BLACKPINK",
       "IVE"
     ],
     "correctAnswer": "BLACKPINK",
     "explanation": "BLACKPINK is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "blackpink"
+      "kpop"
     ]
   },
   {
-    "id": 62990,
-    "category": "k-pop",
+    "id": 25556,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'La Vie en Rose'?",
     "answers": [
-      "IZ*ONE",
       "IVE",
       "LE SSERAFIM",
-      "Kep1er"
+      "Kep1er",
+      "IZ*ONE"
     ],
     "correctAnswer": "IZ*ONE",
     "explanation": "IZ*ONE is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "one"
+      "kpop"
     ]
   },
   {
-    "id": 62991,
-    "category": "k-pop",
+    "id": 25557,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Hot Sauce'?",
@@ -1899,99 +1022,66 @@
     "correctAnswer": "NCT DREAM",
     "explanation": "NCT DREAM is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "nct-dream"
+      "kpop"
     ]
   },
   {
-    "id": 62992,
-    "category": "k-pop",
+    "id": 25558,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Mamma Mia' in 2014?",
     "answers": [
-      "KARA",
       "Girls' Generation",
+      "KARA",
       "T-ara",
       "Wonder Girls"
     ],
     "correctAnswer": "KARA",
     "explanation": "KARA is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "kara"
+      "kpop"
     ]
   },
   {
-    "id": 62993,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Antifragile'?",
-    "answers": [
-      "LE SSERAFIM",
-      "IVE",
-      "aespa",
-      "ITZY"
-    ],
-    "correctAnswer": "LE SSERAFIM",
-    "explanation": "LE SSERAFIM is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "sserafim"
-    ]
-  },
-  {
-    "id": 62994,
-    "category": "k-pop",
+    "id": 25559,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop artist released the solo album 'D-Day'?",
     "answers": [
-      "Suga",
       "RM",
       "J-Hope",
+      "Suga",
       "V"
     ],
     "correctAnswer": "Suga",
     "explanation": "Suga is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "suga"
+      "kpop"
     ]
   },
   {
-    "id": 62995,
-    "category": "k-pop",
+    "id": 25560,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Love Shot'?",
     "answers": [
-      "EXO",
       "BTS",
       "NCT 127",
-      "SEVENTEEN"
+      "SEVENTEEN",
+      "EXO"
     ],
     "correctAnswer": "EXO",
     "explanation": "EXO is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "exo"
+      "kpop"
     ]
   },
   {
-    "id": 62996,
-    "category": "k-pop",
+    "id": 25561,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'Egotistic' with MAMAMOO?",
@@ -2004,120 +1094,66 @@
     "correctAnswer": "MAMAMOO",
     "explanation": "MAMAMOO is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "mamamoo"
+      "kpop"
     ]
   },
   {
-    "id": 62997,
-    "category": "k-pop",
+    "id": 25562,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Feel Special'?",
     "answers": [
-      "TWICE",
       "BLACKPINK",
+      "TWICE",
       "Red Velvet",
       "ITZY"
     ],
     "correctAnswer": "TWICE",
     "explanation": "TWICE is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "twice"
+      "kpop"
     ]
   },
   {
-    "id": 62998,
-    "category": "k-pop",
+    "id": 25563,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group is associated with the fandom name 'Orbit'?",
     "answers": [
-      "LOONA",
       "IVE",
       "aespa",
+      "LOONA",
       "Kep1er"
     ],
     "correctAnswer": "LOONA",
     "explanation": "LOONA is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "loona"
+      "kpop"
     ]
   },
   {
-    "id": 62999,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Pink Venom'?",
-    "answers": [
-      "BLACKPINK",
-      "IVE",
-      "aespa",
-      "TWICE"
-    ],
-    "correctAnswer": "BLACKPINK",
-    "explanation": "BLACKPINK is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "blackpink"
-    ]
-  },
-  {
-    "id": 63000,
-    "category": "k-pop",
+    "id": 25564,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the classic song 'Nobody'?",
     "answers": [
-      "Wonder Girls",
       "Girls' Generation",
       "KARA",
-      "2NE1"
+      "2NE1",
+      "Wonder Girls"
     ],
     "correctAnswer": "Wonder Girls",
     "explanation": "Wonder Girls is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "wonder-girls"
+      "kpop"
     ]
   },
   {
-    "id": 63001,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'S-Class'?",
-    "answers": [
-      "Stray Kids",
-      "ATEEZ",
-      "TXT",
-      "TREASURE"
-    ],
-    "correctAnswer": "Stray Kids",
-    "explanation": "Stray Kids is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "stray-kids"
-    ]
-  },
-  {
-    "id": 63002,
-    "category": "k-pop",
+    "id": 25565,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop artist released the solo song 'Fri(end)s'?",
@@ -2130,98 +1166,66 @@
     "correctAnswer": "V",
     "explanation": "V is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium"
+      "kpop"
     ]
   },
   {
-    "id": 63003,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Savage'?",
-    "answers": [
-      "aespa",
-      "IVE",
-      "ITZY",
-      "LE SSERAFIM"
-    ],
-    "correctAnswer": "aespa",
-    "explanation": "aespa is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "aespa"
-    ]
-  },
-  {
-    "id": 63004,
-    "category": "k-pop",
+    "id": 25566,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the song 'Gotta Go' in 2019?",
     "answers": [
-      "Chungha",
       "Sunmi",
+      "Chungha",
       "HyunA",
       "Taeyeon"
     ],
     "correctAnswer": "Chungha",
     "explanation": "Chungha is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "chungha"
+      "kpop"
     ]
   },
   {
-    "id": 63005,
-    "category": "k-pop",
+    "id": 25567,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Super'?",
     "answers": [
-      "SEVENTEEN",
       "EXO",
       "TXT",
+      "SEVENTEEN",
       "ATEEZ"
     ],
     "correctAnswer": "SEVENTEEN",
     "explanation": "SEVENTEEN is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "seventeen"
+      "kpop"
     ]
   },
   {
-    "id": 63006,
-    "category": "k-pop",
+    "id": 25568,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'Eleven'?",
     "answers": [
-      "IVE",
       "LE SSERAFIM",
       "NewJeans",
-      "NMIXX"
+      "NMIXX",
+      "IVE"
     ],
     "correctAnswer": "IVE",
     "explanation": "IVE is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "ive"
+      "kpop"
     ]
   },
   {
-    "id": 63007,
-    "category": "k-pop",
+    "id": 25569,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Blue Flame'?",
@@ -2234,78 +1238,66 @@
     "correctAnswer": "LE SSERAFIM",
     "explanation": "LE SSERAFIM is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "sserafim"
+      "kpop"
     ]
   },
   {
-    "id": 63008,
-    "category": "k-pop",
+    "id": 25570,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Bad Girl Good Girl'?",
     "answers": [
-      "miss A",
       "Wonder Girls",
+      "miss A",
       "KARA",
       "f(x)"
     ],
     "correctAnswer": "miss A",
     "explanation": "miss A is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "miss"
+      "kpop"
     ]
   },
   {
-    "id": 63009,
-    "category": "k-pop",
+    "id": 25571,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Bite Me'?",
     "answers": [
-      "ENHYPEN",
       "TXT",
       "ATEEZ",
+      "ENHYPEN",
       "TREASURE"
     ],
     "correctAnswer": "ENHYPEN",
     "explanation": "ENHYPEN is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "enhypen"
+      "kpop"
     ]
   },
   {
-    "id": 63010,
-    "category": "k-pop",
+    "id": 25572,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group is associated with the fandom name 'INSOMNIA'?",
     "answers": [
-      "Dreamcatcher",
       "LOONA",
       "EVERGLOW",
-      "STAYC"
+      "STAYC",
+      "Dreamcatcher"
     ],
     "correctAnswer": "Dreamcatcher",
     "explanation": "Dreamcatcher is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "dreamcatcher"
+      "kpop"
     ]
   },
   {
-    "id": 63011,
-    "category": "k-pop",
+    "id": 25573,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Cheer Up'?",
@@ -2318,99 +1310,66 @@
     "correctAnswer": "TWICE",
     "explanation": "TWICE is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "twice"
+      "kpop"
     ]
   },
   {
-    "id": 63012,
-    "category": "k-pop",
+    "id": 25574,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'Spark'?",
     "answers": [
-      "Taeyeon",
       "IU",
+      "Taeyeon",
       "Sunmi",
       "BoA"
     ],
     "correctAnswer": "Taeyeon",
     "explanation": "Taeyeon is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "taeyeon"
+      "kpop"
     ]
   },
   {
-    "id": 63013,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'After LIKE'?",
-    "answers": [
-      "IVE",
-      "aespa",
-      "ITZY",
-      "NMIXX"
-    ],
-    "correctAnswer": "IVE",
-    "explanation": "IVE is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "ive"
-    ]
-  },
-  {
-    "id": 63014,
-    "category": "k-pop",
+    "id": 25575,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BTS member released the solo song 'MORE'?",
     "answers": [
-      "J-Hope",
       "RM",
       "Suga",
+      "J-Hope",
       "Jimin"
     ],
     "correctAnswer": "J-Hope",
     "explanation": "J-Hope is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "hope"
+      "kpop"
     ]
   },
   {
-    "id": 63015,
-    "category": "k-pop",
+    "id": 25576,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Back Door'?",
     "answers": [
-      "Stray Kids",
       "ATEEZ",
       "TXT",
-      "ENHYPEN"
+      "ENHYPEN",
+      "Stray Kids"
     ],
     "correctAnswer": "Stray Kids",
     "explanation": "Stray Kids is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "stray-kids"
+      "kpop"
     ]
   },
   {
-    "id": 63016,
-    "category": "k-pop",
+    "id": 25577,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Touch My Body'?",
@@ -2423,78 +1382,66 @@
     "correctAnswer": "SISTAR",
     "explanation": "SISTAR is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "sistar"
+      "kpop"
     ]
   },
   {
-    "id": 63017,
-    "category": "k-pop",
+    "id": 25578,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Attention'?",
     "answers": [
-      "NewJeans",
       "IVE",
+      "NewJeans",
       "aespa",
       "LE SSERAFIM"
     ],
     "correctAnswer": "NewJeans",
     "explanation": "NewJeans is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "newjeans"
+      "kpop"
     ]
   },
   {
-    "id": 63018,
-    "category": "k-pop",
+    "id": 25579,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'District 9'?",
     "answers": [
-      "Stray Kids",
       "ATEEZ",
       "TXT",
+      "Stray Kids",
       "ENHYPEN"
     ],
     "correctAnswer": "Stray Kids",
     "explanation": "Stray Kids is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "stray-kids"
+      "kpop"
     ]
   },
   {
-    "id": 63019,
-    "category": "k-pop",
+    "id": 25580,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Wannabe'?",
     "answers": [
-      "ITZY",
       "aespa",
       "IVE",
-      "NMIXX"
+      "NMIXX",
+      "ITZY"
     ],
     "correctAnswer": "ITZY",
     "explanation": "ITZY is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "itzy"
+      "kpop"
     ]
   },
   {
-    "id": 63020,
-    "category": "k-pop",
+    "id": 25581,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'Heroine'?",
@@ -2507,99 +1454,66 @@
     "correctAnswer": "Sunmi",
     "explanation": "Sunmi is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "sunmi"
+      "kpop"
     ]
   },
   {
-    "id": 63021,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Hype Boy'?",
-    "answers": [
-      "NewJeans",
-      "IVE",
-      "aespa",
-      "LE SSERAFIM"
-    ],
-    "correctAnswer": "NewJeans",
-    "explanation": "NewJeans is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "newjeans"
-    ]
-  },
-  {
-    "id": 63022,
-    "category": "k-pop",
+    "id": 25582,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group is associated with the fandom name 'BELLLIE'VE'?",
     "answers": [
-      "Billlie",
       "STAYC",
+      "Billlie",
       "IVE",
       "NMIXX"
     ],
     "correctAnswer": "Billlie",
     "explanation": "Billlie is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "billlie"
+      "kpop"
     ]
   },
   {
-    "id": 63023,
-    "category": "k-pop",
+    "id": 25583,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'God's Menu'?",
     "answers": [
-      "Stray Kids",
       "ATEEZ",
       "TXT",
+      "Stray Kids",
       "SEVENTEEN"
     ],
     "correctAnswer": "Stray Kids",
     "explanation": "Stray Kids is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "stray-kids"
+      "kpop"
     ]
   },
   {
-    "id": 63024,
-    "category": "k-pop",
+    "id": 25584,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Haru Haru'?",
     "answers": [
-      "BIGBANG",
       "TVXQ",
       "SHINee",
-      "2PM"
+      "2PM",
+      "BIGBANG"
     ],
     "correctAnswer": "BIGBANG",
     "explanation": "BIGBANG is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "bigbang"
+      "kpop"
     ]
   },
   {
-    "id": 63025,
-    "category": "k-pop",
+    "id": 25585,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Girls Never Die'?",
@@ -2612,99 +1526,66 @@
     "correctAnswer": "tripleS",
     "explanation": "tripleS is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "triples"
+      "kpop"
     ]
   },
   {
-    "id": 63026,
-    "category": "k-pop",
+    "id": 25586,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BTS member released the solo song 'Set Me Free Pt.2'?",
     "answers": [
-      "Jimin",
       "RM",
+      "Jimin",
       "V",
       "Jungkook"
     ],
     "correctAnswer": "Jimin",
     "explanation": "Jimin is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "jimin"
+      "kpop"
     ]
   },
   {
-    "id": 63027,
-    "category": "k-pop",
+    "id": 25587,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Teddy Bear'?",
     "answers": [
-      "STAYC",
       "IVE",
       "ITZY",
+      "STAYC",
       "aespa"
     ],
     "correctAnswer": "STAYC",
     "explanation": "STAYC is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "stayc"
+      "kpop"
     ]
   },
   {
-    "id": 63028,
-    "category": "k-pop",
+    "id": 25588,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song '24 Hours'?",
     "answers": [
-      "Sunmi",
       "HyunA",
       "Chungha",
-      "Taeyeon"
+      "Taeyeon",
+      "Sunmi"
     ],
     "correctAnswer": "Sunmi",
     "explanation": "Sunmi is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "sunmi"
+      "kpop"
     ]
   },
   {
-    "id": 63029,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Sugarcoat'?",
-    "answers": [
-      "KISS OF LIFE",
-      "ILLIT",
-      "NMIXX",
-      "IVE"
-    ],
-    "correctAnswer": "KISS OF LIFE",
-    "explanation": "KISS OF LIFE is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "kiss-life"
-    ]
-  },
-  {
-    "id": 63030,
-    "category": "k-pop",
+    "id": 25589,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'Tag Me'?",
@@ -2717,162 +1598,66 @@
     "correctAnswer": "Weeekly",
     "explanation": "Weeekly is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "weeekly"
+      "kpop"
     ]
   },
   {
-    "id": 63031,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Drunk-Dazed'?",
-    "answers": [
-      "ENHYPEN",
-      "TXT",
-      "ATEEZ",
-      "TREASURE"
-    ],
-    "correctAnswer": "ENHYPEN",
-    "explanation": "ENHYPEN is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "enhypen"
-    ]
-  },
-  {
-    "id": 63032,
-    "category": "k-pop",
+    "id": 25590,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Shock' in 2010?",
     "answers": [
-      "BEAST",
       "SHINee",
+      "BEAST",
       "2PM",
       "MBLAQ"
     ],
     "correctAnswer": "BEAST",
     "explanation": "BEAST is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "beast"
+      "kpop"
     ]
   },
   {
-    "id": 63033,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Love Dive'?",
-    "answers": [
-      "IVE",
-      "aespa",
-      "ITZY",
-      "NMIXX"
-    ],
-    "correctAnswer": "IVE",
-    "explanation": "IVE is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "ive"
-    ]
-  },
-  {
-    "id": 63034,
-    "category": "k-pop",
+    "id": 25591,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BLACKPINK member released the solo song 'Hard to Love'?",
     "answers": [
-      "Rosé",
       "Jennie",
       "Lisa",
+      "Rosé",
       "Jisoo"
     ],
     "correctAnswer": "Rosé",
     "explanation": "Rosé is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "ros"
+      "kpop"
     ]
   },
   {
-    "id": 63035,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Boca'?",
-    "answers": [
-      "Dreamcatcher",
-      "LOONA",
-      "EVERGLOW",
-      "ITZY"
-    ],
-    "correctAnswer": "Dreamcatcher",
-    "explanation": "Dreamcatcher is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "dreamcatcher"
-    ]
-  },
-  {
-    "id": 63036,
-    "category": "k-pop",
+    "id": 25592,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'Roll Deep'?",
     "answers": [
-      "HyunA",
       "Sunmi",
       "CL",
-      "Chungha"
+      "Chungha",
+      "HyunA"
     ],
     "correctAnswer": "HyunA",
     "explanation": "HyunA is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "hyuna"
+      "kpop"
     ]
   },
   {
-    "id": 63037,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Super Shy'?",
-    "answers": [
-      "NewJeans",
-      "IVE",
-      "aespa",
-      "LE SSERAFIM"
-    ],
-    "correctAnswer": "NewJeans",
-    "explanation": "NewJeans is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "newjeans"
-    ]
-  },
-  {
-    "id": 63038,
-    "category": "k-pop",
+    "id": 25593,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group is associated with the fandom name 'SWITH'?",
@@ -2885,120 +1670,66 @@
     "correctAnswer": "STAYC",
     "explanation": "STAYC is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "stayc"
+      "kpop"
     ]
   },
   {
-    "id": 63039,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Case 143'?",
-    "answers": [
-      "Stray Kids",
-      "ATEEZ",
-      "TXT",
-      "TREASURE"
-    ],
-    "correctAnswer": "Stray Kids",
-    "explanation": "Stray Kids is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "stray-kids"
-    ]
-  },
-  {
-    "id": 63040,
-    "category": "k-pop",
+    "id": 25594,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Mister Simple'?",
     "answers": [
-      "Super Junior",
       "BIGBANG",
+      "Super Junior",
       "TVXQ",
       "SHINee"
     ],
     "correctAnswer": "Super Junior",
     "explanation": "Super Junior is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "super-junior"
+      "kpop"
     ]
   },
   {
-    "id": 63041,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Dash' in 2024?",
-    "answers": [
-      "NMIXX",
-      "ITZY",
-      "IVE",
-      "aespa"
-    ],
-    "correctAnswer": "NMIXX",
-    "explanation": "NMIXX is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "nmixx"
-    ]
-  },
-  {
-    "id": 63042,
-    "category": "k-pop",
+    "id": 25595,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BTS member released the solo song 'Haegum'?",
     "answers": [
-      "Suga",
       "RM",
       "J-Hope",
+      "Suga",
       "V"
     ],
     "correctAnswer": "Suga",
     "explanation": "Suga is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "suga"
+      "kpop"
     ]
   },
   {
-    "id": 63043,
-    "category": "k-pop",
+    "id": 25596,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Get Cool'?",
     "answers": [
-      "Stray Kids",
       "TXT",
       "ATEEZ",
-      "SEVENTEEN"
+      "SEVENTEEN",
+      "Stray Kids"
     ],
     "correctAnswer": "Stray Kids",
     "explanation": "Stray Kids is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "stray-kids"
+      "kpop"
     ]
   },
   {
-    "id": 63044,
-    "category": "k-pop",
+    "id": 25597,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'Bicycle'?",
@@ -3011,204 +1742,66 @@
     "correctAnswer": "Chungha",
     "explanation": "Chungha is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "chungha"
+      "kpop"
     ]
   },
   {
-    "id": 63045,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Plot Twist'?",
-    "answers": [
-      "TWS",
-      "RIIZE",
-      "ZEROBASEONE",
-      "BOYNEXTDOOR"
-    ],
-    "correctAnswer": "TWS",
-    "explanation": "TWS is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "tws"
-    ]
-  },
-  {
-    "id": 63046,
-    "category": "k-pop",
+    "id": 25598,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'Latata'?",
     "answers": [
-      "(G)I-DLE",
       "ITZY",
+      "(G)I-DLE",
       "IVE",
       "aespa"
     ],
     "correctAnswer": "(G)I-DLE",
     "explanation": "(G)I-DLE is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "dle"
+      "kpop"
     ]
   },
   {
-    "id": 63047,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Armageddon'?",
-    "answers": [
-      "aespa",
-      "IVE",
-      "LE SSERAFIM",
-      "ITZY"
-    ],
-    "correctAnswer": "aespa",
-    "explanation": "aespa is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "aespa"
-    ]
-  },
-  {
-    "id": 63048,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which K-Pop group released the song 'Again & Again'?",
-    "answers": [
-      "2PM",
-      "SHINee",
-      "BIGBANG",
-      "TVXQ"
-    ],
-    "correctAnswer": "2PM",
-    "explanation": "2PM is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "2pm"
-    ]
-  },
-  {
-    "id": 63049,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Talk That Talk'?",
-    "answers": [
-      "TWICE",
-      "BLACKPINK",
-      "Red Velvet",
-      "ITZY"
-    ],
-    "correctAnswer": "TWICE",
-    "explanation": "TWICE is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "twice"
-    ]
-  },
-  {
-    "id": 63050,
-    "category": "k-pop",
+    "id": 25599,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group is associated with the fandom name 'Villain'?",
     "answers": [
-      "Xdinary Heroes",
       "DAY6",
       "The Rose",
+      "Xdinary Heroes",
       "ONEWE"
     ],
     "correctAnswer": "Xdinary Heroes",
     "explanation": "Xdinary Heroes is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "xdinary-heroes"
+      "kpop"
     ]
   },
   {
-    "id": 63051,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Love Me Like This'?",
-    "answers": [
-      "NMIXX",
-      "ITZY",
-      "aespa",
-      "IVE"
-    ],
-    "correctAnswer": "NMIXX",
-    "explanation": "NMIXX is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "nmixx"
-    ]
-  },
-  {
-    "id": 63052,
-    "category": "k-pop",
+    "id": 25600,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'Gashina'?",
     "answers": [
-      "Sunmi",
       "HyunA",
       "Chungha",
-      "Taeyeon"
+      "Taeyeon",
+      "Sunmi"
     ],
     "correctAnswer": "Sunmi",
     "explanation": "Sunmi is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "sunmi"
+      "kpop"
     ]
   },
   {
-    "id": 63053,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Perfect Night'?",
-    "answers": [
-      "LE SSERAFIM",
-      "NewJeans",
-      "IVE",
-      "aespa"
-    ],
-    "correctAnswer": "LE SSERAFIM",
-    "explanation": "LE SSERAFIM is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "sserafim"
-    ]
-  },
-  {
-    "id": 63054,
-    "category": "k-pop",
+    "id": 25601,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BTS member released the solo album 'Hope on the Street Vol.1'?",
@@ -3221,141 +1814,66 @@
     "correctAnswer": "J-Hope",
     "explanation": "J-Hope is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "hope"
+      "kpop"
     ]
   },
   {
-    "id": 63055,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Loco'?",
-    "answers": [
-      "ITZY",
-      "aespa",
-      "IVE",
-      "NMIXX"
-    ],
-    "correctAnswer": "ITZY",
-    "explanation": "ITZY is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "itzy"
-    ]
-  },
-  {
-    "id": 63056,
-    "category": "k-pop",
+    "id": 25602,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Mamacita'?",
     "answers": [
-      "Super Junior",
       "BIGBANG",
+      "Super Junior",
       "SHINee",
       "TVXQ"
     ],
     "correctAnswer": "Super Junior",
     "explanation": "Super Junior is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "super-junior"
+      "kpop"
     ]
   },
   {
-    "id": 63057,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Boom Boom Bass'?",
-    "answers": [
-      "RIIZE",
-      "TWS",
-      "TXT",
-      "ZEROBASEONE"
-    ],
-    "correctAnswer": "RIIZE",
-    "explanation": "RIIZE is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "riize"
-    ]
-  },
-  {
-    "id": 63058,
-    "category": "k-pop",
+    "id": 25603,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'Wa Da Da'?",
     "answers": [
-      "Kep1er",
       "IVE",
       "NMIXX",
+      "Kep1er",
       "LE SSERAFIM"
     ],
     "correctAnswer": "Kep1er",
     "explanation": "Kep1er is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "kep1er"
+      "kpop"
     ]
   },
   {
-    "id": 63059,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Smart'?",
-    "answers": [
-      "LE SSERAFIM",
-      "IVE",
-      "aespa",
-      "ITZY"
-    ],
-    "correctAnswer": "LE SSERAFIM",
-    "explanation": "LE SSERAFIM is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "sserafim"
-    ]
-  },
-  {
-    "id": 63060,
-    "category": "k-pop",
+    "id": 25604,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'Blooming Day' with EXO-CBX?",
     "answers": [
-      "EXO-CBX",
       "EXO-SC",
       "SuperM",
-      "WayV"
+      "WayV",
+      "EXO-CBX"
     ],
     "correctAnswer": "EXO-CBX",
     "explanation": "EXO-CBX is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "exo-cbx"
+      "kpop"
     ]
   },
   {
-    "id": 63061,
-    "category": "k-pop",
+    "id": 25605,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Bam Yang Gang'?",
@@ -3368,162 +1886,66 @@
     "correctAnswer": "BIBI",
     "explanation": "BIBI is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "bibi"
+      "kpop"
     ]
   },
   {
-    "id": 63062,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which K-Pop group is associated with the fandom name 'Fearnot'?",
-    "answers": [
-      "LE SSERAFIM",
-      "IVE",
-      "aespa",
-      "NMIXX"
-    ],
-    "correctAnswer": "LE SSERAFIM",
-    "explanation": "LE SSERAFIM is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "sserafim"
-    ]
-  },
-  {
-    "id": 63063,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'I AM'?",
-    "answers": [
-      "IVE",
-      "aespa",
-      "ITZY",
-      "LE SSERAFIM"
-    ],
-    "correctAnswer": "IVE",
-    "explanation": "IVE is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "ive"
-    ]
-  },
-  {
-    "id": 63064,
-    "category": "k-pop",
+    "id": 25606,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'Snapping'?",
     "answers": [
-      "Chungha",
       "Sunmi",
+      "Chungha",
       "HyunA",
       "Taeyeon"
     ],
     "correctAnswer": "Chungha",
     "explanation": "Chungha is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "chungha"
+      "kpop"
     ]
   },
   {
-    "id": 63065,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Shut Down'?",
-    "answers": [
-      "BLACKPINK",
-      "TWICE",
-      "IVE",
-      "aespa"
-    ],
-    "correctAnswer": "BLACKPINK",
-    "explanation": "BLACKPINK is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "blackpink"
-    ]
-  },
-  {
-    "id": 63066,
-    "category": "k-pop",
+    "id": 25607,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BTS member released the solo song 'Amygdala'?",
     "answers": [
-      "Suga",
       "RM",
       "J-Hope",
+      "Suga",
       "Jimin"
     ],
     "correctAnswer": "Suga",
     "explanation": "Suga is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "suga"
+      "kpop"
     ]
   },
   {
-    "id": 63067,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Thunderous'?",
-    "answers": [
-      "Stray Kids",
-      "ATEEZ",
-      "TXT",
-      "TREASURE"
-    ],
-    "correctAnswer": "Stray Kids",
-    "explanation": "Stray Kids is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "stray-kids"
-    ]
-  },
-  {
-    "id": 63068,
-    "category": "k-pop",
+    "id": 25608,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Pandora' in 2012?",
     "answers": [
-      "KARA",
       "2NE1",
       "Girls' Generation",
-      "Wonder Girls"
+      "Wonder Girls",
+      "KARA"
     ],
     "correctAnswer": "KARA",
     "explanation": "KARA is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "kara"
+      "kpop"
     ]
   },
   {
-    "id": 63069,
-    "category": "k-pop",
+    "id": 25609,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Love Wins All'?",
@@ -3536,97 +1958,66 @@
     "correctAnswer": "IU",
     "explanation": "IU is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy"
+      "kpop"
     ]
   },
   {
-    "id": 63070,
-    "category": "k-pop",
+    "id": 25610,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'Bon Voyage'?",
     "answers": [
-      "Dreamcatcher",
       "EVERGLOW",
+      "Dreamcatcher",
       "LOONA",
       "STAYC"
     ],
     "correctAnswer": "Dreamcatcher",
     "explanation": "Dreamcatcher is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "dreamcatcher"
+      "kpop"
     ]
   },
   {
-    "id": 63071,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Crazy Form'?",
-    "answers": [
-      "ATEEZ",
-      "TXT",
-      "SEVENTEEN",
-      "ENHYPEN"
-    ],
-    "correctAnswer": "ATEEZ",
-    "explanation": "ATEEZ is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "ateez"
-    ]
-  },
-  {
-    "id": 63072,
-    "category": "k-pop",
+    "id": 25611,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'Eight' featuring Suga?",
     "answers": [
-      "IU",
       "Taeyeon",
       "Sunmi",
+      "IU",
       "Chungha"
     ],
     "correctAnswer": "IU",
     "explanation": "IU is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard"
+      "kpop"
     ]
   },
   {
-    "id": 63073,
-    "category": "k-pop",
+    "id": 25612,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Next Level'?",
     "answers": [
-      "aespa",
       "IVE",
       "ITZY",
-      "NMIXX"
+      "NMIXX",
+      "aespa"
     ],
     "correctAnswer": "aespa",
     "explanation": "aespa is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "aespa"
+      "kpop"
     ]
   },
   {
-    "id": 63074,
-    "category": "k-pop",
+    "id": 25613,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BLACKPINK member released the solo song 'You Never Know'?",
@@ -3639,99 +2030,66 @@
     "correctAnswer": "BLACKPINK",
     "explanation": "BLACKPINK is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "blackpink"
+      "kpop"
     ]
   },
   {
-    "id": 63075,
-    "category": "k-pop",
+    "id": 25614,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Mansae'?",
     "answers": [
-      "SEVENTEEN",
       "TXT",
+      "SEVENTEEN",
       "EXO",
       "NCT DREAM"
     ],
     "correctAnswer": "SEVENTEEN",
     "explanation": "SEVENTEEN is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "seventeen"
+      "kpop"
     ]
   },
   {
-    "id": 63076,
-    "category": "k-pop",
+    "id": 25615,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the song 'Bbiribbom Bbaeribom'?",
     "answers": [
-      "CoCoSoRi",
       "Orange Caramel",
       "Crayon Pop",
+      "CoCoSoRi",
       "MOMOLAND"
     ],
     "correctAnswer": "CoCoSoRi",
     "explanation": "CoCoSoRi is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "cocosori"
+      "kpop"
     ]
   },
   {
-    "id": 63077,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Queencard'?",
-    "answers": [
-      "(G)I-DLE",
-      "ITZY",
-      "aespa",
-      "IVE"
-    ],
-    "correctAnswer": "(G)I-DLE",
-    "explanation": "(G)I-DLE is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "dle"
-    ]
-  },
-  {
-    "id": 63078,
-    "category": "k-pop",
+    "id": 25616,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group is associated with the fandom name 'Buddy'?",
     "answers": [
-      "GFRIEND",
       "LOONA",
       "Dreamcatcher",
-      "STAYC"
+      "STAYC",
+      "GFRIEND"
     ],
     "correctAnswer": "GFRIEND",
     "explanation": "GFRIEND is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "gfriend"
+      "kpop"
     ]
   },
   {
-    "id": 63079,
-    "category": "k-pop",
+    "id": 25617,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Back for More' with Anitta?",
@@ -3744,98 +2102,66 @@
     "correctAnswer": "TXT",
     "explanation": "TXT is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "txt"
+      "kpop"
     ]
   },
   {
-    "id": 63080,
-    "category": "k-pop",
+    "id": 25618,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Mago'?",
     "answers": [
-      "GFRIEND",
       "LOONA",
+      "GFRIEND",
       "WJSN",
       "APRIL"
     ],
     "correctAnswer": "GFRIEND",
     "explanation": "GFRIEND is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "gfriend"
+      "kpop"
     ]
   },
   {
-    "id": 63081,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Cake'?",
-    "answers": [
-      "ITZY",
-      "aespa",
-      "IVE",
-      "NMIXX"
-    ],
-    "correctAnswer": "ITZY",
-    "explanation": "ITZY is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "itzy"
-    ]
-  },
-  {
-    "id": 63082,
-    "category": "k-pop",
+    "id": 25619,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BTS member released the solo album 'Layover'?",
     "answers": [
-      "V",
       "RM",
       "Jungkook",
+      "V",
       "Jimin"
     ],
     "correctAnswer": "V",
     "explanation": "V is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium"
+      "kpop"
     ]
   },
   {
-    "id": 63083,
-    "category": "k-pop",
+    "id": 25620,
+    "category": "kpop",
     "premium": true,
     "difficulty": "easy",
     "text": "Which K-Pop group released the song 'Boom'?",
     "answers": [
-      "NCT DREAM",
       "EXO",
       "TXT",
-      "SEVENTEEN"
+      "SEVENTEEN",
+      "NCT DREAM"
     ],
     "correctAnswer": "NCT DREAM",
     "explanation": "NCT DREAM is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "nct-dream"
+      "kpop"
     ]
   },
   {
-    "id": 63084,
-    "category": "k-pop",
+    "id": 25621,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'Cold Blooded'?",
@@ -3848,162 +2174,66 @@
     "correctAnswer": "Jessi",
     "explanation": "Jessi is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "jessi"
+      "kpop"
     ]
   },
   {
-    "id": 63085,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Drama'?",
-    "answers": [
-      "aespa",
-      "IVE",
-      "ITZY",
-      "LE SSERAFIM"
-    ],
-    "correctAnswer": "aespa",
-    "explanation": "aespa is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "aespa"
-    ]
-  },
-  {
-    "id": 63086,
-    "category": "k-pop",
+    "id": 25622,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'Bim Bam Bum'?",
     "answers": [
-      "Rocket Punch",
       "STAYC",
+      "Rocket Punch",
       "Weeekly",
       "Billlie"
     ],
     "correctAnswer": "Rocket Punch",
     "explanation": "Rocket Punch is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "rocket-punch"
+      "kpop"
     ]
   },
   {
-    "id": 63087,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Smart'?",
-    "answers": [
-      "LE SSERAFIM",
-      "IVE",
-      "aespa",
-      "NMIXX"
-    ],
-    "correctAnswer": "LE SSERAFIM",
-    "explanation": "LE SSERAFIM is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "sserafim"
-    ]
-  },
-  {
-    "id": 63088,
-    "category": "k-pop",
+    "id": 25623,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Russian Roulette'?",
     "answers": [
-      "Red Velvet",
       "TWICE",
       "BLACKPINK",
+      "Red Velvet",
       "MAMAMOO"
     ],
     "correctAnswer": "Red Velvet",
     "explanation": "Red Velvet is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "red-velvet"
+      "kpop"
     ]
   },
   {
-    "id": 63089,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Bite Me'?",
-    "answers": [
-      "ENHYPEN",
-      "TXT",
-      "ATEEZ",
-      "TREASURE"
-    ],
-    "correctAnswer": "ENHYPEN",
-    "explanation": "ENHYPEN is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "enhypen"
-    ]
-  },
-  {
-    "id": 63090,
-    "category": "k-pop",
+    "id": 25624,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group is associated with the fandom name 'To Moon'?",
     "answers": [
-      "ONEUS",
       "ATEEZ",
       "TXT",
-      "TREASURE"
+      "TREASURE",
+      "ONEUS"
     ],
     "correctAnswer": "ONEUS",
     "explanation": "ONEUS is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "oneus"
+      "kpop"
     ]
   },
   {
-    "id": 63091,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Armageddon'?",
-    "answers": [
-      "aespa",
-      "IVE",
-      "LE SSERAFIM",
-      "NMIXX"
-    ],
-    "correctAnswer": "aespa",
-    "explanation": "aespa is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "aespa"
-    ]
-  },
-  {
-    "id": 63092,
-    "category": "k-pop",
+    "id": 25625,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'I’m Not Cool'?",
@@ -4016,161 +2246,66 @@
     "correctAnswer": "HyunA",
     "explanation": "HyunA is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "hyuna"
+      "kpop"
     ]
   },
   {
-    "id": 63093,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'S-Class'?",
-    "answers": [
-      "Stray Kids",
-      "ATEEZ",
-      "TXT",
-      "ENHYPEN"
-    ],
-    "correctAnswer": "Stray Kids",
-    "explanation": "Stray Kids is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "stray-kids"
-    ]
-  },
-  {
-    "id": 63094,
-    "category": "k-pop",
+    "id": 25626,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which BTS member released the solo song 'Closer' featuring Paul Blanco and Mahalia?",
     "answers": [
-      "RM",
       "Jungkook",
+      "RM",
       "V",
       "Jimin"
     ],
     "correctAnswer": "RM",
     "explanation": "RM is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium"
+      "kpop"
     ]
   },
   {
-    "id": 63095,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Ditto'?",
-    "answers": [
-      "NewJeans",
-      "IVE",
-      "aespa",
-      "LE SSERAFIM"
-    ],
-    "correctAnswer": "NewJeans",
-    "explanation": "NewJeans is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "newjeans"
-    ]
-  },
-  {
-    "id": 63096,
-    "category": "k-pop",
+    "id": 25627,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop group released the song 'Decalcomanie'?",
     "answers": [
-      "MAMAMOO",
       "Red Velvet",
       "SISTAR",
+      "MAMAMOO",
       "Brown Eyed Girls"
     ],
     "correctAnswer": "MAMAMOO",
     "explanation": "MAMAMOO is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "mamamoo"
+      "kpop"
     ]
   },
   {
-    "id": 63097,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'LALALALA'?",
-    "answers": [
-      "Stray Kids",
-      "ATEEZ",
-      "TXT",
-      "TREASURE"
-    ],
-    "correctAnswer": "Stray Kids",
-    "explanation": "Stray Kids is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "stray-kids"
-    ]
-  },
-  {
-    "id": 63098,
-    "category": "k-pop",
+    "id": 25628,
+    "category": "kpop",
     "premium": true,
     "difficulty": "medium",
     "text": "Which K-Pop group debuted with the song 'Tag Tag Tag'?",
     "answers": [
-      "VERIVERY",
       "ONEUS",
       "CIX",
-      "CRAVITY"
+      "CRAVITY",
+      "VERIVERY"
     ],
     "correctAnswer": "VERIVERY",
     "explanation": "VERIVERY is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "medium",
-      "verivery"
+      "kpop"
     ]
   },
   {
-    "id": 63099,
-    "category": "k-pop",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which K-Pop group released the song 'Magnetic'?",
-    "answers": [
-      "ILLIT",
-      "NMIXX",
-      "IVE",
-      "Kep1er"
-    ],
-    "correctAnswer": "ILLIT",
-    "explanation": "ILLIT is the correct answer to this k-pop question.",
-    "tags": [
-      "kpop",
-      "k-pop",
-      "easy",
-      "illit"
-    ]
-  },
-  {
-    "id": 63100,
-    "category": "k-pop",
+    "id": 25629,
+    "category": "kpop",
     "premium": true,
     "difficulty": "hard",
     "text": "Which K-Pop artist released the solo song 'What Type of X'?",
@@ -4183,10 +2318,1285 @@
     "correctAnswer": "Jessi",
     "explanation": "Jessi is the correct answer to this k-pop question.",
     "tags": [
-      "kpop",
-      "k-pop",
-      "hard",
-      "jessi"
+      "kpop"
+    ]
+  },
+  {
+    "id": 25630,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #1",
+    "answers": [
+      "BLACKPINK",
+      "BTS",
+      "EXO",
+      "TWICE"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25631,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #2",
+    "answers": [
+      "SM Entertainment",
+      "JYP Entertainment",
+      "YG Entertainment",
+      "HYBE"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25632,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #3",
+    "answers": [
+      "BLACKPINK",
+      "EXO",
+      "TWICE",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25633,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #4",
+    "answers": [
+      "YG Entertainment",
+      "JYP Entertainment",
+      "HYBE",
+      "SM Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25634,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #5",
+    "answers": [
+      "BLACKPINK",
+      "BTS",
+      "EXO",
+      "TWICE"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25635,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #6",
+    "answers": [
+      "HYBE",
+      "JYP Entertainment",
+      "YG Entertainment",
+      "SM Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25636,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #7",
+    "answers": [
+      "BLACKPINK",
+      "EXO",
+      "TWICE",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25637,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #8",
+    "answers": [
+      "YG Entertainment",
+      "HYBE",
+      "JYP Entertainment",
+      "SM Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25638,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #9",
+    "answers": [
+      "EXO",
+      "BTS",
+      "TWICE",
+      "BLACKPINK"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25639,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #10",
+    "answers": [
+      "JYP Entertainment",
+      "HYBE",
+      "YG Entertainment",
+      "SM Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25640,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #11",
+    "answers": [
+      "TWICE",
+      "BLACKPINK",
+      "EXO",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25641,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #12",
+    "answers": [
+      "YG Entertainment",
+      "JYP Entertainment",
+      "HYBE",
+      "SM Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25642,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #13",
+    "answers": [
+      "EXO",
+      "BTS",
+      "TWICE",
+      "BLACKPINK"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25643,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #14",
+    "answers": [
+      "SM Entertainment",
+      "JYP Entertainment",
+      "YG Entertainment",
+      "HYBE"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25644,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #15",
+    "answers": [
+      "EXO",
+      "BLACKPINK",
+      "TWICE",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25645,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #16",
+    "answers": [
+      "YG Entertainment",
+      "HYBE",
+      "JYP Entertainment",
+      "SM Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25646,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #17",
+    "answers": [
+      "BLACKPINK",
+      "BTS",
+      "TWICE",
+      "EXO"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25647,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #18",
+    "answers": [
+      "SM Entertainment",
+      "JYP Entertainment",
+      "YG Entertainment",
+      "HYBE"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25648,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #19",
+    "answers": [
+      "BLACKPINK",
+      "TWICE",
+      "EXO",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25649,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #20",
+    "answers": [
+      "YG Entertainment",
+      "HYBE",
+      "JYP Entertainment",
+      "SM Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25650,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #21",
+    "answers": [
+      "EXO",
+      "BTS",
+      "BLACKPINK",
+      "TWICE"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25651,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #22",
+    "answers": [
+      "HYBE",
+      "SM Entertainment",
+      "YG Entertainment",
+      "JYP Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25652,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #23",
+    "answers": [
+      "EXO",
+      "BLACKPINK",
+      "TWICE",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25653,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #24",
+    "answers": [
+      "YG Entertainment",
+      "HYBE",
+      "JYP Entertainment",
+      "SM Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25654,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #25",
+    "answers": [
+      "BLACKPINK",
+      "BTS",
+      "EXO",
+      "TWICE"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25655,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #26",
+    "answers": [
+      "SM Entertainment",
+      "HYBE",
+      "YG Entertainment",
+      "JYP Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25656,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #27",
+    "answers": [
+      "BLACKPINK",
+      "TWICE",
+      "EXO",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25657,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #28",
+    "answers": [
+      "YG Entertainment",
+      "JYP Entertainment",
+      "SM Entertainment",
+      "HYBE"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25658,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #29",
+    "answers": [
+      "BLACKPINK",
+      "BTS",
+      "EXO",
+      "TWICE"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25659,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #30",
+    "answers": [
+      "SM Entertainment",
+      "JYP Entertainment",
+      "YG Entertainment",
+      "HYBE"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25660,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #31",
+    "answers": [
+      "TWICE",
+      "BLACKPINK",
+      "EXO",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25661,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #32",
+    "answers": [
+      "YG Entertainment",
+      "HYBE",
+      "SM Entertainment",
+      "JYP Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25662,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #33",
+    "answers": [
+      "TWICE",
+      "BTS",
+      "EXO",
+      "BLACKPINK"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25663,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #34",
+    "answers": [
+      "SM Entertainment",
+      "HYBE",
+      "YG Entertainment",
+      "JYP Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25664,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #35",
+    "answers": [
+      "BLACKPINK",
+      "EXO",
+      "TWICE",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25665,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #36",
+    "answers": [
+      "YG Entertainment",
+      "HYBE",
+      "JYP Entertainment",
+      "SM Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25666,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #37",
+    "answers": [
+      "BLACKPINK",
+      "BTS",
+      "TWICE",
+      "EXO"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25667,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #38",
+    "answers": [
+      "SM Entertainment",
+      "HYBE",
+      "YG Entertainment",
+      "JYP Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25668,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #39",
+    "answers": [
+      "EXO",
+      "TWICE",
+      "BLACKPINK",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25669,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #40",
+    "answers": [
+      "YG Entertainment",
+      "JYP Entertainment",
+      "SM Entertainment",
+      "HYBE"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25670,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #41",
+    "answers": [
+      "EXO",
+      "BTS",
+      "TWICE",
+      "BLACKPINK"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25671,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #42",
+    "answers": [
+      "JYP Entertainment",
+      "HYBE",
+      "YG Entertainment",
+      "SM Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25672,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #43",
+    "answers": [
+      "TWICE",
+      "BLACKPINK",
+      "EXO",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25673,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #44",
+    "answers": [
+      "YG Entertainment",
+      "HYBE",
+      "SM Entertainment",
+      "JYP Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25674,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #45",
+    "answers": [
+      "BLACKPINK",
+      "BTS",
+      "EXO",
+      "TWICE"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25675,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #46",
+    "answers": [
+      "HYBE",
+      "JYP Entertainment",
+      "YG Entertainment",
+      "SM Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25676,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #47",
+    "answers": [
+      "BLACKPINK",
+      "TWICE",
+      "EXO",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25677,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #48",
+    "answers": [
+      "YG Entertainment",
+      "JYP Entertainment",
+      "SM Entertainment",
+      "HYBE"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25678,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #49",
+    "answers": [
+      "TWICE",
+      "BTS",
+      "BLACKPINK",
+      "EXO"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25679,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #50",
+    "answers": [
+      "SM Entertainment",
+      "JYP Entertainment",
+      "YG Entertainment",
+      "HYBE"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25680,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #51",
+    "answers": [
+      "TWICE",
+      "BLACKPINK",
+      "EXO",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25681,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #52",
+    "answers": [
+      "YG Entertainment",
+      "HYBE",
+      "SM Entertainment",
+      "JYP Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25682,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #53",
+    "answers": [
+      "BLACKPINK",
+      "BTS",
+      "EXO",
+      "TWICE"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25683,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #54",
+    "answers": [
+      "HYBE",
+      "JYP Entertainment",
+      "YG Entertainment",
+      "SM Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25684,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #55",
+    "answers": [
+      "TWICE",
+      "BLACKPINK",
+      "EXO",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25685,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #56",
+    "answers": [
+      "YG Entertainment",
+      "SM Entertainment",
+      "HYBE",
+      "JYP Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25686,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #57",
+    "answers": [
+      "TWICE",
+      "BTS",
+      "BLACKPINK",
+      "EXO"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25687,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #58",
+    "answers": [
+      "JYP Entertainment",
+      "SM Entertainment",
+      "YG Entertainment",
+      "HYBE"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25688,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #59",
+    "answers": [
+      "EXO",
+      "BLACKPINK",
+      "TWICE",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25689,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #60",
+    "answers": [
+      "YG Entertainment",
+      "HYBE",
+      "SM Entertainment",
+      "JYP Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25690,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #61",
+    "answers": [
+      "TWICE",
+      "BTS",
+      "BLACKPINK",
+      "EXO"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25691,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #62",
+    "answers": [
+      "SM Entertainment",
+      "JYP Entertainment",
+      "YG Entertainment",
+      "HYBE"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25692,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #63",
+    "answers": [
+      "EXO",
+      "BLACKPINK",
+      "TWICE",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25693,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #64",
+    "answers": [
+      "YG Entertainment",
+      "SM Entertainment",
+      "HYBE",
+      "JYP Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25694,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #65",
+    "answers": [
+      "TWICE",
+      "BTS",
+      "BLACKPINK",
+      "EXO"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25695,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #66",
+    "answers": [
+      "SM Entertainment",
+      "HYBE",
+      "YG Entertainment",
+      "JYP Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25696,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #67",
+    "answers": [
+      "TWICE",
+      "EXO",
+      "BLACKPINK",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25697,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which company formed the group BLACKPINK? #68",
+    "answers": [
+      "YG Entertainment",
+      "JYP Entertainment",
+      "HYBE",
+      "SM Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25698,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #69",
+    "answers": [
+      "BLACKPINK",
+      "BTS",
+      "EXO",
+      "TWICE"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25699,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which company formed the group BLACKPINK? #70",
+    "answers": [
+      "HYBE",
+      "SM Entertainment",
+      "YG Entertainment",
+      "JYP Entertainment"
+    ],
+    "correctAnswer": "YG Entertainment",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
+    ]
+  },
+  {
+    "id": 25700,
+    "category": "kpop",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which K-pop group released the song Dynamite? #71",
+    "answers": [
+      "EXO",
+      "TWICE",
+      "BLACKPINK",
+      "BTS"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "Expanded curated question for long-term replayability.",
+    "tags": [
+      "kpop"
     ]
   }
 ]

@@ -13,7 +13,10 @@ export interface TournamentMatch {
 
   // Added for shop-ready authority
   resolvedAt?: number;
-  resolutionReason?: "normal" | "timeout" | "forfeit";
+  resolutionReason?: "normal" | "timeout" | "forfeit" | "tiebreak";
 }
+
+
+
 
 

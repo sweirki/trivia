@@ -40,3 +40,5 @@ export function dailyStatesEqual(localDaily: unknown, cloudDaily: unknown) {
     local.totalClaims === cloud.totalClaims
   );
 }
+
+

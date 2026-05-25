@@ -8,6 +8,7 @@ const fashionIcon = require("../../assets/images/categories/icons/fashion_icon.w
 const foodIcon = require("../../assets/images/categories/icons/food_icon.webp");
 const footballIcon = require("../../assets/images/categories/icons/football_icon.webp");
 const gamingIcon = require("../../assets/images/categories/icons/gaming_icon.webp");
+const generalknowledgeIcon = require("../../assets/images/categories/icons/generalknowledge_icon.webp");
 const geographyIcon = require("../../assets/images/categories/icons/geography_icon.webp");
 const historyIcon = require("../../assets/images/categories/icons/history_icon.webp");
 const horrorIcon = require("../../assets/images/categories/icons/horror_icon.webp");
@@ -59,7 +60,9 @@ const CATEGORY_SHELLS: CategoryShell[] = [
   icon: historyIcon,  color: "#FF9800" },
   { id: "movies",  label: "Movies", premium: false, price: 0,
   icon: moviesIcon,  color: "#9C27B0" },
-  { id: "generalknowledge", label: "General Knowledge", premium: false, price: 0, icon: geographyIcon, color: "#FBC02D" },
+  { id: "tvshows", label: "TV Shows", premium: false, price: 0,
+  icon: moviesIcon, color: "#7E57C2" },
+  { id: "generalknowledge", label: "General Knowledge", premium: false, price: 0, icon: generalknowledgeIcon, color: "#FBC02D" },
 
   // Shells below become playable automatically once a matching JSON file exists.
   { id: "music",  label: "Music", premium: false, price: 0,
@@ -86,6 +89,8 @@ const CATEGORY_SHELLS: CategoryShell[] = [
   icon: celebritiesIcon, color: "#673AB7" },
   { id: "logic",  label: "Logic", premium: false, price: 0,
   icon: logicIcon,  color: "#009688" },
+  { id: "math", label: "Math", premium: false, price: 0,
+  icon: mathIcon, color: "#00BCD4" },
   { id: "technology", label: "Technology", premium: false, price: 0, icon: internetIcon, color: "#00ACC1" },
   { id: "gaming",  label: "Gaming", premium: false, price: 0,
   icon: gamingIcon,  color: "#3F51B5" },
@@ -177,4 +182,6 @@ export function getPlayableCategoryById(id?: string | null) {
   if (!id || !hasPlayableQuestionPack(id)) return undefined;
   return getCategoryById(id);
 }
+
+
 

@@ -75,3 +75,5 @@ const styles = StyleSheet.create({
   modeSubtitle: { color: "#aaa", marginTop: s(5), fontSize: s(12), lineHeight: s(17) },
   modeArrow: { color: "#FFD36B", fontSize: s(28), fontWeight: "900" },
 });
+
+

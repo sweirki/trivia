@@ -1,1 +1,782 @@
-[]
+[
+  {
+    "id": 29501,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which novel features the character Yossarian?",
+    "answers": [
+      "Slaughterhouse-Five",
+      "On the Road",
+      "The Things They Carried",
+      "Catch-22"
+    ],
+    "correctAnswer": "Catch-22",
+    "explanation": "Catch-22 is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "medium",
+      "catch"
+    ]
+  },
+  {
+    "id": 29502,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who wrote the novel 'The Invisible Man'?",
+    "answers": [
+      "H.G. Wells",
+      "Jules Verne",
+      "Bram Stoker",
+      "Mary Shelley"
+    ],
+    "correctAnswer": "H.G. Wells",
+    "explanation": "H.G. Wells is the correct person for this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "wells"
+    ]
+  },
+  {
+    "id": 29503,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which author wrote the novel 'Nausea'?",
+    "answers": [
+      "Albert Camus",
+      "Jean-Paul Sartre",
+      "Franz Kafka",
+      "Simone de Beauvoir"
+    ],
+    "correctAnswer": "Jean-Paul Sartre",
+    "explanation": "Jean-Paul Sartre is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "hard",
+      "jean-paul"
+    ]
+  },
+  {
+    "id": 29504,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which author wrote 'Where the Wild Things Are'?",
+    "answers": [
+      "Eric Carle",
+      "Dr. Seuss",
+      "Maurice Sendak",
+      "Shel Silverstein"
+    ],
+    "correctAnswer": "Maurice Sendak",
+    "explanation": "Maurice Sendak is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "maurice-sendak"
+    ]
+  },
+  {
+    "id": 29505,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which novel follows the character Saleem Sinai?",
+    "answers": [
+      "The God of Small Things",
+      "The Kite Runner",
+      "A Fine Balance",
+      "Midnight's Children"
+    ],
+    "correctAnswer": "Midnight's Children",
+    "explanation": "Midnight's Children is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "medium",
+      "midnights-children"
+    ]
+  },
+  {
+    "id": 29506,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who wrote the novel 'Jurassic Park'?",
+    "answers": [
+      "Michael Crichton",
+      "Stephen King",
+      "Dean Koontz",
+      "Tom Clancy"
+    ],
+    "correctAnswer": "Michael Crichton",
+    "explanation": "Michael Crichton is the correct person for this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "michael-crichton"
+    ]
+  },
+  {
+    "id": 29507,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which author wrote the novel 'The Castle'?",
+    "answers": [
+      "Albert Camus",
+      "Franz Kafka",
+      "Thomas Mann",
+      "Hermann Hesse"
+    ],
+    "correctAnswer": "Franz Kafka",
+    "explanation": "Franz Kafka is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "hard",
+      "franz-kafka"
+    ]
+  },
+  {
+    "id": 29508,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which author created the character Ramona Quimby?",
+    "answers": [
+      "Judy Blume",
+      "Kate DiCamillo",
+      "Beverly Cleary",
+      "Lois Lowry"
+    ],
+    "correctAnswer": "Beverly Cleary",
+    "explanation": "Beverly Cleary is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "beverly-cleary"
+    ]
+  },
+  {
+    "id": 29509,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Who wrote the novel 'Slaughterhouse-Five'?",
+    "answers": [
+      "Joseph Heller",
+      "Philip Roth",
+      "Don DeLillo",
+      "Kurt Vonnegut"
+    ],
+    "correctAnswer": "Kurt Vonnegut",
+    "explanation": "Kurt Vonnegut is the correct person for this literature question.",
+    "tags": [
+      "literature",
+      "medium",
+      "kurt-vonnegut"
+    ]
+  },
+  {
+    "id": 29510,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which author wrote 'The Polar Express'?",
+    "answers": [
+      "Chris Van Allsburg",
+      "Maurice Sendak",
+      "Eric Carle",
+      "Dr. Seuss"
+    ],
+    "correctAnswer": "Chris Van Allsburg",
+    "explanation": "Chris Van Allsburg is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "chris-van"
+    ]
+  },
+  {
+    "id": 29511,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which author wrote the novel 'Ficciones'?",
+    "answers": [
+      "Gabriel García Márquez",
+      "Jorge Luis Borges",
+      "Julio Cortázar",
+      "Mario Vargas Llosa"
+    ],
+    "correctAnswer": "Jorge Luis Borges",
+    "explanation": "Jorge Luis Borges is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "hard",
+      "jorge-luis"
+    ]
+  },
+  {
+    "id": 29512,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who wrote the novel 'The Firm'?",
+    "answers": [
+      "Tom Clancy",
+      "Michael Crichton",
+      "John Grisham",
+      "Dan Brown"
+    ],
+    "correctAnswer": "John Grisham",
+    "explanation": "John Grisham is the correct person for this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "john-grisham"
+    ]
+  },
+  {
+    "id": 29513,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which novel features the character Bigger Thomas?",
+    "answers": [
+      "Invisible Man",
+      "Beloved",
+      "The Color Purple",
+      "Native Son"
+    ],
+    "correctAnswer": "Native Son",
+    "explanation": "Native Son is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "medium",
+      "native-son"
+    ]
+  },
+  {
+    "id": 29514,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which author wrote 'Green Eggs and Ham'?",
+    "answers": [
+      "Dr. Seuss",
+      "Shel Silverstein",
+      "Maurice Sendak",
+      "Eric Carle"
+    ],
+    "correctAnswer": "Dr. Seuss",
+    "explanation": "Dr. Seuss is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "seuss"
+    ]
+  },
+  {
+    "id": 29515,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which author wrote the novel 'The Recognitions'?",
+    "answers": [
+      "Thomas Pynchon",
+      "William Gaddis",
+      "Don DeLillo",
+      "David Foster Wallace"
+    ],
+    "correctAnswer": "William Gaddis",
+    "explanation": "William Gaddis is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "hard",
+      "william-gaddis"
+    ]
+  },
+  {
+    "id": 29516,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who wrote the novel 'The Client'?",
+    "answers": [
+      "Michael Crichton",
+      "Tom Clancy",
+      "John Grisham",
+      "Dan Brown"
+    ],
+    "correctAnswer": "John Grisham",
+    "explanation": "John Grisham is the correct person for this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "john-grisham"
+    ]
+  },
+  {
+    "id": 29517,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which novel follows the character Rabbit Angstrom?",
+    "answers": [
+      "American Pastoral",
+      "Portnoy's Complaint",
+      "Underworld",
+      "Rabbit, Run"
+    ],
+    "correctAnswer": "Rabbit, Run",
+    "explanation": "Rabbit, Run is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "medium",
+      "rabbit-run"
+    ]
+  },
+  {
+    "id": 29518,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which author wrote 'Fantastic Mr. Fox'?",
+    "answers": [
+      "Roald Dahl",
+      "Dr. Seuss",
+      "C.S. Lewis",
+      "E.B. White"
+    ],
+    "correctAnswer": "Roald Dahl",
+    "explanation": "Roald Dahl is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "roald-dahl"
+    ]
+  },
+  {
+    "id": 29519,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which author wrote the novel 'If on a winter's night a traveler'?",
+    "answers": [
+      "Umberto Eco",
+      "Italo Calvino",
+      "Milan Kundera",
+      "Alberto Moravia"
+    ],
+    "correctAnswer": "Italo Calvino",
+    "explanation": "Italo Calvino is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "hard",
+      "italo-calvino"
+    ]
+  },
+  {
+    "id": 29520,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who wrote the novel 'The Pelican Brief'?",
+    "answers": [
+      "Tom Clancy",
+      "Michael Crichton",
+      "John Grisham",
+      "Patricia Cornwell"
+    ],
+    "correctAnswer": "John Grisham",
+    "explanation": "John Grisham is the correct person for this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "john-grisham"
+    ]
+  },
+  {
+    "id": 29521,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which novel features the character Hazel Grace Lancaster?",
+    "answers": [
+      "Looking for Alaska",
+      "Paper Towns",
+      "Eleanor & Park",
+      "The Fault in Our Stars"
+    ],
+    "correctAnswer": "The Fault in Our Stars",
+    "explanation": "The Fault in Our Stars is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "medium",
+      "fault-our"
+    ]
+  },
+  {
+    "id": 29522,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which author wrote 'Oh, the Places You'll Go!'?",
+    "answers": [
+      "Dr. Seuss",
+      "Shel Silverstein",
+      "Eric Carle",
+      "Maurice Sendak"
+    ],
+    "correctAnswer": "Dr. Seuss",
+    "explanation": "Dr. Seuss is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "seuss"
+    ]
+  },
+  {
+    "id": 29523,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which author wrote the novel 'The Man Without Qualities'?",
+    "answers": [
+      "Thomas Mann",
+      "Robert Musil",
+      "Franz Kafka",
+      "Hermann Hesse"
+    ],
+    "correctAnswer": "Robert Musil",
+    "explanation": "Robert Musil is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "hard",
+      "robert-musil"
+    ]
+  },
+  {
+    "id": 29524,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who wrote the novel 'The Lost World'?",
+    "answers": [
+      "Jules Verne",
+      "H.G. Wells",
+      "Arthur Conan Doyle",
+      "Michael Crichton"
+    ],
+    "correctAnswer": "Arthur Conan Doyle",
+    "explanation": "Arthur Conan Doyle is the correct person for this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "arthur-conan"
+    ]
+  },
+  {
+    "id": 29525,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which novel follows the character Celie?",
+    "answers": [
+      "Beloved",
+      "Their Eyes Were Watching God",
+      "Invisible Man",
+      "The Color Purple"
+    ],
+    "correctAnswer": "The Color Purple",
+    "explanation": "The Color Purple is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "medium",
+      "color-purple"
+    ]
+  },
+  {
+    "id": 29526,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which author wrote 'Holes'?",
+    "answers": [
+      "Louis Sachar",
+      "Lois Lowry",
+      "Katherine Paterson",
+      "Judy Blume"
+    ],
+    "correctAnswer": "Louis Sachar",
+    "explanation": "Louis Sachar is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "louis-sachar"
+    ]
+  },
+  {
+    "id": 29527,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which author wrote the novel 'Journey to the End of the Night'?",
+    "answers": [
+      "Albert Camus",
+      "Louis-Ferdinand Céline",
+      "Jean-Paul Sartre",
+      "André Gide"
+    ],
+    "correctAnswer": "Louis-Ferdinand Céline",
+    "explanation": "Louis-Ferdinand Céline is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "hard",
+      "louis-ferdinand"
+    ]
+  },
+  {
+    "id": 29528,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who wrote the novel 'Big Little Lies'?",
+    "answers": [
+      "Gillian Flynn",
+      "Paula Hawkins",
+      "Liane Moriarty",
+      "Donna Tartt"
+    ],
+    "correctAnswer": "Liane Moriarty",
+    "explanation": "Liane Moriarty is the correct person for this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "liane-moriarty"
+    ]
+  },
+  {
+    "id": 29529,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which novel features the character Milkman Dead?",
+    "answers": [
+      "Beloved",
+      "Invisible Man",
+      "Native Son",
+      "Song of Solomon"
+    ],
+    "correctAnswer": "Song of Solomon",
+    "explanation": "Song of Solomon is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "medium",
+      "song-solomon"
+    ]
+  },
+  {
+    "id": 29530,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which author wrote 'The Cat in the Hat'?",
+    "answers": [
+      "Dr. Seuss",
+      "Maurice Sendak",
+      "Shel Silverstein",
+      "Eric Carle"
+    ],
+    "correctAnswer": "Dr. Seuss",
+    "explanation": "Dr. Seuss is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "seuss"
+    ]
+  },
+  {
+    "id": 29531,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which author wrote the novel 'Pale Fire'?",
+    "answers": [
+      "Thomas Pynchon",
+      "Vladimir Nabokov",
+      "Don DeLillo",
+      "William Gaddis"
+    ],
+    "correctAnswer": "Vladimir Nabokov",
+    "explanation": "Vladimir Nabokov is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "hard",
+      "vladimir-nabokov"
+    ]
+  },
+  {
+    "id": 29532,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who wrote the novel 'The Girl on the Train'?",
+    "answers": [
+      "Gillian Flynn",
+      "Liane Moriarty",
+      "Paula Hawkins",
+      "Ruth Ware"
+    ],
+    "correctAnswer": "Paula Hawkins",
+    "explanation": "Paula Hawkins is the correct person for this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "paula-hawkins"
+    ]
+  },
+  {
+    "id": 29533,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which novel follows the character Sethe?",
+    "answers": [
+      "The Color Purple",
+      "Song of Solomon",
+      "Invisible Man",
+      "Beloved"
+    ],
+    "correctAnswer": "Beloved",
+    "explanation": "Beloved is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "medium",
+      "beloved"
+    ]
+  },
+  {
+    "id": 29534,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which author wrote 'Because of Winn-Dixie'?",
+    "answers": [
+      "Kate DiCamillo",
+      "Lois Lowry",
+      "Beverly Cleary",
+      "Judy Blume"
+    ],
+    "correctAnswer": "Kate DiCamillo",
+    "explanation": "Kate DiCamillo is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "kate-dicamillo"
+    ]
+  },
+  {
+    "id": 29535,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which author wrote the novel 'The Book of Disquiet'?",
+    "answers": [
+      "José Saramago",
+      "Fernando Pessoa",
+      "Jorge Luis Borges",
+      "Miguel de Unamuno"
+    ],
+    "correctAnswer": "Fernando Pessoa",
+    "explanation": "Fernando Pessoa is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "hard",
+      "fernando-pessoa"
+    ]
+  },
+  {
+    "id": 29536,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who wrote the novel 'Angels & Demons'?",
+    "answers": [
+      "John Grisham",
+      "Tom Clancy",
+      "Dan Brown",
+      "Michael Crichton"
+    ],
+    "correctAnswer": "Dan Brown",
+    "explanation": "Dan Brown is the correct person for this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "dan-brown"
+    ]
+  },
+  {
+    "id": 29537,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which novel features the character Alex DeLarge?",
+    "answers": [
+      "American Psycho",
+      "Fight Club",
+      "1984",
+      "A Clockwork Orange"
+    ],
+    "correctAnswer": "A Clockwork Orange",
+    "explanation": "A Clockwork Orange is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "medium",
+      "clockwork-orange"
+    ]
+  },
+  {
+    "id": 29538,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which author wrote 'Diary of a Wimpy Kid'?",
+    "answers": [
+      "Jeff Kinney",
+      "Dav Pilkey",
+      "R.L. Stine",
+      "Louis Sachar"
+    ],
+    "correctAnswer": "Jeff Kinney",
+    "explanation": "Jeff Kinney is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "easy",
+      "jeff-kinney"
+    ]
+  },
+  {
+    "id": 29539,
+    "category": "literature",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which author wrote the novel 'The Magic Mountain'?",
+    "answers": [
+      "Hermann Hesse",
+      "Thomas Mann",
+      "Franz Kafka",
+      "Robert Musil"
+    ],
+    "correctAnswer": "Thomas Mann",
+    "explanation": "Thomas Mann is the correct answer to this literature question.",
+    "tags": [
+      "literature",
+      "hard",
+      "thomas-mann"
+    ]
+  }
+]

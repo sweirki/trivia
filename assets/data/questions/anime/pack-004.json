@@ -1,1 +1,4642 @@
-[]
+[
+  {
+    "id": 4001,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Menma's ghost?",
+    "answers": [
+      "Anohana",
+      "Orange",
+      "Angel Beats!",
+      "Clannad"
+    ],
+    "correctAnswer": "Anohana",
+    "explanation": "Menma's ghost brings childhood friends back together.",
+    "tags": [
+      "anime",
+      "anohana",
+      "drama"
+    ]
+  },
+  {
+    "id": 4002,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features an afterlife school setting?",
+    "answers": [
+      "Anohana",
+      "Angel Beats!",
+      "Clannad",
+      "Charlotte"
+    ],
+    "correctAnswer": "Angel Beats!",
+    "explanation": "Angel Beats! takes place in an afterlife high school.",
+    "tags": [
+      "anime",
+      "angel-beats",
+      "drama"
+    ]
+  },
+  {
+    "id": 4003,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Tomoya and Nagisa?",
+    "answers": [
+      "Anohana",
+      "Golden Time",
+      "Clannad",
+      "Angel Beats!"
+    ],
+    "correctAnswer": "Clannad",
+    "explanation": "Clannad follows Tomoya and Nagisa through emotional school and family stories.",
+    "tags": [
+      "anime",
+      "clannad",
+      "drama"
+    ]
+  },
+  {
+    "id": 4004,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Kousei Arima and Kaori Miyazono?",
+    "answers": [
+      "K-On!",
+      "Given",
+      "Nodame Cantabile",
+      "Your Lie in April"
+    ],
+    "correctAnswer": "Your Lie in April",
+    "explanation": "Your Lie in April follows a pianist and violinist through music and emotional healing.",
+    "tags": [
+      "anime",
+      "your-lie-in-april",
+      "music"
+    ]
+  },
+  {
+    "id": 4005,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Violet working as an Auto Memory Doll?",
+    "answers": [
+      "Violet Evergarden",
+      "Your Lie in April",
+      "A Silent Voice",
+      "Maquia"
+    ],
+    "correctAnswer": "Violet Evergarden",
+    "explanation": "Violet writes letters for clients while learning about emotion.",
+    "tags": [
+      "anime",
+      "violet-evergarden",
+      "drama"
+    ]
+  },
+  {
+    "id": 4006,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Kessoku Band?",
+    "answers": [
+      "Given",
+      "Bocchi the Rock!",
+      "Nana",
+      "K-On!"
+    ],
+    "correctAnswer": "Bocchi the Rock!",
+    "explanation": "Kessoku Band is the main band in Bocchi the Rock!.",
+    "tags": [
+      "anime",
+      "bocchi-the-rock",
+      "music"
+    ]
+  },
+  {
+    "id": 4007,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a light music club with Yui Hirasawa?",
+    "answers": [
+      "Carole & Tuesday",
+      "Bocchi the Rock!",
+      "K-On!",
+      "Given"
+    ],
+    "correctAnswer": "K-On!",
+    "explanation": "Yui joins the light music club in K-On!.",
+    "tags": [
+      "anime",
+      "k-on",
+      "music"
+    ]
+  },
+  {
+    "id": 4008,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Mafuyu Sato and a band romance?",
+    "answers": [
+      "Nana",
+      "Bocchi the Rock!",
+      "Beck",
+      "Given"
+    ],
+    "correctAnswer": "Given",
+    "explanation": "Given follows music and romance around Mafuyu and his band.",
+    "tags": [
+      "anime",
+      "given",
+      "music"
+    ]
+  },
+  {
+    "id": 4009,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Nana Osaki and Nana Komatsu?",
+    "answers": [
+      "Nana",
+      "Honey and Clover",
+      "Given",
+      "Paradise Kiss"
+    ],
+    "correctAnswer": "Nana",
+    "explanation": "Nana follows two women named Nana whose lives intersect in Tokyo.",
+    "tags": [
+      "anime",
+      "nana",
+      "drama"
+    ]
+  },
+  {
+    "id": 4010,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Koyuki joining a rock band?",
+    "answers": [
+      "Kids on the Slope",
+      "Beck",
+      "Given",
+      "Nana"
+    ],
+    "correctAnswer": "Beck",
+    "explanation": "Beck follows Koyuki's entry into rock music.",
+    "tags": [
+      "anime",
+      "beck",
+      "music"
+    ]
+  },
+  {
+    "id": 4011,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features jazz students Kaoru and Sentaro?",
+    "answers": [
+      "Beck",
+      "Nana",
+      "Kids on the Slope",
+      "Your Lie in April"
+    ],
+    "correctAnswer": "Kids on the Slope",
+    "explanation": "Kids on the Slope is a coming-of-age jazz drama.",
+    "tags": [
+      "anime",
+      "kids-on-the-slope",
+      "music"
+    ]
+  },
+  {
+    "id": 4012,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Carole and Tuesday as musicians on Mars?",
+    "answers": [
+      "Given",
+      "Bocchi the Rock!",
+      "Nana",
+      "Carole & Tuesday"
+    ],
+    "correctAnswer": "Carole & Tuesday",
+    "explanation": "Carole & Tuesday follows musicians trying to succeed in a futuristic Mars setting.",
+    "tags": [
+      "anime",
+      "carole-and-tuesday",
+      "music"
+    ]
+  },
+  {
+    "id": 4013,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a cooking school called Totsuki?",
+    "answers": [
+      "Food Wars!",
+      "Toriko",
+      "Silver Spoon",
+      "Yakitate!! Japan"
+    ],
+    "correctAnswer": "Food Wars!",
+    "explanation": "Totsuki Culinary Academy is the elite cooking school in Food Wars!.",
+    "tags": [
+      "anime",
+      "food-wars",
+      "food"
+    ]
+  },
+  {
+    "id": 4014,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Senku Ishigami rebuilding civilization?",
+    "answers": [
+      "Cells at Work!",
+      "Dr. Stone",
+      "Food Wars!",
+      "Silver Spoon"
+    ],
+    "correctAnswer": "Dr. Stone",
+    "explanation": "Senku uses science to rebuild society after humanity is petrified.",
+    "tags": [
+      "anime",
+      "dr-stone",
+      "science"
+    ]
+  },
+  {
+    "id": 4015,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime personifies red blood cells and white blood cells?",
+    "answers": [
+      "Silver Spoon",
+      "Food Wars!",
+      "Cells at Work!",
+      "Dr. Stone"
+    ],
+    "correctAnswer": "Cells at Work!",
+    "explanation": "Cells at Work! turns cells into characters inside the body.",
+    "tags": [
+      "anime",
+      "cells-at-work",
+      "educational"
+    ]
+  },
+  {
+    "id": 4016,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Hachiken at an agricultural school?",
+    "answers": [
+      "Non Non Biyori",
+      "Food Wars!",
+      "Barakamon",
+      "Silver Spoon"
+    ],
+    "correctAnswer": "Silver Spoon",
+    "explanation": "Silver Spoon follows Hachiken's life at an agricultural high school.",
+    "tags": [
+      "anime",
+      "silver-spoon",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 4017,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features calligrapher Seishuu Handa moving to a rural island?",
+    "answers": [
+      "Barakamon",
+      "Silver Spoon",
+      "Usagi Drop",
+      "Laid-Back Camp"
+    ],
+    "correctAnswer": "Barakamon",
+    "explanation": "Barakamon follows Handa's growth after moving to a rural island.",
+    "tags": [
+      "anime",
+      "barakamon",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 4018,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Rin Shima and camping?",
+    "answers": [
+      "A Place Further than the Universe",
+      "Laid-Back Camp",
+      "Flying Witch",
+      "Non Non Biyori"
+    ],
+    "correctAnswer": "Laid-Back Camp",
+    "explanation": "Laid-Back Camp follows relaxing camping trips and outdoor life.",
+    "tags": [
+      "anime",
+      "laid-back-camp",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 4019,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features a journey to Antarctica?",
+    "answers": [
+      "Kino's Journey",
+      "Laid-Back Camp",
+      "A Place Further than the Universe",
+      "Girls' Last Tour"
+    ],
+    "correctAnswer": "A Place Further than the Universe",
+    "explanation": "The anime follows high school girls pursuing a trip to Antarctica.",
+    "tags": [
+      "anime",
+      "antarctica",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 4020,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features rural life in Asahigaoka?",
+    "answers": [
+      "Laid-Back Camp",
+      "Flying Witch",
+      "Barakamon",
+      "Non Non Biyori"
+    ],
+    "correctAnswer": "Non Non Biyori",
+    "explanation": "Non Non Biyori is set in the quiet rural village of Asahigaoka.",
+    "tags": [
+      "anime",
+      "non-non-biyori",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 4021,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Makoto Kowata learning witchcraft in Aomori?",
+    "answers": [
+      "Flying Witch",
+      "Kiki's Delivery Service",
+      "Witch Hat Atelier",
+      "Little Witch Academia"
+    ],
+    "correctAnswer": "Flying Witch",
+    "explanation": "Flying Witch follows Makoto's gentle daily life as a young witch.",
+    "tags": [
+      "anime",
+      "flying-witch",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 4022,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Akko at Luna Nova?",
+    "answers": [
+      "Cardcaptor Sakura",
+      "Little Witch Academia",
+      "Flying Witch",
+      "Sailor Moon"
+    ],
+    "correctAnswer": "Little Witch Academia",
+    "explanation": "Akko attends Luna Nova Magical Academy.",
+    "tags": [
+      "anime",
+      "little-witch-academia",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 4023,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Sakura Kinomoto collecting Clow Cards?",
+    "answers": [
+      "Sailor Moon",
+      "Pretty Cure",
+      "Cardcaptor Sakura",
+      "Madoka Magica"
+    ],
+    "correctAnswer": "Cardcaptor Sakura",
+    "explanation": "Sakura captures magical Clow Cards after releasing them.",
+    "tags": [
+      "anime",
+      "cardcaptor-sakura",
+      "magical-girl"
+    ]
+  },
+  {
+    "id": 4024,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Usagi Tsukino as a magical girl?",
+    "answers": [
+      "Pretty Cure",
+      "Madoka Magica",
+      "Cardcaptor Sakura",
+      "Sailor Moon"
+    ],
+    "correctAnswer": "Sailor Moon",
+    "explanation": "Usagi transforms into Sailor Moon to fight for love and justice.",
+    "tags": [
+      "anime",
+      "sailor-moon",
+      "magical-girl"
+    ]
+  },
+  {
+    "id": 4025,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is known for a darker magical-girl story involving wishes and witches?",
+    "answers": [
+      "Puella Magi Madoka Magica",
+      "Pretty Cure",
+      "Sailor Moon",
+      "Cardcaptor Sakura"
+    ],
+    "correctAnswer": "Puella Magi Madoka Magica",
+    "explanation": "Madoka Magica is famous for its dark twist on magical-girl conventions.",
+    "tags": [
+      "anime",
+      "madoka-magica",
+      "magical-girl"
+    ]
+  },
+  {
+    "id": 4026,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows magical teams known as Precure?",
+    "answers": [
+      "Sailor Moon",
+      "Pretty Cure",
+      "Madoka Magica",
+      "Tokyo Mew Mew"
+    ],
+    "correctAnswer": "Pretty Cure",
+    "explanation": "Pretty Cure is a long-running magical-girl franchise.",
+    "tags": [
+      "anime",
+      "precure",
+      "magical-girl"
+    ]
+  },
+  {
+    "id": 4027,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Tohru the dragon working as a maid?",
+    "answers": [
+      "The Ancient Magus' Bride",
+      "Spice and Wolf",
+      "Miss Kobayashi's Dragon Maid",
+      "Little Witch Academia"
+    ],
+    "correctAnswer": "Miss Kobayashi's Dragon Maid",
+    "explanation": "Tohru becomes Kobayashi's maid after moving into her home.",
+    "tags": [
+      "anime",
+      "dragon-maid",
+      "comedy"
+    ]
+  },
+  {
+    "id": 4028,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In anime fandom, The Ancient Magus' Bride is most associated with which series?",
+    "answers": [
+      "Violet Evergarden",
+      "Spice and Wolf",
+      "Fruits Basket",
+      "The Ancient Magus' Bride"
+    ],
+    "correctAnswer": "The Ancient Magus' Bride",
+    "explanation": "Chise becomes Elias Ainsworth's apprentice and bride.",
+    "tags": [
+      "anime",
+      "ancient-magus-bride",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 4029,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Holo the Wise Wolf?",
+    "answers": [
+      "Spice and Wolf",
+      "The Ancient Magus' Bride",
+      "Wolf's Rain",
+      "Princess Mononoke"
+    ],
+    "correctAnswer": "Spice and Wolf",
+    "explanation": "Holo travels with merchant Kraft Lawrence.",
+    "tags": [
+      "anime",
+      "spice-and-wolf",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 4030,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Myne's dream of making books in another world?",
+    "answers": [
+      "Konosuba",
+      "Ascendance of a Bookworm",
+      "Re:ZERO",
+      "Mushoku Tensei"
+    ],
+    "correctAnswer": "Ascendance of a Bookworm",
+    "explanation": "Myne wants to create books in a world where they are rare and expensive.",
+    "tags": [
+      "anime",
+      "bookworm",
+      "isekai"
+    ]
+  },
+  {
+    "id": 4031,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Catarina Claes avoiding doom flags?",
+    "answers": [
+      "Ouran High School Host Club",
+      "Kaguya-sama",
+      "My Next Life as a Villainess",
+      "Toradora!"
+    ],
+    "correctAnswer": "My Next Life as a Villainess",
+    "explanation": "Catarina realizes she is the villainess in an otome game and tries to avoid bad endings.",
+    "tags": [
+      "anime",
+      "villainess",
+      "isekai"
+    ]
+  },
+  {
+    "id": 4032,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a timid dragon searching for a home?",
+    "answers": [
+      "Miss Kobayashi's Dragon Maid",
+      "Somali and the Forest Spirit",
+      "The Ancient Magus' Bride",
+      "Dragon Goes House-Hunting"
+    ],
+    "correctAnswer": "Dragon Goes House-Hunting",
+    "explanation": "Dragon Goes House-Hunting follows Letty's search for a safe home.",
+    "tags": [
+      "anime",
+      "dragon-goes-house-hunting",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 4033,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows a golem traveling with a human child?",
+    "answers": [
+      "Somali and the Forest Spirit",
+      "Mushishi",
+      "To Your Eternity",
+      "Made in Abyss"
+    ],
+    "correctAnswer": "Somali and the Forest Spirit",
+    "explanation": "A golem protects Somali while traveling through a fantasy world.",
+    "tags": [
+      "anime",
+      "somali",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 4034,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features tanuki society in Kyoto?",
+    "answers": [
+      "Noragami",
+      "The Eccentric Family",
+      "Pom Poko",
+      "Natsume's Book of Friends"
+    ],
+    "correctAnswer": "The Eccentric Family",
+    "explanation": "The Eccentric Family follows tanuki and tengu in modern Kyoto.",
+    "tags": [
+      "anime",
+      "eccentric-family",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 4035,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Beastmen in Anima-City?",
+    "answers": [
+      "Beastars",
+      "Odd Taxi",
+      "BNA: Brand New Animal",
+      "Aggretsuko"
+    ],
+    "correctAnswer": "BNA: Brand New Animal",
+    "explanation": "BNA is set in Anima-City, a refuge for Beastmen.",
+    "tags": [
+      "anime",
+      "bna",
+      "studio-trigger"
+    ]
+  },
+  {
+    "id": 4036,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features anthropomorphic animals at Cherryton Academy?",
+    "answers": [
+      "Odd Taxi",
+      "Aggretsuko",
+      "BNA",
+      "Beastars"
+    ],
+    "correctAnswer": "Beastars",
+    "explanation": "Beastars explores society and instinct through animal characters.",
+    "tags": [
+      "anime",
+      "beastars",
+      "drama"
+    ]
+  },
+  {
+    "id": 4037,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a walrus taxi driver named Odokawa?",
+    "answers": [
+      "Odd Taxi",
+      "Aggretsuko",
+      "Beastars",
+      "BNA"
+    ],
+    "correctAnswer": "Odd Taxi",
+    "explanation": "Odd Taxi follows Odokawa through an interconnected mystery.",
+    "tags": [
+      "anime",
+      "odd-taxi",
+      "mystery"
+    ]
+  },
+  {
+    "id": 4038,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Retsuko and death metal karaoke?",
+    "answers": [
+      "Odd Taxi",
+      "Aggretsuko",
+      "Beastars",
+      "BNA"
+    ],
+    "correctAnswer": "Aggretsuko",
+    "explanation": "Retsuko vents workplace stress through death metal karaoke.",
+    "tags": [
+      "anime",
+      "aggretsuko",
+      "comedy"
+    ]
+  },
+  {
+    "id": 4039,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features a band called Kessoku Band?",
+    "answers": [
+      "Given",
+      "Nana",
+      "Bocchi the Rock!",
+      "K-On!"
+    ],
+    "correctAnswer": "Bocchi the Rock!",
+    "explanation": "Kessoku Band is the central band in Bocchi the Rock!.",
+    "tags": [
+      "anime",
+      "bocchi",
+      "music"
+    ]
+  },
+  {
+    "id": 4040,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows an idol group called μ's?",
+    "answers": [
+      "Zombie Land Saga",
+      "The Idolmaster",
+      "Aikatsu!",
+      "Love Live! School Idol Project"
+    ],
+    "correctAnswer": "Love Live! School Idol Project",
+    "explanation": "μ's is the school idol group at the center of Love Live!.",
+    "tags": [
+      "anime",
+      "love-live",
+      "idols"
+    ]
+  },
+  {
+    "id": 4041,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features zombie idols in Saga Prefecture?",
+    "answers": [
+      "Zombie Land Saga",
+      "Love Live!",
+      "The Idolmaster",
+      "Oshi no Ko"
+    ],
+    "correctAnswer": "Zombie Land Saga",
+    "explanation": "Zombie Land Saga mixes undead comedy with idol performances.",
+    "tags": [
+      "anime",
+      "zombie-land-saga",
+      "idols"
+    ]
+  },
+  {
+    "id": 4042,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Ai Hoshino?",
+    "answers": [
+      "Nana",
+      "Oshi no Ko",
+      "Zombie Land Saga",
+      "Perfect Blue"
+    ],
+    "correctAnswer": "Oshi no Ko",
+    "explanation": "Ai Hoshino is a major idol figure in Oshi no Ko.",
+    "tags": [
+      "anime",
+      "oshi-no-ko",
+      "idols"
+    ]
+  },
+  {
+    "id": 4043,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Aoba Suzukaze working in game development?",
+    "answers": [
+      "Wotakoi",
+      "Shirobako",
+      "New Game!",
+      "Bakuman"
+    ],
+    "correctAnswer": "New Game!",
+    "explanation": "Aoba begins working at a game company in New Game!.",
+    "tags": [
+      "anime",
+      "new-game",
+      "workplace"
+    ]
+  },
+  {
+    "id": 4044,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime gives a behind-the-scenes look at anime production?",
+    "answers": [
+      "Bakuman",
+      "New Game!",
+      "Eizouken",
+      "Shirobako"
+    ],
+    "correctAnswer": "Shirobako",
+    "explanation": "Shirobako follows staff members working at Musashino Animation.",
+    "tags": [
+      "anime",
+      "shirobako",
+      "industry"
+    ]
+  },
+  {
+    "id": 4045,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In anime fandom, Bakuman is most associated with which series?",
+    "answers": [
+      "Bakuman",
+      "Monthly Girls' Nozaki-kun",
+      "New Game!",
+      "Shirobako"
+    ],
+    "correctAnswer": "Bakuman",
+    "explanation": "Bakuman follows two creators trying to succeed in manga.",
+    "tags": [
+      "anime",
+      "bakuman",
+      "industry"
+    ]
+  },
+  {
+    "id": 4046,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows girls trying to make animation at school?",
+    "answers": [
+      "New Game!",
+      "Keep Your Hands Off Eizouken!",
+      "Shirobako",
+      "Bakuman"
+    ],
+    "correctAnswer": "Keep Your Hands Off Eizouken!",
+    "explanation": "Eizouken follows students using imagination to make anime.",
+    "tags": [
+      "anime",
+      "eizouken",
+      "industry"
+    ]
+  },
+  {
+    "id": 4047,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Marin Kitagawa and cosplay?",
+    "answers": [
+      "Wotakoi",
+      "Horimiya",
+      "My Dress-Up Darling",
+      "Monthly Girls' Nozaki-kun"
+    ],
+    "correctAnswer": "My Dress-Up Darling",
+    "explanation": "Marin collaborates with Wakana Gojo on cosplay outfits.",
+    "tags": [
+      "anime",
+      "dress-up-darling",
+      "romance"
+    ]
+  },
+  {
+    "id": 4048,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows adult otaku coworkers in a romance?",
+    "answers": [
+      "New Game!",
+      "Horimiya",
+      "My Dress-Up Darling",
+      "Wotakoi: Love Is Hard for Otaku"
+    ],
+    "correctAnswer": "Wotakoi: Love Is Hard for Otaku",
+    "explanation": "Wotakoi focuses on adult otaku relationships in the workplace.",
+    "tags": [
+      "anime",
+      "wotakoi",
+      "romance"
+    ]
+  },
+  {
+    "id": 4049,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features shoujo manga artist Umetarou Nozaki?",
+    "answers": [
+      "Monthly Girls' Nozaki-kun",
+      "Ouran High School Host Club",
+      "Bakuman",
+      "Wotakoi"
+    ],
+    "correctAnswer": "Monthly Girls' Nozaki-kun",
+    "explanation": "Nozaki is a shoujo manga artist whose own romance awareness is poor.",
+    "tags": [
+      "anime",
+      "nozaki-kun",
+      "comedy"
+    ]
+  },
+  {
+    "id": 4050,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows rakugo performers across changing eras?",
+    "answers": [
+      "Kids on the Slope",
+      "Showa Genroku Rakugo Shinju",
+      "Nana",
+      "March Comes in Like a Lion"
+    ],
+    "correctAnswer": "Showa Genroku Rakugo Shinju",
+    "explanation": "The anime explores rakugo performance, rivalry, and legacy.",
+    "tags": [
+      "anime",
+      "rakugo",
+      "drama"
+    ]
+  },
+  {
+    "id": 4051,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows con artists such as Makoto Edamura?",
+    "answers": [
+      "Baccano!",
+      "Odd Taxi",
+      "Great Pretender",
+      "91 Days"
+    ],
+    "correctAnswer": "Great Pretender",
+    "explanation": "Great Pretender follows stylish international confidence schemes.",
+    "tags": [
+      "anime",
+      "great-pretender",
+      "crime"
+    ]
+  },
+  {
+    "id": 4052,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows mafia revenge during Prohibition?",
+    "answers": [
+      "Banana Fish",
+      "Baccano!",
+      "Gangsta.",
+      "91 Days"
+    ],
+    "correctAnswer": "91 Days",
+    "explanation": "91 Days follows Avilio's revenge against a mafia family.",
+    "tags": [
+      "anime",
+      "91-days",
+      "crime"
+    ]
+  },
+  {
+    "id": 4053,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features immortals and the Flying Pussyfoot train?",
+    "answers": [
+      "Baccano!",
+      "Durarara!!",
+      "91 Days",
+      "Great Pretender"
+    ],
+    "correctAnswer": "Baccano!",
+    "explanation": "Baccano! is known for nonlinear storytelling involving immortals and gangsters.",
+    "tags": [
+      "anime",
+      "baccano",
+      "classic"
+    ]
+  },
+  {
+    "id": 4054,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime is set in Ikebukuro and features the headless rider Celty?",
+    "answers": [
+      "Bungo Stray Dogs",
+      "Durarara!!",
+      "Kekkai Sensen",
+      "Baccano!"
+    ],
+    "correctAnswer": "Durarara!!",
+    "explanation": "Celty is one of Durarara!!'s most recognizable supernatural characters.",
+    "tags": [
+      "anime",
+      "durarara",
+      "urban-fantasy"
+    ]
+  },
+  {
+    "id": 4055,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features literary-inspired characters with supernatural abilities?",
+    "answers": [
+      "Kekkai Sensen",
+      "Durarara!!",
+      "Bungo Stray Dogs",
+      "Noragami"
+    ],
+    "correctAnswer": "Bungo Stray Dogs",
+    "explanation": "Bungo Stray Dogs uses characters inspired by literary authors.",
+    "tags": [
+      "anime",
+      "bungo-stray-dogs",
+      "supernatural"
+    ]
+  },
+  {
+    "id": 4056,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Libra protecting Hellsalem's Lot?",
+    "answers": [
+      "Bungo Stray Dogs",
+      "Noragami",
+      "Blue Exorcist",
+      "Kekkai Sensen"
+    ],
+    "correctAnswer": "Kekkai Sensen",
+    "explanation": "Kekkai Sensen follows Libra in the chaotic city of Hellsalem's Lot.",
+    "tags": [
+      "anime",
+      "kekkai-sensen",
+      "urban-fantasy"
+    ]
+  },
+  {
+    "id": 4057,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a hero named Koro-sensei?",
+    "answers": [
+      "Assassination Classroom",
+      "Saiki K.",
+      "Gintama",
+      "Great Teacher Onizuka"
+    ],
+    "correctAnswer": "Assassination Classroom",
+    "explanation": "Koro-sensei teaches Class 3-E while they attempt to assassinate him.",
+    "tags": [
+      "anime",
+      "assassination-classroom",
+      "comedy"
+    ]
+  },
+  {
+    "id": 4058,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features former biker Eikichi Onizuka as a teacher?",
+    "answers": [
+      "School Rumble",
+      "Great Teacher Onizuka",
+      "Assassination Classroom",
+      "Gintama"
+    ],
+    "correctAnswer": "Great Teacher Onizuka",
+    "explanation": "Onizuka becomes an unconventional teacher in Great Teacher Onizuka.",
+    "tags": [
+      "anime",
+      "gto",
+      "classic"
+    ]
+  },
+  {
+    "id": 4059,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Gintoki Sakata?",
+    "answers": [
+      "Samurai Champloo",
+      "Rurouni Kenshin",
+      "Gintama",
+      "Sket Dance"
+    ],
+    "correctAnswer": "Gintama",
+    "explanation": "Gintoki is the freelancing samurai protagonist of Gintama.",
+    "tags": [
+      "anime",
+      "gintama",
+      "comedy"
+    ]
+  },
+  {
+    "id": 4060,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Saiki Kusuo trying to live normally?",
+    "answers": [
+      "Hinamatsuri",
+      "Charlotte",
+      "Mob Psycho 100",
+      "The Disastrous Life of Saiki K."
+    ],
+    "correctAnswer": "The Disastrous Life of Saiki K.",
+    "explanation": "Saiki has immense psychic powers but wants ordinary daily life.",
+    "tags": [
+      "anime",
+      "saiki-k",
+      "comedy"
+    ]
+  },
+  {
+    "id": 4061,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Hina, a psychic girl living with a yakuza member?",
+    "answers": [
+      "Hinamatsuri",
+      "Spy x Family",
+      "Saiki K.",
+      "Mob Psycho 100"
+    ],
+    "correctAnswer": "Hinamatsuri",
+    "explanation": "Hinamatsuri follows Hina and Nitta in a strange found-family comedy.",
+    "tags": [
+      "anime",
+      "hinamatsuri",
+      "comedy"
+    ]
+  },
+  {
+    "id": 4062,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features teenagers with imperfect supernatural powers?",
+    "answers": [
+      "Angel Beats!",
+      "Charlotte",
+      "Saiki K.",
+      "Mob Psycho 100"
+    ],
+    "correctAnswer": "Charlotte",
+    "explanation": "Charlotte follows students with unusual but limited abilities.",
+    "tags": [
+      "anime",
+      "charlotte",
+      "supernatural"
+    ]
+  },
+  {
+    "id": 4063,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Riko, Reg, and Nanachi?",
+    "answers": [
+      "Shadows House",
+      "To Your Eternity",
+      "Made in Abyss",
+      "The Promised Neverland"
+    ],
+    "correctAnswer": "Made in Abyss",
+    "explanation": "Riko, Reg, and Nanachi are central characters in Made in Abyss.",
+    "tags": [
+      "anime",
+      "made-in-abyss",
+      "characters"
+    ]
+  },
+  {
+    "id": 4064,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Emma, Norman, and Ray?",
+    "answers": [
+      "Shadows House",
+      "Made in Abyss",
+      "Erased",
+      "The Promised Neverland"
+    ],
+    "correctAnswer": "The Promised Neverland",
+    "explanation": "Emma, Norman, and Ray discover the truth about Grace Field House.",
+    "tags": [
+      "anime",
+      "promised-neverland",
+      "characters"
+    ]
+  },
+  {
+    "id": 4065,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Phosphophyllite, often called Phos?",
+    "answers": [
+      "Land of the Lustrous",
+      "Vivy",
+      "Made in Abyss",
+      "Girls' Last Tour"
+    ],
+    "correctAnswer": "Land of the Lustrous",
+    "explanation": "Phos is the central gem-like protagonist of Land of the Lustrous.",
+    "tags": [
+      "anime",
+      "land-of-the-lustrous",
+      "characters"
+    ]
+  },
+  {
+    "id": 4066,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Chito and Yuuri riding through a ruined world?",
+    "answers": [
+      "Made in Abyss",
+      "Girls' Last Tour",
+      "Somali and the Forest Spirit",
+      "Kino's Journey"
+    ],
+    "correctAnswer": "Girls' Last Tour",
+    "explanation": "Chito and Yuuri travel through a quiet post-apocalyptic city.",
+    "tags": [
+      "anime",
+      "girls-last-tour",
+      "characters"
+    ]
+  },
+  {
+    "id": 4067,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features a golem father figure and a human girl named Somali?",
+    "answers": [
+      "Mushishi",
+      "To Your Eternity",
+      "Somali and the Forest Spirit",
+      "Kino's Journey"
+    ],
+    "correctAnswer": "Somali and the Forest Spirit",
+    "explanation": "The golem protects Somali while searching for humans.",
+    "tags": [
+      "anime",
+      "somali",
+      "characters"
+    ]
+  },
+  {
+    "id": 4068,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Ginko investigating Mushi?",
+    "answers": [
+      "Natsume's Book of Friends",
+      "Mononoke",
+      "xxxHolic",
+      "Mushishi"
+    ],
+    "correctAnswer": "Mushishi",
+    "explanation": "Ginko studies mysterious lifeforms known as Mushi.",
+    "tags": [
+      "anime",
+      "mushishi",
+      "supernatural"
+    ]
+  },
+  {
+    "id": 4069,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Takashi Natsume and Madara, also called Nyanko-sensei?",
+    "answers": [
+      "Natsume's Book of Friends",
+      "Noragami",
+      "Mononoke",
+      "Mushishi"
+    ],
+    "correctAnswer": "Natsume's Book of Friends",
+    "explanation": "Natsume and Nyanko-sensei deal with spirits connected to the Book of Friends.",
+    "tags": [
+      "anime",
+      "natsume",
+      "supernatural"
+    ]
+  },
+  {
+    "id": 4070,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features the Medicine Seller investigating Mononoke?",
+    "answers": [
+      "Natsume's Book of Friends",
+      "Mononoke",
+      "Mushishi",
+      "xxxHolic"
+    ],
+    "correctAnswer": "Mononoke",
+    "explanation": "Mononoke follows the Medicine Seller solving supernatural cases.",
+    "tags": [
+      "anime",
+      "mononoke",
+      "horror"
+    ]
+  },
+  {
+    "id": 4071,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film features Chihiro and No-Face?",
+    "answers": [
+      "Princess Mononoke",
+      "Howl's Moving Castle",
+      "Spirited Away",
+      "Ponyo"
+    ],
+    "correctAnswer": "Spirited Away",
+    "explanation": "Chihiro meets No-Face while working in the spirit bathhouse.",
+    "tags": [
+      "anime",
+      "spirited-away",
+      "film"
+    ]
+  },
+  {
+    "id": 4072,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime film features Ashitaka and San?",
+    "answers": [
+      "Nausicaä",
+      "Castle in the Sky",
+      "Spirited Away",
+      "Princess Mononoke"
+    ],
+    "correctAnswer": "Princess Mononoke",
+    "explanation": "Ashitaka and San are central to the conflict between humans and forest gods.",
+    "tags": [
+      "anime",
+      "princess-mononoke",
+      "film"
+    ]
+  },
+  {
+    "id": 4073,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film features Sophie and Howl?",
+    "answers": [
+      "Howl's Moving Castle",
+      "Ponyo",
+      "Spirited Away",
+      "Castle in the Sky"
+    ],
+    "correctAnswer": "Howl's Moving Castle",
+    "explanation": "Sophie becomes involved with the wizard Howl and his moving castle.",
+    "tags": [
+      "anime",
+      "howls-moving-castle",
+      "film"
+    ]
+  },
+  {
+    "id": 4074,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film features Mei, Satsuki, and Totoro?",
+    "answers": [
+      "Ponyo",
+      "My Neighbor Totoro",
+      "Kiki's Delivery Service",
+      "The Cat Returns"
+    ],
+    "correctAnswer": "My Neighbor Totoro",
+    "explanation": "Mei and Satsuki encounter Totoro after moving to the countryside.",
+    "tags": [
+      "anime",
+      "totoro",
+      "film"
+    ]
+  },
+  {
+    "id": 4075,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime film features a witch named Kiki?",
+    "answers": [
+      "Flying Witch",
+      "Mary and the Witch's Flower",
+      "Kiki's Delivery Service",
+      "Little Witch Academia"
+    ],
+    "correctAnswer": "Kiki's Delivery Service",
+    "explanation": "Kiki starts a delivery service as part of her witch training.",
+    "tags": [
+      "anime",
+      "kiki",
+      "film"
+    ]
+  },
+  {
+    "id": 4076,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film features a goldfish girl and a boy named Sosuke?",
+    "answers": [
+      "Mirai",
+      "The Secret World of Arrietty",
+      "The Cat Returns",
+      "Ponyo"
+    ],
+    "correctAnswer": "Ponyo",
+    "explanation": "Ponyo follows a magical fish girl who wants to become human.",
+    "tags": [
+      "anime",
+      "ponyo",
+      "film"
+    ]
+  },
+  {
+    "id": 4077,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime film features the floating city of Laputa?",
+    "answers": [
+      "Castle in the Sky",
+      "Nausicaä",
+      "Porco Rosso",
+      "The Wind Rises"
+    ],
+    "correctAnswer": "Castle in the Sky",
+    "explanation": "Castle in the Sky centers on the legendary floating city Laputa.",
+    "tags": [
+      "anime",
+      "castle-in-the-sky",
+      "film"
+    ]
+  },
+  {
+    "id": 4078,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film features a pig pilot in the Adriatic Sea?",
+    "answers": [
+      "Castle in the Sky",
+      "Porco Rosso",
+      "Ocean Waves",
+      "The Wind Rises"
+    ],
+    "correctAnswer": "Porco Rosso",
+    "explanation": "Porco Rosso follows an ace pilot cursed to look like a pig.",
+    "tags": [
+      "anime",
+      "porco-rosso",
+      "film"
+    ]
+  },
+  {
+    "id": 4079,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime film features Taki and Mitsuha?",
+    "answers": [
+      "A Silent Voice",
+      "Weathering with You",
+      "Your Name",
+      "Suzume"
+    ],
+    "correctAnswer": "Your Name",
+    "explanation": "Your Name follows Taki and Mitsuha's mysterious connection.",
+    "tags": [
+      "anime",
+      "your-name",
+      "film"
+    ]
+  },
+  {
+    "id": 4080,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film features Shoya Ishida and Shoko Nishimiya?",
+    "answers": [
+      "Your Name",
+      "I Want to Eat Your Pancreas",
+      "Josee, the Tiger and the Fish",
+      "A Silent Voice"
+    ],
+    "correctAnswer": "A Silent Voice",
+    "explanation": "A Silent Voice explores bullying, guilt, communication, and reconciliation.",
+    "tags": [
+      "anime",
+      "silent-voice",
+      "film"
+    ]
+  },
+  {
+    "id": 4081,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Naruto, which concept becomes important?",
+    "answers": [
+      "Rasengan",
+      "Alchemy Circles",
+      "Spirit Gun",
+      "Soul Resonance"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4082,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime prominently features Grand Line?",
+    "answers": [
+      "Bleach",
+      "One Piece",
+      "Hunter x Hunter",
+      "Demon Slayer"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4083,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What battle system is linked to Bleach?",
+    "answers": [
+      "Spirit Weapons",
+      "Spiral Power",
+      "Bankai",
+      "Alchemy Marks"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4084,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is most connected to ODM Gear?",
+    "answers": [
+      "Naruto",
+      "Bleach",
+      "Hunter x Hunter",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4085,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is associated with Hashira?",
+    "answers": [
+      "Demon Slayer",
+      "Jujutsu Kaisen",
+      "Fullmetal Alchemist: Brotherhood",
+      "My Hero Academia"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4086,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Jujutsu Kaisen, which concept becomes important?",
+    "answers": [
+      "Dragon Slayer Magic",
+      "Domain Expansion",
+      "Spirit Gun",
+      "Dragon Radar"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4087,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime prominently features Public Safety?",
+    "answers": [
+      "Attack on Titan",
+      "Fullmetal Alchemist: Brotherhood",
+      "Chainsaw Man",
+      "My Hero Academia"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4088,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What battle system is linked to My Hero Academia?",
+    "answers": [
+      "Sacred Gears",
+      "Magic Tools",
+      "Alchemy Marks",
+      "Quirks"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4089,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime is most connected to Nen?",
+    "answers": [
+      "Hunter x Hunter",
+      "Fullmetal Alchemist: Brotherhood",
+      "My Hero Academia",
+      "Demon Slayer"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4090,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is associated with Amestris?",
+    "answers": [
+      "Hunter x Hunter",
+      "Fullmetal Alchemist: Brotherhood",
+      "Demon Slayer",
+      "Naruto"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4091,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Rasengan, which concept is central to the story?",
+    "answers": [
+      "Alchemy Circles",
+      "Dragon Radar",
+      "Rasengan",
+      "Spirit Gun"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4092,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime is strongly associated with One Piece?",
+    "answers": [
+      "Bleach",
+      "Attack on Titan",
+      "Naruto",
+      "One Piece"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4093,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Bankai?",
+    "answers": [
+      "Bankai",
+      "Alchemy Arrays",
+      "Magic Tools",
+      "Spiral Power"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4094,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In anime fandom, Attack on Titan is most associated with which series?",
+    "answers": [
+      "One Piece",
+      "Attack on Titan",
+      "Chainsaw Man",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4095,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Demon Slayer?",
+    "answers": [
+      "One Piece",
+      "Jujutsu Kaisen",
+      "Demon Slayer",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4096,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In anime fandom, Domain Expansion is most associated with which series?",
+    "answers": [
+      "Dragon Slayer Magic",
+      "Soul Resonance",
+      "Magic Crests",
+      "Domain Expansion"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4097,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In anime fandom, Chainsaw Man is most associated with which series?",
+    "answers": [
+      "Chainsaw Man",
+      "Jujutsu Kaisen",
+      "One Piece",
+      "Naruto"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4098,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Quirks, which concept is central to the story?",
+    "answers": [
+      "Magic Tools",
+      "Quirks",
+      "Sacred Gears",
+      "Alchemy Arrays"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4099,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Hunter x Hunter?",
+    "answers": [
+      "Jujutsu Kaisen",
+      "Naruto",
+      "Hunter x Hunter",
+      "Demon Slayer"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4100,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What power or organization appears in Fullmetal Alchemist: Brotherhood?",
+    "answers": [
+      "Naruto",
+      "Chainsaw Man",
+      "Bleach",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4101,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In anime fandom, Rasengan is most associated with which series?",
+    "answers": [
+      "Rasengan",
+      "Spirit Gun",
+      "Dragon Radar",
+      "Dragon Slayer Magic"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4102,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In One Piece, which concept is central to the story?",
+    "answers": [
+      "Naruto",
+      "One Piece",
+      "Demon Slayer",
+      "Jujutsu Kaisen"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4103,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Bankai? (2)",
+    "answers": [
+      "Sacred Gears",
+      "Spirit Weapons",
+      "Bankai",
+      "Alchemy Marks"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4104,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In anime fandom, Attack on Titan is most associated with which series? (2)",
+    "answers": [
+      "Fullmetal Alchemist: Brotherhood",
+      "Chainsaw Man",
+      "Hunter x Hunter",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4105,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In anime fandom, Demon Slayer is most associated with which series?",
+    "answers": [
+      "Demon Slayer",
+      "One Piece",
+      "My Hero Academia",
+      "Chainsaw Man"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4106,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What power or organization appears in Domain Expansion?",
+    "answers": [
+      "Magic Crests",
+      "Domain Expansion",
+      "Dragon Slayer Magic",
+      "Spirit Gun"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4107,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In anime fandom, Chainsaw Man is most associated with which series? (2)",
+    "answers": [
+      "Naruto",
+      "Jujutsu Kaisen",
+      "Chainsaw Man",
+      "Hunter x Hunter"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4108,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Quirks?",
+    "answers": [
+      "Magic Tools",
+      "Sacred Gears",
+      "Spiral Power",
+      "Quirks"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4109,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which series prominently features Hunter x Hunter?",
+    "answers": [
+      "Hunter x Hunter",
+      "Demon Slayer",
+      "Fullmetal Alchemist: Brotherhood",
+      "Bleach"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4110,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Fullmetal Alchemist: Brotherhood?",
+    "answers": [
+      "Jujutsu Kaisen",
+      "Fullmetal Alchemist: Brotherhood",
+      "Naruto",
+      "My Hero Academia"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4111,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Rasengan, which concept is central to the story? (2)",
+    "answers": [
+      "Alchemy Circles",
+      "Soul Resonance",
+      "Rasengan",
+      "Dragon Radar"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4112,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in One Piece?",
+    "answers": [
+      "Naruto",
+      "Attack on Titan",
+      "Fullmetal Alchemist: Brotherhood",
+      "One Piece"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4113,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In anime fandom, Bankai is most associated with which series?",
+    "answers": [
+      "Bankai",
+      "Alchemy Marks",
+      "Magic Tools",
+      "Alchemy Arrays"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4114,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which series prominently features Attack on Titan?",
+    "answers": [
+      "My Hero Academia",
+      "Attack on Titan",
+      "Jujutsu Kaisen",
+      "Bleach"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4115,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Demon Slayer, which concept is central to the story?",
+    "answers": [
+      "Jujutsu Kaisen",
+      "Naruto",
+      "Demon Slayer",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4116,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which series prominently features Domain Expansion?",
+    "answers": [
+      "Spirit Gun",
+      "Dragon Radar",
+      "Dragon Slayer Magic",
+      "Domain Expansion"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4117,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Chainsaw Man, which concept is central to the story?",
+    "answers": [
+      "Chainsaw Man",
+      "Hunter x Hunter",
+      "Demon Slayer",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4118,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which series prominently features Quirks?",
+    "answers": [
+      "Sacred Gears",
+      "Quirks",
+      "Magic Tools",
+      "Spiral Power"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4119,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Hunter x Hunter?",
+    "answers": [
+      "Bleach",
+      "One Piece",
+      "Hunter x Hunter",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4120,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Fullmetal Alchemist: Brotherhood? (2)",
+    "answers": [
+      "Bleach",
+      "Attack on Titan",
+      "Jujutsu Kaisen",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4121,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which series prominently features Rasengan?",
+    "answers": [
+      "Rasengan",
+      "Spirit Gun",
+      "Soul Resonance",
+      "Dragon Radar"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4122,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime is strongly associated with One Piece? (2)",
+    "answers": [
+      "Attack on Titan",
+      "One Piece",
+      "Fullmetal Alchemist: Brotherhood",
+      "Naruto"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4123,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is strongly associated with Bankai? (3)",
+    "answers": [
+      "Spiral Power",
+      "Magic Tools",
+      "Bankai",
+      "Alchemy Arrays"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4124,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Attack on Titan, which concept is central to the story?",
+    "answers": [
+      "One Piece",
+      "Jujutsu Kaisen",
+      "Chainsaw Man",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4125,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In anime fandom, Demon Slayer is most associated with which series? (2)",
+    "answers": [
+      "Demon Slayer",
+      "Hunter x Hunter",
+      "Fullmetal Alchemist: Brotherhood",
+      "Bleach"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4126,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Domain Expansion?",
+    "answers": [
+      "Spirit Gun",
+      "Domain Expansion",
+      "Dragon Radar",
+      "Soul Resonance"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4127,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which series prominently features Chainsaw Man?",
+    "answers": [
+      "Jujutsu Kaisen",
+      "Hunter x Hunter",
+      "Chainsaw Man",
+      "Naruto"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4128,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Quirks, which concept is central to the story? (2)",
+    "answers": [
+      "Alchemy Marks",
+      "Sacred Gears",
+      "Alchemy Arrays",
+      "Quirks"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4129,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Hunter x Hunter, which concept is central to the story?",
+    "answers": [
+      "Hunter x Hunter",
+      "One Piece",
+      "Bleach",
+      "Jujutsu Kaisen"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4130,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What power or organization appears in Fullmetal Alchemist: Brotherhood? (3)",
+    "answers": [
+      "Demon Slayer",
+      "Fullmetal Alchemist: Brotherhood",
+      "Hunter x Hunter",
+      "My Hero Academia"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4131,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is strongly associated with Rasengan?",
+    "answers": [
+      "Soul Resonance",
+      "Spirit Gun",
+      "Rasengan",
+      "Magic Crests"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4132,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In One Piece, which concept is central to the story? (2)",
+    "answers": [
+      "My Hero Academia",
+      "Jujutsu Kaisen",
+      "Hunter x Hunter",
+      "One Piece"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4133,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Bankai? (4)",
+    "answers": [
+      "Bankai",
+      "Sacred Gears",
+      "Spirit Weapons",
+      "Magic Tools"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4134,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Attack on Titan?",
+    "answers": [
+      "Fullmetal Alchemist: Brotherhood",
+      "Attack on Titan",
+      "Bleach",
+      "Naruto"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4135,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime is strongly associated with Demon Slayer?",
+    "answers": [
+      "Hunter x Hunter",
+      "Fullmetal Alchemist: Brotherhood",
+      "Demon Slayer",
+      "Naruto"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4136,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which series prominently features Domain Expansion? (2)",
+    "answers": [
+      "Soul Resonance",
+      "Spirit Gun",
+      "Magic Crests",
+      "Domain Expansion"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4137,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which series prominently features Chainsaw Man? (2)",
+    "answers": [
+      "Chainsaw Man",
+      "Naruto",
+      "Demon Slayer",
+      "Bleach"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4138,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Quirks, which concept is central to the story? (3)",
+    "answers": [
+      "Spiral Power",
+      "Quirks",
+      "Spirit Weapons",
+      "Alchemy Marks"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4139,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Hunter x Hunter, which concept is central to the story? (2)",
+    "answers": [
+      "Fullmetal Alchemist: Brotherhood",
+      "Chainsaw Man",
+      "Hunter x Hunter",
+      "Naruto"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4140,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Fullmetal Alchemist: Brotherhood? (4)",
+    "answers": [
+      "Chainsaw Man",
+      "Hunter x Hunter",
+      "Bleach",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4141,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which series prominently features Rasengan? (2)",
+    "answers": [
+      "Rasengan",
+      "Alchemy Circles",
+      "Spirit Gun",
+      "Magic Crests"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4142,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in One Piece? (2)",
+    "answers": [
+      "Jujutsu Kaisen",
+      "One Piece",
+      "Bleach",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4143,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Bankai? (5)",
+    "answers": [
+      "Magic Tools",
+      "Spirit Weapons",
+      "Bankai",
+      "Spiral Power"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4144,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What power or organization appears in Attack on Titan?",
+    "answers": [
+      "Bleach",
+      "Naruto",
+      "Fullmetal Alchemist: Brotherhood",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4145,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Demon Slayer, which concept is central to the story? (2)",
+    "answers": [
+      "Demon Slayer",
+      "One Piece",
+      "Hunter x Hunter",
+      "Chainsaw Man"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4146,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In anime fandom, Domain Expansion is most associated with which series? (2)",
+    "answers": [
+      "Spirit Gun",
+      "Domain Expansion",
+      "Dragon Radar",
+      "Magic Crests"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4147,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In anime fandom, Chainsaw Man is most associated with which series? (3)",
+    "answers": [
+      "One Piece",
+      "Demon Slayer",
+      "Chainsaw Man",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4148,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which series prominently features Quirks? (2)",
+    "answers": [
+      "Alchemy Marks",
+      "Magic Tools",
+      "Spiral Power",
+      "Quirks"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4149,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Hunter x Hunter? (2)",
+    "answers": [
+      "Hunter x Hunter",
+      "Demon Slayer",
+      "Attack on Titan",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4150,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Fullmetal Alchemist: Brotherhood? (5)",
+    "answers": [
+      "Jujutsu Kaisen",
+      "Fullmetal Alchemist: Brotherhood",
+      "Chainsaw Man",
+      "Hunter x Hunter"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4151,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which series prominently features Rasengan? (3)",
+    "answers": [
+      "Spirit Gun",
+      "Magic Crests",
+      "Rasengan",
+      "Dragon Slayer Magic"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4152,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which series prominently features One Piece?",
+    "answers": [
+      "Attack on Titan",
+      "Jujutsu Kaisen",
+      "Fullmetal Alchemist: Brotherhood",
+      "One Piece"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4153,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Bankai? (6)",
+    "answers": [
+      "Bankai",
+      "Spirit Weapons",
+      "Spiral Power",
+      "Alchemy Arrays"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4154,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Attack on Titan, which concept is central to the story? (2)",
+    "answers": [
+      "Fullmetal Alchemist: Brotherhood",
+      "Attack on Titan",
+      "Hunter x Hunter",
+      "My Hero Academia"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4155,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Demon Slayer, which concept is central to the story? (3)",
+    "answers": [
+      "Naruto",
+      "Bleach",
+      "Demon Slayer",
+      "Hunter x Hunter"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4156,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In anime fandom, Domain Expansion is most associated with which series? (3)",
+    "answers": [
+      "Soul Resonance",
+      "Magic Crests",
+      "Dragon Radar",
+      "Domain Expansion"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4157,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In anime fandom, Chainsaw Man is most associated with which series? (4)",
+    "answers": [
+      "Chainsaw Man",
+      "Jujutsu Kaisen",
+      "My Hero Academia",
+      "One Piece"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4158,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is strongly associated with Quirks?",
+    "answers": [
+      "Spirit Weapons",
+      "Quirks",
+      "Magic Tools",
+      "Spiral Power"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4159,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Hunter x Hunter? (3)",
+    "answers": [
+      "My Hero Academia",
+      "Bleach",
+      "Hunter x Hunter",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4160,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which series prominently features Fullmetal Alchemist: Brotherhood?",
+    "answers": [
+      "Jujutsu Kaisen",
+      "Chainsaw Man",
+      "Hunter x Hunter",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4161,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Rasengan, which concept is central to the story? (3)",
+    "answers": [
+      "Rasengan",
+      "Soul Resonance",
+      "Alchemy Circles",
+      "Magic Crests"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4162,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In anime fandom, One Piece is most associated with which series?",
+    "answers": [
+      "Attack on Titan",
+      "One Piece",
+      "Bleach",
+      "Hunter x Hunter"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4163,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What power or organization appears in Bankai?",
+    "answers": [
+      "Spirit Weapons",
+      "Magic Tools",
+      "Bankai",
+      "Alchemy Marks"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4164,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which series prominently features Attack on Titan? (2)",
+    "answers": [
+      "Demon Slayer",
+      "Fullmetal Alchemist: Brotherhood",
+      "Bleach",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4165,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In anime fandom, Demon Slayer is most associated with which series? (3)",
+    "answers": [
+      "Demon Slayer",
+      "My Hero Academia",
+      "Jujutsu Kaisen",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4166,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Domain Expansion? (2)",
+    "answers": [
+      "Soul Resonance",
+      "Domain Expansion",
+      "Dragon Slayer Magic",
+      "Dragon Radar"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4167,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Chainsaw Man?",
+    "answers": [
+      "My Hero Academia",
+      "Naruto",
+      "Chainsaw Man",
+      "Hunter x Hunter"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4168,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In anime fandom, Quirks is most associated with which series?",
+    "answers": [
+      "Alchemy Marks",
+      "Spirit Weapons",
+      "Spiral Power",
+      "Quirks"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4169,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Hunter x Hunter, which concept is central to the story? (3)",
+    "answers": [
+      "Hunter x Hunter",
+      "My Hero Academia",
+      "Demon Slayer",
+      "Chainsaw Man"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4170,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which series prominently features Fullmetal Alchemist: Brotherhood? (2)",
+    "answers": [
+      "Naruto",
+      "Fullmetal Alchemist: Brotherhood",
+      "Bleach",
+      "Hunter x Hunter"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4171,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which series prominently features Rasengan? (4)",
+    "answers": [
+      "Dragon Slayer Magic",
+      "Soul Resonance",
+      "Rasengan",
+      "Spirit Gun"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4172,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In anime fandom, One Piece is most associated with which series? (2)",
+    "answers": [
+      "Bleach",
+      "My Hero Academia",
+      "Naruto",
+      "One Piece"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4173,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What power or organization appears in Bankai? (2)",
+    "answers": [
+      "Bankai",
+      "Alchemy Marks",
+      "Alchemy Arrays",
+      "Spirit Weapons"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4174,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Attack on Titan? (2)",
+    "answers": [
+      "Naruto",
+      "Attack on Titan",
+      "Jujutsu Kaisen",
+      "Chainsaw Man"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4175,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which series prominently features Demon Slayer?",
+    "answers": [
+      "Attack on Titan",
+      "Jujutsu Kaisen",
+      "Demon Slayer",
+      "Naruto"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4176,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What power or organization appears in Domain Expansion? (3)",
+    "answers": [
+      "Soul Resonance",
+      "Spirit Gun",
+      "Dragon Radar",
+      "Domain Expansion"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4177,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What power or organization appears in Chainsaw Man?",
+    "answers": [
+      "Chainsaw Man",
+      "Naruto",
+      "One Piece",
+      "Jujutsu Kaisen"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4178,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which series prominently features Quirks? (3)",
+    "answers": [
+      "Spirit Weapons",
+      "Quirks",
+      "Sacred Gears",
+      "Alchemy Marks"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4179,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In anime fandom, Hunter x Hunter is most associated with which series?",
+    "answers": [
+      "My Hero Academia",
+      "Attack on Titan",
+      "Hunter x Hunter",
+      "Jujutsu Kaisen"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4180,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What power or organization appears in Fullmetal Alchemist: Brotherhood? (6)",
+    "answers": [
+      "One Piece",
+      "Attack on Titan",
+      "Bleach",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4181,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Rasengan, which concept is central to the story? (4)",
+    "answers": [
+      "Rasengan",
+      "Magic Crests",
+      "Spirit Gun",
+      "Soul Resonance"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4182,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In One Piece, which concept is central to the story? (3)",
+    "answers": [
+      "Demon Slayer",
+      "One Piece",
+      "Bleach",
+      "Naruto"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4183,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In anime fandom, Bankai is most associated with which series? (2)",
+    "answers": [
+      "Sacred Gears",
+      "Spiral Power",
+      "Bankai",
+      "Alchemy Arrays"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4184,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Attack on Titan? (2)",
+    "answers": [
+      "Demon Slayer",
+      "My Hero Academia",
+      "Chainsaw Man",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4185,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In anime fandom, Demon Slayer is most associated with which series? (4)",
+    "answers": [
+      "Demon Slayer",
+      "Bleach",
+      "Attack on Titan",
+      "Hunter x Hunter"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4186,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Domain Expansion? (4)",
+    "answers": [
+      "Dragon Radar",
+      "Domain Expansion",
+      "Dragon Slayer Magic",
+      "Magic Crests"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4187,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Chainsaw Man, which concept is central to the story? (2)",
+    "answers": [
+      "My Hero Academia",
+      "Jujutsu Kaisen",
+      "Chainsaw Man",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4188,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which series prominently features Quirks? (4)",
+    "answers": [
+      "Sacred Gears",
+      "Spiral Power",
+      "Spirit Weapons",
+      "Quirks"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4189,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which series prominently features Hunter x Hunter? (2)",
+    "answers": [
+      "Hunter x Hunter",
+      "Naruto",
+      "Jujutsu Kaisen",
+      "My Hero Academia"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4190,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is strongly associated with Fullmetal Alchemist: Brotherhood? (2)",
+    "answers": [
+      "My Hero Academia",
+      "Fullmetal Alchemist: Brotherhood",
+      "Chainsaw Man",
+      "Bleach"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4191,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In anime fandom, Rasengan is most associated with which series? (2)",
+    "answers": [
+      "Dragon Slayer Magic",
+      "Dragon Radar",
+      "Rasengan",
+      "Magic Crests"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4192,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In anime fandom, One Piece is most associated with which series? (3)",
+    "answers": [
+      "Hunter x Hunter",
+      "Fullmetal Alchemist: Brotherhood",
+      "Demon Slayer",
+      "One Piece"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4193,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In anime fandom, Bankai is most associated with which series? (3)",
+    "answers": [
+      "Bankai",
+      "Alchemy Marks",
+      "Sacred Gears",
+      "Alchemy Arrays"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4194,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Attack on Titan, which concept is central to the story? (3)",
+    "answers": [
+      "Naruto",
+      "Attack on Titan",
+      "Chainsaw Man",
+      "Bleach"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4195,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What power or organization appears in Demon Slayer? (2)",
+    "answers": [
+      "Fullmetal Alchemist: Brotherhood",
+      "Bleach",
+      "Demon Slayer",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4196,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Domain Expansion? (2)",
+    "answers": [
+      "Alchemy Circles",
+      "Soul Resonance",
+      "Dragon Radar",
+      "Domain Expansion"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4197,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Chainsaw Man? (2)",
+    "answers": [
+      "Chainsaw Man",
+      "Hunter x Hunter",
+      "My Hero Academia",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4198,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which series prominently features Quirks? (5)",
+    "answers": [
+      "Magic Tools",
+      "Quirks",
+      "Spirit Weapons",
+      "Alchemy Marks"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4199,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Hunter x Hunter? (2)",
+    "answers": [
+      "Bleach",
+      "Attack on Titan",
+      "Hunter x Hunter",
+      "One Piece"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4200,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Fullmetal Alchemist: Brotherhood? (7)",
+    "answers": [
+      "Jujutsu Kaisen",
+      "Demon Slayer",
+      "Naruto",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4201,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is strongly associated with Rasengan? (2)",
+    "answers": [
+      "Rasengan",
+      "Dragon Slayer Magic",
+      "Alchemy Circles",
+      "Spirit Gun"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4202,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which series prominently features One Piece? (2)",
+    "answers": [
+      "Jujutsu Kaisen",
+      "One Piece",
+      "Attack on Titan",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4203,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What power or organization appears in Bankai? (3)",
+    "answers": [
+      "Alchemy Arrays",
+      "Spirit Weapons",
+      "Bankai",
+      "Spiral Power"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4204,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Attack on Titan, which concept is central to the story? (4)",
+    "answers": [
+      "Chainsaw Man",
+      "Jujutsu Kaisen",
+      "Bleach",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4205,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is strongly associated with Demon Slayer? (2)",
+    "answers": [
+      "Demon Slayer",
+      "Attack on Titan",
+      "Fullmetal Alchemist: Brotherhood",
+      "Naruto"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4206,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What power or organization appears in Domain Expansion? (5)",
+    "answers": [
+      "Spirit Gun",
+      "Domain Expansion",
+      "Magic Crests",
+      "Alchemy Circles"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4207,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is strongly associated with Chainsaw Man? (2)",
+    "answers": [
+      "One Piece",
+      "Demon Slayer",
+      "Chainsaw Man",
+      "Hunter x Hunter"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4208,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Quirks, which concept is central to the story? (4)",
+    "answers": [
+      "Sacred Gears",
+      "Alchemy Marks",
+      "Spiral Power",
+      "Quirks"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4209,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What power or organization appears in Hunter x Hunter? (4)",
+    "answers": [
+      "Hunter x Hunter",
+      "Naruto",
+      "Attack on Titan",
+      "Chainsaw Man"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4210,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Fullmetal Alchemist: Brotherhood? (8)",
+    "answers": [
+      "Jujutsu Kaisen",
+      "Fullmetal Alchemist: Brotherhood",
+      "Hunter x Hunter",
+      "One Piece"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4211,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Rasengan, which concept is central to the story? (5)",
+    "answers": [
+      "Soul Resonance",
+      "Spirit Gun",
+      "Rasengan",
+      "Dragon Radar"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4212,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which series prominently features One Piece? (3)",
+    "answers": [
+      "Chainsaw Man",
+      "My Hero Academia",
+      "Jujutsu Kaisen",
+      "One Piece"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4213,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which series prominently features Bankai?",
+    "answers": [
+      "Bankai",
+      "Alchemy Arrays",
+      "Spiral Power",
+      "Alchemy Marks"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4214,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which series prominently features Attack on Titan? (3)",
+    "answers": [
+      "Fullmetal Alchemist: Brotherhood",
+      "Attack on Titan",
+      "My Hero Academia",
+      "Demon Slayer"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4215,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Demon Slayer, which concept is central to the story? (4)",
+    "answers": [
+      "One Piece",
+      "Naruto",
+      "Demon Slayer",
+      "Hunter x Hunter"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4216,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Domain Expansion? (3)",
+    "answers": [
+      "Alchemy Circles",
+      "Magic Crests",
+      "Dragon Radar",
+      "Domain Expansion"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4217,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Chainsaw Man, which concept is central to the story? (3)",
+    "answers": [
+      "Chainsaw Man",
+      "Fullmetal Alchemist: Brotherhood",
+      "Jujutsu Kaisen",
+      "Hunter x Hunter"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4218,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which series prominently features Quirks? (6)",
+    "answers": [
+      "Sacred Gears",
+      "Quirks",
+      "Alchemy Arrays",
+      "Alchemy Marks"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4219,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which series prominently features Hunter x Hunter? (3)",
+    "answers": [
+      "Chainsaw Man",
+      "Jujutsu Kaisen",
+      "Hunter x Hunter",
+      "Demon Slayer"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4220,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is strongly associated with Fullmetal Alchemist: Brotherhood? (3)",
+    "answers": [
+      "Demon Slayer",
+      "Attack on Titan",
+      "Jujutsu Kaisen",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4221,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is strongly associated with Rasengan? (3)",
+    "answers": [
+      "Rasengan",
+      "Magic Crests",
+      "Alchemy Circles",
+      "Dragon Radar"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4222,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which series prominently features One Piece? (4)",
+    "answers": [
+      "Fullmetal Alchemist: Brotherhood",
+      "One Piece",
+      "Demon Slayer",
+      "My Hero Academia"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4223,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In anime fandom, Bankai is most associated with which series? (4)",
+    "answers": [
+      "Alchemy Marks",
+      "Alchemy Arrays",
+      "Bankai",
+      "Spiral Power"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4224,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Attack on Titan, which concept is central to the story? (5)",
+    "answers": [
+      "My Hero Academia",
+      "Jujutsu Kaisen",
+      "Bleach",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4225,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What power or organization appears in Demon Slayer? (3)",
+    "answers": [
+      "Demon Slayer",
+      "Jujutsu Kaisen",
+      "Hunter x Hunter",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4226,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Domain Expansion? (4)",
+    "answers": [
+      "Magic Crests",
+      "Domain Expansion",
+      "Spirit Gun",
+      "Soul Resonance"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4227,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Chainsaw Man, which concept is central to the story? (4)",
+    "answers": [
+      "Hunter x Hunter",
+      "Demon Slayer",
+      "Chainsaw Man",
+      "Jujutsu Kaisen"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4228,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In anime fandom, Quirks is most associated with which series? (2)",
+    "answers": [
+      "Magic Tools",
+      "Alchemy Marks",
+      "Spirit Weapons",
+      "Quirks"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4229,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Hunter x Hunter? (3)",
+    "answers": [
+      "Hunter x Hunter",
+      "One Piece",
+      "Chainsaw Man",
+      "Jujutsu Kaisen"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4230,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Fullmetal Alchemist: Brotherhood, which concept is central to the story?",
+    "answers": [
+      "Bleach",
+      "Fullmetal Alchemist: Brotherhood",
+      "Attack on Titan",
+      "One Piece"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  },
+  {
+    "id": 4231,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Rasengan? (4)",
+    "answers": [
+      "Spirit Gun",
+      "Alchemy Circles",
+      "Rasengan",
+      "Soul Resonance"
+    ],
+    "correctAnswer": "Rasengan",
+    "explanation": "Rasengan is strongly connected to Rasengan.",
+    "tags": [
+      "anime",
+      "naruto"
+    ]
+  },
+  {
+    "id": 4232,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with One Piece? (3)",
+    "answers": [
+      "Demon Slayer",
+      "Chainsaw Man",
+      "Jujutsu Kaisen",
+      "One Piece"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "One Piece is strongly connected to Grand Line.",
+    "tags": [
+      "anime",
+      "one-piece"
+    ]
+  },
+  {
+    "id": 4233,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Bankai? (7)",
+    "answers": [
+      "Bankai",
+      "Alchemy Arrays",
+      "Sacred Gears",
+      "Spirit Weapons"
+    ],
+    "correctAnswer": "Bankai",
+    "explanation": "Bankai is strongly connected to Bankai.",
+    "tags": [
+      "anime",
+      "bleach"
+    ]
+  },
+  {
+    "id": 4234,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Attack on Titan? (3)",
+    "answers": [
+      "Hunter x Hunter",
+      "Attack on Titan",
+      "Jujutsu Kaisen",
+      "Bleach"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Attack on Titan is strongly connected to Paradis Island.",
+    "tags": [
+      "anime",
+      "attack-on-titan"
+    ]
+  },
+  {
+    "id": 4235,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime is strongly associated with Demon Slayer? (3)",
+    "answers": [
+      "My Hero Academia",
+      "Naruto",
+      "Demon Slayer",
+      "Chainsaw Man"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Demon Slayer is strongly connected to Hashira.",
+    "tags": [
+      "anime",
+      "demon-slayer"
+    ]
+  },
+  {
+    "id": 4236,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Domain Expansion, which concept is central to the story?",
+    "answers": [
+      "Dragon Slayer Magic",
+      "Magic Crests",
+      "Dragon Radar",
+      "Domain Expansion"
+    ],
+    "correctAnswer": "Domain Expansion",
+    "explanation": "Domain Expansion is strongly connected to Domain Expansion.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen"
+    ]
+  },
+  {
+    "id": 4237,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In anime fandom, Chainsaw Man is most associated with which series? (5)",
+    "answers": [
+      "Chainsaw Man",
+      "My Hero Academia",
+      "Jujutsu Kaisen",
+      "Bleach"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Chainsaw Man is strongly connected to Public Safety.",
+    "tags": [
+      "anime",
+      "chainsaw-man"
+    ]
+  },
+  {
+    "id": 4238,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Quirks, which concept is central to the story? (5)",
+    "answers": [
+      "Spirit Weapons",
+      "Quirks",
+      "Spiral Power",
+      "Alchemy Marks"
+    ],
+    "correctAnswer": "Quirks",
+    "explanation": "Quirks is strongly connected to Quirks.",
+    "tags": [
+      "anime",
+      "my-hero-academia"
+    ]
+  },
+  {
+    "id": 4239,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In anime fandom, Hunter x Hunter is most associated with which series? (2)",
+    "answers": [
+      "Naruto",
+      "Jujutsu Kaisen",
+      "Hunter x Hunter",
+      "One Piece"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Hunter x Hunter is strongly connected to Hunter Exam.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter"
+    ]
+  },
+  {
+    "id": 4240,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is strongly associated with Fullmetal Alchemist: Brotherhood? (4)",
+    "answers": [
+      "Chainsaw Man",
+      "Demon Slayer",
+      "Naruto",
+      "Fullmetal Alchemist: Brotherhood"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Fullmetal Alchemist: Brotherhood is strongly connected to Amestris.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood"
+    ]
+  }
+]

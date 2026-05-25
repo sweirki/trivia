@@ -96,3 +96,5 @@ const styles = StyleSheet.create({
   secondaryText: { textAlign: "center", fontWeight: "700", color: "#F6C453" },
 });
 
+
+

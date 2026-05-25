@@ -22,10 +22,18 @@ import { useArenaStore } from "@/arena/store/useArenaStore";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
 import { s } from "@/arena/theme/arenaSizing";
 import { usePlayerStore } from "@/store/usePlayerStore";
+import { ARENA_MODE_CONFIG, formatArenaCost } from "@/arena/arenaEconomyRules";
+import { formatLiveEventTimeRemaining, getActiveArenaLiveEvent, getArenaLiveEventModeTag } from "@/arena/live/arenaLiveEvents";
+import {
+  getArenaSeasonCountdown,
+  getArenaSeasonMotivation,
+  getArenaSeasonReward,
+  getRankLabel,
+} from "@/arena/season/arenaSeasonPrestige";
 import { trackEvent, trackScreenView } from "@/observability";
 
-import { ArenaModeCard } from "./arena.components";
-import { getSRPercent } from "./arena.helpers";
+import { ArenaModeCard } from "@/screens/arena/arena.components";
+import { getSRPercent } from "@/screens/arena/arena.helpers";
 
 const ARENA_HERO_ART = require("../../../assets/images/arena/arena_hero_banner.webp");
 const RANKED_MODE_ART = require("../../../assets/images/arena/ranked_mode_card.webp");
@@ -35,7 +43,18 @@ const TOURNAMENT_MODE_ART = require("../../../assets/images/arena/tournament_mod
 
 export default function ArenaHub() {
   const { showThemedAlert, themedAlert } = useThemedAlert();
-  const { rank, sr, season } = useArenaRankSystem();
+  const {
+    rank,
+    sr,
+    season,
+    highestSR,
+    highestRank,
+    seasonEndsAt,
+    lastSeasonSnapshot,
+    resetSeason,
+    claimLastSeasonReward,
+    dismissLastSeasonSnapshot,
+  } = useArenaRankSystem();
   const { lastDailyPlayedAt, weeklyPlays, dailyStreak } = useTournamentStore();
   const playerCosmetics = usePlayerStore((state) => state.cosmetics);
   const equippedArenaBanner = getEquippedCosmetic(
@@ -51,6 +70,8 @@ export default function ArenaHub() {
     CosmeticCategory.STREAK_AURA,
   );
   const arenaBannerSource = getCosmeticAssetSource(equippedArenaBanner?.icon);
+  const activeLiveEvent = getActiveArenaLiveEvent();
+  const activeLiveEventTimeLeft = formatLiveEventTimeRemaining(activeLiveEvent.endsAt);
 
   const pulseAnim = React.useRef(new Animated.Value(1)).current;
   const glowAnim = React.useRef(new Animated.Value(0.7)).current;
@@ -139,6 +160,12 @@ export default function ArenaHub() {
   const isDangerZone = progress <= 18;
   const isOnFire = safeDailyStreak >= 2;
 
+  const seasonReward = getArenaSeasonReward(highestSR);
+  const seasonCountdown = getArenaSeasonCountdown(seasonEndsAt);
+  const seasonMotivation = getArenaSeasonMotivation(sr, highestSR);
+  const highestRankLabel = getRankLabel(highestRank);
+  const seasonExpired = seasonCountdown === "ENDING";
+
   const pressureLabel = isNearPromotion
     ? "Promotion Window"
     : isDangerZone
@@ -176,7 +203,11 @@ export default function ArenaHub() {
         />
         <LinearGradient
           pointerEvents="none"
-          colors={["rgba(255,255,255,0.14)", "rgba(60,205,255,0.04)", "rgba(0,0,0,0)"]}
+          colors={[
+            "rgba(255,255,255,0.14)",
+            "rgba(60,205,255,0.04)",
+            "rgba(0,0,0,0)",
+          ]}
           start={{ x: 0, y: 0 }}
           end={{ x: 1, y: 1 }}
           style={StyleSheet.absoluteFillObject}
@@ -194,7 +225,7 @@ export default function ArenaHub() {
           <Text style={styles.heroKicker}>COMPETITIVE ECOSYSTEM</Text>
           <Text style={styles.heroTitle}>Arena Season {season}</Text>
           <Text style={styles.heroSubtitle}>
-            Climb, protect rank, and win prestige rewards.
+            Climb, protect your peak, and lock seasonal prestige rewards.
           </Text>
         </View>
 
@@ -225,7 +256,9 @@ export default function ArenaHub() {
               />
             ) : null}
             <View style={styles.cosmeticStripText}>
-              <Text style={styles.cosmeticStripTitle}>Equipped Arena Style</Text>
+              <Text style={styles.cosmeticStripTitle}>
+                Equipped Arena Style
+              </Text>
               <Text style={styles.cosmeticStripBody} numberOfLines={1}>
                 {[
                   equippedArenaBanner?.name,
@@ -288,17 +321,42 @@ export default function ArenaHub() {
       <Animated.View
         style={[
           styles.seasonLiveCard,
+          seasonExpired && styles.seasonLiveCardExpired,
           {
             opacity: glowAnim,
             transform: [{ scale: pulseAnim }],
           },
         ]}
       >
-        <View>
+        <View style={{ flex: 1 }}>
           <Text style={styles.seasonLiveLabel}>SEASON STATUS</Text>
-          <Text style={styles.seasonLiveTitle}>Season {season} Ends In</Text>
+          <Text style={styles.seasonLiveTitle}>
+            {seasonExpired ? `Season ${season} Complete` : `Season ${season} Ends In`}
+          </Text>
+          {seasonExpired ? (
+            <Text style={styles.seasonLiveBody}>
+              Close the season, lock your peak, and start the next climb.
+            </Text>
+          ) : null}
         </View>
-        <Text style={styles.seasonCountdown}>12D 08H</Text>
+        {seasonExpired ? (
+          <TouchableOpacity
+            style={styles.seasonResetButton}
+            activeOpacity={0.88}
+            onPress={() => {
+              const snapshot = resetSeason();
+              showThemedAlert(
+                "Season Closed",
+                `Season ${snapshot.season} locked at ${snapshot.highestRankLabel}. Claim ${snapshot.tokenReward} arena tokens from the season card.`,
+                "success",
+              );
+            }}
+          >
+            <Text style={styles.seasonResetButtonText}>Start Next</Text>
+          </TouchableOpacity>
+        ) : (
+          <Text style={styles.seasonCountdown}>{seasonCountdown}</Text>
+        )}
       </Animated.View>
 
       <LinearGradient
@@ -317,7 +375,10 @@ export default function ArenaHub() {
 
         <TouchableOpacity
           testID="arena-daily-ranked-button"
-          style={[styles.primaryButton, playedToday && styles.primaryButtonDisabled]}
+          style={[
+            styles.primaryButton,
+            playedToday && styles.primaryButtonDisabled,
+          ]}
           onPress={() => {
             if (playedToday) {
               showThemedAlert(
@@ -344,7 +405,9 @@ export default function ArenaHub() {
       <View style={styles.energyGrid}>
         <View style={[styles.energyCard, weeklyAlmostDone && styles.glowBlue]}>
           <Text style={styles.energyTitle}>Weekly Push</Text>
-          <Text style={styles.energyValue}>{weeklyProgress}/{weeklyGoal}</Text>
+          <Text style={styles.energyValue}>
+            {weeklyProgress}/{weeklyGoal}
+          </Text>
 
           <AnimatedProgressBar
             percent={weeklyPercent}
@@ -375,28 +438,87 @@ export default function ArenaHub() {
 
       <View style={styles.prestigeRow}>
         <View style={styles.prestigeCard}>
-          <Text style={styles.prestigeLabel}>PRESTIGE</Text>
-          <Text style={styles.prestigeTitle}>Rewards</Text>
+          <Text style={styles.prestigeLabel}>SEASON PEAK</Text>
+          <Text style={styles.prestigeTitle}>{highestRankLabel}</Text>
           <Text style={styles.prestigeText} numberOfLines={2}>
-            Win cups, climb ranks, and build profile identity.
+            Peak SR {highestSR}. {seasonReward.profileLabel} becomes your
+            end-season flex.
           </Text>
         </View>
 
         <View style={styles.prestigeCard}>
-          <Text style={styles.prestigeLabelBlue}>GLOBAL</Text>
-          <Text style={styles.prestigeTitle}>Top 100</Text>
+          <Text style={styles.prestigeLabelBlue}>REWARD TIER</Text>
+          <Text style={styles.prestigeTitle}>{seasonReward.title}</Text>
           <Text style={styles.prestigeText} numberOfLines={2}>
-            Seasonal rankings and elite competitors.
+            {seasonReward.rewardLabel}. {seasonMotivation}
           </Text>
         </View>
       </View>
 
-      <Animated.View style={[styles.eventCard, { transform: [{ scale: pulseAnim }] }]}>
-        <Text style={styles.eventLabel}>LIMITED EVENT</Text>
-        <Text style={styles.eventTitle}>Lightning Cup Weekend</Text>
+      {lastSeasonSnapshot ? (
+        <View style={styles.lastSeasonCard}>
+          <Text style={styles.lastSeasonLabel}>SEASON RECAP</Text>
+          <Text style={styles.lastSeasonTitle}>
+            Season {lastSeasonSnapshot.season} • {lastSeasonSnapshot.highestRankLabel}
+          </Text>
+          <Text style={styles.lastSeasonText}>
+            Peak SR {lastSeasonSnapshot.highestSR} • Final SR {lastSeasonSnapshot.finalSR}
+          </Text>
+          <Text style={styles.lastSeasonText}>
+            {lastSeasonSnapshot.rewardTitle}: {lastSeasonSnapshot.rewardLabel}
+          </Text>
+          <Text style={styles.lastSeasonText}>
+            New season started at {lastSeasonSnapshot.softResetSR} SR.
+          </Text>
+
+          <View style={styles.lastSeasonActions}>
+            <TouchableOpacity
+              style={[
+                styles.lastSeasonClaimButton,
+                lastSeasonSnapshot.claimedAt && styles.lastSeasonClaimButtonDisabled,
+              ]}
+              activeOpacity={0.88}
+              disabled={!!lastSeasonSnapshot.claimedAt}
+              onPress={() => {
+                const claimed = claimLastSeasonReward();
+                showThemedAlert(
+                  claimed ? "Season Reward Claimed" : "Already Claimed",
+                  claimed
+                    ? `+${lastSeasonSnapshot.tokenReward} arena tokens added to your Arena balance.`
+                    : "This season reward was already claimed.",
+                  claimed ? "success" : "info",
+                );
+              }}
+            >
+              <Text style={styles.lastSeasonClaimButtonText}>
+                {lastSeasonSnapshot.claimedAt
+                  ? "Claimed"
+                  : `Claim +${lastSeasonSnapshot.tokenReward}`}
+              </Text>
+            </TouchableOpacity>
+
+            {lastSeasonSnapshot.claimedAt ? (
+              <TouchableOpacity
+                style={styles.lastSeasonDismissButton}
+                activeOpacity={0.88}
+                onPress={dismissLastSeasonSnapshot}
+              >
+                <Text style={styles.lastSeasonDismissText}>Dismiss</Text>
+              </TouchableOpacity>
+            ) : null}
+          </View>
+        </View>
+      ) : null}
+
+      <Animated.View
+        style={[styles.eventCard, { transform: [{ scale: pulseAnim }] }]}
+      >
+        <Text style={styles.eventLabel}>{activeLiveEvent.label} • {activeLiveEventTimeLeft}</Text>
+        <Text style={styles.eventTitle}>{activeLiveEvent.title}</Text>
         <Text style={styles.eventBody}>
-          Faster timers. Higher SR pressure. Exclusive rewards.
+          {activeLiveEvent.body}
         </Text>
+        <Text style={styles.eventReward}>{activeLiveEvent.rewardLabel}</Text>
       </Animated.View>
 
       <View style={styles.modesWrapper}>
@@ -407,19 +529,17 @@ export default function ArenaHub() {
           art={RANKED_MODE_ART}
           accent="#D6A93A"
           title="Ranked Arena"
-          subtitle="Entry: 5 tickets • Win: 200 coins + tokens."
-          tag={
-            isNearPromotion
-              ? "PROMOTION"
-              : isDangerZone
-                ? "PROTECT"
-                : "COMPETITIVE"
-          }
+          subtitle={`Entry: ${formatArenaCost("ranked")} • ${ARENA_MODE_CONFIG.ranked.rewardLabel}.`}
+          tag={getArenaLiveEventModeTag("ranked", activeLiveEvent) ?? (isNearPromotion ? "PROMOTION" : isDangerZone ? "PROTECT" : "COMPETITIVE")}
           onPress={() => {
-            if (!usePlayerStore.getState().spendTickets(5)) {
+            if (
+              !usePlayerStore
+                .getState()
+                .spendTickets(ARENA_MODE_CONFIG.ranked.tickets)
+            ) {
               showThemedAlert(
                 "Not enough tickets",
-                "Ranked Arena requires 5 tickets.",
+                `Ranked Arena requires ${formatArenaCost("ranked")}.`,
                 "warning",
               );
               return;
@@ -433,13 +553,17 @@ export default function ArenaHub() {
           art={SURVIVAL_MODE_ART}
           accent="#8FE6FF"
           title="Survival Arena"
-          subtitle="Entry: 4 tickets • Rewards scale with rounds survived."
+          subtitle={`Entry: ${formatArenaCost("survival")} • ${ARENA_MODE_CONFIG.survival.rewardLabel}.`}
           tag="HIGH SCORE"
           onPress={() => {
-            if (!usePlayerStore.getState().spendTickets(4)) {
+            if (
+              !usePlayerStore
+                .getState()
+                .spendTickets(ARENA_MODE_CONFIG.survival.tickets)
+            ) {
               showThemedAlert(
                 "Not enough tickets",
-                "Survival Arena requires 4 tickets.",
+                `Survival Arena requires ${formatArenaCost("survival")}.`,
                 "warning",
               );
               return;
@@ -455,13 +579,17 @@ export default function ArenaHub() {
           art={POWER_MODE_ART}
           accent="#4FC3F7"
           title="Power-Up Arena"
-          subtitle="Entry: 5 tickets • Score-based coin reward."
+          subtitle={`Entry: ${formatArenaCost("power")} • ${ARENA_MODE_CONFIG.power.rewardLabel}.`}
           tag="STRATEGY"
           onPress={() => {
-            if (!usePlayerStore.getState().spendTickets(5)) {
+            if (
+              !usePlayerStore
+                .getState()
+                .spendTickets(ARENA_MODE_CONFIG.power.tickets)
+            ) {
               showThemedAlert(
                 "Not enough tickets",
-                "Power-Up Arena requires 5 tickets to enter.",
+                `Power-Up Arena requires ${formatArenaCost("power")} to enter.`,
                 "warning",
               );
               return;
@@ -477,13 +605,17 @@ export default function ArenaHub() {
             art={TOURNAMENT_MODE_ART}
             accent="#D6A93A"
             title="Tournaments"
-            subtitle="Entry: 8 tickets • Highest-stakes Arena mode."
+            subtitle={`Entry: ${formatArenaCost("tournament")} • ${ARENA_MODE_CONFIG.tournament.rewardLabel}.`}
             tag="LIVE EVENT"
             onPress={() => {
-              if (!usePlayerStore.getState().spendTickets(8)) {
+              if (
+                !usePlayerStore
+                  .getState()
+                  .spendTickets(ARENA_MODE_CONFIG.tournament.tickets)
+              ) {
                 showThemedAlert(
                   "Not enough tickets",
-                  "Tournament entry requires 8 tickets.",
+                  `Tournament entry requires ${formatArenaCost("tournament")}.`,
                   "warning",
                 );
                 return;
@@ -693,6 +825,11 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
+    gap: s(10),
+  },
+  seasonLiveCardExpired: {
+    borderColor: "rgba(247,211,106,0.46)",
+    backgroundColor: "rgba(30,25,42,0.94)",
   },
   seasonLiveLabel: {
     color: "#8FE6FF",
@@ -705,6 +842,26 @@ const styles = StyleSheet.create({
     fontSize: s(15),
     fontWeight: "900",
     marginTop: s(4),
+  },
+  seasonLiveBody: {
+    color: "#BBD7FF",
+    fontSize: s(10),
+    fontWeight: "800",
+    lineHeight: s(14),
+    marginTop: s(4),
+  },
+  seasonResetButton: {
+    backgroundColor: "#8FEAFF",
+    borderRadius: s(13),
+    paddingHorizontal: s(12),
+    paddingVertical: s(9),
+    borderWidth: 1,
+    borderColor: "#C6F1FF",
+  },
+  seasonResetButtonText: {
+    color: "#062033",
+    fontSize: s(11),
+    fontWeight: "900",
   },
   seasonCountdown: {
     color: "#FFD36B",
@@ -763,7 +920,12 @@ const styles = StyleSheet.create({
   primaryButtonDisabled: { opacity: 0.55 },
   primaryButtonText: { color: "#F7D37A", fontWeight: "900", fontSize: s(14) },
 
-  energyGrid: { width: "100%", flexDirection: "row", gap: s(10), marginBottom: s(12) },
+  energyGrid: {
+    width: "100%",
+    flexDirection: "row",
+    gap: s(10),
+    marginBottom: s(12),
+  },
   energyCard: {
     flex: 1,
     backgroundColor: "rgba(12,28,56,0.92)",
@@ -795,7 +957,12 @@ const styles = StyleSheet.create({
     marginTop: s(9),
   },
 
-  prestigeRow: { width: "100%", flexDirection: "row", gap: s(10), marginBottom: s(12) },
+  prestigeRow: {
+    width: "100%",
+    flexDirection: "row",
+    gap: s(10),
+    marginBottom: s(12),
+  },
   prestigeCard: {
     flex: 1,
     backgroundColor: "rgba(8,19,40,0.96)",
@@ -830,6 +997,73 @@ const styles = StyleSheet.create({
     marginTop: s(5),
   },
 
+  lastSeasonCard: {
+    width: "100%",
+    backgroundColor: "rgba(20,38,72,0.94)",
+    borderRadius: s(18),
+    padding: s(13),
+    borderWidth: 1,
+    borderColor: "rgba(247,211,106,0.26)",
+    marginBottom: s(12),
+  },
+  lastSeasonLabel: {
+    color: "#FFD36B",
+    fontSize: s(10),
+    fontWeight: "900",
+    letterSpacing: 0.9,
+  },
+  lastSeasonTitle: {
+    color: "#FFFFFF",
+    fontSize: s(15),
+    fontWeight: "900",
+    marginTop: s(5),
+  },
+  lastSeasonText: {
+    color: "#BBD7FF",
+    fontSize: s(11),
+    fontWeight: "800",
+    lineHeight: s(16),
+    marginTop: s(5),
+  },
+  lastSeasonActions: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: s(8),
+    marginTop: s(12),
+  },
+  lastSeasonClaimButton: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#8FEAFF",
+    borderRadius: s(13),
+    paddingVertical: s(10),
+    borderWidth: 1,
+    borderColor: "#C6F1FF",
+  },
+  lastSeasonClaimButtonDisabled: {
+    backgroundColor: "rgba(75,85,105,0.72)",
+    borderColor: "rgba(190,210,230,0.18)",
+  },
+  lastSeasonClaimButtonText: {
+    color: "#062033",
+    fontSize: s(11),
+    fontWeight: "900",
+  },
+  lastSeasonDismissButton: {
+    paddingHorizontal: s(12),
+    paddingVertical: s(10),
+    borderRadius: s(13),
+    borderWidth: 1,
+    borderColor: "rgba(143,230,255,0.24)",
+    backgroundColor: "rgba(8,22,44,0.78)",
+  },
+  lastSeasonDismissText: {
+    color: "#BBD7FF",
+    fontSize: s(11),
+    fontWeight: "900",
+  },
+
   eventCard: {
     width: "100%",
     backgroundColor: "#0E1930",
@@ -862,6 +1096,13 @@ const styles = StyleSheet.create({
     fontWeight: "800",
     lineHeight: s(17),
     marginTop: s(6),
+  },
+  eventReward: {
+    color: "#8FEAFF",
+    fontSize: 11,
+    lineHeight: 15,
+    fontWeight: "900",
+    marginTop: 6,
   },
 
   modesWrapper: { width: "100%" },
@@ -905,3 +1146,5 @@ const styles = StyleSheet.create({
     marginTop: s(3),
   },
 });
+
+

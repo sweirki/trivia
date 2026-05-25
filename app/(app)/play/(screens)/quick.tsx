@@ -128,7 +128,7 @@ export default function QuickPlay() {
       showsVerticalScrollIndicator={false}
     >
       <ImageBackground source={HERO} style={styles.hero} imageStyle={styles.heroImage}>
-        <View style={styles.heroOverlay}>
+        <View testID="screen-quick-play" style={styles.heroOverlay}>
           <Text style={styles.kicker}>QUICK PLAY</Text>
           <Text style={styles.title}>Choose Your Challenge</Text>
           <Text style={styles.subtitle}>
@@ -137,8 +137,8 @@ export default function QuickPlay() {
         </View>
       </ImageBackground>
 
-      <View style={styles.categoryRow}>
-        <View style={styles.categoryPill}>
+      <View testID="screen-quick-play" style={styles.categoryRow}>
+        <View testID="screen-quick-play" style={styles.categoryPill}>
           <Text style={styles.categoryLabel}>CATEGORY • {categoryLabel}</Text>
         </View>
 
@@ -150,7 +150,7 @@ export default function QuickPlay() {
         </Pressable>
       </View>
 
-      <View style={styles.modeStack}>
+      <View testID="screen-quick-play" style={styles.modeStack}>
         {MODES.map((mode) => (
           <Pressable
             key={mode.key}
@@ -163,7 +163,7 @@ export default function QuickPlay() {
               imageStyle={styles.modeImageStyle}
               resizeMode="cover"
             >
-              <View style={styles.modeShade}>
+              <View testID="screen-quick-play" style={styles.modeShade}>
                 <Text style={[styles.modeEyebrow, { color: mode.accent }]}>
                   {mode.eyebrow}
                 </Text>
@@ -171,7 +171,7 @@ export default function QuickPlay() {
                   {mode.title}
                 </Text>
                 <Text style={styles.modeSubtitle}>{mode.subtitle}</Text>
-                <View
+                <View testID="screen-quick-play"
                   style={[
                     styles.modeAccentBar,
                     { backgroundColor: mode.accent },
@@ -184,7 +184,7 @@ export default function QuickPlay() {
       </View>
 
       {!!vipTier && (
-        <View style={styles.vipBanner}>
+        <View testID="screen-quick-play" style={styles.vipBanner}>
           <Text style={styles.vipTitle}>VIP ACTIVE</Text>
           <Text style={styles.vipSub}>Bonus rewards enabled for quick sessions.</Text>
         </View>
@@ -197,7 +197,7 @@ export default function QuickPlay() {
         <Text style={styles.backText}>Categories</Text>
       </Pressable>
 
-      <View style={{ height: 42 }} />
+      <View testID="screen-quick-play" style={{ height: 42 }} />
     </Animated.ScrollView>
   );
 }
@@ -382,3 +382,6 @@ const styles = StyleSheet.create({
     transform: [{ scale: 0.985 }],
   },
 });
+
+
+

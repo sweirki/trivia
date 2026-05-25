@@ -1,1 +1,741 @@
-[]
+[
+  {
+    "id": 31501,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object is usually used to measure temperature?",
+    "answers": [
+      "Compass",
+      "Ruler",
+      "Thermometer",
+      "Scale"
+    ],
+    "correctAnswer": "Thermometer",
+    "explanation": "Thermometer is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "thermometer"
+    ]
+  },
+  {
+    "id": 31502,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If 4 chairs are placed at each table, how many chairs are needed for 6 tables?",
+    "answers": [
+      "20",
+      "22",
+      "26",
+      "24"
+    ],
+    "correctAnswer": "24",
+    "explanation": "The correct answer is 24.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 31503,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is greater: 72 or 27?",
+    "answers": [
+      "72",
+      "27",
+      "Both are equal",
+      "Neither"
+    ],
+    "correctAnswer": "72",
+    "explanation": "72 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 31504,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number completes the sequence: 5, 11, 23, 47, ?",
+    "answers": [
+      "90",
+      "95",
+      "96",
+      "99"
+    ],
+    "correctAnswer": "95",
+    "explanation": "95 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 31505,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which word is the opposite of 'early'?",
+    "answers": [
+      "Soon",
+      "Quick",
+      "Late",
+      "First"
+    ],
+    "correctAnswer": "Late",
+    "explanation": "Late is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "late"
+    ]
+  },
+  {
+    "id": 31506,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If a movie starts at 7:00 and lasts 2 hours, what time does it end?",
+    "answers": [
+      "8:00",
+      "10:00",
+      "9:30",
+      "9:00"
+    ],
+    "correctAnswer": "9:00",
+    "explanation": "The correct answer is 9:00.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 31507,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is a multiple of 3?",
+    "answers": [
+      "18",
+      "20",
+      "22",
+      "25"
+    ],
+    "correctAnswer": "18",
+    "explanation": "18 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 31508,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which shape has eight sides?",
+    "answers": [
+      "Hexagon",
+      "Octagon",
+      "Pentagon",
+      "Triangle"
+    ],
+    "correctAnswer": "Octagon",
+    "explanation": "Octagon is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "octagon"
+    ]
+  },
+  {
+    "id": 31509,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "If NORTH is coded as OPUI, what is SOUTH coded as using the same one-letter shift?",
+    "answers": [
+      "RNTSG",
+      "TPVTH",
+      "TPVUI",
+      "UQWVI"
+    ],
+    "correctAnswer": "TPVUI",
+    "explanation": "The correct answer is TPVUI.",
+    "tags": [
+      "logic",
+      "hard",
+      "tpvui"
+    ]
+  },
+  {
+    "id": 31510,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many seconds are in one minute?",
+    "answers": [
+      "30",
+      "90",
+      "100",
+      "60"
+    ],
+    "correctAnswer": "60",
+    "explanation": "The correct answer is 60.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 31511,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If 9 workers each carry 2 boxes, how many boxes are carried in total?",
+    "answers": [
+      "18",
+      "16",
+      "20",
+      "22"
+    ],
+    "correctAnswer": "18",
+    "explanation": "The correct answer is 18.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 31512,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is smaller: 64 or 46?",
+    "answers": [
+      "64",
+      "46",
+      "Both are equal",
+      "Neither"
+    ],
+    "correctAnswer": "46",
+    "explanation": "46 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 31513,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number comes next: 10, 20, 40, 80, ?",
+    "answers": [
+      "120",
+      "140",
+      "160",
+      "180"
+    ],
+    "correctAnswer": "160",
+    "explanation": "160 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard",
+      "160"
+    ]
+  },
+  {
+    "id": 31514,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which item is usually used to see faraway objects?",
+    "answers": [
+      "Spoon",
+      "Notebook",
+      "Hammer",
+      "Binoculars"
+    ],
+    "correctAnswer": "Binoculars",
+    "explanation": "Binoculars is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "binoculars"
+    ]
+  },
+  {
+    "id": 31515,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If a pattern alternates red, blue, red, blue, what color comes next?",
+    "answers": [
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow"
+    ],
+    "correctAnswer": "Red",
+    "explanation": "The correct answer is Red.",
+    "tags": [
+      "logic",
+      "medium",
+      "red"
+    ]
+  },
+  {
+    "id": 31516,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is 100 minus 25?",
+    "answers": [
+      "70",
+      "75",
+      "80",
+      "85"
+    ],
+    "correctAnswer": "75",
+    "explanation": "75 is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 31517,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which number comes next: 3, 9, 27, 81, ?",
+    "answers": [
+      "162",
+      "216",
+      "243",
+      "324"
+    ],
+    "correctAnswer": "243",
+    "explanation": "243 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "medium",
+      "243"
+    ]
+  },
+  {
+    "id": 31518,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which word is the opposite of 'inside'?",
+    "answers": [
+      "Between",
+      "Under",
+      "Near",
+      "Outside"
+    ],
+    "correctAnswer": "Outside",
+    "explanation": "Outside is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "outside"
+    ]
+  },
+  {
+    "id": 31519,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number completes the pattern: 7, 10, 16, 28, 52, ?",
+    "answers": [
+      "100",
+      "96",
+      "104",
+      "108"
+    ],
+    "correctAnswer": "100",
+    "explanation": "100 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard",
+      "100"
+    ]
+  },
+  {
+    "id": 31520,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number equals 6 plus 7?",
+    "answers": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correctAnswer": "13",
+    "explanation": "13 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 31521,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If 18 candies are shared equally among 6 children, how many candies does each child get?",
+    "answers": [
+      "2",
+      "4",
+      "3",
+      "6"
+    ],
+    "correctAnswer": "3",
+    "explanation": "The correct answer is 3.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 31522,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which object is commonly used for reading maps and finding direction?",
+    "answers": [
+      "Thermometer",
+      "Calculator",
+      "Camera",
+      "Compass"
+    ],
+    "correctAnswer": "Compass",
+    "explanation": "Compass is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "compass"
+    ]
+  },
+  {
+    "id": 31523,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number comes next: 4, 7, 13, 25, 49, ?",
+    "answers": [
+      "97",
+      "95",
+      "99",
+      "101"
+    ],
+    "correctAnswer": "97",
+    "explanation": "97 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 31524,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which day comes after Tuesday?",
+    "answers": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "correctAnswer": "Wednesday",
+    "explanation": "Wednesday is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "wednesday"
+    ]
+  },
+  {
+    "id": 31525,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If Lina has 12 coins and finds 8 more, how many coins does she have?",
+    "answers": [
+      "18",
+      "22",
+      "20",
+      "24"
+    ],
+    "correctAnswer": "20",
+    "explanation": "The correct answer is 20.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 31526,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is one more than 999?",
+    "answers": [
+      "990",
+      "9999",
+      "1001",
+      "1000"
+    ],
+    "correctAnswer": "1000",
+    "explanation": "1000 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "1000"
+    ]
+  },
+  {
+    "id": 31527,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which number comes next: 64, 32, 16, 8, ?",
+    "answers": [
+      "4",
+      "2",
+      "6",
+      "1"
+    ],
+    "correctAnswer": "4",
+    "explanation": "4 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 31528,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which shape is round?",
+    "answers": [
+      "Square",
+      "Circle",
+      "Triangle",
+      "Pentagon"
+    ],
+    "correctAnswer": "Circle",
+    "explanation": "Circle is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "circle"
+    ]
+  },
+  {
+    "id": 31529,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "If BOOK is coded as CPPL, what is TREE coded as using the same rule?",
+    "answers": [
+      "SQDD",
+      "VSGG",
+      "USFF",
+      "USFE"
+    ],
+    "correctAnswer": "USFF",
+    "explanation": "The correct answer is USFF.",
+    "tags": [
+      "logic",
+      "hard",
+      "usff"
+    ]
+  },
+  {
+    "id": 31530,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is the sum of 30 and 40?",
+    "answers": [
+      "60",
+      "80",
+      "90",
+      "70"
+    ],
+    "correctAnswer": "70",
+    "explanation": "70 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 31531,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If 5 bags each contain 4 oranges, how many oranges are there in total?",
+    "answers": [
+      "20",
+      "18",
+      "22",
+      "24"
+    ],
+    "correctAnswer": "20",
+    "explanation": "The correct answer is 20.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 31532,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number is less than 10?",
+    "answers": [
+      "12",
+      "8",
+      "15",
+      "20"
+    ],
+    "correctAnswer": "8",
+    "explanation": "8 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 31533,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which number completes the sequence: 2, 4, 7, 11, 16, ?",
+    "answers": [
+      "21",
+      "23",
+      "22",
+      "24"
+    ],
+    "correctAnswer": "22",
+    "explanation": "22 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 31534,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which item is used to protect eyes from sunlight?",
+    "answers": [
+      "Gloves",
+      "Scarf",
+      "Helmet",
+      "Sunglasses"
+    ],
+    "correctAnswer": "Sunglasses",
+    "explanation": "Sunglasses is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy",
+      "sunglasses"
+    ]
+  },
+  {
+    "id": 31535,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If a team scores 3 points in each of 7 rounds, how many points do they score?",
+    "answers": [
+      "21",
+      "18",
+      "24",
+      "27"
+    ],
+    "correctAnswer": "21",
+    "explanation": "The correct answer is 21.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 31536,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which number comes next: 12, 24, 36, 48, ?",
+    "answers": [
+      "54",
+      "60",
+      "66",
+      "72"
+    ],
+    "correctAnswer": "60",
+    "explanation": "60 is the correct answer to this logic question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  },
+  {
+    "id": 31537,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If all musicians practice and Lena is a musician, what does Lena do?",
+    "answers": [
+      "Paint",
+      "Swim",
+      "Practice",
+      "Cook"
+    ],
+    "correctAnswer": "Practice",
+    "explanation": "The correct answer is Practice.",
+    "tags": [
+      "logic",
+      "medium",
+      "practice"
+    ]
+  },
+  {
+    "id": 31538,
+    "category": "logic",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is 15 minus 6?",
+    "answers": [
+      "8",
+      "10",
+      "11",
+      "9"
+    ],
+    "correctAnswer": "9",
+    "explanation": "9 is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "logic",
+      "easy"
+    ]
+  }
+]

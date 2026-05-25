@@ -26,3 +26,5 @@ export const defaultInventory: Record<string, number> = {
 
 export const defaultCosmetics: PlayerCosmeticsState = DEFAULT_PLAYER_COSMETICS_STATE;
 
+
+

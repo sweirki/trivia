@@ -1,1 +1,801 @@
-[]
+[
+  {
+    "id": 13001,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which player won the Ballon d'Or in 2023?",
+    "answers": [
+      "Lionel Messi",
+      "Erling Haaland",
+      "Kylian Mbappé",
+      "Kevin De Bruyne"
+    ],
+    "correctAnswer": "Lionel Messi",
+    "explanation": "Lionel Messi is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "easy",
+      "lionel-messi"
+    ]
+  },
+  {
+    "id": 13002,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which club is known as “The Gunners”?",
+    "answers": [
+      "Chelsea",
+      "Arsenal",
+      "Tottenham Hotspur",
+      "West Ham United"
+    ],
+    "correctAnswer": "Arsenal",
+    "explanation": "Arsenal is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "arsenal"
+    ]
+  },
+  {
+    "id": 13003,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "How many points is a team awarded for winning a league match?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "3",
+    "explanation": "The correct answer is 3.",
+    "tags": [
+      "football",
+      "easy"
+    ]
+  },
+  {
+    "id": 13004,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Spanish club is famous for the motto “Més que un club”?",
+    "answers": [
+      "Real Madrid",
+      "Valencia",
+      "Atlético Madrid",
+      "Barcelona"
+    ],
+    "correctAnswer": "Barcelona",
+    "explanation": "Barcelona is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "barcelona"
+    ]
+  },
+  {
+    "id": 13005,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which player is nicknamed “Ney” by fans and teammates?",
+    "answers": [
+      "Neymar",
+      "Vinícius Júnior",
+      "Rodrygo",
+      "Richarlison"
+    ],
+    "correctAnswer": "Neymar",
+    "explanation": "Neymar is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "easy",
+      "neymar"
+    ]
+  },
+  {
+    "id": 13006,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which club won the Premier League in the 2022–23 season?",
+    "answers": [
+      "Arsenal",
+      "Manchester City",
+      "Liverpool",
+      "Manchester United"
+    ],
+    "correctAnswer": "Manchester City",
+    "explanation": "Manchester City is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "manchester-city"
+    ]
+  },
+  {
+    "id": 13007,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the term for scoring three goals in a single match?",
+    "answers": [
+      "Brace",
+      "Treble",
+      "Hat-trick",
+      "Clean sheet"
+    ],
+    "correctAnswer": "Hat-trick",
+    "explanation": "Hat-trick is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "football",
+      "easy",
+      "hat-trick"
+    ]
+  },
+  {
+    "id": 13008,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Croatian midfielder won the Ballon d'Or in 2018?",
+    "answers": [
+      "Ivan Rakitić",
+      "Mateo Kovačić",
+      "Mario Mandžukić",
+      "Luka Modrić"
+    ],
+    "correctAnswer": "Luka Modrić",
+    "explanation": "Luka Modrić is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "luka-modri"
+    ]
+  },
+  {
+    "id": 13009,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which player is famous for the “Mbappé speed” reputation?",
+    "answers": [
+      "Kylian Mbappé",
+      "Antoine Griezmann",
+      "Harry Kane",
+      "Bruno Fernandes"
+    ],
+    "correctAnswer": "Kylian Mbappé",
+    "explanation": "Kylian Mbappé is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "easy",
+      "kylian-mbapp"
+    ]
+  },
+  {
+    "id": 13010,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Italian club plays at the San Siro alongside Inter Milan?",
+    "answers": [
+      "Napoli",
+      "AC Milan",
+      "Roma",
+      "Lazio"
+    ],
+    "correctAnswer": "AC Milan",
+    "explanation": "AC Milan is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "milan"
+    ]
+  },
+  {
+    "id": 13011,
+    "category": "football",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which country won the FIFA World Cup in 2014?",
+    "answers": [
+      "Argentina",
+      "Brazil",
+      "Germany",
+      "Spain"
+    ],
+    "correctAnswer": "Germany",
+    "explanation": "Germany is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "hard",
+      "germany"
+    ]
+  },
+  {
+    "id": 13012,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which body part is players generally forbidden from using during normal play?",
+    "answers": [
+      "Shoulders",
+      "Head",
+      "Chest",
+      "Hands"
+    ],
+    "correctAnswer": "Hands",
+    "explanation": "Hands is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "easy",
+      "hands"
+    ]
+  },
+  {
+    "id": 13013,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which English player captained England for many years and played for Liverpool?",
+    "answers": [
+      "Steven Gerrard",
+      "Frank Lampard",
+      "Wayne Rooney",
+      "John Terry"
+    ],
+    "correctAnswer": "Steven Gerrard",
+    "explanation": "Steven Gerrard is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "steven-gerrard"
+    ]
+  },
+  {
+    "id": 13014,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which football competition determines the champion club team of Europe?",
+    "answers": [
+      "Europa League",
+      "UEFA Champions League",
+      "FA Cup",
+      "Club World Cup"
+    ],
+    "correctAnswer": "UEFA Champions League",
+    "explanation": "UEFA Champions League is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "easy",
+      "uefa-champions"
+    ]
+  },
+  {
+    "id": 13015,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which striker moved from Borussia Dortmund to Barcelona in 2022?",
+    "answers": [
+      "Erling Haaland",
+      "Pierre-Emerick Aubameyang",
+      "Robert Lewandowski",
+      "Karim Benzema"
+    ],
+    "correctAnswer": "Robert Lewandowski",
+    "explanation": "Robert Lewandowski is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "robert-lewandowski"
+    ]
+  },
+  {
+    "id": 13016,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is it called when a goalkeeper prevents the opposing team from scoring?",
+    "answers": [
+      "Volley",
+      "Dribble",
+      "Assist",
+      "Save"
+    ],
+    "correctAnswer": "Save",
+    "explanation": "Save is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "football",
+      "easy",
+      "save"
+    ]
+  },
+  {
+    "id": 13017,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which African player won the 2022 CAF African Player of the Year award?",
+    "answers": [
+      "Sadio Mané",
+      "Mohamed Salah",
+      "Riyad Mahrez",
+      "Victor Osimhen"
+    ],
+    "correctAnswer": "Sadio Mané",
+    "explanation": "Sadio Mané is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "sadio-man"
+    ]
+  },
+  {
+    "id": 13018,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which player is associated with the phrase “GOAT” in football discussions alongside Cristiano Ronaldo?",
+    "answers": [
+      "Zlatan Ibrahimović",
+      "Lionel Messi",
+      "Neymar",
+      "Ronaldinho"
+    ],
+    "correctAnswer": "Lionel Messi",
+    "explanation": "Lionel Messi is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "easy",
+      "lionel-messi"
+    ]
+  },
+  {
+    "id": 13019,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which club is based at the Etihad Stadium?",
+    "answers": [
+      "Manchester United",
+      "Chelsea",
+      "Manchester City",
+      "Arsenal"
+    ],
+    "correctAnswer": "Manchester City",
+    "explanation": "Manchester City is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "manchester-city"
+    ]
+  },
+  {
+    "id": 13020,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is awarded when the defending team sends the ball over its own goal line?",
+    "answers": [
+      "Throw-in",
+      "Penalty kick",
+      "Free kick",
+      "Corner kick"
+    ],
+    "correctAnswer": "Corner kick",
+    "explanation": "Corner kick is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "football",
+      "easy",
+      "corner-kick"
+    ]
+  },
+  {
+    "id": 13021,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which player won the Golden Boot at the 2022 FIFA World Cup?",
+    "answers": [
+      "Kylian Mbappé",
+      "Lionel Messi",
+      "Olivier Giroud",
+      "Julián Álvarez"
+    ],
+    "correctAnswer": "Kylian Mbappé",
+    "explanation": "Kylian Mbappé is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "easy",
+      "kylian-mbapp"
+    ]
+  },
+  {
+    "id": 13022,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which club is known as “The Citizens”?",
+    "answers": [
+      "Chelsea",
+      "Manchester City",
+      "Liverpool",
+      "Arsenal"
+    ],
+    "correctAnswer": "Manchester City",
+    "explanation": "Manchester City is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "manchester-city"
+    ]
+  },
+  {
+    "id": 13023,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the name of the official break between the two halves of a football match?",
+    "answers": [
+      "Fulltime",
+      "Overtime",
+      "Halftime",
+      "Kickoff"
+    ],
+    "correctAnswer": "Halftime",
+    "explanation": "Halftime is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "football",
+      "easy",
+      "halftime"
+    ]
+  },
+  {
+    "id": 13024,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Portuguese club did Cristiano Ronaldo first play for professionally?",
+    "answers": [
+      "Benfica",
+      "Porto",
+      "Braga",
+      "Sporting CP"
+    ],
+    "correctAnswer": "Sporting CP",
+    "explanation": "Sporting CP is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "sporting"
+    ]
+  },
+  {
+    "id": 13025,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country is home to the football club Juventus?",
+    "answers": [
+      "Italy",
+      "Spain",
+      "Germany",
+      "France"
+    ],
+    "correctAnswer": "Italy",
+    "explanation": "Italy is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "easy",
+      "italy"
+    ]
+  },
+  {
+    "id": 13026,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which player famously won the 2006 Ballon d'Or after starring for Italy in the World Cup?",
+    "answers": [
+      "Andrea Pirlo",
+      "Fabio Cannavaro",
+      "Francesco Totti",
+      "Gianluigi Buffon"
+    ],
+    "correctAnswer": "Fabio Cannavaro",
+    "explanation": "Fabio Cannavaro is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "fabio-cannavaro"
+    ]
+  },
+  {
+    "id": 13027,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the curved shot technique often used for free kicks called?",
+    "answers": [
+      "Volley",
+      "Chip",
+      "Curl",
+      "Header"
+    ],
+    "correctAnswer": "Curl",
+    "explanation": "Curl is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "football",
+      "easy",
+      "curl"
+    ]
+  },
+  {
+    "id": 13028,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which club did Erling Haaland play for immediately before Manchester City?",
+    "answers": [
+      "RB Leipzig",
+      "Bayern Munich",
+      "Red Bull Salzburg",
+      "Borussia Dortmund"
+    ],
+    "correctAnswer": "Borussia Dortmund",
+    "explanation": "Borussia Dortmund is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "borussia-dortmund"
+    ]
+  },
+  {
+    "id": 13029,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which nation is nicknamed “La Albiceleste”?",
+    "answers": [
+      "Argentina",
+      "Spain",
+      "Italy",
+      "Uruguay"
+    ],
+    "correctAnswer": "Argentina",
+    "explanation": "Argentina is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "easy",
+      "argentina"
+    ]
+  },
+  {
+    "id": 13030,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which goalkeeper captained Spain to the 2010 FIFA World Cup title?",
+    "answers": [
+      "David de Gea",
+      "Iker Casillas",
+      "Pepe Reina",
+      "Víctor Valdés"
+    ],
+    "correctAnswer": "Iker Casillas",
+    "explanation": "Iker Casillas is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "iker-casillas"
+    ]
+  },
+  {
+    "id": 13031,
+    "category": "football",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which club completed a historic treble under Pep Guardiola in the 2022–23 season?",
+    "answers": [
+      "Barcelona",
+      "Bayern Munich",
+      "Manchester City",
+      "Inter Milan"
+    ],
+    "correctAnswer": "Manchester City",
+    "explanation": "Manchester City is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "hard",
+      "manchester-city"
+    ]
+  },
+  {
+    "id": 13032,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which player is famous for wearing a protective mask during some matches after facial injuries?",
+    "answers": [
+      "Kevin De Bruyne",
+      "Harry Kane",
+      "Pedri",
+      "Victor Osimhen"
+    ],
+    "correctAnswer": "Victor Osimhen",
+    "explanation": "Victor Osimhen is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "easy",
+      "victor-osimhen"
+    ]
+  },
+  {
+    "id": 13033,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which club won the Serie A title in the 2022–23 season?",
+    "answers": [
+      "Napoli",
+      "Juventus",
+      "AC Milan",
+      "Inter Milan"
+    ],
+    "correctAnswer": "Napoli",
+    "explanation": "Napoli is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "napoli"
+    ]
+  },
+  {
+    "id": 13034,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the term for a pass that directly leads to a goal?",
+    "answers": [
+      "Cross",
+      "Assist",
+      "Tackle",
+      "Dribble"
+    ],
+    "correctAnswer": "Assist",
+    "explanation": "Assist is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "football",
+      "easy",
+      "assist"
+    ]
+  },
+  {
+    "id": 13035,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which French player scored a hat-trick in the 2022 FIFA World Cup final?",
+    "answers": [
+      "Antoine Griezmann",
+      "Olivier Giroud",
+      "Kylian Mbappé",
+      "Kingsley Coman"
+    ],
+    "correctAnswer": "Kylian Mbappé",
+    "explanation": "Kylian Mbappé is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "kylian-mbapp"
+    ]
+  },
+  {
+    "id": 13036,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which country’s national team is nicknamed “The Three Lions”?",
+    "answers": [
+      "Netherlands",
+      "Germany",
+      "Belgium",
+      "England"
+    ],
+    "correctAnswer": "England",
+    "explanation": "England is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "easy",
+      "england"
+    ]
+  },
+  {
+    "id": 13037,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which midfielder is famous for playing alongside Xavi and Messi at Barcelona?",
+    "answers": [
+      "Andrés Iniesta",
+      "Sergio Busquets",
+      "Cesc Fàbregas",
+      "David Silva"
+    ],
+    "correctAnswer": "Andrés Iniesta",
+    "explanation": "Andrés Iniesta is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "andr-iniesta"
+    ]
+  },
+  {
+    "id": 13038,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the name of the line that divides the football field into two halves?",
+    "answers": [
+      "Touchline",
+      "Halfway line",
+      "Goal line",
+      "Penalty line"
+    ],
+    "correctAnswer": "Halfway line",
+    "explanation": "Halfway line is the correct answer based on the facts asked in the question.",
+    "tags": [
+      "football",
+      "easy",
+      "halfway-line"
+    ]
+  },
+  {
+    "id": 13039,
+    "category": "football",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which African striker became famous for Napoli and won the 2023 Serie A title?",
+    "answers": [
+      "Sébastien Haller",
+      "Pierre-Emerick Aubameyang",
+      "Victor Osimhen",
+      "Youssef En-Nesyri"
+    ],
+    "correctAnswer": "Victor Osimhen",
+    "explanation": "Victor Osimhen is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "medium",
+      "victor-osimhen"
+    ]
+  },
+  {
+    "id": 13040,
+    "category": "football",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which player is associated with the famous phrase “dreams can’t be buy” after winning the Champions League?",
+    "answers": [
+      "Kevin De Bruyne",
+      "Phil Foden",
+      "Rodri",
+      "Jack Grealish"
+    ],
+    "correctAnswer": "Jack Grealish",
+    "explanation": "Jack Grealish is the correct answer to this football question.",
+    "tags": [
+      "football",
+      "easy",
+      "jack-grealish"
+    ]
+  }
+]

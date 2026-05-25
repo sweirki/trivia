@@ -1,1 +1,3802 @@
-[]
+[
+  {
+    "id": 6001,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage?",
+    "answers": [
+      "Nissan",
+      "Toyota",
+      "Honda",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "The GT-R performance lineage is closely associated with Nissan.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6002,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed?",
+    "answers": [
+      "Suzuka",
+      "Monza",
+      "Silverstone",
+      "Spa-Francorchamps"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "Monza is famous for its high-speed layout.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6003,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines?",
+    "answers": [
+      "Toyota",
+      "Subaru",
+      "Mazda",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "Mazda is strongly associated with rotary sports cars.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6004,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, What does ABS stand for in automotive safety?",
+    "answers": [
+      "Automatic Brake Support",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering",
+      "Anti-lock Braking System"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "ABS helps prevent wheel lock during braking.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6005,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which drivetrain layout is most associated with drifting during the golden era of racing?",
+    "answers": [
+      "Rear-wheel drive",
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6006,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary today?",
+    "answers": [
+      "F50",
+      "F40",
+      "Enzo",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "The F40 celebrated Ferrari's 40th anniversary.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6007,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight today?",
+    "answers": [
+      "Daytona 500",
+      "Bathurst 1000",
+      "24 Hours of Le Mans",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "The Mulsanne Straight is a famous section of Le Mans.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6008,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate today?",
+    "answers": [
+      "918 Spyder",
+      "944",
+      "Cayenne",
+      "911"
+    ],
+    "correctAnswer": "911",
+    "explanation": "The Porsche 911 is the brand's iconic sports car.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6009,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, Which company produces the Corvette today?",
+    "answers": [
+      "Chevrolet",
+      "Ford",
+      "Pontiac",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "The Corvette is Chevrolet's flagship sports car.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6010,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars today?",
+    "answers": [
+      "Lewis Hamilton",
+      "Colin McRae",
+      "Michael Schumacher",
+      "Ayrton Senna"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "Colin McRae became an icon of Subaru rallying.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6011,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage worldwide?",
+    "answers": [
+      "Toyota",
+      "Honda",
+      "Nissan",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "The GT-R performance lineage is closely associated with Nissan.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6012,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed worldwide?",
+    "answers": [
+      "Suzuka",
+      "Silverstone",
+      "Spa-Francorchamps",
+      "Monza"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "Monza is famous for its high-speed layout.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6013,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines worldwide?",
+    "answers": [
+      "Mazda",
+      "Toyota",
+      "Subaru",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "Mazda is strongly associated with rotary sports cars.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6014,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, What does ABS stand for in automotive safety worldwide?",
+    "answers": [
+      "Automatic Brake Support",
+      "Anti-lock Braking System",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "ABS helps prevent wheel lock during braking.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6015,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which drivetrain layout is most associated with drifting worldwide?",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "Rear-wheel drive is strongly linked to drifting culture.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6016,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary in racing history?",
+    "answers": [
+      "F50",
+      "Enzo",
+      "LaFerrari",
+      "F40"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "The F40 celebrated Ferrari's 40th anniversary.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6017,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight in racing history?",
+    "answers": [
+      "24 Hours of Le Mans",
+      "Daytona 500",
+      "Bathurst 1000",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "The Mulsanne Straight is a famous section of Le Mans.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6018,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate in racing history?",
+    "answers": [
+      "918 Spyder",
+      "911",
+      "944",
+      "Cayenne"
+    ],
+    "correctAnswer": "911",
+    "explanation": "The Porsche 911 is the brand's iconic sports car.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6019,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, Which company produces the Corvette in racing history?",
+    "answers": [
+      "Ford",
+      "Pontiac",
+      "Chevrolet",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "The Corvette is Chevrolet's flagship sports car.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6020,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars in racing history?",
+    "answers": [
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Ayrton Senna",
+      "Colin McRae"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "Colin McRae became an icon of Subaru rallying.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6021,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage among collectors?",
+    "answers": [
+      "Nissan",
+      "Toyota",
+      "Honda",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "The GT-R performance lineage is closely associated with Nissan.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6022,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed among collectors?",
+    "answers": [
+      "Suzuka",
+      "Monza",
+      "Silverstone",
+      "Spa-Francorchamps"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "Monza is famous for its high-speed layout.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6023,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines among collectors?",
+    "answers": [
+      "Toyota",
+      "Subaru",
+      "Mazda",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "Mazda is strongly associated with rotary sports cars.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6024,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, What does ABS stand for in automotive safety among collectors?",
+    "answers": [
+      "Automatic Brake Support",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering",
+      "Anti-lock Braking System"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "ABS helps prevent wheel lock during braking.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6025,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which drivetrain layout is most associated with drifting among collectors?",
+    "answers": [
+      "Rear-wheel drive",
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "Rear-wheel drive is strongly linked to drifting culture.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6026,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary?",
+    "answers": [
+      "F50",
+      "F40",
+      "Enzo",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "The F40 celebrated Ferrari's 40th anniversary.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6027,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight?",
+    "answers": [
+      "Daytona 500",
+      "Bathurst 1000",
+      "24 Hours of Le Mans",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "The Mulsanne Straight is a famous section of Le Mans.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6028,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate?",
+    "answers": [
+      "918 Spyder",
+      "944",
+      "Cayenne",
+      "911"
+    ],
+    "correctAnswer": "911",
+    "explanation": "The Porsche 911 is the brand's iconic sports car.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6029,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, Which company produces the Corvette?",
+    "answers": [
+      "Chevrolet",
+      "Ford",
+      "Pontiac",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "The Corvette is Chevrolet's flagship sports car.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6030,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars?",
+    "answers": [
+      "Lewis Hamilton",
+      "Colin McRae",
+      "Michael Schumacher",
+      "Ayrton Senna"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "Colin McRae became an icon of Subaru rallying.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6031,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage today?",
+    "answers": [
+      "Toyota",
+      "Honda",
+      "Nissan",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "The GT-R performance lineage is closely associated with Nissan.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6032,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed today?",
+    "answers": [
+      "Suzuka",
+      "Silverstone",
+      "Spa-Francorchamps",
+      "Monza"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "Monza is famous for its high-speed layout.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6033,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines today?",
+    "answers": [
+      "Mazda",
+      "Toyota",
+      "Subaru",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "Mazda is strongly associated with rotary sports cars.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6034,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, What does ABS stand for in automotive safety today?",
+    "answers": [
+      "Automatic Brake Support",
+      "Anti-lock Braking System",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "ABS helps prevent wheel lock during braking.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6035,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which drivetrain layout is most associated with drifting today?",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "Rear-wheel drive is strongly linked to drifting culture.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6036,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary worldwide?",
+    "answers": [
+      "F50",
+      "Enzo",
+      "LaFerrari",
+      "F40"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "The F40 celebrated Ferrari's 40th anniversary.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6037,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight worldwide?",
+    "answers": [
+      "24 Hours of Le Mans",
+      "Daytona 500",
+      "Bathurst 1000",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "The Mulsanne Straight is a famous section of Le Mans.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6038,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate worldwide?",
+    "answers": [
+      "918 Spyder",
+      "911",
+      "944",
+      "Cayenne"
+    ],
+    "correctAnswer": "911",
+    "explanation": "The Porsche 911 is the brand's iconic sports car.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6039,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, Which company produces the Corvette worldwide?",
+    "answers": [
+      "Ford",
+      "Pontiac",
+      "Chevrolet",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "The Corvette is Chevrolet's flagship sports car.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6040,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars worldwide?",
+    "answers": [
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Ayrton Senna",
+      "Colin McRae"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "Colin McRae became an icon of Subaru rallying.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6041,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage in racing history?",
+    "answers": [
+      "Nissan",
+      "Toyota",
+      "Honda",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "The GT-R performance lineage is closely associated with Nissan.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6042,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed in racing history?",
+    "answers": [
+      "Suzuka",
+      "Monza",
+      "Silverstone",
+      "Spa-Francorchamps"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "Monza is famous for its high-speed layout.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6043,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines in racing history?",
+    "answers": [
+      "Toyota",
+      "Subaru",
+      "Mazda",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "Mazda is strongly associated with rotary sports cars.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6044,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, What does ABS stand for in automotive safety in racing history?",
+    "answers": [
+      "Automatic Brake Support",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering",
+      "Anti-lock Braking System"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "ABS helps prevent wheel lock during braking.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6045,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which drivetrain layout is most associated with drifting in racing history?",
+    "answers": [
+      "Rear-wheel drive",
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "Rear-wheel drive is strongly linked to drifting culture.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6046,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary among collectors?",
+    "answers": [
+      "F50",
+      "F40",
+      "Enzo",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "The F40 celebrated Ferrari's 40th anniversary.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6047,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight among collectors?",
+    "answers": [
+      "Daytona 500",
+      "Bathurst 1000",
+      "24 Hours of Le Mans",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "The Mulsanne Straight is a famous section of Le Mans.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6048,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate among collectors?",
+    "answers": [
+      "918 Spyder",
+      "944",
+      "Cayenne",
+      "911"
+    ],
+    "correctAnswer": "911",
+    "explanation": "The Porsche 911 is the brand's iconic sports car.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6049,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, Which company produces the Corvette among collectors?",
+    "answers": [
+      "Chevrolet",
+      "Ford",
+      "Pontiac",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "The Corvette is Chevrolet's flagship sports car.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6050,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars among collectors?",
+    "answers": [
+      "Lewis Hamilton",
+      "Colin McRae",
+      "Michael Schumacher",
+      "Ayrton Senna"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "Colin McRae became an icon of Subaru rallying.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6051,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage among enthusiasts?",
+    "answers": [
+      "Toyota",
+      "Honda",
+      "Nissan",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6052,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed in motorsport?",
+    "answers": [
+      "Suzuka",
+      "Silverstone",
+      "Spa-Francorchamps",
+      "Monza"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6053,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines in automotive history?",
+    "answers": [
+      "Mazda",
+      "Toyota",
+      "Subaru",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6054,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, What does ABS stand for in automotive safety among enthusiasts?",
+    "answers": [
+      "Automatic Brake Support",
+      "Anti-lock Braking System",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6055,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain layout is most associated with drifting in automotive history?",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6056,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary today in motorsport?",
+    "answers": [
+      "F50",
+      "Enzo",
+      "LaFerrari",
+      "F40"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6057,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight today during the golden era of racing?",
+    "answers": [
+      "24 Hours of Le Mans",
+      "Daytona 500",
+      "Bathurst 1000",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6058,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate today among enthusiasts?",
+    "answers": [
+      "918 Spyder",
+      "911",
+      "944",
+      "Cayenne"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6059,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, Which company produces the Corvette today during the golden era of racing?",
+    "answers": [
+      "Ford",
+      "Pontiac",
+      "Chevrolet",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6060,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars today in automotive history?",
+    "answers": [
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Ayrton Senna",
+      "Colin McRae"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6061,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage worldwide during the golden era of racing?",
+    "answers": [
+      "Nissan",
+      "Toyota",
+      "Honda",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6062,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed worldwide in automotive history?",
+    "answers": [
+      "Suzuka",
+      "Monza",
+      "Silverstone",
+      "Spa-Francorchamps"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6063,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines worldwide in automotive history?",
+    "answers": [
+      "Toyota",
+      "Subaru",
+      "Mazda",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6064,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, What does ABS stand for in automotive safety worldwide during the golden era of racing?",
+    "answers": [
+      "Automatic Brake Support",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering",
+      "Anti-lock Braking System"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6065,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain layout is most associated with drifting worldwide in motorsport?",
+    "answers": [
+      "Rear-wheel drive",
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6066,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary in racing history in motorsport?",
+    "answers": [
+      "F50",
+      "F40",
+      "Enzo",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6067,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight in racing history during the golden era of racing?",
+    "answers": [
+      "Daytona 500",
+      "Bathurst 1000",
+      "24 Hours of Le Mans",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6068,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate in racing history in performance car culture?",
+    "answers": [
+      "918 Spyder",
+      "944",
+      "Cayenne",
+      "911"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6069,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, Which company produces the Corvette in racing history in performance car culture?",
+    "answers": [
+      "Chevrolet",
+      "Ford",
+      "Pontiac",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6070,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars in racing history in performance car culture?",
+    "answers": [
+      "Lewis Hamilton",
+      "Colin McRae",
+      "Michael Schumacher",
+      "Ayrton Senna"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6071,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage among collectors in performance car culture?",
+    "answers": [
+      "Toyota",
+      "Honda",
+      "Nissan",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6072,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed among collectors in motorsport?",
+    "answers": [
+      "Suzuka",
+      "Silverstone",
+      "Spa-Francorchamps",
+      "Monza"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6073,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines among collectors in performance car culture?",
+    "answers": [
+      "Mazda",
+      "Toyota",
+      "Subaru",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6074,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, What does ABS stand for in automotive safety among collectors in performance car culture?",
+    "answers": [
+      "Automatic Brake Support",
+      "Anti-lock Braking System",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6075,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain layout is most associated with drifting among collectors among enthusiasts?",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6076,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary in motorsport?",
+    "answers": [
+      "F50",
+      "Enzo",
+      "LaFerrari",
+      "F40"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6077,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight during the golden era of racing?",
+    "answers": [
+      "24 Hours of Le Mans",
+      "Daytona 500",
+      "Bathurst 1000",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6078,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate in performance car culture?",
+    "answers": [
+      "918 Spyder",
+      "911",
+      "944",
+      "Cayenne"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6079,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, Which company produces the Corvette among enthusiasts?",
+    "answers": [
+      "Ford",
+      "Pontiac",
+      "Chevrolet",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6080,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars in motorsport?",
+    "answers": [
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Ayrton Senna",
+      "Colin McRae"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6081,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage today in automotive history?",
+    "answers": [
+      "Nissan",
+      "Toyota",
+      "Honda",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6082,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed today in automotive history?",
+    "answers": [
+      "Suzuka",
+      "Monza",
+      "Silverstone",
+      "Spa-Francorchamps"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6083,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines today in performance car culture?",
+    "answers": [
+      "Toyota",
+      "Subaru",
+      "Mazda",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6084,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, What does ABS stand for in automotive safety today in automotive history?",
+    "answers": [
+      "Automatic Brake Support",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering",
+      "Anti-lock Braking System"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6085,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain layout is most associated with drifting today in performance car culture?",
+    "answers": [
+      "Rear-wheel drive",
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6086,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary worldwide in motorsport?",
+    "answers": [
+      "F50",
+      "F40",
+      "Enzo",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6087,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight worldwide in motorsport?",
+    "answers": [
+      "Daytona 500",
+      "Bathurst 1000",
+      "24 Hours of Le Mans",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6088,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate worldwide among enthusiasts?",
+    "answers": [
+      "918 Spyder",
+      "944",
+      "Cayenne",
+      "911"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6089,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, Which company produces the Corvette worldwide among enthusiasts?",
+    "answers": [
+      "Chevrolet",
+      "Ford",
+      "Pontiac",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6090,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars worldwide in performance car culture?",
+    "answers": [
+      "Lewis Hamilton",
+      "Colin McRae",
+      "Michael Schumacher",
+      "Ayrton Senna"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6091,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage in racing history among enthusiasts?",
+    "answers": [
+      "Toyota",
+      "Honda",
+      "Nissan",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6092,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed in racing history in performance car culture?",
+    "answers": [
+      "Suzuka",
+      "Silverstone",
+      "Spa-Francorchamps",
+      "Monza"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6093,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines in racing history during the golden era of racing?",
+    "answers": [
+      "Mazda",
+      "Toyota",
+      "Subaru",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6094,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, What does ABS stand for in automotive safety in racing history during the golden era of racing?",
+    "answers": [
+      "Automatic Brake Support",
+      "Anti-lock Braking System",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6095,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain layout is most associated with drifting in racing history in motorsport?",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6096,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary among collectors among enthusiasts?",
+    "answers": [
+      "F50",
+      "Enzo",
+      "LaFerrari",
+      "F40"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6097,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight among collectors in motorsport?",
+    "answers": [
+      "24 Hours of Le Mans",
+      "Daytona 500",
+      "Bathurst 1000",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6098,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate among collectors in automotive history?",
+    "answers": [
+      "918 Spyder",
+      "911",
+      "944",
+      "Cayenne"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6099,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, Which company produces the Corvette among collectors in performance car culture?",
+    "answers": [
+      "Ford",
+      "Pontiac",
+      "Chevrolet",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6100,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars among collectors in automotive history?",
+    "answers": [
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Ayrton Senna",
+      "Colin McRae"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6101,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed in automotive history?",
+    "answers": [
+      "Monza",
+      "Suzuka",
+      "Silverstone",
+      "Spa-Francorchamps"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6102,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain layout is most associated with drifting in performance car culture?",
+    "answers": [
+      "Front-wheel drive",
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6103,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary today in performance car culture?",
+    "answers": [
+      "F50",
+      "Enzo",
+      "F40",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6104,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate today in performance car culture?",
+    "answers": [
+      "918 Spyder",
+      "944",
+      "Cayenne",
+      "911"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6105,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, Which company produces the Corvette today in automotive history?",
+    "answers": [
+      "Chevrolet",
+      "Ford",
+      "Pontiac",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6106,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars today during the golden era of racing?",
+    "answers": [
+      "Lewis Hamilton",
+      "Colin McRae",
+      "Michael Schumacher",
+      "Ayrton Senna"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6107,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage worldwide in automotive history?",
+    "answers": [
+      "Toyota",
+      "Honda",
+      "Nissan",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6108,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed worldwide in performance car culture?",
+    "answers": [
+      "Suzuka",
+      "Silverstone",
+      "Spa-Francorchamps",
+      "Monza"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6109,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, What does ABS stand for in automotive safety worldwide in performance car culture?",
+    "answers": [
+      "Anti-lock Braking System",
+      "Automatic Brake Support",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6110,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain layout is most associated with drifting worldwide among enthusiasts?",
+    "answers": [
+      "Front-wheel drive",
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6111,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary in racing history in performance car culture?",
+    "answers": [
+      "F50",
+      "Enzo",
+      "F40",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6112,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight in racing history in automotive history?",
+    "answers": [
+      "Daytona 500",
+      "Bathurst 1000",
+      "Indianapolis 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6113,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate in racing history among enthusiasts?",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "944",
+      "Cayenne"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6114,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, Which company produces the Corvette in racing history in motorsport?",
+    "answers": [
+      "Ford",
+      "Chevrolet",
+      "Pontiac",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6115,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars in racing history among enthusiasts?",
+    "answers": [
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Colin McRae",
+      "Ayrton Senna"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6116,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage among collectors during the golden era of racing?",
+    "answers": [
+      "Toyota",
+      "Honda",
+      "Mazda",
+      "Nissan"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6117,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed among collectors in performance car culture?",
+    "answers": [
+      "Monza",
+      "Suzuka",
+      "Silverstone",
+      "Spa-Francorchamps"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6118,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, What does ABS stand for in automotive safety among collectors in motorsport?",
+    "answers": [
+      "Automatic Brake Support",
+      "Anti-lock Braking System",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6119,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary during the golden era of racing?",
+    "answers": [
+      "F50",
+      "Enzo",
+      "F40",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6120,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight in performance car culture?",
+    "answers": [
+      "Daytona 500",
+      "Bathurst 1000",
+      "Indianapolis 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6121,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate during the golden era of racing?",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "944",
+      "Cayenne"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6122,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars during the golden era of racing?",
+    "answers": [
+      "Lewis Hamilton",
+      "Colin McRae",
+      "Michael Schumacher",
+      "Ayrton Senna"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6123,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage today in motorsport?",
+    "answers": [
+      "Toyota",
+      "Honda",
+      "Nissan",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6124,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed today during the golden era of racing?",
+    "answers": [
+      "Suzuka",
+      "Silverstone",
+      "Spa-Francorchamps",
+      "Monza"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6125,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain layout is most associated with drifting today among enthusiasts?",
+    "answers": [
+      "Rear-wheel drive",
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6126,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate worldwide in automotive history?",
+    "answers": [
+      "918 Spyder",
+      "911",
+      "944",
+      "Cayenne"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6127,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, Which company produces the Corvette worldwide in automotive history?",
+    "answers": [
+      "Ford",
+      "Pontiac",
+      "Chevrolet",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6128,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars worldwide in motorsport?",
+    "answers": [
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Ayrton Senna",
+      "Colin McRae"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6129,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed in racing history in motorsport?",
+    "answers": [
+      "Monza",
+      "Suzuka",
+      "Silverstone",
+      "Spa-Francorchamps"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6130,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines in racing history in automotive history?",
+    "answers": [
+      "Toyota",
+      "Mazda",
+      "Subaru",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6131,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, What does ABS stand for in automotive safety in racing history in motorsport?",
+    "answers": [
+      "Automatic Brake Support",
+      "Auto Brake Sensor",
+      "Anti-lock Braking System",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6132,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain layout is most associated with drifting in racing history during the golden era of racing?",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6133,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary among collectors in performance car culture?",
+    "answers": [
+      "F40",
+      "F50",
+      "Enzo",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6134,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight among collectors in performance car culture?",
+    "answers": [
+      "Daytona 500",
+      "24 Hours of Le Mans",
+      "Bathurst 1000",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6135,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate among collectors in motorsport?",
+    "answers": [
+      "918 Spyder",
+      "944",
+      "911",
+      "Cayenne"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6136,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, Which company produces the Corvette among collectors in automotive history?",
+    "answers": [
+      "Ford",
+      "Pontiac",
+      "Dodge",
+      "Chevrolet"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6137,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars among collectors during the golden era of racing?",
+    "answers": [
+      "Colin McRae",
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Ayrton Senna"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6138,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage in automotive history?",
+    "answers": [
+      "Toyota",
+      "Nissan",
+      "Honda",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6139,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed among enthusiasts?",
+    "answers": [
+      "Suzuka",
+      "Silverstone",
+      "Monza",
+      "Spa-Francorchamps"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6140,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines during the golden era of racing?",
+    "answers": [
+      "Toyota",
+      "Subaru",
+      "Mitsubishi",
+      "Mazda"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6141,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In performance car culture, What does ABS stand for in automotive safety during the golden era of racing?",
+    "answers": [
+      "Anti-lock Braking System",
+      "Automatic Brake Support",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6142,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight today in motorsport?",
+    "answers": [
+      "Daytona 500",
+      "24 Hours of Le Mans",
+      "Bathurst 1000",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6143,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate today in automotive history?",
+    "answers": [
+      "918 Spyder",
+      "944",
+      "911",
+      "Cayenne"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6144,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In performance car culture, Which company produces the Corvette today in performance car culture?",
+    "answers": [
+      "Ford",
+      "Pontiac",
+      "Dodge",
+      "Chevrolet"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6145,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage worldwide among enthusiasts?",
+    "answers": [
+      "Nissan",
+      "Toyota",
+      "Honda",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6146,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines worldwide among enthusiasts?",
+    "answers": [
+      "Toyota",
+      "Mazda",
+      "Subaru",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6147,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In performance car culture, What does ABS stand for in automotive safety worldwide in motorsport?",
+    "answers": [
+      "Automatic Brake Support",
+      "Auto Brake Sensor",
+      "Anti-lock Braking System",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6148,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary in racing history among enthusiasts?",
+    "answers": [
+      "F50",
+      "Enzo",
+      "LaFerrari",
+      "F40"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6149,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight in racing history among enthusiasts?",
+    "answers": [
+      "24 Hours of Le Mans",
+      "Daytona 500",
+      "Bathurst 1000",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6150,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate in racing history in motorsport?",
+    "answers": [
+      "918 Spyder",
+      "911",
+      "944",
+      "Cayenne"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6151,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In performance car culture, Which company produces the Corvette in racing history in automotive history?",
+    "answers": [
+      "Ford",
+      "Pontiac",
+      "Chevrolet",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6152,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars in racing history during the golden era of racing?",
+    "answers": [
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Ayrton Senna",
+      "Colin McRae"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6153,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed among collectors among enthusiasts?",
+    "answers": [
+      "Monza",
+      "Suzuka",
+      "Silverstone",
+      "Spa-Francorchamps"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6154,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines among collectors in motorsport?",
+    "answers": [
+      "Toyota",
+      "Mazda",
+      "Subaru",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6155,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In performance car culture, What does ABS stand for in automotive safety among collectors among enthusiasts?",
+    "answers": [
+      "Automatic Brake Support",
+      "Auto Brake Sensor",
+      "Anti-lock Braking System",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6156,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which drivetrain layout is most associated with drifting among collectors in motorsport?",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6157,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary in performance car culture?",
+    "answers": [
+      "F40",
+      "F50",
+      "Enzo",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6158,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In performance car culture, Which company produces the Corvette in automotive history?",
+    "answers": [
+      "Ford",
+      "Chevrolet",
+      "Pontiac",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6159,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars in performance car culture?",
+    "answers": [
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Colin McRae",
+      "Ayrton Senna"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6160,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines today in motorsport?",
+    "answers": [
+      "Toyota",
+      "Subaru",
+      "Mitsubishi",
+      "Mazda"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6161,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In performance car culture, What does ABS stand for in automotive safety today in motorsport?",
+    "answers": [
+      "Anti-lock Braking System",
+      "Automatic Brake Support",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6162,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary worldwide in performance car culture?",
+    "answers": [
+      "F50",
+      "F40",
+      "Enzo",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6163,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate worldwide during the golden era of racing?",
+    "answers": [
+      "918 Spyder",
+      "944",
+      "911",
+      "Cayenne"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6164,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage in racing history in performance car culture?",
+    "answers": [
+      "Toyota",
+      "Honda",
+      "Mazda",
+      "Nissan"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6165,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines in racing history among enthusiasts?",
+    "answers": [
+      "Mazda",
+      "Toyota",
+      "Subaru",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6166,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which drivetrain layout is most associated with drifting in racing history among enthusiasts?",
+    "answers": [
+      "Front-wheel drive",
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6167,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In performance car culture, Which company produces the Corvette among collectors among enthusiasts?",
+    "answers": [
+      "Ford",
+      "Pontiac",
+      "Chevrolet",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6168,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars among collectors in motorsport?",
+    "answers": [
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Ayrton Senna",
+      "Colin McRae"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6169,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines among enthusiasts?",
+    "answers": [
+      "Mazda",
+      "Toyota",
+      "Subaru",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6170,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which drivetrain layout is most associated with drifting among enthusiasts?",
+    "answers": [
+      "Front-wheel drive",
+      "Rear-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6171,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary today in automotive history?",
+    "answers": [
+      "F50",
+      "Enzo",
+      "F40",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6172,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight today among enthusiasts?",
+    "answers": [
+      "Daytona 500",
+      "Bathurst 1000",
+      "Indianapolis 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6173,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Porsche model is most closely linked to the 911 nameplate today during the golden era of racing?",
+    "answers": [
+      "911",
+      "918 Spyder",
+      "944",
+      "Cayenne"
+    ],
+    "correctAnswer": "911",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "porsche"
+    ]
+  },
+  {
+    "id": 6174,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage worldwide in motorsport?",
+    "answers": [
+      "Toyota",
+      "Nissan",
+      "Honda",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6175,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which drivetrain layout is most associated with drifting worldwide during the golden era of racing?",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Hybrid drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6176,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage among collectors among enthusiasts?",
+    "answers": [
+      "Toyota",
+      "Honda",
+      "Mazda",
+      "Nissan"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6177,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which racetrack is nicknamed the Temple of Speed among collectors during the golden era of racing?",
+    "answers": [
+      "Monza",
+      "Suzuka",
+      "Silverstone",
+      "Spa-Francorchamps"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "tracks"
+    ]
+  },
+  {
+    "id": 6178,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, What does ABS stand for in automotive safety among collectors during the golden era of racing?",
+    "answers": [
+      "Automatic Brake Support",
+      "Anti-lock Braking System",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6179,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary in automotive history?",
+    "answers": [
+      "F50",
+      "Enzo",
+      "F40",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6180,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight in motorsport?",
+    "answers": [
+      "Daytona 500",
+      "Bathurst 1000",
+      "Indianapolis 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6181,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, Which company produces the Corvette in performance car culture?",
+    "answers": [
+      "Chevrolet",
+      "Ford",
+      "Pontiac",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6182,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage today among enthusiasts?",
+    "answers": [
+      "Toyota",
+      "Nissan",
+      "Honda",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6183,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines today among enthusiasts?",
+    "answers": [
+      "Toyota",
+      "Subaru",
+      "Mazda",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6184,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which drivetrain layout is most associated with drifting today in motorsport?",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6185,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight worldwide in performance car culture?",
+    "answers": [
+      "24 Hours of Le Mans",
+      "Daytona 500",
+      "Bathurst 1000",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6186,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, Which company produces the Corvette worldwide during the golden era of racing?",
+    "answers": [
+      "Ford",
+      "Chevrolet",
+      "Pontiac",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6187,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which rally driver became famous with Subaru's blue-and-gold rally cars worldwide among enthusiasts?",
+    "answers": [
+      "Lewis Hamilton",
+      "Michael Schumacher",
+      "Colin McRae",
+      "Ayrton Senna"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "rally"
+    ]
+  },
+  {
+    "id": 6188,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage in racing history during the golden era of racing?",
+    "answers": [
+      "Toyota",
+      "Honda",
+      "Mazda",
+      "Nissan"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6189,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines in racing history in performance car culture?",
+    "answers": [
+      "Mazda",
+      "Toyota",
+      "Subaru",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6190,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, What does ABS stand for in automotive safety in racing history in performance car culture?",
+    "answers": [
+      "Automatic Brake Support",
+      "Anti-lock Braking System",
+      "Auto Brake Sensor",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6191,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary among collectors during the golden era of racing?",
+    "answers": [
+      "F50",
+      "Enzo",
+      "F40",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6192,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In automotive history, Which endurance race is famous for the Mulsanne Straight among collectors among enthusiasts?",
+    "answers": [
+      "Daytona 500",
+      "Bathurst 1000",
+      "Indianapolis 500",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 6193,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In performance car culture, Which company produces the Corvette among collectors in motorsport?",
+    "answers": [
+      "Chevrolet",
+      "Ford",
+      "Pontiac",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6194,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which automaker created the GT-R performance lineage during the golden era of racing?",
+    "answers": [
+      "Toyota",
+      "Nissan",
+      "Honda",
+      "Mazda"
+    ],
+    "correctAnswer": "Nissan",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6195,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For motorsport fans, Which Japanese brand became famous for rotary engines in performance car culture?",
+    "answers": [
+      "Toyota",
+      "Subaru",
+      "Mazda",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Mazda",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "jdm"
+    ]
+  },
+  {
+    "id": 6196,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain layout is most associated with drifting in motorsport?",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  },
+  {
+    "id": 6197,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Among enthusiasts, Which Ferrari model celebrated Ferrari's 40th anniversary today among enthusiasts?",
+    "answers": [
+      "F40",
+      "F50",
+      "Enzo",
+      "LaFerrari"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 6198,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, Which company produces the Corvette today in motorsport?",
+    "answers": [
+      "Ford",
+      "Chevrolet",
+      "Pontiac",
+      "Dodge"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "muscle"
+    ]
+  },
+  {
+    "id": 6199,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In performance car culture, What does ABS stand for in automotive safety worldwide among enthusiasts?",
+    "answers": [
+      "Automatic Brake Support",
+      "Auto Brake Sensor",
+      "Anti-lock Braking System",
+      "Advanced Balance Steering"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "technology"
+    ]
+  },
+  {
+    "id": 6200,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain layout is most associated with drifting worldwide in performance car culture?",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Hybrid drive",
+      "Rear-wheel drive"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "This question highlights an iconic part of automotive culture, motorsport, or performance engineering.",
+    "tags": [
+      "cars",
+      "culture"
+    ]
+  }
+]

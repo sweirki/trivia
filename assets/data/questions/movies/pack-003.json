@@ -1,1 +1,3833 @@
-[]
+[
+  {
+    "id": 36001,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie follows a man trying to survive alone on Mars?",
+    "answers": [
+      "The Martian",
+      "Gravity",
+      "Interstellar",
+      "Ad Astra"
+    ],
+    "correctAnswer": "The Martian",
+    "explanation": "The Martian is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "martian"
+    ]
+  },
+  {
+    "id": 36002,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played Batman in Christopher Nolan’s Dark Knight trilogy?",
+    "answers": [
+      "Ben Affleck",
+      "Christian Bale",
+      "Michael Keaton",
+      "Robert Pattinson"
+    ],
+    "correctAnswer": "Christian Bale",
+    "explanation": "Christian Bale is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "christian-bale"
+    ]
+  },
+  {
+    "id": 36003,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a family with superpowers?",
+    "answers": [
+      "Big Hero 6",
+      "Megamind",
+      "The Incredibles",
+      "Sky High"
+    ],
+    "correctAnswer": "The Incredibles",
+    "explanation": "The Incredibles is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "incredibles"
+    ]
+  },
+  {
+    "id": 36004,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film features a haunted hotel called the Overlook?",
+    "answers": [
+      "Psycho",
+      "The Conjuring",
+      "Insidious",
+      "The Shining"
+    ],
+    "correctAnswer": "The Shining",
+    "explanation": "The Shining is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "shining"
+    ]
+  },
+  {
+    "id": 36005,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character Jake LaMotta?",
+    "answers": [
+      "Raging Bull",
+      "Rocky",
+      "The Fighter",
+      "Cinderella Man"
+    ],
+    "correctAnswer": "Raging Bull",
+    "explanation": "Raging Bull is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "hard",
+      "raging-bull"
+    ]
+  },
+  {
+    "id": 36006,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film follows a poor family infiltrating a wealthy household?",
+    "answers": [
+      "Minari",
+      "Parasite",
+      "Roma",
+      "Burning"
+    ],
+    "correctAnswer": "Parasite",
+    "explanation": "Parasite is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "parasite"
+    ]
+  },
+  {
+    "id": 36007,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played Forrest Gump’s friend Lieutenant Dan?",
+    "answers": [
+      "Robin Wright",
+      "Tom Hanks",
+      "Gary Sinise",
+      "Mykelti Williamson"
+    ],
+    "correctAnswer": "Gary Sinise",
+    "explanation": "Gary Sinise is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "gary-sinise"
+    ]
+  },
+  {
+    "id": 36008,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie follows a computer hacker named Thomas Anderson?",
+    "answers": [
+      "Tron",
+      "WarGames",
+      "Sneakers",
+      "The Matrix"
+    ],
+    "correctAnswer": "The Matrix",
+    "explanation": "The Matrix is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "matrix"
+    ]
+  },
+  {
+    "id": 36009,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young woman named Rapunzel?",
+    "answers": [
+      "Tangled",
+      "Frozen",
+      "Cinderella",
+      "Beauty and the Beast"
+    ],
+    "correctAnswer": "Tangled",
+    "explanation": "Tangled is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "tangled"
+    ]
+  },
+  {
+    "id": 36010,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character Salieri competing with Mozart?",
+    "answers": [
+      "Immortal Beloved",
+      "Amadeus",
+      "Shine",
+      "The Pianist"
+    ],
+    "correctAnswer": "Amadeus",
+    "explanation": "Amadeus is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "hard",
+      "amadeus"
+    ]
+  },
+  {
+    "id": 36011,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in Mission: Impossible?",
+    "answers": [
+      "Matt Damon",
+      "Keanu Reeves",
+      "Tom Cruise",
+      "Brad Pitt"
+    ],
+    "correctAnswer": "Tom Cruise",
+    "explanation": "Tom Cruise is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "tom-cruise"
+    ]
+  },
+  {
+    "id": 36012,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a singing family living in a magical house?",
+    "answers": [
+      "Coco",
+      "Moana",
+      "Frozen",
+      "Encanto"
+    ],
+    "correctAnswer": "Encanto",
+    "explanation": "Encanto is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "encanto"
+    ]
+  },
+  {
+    "id": 36013,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film follows a boxer named Rocky Balboa?",
+    "answers": [
+      "Rocky",
+      "Creed",
+      "Raging Bull",
+      "The Fighter"
+    ],
+    "correctAnswer": "Rocky",
+    "explanation": "Rocky is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "rocky"
+    ]
+  },
+  {
+    "id": 36014,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a giant ape called King Kong?",
+    "answers": [
+      "Godzilla",
+      "King Kong",
+      "Rampage",
+      "Pacific Rim"
+    ],
+    "correctAnswer": "King Kong",
+    "explanation": "King Kong is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "king-kong"
+    ]
+  },
+  {
+    "id": 36015,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which director made the films Mulholland Drive and Blue Velvet?",
+    "answers": [
+      "David Fincher",
+      "Paul Thomas Anderson",
+      "David Lynch",
+      "Terrence Malick"
+    ],
+    "correctAnswer": "David Lynch",
+    "explanation": "David Lynch is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "hard",
+      "david-lynch"
+    ]
+  },
+  {
+    "id": 36016,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a superhero named Captain America?",
+    "answers": [
+      "Iron Man",
+      "Thor",
+      "Black Panther",
+      "Captain America"
+    ],
+    "correctAnswer": "Captain America",
+    "explanation": "Captain America is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "captain-america"
+    ]
+  },
+  {
+    "id": 36017,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features dinosaurs roaming a theme park island?",
+    "answers": [
+      "Jurassic Park",
+      "Godzilla",
+      "King Kong",
+      "The Meg"
+    ],
+    "correctAnswer": "Jurassic Park",
+    "explanation": "Jurassic Park is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "jurassic-park"
+    ]
+  },
+  {
+    "id": 36018,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie follows a young hobbit named Frodo on a dangerous quest?",
+    "answers": [
+      "Harry Potter",
+      "The Lord of the Rings",
+      "The Chronicles of Narnia",
+      "Eragon"
+    ],
+    "correctAnswer": "The Lord of the Rings",
+    "explanation": "The Lord of the Rings is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "lord-rings"
+    ]
+  },
+  {
+    "id": 36019,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played Caesar in the modern Planet of the Apes films?",
+    "answers": [
+      "Hugh Jackman",
+      "Mark Ruffalo",
+      "Andy Serkis",
+      "Benedict Cumberbatch"
+    ],
+    "correctAnswer": "Andy Serkis",
+    "explanation": "Andy Serkis is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "andy-serkis"
+    ]
+  },
+  {
+    "id": 36020,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young girl falling into Wonderland?",
+    "answers": [
+      "The Wizard of Oz",
+      "Peter Pan",
+      "Mary Poppins",
+      "Alice in Wonderland"
+    ],
+    "correctAnswer": "Alice in Wonderland",
+    "explanation": "Alice in Wonderland is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "alice-wonderland"
+    ]
+  },
+  {
+    "id": 36021,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film follows a man trying to clear his name after being framed for murder?",
+    "answers": [
+      "The Fugitive",
+      "Taken",
+      "Speed",
+      "Air Force One"
+    ],
+    "correctAnswer": "The Fugitive",
+    "explanation": "The Fugitive is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "fugitive"
+    ]
+  },
+  {
+    "id": 36022,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young elephant with oversized ears?",
+    "answers": [
+      "Bambi",
+      "Dumbo",
+      "Bolt",
+      "The Jungle Book"
+    ],
+    "correctAnswer": "Dumbo",
+    "explanation": "Dumbo is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "dumbo"
+    ]
+  },
+  {
+    "id": 36023,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in The Bourne Identity?",
+    "answers": [
+      "Tom Cruise",
+      "Brad Pitt",
+      "Matt Damon",
+      "Mark Wahlberg"
+    ],
+    "correctAnswer": "Matt Damon",
+    "explanation": "Matt Damon is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "matt-damon"
+    ]
+  },
+  {
+    "id": 36024,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie franchise features a spy named James Bond?",
+    "answers": [
+      "Mission: Impossible",
+      "Jason Bourne",
+      "Kingsman",
+      "James Bond"
+    ],
+    "correctAnswer": "James Bond",
+    "explanation": "James Bond is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "james-bond"
+    ]
+  },
+  {
+    "id": 36025,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film features a young chess prodigy named Beth Harmon?",
+    "answers": [
+      "The Queen’s Gambit",
+      "Searching for Bobby Fischer",
+      "Pawn Sacrifice",
+      "Queen of Katwe"
+    ],
+    "correctAnswer": "The Queen’s Gambit",
+    "explanation": "The Queen’s Gambit is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "queen-gambit"
+    ]
+  },
+  {
+    "id": 36026,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a video game character named Ralph?",
+    "answers": [
+      "Free Guy",
+      "Wreck-It Ralph",
+      "Pixels",
+      "Ready Player One"
+    ],
+    "correctAnswer": "Wreck-It Ralph",
+    "explanation": "Wreck-It Ralph is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "wreck-ralph"
+    ]
+  },
+  {
+    "id": 36027,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played James Bond in Skyfall?",
+    "answers": [
+      "Pierce Brosnan",
+      "Sean Connery",
+      "Daniel Craig",
+      "Roger Moore"
+    ],
+    "correctAnswer": "Daniel Craig",
+    "explanation": "Daniel Craig is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "daniel-craig"
+    ]
+  },
+  {
+    "id": 36028,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character Colonel Kurtz?",
+    "answers": [
+      "Platoon",
+      "Full Metal Jacket",
+      "The Deer Hunter",
+      "Apocalypse Now"
+    ],
+    "correctAnswer": "Apocalypse Now",
+    "explanation": "Apocalypse Now is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "hard",
+      "apocalypse-now"
+    ]
+  },
+  {
+    "id": 36029,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a bear named Baloo?",
+    "answers": [
+      "The Jungle Book",
+      "Brother Bear",
+      "Winnie the Pooh",
+      "Paddington"
+    ],
+    "correctAnswer": "The Jungle Book",
+    "explanation": "The Jungle Book is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "jungle-book"
+    ]
+  },
+  {
+    "id": 36030,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in The Social Network?",
+    "answers": [
+      "Andrew Garfield",
+      "Jesse Eisenberg",
+      "Joseph Gordon-Levitt",
+      "Michael Cera"
+    ],
+    "correctAnswer": "Jesse Eisenberg",
+    "explanation": "Jesse Eisenberg is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "jesse-eisenberg"
+    ]
+  },
+  {
+    "id": 36031,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie follows a blue tang fish named Dory?",
+    "answers": [
+      "Finding Nemo",
+      "Shark Tale",
+      "Finding Dory",
+      "Luca"
+    ],
+    "correctAnswer": "Finding Dory",
+    "explanation": "Finding Dory is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "finding-dory"
+    ]
+  },
+  {
+    "id": 36032,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film follows a man wrongly imprisoned who befriends Red?",
+    "answers": [
+      "The Green Mile",
+      "Escape from Alcatraz",
+      "Papillon",
+      "The Shawshank Redemption"
+    ],
+    "correctAnswer": "The Shawshank Redemption",
+    "explanation": "The Shawshank Redemption is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "shawshank-redemption"
+    ]
+  },
+  {
+    "id": 36033,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animated movie features a red panda transformation?",
+    "answers": [
+      "Turning Red",
+      "Brave",
+      "Elemental",
+      "Luca"
+    ],
+    "correctAnswer": "Turning Red",
+    "explanation": "Turning Red is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "turning-red"
+    ]
+  },
+  {
+    "id": 36034,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in Oppenheimer?",
+    "answers": [
+      "Robert Downey Jr.",
+      "Cillian Murphy",
+      "Matt Damon",
+      "Christian Bale"
+    ],
+    "correctAnswer": "Cillian Murphy",
+    "explanation": "Cillian Murphy is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "cillian-murphy"
+    ]
+  },
+  {
+    "id": 36035,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a bear from Peru who loves marmalade?",
+    "answers": [
+      "Winnie the Pooh",
+      "Brother Bear",
+      "Paddington",
+      "Ted"
+    ],
+    "correctAnswer": "Paddington",
+    "explanation": "Paddington is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "paddington"
+    ]
+  },
+  {
+    "id": 36036,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie follows a group of magicians pulling off elaborate heists?",
+    "answers": [
+      "The Prestige",
+      "Ocean’s Eleven",
+      "Inside Man",
+      "Now You See Me"
+    ],
+    "correctAnswer": "Now You See Me",
+    "explanation": "Now You See Me is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "now-you"
+    ]
+  },
+  {
+    "id": 36037,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young boy raised by wolves in the jungle?",
+    "answers": [
+      "The Jungle Book",
+      "Tarzan",
+      "Brother Bear",
+      "The Lion King"
+    ],
+    "correctAnswer": "The Jungle Book",
+    "explanation": "The Jungle Book is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "jungle-book"
+    ]
+  },
+  {
+    "id": 36038,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character Guido Orefice protecting his son during wartime?",
+    "answers": [
+      "Cinema Paradiso",
+      "Life Is Beautiful",
+      "The Pianist",
+      "The Lives of Others"
+    ],
+    "correctAnswer": "Life Is Beautiful",
+    "explanation": "Life Is Beautiful is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "hard",
+      "life-beautiful"
+    ]
+  },
+  {
+    "id": 36039,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a superhero named Doctor Strange?",
+    "answers": [
+      "Thor",
+      "Iron Man",
+      "Doctor Strange",
+      "Black Panther"
+    ],
+    "correctAnswer": "Doctor Strange",
+    "explanation": "Doctor Strange is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "doctor-strange"
+    ]
+  },
+  {
+    "id": 36040,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in The Hangover as Phil?",
+    "answers": [
+      "Zach Galifianakis",
+      "Ed Helms",
+      "Paul Rudd",
+      "Bradley Cooper"
+    ],
+    "correctAnswer": "Bradley Cooper",
+    "explanation": "Bradley Cooper is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "bradley-cooper"
+    ]
+  },
+  {
+    "id": 36041,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a team of talking emotions?",
+    "answers": [
+      "Inside Out",
+      "Soul",
+      "Elemental",
+      "Coco"
+    ],
+    "correctAnswer": "Inside Out",
+    "explanation": "Inside Out is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "inside-out"
+    ]
+  },
+  {
+    "id": 36042,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film follows a computer-generated host named Truman Burbank?",
+    "answers": [
+      "Free Guy",
+      "The Truman Show",
+      "The Matrix",
+      "Ready Player One"
+    ],
+    "correctAnswer": "The Truman Show",
+    "explanation": "The Truman Show is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "truman-show"
+    ]
+  },
+  {
+    "id": 36043,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a sea demigod named Maui?",
+    "answers": [
+      "Hercules",
+      "Coco",
+      "Moana",
+      "Encanto"
+    ],
+    "correctAnswer": "Moana",
+    "explanation": "Moana is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "moana"
+    ]
+  },
+  {
+    "id": 36044,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in The Notebook?",
+    "answers": [
+      "Channing Tatum",
+      "Ryan Reynolds",
+      "Jake Gyllenhaal",
+      "Ryan Gosling"
+    ],
+    "correctAnswer": "Ryan Gosling",
+    "explanation": "Ryan Gosling is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "ryan-gosling"
+    ]
+  },
+  {
+    "id": 36045,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young girl named Matilda with special powers?",
+    "answers": [
+      "Matilda",
+      "Annie",
+      "Madeline",
+      "Coraline"
+    ],
+    "correctAnswer": "Matilda",
+    "explanation": "Matilda is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "matilda"
+    ]
+  },
+  {
+    "id": 36046,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film features a criminal mastermind named Hans Gruber?",
+    "answers": [
+      "Lethal Weapon",
+      "Die Hard",
+      "Speed",
+      "Face/Off"
+    ],
+    "correctAnswer": "Die Hard",
+    "explanation": "Die Hard is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "die-hard"
+    ]
+  },
+  {
+    "id": 36047,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young boy named Miguel and the song “Remember Me”?",
+    "answers": [
+      "Encanto",
+      "Soul",
+      "Coco",
+      "The Book of Life"
+    ],
+    "correctAnswer": "Coco",
+    "explanation": "Coco is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "coco"
+    ]
+  },
+  {
+    "id": 36048,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character Guido Anselmi struggling to make a movie?",
+    "answers": [
+      "La Dolce Vita",
+      "Cinema Paradiso",
+      "The Great Beauty",
+      "8½"
+    ],
+    "correctAnswer": "8½",
+    "explanation": "8½ is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 36049,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie follows a man named Gru and his Minions?",
+    "answers": [
+      "Despicable Me",
+      "Megamind",
+      "The Incredibles",
+      "Shrek"
+    ],
+    "correctAnswer": "Despicable Me",
+    "explanation": "Despicable Me is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "despicable"
+    ]
+  },
+  {
+    "id": 36050,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in A Beautiful Mind?",
+    "answers": [
+      "Tom Hanks",
+      "Russell Crowe",
+      "Sean Penn",
+      "Kevin Spacey"
+    ],
+    "correctAnswer": "Russell Crowe",
+    "explanation": "Russell Crowe is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "russell-crowe"
+    ]
+  },
+  {
+    "id": 36051,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young girl entering a spirit world after her parents transform into pigs?",
+    "answers": [
+      "Ponyo",
+      "My Neighbor Totoro",
+      "Spirited Away",
+      "Howl’s Moving Castle"
+    ],
+    "correctAnswer": "Spirited Away",
+    "explanation": "Spirited Away is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "spirited-away"
+    ]
+  },
+  {
+    "id": 36052,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie follows a rivalry between two magicians in Victorian London?",
+    "answers": [
+      "The Illusionist",
+      "Now You See Me",
+      "Hugo",
+      "The Prestige"
+    ],
+    "correctAnswer": "The Prestige",
+    "explanation": "The Prestige is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "prestige"
+    ]
+  },
+  {
+    "id": 36053,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a superhero named Ant-Man?",
+    "answers": [
+      "Ant-Man",
+      "Iron Man",
+      "Spider-Man",
+      "Doctor Strange"
+    ],
+    "correctAnswer": "Ant-Man",
+    "explanation": "Ant-Man is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "ant-man"
+    ]
+  },
+  {
+    "id": 36054,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played Freddie Mercury in Bohemian Rhapsody?",
+    "answers": [
+      "Taron Egerton",
+      "Rami Malek",
+      "Austin Butler",
+      "Eddie Redmayne"
+    ],
+    "correctAnswer": "Rami Malek",
+    "explanation": "Rami Malek is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "rami-malek"
+    ]
+  },
+  {
+    "id": 36055,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young boy who boards a magical train to the North Pole?",
+    "answers": [
+      "Home Alone",
+      "Elf",
+      "The Polar Express",
+      "A Christmas Carol"
+    ],
+    "correctAnswer": "The Polar Express",
+    "explanation": "The Polar Express is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "polar-express"
+    ]
+  },
+  {
+    "id": 36056,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film features a hotel assassin organization called the Continental?",
+    "answers": [
+      "Nobody",
+      "Taken",
+      "The Equalizer",
+      "John Wick"
+    ],
+    "correctAnswer": "John Wick",
+    "explanation": "John Wick is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "john-wick"
+    ]
+  },
+  {
+    "id": 36057,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young girl named Lilo and an alien named Stitch?",
+    "answers": [
+      "Lilo & Stitch",
+      "Moana",
+      "Home",
+      "WALL-E"
+    ],
+    "correctAnswer": "Lilo & Stitch",
+    "explanation": "Lilo & Stitch is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "lilo-stitch"
+    ]
+  },
+  {
+    "id": 36058,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character Terry Malloy saying he could have been a contender?",
+    "answers": [
+      "Raging Bull",
+      "On the Waterfront",
+      "The Hustler",
+      "A Streetcar Named Desire"
+    ],
+    "correctAnswer": "On the Waterfront",
+    "explanation": "On the Waterfront is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "hard",
+      "waterfront"
+    ]
+  },
+  {
+    "id": 36059,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a boy named Charlie visiting a chocolate factory?",
+    "answers": [
+      "Matilda",
+      "The BFG",
+      "Willy Wonka & the Chocolate Factory",
+      "James and the Giant Peach"
+    ],
+    "correctAnswer": "Willy Wonka & the Chocolate Factory",
+    "explanation": "Willy Wonka & the Chocolate Factory is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "willy-wonka"
+    ]
+  },
+  {
+    "id": 36060,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played Elvis Presley in the 2022 film Elvis?",
+    "answers": [
+      "Taron Egerton",
+      "Rami Malek",
+      "Timothée Chalamet",
+      "Austin Butler"
+    ],
+    "correctAnswer": "Austin Butler",
+    "explanation": "Austin Butler is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "austin-butler"
+    ]
+  },
+  {
+    "id": 36061,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a fox named Nick Wilde and a rabbit named Judy Hopps?",
+    "answers": [
+      "Zootopia",
+      "Sing",
+      "Rio",
+      "The Bad Guys"
+    ],
+    "correctAnswer": "Zootopia",
+    "explanation": "Zootopia is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "zootopia"
+    ]
+  },
+  {
+    "id": 36062,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film follows a boxer named Adonis Creed?",
+    "answers": [
+      "Rocky",
+      "Creed",
+      "Southpaw",
+      "The Fighter"
+    ],
+    "correctAnswer": "Creed",
+    "explanation": "Creed is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "creed"
+    ]
+  },
+  {
+    "id": 36063,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a magical carpet ride?",
+    "answers": [
+      "Hercules",
+      "Mulan",
+      "Aladdin",
+      "The Little Mermaid"
+    ],
+    "correctAnswer": "Aladdin",
+    "explanation": "Aladdin is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "aladdin"
+    ]
+  },
+  {
+    "id": 36064,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in The Imitation Game?",
+    "answers": [
+      "Eddie Redmayne",
+      "Colin Firth",
+      "Tom Hiddleston",
+      "Benedict Cumberbatch"
+    ],
+    "correctAnswer": "Benedict Cumberbatch",
+    "explanation": "Benedict Cumberbatch is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "benedict-cumberbatch"
+    ]
+  },
+  {
+    "id": 36065,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young girl and a large forest spirit named Totoro?",
+    "answers": [
+      "My Neighbor Totoro",
+      "Spirited Away",
+      "Ponyo",
+      "Kiki’s Delivery Service"
+    ],
+    "correctAnswer": "My Neighbor Totoro",
+    "explanation": "My Neighbor Totoro is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "neighbor-totoro"
+    ]
+  },
+  {
+    "id": 36066,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film follows a group of thieves planning a casino robbery in Las Vegas?",
+    "answers": [
+      "Now You See Me",
+      "Ocean’s Eleven",
+      "Inside Man",
+      "The Italian Job"
+    ],
+    "correctAnswer": "Ocean’s Eleven",
+    "explanation": "Ocean’s Eleven is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "ocean-eleven"
+    ]
+  },
+  {
+    "id": 36067,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a girl named Dorothy and ruby slippers?",
+    "answers": [
+      "Alice in Wonderland",
+      "Mary Poppins",
+      "The Wizard of Oz",
+      "Peter Pan"
+    ],
+    "correctAnswer": "The Wizard of Oz",
+    "explanation": "The Wizard of Oz is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "wizard"
+    ]
+  },
+  {
+    "id": 36068,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character Anton Ego as a food critic?",
+    "answers": [
+      "Chef",
+      "Julie & Julia",
+      "The Hundred-Foot Journey",
+      "Ratatouille"
+    ],
+    "correctAnswer": "Ratatouille",
+    "explanation": "Ratatouille is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "hard",
+      "ratatouille"
+    ]
+  },
+  {
+    "id": 36069,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a superhero named Shazam?",
+    "answers": [
+      "Shazam!",
+      "Aquaman",
+      "The Flash",
+      "Green Lantern"
+    ],
+    "correctAnswer": "Shazam!",
+    "explanation": "Shazam! is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "shazam"
+    ]
+  },
+  {
+    "id": 36070,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in The King’s Speech?",
+    "answers": [
+      "Geoffrey Rush",
+      "Colin Firth",
+      "Gary Oldman",
+      "Hugh Grant"
+    ],
+    "correctAnswer": "Colin Firth",
+    "explanation": "Colin Firth is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "colin-firth"
+    ]
+  },
+  {
+    "id": 36071,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young girl named Coraline discovering another world?",
+    "answers": [
+      "ParaNorman",
+      "Monster House",
+      "Coraline",
+      "The Boxtrolls"
+    ],
+    "correctAnswer": "Coraline",
+    "explanation": "Coraline is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "coraline"
+    ]
+  },
+  {
+    "id": 36072,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film follows a man aging backward from old age to youth?",
+    "answers": [
+      "Big Fish",
+      "About Time",
+      "The Time Traveler’s Wife",
+      "The Curious Case of Benjamin Button"
+    ],
+    "correctAnswer": "The Curious Case of Benjamin Button",
+    "explanation": "The Curious Case of Benjamin Button is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "curious-case"
+    ]
+  },
+  {
+    "id": 36073,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young boy named Peter Pan who never grows up?",
+    "answers": [
+      "Peter Pan",
+      "Hook",
+      "The Jungle Book",
+      "The Sword in the Stone"
+    ],
+    "correctAnswer": "Peter Pan",
+    "explanation": "Peter Pan is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "peter-pan"
+    ]
+  },
+  {
+    "id": 36074,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in Django Unchained?",
+    "answers": [
+      "Samuel L. Jackson",
+      "Jamie Foxx",
+      "Leonardo DiCaprio",
+      "Christoph Waltz"
+    ],
+    "correctAnswer": "Jamie Foxx",
+    "explanation": "Jamie Foxx is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "jamie-foxx"
+    ]
+  },
+  {
+    "id": 36075,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young woman named Tiana who dreams of opening a restaurant?",
+    "answers": [
+      "Moana",
+      "Cinderella",
+      "The Princess and the Frog",
+      "Beauty and the Beast"
+    ],
+    "correctAnswer": "The Princess and the Frog",
+    "explanation": "The Princess and the Frog is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "princess-frog"
+    ]
+  },
+  {
+    "id": 36076,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film follows a group of friends playing a dangerous board game as adults?",
+    "answers": [
+      "Zathura",
+      "Game Night",
+      "Ready Player One",
+      "Jumanji: Welcome to the Jungle"
+    ],
+    "correctAnswer": "Jumanji: Welcome to the Jungle",
+    "explanation": "Jumanji: Welcome to the Jungle is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "jumanji-welcome"
+    ]
+  },
+  {
+    "id": 36077,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young boy named Mowgli?",
+    "answers": [
+      "The Jungle Book",
+      "Tarzan",
+      "The Lion King",
+      "Brother Bear"
+    ],
+    "correctAnswer": "The Jungle Book",
+    "explanation": "The Jungle Book is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "jungle-book"
+    ]
+  },
+  {
+    "id": 36078,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character Chihiro Ogino?",
+    "answers": [
+      "My Neighbor Totoro",
+      "Spirited Away",
+      "Princess Mononoke",
+      "Ponyo"
+    ],
+    "correctAnswer": "Spirited Away",
+    "explanation": "Spirited Away is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "hard",
+      "spirited-away"
+    ]
+  },
+  {
+    "id": 36079,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young girl named Snow White?",
+    "answers": [
+      "Cinderella",
+      "Sleeping Beauty",
+      "Snow White and the Seven Dwarfs",
+      "Beauty and the Beast"
+    ],
+    "correctAnswer": "Snow White and the Seven Dwarfs",
+    "explanation": "Snow White and the Seven Dwarfs is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "snow-white"
+    ]
+  },
+  {
+    "id": 36080,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in Black Swan?",
+    "answers": [
+      "Mila Kunis",
+      "Anne Hathaway",
+      "Keira Knightley",
+      "Natalie Portman"
+    ],
+    "correctAnswer": "Natalie Portman",
+    "explanation": "Natalie Portman is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "natalie-portman"
+    ]
+  },
+  {
+    "id": 36081,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young boy and a dragon named Toothless?",
+    "answers": [
+      "How to Train Your Dragon",
+      "Eragon",
+      "Dragonheart",
+      "Shrek"
+    ],
+    "correctAnswer": "How to Train Your Dragon",
+    "explanation": "How to Train Your Dragon is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "how-train"
+    ]
+  },
+  {
+    "id": 36082,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film follows a man who becomes a nightcrawler filming crime scenes?",
+    "answers": [
+      "Drive",
+      "Nightcrawler",
+      "Zodiac",
+      "Prisoners"
+    ],
+    "correctAnswer": "Nightcrawler",
+    "explanation": "Nightcrawler is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "nightcrawler"
+    ]
+  },
+  {
+    "id": 36083,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a princess named Aurora?",
+    "answers": [
+      "Cinderella",
+      "Snow White",
+      "Sleeping Beauty",
+      "Tangled"
+    ],
+    "correctAnswer": "Sleeping Beauty",
+    "explanation": "Sleeping Beauty is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "sleeping-beauty"
+    ]
+  },
+  {
+    "id": 36084,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in The Theory of Everything?",
+    "answers": [
+      "Benedict Cumberbatch",
+      "Colin Firth",
+      "Andrew Garfield",
+      "Eddie Redmayne"
+    ],
+    "correctAnswer": "Eddie Redmayne",
+    "explanation": "Eddie Redmayne is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "eddie-redmayne"
+    ]
+  },
+  {
+    "id": 36085,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a superhero named Captain Marvel?",
+    "answers": [
+      "Captain Marvel",
+      "Wonder Woman",
+      "Black Widow",
+      "Supergirl"
+    ],
+    "correctAnswer": "Captain Marvel",
+    "explanation": "Captain Marvel is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "captain-marvel"
+    ]
+  },
+  {
+    "id": 36086,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie features a deadly alien creature aboard the Nostromo?",
+    "answers": [
+      "Predator",
+      "Alien",
+      "The Thing",
+      "Prometheus"
+    ],
+    "correctAnswer": "Alien",
+    "explanation": "Alien is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "alien"
+    ]
+  },
+  {
+    "id": 36087,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character Marge Gunderson investigating crimes in Minnesota?",
+    "answers": [
+      "No Country for Old Men",
+      "Zodiac",
+      "Fargo",
+      "Mystic River"
+    ],
+    "correctAnswer": "Fargo",
+    "explanation": "Fargo is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "hard",
+      "fargo"
+    ]
+  },
+  {
+    "id": 36088,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young woman named Pocahontas?",
+    "answers": [
+      "Mulan",
+      "Moana",
+      "Brave",
+      "Pocahontas"
+    ],
+    "correctAnswer": "Pocahontas",
+    "explanation": "Pocahontas is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "pocahontas"
+    ]
+  },
+  {
+    "id": 36089,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in The Grand Budapest Hotel?",
+    "answers": [
+      "Ralph Fiennes",
+      "Bill Murray",
+      "Owen Wilson",
+      "Adrien Brody"
+    ],
+    "correctAnswer": "Ralph Fiennes",
+    "explanation": "Ralph Fiennes is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "ralph-fiennes"
+    ]
+  },
+  {
+    "id": 36090,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a green ogre and a talking donkey?",
+    "answers": [
+      "Kung Fu Panda",
+      "Shrek",
+      "Monsters, Inc.",
+      "Madagascar"
+    ],
+    "correctAnswer": "Shrek",
+    "explanation": "Shrek is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "shrek"
+    ]
+  },
+  {
+    "id": 36091,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film follows a father searching for his daughter after she is kidnapped in Paris?",
+    "answers": [
+      "The Equalizer",
+      "Man on Fire",
+      "Taken",
+      "John Wick"
+    ],
+    "correctAnswer": "Taken",
+    "explanation": "Taken is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "taken"
+    ]
+  },
+  {
+    "id": 36092,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young girl named Anna and her sister Elsa?",
+    "answers": [
+      "Tangled",
+      "Brave",
+      "Moana",
+      "Frozen"
+    ],
+    "correctAnswer": "Frozen",
+    "explanation": "Frozen is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "frozen"
+    ]
+  },
+  {
+    "id": 36093,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in The Revenant and won an Oscar for it?",
+    "answers": [
+      "Leonardo DiCaprio",
+      "Tom Hardy",
+      "Christian Bale",
+      "Matthew McConaughey"
+    ],
+    "correctAnswer": "Leonardo DiCaprio",
+    "explanation": "Leonardo DiCaprio is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "leonardo-dicaprio"
+    ]
+  },
+  {
+    "id": 36094,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a superhero named Black Widow?",
+    "answers": [
+      "Captain Marvel",
+      "Black Widow",
+      "Wonder Woman",
+      "Catwoman"
+    ],
+    "correctAnswer": "Black Widow",
+    "explanation": "Black Widow is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "black-widow"
+    ]
+  },
+  {
+    "id": 36095,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie follows a teenage girl navigating dreams of becoming a singer in a family of musicians?",
+    "answers": [
+      "Encanto",
+      "Soul",
+      "Coco",
+      "Vivo"
+    ],
+    "correctAnswer": "Coco",
+    "explanation": "Coco is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "coco"
+    ]
+  },
+  {
+    "id": 36096,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young deer named Bambi?",
+    "answers": [
+      "Dumbo",
+      "Bolt",
+      "The Fox and the Hound",
+      "Bambi"
+    ],
+    "correctAnswer": "Bambi",
+    "explanation": "Bambi is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "bambi"
+    ]
+  },
+  {
+    "id": 36097,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character Max Fischer at Rushmore Academy?",
+    "answers": [
+      "Rushmore",
+      "The Royal Tenenbaums",
+      "Bottle Rocket",
+      "Moonrise Kingdom"
+    ],
+    "correctAnswer": "Rushmore",
+    "explanation": "Rushmore is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "hard",
+      "rushmore"
+    ]
+  },
+  {
+    "id": 36098,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a robot cleaning a polluted Earth?",
+    "answers": [
+      "Robots",
+      "WALL-E",
+      "Big Hero 6",
+      "The Iron Giant"
+    ],
+    "correctAnswer": "WALL-E",
+    "explanation": "WALL-E is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "wall"
+    ]
+  },
+  {
+    "id": 36099,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the title character in Joker?",
+    "answers": [
+      "Heath Ledger",
+      "Jared Leto",
+      "Joaquin Phoenix",
+      "Jack Nicholson"
+    ],
+    "correctAnswer": "Joaquin Phoenix",
+    "explanation": "Joaquin Phoenix is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "joaquin-phoenix"
+    ]
+  },
+  {
+    "id": 36100,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a toy cowboy named Woody?",
+    "answers": [
+      "Cars",
+      "Monsters, Inc.",
+      "The Incredibles",
+      "Toy Story"
+    ],
+    "correctAnswer": "Toy Story",
+    "explanation": "Toy Story is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "toy-story"
+    ]
+  },
+  {
+    "id": 36101,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film features a girl named Ofelia entering a dark fairy-tale world?",
+    "answers": [
+      "Pan’s Labyrinth",
+      "Coraline",
+      "The Shape of Water",
+      "The Orphanage"
+    ],
+    "correctAnswer": "Pan’s Labyrinth",
+    "explanation": "Pan’s Labyrinth is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "pan-labyrinth"
+    ]
+  },
+  {
+    "id": 36102,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a superhero named The Flash?",
+    "answers": [
+      "Aquaman",
+      "The Flash",
+      "Superman",
+      "Green Lantern"
+    ],
+    "correctAnswer": "The Flash",
+    "explanation": "The Flash is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "flash"
+    ]
+  },
+  {
+    "id": 36103,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in The Devil Wears Prada?",
+    "answers": [
+      "Meryl Streep",
+      "Emily Blunt",
+      "Anne Hathaway",
+      "Sandra Bullock"
+    ],
+    "correctAnswer": "Anne Hathaway",
+    "explanation": "Anne Hathaway is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "anne-hathaway"
+    ]
+  },
+  {
+    "id": 36104,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a magical house called Casita?",
+    "answers": [
+      "Coco",
+      "Moana",
+      "Frozen",
+      "Encanto"
+    ],
+    "correctAnswer": "Encanto",
+    "explanation": "Encanto is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "encanto"
+    ]
+  },
+  {
+    "id": 36105,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie follows a crew trying to survive inside dreams and memories?",
+    "answers": [
+      "Inception",
+      "Eternal Sunshine of the Spotless Mind",
+      "Tenet",
+      "Source Code"
+    ],
+    "correctAnswer": "Inception",
+    "explanation": "Inception is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "inception"
+    ]
+  },
+  {
+    "id": 36106,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young woman named Belle and a Beast?",
+    "answers": [
+      "Cinderella",
+      "Beauty and the Beast",
+      "Sleeping Beauty",
+      "Snow White"
+    ],
+    "correctAnswer": "Beauty and the Beast",
+    "explanation": "Beauty and the Beast is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "beauty-beast"
+    ]
+  },
+  {
+    "id": 36107,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character J.J. Gittes investigating a Los Angeles mystery?",
+    "answers": [
+      "L.A. Confidential",
+      "The Long Goodbye",
+      "Chinatown",
+      "The Maltese Falcon"
+    ],
+    "correctAnswer": "Chinatown",
+    "explanation": "Chinatown is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "hard",
+      "chinatown"
+    ]
+  },
+  {
+    "id": 36108,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young woman named Cinderella?",
+    "answers": [
+      "Tangled",
+      "Frozen",
+      "Brave",
+      "Cinderella"
+    ],
+    "correctAnswer": "Cinderella",
+    "explanation": "Cinderella is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "cinderella"
+    ]
+  },
+  {
+    "id": 36109,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played the lead role in The Blind Side?",
+    "answers": [
+      "Sandra Bullock",
+      "Julia Roberts",
+      "Reese Witherspoon",
+      "Anne Hathaway"
+    ],
+    "correctAnswer": "Sandra Bullock",
+    "explanation": "Sandra Bullock is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "sandra-bullock"
+    ]
+  },
+  {
+    "id": 36110,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young boy named Aladdin?",
+    "answers": [
+      "Hercules",
+      "Aladdin",
+      "Mulan",
+      "Tarzan"
+    ],
+    "correctAnswer": "Aladdin",
+    "explanation": "Aladdin is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "aladdin"
+    ]
+  },
+  {
+    "id": 36111,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie features a young woman named Katniss volunteering for a deadly competition?",
+    "answers": [
+      "Divergent",
+      "The Maze Runner",
+      "The Hunger Games",
+      "Ender’s Game"
+    ],
+    "correctAnswer": "The Hunger Games",
+    "explanation": "The Hunger Games is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "hunger-games"
+    ]
+  },
+  {
+    "id": 36112,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a superhero named Green Lantern?",
+    "answers": [
+      "The Flash",
+      "Aquaman",
+      "Shazam!",
+      "Green Lantern"
+    ],
+    "correctAnswer": "Green Lantern",
+    "explanation": "Green Lantern is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "green-lantern"
+    ]
+  },
+  {
+    "id": 36113,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which actor played Rocky Balboa?",
+    "answers": [
+      "Sylvester Stallone",
+      "Robert De Niro",
+      "Al Pacino",
+      "Dolph Lundgren"
+    ],
+    "correctAnswer": "Sylvester Stallone",
+    "explanation": "Sylvester Stallone is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "sylvester-stallone"
+    ]
+  },
+  {
+    "id": 36114,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features a young woman named Elsa with ice powers?",
+    "answers": [
+      "Tangled",
+      "Frozen",
+      "Brave",
+      "Moana"
+    ],
+    "correctAnswer": "Frozen",
+    "explanation": "Frozen is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "frozen"
+    ]
+  },
+  {
+    "id": 36115,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film features the character Maximus seeking revenge in ancient Rome?",
+    "answers": [
+      "Troy",
+      "300",
+      "Gladiator",
+      "Ben-Hur"
+    ],
+    "correctAnswer": "Gladiator",
+    "explanation": "Gladiator is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "medium",
+      "gladiator"
+    ]
+  },
+  {
+    "id": 36116,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie features living toys owned by a child named Andy?",
+    "answers": [
+      "Monsters, Inc.",
+      "Cars",
+      "WALL-E",
+      "Toy Story"
+    ],
+    "correctAnswer": "Toy Story",
+    "explanation": "Toy Story is the correct answer to this movies question.",
+    "tags": [
+      "movies",
+      "easy",
+      "toy-story"
+    ]
+  },
+  {
+    "id": 36117,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #1",
+    "answers": [
+      "Forrest Gump",
+      "Pulp Fiction",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36118,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #2",
+    "answers": [
+      "Denis Villeneuve",
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Ridley Scott"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36119,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #3",
+    "answers": [
+      "Unobtainium",
+      "Adamantium",
+      "Vibranium",
+      "Kryptonite"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36120,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #4",
+    "answers": [
+      "Mission: Impossible",
+      "Transformers",
+      "John Wick",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36121,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #5",
+    "answers": [
+      "Forrest Gump",
+      "Four Weddings and a Funeral",
+      "The Shawshank Redemption",
+      "Pulp Fiction"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36122,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which director created the film Interstellar? #6",
+    "answers": [
+      "Denis Villeneuve",
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Ridley Scott"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36123,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #7",
+    "answers": [
+      "Unobtainium",
+      "Adamantium",
+      "Vibranium",
+      "Kryptonite"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36124,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #8",
+    "answers": [
+      "John Wick",
+      "Transformers",
+      "Mission: Impossible",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36125,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #9",
+    "answers": [
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Pulp Fiction",
+      "Four Weddings and a Funeral"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36126,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #10",
+    "answers": [
+      "Ridley Scott",
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Denis Villeneuve"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36127,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #11",
+    "answers": [
+      "Unobtainium",
+      "Adamantium",
+      "Vibranium",
+      "Kryptonite"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36128,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie franchise features the character Dom Toretto? #12",
+    "answers": [
+      "Transformers",
+      "Mission: Impossible",
+      "John Wick",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36129,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #13",
+    "answers": [
+      "Forrest Gump",
+      "Pulp Fiction",
+      "Four Weddings and a Funeral",
+      "The Shawshank Redemption"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36130,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #14",
+    "answers": [
+      "Steven Spielberg",
+      "Christopher Nolan",
+      "Denis Villeneuve",
+      "Ridley Scott"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36131,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #15",
+    "answers": [
+      "Unobtainium",
+      "Kryptonite",
+      "Vibranium",
+      "Adamantium"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36132,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #16",
+    "answers": [
+      "Mission: Impossible",
+      "Transformers",
+      "John Wick",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36133,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #17",
+    "answers": [
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Pulp Fiction",
+      "Four Weddings and a Funeral"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36134,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which director created the film Interstellar? #18",
+    "answers": [
+      "Denis Villeneuve",
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36135,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #19",
+    "answers": [
+      "Adamantium",
+      "Unobtainium",
+      "Vibranium",
+      "Kryptonite"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36136,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #20",
+    "answers": [
+      "John Wick",
+      "Transformers",
+      "Mission: Impossible",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36137,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #21",
+    "answers": [
+      "Forrest Gump",
+      "Four Weddings and a Funeral",
+      "The Shawshank Redemption",
+      "Pulp Fiction"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36138,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #22",
+    "answers": [
+      "Denis Villeneuve",
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36139,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #23",
+    "answers": [
+      "Adamantium",
+      "Kryptonite",
+      "Vibranium",
+      "Unobtainium"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36140,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie franchise features the character Dom Toretto? #24",
+    "answers": [
+      "John Wick",
+      "Mission: Impossible",
+      "Transformers",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36141,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #25",
+    "answers": [
+      "Forrest Gump",
+      "Four Weddings and a Funeral",
+      "The Shawshank Redemption",
+      "Pulp Fiction"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36142,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #26",
+    "answers": [
+      "Denis Villeneuve",
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36143,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #27",
+    "answers": [
+      "Unobtainium",
+      "Kryptonite",
+      "Vibranium",
+      "Adamantium"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36144,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #28",
+    "answers": [
+      "John Wick",
+      "Mission: Impossible",
+      "Transformers",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36145,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #29",
+    "answers": [
+      "Forrest Gump",
+      "Pulp Fiction",
+      "Four Weddings and a Funeral",
+      "The Shawshank Redemption"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36146,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which director created the film Interstellar? #30",
+    "answers": [
+      "Ridley Scott",
+      "Christopher Nolan",
+      "Denis Villeneuve",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36147,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #31",
+    "answers": [
+      "Adamantium",
+      "Kryptonite",
+      "Vibranium",
+      "Unobtainium"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36148,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #32",
+    "answers": [
+      "Transformers",
+      "Mission: Impossible",
+      "John Wick",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36149,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #33",
+    "answers": [
+      "Forrest Gump",
+      "Pulp Fiction",
+      "Four Weddings and a Funeral",
+      "The Shawshank Redemption"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36150,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #34",
+    "answers": [
+      "Ridley Scott",
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Denis Villeneuve"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36151,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #35",
+    "answers": [
+      "Kryptonite",
+      "Adamantium",
+      "Vibranium",
+      "Unobtainium"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36152,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie franchise features the character Dom Toretto? #36",
+    "answers": [
+      "John Wick",
+      "Mission: Impossible",
+      "Transformers",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36153,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #37",
+    "answers": [
+      "Forrest Gump",
+      "Pulp Fiction",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36154,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #38",
+    "answers": [
+      "Denis Villeneuve",
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36155,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #39",
+    "answers": [
+      "Unobtainium",
+      "Adamantium",
+      "Vibranium",
+      "Kryptonite"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36156,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #40",
+    "answers": [
+      "Mission: Impossible",
+      "John Wick",
+      "Transformers",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36157,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #41",
+    "answers": [
+      "Forrest Gump",
+      "Pulp Fiction",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36158,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which director created the film Interstellar? #42",
+    "answers": [
+      "Denis Villeneuve",
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Ridley Scott"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36159,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #43",
+    "answers": [
+      "Adamantium",
+      "Kryptonite",
+      "Vibranium",
+      "Unobtainium"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36160,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #44",
+    "answers": [
+      "Transformers",
+      "Mission: Impossible",
+      "John Wick",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36161,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #45",
+    "answers": [
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral",
+      "Pulp Fiction"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36162,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #46",
+    "answers": [
+      "Steven Spielberg",
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Denis Villeneuve"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36163,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #47",
+    "answers": [
+      "Kryptonite",
+      "Adamantium",
+      "Vibranium",
+      "Unobtainium"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36164,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie franchise features the character Dom Toretto? #48",
+    "answers": [
+      "Mission: Impossible",
+      "John Wick",
+      "Transformers",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36165,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #49",
+    "answers": [
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral",
+      "Pulp Fiction"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36166,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #50",
+    "answers": [
+      "Denis Villeneuve",
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Ridley Scott"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36167,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #51",
+    "answers": [
+      "Kryptonite",
+      "Adamantium",
+      "Vibranium",
+      "Unobtainium"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36168,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #52",
+    "answers": [
+      "John Wick",
+      "Transformers",
+      "Mission: Impossible",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36169,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #53",
+    "answers": [
+      "Forrest Gump",
+      "Four Weddings and a Funeral",
+      "Pulp Fiction",
+      "The Shawshank Redemption"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36170,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which director created the film Interstellar? #54",
+    "answers": [
+      "Ridley Scott",
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Denis Villeneuve"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36171,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #55",
+    "answers": [
+      "Unobtainium",
+      "Kryptonite",
+      "Vibranium",
+      "Adamantium"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36172,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #56",
+    "answers": [
+      "Transformers",
+      "Mission: Impossible",
+      "John Wick",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36173,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #57",
+    "answers": [
+      "Forrest Gump",
+      "Pulp Fiction",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36174,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #58",
+    "answers": [
+      "Denis Villeneuve",
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36175,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #59",
+    "answers": [
+      "Unobtainium",
+      "Adamantium",
+      "Vibranium",
+      "Kryptonite"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36176,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie franchise features the character Dom Toretto? #60",
+    "answers": [
+      "Mission: Impossible",
+      "John Wick",
+      "Transformers",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36177,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #61",
+    "answers": [
+      "Forrest Gump",
+      "Pulp Fiction",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36178,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #62",
+    "answers": [
+      "Denis Villeneuve",
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36179,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #63",
+    "answers": [
+      "Kryptonite",
+      "Unobtainium",
+      "Vibranium",
+      "Adamantium"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36180,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #64",
+    "answers": [
+      "Mission: Impossible",
+      "John Wick",
+      "Transformers",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36181,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #65",
+    "answers": [
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral",
+      "Pulp Fiction"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36182,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which director created the film Interstellar? #66",
+    "answers": [
+      "Ridley Scott",
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Denis Villeneuve"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36183,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #67",
+    "answers": [
+      "Adamantium",
+      "Unobtainium",
+      "Vibranium",
+      "Kryptonite"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36184,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #68",
+    "answers": [
+      "Mission: Impossible",
+      "John Wick",
+      "Transformers",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36185,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #69",
+    "answers": [
+      "Forrest Gump",
+      "Pulp Fiction",
+      "Four Weddings and a Funeral",
+      "The Shawshank Redemption"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36186,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #70",
+    "answers": [
+      "Steven Spielberg",
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Denis Villeneuve"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36187,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #71",
+    "answers": [
+      "Unobtainium",
+      "Kryptonite",
+      "Vibranium",
+      "Adamantium"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36188,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie franchise features the character Dom Toretto? #72",
+    "answers": [
+      "John Wick",
+      "Transformers",
+      "Mission: Impossible",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36189,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #73",
+    "answers": [
+      "Forrest Gump",
+      "Pulp Fiction",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36190,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #74",
+    "answers": [
+      "Denis Villeneuve",
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36191,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #75",
+    "answers": [
+      "Unobtainium",
+      "Kryptonite",
+      "Vibranium",
+      "Adamantium"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36192,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #76",
+    "answers": [
+      "Mission: Impossible",
+      "Transformers",
+      "John Wick",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36193,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #77",
+    "answers": [
+      "Forrest Gump",
+      "Pulp Fiction",
+      "Four Weddings and a Funeral",
+      "The Shawshank Redemption"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36194,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which director created the film Interstellar? #78",
+    "answers": [
+      "Ridley Scott",
+      "Christopher Nolan",
+      "Denis Villeneuve",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36195,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #79",
+    "answers": [
+      "Adamantium",
+      "Kryptonite",
+      "Vibranium",
+      "Unobtainium"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36196,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie franchise features the character Dom Toretto? #80",
+    "answers": [
+      "John Wick",
+      "Transformers",
+      "Mission: Impossible",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36197,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie won the Academy Award for Best Picture in 1994? #81",
+    "answers": [
+      "Forrest Gump",
+      "The Shawshank Redemption",
+      "Four Weddings and a Funeral",
+      "Pulp Fiction"
+    ],
+    "correctAnswer": "Forrest Gump",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36198,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which director created the film Interstellar? #82",
+    "answers": [
+      "Ridley Scott",
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Denis Villeneuve"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36199,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What fictional metal is heavily featured in the Marvel universe? #83",
+    "answers": [
+      "Adamantium",
+      "Unobtainium",
+      "Vibranium",
+      "Kryptonite"
+    ],
+    "correctAnswer": "Vibranium",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  },
+  {
+    "id": 36200,
+    "category": "movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie franchise features the character Dom Toretto? #84",
+    "answers": [
+      "John Wick",
+      "Transformers",
+      "Mission: Impossible",
+      "Fast & Furious"
+    ],
+    "correctAnswer": "Fast & Furious",
+    "explanation": "Curated expansion question for long-term replayability.",
+    "tags": [
+      "movies"
+    ]
+  }
+]

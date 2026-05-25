@@ -1,6 +1,6 @@
 [
   {
-    "id": 60001,
+    "id": 55001,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -14,73 +14,65 @@
     "correctAnswer": "Jaws",
     "explanation": "Jaws is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "jaws"
+      "horror"
     ]
   },
   {
-    "id": 60002,
+    "id": 55002,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "What is the name of the killer in the Halloween franchise?",
     "answers": [
-      "Michael Myers",
       "Jason Voorhees",
+      "Michael Myers",
       "Freddy Krueger",
       "Leatherface"
     ],
     "correctAnswer": "Michael Myers",
     "explanation": "Michael Myers is the correct answer based on the facts asked in the question.",
     "tags": [
-      "horror",
-      "easy",
-      "michael-myers"
+      "horror"
     ]
   },
   {
-    "id": 60003,
+    "id": 55003,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a possessed girl named Regan?",
     "answers": [
-      "The Exorcist",
       "Insidious",
       "The Ring",
+      "The Exorcist",
       "Carrie"
     ],
     "correctAnswer": "The Exorcist",
     "explanation": "The Exorcist is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "exorcist"
+      "horror"
     ]
   },
   {
-    "id": 60004,
+    "id": 55004,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "In A Nightmare on Elm Street, where does Freddy Krueger attack his victims?",
     "answers": [
-      "In their dreams",
       "In abandoned houses",
       "At summer camp",
-      "In underground tunnels"
+      "In underground tunnels",
+      "In their dreams"
     ],
     "correctAnswer": "In their dreams",
     "explanation": "The correct answer is In their dreams.",
     "tags": [
-      "horror",
-      "medium",
-      "their-dreams"
+      "horror"
     ]
   },
   {
-    "id": 60005,
+    "id": 55005,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -94,72 +86,65 @@
     "correctAnswer": "Jason Voorhees",
     "explanation": "Jason Voorhees is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "jason-voorhees"
+      "horror"
     ]
   },
   {
-    "id": 60006,
+    "id": 55006,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the name of the hotel in The Shining?",
     "answers": [
-      "The Overlook Hotel",
       "The Stanley Hotel",
+      "The Overlook Hotel",
       "The Bates Motel",
       "The Grand Hotel"
     ],
     "correctAnswer": "The Overlook Hotel",
     "explanation": "The Overlook Hotel is the correct answer based on the facts asked in the question.",
     "tags": [
-      "horror",
-      "medium",
-      "overlook-hotel"
+      "horror"
     ]
   },
   {
-    "id": 60007,
+    "id": 55007,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror film franchise includes the killer doll Chucky?",
     "answers": [
-      "Child's Play",
       "Saw",
       "Scream",
+      "Child's Play",
       "Candyman"
     ],
     "correctAnswer": "Child's Play",
     "explanation": "Child's Play is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "childs-play"
+      "horror"
     ]
   },
   {
-    "id": 60008,
+    "id": 55008,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which Stephen King horror novel features the clown Pennywise?",
     "answers": [
-      "It",
       "Misery",
       "Pet Sematary",
-      "Cujo"
+      "Cujo",
+      "It"
     ],
     "correctAnswer": "It",
     "explanation": "It is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium"
+      "horror"
     ]
   },
   {
-    "id": 60009,
+    "id": 55009,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
@@ -173,73 +158,65 @@
     "correctAnswer": "Psycho",
     "explanation": "Psycho is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "psycho"
+      "horror"
     ]
   },
   {
-    "id": 60010,
+    "id": 55010,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "What mask does the killer wear in the Scream movies?",
     "answers": [
-      "Ghostface mask",
       "Clown mask",
+      "Ghostface mask",
       "Hockey mask",
       "Pig mask"
     ],
     "correctAnswer": "Ghostface mask",
     "explanation": "Ghostface mask is the correct answer based on the facts asked in the question.",
     "tags": [
-      "horror",
-      "easy",
-      "ghostface-mask"
+      "horror"
     ]
   },
   {
-    "id": 60011,
+    "id": 55011,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie centers on videotapes that curse viewers?",
     "answers": [
-      "The Ring",
       "Sinister",
       "Smile",
+      "The Ring",
       "The Grudge"
     ],
     "correctAnswer": "The Ring",
     "explanation": "The Ring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "ring"
+      "horror"
     ]
   },
   {
-    "id": 60012,
+    "id": 55012,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the name of the demonic nun in The Conjuring universe?",
     "answers": [
-      "Valak",
       "Annabelle",
       "Bathsheba",
-      "Malthus"
+      "Malthus",
+      "Valak"
     ],
     "correctAnswer": "Valak",
     "explanation": "Valak is the correct answer based on the facts asked in the question.",
     "tags": [
-      "horror",
-      "medium",
-      "valak"
+      "horror"
     ]
   },
   {
-    "id": 60013,
+    "id": 55013,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -253,73 +230,65 @@
     "correctAnswer": "Saw",
     "explanation": "Saw is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "saw"
+      "horror"
     ]
   },
   {
-    "id": 60014,
+    "id": 55014,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie features a family isolated in a snowy mountain hotel?",
     "answers": [
-      "The Shining",
       "Doctor Sleep",
+      "The Shining",
       "The Others",
       "Hereditary"
     ],
     "correctAnswer": "The Shining",
     "explanation": "The Shining is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "shining"
+      "horror"
     ]
   },
   {
-    "id": 60015,
+    "id": 55015,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "What is the name of the haunted doll in The Conjuring universe?",
     "answers": [
-      "Annabelle",
       "Megan",
       "Emily",
+      "Annabelle",
       "Charlotte"
     ],
     "correctAnswer": "Annabelle",
     "explanation": "Annabelle is the correct answer based on the facts asked in the question.",
     "tags": [
-      "horror",
-      "easy",
-      "annabelle"
+      "horror"
     ]
   },
   {
-    "id": 60016,
+    "id": 55016,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which 1982 horror film is set in an isolated Antarctic research station?",
     "answers": [
-      "The Thing",
       "Alien",
       "Event Horizon",
-      "The Fly"
+      "The Fly",
+      "The Thing"
     ],
     "correctAnswer": "The Thing",
     "explanation": "The Thing is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "thing"
+      "horror"
     ]
   },
   {
-    "id": 60017,
+    "id": 55017,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -333,73 +302,65 @@
     "correctAnswer": "Jordan Peele",
     "explanation": "Jordan Peele is the correct person for this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "jordan-peele"
+      "horror"
     ]
   },
   {
-    "id": 60018,
+    "id": 55018,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features creatures that hunt by sound?",
     "answers": [
-      "A Quiet Place",
       "Bird Box",
+      "A Quiet Place",
       "The Mist",
       "Us"
     ],
     "correctAnswer": "A Quiet Place",
     "explanation": "A Quiet Place is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "quiet-place"
+      "horror"
     ]
   },
   {
-    "id": 60019,
+    "id": 55019,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the name of the summer camp in Friday the 13th?",
     "answers": [
-      "Camp Crystal Lake",
       "Camp Redwood",
       "Camp Blackwood",
+      "Camp Crystal Lake",
       "Camp Silver Pines"
     ],
     "correctAnswer": "Camp Crystal Lake",
     "explanation": "Camp Crystal Lake is the correct answer based on the facts asked in the question.",
     "tags": [
-      "horror",
-      "medium",
-      "camp-crystal"
+      "horror"
     ]
   },
   {
-    "id": 60020,
+    "id": 55020,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film follows a family haunted after moving into a house built on a cemetery?",
     "answers": [
-      "Poltergeist",
       "Insidious",
       "The Others",
-      "Paranormal Activity"
+      "Paranormal Activity",
+      "Poltergeist"
     ],
     "correctAnswer": "Poltergeist",
     "explanation": "Poltergeist is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "poltergeist"
+      "horror"
     ]
   },
   {
-    "id": 60021,
+    "id": 55021,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -413,72 +374,65 @@
     "correctAnswer": "Scream",
     "explanation": "Scream is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "scream"
+      "horror"
     ]
   },
   {
-    "id": 60022,
+    "id": 55022,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film stars a family terrorized by doppelgängers called the Tethered?",
     "answers": [
-      "Us",
       "Nope",
+      "Us",
       "Get Out",
       "Hereditary"
     ],
     "correctAnswer": "Us",
     "explanation": "Us is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium"
+      "horror"
     ]
   },
   {
-    "id": 60023,
+    "id": 55023,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror franchise includes the investigator couple Ed and Lorraine Warren?",
     "answers": [
-      "The Conjuring",
       "Insidious",
       "Saw",
+      "The Conjuring",
       "Paranormal Activity"
     ],
     "correctAnswer": "The Conjuring",
     "explanation": "The Conjuring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "conjuring"
+      "horror"
     ]
   },
   {
-    "id": 60024,
+    "id": 55024,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which 1968 horror film is considered a landmark zombie movie?",
     "answers": [
-      "Night of the Living Dead",
       "Dawn of the Dead",
       "28 Days Later",
-      "REC"
+      "REC",
+      "Night of the Living Dead"
     ],
     "correctAnswer": "Night of the Living Dead",
     "explanation": "Night of the Living Dead is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "night-living"
+      "horror"
     ]
   },
   {
-    "id": 60025,
+    "id": 55025,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -492,73 +446,65 @@
     "correctAnswer": "It Follows",
     "explanation": "It Follows is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "follows"
+      "horror"
     ]
   },
   {
-    "id": 60026,
+    "id": 55026,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie features a family dealing with disturbing events after the death of their grandmother?",
     "answers": [
-      "Hereditary",
       "Midsommar",
+      "Hereditary",
       "The Witch",
       "The Babadook"
     ],
     "correctAnswer": "Hereditary",
     "explanation": "Hereditary is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "hereditary"
+      "horror"
     ]
   },
   {
-    "id": 60027,
+    "id": 55027,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror villain is associated with chainsaws and a cannibal family?",
     "answers": [
-      "Leatherface",
       "Freddy Krueger",
       "Jason Voorhees",
+      "Leatherface",
       "Candyman"
     ],
     "correctAnswer": "Leatherface",
     "explanation": "Leatherface is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "leatherface"
+      "horror"
     ]
   },
   {
-    "id": 60028,
+    "id": 55028,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film was directed by Stanley Kubrick?",
     "answers": [
-      "The Shining",
       "Carrie",
       "The Exorcist",
-      "Rosemary's Baby"
+      "Rosemary's Baby",
+      "The Shining"
     ],
     "correctAnswer": "The Shining",
     "explanation": "The Shining is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "shining"
+      "horror"
     ]
   },
   {
-    "id": 60029,
+    "id": 55029,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -572,73 +518,65 @@
     "correctAnswer": "The Babadook",
     "explanation": "The Babadook is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "babadook"
+      "horror"
     ]
   },
   {
-    "id": 60030,
+    "id": 55030,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the title of Jordan Peele's horror film about a mysterious airborne threat?",
     "answers": [
-      "Nope",
       "Us",
+      "Nope",
       "Get Out",
       "Smile"
     ],
     "correctAnswer": "Nope",
     "explanation": "Nope is the correct answer based on the facts asked in the question.",
     "tags": [
-      "horror",
-      "medium",
-      "nope"
+      "horror"
     ]
   },
   {
-    "id": 60031,
+    "id": 55031,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror film features a videotape that kills viewers seven days after watching it?",
     "answers": [
-      "The Ring",
       "Sinister",
       "The Grudge",
+      "The Ring",
       "Lights Out"
     ],
     "correctAnswer": "The Ring",
     "explanation": "The Ring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "ring"
+      "horror"
     ]
   },
   {
-    "id": 60032,
+    "id": 55032,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie is set during a strange Swedish midsummer festival?",
     "answers": [
-      "Midsommar",
       "The Ritual",
       "Hereditary",
-      "The Witch"
+      "The Witch",
+      "Midsommar"
     ],
     "correctAnswer": "Midsommar",
     "explanation": "Midsommar is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "midsommar"
+      "horror"
     ]
   },
   {
-    "id": 60033,
+    "id": 55033,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
@@ -652,73 +590,65 @@
     "correctAnswer": "Alien",
     "explanation": "Alien is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "alien"
+      "horror"
     ]
   },
   {
-    "id": 60034,
+    "id": 55034,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film follows paranormal investigators helping the Perron family?",
     "answers": [
-      "The Conjuring",
       "Insidious",
+      "The Conjuring",
       "The Nun",
       "Ouija"
     ],
     "correctAnswer": "The Conjuring",
     "explanation": "The Conjuring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "conjuring"
+      "horror"
     ]
   },
   {
-    "id": 60035,
+    "id": 55035,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a deadly game of hide-and-seek during a wedding night?",
     "answers": [
-      "Ready or Not",
       "You're Next",
       "Scream",
+      "Ready or Not",
       "Happy Death Day"
     ],
     "correctAnswer": "Ready or Not",
     "explanation": "Ready or Not is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "ready-not"
+      "horror"
     ]
   },
   {
-    "id": 60036,
+    "id": 55036,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows a woman trapped in a home invasion by masked attackers?",
     "answers": [
-      "The Strangers",
       "Vacancy",
       "Hush",
-      "Funny Games"
+      "Funny Games",
+      "The Strangers"
     ],
     "correctAnswer": "The Strangers",
     "explanation": "The Strangers is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "strangers"
+      "horror"
     ]
   },
   {
-    "id": 60037,
+    "id": 55037,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
@@ -732,73 +662,65 @@
     "correctAnswer": "Carrie",
     "explanation": "Carrie is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "carrie"
+      "horror"
     ]
   },
   {
-    "id": 60038,
+    "id": 55038,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror franchise includes a killer known as Jigsaw?",
     "answers": [
-      "Saw",
       "Hostel",
+      "Saw",
       "Cube",
       "Final Destination"
     ],
     "correctAnswer": "Saw",
     "explanation": "Saw is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "saw"
+      "horror"
     ]
   },
   {
-    "id": 60039,
+    "id": 55039,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie takes place largely inside underground caves filled with creatures?",
     "answers": [
-      "The Descent",
       "As Above, So Below",
       "Crawl",
+      "The Descent",
       "The Cave"
     ],
     "correctAnswer": "The Descent",
     "explanation": "The Descent is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "descent"
+      "horror"
     ]
   },
   {
-    "id": 60040,
+    "id": 55040,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film features the line 'They're here' spoken during supernatural events?",
     "answers": [
-      "Poltergeist",
       "The Sixth Sense",
       "Insidious",
-      "The Others"
+      "The Others",
+      "Poltergeist"
     ],
     "correctAnswer": "Poltergeist",
     "explanation": "Poltergeist is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "poltergeist"
+      "horror"
     ]
   },
   {
-    "id": 60041,
+    "id": 55041,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -812,73 +734,65 @@
     "correctAnswer": "The Conjuring",
     "explanation": "The Conjuring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "conjuring"
+      "horror"
     ]
   },
   {
-    "id": 60042,
+    "id": 55042,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows a deaf woman defending herself from a masked intruder?",
     "answers": [
-      "Hush",
       "The Strangers",
+      "Hush",
       "You're Next",
       "Vacancy"
     ],
     "correctAnswer": "Hush",
     "explanation": "Hush is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "hush"
+      "horror"
     ]
   },
   {
-    "id": 60043,
+    "id": 55043,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror franchise is centered around deadly accidents escaping fate?",
     "answers": [
-      "Final Destination",
       "Saw",
       "Hostel",
+      "Final Destination",
       "Scream"
     ],
     "correctAnswer": "Final Destination",
     "explanation": "Final Destination is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "final-destination"
+      "horror"
     ]
   },
   {
-    "id": 60044,
+    "id": 55044,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie stars Daniel Kaluuya as Chris Washington?",
     "answers": [
-      "Get Out",
       "Us",
       "Nope",
-      "Candyman"
+      "Candyman",
+      "Get Out"
     ],
     "correctAnswer": "Get Out",
     "explanation": "Get Out is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "get-out"
+      "horror"
     ]
   },
   {
-    "id": 60045,
+    "id": 55045,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
@@ -892,73 +806,65 @@
     "correctAnswer": "The Thing",
     "explanation": "The Thing is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "thing"
+      "horror"
     ]
   },
   {
-    "id": 60046,
+    "id": 55046,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a cursed videotape linked to Samara?",
     "answers": [
-      "The Ring",
       "Smile",
+      "The Ring",
       "The Grudge",
       "Lights Out"
     ],
     "correctAnswer": "The Ring",
     "explanation": "The Ring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "ring"
+      "horror"
     ]
   },
   {
-    "id": 60047,
+    "id": 55047,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film follows college students visiting a remote Swedish commune?",
     "answers": [
-      "Midsommar",
       "The Ritual",
       "Hereditary",
+      "Midsommar",
       "The Witch"
     ],
     "correctAnswer": "Midsommar",
     "explanation": "Midsommar is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "midsommar"
+      "horror"
     ]
   },
   {
-    "id": 60048,
+    "id": 55048,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "What is the name of the clown in Stephen King's It?",
     "answers": [
-      "Pennywise",
       "Art",
       "Twisty",
-      "Captain Spaulding"
+      "Captain Spaulding",
+      "Pennywise"
     ],
     "correctAnswer": "Pennywise",
     "explanation": "Pennywise is the correct answer based on the facts asked in the question.",
     "tags": [
-      "horror",
-      "easy",
-      "pennywise"
+      "horror"
     ]
   },
   {
-    "id": 60049,
+    "id": 55049,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -972,73 +878,65 @@
     "correctAnswer": "The Babadook",
     "explanation": "The Babadook is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "babadook"
+      "horror"
     ]
   },
   {
-    "id": 60050,
+    "id": 55050,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie was directed by John Carpenter?",
     "answers": [
-      "Halloween",
       "The Exorcist",
+      "Halloween",
       "Scream",
       "The Omen"
     ],
     "correctAnswer": "Halloween",
     "explanation": "Halloween is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "halloween"
+      "horror"
     ]
   },
   {
-    "id": 60051,
+    "id": 55051,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a shark hunter named Quint?",
     "answers": [
-      "Jaws",
       "Deep Blue Sea",
       "Open Water",
+      "Jaws",
       "The Shallows"
     ],
     "correctAnswer": "Jaws",
     "explanation": "Jaws is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "jaws"
+      "horror"
     ]
   },
   {
-    "id": 60052,
+    "id": 55052,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film centers on a family terrorized by a demon named Pazuzu?",
     "answers": [
-      "The Exorcist",
       "Insidious",
       "The Nun",
-      "Sinister"
+      "Sinister",
+      "The Exorcist"
     ],
     "correctAnswer": "The Exorcist",
     "explanation": "The Exorcist is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "exorcist"
+      "horror"
     ]
   },
   {
-    "id": 60053,
+    "id": 55053,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -1052,72 +950,65 @@
     "correctAnswer": "Freddy Krueger",
     "explanation": "Freddy Krueger is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "freddy-krueger"
+      "horror"
     ]
   },
   {
-    "id": 60054,
+    "id": 55054,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film follows a journalist investigating a videotape connected to mysterious deaths?",
     "answers": [
-      "The Ring",
       "Sinister",
+      "The Ring",
       "REC",
       "The Grudge"
     ],
     "correctAnswer": "The Ring",
     "explanation": "The Ring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "ring"
+      "horror"
     ]
   },
   {
-    "id": 60055,
+    "id": 55055,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie features a hidden underground tunnel system beneath the United States?",
     "answers": [
-      "Us",
       "Nope",
       "Get Out",
+      "Us",
       "Candyman"
     ],
     "correctAnswer": "Us",
     "explanation": "Us is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium"
+      "horror"
     ]
   },
   {
-    "id": 60056,
+    "id": 55056,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror franchise includes the possessed doll Annabelle?",
     "answers": [
-      "The Conjuring",
       "Insidious",
       "Paranormal Activity",
-      "Ouija"
+      "Ouija",
+      "The Conjuring"
     ],
     "correctAnswer": "The Conjuring",
     "explanation": "The Conjuring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "conjuring"
+      "horror"
     ]
   },
   {
-    "id": 60057,
+    "id": 55057,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -1131,73 +1022,65 @@
     "correctAnswer": "The Mist",
     "explanation": "The Mist is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "mist"
+      "horror"
     ]
   },
   {
-    "id": 60058,
+    "id": 55058,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film was adapted from a novel by Ira Levin?",
     "answers": [
-      "Rosemary's Baby",
       "Carrie",
+      "Rosemary's Baby",
       "The Omen",
       "Psycho"
     ],
     "correctAnswer": "Rosemary's Baby",
     "explanation": "Rosemary's Baby is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "rosemarys-baby"
+      "horror"
     ]
   },
   {
-    "id": 60059,
+    "id": 55059,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a family trying to survive in silence from sound-hunting creatures?",
     "answers": [
-      "A Quiet Place",
       "Bird Box",
       "The Silence",
+      "A Quiet Place",
       "The Mist"
     ],
     "correctAnswer": "A Quiet Place",
     "explanation": "A Quiet Place is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "quiet-place"
+      "horror"
     ]
   },
   {
-    "id": 60060,
+    "id": 55060,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows a group exploring catacombs beneath Paris?",
     "answers": [
-      "As Above, So Below",
       "The Descent",
       "The Cave",
-      "Grave Encounters"
+      "Grave Encounters",
+      "As Above, So Below"
     ],
     "correctAnswer": "As Above, So Below",
     "explanation": "As Above, So Below is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "above-below"
+      "horror"
     ]
   },
   {
-    "id": 60061,
+    "id": 55061,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -1211,73 +1094,65 @@
     "correctAnswer": "Scream",
     "explanation": "Scream is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "scream"
+      "horror"
     ]
   },
   {
-    "id": 60062,
+    "id": 55062,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film stars Mia Farrow as Rosemary Woodhouse?",
     "answers": [
-      "Rosemary's Baby",
       "Carrie",
+      "Rosemary's Baby",
       "The Others",
       "Hereditary"
     ],
     "correctAnswer": "Rosemary's Baby",
     "explanation": "Rosemary's Baby is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "rosemarys-baby"
+      "horror"
     ]
   },
   {
-    "id": 60063,
+    "id": 55063,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film follows siblings haunted by a smiling supernatural curse?",
     "answers": [
-      "Smile",
       "Truth or Dare",
       "It Follows",
+      "Smile",
       "Lights Out"
     ],
     "correctAnswer": "Smile",
     "explanation": "Smile is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "smile"
+      "horror"
     ]
   },
   {
-    "id": 60064,
+    "id": 55064,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "What is the surname of the family in The Texas Chain Saw Massacre?",
     "answers": [
-      "Sawyer",
       "Myers",
       "Voorhees",
-      "Krueger"
+      "Krueger",
+      "Sawyer"
     ],
     "correctAnswer": "Sawyer",
     "explanation": "Sawyer is the correct answer based on the facts asked in the question.",
     "tags": [
-      "horror",
-      "easy",
-      "sawyer"
+      "horror"
     ]
   },
   {
-    "id": 60065,
+    "id": 55065,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -1291,73 +1166,65 @@
     "correctAnswer": "Panic Room",
     "explanation": "Panic Room is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "panic-room"
+      "horror"
     ]
   },
   {
-    "id": 60066,
+    "id": 55066,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film introduced Hannibal Lecter to mainstream audiences?",
     "answers": [
-      "The Silence of the Lambs",
       "Red Dragon",
+      "The Silence of the Lambs",
       "Hannibal",
       "Manhunter"
     ],
     "correctAnswer": "The Silence of the Lambs",
     "explanation": "The Silence of the Lambs is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "silence-lambs"
+      "horror"
     ]
   },
   {
-    "id": 60067,
+    "id": 55067,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a videotape that predicts a viewer's death in seven days?",
     "answers": [
-      "The Ring",
       "Smile",
       "Sinister",
+      "The Ring",
       "The Grudge"
     ],
     "correctAnswer": "The Ring",
     "explanation": "The Ring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "ring"
+      "horror"
     ]
   },
   {
-    "id": 60068,
+    "id": 55068,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film follows a family living near an isolated Puritan settlement?",
     "answers": [
-      "The Witch",
       "Midsommar",
       "Hereditary",
-      "Relic"
+      "Relic",
+      "The Witch"
     ],
     "correctAnswer": "The Witch",
     "explanation": "The Witch is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "witch"
+      "horror"
     ]
   },
   {
-    "id": 60069,
+    "id": 55069,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -1371,73 +1238,65 @@
     "correctAnswer": "Ghostface",
     "explanation": "Ghostface is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "ghostface"
+      "horror"
     ]
   },
   {
-    "id": 60070,
+    "id": 55070,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie was the first feature-length film directed by Jordan Peele?",
     "answers": [
-      "Get Out",
       "Us",
+      "Get Out",
       "Nope",
       "Candyman"
     ],
     "correctAnswer": "Get Out",
     "explanation": "Get Out is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "get-out"
+      "horror"
     ]
   },
   {
-    "id": 60071,
+    "id": 55071,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows people trapped in an elevator with a mysterious presence?",
     "answers": [
-      "Devil",
       "The Lift",
       "Down",
+      "Devil",
       "Quarantine"
     ],
     "correctAnswer": "Devil",
     "explanation": "Devil is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "devil"
+      "horror"
     ]
   },
   {
-    "id": 60072,
+    "id": 55072,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a haunted videotape discovered in a cabin?",
     "answers": [
-      "The Ring",
       "Sinister",
       "The Grudge",
-      "Host"
+      "Host",
+      "The Ring"
     ],
     "correctAnswer": "The Ring",
     "explanation": "The Ring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "ring"
+      "horror"
     ]
   },
   {
-    "id": 60073,
+    "id": 55073,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -1451,73 +1310,65 @@
     "correctAnswer": "Sinister",
     "explanation": "Sinister is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "sinister"
+      "horror"
     ]
   },
   {
-    "id": 60074,
+    "id": 55074,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie features a hotel caretaker slowly losing his sanity?",
     "answers": [
-      "The Shining",
       "1408",
+      "The Shining",
       "Doctor Sleep",
       "Session 9"
     ],
     "correctAnswer": "The Shining",
     "explanation": "The Shining is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "shining"
+      "horror"
     ]
   },
   {
-    "id": 60075,
+    "id": 55075,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features survivors trying to avoid deadly traps after escaping disaster?",
     "answers": [
-      "Final Destination",
       "Saw",
       "Cube",
+      "Final Destination",
       "Hostel"
     ],
     "correctAnswer": "Final Destination",
     "explanation": "Final Destination is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "final-destination"
+      "horror"
     ]
   },
   {
-    "id": 60076,
+    "id": 55076,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie features a family moving into a house where time behaves strangely?",
     "answers": [
-      "The Others",
       "Relic",
       "Mama",
-      "Orphan"
+      "Orphan",
+      "The Others"
     ],
     "correctAnswer": "The Others",
     "explanation": "The Others is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "others"
+      "horror"
     ]
   },
   {
-    "id": 60077,
+    "id": 55077,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
@@ -1531,73 +1382,65 @@
     "correctAnswer": "The Omen",
     "explanation": "The Omen is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "omen"
+      "horror"
     ]
   },
   {
-    "id": 60078,
+    "id": 55078,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie follows people being hunted in a remote cabin by undead creatures?",
     "answers": [
-      "The Evil Dead",
       "Cabin Fever",
+      "The Evil Dead",
       "Wrong Turn",
       "The Ritual"
     ],
     "correctAnswer": "The Evil Dead",
     "explanation": "The Evil Dead is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "evil-dead"
+      "horror"
     ]
   },
   {
-    "id": 60079,
+    "id": 55079,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie stars Toni Collette as Annie Graham?",
     "answers": [
-      "Hereditary",
       "Midsommar",
       "The Witch",
+      "Hereditary",
       "Relic"
     ],
     "correctAnswer": "Hereditary",
     "explanation": "Hereditary is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "hereditary"
+      "horror"
     ]
   },
   {
-    "id": 60080,
+    "id": 55080,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film features astronauts encountering a deadly alien aboard the Nostromo?",
     "answers": [
-      "Alien",
       "Life",
       "Sunshine",
-      "Event Horizon"
+      "Event Horizon",
+      "Alien"
     ],
     "correctAnswer": "Alien",
     "explanation": "Alien is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "alien"
+      "horror"
     ]
   },
   {
-    "id": 60081,
+    "id": 55081,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -1611,73 +1454,65 @@
     "correctAnswer": "The Evil Dead",
     "explanation": "The Evil Dead is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "evil-dead"
+      "horror"
     ]
   },
   {
-    "id": 60082,
+    "id": 55082,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film follows teenagers who accidentally awaken a murderous scarecrow legend?",
     "answers": [
-      "Jeepers Creepers",
       "Dark Harvest",
+      "Jeepers Creepers",
       "Scary Stories to Tell in the Dark",
       "Pumpkinhead"
     ],
     "correctAnswer": "Jeepers Creepers",
     "explanation": "Jeepers Creepers is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "jeepers-creepers"
+      "horror"
     ]
   },
   {
-    "id": 60083,
+    "id": 55083,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie franchise includes the killer named Leatherface?",
     "answers": [
-      "The Texas Chain Saw Massacre",
       "Halloween",
       "Scream",
+      "The Texas Chain Saw Massacre",
       "Saw"
     ],
     "correctAnswer": "The Texas Chain Saw Massacre",
     "explanation": "The Texas Chain Saw Massacre is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "texas-chain"
+      "horror"
     ]
   },
   {
-    "id": 60084,
+    "id": 55084,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie features a family haunted after using astral projection?",
     "answers": [
-      "Insidious",
       "The Conjuring",
       "Sinister",
-      "Smile"
+      "Smile",
+      "Insidious"
     ],
     "correctAnswer": "Insidious",
     "explanation": "Insidious is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "insidious"
+      "horror"
     ]
   },
   {
-    "id": 60085,
+    "id": 55085,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
@@ -1691,73 +1526,65 @@
     "correctAnswer": "The Blair Witch Project",
     "explanation": "The Blair Witch Project is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "blair-witch"
+      "horror"
     ]
   },
   {
-    "id": 60086,
+    "id": 55086,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a killer known as Candyman?",
     "answers": [
-      "Candyman",
       "Hellraiser",
+      "Candyman",
       "Wishmaster",
       "Urban Legend"
     ],
     "correctAnswer": "Candyman",
     "explanation": "Candyman is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "candyman"
+      "horror"
     ]
   },
   {
-    "id": 60087,
+    "id": 55087,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film centers on paranormal activity captured by home cameras?",
     "answers": [
-      "Paranormal Activity",
       "REC",
       "Host",
+      "Paranormal Activity",
       "The Visit"
     ],
     "correctAnswer": "Paranormal Activity",
     "explanation": "Paranormal Activity is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "paranormal-activity"
+      "horror"
     ]
   },
   {
-    "id": 60088,
+    "id": 55088,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie villain lives in dreams and wears a striped sweater?",
     "answers": [
-      "Freddy Krueger",
       "Jason Voorhees",
       "Michael Myers",
-      "Ghostface"
+      "Ghostface",
+      "Freddy Krueger"
     ],
     "correctAnswer": "Freddy Krueger",
     "explanation": "Freddy Krueger is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "freddy-krueger"
+      "horror"
     ]
   },
   {
-    "id": 60089,
+    "id": 55089,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
@@ -1771,73 +1598,65 @@
     "correctAnswer": "Psycho",
     "explanation": "Psycho is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "psycho"
+      "horror"
     ]
   },
   {
-    "id": 60090,
+    "id": 55090,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film features a cursed videotape discovered by journalist Rachel Keller?",
     "answers": [
-      "The Ring",
       "Sinister",
+      "The Ring",
       "Smile",
       "The Grudge"
     ],
     "correctAnswer": "The Ring",
     "explanation": "The Ring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "ring"
+      "horror"
     ]
   },
   {
-    "id": 60091,
+    "id": 55091,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie follows survivors trapped in a zombie-filled shopping mall?",
     "answers": [
-      "Dawn of the Dead",
       "28 Days Later",
       "World War Z",
+      "Dawn of the Dead",
       "REC"
     ],
     "correctAnswer": "Dawn of the Dead",
     "explanation": "Dawn of the Dead is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "dawn-dead"
+      "horror"
     ]
   },
   {
-    "id": 60092,
+    "id": 55092,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film follows a widowed mother dealing with terrifying events after a séance?",
     "answers": [
-      "Ouija: Origin of Evil",
       "The Nun",
       "Annabelle",
-      "Lights Out"
+      "Lights Out",
+      "Ouija: Origin of Evil"
     ],
     "correctAnswer": "Ouija: Origin of Evil",
     "explanation": "Ouija: Origin of Evil is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "ouija-origin"
+      "horror"
     ]
   },
   {
-    "id": 60093,
+    "id": 55093,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -1851,72 +1670,65 @@
     "correctAnswer": "A Quiet Place",
     "explanation": "A Quiet Place is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "quiet-place"
+      "horror"
     ]
   },
   {
-    "id": 60094,
+    "id": 55094,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film features a child named Danny Torrance with psychic abilities?",
     "answers": [
-      "The Shining",
       "Doctor Sleep",
+      "The Shining",
       "Carrie",
       "Firestarter"
     ],
     "correctAnswer": "The Shining",
     "explanation": "The Shining is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "shining"
+      "horror"
     ]
   },
   {
-    "id": 60095,
+    "id": 55095,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows a family encountering sinister doubles of themselves?",
     "answers": [
-      "Us",
       "Get Out",
       "Smile",
+      "Us",
       "The Others"
     ],
     "correctAnswer": "Us",
     "explanation": "Us is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium"
+      "horror"
     ]
   },
   {
-    "id": 60096,
+    "id": 55096,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror franchise includes traps created by the character Jigsaw?",
     "answers": [
-      "Saw",
       "Cube",
       "Escape Room",
-      "Hostel"
+      "Hostel",
+      "Saw"
     ],
     "correctAnswer": "Saw",
     "explanation": "Saw is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "saw"
+      "horror"
     ]
   },
   {
-    "id": 60097,
+    "id": 55097,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -1930,73 +1742,65 @@
     "correctAnswer": "The Descent",
     "explanation": "The Descent is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "descent"
+      "horror"
     ]
   },
   {
-    "id": 60098,
+    "id": 55098,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film features a mysterious videotape that causes terrifying hallucinations?",
     "answers": [
-      "Videodrome",
       "The Ring",
+      "Videodrome",
       "Sinister",
       "Pulse"
     ],
     "correctAnswer": "Videodrome",
     "explanation": "Videodrome is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "videodrome"
+      "horror"
     ]
   },
   {
-    "id": 60099,
+    "id": 55099,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a masked killer targeting babysitters on Halloween night?",
     "answers": [
-      "Halloween",
       "Scream",
       "Black Christmas",
+      "Halloween",
       "Prom Night"
     ],
     "correctAnswer": "Halloween",
     "explanation": "Halloween is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "halloween"
+      "horror"
     ]
   },
   {
-    "id": 60100,
+    "id": 55100,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows a grieving couple who encounter strange figures in the woods?",
     "answers": [
-      "The Ritual",
       "Midsommar",
       "The Witch",
-      "Antlers"
+      "Antlers",
+      "The Ritual"
     ],
     "correctAnswer": "The Ritual",
     "explanation": "The Ritual is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "ritual"
+      "horror"
     ]
   },
   {
-    "id": 60101,
+    "id": 55101,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -2010,73 +1814,65 @@
     "correctAnswer": "The Conjuring",
     "explanation": "The Conjuring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "conjuring"
+      "horror"
     ]
   },
   {
-    "id": 60102,
+    "id": 55102,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie features a demonic puzzle box called the Lament Configuration?",
     "answers": [
-      "Hellraiser",
       "Candyman",
+      "Hellraiser",
       "Wishmaster",
       "Phantasm"
     ],
     "correctAnswer": "Hellraiser",
     "explanation": "Hellraiser is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "hellraiser"
+      "horror"
     ]
   },
   {
-    "id": 60103,
+    "id": 55103,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film follows a young woman investigating disturbing events in a Berlin dance academy?",
     "answers": [
-      "Suspiria",
       "Black Swan",
       "Saint Maud",
+      "Suspiria",
       "The Neon Demon"
     ],
     "correctAnswer": "Suspiria",
     "explanation": "Suspiria is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "suspiria"
+      "horror"
     ]
   },
   {
-    "id": 60104,
+    "id": 55104,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features survivors hiding from flesh-eating zombies in a farmhouse?",
     "answers": [
-      "Night of the Living Dead",
       "28 Weeks Later",
       "REC",
-      "Train to Busan"
+      "Train to Busan",
+      "Night of the Living Dead"
     ],
     "correctAnswer": "Night of the Living Dead",
     "explanation": "Night of the Living Dead is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "night-living"
+      "horror"
     ]
   },
   {
-    "id": 60105,
+    "id": 55105,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -2090,73 +1886,65 @@
     "correctAnswer": "Insidious",
     "explanation": "Insidious is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "insidious"
+      "horror"
     ]
   },
   {
-    "id": 60106,
+    "id": 55106,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie stars Anthony Hopkins as Dr. Hannibal Lecter?",
     "answers": [
-      "The Silence of the Lambs",
       "Se7en",
+      "The Silence of the Lambs",
       "Red Dragon",
       "Zodiac"
     ],
     "correctAnswer": "The Silence of the Lambs",
     "explanation": "The Silence of the Lambs is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "silence-lambs"
+      "horror"
     ]
   },
   {
-    "id": 60107,
+    "id": 55107,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror film features a creepy child communicating with spirits through a television?",
     "answers": [
-      "Poltergeist",
       "The Ring",
       "Insidious",
+      "Poltergeist",
       "The Others"
     ],
     "correctAnswer": "Poltergeist",
     "explanation": "Poltergeist is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "poltergeist"
+      "horror"
     ]
   },
   {
-    "id": 60108,
+    "id": 55108,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie features a cursed house at 112 Ocean Avenue?",
     "answers": [
-      "The Amityville Horror",
       "Poltergeist",
       "Insidious",
-      "The Conjuring"
+      "The Conjuring",
+      "The Amityville Horror"
     ],
     "correctAnswer": "The Amityville Horror",
     "explanation": "The Amityville Horror is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "amityville-horror"
+      "horror"
     ]
   },
   {
-    "id": 60109,
+    "id": 55109,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -2170,73 +1958,65 @@
     "correctAnswer": "Talk to Me",
     "explanation": "Talk to Me is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "talk"
+      "horror"
     ]
   },
   {
-    "id": 60110,
+    "id": 55110,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film follows a photographer uncovering a cult tied to supernatural murders?",
     "answers": [
-      "Candyman",
       "Sinister",
+      "Candyman",
       "Session 9",
       "The Empty Man"
     ],
     "correctAnswer": "Candyman",
     "explanation": "Candyman is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "candyman"
+      "horror"
     ]
   },
   {
-    "id": 60111,
+    "id": 55111,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows passengers trapped aboard a mysterious abandoned ship?",
     "answers": [
-      "Ghost Ship",
       "Triangle",
       "Deep Rising",
+      "Ghost Ship",
       "Event Horizon"
     ],
     "correctAnswer": "Ghost Ship",
     "explanation": "Ghost Ship is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "ghost-ship"
+      "horror"
     ]
   },
   {
-    "id": 60112,
+    "id": 55112,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror film features a masked killer using the alias Ghostface?",
     "answers": [
-      "Scream",
       "Halloween",
       "Urban Legend",
-      "I Know What You Did Last Summer"
+      "I Know What You Did Last Summer",
+      "Scream"
     ],
     "correctAnswer": "Scream",
     "explanation": "Scream is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "scream"
+      "horror"
     ]
   },
   {
-    "id": 60113,
+    "id": 55113,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -2250,73 +2030,65 @@
     "correctAnswer": "The Ring",
     "explanation": "The Ring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "ring"
+      "horror"
     ]
   },
   {
-    "id": 60114,
+    "id": 55114,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie features a vampire named Count Orlok?",
     "answers": [
-      "Nosferatu",
       "Dracula",
+      "Nosferatu",
       "Salem's Lot",
       "30 Days of Night"
     ],
     "correctAnswer": "Nosferatu",
     "explanation": "Nosferatu is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "nosferatu"
+      "horror"
     ]
   },
   {
-    "id": 60115,
+    "id": 55115,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a group trapped in deadly cube-shaped rooms?",
     "answers": [
-      "Cube",
       "Saw",
       "Escape Room",
+      "Cube",
       "Exam"
     ],
     "correctAnswer": "Cube",
     "explanation": "Cube is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "cube"
+      "horror"
     ]
   },
   {
-    "id": 60116,
+    "id": 55116,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film follows a family staying at a remote lodge during winter?",
     "answers": [
-      "The Lodge",
       "Frozen",
       "The Shining",
-      "Wind Chill"
+      "Wind Chill",
+      "The Lodge"
     ],
     "correctAnswer": "The Lodge",
     "explanation": "The Lodge is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "lodge"
+      "horror"
     ]
   },
   {
-    "id": 60117,
+    "id": 55117,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
@@ -2330,73 +2102,65 @@
     "correctAnswer": "Session 9",
     "explanation": "Session 9 is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "session"
+      "horror"
     ]
   },
   {
-    "id": 60118,
+    "id": 55118,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a family hunted by creatures after opening a mysterious box?",
     "answers": [
-      "Bird Box",
       "A Quiet Place",
+      "Bird Box",
       "The Mist",
       "Life"
     ],
     "correctAnswer": "Bird Box",
     "explanation": "Bird Box is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "bird-box"
+      "horror"
     ]
   },
   {
-    "id": 60119,
+    "id": 55119,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows travelers attacked by cannibal mutants in the desert?",
     "answers": [
-      "The Hills Have Eyes",
       "Wrong Turn",
       "Jeepers Creepers",
+      "The Hills Have Eyes",
       "Wolf Creek"
     ],
     "correctAnswer": "The Hills Have Eyes",
     "explanation": "The Hills Have Eyes is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "hills-have"
+      "horror"
     ]
   },
   {
-    "id": 60120,
+    "id": 55120,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film features a telepathic connection between a mother and her possessed son?",
     "answers": [
-      "The Brood",
       "Carrie",
       "Firestarter",
-      "Scanners"
+      "Scanners",
+      "The Brood"
     ],
     "correctAnswer": "The Brood",
     "explanation": "The Brood is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "brood"
+      "horror"
     ]
   },
   {
-    "id": 60121,
+    "id": 55121,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -2410,73 +2174,65 @@
     "correctAnswer": "Train to Busan",
     "explanation": "Train to Busan is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "train-busan"
+      "horror"
     ]
   },
   {
-    "id": 60122,
+    "id": 55122,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie features a videotape-loving serial killer named Bughuul?",
     "answers": [
-      "Sinister",
       "The Ring",
+      "Sinister",
       "Smile",
       "The Black Phone"
     ],
     "correctAnswer": "Sinister",
     "explanation": "Sinister is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "sinister"
+      "horror"
     ]
   },
   {
-    "id": 60123,
+    "id": 55123,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror franchise includes a killer called Ghostface?",
     "answers": [
-      "Scream",
       "Saw",
       "Halloween",
+      "Scream",
       "Candyman"
     ],
     "correctAnswer": "Scream",
     "explanation": "Scream is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "scream"
+      "horror"
     ]
   },
   {
-    "id": 60124,
+    "id": 55124,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film was released first?",
     "answers": [
-      "Psycho",
       "The Exorcist",
       "Halloween",
-      "Alien"
+      "Alien",
+      "Psycho"
     ],
     "correctAnswer": "Psycho",
     "explanation": "Psycho is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "psycho"
+      "horror"
     ]
   },
   {
-    "id": 60125,
+    "id": 55125,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -2490,73 +2246,65 @@
     "correctAnswer": "The Conjuring",
     "explanation": "The Conjuring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "conjuring"
+      "horror"
     ]
   },
   {
-    "id": 60126,
+    "id": 55126,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror villain is associated with the phrase 'We all float down here'?",
     "answers": [
-      "Pennywise",
       "Freddy Krueger",
+      "Pennywise",
       "Candyman",
       "Ghostface"
     ],
     "correctAnswer": "Pennywise",
     "explanation": "Pennywise is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "pennywise"
+      "horror"
     ]
   },
   {
-    "id": 60127,
+    "id": 55127,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows teenagers hunted after a deadly car accident cover-up?",
     "answers": [
-      "I Know What You Did Last Summer",
       "Urban Legend",
       "Scream",
+      "I Know What You Did Last Summer",
       "Final Destination"
     ],
     "correctAnswer": "I Know What You Did Last Summer",
     "explanation": "I Know What You Did Last Summer is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "know-what"
+      "horror"
     ]
   },
   {
-    "id": 60128,
+    "id": 55128,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film was directed by Ridley Scott?",
     "answers": [
-      "Alien",
       "The Thing",
       "Event Horizon",
-      "Predator"
+      "Predator",
+      "Alien"
     ],
     "correctAnswer": "Alien",
     "explanation": "Alien is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "alien"
+      "horror"
     ]
   },
   {
-    "id": 60129,
+    "id": 55129,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -2570,73 +2318,65 @@
     "correctAnswer": "A Quiet Place",
     "explanation": "A Quiet Place is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "quiet-place"
+      "horror"
     ]
   },
   {
-    "id": 60130,
+    "id": 55130,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film follows a babysitter fighting off home invaders wearing animal masks?",
     "answers": [
-      "You're Next",
       "The Strangers",
+      "You're Next",
       "Hush",
       "Ready or Not"
     ],
     "correctAnswer": "You're Next",
     "explanation": "You're Next is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "youre-next"
+      "horror"
     ]
   },
   {
-    "id": 60131,
+    "id": 55131,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie centers around a deadly game called Truth or Dare?",
     "answers": [
-      "Truth or Dare",
       "Would You Rather",
       "Escape Room",
+      "Truth or Dare",
       "Saw"
     ],
     "correctAnswer": "Truth or Dare",
     "explanation": "Truth or Dare is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "truth-dare"
+      "horror"
     ]
   },
   {
-    "id": 60132,
+    "id": 55132,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie features a possessed woman named Isabelle Adjani in a Berlin apartment?",
     "answers": [
-      "Possession",
       "Suspiria",
       "Repulsion",
-      "Saint Maud"
+      "Saint Maud",
+      "Possession"
     ],
     "correctAnswer": "Possession",
     "explanation": "Possession is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "possession"
+      "horror"
     ]
   },
   {
-    "id": 60133,
+    "id": 55133,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -2650,73 +2390,65 @@
     "correctAnswer": "The Black Phone",
     "explanation": "The Black Phone is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "black-phone"
+      "horror"
     ]
   },
   {
-    "id": 60134,
+    "id": 55134,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a deadly curse spread through physical intimacy?",
     "answers": [
-      "It Follows",
       "Smile",
+      "It Follows",
       "The Ring",
       "Truth or Dare"
     ],
     "correctAnswer": "It Follows",
     "explanation": "It Follows is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "follows"
+      "horror"
     ]
   },
   {
-    "id": 60135,
+    "id": 55135,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows a group trapped in a deadly escape room competition?",
     "answers": [
-      "Escape Room",
       "Cube",
       "Saw",
+      "Escape Room",
       "Exam"
     ],
     "correctAnswer": "Escape Room",
     "explanation": "Escape Room is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "escape-room"
+      "horror"
     ]
   },
   {
-    "id": 60136,
+    "id": 55136,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film follows a woman descending into madness inside an apartment building?",
     "answers": [
-      "Repulsion",
       "Hereditary",
       "Suspiria",
-      "The Others"
+      "The Others",
+      "Repulsion"
     ],
     "correctAnswer": "Repulsion",
     "explanation": "Repulsion is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "repulsion"
+      "horror"
     ]
   },
   {
-    "id": 60137,
+    "id": 55137,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -2730,73 +2462,65 @@
     "correctAnswer": "Scream",
     "explanation": "Scream is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "scream"
+      "horror"
     ]
   },
   {
-    "id": 60138,
+    "id": 55138,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film follows a family isolated on a remote farm while strange creatures roam outside?",
     "answers": [
-      "Signs",
       "The Mist",
+      "Signs",
       "Bird Box",
       "The Village"
     ],
     "correctAnswer": "Signs",
     "explanation": "Signs is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "signs"
+      "horror"
     ]
   },
   {
-    "id": 60139,
+    "id": 55139,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a demonic nun named Valak?",
     "answers": [
-      "The Nun",
       "Annabelle",
       "Insidious",
+      "The Nun",
       "Smile"
     ],
     "correctAnswer": "The Nun",
     "explanation": "The Nun is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "nun"
+      "horror"
     ]
   },
   {
-    "id": 60140,
+    "id": 55140,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie follows a cursed videotape originating from a well?",
     "answers": [
-      "Ringu",
       "Pulse",
       "Dark Water",
-      "Ju-On"
+      "Ju-On",
+      "Ringu"
     ],
     "correctAnswer": "Ringu",
     "explanation": "Ringu is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "ringu"
+      "horror"
     ]
   },
   {
-    "id": 60141,
+    "id": 55141,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -2810,73 +2534,65 @@
     "correctAnswer": "Grave Encounters",
     "explanation": "Grave Encounters is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "grave-encounters"
+      "horror"
     ]
   },
   {
-    "id": 60142,
+    "id": 55142,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features zombies running through London after a viral outbreak?",
     "answers": [
-      "28 Days Later",
       "World War Z",
+      "28 Days Later",
       "Train to Busan",
       "REC"
     ],
     "correctAnswer": "28 Days Later",
     "explanation": "28 Days Later is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "days-later"
+      "horror"
     ]
   },
   {
-    "id": 60143,
+    "id": 55143,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows a family visiting mysterious grandparents in rural Pennsylvania?",
     "answers": [
-      "The Visit",
       "Hereditary",
       "Relic",
+      "The Visit",
       "The Others"
     ],
     "correctAnswer": "The Visit",
     "explanation": "The Visit is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "visit"
+      "horror"
     ]
   },
   {
-    "id": 60144,
+    "id": 55144,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film features scientists discovering an ancient evil beneath a church?",
     "answers": [
-      "Prince of Darkness",
       "The Void",
       "Event Horizon",
-      "The Thing"
+      "The Thing",
+      "Prince of Darkness"
     ],
     "correctAnswer": "Prince of Darkness",
     "explanation": "Prince of Darkness is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "prince-darkness"
+      "horror"
     ]
   },
   {
-    "id": 60145,
+    "id": 55145,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -2890,73 +2606,65 @@
     "correctAnswer": "Ready or Not",
     "explanation": "Ready or Not is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "ready-not"
+      "horror"
     ]
   },
   {
-    "id": 60146,
+    "id": 55146,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie features a woman tormented by a creature only visible in darkness?",
     "answers": [
-      "Lights Out",
       "Smile",
+      "Lights Out",
       "Mama",
       "The Babadook"
     ],
     "correctAnswer": "Lights Out",
     "explanation": "Lights Out is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "lights-out"
+      "horror"
     ]
   },
   {
-    "id": 60147,
+    "id": 55147,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a killer clown named Art?",
     "answers": [
-      "Terrifier",
       "It",
       "Clown",
+      "Terrifier",
       "Haunt"
     ],
     "correctAnswer": "Terrifier",
     "explanation": "Terrifier is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "terrifier"
+      "horror"
     ]
   },
   {
-    "id": 60148,
+    "id": 55148,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film follows astronauts entering a black hole aboard a missing spaceship?",
     "answers": [
-      "Event Horizon",
       "Alien",
       "Sunshine",
-      "Life"
+      "Life",
+      "Event Horizon"
     ],
     "correctAnswer": "Event Horizon",
     "explanation": "Event Horizon is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "event-horizon"
+      "horror"
     ]
   },
   {
-    "id": 60149,
+    "id": 55149,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -2970,73 +2678,65 @@
     "correctAnswer": "The Pope's Exorcist",
     "explanation": "The Pope's Exorcist is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "popes-exorcist"
+      "horror"
     ]
   },
   {
-    "id": 60150,
+    "id": 55150,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie follows a woman stalked by an unseen smiling entity?",
     "answers": [
-      "Smile",
       "It Follows",
+      "Smile",
       "Lights Out",
       "Truth or Dare"
     ],
     "correctAnswer": "Smile",
     "explanation": "Smile is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "smile"
+      "horror"
     ]
   },
   {
-    "id": 60151,
+    "id": 55151,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film follows siblings returning to their childhood home after a family death?",
     "answers": [
-      "Relic",
       "The Others",
       "Hereditary",
+      "Relic",
       "The Lodge"
     ],
     "correctAnswer": "Relic",
     "explanation": "Relic is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "relic"
+      "horror"
     ]
   },
   {
-    "id": 60152,
+    "id": 55152,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie follows a family trapped inside a supermarket surrounded by mist creatures?",
     "answers": [
-      "The Mist",
       "Bird Box",
       "A Quiet Place",
-      "Cloverfield"
+      "Cloverfield",
+      "The Mist"
     ],
     "correctAnswer": "The Mist",
     "explanation": "The Mist is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "mist"
+      "horror"
     ]
   },
   {
-    "id": 60153,
+    "id": 55153,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -3050,73 +2750,65 @@
     "correctAnswer": "Jason Voorhees",
     "explanation": "Jason Voorhees is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "jason-voorhees"
+      "horror"
     ]
   },
   {
-    "id": 60154,
+    "id": 55154,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows a woman investigating strange disappearances tied to mirrors?",
     "answers": [
-      "Oculus",
       "Mirrors",
+      "Oculus",
       "Lights Out",
       "The Ring"
     ],
     "correctAnswer": "Oculus",
     "explanation": "Oculus is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "oculus"
+      "horror"
     ]
   },
   {
-    "id": 60155,
+    "id": 55155,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a family trapped inside a haunted funeral home?",
     "answers": [
-      "The Autopsy of Jane Doe",
       "Relic",
       "Sinister",
+      "The Autopsy of Jane Doe",
       "The Vigil"
     ],
     "correctAnswer": "The Autopsy of Jane Doe",
     "explanation": "The Autopsy of Jane Doe is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "autopsy-jane"
+      "horror"
     ]
   },
   {
-    "id": 60156,
+    "id": 55156,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film features a mysterious videotape connected to supernatural deaths in Japan?",
     "answers": [
-      "Ringu",
       "Pulse",
       "Dark Water",
-      "Ju-On"
+      "Ju-On",
+      "Ringu"
     ],
     "correctAnswer": "Ringu",
     "explanation": "Ringu is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "ringu"
+      "horror"
     ]
   },
   {
-    "id": 60157,
+    "id": 55157,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -3130,73 +2822,65 @@
     "correctAnswer": "The Autopsy of Jane Doe",
     "explanation": "The Autopsy of Jane Doe is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "autopsy-jane"
+      "horror"
     ]
   },
   {
-    "id": 60158,
+    "id": 55158,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a family stalked by birds violently attacking humans?",
     "answers": [
-      "The Birds",
       "Cujo",
+      "The Birds",
       "Arachnophobia",
       "Jaws"
     ],
     "correctAnswer": "The Birds",
     "explanation": "The Birds is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "birds"
+      "horror"
     ]
   },
   {
-    "id": 60159,
+    "id": 55159,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows tourists hunted in the Australian outback?",
     "answers": [
-      "Wolf Creek",
       "Wrong Turn",
       "The Hills Have Eyes",
+      "Wolf Creek",
       "Jeepers Creepers"
     ],
     "correctAnswer": "Wolf Creek",
     "explanation": "Wolf Creek is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "wolf-creek"
+      "horror"
     ]
   },
   {
-    "id": 60160,
+    "id": 55160,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film follows a remote village terrorized by a pagan cult?",
     "answers": [
-      "The Wicker Man",
       "Midsommar",
       "The Witch",
-      "The Ritual"
+      "The Ritual",
+      "The Wicker Man"
     ],
     "correctAnswer": "The Wicker Man",
     "explanation": "The Wicker Man is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "wicker-man"
+      "horror"
     ]
   },
   {
-    "id": 60161,
+    "id": 55161,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -3210,73 +2894,65 @@
     "correctAnswer": "Jaws",
     "explanation": "Jaws is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "jaws"
+      "horror"
     ]
   },
   {
-    "id": 60162,
+    "id": 55162,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film follows a family isolated in a remote hotel during winter?",
     "answers": [
-      "The Shining",
       "The Lodge",
+      "The Shining",
       "Doctor Sleep",
       "1408"
     ],
     "correctAnswer": "The Shining",
     "explanation": "The Shining is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "shining"
+      "horror"
     ]
   },
   {
-    "id": 60163,
+    "id": 55163,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a haunted doll named Annabelle?",
     "answers": [
-      "Annabelle",
       "M3GAN",
       "Child's Play",
+      "Annabelle",
       "The Boy"
     ],
     "correctAnswer": "Annabelle",
     "explanation": "Annabelle is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "annabelle"
+      "horror"
     ]
   },
   {
-    "id": 60164,
+    "id": 55164,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film features a vampire hunter named Professor Van Helsing?",
     "answers": [
-      "Dracula",
       "Nosferatu",
       "Salem's Lot",
-      "Fright Night"
+      "Fright Night",
+      "Dracula"
     ],
     "correctAnswer": "Dracula",
     "explanation": "Dracula is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "dracula"
+      "horror"
     ]
   },
   {
-    "id": 60165,
+    "id": 55165,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -3290,73 +2966,65 @@
     "correctAnswer": "Host",
     "explanation": "Host is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "host"
+      "horror"
     ]
   },
   {
-    "id": 60166,
+    "id": 55166,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror villain is known for saying 'Do you want to play a game?'",
     "answers": [
-      "Jigsaw",
       "Ghostface",
+      "Jigsaw",
       "Freddy Krueger",
       "Leatherface"
     ],
     "correctAnswer": "Jigsaw",
     "explanation": "Jigsaw is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "jigsaw"
+      "horror"
     ]
   },
   {
-    "id": 60167,
+    "id": 55167,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror film follows a family terrorized by a giant Saint Bernard dog?",
     "answers": [
-      "Cujo",
       "Pet Sematary",
       "The Omen",
+      "Cujo",
       "The Breed"
     ],
     "correctAnswer": "Cujo",
     "explanation": "Cujo is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "cujo"
+      "horror"
     ]
   },
   {
-    "id": 60168,
+    "id": 55168,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a cursed tape connected to Samara Morgan?",
     "answers": [
-      "The Ring",
       "Smile",
       "The Grudge",
-      "Sinister"
+      "Sinister",
+      "The Ring"
     ],
     "correctAnswer": "The Ring",
     "explanation": "The Ring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "ring"
+      "horror"
     ]
   },
   {
-    "id": 60169,
+    "id": 55169,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
@@ -3370,73 +3038,65 @@
     "correctAnswer": "The Silence of the Lambs",
     "explanation": "The Silence of the Lambs is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "silence-lambs"
+      "horror"
     ]
   },
   {
-    "id": 60170,
+    "id": 55170,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows a family haunted after burying their dead in a mysterious cemetery?",
     "answers": [
-      "Pet Sematary",
       "The Others",
+      "Pet Sematary",
       "Relic",
       "The Conjuring"
     ],
     "correctAnswer": "Pet Sematary",
     "explanation": "Pet Sematary is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "pet-sematary"
+      "horror"
     ]
   },
   {
-    "id": 60171,
+    "id": 55171,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a masked killer stalking Laurie Strode?",
     "answers": [
-      "Halloween",
       "Scream",
       "Friday the 13th",
+      "Halloween",
       "Black Christmas"
     ],
     "correctAnswer": "Halloween",
     "explanation": "Halloween is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "halloween"
+      "horror"
     ]
   },
   {
-    "id": 60172,
+    "id": 55172,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows a family discovering disturbing footage in their attic?",
     "answers": [
-      "Sinister",
       "Insidious",
       "Smile",
-      "The Ring"
+      "The Ring",
+      "Sinister"
     ],
     "correctAnswer": "Sinister",
     "explanation": "Sinister is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "sinister"
+      "horror"
     ]
   },
   {
-    "id": 60173,
+    "id": 55173,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -3450,73 +3110,65 @@
     "correctAnswer": "Dawn of the Dead",
     "explanation": "Dawn of the Dead is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "dawn-dead"
+      "horror"
     ]
   },
   {
-    "id": 60174,
+    "id": 55174,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie follows a widower investigating ghost sightings in Venice?",
     "answers": [
-      "Don't Look Now",
       "The Others",
+      "Don't Look Now",
       "Suspiria",
       "The Orphanage"
     ],
     "correctAnswer": "Don't Look Now",
     "explanation": "Don't Look Now is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "dont-look"
+      "horror"
     ]
   },
   {
-    "id": 60175,
+    "id": 55175,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows a family trapped inside a rural farmhouse during a zombie outbreak?",
     "answers": [
-      "Night of the Living Dead",
       "28 Weeks Later",
       "REC",
+      "Night of the Living Dead",
       "World War Z"
     ],
     "correctAnswer": "Night of the Living Dead",
     "explanation": "Night of the Living Dead is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "night-living"
+      "horror"
     ]
   },
   {
-    "id": 60176,
+    "id": 55176,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror villain wears a white mask and silently stalks victims?",
     "answers": [
-      "Michael Myers",
       "Ghostface",
       "Jason Voorhees",
-      "Leatherface"
+      "Leatherface",
+      "Michael Myers"
     ],
     "correctAnswer": "Michael Myers",
     "explanation": "Michael Myers is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "michael-myers"
+      "horror"
     ]
   },
   {
-    "id": 60177,
+    "id": 55177,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -3530,73 +3182,65 @@
     "correctAnswer": "When a Stranger Calls",
     "explanation": "When a Stranger Calls is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "when-stranger"
+      "horror"
     ]
   },
   {
-    "id": 60178,
+    "id": 55178,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film follows a television reporter trapped inside a quarantined apartment building?",
     "answers": [
-      "REC",
       "Host",
+      "REC",
       "Pulse",
       "Quarantine"
     ],
     "correctAnswer": "REC",
     "explanation": "REC is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "rec"
+      "horror"
     ]
   },
   {
-    "id": 60179,
+    "id": 55179,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a family hunted after opening a mysterious box containing creatures?",
     "answers": [
-      "Bird Box",
       "A Quiet Place",
       "The Mist",
+      "Bird Box",
       "Life"
     ],
     "correctAnswer": "Bird Box",
     "explanation": "Bird Box is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "bird-box"
+      "horror"
     ]
   },
   {
-    "id": 60180,
+    "id": 55180,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows people trapped in an underground military bunker during an outbreak?",
     "answers": [
-      "Day of the Dead",
       "28 Days Later",
       "REC",
-      "The Crazies"
+      "The Crazies",
+      "Day of the Dead"
     ],
     "correctAnswer": "Day of the Dead",
     "explanation": "Day of the Dead is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "day-dead"
+      "horror"
     ]
   },
   {
-    "id": 60181,
+    "id": 55181,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -3610,73 +3254,65 @@
     "correctAnswer": "Child's Play",
     "explanation": "Child's Play is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "childs-play"
+      "horror"
     ]
   },
   {
-    "id": 60182,
+    "id": 55182,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie follows a man transforming into an insect-like creature after a scientific experiment?",
     "answers": [
-      "The Fly",
       "The Thing",
+      "The Fly",
       "Tusk",
       "Splice"
     ],
     "correctAnswer": "The Fly",
     "explanation": "The Fly is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "fly"
+      "horror"
     ]
   },
   {
-    "id": 60183,
+    "id": 55183,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows a grieving mother communicating with the dead through séances?",
     "answers": [
-      "Talk to Me",
       "Ouija",
       "Lights Out",
+      "Talk to Me",
       "Smile"
     ],
     "correctAnswer": "Talk to Me",
     "explanation": "Talk to Me is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "talk"
+      "horror"
     ]
   },
   {
-    "id": 60184,
+    "id": 55184,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a family moving into the Overlook Hotel?",
     "answers": [
-      "The Shining",
       "1408",
       "Doctor Sleep",
-      "The Lodge"
+      "The Lodge",
+      "The Shining"
     ],
     "correctAnswer": "The Shining",
     "explanation": "The Shining is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "shining"
+      "horror"
     ]
   },
   {
-    "id": 60185,
+    "id": 55185,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -3690,73 +3326,65 @@
     "correctAnswer": "Urban Legend",
     "explanation": "Urban Legend is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "urban-legend"
+      "horror"
     ]
   },
   {
-    "id": 60186,
+    "id": 55186,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie follows a family tormented by giant spiders in a small town?",
     "answers": [
-      "Arachnophobia",
       "Eight Legged Freaks",
+      "Arachnophobia",
       "The Mist",
       "Infested"
     ],
     "correctAnswer": "Arachnophobia",
     "explanation": "Arachnophobia is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "arachnophobia"
+      "horror"
     ]
   },
   {
-    "id": 60187,
+    "id": 55187,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror film features a demonically possessed child named Regan MacNeil?",
     "answers": [
-      "The Exorcist",
       "The Omen",
       "Carrie",
+      "The Exorcist",
       "Hereditary"
     ],
     "correctAnswer": "The Exorcist",
     "explanation": "The Exorcist is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "exorcist"
+      "horror"
     ]
   },
   {
-    "id": 60188,
+    "id": 55188,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows a woman trapped inside a bunker after an apparent apocalypse?",
     "answers": [
-      "10 Cloverfield Lane",
       "Bird Box",
       "The Mist",
-      "Hidden"
+      "Hidden",
+      "10 Cloverfield Lane"
     ],
     "correctAnswer": "10 Cloverfield Lane",
     "explanation": "10 Cloverfield Lane is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "cloverfield-lane"
+      "horror"
     ]
   },
   {
-    "id": 60189,
+    "id": 55189,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -3770,73 +3398,65 @@
     "correctAnswer": "Final Destination",
     "explanation": "Final Destination is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "final-destination"
+      "horror"
     ]
   },
   {
-    "id": 60190,
+    "id": 55190,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie follows a scientist creating artificial life that turns violent?",
     "answers": [
-      "Frankenstein",
       "The Fly",
+      "Frankenstein",
       "Splice",
       "Re-Animator"
     ],
     "correctAnswer": "Frankenstein",
     "explanation": "Frankenstein is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "frankenstein"
+      "horror"
     ]
   },
   {
-    "id": 60191,
+    "id": 55191,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows friends exploring catacombs beneath Paris?",
     "answers": [
-      "As Above, So Below",
       "The Descent",
       "REC",
+      "As Above, So Below",
       "The Cave"
     ],
     "correctAnswer": "As Above, So Below",
     "explanation": "As Above, So Below is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "above-below"
+      "horror"
     ]
   },
   {
-    "id": 60192,
+    "id": 55192,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror villain attacks victims inside their dreams?",
     "answers": [
-      "Freddy Krueger",
       "Michael Myers",
       "Jason Voorhees",
-      "Ghostface"
+      "Ghostface",
+      "Freddy Krueger"
     ],
     "correctAnswer": "Freddy Krueger",
     "explanation": "Freddy Krueger is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "freddy-krueger"
+      "horror"
     ]
   },
   {
-    "id": 60193,
+    "id": 55193,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -3850,52 +3470,47 @@
     "correctAnswer": "Midnight Mass",
     "explanation": "Midnight Mass is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "midnight-mass"
+      "horror"
     ]
   },
   {
-    "id": 60194,
+    "id": 55194,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror movie features a cursed monkey paw granting dangerous wishes?",
     "answers": [
-      "The Monkey's Paw",
       "Wishmaster",
+      "The Monkey's Paw",
       "Hellraiser",
       "Talk to Me"
     ],
     "correctAnswer": "The Monkey's Paw",
     "explanation": "The Monkey's Paw is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "monkeys-paw"
+      "horror"
     ]
   },
   {
-    "id": 60195,
+    "id": 55195,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
     "text": "Which horror movie features a clown called Pennywise haunting children in Derry?",
     "answers": [
-      "It",
       "Terrifier",
       "Clown",
+      "It",
       "Haunt"
     ],
     "correctAnswer": "It",
     "explanation": "It is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy"
+      "horror"
     ]
   },
   {
-    "id": 60196,
+    "id": 55196,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
@@ -3903,19 +3518,17 @@
     "answers": [
       "The Empty Man",
       "Mandy",
-      "Apostle",
-      "Saint Maud"
+      "Saint Maud",
+      "Apostle"
     ],
     "correctAnswer": "Apostle",
     "explanation": "Apostle is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "apostle"
+      "horror"
     ]
   },
   {
-    "id": 60197,
+    "id": 55197,
     "category": "horror",
     "premium": true,
     "difficulty": "easy",
@@ -3929,69 +3542,61 @@
     "correctAnswer": "The Conjuring",
     "explanation": "The Conjuring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "easy",
-      "conjuring"
+      "horror"
     ]
   },
   {
-    "id": 60198,
+    "id": 55198,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film follows isolated researchers uncovering an ancient cosmic entity in Antarctica?",
     "answers": [
-      "The Thing",
       "Alien",
+      "The Thing",
       "Event Horizon",
       "Life"
     ],
     "correctAnswer": "The Thing",
     "explanation": "The Thing is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "thing"
+      "horror"
     ]
   },
   {
-    "id": 60199,
+    "id": 55199,
     "category": "horror",
     "premium": true,
     "difficulty": "medium",
     "text": "Which horror movie follows siblings haunted by a smiling supernatural curse after a traumatic event?",
     "answers": [
-      "Smile",
       "It Follows",
       "Lights Out",
+      "Smile",
       "Truth or Dare"
     ],
     "correctAnswer": "Smile",
     "explanation": "Smile is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "medium",
-      "smile"
+      "horror"
     ]
   },
   {
-    "id": 60200,
+    "id": 55200,
     "category": "horror",
     "premium": true,
     "difficulty": "hard",
     "text": "Which horror film follows a detective investigating murders tied to a mysterious videotape in Seattle?",
     "answers": [
-      "The Ring",
       "Sinister",
       "Pulse",
-      "REC"
+      "REC",
+      "The Ring"
     ],
     "correctAnswer": "The Ring",
     "explanation": "The Ring is the correct answer to this horror question.",
     "tags": [
-      "horror",
-      "hard",
-      "ring"
+      "horror"
     ]
   }
 ]

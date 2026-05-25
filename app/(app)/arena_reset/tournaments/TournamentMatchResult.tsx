@@ -18,6 +18,7 @@ import { feedback } from "@/feedback";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { TournamentMatch } from "@/arena/types/match";
+import { getTournamentRoundPrestige } from "@/arena/tournaments/tournamentPrestige";
 
 function shortName(value?: string | null) {
   if (!value) return "Player";
@@ -64,6 +65,13 @@ function getRoundInfo(match: TournamentMatch | null, bracket: any) {
     total: 3,
     isFinalMatch: false,
   };
+}
+
+function getRoundKey(match: TournamentMatch | null, bracket: any): "qualifier" | "semifinal" | "final" {
+  if (!match || !bracket) return "qualifier";
+  if (bracket.final?.id === match.id) return "final";
+  if ((bracket.semifinals ?? []).some((m: TournamentMatch) => m.id === match.id)) return "semifinal";
+  return "qualifier";
 }
 
 export default function TournamentMatchResult() {
@@ -121,6 +129,11 @@ export default function TournamentMatchResult() {
   const didWin = Boolean(match && playerUid && match.winnerUid === playerUid);
   const round = useMemo(() => getRoundInfo(match, bracket), [match, bracket]);
   const isFinal = tournament?.status === "completed" || round.isFinalMatch;
+  const roundKey = useMemo(() => getRoundKey(match, bracket), [match, bracket]);
+  const prestige = useMemo(
+    () => getTournamentRoundPrestige(roundKey, didWin, match?.resolutionReason === "tiebreak"),
+    [didWin, match?.resolutionReason, roundKey]
+  );
 
   useEffect(() => {
     if (!match || !playerUid) return;
@@ -181,13 +194,9 @@ export default function TournamentMatchResult() {
           <Text style={styles.trophyIcon}>{didWin ? "🏆" : "🔥"}</Text>
         </View>
 
-        <Text style={styles.resultTitle}>{didWin ? "Qualified" : "Eliminated"}</Text>
+        <Text style={styles.resultTitle}>{didWin ? prestige.title : "Eliminated"}</Text>
         <Text style={styles.contextText}>
-          {didWin
-            ? isFinal
-              ? "You closed the bracket. The cup is yours — claim the champion spotlight."
-              : "You survived the pressure round. The bracket opens and the next stage is waiting."
-            : "Your run ends here, but the event record is saved. Re-enter the next cup stronger."}
+          {didWin ? prestige.detail : "Your run ends here, but the event record is saved. Re-enter the next cup stronger."}
         </Text>
       </ImageBackground>
 
@@ -260,12 +269,15 @@ export default function TournamentMatchResult() {
             <Text style={styles.rewardIcon}>{didWin ? "🎁" : "⭐"}</Text>
           </View>
           <View style={styles.rewardTextWrap}>
-            <Text style={styles.rewardTitle}>{didWin ? "Prestige Pressure Increased" : "Run Experience Saved"}</Text>
+            <Text style={styles.rewardTitle}>{prestige.title}</Text>
             <Text style={styles.rewardText}>
               {didWin
-                ? "+ Tournament momentum • + Champion path • + Future seeding value"
+                ? `${prestige.badge} • Bracket path updated • Prestige history ready`
                 : "+ Tournament history • + Comeback target • + Next cup motivation"}
             </Text>
+            {match?.resolutionReason === "tiebreak" ? (
+              <Text style={styles.tiebreakText}>Official tiebreak applied</Text>
+            ) : null}
           </View>
         </ImageBackground>
       )}
@@ -319,7 +331,6 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "rgba(247,201,72,0.32)",
     marginBottom: 16,
-    overflow: "hidden",
   },
   heroImage: {
     borderRadius: 28,
@@ -356,7 +367,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     paddingVertical: 6,
     borderRadius: 999,
-    overflow: "hidden",
   },
   trophySlotWin: {
     width: 86,
@@ -562,7 +572,6 @@ const styles = StyleSheet.create({
     lineHeight: 19,
   },
   rewardPanel: {
-    overflow: "hidden",
     backgroundColor: "#151520",
     borderRadius: 22,
     padding: 16,
@@ -600,6 +609,13 @@ const styles = StyleSheet.create({
     fontSize: 13,
     lineHeight: 19,
   },
+  tiebreakText: {
+    color: "#D6A93A",
+    fontSize: 11,
+    fontWeight: "900",
+    marginTop: 6,
+    letterSpacing: 0.5,
+  },
   button: {
     backgroundColor: "#D6A93A",
     borderWidth: 1,
@@ -624,4 +640,6 @@ const styles = StyleSheet.create({
     marginTop: 3,
   },
 });
+
+
 

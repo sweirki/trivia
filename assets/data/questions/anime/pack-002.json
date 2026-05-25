@@ -1,1 +1,4742 @@
-[]
+[
+  {
+    "id": 3001,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features corporate gladiator fights and Ohma Tokita?",
+    "answers": [
+      "Kengan Ashura",
+      "Hajime no Ippo",
+      "Baki",
+      "Record of Ragnarok"
+    ],
+    "correctAnswer": "Kengan Ashura",
+    "explanation": "Kengan Ashura centers on underground matches fought on behalf of corporations.",
+    "tags": [
+      "anime",
+      "martial-arts",
+      "action"
+    ]
+  },
+  {
+    "id": 3002,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime stages battles between gods and historical humans?",
+    "answers": [
+      "Fate/Zero",
+      "Record of Ragnarok",
+      "Drifters",
+      "Kengan Ashura"
+    ],
+    "correctAnswer": "Record of Ragnarok",
+    "explanation": "Record of Ragnarok features tournament battles between gods and human champions.",
+    "tags": [
+      "anime",
+      "tournament",
+      "mythology"
+    ]
+  },
+  {
+    "id": 3003,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime franchise summons historical heroes as Servants?",
+    "answers": [
+      "Drifters",
+      "The Heroic Legend of Arslan",
+      "Fate",
+      "Record of Ragnarok"
+    ],
+    "correctAnswer": "Fate",
+    "explanation": "The Fate franchise features Servants based on legendary and historical figures.",
+    "tags": [
+      "anime",
+      "fate",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 3004,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Fate anime centers on the Fourth Holy Grail War?",
+    "answers": [
+      "Fate/Grand Order",
+      "Fate/stay night: Unlimited Blade Works",
+      "Fate/Apocrypha",
+      "Fate/Zero"
+    ],
+    "correctAnswer": "Fate/Zero",
+    "explanation": "Fate/Zero tells the story of the Fourth Holy Grail War.",
+    "tags": [
+      "anime",
+      "fate",
+      "series"
+    ]
+  },
+  {
+    "id": 3005,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Fate/stay night, which Servant class is Saber usually associated with?",
+    "answers": [
+      "Saber",
+      "Archer",
+      "Lancer",
+      "Caster"
+    ],
+    "correctAnswer": "Saber",
+    "explanation": "Artoria Pendragon is most famously summoned as the Saber-class Servant.",
+    "tags": [
+      "anime",
+      "fate",
+      "characters"
+    ]
+  },
+  {
+    "id": 3006,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows historical warriors transported to a fantasy world?",
+    "answers": [
+      "Record of Ragnarok",
+      "Drifters",
+      "Kingdom",
+      "Fate/Zero"
+    ],
+    "correctAnswer": "Drifters",
+    "explanation": "Drifters features figures from history thrown into a violent fantasy conflict.",
+    "tags": [
+      "anime",
+      "historical-fantasy",
+      "action"
+    ]
+  },
+  {
+    "id": 3007,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime is set during China's Warring States period and follows Xin?",
+    "answers": [
+      "Golden Kamuy",
+      "Vinland Saga",
+      "Kingdom",
+      "Arslan Senki"
+    ],
+    "correctAnswer": "Kingdom",
+    "explanation": "Kingdom follows Xin's rise during the Warring States period of China.",
+    "tags": [
+      "anime",
+      "historical",
+      "kingdom"
+    ]
+  },
+  {
+    "id": 3008,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Saichi Sugimoto searching for Ainu gold?",
+    "answers": [
+      "Vinland Saga",
+      "Kingdom",
+      "Dororo",
+      "Golden Kamuy"
+    ],
+    "correctAnswer": "Golden Kamuy",
+    "explanation": "Golden Kamuy follows Sugimoto and Asirpa in a hunt for hidden gold.",
+    "tags": [
+      "anime",
+      "historical",
+      "adventure"
+    ]
+  },
+  {
+    "id": 3009,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features the Prince of Pars, Arslan?",
+    "answers": [
+      "The Heroic Legend of Arslan",
+      "Magi",
+      "Drifters",
+      "Kingdom"
+    ],
+    "correctAnswer": "The Heroic Legend of Arslan",
+    "explanation": "The Heroic Legend of Arslan follows Prince Arslan's struggle to reclaim his kingdom.",
+    "tags": [
+      "anime",
+      "historical-fantasy",
+      "war"
+    ]
+  },
+  {
+    "id": 3010,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a young girl named Chise becoming apprentice to Elias?",
+    "answers": [
+      "Fruits Basket",
+      "The Ancient Magus' Bride",
+      "Violet Evergarden",
+      "Spice and Wolf"
+    ],
+    "correctAnswer": "The Ancient Magus' Bride",
+    "explanation": "Chise becomes connected to the mysterious mage Elias Ainsworth.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "romance"
+    ]
+  },
+  {
+    "id": 3011,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Lawrence and Holo discussing trade and economics?",
+    "answers": [
+      "Ascendance of a Bookworm",
+      "Maoyuu Maou Yuusha",
+      "Spice and Wolf",
+      "Mushoku Tensei"
+    ],
+    "correctAnswer": "Spice and Wolf",
+    "explanation": "Spice and Wolf combines fantasy travel with economics and trade.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "economics"
+    ]
+  },
+  {
+    "id": 3012,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a Demon King and Hero working together on economic reform?",
+    "answers": [
+      "Log Horizon",
+      "Overlord",
+      "Spice and Wolf",
+      "Maoyuu Maou Yuusha"
+    ],
+    "correctAnswer": "Maoyuu Maou Yuusha",
+    "explanation": "Maoyuu Maou Yuusha reframes the hero-demon conflict through economics and politics.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "economics"
+    ]
+  },
+  {
+    "id": 3013,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows a spider monster reincarnation with survival-focused progression?",
+    "answers": [
+      "So I'm a Spider, So What?",
+      "That Time I Got Reincarnated as a Slime",
+      "Re:Monster",
+      "Overlord"
+    ],
+    "correctAnswer": "So I'm a Spider, So What?",
+    "explanation": "The series follows a protagonist reincarnated as a spider in a dangerous dungeon.",
+    "tags": [
+      "anime",
+      "isekai",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 3014,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a vending machine reincarnated in a fantasy world?",
+    "answers": [
+      "Konosuba",
+      "Reborn as a Vending Machine",
+      "Cautious Hero",
+      "Campfire Cooking in Another World"
+    ],
+    "correctAnswer": "Reborn as a Vending Machine",
+    "explanation": "The premise centers on a protagonist reincarnated as a vending machine.",
+    "tags": [
+      "anime",
+      "isekai",
+      "comedy"
+    ]
+  },
+  {
+    "id": 3015,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Mukohda using online shopping and cooking in another world?",
+    "answers": [
+      "Food Wars!",
+      "Restaurant to Another World",
+      "Campfire Cooking in Another World",
+      "Delicious in Dungeon"
+    ],
+    "correctAnswer": "Campfire Cooking in Another World",
+    "explanation": "Mukohda relies on an online grocery skill and cooking to survive in another world.",
+    "tags": [
+      "anime",
+      "isekai",
+      "food"
+    ]
+  },
+  {
+    "id": 3016,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a restaurant whose door opens to another world?",
+    "answers": [
+      "Isekai Izakaya",
+      "Food Wars!",
+      "Campfire Cooking in Another World",
+      "Restaurant to Another World"
+    ],
+    "correctAnswer": "Restaurant to Another World",
+    "explanation": "Restaurant to Another World features fantasy patrons visiting a modern-style restaurant.",
+    "tags": [
+      "anime",
+      "food",
+      "isekai"
+    ]
+  },
+  {
+    "id": 3017,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows a Japanese pub serving customers from a fantasy world?",
+    "answers": [
+      "Isekai Izakaya",
+      "Restaurant to Another World",
+      "Food Wars!",
+      "Sweetness & Lightning"
+    ],
+    "correctAnswer": "Isekai Izakaya",
+    "explanation": "Isekai Izakaya centers on a Japanese pub connected to another world.",
+    "tags": [
+      "anime",
+      "food",
+      "isekai"
+    ]
+  },
+  {
+    "id": 3018,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows a widowed father learning to cook for his daughter?",
+    "answers": [
+      "Silver Spoon",
+      "Sweetness & Lightning",
+      "Usagi Drop",
+      "Barakamon"
+    ],
+    "correctAnswer": "Sweetness & Lightning",
+    "explanation": "Sweetness & Lightning focuses on family, food, and emotional healing.",
+    "tags": [
+      "anime",
+      "slice-of-life",
+      "food"
+    ]
+  },
+  {
+    "id": 3019,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Daikichi raising a young girl named Rin?",
+    "answers": [
+      "March Comes in Like a Lion",
+      "Sweetness & Lightning",
+      "Usagi Drop",
+      "Barakamon"
+    ],
+    "correctAnswer": "Usagi Drop",
+    "explanation": "Usagi Drop follows Daikichi as he becomes the guardian of Rin.",
+    "tags": [
+      "anime",
+      "slice-of-life",
+      "family"
+    ]
+  },
+  {
+    "id": 3020,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a traditional confectionery shop and comedy around Kokonotsu?",
+    "answers": [
+      "Sweetness & Lightning",
+      "Food Wars!",
+      "Silver Spoon",
+      "Dagashi Kashi"
+    ],
+    "correctAnswer": "Dagashi Kashi",
+    "explanation": "Dagashi Kashi is centered on Japanese snacks and a family candy shop.",
+    "tags": [
+      "anime",
+      "comedy",
+      "food"
+    ]
+  },
+  {
+    "id": 3021,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows students making tank battles a school sport?",
+    "answers": [
+      "Girls und Panzer",
+      "Strike Witches",
+      "Azur Lane",
+      "High School Fleet"
+    ],
+    "correctAnswer": "Girls und Panzer",
+    "explanation": "Girls und Panzer treats tankery as a competitive school activity.",
+    "tags": [
+      "anime",
+      "sports",
+      "military"
+    ]
+  },
+  {
+    "id": 3022,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features ship girls based on naval vessels?",
+    "answers": [
+      "Strike Witches",
+      "Kantai Collection",
+      "Girls und Panzer",
+      "High School Fleet"
+    ],
+    "correctAnswer": "Kantai Collection",
+    "explanation": "Kantai Collection personifies warships as characters.",
+    "tags": [
+      "anime",
+      "military",
+      "game-adaptation"
+    ]
+  },
+  {
+    "id": 3023,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features girls with animal ears and aircraft-like leg units fighting Neuroi?",
+    "answers": [
+      "Girls und Panzer",
+      "Azur Lane",
+      "Strike Witches",
+      "High School Fleet"
+    ],
+    "correctAnswer": "Strike Witches",
+    "explanation": "Strike Witches combines aerial combat with magical girls using Striker Units.",
+    "tags": [
+      "anime",
+      "military",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": 3024,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a school ship crew in a naval setting?",
+    "answers": [
+      "Kantai Collection",
+      "Azur Lane",
+      "Girls und Panzer",
+      "High School Fleet"
+    ],
+    "correctAnswer": "High School Fleet",
+    "explanation": "High School Fleet centers on students training aboard ships.",
+    "tags": [
+      "anime",
+      "military",
+      "school"
+    ]
+  },
+  {
+    "id": 3025,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime adaptation features anthropomorphized warships from a mobile game franchise?",
+    "answers": [
+      "Azur Lane",
+      "Strike Witches",
+      "Girls und Panzer",
+      "High School Fleet"
+    ],
+    "correctAnswer": "Azur Lane",
+    "explanation": "Azur Lane features shipgirls based on warships and factions.",
+    "tags": [
+      "anime",
+      "military",
+      "game-adaptation"
+    ]
+  },
+  {
+    "id": 3026,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows horse girls training and racing?",
+    "answers": [
+      "Keijo!!!!!!!!",
+      "Uma Musume Pretty Derby",
+      "Sk8 the Infinity",
+      "Yowamushi Pedal"
+    ],
+    "correctAnswer": "Uma Musume Pretty Derby",
+    "explanation": "Uma Musume turns racehorses into characters who train and compete.",
+    "tags": [
+      "anime",
+      "sports",
+      "game-adaptation"
+    ]
+  },
+  {
+    "id": 3027,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is about competitive cycling and Sakamichi Onoda?",
+    "answers": [
+      "Initial D",
+      "Sk8 the Infinity",
+      "Yowamushi Pedal",
+      "Run with the Wind"
+    ],
+    "correctAnswer": "Yowamushi Pedal",
+    "explanation": "Yowamushi Pedal follows Onoda as he joins the world of road cycling.",
+    "tags": [
+      "anime",
+      "sports",
+      "cycling"
+    ]
+  },
+  {
+    "id": 3028,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a sport where players knock each other off platforms using only hips and chests?",
+    "answers": [
+      "Free!",
+      "Hinomaru Sumo",
+      "Yowamushi Pedal",
+      "Keijo!!!!!!!!"
+    ],
+    "correctAnswer": "Keijo!!!!!!!!",
+    "explanation": "Keijo!!!!!!!! is built around a fictional competitive sport with unusual rules.",
+    "tags": [
+      "anime",
+      "sports",
+      "comedy"
+    ]
+  },
+  {
+    "id": 3029,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime focuses on high school sumo and Hinomaru Ushio?",
+    "answers": [
+      "Hinomaru Sumo",
+      "Baki",
+      "Kengan Ashura",
+      "Megalo Box"
+    ],
+    "correctAnswer": "Hinomaru Sumo",
+    "explanation": "Hinomaru Sumo follows a small but determined sumo wrestler aiming for the top.",
+    "tags": [
+      "anime",
+      "sports",
+      "sumo"
+    ]
+  },
+  {
+    "id": 3030,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows archery club members and kyudo?",
+    "answers": [
+      "Run with the Wind",
+      "Tsurune",
+      "Chihayafuru",
+      "Free!"
+    ],
+    "correctAnswer": "Tsurune",
+    "explanation": "Tsurune centers on high school kyudo and emotional growth through archery.",
+    "tags": [
+      "anime",
+      "sports",
+      "archery"
+    ]
+  },
+  {
+    "id": 3031,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows a cycling team at Sohoku High?",
+    "answers": [
+      "Blue Lock",
+      "Run with the Wind",
+      "Yowamushi Pedal",
+      "Haikyu!!"
+    ],
+    "correctAnswer": "Yowamushi Pedal",
+    "explanation": "Sohoku High's cycling club is central to Yowamushi Pedal.",
+    "tags": [
+      "anime",
+      "sports",
+      "cycling"
+    ]
+  },
+  {
+    "id": 3032,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime centers on a mahjong club at Kiyosumi High School?",
+    "answers": [
+      "Akagi",
+      "Kaiji",
+      "Chihayafuru",
+      "Saki"
+    ],
+    "correctAnswer": "Saki",
+    "explanation": "Saki follows high school girls competing in mahjong tournaments.",
+    "tags": [
+      "anime",
+      "games",
+      "mahjong"
+    ]
+  },
+  {
+    "id": 3033,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows virtual idol group μ's?",
+    "answers": [
+      "Love Live! School Idol Project",
+      "Wake Up, Girls!",
+      "Aikatsu!",
+      "Idolmaster"
+    ],
+    "correctAnswer": "Love Live! School Idol Project",
+    "explanation": "Love Live! follows μ's as they try to save their school through idol activities.",
+    "tags": [
+      "anime",
+      "idols",
+      "music"
+    ]
+  },
+  {
+    "id": 3034,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime franchise features 765 Production idols?",
+    "answers": [
+      "Zombie Land Saga",
+      "The Idolmaster",
+      "Love Live!",
+      "Aikatsu!"
+    ],
+    "correctAnswer": "The Idolmaster",
+    "explanation": "The Idolmaster follows idols and producers connected to 765 Production.",
+    "tags": [
+      "anime",
+      "idols",
+      "music"
+    ]
+  },
+  {
+    "id": 3035,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features zombie girls forming an idol group in Saga Prefecture?",
+    "answers": [
+      "Love Live!",
+      "Aikatsu!",
+      "Zombie Land Saga",
+      "The Idolmaster"
+    ],
+    "correctAnswer": "Zombie Land Saga",
+    "explanation": "Zombie Land Saga mixes idol performance with undead comedy.",
+    "tags": [
+      "anime",
+      "idols",
+      "comedy"
+    ]
+  },
+  {
+    "id": 3036,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows the idol unit Wake Up, Girls!?",
+    "answers": [
+      "Aikatsu!",
+      "The Idolmaster",
+      "Love Live!",
+      "Wake Up, Girls!"
+    ],
+    "correctAnswer": "Wake Up, Girls!",
+    "explanation": "Wake Up, Girls! follows an idol group trying to succeed in Sendai.",
+    "tags": [
+      "anime",
+      "idols",
+      "music"
+    ]
+  },
+  {
+    "id": 3037,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows girls training to become top idols at Starlight Academy?",
+    "answers": [
+      "Aikatsu!",
+      "PriPara",
+      "Love Live!",
+      "The Idolmaster"
+    ],
+    "correctAnswer": "Aikatsu!",
+    "explanation": "Aikatsu! focuses on idol training, performances, and fashion cards.",
+    "tags": [
+      "anime",
+      "idols",
+      "music"
+    ]
+  },
+  {
+    "id": 3038,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features idol activities in a world called PriPara?",
+    "answers": [
+      "Aikatsu!",
+      "PriPara",
+      "Love Live!",
+      "Selection Project"
+    ],
+    "correctAnswer": "PriPara",
+    "explanation": "PriPara centers on idol performances in a special idol-themed world.",
+    "tags": [
+      "anime",
+      "idols",
+      "music"
+    ]
+  },
+  {
+    "id": 3039,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Ai Hoshino as a major idol figure?",
+    "answers": [
+      "Perfect Blue",
+      "Nana",
+      "Oshi no Ko",
+      "Zombie Land Saga"
+    ],
+    "correctAnswer": "Oshi no Ko",
+    "explanation": "Oshi no Ko begins with the idol Ai Hoshino and explores entertainment industry darkness.",
+    "tags": [
+      "anime",
+      "idols",
+      "drama"
+    ]
+  },
+  {
+    "id": 3040,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime examines the entertainment industry through reincarnation and revenge themes?",
+    "answers": [
+      "Perfect Blue",
+      "Shirobako",
+      "Bakuman",
+      "Oshi no Ko"
+    ],
+    "correctAnswer": "Oshi no Ko",
+    "explanation": "Oshi no Ko combines idol industry drama, reincarnation, and revenge.",
+    "tags": [
+      "anime",
+      "drama",
+      "industry"
+    ]
+  },
+  {
+    "id": 3041,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a dragon named Tohru living with Kobayashi?",
+    "answers": [
+      "Miss Kobayashi's Dragon Maid",
+      "Dragon Goes House-Hunting",
+      "The Ancient Magus' Bride",
+      "Somali and the Forest Spirit"
+    ],
+    "correctAnswer": "Miss Kobayashi's Dragon Maid",
+    "explanation": "Tohru becomes Kobayashi's maid after being helped by her.",
+    "tags": [
+      "anime",
+      "comedy",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 3042,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows a weak dragon searching for a safe home?",
+    "answers": [
+      "Somali and the Forest Spirit",
+      "Dragon Goes House-Hunting",
+      "The Ancient Magus' Bride",
+      "Miss Kobayashi's Dragon Maid"
+    ],
+    "correctAnswer": "Dragon Goes House-Hunting",
+    "explanation": "Dragon Goes House-Hunting follows Letty, a timid dragon looking for a home.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "comedy"
+    ]
+  },
+  {
+    "id": 3043,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows a golem protecting a human child in a monster world?",
+    "answers": [
+      "Mushishi",
+      "Made in Abyss",
+      "Somali and the Forest Spirit",
+      "The Ancient Magus' Bride"
+    ],
+    "correctAnswer": "Somali and the Forest Spirit",
+    "explanation": "Somali and the Forest Spirit follows a golem and a child traveling through a fantasy world.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "adventure"
+    ]
+  },
+  {
+    "id": 3044,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a family of tanuki living in Kyoto?",
+    "answers": [
+      "Pom Poko",
+      "Natsume's Book of Friends",
+      "Uchouten Kazoku",
+      "The Eccentric Family"
+    ],
+    "correctAnswer": "The Eccentric Family",
+    "explanation": "The Eccentric Family follows tanuki and tengu society in Kyoto.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 3045,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows a young wolf goddess named Holo?",
+    "answers": [
+      "Spice and Wolf",
+      "Princess Mononoke",
+      "The Ancient Magus' Bride",
+      "Wolf's Rain"
+    ],
+    "correctAnswer": "Spice and Wolf",
+    "explanation": "Holo is the wise wolf companion of merchant Kraft Lawrence.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "economics"
+    ]
+  },
+  {
+    "id": 3046,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows wolves searching for Paradise in a post-apocalyptic world?",
+    "answers": [
+      "Texhnolyze",
+      "Wolf's Rain",
+      "Spice and Wolf",
+      "Ergo Proxy"
+    ],
+    "correctAnswer": "Wolf's Rain",
+    "explanation": "Wolf's Rain follows wolves disguised as humans searching for a place called Paradise.",
+    "tags": [
+      "anime",
+      "post-apocalyptic",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 3047,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features animal-human hybrids called Beastmen in Anima-City?",
+    "answers": [
+      "Beastars",
+      "Odd Taxi",
+      "BNA: Brand New Animal",
+      "Aggretsuko"
+    ],
+    "correctAnswer": "BNA: Brand New Animal",
+    "explanation": "BNA follows Michiru in Anima-City, a refuge for Beastmen.",
+    "tags": [
+      "anime",
+      "anthropomorphic",
+      "studio-trigger"
+    ]
+  },
+  {
+    "id": 3048,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows anthropomorphic animals at Cherryton Academy?",
+    "answers": [
+      "Odd Taxi",
+      "Aggretsuko",
+      "BNA: Brand New Animal",
+      "Beastars"
+    ],
+    "correctAnswer": "Beastars",
+    "explanation": "Beastars explores society, instinct, and identity through anthropomorphic animals.",
+    "tags": [
+      "anime",
+      "anthropomorphic",
+      "drama"
+    ]
+  },
+  {
+    "id": 3049,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a walrus taxi driver named Odokawa?",
+    "answers": [
+      "Odd Taxi",
+      "BNA: Brand New Animal",
+      "Beastars",
+      "Aggretsuko"
+    ],
+    "correctAnswer": "Odd Taxi",
+    "explanation": "Odd Taxi follows Odokawa through an interlinked mystery in a city of animal characters.",
+    "tags": [
+      "anime",
+      "mystery",
+      "anthropomorphic"
+    ]
+  },
+  {
+    "id": 3050,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a red panda office worker who sings death metal karaoke?",
+    "answers": [
+      "Odd Taxi",
+      "Aggretsuko",
+      "Beastars",
+      "BNA: Brand New Animal"
+    ],
+    "correctAnswer": "Aggretsuko",
+    "explanation": "Aggretsuko follows Retsuko, who vents workplace frustration through death metal karaoke.",
+    "tags": [
+      "anime",
+      "comedy",
+      "workplace"
+    ]
+  },
+  {
+    "id": 3051,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a fantasy office worker named Retsuko?",
+    "answers": [
+      "New Game!",
+      "Working!!",
+      "Aggretsuko",
+      "Wotakoi"
+    ],
+    "correctAnswer": "Aggretsuko",
+    "explanation": "Retsuko is a red panda office worker balancing work stress and personal life.",
+    "tags": [
+      "anime",
+      "workplace",
+      "comedy"
+    ]
+  },
+  {
+    "id": 3052,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows an immortal being that takes different forms after meeting life on Earth?",
+    "answers": [
+      "Natsume's Book of Friends",
+      "Mushishi",
+      "Made in Abyss",
+      "To Your Eternity"
+    ],
+    "correctAnswer": "To Your Eternity",
+    "explanation": "To Your Eternity follows an immortal entity learning from the beings it encounters.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "drama"
+    ]
+  },
+  {
+    "id": 3053,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a girl named Fushi's evolving immortal journey?",
+    "answers": [
+      "To Your Eternity",
+      "Violet Evergarden",
+      "Maquia",
+      "Erased"
+    ],
+    "correctAnswer": "To Your Eternity",
+    "explanation": "Fushi is the immortal protagonist who transforms after experiencing others' lives.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "drama"
+    ]
+  },
+  {
+    "id": 3054,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film follows an immortal girl named Maquia and a human child she raises?",
+    "answers": [
+      "Wolf Children",
+      "Maquia: When the Promised Flower Blooms",
+      "Your Name",
+      "A Silent Voice"
+    ],
+    "correctAnswer": "Maquia: When the Promised Flower Blooms",
+    "explanation": "Maquia explores motherhood and time through a long-lived protagonist.",
+    "tags": [
+      "anime",
+      "film",
+      "drama"
+    ]
+  },
+  {
+    "id": 3055,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film follows a mother raising half-wolf children?",
+    "answers": [
+      "The Girl Who Leapt Through Time",
+      "Maquia",
+      "Wolf Children",
+      "The Boy and the Beast"
+    ],
+    "correctAnswer": "Wolf Children",
+    "explanation": "Wolf Children follows Hana raising children who can shift between human and wolf forms.",
+    "tags": [
+      "anime",
+      "film",
+      "family"
+    ]
+  },
+  {
+    "id": 3056,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film follows a boy entering a beast world and training under Kumatetsu?",
+    "answers": [
+      "Wolf Children",
+      "Summer Wars",
+      "Mirai",
+      "The Boy and the Beast"
+    ],
+    "correctAnswer": "The Boy and the Beast",
+    "explanation": "The Boy and the Beast follows Ren/Kyuta and his relationship with Kumatetsu.",
+    "tags": [
+      "anime",
+      "film",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 3057,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime film follows a young boy encountering relatives across time through a magical garden?",
+    "answers": [
+      "Mirai",
+      "The Boy and the Beast",
+      "Summer Wars",
+      "Wolf Children"
+    ],
+    "correctAnswer": "Mirai",
+    "explanation": "Mirai follows Kun as he experiences family connections through time.",
+    "tags": [
+      "anime",
+      "film",
+      "family"
+    ]
+  },
+  {
+    "id": 3058,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a young witch delivering packages in a seaside city?",
+    "answers": [
+      "Witch Hat Atelier",
+      "Kiki's Delivery Service",
+      "Flying Witch",
+      "Little Witch Academia"
+    ],
+    "correctAnswer": "Kiki's Delivery Service",
+    "explanation": "Kiki's Delivery Service follows Kiki as she starts a delivery business.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 3059,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Studio Ghibli film features air pirates, Laputa, and a floating castle?",
+    "answers": [
+      "Howl's Moving Castle",
+      "Porco Rosso",
+      "Castle in the Sky",
+      "Nausicaä of the Valley of the Wind"
+    ],
+    "correctAnswer": "Castle in the Sky",
+    "explanation": "Castle in the Sky follows a search for the legendary floating city Laputa.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 3060,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Studio Ghibli film features a pig pilot named Porco?",
+    "answers": [
+      "The Wind Rises",
+      "Only Yesterday",
+      "Castle in the Sky",
+      "Porco Rosso"
+    ],
+    "correctAnswer": "Porco Rosso",
+    "explanation": "Porco Rosso follows an ace pilot cursed with the appearance of a pig.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 3061,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Studio Ghibli film is inspired by the life of aircraft designer Jiro Horikoshi?",
+    "answers": [
+      "The Wind Rises",
+      "From Up on Poppy Hill",
+      "Porco Rosso",
+      "Only Yesterday"
+    ],
+    "correctAnswer": "The Wind Rises",
+    "explanation": "The Wind Rises is a fictionalized story inspired by aircraft designer Jiro Horikoshi.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 3062,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Studio Ghibli film follows Taeko reflecting on childhood memories?",
+    "answers": [
+      "Whisper of the Heart",
+      "Only Yesterday",
+      "From Up on Poppy Hill",
+      "Ocean Waves"
+    ],
+    "correctAnswer": "Only Yesterday",
+    "explanation": "Only Yesterday follows adult Taeko as memories of childhood shape her present.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 3063,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Studio Ghibli film follows Shizuku and a boy who makes violins?",
+    "answers": [
+      "Only Yesterday",
+      "From Up on Poppy Hill",
+      "Whisper of the Heart",
+      "The Cat Returns"
+    ],
+    "correctAnswer": "Whisper of the Heart",
+    "explanation": "Whisper of the Heart follows Shizuku's creative growth and her connection with Seiji.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 3064,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Studio Ghibli film features Haru entering the Cat Kingdom?",
+    "answers": [
+      "Whisper of the Heart",
+      "Kiki's Delivery Service",
+      "Ponyo",
+      "The Cat Returns"
+    ],
+    "correctAnswer": "The Cat Returns",
+    "explanation": "The Cat Returns follows Haru after she saves a cat prince.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 3065,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Studio Ghibli film follows students preserving a clubhouse in 1960s Yokohama?",
+    "answers": [
+      "From Up on Poppy Hill",
+      "Only Yesterday",
+      "Ocean Waves",
+      "Whisper of the Heart"
+    ],
+    "correctAnswer": "From Up on Poppy Hill",
+    "explanation": "From Up on Poppy Hill centers on students trying to save their school clubhouse.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 3066,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime film follows tiny people living secretly beneath a house?",
+    "answers": [
+      "When Marnie Was There",
+      "The Secret World of Arrietty",
+      "The Cat Returns",
+      "Ponyo"
+    ],
+    "correctAnswer": "The Secret World of Arrietty",
+    "explanation": "Arrietty follows tiny Borrowers living hidden from humans.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 3067,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Studio Ghibli film follows Anna and a mysterious girl named Marnie?",
+    "answers": [
+      "Ocean Waves",
+      "Only Yesterday",
+      "When Marnie Was There",
+      "The Secret World of Arrietty"
+    ],
+    "correctAnswer": "When Marnie Was There",
+    "explanation": "When Marnie Was There explores memory, loneliness, and family through Anna and Marnie.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 3068,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film follows a girl trapped in a world of spirits after her parents transform?",
+    "answers": [
+      "Princess Mononoke",
+      "Ponyo",
+      "Your Name",
+      "Spirited Away"
+    ],
+    "correctAnswer": "Spirited Away",
+    "explanation": "Chihiro's parents are transformed, and she must work in a spirit bathhouse.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 3069,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film centers on a cursed prince named Ashitaka?",
+    "answers": [
+      "Princess Mononoke",
+      "Nausicaä of the Valley of the Wind",
+      "Howl's Moving Castle",
+      "Spirited Away"
+    ],
+    "correctAnswer": "Princess Mononoke",
+    "explanation": "Ashitaka is cursed and becomes involved in the conflict between humans and forest gods.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 3070,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film features a moving castle owned by a wizard?",
+    "answers": [
+      "Ponyo",
+      "Howl's Moving Castle",
+      "Castle in the Sky",
+      "Spirited Away"
+    ],
+    "correctAnswer": "Howl's Moving Castle",
+    "explanation": "Howl's Moving Castle features a magical walking castle and the wizard Howl.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-ghibli"
+    ]
+  },
+  {
+    "id": 3071,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features a cursed cat spirit in the Sohma family?",
+    "answers": [
+      "Inuyasha",
+      "Noragami",
+      "Fruits Basket",
+      "Natsume's Book of Friends"
+    ],
+    "correctAnswer": "Fruits Basket",
+    "explanation": "Kyo Sohma is connected to the cat spirit outside the main zodiac cycle.",
+    "tags": [
+      "anime",
+      "fruits-basket",
+      "romance"
+    ]
+  },
+  {
+    "id": 3072,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Fruits Basket character is the kind-hearted girl taken in by the Sohma family?",
+    "answers": [
+      "Taiga Aisaka",
+      "Haruhi Fujioka",
+      "Kaguya Shinomiya",
+      "Tohru Honda"
+    ],
+    "correctAnswer": "Tohru Honda",
+    "explanation": "Tohru Honda becomes involved with the cursed Sohma family.",
+    "tags": [
+      "anime",
+      "fruits-basket",
+      "characters"
+    ]
+  },
+  {
+    "id": 3073,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Misaki Ayuzawa working secretly at a maid café?",
+    "answers": [
+      "Maid Sama!",
+      "Horimiya",
+      "Ouran High School Host Club",
+      "Toradora!"
+    ],
+    "correctAnswer": "Maid Sama!",
+    "explanation": "Misaki is a strict student council president who secretly works at a maid café.",
+    "tags": [
+      "anime",
+      "romance",
+      "school"
+    ]
+  },
+  {
+    "id": 3074,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Takeo Gouda in a wholesome romantic comedy?",
+    "answers": [
+      "Toradora!",
+      "My Love Story!!",
+      "Horimiya",
+      "Lovely Complex"
+    ],
+    "correctAnswer": "My Love Story!!",
+    "explanation": "My Love Story!! centers on Takeo's unusually sweet romantic journey.",
+    "tags": [
+      "anime",
+      "romance",
+      "comedy"
+    ]
+  },
+  {
+    "id": 3075,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features a very tall girl and short boy in a romantic comedy?",
+    "answers": [
+      "Toradora!",
+      "Maid Sama!",
+      "Lovely Complex",
+      "My Love Story!!"
+    ],
+    "correctAnswer": "Lovely Complex",
+    "explanation": "Lovely Complex follows Risa and Otani, whose height difference drives much of the comedy.",
+    "tags": [
+      "anime",
+      "romance",
+      "classic"
+    ]
+  },
+  {
+    "id": 3076,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Sawako Kuronuma trying to connect with classmates?",
+    "answers": [
+      "Ao Haru Ride",
+      "Horimiya",
+      "Orange",
+      "Kimi ni Todoke"
+    ],
+    "correctAnswer": "Kimi ni Todoke",
+    "explanation": "Kimi ni Todoke follows Sawako's growth from misunderstood student to forming friendships and romance.",
+    "tags": [
+      "anime",
+      "romance",
+      "school"
+    ]
+  },
+  {
+    "id": 3077,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Futaba Yoshioka and Kou Mabuchi reconnecting in high school?",
+    "answers": [
+      "Ao Haru Ride",
+      "Kimi ni Todoke",
+      "Orange",
+      "Toradora!"
+    ],
+    "correctAnswer": "Ao Haru Ride",
+    "explanation": "Ao Haru Ride follows Futaba and Kou after they meet again as teenagers.",
+    "tags": [
+      "anime",
+      "romance",
+      "school"
+    ]
+  },
+  {
+    "id": 3078,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Banri Tada after memory loss in college?",
+    "answers": [
+      "Clannad",
+      "Golden Time",
+      "Honey and Clover",
+      "Toradora!"
+    ],
+    "correctAnswer": "Golden Time",
+    "explanation": "Golden Time follows Banri's college life and identity after losing memories.",
+    "tags": [
+      "anime",
+      "romance",
+      "college"
+    ]
+  },
+  {
+    "id": 3079,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Tomoya Okazaki and Nagisa Furukawa?",
+    "answers": [
+      "Your Lie in April",
+      "Angel Beats!",
+      "Clannad",
+      "Anohana"
+    ],
+    "correctAnswer": "Clannad",
+    "explanation": "Clannad follows Tomoya and Nagisa through school life and family drama.",
+    "tags": [
+      "anime",
+      "drama",
+      "romance"
+    ]
+  },
+  {
+    "id": 3080,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime centers on art college students and complicated relationships?",
+    "answers": [
+      "Nana",
+      "Golden Time",
+      "Paradise Kiss",
+      "Honey and Clover"
+    ],
+    "correctAnswer": "Honey and Clover",
+    "explanation": "Honey and Clover follows art students navigating love, work, and growing up.",
+    "tags": [
+      "anime",
+      "drama",
+      "josei"
+    ]
+  },
+  {
+    "id": 3081,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Yukari entering the world of fashion design?",
+    "answers": [
+      "Paradise Kiss",
+      "Honey and Clover",
+      "Princess Jellyfish",
+      "Nana"
+    ],
+    "correctAnswer": "Paradise Kiss",
+    "explanation": "Paradise Kiss follows Yukari as she becomes involved with fashion students.",
+    "tags": [
+      "anime",
+      "josei",
+      "fashion"
+    ]
+  },
+  {
+    "id": 3082,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Tsukimi Kurashita and a love of jellyfish?",
+    "answers": [
+      "Wotakoi",
+      "Princess Jellyfish",
+      "Paradise Kiss",
+      "Nana"
+    ],
+    "correctAnswer": "Princess Jellyfish",
+    "explanation": "Princess Jellyfish follows Tsukimi and a community of otaku women.",
+    "tags": [
+      "anime",
+      "comedy",
+      "josei"
+    ]
+  },
+  {
+    "id": 3083,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows a shut-in girl and a group of NEET detectives?",
+    "answers": [
+      "Welcome to the N.H.K.",
+      "Eden of the East",
+      "Heaven's Memo Pad",
+      "Durarara!!"
+    ],
+    "correctAnswer": "Heaven's Memo Pad",
+    "explanation": "Heaven's Memo Pad follows a NEET detective agency led by Alice.",
+    "tags": [
+      "anime",
+      "mystery",
+      "drama"
+    ]
+  },
+  {
+    "id": 3084,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Tatsuhiro Satou and themes of isolation and conspiracy?",
+    "answers": [
+      "Tatami Galaxy",
+      "Eden of the East",
+      "Serial Experiments Lain",
+      "Welcome to the N.H.K."
+    ],
+    "correctAnswer": "Welcome to the N.H.K.",
+    "explanation": "Welcome to the N.H.K. explores social withdrawal and conspiracy thinking through Satou.",
+    "tags": [
+      "anime",
+      "psychological",
+      "drama"
+    ]
+  },
+  {
+    "id": 3085,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a college student through surreal repeated campus-life possibilities?",
+    "answers": [
+      "The Tatami Galaxy",
+      "Sonny Boy",
+      "Welcome to the N.H.K.",
+      "Ping Pong the Animation"
+    ],
+    "correctAnswer": "The Tatami Galaxy",
+    "explanation": "The Tatami Galaxy uses alternate timelines to explore college choices and regret.",
+    "tags": [
+      "anime",
+      "surreal",
+      "drama"
+    ]
+  },
+  {
+    "id": 3086,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features students drifting into strange alternate dimensions?",
+    "answers": [
+      "The Tatami Galaxy",
+      "Sonny Boy",
+      "Wonder Egg Priority",
+      "Erased"
+    ],
+    "correctAnswer": "Sonny Boy",
+    "explanation": "Sonny Boy follows students who gain strange abilities after being transported to surreal worlds.",
+    "tags": [
+      "anime",
+      "surreal",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": 3087,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Ai Ohto and dreamlike battles involving eggs?",
+    "answers": [
+      "Madoka Magica",
+      "Flip Flappers",
+      "Wonder Egg Priority",
+      "Sonny Boy"
+    ],
+    "correctAnswer": "Wonder Egg Priority",
+    "explanation": "Wonder Egg Priority mixes psychological drama with surreal battles linked to trauma.",
+    "tags": [
+      "anime",
+      "psychological",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 3088,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Cocona and Papika through colorful alternate worlds?",
+    "answers": [
+      "Little Witch Academia",
+      "Wonder Egg Priority",
+      "Madoka Magica",
+      "Flip Flappers"
+    ],
+    "correctAnswer": "Flip Flappers",
+    "explanation": "Flip Flappers follows surreal adventures through worlds known as Pure Illusion.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "surreal"
+    ]
+  },
+  {
+    "id": 3089,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a family of spies, assassins, and a telepath?",
+    "answers": [
+      "Spy x Family",
+      "Buddy Daddies",
+      "Assassination Classroom",
+      "Baccano!"
+    ],
+    "correctAnswer": "Spy x Family",
+    "explanation": "Spy x Family centers on Loid, Yor, and Anya hiding their true identities.",
+    "tags": [
+      "anime",
+      "comedy",
+      "spy-x-family"
+    ]
+  },
+  {
+    "id": 3090,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows two assassins unexpectedly raising a child?",
+    "answers": [
+      "Hinamatsuri",
+      "Buddy Daddies",
+      "The Yakuza's Guide to Babysitting",
+      "Spy x Family"
+    ],
+    "correctAnswer": "Buddy Daddies",
+    "explanation": "Buddy Daddies follows hitmen who become caretakers for a young girl.",
+    "tags": [
+      "anime",
+      "comedy",
+      "action"
+    ]
+  },
+  {
+    "id": 3091,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows a yakuza member caring for a young girl named Yaeka?",
+    "answers": [
+      "Spy x Family",
+      "Buddy Daddies",
+      "The Yakuza's Guide to Babysitting",
+      "Hinamatsuri"
+    ],
+    "correctAnswer": "The Yakuza's Guide to Babysitting",
+    "explanation": "The Yakuza's Guide to Babysitting follows Kirishima becoming a caretaker.",
+    "tags": [
+      "anime",
+      "slice-of-life",
+      "comedy"
+    ]
+  },
+  {
+    "id": 3092,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features a psychic girl named Hina living with a yakuza member?",
+    "answers": [
+      "Spy x Family",
+      "Saiki K.",
+      "Mob Psycho 100",
+      "Hinamatsuri"
+    ],
+    "correctAnswer": "Hinamatsuri",
+    "explanation": "Hinamatsuri follows Hina and Nitta in a comedy about psychic powers and found family.",
+    "tags": [
+      "anime",
+      "comedy",
+      "supernatural"
+    ]
+  },
+  {
+    "id": 3093,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows a superpowered boy trying to live an ordinary life while hiding his abilities?",
+    "answers": [
+      "The Disastrous Life of Saiki K.",
+      "Charlotte",
+      "Hinamatsuri",
+      "Mob Psycho 100"
+    ],
+    "correctAnswer": "The Disastrous Life of Saiki K.",
+    "explanation": "Saiki Kusuo has overwhelming psychic powers but wants a normal life.",
+    "tags": [
+      "anime",
+      "comedy",
+      "supernatural"
+    ]
+  },
+  {
+    "id": 3094,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features teenagers with temporary supernatural powers and Yuu Otosaka?",
+    "answers": [
+      "Mob Psycho 100",
+      "Charlotte",
+      "Angel Beats!",
+      "The Disastrous Life of Saiki K."
+    ],
+    "correctAnswer": "Charlotte",
+    "explanation": "Charlotte follows students with imperfect supernatural abilities.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "school"
+    ]
+  },
+  {
+    "id": 3095,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows outcasts with literary-themed supernatural powers in Yokohama?",
+    "answers": [
+      "Durarara!!",
+      "Noragami",
+      "Bungo Stray Dogs",
+      "Kekkai Sensen"
+    ],
+    "correctAnswer": "Bungo Stray Dogs",
+    "explanation": "Bungo Stray Dogs features characters inspired by literary figures with supernatural abilities.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "action"
+    ]
+  },
+  {
+    "id": 3096,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is set in Ikebukuro and features a headless rider?",
+    "answers": [
+      "Bungo Stray Dogs",
+      "Kekkai Sensen",
+      "Baccano!",
+      "Durarara!!"
+    ],
+    "correctAnswer": "Durarara!!",
+    "explanation": "Durarara!! features interconnected stories in Ikebukuro, including the dullahan Celty.",
+    "tags": [
+      "anime",
+      "urban-fantasy",
+      "mystery"
+    ]
+  },
+  {
+    "id": 3097,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime tells a nonlinear story involving immortals, gangsters, and a train called the Flying Pussyfoot?",
+    "answers": [
+      "Baccano!",
+      "Great Pretender",
+      "Durarara!!",
+      "91 Days"
+    ],
+    "correctAnswer": "Baccano!",
+    "explanation": "Baccano! is known for its nonlinear storytelling and immortal characters.",
+    "tags": [
+      "anime",
+      "crime",
+      "classic"
+    ]
+  },
+  {
+    "id": 3098,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a revenge story in a mafia setting during Prohibition?",
+    "answers": [
+      "Baccano!",
+      "91 Days",
+      "Gangsta.",
+      "Great Pretender"
+    ],
+    "correctAnswer": "91 Days",
+    "explanation": "91 Days follows Avilio's revenge against a mafia family.",
+    "tags": [
+      "anime",
+      "crime",
+      "drama"
+    ]
+  },
+  {
+    "id": 3099,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows “Handymen” Worick and Nicolas in Ergastulum?",
+    "answers": [
+      "Banana Fish",
+      "Baccano!",
+      "Gangsta.",
+      "91 Days"
+    ],
+    "correctAnswer": "Gangsta.",
+    "explanation": "Gangsta. follows two handymen navigating a violent city.",
+    "tags": [
+      "anime",
+      "crime",
+      "action"
+    ]
+  },
+  {
+    "id": 3100,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows con artists led by Makoto Edamura and Laurent Thierry?",
+    "answers": [
+      "Odd Taxi",
+      "91 Days",
+      "Baccano!",
+      "Great Pretender"
+    ],
+    "correctAnswer": "Great Pretender",
+    "explanation": "Great Pretender follows international confidence schemes with a stylish tone.",
+    "tags": [
+      "anime",
+      "crime",
+      "comedy"
+    ]
+  },
+  {
+    "id": 3101,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Ash Lynx and a mystery around “Banana Fish”?",
+    "answers": [
+      "Banana Fish",
+      "91 Days",
+      "Gangsta.",
+      "Great Pretender"
+    ],
+    "correctAnswer": "Banana Fish",
+    "explanation": "Banana Fish is a crime drama centered on Ash Lynx and a dangerous conspiracy.",
+    "tags": [
+      "anime",
+      "crime",
+      "drama"
+    ]
+  },
+  {
+    "id": 3102,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime centers on a mystery involving taxi driver Odokawa?",
+    "answers": [
+      "Great Pretender",
+      "Odd Taxi",
+      "BNA",
+      "Durarara!!"
+    ],
+    "correctAnswer": "Odd Taxi",
+    "explanation": "Odd Taxi follows Odokawa through a tightly connected urban mystery.",
+    "tags": [
+      "anime",
+      "mystery",
+      "anthropomorphic"
+    ]
+  },
+  {
+    "id": 3103,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is about professional rakugo storytelling and generational legacy?",
+    "answers": [
+      "March Comes in Like a Lion",
+      "Kids on the Slope",
+      "Showa Genroku Rakugo Shinju",
+      "Barakamon"
+    ],
+    "correctAnswer": "Showa Genroku Rakugo Shinju",
+    "explanation": "The series explores rakugo performance across generations and changing eras.",
+    "tags": [
+      "anime",
+      "drama",
+      "performing-arts"
+    ]
+  },
+  {
+    "id": 3104,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a genius surgeon hunting the man he once saved?",
+    "answers": [
+      "Death Note",
+      "Psycho-Pass",
+      "Terror in Resonance",
+      "Monster"
+    ],
+    "correctAnswer": "Monster",
+    "explanation": "Monster follows Dr. Tenma as he pursues Johan Liebert.",
+    "tags": [
+      "anime",
+      "thriller",
+      "classic"
+    ]
+  },
+  {
+    "id": 3105,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows two teenage terrorists known as Nine and Twelve?",
+    "answers": [
+      "Terror in Resonance",
+      "Psycho-Pass",
+      "Eden of the East",
+      "Monster"
+    ],
+    "correctAnswer": "Terror in Resonance",
+    "explanation": "Terror in Resonance follows Nine and Twelve through a series of cryptic attacks.",
+    "tags": [
+      "anime",
+      "thriller",
+      "mystery"
+    ]
+  },
+  {
+    "id": 3106,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime begins with a naked man outside the White House holding a phone and a gun?",
+    "answers": [
+      "Steins;Gate",
+      "Eden of the East",
+      "Terror in Resonance",
+      "Psycho-Pass"
+    ],
+    "correctAnswer": "Eden of the East",
+    "explanation": "Eden of the East begins with Akira Takizawa in a strange political mystery.",
+    "tags": [
+      "anime",
+      "mystery",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": 3107,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Satoru Fujinuma using revival to prevent tragedy?",
+    "answers": [
+      "Steins;Gate",
+      "Re:ZERO",
+      "Erased",
+      "Tokyo Revengers"
+    ],
+    "correctAnswer": "Erased",
+    "explanation": "Erased follows Satoru as he is sent back in time to prevent murders.",
+    "tags": [
+      "anime",
+      "mystery",
+      "time-travel"
+    ]
+  },
+  {
+    "id": 3108,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Takemichi traveling back to change a delinquent future?",
+    "answers": [
+      "Steins;Gate",
+      "Re:ZERO",
+      "Erased",
+      "Tokyo Revengers"
+    ],
+    "correctAnswer": "Tokyo Revengers",
+    "explanation": "Tokyo Revengers follows Takemichi trying to change tragic events by altering the past.",
+    "tags": [
+      "anime",
+      "time-travel",
+      "delinquent"
+    ]
+  },
+  {
+    "id": 3109,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows a boy and girl swapping bodies across time and distance?",
+    "answers": [
+      "Your Name",
+      "Suzume",
+      "A Silent Voice",
+      "Weathering with You"
+    ],
+    "correctAnswer": "Your Name",
+    "explanation": "Your Name centers on Taki and Mitsuha's mysterious body-swapping connection.",
+    "tags": [
+      "anime",
+      "film",
+      "makoto-shinkai"
+    ]
+  },
+  {
+    "id": 3110,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film explores bullying and reconciliation involving Shoko Nishimiya?",
+    "answers": [
+      "Your Name",
+      "A Silent Voice",
+      "I Want to Eat Your Pancreas",
+      "Josee, the Tiger and the Fish"
+    ],
+    "correctAnswer": "A Silent Voice",
+    "explanation": "A Silent Voice focuses on guilt, bullying, disability, and reconciliation.",
+    "tags": [
+      "anime",
+      "film",
+      "drama"
+    ]
+  },
+  {
+    "id": 3111,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film follows Sakura Yamauchi and a classmate who reads her diary?",
+    "answers": [
+      "Your Lie in April",
+      "Josee, the Tiger and the Fish",
+      "I Want to Eat Your Pancreas",
+      "A Silent Voice"
+    ],
+    "correctAnswer": "I Want to Eat Your Pancreas",
+    "explanation": "The film follows an emotional bond formed after a student discovers Sakura's illness.",
+    "tags": [
+      "anime",
+      "film",
+      "drama"
+    ]
+  },
+  {
+    "id": 3112,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film follows a wheelchair user named Josee and a student named Tsuneo?",
+    "answers": [
+      "Words Bubble Up Like Soda Pop",
+      "A Silent Voice",
+      "Your Name",
+      "Josee, the Tiger and the Fish"
+    ],
+    "correctAnswer": "Josee, the Tiger and the Fish",
+    "explanation": "The film centers on Josee and Tsuneo's relationship and personal growth.",
+    "tags": [
+      "anime",
+      "film",
+      "romance"
+    ]
+  },
+  {
+    "id": 3113,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime film features a shy haiku-writing boy and a girl who wears a mask?",
+    "answers": [
+      "Words Bubble Up Like Soda Pop",
+      "Josee, the Tiger and the Fish",
+      "Bubble",
+      "Ride Your Wave"
+    ],
+    "correctAnswer": "Words Bubble Up Like Soda Pop",
+    "explanation": "The film follows Cherry and Smile through a gentle summer romance.",
+    "tags": [
+      "anime",
+      "film",
+      "romance"
+    ]
+  },
+  {
+    "id": 3114,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film follows a surfer and a firefighter after a supernatural loss?",
+    "answers": [
+      "Josee, the Tiger and the Fish",
+      "Ride Your Wave",
+      "Weathering with You",
+      "Bubble"
+    ],
+    "correctAnswer": "Ride Your Wave",
+    "explanation": "Ride Your Wave blends romance, grief, and a supernatural connection through water.",
+    "tags": [
+      "anime",
+      "film",
+      "romance"
+    ]
+  },
+  {
+    "id": 3115,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film features parkour in a flooded Tokyo with gravity anomalies?",
+    "answers": [
+      "Promare",
+      "Suzume",
+      "Bubble",
+      "Weathering with You"
+    ],
+    "correctAnswer": "Bubble",
+    "explanation": "Bubble is set in a transformed Tokyo where teams compete using parkour.",
+    "tags": [
+      "anime",
+      "film",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": 3116,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film follows a girl named Patema in an inverted-gravity world?",
+    "answers": [
+      "Bubble",
+      "The Girl Who Leapt Through Time",
+      "Children Who Chase Lost Voices",
+      "Patema Inverted"
+    ],
+    "correctAnswer": "Patema Inverted",
+    "explanation": "Patema Inverted uses opposing gravity perspectives as a core story concept.",
+    "tags": [
+      "anime",
+      "film",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": 3117,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film follows a girl who travels to a hidden world called Agartha?",
+    "answers": [
+      "Children Who Chase Lost Voices",
+      "Suzume",
+      "The Girl Who Leapt Through Time",
+      "Patema Inverted"
+    ],
+    "correctAnswer": "Children Who Chase Lost Voices",
+    "explanation": "The film follows Asuna's journey into the underground world of Agartha.",
+    "tags": [
+      "anime",
+      "film",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 3118,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film is a Studio Colorido work about a girl turning into a cat?",
+    "answers": [
+      "Words Bubble Up Like Soda Pop",
+      "A Whisker Away",
+      "The Cat Returns",
+      "Penguin Highway"
+    ],
+    "correctAnswer": "A Whisker Away",
+    "explanation": "A Whisker Away follows Miyo, who can transform into a cat through a magical mask.",
+    "tags": [
+      "anime",
+      "film",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 3119,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film features mysterious penguins appearing in a town?",
+    "answers": [
+      "A Whisker Away",
+      "Bubble",
+      "Penguin Highway",
+      "Mirai"
+    ],
+    "correctAnswer": "Penguin Highway",
+    "explanation": "Penguin Highway follows a boy investigating strange penguin appearances.",
+    "tags": [
+      "anime",
+      "film",
+      "mystery"
+    ]
+  },
+  {
+    "id": 3120,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime film follows a child named Momo after moving to a remote island?",
+    "answers": [
+      "Wolf Children",
+      "The Boy and the Beast",
+      "Mirai",
+      "A Letter to Momo"
+    ],
+    "correctAnswer": "A Letter to Momo",
+    "explanation": "A Letter to Momo follows a grieving girl and mischievous spirits on an island.",
+    "tags": [
+      "anime",
+      "film",
+      "drama"
+    ]
+  },
+  {
+    "id": 3121,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features city-sized battles between humans and kaiju-like Klaxosaurs?",
+    "answers": [
+      "Darling in the Franxx",
+      "SSSS.Gridman",
+      "Evangelion",
+      "Gurren Lagann"
+    ],
+    "correctAnswer": "Darling in the Franxx",
+    "explanation": "Darling in the Franxx features pilots fighting Klaxosaurs in giant mecha.",
+    "tags": [
+      "anime",
+      "mecha",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": 3122,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a digital hero named Gridman?",
+    "answers": [
+      "Darling in the Franxx",
+      "SSSS.Gridman",
+      "Gurren Lagann",
+      "Promare"
+    ],
+    "correctAnswer": "SSSS.Gridman",
+    "explanation": "SSSS.Gridman reimagines Gridman in an anime kaiju and tokusatsu-inspired setting.",
+    "tags": [
+      "anime",
+      "mecha",
+      "kaiju"
+    ]
+  },
+  {
+    "id": 3123,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Dynazenon and a team facing kaiju threats?",
+    "answers": [
+      "Promare",
+      "Eureka Seven",
+      "SSSS.Dynazenon",
+      "SSSS.Gridman"
+    ],
+    "correctAnswer": "SSSS.Dynazenon",
+    "explanation": "SSSS.Dynazenon follows a group connected by a giant robot and kaiju battles.",
+    "tags": [
+      "anime",
+      "mecha",
+      "kaiju"
+    ]
+  },
+  {
+    "id": 3124,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Simon drilling upward from an underground village?",
+    "answers": [
+      "Eureka Seven",
+      "Evangelion",
+      "Code Geass",
+      "Gurren Lagann"
+    ],
+    "correctAnswer": "Gurren Lagann",
+    "explanation": "Simon begins in an underground village before his journey expands dramatically.",
+    "tags": [
+      "anime",
+      "mecha",
+      "adventure"
+    ]
+  },
+  {
+    "id": 3125,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Shinji Ikari piloting Unit-01?",
+    "answers": [
+      "Neon Genesis Evangelion",
+      "Gundam Wing",
+      "Code Geass",
+      "Eureka Seven"
+    ],
+    "correctAnswer": "Neon Genesis Evangelion",
+    "explanation": "Shinji pilots Evangelion Unit-01 against the Angels.",
+    "tags": [
+      "anime",
+      "mecha",
+      "classic"
+    ]
+  },
+  {
+    "id": 3126,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features NERV as the organization operating the Evangelions?",
+    "answers": [
+      "Gundam Seed",
+      "Neon Genesis Evangelion",
+      "Aldnoah.Zero",
+      "Code Geass"
+    ],
+    "correctAnswer": "Neon Genesis Evangelion",
+    "explanation": "NERV is the organization responsible for deploying Evangelion units.",
+    "tags": [
+      "anime",
+      "mecha",
+      "evangelion"
+    ]
+  },
+  {
+    "id": 3127,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Lelouch's masked identity as Zero?",
+    "answers": [
+      "Psycho-Pass",
+      "Death Note",
+      "Code Geass",
+      "Gundam Wing"
+    ],
+    "correctAnswer": "Code Geass",
+    "explanation": "Lelouch leads rebellion under the masked identity Zero.",
+    "tags": [
+      "anime",
+      "code-geass",
+      "characters"
+    ]
+  },
+  {
+    "id": 3128,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features a military nation called Britannia?",
+    "answers": [
+      "86",
+      "Aldnoah.Zero",
+      "Gundam Seed",
+      "Code Geass"
+    ],
+    "correctAnswer": "Code Geass",
+    "explanation": "The Holy Britannian Empire is a central power in Code Geass.",
+    "tags": [
+      "anime",
+      "code-geass",
+      "world"
+    ]
+  },
+  {
+    "id": 3129,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Spike Spiegel as a laid-back bounty hunter?",
+    "answers": [
+      "Cowboy Bebop",
+      "Outlaw Star",
+      "Space Dandy",
+      "Trigun"
+    ],
+    "correctAnswer": "Cowboy Bebop",
+    "explanation": "Spike Spiegel is one of anime's most iconic bounty hunter protagonists.",
+    "tags": [
+      "anime",
+      "classic",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": 3130,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows an eccentric alien hunter named Dandy?",
+    "answers": [
+      "Trigun",
+      "Space Dandy",
+      "Cowboy Bebop",
+      "Outlaw Star"
+    ],
+    "correctAnswer": "Space Dandy",
+    "explanation": "Space Dandy follows Dandy's comedic adventures across space.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "comedy"
+    ]
+  },
+  {
+    "id": 3131,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Gene Starwind aboard the Outlaw Star?",
+    "answers": [
+      "Cowboy Bebop",
+      "Space Dandy",
+      "Outlaw Star",
+      "Trigun"
+    ],
+    "correctAnswer": "Outlaw Star",
+    "explanation": "Outlaw Star is a space adventure centered on Gene Starwind and his crew.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "classic"
+    ]
+  },
+  {
+    "id": 3132,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features a desert planet and a pacifist gunman with a huge bounty?",
+    "answers": [
+      "Outlaw Star",
+      "Hellsing Ultimate",
+      "Cowboy Bebop",
+      "Trigun"
+    ],
+    "correctAnswer": "Trigun",
+    "explanation": "Trigun follows Vash the Stampede, a wanted but deeply pacifist gunman.",
+    "tags": [
+      "anime",
+      "sci-fi",
+      "classic"
+    ]
+  },
+  {
+    "id": 3133,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a wandering swordsman who refuses to kill?",
+    "answers": [
+      "Rurouni Kenshin",
+      "Inuyasha",
+      "Samurai Champloo",
+      "Dororo"
+    ],
+    "correctAnswer": "Rurouni Kenshin",
+    "explanation": "Kenshin uses a reverse-blade sword as part of his vow not to kill.",
+    "tags": [
+      "anime",
+      "samurai",
+      "classic"
+    ]
+  },
+  {
+    "id": 3134,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Mugen, Jin, and Fuu traveling together?",
+    "answers": [
+      "Rurouni Kenshin",
+      "Samurai Champloo",
+      "Dororo",
+      "Gintama"
+    ],
+    "correctAnswer": "Samurai Champloo",
+    "explanation": "Samurai Champloo follows Mugen, Jin, and Fuu on a stylish journey.",
+    "tags": [
+      "anime",
+      "samurai",
+      "classic"
+    ]
+  },
+  {
+    "id": 3135,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows a half-demon named Inuyasha?",
+    "answers": [
+      "Blue Exorcist",
+      "Yu Yu Hakusho",
+      "Inuyasha",
+      "Noragami"
+    ],
+    "correctAnswer": "Inuyasha",
+    "explanation": "Inuyasha is a half-demon traveling with Kagome in a feudal fantasy setting.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "classic"
+    ]
+  },
+  {
+    "id": 3136,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features a spirit detective named Yusuke Urameshi?",
+    "answers": [
+      "Soul Eater",
+      "Bleach",
+      "Noragami",
+      "Yu Yu Hakusho"
+    ],
+    "correctAnswer": "Yu Yu Hakusho",
+    "explanation": "Yusuke becomes a Spirit Detective after an unexpected death.",
+    "tags": [
+      "anime",
+      "classic",
+      "supernatural"
+    ]
+  },
+  {
+    "id": 3137,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime tournament arc is famous in Yu Yu Hakusho?",
+    "answers": [
+      "Dark Tournament",
+      "Chunin Exams",
+      "Heavens Arena",
+      "Holy Grail War"
+    ],
+    "correctAnswer": "Dark Tournament",
+    "explanation": "The Dark Tournament is one of Yu Yu Hakusho's most celebrated arcs.",
+    "tags": [
+      "anime",
+      "yu-yu-hakusho",
+      "arcs"
+    ]
+  },
+  {
+    "id": 3138,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Maka and Soul at a school for weapon meisters?",
+    "answers": [
+      "Blue Exorcist",
+      "Soul Eater",
+      "D.Gray-man",
+      "Bleach"
+    ],
+    "correctAnswer": "Soul Eater",
+    "explanation": "Maka and Soul attend Death Weapon Meister Academy.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "soul-eater"
+    ]
+  },
+  {
+    "id": 3139,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features the exorcist Allen Walker?",
+    "answers": [
+      "Noragami",
+      "Blue Exorcist",
+      "D.Gray-man",
+      "Soul Eater"
+    ],
+    "correctAnswer": "D.Gray-man",
+    "explanation": "Allen Walker is the central exorcist protagonist of D.Gray-man.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "classic"
+    ]
+  },
+  {
+    "id": 3140,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Yato and his Regalia?",
+    "answers": [
+      "Blue Exorcist",
+      "Natsume's Book of Friends",
+      "Inuyasha",
+      "Noragami"
+    ],
+    "correctAnswer": "Noragami",
+    "explanation": "Yato fights with Regalia, spirits that become weapons or tools.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "noragami"
+    ]
+  },
+  {
+    "id": 3141,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a boy who can see yokai and inherits a Book of Friends?",
+    "answers": [
+      "Natsume's Book of Friends",
+      "Noragami",
+      "Mononoke",
+      "Mushishi"
+    ],
+    "correctAnswer": "Natsume's Book of Friends",
+    "explanation": "Natsume inherits a book containing names of spirits bound by his grandmother.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 3142,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is known for quiet stories about mysterious beings called Mushi?",
+    "answers": [
+      "xxxHolic",
+      "Mushishi",
+      "Mononoke",
+      "Natsume's Book of Friends"
+    ],
+    "correctAnswer": "Mushishi",
+    "explanation": "Mushishi uses calm, atmospheric stories about strange lifeforms called Mushi.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "mushishi"
+    ]
+  },
+  {
+    "id": 3143,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Kimihiro Watanuki working for the witch Yuuko?",
+    "answers": [
+      "Mononoke",
+      "Mushishi",
+      "xxxHolic",
+      "Noragami"
+    ],
+    "correctAnswer": "xxxHolic",
+    "explanation": "xxxHolic follows Watanuki's work in Yuuko's wish-granting shop.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "classic"
+    ]
+  },
+  {
+    "id": 3144,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a bookseller and skull-faced Honda-san?",
+    "answers": [
+      "Bakuman",
+      "Barakamon",
+      "Shirobako",
+      "Skull-face Bookseller Honda-san"
+    ],
+    "correctAnswer": "Skull-face Bookseller Honda-san",
+    "explanation": "The anime is a workplace comedy about bookstore life.",
+    "tags": [
+      "anime",
+      "comedy",
+      "workplace"
+    ]
+  },
+  {
+    "id": 3145,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows women working on an anime production at Musashino Animation?",
+    "answers": [
+      "Shirobako",
+      "Eizouken",
+      "New Game!",
+      "Bakuman"
+    ],
+    "correctAnswer": "Shirobako",
+    "explanation": "Shirobako gives a detailed look at the anime production pipeline.",
+    "tags": [
+      "anime",
+      "industry",
+      "anime-production"
+    ]
+  },
+  {
+    "id": 3146,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows game developers at Eagle Jump?",
+    "answers": [
+      "Shirobako",
+      "New Game!",
+      "Bakuman",
+      "Wotakoi"
+    ],
+    "correctAnswer": "New Game!",
+    "explanation": "New Game! follows Aoba and coworkers at the game studio Eagle Jump.",
+    "tags": [
+      "anime",
+      "workplace",
+      "games"
+    ]
+  },
+  {
+    "id": 3147,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows high school girls making animation with wild imagination?",
+    "answers": [
+      "New Game!",
+      "Bakuman",
+      "Keep Your Hands Off Eizouken!",
+      "Shirobako"
+    ],
+    "correctAnswer": "Keep Your Hands Off Eizouken!",
+    "explanation": "Eizouken celebrates animation creation through the imagination of its main trio.",
+    "tags": [
+      "anime",
+      "industry",
+      "creativity"
+    ]
+  },
+  {
+    "id": 3148,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows aspiring manga creators Mashiro and Takagi?",
+    "answers": [
+      "Monthly Girls' Nozaki-kun",
+      "Shirobako",
+      "Eizouken",
+      "Bakuman"
+    ],
+    "correctAnswer": "Bakuman",
+    "explanation": "Bakuman follows two creators aiming to succeed in manga publishing.",
+    "tags": [
+      "anime",
+      "industry",
+      "manga"
+    ]
+  },
+  {
+    "id": 3149,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features a shoujo manga creator who is surprisingly bad at romance signals?",
+    "answers": [
+      "Monthly Girls' Nozaki-kun",
+      "Wotakoi",
+      "Bakuman",
+      "Ouran High School Host Club"
+    ],
+    "correctAnswer": "Monthly Girls' Nozaki-kun",
+    "explanation": "Nozaki is a manga artist whose real-life romantic awareness is comically poor.",
+    "tags": [
+      "anime",
+      "romance",
+      "comedy"
+    ]
+  },
+  {
+    "id": 3150,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows Wakana Gojo making cosplay outfits for Marin?",
+    "answers": [
+      "New Game!",
+      "My Dress-Up Darling",
+      "Horimiya",
+      "Wotakoi"
+    ],
+    "correctAnswer": "My Dress-Up Darling",
+    "explanation": "Gojo's crafting skill helps Marin pursue cosplay.",
+    "tags": [
+      "anime",
+      "romance",
+      "cosplay"
+    ]
+  },
+  {
+    "id": 3151,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows adult otaku Narumi and Hirotaka dating?",
+    "answers": [
+      "Golden Time",
+      "My Dress-Up Darling",
+      "Wotakoi: Love Is Hard for Otaku",
+      "Horimiya"
+    ],
+    "correctAnswer": "Wotakoi: Love Is Hard for Otaku",
+    "explanation": "Wotakoi follows adult otaku relationships in a workplace setting.",
+    "tags": [
+      "anime",
+      "romance",
+      "workplace"
+    ]
+  },
+  {
+    "id": 3152,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows an ancient dragon who becomes a maid?",
+    "answers": [
+      "Dragon Goes House-Hunting",
+      "Little Witch Academia",
+      "The Ancient Magus' Bride",
+      "Miss Kobayashi's Dragon Maid"
+    ],
+    "correctAnswer": "Miss Kobayashi's Dragon Maid",
+    "explanation": "Tohru is a dragon who decides to live as Kobayashi's maid.",
+    "tags": [
+      "anime",
+      "comedy",
+      "fantasy"
+    ]
+  },
+  {
+    "id": 3153,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Chito and Yuuri traveling through ruins after civilization collapses?",
+    "answers": [
+      "Girls' Last Tour",
+      "Somali and the Forest Spirit",
+      "Kino's Journey",
+      "Made in Abyss"
+    ],
+    "correctAnswer": "Girls' Last Tour",
+    "explanation": "Girls' Last Tour is a quiet post-apocalyptic journey about two girls.",
+    "tags": [
+      "anime",
+      "post-apocalyptic",
+      "slice-of-life"
+    ]
+  },
+  {
+    "id": 3154,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Kino traveling between strange countries on a talking motorcycle?",
+    "answers": [
+      "Somali and the Forest Spirit",
+      "Kino's Journey",
+      "Girls' Last Tour",
+      "Mushishi"
+    ],
+    "correctAnswer": "Kino's Journey",
+    "explanation": "Kino travels from country to country with Hermes, observing unusual societies.",
+    "tags": [
+      "anime",
+      "adventure",
+      "philosophical"
+    ]
+  },
+  {
+    "id": 3155,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime follows a merchant and a wolf deity across medieval-style towns?",
+    "answers": [
+      "Kino's Journey",
+      "Maoyuu Maou Yuusha",
+      "Spice and Wolf",
+      "The Ancient Magus' Bride"
+    ],
+    "correctAnswer": "Spice and Wolf",
+    "explanation": "Spice and Wolf blends travel, economics, and fantasy through Lawrence and Holo.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "economics"
+    ]
+  },
+  {
+    "id": 3156,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows a boy named Ciel and his demon butler?",
+    "answers": [
+      "D.Gray-man",
+      "Hellsing Ultimate",
+      "Blue Exorcist",
+      "Black Butler"
+    ],
+    "correctAnswer": "Black Butler",
+    "explanation": "Ciel Phantomhive is served by the demon butler Sebastian.",
+    "tags": [
+      "anime",
+      "supernatural",
+      "black-butler"
+    ]
+  },
+  {
+    "id": 3157,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime follows Shinra Kusakabe and special fire brigades?",
+    "answers": [
+      "Fire Force",
+      "Promare",
+      "Blue Exorcist",
+      "Soul Eater"
+    ],
+    "correctAnswer": "Fire Force",
+    "explanation": "Shinra joins Special Fire Force Company 8 to fight Infernals.",
+    "tags": [
+      "anime",
+      "fire-force",
+      "action"
+    ]
+  },
+  {
+    "id": 3158,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime film follows firefighters and Burnish mutants in a colorful action style?",
+    "answers": [
+      "Redline",
+      "Promare",
+      "Akira",
+      "Bubble"
+    ],
+    "correctAnswer": "Promare",
+    "explanation": "Promare is a Studio Trigger film centered on firefighters and the Burnish.",
+    "tags": [
+      "anime",
+      "film",
+      "studio-trigger"
+    ]
+  },
+  {
+    "id": 3159,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Ryuko Matoi searching for the truth behind her father's death?",
+    "answers": [
+      "Promare",
+      "Akame ga Kill!",
+      "Kill la Kill",
+      "Little Witch Academia"
+    ],
+    "correctAnswer": "Kill la Kill",
+    "explanation": "Ryuko's search drives the plot of Kill la Kill.",
+    "tags": [
+      "anime",
+      "studio-trigger",
+      "action"
+    ]
+  },
+  {
+    "id": 3160,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime follows Akko at Luna Nova Magical Academy?",
+    "answers": [
+      "Flying Witch",
+      "Sailor Moon",
+      "Cardcaptor Sakura",
+      "Little Witch Academia"
+    ],
+    "correctAnswer": "Little Witch Academia",
+    "explanation": "Akko attends Luna Nova Magical Academy to become a witch like Shiny Chariot.",
+    "tags": [
+      "anime",
+      "fantasy",
+      "studio-trigger"
+    ]
+  },
+  {
+    "id": 3161,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Kakashi Hatake?",
+    "answers": [
+      "Naruto",
+      "Attack on Titan",
+      "Bleach",
+      "One Piece"
+    ],
+    "correctAnswer": "Naruto",
+    "explanation": "Kakashi Hatake is an important character in Naruto.",
+    "tags": [
+      "anime",
+      "naruto",
+      "characters"
+    ]
+  },
+  {
+    "id": 3162,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Naruto, which organization or location is associated with Kakashi Hatake?",
+    "answers": [
+      "Grand Line",
+      "Hidden Leaf Village",
+      "Soul Society",
+      "Survey Corps"
+    ],
+    "correctAnswer": "Hidden Leaf Village",
+    "explanation": "Kakashi Hatake is closely connected with Hidden Leaf Village in Naruto.",
+    "tags": [
+      "anime",
+      "naruto",
+      "world"
+    ]
+  },
+  {
+    "id": 3163,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Nami?",
+    "answers": [
+      "Naruto",
+      "Bleach",
+      "One Piece",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "One Piece",
+    "explanation": "Nami is an important character in One Piece.",
+    "tags": [
+      "anime",
+      "one-piece",
+      "characters"
+    ]
+  },
+  {
+    "id": 3164,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In One Piece, which organization or location is associated with Nami?",
+    "answers": [
+      "Soul Society",
+      "Hidden Leaf Village",
+      "Survey Corps",
+      "Grand Line"
+    ],
+    "correctAnswer": "Grand Line",
+    "explanation": "Nami is closely connected with Grand Line in One Piece.",
+    "tags": [
+      "anime",
+      "one-piece",
+      "world"
+    ]
+  },
+  {
+    "id": 3165,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Byakuya Kuchiki?",
+    "answers": [
+      "Bleach",
+      "One Piece",
+      "Naruto",
+      "Attack on Titan"
+    ],
+    "correctAnswer": "Bleach",
+    "explanation": "Byakuya Kuchiki is an important character in Bleach.",
+    "tags": [
+      "anime",
+      "bleach",
+      "characters"
+    ]
+  },
+  {
+    "id": 3166,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In Bleach, which organization or location is associated with Byakuya Kuchiki?",
+    "answers": [
+      "Grand Line",
+      "Soul Society",
+      "Hidden Leaf Village",
+      "Survey Corps"
+    ],
+    "correctAnswer": "Soul Society",
+    "explanation": "Byakuya Kuchiki is closely connected with Soul Society in Bleach.",
+    "tags": [
+      "anime",
+      "bleach",
+      "world"
+    ]
+  },
+  {
+    "id": 3167,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Levi Ackerman?",
+    "answers": [
+      "Bleach",
+      "One Piece",
+      "Attack on Titan",
+      "Naruto"
+    ],
+    "correctAnswer": "Attack on Titan",
+    "explanation": "Levi Ackerman is an important character in Attack on Titan.",
+    "tags": [
+      "anime",
+      "attack-on-titan",
+      "characters"
+    ]
+  },
+  {
+    "id": 3168,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Attack on Titan, which organization or location is associated with Levi Ackerman?",
+    "answers": [
+      "Soul Society",
+      "Hidden Leaf Village",
+      "Grand Line",
+      "Survey Corps"
+    ],
+    "correctAnswer": "Survey Corps",
+    "explanation": "Levi Ackerman is closely connected with Survey Corps in Attack on Titan.",
+    "tags": [
+      "anime",
+      "attack-on-titan",
+      "world"
+    ]
+  },
+  {
+    "id": 3169,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Zenitsu Agatsuma?",
+    "answers": [
+      "Demon Slayer",
+      "Naruto",
+      "One Piece",
+      "Bleach"
+    ],
+    "correctAnswer": "Demon Slayer",
+    "explanation": "Zenitsu Agatsuma is an important character in Demon Slayer.",
+    "tags": [
+      "anime",
+      "demon-slayer",
+      "characters"
+    ]
+  },
+  {
+    "id": 3170,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Demon Slayer, which organization or location is associated with Zenitsu Agatsuma?",
+    "answers": [
+      "Soul Society",
+      "Demon Slayer Corps",
+      "Grand Line",
+      "Hidden Leaf Village"
+    ],
+    "correctAnswer": "Demon Slayer Corps",
+    "explanation": "Zenitsu Agatsuma is closely connected with Demon Slayer Corps in Demon Slayer.",
+    "tags": [
+      "anime",
+      "demon-slayer",
+      "world"
+    ]
+  },
+  {
+    "id": 3171,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime features Nobara Kugisaki?",
+    "answers": [
+      "One Piece",
+      "Naruto",
+      "Jujutsu Kaisen",
+      "Bleach"
+    ],
+    "correctAnswer": "Jujutsu Kaisen",
+    "explanation": "Nobara Kugisaki is an important character in Jujutsu Kaisen.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen",
+      "characters"
+    ]
+  },
+  {
+    "id": 3172,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Jujutsu Kaisen, which organization or location is associated with Nobara Kugisaki?",
+    "answers": [
+      "Soul Society",
+      "Hidden Leaf Village",
+      "Grand Line",
+      "Tokyo Jujutsu High"
+    ],
+    "correctAnswer": "Tokyo Jujutsu High",
+    "explanation": "Nobara Kugisaki is closely connected with Tokyo Jujutsu High in Jujutsu Kaisen.",
+    "tags": [
+      "anime",
+      "jujutsu-kaisen",
+      "world"
+    ]
+  },
+  {
+    "id": 3173,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Makima?",
+    "answers": [
+      "Chainsaw Man",
+      "One Piece",
+      "Bleach",
+      "Naruto"
+    ],
+    "correctAnswer": "Chainsaw Man",
+    "explanation": "Makima is an important character in Chainsaw Man.",
+    "tags": [
+      "anime",
+      "chainsaw-man",
+      "characters"
+    ]
+  },
+  {
+    "id": 3174,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Chainsaw Man, which organization or location is associated with Makima?",
+    "answers": [
+      "Grand Line",
+      "Public Safety",
+      "Hidden Leaf Village",
+      "Soul Society"
+    ],
+    "correctAnswer": "Public Safety",
+    "explanation": "Makima is closely connected with Public Safety in Chainsaw Man.",
+    "tags": [
+      "anime",
+      "chainsaw-man",
+      "world"
+    ]
+  },
+  {
+    "id": 3175,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Shoto Todoroki?",
+    "answers": [
+      "Bleach",
+      "One Piece",
+      "My Hero Academia",
+      "Naruto"
+    ],
+    "correctAnswer": "My Hero Academia",
+    "explanation": "Shoto Todoroki is an important character in My Hero Academia.",
+    "tags": [
+      "anime",
+      "my-hero-academia",
+      "characters"
+    ]
+  },
+  {
+    "id": 3176,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In My Hero Academia, which organization or location is associated with Shoto Todoroki?",
+    "answers": [
+      "Soul Society",
+      "Hidden Leaf Village",
+      "Grand Line",
+      "U.A. High"
+    ],
+    "correctAnswer": "U.A. High",
+    "explanation": "Shoto Todoroki is closely connected with U.A. High in My Hero Academia.",
+    "tags": [
+      "anime",
+      "my-hero-academia",
+      "world"
+    ]
+  },
+  {
+    "id": 3177,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime features Winry Rockbell?",
+    "answers": [
+      "Fullmetal Alchemist: Brotherhood",
+      "One Piece",
+      "Bleach",
+      "Naruto"
+    ],
+    "correctAnswer": "Fullmetal Alchemist: Brotherhood",
+    "explanation": "Winry Rockbell is an important character in Fullmetal Alchemist: Brotherhood.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood",
+      "characters"
+    ]
+  },
+  {
+    "id": 3178,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Fullmetal Alchemist: Brotherhood, which organization or location is associated with Winry Rockbell?",
+    "answers": [
+      "Grand Line",
+      "Amestris",
+      "Soul Society",
+      "Hidden Leaf Village"
+    ],
+    "correctAnswer": "Amestris",
+    "explanation": "Winry Rockbell is closely connected with Amestris in Fullmetal Alchemist: Brotherhood.",
+    "tags": [
+      "anime",
+      "fullmetal-alchemist:-brotherhood",
+      "world"
+    ]
+  },
+  {
+    "id": 3179,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime features Kurapika?",
+    "answers": [
+      "Bleach",
+      "One Piece",
+      "Hunter x Hunter",
+      "Naruto"
+    ],
+    "correctAnswer": "Hunter x Hunter",
+    "explanation": "Kurapika is an important character in Hunter x Hunter.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter",
+      "characters"
+    ]
+  },
+  {
+    "id": 3180,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Hunter x Hunter, which organization or location is associated with Kurapika?",
+    "answers": [
+      "Hidden Leaf Village",
+      "Grand Line",
+      "Soul Society",
+      "Phantom Troupe"
+    ],
+    "correctAnswer": "Phantom Troupe",
+    "explanation": "Kurapika is closely connected with Phantom Troupe in Hunter x Hunter.",
+    "tags": [
+      "anime",
+      "hunter-x-hunter",
+      "world"
+    ]
+  },
+  {
+    "id": 3181,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime includes the character Thorfinn?",
+    "answers": [
+      "Vinland Saga",
+      "Steins;Gate",
+      "Sword Art Online",
+      "JoJo's Bizarre Adventure"
+    ],
+    "correctAnswer": "Vinland Saga",
+    "explanation": "Vinland Saga is a major element connected to Vinland Saga.",
+    "tags": [
+      "anime",
+      "vinland-saga"
+    ]
+  },
+  {
+    "id": 3182,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Trigun, what concept is strongly connected to Vash the Stampede?",
+    "answers": [
+      "Magic Knights",
+      "gunslinger",
+      "Nen",
+      "Bankai"
+    ],
+    "correctAnswer": "gunslinger",
+    "explanation": "gunslinger is a major element connected to Trigun.",
+    "tags": [
+      "anime",
+      "trigun"
+    ]
+  },
+  {
+    "id": 3183,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is associated with ghoul?",
+    "answers": [
+      "Re:ZERO",
+      "Cowboy Bebop",
+      "Tokyo Ghoul",
+      "Steins;Gate"
+    ],
+    "correctAnswer": "Tokyo Ghoul",
+    "explanation": "Tokyo Ghoul is a major element connected to Tokyo Ghoul.",
+    "tags": [
+      "anime",
+      "tokyo-ghoul"
+    ]
+  },
+  {
+    "id": 3184,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Who is an important character in Steins;Gate?",
+    "answers": [
+      "Subaru Natsuki",
+      "Lelouch",
+      "Ken Kaneki",
+      "Rintaro Okabe"
+    ],
+    "correctAnswer": "Rintaro Okabe",
+    "explanation": "Rintaro Okabe is a major element connected to Steins;Gate.",
+    "tags": [
+      "anime",
+      "steins;gate"
+    ]
+  },
+  {
+    "id": 3185,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is closely connected to Tokyo Ghoul?",
+    "answers": [
+      "ghoul",
+      "Dragon Balls",
+      "Holy Grail War",
+      "Alchemy"
+    ],
+    "correctAnswer": "ghoul",
+    "explanation": "ghoul is a major element connected to Tokyo Ghoul.",
+    "tags": [
+      "anime",
+      "tokyo-ghoul"
+    ]
+  },
+  {
+    "id": 3186,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What power or organization appears in Vinland Saga?",
+    "answers": [
+      "Death Note",
+      "Vinland Saga",
+      "Konosuba",
+      "Fairy Tail"
+    ],
+    "correctAnswer": "Vinland Saga",
+    "explanation": "Vinland Saga is a major element connected to Vinland Saga.",
+    "tags": [
+      "anime",
+      "vinland-saga"
+    ]
+  },
+  {
+    "id": 3187,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Dr. Stone, what concept is strongly connected to Senku?",
+    "answers": [
+      "Nen",
+      "Alchemy Circle",
+      "science",
+      "Magic Knights"
+    ],
+    "correctAnswer": "science",
+    "explanation": "science is a major element connected to Dr. Stone.",
+    "tags": [
+      "anime",
+      "dr.-stone"
+    ]
+  },
+  {
+    "id": 3188,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is associated with striker?",
+    "answers": [
+      "Tokyo Ghoul",
+      "Death Note",
+      "Fairy Tail",
+      "Blue Lock"
+    ],
+    "correctAnswer": "Blue Lock",
+    "explanation": "Blue Lock is a major element connected to Blue Lock.",
+    "tags": [
+      "anime",
+      "blue-lock"
+    ]
+  },
+  {
+    "id": 3189,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who is an important character in Haikyu!!?",
+    "answers": [
+      "Karasuno",
+      "Ken Kaneki",
+      "Jotaro Kujo",
+      "Ainz Ooal Gown"
+    ],
+    "correctAnswer": "Karasuno",
+    "explanation": "Karasuno is a major element connected to Haikyu!!.",
+    "tags": [
+      "anime",
+      "haikyu!!"
+    ]
+  },
+  {
+    "id": 3190,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is closely connected to Re:ZERO?",
+    "answers": [
+      "Dragon Balls",
+      "Return by Death",
+      "Alchemy",
+      "Magic Guilds"
+    ],
+    "correctAnswer": "Return by Death",
+    "explanation": "Return by Death is a major element connected to Re:ZERO.",
+    "tags": [
+      "anime",
+      "re:zero"
+    ]
+  },
+  {
+    "id": 3191,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime includes the character Rintaro Okabe?",
+    "answers": [
+      "Spy x Family",
+      "Cowboy Bebop",
+      "Steins;Gate",
+      "Vinland Saga"
+    ],
+    "correctAnswer": "Steins;Gate",
+    "explanation": "Steins;Gate is a major element connected to Steins;Gate.",
+    "tags": [
+      "anime",
+      "steins;gate"
+    ]
+  },
+  {
+    "id": 3192,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In anime fandom, science is most associated with which series?",
+    "answers": [
+      "Magic Knights",
+      "Alchemy Circle",
+      "Titan Shifting",
+      "science"
+    ],
+    "correctAnswer": "science",
+    "explanation": "science is a major element connected to Dr. Stone.",
+    "tags": [
+      "anime",
+      "dr.-stone"
+    ]
+  },
+  {
+    "id": 3193,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime is associated with Celestial Spirits?",
+    "answers": [
+      "Fairy Tail",
+      "Death Note",
+      "Black Clover",
+      "Konosuba"
+    ],
+    "correctAnswer": "Fairy Tail",
+    "explanation": "Fairy Tail is a major element connected to Fairy Tail.",
+    "tags": [
+      "anime",
+      "fairy-tail"
+    ]
+  },
+  {
+    "id": 3194,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is an important character in Spy x Family?",
+    "answers": [
+      "Rintaro Okabe",
+      "Anya Forger",
+      "Ken Kaneki",
+      "Karasuno"
+    ],
+    "correctAnswer": "Anya Forger",
+    "explanation": "Anya Forger is a major element connected to Spy x Family.",
+    "tags": [
+      "anime",
+      "spy-x-family"
+    ]
+  },
+  {
+    "id": 3195,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is closely connected to Death Note?",
+    "answers": [
+      "Magic Guilds",
+      "Soul Reapers",
+      "Death Note",
+      "Holy Grail War"
+    ],
+    "correctAnswer": "Death Note",
+    "explanation": "Death Note is a major element connected to Death Note.",
+    "tags": [
+      "anime",
+      "death-note"
+    ]
+  },
+  {
+    "id": 3196,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime includes the character Jotaro Kujo?",
+    "answers": [
+      "Vinland Saga",
+      "Sword Art Online",
+      "Blue Lock",
+      "JoJo's Bizarre Adventure"
+    ],
+    "correctAnswer": "JoJo's Bizarre Adventure",
+    "explanation": "JoJo's Bizarre Adventure is a major element connected to JoJo's Bizarre Adventure.",
+    "tags": [
+      "anime",
+      "jojo's-bizarre-adventure"
+    ]
+  },
+  {
+    "id": 3197,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Mob Psycho 100, what concept is strongly connected to Mob?",
+    "answers": [
+      "psychic",
+      "Nen",
+      "Titan Shifting",
+      "Bankai"
+    ],
+    "correctAnswer": "psychic",
+    "explanation": "psychic is a major element connected to Mob Psycho 100.",
+    "tags": [
+      "anime",
+      "mob-psycho-100"
+    ]
+  },
+  {
+    "id": 3198,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is associated with Geass?",
+    "answers": [
+      "Cowboy Bebop",
+      "Code Geass",
+      "Death Note",
+      "Sword Art Online"
+    ],
+    "correctAnswer": "Code Geass",
+    "explanation": "Code Geass is a major element connected to Code Geass.",
+    "tags": [
+      "anime",
+      "code-geass"
+    ]
+  },
+  {
+    "id": 3199,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime is strongly associated with Karasuno?",
+    "answers": [
+      "Ken Kaneki",
+      "Subaru Natsuki",
+      "Karasuno",
+      "Yoichi Isagi"
+    ],
+    "correctAnswer": "Karasuno",
+    "explanation": "Karasuno is a major element connected to Haikyu!!.",
+    "tags": [
+      "anime",
+      "haikyu!!"
+    ]
+  },
+  {
+    "id": 3200,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What power or organization appears in Return by Death?",
+    "answers": [
+      "Magic Guilds",
+      "Soul Reapers",
+      "Dragon Balls",
+      "Return by Death"
+    ],
+    "correctAnswer": "Return by Death",
+    "explanation": "Return by Death is a major element connected to Re:ZERO.",
+    "tags": [
+      "anime",
+      "re:zero"
+    ]
+  },
+  {
+    "id": 3201,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime includes the character Anya Forger?",
+    "answers": [
+      "Spy x Family",
+      "Tokyo Ghoul",
+      "Konosuba",
+      "Re:ZERO"
+    ],
+    "correctAnswer": "Spy x Family",
+    "explanation": "Spy x Family is a major element connected to Spy x Family.",
+    "tags": [
+      "anime",
+      "spy-x-family"
+    ]
+  },
+  {
+    "id": 3202,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Tokyo Ghoul, what concept is strongly connected to Ken Kaneki?",
+    "answers": [
+      "Titan Shifting",
+      "ghoul",
+      "Bankai",
+      "Nen"
+    ],
+    "correctAnswer": "ghoul",
+    "explanation": "ghoul is a major element connected to Tokyo Ghoul.",
+    "tags": [
+      "anime",
+      "tokyo-ghoul"
+    ]
+  },
+  {
+    "id": 3203,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is associated with science?",
+    "answers": [
+      "JoJo's Bizarre Adventure",
+      "Kaguya-sama: Love Is War",
+      "Dr. Stone",
+      "Black Clover"
+    ],
+    "correctAnswer": "Dr. Stone",
+    "explanation": "Dr. Stone is a major element connected to Dr. Stone.",
+    "tags": [
+      "anime",
+      "dr.-stone"
+    ]
+  },
+  {
+    "id": 3204,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who is an important character in JoJo's Bizarre Adventure?",
+    "answers": [
+      "Lucy Heartfilia",
+      "Senku",
+      "Mob",
+      "Jotaro Kujo"
+    ],
+    "correctAnswer": "Jotaro Kujo",
+    "explanation": "Jotaro Kujo is a major element connected to JoJo's Bizarre Adventure.",
+    "tags": [
+      "anime",
+      "jojo's-bizarre-adventure"
+    ]
+  },
+  {
+    "id": 3205,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is closely connected to Code Geass?",
+    "answers": [
+      "Geass",
+      "Alchemy",
+      "Soul Reapers",
+      "Holy Grail War"
+    ],
+    "correctAnswer": "Geass",
+    "explanation": "Geass is a major element connected to Code Geass.",
+    "tags": [
+      "anime",
+      "code-geass"
+    ]
+  },
+  {
+    "id": 3206,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime includes the character Senku?",
+    "answers": [
+      "Konosuba",
+      "Dr. Stone",
+      "Vinland Saga",
+      "Blue Lock"
+    ],
+    "correctAnswer": "Dr. Stone",
+    "explanation": "Dr. Stone is a major element connected to Dr. Stone.",
+    "tags": [
+      "anime",
+      "dr.-stone"
+    ]
+  },
+  {
+    "id": 3207,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with ghoul?",
+    "answers": [
+      "Titan Shifting",
+      "Magic Knights",
+      "ghoul",
+      "Alchemy"
+    ],
+    "correctAnswer": "ghoul",
+    "explanation": "ghoul is a major element connected to Tokyo Ghoul.",
+    "tags": [
+      "anime",
+      "tokyo-ghoul"
+    ]
+  },
+  {
+    "id": 3208,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is associated with explosion magic?",
+    "answers": [
+      "Steins;Gate",
+      "Code Geass",
+      "Cowboy Bebop",
+      "Konosuba"
+    ],
+    "correctAnswer": "Konosuba",
+    "explanation": "Konosuba is a major element connected to Konosuba.",
+    "tags": [
+      "anime",
+      "konosuba"
+    ]
+  },
+  {
+    "id": 3209,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Who is an important character in Konosuba?",
+    "answers": [
+      "Megumin",
+      "Mob",
+      "Yoichi Isagi",
+      "Ken Kaneki"
+    ],
+    "correctAnswer": "Megumin",
+    "explanation": "Megumin is a major element connected to Konosuba.",
+    "tags": [
+      "anime",
+      "konosuba"
+    ]
+  },
+  {
+    "id": 3210,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In ghoul, which concept is central to the story?",
+    "answers": [
+      "Alchemy",
+      "ghoul",
+      "Soul Reapers",
+      "Holy Grail War"
+    ],
+    "correctAnswer": "ghoul",
+    "explanation": "ghoul is a major element connected to Tokyo Ghoul.",
+    "tags": [
+      "anime",
+      "tokyo-ghoul"
+    ]
+  },
+  {
+    "id": 3211,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In anime fandom, JoJo's Bizarre Adventure is most associated with which series?",
+    "answers": [
+      "Code Geass",
+      "Steins;Gate",
+      "JoJo's Bizarre Adventure",
+      "Mob Psycho 100"
+    ],
+    "correctAnswer": "JoJo's Bizarre Adventure",
+    "explanation": "JoJo's Bizarre Adventure is a major element connected to JoJo's Bizarre Adventure.",
+    "tags": [
+      "anime",
+      "jojo's-bizarre-adventure"
+    ]
+  },
+  {
+    "id": 3212,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Haikyu!!, what concept is strongly connected to Karasuno?",
+    "answers": [
+      "Nen",
+      "Alchemy",
+      "Bankai",
+      "volleyball"
+    ],
+    "correctAnswer": "volleyball",
+    "explanation": "volleyball is a major element connected to Haikyu!!.",
+    "tags": [
+      "anime",
+      "haikyu!!"
+    ]
+  },
+  {
+    "id": 3213,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is associated with time travel?",
+    "answers": [
+      "Steins;Gate",
+      "Re:ZERO",
+      "Fairy Tail",
+      "Sword Art Online"
+    ],
+    "correctAnswer": "Steins;Gate",
+    "explanation": "Steins;Gate is a major element connected to Steins;Gate.",
+    "tags": [
+      "anime",
+      "steins;gate"
+    ]
+  },
+  {
+    "id": 3214,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is strongly associated with Jotaro Kujo?",
+    "answers": [
+      "Mob",
+      "Jotaro Kujo",
+      "Megumin",
+      "Anya Forger"
+    ],
+    "correctAnswer": "Jotaro Kujo",
+    "explanation": "Jotaro Kujo is a major element connected to JoJo's Bizarre Adventure.",
+    "tags": [
+      "anime",
+      "jojo's-bizarre-adventure"
+    ]
+  },
+  {
+    "id": 3215,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is closely connected to Kaguya-sama: Love Is War?",
+    "answers": [
+      "Alchemy",
+      "Holy Grail War",
+      "student council",
+      "Dragon Balls"
+    ],
+    "correctAnswer": "student council",
+    "explanation": "student council is a major element connected to Kaguya-sama: Love Is War.",
+    "tags": [
+      "anime",
+      "kaguya-sama:-love-is-war"
+    ]
+  },
+  {
+    "id": 3216,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which series prominently features Dr. Stone?",
+    "answers": [
+      "Overlord",
+      "Steins;Gate",
+      "Fairy Tail",
+      "Dr. Stone"
+    ],
+    "correctAnswer": "Dr. Stone",
+    "explanation": "Dr. Stone is a major element connected to Dr. Stone.",
+    "tags": [
+      "anime",
+      "dr.-stone"
+    ]
+  },
+  {
+    "id": 3217,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Vinland Saga, what concept is strongly connected to Thorfinn?",
+    "answers": [
+      "Vikings",
+      "Alchemy",
+      "Titan Shifting",
+      "Magic Knights"
+    ],
+    "correctAnswer": "Vikings",
+    "explanation": "Vikings is a major element connected to Vinland Saga.",
+    "tags": [
+      "anime",
+      "vinland-saga"
+    ]
+  },
+  {
+    "id": 3218,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In Tokyo Ghoul, which concept is central to the story?",
+    "answers": [
+      "Overlord",
+      "Tokyo Ghoul",
+      "Haikyu!!",
+      "Death Note"
+    ],
+    "correctAnswer": "Tokyo Ghoul",
+    "explanation": "Tokyo Ghoul is a major element connected to Tokyo Ghoul.",
+    "tags": [
+      "anime",
+      "tokyo-ghoul"
+    ]
+  },
+  {
+    "id": 3219,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Who is an important character in Trigun?",
+    "answers": [
+      "Lucy Heartfilia",
+      "Kirito",
+      "Vash the Stampede",
+      "Thorfinn"
+    ],
+    "correctAnswer": "Vash the Stampede",
+    "explanation": "Vash the Stampede is a major element connected to Trigun.",
+    "tags": [
+      "anime",
+      "trigun"
+    ]
+  },
+  {
+    "id": 3220,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime is strongly associated with Geass?",
+    "answers": [
+      "Soul Reapers",
+      "Alchemy",
+      "Magic Guilds",
+      "Geass"
+    ],
+    "correctAnswer": "Geass",
+    "explanation": "Geass is a major element connected to Code Geass.",
+    "tags": [
+      "anime",
+      "code-geass"
+    ]
+  },
+  {
+    "id": 3221,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime includes the character Yoichi Isagi?",
+    "answers": [
+      "Blue Lock",
+      "Tokyo Ghoul",
+      "Re:ZERO",
+      "Fairy Tail"
+    ],
+    "correctAnswer": "Blue Lock",
+    "explanation": "Blue Lock is a major element connected to Blue Lock.",
+    "tags": [
+      "anime",
+      "blue-lock"
+    ]
+  },
+  {
+    "id": 3222,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In ghoul, which concept is central to the story? (2)",
+    "answers": [
+      "Alchemy Circle",
+      "ghoul",
+      "Titan Shifting",
+      "Bankai"
+    ],
+    "correctAnswer": "ghoul",
+    "explanation": "ghoul is a major element connected to Tokyo Ghoul.",
+    "tags": [
+      "anime",
+      "tokyo-ghoul"
+    ]
+  },
+  {
+    "id": 3223,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is associated with Bebop?",
+    "answers": [
+      "Vinland Saga",
+      "Haikyu!!",
+      "Cowboy Bebop",
+      "JoJo's Bizarre Adventure"
+    ],
+    "correctAnswer": "Cowboy Bebop",
+    "explanation": "Cowboy Bebop is a major element connected to Cowboy Bebop.",
+    "tags": [
+      "anime",
+      "cowboy-bebop"
+    ]
+  },
+  {
+    "id": 3224,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who is an important character in Re:ZERO?",
+    "answers": [
+      "Jotaro Kujo",
+      "Ken Kaneki",
+      "Karasuno",
+      "Subaru Natsuki"
+    ],
+    "correctAnswer": "Subaru Natsuki",
+    "explanation": "Subaru Natsuki is a major element connected to Re:ZERO.",
+    "tags": [
+      "anime",
+      "re:zero"
+    ]
+  },
+  {
+    "id": 3225,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is closely connected to Dr. Stone?",
+    "answers": [
+      "science",
+      "Soul Reapers",
+      "Dragon Balls",
+      "Alchemy"
+    ],
+    "correctAnswer": "science",
+    "explanation": "science is a major element connected to Dr. Stone.",
+    "tags": [
+      "anime",
+      "dr.-stone"
+    ]
+  },
+  {
+    "id": 3226,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime includes the character Lucy Heartfilia?",
+    "answers": [
+      "Code Geass",
+      "Fairy Tail",
+      "Kaguya-sama: Love Is War",
+      "Mob Psycho 100"
+    ],
+    "correctAnswer": "Fairy Tail",
+    "explanation": "Fairy Tail is a major element connected to Fairy Tail.",
+    "tags": [
+      "anime",
+      "fairy-tail"
+    ]
+  },
+  {
+    "id": 3227,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Death Note, what concept is strongly connected to Light Yagami?",
+    "answers": [
+      "Alchemy Circle",
+      "Bankai",
+      "Death Note",
+      "Titan Shifting"
+    ],
+    "correctAnswer": "Death Note",
+    "explanation": "Death Note is a major element connected to Death Note.",
+    "tags": [
+      "anime",
+      "death-note"
+    ]
+  },
+  {
+    "id": 3228,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is associated with volleyball?",
+    "answers": [
+      "Sword Art Online",
+      "Steins;Gate",
+      "Death Note",
+      "Haikyu!!"
+    ],
+    "correctAnswer": "Haikyu!!",
+    "explanation": "Haikyu!! is a major element connected to Haikyu!!.",
+    "tags": [
+      "anime",
+      "haikyu!!"
+    ]
+  },
+  {
+    "id": 3229,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Who is an important character in Death Note?",
+    "answers": [
+      "Light Yagami",
+      "Megumin",
+      "Rintaro Okabe",
+      "Subaru Natsuki"
+    ],
+    "correctAnswer": "Light Yagami",
+    "explanation": "Light Yagami is a major element connected to Death Note.",
+    "tags": [
+      "anime",
+      "death-note"
+    ]
+  },
+  {
+    "id": 3230,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is closely connected to Konosuba?",
+    "answers": [
+      "Magic Guilds",
+      "explosion magic",
+      "Alchemy",
+      "Dragon Balls"
+    ],
+    "correctAnswer": "explosion magic",
+    "explanation": "explosion magic is a major element connected to Konosuba.",
+    "tags": [
+      "anime",
+      "konosuba"
+    ]
+  },
+  {
+    "id": 3231,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which anime includes the character Megumin?",
+    "answers": [
+      "Mob Psycho 100",
+      "Sword Art Online",
+      "Konosuba",
+      "Steins;Gate"
+    ],
+    "correctAnswer": "Konosuba",
+    "explanation": "Konosuba is a major element connected to Konosuba.",
+    "tags": [
+      "anime",
+      "konosuba"
+    ]
+  },
+  {
+    "id": 3232,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In ghoul, which concept is central to the story? (3)",
+    "answers": [
+      "Bankai",
+      "Nen",
+      "Alchemy",
+      "ghoul"
+    ],
+    "correctAnswer": "ghoul",
+    "explanation": "ghoul is a major element connected to Tokyo Ghoul.",
+    "tags": [
+      "anime",
+      "tokyo-ghoul"
+    ]
+  },
+  {
+    "id": 3233,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which anime is associated with Nazarick?",
+    "answers": [
+      "Overlord",
+      "Re:ZERO",
+      "Konosuba",
+      "Spy x Family"
+    ],
+    "correctAnswer": "Overlord",
+    "explanation": "Overlord is a major element connected to Overlord.",
+    "tags": [
+      "anime",
+      "overlord"
+    ]
+  },
+  {
+    "id": 3234,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who is an important character in Sword Art Online?",
+    "answers": [
+      "Lucy Heartfilia",
+      "Kirito",
+      "Ainz Ooal Gown",
+      "Light Yagami"
+    ],
+    "correctAnswer": "Kirito",
+    "explanation": "Kirito is a major element connected to Sword Art Online.",
+    "tags": [
+      "anime",
+      "sword-art-online"
+    ]
+  },
+  {
+    "id": 3235,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which series prominently features Death Note?",
+    "answers": [
+      "Holy Grail War",
+      "Magic Guilds",
+      "Death Note",
+      "Soul Reapers"
+    ],
+    "correctAnswer": "Death Note",
+    "explanation": "Death Note is a major element connected to Death Note.",
+    "tags": [
+      "anime",
+      "death-note"
+    ]
+  },
+  {
+    "id": 3236,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime includes the character Yuno?",
+    "answers": [
+      "Steins;Gate",
+      "Konosuba",
+      "Re:ZERO",
+      "Black Clover"
+    ],
+    "correctAnswer": "Black Clover",
+    "explanation": "Black Clover is a major element connected to Black Clover.",
+    "tags": [
+      "anime",
+      "black-clover"
+    ]
+  },
+  {
+    "id": 3237,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In Fairy Tail, what concept is strongly connected to Lucy Heartfilia?",
+    "answers": [
+      "Celestial Spirits",
+      "Alchemy",
+      "Alchemy Circle",
+      "Nen"
+    ],
+    "correctAnswer": "Celestial Spirits",
+    "explanation": "Celestial Spirits is a major element connected to Fairy Tail.",
+    "tags": [
+      "anime",
+      "fairy-tail"
+    ]
+  },
+  {
+    "id": 3238,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which anime is associated with gunslinger?",
+    "answers": [
+      "Sword Art Online",
+      "Trigun",
+      "Cowboy Bebop",
+      "Konosuba"
+    ],
+    "correctAnswer": "Trigun",
+    "explanation": "Trigun is a major element connected to Trigun.",
+    "tags": [
+      "anime",
+      "trigun"
+    ]
+  },
+  {
+    "id": 3239,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Who is an important character in Black Clover?",
+    "answers": [
+      "Yoichi Isagi",
+      "Spike Spiegel",
+      "Yuno",
+      "Jotaro Kujo"
+    ],
+    "correctAnswer": "Yuno",
+    "explanation": "Yuno is a major element connected to Black Clover.",
+    "tags": [
+      "anime",
+      "black-clover"
+    ]
+  },
+  {
+    "id": 3240,
+    "category": "anime",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In anime fandom, ghoul is most associated with which series?",
+    "answers": [
+      "Dragon Balls",
+      "Holy Grail War",
+      "Magic Guilds",
+      "ghoul"
+    ],
+    "correctAnswer": "ghoul",
+    "explanation": "ghoul is a major element connected to Tokyo Ghoul.",
+    "tags": [
+      "anime",
+      "tokyo-ghoul"
+    ]
+  }
+]

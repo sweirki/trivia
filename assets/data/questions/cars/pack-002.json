@@ -1,1 +1,4002 @@
-[]
+[
+  {
+    "id": 5501,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which company manufactures the Wrangler off-road SUV?",
+    "answers": [
+      "Jeep",
+      "Toyota",
+      "Land Rover",
+      "Ford"
+    ],
+    "correctAnswer": "Jeep",
+    "explanation": "The Wrangler is Jeep's iconic off-road SUV.",
+    "tags": [
+      "cars",
+      "jeep",
+      "suv"
+    ]
+  },
+  {
+    "id": 5502,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which automotive company produces the Land Cruiser?",
+    "answers": [
+      "Honda",
+      "Toyota",
+      "Nissan",
+      "Mitsubishi"
+    ],
+    "correctAnswer": "Toyota",
+    "explanation": "The Land Cruiser is Toyota's long-running off-road SUV.",
+    "tags": [
+      "cars",
+      "toyota",
+      "suv"
+    ]
+  },
+  {
+    "id": 5503,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which British brand is famous for the Defender?",
+    "answers": [
+      "Jaguar",
+      "Bentley",
+      "Land Rover",
+      "Mini"
+    ],
+    "correctAnswer": "Land Rover",
+    "explanation": "The Defender is one of Land Rover's most famous off-road vehicles.",
+    "tags": [
+      "cars",
+      "land-rover",
+      "suv"
+    ]
+  },
+  {
+    "id": 5504,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Mercedes-Benz SUV began as a military-style off-roader?",
+    "answers": [
+      "GLE",
+      "GLA",
+      "GLC",
+      "G-Class"
+    ],
+    "correctAnswer": "G-Class",
+    "explanation": "The Mercedes-Benz G-Class traces its roots to a rugged military-style off-road vehicle.",
+    "tags": [
+      "cars",
+      "mercedes-benz",
+      "suv"
+    ]
+  },
+  {
+    "id": 5505,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Toyota SUV is closely related to the Lexus GX in many markets?",
+    "answers": [
+      "Land Cruiser Prado",
+      "C-HR",
+      "RAV4",
+      "Highlander"
+    ],
+    "correctAnswer": "Land Cruiser Prado",
+    "explanation": "The Lexus GX has traditionally shared roots with the Toyota Land Cruiser Prado platform.",
+    "tags": [
+      "cars",
+      "toyota",
+      "lexus"
+    ]
+  },
+  {
+    "id": 5506,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which automotive company produces the F-150 pickup?",
+    "answers": [
+      "Chevrolet",
+      "Ford",
+      "Ram",
+      "GMC"
+    ],
+    "correctAnswer": "Ford",
+    "explanation": "The F-150 is Ford's best-known full-size pickup truck.",
+    "tags": [
+      "cars",
+      "ford",
+      "truck"
+    ]
+  },
+  {
+    "id": 5507,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which brand sells the Silverado pickup?",
+    "answers": [
+      "Ram",
+      "Toyota",
+      "Chevrolet",
+      "Ford"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "The Silverado is Chevrolet's full-size pickup truck.",
+    "tags": [
+      "cars",
+      "chevrolet",
+      "truck"
+    ]
+  },
+  {
+    "id": 5508,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which truck brand uses the name “Raptor” for high-performance off-road models?",
+    "answers": [
+      "GMC",
+      "Ram",
+      "Chevrolet",
+      "Ford"
+    ],
+    "correctAnswer": "Ford",
+    "explanation": "Ford uses the Raptor name for high-performance off-road trucks and SUVs.",
+    "tags": [
+      "cars",
+      "ford",
+      "truck"
+    ]
+  },
+  {
+    "id": 5509,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Ram pickup model is known for a supercharged Hellcat-derived V8?",
+    "answers": [
+      "TRX",
+      "Rebel",
+      "Laramie",
+      "Big Horn"
+    ],
+    "correctAnswer": "TRX",
+    "explanation": "The Ram TRX is known for its supercharged Hellcat-derived V8 engine.",
+    "tags": [
+      "cars",
+      "ram",
+      "truck"
+    ]
+  },
+  {
+    "id": 5510,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which GMC truck trim name is focused on luxury appointments?",
+    "answers": [
+      "Raptor",
+      "Denali",
+      "Trailhawk",
+      "Z71"
+    ],
+    "correctAnswer": "Denali",
+    "explanation": "Denali is GMC's premium trim line with upscale features.",
+    "tags": [
+      "cars",
+      "gmc",
+      "truck"
+    ]
+  },
+  {
+    "id": 5511,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which electric car company is known for the Model S?",
+    "answers": [
+      "Polestar",
+      "Rivian",
+      "Tesla",
+      "Lucid"
+    ],
+    "correctAnswer": "Tesla",
+    "explanation": "Tesla's Model S helped popularize high-performance electric sedans.",
+    "tags": [
+      "cars",
+      "tesla",
+      "electric"
+    ]
+  },
+  {
+    "id": 5512,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which Tesla model is the smaller sedan below the Model S?",
+    "answers": [
+      "Model X",
+      "Model Y",
+      "Roadster",
+      "Model 3"
+    ],
+    "correctAnswer": "Model 3",
+    "explanation": "The Model 3 is Tesla's smaller sedan aimed at higher-volume sales.",
+    "tags": [
+      "cars",
+      "tesla",
+      "electric"
+    ]
+  },
+  {
+    "id": 5513,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which EV brand produces the Air luxury sedan?",
+    "answers": [
+      "Lucid",
+      "Polestar",
+      "Tesla",
+      "Rivian"
+    ],
+    "correctAnswer": "Lucid",
+    "explanation": "The Lucid Air is a luxury electric sedan.",
+    "tags": [
+      "cars",
+      "lucid",
+      "electric"
+    ]
+  },
+  {
+    "id": 5514,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which EV company is known for the R1T pickup?",
+    "answers": [
+      "Nio",
+      "Rivian",
+      "Lucid",
+      "Polestar"
+    ],
+    "correctAnswer": "Rivian",
+    "explanation": "The R1T is Rivian's electric adventure pickup.",
+    "tags": [
+      "cars",
+      "rivian",
+      "electric"
+    ]
+  },
+  {
+    "id": 5515,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Swedish-linked EV brand produces the Polestar 2?",
+    "answers": [
+      "Volvo",
+      "Saab",
+      "Polestar",
+      "Koenigsegg"
+    ],
+    "correctAnswer": "Polestar",
+    "explanation": "Polestar produces electric performance cars including the Polestar 2.",
+    "tags": [
+      "cars",
+      "polestar",
+      "electric"
+    ]
+  },
+  {
+    "id": 5516,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche EV uses the name Taycan?",
+    "answers": [
+      "Macan",
+      "Cayenne",
+      "Panamera",
+      "Taycan"
+    ],
+    "correctAnswer": "Taycan",
+    "explanation": "The Taycan is Porsche's electric performance sedan.",
+    "tags": [
+      "cars",
+      "porsche",
+      "electric"
+    ]
+  },
+  {
+    "id": 5517,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Hyundai EV is built on the E-GMP platform and has retro-futuristic styling?",
+    "answers": [
+      "Ioniq 5",
+      "Santa Fe",
+      "Elantra N",
+      "Tucson"
+    ],
+    "correctAnswer": "Ioniq 5",
+    "explanation": "The Hyundai Ioniq 5 is an E-GMP-based electric crossover with distinctive styling.",
+    "tags": [
+      "cars",
+      "hyundai",
+      "electric"
+    ]
+  },
+  {
+    "id": 5518,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Kia EV shares E-GMP roots with the Hyundai Ioniq 5?",
+    "answers": [
+      "Stinger",
+      "EV6",
+      "Telluride",
+      "Soul"
+    ],
+    "correctAnswer": "EV6",
+    "explanation": "The Kia EV6 uses the Hyundai Motor Group E-GMP electric platform.",
+    "tags": [
+      "cars",
+      "kia",
+      "electric"
+    ]
+  },
+  {
+    "id": 5519,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which electric hypercar is produced by Rimac?",
+    "answers": [
+      "Jesko",
+      "Huayra",
+      "Nevera",
+      "Chiron"
+    ],
+    "correctAnswer": "Nevera",
+    "explanation": "The Rimac Nevera is a high-performance electric hypercar.",
+    "tags": [
+      "cars",
+      "rimac",
+      "electric"
+    ]
+  },
+  {
+    "id": 5520,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which BMW electric sedan uses the name i4?",
+    "answers": [
+      "X5",
+      "M3",
+      "i8",
+      "i4"
+    ],
+    "correctAnswer": "i4",
+    "explanation": "The BMW i4 is an electric Gran Coupe-style sedan.",
+    "tags": [
+      "cars",
+      "bmw",
+      "electric"
+    ]
+  },
+  {
+    "id": 5521,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What country is Ferrari from?",
+    "answers": [
+      "Italy",
+      "Germany",
+      "France",
+      "Japan"
+    ],
+    "correctAnswer": "Italy",
+    "explanation": "Ferrari is an Italian automaker based in Maranello.",
+    "tags": [
+      "cars",
+      "ferrari",
+      "geography"
+    ]
+  },
+  {
+    "id": 5522,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What country is Porsche from?",
+    "answers": [
+      "United States",
+      "Germany",
+      "Japan",
+      "Italy"
+    ],
+    "correctAnswer": "Germany",
+    "explanation": "Porsche is a German automaker based in Stuttgart.",
+    "tags": [
+      "cars",
+      "porsche",
+      "geography"
+    ]
+  },
+  {
+    "id": 5523,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What country is Toyota from?",
+    "answers": [
+      "United States",
+      "South Korea",
+      "Japan",
+      "Germany"
+    ],
+    "correctAnswer": "Japan",
+    "explanation": "Toyota is a Japanese automaker.",
+    "tags": [
+      "cars",
+      "toyota",
+      "geography"
+    ]
+  },
+  {
+    "id": 5524,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What country is Hyundai from?",
+    "answers": [
+      "Japan",
+      "China",
+      "Germany",
+      "South Korea"
+    ],
+    "correctAnswer": "South Korea",
+    "explanation": "Hyundai is a South Korean automaker.",
+    "tags": [
+      "cars",
+      "hyundai",
+      "geography"
+    ]
+  },
+  {
+    "id": 5525,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What country is Koenigsegg from?",
+    "answers": [
+      "Sweden",
+      "Italy",
+      "France",
+      "Germany"
+    ],
+    "correctAnswer": "Sweden",
+    "explanation": "Koenigsegg is a Swedish hypercar manufacturer.",
+    "tags": [
+      "cars",
+      "koenigsegg",
+      "geography"
+    ]
+  },
+  {
+    "id": 5526,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What country is Bugatti historically associated with?",
+    "answers": [
+      "United Kingdom",
+      "France",
+      "Italy",
+      "Germany"
+    ],
+    "correctAnswer": "France",
+    "explanation": "Bugatti is historically associated with France, especially Molsheim.",
+    "tags": [
+      "cars",
+      "bugatti",
+      "geography"
+    ]
+  },
+  {
+    "id": 5527,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What country is McLaren based in?",
+    "answers": [
+      "Germany",
+      "Italy",
+      "United Kingdom",
+      "United States"
+    ],
+    "correctAnswer": "United Kingdom",
+    "explanation": "McLaren is based in the United Kingdom.",
+    "tags": [
+      "cars",
+      "mclaren",
+      "geography"
+    ]
+  },
+  {
+    "id": 5528,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What country is Pagani based in?",
+    "answers": [
+      "Spain",
+      "France",
+      "Argentina",
+      "Italy"
+    ],
+    "correctAnswer": "Italy",
+    "explanation": "Pagani is an Italian hypercar manufacturer founded by Horacio Pagani.",
+    "tags": [
+      "cars",
+      "pagani",
+      "geography"
+    ]
+  },
+  {
+    "id": 5529,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Japanese brand created the WRX nameplate?",
+    "answers": [
+      "Subaru",
+      "Mitsubishi",
+      "Toyota",
+      "Mazda"
+    ],
+    "correctAnswer": "Subaru",
+    "explanation": "The WRX name is strongly associated with Subaru rally-inspired performance cars.",
+    "tags": [
+      "cars",
+      "subaru",
+      "jdm"
+    ]
+  },
+  {
+    "id": 5530,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Mitsubishi car is commonly shortened to “Evo”?",
+    "answers": [
+      "Eclipse Cross",
+      "Lancer Evolution",
+      "3000GT",
+      "Pajero"
+    ],
+    "correctAnswer": "Lancer Evolution",
+    "explanation": "The Mitsubishi Lancer Evolution is widely known as the Evo.",
+    "tags": [
+      "cars",
+      "mitsubishi",
+      "jdm"
+    ]
+  },
+  {
+    "id": 5531,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Nissan coupe is often associated with drifting and the S-chassis?",
+    "answers": [
+      "Leaf",
+      "Juke",
+      "Silvia",
+      "GT-R"
+    ],
+    "correctAnswer": "Silvia",
+    "explanation": "The Nissan Silvia is a famous S-chassis platform used in drifting.",
+    "tags": [
+      "cars",
+      "nissan",
+      "jdm"
+    ]
+  },
+  {
+    "id": 5532,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Nissan engine is strongly associated with the Silvia S15 Spec-R?",
+    "answers": [
+      "13B-REW",
+      "RB26DETT",
+      "2JZ-GTE",
+      "SR20DET"
+    ],
+    "correctAnswer": "SR20DET",
+    "explanation": "The S15 Silvia Spec-R is strongly associated with Nissan's turbocharged SR20DET engine.",
+    "tags": [
+      "cars",
+      "nissan",
+      "engine"
+    ]
+  },
+  {
+    "id": 5533,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Toyota engine is famous for the Supra MK4?",
+    "answers": [
+      "2JZ-GTE",
+      "RB26DETT",
+      "13B-REW",
+      "K20A"
+    ],
+    "correctAnswer": "2JZ-GTE",
+    "explanation": "The Toyota Supra MK4 is famous for the turbocharged 2JZ-GTE engine.",
+    "tags": [
+      "cars",
+      "toyota",
+      "engine"
+    ]
+  },
+  {
+    "id": 5534,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Mazda engine family is famous for rotary performance?",
+    "answers": [
+      "B58",
+      "13B",
+      "LS",
+      "K20"
+    ],
+    "correctAnswer": "13B",
+    "explanation": "Mazda's 13B rotary engine is closely associated with RX models.",
+    "tags": [
+      "cars",
+      "mazda",
+      "engine"
+    ]
+  },
+  {
+    "id": 5535,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Honda engine family is famous in Civic Type R models?",
+    "answers": [
+      "13B",
+      "2JZ",
+      "K20",
+      "RB26"
+    ],
+    "correctAnswer": "K20",
+    "explanation": "Honda's K20 engine family is famous in Civic Type R performance models.",
+    "tags": [
+      "cars",
+      "honda",
+      "engine"
+    ]
+  },
+  {
+    "id": 5536,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which BMW engine powers many modern M3 and M4 models?",
+    "answers": [
+      "2JZ-GTE",
+      "LS7",
+      "VR38DETT",
+      "S58"
+    ],
+    "correctAnswer": "S58",
+    "explanation": "The BMW S58 turbocharged inline-six powers recent M3 and M4 models.",
+    "tags": [
+      "cars",
+      "bmw",
+      "engine"
+    ]
+  },
+  {
+    "id": 5537,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Nissan GT-R R35 engine code is widely known among enthusiasts?",
+    "answers": [
+      "VR38DETT",
+      "SR20DET",
+      "VQ35DE",
+      "RB26DETT"
+    ],
+    "correctAnswer": "VR38DETT",
+    "explanation": "The R35 GT-R uses Nissan's VR38DETT twin-turbo V6.",
+    "tags": [
+      "cars",
+      "nissan",
+      "engine"
+    ]
+  },
+  {
+    "id": 5538,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Chevrolet engine family is famous for small-block V8 performance?",
+    "answers": [
+      "13B",
+      "LS",
+      "K-series",
+      "2JZ"
+    ],
+    "correctAnswer": "LS",
+    "explanation": "The LS family is a famous Chevrolet small-block V8 engine family.",
+    "tags": [
+      "cars",
+      "chevrolet",
+      "engine"
+    ]
+  },
+  {
+    "id": 5539,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which layout places the engine behind the cabin but ahead of the rear axle?",
+    "answers": [
+      "Front-engine",
+      "Rear-engine",
+      "Mid-engine",
+      "Transverse-front"
+    ],
+    "correctAnswer": "Mid-engine",
+    "explanation": "A mid-engine layout places the engine near the center of the car, behind the cabin and ahead of the rear axle.",
+    "tags": [
+      "cars",
+      "layout",
+      "engineering"
+    ]
+  },
+  {
+    "id": 5540,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which layout is most associated with the classic Porsche 911?",
+    "answers": [
+      "Front-mid-engine",
+      "Electric-only",
+      "Front-engine",
+      "Rear-engine"
+    ],
+    "correctAnswer": "Rear-engine",
+    "explanation": "The Porsche 911 is famous for its rear-engine layout.",
+    "tags": [
+      "cars",
+      "porsche",
+      "layout"
+    ]
+  },
+  {
+    "id": 5541,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What car part is used to change gears manually?",
+    "answers": [
+      "Clutch pedal",
+      "Spoiler",
+      "Brake rotor",
+      "Radiator"
+    ],
+    "correctAnswer": "Clutch pedal",
+    "explanation": "Manual-transmission cars use a clutch pedal to disconnect and reconnect engine power during gear changes.",
+    "tags": [
+      "cars",
+      "parts",
+      "mechanical"
+    ]
+  },
+  {
+    "id": 5542,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which component helps slow or stop a car?",
+    "answers": [
+      "Turbocharger",
+      "Brakes",
+      "Alternator",
+      "Differential"
+    ],
+    "correctAnswer": "Brakes",
+    "explanation": "Brakes convert motion into heat to slow or stop a vehicle.",
+    "tags": [
+      "cars",
+      "parts",
+      "mechanical"
+    ]
+  },
+  {
+    "id": 5543,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which part helps cool the engine?",
+    "answers": [
+      "Differential",
+      "Catalytic converter",
+      "Radiator",
+      "Spoiler"
+    ],
+    "correctAnswer": "Radiator",
+    "explanation": "The radiator helps remove heat from engine coolant.",
+    "tags": [
+      "cars",
+      "parts",
+      "mechanical"
+    ]
+  },
+  {
+    "id": 5544,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does a turbocharger use to force more air into an engine?",
+    "answers": [
+      "Wheel rotation",
+      "Brake fluid",
+      "Battery voltage",
+      "Exhaust gases"
+    ],
+    "correctAnswer": "Exhaust gases",
+    "explanation": "A turbocharger uses exhaust gases to spin a turbine and compress intake air.",
+    "tags": [
+      "cars",
+      "parts",
+      "engine"
+    ]
+  },
+  {
+    "id": 5545,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What does ABS stand for in car safety systems?",
+    "answers": [
+      "Anti-lock Braking System",
+      "Automatic Balance Steering",
+      "Advanced Battery Sensor",
+      "Axle Brake Support"
+    ],
+    "correctAnswer": "Anti-lock Braking System",
+    "explanation": "ABS helps prevent wheels from locking during hard braking.",
+    "tags": [
+      "cars",
+      "safety",
+      "technology"
+    ]
+  },
+  {
+    "id": 5546,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which system helps prevent wheelspin under acceleration?",
+    "answers": [
+      "Lane assist",
+      "Traction control",
+      "Hill descent control",
+      "Cruise control"
+    ],
+    "correctAnswer": "Traction control",
+    "explanation": "Traction control reduces wheelspin when accelerating on low-grip surfaces.",
+    "tags": [
+      "cars",
+      "safety",
+      "technology"
+    ]
+  },
+  {
+    "id": 5547,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which safety feature inflates during a crash to cushion occupants?",
+    "answers": [
+      "Turbocharger",
+      "Seat rail",
+      "Airbag",
+      "Spoiler"
+    ],
+    "correctAnswer": "Airbag",
+    "explanation": "Airbags deploy during certain impacts to reduce injury risk.",
+    "tags": [
+      "cars",
+      "safety",
+      "technology"
+    ]
+  },
+  {
+    "id": 5548,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which suspension type uses a triangular upper and lower control arm layout?",
+    "answers": [
+      "MacPherson strut",
+      "Leaf spring",
+      "Torsion beam",
+      "Double wishbone"
+    ],
+    "correctAnswer": "Double wishbone",
+    "explanation": "Double wishbone suspension uses upper and lower arms to control wheel movement.",
+    "tags": [
+      "cars",
+      "suspension",
+      "engineering"
+    ]
+  },
+  {
+    "id": 5549,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which differential type helps distribute torque between driven wheels during cornering?",
+    "answers": [
+      "Limited-slip differential",
+      "Catalytic converter",
+      "Hydraulic lifter",
+      "Open cup holder"
+    ],
+    "correctAnswer": "Limited-slip differential",
+    "explanation": "A limited-slip differential helps reduce one-wheel spin and improves traction.",
+    "tags": [
+      "cars",
+      "drivetrain",
+      "engineering"
+    ]
+  },
+  {
+    "id": 5550,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain sends power mainly to the front wheels?",
+    "answers": [
+      "Four-wheel drive",
+      "Front-wheel drive",
+      "Rear-wheel drive",
+      "All-wheel drive"
+    ],
+    "correctAnswer": "Front-wheel drive",
+    "explanation": "Front-wheel-drive cars send engine power primarily to the front wheels.",
+    "tags": [
+      "cars",
+      "drivetrain",
+      "basics"
+    ]
+  },
+  {
+    "id": 5551,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain sends power mainly to the rear wheels?",
+    "answers": [
+      "Front-wheel drive",
+      "All-wheel drive",
+      "Rear-wheel drive",
+      "Part-time 4WD"
+    ],
+    "correctAnswer": "Rear-wheel drive",
+    "explanation": "Rear-wheel drive sends power to the rear wheels and is common in many sports cars.",
+    "tags": [
+      "cars",
+      "drivetrain",
+      "basics"
+    ]
+  },
+  {
+    "id": 5552,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which drivetrain can send power to all four wheels automatically or continuously?",
+    "answers": [
+      "Rear-wheel drive",
+      "Single-wheel drive",
+      "Front-wheel drive",
+      "All-wheel drive"
+    ],
+    "correctAnswer": "All-wheel drive",
+    "explanation": "All-wheel drive systems can distribute power to all four wheels for traction.",
+    "tags": [
+      "cars",
+      "drivetrain",
+      "basics"
+    ]
+  },
+  {
+    "id": 5553,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which gearbox type uses two clutches for quick shifts?",
+    "answers": [
+      "Dual-clutch transmission",
+      "Torque-converter automatic",
+      "Continuously variable transmission",
+      "Manual transmission"
+    ],
+    "correctAnswer": "Dual-clutch transmission",
+    "explanation": "A dual-clutch transmission preselects gears using two clutches for fast shifts.",
+    "tags": [
+      "cars",
+      "transmission",
+      "technology"
+    ]
+  },
+  {
+    "id": 5554,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which transmission type can vary gear ratios smoothly without fixed gears?",
+    "answers": [
+      "Manual transmission",
+      "CVT",
+      "Dual-clutch transmission",
+      "Sequential manual"
+    ],
+    "correctAnswer": "CVT",
+    "explanation": "A continuously variable transmission changes ratios smoothly rather than using fixed gear steps.",
+    "tags": [
+      "cars",
+      "transmission",
+      "technology"
+    ]
+  },
+  {
+    "id": 5555,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which transmission type is often used in race cars with push-pull gear selection?",
+    "answers": [
+      "Three-speed automatic",
+      "Column-shift manual",
+      "Sequential transmission",
+      "CVT"
+    ],
+    "correctAnswer": "Sequential transmission",
+    "explanation": "Sequential transmissions allow gears to be selected in order, often for racing use.",
+    "tags": [
+      "cars",
+      "transmission",
+      "racing"
+    ]
+  },
+  {
+    "id": 5556,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What car body style has two doors and a fixed roof?",
+    "answers": [
+      "Pickup",
+      "Convertible",
+      "Wagon",
+      "Coupe"
+    ],
+    "correctAnswer": "Coupe",
+    "explanation": "A coupe typically has two doors and a fixed roof.",
+    "tags": [
+      "cars",
+      "body-style",
+      "basics"
+    ]
+  },
+  {
+    "id": 5557,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What car body style has a roof that can open or fold away?",
+    "answers": [
+      "Convertible",
+      "Sedan",
+      "Hatchback",
+      "Wagon"
+    ],
+    "correctAnswer": "Convertible",
+    "explanation": "A convertible has a roof that can open or fold away.",
+    "tags": [
+      "cars",
+      "body-style",
+      "basics"
+    ]
+  },
+  {
+    "id": 5558,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which body style usually has a separate trunk and four doors?",
+    "answers": [
+      "Roadster",
+      "Sedan",
+      "Van",
+      "Pickup"
+    ],
+    "correctAnswer": "Sedan",
+    "explanation": "A sedan usually has four doors and a separate trunk.",
+    "tags": [
+      "cars",
+      "body-style",
+      "basics"
+    ]
+  },
+  {
+    "id": 5559,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which body style has a rear cargo door that opens upward?",
+    "answers": [
+      "Roadster",
+      "Sedan",
+      "Hatchback",
+      "Coupe"
+    ],
+    "correctAnswer": "Hatchback",
+    "explanation": "A hatchback has a rear door or hatch that opens upward into the cargo area.",
+    "tags": [
+      "cars",
+      "body-style",
+      "basics"
+    ]
+  },
+  {
+    "id": 5560,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which body style combines car-like passenger space with extended cargo room?",
+    "answers": [
+      "Roadster",
+      "Pickup",
+      "Targa",
+      "Wagon"
+    ],
+    "correctAnswer": "Wagon",
+    "explanation": "A wagon usually extends the roofline rearward for more cargo space.",
+    "tags": [
+      "cars",
+      "body-style",
+      "basics"
+    ]
+  },
+  {
+    "id": 5561,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which body style is most associated with an open two-seat sports car?",
+    "answers": [
+      "Roadster",
+      "Sedan",
+      "Crossover",
+      "Minivan"
+    ],
+    "correctAnswer": "Roadster",
+    "explanation": "A roadster is typically a lightweight open-top two-seat sports car.",
+    "tags": [
+      "cars",
+      "body-style",
+      "sports"
+    ]
+  },
+  {
+    "id": 5562,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche roof style uses a removable center section and fixed rear hoop?",
+    "answers": [
+      "Coupe",
+      "Targa",
+      "Cabriolet",
+      "Speedster"
+    ],
+    "correctAnswer": "Targa",
+    "explanation": "A Targa roof has a removable roof panel and a fixed roll hoop or rear structure.",
+    "tags": [
+      "cars",
+      "porsche",
+      "body-style"
+    ]
+  },
+  {
+    "id": 5563,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which term describes a car designed to look ordinary but perform very quickly?",
+    "answers": [
+      "Lowrider",
+      "Donk",
+      "Sleeper",
+      "Rat rod"
+    ],
+    "correctAnswer": "Sleeper",
+    "explanation": "A sleeper looks understated but has unexpectedly strong performance.",
+    "tags": [
+      "cars",
+      "car-culture",
+      "terms"
+    ]
+  },
+  {
+    "id": 5564,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What car culture term refers to driving sideways through controlled oversteer?",
+    "answers": [
+      "Hypermiling",
+      "Autocross",
+      "Drafting",
+      "Drifting"
+    ],
+    "correctAnswer": "Drifting",
+    "explanation": "Drifting is controlled oversteer through corners.",
+    "tags": [
+      "cars",
+      "car-culture",
+      "drifting"
+    ]
+  },
+  {
+    "id": 5565,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which term describes modifying a car to sit very low with visual stance focus?",
+    "answers": [
+      "Stance",
+      "Touring car",
+      "Rallycross",
+      "Drag racing"
+    ],
+    "correctAnswer": "Stance",
+    "explanation": "Stance culture emphasizes low ride height, wheel fitment, and visual presence.",
+    "tags": [
+      "cars",
+      "car-culture",
+      "terms"
+    ]
+  },
+  {
+    "id": 5566,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which motorsport is focused on the fastest time through a course rather than wheel-to-wheel racing?",
+    "answers": [
+      "Drag racing",
+      "Time attack",
+      "Demolition derby",
+      "Endurance racing"
+    ],
+    "correctAnswer": "Time attack",
+    "explanation": "Time attack events rank cars by fastest lap or course time.",
+    "tags": [
+      "cars",
+      "motorsport",
+      "terms"
+    ]
+  },
+  {
+    "id": 5567,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which motorsport measures performance over a straight quarter-mile or similar distance?",
+    "answers": [
+      "Autocross",
+      "Touring car racing",
+      "Drag racing",
+      "Rallying"
+    ],
+    "correctAnswer": "Drag racing",
+    "explanation": "Drag racing is a straight-line acceleration contest.",
+    "tags": [
+      "cars",
+      "motorsport",
+      "terms"
+    ]
+  },
+  {
+    "id": 5568,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which motorsport takes place on closed public or forest roads with co-drivers?",
+    "answers": [
+      "Karting",
+      "Drag racing",
+      "Oval racing",
+      "Rallying"
+    ],
+    "correctAnswer": "Rallying",
+    "explanation": "Rallying uses timed stages on varied roads with a driver and co-driver.",
+    "tags": [
+      "cars",
+      "motorsport",
+      "rally"
+    ]
+  },
+  {
+    "id": 5569,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which racing format is famous for long-distance events such as Le Mans?",
+    "answers": [
+      "Endurance racing",
+      "Drag racing",
+      "Drifting",
+      "Autocross"
+    ],
+    "correctAnswer": "Endurance racing",
+    "explanation": "Endurance racing tests speed, reliability, strategy, and driver changes over long distances.",
+    "tags": [
+      "cars",
+      "motorsport",
+      "endurance"
+    ]
+  },
+  {
+    "id": 5570,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Formula 1 race is held on streets in Monte Carlo?",
+    "answers": [
+      "British Grand Prix",
+      "Monaco Grand Prix",
+      "Japanese Grand Prix",
+      "Italian Grand Prix"
+    ],
+    "correctAnswer": "Monaco Grand Prix",
+    "explanation": "The Monaco Grand Prix is held on the streets of Monte Carlo.",
+    "tags": [
+      "cars",
+      "formula-1",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 5571,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which F1 circuit is known as the “Temple of Speed”?",
+    "answers": [
+      "Spa-Francorchamps",
+      "Silverstone",
+      "Monza",
+      "Suzuka"
+    ],
+    "correctAnswer": "Monza",
+    "explanation": "Monza is nicknamed the Temple of Speed because of its high-speed layout.",
+    "tags": [
+      "cars",
+      "formula-1",
+      "circuits"
+    ]
+  },
+  {
+    "id": 5572,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which F1 circuit is famous for the Eau Rouge and Raidillon sequence?",
+    "answers": [
+      "Monza",
+      "Silverstone",
+      "Suzuka",
+      "Spa-Francorchamps"
+    ],
+    "correctAnswer": "Spa-Francorchamps",
+    "explanation": "Spa-Francorchamps is famous for Eau Rouge and Raidillon.",
+    "tags": [
+      "cars",
+      "formula-1",
+      "circuits"
+    ]
+  },
+  {
+    "id": 5573,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which F1 circuit has a figure-eight layout with a bridge section?",
+    "answers": [
+      "Suzuka",
+      "Silverstone",
+      "Interlagos",
+      "Monza"
+    ],
+    "correctAnswer": "Suzuka",
+    "explanation": "Suzuka is famous for its figure-eight layout.",
+    "tags": [
+      "cars",
+      "formula-1",
+      "circuits"
+    ]
+  },
+  {
+    "id": 5574,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which F1 team is based in Maranello?",
+    "answers": [
+      "Williams",
+      "Ferrari",
+      "McLaren",
+      "Mercedes"
+    ],
+    "correctAnswer": "Ferrari",
+    "explanation": "Ferrari's Formula 1 team is based in Maranello, Italy.",
+    "tags": [
+      "cars",
+      "formula-1",
+      "ferrari"
+    ]
+  },
+  {
+    "id": 5575,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which F1 team is historically associated with papaya orange?",
+    "answers": [
+      "Ferrari",
+      "Mercedes",
+      "McLaren",
+      "Alpine"
+    ],
+    "correctAnswer": "McLaren",
+    "explanation": "McLaren is strongly associated with papaya orange racing colors.",
+    "tags": [
+      "cars",
+      "formula-1",
+      "mclaren"
+    ]
+  },
+  {
+    "id": 5576,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which F1 designer is strongly associated with Red Bull's dominant 2010s and 2020s cars?",
+    "answers": [
+      "Ross Brawn",
+      "Colin Chapman",
+      "Gordon Murray",
+      "Adrian Newey"
+    ],
+    "correctAnswer": "Adrian Newey",
+    "explanation": "Adrian Newey is one of Formula 1's most successful designers and is closely linked to Red Bull's dominant cars.",
+    "tags": [
+      "cars",
+      "formula-1",
+      "people"
+    ]
+  },
+  {
+    "id": 5577,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which engineer designed the McLaren F1 road car?",
+    "answers": [
+      "Gordon Murray",
+      "Ferdinand Piëch",
+      "Adrian Newey",
+      "Horacio Pagani"
+    ],
+    "correctAnswer": "Gordon Murray",
+    "explanation": "Gordon Murray led the design of the McLaren F1 road car.",
+    "tags": [
+      "cars",
+      "mclaren",
+      "people"
+    ]
+  },
+  {
+    "id": 5578,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which founder's name is behind Pagani Automobili?",
+    "answers": [
+      "Christian von Koenigsegg",
+      "Horacio Pagani",
+      "Ettore Bugatti",
+      "Enzo Ferrari"
+    ],
+    "correctAnswer": "Horacio Pagani",
+    "explanation": "Pagani Automobili was founded by Horacio Pagani.",
+    "tags": [
+      "cars",
+      "pagani",
+      "people"
+    ]
+  },
+  {
+    "id": 5579,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which founder created Koenigsegg Automotive?",
+    "answers": [
+      "Mate Rimac",
+      "Gordon Murray",
+      "Christian von Koenigsegg",
+      "Horacio Pagani"
+    ],
+    "correctAnswer": "Christian von Koenigsegg",
+    "explanation": "Christian von Koenigsegg founded Koenigsegg Automotive.",
+    "tags": [
+      "cars",
+      "koenigsegg",
+      "people"
+    ]
+  },
+  {
+    "id": 5580,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which founder is behind Rimac Automobili?",
+    "answers": [
+      "Carroll Shelby",
+      "Horacio Pagani",
+      "Ferdinand Porsche",
+      "Mate Rimac"
+    ],
+    "correctAnswer": "Mate Rimac",
+    "explanation": "Rimac Automobili was founded by Mate Rimac.",
+    "tags": [
+      "cars",
+      "rimac",
+      "people"
+    ]
+  },
+  {
+    "id": 5581,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which American performance figure created the Shelby Cobra?",
+    "answers": [
+      "Carroll Shelby",
+      "Dale Earnhardt",
+      "Ken Block",
+      "John DeLorean"
+    ],
+    "correctAnswer": "Carroll Shelby",
+    "explanation": "Carroll Shelby created the Shelby Cobra and became a major name in American performance cars.",
+    "tags": [
+      "cars",
+      "shelby",
+      "people"
+    ]
+  },
+  {
+    "id": 5582,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which automotive executive is strongly associated with the DeLorean DMC-12?",
+    "answers": [
+      "Lee Iacocca",
+      "John DeLorean",
+      "Henry Ford II",
+      "Carroll Shelby"
+    ],
+    "correctAnswer": "John DeLorean",
+    "explanation": "John DeLorean founded the company behind the DMC-12.",
+    "tags": [
+      "cars",
+      "delorean",
+      "people"
+    ]
+  },
+  {
+    "id": 5583,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which designer is closely associated with the Lamborghini Miura's styling at Bertone?",
+    "answers": [
+      "Peter Schreyer",
+      "Giorgetto Giugiaro",
+      "Marcello Gandini",
+      "Ian Callum"
+    ],
+    "correctAnswer": "Marcello Gandini",
+    "explanation": "Marcello Gandini at Bertone is closely associated with the Lamborghini Miura's design.",
+    "tags": [
+      "cars",
+      "lamborghini",
+      "design"
+    ]
+  },
+  {
+    "id": 5584,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which designer is known for the DeLorean DMC-12 and many Italdesign classics?",
+    "answers": [
+      "Marcello Gandini",
+      "Pininfarina",
+      "Walter de Silva",
+      "Giorgetto Giugiaro"
+    ],
+    "correctAnswer": "Giorgetto Giugiaro",
+    "explanation": "Giorgetto Giugiaro designed the DMC-12 and many influential Italdesign cars.",
+    "tags": [
+      "cars",
+      "design",
+      "italdesign"
+    ]
+  },
+  {
+    "id": 5585,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Italian design house is strongly associated with many classic Ferraris?",
+    "answers": [
+      "Pininfarina",
+      "Italdesign",
+      "Zagato",
+      "Bertone"
+    ],
+    "correctAnswer": "Pininfarina",
+    "explanation": "Pininfarina designed many classic Ferrari road cars.",
+    "tags": [
+      "cars",
+      "ferrari",
+      "design"
+    ]
+  },
+  {
+    "id": 5586,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Italian design house styled the Lamborghini Countach?",
+    "answers": [
+      "Touring Superleggera",
+      "Bertone",
+      "Pininfarina",
+      "Italdesign"
+    ],
+    "correctAnswer": "Bertone",
+    "explanation": "The Lamborghini Countach was styled by Bertone, with design by Marcello Gandini.",
+    "tags": [
+      "cars",
+      "lamborghini",
+      "design"
+    ]
+  },
+  {
+    "id": 5587,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Italian design house is known for lightweight double-bubble roof designs?",
+    "answers": [
+      "Pininfarina",
+      "Bertone",
+      "Zagato",
+      "Italdesign"
+    ],
+    "correctAnswer": "Zagato",
+    "explanation": "Zagato is known for lightweight coachbuilding and double-bubble roof designs.",
+    "tags": [
+      "cars",
+      "design",
+      "zagato"
+    ]
+  },
+  {
+    "id": 5588,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What car is famously associated with gullwing doors from the 1950s?",
+    "answers": [
+      "BMW 507",
+      "Porsche 356",
+      "Jaguar E-Type",
+      "Mercedes-Benz 300SL"
+    ],
+    "correctAnswer": "Mercedes-Benz 300SL",
+    "explanation": "The 300SL is famous for its gullwing doors.",
+    "tags": [
+      "cars",
+      "mercedes-benz",
+      "classic"
+    ]
+  },
+  {
+    "id": 5589,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Jaguar sports car was famously praised by Enzo Ferrari as very beautiful?",
+    "answers": [
+      "E-Type",
+      "XK120",
+      "XJ220",
+      "F-Type"
+    ],
+    "correctAnswer": "E-Type",
+    "explanation": "The Jaguar E-Type is widely remembered as one of the most beautiful sports cars.",
+    "tags": [
+      "cars",
+      "jaguar",
+      "classic"
+    ]
+  },
+  {
+    "id": 5590,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Lamborghini is often credited with defining the modern supercar shape?",
+    "answers": [
+      "Huracán",
+      "Miura",
+      "Gallardo",
+      "Urus"
+    ],
+    "correctAnswer": "Miura",
+    "explanation": "The Lamborghini Miura helped define the mid-engine supercar formula.",
+    "tags": [
+      "cars",
+      "lamborghini",
+      "classic"
+    ]
+  },
+  {
+    "id": 5591,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Lamborghini became famous for its wedge shape and scissor doors?",
+    "answers": [
+      "Diablo",
+      "Gallardo",
+      "Countach",
+      "Miura"
+    ],
+    "correctAnswer": "Countach",
+    "explanation": "The Countach became an icon for its extreme wedge design and scissor doors.",
+    "tags": [
+      "cars",
+      "lamborghini",
+      "classic"
+    ]
+  },
+  {
+    "id": 5592,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Ferrari is known for wide side strakes and 1980s poster-car status?",
+    "answers": [
+      "296 GTB",
+      "Roma",
+      "F8 Tributo",
+      "Testarossa"
+    ],
+    "correctAnswer": "Testarossa",
+    "explanation": "The Ferrari Testarossa is famous for its side strakes and 1980s poster-car status.",
+    "tags": [
+      "cars",
+      "ferrari",
+      "classic"
+    ]
+  },
+  {
+    "id": 5593,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model is one of the earliest production 911 Turbo generations?",
+    "answers": [
+      "930 Turbo",
+      "959",
+      "944",
+      "Cayman"
+    ],
+    "correctAnswer": "930 Turbo",
+    "explanation": "The Porsche 930 is the early 911 Turbo generation.",
+    "tags": [
+      "cars",
+      "porsche",
+      "classic"
+    ]
+  },
+  {
+    "id": 5594,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche supercar was technologically advanced with all-wheel drive in the 1980s?",
+    "answers": [
+      "918 Spyder",
+      "959",
+      "911 GT1",
+      "Carrera GT"
+    ],
+    "correctAnswer": "959",
+    "explanation": "The Porsche 959 was highly advanced for its era, including all-wheel drive.",
+    "tags": [
+      "cars",
+      "porsche",
+      "classic"
+    ]
+  },
+  {
+    "id": 5595,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Ferrari supercar celebrated the brand's 40th anniversary?",
+    "answers": [
+      "LaFerrari",
+      "F50",
+      "F40",
+      "Enzo"
+    ],
+    "correctAnswer": "F40",
+    "explanation": "The Ferrari F40 was created to celebrate Ferrari's 40th anniversary.",
+    "tags": [
+      "cars",
+      "ferrari",
+      "classic"
+    ]
+  },
+  {
+    "id": 5596,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Ferrari supercar celebrated the brand's 50th anniversary?",
+    "answers": [
+      "F40",
+      "Enzo",
+      "LaFerrari",
+      "F50"
+    ],
+    "correctAnswer": "F50",
+    "explanation": "The Ferrari F50 was created to mark Ferrari's 50th anniversary.",
+    "tags": [
+      "cars",
+      "ferrari",
+      "classic"
+    ]
+  },
+  {
+    "id": 5597,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche supercar used a naturally aspirated V10 and manual gearbox?",
+    "answers": [
+      "Carrera GT",
+      "959",
+      "911 GT1",
+      "918 Spyder"
+    ],
+    "correctAnswer": "Carrera GT",
+    "explanation": "The Carrera GT is famous for its naturally aspirated V10 and manual gearbox.",
+    "tags": [
+      "cars",
+      "porsche",
+      "classic"
+    ]
+  },
+  {
+    "id": 5598,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which hybrid hypercar completed Porsche's modern “Holy Trinity” entry?",
+    "answers": [
+      "911 Turbo S",
+      "918 Spyder",
+      "Carrera GT",
+      "959"
+    ],
+    "correctAnswer": "918 Spyder",
+    "explanation": "The Porsche 918 Spyder was part of the hybrid hypercar trio with the P1 and LaFerrari.",
+    "tags": [
+      "cars",
+      "porsche",
+      "hypercars"
+    ]
+  },
+  {
+    "id": 5599,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Ferrari hybrid hypercar was part of the “Holy Trinity”?",
+    "answers": [
+      "F40",
+      "F50",
+      "LaFerrari",
+      "Enzo"
+    ],
+    "correctAnswer": "LaFerrari",
+    "explanation": "LaFerrari joined the McLaren P1 and Porsche 918 Spyder in the hybrid hypercar era.",
+    "tags": [
+      "cars",
+      "ferrari",
+      "hypercars"
+    ]
+  },
+  {
+    "id": 5600,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which McLaren hybrid hypercar was part of the “Holy Trinity”?",
+    "answers": [
+      "Senna",
+      "720S",
+      "F1",
+      "P1"
+    ],
+    "correctAnswer": "P1",
+    "explanation": "The McLaren P1 was part of the famous hybrid hypercar trio.",
+    "tags": [
+      "cars",
+      "mclaren",
+      "hypercars"
+    ]
+  },
+  {
+    "id": 5601,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Bugatti model relaunched the brand as a modern speed icon in the 2000s?",
+    "answers": [
+      "Veyron",
+      "EB110",
+      "Chiron",
+      "Divo"
+    ],
+    "correctAnswer": "Veyron",
+    "explanation": "The Veyron made Bugatti a modern hypercar speed icon.",
+    "tags": [
+      "cars",
+      "bugatti",
+      "hypercars"
+    ]
+  },
+  {
+    "id": 5602,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Bugatti succeeded the Veyron?",
+    "answers": [
+      "Divo",
+      "Chiron",
+      "Bolide",
+      "Centodieci"
+    ],
+    "correctAnswer": "Chiron",
+    "explanation": "The Chiron succeeded the Veyron as Bugatti's flagship hypercar.",
+    "tags": [
+      "cars",
+      "bugatti",
+      "hypercars"
+    ]
+  },
+  {
+    "id": 5603,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Koenigsegg model is named after Christian von Koenigsegg's father?",
+    "answers": [
+      "Regera",
+      "Gemera",
+      "Jesko",
+      "Agera"
+    ],
+    "correctAnswer": "Jesko",
+    "explanation": "The Jesko is named after Christian von Koenigsegg's father.",
+    "tags": [
+      "cars",
+      "koenigsegg",
+      "hypercars"
+    ]
+  },
+  {
+    "id": 5604,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Koenigsegg model uses the Direct Drive system?",
+    "answers": [
+      "CCX",
+      "Jesko",
+      "Agera RS",
+      "Regera"
+    ],
+    "correctAnswer": "Regera",
+    "explanation": "The Koenigsegg Regera uses the brand's Direct Drive system.",
+    "tags": [
+      "cars",
+      "koenigsegg",
+      "hypercars"
+    ]
+  },
+  {
+    "id": 5605,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Pagani model succeeded the Zonda?",
+    "answers": [
+      "Huayra",
+      "Utopia",
+      "Imola",
+      "Codalunga"
+    ],
+    "correctAnswer": "Huayra",
+    "explanation": "The Pagani Huayra succeeded the Zonda.",
+    "tags": [
+      "cars",
+      "pagani",
+      "hypercars"
+    ]
+  },
+  {
+    "id": 5606,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Pagani model followed the Huayra as a core production model?",
+    "answers": [
+      "Cinque",
+      "Utopia",
+      "C12",
+      "Zonda"
+    ],
+    "correctAnswer": "Utopia",
+    "explanation": "The Pagani Utopia followed the Huayra in Pagani's core model line.",
+    "tags": [
+      "cars",
+      "pagani",
+      "hypercars"
+    ]
+  },
+  {
+    "id": 5607,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Aston Martin hypercar was developed with Formula 1 influence?",
+    "answers": [
+      "Vantage",
+      "Valhalla",
+      "Valkyrie",
+      "Vanquish"
+    ],
+    "correctAnswer": "Valkyrie",
+    "explanation": "The Aston Martin Valkyrie was developed with heavy Formula 1-inspired engineering.",
+    "tags": [
+      "cars",
+      "aston-martin",
+      "hypercars"
+    ]
+  },
+  {
+    "id": 5608,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Mercedes-AMG hypercar uses Formula 1-derived powertrain technology?",
+    "answers": [
+      "SLR McLaren",
+      "CLK GTR",
+      "SLS AMG",
+      "AMG One"
+    ],
+    "correctAnswer": "AMG One",
+    "explanation": "The Mercedes-AMG One uses Formula 1-derived hybrid powertrain technology.",
+    "tags": [
+      "cars",
+      "mercedes-benz",
+      "hypercars"
+    ]
+  },
+  {
+    "id": 5609,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Lexus supercar is famous for its naturally aspirated V10 sound?",
+    "answers": [
+      "LFA",
+      "RC F",
+      "IS F",
+      "LC 500"
+    ],
+    "correctAnswer": "LFA",
+    "explanation": "The Lexus LFA is famous for its high-revving naturally aspirated V10.",
+    "tags": [
+      "cars",
+      "lexus",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5610,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Honda supercar was developed with input from Ayrton Senna?",
+    "answers": [
+      "Civic Type R",
+      "NSX",
+      "S2000",
+      "Integra Type R"
+    ],
+    "correctAnswer": "NSX",
+    "explanation": "Ayrton Senna provided feedback during development of the original Honda NSX.",
+    "tags": [
+      "cars",
+      "honda",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5611,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Audi supercar shared roots with the Lamborghini Gallardo platform?",
+    "answers": [
+      "RS6",
+      "TT RS",
+      "R8",
+      "S8"
+    ],
+    "correctAnswer": "R8",
+    "explanation": "The Audi R8 shared engineering roots with Lamborghini's Gallardo-era platform.",
+    "tags": [
+      "cars",
+      "audi",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5612,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Lamborghini model was the brand's V10 entry-level supercar before the Huracán?",
+    "answers": [
+      "Diablo",
+      "Aventador",
+      "Murciélago",
+      "Gallardo"
+    ],
+    "correctAnswer": "Gallardo",
+    "explanation": "The Gallardo was Lamborghini's V10 model before the Huracán.",
+    "tags": [
+      "cars",
+      "lamborghini",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5613,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Lamborghini model succeeded the Gallardo?",
+    "answers": [
+      "Huracán",
+      "Diablo",
+      "Aventador",
+      "Murciélago"
+    ],
+    "correctAnswer": "Huracán",
+    "explanation": "The Huracán succeeded the Gallardo in Lamborghini's V10 lineup.",
+    "tags": [
+      "cars",
+      "lamborghini",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5614,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Lamborghini model succeeded the Murciélago?",
+    "answers": [
+      "Huracán",
+      "Aventador",
+      "Gallardo",
+      "Revuelto"
+    ],
+    "correctAnswer": "Aventador",
+    "explanation": "The Aventador succeeded the Murciélago as Lamborghini's V12 flagship.",
+    "tags": [
+      "cars",
+      "lamborghini",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5615,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Lamborghini model succeeded the Aventador?",
+    "answers": [
+      "Gallardo",
+      "Urus",
+      "Revuelto",
+      "Huracán"
+    ],
+    "correctAnswer": "Revuelto",
+    "explanation": "The Revuelto succeeded the Aventador as Lamborghini's V12 flagship.",
+    "tags": [
+      "cars",
+      "lamborghini",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5616,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which McLaren model was the brand's 1990s three-seat road car?",
+    "answers": [
+      "720S",
+      "P1",
+      "Senna",
+      "F1"
+    ],
+    "correctAnswer": "F1",
+    "explanation": "The McLaren F1 is famous for its central driving position and three-seat layout.",
+    "tags": [
+      "cars",
+      "mclaren",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5617,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which McLaren model was named after Ayrton Senna?",
+    "answers": [
+      "Senna",
+      "P1",
+      "F1",
+      "Artura"
+    ],
+    "correctAnswer": "Senna",
+    "explanation": "The McLaren Senna was named after legendary driver Ayrton Senna.",
+    "tags": [
+      "cars",
+      "mclaren",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5618,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which McLaren hybrid supercar replaced the 570S in the brand's modern lineup?",
+    "answers": [
+      "Senna",
+      "Artura",
+      "F1",
+      "P1"
+    ],
+    "correctAnswer": "Artura",
+    "explanation": "The McLaren Artura introduced a hybrid V6 platform for the brand's series-production sports cars.",
+    "tags": [
+      "cars",
+      "mclaren",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5619,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Ferrari model replaced the 458 Italia in automotive trivia?",
+    "answers": [
+      "296 GTB",
+      "F8 Tributo",
+      "488 GTB",
+      "Roma"
+    ],
+    "correctAnswer": "488 GTB",
+    "explanation": "The 488 GTB succeeded the 458 Italia.",
+    "tags": [
+      "cars",
+      "ferrari",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5620,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Ferrari model replaced the 488 GTB in automotive trivia?",
+    "answers": [
+      "296 GTB",
+      "Roma",
+      "812 Superfast",
+      "F8 Tributo"
+    ],
+    "correctAnswer": "F8 Tributo",
+    "explanation": "The F8 Tributo succeeded the 488 GTB.",
+    "tags": [
+      "cars",
+      "ferrari",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5621,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Ferrari model introduced a V6 plug-in hybrid layout?",
+    "answers": [
+      "296 GTB",
+      "Roma",
+      "812 Superfast",
+      "F8 Tributo"
+    ],
+    "correctAnswer": "296 GTB",
+    "explanation": "The 296 GTB introduced a V6 plug-in hybrid powertrain to Ferrari's road-car lineup.",
+    "tags": [
+      "cars",
+      "ferrari",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5622,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Ferrari V12 grand tourer succeeded the F12berlinetta?",
+    "answers": [
+      "F8 Tributo",
+      "812 Superfast",
+      "Roma",
+      "California T"
+    ],
+    "correctAnswer": "812 Superfast",
+    "explanation": "The 812 Superfast succeeded the F12berlinetta.",
+    "tags": [
+      "cars",
+      "ferrari",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5623,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche model is the track-focused version of the 911 with naturally aspirated power?",
+    "answers": [
+      "911 Turbo S",
+      "Panamera",
+      "911 GT3",
+      "Macan"
+    ],
+    "correctAnswer": "911 GT3",
+    "explanation": "The 911 GT3 is Porsche's track-focused naturally aspirated 911 variant.",
+    "tags": [
+      "cars",
+      "porsche",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5624,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche variant adds the RS badge to the GT3 formula?",
+    "answers": [
+      "911 Targa",
+      "911 Dakar",
+      "911 Carrera",
+      "911 GT3 RS"
+    ],
+    "correctAnswer": "911 GT3 RS",
+    "explanation": "The 911 GT3 RS is the more extreme track-focused version of the GT3.",
+    "tags": [
+      "cars",
+      "porsche",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5625,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Porsche road car is often described as a homologation special for GT1 racing?",
+    "answers": [
+      "911 GT1 Straßenversion",
+      "918 Spyder",
+      "959",
+      "Carrera GT"
+    ],
+    "correctAnswer": "911 GT1 Straßenversion",
+    "explanation": "The 911 GT1 Straßenversion was built for road use around Porsche's GT1 racing program.",
+    "tags": [
+      "cars",
+      "porsche",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5626,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Nissan car is nicknamed “Godzilla”?",
+    "answers": [
+      "370Z",
+      "GT-R",
+      "Silvia",
+      "Maxima"
+    ],
+    "correctAnswer": "GT-R",
+    "explanation": "The Nissan GT-R, especially the Skyline GT-R lineage, is famously nicknamed Godzilla.",
+    "tags": [
+      "cars",
+      "nissan",
+      "jdm"
+    ]
+  },
+  {
+    "id": 5627,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Toyota sports car is most associated with the 2JZ-GTE engine?",
+    "answers": [
+      "MR2 Turbo",
+      "GR86",
+      "Supra MK4",
+      "Celica GT-Four"
+    ],
+    "correctAnswer": "Supra MK4",
+    "explanation": "The Supra MK4 is the most famous Toyota associated with the 2JZ-GTE.",
+    "tags": [
+      "cars",
+      "toyota",
+      "jdm"
+    ]
+  },
+  {
+    "id": 5628,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Mazda sports car is famous for the 13B rotary engine?",
+    "answers": [
+      "RX-3",
+      "MX-5 Miata",
+      "Mazda3",
+      "RX-7"
+    ],
+    "correctAnswer": "RX-7",
+    "explanation": "The Mazda RX-7 is Mazda's most famous rotary-powered sports car.",
+    "tags": [
+      "cars",
+      "mazda",
+      "jdm"
+    ]
+  },
+  {
+    "id": 5629,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Honda roadster is famous for the high-revving F20C engine?",
+    "answers": [
+      "S2000",
+      "NSX",
+      "Civic Type R",
+      "Prelude"
+    ],
+    "correctAnswer": "S2000",
+    "explanation": "The Honda S2000 is known for its high-revving F20C engine.",
+    "tags": [
+      "cars",
+      "honda",
+      "jdm"
+    ]
+  },
+  {
+    "id": 5630,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Acura model is the North American version of the Honda NSX?",
+    "answers": [
+      "Acura TLX",
+      "Acura NSX",
+      "Acura RSX",
+      "Acura Integra"
+    ],
+    "correctAnswer": "Acura NSX",
+    "explanation": "The Honda NSX was sold as the Acura NSX in North America.",
+    "tags": [
+      "cars",
+      "acura",
+      "jdm"
+    ]
+  },
+  {
+    "id": 5631,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Toyota coupe is famous from Initial D as the AE86?",
+    "answers": [
+      "MR2",
+      "Supra",
+      "Sprinter Trueno",
+      "Celica"
+    ],
+    "correctAnswer": "Sprinter Trueno",
+    "explanation": "The AE86 in Initial D is the Toyota Sprinter Trueno.",
+    "tags": [
+      "cars",
+      "toyota",
+      "jdm"
+    ]
+  },
+  {
+    "id": 5632,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Nissan car is central to Wangan Midnight?",
+    "answers": [
+      "Skyline GT-R",
+      "Silvia",
+      "180SX",
+      "Fairlady Z"
+    ],
+    "correctAnswer": "Fairlady Z",
+    "explanation": "Wangan Midnight centers heavily on the Devil Z, a Nissan Fairlady Z.",
+    "tags": [
+      "cars",
+      "nissan",
+      "jdm"
+    ]
+  },
+  {
+    "id": 5633,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Japanese road-racing style uses mountain passes?",
+    "answers": [
+      "Touge",
+      "Drag racing",
+      "Autocross",
+      "Wangan"
+    ],
+    "correctAnswer": "Touge",
+    "explanation": "Touge refers to mountain-pass driving and racing culture.",
+    "tags": [
+      "cars",
+      "car-culture",
+      "jdm"
+    ]
+  },
+  {
+    "id": 5634,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Japanese expressway culture is linked to high-speed runs around Tokyo Bay?",
+    "answers": [
+      "D1GP",
+      "Wangan",
+      "Touge",
+      "Gymkhana"
+    ],
+    "correctAnswer": "Wangan",
+    "explanation": "Wangan refers to expressway culture around Tokyo Bay.",
+    "tags": [
+      "cars",
+      "car-culture",
+      "jdm"
+    ]
+  },
+  {
+    "id": 5635,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Japanese drifting series helped popularize professional drifting?",
+    "answers": [
+      "Super GT",
+      "Formula Nippon",
+      "D1 Grand Prix",
+      "JGTC"
+    ],
+    "correctAnswer": "D1 Grand Prix",
+    "explanation": "D1 Grand Prix helped make professional drifting popular.",
+    "tags": [
+      "cars",
+      "drifting",
+      "jdm"
+    ]
+  },
+  {
+    "id": 5636,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which driver is famously known as the Drift King?",
+    "answers": [
+      "Ayrton Senna",
+      "Colin McRae",
+      "Ken Block",
+      "Keiichi Tsuchiya"
+    ],
+    "correctAnswer": "Keiichi Tsuchiya",
+    "explanation": "Keiichi Tsuchiya is widely known as the Drift King.",
+    "tags": [
+      "cars",
+      "drifting",
+      "people"
+    ]
+  },
+  {
+    "id": 5637,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver became strongly associated with Subaru's blue-and-gold era?",
+    "answers": [
+      "Colin McRae",
+      "Dale Earnhardt",
+      "Ayrton Senna",
+      "Lewis Hamilton"
+    ],
+    "correctAnswer": "Colin McRae",
+    "explanation": "Colin McRae became an icon of Subaru's rally success.",
+    "tags": [
+      "cars",
+      "rally",
+      "people"
+    ]
+  },
+  {
+    "id": 5638,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver won multiple titles with Mitsubishi Lancer Evolutions?",
+    "answers": [
+      "Colin McRae",
+      "Tommi Mäkinen",
+      "Sébastien Loeb",
+      "Carlos Sainz Sr."
+    ],
+    "correctAnswer": "Tommi Mäkinen",
+    "explanation": "Tommi Mäkinen won multiple World Rally Championship titles with Mitsubishi.",
+    "tags": [
+      "cars",
+      "rally",
+      "people"
+    ]
+  },
+  {
+    "id": 5639,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver is famous for an unmatched run of WRC championships with Citroën?",
+    "answers": [
+      "Tommi Mäkinen",
+      "Ari Vatanen",
+      "Sébastien Loeb",
+      "Colin McRae"
+    ],
+    "correctAnswer": "Sébastien Loeb",
+    "explanation": "Sébastien Loeb dominated the WRC with Citroën.",
+    "tags": [
+      "cars",
+      "rally",
+      "people"
+    ]
+  },
+  {
+    "id": 5640,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rally driver is famous for Gymkhana videos and extreme car control?",
+    "answers": [
+      "Ari Vatanen",
+      "Colin McRae",
+      "Lewis Hamilton",
+      "Ken Block"
+    ],
+    "correctAnswer": "Ken Block",
+    "explanation": "Ken Block became famous for Gymkhana videos and spectacular car control.",
+    "tags": [
+      "cars",
+      "car-culture",
+      "people"
+    ]
+  },
+  {
+    "id": 5641,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which motorsport event is held at Mount Panorama in Australia?",
+    "answers": [
+      "Bathurst 1000",
+      "Dakar Rally",
+      "Monaco Grand Prix",
+      "Indianapolis 500"
+    ],
+    "correctAnswer": "Bathurst 1000",
+    "explanation": "The Bathurst 1000 is held at Mount Panorama in Australia.",
+    "tags": [
+      "cars",
+      "motorsport",
+      "events"
+    ]
+  },
+  {
+    "id": 5642,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which race is known as “The Greatest Spectacle in Racing” in automotive trivia?",
+    "answers": [
+      "Monaco Grand Prix",
+      "Indianapolis 500",
+      "Bathurst 1000",
+      "Daytona 500"
+    ],
+    "correctAnswer": "Indianapolis 500",
+    "explanation": "The Indianapolis 500 is nicknamed The Greatest Spectacle in Racing.",
+    "tags": [
+      "cars",
+      "motorsport",
+      "events"
+    ]
+  },
+  {
+    "id": 5643,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which NASCAR race is held at Daytona International Speedway?",
+    "answers": [
+      "Bathurst 1000",
+      "Indianapolis 500",
+      "Daytona 500",
+      "Le Mans 24 Hours"
+    ],
+    "correctAnswer": "Daytona 500",
+    "explanation": "The Daytona 500 is NASCAR's most famous race.",
+    "tags": [
+      "cars",
+      "nascar",
+      "events"
+    ]
+  },
+  {
+    "id": 5644,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which endurance race is held annually in France?",
+    "answers": [
+      "Daytona 500",
+      "Indianapolis 500",
+      "Bathurst 1000",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "The 24 Hours of Le Mans is France's famous endurance race.",
+    "tags": [
+      "cars",
+      "endurance",
+      "events"
+    ]
+  },
+  {
+    "id": 5645,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which off-road endurance event is famous for desert stages?",
+    "answers": [
+      "Dakar Rally",
+      "Suzuka 8 Hours",
+      "Goodwood Festival",
+      "Monaco Grand Prix"
+    ],
+    "correctAnswer": "Dakar Rally",
+    "explanation": "The Dakar Rally is famous for long-distance desert and off-road stages.",
+    "tags": [
+      "cars",
+      "rally",
+      "events"
+    ]
+  },
+  {
+    "id": 5646,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which hill climb event takes place in Colorado?",
+    "answers": [
+      "Goodwood Revival",
+      "Pikes Peak International Hill Climb",
+      "Dakar Rally",
+      "Monte Carlo Rally"
+    ],
+    "correctAnswer": "Pikes Peak International Hill Climb",
+    "explanation": "Pikes Peak International Hill Climb is held in Colorado.",
+    "tags": [
+      "cars",
+      "motorsport",
+      "events"
+    ]
+  },
+  {
+    "id": 5647,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which race is part of motorsport's Triple Crown along with Le Mans and Monaco?",
+    "answers": [
+      "Daytona 500",
+      "Bathurst 1000",
+      "Indianapolis 500",
+      "Dakar Rally"
+    ],
+    "correctAnswer": "Indianapolis 500",
+    "explanation": "The Triple Crown is traditionally Monaco Grand Prix, Indianapolis 500, and 24 Hours of Le Mans.",
+    "tags": [
+      "cars",
+      "motorsport",
+      "events"
+    ]
+  },
+  {
+    "id": 5648,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which race is famous for the Mulsanne Straight?",
+    "answers": [
+      "Daytona 500",
+      "Bathurst 1000",
+      "Monaco Grand Prix",
+      "24 Hours of Le Mans"
+    ],
+    "correctAnswer": "24 Hours of Le Mans",
+    "explanation": "The Mulsanne Straight is a famous part of the Le Mans circuit.",
+    "tags": [
+      "cars",
+      "endurance",
+      "events"
+    ]
+  },
+  {
+    "id": 5649,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which circuit is known for the Corkscrew corner?",
+    "answers": [
+      "Laguna Seca",
+      "Suzuka",
+      "Monza",
+      "Silverstone"
+    ],
+    "correctAnswer": "Laguna Seca",
+    "explanation": "Laguna Seca is famous for the Corkscrew corner.",
+    "tags": [
+      "cars",
+      "circuits",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 5650,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which circuit hosts the British Grand Prix most famously?",
+    "answers": [
+      "Monza",
+      "Silverstone",
+      "Spa-Francorchamps",
+      "Suzuka"
+    ],
+    "correctAnswer": "Silverstone",
+    "explanation": "Silverstone is the best-known home of the British Grand Prix.",
+    "tags": [
+      "cars",
+      "formula-1",
+      "circuits"
+    ]
+  },
+  {
+    "id": 5651,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Mustang?",
+    "answers": [
+      "Dodge",
+      "Pontiac",
+      "Ford",
+      "Chevrolet"
+    ],
+    "correctAnswer": "Ford",
+    "explanation": "The Mustang is Ford's iconic pony car.",
+    "tags": [
+      "cars",
+      "ford",
+      "muscle"
+    ]
+  },
+  {
+    "id": 5652,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Camaro?",
+    "answers": [
+      "Pontiac",
+      "Ford",
+      "Dodge",
+      "Chevrolet"
+    ],
+    "correctAnswer": "Chevrolet",
+    "explanation": "The Camaro is Chevrolet's famous pony car.",
+    "tags": [
+      "cars",
+      "chevrolet",
+      "muscle"
+    ]
+  },
+  {
+    "id": 5653,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Challenger?",
+    "answers": [
+      "Dodge",
+      "Ford",
+      "Chevrolet",
+      "Pontiac"
+    ],
+    "correctAnswer": "Dodge",
+    "explanation": "The Challenger is Dodge's modern muscle coupe.",
+    "tags": [
+      "cars",
+      "dodge",
+      "muscle"
+    ]
+  },
+  {
+    "id": 5654,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which classic Dodge nameplate is also used for a modern four-door muscle car?",
+    "answers": [
+      "GTO",
+      "Charger",
+      "Torino",
+      "Barracuda"
+    ],
+    "correctAnswer": "Charger",
+    "explanation": "The Dodge Charger name is used for a modern performance sedan.",
+    "tags": [
+      "cars",
+      "dodge",
+      "muscle"
+    ]
+  },
+  {
+    "id": 5655,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Pontiac muscle car name is associated with the birth of the muscle-car era?",
+    "answers": [
+      "Fiero",
+      "Firebird",
+      "GTO",
+      "Solstice"
+    ],
+    "correctAnswer": "GTO",
+    "explanation": "The Pontiac GTO is often credited as one of the first true muscle cars.",
+    "tags": [
+      "cars",
+      "pontiac",
+      "muscle"
+    ]
+  },
+  {
+    "id": 5656,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Plymouth model is famous for its “Hemi 'Cuda” versions?",
+    "answers": [
+      "Road Runner",
+      "Duster",
+      "Fury",
+      "Barracuda"
+    ],
+    "correctAnswer": "Barracuda",
+    "explanation": "The Plymouth Barracuda included highly collectible Hemi 'Cuda variants.",
+    "tags": [
+      "cars",
+      "plymouth",
+      "muscle"
+    ]
+  },
+  {
+    "id": 5657,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Chevrolet Chevelle trim became a muscle-car legend?",
+    "answers": [
+      "SS 454",
+      "ZR1",
+      "IROC-Z",
+      "ZL1"
+    ],
+    "correctAnswer": "SS 454",
+    "explanation": "The Chevelle SS 454 is one of Chevrolet's legendary muscle cars.",
+    "tags": [
+      "cars",
+      "chevrolet",
+      "muscle"
+    ]
+  },
+  {
+    "id": 5658,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Ford Mustang version was created with Carroll Shelby?",
+    "answers": [
+      "SVO",
+      "Shelby GT350",
+      "Boss 302",
+      "Mach-E"
+    ],
+    "correctAnswer": "Shelby GT350",
+    "explanation": "The Shelby GT350 is a high-performance Mustang developed with Carroll Shelby.",
+    "tags": [
+      "cars",
+      "ford",
+      "muscle"
+    ]
+  },
+  {
+    "id": 5659,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Chevrolet Corvette generation introduced a mid-engine layout?",
+    "answers": [
+      "C7",
+      "C6",
+      "C8",
+      "C5"
+    ],
+    "correctAnswer": "C8",
+    "explanation": "The C8 Corvette introduced a production mid-engine layout for the Corvette.",
+    "tags": [
+      "cars",
+      "chevrolet",
+      "corvette"
+    ]
+  },
+  {
+    "id": 5660,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Corvette version is traditionally the high-performance track-focused badge?",
+    "answers": [
+      "RS",
+      "LS",
+      "LT",
+      "Z06"
+    ],
+    "correctAnswer": "Z06",
+    "explanation": "Z06 is one of Corvette's best-known high-performance badges.",
+    "tags": [
+      "cars",
+      "chevrolet",
+      "corvette"
+    ]
+  },
+  {
+    "id": 5661,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Ford supercar was created as a modern tribute to the GT40?",
+    "answers": [
+      "Ford GT",
+      "Thunderbird",
+      "Mustang GT",
+      "RS200"
+    ],
+    "correctAnswer": "Ford GT",
+    "explanation": "The Ford GT revived the spirit of the GT40 in modern supercar form.",
+    "tags": [
+      "cars",
+      "ford",
+      "supercars"
+    ]
+  },
+  {
+    "id": 5662,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Ford race car beat Ferrari at Le Mans in the 1960s?",
+    "answers": [
+      "Mustang Boss 429",
+      "GT40",
+      "RS200",
+      "Sierra Cosworth"
+    ],
+    "correctAnswer": "GT40",
+    "explanation": "The Ford GT40 famously defeated Ferrari at Le Mans.",
+    "tags": [
+      "cars",
+      "ford",
+      "motorsport"
+    ]
+  },
+  {
+    "id": 5663,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Ford rally car was developed for Group B but arrived near the end of the era?",
+    "answers": [
+      "Focus RS",
+      "Sierra RS500",
+      "RS200",
+      "Escort Cosworth"
+    ],
+    "correctAnswer": "RS200",
+    "explanation": "The Ford RS200 was developed for Group B rallying.",
+    "tags": [
+      "cars",
+      "ford",
+      "rally"
+    ]
+  },
+  {
+    "id": 5664,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Lancia rally car is famous for Group B and a supercharged/turbocharged setup?",
+    "answers": [
+      "037",
+      "Delta Integrale",
+      "Stratos",
+      "Delta S4"
+    ],
+    "correctAnswer": "Delta S4",
+    "explanation": "The Lancia Delta S4 used both supercharging and turbocharging in Group B rallying.",
+    "tags": [
+      "cars",
+      "lancia",
+      "rally"
+    ]
+  },
+  {
+    "id": 5665,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which Lancia was the last rear-wheel-drive car to win the World Rally Championship constructors' title?",
+    "answers": [
+      "037",
+      "Delta S4",
+      "Delta Integrale",
+      "Stratos"
+    ],
+    "correctAnswer": "037",
+    "explanation": "The Lancia 037 was the last rear-wheel-drive car to win the WRC constructors' title.",
+    "tags": [
+      "cars",
+      "lancia",
+      "rally"
+    ]
+  },
+  {
+    "id": 5666,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Audi rally car made quattro all-wheel drive famous?",
+    "answers": [
+      "Audi TT",
+      "Audi Quattro",
+      "Audi RS6",
+      "Audi R8"
+    ],
+    "correctAnswer": "Audi Quattro",
+    "explanation": "The Audi Quattro helped prove the advantage of all-wheel drive in rallying.",
+    "tags": [
+      "cars",
+      "audi",
+      "rally"
+    ]
+  },
+  {
+    "id": 5667,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Peugeot Group B rally car was highly successful in the 1980s?",
+    "answers": [
+      "405 Mi16",
+      "306 GTI-6",
+      "205 T16",
+      "RCZ"
+    ],
+    "correctAnswer": "205 T16",
+    "explanation": "The Peugeot 205 T16 was a highly successful Group B rally car.",
+    "tags": [
+      "cars",
+      "peugeot",
+      "rally"
+    ]
+  },
+  {
+    "id": 5668,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Renault hot hatch is famous for its rear-mid-engine Turbo version?",
+    "answers": [
+      "Clio",
+      "Megane",
+      "Twingo",
+      "Renault 5"
+    ],
+    "correctAnswer": "Renault 5",
+    "explanation": "The Renault 5 Turbo used a dramatic rear-mid-engine layout.",
+    "tags": [
+      "cars",
+      "renault",
+      "hot-hatch"
+    ]
+  },
+  {
+    "id": 5669,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Volkswagen model popularized the hot hatch formula?",
+    "answers": [
+      "Golf GTI",
+      "Scirocco",
+      "Passat",
+      "Polo"
+    ],
+    "correctAnswer": "Golf GTI",
+    "explanation": "The Volkswagen Golf GTI helped define the hot hatch segment.",
+    "tags": [
+      "cars",
+      "volkswagen",
+      "hot-hatch"
+    ]
+  },
+  {
+    "id": 5670,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Honda hot hatch badge is known for red Honda emblems?",
+    "answers": [
+      "Touring",
+      "Type R",
+      "Si",
+      "EX"
+    ],
+    "correctAnswer": "Type R",
+    "explanation": "Honda Type R models are known for performance tuning and red Honda badges.",
+    "tags": [
+      "cars",
+      "honda",
+      "hot-hatch"
+    ]
+  },
+  {
+    "id": 5671,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Renault performance badge is strongly associated with hot hatches?",
+    "answers": [
+      "AMG",
+      "M Sport",
+      "Renault Sport",
+      "Nismo"
+    ],
+    "correctAnswer": "Renault Sport",
+    "explanation": "Renault Sport became famous for sharp hot hatchbacks.",
+    "tags": [
+      "cars",
+      "renault",
+      "hot-hatch"
+    ]
+  },
+  {
+    "id": 5672,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Hyundai performance badge appears on cars like the i30 N and Elantra N?",
+    "answers": [
+      "STI",
+      "RS",
+      "GR",
+      "N"
+    ],
+    "correctAnswer": "N",
+    "explanation": "Hyundai's N badge marks its performance models.",
+    "tags": [
+      "cars",
+      "hyundai",
+      "hot-hatch"
+    ]
+  },
+  {
+    "id": 5673,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Toyota performance badge appears on cars like the GR Corolla?",
+    "answers": [
+      "GR",
+      "AMG",
+      "Nismo",
+      "Type R"
+    ],
+    "correctAnswer": "GR",
+    "explanation": "Toyota's GR badge stands for Gazoo Racing performance models.",
+    "tags": [
+      "cars",
+      "toyota",
+      "performance"
+    ]
+  },
+  {
+    "id": 5674,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Nissan performance division uses the NISMO name?",
+    "answers": [
+      "TRD",
+      "NISMO",
+      "Mugen",
+      "STI"
+    ],
+    "correctAnswer": "NISMO",
+    "explanation": "NISMO is Nissan's motorsport and performance division.",
+    "tags": [
+      "cars",
+      "nissan",
+      "performance"
+    ]
+  },
+  {
+    "id": 5675,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Toyota performance division uses the TRD name?",
+    "answers": [
+      "Toyota Road Dynamics",
+      "Track Racing Design",
+      "Toyota Racing Development",
+      "Turbo Racing Division"
+    ],
+    "correctAnswer": "Toyota Racing Development",
+    "explanation": "TRD stands for Toyota Racing Development.",
+    "tags": [
+      "cars",
+      "toyota",
+      "performance"
+    ]
+  },
+  {
+    "id": 5676,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Honda performance brand is named Mugen?",
+    "answers": [
+      "RUF",
+      "NISMO",
+      "TRD",
+      "Mugen"
+    ],
+    "correctAnswer": "Mugen",
+    "explanation": "Mugen is strongly associated with Honda performance tuning.",
+    "tags": [
+      "cars",
+      "honda",
+      "performance"
+    ]
+  },
+  {
+    "id": 5677,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Subaru performance badge stands for Subaru Tecnica International?",
+    "answers": [
+      "STI",
+      "TRD",
+      "NISMO",
+      "GR"
+    ],
+    "correctAnswer": "STI",
+    "explanation": "STI stands for Subaru Tecnica International.",
+    "tags": [
+      "cars",
+      "subaru",
+      "performance"
+    ]
+  },
+  {
+    "id": 5678,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which BMW performance division uses the letter M?",
+    "answers": [
+      "Audi Sport",
+      "BMW M",
+      "Lexus F",
+      "AMG"
+    ],
+    "correctAnswer": "BMW M",
+    "explanation": "BMW M is BMW's high-performance division.",
+    "tags": [
+      "cars",
+      "bmw",
+      "performance"
+    ]
+  },
+  {
+    "id": 5679,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Mercedes-Benz performance division uses the AMG badge?",
+    "answers": [
+      "NISMO",
+      "BMW M",
+      "Mercedes-AMG",
+      "Audi Sport"
+    ],
+    "correctAnswer": "Mercedes-AMG",
+    "explanation": "AMG is Mercedes-Benz's performance division.",
+    "tags": [
+      "cars",
+      "mercedes-benz",
+      "performance"
+    ]
+  },
+  {
+    "id": 5680,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Audi performance line uses RS badges?",
+    "answers": [
+      "BMW M",
+      "AMG",
+      "TRD",
+      "Audi Sport"
+    ],
+    "correctAnswer": "Audi Sport",
+    "explanation": "Audi Sport is responsible for RS performance models.",
+    "tags": [
+      "cars",
+      "audi",
+      "performance"
+    ]
+  },
+  {
+    "id": 5681,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Lexus performance badge uses the letter F?",
+    "answers": [
+      "Lexus F",
+      "NISMO",
+      "AMG",
+      "GR"
+    ],
+    "correctAnswer": "Lexus F",
+    "explanation": "Lexus F is the brand's performance line.",
+    "tags": [
+      "cars",
+      "lexus",
+      "performance"
+    ]
+  },
+  {
+    "id": 5682,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Cadillac performance badge is used on models like the CT5-V Blackwing?",
+    "answers": [
+      "SVR",
+      "V-Series",
+      "SS",
+      "SRT"
+    ],
+    "correctAnswer": "V-Series",
+    "explanation": "Cadillac's V-Series badge marks high-performance models.",
+    "tags": [
+      "cars",
+      "cadillac",
+      "performance"
+    ]
+  },
+  {
+    "id": 5683,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Dodge performance badge was used on Hellcat models?",
+    "answers": [
+      "SS",
+      "RS",
+      "SRT",
+      "M"
+    ],
+    "correctAnswer": "SRT",
+    "explanation": "SRT was Dodge's performance badge for models including Hellcat-powered cars.",
+    "tags": [
+      "cars",
+      "dodge",
+      "performance"
+    ]
+  },
+  {
+    "id": 5684,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Jaguar Land Rover performance badge uses SVR?",
+    "answers": [
+      "M",
+      "RS",
+      "AMG",
+      "SVR"
+    ],
+    "correctAnswer": "SVR",
+    "explanation": "SVR is Jaguar Land Rover's high-performance badge.",
+    "tags": [
+      "cars",
+      "jaguar",
+      "performance"
+    ]
+  },
+  {
+    "id": 5685,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Volvo performance-related brand became an EV marque?",
+    "answers": [
+      "Polestar",
+      "Cupra",
+      "R-Line",
+      "AMG"
+    ],
+    "correctAnswer": "Polestar",
+    "explanation": "Polestar evolved from Volvo performance roots into an electric vehicle brand.",
+    "tags": [
+      "cars",
+      "polestar",
+      "performance"
+    ]
+  },
+  {
+    "id": 5686,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Spanish performance brand grew out of SEAT?",
+    "answers": [
+      "Abarth",
+      "Cupra",
+      "Alpina",
+      "Brabus"
+    ],
+    "correctAnswer": "Cupra",
+    "explanation": "Cupra became a separate performance-focused brand from SEAT.",
+    "tags": [
+      "cars",
+      "cupra",
+      "performance"
+    ]
+  },
+  {
+    "id": 5687,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Fiat-linked performance brand is known for scorpion badges?",
+    "answers": [
+      "Alpina",
+      "RUF",
+      "Abarth",
+      "Cupra"
+    ],
+    "correctAnswer": "Abarth",
+    "explanation": "Abarth is associated with Fiat performance cars and scorpion badges.",
+    "tags": [
+      "cars",
+      "abarth",
+      "performance"
+    ]
+  },
+  {
+    "id": 5688,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which BMW-associated tuner became recognized as a manufacturer in its own right?",
+    "answers": [
+      "Mugen",
+      "Brabus",
+      "RUF",
+      "Alpina"
+    ],
+    "correctAnswer": "Alpina",
+    "explanation": "Alpina is closely associated with BMW and has been recognized as a manufacturer.",
+    "tags": [
+      "cars",
+      "alpina",
+      "tuning"
+    ]
+  },
+  {
+    "id": 5689,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Porsche-associated company builds cars under the RUF name?",
+    "answers": [
+      "RUF",
+      "Brabus",
+      "Alpina",
+      "ABT"
+    ],
+    "correctAnswer": "RUF",
+    "explanation": "RUF builds Porsche-based performance cars under its own manufacturer identity.",
+    "tags": [
+      "cars",
+      "ruf",
+      "tuning"
+    ]
+  },
+  {
+    "id": 5690,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Mercedes-Benz tuner is famous for extreme AMG-based builds?",
+    "answers": [
+      "Mugen",
+      "Brabus",
+      "TRD",
+      "RUF"
+    ],
+    "correctAnswer": "Brabus",
+    "explanation": "Brabus is famous for high-performance Mercedes-Benz builds.",
+    "tags": [
+      "cars",
+      "brabus",
+      "tuning"
+    ]
+  },
+  {
+    "id": 5691,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Audi and Volkswagen tuner is known as ABT?",
+    "answers": [
+      "Mugen",
+      "Brabus",
+      "ABT Sportsline",
+      "RUF"
+    ],
+    "correctAnswer": "ABT Sportsline",
+    "explanation": "ABT Sportsline is known for modifying Audi and Volkswagen Group cars.",
+    "tags": [
+      "cars",
+      "abt",
+      "tuning"
+    ]
+  },
+  {
+    "id": 5692,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Japanese tuner is closely tied to Nissan motorsport?",
+    "answers": [
+      "Mugen",
+      "TRD",
+      "STI",
+      "NISMO"
+    ],
+    "correctAnswer": "NISMO",
+    "explanation": "NISMO is Nissan's official motorsport and performance division.",
+    "tags": [
+      "cars",
+      "nismo",
+      "tuning"
+    ]
+  },
+  {
+    "id": 5693,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Japanese tuner is closely tied to Honda performance?",
+    "answers": [
+      "Mugen",
+      "TRD",
+      "STI",
+      "NISMO"
+    ],
+    "correctAnswer": "Mugen",
+    "explanation": "Mugen is closely associated with Honda performance vehicles.",
+    "tags": [
+      "cars",
+      "mugen",
+      "tuning"
+    ]
+  },
+  {
+    "id": 5694,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Japanese tuner is closely tied to Toyota performance?",
+    "answers": [
+      "STI",
+      "TRD",
+      "Mugen",
+      "NISMO"
+    ],
+    "correctAnswer": "TRD",
+    "explanation": "TRD stands for Toyota Racing Development.",
+    "tags": [
+      "cars",
+      "trd",
+      "tuning"
+    ]
+  },
+  {
+    "id": 5695,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Japanese tuner is closely tied to Subaru performance?",
+    "answers": [
+      "TRD",
+      "Mugen",
+      "STI",
+      "NISMO"
+    ],
+    "correctAnswer": "STI",
+    "explanation": "STI is Subaru's performance and motorsport division.",
+    "tags": [
+      "cars",
+      "sti",
+      "tuning"
+    ]
+  },
+  {
+    "id": 5696,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What car culture term refers to wide wheels sitting close to the fenders?",
+    "answers": [
+      "Lift kit",
+      "Launch control",
+      "Hypermiling",
+      "Fitment"
+    ],
+    "correctAnswer": "Fitment",
+    "explanation": "Fitment describes how wheels and tires sit relative to the bodywork.",
+    "tags": [
+      "cars",
+      "car-culture",
+      "terms"
+    ]
+  },
+  {
+    "id": 5697,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What car culture term refers to a car lowered close to the ground?",
+    "answers": [
+      "Lowered",
+      "Raised",
+      "Lifted",
+      "Stock height"
+    ],
+    "correctAnswer": "Lowered",
+    "explanation": "A lowered car has reduced ride height for handling or style.",
+    "tags": [
+      "cars",
+      "car-culture",
+      "terms"
+    ]
+  },
+  {
+    "id": 5698,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What car culture term refers to raising a truck or SUV's ride height?",
+    "answers": [
+      "Stance",
+      "Lift kit",
+      "Sleeper",
+      "Camber"
+    ],
+    "correctAnswer": "Lift kit",
+    "explanation": "A lift kit raises a vehicle's ride height, often for off-road use or style.",
+    "tags": [
+      "cars",
+      "car-culture",
+      "terms"
+    ]
+  },
+  {
+    "id": 5699,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What car culture term describes a car kept mostly factory-original?",
+    "answers": [
+      "Stanced",
+      "Caged",
+      "Stock",
+      "Sleeper"
+    ],
+    "correctAnswer": "Stock",
+    "explanation": "A stock car remains mostly as it came from the factory.",
+    "tags": [
+      "cars",
+      "car-culture",
+      "terms"
+    ]
+  },
+  {
+    "id": 5700,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which motorsport term describes following closely behind another vehicle to reduce drag?",
+    "answers": [
+      "Heel-and-toe",
+      "Drifting",
+      "Trail braking",
+      "Drafting"
+    ],
+    "correctAnswer": "Drafting",
+    "explanation": "Drafting reduces aerodynamic drag by following closely behind another vehicle.",
+    "tags": [
+      "cars",
+      "motorsport",
+      "terms"
+    ]
+  }
+]

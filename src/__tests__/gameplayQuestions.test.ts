@@ -78,3 +78,5 @@ describe("Q10 gameplay question adapters", () => {
     expect(questions.every((question) => question.options.length === 4)).toBe(true);
   });
 });
+
+

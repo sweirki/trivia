@@ -127,3 +127,5 @@ export function summarizeReleaseReadiness(report: ReleaseReadinessReport) {
 
   return `${report.environment} release checks blocked by ${report.blockingIssueCount} issue(s).`;
 }
+
+

@@ -28,7 +28,7 @@ const ART_BY_ID: Record<string, ImageSourcePropType> = {
   G1_01_FIRST_GAME: require("../../../assets/images/achievements/achievement_ranked_climber_card.webp"),
   G1_02_FIRST_WIN: require("../../../assets/images/achievements/achievement_first_victory_card.webp"),
   G1_03_FIRST_LOSS: require("../../../assets/images/achievements/achievement_learning_curve_card.webp"),
-  G1_04_CREATE_PROFILE: require("../../../assets/images/achievements/achievement_identity_card.webp"),
+  G1_04_PROFILE_CREATED: require("../../../assets/images/achievements/achievement_identity_card.webp"),
   G1_05_COME_BACK_TOMORROW: require("../../../assets/images/achievements/achievement_see_you_card.webp"),
 
   G2_01_10_GAMES: require("../../../assets/images/achievements/achievement_volume_10_card.webp"),
@@ -53,7 +53,7 @@ const ART_BY_ID: Record<string, ImageSourcePropType> = {
 
   G5_01_FIRST_COINS: require("../../../assets/images/achievements/achievement_first_coins_card.webp"),
   G5_02_BIG_SPENDER: require("../../../assets/images/achievements/achievement_big_spender_card.webp"),
-  G5_03_STYLE_UPGRADE: require("../../../assets/images/achievements/achievement_style_upgrade_card.webp"),
+  G5_03_CUSTOM_LOOK: require("../../../assets/images/achievements/achievement_style_upgrade_card.webp"),
   G5_04_SAVER: require("../../../assets/images/achievements/achievement_saver_card.webp"),
 };
 
@@ -81,9 +81,9 @@ const TONE_BY_ID: Record<string, Tone> = {
   G4_04_EARLY_BIRD: "cyan",
   G4_05_NIGHT_OWL: "cyan",
 
-  G1_04_CREATE_PROFILE: "violet",
+  G1_04_PROFILE_CREATED: "violet",
   G2_03_100_GAMES: "violet",
-  G5_03_STYLE_UPGRADE: "violet",
+  G5_03_CUSTOM_LOOK: "violet",
 };
 
 function getToneColor(tone: Tone) {
@@ -127,8 +127,8 @@ function AchievementArtCard({
       <LinearGradient
         pointerEvents="none"
         colors={[
-          "rgba(2,6,14,0.42)",
-          "rgba(2,6,14,0.10)",
+          "rgba(2,6,14,0.24)",
+          "rgba(2,6,14,0.04)",
           "rgba(2,6,14,0)",
         ]}
         locations={[0, 0.48, 1]}
@@ -141,8 +141,8 @@ function AchievementArtCard({
         pointerEvents="none"
         colors={[
           "rgba(0,0,0,0)",
-          "rgba(0,0,0,0.10)",
-          "rgba(1,5,12,0.46)",
+          "rgba(0,0,0,0.04)",
+          "rgba(1,5,12,0.28)",
         ]}
         locations={[0, 0.58, 1]}
         start={{ x: 0, y: 0 }}
@@ -153,8 +153,8 @@ function AchievementArtCard({
       <LinearGradient
         pointerEvents="none"
         colors={[
-          unlocked ? `${accent}2E` : "rgba(159,231,255,0.20)",
-          "rgba(255,255,255,0.035)",
+          unlocked ? `${accent}24` : "rgba(159,231,255,0.12)",
+          "rgba(255,255,255,0.025)",
           "rgba(0,0,0,0)",
         ]}
         locations={[0, 0.34, 1]}
@@ -166,8 +166,8 @@ function AchievementArtCard({
       <LinearGradient
         pointerEvents="none"
         colors={[
-          "rgba(255,255,255,0.14)",
-          "rgba(255,255,255,0.025)",
+          "rgba(255,255,255,0.08)",
+          "rgba(255,255,255,0.014)",
           "rgba(255,255,255,0)",
         ]}
         locations={[0, 0.28, 1]}
@@ -176,7 +176,7 @@ function AchievementArtCard({
         style={styles.sheen}
       />
 
-      {!unlocked && <View pointerEvents="none" style={styles.lockedVeil} />}
+      
 
       <View
         pointerEvents="none"
@@ -210,8 +210,8 @@ function AchievementArtCard({
           pointerEvents="none"
           colors={[
             "rgba(3,9,20,0)",
-            "rgba(3,9,20,0.56)",
-            "rgba(3,9,20,0.78)",
+            "rgba(3,9,20,0.34)",
+            "rgba(3,9,20,0.58)",
           ]}
           locations={[0, 0.34, 1]}
           start={{ x: 0, y: 0 }}
@@ -261,9 +261,9 @@ const styles = StyleSheet.create({
     borderRadius: 24,
     overflow: "hidden",
     borderWidth: 1,
-    backgroundColor: "#07111F",
+    backgroundColor: "#050B18",
     shadowColor: "#1E8CFF",
-    shadowOpacity: 0.16,
+    shadowOpacity: 0.20,
     shadowRadius: 14,
     shadowOffset: { width: 0, height: 7 },
     elevation: 5,
@@ -283,15 +283,15 @@ const styles = StyleSheet.create({
     opacity: 1,
   },
   lockedArt: {
-    opacity: 0.82,
+    opacity: 0.98,
   },
   lockedVeil: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: "rgba(24,58,88,0.13)",
+    backgroundColor: "rgba(24,58,88,0.04)",
   },
   sheen: {
     ...StyleSheet.absoluteFillObject,
-    opacity: 0.72,
+    opacity: 0.36,
   },
   topAccent: {
     position: "absolute",
@@ -340,7 +340,7 @@ const styles = StyleSheet.create({
     color: "#9FE7FF",
   },
   statusTextLocked: {
-    color: "#AFC4DA",
+    color: "#D8E7FF",
   },
   checkDot: {
     width: 20,
@@ -383,7 +383,7 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     bottom: 0,
-    height: 92,
+    height: 76,
   },
   title: {
     fontSize: 15.4,
@@ -397,7 +397,7 @@ const styles = StyleSheet.create({
     color: "#F4FAFF",
   },
   titleLocked: {
-    color: "#D2E1F0",
+    color: "#F1F7FF",
   },
   desc: {
     marginTop: 5,
@@ -411,7 +411,7 @@ const styles = StyleSheet.create({
     color: "#E1EEFF",
   },
   descLocked: {
-    color: "#AFC4DA",
+    color: "#D8E7FF",
   },
   goal: {
     marginTop: 5,
@@ -425,3 +425,5 @@ const styles = StyleSheet.create({
     textShadowRadius: 8,
   },
 });
+
+

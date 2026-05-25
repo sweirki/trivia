@@ -1,1 +1,782 @@
-[]
+[
+  {
+    "id": 39501,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which artist released the song “Dance Monkey”?",
+    "answers": [
+      "Tones and I",
+      "Dua Lipa",
+      "Sia",
+      "Doja Cat"
+    ],
+    "correctAnswer": "Tones and I",
+    "explanation": "Tones and I is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "tones"
+    ]
+  },
+  {
+    "id": 39502,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which singer released the album Cry Baby?",
+    "answers": [
+      "Halsey",
+      "Melanie Martinez",
+      "Lorde",
+      "Billie Eilish"
+    ],
+    "correctAnswer": "Melanie Martinez",
+    "explanation": "Melanie Martinez is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "melanie-martinez"
+    ]
+  },
+  {
+    "id": 39503,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which band released the song “Eye of the Tiger”?",
+    "answers": [
+      "Journey",
+      "Foreigner",
+      "Survivor",
+      "Boston"
+    ],
+    "correctAnswer": "Survivor",
+    "explanation": "Survivor is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "survivor"
+    ]
+  },
+  {
+    "id": 39504,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which artist released the album Ctrl in 2017?",
+    "answers": [
+      "Doja Cat",
+      "Rihanna",
+      "H.E.R.",
+      "SZA"
+    ],
+    "correctAnswer": "SZA",
+    "explanation": "SZA is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "sza"
+    ]
+  },
+  {
+    "id": 39505,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which singer is known for “Wrecking Ball”?",
+    "answers": [
+      "Miley Cyrus",
+      "Demi Lovato",
+      "Selena Gomez",
+      "Pink"
+    ],
+    "correctAnswer": "Miley Cyrus",
+    "explanation": "Miley Cyrus is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "miley-cyrus"
+    ]
+  },
+  {
+    "id": 39506,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which band released the album Parachutes?",
+    "answers": [
+      "Radiohead",
+      "Coldplay",
+      "Keane",
+      "Muse"
+    ],
+    "correctAnswer": "Coldplay",
+    "explanation": "Coldplay is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "coldplay"
+    ]
+  },
+  {
+    "id": 39507,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which artist performed “Paint the Town Red”?",
+    "answers": [
+      "Cardi B",
+      "Megan Thee Stallion",
+      "Doja Cat",
+      "Nicki Minaj"
+    ],
+    "correctAnswer": "Doja Cat",
+    "explanation": "Doja Cat is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "doja-cat"
+    ]
+  },
+  {
+    "id": 39508,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rapper released the album Take Care?",
+    "answers": [
+      "Kendrick Lamar",
+      "J. Cole",
+      "Future",
+      "Drake"
+    ],
+    "correctAnswer": "Drake",
+    "explanation": "Drake is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "drake"
+    ]
+  },
+  {
+    "id": 39509,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which band sang “I Want It That Way”?",
+    "answers": [
+      "Backstreet Boys",
+      "NSYNC",
+      "Westlife",
+      "Boyzone"
+    ],
+    "correctAnswer": "Backstreet Boys",
+    "explanation": "Backstreet Boys is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "backstreet-boys"
+    ]
+  },
+  {
+    "id": 39510,
+    "category": "music",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which composer wrote Peer Gynt?",
+    "answers": [
+      "Sibelius",
+      "Edvard Grieg",
+      "Mahler",
+      "Dvorak"
+    ],
+    "correctAnswer": "Edvard Grieg",
+    "explanation": "Edvard Grieg is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "hard",
+      "edvard-grieg"
+    ]
+  },
+  {
+    "id": 39511,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which singer released the song “Espresso”?",
+    "answers": [
+      "Olivia Rodrigo",
+      "Ariana Grande",
+      "Sabrina Carpenter",
+      "Dua Lipa"
+    ],
+    "correctAnswer": "Sabrina Carpenter",
+    "explanation": "Sabrina Carpenter is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "sabrina-carpenter"
+    ]
+  },
+  {
+    "id": 39512,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which artist released the album Motomami?",
+    "answers": [
+      "Karol G",
+      "Shakira",
+      "Becky G",
+      "Rosalía"
+    ],
+    "correctAnswer": "Rosalía",
+    "explanation": "Rosalía is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "rosal"
+    ]
+  },
+  {
+    "id": 39513,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which singer is known for “Bad Blood”?",
+    "answers": [
+      "Taylor Swift",
+      "Katy Perry",
+      "Ariana Grande",
+      "Lorde"
+    ],
+    "correctAnswer": "Taylor Swift",
+    "explanation": "Taylor Swift is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "taylor-swift"
+    ]
+  },
+  {
+    "id": 39514,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which band released the song “Do I Wanna Know?”?",
+    "answers": [
+      "The Killers",
+      "Arctic Monkeys",
+      "Muse",
+      "Oasis"
+    ],
+    "correctAnswer": "Arctic Monkeys",
+    "explanation": "Arctic Monkeys is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "arctic-monkeys"
+    ]
+  },
+  {
+    "id": 39515,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which artist performed “Savage Love”?",
+    "answers": [
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Jason Derulo",
+      "Charlie Puth"
+    ],
+    "correctAnswer": "Jason Derulo",
+    "explanation": "Jason Derulo is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "jason-derulo"
+    ]
+  },
+  {
+    "id": 39516,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which singer released the album Future Nostalgia?",
+    "answers": [
+      "Billie Eilish",
+      "Olivia Rodrigo",
+      "Doja Cat",
+      "Dua Lipa"
+    ],
+    "correctAnswer": "Dua Lipa",
+    "explanation": "Dua Lipa is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "dua-lipa"
+    ]
+  },
+  {
+    "id": 39517,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which band released the song “Africa”?",
+    "answers": [
+      "Toto",
+      "Journey",
+      "Chicago",
+      "Boston"
+    ],
+    "correctAnswer": "Toto",
+    "explanation": "Toto is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "toto"
+    ]
+  },
+  {
+    "id": 39518,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rapper released the album The College Dropout?",
+    "answers": [
+      "Jay-Z",
+      "Kanye West",
+      "Nas",
+      "Drake"
+    ],
+    "correctAnswer": "Kanye West",
+    "explanation": "Kanye West is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "kanye-west"
+    ]
+  },
+  {
+    "id": 39519,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which singer is known for “Set Fire to the Rain”?",
+    "answers": [
+      "Sia",
+      "Rihanna",
+      "Adele",
+      "Beyoncé"
+    ],
+    "correctAnswer": "Adele",
+    "explanation": "Adele is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "adele"
+    ]
+  },
+  {
+    "id": 39520,
+    "category": "music",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which composer wrote Pictures at an Exhibition?",
+    "answers": [
+      "Ravel",
+      "Tchaikovsky",
+      "Stravinsky",
+      "Modest Mussorgsky"
+    ],
+    "correctAnswer": "Modest Mussorgsky",
+    "explanation": "Modest Mussorgsky is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "hard",
+      "modest-mussorgsky"
+    ]
+  },
+  {
+    "id": 39521,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which artist released the song “Industry Baby” with Jack Harlow?",
+    "answers": [
+      "Lil Nas X",
+      "Drake",
+      "Post Malone",
+      "Future"
+    ],
+    "correctAnswer": "Lil Nas X",
+    "explanation": "Lil Nas X is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "lil-nas"
+    ]
+  },
+  {
+    "id": 39522,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which band released the album The Black Parade?",
+    "answers": [
+      "Fall Out Boy",
+      "My Chemical Romance",
+      "Paramore",
+      "Panic! at the Disco"
+    ],
+    "correctAnswer": "My Chemical Romance",
+    "explanation": "My Chemical Romance is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "chemical-romance"
+    ]
+  },
+  {
+    "id": 39523,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which singer performed “Price Tag” with B.o.B?",
+    "answers": [
+      "Kesha",
+      "Pink",
+      "Jessie J",
+      "Dua Lipa"
+    ],
+    "correctAnswer": "Jessie J",
+    "explanation": "Jessie J is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "jessie"
+    ]
+  },
+  {
+    "id": 39524,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which artist released the album Eternal Sunshine?",
+    "answers": [
+      "Dua Lipa",
+      "Olivia Rodrigo",
+      "Doja Cat",
+      "Ariana Grande"
+    ],
+    "correctAnswer": "Ariana Grande",
+    "explanation": "Ariana Grande is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "ariana-grande"
+    ]
+  },
+  {
+    "id": 39525,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which band released the song “Zombie”?",
+    "answers": [
+      "The Cranberries",
+      "Paramore",
+      "No Doubt",
+      "Garbage"
+    ],
+    "correctAnswer": "The Cranberries",
+    "explanation": "The Cranberries is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "cranberries"
+    ]
+  },
+  {
+    "id": 39526,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which singer released the album Harry’s House?",
+    "answers": [
+      "Shawn Mendes",
+      "Harry Styles",
+      "Justin Bieber",
+      "Ed Sheeran"
+    ],
+    "correctAnswer": "Harry Styles",
+    "explanation": "Harry Styles is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "harry-styles"
+    ]
+  },
+  {
+    "id": 39527,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which artist performed “Cheap Thrills”?",
+    "answers": [
+      "Adele",
+      "Rihanna",
+      "Sia",
+      "Lorde"
+    ],
+    "correctAnswer": "Sia",
+    "explanation": "Sia is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "sia"
+    ]
+  },
+  {
+    "id": 39528,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which band released the album Appetite for Destruction?",
+    "answers": [
+      "Metallica",
+      "AC/DC",
+      "Bon Jovi",
+      "Guns N’ Roses"
+    ],
+    "correctAnswer": "Guns N’ Roses",
+    "explanation": "Guns N’ Roses is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "guns-roses"
+    ]
+  },
+  {
+    "id": 39529,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which singer is known for “Party in the U.S.A.”?",
+    "answers": [
+      "Miley Cyrus",
+      "Demi Lovato",
+      "Selena Gomez",
+      "Kesha"
+    ],
+    "correctAnswer": "Miley Cyrus",
+    "explanation": "Miley Cyrus is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "miley-cyrus"
+    ]
+  },
+  {
+    "id": 39530,
+    "category": "music",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which composer wrote The Marriage of Figaro?",
+    "answers": [
+      "Rossini",
+      "Mozart",
+      "Puccini",
+      "Verdi"
+    ],
+    "correctAnswer": "Mozart",
+    "explanation": "Mozart is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "hard",
+      "mozart"
+    ]
+  },
+  {
+    "id": 39531,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which artist released the song “Starships”?",
+    "answers": [
+      "Cardi B",
+      "Doja Cat",
+      "Nicki Minaj",
+      "Megan Thee Stallion"
+    ],
+    "correctAnswer": "Nicki Minaj",
+    "explanation": "Nicki Minaj is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "nicki-minaj"
+    ]
+  },
+  {
+    "id": 39532,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which singer released the album Teenage Dream?",
+    "answers": [
+      "Lady Gaga",
+      "Taylor Swift",
+      "Kesha",
+      "Katy Perry"
+    ],
+    "correctAnswer": "Katy Perry",
+    "explanation": "Katy Perry is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "katy-perry"
+    ]
+  },
+  {
+    "id": 39533,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which band released the song “Counting Stars”?",
+    "answers": [
+      "OneRepublic",
+      "Coldplay",
+      "Maroon 5",
+      "Imagine Dragons"
+    ],
+    "correctAnswer": "OneRepublic",
+    "explanation": "OneRepublic is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "onerepublic"
+    ]
+  },
+  {
+    "id": 39534,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which artist released the album Born to Die?",
+    "answers": [
+      "Lorde",
+      "Lana Del Rey",
+      "Halsey",
+      "Billie Eilish"
+    ],
+    "correctAnswer": "Lana Del Rey",
+    "explanation": "Lana Del Rey is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "lana-del"
+    ]
+  },
+  {
+    "id": 39535,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which singer performed “Photograph”?",
+    "answers": [
+      "Shawn Mendes",
+      "Lewis Capaldi",
+      "Ed Sheeran",
+      "Sam Smith"
+    ],
+    "correctAnswer": "Ed Sheeran",
+    "explanation": "Ed Sheeran is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "sheeran"
+    ]
+  },
+  {
+    "id": 39536,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which band released the song “Take Me Out”?",
+    "answers": [
+      "Arctic Monkeys",
+      "The Killers",
+      "Muse",
+      "Franz Ferdinand"
+    ],
+    "correctAnswer": "Franz Ferdinand",
+    "explanation": "Franz Ferdinand is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "franz-ferdinand"
+    ]
+  },
+  {
+    "id": 39537,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which artist released the hit song “greedy” in 2023?",
+    "answers": [
+      "Tate McRae",
+      "Olivia Rodrigo",
+      "Sabrina Carpenter",
+      "Doja Cat"
+    ],
+    "correctAnswer": "Tate McRae",
+    "explanation": "Tate McRae is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "tate-mcrae"
+    ]
+  },
+  {
+    "id": 39538,
+    "category": "music",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which rapper released the album Madvillainy with MF DOOM?",
+    "answers": [
+      "Kendrick Lamar",
+      "Madlib",
+      "Tyler, the Creator",
+      "Nas"
+    ],
+    "correctAnswer": "Madlib",
+    "explanation": "Madlib is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "medium",
+      "madlib"
+    ]
+  },
+  {
+    "id": 39539,
+    "category": "music",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which singer performed “Easy On Me”?",
+    "answers": [
+      "Sam Smith",
+      "Sia",
+      "Adele",
+      "Rihanna"
+    ],
+    "correctAnswer": "Adele",
+    "explanation": "Adele is the correct answer to this music question.",
+    "tags": [
+      "music",
+      "easy",
+      "adele"
+    ]
+  }
+]

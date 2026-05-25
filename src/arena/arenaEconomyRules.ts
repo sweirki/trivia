@@ -9,50 +9,92 @@ export type ArenaRewardPreview = {
   arenaTokens: number;
 };
 
+export type ArenaModeConfig = {
+  tickets: number;
+  questions?: number;
+  rewardLabel: string;
+};
+
+export const ARENA_MODE_CONFIG: Record<ArenaModeKey, ArenaModeConfig> = {
+  ranked: {
+    tickets: 5,
+    questions: 7,
+    rewardLabel: "SR climb • 200 coins • 2 arena tokens on win",
+  },
+  survival: {
+    tickets: 4,
+    rewardLabel: "Coins scale by rounds • arena tokens at milestones",
+  },
+  power: {
+    tickets: 5,
+    rewardLabel: "Coins scale by score • efficiency earns arena tokens",
+  },
+  tournament: {
+    tickets: 8,
+    rewardLabel: "Highest-stakes bracket prestige",
+  },
+};
+
 export const ARENA_ENTRY_COSTS: Record<ArenaModeKey, { tickets: number }> = {
-  ranked: { tickets: 5 },
-  survival: { tickets: 6 },
-  power: { tickets: 6 },
-  tournament: { tickets: 8 },
+  ranked: { tickets: ARENA_MODE_CONFIG.ranked.tickets },
+  survival: { tickets: ARENA_MODE_CONFIG.survival.tickets },
+  power: { tickets: ARENA_MODE_CONFIG.power.tickets },
+  tournament: { tickets: ARENA_MODE_CONFIG.tournament.tickets },
 };
 
 export const ARENA_REWARD_RULES = {
-  rankedWinTickets: ARENA_ENTRY_COSTS.ranked.tickets * 2,
-  powerWinTickets: ARENA_ENTRY_COSTS.power.tickets * 2,
-  tournamentWinTickets: ARENA_ENTRY_COSTS.tournament.tickets * 2,
+  rankedWinCoins: 200,
   rankedWinTokens: 2,
-  survivalTokenMilestone: 12,
-  powerTokenScore: 4,
+  survivalCoinPerRound: 12,
+  survivalCoinCap: 300,
+  survivalTokenMilestone: 10,
+  survivalEliteTokenMilestone: 20,
+  powerCoinPerScore: 10,
+  powerStrongScore: 12,
+  powerEfficientScore: 18,
+  powerEfficientMaxPowerUps: 3,
 };
 
 export function getRankedRewardPreview(didWin: boolean): ArenaRewardPreview {
   return didWin
-    ? { coins: 0, tickets: ARENA_REWARD_RULES.rankedWinTickets, arenaTokens: ARENA_REWARD_RULES.rankedWinTokens }
+    ? {
+        coins: ARENA_REWARD_RULES.rankedWinCoins,
+        tickets: 0,
+        arenaTokens: ARENA_REWARD_RULES.rankedWinTokens,
+      }
     : { coins: 0, tickets: 0, arenaTokens: 0 };
 }
 
-export function getPowerRewardPreview(score: number): ArenaRewardPreview {
+export function getPowerRewardPreview(score: number, powerUpsUsed = 0): ArenaRewardPreview {
   if (score <= 0) return { coins: 0, tickets: 0, arenaTokens: 0 };
 
+  const didStrongRun = score >= ARENA_REWARD_RULES.powerStrongScore;
+  const didEfficientRun =
+    score >= ARENA_REWARD_RULES.powerEfficientScore &&
+    powerUpsUsed <= ARENA_REWARD_RULES.powerEfficientMaxPowerUps;
+
   return {
-    coins: 0,
-    tickets: score >= 4 ? ARENA_REWARD_RULES.powerWinTickets : Math.floor(ARENA_ENTRY_COSTS.power.tickets / 2),
-    arenaTokens: score >= ARENA_REWARD_RULES.powerTokenScore ? 1 : 0,
+    coins: Math.max(0, score * ARENA_REWARD_RULES.powerCoinPerScore),
+    tickets: 0,
+    arenaTokens: didEfficientRun ? 3 : didStrongRun ? 1 : 0,
   };
 }
 
 export function getSurvivalRewardPreview(rounds: number): ArenaRewardPreview {
-  if (rounds < 5) return { coins: 0, tickets: 0, arenaTokens: 0 };
-
-  const tickets =
-    rounds >= 20 ? ARENA_ENTRY_COSTS.survival.tickets * 2 :
-    rounds >= 12 ? ARENA_ENTRY_COSTS.survival.tickets :
-    Math.floor(ARENA_ENTRY_COSTS.survival.tickets / 2);
+  if (rounds <= 0) return { coins: 0, tickets: 0, arenaTokens: 0 };
 
   return {
-    coins: 0,
-    tickets,
-    arenaTokens: rounds >= ARENA_REWARD_RULES.survivalTokenMilestone ? 1 : 0,
+    coins: Math.min(
+      ARENA_REWARD_RULES.survivalCoinCap,
+      rounds * ARENA_REWARD_RULES.survivalCoinPerRound
+    ),
+    tickets: 0,
+    arenaTokens:
+      rounds >= ARENA_REWARD_RULES.survivalEliteTokenMilestone
+        ? 4
+        : rounds >= ARENA_REWARD_RULES.survivalTokenMilestone
+          ? 2
+          : 0,
   };
 }
 

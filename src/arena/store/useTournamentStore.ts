@@ -222,21 +222,11 @@ submitMatchResult: (matchId, scoreA, scoreB) => {
   const target = allMatches.find((m) => m.id === matchId);
   if (!target || target.completed) return;
 
-  // 🔒 HARD LOCK — mark match as completed immediately
-  const winnerUid =
-    scoreA === scoreB
-      ? null
-      : scoreA > scoreB
-      ? target.playerAUid
-      : target.playerBUid;
-
-  const resolved = {
-    ...target,
-    scoreA,
-    scoreB,
-    winnerUid,
-    completed: true,
-  };
+  // HARD LOCK: resolve through the authoritative tournament resolver.
+  // Tied matches use the official deterministic tiebreak rule instead of
+  // leaving the bracket with a null winner.
+  const resolved = resolveMatch(target, { scoreA, scoreB });
+  const winnerUid = resolved.winnerUid;
 
   const replace = (m: TournamentMatch) =>
     m.id === matchId ? resolved : m;
@@ -391,5 +381,7 @@ submitMatchResult: (matchId, scoreA, scoreB) => {
     }
   )
 );
+
+
 
 

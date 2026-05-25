@@ -1,1 +1,3759 @@
-[]
+[
+  {
+    "id": 42501,
+    "category": "science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What gas do plants absorb from the atmosphere?",
+    "answers": [
+      "Carbon Dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctAnswer": "Carbon Dioxide",
+    "explanation": "Carbon Dioxide is the correct answer.",
+    "tags": [
+      "science",
+      "easy"
+    ]
+  },
+  {
+    "id": 42502,
+    "category": "science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What part of the human body pumps blood?",
+    "answers": [
+      "Lungs",
+      "Heart",
+      "Brain",
+      "Liver"
+    ],
+    "correctAnswer": "Heart",
+    "explanation": "Heart is the correct answer.",
+    "tags": [
+      "science",
+      "easy"
+    ]
+  },
+  {
+    "id": 42503,
+    "category": "science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What force pulls objects toward the Earth?",
+    "answers": [
+      "Magnetism",
+      "Friction",
+      "Gravity",
+      "Electricity"
+    ],
+    "correctAnswer": "Gravity",
+    "explanation": "Gravity is the correct answer.",
+    "tags": [
+      "science",
+      "easy"
+    ]
+  },
+  {
+    "id": 42504,
+    "category": "science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the chemical symbol for water?",
+    "answers": [
+      "O2",
+      "CO2",
+      "NaCl",
+      "H2O"
+    ],
+    "correctAnswer": "H2O",
+    "explanation": "H2O is the correct answer.",
+    "tags": [
+      "science",
+      "easy"
+    ]
+  },
+  {
+    "id": 42505,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What organ is responsible for filtering blood in the human body?",
+    "answers": [
+      "Kidneys",
+      "Heart",
+      "Lungs",
+      "Stomach"
+    ],
+    "correctAnswer": "Kidneys",
+    "explanation": "Kidneys is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42506,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of energy is stored in food?",
+    "answers": [
+      "Thermal",
+      "Chemical",
+      "Electrical",
+      "Nuclear"
+    ],
+    "correctAnswer": "Chemical",
+    "explanation": "Chemical is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42507,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What part of a cell contains genetic material?",
+    "answers": [
+      "Ribosome",
+      "Cytoplasm",
+      "Nucleus",
+      "Membrane"
+    ],
+    "correctAnswer": "Nucleus",
+    "explanation": "Nucleus is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42508,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What gas is most abundant in the Earth's atmosphere?",
+    "answers": [
+      "Oxygen",
+      "Carbon Dioxide",
+      "Hydrogen",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Nitrogen",
+    "explanation": "Nitrogen is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42509,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What scientific instrument is used to measure temperature?",
+    "answers": [
+      "Thermometer",
+      "Barometer",
+      "Hygrometer",
+      "Altimeter"
+    ],
+    "correctAnswer": "Thermometer",
+    "explanation": "Thermometer is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42510,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What part of the human eye controls the amount of light entering?",
+    "answers": [
+      "Lens",
+      "Pupil",
+      "Retina",
+      "Cornea"
+    ],
+    "correctAnswer": "Pupil",
+    "explanation": "Pupil is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42511,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of rock is formed from cooled lava or magma?",
+    "answers": [
+      "Sedimentary",
+      "Metamorphic",
+      "Igneous",
+      "Fossil"
+    ],
+    "correctAnswer": "Igneous",
+    "explanation": "Igneous is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42512,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What vitamin is produced when human skin is exposed to sunlight?",
+    "answers": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correctAnswer": "Vitamin D",
+    "explanation": "Vitamin D is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42513,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What force resists motion between two surfaces in contact?",
+    "answers": [
+      "Friction",
+      "Gravity",
+      "Momentum",
+      "Inertia"
+    ],
+    "correctAnswer": "Friction",
+    "explanation": "Friction is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42514,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which organ in the human body produces insulin?",
+    "answers": [
+      "Liver",
+      "Pancreas",
+      "Kidneys",
+      "Stomach"
+    ],
+    "correctAnswer": "Pancreas",
+    "explanation": "Pancreas is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42515,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the process by which plants make their own food?",
+    "answers": [
+      "Respiration",
+      "Digestion",
+      "Photosynthesis",
+      "Fermentation"
+    ],
+    "correctAnswer": "Photosynthesis",
+    "explanation": "Photosynthesis is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42516,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the smallest unit of life?",
+    "answers": [
+      "Atom",
+      "Molecule",
+      "Tissue",
+      "Cell"
+    ],
+    "correctAnswer": "Cell",
+    "explanation": "Cell is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42517,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What term describes an animal that eats both plants and meat?",
+    "answers": [
+      "Omnivore",
+      "Herbivore",
+      "Carnivore",
+      "Insectivore"
+    ],
+    "correctAnswer": "Omnivore",
+    "explanation": "Omnivore is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42518,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What gas is released during photosynthesis?",
+    "answers": [
+      "Carbon Dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctAnswer": "Oxygen",
+    "explanation": "Oxygen is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42519,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What branch of science studies living organisms?",
+    "answers": [
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Geology"
+    ],
+    "correctAnswer": "Biology",
+    "explanation": "Biology is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42520,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What device is used to observe very small objects?",
+    "answers": [
+      "Telescope",
+      "Periscope",
+      "Binoculars",
+      "Microscope"
+    ],
+    "correctAnswer": "Microscope",
+    "explanation": "Microscope is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42521,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of blood cells help fight infection?",
+    "answers": [
+      "White blood cells",
+      "Red blood cells",
+      "Platelets",
+      "Plasma"
+    ],
+    "correctAnswer": "White blood cells",
+    "explanation": "White blood cells is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42522,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the boiling point of water at sea level in Celsius?",
+    "answers": [
+      "50",
+      "100",
+      "75",
+      "150"
+    ],
+    "correctAnswer": "100",
+    "explanation": "100 is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42523,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What natural process causes erosion?",
+    "answers": [
+      "Wind",
+      "Water",
+      "All of the above",
+      "Ice"
+    ],
+    "correctAnswer": "All of the above",
+    "explanation": "All of the above is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42524,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What part of the brain controls balance and coordination?",
+    "answers": [
+      "Cerebrum",
+      "Medulla",
+      "Thalamus",
+      "Cerebellum"
+    ],
+    "correctAnswer": "Cerebellum",
+    "explanation": "Cerebellum is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42525,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for sodium?",
+    "answers": [
+      "Na",
+      "So",
+      "S",
+      "Sn"
+    ],
+    "correctAnswer": "Na",
+    "explanation": "Na is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42526,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What law states that energy cannot be created or destroyed?",
+    "answers": [
+      "Law of Gravity",
+      "Law of Conservation of Energy",
+      "Law of Motion",
+      "Law of Thermodynamics"
+    ],
+    "correctAnswer": "Law of Conservation of Energy",
+    "explanation": "Law of Conservation of Energy is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42527,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What gas do humans exhale as a waste product?",
+    "answers": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Helium"
+    ],
+    "correctAnswer": "Carbon Dioxide",
+    "explanation": "Carbon Dioxide is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42528,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What field of science deals with the study of matter and energy?",
+    "answers": [
+      "Biology",
+      "Chemistry",
+      "Astronomy",
+      "Physics"
+    ],
+    "correctAnswer": "Physics",
+    "explanation": "Physics is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42529,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What instrument is used to measure atmospheric pressure?",
+    "answers": [
+      "Barometer",
+      "Thermometer",
+      "Anemometer",
+      "Hygrometer"
+    ],
+    "correctAnswer": "Barometer",
+    "explanation": "Barometer is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42530,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of eclipse occurs when the Moon blocks the Sun?",
+    "answers": [
+      "Lunar eclipse",
+      "Solar eclipse",
+      "Partial eclipse",
+      "Annular eclipse"
+    ],
+    "correctAnswer": "Solar eclipse",
+    "explanation": "Solar eclipse is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42531,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What organ in plants is mainly responsible for photosynthesis?",
+    "answers": [
+      "Root",
+      "Stem",
+      "Leaf",
+      "Flower"
+    ],
+    "correctAnswer": "Leaf",
+    "explanation": "Leaf is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42532,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the main gas found in the air we breathe?",
+    "answers": [
+      "Oxygen",
+      "Carbon Dioxide",
+      "Hydrogen",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Nitrogen",
+    "explanation": "Nitrogen is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42533,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of energy does a moving object have?",
+    "answers": [
+      "Kinetic energy",
+      "Potential energy",
+      "Chemical energy",
+      "Thermal energy"
+    ],
+    "correctAnswer": "Kinetic energy",
+    "explanation": "Kinetic energy is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42534,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What part of the atom has a positive electric charge?",
+    "answers": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Nucleus"
+    ],
+    "correctAnswer": "Proton",
+    "explanation": "Proton is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42535,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What term describes a substance that speeds up a chemical reaction without being consumed?",
+    "answers": [
+      "Reactant",
+      "Product",
+      "Catalyst",
+      "Enzyme"
+    ],
+    "correctAnswer": "Catalyst",
+    "explanation": "Catalyst is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42536,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the name of the process by which liquid water turns into vapor?",
+    "answers": [
+      "Condensation",
+      "Sublimation",
+      "Precipitation",
+      "Evaporation"
+    ],
+    "correctAnswer": "Evaporation",
+    "explanation": "Evaporation is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42537,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of scientist studies weather and climate?",
+    "answers": [
+      "Meteorologist",
+      "Geologist",
+      "Biologist",
+      "Astronomer"
+    ],
+    "correctAnswer": "Meteorologist",
+    "explanation": "Meteorologist is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42538,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What unit is used to measure electric current?",
+    "answers": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Watt"
+    ],
+    "correctAnswer": "Ampere",
+    "explanation": "Ampere is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42539,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What part of the human body is responsible for producing red blood cells?",
+    "answers": [
+      "Heart",
+      "Liver",
+      "Bone marrow",
+      "Spleen"
+    ],
+    "correctAnswer": "Bone marrow",
+    "explanation": "Bone marrow is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42540,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of energy is stored in a stretched rubber band?",
+    "answers": [
+      "Kinetic energy",
+      "Thermal energy",
+      "Chemical energy",
+      "Elastic potential energy"
+    ],
+    "correctAnswer": "Elastic potential energy",
+    "explanation": "Elastic potential energy is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42541,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What layer of the Earth lies directly beneath the crust?",
+    "answers": [
+      "Mantle",
+      "Core",
+      "Outer core",
+      "Inner core"
+    ],
+    "correctAnswer": "Mantle",
+    "explanation": "Mantle is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42542,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the name of the galaxy that contains our solar system?",
+    "answers": [
+      "Andromeda",
+      "Milky Way",
+      "Triangulum",
+      "Sombrero"
+    ],
+    "correctAnswer": "Milky Way",
+    "explanation": "Milky Way is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42543,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What process causes water vapor to change into liquid droplets?",
+    "answers": [
+      "Evaporation",
+      "Freezing",
+      "Condensation",
+      "Sublimation"
+    ],
+    "correctAnswer": "Condensation",
+    "explanation": "Condensation is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42544,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What branch of biology focuses on the study of heredity?",
+    "answers": [
+      "Ecology",
+      "Botany",
+      "Zoology",
+      "Genetics"
+    ],
+    "correctAnswer": "Genetics",
+    "explanation": "Genetics is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42545,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What term describes the tendency of an object to resist changes in motion?",
+    "answers": [
+      "Inertia",
+      "Force",
+      "Acceleration",
+      "Velocity"
+    ],
+    "correctAnswer": "Inertia",
+    "explanation": "Inertia is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42546,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What instrument is used to measure earthquakes?",
+    "answers": [
+      "Barometer",
+      "Seismograph",
+      "Thermometer",
+      "Spectrometer"
+    ],
+    "correctAnswer": "Seismograph",
+    "explanation": "Seismograph is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42547,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the main function of the ozone layer?",
+    "answers": [
+      "Produce oxygen",
+      "Trap heat",
+      "Block harmful ultraviolet radiation",
+      "Create clouds"
+    ],
+    "correctAnswer": "Block harmful ultraviolet radiation",
+    "explanation": "Block harmful ultraviolet radiation is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42548,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of wave does not require a medium to travel?",
+    "answers": [
+      "Sound wave",
+      "Water wave",
+      "Mechanical wave",
+      "Electromagnetic wave"
+    ],
+    "correctAnswer": "Electromagnetic wave",
+    "explanation": "Electromagnetic wave is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42549,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What organ in the human body is primarily responsible for digestion?",
+    "answers": [
+      "Stomach",
+      "Heart",
+      "Lungs",
+      "Kidneys"
+    ],
+    "correctAnswer": "Stomach",
+    "explanation": "Stomach is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42550,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of simple machine is a ramp?",
+    "answers": [
+      "Lever",
+      "Inclined plane",
+      "Pulley",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Inclined plane",
+    "explanation": "Inclined plane is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42551,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What gas is essential for human respiration?",
+    "answers": [
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Oxygen",
+      "Helium"
+    ],
+    "correctAnswer": "Oxygen",
+    "explanation": "Oxygen is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42552,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What planet has the strongest gravity in our solar system?",
+    "answers": [
+      "Earth",
+      "Saturn",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Jupiter is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42553,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of rock forms from compressed layers of sediment?",
+    "answers": [
+      "Sedimentary",
+      "Igneous",
+      "Metamorphic",
+      "Volcanic"
+    ],
+    "correctAnswer": "Sedimentary",
+    "explanation": "Sedimentary is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42554,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the scientific term for an animal that is active during the night?",
+    "answers": [
+      "Diurnal",
+      "Nocturnal",
+      "Crepuscular",
+      "Herbivorous"
+    ],
+    "correctAnswer": "Nocturnal",
+    "explanation": "Nocturnal is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42555,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the name of the boundary between two tectonic plates?",
+    "answers": [
+      "Rift",
+      "Trench",
+      "Fault line",
+      "Crust"
+    ],
+    "correctAnswer": "Fault line",
+    "explanation": "Fault line is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42556,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What phenomenon causes light to bend when passing through different materials?",
+    "answers": [
+      "Reflection",
+      "Diffraction",
+      "Absorption",
+      "Refraction"
+    ],
+    "correctAnswer": "Refraction",
+    "explanation": "Refraction is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42557,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What part of the cell is responsible for energy production?",
+    "answers": [
+      "Mitochondria",
+      "Nucleus",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "correctAnswer": "Mitochondria",
+    "explanation": "Mitochondria is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42558,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the name of the process by which solids change directly into gas?",
+    "answers": [
+      "Evaporation",
+      "Sublimation",
+      "Condensation",
+      "Deposition"
+    ],
+    "correctAnswer": "Sublimation",
+    "explanation": "Sublimation is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42559,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of scientist studies fossils?",
+    "answers": [
+      "Biologist",
+      "Archaeologist",
+      "Paleontologist",
+      "Geologist"
+    ],
+    "correctAnswer": "Paleontologist",
+    "explanation": "Paleontologist is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42560,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What gas makes up most of the Sun?",
+    "answers": [
+      "Oxygen",
+      "Carbon Dioxide",
+      "Helium",
+      "Hydrogen"
+    ],
+    "correctAnswer": "Hydrogen",
+    "explanation": "Hydrogen is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42561,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What organ in the human body controls hormones?",
+    "answers": [
+      "Endocrine glands",
+      "Brain",
+      "Pancreas",
+      "Liver"
+    ],
+    "correctAnswer": "Endocrine glands",
+    "explanation": "Endocrine glands is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42562,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of energy is produced by moving electrons?",
+    "answers": [
+      "Thermal",
+      "Electrical",
+      "Chemical",
+      "Mechanical"
+    ],
+    "correctAnswer": "Electrical",
+    "explanation": "Electrical is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42563,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the main function of red blood cells?",
+    "answers": [
+      "Fight infection",
+      "Clot blood",
+      "Transport oxygen",
+      "Digest nutrients"
+    ],
+    "correctAnswer": "Transport oxygen",
+    "explanation": "Transport oxygen is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42564,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for potassium?",
+    "answers": [
+      "P",
+      "Pt",
+      "Po",
+      "K"
+    ],
+    "correctAnswer": "K",
+    "explanation": "K is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42565,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What law states that for every action there is an equal and opposite reaction?",
+    "answers": [
+      "Newton's Third Law",
+      "Law of Inertia",
+      "Law of Acceleration",
+      "Law of Gravity"
+    ],
+    "correctAnswer": "Newton's Third Law",
+    "explanation": "Newton's Third Law is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42566,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of radiation is used in X-ray imaging?",
+    "answers": [
+      "Ultraviolet",
+      "X-ray",
+      "Gamma",
+      "Infrared"
+    ],
+    "correctAnswer": "X-ray",
+    "explanation": "X-ray is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42567,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What part of the plant transports water from roots to leaves?",
+    "answers": [
+      "Phloem",
+      "Stem",
+      "Xylem",
+      "Leaf vein"
+    ],
+    "correctAnswer": "Xylem",
+    "explanation": "Xylem is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42568,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the name of the force that opposes motion through a fluid?",
+    "answers": [
+      "Gravity",
+      "Friction",
+      "Lift",
+      "Drag"
+    ],
+    "correctAnswer": "Drag",
+    "explanation": "Drag is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42569,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What organ in the human body is responsible for removing waste from the blood?",
+    "answers": [
+      "Kidneys",
+      "Liver",
+      "Lungs",
+      "Pancreas"
+    ],
+    "correctAnswer": "Kidneys",
+    "explanation": "Kidneys is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42570,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of energy comes from the Sun?",
+    "answers": [
+      "Chemical",
+      "Solar",
+      "Nuclear",
+      "Mechanical"
+    ],
+    "correctAnswer": "Solar",
+    "explanation": "Solar is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42571,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What gas is needed for combustion to occur?",
+    "answers": [
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Oxygen",
+      "Helium"
+    ],
+    "correctAnswer": "Oxygen",
+    "explanation": "Oxygen is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42572,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What layer of the atmosphere contains the ozone layer?",
+    "answers": [
+      "Troposphere",
+      "Mesosphere",
+      "Thermosphere",
+      "Stratosphere"
+    ],
+    "correctAnswer": "Stratosphere",
+    "explanation": "Stratosphere is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42573,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What part of the human skeleton protects the brain?",
+    "answers": [
+      "Skull",
+      "Ribs",
+      "Spine",
+      "Pelvis"
+    ],
+    "correctAnswer": "Skull",
+    "explanation": "Skull is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42574,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What term describes the change in frequency of a wave relative to an observer?",
+    "answers": [
+      "Refraction",
+      "Doppler effect",
+      "Interference",
+      "Resonance"
+    ],
+    "correctAnswer": "Doppler effect",
+    "explanation": "Doppler effect is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42575,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of bond involves the sharing of electrons between atoms?",
+    "answers": [
+      "Ionic bond",
+      "Hydrogen bond",
+      "Covalent bond",
+      "Metallic bond"
+    ],
+    "correctAnswer": "Covalent bond",
+    "explanation": "Covalent bond is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42576,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What organelle is responsible for protein synthesis in a cell?",
+    "answers": [
+      "Nucleus",
+      "Mitochondria",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "correctAnswer": "Ribosome",
+    "explanation": "Ribosome is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42577,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What phenomenon explains why the sky appears blue?",
+    "answers": [
+      "Scattering",
+      "Reflection",
+      "Refraction",
+      "Diffusion"
+    ],
+    "correctAnswer": "Scattering",
+    "explanation": "Scattering is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42578,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the name of the process by which cells divide to produce two identical cells?",
+    "answers": [
+      "Meiosis",
+      "Mitosis",
+      "Fusion",
+      "Replication"
+    ],
+    "correctAnswer": "Mitosis",
+    "explanation": "Mitosis is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42579,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of animal has a backbone?",
+    "answers": [
+      "Invertebrate",
+      "Amphibian",
+      "Vertebrate",
+      "Reptile"
+    ],
+    "correctAnswer": "Vertebrate",
+    "explanation": "Vertebrate is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42580,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What part of the ear is responsible for hearing?",
+    "answers": [
+      "Eardrum",
+      "Ear canal",
+      "Auditory nerve",
+      "Cochlea"
+    ],
+    "correctAnswer": "Cochlea",
+    "explanation": "Cochlea is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42581,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What gas is commonly used to inflate balloons?",
+    "answers": [
+      "Helium",
+      "Oxygen",
+      "Hydrogen",
+      "Nitrogen"
+    ],
+    "correctAnswer": "Helium",
+    "explanation": "Helium is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42582,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of rock is marble?",
+    "answers": [
+      "Igneous",
+      "Metamorphic",
+      "Sedimentary",
+      "Volcanic"
+    ],
+    "correctAnswer": "Metamorphic",
+    "explanation": "Metamorphic is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42583,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What part of a plant anchors it in the ground?",
+    "answers": [
+      "Stem",
+      "Leaf",
+      "Root",
+      "Flower"
+    ],
+    "correctAnswer": "Root",
+    "explanation": "Root is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42584,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What law describes the relationship between pressure and volume of a gas?",
+    "answers": [
+      "Charles's Law",
+      "Newton's Law",
+      "Ohm's Law",
+      "Boyle's Law"
+    ],
+    "correctAnswer": "Boyle's Law",
+    "explanation": "Boyle's Law is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42585,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of electromagnetic wave has the shortest wavelength?",
+    "answers": [
+      "Gamma rays",
+      "Radio waves",
+      "Microwaves",
+      "X-rays"
+    ],
+    "correctAnswer": "Gamma rays",
+    "explanation": "Gamma rays is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42586,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What organ system controls movement and posture?",
+    "answers": [
+      "Digestive system",
+      "Muscular system",
+      "Nervous system",
+      "Circulatory system"
+    ],
+    "correctAnswer": "Muscular system",
+    "explanation": "Muscular system is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42587,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What chemical element has the atomic number 6?",
+    "answers": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon",
+      "Boron"
+    ],
+    "correctAnswer": "Carbon",
+    "explanation": "Carbon is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42588,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the name of the process that converts sugar into energy in cells?",
+    "answers": [
+      "Photosynthesis",
+      "Fermentation",
+      "Digestion",
+      "Respiration"
+    ],
+    "correctAnswer": "Respiration",
+    "explanation": "Respiration is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42589,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of energy is associated with an object’s position?",
+    "answers": [
+      "Potential energy",
+      "Kinetic energy",
+      "Thermal energy",
+      "Chemical energy"
+    ],
+    "correctAnswer": "Potential energy",
+    "explanation": "Potential energy is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42590,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What part of the human body produces bile?",
+    "answers": [
+      "Pancreas",
+      "Liver",
+      "Stomach",
+      "Gallbladder"
+    ],
+    "correctAnswer": "Liver",
+    "explanation": "Liver is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42591,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of organism makes its own food using sunlight?",
+    "answers": [
+      "Heterotroph",
+      "Decomposer",
+      "Autotroph",
+      "Parasite"
+    ],
+    "correctAnswer": "Autotroph",
+    "explanation": "Autotroph is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42592,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What planet has the most moons in our solar system?",
+    "answers": [
+      "Earth",
+      "Jupiter",
+      "Neptune",
+      "Saturn"
+    ],
+    "correctAnswer": "Saturn",
+    "explanation": "Saturn is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42593,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of weather instrument measures wind speed?",
+    "answers": [
+      "Anemometer",
+      "Barometer",
+      "Thermometer",
+      "Hygrometer"
+    ],
+    "correctAnswer": "Anemometer",
+    "explanation": "Anemometer is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42594,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What term describes a solution that cannot dissolve any more solute?",
+    "answers": [
+      "Dilute",
+      "Saturated",
+      "Unsaturated",
+      "Supersaturated"
+    ],
+    "correctAnswer": "Saturated",
+    "explanation": "Saturated is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42595,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of blood vessel carries blood away from the heart?",
+    "answers": [
+      "Vein",
+      "Capillary",
+      "Artery",
+      "Venule"
+    ],
+    "correctAnswer": "Artery",
+    "explanation": "Artery is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42596,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What phenomenon causes a moving sound source to change pitch?",
+    "answers": [
+      "Echo",
+      "Resonance",
+      "Interference",
+      "Doppler effect"
+    ],
+    "correctAnswer": "Doppler effect",
+    "explanation": "Doppler effect is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42597,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What part of the atom determines its chemical behavior?",
+    "answers": [
+      "Electrons",
+      "Protons",
+      "Neutrons",
+      "Nucleus"
+    ],
+    "correctAnswer": "Electrons",
+    "explanation": "Electrons is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42598,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the name of the process by which plants lose water through their leaves?",
+    "answers": [
+      "Respiration",
+      "Transpiration",
+      "Evaporation",
+      "Osmosis"
+    ],
+    "correctAnswer": "Transpiration",
+    "explanation": "Transpiration is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42599,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of scientist studies the Earth’s physical structure?",
+    "answers": [
+      "Astronomer",
+      "Meteorologist",
+      "Geologist",
+      "Ecologist"
+    ],
+    "correctAnswer": "Geologist",
+    "explanation": "Geologist is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42600,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the main function of the lungs?",
+    "answers": [
+      "Pump blood",
+      "Digest food",
+      "Filter waste",
+      "Exchange gases"
+    ],
+    "correctAnswer": "Exchange gases",
+    "explanation": "Exchange gases is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42601,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of energy is stored in fossil fuels?",
+    "answers": [
+      "Chemical",
+      "Mechanical",
+      "Thermal",
+      "Nuclear"
+    ],
+    "correctAnswer": "Chemical",
+    "explanation": "Chemical is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42602,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What layer of the Earth is the hottest?",
+    "answers": [
+      "Crust",
+      "Inner core",
+      "Mantle",
+      "Outer core"
+    ],
+    "correctAnswer": "Inner core",
+    "explanation": "Inner core is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42603,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the main source of energy for life on Earth?",
+    "answers": [
+      "Wind",
+      "Water",
+      "The Sun",
+      "Electricity"
+    ],
+    "correctAnswer": "The Sun",
+    "explanation": "The Sun is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42604,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What term describes an organism that breaks down dead matter?",
+    "answers": [
+      "Producer",
+      "Consumer",
+      "Parasite",
+      "Decomposer"
+    ],
+    "correctAnswer": "Decomposer",
+    "explanation": "Decomposer is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42605,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What law explains why a satellite stays in orbit?",
+    "answers": [
+      "Law of Gravity",
+      "Law of Inertia",
+      "Law of Conservation of Energy",
+      "Newton's First Law"
+    ],
+    "correctAnswer": "Law of Gravity",
+    "explanation": "Law of Gravity is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42606,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What part of the brain is responsible for conscious thought?",
+    "answers": [
+      "Cerebellum",
+      "Cerebrum",
+      "Medulla",
+      "Brainstem"
+    ],
+    "correctAnswer": "Cerebrum",
+    "explanation": "Cerebrum is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42607,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the term for the total mass of all organisms in an area?",
+    "answers": [
+      "Population",
+      "Community",
+      "Biomass",
+      "Biome"
+    ],
+    "correctAnswer": "Biomass",
+    "explanation": "Biomass is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42608,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What process converts atmospheric nitrogen into a form plants can use?",
+    "answers": [
+      "Photosynthesis",
+      "Respiration",
+      "Decomposition",
+      "Nitrogen fixation"
+    ],
+    "correctAnswer": "Nitrogen fixation",
+    "explanation": "Nitrogen fixation is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42609,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of blood cell is responsible for clotting?",
+    "answers": [
+      "Platelets",
+      "Red blood cells",
+      "White blood cells",
+      "Plasma"
+    ],
+    "correctAnswer": "Platelets",
+    "explanation": "Platelets is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42610,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What force keeps planets moving around the Sun?",
+    "answers": [
+      "Magnetism",
+      "Gravity",
+      "Friction",
+      "Inertia"
+    ],
+    "correctAnswer": "Gravity",
+    "explanation": "Gravity is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42611,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What part of the human body regulates body temperature?",
+    "answers": [
+      "Heart",
+      "Liver",
+      "Skin",
+      "Lungs"
+    ],
+    "correctAnswer": "Skin",
+    "explanation": "Skin is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42612,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of energy is produced by vibrating objects?",
+    "answers": [
+      "Light energy",
+      "Thermal energy",
+      "Electrical energy",
+      "Sound energy"
+    ],
+    "correctAnswer": "Sound energy",
+    "explanation": "Sound energy is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42613,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the main function of the large intestine?",
+    "answers": [
+      "Absorb water",
+      "Digest nutrients",
+      "Produce enzymes",
+      "Pump blood"
+    ],
+    "correctAnswer": "Absorb water",
+    "explanation": "Absorb water is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42614,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What term describes the speed of an object in a given direction?",
+    "answers": [
+      "Speed",
+      "Velocity",
+      "Acceleration",
+      "Momentum"
+    ],
+    "correctAnswer": "Velocity",
+    "explanation": "Velocity is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42615,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the smallest particle of an element that retains its properties?",
+    "answers": [
+      "Molecule",
+      "Ion",
+      "Atom",
+      "Electron"
+    ],
+    "correctAnswer": "Atom",
+    "explanation": "Atom is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42616,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of cell division produces reproductive cells?",
+    "answers": [
+      "Mitosis",
+      "Binary fission",
+      "Budding",
+      "Meiosis"
+    ],
+    "correctAnswer": "Meiosis",
+    "explanation": "Meiosis is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42617,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What phenomenon causes objects to float or sink in a fluid?",
+    "answers": [
+      "Buoyancy",
+      "Gravity",
+      "Density",
+      "Pressure"
+    ],
+    "correctAnswer": "Buoyancy",
+    "explanation": "Buoyancy is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42618,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What scientific term describes heat transfer through direct contact?",
+    "answers": [
+      "Radiation",
+      "Conduction",
+      "Convection",
+      "Insulation"
+    ],
+    "correctAnswer": "Conduction",
+    "explanation": "Conduction is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42619,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What organ in the human body produces urine?",
+    "answers": [
+      "Bladder",
+      "Liver",
+      "Kidneys",
+      "Pancreas"
+    ],
+    "correctAnswer": "Kidneys",
+    "explanation": "Kidneys is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42620,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of star is the Sun?",
+    "answers": [
+      "Red giant",
+      "White dwarf",
+      "Neutron star",
+      "Yellow dwarf"
+    ],
+    "correctAnswer": "Yellow dwarf",
+    "explanation": "Yellow dwarf is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42621,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What simple machine is a seesaw an example of?",
+    "answers": [
+      "Lever",
+      "Pulley",
+      "Inclined plane",
+      "Wheel and axle"
+    ],
+    "correctAnswer": "Lever",
+    "explanation": "Lever is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42622,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What gas is released when hydrogen burns in oxygen?",
+    "answers": [
+      "Oxygen",
+      "Water vapor",
+      "Hydrogen",
+      "Carbon dioxide"
+    ],
+    "correctAnswer": "Water vapor",
+    "explanation": "Water vapor is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42623,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What part of the human body contains the smallest bones?",
+    "answers": [
+      "Hand",
+      "Foot",
+      "Ear",
+      "Spine"
+    ],
+    "correctAnswer": "Ear",
+    "explanation": "Ear is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42624,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What term describes the total number of protons in an atom?",
+    "answers": [
+      "Atomic mass",
+      "Mass number",
+      "Isotope number",
+      "Atomic number"
+    ],
+    "correctAnswer": "Atomic number",
+    "explanation": "Atomic number is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42625,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of cloud is associated with thunderstorms?",
+    "answers": [
+      "Cumulonimbus",
+      "Stratus",
+      "Cirrus",
+      "Altostratus"
+    ],
+    "correctAnswer": "Cumulonimbus",
+    "explanation": "Cumulonimbus is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42626,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What principle explains why airplanes can fly?",
+    "answers": [
+      "Newton's First Law",
+      "Bernoulli's principle",
+      "Law of Gravity",
+      "Ohm's Law"
+    ],
+    "correctAnswer": "Bernoulli's principle",
+    "explanation": "Bernoulli's principle is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42627,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What part of the nervous system controls involuntary actions?",
+    "answers": [
+      "Central nervous system",
+      "Peripheral nervous system",
+      "Autonomic nervous system",
+      "Somatic nervous system"
+    ],
+    "correctAnswer": "Autonomic nervous system",
+    "explanation": "Autonomic nervous system is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42628,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the term for a group of atoms bonded together?",
+    "answers": [
+      "Element",
+      "Compound",
+      "Mixture",
+      "Molecule"
+    ],
+    "correctAnswer": "Molecule",
+    "explanation": "Molecule is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42629,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What organ in the human body stores bile?",
+    "answers": [
+      "Gallbladder",
+      "Liver",
+      "Pancreas",
+      "Stomach"
+    ],
+    "correctAnswer": "Gallbladder",
+    "explanation": "Gallbladder is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42630,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of energy travels in waves and can move through empty space?",
+    "answers": [
+      "Sound energy",
+      "Electromagnetic energy",
+      "Mechanical energy",
+      "Chemical energy"
+    ],
+    "correctAnswer": "Electromagnetic energy",
+    "explanation": "Electromagnetic energy is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42631,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What layer of the Earth is composed mainly of iron and nickel?",
+    "answers": [
+      "Crust",
+      "Mantle",
+      "Core",
+      "Lithosphere"
+    ],
+    "correctAnswer": "Core",
+    "explanation": "Core is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42632,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What process allows plants to absorb water through their roots?",
+    "answers": [
+      "Transpiration",
+      "Photosynthesis",
+      "Diffusion",
+      "Osmosis"
+    ],
+    "correctAnswer": "Osmosis",
+    "explanation": "Osmosis is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42633,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What part of the human brain controls breathing and heart rate?",
+    "answers": [
+      "Medulla",
+      "Cerebrum",
+      "Cerebellum",
+      "Thalamus"
+    ],
+    "correctAnswer": "Medulla",
+    "explanation": "Medulla is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42634,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What law describes how the force between two electric charges changes with distance?",
+    "answers": [
+      "Ohm's Law",
+      "Coulomb's Law",
+      "Faraday's Law",
+      "Ampere's Law"
+    ],
+    "correctAnswer": "Coulomb's Law",
+    "explanation": "Coulomb's Law is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42635,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of reaction absorbs energy from its surroundings?",
+    "answers": [
+      "Exothermic",
+      "Catalytic",
+      "Endothermic",
+      "Neutral"
+    ],
+    "correctAnswer": "Endothermic",
+    "explanation": "Endothermic is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42636,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the name of the pigment that gives plants their green color?",
+    "answers": [
+      "Carotene",
+      "Melanin",
+      "Hemoglobin",
+      "Chlorophyll"
+    ],
+    "correctAnswer": "Chlorophyll",
+    "explanation": "Chlorophyll is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42637,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What term describes the movement of molecules from high to low concentration?",
+    "answers": [
+      "Diffusion",
+      "Osmosis",
+      "Active transport",
+      "Filtration"
+    ],
+    "correctAnswer": "Diffusion",
+    "explanation": "Diffusion is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42638,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What scientific instrument is used to study stars and galaxies?",
+    "answers": [
+      "Microscope",
+      "Telescope",
+      "Spectrometer",
+      "Accelerometer"
+    ],
+    "correctAnswer": "Telescope",
+    "explanation": "Telescope is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42639,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What part of the human body produces adrenaline?",
+    "answers": [
+      "Thyroid",
+      "Pancreas",
+      "Adrenal glands",
+      "Pituitary gland"
+    ],
+    "correctAnswer": "Adrenal glands",
+    "explanation": "Adrenal glands is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42640,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of rock is formed by heat and pressure?",
+    "answers": [
+      "Igneous",
+      "Sedimentary",
+      "Volcanic",
+      "Metamorphic"
+    ],
+    "correctAnswer": "Metamorphic",
+    "explanation": "Metamorphic is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42641,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the main function of the circulatory system?",
+    "answers": [
+      "Transport nutrients and oxygen",
+      "Digest food",
+      "Remove waste",
+      "Control movement"
+    ],
+    "correctAnswer": "Transport nutrients and oxygen",
+    "explanation": "Transport nutrients and oxygen is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42642,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What gas is produced by animals during respiration?",
+    "answers": [
+      "Oxygen",
+      "Carbon Dioxide",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctAnswer": "Carbon Dioxide",
+    "explanation": "Carbon Dioxide is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42643,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What term describes the bending of waves around obstacles?",
+    "answers": [
+      "Reflection",
+      "Refraction",
+      "Diffraction",
+      "Interference"
+    ],
+    "correctAnswer": "Diffraction",
+    "explanation": "Diffraction is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42644,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of organism feeds on dead organic matter?",
+    "answers": [
+      "Producer",
+      "Consumer",
+      "Scavenger",
+      "Decomposer"
+    ],
+    "correctAnswer": "Decomposer",
+    "explanation": "Decomposer is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42645,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What part of the cell regulates what enters and leaves the cell?",
+    "answers": [
+      "Cell membrane",
+      "Nucleus",
+      "Cytoplasm",
+      "Cell wall"
+    ],
+    "correctAnswer": "Cell membrane",
+    "explanation": "Cell membrane is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42646,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the name of the scale used to measure the acidity of a solution?",
+    "answers": [
+      "Richter scale",
+      "pH scale",
+      "Kelvin scale",
+      "Fahrenheit scale"
+    ],
+    "correctAnswer": "pH scale",
+    "explanation": "pH scale is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42647,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What term describes a change in an organism caused by its environment?",
+    "answers": [
+      "Mutation",
+      "Evolution",
+      "Adaptation",
+      "Variation"
+    ],
+    "correctAnswer": "Adaptation",
+    "explanation": "Adaptation is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42648,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What part of the human body is responsible for vision?",
+    "answers": [
+      "Brain",
+      "Optic nerve",
+      "Retina",
+      "Eyes"
+    ],
+    "correctAnswer": "Eyes",
+    "explanation": "Eyes is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42649,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of energy is associated with heat?",
+    "answers": [
+      "Thermal energy",
+      "Chemical energy",
+      "Mechanical energy",
+      "Electrical energy"
+    ],
+    "correctAnswer": "Thermal energy",
+    "explanation": "Thermal energy is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42650,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What gas is essential for photosynthesis?",
+    "answers": [
+      "Oxygen",
+      "Carbon Dioxide",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctAnswer": "Carbon Dioxide",
+    "explanation": "Carbon Dioxide is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42651,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What part of the atom has no electric charge?",
+    "answers": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Nucleus"
+    ],
+    "correctAnswer": "Neutron",
+    "explanation": "Neutron is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42652,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What natural process turns liquid water into ice?",
+    "answers": [
+      "Condensation",
+      "Evaporation",
+      "Sublimation",
+      "Freezing"
+    ],
+    "correctAnswer": "Freezing",
+    "explanation": "Freezing is the correct answer.",
+    "tags": [
+      "science",
+      "medium"
+    ]
+  },
+  {
+    "id": 42653,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What term describes the splitting of an atom’s nucleus?",
+    "answers": [
+      "Fission",
+      "Fusion",
+      "Radiation",
+      "Ionization"
+    ],
+    "correctAnswer": "Fission",
+    "explanation": "Fission is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42654,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What scientific law relates voltage, current, and resistance?",
+    "answers": [
+      "Newton's Law",
+      "Ohm's Law",
+      "Faraday's Law",
+      "Coulomb's Law"
+    ],
+    "correctAnswer": "Ohm's Law",
+    "explanation": "Ohm's Law is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42655,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What part of the brain processes sensory information?",
+    "answers": [
+      "Cerebellum",
+      "Medulla",
+      "Thalamus",
+      "Brainstem"
+    ],
+    "correctAnswer": "Thalamus",
+    "explanation": "Thalamus is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42656,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What term describes the gradual change of species over time?",
+    "answers": [
+      "Adaptation",
+      "Mutation",
+      "Selection",
+      "Evolution"
+    ],
+    "correctAnswer": "Evolution",
+    "explanation": "Evolution is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42657,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What scientific term describes the amount of matter in an object?",
+    "answers": [
+      "Mass",
+      "Volume",
+      "Density",
+      "Weight"
+    ],
+    "correctAnswer": "Mass",
+    "explanation": "Mass is the correct answer.",
+    "tags": [
+      "science",
+      "hard"
+    ]
+  },
+  {
+    "id": 42658,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #1",
+    "answers": [
+      "Neutron",
+      "Electron",
+      "Proton",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42659,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #2",
+    "answers": [
+      "Mars",
+      "Neptune",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42660,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #3",
+    "answers": [
+      "Fe",
+      "Ag",
+      "Pb",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42661,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #4",
+    "answers": [
+      "Electron",
+      "Neutron",
+      "Photon",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42662,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #5",
+    "answers": [
+      "Mars",
+      "Jupiter",
+      "Neptune",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42663,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #6",
+    "answers": [
+      "Ag",
+      "Fe",
+      "Au",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42664,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #7",
+    "answers": [
+      "Neutron",
+      "Proton",
+      "Photon",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42665,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #8",
+    "answers": [
+      "Jupiter",
+      "Saturn",
+      "Mars",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42666,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #9",
+    "answers": [
+      "Ag",
+      "Au",
+      "Fe",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42667,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #10",
+    "answers": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42668,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #11",
+    "answers": [
+      "Saturn",
+      "Mars",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42669,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #12",
+    "answers": [
+      "Au",
+      "Pb",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42670,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #13",
+    "answers": [
+      "Proton",
+      "Electron",
+      "Neutron",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42671,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #14",
+    "answers": [
+      "Saturn",
+      "Neptune",
+      "Jupiter",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42672,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #15",
+    "answers": [
+      "Ag",
+      "Pb",
+      "Fe",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42673,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #16",
+    "answers": [
+      "Electron",
+      "Photon",
+      "Neutron",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42674,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #17",
+    "answers": [
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42675,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #18",
+    "answers": [
+      "Ag",
+      "Pb",
+      "Au",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42676,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #19",
+    "answers": [
+      "Photon",
+      "Neutron",
+      "Proton",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42677,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #20",
+    "answers": [
+      "Jupiter",
+      "Neptune",
+      "Saturn",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42678,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #21",
+    "answers": [
+      "Pb",
+      "Au",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42679,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #22",
+    "answers": [
+      "Proton",
+      "Photon",
+      "Electron",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42680,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #23",
+    "answers": [
+      "Saturn",
+      "Mars",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42681,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #24",
+    "answers": [
+      "Au",
+      "Fe",
+      "Ag",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42682,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #25",
+    "answers": [
+      "Neutron",
+      "Electron",
+      "Proton",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42683,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #26",
+    "answers": [
+      "Mars",
+      "Saturn",
+      "Jupiter",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42684,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #27",
+    "answers": [
+      "Ag",
+      "Pb",
+      "Fe",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42685,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #28",
+    "answers": [
+      "Electron",
+      "Neutron",
+      "Proton",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42686,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #29",
+    "answers": [
+      "Saturn",
+      "Jupiter",
+      "Mars",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42687,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #30",
+    "answers": [
+      "Fe",
+      "Pb",
+      "Au",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42688,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #31",
+    "answers": [
+      "Photon",
+      "Neutron",
+      "Proton",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42689,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #32",
+    "answers": [
+      "Jupiter",
+      "Neptune",
+      "Mars",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42690,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #33",
+    "answers": [
+      "Ag",
+      "Au",
+      "Pb",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42691,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #34",
+    "answers": [
+      "Photon",
+      "Neutron",
+      "Electron",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42692,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #35",
+    "answers": [
+      "Mars",
+      "Saturn",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42693,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #36",
+    "answers": [
+      "Au",
+      "Fe",
+      "Pb",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42694,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #37",
+    "answers": [
+      "Neutron",
+      "Electron",
+      "Photon",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42695,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #38",
+    "answers": [
+      "Saturn",
+      "Neptune",
+      "Jupiter",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42696,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #39",
+    "answers": [
+      "Pb",
+      "Ag",
+      "Fe",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42697,
+    "category": "science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #40",
+    "answers": [
+      "Electron",
+      "Photon",
+      "Neutron",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42698,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #41",
+    "answers": [
+      "Neptune",
+      "Jupiter",
+      "Saturn",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42699,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #42",
+    "answers": [
+      "Pb",
+      "Ag",
+      "Au",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": 42700,
+    "category": "science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #43",
+    "answers": [
+      "Photon",
+      "Neutron",
+      "Proton",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "science"
+    ]
+  }
+]

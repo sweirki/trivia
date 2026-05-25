@@ -5,6 +5,11 @@ export default {
   orientation: "portrait",
   icon: "./assets/images/icon.png",
   userInterfaceStyle: "automatic",
+  splash: {
+    image: "./assets/images/splash-icon.png",
+    resizeMode: "contain",
+    backgroundColor: "#07111F",
+  },
   scheme: "trivia",
   newArchEnabled: true,
 
@@ -14,7 +19,8 @@ export default {
     permissions: ["BILLING"],
     adaptiveIcon: {
       foregroundImage: "./assets/images/adaptive-icon.png",
-      backgroundColor: "#ffffff",
+      monochromeImage: "./assets/images/android-icon-monochrome.png",
+      backgroundColor: "#07111F",
     },
     edgeToEdgeEnabled: true,
     predictiveBackGestureEnabled: false,
@@ -31,7 +37,22 @@ export default {
     favicon: "./assets/images/favicon.png",
   },
 
-  plugins: ["expo-router"],
+  plugins: [
+    "expo-router",
+    [
+      "expo-splash-screen",
+      {
+        image: "./assets/images/splash-icon.png",
+        imageWidth: 220,
+        resizeMode: "contain",
+        backgroundColor: "#07111F",
+        dark: {
+          image: "./assets/images/splash-icon.png",
+          backgroundColor: "#07111F"
+        }
+      }
+    ]
+  ],
 
   experiments: {
     typedRoutes: true,

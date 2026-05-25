@@ -264,3 +264,5 @@ const styles = StyleSheet.create({
   startText: { color: "#FFFFFF", fontSize: s(18), fontWeight: "900" },
   startSubtext: { color: "#BDEFFF", fontSize: s(12), fontWeight: "800", marginTop: s(4) },
 });
+
+

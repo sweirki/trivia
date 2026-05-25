@@ -2,6 +2,8 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import { ImageBackground, View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { router, useLocalSearchParams } from "expo-router";
 import { useArenaStore } from "@/arena/store/useArenaStore";
+import { useArenaOpponentAI } from "@/arena/store/useArenaOpponentAI";
+import { useArenaRivalHistoryStore } from "@/arena/store/useArenaRivalHistoryStore";
 import { feedback } from "@/feedback";
 import { LinearGradient } from "expo-linear-gradient";
 
@@ -19,6 +21,8 @@ type RankedQuestion = {
   correct: string;
 };
 
+type RivalRevealState = "idle" | "thinking" | "correct" | "wrong" | "timeout";
+
 const RIVALS = [
   "ShadowFox",
   "MindStrike",
@@ -34,24 +38,37 @@ export default function RankedMatch() {
     currentQuestionIndex,
     matchState,
     startRankedMatch,
-    handlePlayerAnswer,
-    handleAIDecision,
+    updatePlayerScore,
+    updateOpponentScore,
+    nextQuestion,
+    opponent,
   } = useArenaStore();
 
   const [timeLeft, setTimeLeft] = useState(QUESTION_TIME);
   const [introVisible, setIntroVisible] = useState(true);
   const [introCountdown, setIntroCountdown] = useState(INTRO_COUNTDOWN_START);
+  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+  const [rivalReveal, setRivalReveal] = useState<RivalRevealState>("idle");
 
   const answeredRef = useRef(false);
   const matchStartedRef = useRef(false);
+  const revealTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const advanceTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const q = questions[currentQuestionIndex] as RankedQuestion;
   const blocked = !q;
 
-  const rivalName = useMemo(() => {
+  const fallbackRivalName = useMemo(() => {
     const index = Math.floor(Math.random() * RIVALS.length);
     return RIVALS[index];
   }, []);
+  const rivalName = opponent?.name ?? fallbackRivalName;
+  const rivalTitle = opponent?.title ?? "AI Rival";
+  const rivalStyle = opponent?.style ?? "Adaptive pressure";
+  const rivalProfile = useArenaRivalHistoryStore((state) => state.getRivalProfile(rivalName));
+  const rivalryLabel = rivalProfile
+    ? `Series ${rivalProfile.wins}-${rivalProfile.losses}-${rivalProfile.draws} • ${rivalProfile.lastOutcome === "win" ? "You won last duel" : rivalProfile.lastOutcome === "loss" ? "Rival won last duel" : "Last duel was a draw"}`
+    : "First recorded duel";
 
   useEffect(() => {
     if (!introVisible) return;
@@ -82,6 +99,39 @@ export default function RankedMatch() {
     startRankedMatch();
   }, [introVisible, matchState, startRankedMatch]);
 
+  const resolveRankedTurn = (isCorrect: boolean, answerLabel?: string) => {
+    if (!q) return;
+    if (answeredRef.current) return;
+
+    answeredRef.current = true;
+    setSelectedAnswer(answerLabel ?? null);
+    setRivalReveal("thinking");
+
+    if (isCorrect) {
+      updatePlayerScore(1);
+    }
+
+    const decision = useArenaOpponentAI.getState().getAnswerForQuestion(currentQuestionIndex);
+    const revealDelay = Math.max(520, Math.min(decision.delayMs, 1350));
+
+    revealTimeoutRef.current = setTimeout(() => {
+      if (!decision.willAnswer) {
+        setRivalReveal("timeout");
+      } else if (decision.correct) {
+        updateOpponentScore(1);
+        setRivalReveal("correct");
+      } else {
+        setRivalReveal("wrong");
+      }
+
+      advanceTimeoutRef.current = setTimeout(() => {
+        setSelectedAnswer(null);
+        setRivalReveal("idle");
+        nextQuestion();
+      }, 560);
+    }, revealDelay);
+  };
+
   useEffect(() => {
     if (introVisible) return;
     if (matchState !== "in-match") return;
@@ -89,6 +139,11 @@ export default function RankedMatch() {
 
     answeredRef.current = false;
     setTimeLeft(QUESTION_TIME);
+    setSelectedAnswer(null);
+    setRivalReveal("idle");
+
+    if (revealTimeoutRef.current) clearTimeout(revealTimeoutRef.current);
+    if (advanceTimeoutRef.current) clearTimeout(advanceTimeoutRef.current);
 
     const interval = setInterval(() => {
       setTimeLeft((t) => {
@@ -96,10 +151,8 @@ export default function RankedMatch() {
           clearInterval(interval);
 
           if (!answeredRef.current) {
-            answeredRef.current = true;
             feedback.suddenDeath();
-            handlePlayerAnswer(false);
-            handleAIDecision(currentQuestionIndex);
+            resolveRankedTurn(false);
           }
 
           return 0;
@@ -115,8 +168,6 @@ export default function RankedMatch() {
     currentQuestionIndex,
     matchState,
     q,
-    handlePlayerAnswer,
-    handleAIDecision,
   ]);
 
   useEffect(() => {
@@ -132,8 +183,6 @@ export default function RankedMatch() {
     if (!q) return;
     if (answeredRef.current) return;
 
-    answeredRef.current = true;
-
     const isCorrect = answer === q.correct;
 
     if (isCorrect) {
@@ -146,8 +195,7 @@ export default function RankedMatch() {
       feedback.wrong();
     }
 
-    handlePlayerAnswer(isCorrect);
-    handleAIDecision(currentQuestionIndex);
+    resolveRankedTurn(isCorrect, answer);
   };
 
   if (introVisible) {
@@ -170,7 +218,8 @@ export default function RankedMatch() {
               <ImageBackground source={RIVAL_CARD_ART} resizeMode="cover" imageStyle={styles.playerArtImage} style={styles.playerArt} />
               <Text style={styles.avatar}>AI</Text>
               <Text style={styles.playerName}>{rivalName}</Text>
-              <Text style={styles.playerSub}>AI Rival</Text>
+              <Text style={styles.playerSub}>{rivalTitle}</Text>
+              <Text style={styles.rivalRecordText}>{rivalryLabel}</Text>
             </View>
           </View>
 
@@ -199,21 +248,42 @@ export default function RankedMatch() {
             <LinearGradient pointerEvents="none" colors={["rgba(3,8,18,0.16)", "rgba(3,8,18,0.72)"]} start={{ x: 1, y: 0 }} end={{ x: 0, y: 1 }} style={StyleSheet.absoluteFillObject} />
             <Text style={styles.matchLabel}>RANKED ARENA</Text>
             <Text style={styles.header}>
-              Question {currentQuestionIndex + 1}
+              Question {currentQuestionIndex + 1}/{questions.length}
             </Text>
-            <Text style={styles.rivalText}>Opponent: {rivalName}</Text>
+            <Text style={styles.rivalText}>Opponent: {rivalName} • {rivalStyle}</Text>
+            <Text style={styles.rivalRecordText}>{rivalryLabel}</Text>
           </ImageBackground>
 
           <Text style={styles.timer}>⏳ {timeLeft}s</Text>
+
+          <View style={[styles.rivalStatusCard, rivalReveal !== "idle" && styles.rivalStatusActive]}>
+            <Text style={styles.rivalStatusLabel}>{rivalName}</Text>
+            <Text style={styles.rivalStatusText}>
+              {rivalReveal === "thinking"
+                ? "Rival thinking…"
+                : rivalReveal === "correct"
+                  ? "Rival answered correctly"
+                  : rivalReveal === "wrong"
+                    ? "Rival missed"
+                    : rivalReveal === "timeout"
+                      ? "Rival timed out"
+                      : "Waiting for your answer"}
+            </Text>
+          </View>
 
           <Text style={styles.question}>{typeof q.text === "string" ? q.text : ""}</Text>
 
           {(Array.isArray(q.answers) ? q.answers : []).map((ans: string) => (
             <TouchableOpacity
               key={ans}
-              style={styles.answerButton}
+              style={[
+                styles.answerButton,
+                selectedAnswer === ans && styles.answerButtonSelected,
+                selectedAnswer && selectedAnswer !== ans && styles.answerButtonDimmed,
+              ]}
               onPress={() => handleAnswer(ans)}
               activeOpacity={0.85}
+              disabled={answeredRef.current}
             >
               <Text style={styles.answerText}>{ans}</Text>
             </TouchableOpacity>
@@ -313,6 +383,14 @@ const styles = StyleSheet.create({
     marginTop: 5,
   },
 
+  rivalRecordText: {
+    color: "#8FEAFF",
+    fontSize: 10.5,
+    fontWeight: "900",
+    textAlign: "center",
+    marginTop: 4,
+  },
+
   stakesCard: {
     width: "100%",
     backgroundColor: "rgba(14,25,48,0.88)",
@@ -384,6 +462,36 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
 
+  rivalStatusCard: {
+    borderRadius: 16,
+    borderWidth: 1,
+    borderColor: "rgba(143,230,255,0.18)",
+    backgroundColor: "rgba(9,24,45,0.82)",
+    paddingHorizontal: 14,
+    paddingVertical: 10,
+    marginBottom: 10,
+  },
+
+  rivalStatusActive: {
+    borderColor: "rgba(143,230,255,0.44)",
+    backgroundColor: "rgba(13,38,68,0.94)",
+  },
+
+  rivalStatusLabel: {
+    color: "#8FEAFF",
+    fontSize: 11,
+    fontWeight: "900",
+    letterSpacing: 0.7,
+    textTransform: "uppercase",
+  },
+
+  rivalStatusText: {
+    color: "#E7F8FF",
+    fontSize: 13,
+    fontWeight: "800",
+    marginTop: 3,
+  },
+
   question: {
     color: "#fff",
     fontSize: 20,
@@ -402,6 +510,15 @@ const styles = StyleSheet.create({
     borderColor: "rgba(143,230,255,0.18)",
   },
 
+  answerButtonSelected: {
+    borderColor: "rgba(143,230,255,0.72)",
+    backgroundColor: "rgba(25,72,103,0.96)",
+  },
+
+  answerButtonDimmed: {
+    opacity: 0.55,
+  },
+
   answerText: {
     color: "#fff",
     fontSize: 17,
@@ -409,4 +526,8 @@ const styles = StyleSheet.create({
     fontWeight: "700",
   },
 });
+
+
+
+
 

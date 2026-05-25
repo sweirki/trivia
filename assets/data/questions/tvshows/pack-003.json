@@ -1,1 +1,3802 @@
-[]
+[
+  {
+    "id": 53501,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to House of Cards?",
+    "answers": [
+      "Washington, D.C.",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Washington, D.C.",
+    "explanation": "Washington, D.C. is a key setting connected to the story world of House of Cards.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53502,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with House of Cards?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "House of Cards became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53503,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes House of Cards?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "political drama",
+      "science fiction"
+    ],
+    "correctAnswer": "political drama",
+    "explanation": "House of Cards is commonly recognized as a political drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53504,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Homeland?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "CIA operations"
+    ],
+    "correctAnswer": "CIA operations",
+    "explanation": "CIA operations is a key setting connected to the story world of Homeland.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53505,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Homeland?",
+    "answers": [
+      "Showtime",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Showtime",
+    "explanation": "Homeland became strongly associated with Showtime during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53506,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Homeland?",
+    "answers": [
+      "sitcom",
+      "spy thriller",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "spy thriller",
+    "explanation": "Homeland is commonly recognized as a spy thriller.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53507,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to 24?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "counterterrorism crises",
+      "Westeros"
+    ],
+    "correctAnswer": "counterterrorism crises",
+    "explanation": "counterterrorism crises is a key setting connected to the story world of 24.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53508,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with 24?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "Fox"
+    ],
+    "correctAnswer": "Fox",
+    "explanation": "24 became strongly associated with Fox during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53509,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes 24?",
+    "answers": [
+      "action thriller",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "action thriller",
+    "explanation": "24 is commonly recognized as a action thriller.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53510,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Prison Break?",
+    "answers": [
+      "New York City",
+      "Fox River State Penitentiary",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Fox River State Penitentiary",
+    "explanation": "Fox River State Penitentiary is a key setting connected to the story world of Prison Break.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53511,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Prison Break?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "Fox",
+      "NBC"
+    ],
+    "correctAnswer": "Fox",
+    "explanation": "Prison Break became strongly associated with Fox during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53512,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Prison Break?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "action drama"
+    ],
+    "correctAnswer": "action drama",
+    "explanation": "Prison Break is commonly recognized as a action drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53513,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Ozark?",
+    "answers": [
+      "Missouri Ozarks",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Missouri Ozarks",
+    "explanation": "Missouri Ozarks is a key setting connected to the story world of Ozark.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53514,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Ozark?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Ozark became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53515,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Ozark?",
+    "answers": [
+      "sitcom",
+      "science fiction",
+      "crime drama",
+      "fantasy drama"
+    ],
+    "correctAnswer": "crime drama",
+    "explanation": "Ozark is commonly recognized as a crime drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53516,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Narcos?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Colombia"
+    ],
+    "correctAnswer": "Colombia",
+    "explanation": "Colombia is a key setting connected to the story world of Narcos.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53517,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Narcos?",
+    "answers": [
+      "Netflix",
+      "HBO",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Narcos became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53518,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Narcos?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "fantasy drama"
+    ],
+    "correctAnswer": "crime drama",
+    "explanation": "Narcos is commonly recognized as a crime drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53519,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Mindhunter?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "FBI Behavioral Science Unit",
+      "Westeros"
+    ],
+    "correctAnswer": "FBI Behavioral Science Unit",
+    "explanation": "FBI Behavioral Science Unit is a key setting connected to the story world of Mindhunter.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53520,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Mindhunter?",
+    "answers": [
+      "HBO",
+      "NBC",
+      "ABC",
+      "Netflix"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Mindhunter became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53521,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Mindhunter?",
+    "answers": [
+      "crime drama",
+      "sitcom",
+      "science fiction",
+      "fantasy drama"
+    ],
+    "correctAnswer": "crime drama",
+    "explanation": "Mindhunter is commonly recognized as a crime drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53522,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Bear?",
+    "answers": [
+      "New York City",
+      "Chicago",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Chicago",
+    "explanation": "Chicago is a key setting connected to the story world of The Bear.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53523,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Bear?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "FX/Hulu",
+      "NBC"
+    ],
+    "correctAnswer": "FX/Hulu",
+    "explanation": "The Bear became strongly associated with FX/Hulu during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53524,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Bear?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "drama"
+    ],
+    "correctAnswer": "drama",
+    "explanation": "The Bear is commonly recognized as a drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53525,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Ted Lasso?",
+    "answers": [
+      "AFC Richmond",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "AFC Richmond",
+    "explanation": "AFC Richmond is a key setting connected to the story world of Ted Lasso.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53526,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Ted Lasso?",
+    "answers": [
+      "HBO",
+      "Apple TV+",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Apple TV+",
+    "explanation": "Ted Lasso became strongly associated with Apple TV+ during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53527,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Ted Lasso?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "sports comedy",
+      "science fiction"
+    ],
+    "correctAnswer": "sports comedy",
+    "explanation": "Ted Lasso is commonly recognized as a sports comedy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53528,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Good Place?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "the afterlife"
+    ],
+    "correctAnswer": "the afterlife",
+    "explanation": "the afterlife is a key setting connected to the story world of The Good Place.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53529,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Good Place?",
+    "answers": [
+      "NBC",
+      "HBO",
+      "Netflix",
+      "ABC"
+    ],
+    "correctAnswer": "NBC",
+    "explanation": "The Good Place became strongly associated with NBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53530,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Good Place?",
+    "answers": [
+      "sitcom",
+      "fantasy comedy",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "fantasy comedy",
+    "explanation": "The Good Place is commonly recognized as a fantasy comedy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53531,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Schitt's Creek?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Schitt's Creek",
+      "Westeros"
+    ],
+    "correctAnswer": "Schitt's Creek",
+    "explanation": "Schitt's Creek is a key setting connected to the story world of Schitt's Creek.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53532,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Schitt's Creek?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "CBC"
+    ],
+    "correctAnswer": "CBC",
+    "explanation": "Schitt's Creek became strongly associated with CBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53533,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Schitt's Creek?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "fantasy drama"
+    ],
+    "correctAnswer": "sitcom",
+    "explanation": "Schitt's Creek is commonly recognized as a sitcom.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53534,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to It's Always Sunny in Philadelphia?",
+    "answers": [
+      "New York City",
+      "Philadelphia",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Philadelphia",
+    "explanation": "Philadelphia is a key setting connected to the story world of It's Always Sunny in Philadelphia.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53535,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with It's Always Sunny in Philadelphia?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "FX/FXX",
+      "NBC"
+    ],
+    "correctAnswer": "FX/FXX",
+    "explanation": "It's Always Sunny in Philadelphia became strongly associated with FX/FXX during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53536,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes It's Always Sunny in Philadelphia?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "dark sitcom"
+    ],
+    "correctAnswer": "dark sitcom",
+    "explanation": "It's Always Sunny in Philadelphia is commonly recognized as a dark sitcom.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53537,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Frasier?",
+    "answers": [
+      "Seattle",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Seattle",
+    "explanation": "Seattle is a key setting connected to the story world of Frasier.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53538,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Frasier?",
+    "answers": [
+      "HBO",
+      "NBC",
+      "Netflix",
+      "ABC"
+    ],
+    "correctAnswer": "NBC",
+    "explanation": "Frasier became strongly associated with NBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53539,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Frasier?",
+    "answers": [
+      "crime drama",
+      "science fiction",
+      "sitcom",
+      "fantasy drama"
+    ],
+    "correctAnswer": "sitcom",
+    "explanation": "Frasier is commonly recognized as a sitcom.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53540,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Cheers?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Boston bar"
+    ],
+    "correctAnswer": "Boston bar",
+    "explanation": "Boston bar is a key setting connected to the story world of Cheers.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53541,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Cheers?",
+    "answers": [
+      "NBC",
+      "HBO",
+      "Netflix",
+      "ABC"
+    ],
+    "correctAnswer": "NBC",
+    "explanation": "Cheers became strongly associated with NBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53542,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Cheers?",
+    "answers": [
+      "crime drama",
+      "sitcom",
+      "science fiction",
+      "fantasy drama"
+    ],
+    "correctAnswer": "sitcom",
+    "explanation": "Cheers is commonly recognized as a sitcom.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53543,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to M*A*S*H?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Korean War field hospital",
+      "Westeros"
+    ],
+    "correctAnswer": "Korean War field hospital",
+    "explanation": "Korean War field hospital is a key setting connected to the story world of M*A*S*H.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53544,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with M*A*S*H?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "CBS"
+    ],
+    "correctAnswer": "CBS",
+    "explanation": "M*A*S*H became strongly associated with CBS during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53545,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes M*A*S*H?",
+    "answers": [
+      "comedy drama",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "comedy drama",
+    "explanation": "M*A*S*H is commonly recognized as a comedy drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53546,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Simpsons?",
+    "answers": [
+      "New York City",
+      "Springfield",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Springfield",
+    "explanation": "Springfield is a key setting connected to the story world of The Simpsons.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53547,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Simpsons?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "Fox",
+      "NBC"
+    ],
+    "correctAnswer": "Fox",
+    "explanation": "The Simpsons became strongly associated with Fox during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53548,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Simpsons?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "animated sitcom"
+    ],
+    "correctAnswer": "animated sitcom",
+    "explanation": "The Simpsons is commonly recognized as a animated sitcom.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53549,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Futurama?",
+    "answers": [
+      "New New York",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "New New York",
+    "explanation": "New New York is a key setting connected to the story world of Futurama.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53550,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Futurama?",
+    "answers": [
+      "HBO",
+      "Fox",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Fox",
+    "explanation": "Futurama became strongly associated with Fox during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53551,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Futurama?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "animated sci-fi comedy",
+      "science fiction"
+    ],
+    "correctAnswer": "animated sci-fi comedy",
+    "explanation": "Futurama is commonly recognized as a animated sci-fi comedy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53552,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Rick and Morty?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "multiverse adventures"
+    ],
+    "correctAnswer": "multiverse adventures",
+    "explanation": "multiverse adventures is a key setting connected to the story world of Rick and Morty.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53553,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Rick and Morty?",
+    "answers": [
+      "Adult Swim",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Adult Swim",
+    "explanation": "Rick and Morty became strongly associated with Adult Swim during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53554,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Rick and Morty?",
+    "answers": [
+      "sitcom",
+      "animated sci-fi comedy",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "animated sci-fi comedy",
+    "explanation": "Rick and Morty is commonly recognized as a animated sci-fi comedy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53555,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to BoJack Horseman?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Hollywood",
+      "Westeros"
+    ],
+    "correctAnswer": "Hollywood",
+    "explanation": "Hollywood is a key setting connected to the story world of BoJack Horseman.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53556,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with BoJack Horseman?",
+    "answers": [
+      "HBO",
+      "NBC",
+      "ABC",
+      "Netflix"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "BoJack Horseman became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53557,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes BoJack Horseman?",
+    "answers": [
+      "animated dramedy",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "animated dramedy",
+    "explanation": "BoJack Horseman is commonly recognized as a animated dramedy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53558,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to South Park?",
+    "answers": [
+      "New York City",
+      "South Park, Colorado",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "South Park, Colorado",
+    "explanation": "South Park, Colorado is a key setting connected to the story world of South Park.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53559,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with South Park?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "Comedy Central",
+      "NBC"
+    ],
+    "correctAnswer": "Comedy Central",
+    "explanation": "South Park became strongly associated with Comedy Central during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53560,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes South Park?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "animated satire"
+    ],
+    "correctAnswer": "animated satire",
+    "explanation": "South Park is commonly recognized as a animated satire.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53561,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Avatar: The Last Airbender?",
+    "answers": [
+      "the Four Nations",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "the Four Nations",
+    "explanation": "the Four Nations is a key setting connected to the story world of Avatar: The Last Airbender.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53562,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Avatar: The Last Airbender?",
+    "answers": [
+      "HBO",
+      "Nickelodeon",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Nickelodeon",
+    "explanation": "Avatar: The Last Airbender became strongly associated with Nickelodeon during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53563,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Avatar: The Last Airbender?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "animated fantasy",
+      "science fiction"
+    ],
+    "correctAnswer": "animated fantasy",
+    "explanation": "Avatar: The Last Airbender is commonly recognized as a animated fantasy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53564,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Legend of Korra?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Republic City"
+    ],
+    "correctAnswer": "Republic City",
+    "explanation": "Republic City is a key setting connected to the story world of The Legend of Korra.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53565,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Legend of Korra?",
+    "answers": [
+      "Nickelodeon",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Nickelodeon",
+    "explanation": "The Legend of Korra became strongly associated with Nickelodeon during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53566,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Legend of Korra?",
+    "answers": [
+      "sitcom",
+      "animated fantasy",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "animated fantasy",
+    "explanation": "The Legend of Korra is commonly recognized as a animated fantasy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53567,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Gravity Falls?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Gravity Falls, Oregon",
+      "Westeros"
+    ],
+    "correctAnswer": "Gravity Falls, Oregon",
+    "explanation": "Gravity Falls, Oregon is a key setting connected to the story world of Gravity Falls.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53568,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Gravity Falls?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "Disney Channel"
+    ],
+    "correctAnswer": "Disney Channel",
+    "explanation": "Gravity Falls became strongly associated with Disney Channel during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53569,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Gravity Falls?",
+    "answers": [
+      "animated mystery",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "animated mystery",
+    "explanation": "Gravity Falls is commonly recognized as a animated mystery.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53570,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Adventure Time?",
+    "answers": [
+      "New York City",
+      "the Land of Ooo",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "the Land of Ooo",
+    "explanation": "the Land of Ooo is a key setting connected to the story world of Adventure Time.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53571,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Adventure Time?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "Cartoon Network",
+      "NBC"
+    ],
+    "correctAnswer": "Cartoon Network",
+    "explanation": "Adventure Time became strongly associated with Cartoon Network during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53572,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Adventure Time?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "animated fantasy"
+    ],
+    "correctAnswer": "animated fantasy",
+    "explanation": "Adventure Time is commonly recognized as a animated fantasy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53573,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Regular Show?",
+    "answers": [
+      "a city park",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "a city park",
+    "explanation": "a city park is a key setting connected to the story world of Regular Show.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53574,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Regular Show?",
+    "answers": [
+      "HBO",
+      "Cartoon Network",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Cartoon Network",
+    "explanation": "Regular Show became strongly associated with Cartoon Network during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53575,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Regular Show?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "animated comedy",
+      "science fiction"
+    ],
+    "correctAnswer": "animated comedy",
+    "explanation": "Regular Show is commonly recognized as a animated comedy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53576,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to SpongeBob SquarePants?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Bikini Bottom"
+    ],
+    "correctAnswer": "Bikini Bottom",
+    "explanation": "Bikini Bottom is a key setting connected to the story world of SpongeBob SquarePants.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53577,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with SpongeBob SquarePants?",
+    "answers": [
+      "Nickelodeon",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Nickelodeon",
+    "explanation": "SpongeBob SquarePants became strongly associated with Nickelodeon during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53578,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes SpongeBob SquarePants?",
+    "answers": [
+      "sitcom",
+      "animated comedy",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "animated comedy",
+    "explanation": "SpongeBob SquarePants is commonly recognized as a animated comedy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53579,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Boys?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "a superhero-controlled America",
+      "Westeros"
+    ],
+    "correctAnswer": "a superhero-controlled America",
+    "explanation": "a superhero-controlled America is a key setting connected to the story world of The Boys.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53580,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Boys?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "Prime Video"
+    ],
+    "correctAnswer": "Prime Video",
+    "explanation": "The Boys became strongly associated with Prime Video during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53581,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Boys?",
+    "answers": [
+      "superhero satire",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "superhero satire",
+    "explanation": "The Boys is commonly recognized as a superhero satire.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53582,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Daredevil?",
+    "answers": [
+      "New York City",
+      "Hell's Kitchen",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Hell's Kitchen",
+    "explanation": "Hell's Kitchen is a key setting connected to the story world of Daredevil.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53583,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Daredevil?",
+    "answers": [
+      "HBO",
+      "NBC",
+      "Netflix",
+      "ABC"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Daredevil became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53584,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Daredevil?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "superhero drama"
+    ],
+    "correctAnswer": "superhero drama",
+    "explanation": "Daredevil is commonly recognized as a superhero drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53585,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to WandaVision?",
+    "answers": [
+      "Westview",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Westview",
+    "explanation": "Westview is a key setting connected to the story world of WandaVision.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53586,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with WandaVision?",
+    "answers": [
+      "HBO",
+      "Disney+",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Disney+",
+    "explanation": "WandaVision became strongly associated with Disney+ during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53587,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes WandaVision?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "superhero mystery",
+      "science fiction"
+    ],
+    "correctAnswer": "superhero mystery",
+    "explanation": "WandaVision is commonly recognized as a superhero mystery.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53588,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Loki?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "the Time Variance Authority"
+    ],
+    "correctAnswer": "the Time Variance Authority",
+    "explanation": "the Time Variance Authority is a key setting connected to the story world of Loki.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53589,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Loki?",
+    "answers": [
+      "Disney+",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Disney+",
+    "explanation": "Loki became strongly associated with Disney+ during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53590,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Loki?",
+    "answers": [
+      "sitcom",
+      "superhero sci-fi",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "superhero sci-fi",
+    "explanation": "Loki is commonly recognized as a superhero sci-fi.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53591,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Smallville?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Smallville, Kansas",
+      "Westeros"
+    ],
+    "correctAnswer": "Smallville, Kansas",
+    "explanation": "Smallville, Kansas is a key setting connected to the story world of Smallville.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53592,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Smallville?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "The WB/CW"
+    ],
+    "correctAnswer": "The WB/CW",
+    "explanation": "Smallville became strongly associated with The WB/CW during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53593,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Smallville?",
+    "answers": [
+      "superhero drama",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "superhero drama",
+    "explanation": "Smallville is commonly recognized as a superhero drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53594,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Buffy the Vampire Slayer?",
+    "answers": [
+      "New York City",
+      "Sunnydale",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Sunnydale",
+    "explanation": "Sunnydale is a key setting connected to the story world of Buffy the Vampire Slayer.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53595,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Buffy the Vampire Slayer?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "The WB/UPN",
+      "NBC"
+    ],
+    "correctAnswer": "The WB/UPN",
+    "explanation": "Buffy the Vampire Slayer became strongly associated with The WB/UPN during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53596,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Buffy the Vampire Slayer?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "supernatural drama"
+    ],
+    "correctAnswer": "supernatural drama",
+    "explanation": "Buffy the Vampire Slayer is commonly recognized as a supernatural drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53597,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Angel?",
+    "answers": [
+      "Los Angeles",
+      "New York City",
+      "Westeros",
+      "Hawkins, Indiana"
+    ],
+    "correctAnswer": "Los Angeles",
+    "explanation": "Los Angeles is a key setting connected to the story world of Angel.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53598,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Angel?",
+    "answers": [
+      "HBO",
+      "The WB",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "The WB",
+    "explanation": "Angel became strongly associated with The WB during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53599,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Angel?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "supernatural drama",
+      "science fiction"
+    ],
+    "correctAnswer": "supernatural drama",
+    "explanation": "Angel is commonly recognized as a supernatural drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53600,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Supernatural?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "roads across America"
+    ],
+    "correctAnswer": "roads across America",
+    "explanation": "roads across America is a key setting connected to the story world of Supernatural.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53601,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Supernatural?",
+    "answers": [
+      "The WB/CW",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "The WB/CW",
+    "explanation": "Supernatural became strongly associated with The WB/CW during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53602,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Supernatural?",
+    "answers": [
+      "sitcom",
+      "supernatural drama",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "supernatural drama",
+    "explanation": "Supernatural is commonly recognized as a supernatural drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53603,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Vampire Diaries?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Mystic Falls",
+      "Westeros"
+    ],
+    "correctAnswer": "Mystic Falls",
+    "explanation": "Mystic Falls is a key setting connected to the story world of The Vampire Diaries.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53604,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Vampire Diaries?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "The CW"
+    ],
+    "correctAnswer": "The CW",
+    "explanation": "The Vampire Diaries became strongly associated with The CW during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53605,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Vampire Diaries?",
+    "answers": [
+      "supernatural teen drama",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "supernatural teen drama",
+    "explanation": "The Vampire Diaries is commonly recognized as a supernatural teen drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53606,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Teen Wolf?",
+    "answers": [
+      "New York City",
+      "Beacon Hills",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Beacon Hills",
+    "explanation": "Beacon Hills is a key setting connected to the story world of Teen Wolf.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53607,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Teen Wolf?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "MTV",
+      "NBC"
+    ],
+    "correctAnswer": "MTV",
+    "explanation": "Teen Wolf became strongly associated with MTV during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53608,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Teen Wolf?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "supernatural teen drama"
+    ],
+    "correctAnswer": "supernatural teen drama",
+    "explanation": "Teen Wolf is commonly recognized as a supernatural teen drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53609,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Wednesday?",
+    "answers": [
+      "Nevermore Academy",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Nevermore Academy",
+    "explanation": "Nevermore Academy is a key setting connected to the story world of Wednesday.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53610,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Wednesday?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Wednesday became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53611,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Wednesday?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "supernatural mystery",
+      "science fiction"
+    ],
+    "correctAnswer": "supernatural mystery",
+    "explanation": "Wednesday is commonly recognized as a supernatural mystery.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53612,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Boys Presents: Gen V?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Godolkin University"
+    ],
+    "correctAnswer": "Godolkin University",
+    "explanation": "Godolkin University is a key setting connected to the story world of The Boys Presents: Gen V.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53613,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Boys Presents: Gen V?",
+    "answers": [
+      "Prime Video",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Prime Video",
+    "explanation": "The Boys Presents: Gen V became strongly associated with Prime Video during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53614,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Boys Presents: Gen V?",
+    "answers": [
+      "sitcom",
+      "superhero satire",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "superhero satire",
+    "explanation": "The Boys Presents: Gen V is commonly recognized as a superhero satire.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53615,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Witcher?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "the Continent",
+      "Westeros"
+    ],
+    "correctAnswer": "the Continent",
+    "explanation": "the Continent is a key setting connected to the story world of The Witcher.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53616,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Witcher?",
+    "answers": [
+      "HBO",
+      "NBC",
+      "ABC",
+      "Netflix"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "The Witcher became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53617,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Witcher?",
+    "answers": [
+      "fantasy drama",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "fantasy drama",
+    "explanation": "The Witcher is commonly recognized as a fantasy drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53618,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Merlin?",
+    "answers": [
+      "New York City",
+      "Camelot",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Camelot",
+    "explanation": "Camelot is a key setting connected to the story world of Merlin.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53619,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Merlin?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "BBC",
+      "NBC"
+    ],
+    "correctAnswer": "BBC",
+    "explanation": "Merlin became strongly associated with BBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53620,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Merlin?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "fantasy adventure"
+    ],
+    "correctAnswer": "fantasy adventure",
+    "explanation": "Merlin is commonly recognized as a fantasy adventure.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53621,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Once Upon a Time?",
+    "answers": [
+      "Storybrooke",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Storybrooke",
+    "explanation": "Storybrooke is a key setting connected to the story world of Once Upon a Time.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53622,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Once Upon a Time?",
+    "answers": [
+      "HBO",
+      "ABC",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "ABC",
+    "explanation": "Once Upon a Time became strongly associated with ABC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53623,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Once Upon a Time?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "fantasy drama",
+      "science fiction"
+    ],
+    "correctAnswer": "fantasy drama",
+    "explanation": "Once Upon a Time is commonly recognized as a fantasy drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53624,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Vikings?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Scandinavia"
+    ],
+    "correctAnswer": "Scandinavia",
+    "explanation": "Scandinavia is a key setting connected to the story world of Vikings.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53625,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Vikings?",
+    "answers": [
+      "History",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "History",
+    "explanation": "Vikings became strongly associated with History during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53626,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Vikings?",
+    "answers": [
+      "sitcom",
+      "historical drama",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "historical drama",
+    "explanation": "Vikings is commonly recognized as a historical drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53627,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Last Kingdom?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Anglo-Saxon England",
+      "Westeros"
+    ],
+    "correctAnswer": "Anglo-Saxon England",
+    "explanation": "Anglo-Saxon England is a key setting connected to the story world of The Last Kingdom.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53628,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Last Kingdom?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "BBC/Netflix"
+    ],
+    "correctAnswer": "BBC/Netflix",
+    "explanation": "The Last Kingdom became strongly associated with BBC/Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53629,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Last Kingdom?",
+    "answers": [
+      "historical drama",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "historical drama",
+    "explanation": "The Last Kingdom is commonly recognized as a historical drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53630,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Rome?",
+    "answers": [
+      "New York City",
+      "Ancient Rome",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Ancient Rome",
+    "explanation": "Ancient Rome is a key setting connected to the story world of Rome.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53631,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Rome?",
+    "answers": [
+      "Netflix",
+      "NBC",
+      "HBO",
+      "ABC"
+    ],
+    "correctAnswer": "HBO",
+    "explanation": "Rome became strongly associated with HBO during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53632,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Rome?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "historical drama"
+    ],
+    "correctAnswer": "historical drama",
+    "explanation": "Rome is commonly recognized as a historical drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53633,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Spartacus?",
+    "answers": [
+      "Ancient Rome",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Ancient Rome",
+    "explanation": "Ancient Rome is a key setting connected to the story world of Spartacus.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53634,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Spartacus?",
+    "answers": [
+      "HBO",
+      "Starz",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Starz",
+    "explanation": "Spartacus became strongly associated with Starz during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53635,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Spartacus?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "historical action",
+      "science fiction"
+    ],
+    "correctAnswer": "historical action",
+    "explanation": "Spartacus is commonly recognized as a historical action.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53636,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Yellowstone?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Montana"
+    ],
+    "correctAnswer": "Montana",
+    "explanation": "Montana is a key setting connected to the story world of Yellowstone.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53637,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Yellowstone?",
+    "answers": [
+      "Paramount Network",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Paramount Network",
+    "explanation": "Yellowstone became strongly associated with Paramount Network during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53638,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Yellowstone?",
+    "answers": [
+      "sitcom",
+      "western drama",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "western drama",
+    "explanation": "Yellowstone is commonly recognized as a western drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53639,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The White Lotus?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "luxury resorts",
+      "Westeros"
+    ],
+    "correctAnswer": "luxury resorts",
+    "explanation": "luxury resorts is a key setting connected to the story world of The White Lotus.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53640,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The White Lotus?",
+    "answers": [
+      "Netflix",
+      "NBC",
+      "ABC",
+      "HBO"
+    ],
+    "correctAnswer": "HBO",
+    "explanation": "The White Lotus became strongly associated with HBO during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53641,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The White Lotus?",
+    "answers": [
+      "satirical drama",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "satirical drama",
+    "explanation": "The White Lotus is commonly recognized as a satirical drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53642,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Only Murders in the Building?",
+    "answers": [
+      "New York City",
+      "the Arconia",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "the Arconia",
+    "explanation": "the Arconia is a key setting connected to the story world of Only Murders in the Building.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53643,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Only Murders in the Building?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "Hulu",
+      "NBC"
+    ],
+    "correctAnswer": "Hulu",
+    "explanation": "Only Murders in the Building became strongly associated with Hulu during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53644,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Only Murders in the Building?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "mystery comedy"
+    ],
+    "correctAnswer": "mystery comedy",
+    "explanation": "Only Murders in the Building is commonly recognized as a mystery comedy.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53645,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Abbott Elementary?",
+    "answers": [
+      "Philadelphia public school",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Philadelphia public school",
+    "explanation": "Philadelphia public school is a key setting connected to the story world of Abbott Elementary.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53646,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Abbott Elementary?",
+    "answers": [
+      "HBO",
+      "ABC",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "ABC",
+    "explanation": "Abbott Elementary became strongly associated with ABC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53647,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Abbott Elementary?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "mockumentary sitcom",
+      "science fiction"
+    ],
+    "correctAnswer": "mockumentary sitcom",
+    "explanation": "Abbott Elementary is commonly recognized as a mockumentary sitcom.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53648,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Fleabag?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "London"
+    ],
+    "correctAnswer": "London",
+    "explanation": "London is a key setting connected to the story world of Fleabag.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53649,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Fleabag?",
+    "answers": [
+      "BBC",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "BBC",
+    "explanation": "Fleabag became strongly associated with BBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53650,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Fleabag?",
+    "answers": [
+      "sitcom",
+      "comedy drama",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "comedy drama",
+    "explanation": "Fleabag is commonly recognized as a comedy drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53651,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Killing Eve?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Europe",
+      "Westeros"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Europe is a key setting connected to the story world of Killing Eve.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53652,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Killing Eve?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "BBC America"
+    ],
+    "correctAnswer": "BBC America",
+    "explanation": "Killing Eve became strongly associated with BBC America during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53653,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Killing Eve?",
+    "answers": [
+      "spy thriller",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "spy thriller",
+    "explanation": "Killing Eve is commonly recognized as a spy thriller.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53654,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Line of Duty?",
+    "answers": [
+      "New York City",
+      "AC-12",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "AC-12",
+    "explanation": "AC-12 is a key setting connected to the story world of Line of Duty.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53655,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Line of Duty?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "BBC",
+      "NBC"
+    ],
+    "correctAnswer": "BBC",
+    "explanation": "Line of Duty became strongly associated with BBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53656,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Line of Duty?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "police drama"
+    ],
+    "correctAnswer": "police drama",
+    "explanation": "Line of Duty is commonly recognized as a police drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53657,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Office UK?",
+    "answers": [
+      "Slough",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Slough",
+    "explanation": "Slough is a key setting connected to the story world of The Office UK.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53658,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Office UK?",
+    "answers": [
+      "HBO",
+      "BBC",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "BBC",
+    "explanation": "The Office UK became strongly associated with BBC during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53659,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Office UK?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "mockumentary sitcom",
+      "science fiction"
+    ],
+    "correctAnswer": "mockumentary sitcom",
+    "explanation": "The Office UK is commonly recognized as a mockumentary sitcom.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53660,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Broadchurch?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Dorset coast"
+    ],
+    "correctAnswer": "Dorset coast",
+    "explanation": "Dorset coast is a key setting connected to the story world of Broadchurch.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53661,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Broadchurch?",
+    "answers": [
+      "ITV",
+      "HBO",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "ITV",
+    "explanation": "Broadchurch became strongly associated with ITV during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53662,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Broadchurch?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "fantasy drama"
+    ],
+    "correctAnswer": "crime drama",
+    "explanation": "Broadchurch is commonly recognized as a crime drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53663,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The IT Crowd?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Reynholm Industries",
+      "Westeros"
+    ],
+    "correctAnswer": "Reynholm Industries",
+    "explanation": "Reynholm Industries is a key setting connected to the story world of The IT Crowd.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53664,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The IT Crowd?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "NBC",
+      "Channel 4"
+    ],
+    "correctAnswer": "Channel 4",
+    "explanation": "The IT Crowd became strongly associated with Channel 4 during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53665,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The IT Crowd?",
+    "answers": [
+      "workplace sitcom",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "workplace sitcom",
+    "explanation": "The IT Crowd is commonly recognized as a workplace sitcom.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53666,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Derry Girls?",
+    "answers": [
+      "New York City",
+      "Derry, Northern Ireland",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Derry, Northern Ireland",
+    "explanation": "Derry, Northern Ireland is a key setting connected to the story world of Derry Girls.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53667,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Derry Girls?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "Channel 4",
+      "NBC"
+    ],
+    "correctAnswer": "Channel 4",
+    "explanation": "Derry Girls became strongly associated with Channel 4 during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53668,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Derry Girls?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "teen sitcom"
+    ],
+    "correctAnswer": "teen sitcom",
+    "explanation": "Derry Girls is commonly recognized as a teen sitcom.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53669,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Money Heist?",
+    "answers": [
+      "Spain",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Spain",
+    "explanation": "Spain is a key setting connected to the story world of Money Heist.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53670,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Money Heist?",
+    "answers": [
+      "HBO",
+      "Antena 3/Netflix",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "Antena 3/Netflix",
+    "explanation": "Money Heist became strongly associated with Antena 3/Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53671,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Money Heist?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "heist thriller",
+      "science fiction"
+    ],
+    "correctAnswer": "heist thriller",
+    "explanation": "Money Heist is commonly recognized as a heist thriller.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53672,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Dark?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Winden"
+    ],
+    "correctAnswer": "Winden",
+    "explanation": "Winden is a key setting connected to the story world of Dark.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53673,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Dark?",
+    "answers": [
+      "Netflix",
+      "HBO",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Dark became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53674,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Dark?",
+    "answers": [
+      "sitcom",
+      "sci-fi mystery",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "sci-fi mystery",
+    "explanation": "Dark is commonly recognized as a sci-fi mystery.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53675,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Lupin?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Paris",
+      "Westeros"
+    ],
+    "correctAnswer": "Paris",
+    "explanation": "Paris is a key setting connected to the story world of Lupin.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53676,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Lupin?",
+    "answers": [
+      "HBO",
+      "NBC",
+      "ABC",
+      "Netflix"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Lupin became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53677,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Lupin?",
+    "answers": [
+      "crime mystery",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "crime mystery",
+    "explanation": "Lupin is commonly recognized as a crime mystery.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53678,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Elite?",
+    "answers": [
+      "New York City",
+      "Las Encinas",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Las Encinas",
+    "explanation": "Las Encinas is a key setting connected to the story world of Elite.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53679,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Elite?",
+    "answers": [
+      "HBO",
+      "NBC",
+      "Netflix",
+      "ABC"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Elite became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53680,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Elite?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "teen thriller"
+    ],
+    "correctAnswer": "teen thriller",
+    "explanation": "Elite is commonly recognized as a teen thriller.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53681,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Call My Agent!?",
+    "answers": [
+      "Paris talent agency",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Paris talent agency",
+    "explanation": "Paris talent agency is a key setting connected to the story world of Call My Agent!.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53682,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Call My Agent!?",
+    "answers": [
+      "HBO",
+      "France 2",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "France 2",
+    "explanation": "Call My Agent! became strongly associated with France 2 during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53683,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Call My Agent!?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "comedy drama",
+      "science fiction"
+    ],
+    "correctAnswer": "comedy drama",
+    "explanation": "Call My Agent! is commonly recognized as a comedy drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53684,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Sacred Games?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "Mumbai"
+    ],
+    "correctAnswer": "Mumbai",
+    "explanation": "Mumbai is a key setting connected to the story world of Sacred Games.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53685,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Sacred Games?",
+    "answers": [
+      "Netflix",
+      "HBO",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Sacred Games became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53686,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Sacred Games?",
+    "answers": [
+      "sitcom",
+      "crime thriller",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "crime thriller",
+    "explanation": "Sacred Games is commonly recognized as a crime thriller.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53687,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Kingdom?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Joseon Korea",
+      "Westeros"
+    ],
+    "correctAnswer": "Joseon Korea",
+    "explanation": "Joseon Korea is a key setting connected to the story world of Kingdom.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53688,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Kingdom?",
+    "answers": [
+      "HBO",
+      "NBC",
+      "ABC",
+      "Netflix"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Kingdom became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53689,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Kingdom?",
+    "answers": [
+      "historical zombie thriller",
+      "sitcom",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "historical zombie thriller",
+    "explanation": "Kingdom is commonly recognized as a historical zombie thriller.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53690,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Crash Landing on You?",
+    "answers": [
+      "New York City",
+      "North Korea and South Korea",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "North Korea and South Korea",
+    "explanation": "North Korea and South Korea is a key setting connected to the story world of Crash Landing on You.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53691,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Crash Landing on You?",
+    "answers": [
+      "HBO",
+      "Netflix",
+      "tvN",
+      "NBC"
+    ],
+    "correctAnswer": "tvN",
+    "explanation": "Crash Landing on You became strongly associated with tvN during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53692,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Crash Landing on You?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "science fiction",
+      "romantic drama"
+    ],
+    "correctAnswer": "romantic drama",
+    "explanation": "Crash Landing on You is commonly recognized as a romantic drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53693,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to Extraordinary Attorney Woo?",
+    "answers": [
+      "Seoul",
+      "New York City",
+      "Los Angeles",
+      "Westeros"
+    ],
+    "correctAnswer": "Seoul",
+    "explanation": "Seoul is a key setting connected to the story world of Extraordinary Attorney Woo.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53694,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with Extraordinary Attorney Woo?",
+    "answers": [
+      "HBO",
+      "ENA",
+      "Netflix",
+      "NBC"
+    ],
+    "correctAnswer": "ENA",
+    "explanation": "Extraordinary Attorney Woo became strongly associated with ENA during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53695,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes Extraordinary Attorney Woo?",
+    "answers": [
+      "sitcom",
+      "crime drama",
+      "legal drama",
+      "science fiction"
+    ],
+    "correctAnswer": "legal drama",
+    "explanation": "Extraordinary Attorney Woo is commonly recognized as a legal drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53696,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to The Glory?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Westeros",
+      "South Korea"
+    ],
+    "correctAnswer": "South Korea",
+    "explanation": "South Korea is a key setting connected to the story world of The Glory.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53697,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with The Glory?",
+    "answers": [
+      "Netflix",
+      "HBO",
+      "NBC",
+      "ABC"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "The Glory became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  },
+  {
+    "id": 53698,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What genre best describes The Glory?",
+    "answers": [
+      "sitcom",
+      "revenge drama",
+      "crime drama",
+      "science fiction"
+    ],
+    "correctAnswer": "revenge drama",
+    "explanation": "The Glory is commonly recognized as a revenge drama.",
+    "tags": [
+      "tvshows",
+      "genre"
+    ]
+  },
+  {
+    "id": 53699,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What setting is strongly linked to All of Us Are Dead?",
+    "answers": [
+      "New York City",
+      "Los Angeles",
+      "Hyosan High School",
+      "Westeros"
+    ],
+    "correctAnswer": "Hyosan High School",
+    "explanation": "Hyosan High School is a key setting connected to the story world of All of Us Are Dead.",
+    "tags": [
+      "tvshows",
+      "setting"
+    ]
+  },
+  {
+    "id": 53700,
+    "category": "tvshows",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which network or platform originally became closely associated with All of Us Are Dead?",
+    "answers": [
+      "HBO",
+      "NBC",
+      "ABC",
+      "Netflix"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "All of Us Are Dead became strongly associated with Netflix during its run.",
+    "tags": [
+      "tvshows",
+      "network"
+    ]
+  }
+]

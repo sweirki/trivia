@@ -1,18 +1,18 @@
 [
   {
-    "id": 10001,
+    "id": 5001,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
     "text": "Which Japanese sports car is nicknamed “Godzilla”?",
     "answers": [
       "Nissan GT-R",
+      "Honda NSX",
       "Toyota Supra",
-      "Mazda RX-7",
-      "Honda NSX"
+      "Mazda RX-7"
     ],
     "correctAnswer": "Nissan GT-R",
-    "explanation": "Nissan GT-R is the correct answer to this cars question.",
+    "explanation": "Nissan GT-R is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -20,19 +20,19 @@
     ]
   },
   {
-    "id": 10002,
+    "id": 5002,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
-    "text": "Which car company manufactures the Mustang?",
+    "text": "What car company manufactures the Mustang?",
     "answers": [
-      "Ford",
       "Chevrolet",
+      "Ford",
       "Dodge",
       "Pontiac"
     ],
     "correctAnswer": "Ford",
-    "explanation": "Ford is the correct answer to this cars question.",
+    "explanation": "Ford is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -40,19 +40,19 @@
     ]
   },
   {
-    "id": 10003,
+    "id": 5003,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
     "text": "Which Porsche model is famous for its rear-engine layout?",
     "answers": [
-      "911",
-      "Cayman",
       "Panamera",
-      "Macan"
+      "Macan",
+      "911",
+      "Cayman"
     ],
     "correctAnswer": "911",
-    "explanation": "911 is the correct answer to this cars question.",
+    "explanation": "911 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -60,19 +60,19 @@
     ]
   },
   {
-    "id": 10004,
+    "id": 5004,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "easy",
     "text": "Which legendary Toyota became famous in the Fast & Furious franchise?",
     "answers": [
-      "Toyota Supra MK4",
+      "Toyota Chaser",
       "Toyota Celica",
       "Toyota MR2",
-      "Toyota Chaser"
+      "Toyota Supra MK4"
     ],
     "correctAnswer": "Toyota Supra MK4",
-    "explanation": "Toyota Supra MK4 is the correct answer to this cars question.",
+    "explanation": "Toyota Supra MK4 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -80,11 +80,11 @@
     ]
   },
   {
-    "id": 10005,
+    "id": 5005,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
-    "text": "Which automaker uses a prancing horse as its logo?",
+    "text": "Which automotive company uses a prancing horse as its logo?",
     "answers": [
       "Ferrari",
       "Maserati",
@@ -92,7 +92,7 @@
       "Pagani"
     ],
     "correctAnswer": "Ferrari",
-    "explanation": "Ferrari is the correct answer to this cars question.",
+    "explanation": "Ferrari is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -100,19 +100,19 @@
     ]
   },
   {
-    "id": 10006,
+    "id": 5006,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "easy",
     "text": "Which drivetrain layout is most associated with drifting?",
     "answers": [
-      "Rear-wheel drive",
-      "Front-wheel drive",
       "All-wheel drive",
-      "Four-wheel drive"
+      "Rear-wheel drive",
+      "Four-wheel drive",
+      "Front-wheel drive"
     ],
     "correctAnswer": "Rear-wheel drive",
-    "explanation": "Rear-wheel drive is the correct answer to this cars question.",
+    "explanation": "Rear-wheel drive is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -120,19 +120,19 @@
     ]
   },
   {
-    "id": 10007,
+    "id": 5007,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "easy",
     "text": "Which Japanese car is famous for its rotary engine?",
     "answers": [
-      "Mazda RX-7",
+      "Honda S2000",
       "Nissan Silvia",
-      "Toyota Supra",
-      "Honda S2000"
+      "Mazda RX-7",
+      "Toyota Supra"
     ],
     "correctAnswer": "Mazda RX-7",
-    "explanation": "Mazda RX-7 is the correct answer to this cars question.",
+    "explanation": "Mazda RX-7 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -140,39 +140,39 @@
     ]
   },
   {
-    "id": 10008,
+    "id": 5008,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
-    "text": "What does BMW stand for?",
+    "text": "What does BMW originally stand for in German?",
     "answers": [
       "Bavarian Motor Works",
-      "British Motor World",
-      "Berlin Machine Works",
-      "Bayern Mechanical Workshop"
+      "Berlin Motor Workshop",
+      "British Motor Works",
+      "Bayerische Motoren Werke"
     ],
-    "correctAnswer": "Bavarian Motor Works",
-    "explanation": "Bavarian Motor Works is the correct answer based on the facts asked in the question.",
+    "correctAnswer": "Bayerische Motoren Werke",
+    "explanation": "BMW comes from the German name Bayerische Motoren Werke, often translated as Bavarian Motor Works.",
     "tags": [
       "cars",
       "easy",
-      "bavarian-motor"
+      "bmw"
     ]
   },
   {
-    "id": 10009,
+    "id": 5009,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "easy",
     "text": "Which Ferrari was one of the last cars personally approved by Enzo Ferrari?",
     "answers": [
       "F40",
-      "Enzo",
       "F50",
-      "Testarossa"
+      "Testarossa",
+      "Enzo"
     ],
     "correctAnswer": "F40",
-    "explanation": "F40 is the correct answer to this cars question.",
+    "explanation": "F40 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -180,19 +180,19 @@
     ]
   },
   {
-    "id": 10010,
+    "id": 5010,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "easy",
     "text": "Which Subaru performance car became famous in rally racing?",
     "answers": [
+      "Forester XT",
       "Impreza WRX STI",
       "Legacy Touring Wagon",
-      "BRZ",
-      "Forester XT"
+      "BRZ"
     ],
     "correctAnswer": "Impreza WRX STI",
-    "explanation": "Impreza WRX STI is the correct answer to this cars question.",
+    "explanation": "Impreza WRX STI is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -200,19 +200,19 @@
     ]
   },
   {
-    "id": 10011,
+    "id": 5011,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
     "text": "Which American muscle car is associated with the Hellcat engine?",
     "answers": [
-      "Dodge Challenger",
       "Ford Mustang",
       "Chevrolet Camaro",
+      "Dodge Challenger",
       "Pontiac Firebird"
     ],
     "correctAnswer": "Dodge Challenger",
-    "explanation": "Dodge Challenger is the correct answer to this cars question.",
+    "explanation": "Dodge Challenger is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -220,19 +220,19 @@
     ]
   },
   {
-    "id": 10012,
+    "id": 5012,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "easy",
     "text": "Which McLaren hypercar was part of the famous “Holy Trinity”?",
     "answers": [
-      "McLaren P1",
-      "McLaren Senna",
       "McLaren F1",
-      "McLaren 720S"
+      "McLaren 720S",
+      "McLaren Senna",
+      "McLaren P1"
     ],
     "correctAnswer": "McLaren P1",
-    "explanation": "McLaren P1 is the correct answer to this cars question.",
+    "explanation": "McLaren P1 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -240,19 +240,19 @@
     ]
   },
   {
-    "id": 10013,
+    "id": 5013,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
-    "text": "Which automaker produces the Civic Type R?",
+    "text": "Which automotive company produces the Civic Type R?",
     "answers": [
       "Honda",
+      "Subaru",
       "Toyota",
-      "Mazda",
-      "Subaru"
+      "Mazda"
     ],
     "correctAnswer": "Honda",
-    "explanation": "Honda is the correct answer to this cars question.",
+    "explanation": "Honda is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -260,19 +260,19 @@
     ]
   },
   {
-    "id": 10014,
+    "id": 5014,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
-    "text": "Which car is famously known as the AE86 in Initial D?",
+    "difficulty": "easy",
+    "text": "What car is famously known as the AE86 in Initial D?",
     "answers": [
-      "Toyota Sprinter Trueno",
       "Toyota Supra",
+      "Toyota Sprinter Trueno",
       "Nissan Silvia",
       "Mazda RX-8"
     ],
     "correctAnswer": "Toyota Sprinter Trueno",
-    "explanation": "Toyota Sprinter Trueno is the correct answer to this cars question.",
+    "explanation": "Toyota Sprinter Trueno is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -280,19 +280,19 @@
     ]
   },
   {
-    "id": 10015,
+    "id": 5015,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "easy",
     "text": "Which Swedish hypercar manufacturer created the Jesko?",
     "answers": [
-      "Koenigsegg",
-      "Volvo",
       "Saab",
-      "Polestar"
+      "Polestar",
+      "Koenigsegg",
+      "Volvo"
     ],
     "correctAnswer": "Koenigsegg",
-    "explanation": "Koenigsegg is the correct answer to this cars question.",
+    "explanation": "Koenigsegg is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -300,19 +300,19 @@
     ]
   },
   {
-    "id": 10016,
+    "id": 5016,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
-    "text": "Which car company manufactures the Corvette?",
+    "difficulty": "easy",
+    "text": "What car company manufactures the Corvette?",
     "answers": [
-      "Chevrolet",
+      "Dodge",
       "Ford",
       "Cadillac",
-      "Dodge"
+      "Chevrolet"
     ],
     "correctAnswer": "Chevrolet",
-    "explanation": "Chevrolet is the correct answer to this cars question.",
+    "explanation": "Chevrolet is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -320,10 +320,10 @@
     ]
   },
   {
-    "id": 10017,
+    "id": 5017,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "easy",
     "text": "Which engine layout is most associated with Porsche sports cars?",
     "answers": [
       "Rear-engine boxer",
@@ -332,7 +332,7 @@
       "Rotary engine"
     ],
     "correctAnswer": "Rear-engine boxer",
-    "explanation": "Rear-engine boxer is the correct answer to this cars question.",
+    "explanation": "Rear-engine boxer is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -340,19 +340,19 @@
     ]
   },
   {
-    "id": 10018,
+    "id": 5018,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
     "text": "Which Italian automaker is known for the Aventador?",
     "answers": [
-      "Lamborghini",
-      "Ferrari",
       "Maserati",
-      "Pagani"
+      "Lamborghini",
+      "Pagani",
+      "Ferrari"
     ],
     "correctAnswer": "Lamborghini",
-    "explanation": "Lamborghini is the correct answer to this cars question.",
+    "explanation": "Lamborghini is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -360,19 +360,19 @@
     ]
   },
   {
-    "id": 10019,
+    "id": 5019,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
-    "text": "Which car became famous for the phrase “2JZ no shit” in car culture?",
+    "difficulty": "easy",
+    "text": "What car became famous for the phrase “2JZ no shit” in car culture?",
     "answers": [
-      "Toyota Supra MK4",
+      "Honda NSX",
       "Mazda RX-7",
-      "Nissan 350Z",
-      "Honda NSX"
+      "Toyota Supra MK4",
+      "Nissan 350Z"
     ],
     "correctAnswer": "Toyota Supra MK4",
-    "explanation": "Toyota Supra MK4 is the correct answer to this cars question.",
+    "explanation": "Toyota Supra MK4 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -380,19 +380,19 @@
     ]
   },
   {
-    "id": 10020,
+    "id": 5020,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "easy",
     "text": "Which Bugatti hypercar succeeded the Veyron?",
     "answers": [
-      "Chiron",
       "Divo",
       "Bolide",
-      "Centodieci"
+      "Centodieci",
+      "Chiron"
     ],
     "correctAnswer": "Chiron",
-    "explanation": "Chiron is the correct answer to this cars question.",
+    "explanation": "Chiron is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -400,19 +400,19 @@
     ]
   },
   {
-    "id": 10021,
+    "id": 5021,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
     "text": "Which German automaker uses the slogan “The Ultimate Driving Machine”?",
     "answers": [
       "BMW",
-      "Audi",
       "Mercedes-Benz",
-      "Porsche"
+      "Porsche",
+      "Audi"
     ],
     "correctAnswer": "BMW",
-    "explanation": "BMW is the correct answer to this cars question.",
+    "explanation": "BMW is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -420,19 +420,19 @@
     ]
   },
   {
-    "id": 10022,
+    "id": 5022,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "easy",
     "text": "Which Nissan sports car replaced the legendary Skyline GT-R name globally?",
     "answers": [
+      "Nissan Pulsar GTI-R",
       "Nissan GT-R R35",
       "Nissan 370Z",
-      "Nissan Silvia S15",
-      "Nissan Pulsar GTI-R"
+      "Nissan Silvia S15"
     ],
     "correctAnswer": "Nissan GT-R R35",
-    "explanation": "Nissan GT-R R35 is the correct answer to this cars question.",
+    "explanation": "Nissan GT-R R35 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -440,19 +440,19 @@
     ]
   },
   {
-    "id": 10023,
+    "id": 5023,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
-    "text": "Which car manufacturer created the LFA supercar?",
+    "difficulty": "easy",
+    "text": "What car manufacturer created the LFA supercar?",
     "answers": [
-      "Lexus",
       "Toyota",
       "Infiniti",
+      "Lexus",
       "Acura"
     ],
     "correctAnswer": "Lexus",
-    "explanation": "Lexus is the correct answer to this cars question.",
+    "explanation": "Lexus is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -460,19 +460,19 @@
     ]
   },
   {
-    "id": 10024,
+    "id": 5024,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
-    "text": "Which car company is known for the Camaro?",
+    "text": "What car company is known for the Camaro?",
     "answers": [
-      "Chevrolet",
-      "Ford",
       "Dodge",
-      "Pontiac"
+      "Pontiac",
+      "Ford",
+      "Chevrolet"
     ],
     "correctAnswer": "Chevrolet",
-    "explanation": "Chevrolet is the correct answer to this cars question.",
+    "explanation": "Chevrolet is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -480,19 +480,19 @@
     ]
   },
   {
-    "id": 10025,
+    "id": 5025,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "easy",
     "text": "Which Japanese automaker produces the WRX STI?",
     "answers": [
       "Subaru",
+      "Toyota",
       "Mazda",
-      "Honda",
-      "Toyota"
+      "Honda"
     ],
     "correctAnswer": "Subaru",
-    "explanation": "Subaru is the correct answer to this cars question.",
+    "explanation": "Subaru is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -500,19 +500,19 @@
     ]
   },
   {
-    "id": 10026,
+    "id": 5026,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "easy",
     "text": "Which hypercar manufacturer created the Huayra?",
     "answers": [
-      "Pagani",
       "Bugatti",
+      "Pagani",
       "Koenigsegg",
       "Rimac"
     ],
     "correctAnswer": "Pagani",
-    "explanation": "Pagani is the correct answer to this cars question.",
+    "explanation": "Pagani is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -520,19 +520,19 @@
     ]
   },
   {
-    "id": 10027,
+    "id": 5027,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "easy",
     "text": "Which famous endurance race is held annually in France?",
     "answers": [
-      "24 Hours of Le Mans",
-      "Monaco Grand Prix",
       "Daytona 500",
-      "Isle of Man TT"
+      "Isle of Man TT",
+      "24 Hours of Le Mans",
+      "Monaco Grand Prix"
     ],
     "correctAnswer": "24 Hours of Le Mans",
-    "explanation": "24 Hours of Le Mans is the correct answer to this cars question.",
+    "explanation": "24 Hours of Le Mans is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -540,19 +540,19 @@
     ]
   },
   {
-    "id": 10028,
+    "id": 5028,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
-    "text": "Which automaker produces the Challenger SRT Demon?",
+    "text": "Which automotive company produces the Challenger SRT Demon?",
     "answers": [
-      "Dodge",
+      "Chrysler",
       "Ford",
       "Chevrolet",
-      "Chrysler"
+      "Dodge"
     ],
     "correctAnswer": "Dodge",
-    "explanation": "Dodge is the correct answer to this cars question.",
+    "explanation": "Dodge is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -560,11 +560,11 @@
     ]
   },
   {
-    "id": 10029,
+    "id": 5029,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
-    "text": "Which car brand is strongly associated with rally legend Colin McRae?",
+    "difficulty": "easy",
+    "text": "What car brand is strongly associated with rally legend Colin McRae?",
     "answers": [
       "Subaru",
       "Ford",
@@ -572,7 +572,7 @@
       "Lancia"
     ],
     "correctAnswer": "Subaru",
-    "explanation": "Subaru is the correct answer to this cars question.",
+    "explanation": "Subaru is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -580,19 +580,19 @@
     ]
   },
   {
-    "id": 10030,
+    "id": 5030,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "easy",
     "text": "Which Ferrari hypercar succeeded the LaFerrari as Ferrari’s flagship hybrid?",
     "answers": [
-      "F80",
-      "SF90 Stradale",
       "296 GTB",
-      "Daytona SP3"
+      "F80",
+      "Daytona SP3",
+      "SF90 Stradale"
     ],
     "correctAnswer": "F80",
-    "explanation": "F80 is the correct answer to this cars question.",
+    "explanation": "F80 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -600,19 +600,19 @@
     ]
   },
   {
-    "id": 10031,
+    "id": 5031,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
     "text": "Which Japanese sports car is famous for the “Supra vs Skyline” rivalry?",
     "answers": [
-      "Toyota Supra",
+      "Subaru BRZ",
       "Mazda RX-7",
-      "Honda NSX",
-      "Subaru BRZ"
+      "Toyota Supra",
+      "Honda NSX"
     ],
     "correctAnswer": "Toyota Supra",
-    "explanation": "Toyota Supra is the correct answer to this cars question.",
+    "explanation": "Toyota Supra is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -620,19 +620,19 @@
     ]
   },
   {
-    "id": 10032,
+    "id": 5032,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "easy",
     "text": "Which luxury brand is owned by Honda?",
     "answers": [
-      "Acura",
       "Lexus",
       "Infiniti",
-      "Genesis"
+      "Genesis",
+      "Acura"
     ],
     "correctAnswer": "Acura",
-    "explanation": "Acura is the correct answer to this cars question.",
+    "explanation": "Acura is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -640,19 +640,19 @@
     ]
   },
   {
-    "id": 10033,
+    "id": 5033,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "easy",
     "text": "Which iconic Mercedes-Benz supercar featured gullwing doors in the 1950s?",
     "answers": [
       "300SL",
-      "CLK GTR",
       "SLR McLaren",
-      "AMG One"
+      "AMG One",
+      "CLK GTR"
     ],
     "correctAnswer": "300SL",
-    "explanation": "300SL is the correct answer to this cars question.",
+    "explanation": "300SL is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -660,19 +660,19 @@
     ]
   },
   {
-    "id": 10034,
+    "id": 5034,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
-    "text": "Which automaker produces the MX-5 Miata?",
+    "text": "Which automotive company produces the MX-5 Miata?",
     "answers": [
+      "Nissan",
       "Mazda",
       "Honda",
-      "Toyota",
-      "Nissan"
+      "Toyota"
     ],
     "correctAnswer": "Mazda",
-    "explanation": "Mazda is the correct answer to this cars question.",
+    "explanation": "Mazda is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -680,19 +680,19 @@
     ]
   },
   {
-    "id": 10035,
+    "id": 5035,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
-    "text": "Which country is home to the Nürburgring racetrack?",
+    "difficulty": "easy",
+    "text": "What country is home to the Nürburgring racetrack?",
     "answers": [
-      "Germany",
       "Italy",
       "France",
+      "Germany",
       "Austria"
     ],
     "correctAnswer": "Germany",
-    "explanation": "Germany is the correct answer to this cars question.",
+    "explanation": "Germany is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -700,19 +700,19 @@
     ]
   },
   {
-    "id": 10036,
+    "id": 5036,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "easy",
     "text": "Which engine type is used in the Mazda RX-8?",
     "answers": [
-      "Rotary engine",
-      "Inline-six",
       "Boxer engine",
-      "V12"
+      "V12",
+      "Inline-six",
+      "Rotary engine"
     ],
     "correctAnswer": "Rotary engine",
-    "explanation": "Rotary engine is the correct answer to this cars question.",
+    "explanation": "Rotary engine is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -720,19 +720,19 @@
     ]
   },
   {
-    "id": 10037,
+    "id": 5037,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
-    "text": "Which automaker produces the 911 GT3 RS?",
+    "text": "Which automotive company produces the 911 GT3 RS?",
     "answers": [
       "Porsche",
+      "BMW",
       "Ferrari",
-      "Audi",
-      "BMW"
+      "Audi"
     ],
     "correctAnswer": "Porsche",
-    "explanation": "Porsche is the correct answer to this cars question.",
+    "explanation": "Porsche is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -740,19 +740,19 @@
     ]
   },
   {
-    "id": 10038,
+    "id": 5038,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "easy",
     "text": "Which Japanese tuner is strongly associated with the Nissan Skyline GT-R?",
     "answers": [
-      "NISMO",
       "TRD",
+      "NISMO",
       "Mugen",
       "Tom’s"
     ],
     "correctAnswer": "NISMO",
-    "explanation": "NISMO is the correct answer to this cars question.",
+    "explanation": "NISMO is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -760,19 +760,19 @@
     ]
   },
   {
-    "id": 10039,
+    "id": 5039,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "easy",
     "text": "Which Lamborghini model replaced the Gallardo?",
     "answers": [
-      "Huracán",
-      "Murciélago",
       "Revuelto",
-      "Diablo"
+      "Diablo",
+      "Huracán",
+      "Murciélago"
     ],
     "correctAnswer": "Huracán",
-    "explanation": "Huracán is the correct answer to this cars question.",
+    "explanation": "Huracán is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -780,19 +780,19 @@
     ]
   },
   {
-    "id": 10040,
+    "id": 5040,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
-    "text": "Which car brand created the famous quattro all-wheel-drive system?",
+    "difficulty": "easy",
+    "text": "What car brand created the famous quattro all-wheel-drive system?",
     "answers": [
-      "Audi",
+      "Volkswagen",
       "Subaru",
       "Mitsubishi",
-      "Volkswagen"
+      "Audi"
     ],
     "correctAnswer": "Audi",
-    "explanation": "Audi is the correct answer to this cars question.",
+    "explanation": "Audi is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -800,11 +800,11 @@
     ]
   },
   {
-    "id": 10041,
+    "id": 5041,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
-    "text": "Which automaker produces the GT-R Nismo?",
+    "text": "Which automotive company produces the GT-R Nismo?",
     "answers": [
       "Nissan",
       "Toyota",
@@ -812,7 +812,7 @@
       "Mazda"
     ],
     "correctAnswer": "Nissan",
-    "explanation": "Nissan is the correct answer to this cars question.",
+    "explanation": "Nissan is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -820,38 +820,39 @@
     ]
   },
   {
-    "id": 10042,
+    "id": 5042,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
-    "text": "Which Ferrari road car shares its name with a Formula 1 constructor title?",
+    "difficulty": "easy",
+    "text": "Which Ferrari road car was named after the company's founder?",
     "answers": [
-      "F1",
+      "Testarossa",
       "Enzo",
-      "F40",
-      "Testarossa"
+      "Roma",
+      "F40"
     ],
-    "correctAnswer": "F1",
-    "explanation": "F1 is the correct answer to this cars question.",
+    "correctAnswer": "Enzo",
+    "explanation": "The Ferrari Enzo was named after company founder Enzo Ferrari.",
     "tags": [
       "cars",
-      "medium"
+      "medium",
+      "ferrari"
     ]
   },
   {
-    "id": 10043,
+    "id": 5043,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "easy",
     "text": "Which Japanese sports car is powered by the legendary RB26 engine?",
     "answers": [
-      "Nissan Skyline GT-R R34",
+      "Honda NSX",
       "Toyota Supra MK4",
-      "Mazda RX-7 FD",
-      "Honda NSX"
+      "Nissan Skyline GT-R R34",
+      "Mazda RX-7 FD"
     ],
     "correctAnswer": "Nissan Skyline GT-R R34",
-    "explanation": "Nissan Skyline GT-R R34 is the correct answer to this cars question.",
+    "explanation": "Nissan Skyline GT-R R34 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -859,19 +860,19 @@
     ]
   },
   {
-    "id": 10044,
+    "id": 5044,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company manufactures the Charger?",
     "answers": [
-      "Dodge",
       "Ford",
       "Chevrolet",
-      "Chrysler"
+      "Chrysler",
+      "Dodge"
     ],
     "correctAnswer": "Dodge",
-    "explanation": "Dodge is the correct answer to this cars question.",
+    "explanation": "Dodge is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -879,19 +880,19 @@
     ]
   },
   {
-    "id": 10045,
+    "id": 5045,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "easy",
     "text": "Which racing game franchise is developed by Polyphony Digital?",
     "answers": [
       "Gran Turismo",
-      "Need for Speed",
       "Forza Horizon",
-      "Project CARS"
+      "Project CARS",
+      "Need for Speed"
     ],
     "correctAnswer": "Gran Turismo",
-    "explanation": "Gran Turismo is the correct answer to this cars question.",
+    "explanation": "Gran Turismo is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -899,19 +900,19 @@
     ]
   },
   {
-    "id": 10046,
+    "id": 5046,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "easy",
     "text": "Which Porsche hypercar was built as a successor to the Carrera GT?",
     "answers": [
+      "935",
       "918 Spyder",
       "959",
-      "911 Turbo S",
-      "935"
+      "911 Turbo S"
     ],
     "correctAnswer": "918 Spyder",
-    "explanation": "918 Spyder is the correct answer to this cars question.",
+    "explanation": "918 Spyder is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -919,19 +920,19 @@
     ]
   },
   {
-    "id": 10047,
+    "id": 5047,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
-    "text": "Which automaker produces the A90 Supra?",
+    "text": "Which automotive company produces the A90 Supra?",
     "answers": [
-      "Toyota",
       "Lexus",
       "Nissan",
+      "Toyota",
       "Honda"
     ],
     "correctAnswer": "Toyota",
-    "explanation": "Toyota is the correct answer to this cars question.",
+    "explanation": "Toyota is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -939,19 +940,19 @@
     ]
   },
   {
-    "id": 10048,
+    "id": 5048,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "easy",
     "text": "Which Italian supercar brand was founded by a former Lamborghini engineer?",
     "answers": [
-      "Pagani",
-      "Ferrari",
       "Maserati",
-      "Abarth"
+      "Abarth",
+      "Ferrari",
+      "Pagani"
     ],
     "correctAnswer": "Pagani",
-    "explanation": "Pagani is the correct answer to this cars question.",
+    "explanation": "Pagani is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -959,19 +960,19 @@
     ]
   },
   {
-    "id": 10049,
+    "id": 5049,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "easy",
     "text": "Which Mercedes-AMG hypercar uses Formula 1-derived hybrid technology?",
     "answers": [
       "AMG One",
+      "Project Black",
       "SLR McLaren",
-      "CLK GTR",
-      "Project Black"
+      "CLK GTR"
     ],
     "correctAnswer": "AMG One",
-    "explanation": "AMG One is the correct answer to this cars question.",
+    "explanation": "AMG One is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -979,19 +980,19 @@
     ]
   },
   {
-    "id": 10050,
+    "id": 5050,
     "category": "cars",
     "premium": true,
     "difficulty": "easy",
     "text": "Which Japanese brand produces the 370Z?",
     "answers": [
-      "Nissan",
       "Mazda",
+      "Nissan",
       "Toyota",
       "Subaru"
     ],
     "correctAnswer": "Nissan",
-    "explanation": "Nissan is the correct answer to this cars question.",
+    "explanation": "Nissan is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -999,19 +1000,19 @@
     ]
   },
   {
-    "id": 10051,
+    "id": 5051,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which iconic Ford race car defeated Ferrari at Le Mans in the 1960s?",
     "answers": [
-      "Ford GT40",
-      "Ford Mustang Boss 429",
       "Ford RS200",
-      "Ford Sierra Cosworth"
+      "Ford Sierra Cosworth",
+      "Ford GT40",
+      "Ford Mustang Boss 429"
     ],
     "correctAnswer": "Ford GT40",
-    "explanation": "Ford GT40 is the correct answer to this cars question.",
+    "explanation": "Ford GT40 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1019,19 +1020,19 @@
     ]
   },
   {
-    "id": 10052,
+    "id": 5052,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Koenigsegg model was named after the founder’s father?",
     "answers": [
-      "Jesko",
+      "Gemera",
       "Agera",
       "Regera",
-      "Gemera"
+      "Jesko"
     ],
     "correctAnswer": "Jesko",
-    "explanation": "Jesko is the correct answer to this cars question.",
+    "explanation": "Jesko is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1039,11 +1040,11 @@
     ]
   },
   {
-    "id": 10053,
+    "id": 5053,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Aventador SVJ?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Aventador SVJ?",
     "answers": [
       "Lamborghini",
       "Ferrari",
@@ -1051,7 +1052,7 @@
       "Maserati"
     ],
     "correctAnswer": "Lamborghini",
-    "explanation": "Lamborghini is the correct answer to this cars question.",
+    "explanation": "Lamborghini is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1059,19 +1060,19 @@
     ]
   },
   {
-    "id": 10054,
+    "id": 5054,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which famous drift driver is closely associated with the Toyota AE86?",
     "answers": [
-      "Keiichi Tsuchiya",
-      "Ken Block",
       "Tanner Foust",
-      "Lewis Hamilton"
+      "Keiichi Tsuchiya",
+      "Lewis Hamilton",
+      "Ken Block"
     ],
     "correctAnswer": "Keiichi Tsuchiya",
-    "explanation": "Keiichi Tsuchiya is the correct answer to this cars question.",
+    "explanation": "Keiichi Tsuchiya is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1079,19 +1080,19 @@
     ]
   },
   {
-    "id": 10055,
+    "id": 5055,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Ferrari hypercar directly competed with the McLaren P1 and Porsche 918 Spyder?",
     "answers": [
-      "LaFerrari",
+      "812 Competizione",
       "Enzo",
-      "F50",
-      "812 Competizione"
+      "LaFerrari",
+      "F50"
     ],
     "correctAnswer": "LaFerrari",
-    "explanation": "LaFerrari is the correct answer to this cars question.",
+    "explanation": "LaFerrari is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1099,19 +1100,19 @@
     ]
   },
   {
-    "id": 10056,
+    "id": 5056,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "text": "Which company manufactures the Civic Si?",
     "answers": [
-      "Honda",
       "Toyota",
       "Mazda",
-      "Subaru"
+      "Subaru",
+      "Honda"
     ],
     "correctAnswer": "Honda",
-    "explanation": "Honda is the correct answer to this cars question.",
+    "explanation": "Honda is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1119,19 +1120,19 @@
     ]
   },
   {
-    "id": 10057,
+    "id": 5057,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which famous racetrack is nicknamed “The Green Hell”?",
     "answers": [
       "Nürburgring Nordschleife",
-      "Spa-Francorchamps",
       "Suzuka Circuit",
-      "Silverstone"
+      "Silverstone",
+      "Spa-Francorchamps"
     ],
     "correctAnswer": "Nürburgring Nordschleife",
-    "explanation": "Nürburgring Nordschleife is the correct answer to this cars question.",
+    "explanation": "Nürburgring Nordschleife is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1139,19 +1140,19 @@
     ]
   },
   {
-    "id": 10058,
+    "id": 5058,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which JDM icon is famous for using the 2JZ-GTE engine?",
     "answers": [
+      "Subaru WRX STI",
       "Toyota Supra MK4",
       "Mazda RX-7",
-      "Honda Integra Type R",
-      "Subaru WRX STI"
+      "Honda Integra Type R"
     ],
     "correctAnswer": "Toyota Supra MK4",
-    "explanation": "Toyota Supra MK4 is the correct answer to this cars question.",
+    "explanation": "Toyota Supra MK4 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1159,19 +1160,19 @@
     ]
   },
   {
-    "id": 10059,
+    "id": 5059,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Huracán STO?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Huracán STO?",
     "answers": [
-      "Lamborghini",
       "Ferrari",
       "McLaren",
+      "Lamborghini",
       "Pagani"
     ],
     "correctAnswer": "Lamborghini",
-    "explanation": "Lamborghini is the correct answer to this cars question.",
+    "explanation": "Lamborghini is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1179,19 +1180,19 @@
     ]
   },
   {
-    "id": 10060,
+    "id": 5060,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which Japanese automaker created the luxury brand Lexus?",
     "answers": [
-      "Toyota",
-      "Honda",
       "Nissan",
-      "Mazda"
+      "Mazda",
+      "Honda",
+      "Toyota"
     ],
     "correctAnswer": "Toyota",
-    "explanation": "Toyota is the correct answer to this cars question.",
+    "explanation": "Toyota is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1199,19 +1200,19 @@
     ]
   },
   {
-    "id": 10061,
+    "id": 5061,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the iconic Miata roadster?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the iconic Miata roadster?",
     "answers": [
       "Mazda",
+      "Subaru",
       "Honda",
-      "Toyota",
-      "Subaru"
+      "Toyota"
     ],
     "correctAnswer": "Mazda",
-    "explanation": "Mazda is the correct answer to this cars question.",
+    "explanation": "Mazda is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1219,19 +1220,19 @@
     ]
   },
   {
-    "id": 10062,
+    "id": 5062,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which car company created the legendary NSX supercar?",
+    "text": "What car company created the legendary NSX supercar?",
     "answers": [
-      "Honda",
       "Toyota",
+      "Honda",
       "Nissan",
       "Mazda"
     ],
     "correctAnswer": "Honda",
-    "explanation": "Honda is the correct answer to this cars question.",
+    "explanation": "Honda is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1239,19 +1240,19 @@
     ]
   },
   {
-    "id": 10063,
+    "id": 5063,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Aston Martin became famous as James Bond’s car in Goldfinger?",
     "answers": [
-      "DB5",
-      "Vantage",
       "DB11",
-      "Vanquish"
+      "Vanquish",
+      "DB5",
+      "Vantage"
     ],
     "correctAnswer": "DB5",
-    "explanation": "DB5 is the correct answer to this cars question.",
+    "explanation": "DB5 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1259,19 +1260,19 @@
     ]
   },
   {
-    "id": 10064,
+    "id": 5064,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Challenger Demon 170?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Challenger Demon 170?",
     "answers": [
-      "Dodge",
+      "Cadillac",
       "Ford",
       "Chevrolet",
-      "Cadillac"
+      "Dodge"
     ],
     "correctAnswer": "Dodge",
-    "explanation": "Dodge is the correct answer to this cars question.",
+    "explanation": "Dodge is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1279,7 +1280,7 @@
     ]
   },
   {
-    "id": 10065,
+    "id": 5065,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
@@ -1291,7 +1292,7 @@
       "Koenigsegg"
     ],
     "correctAnswer": "Rimac",
-    "explanation": "Rimac is the correct answer to this cars question.",
+    "explanation": "Rimac is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1299,19 +1300,19 @@
     ]
   },
   {
-    "id": 10066,
+    "id": 5066,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which rally-inspired Mitsubishi became a rival to the Subaru WRX STI?",
     "answers": [
-      "Lancer Evolution",
-      "3000GT",
       "Eclipse GSX",
-      "Galant VR-4"
+      "Lancer Evolution",
+      "Galant VR-4",
+      "3000GT"
     ],
     "correctAnswer": "Lancer Evolution",
-    "explanation": "Lancer Evolution is the correct answer to this cars question.",
+    "explanation": "Lancer Evolution is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1319,19 +1320,19 @@
     ]
   },
   {
-    "id": 10067,
+    "id": 5067,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "text": "Which company manufactures the 911 Turbo S?",
     "answers": [
-      "Porsche",
+      "Mercedes-Benz",
       "BMW",
-      "Audi",
-      "Mercedes-Benz"
+      "Porsche",
+      "Audi"
     ],
     "correctAnswer": "Porsche",
-    "explanation": "Porsche is the correct answer to this cars question.",
+    "explanation": "Porsche is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1339,19 +1340,19 @@
     ]
   },
   {
-    "id": 10068,
+    "id": 5068,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which famous car tuner is associated with Honda performance vehicles?",
     "answers": [
-      "Mugen",
       "TRD",
       "NISMO",
-      "Autech"
+      "Autech",
+      "Mugen"
     ],
     "correctAnswer": "Mugen",
-    "explanation": "Mugen is the correct answer to this cars question.",
+    "explanation": "Mugen is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1359,19 +1360,19 @@
     ]
   },
   {
-    "id": 10069,
+    "id": 5069,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Ferrari model introduced a hybrid V6 powertrain to Ferrari road cars?",
     "answers": [
       "296 GTB",
-      "F8 Tributo",
       "812 Superfast",
-      "Roma"
+      "Roma",
+      "F8 Tributo"
     ],
     "correctAnswer": "296 GTB",
-    "explanation": "296 GTB is the correct answer to this cars question.",
+    "explanation": "296 GTB is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1379,19 +1380,19 @@
     ]
   },
   {
-    "id": 10070,
+    "id": 5070,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the R8 supercar?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the R8 supercar?",
     "answers": [
+      "Mercedes-Benz",
       "Audi",
       "BMW",
-      "Porsche",
-      "Mercedes-Benz"
+      "Porsche"
     ],
     "correctAnswer": "Audi",
-    "explanation": "Audi is the correct answer to this cars question.",
+    "explanation": "Audi is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1399,19 +1400,19 @@
     ]
   },
   {
-    "id": 10071,
+    "id": 5071,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which famous Formula 1 driver won seven world championships with Mercedes?",
     "answers": [
-      "Lewis Hamilton",
       "Sebastian Vettel",
       "Fernando Alonso",
+      "Lewis Hamilton",
       "Ayrton Senna"
     ],
     "correctAnswer": "Lewis Hamilton",
-    "explanation": "Lewis Hamilton is the correct answer to this cars question.",
+    "explanation": "Lewis Hamilton is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1419,19 +1420,19 @@
     ]
   },
   {
-    "id": 10072,
+    "id": 5072,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which iconic Japanese coupe is known by enthusiasts as the “Hakosuka”?",
     "answers": [
-      "Nissan Skyline GT-R C10",
-      "Toyota 2000GT",
       "Mazda Cosmo",
-      "Honda S800"
+      "Honda S800",
+      "Toyota 2000GT",
+      "Nissan Skyline GT-R C10"
     ],
     "correctAnswer": "Nissan Skyline GT-R C10",
-    "explanation": "Nissan Skyline GT-R C10 is the correct answer to this cars question.",
+    "explanation": "Nissan Skyline GT-R C10 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1439,19 +1440,19 @@
     ]
   },
   {
-    "id": 10073,
+    "id": 5073,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "text": "Which American automaker produces the Viper?",
     "answers": [
       "Dodge",
+      "Pontiac",
       "Ford",
-      "Chevrolet",
-      "Pontiac"
+      "Chevrolet"
     ],
     "correctAnswer": "Dodge",
-    "explanation": "Dodge is the correct answer to this cars question.",
+    "explanation": "Dodge is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1459,19 +1460,19 @@
     ]
   },
   {
-    "id": 10074,
+    "id": 5074,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which racing game franchise features the fictional Horizon Festival?",
     "answers": [
-      "Forza Horizon",
       "Need for Speed",
+      "Forza Horizon",
       "Gran Turismo",
       "Assetto Corsa"
     ],
     "correctAnswer": "Forza Horizon",
-    "explanation": "Forza Horizon is the correct answer to this cars question.",
+    "explanation": "Forza Horizon is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1479,19 +1480,19 @@
     ]
   },
   {
-    "id": 10075,
+    "id": 5075,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Pagani hypercar succeeded the Zonda?",
     "answers": [
-      "Huayra",
-      "Utopia",
       "Imola",
-      "Codalunga"
+      "Codalunga",
+      "Huayra",
+      "Utopia"
     ],
     "correctAnswer": "Huayra",
-    "explanation": "Huayra is the correct answer to this cars question.",
+    "explanation": "Huayra is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1499,19 +1500,19 @@
     ]
   },
   {
-    "id": 10076,
+    "id": 5076,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the BRZ sports coupe?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the BRZ sports coupe?",
     "answers": [
-      "Subaru",
+      "Honda",
       "Toyota",
       "Mazda",
-      "Honda"
+      "Subaru"
     ],
     "correctAnswer": "Subaru",
-    "explanation": "Subaru is the correct answer to this cars question.",
+    "explanation": "Subaru is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1519,7 +1520,7 @@
     ]
   },
   {
-    "id": 10077,
+    "id": 5077,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
@@ -1531,26 +1532,26 @@
       "Boxer-four"
     ],
     "correctAnswer": "V8",
-    "explanation": "V8 is the correct answer to this cars question.",
+    "explanation": "V8 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium"
     ]
   },
   {
-    "id": 10078,
+    "id": 5078,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Porsche supercar from the 1980s pioneered advanced all-wheel-drive technology?",
     "answers": [
-      "959",
-      "Carrera GT",
       "918 Spyder",
-      "944 Turbo"
+      "959",
+      "944 Turbo",
+      "Carrera GT"
     ],
     "correctAnswer": "959",
-    "explanation": "959 is the correct answer to this cars question.",
+    "explanation": "959 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1558,19 +1559,19 @@
     ]
   },
   {
-    "id": 10079,
+    "id": 5079,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "text": "Which Japanese automaker created the luxury brand Infiniti?",
     "answers": [
-      "Nissan",
+      "Mazda",
       "Toyota",
-      "Honda",
-      "Mazda"
+      "Nissan",
+      "Honda"
     ],
     "correctAnswer": "Nissan",
-    "explanation": "Nissan is the correct answer to this cars question.",
+    "explanation": "Nissan is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1578,19 +1579,19 @@
     ]
   },
   {
-    "id": 10080,
+    "id": 5080,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which famous rally race takes place across deserts and harsh off-road terrain?",
     "answers": [
-      "Dakar Rally",
       "Monte Carlo Rally",
       "Tour de Corse",
-      "Pikes Peak Hill Climb"
+      "Pikes Peak Hill Climb",
+      "Dakar Rally"
     ],
     "correctAnswer": "Dakar Rally",
-    "explanation": "Dakar Rally is the correct answer to this cars question.",
+    "explanation": "Dakar Rally is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1598,19 +1599,19 @@
     ]
   },
   {
-    "id": 10081,
+    "id": 5081,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the GT86 sports coupe?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the GT86 sports coupe?",
     "answers": [
       "Toyota",
-      "Honda",
       "Subaru",
-      "Mazda"
+      "Mazda",
+      "Honda"
     ],
     "correctAnswer": "Toyota",
-    "explanation": "Toyota is the correct answer to this cars question.",
+    "explanation": "Toyota is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1618,19 +1619,19 @@
     ]
   },
   {
-    "id": 10082,
+    "id": 5082,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which Bugatti model became famous for breaking the 250 mph barrier?",
     "answers": [
+      "Divo",
       "Veyron",
       "Chiron",
-      "EB110",
-      "Divo"
+      "EB110"
     ],
     "correctAnswer": "Veyron",
-    "explanation": "Veyron is the correct answer to this cars question.",
+    "explanation": "Veyron is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1638,19 +1639,19 @@
     ]
   },
   {
-    "id": 10083,
+    "id": 5083,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Japanese tuner is most closely associated with Toyota performance cars?",
     "answers": [
-      "TRD",
       "Mugen",
       "NISMO",
+      "TRD",
       "Autech"
     ],
     "correctAnswer": "TRD",
-    "explanation": "TRD is the correct answer to this cars question.",
+    "explanation": "TRD is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1658,19 +1659,19 @@
     ]
   },
   {
-    "id": 10084,
+    "id": 5084,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "text": "Which company manufactures the Camaro ZL1?",
     "answers": [
-      "Chevrolet",
-      "Ford",
       "Dodge",
-      "Pontiac"
+      "Pontiac",
+      "Ford",
+      "Chevrolet"
     ],
     "correctAnswer": "Chevrolet",
-    "explanation": "Chevrolet is the correct answer to this cars question.",
+    "explanation": "Chevrolet is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1678,38 +1679,38 @@
     ]
   },
   {
-    "id": 10085,
+    "id": 5085,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which hypercar uses a naturally aspirated V12 and was developed by Gordon Murray Automotive?",
     "answers": [
       "T.50",
+      "Nevera",
       "Huayra",
-      "Agera RS",
-      "Nevera"
+      "Agera RS"
     ],
     "correctAnswer": "T.50",
-    "explanation": "T.50 is the correct answer to this cars question.",
+    "explanation": "T.50 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium"
     ]
   },
   {
-    "id": 10086,
+    "id": 5086,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Japanese sports car is powered by the SR20DET engine?",
     "answers": [
-      "Nissan Silvia S15",
       "Toyota Supra MK4",
+      "Nissan Silvia S15",
       "Mazda RX-7",
       "Honda NSX"
     ],
     "correctAnswer": "Nissan Silvia S15",
-    "explanation": "Nissan Silvia S15 is the correct answer to this cars question.",
+    "explanation": "Nissan Silvia S15 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1717,19 +1718,19 @@
     ]
   },
   {
-    "id": 10087,
+    "id": 5087,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the AMG GT Black Series?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the AMG GT Black Series?",
     "answers": [
-      "Mercedes-Benz",
-      "BMW",
       "Audi",
-      "Porsche"
+      "Porsche",
+      "Mercedes-Benz",
+      "BMW"
     ],
     "correctAnswer": "Mercedes-Benz",
-    "explanation": "Mercedes-Benz is the correct answer to this cars question.",
+    "explanation": "Mercedes-Benz is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1737,19 +1738,19 @@
     ]
   },
   {
-    "id": 10088,
+    "id": 5088,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which famous Formula 1 team is associated with the color Rosso Corsa?",
     "answers": [
-      "Ferrari",
+      "Red Bull Racing",
       "McLaren",
       "Mercedes",
-      "Red Bull Racing"
+      "Ferrari"
     ],
     "correctAnswer": "Ferrari",
-    "explanation": "Ferrari is the correct answer to this cars question.",
+    "explanation": "Ferrari is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1757,10 +1758,10 @@
     ]
   },
   {
-    "id": 10089,
+    "id": 5089,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Honda performance car is known by the chassis code AP1?",
     "answers": [
       "Honda S2000",
@@ -1769,7 +1770,7 @@
       "Honda Civic EK9"
     ],
     "correctAnswer": "Honda S2000",
-    "explanation": "Honda S2000 is the correct answer to this cars question.",
+    "explanation": "Honda S2000 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1777,19 +1778,19 @@
     ]
   },
   {
-    "id": 10090,
+    "id": 5090,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the M3 performance sedan?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the M3 performance sedan?",
     "answers": [
-      "BMW",
-      "Audi",
       "Mercedes-Benz",
-      "Lexus"
+      "BMW",
+      "Lexus",
+      "Audi"
     ],
     "correctAnswer": "BMW",
-    "explanation": "BMW is the correct answer to this cars question.",
+    "explanation": "BMW is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1797,19 +1798,19 @@
     ]
   },
   {
-    "id": 10091,
+    "id": 5091,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which famous drifting anime heavily features the Toyota AE86?",
     "answers": [
-      "Initial D",
+      "Over Rev!",
       "Wangan Midnight",
-      "MF Ghost",
-      "Over Rev!"
+      "Initial D",
+      "MF Ghost"
     ],
     "correctAnswer": "Initial D",
-    "explanation": "Initial D is the correct answer to this cars question.",
+    "explanation": "Initial D is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1817,19 +1818,19 @@
     ]
   },
   {
-    "id": 10092,
+    "id": 5092,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Porsche model is commonly referred to by enthusiasts as the “widowmaker”?",
     "answers": [
-      "930 Turbo",
       "Carrera GT",
       "959",
-      "944 Turbo"
+      "944 Turbo",
+      "930 Turbo"
     ],
     "correctAnswer": "930 Turbo",
-    "explanation": "930 Turbo is the correct answer to this cars question.",
+    "explanation": "930 Turbo is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1837,19 +1838,19 @@
     ]
   },
   {
-    "id": 10093,
+    "id": 5093,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "text": "Which Japanese automaker produces the Type R badge?",
     "answers": [
       "Honda",
-      "Toyota",
       "Mazda",
-      "Subaru"
+      "Subaru",
+      "Toyota"
     ],
     "correctAnswer": "Honda",
-    "explanation": "Honda is the correct answer to this cars question.",
+    "explanation": "Honda is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1857,19 +1858,19 @@
     ]
   },
   {
-    "id": 10094,
+    "id": 5094,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which Ferrari grand tourer is named after a famous Italian city?",
     "answers": [
+      "LaFerrari",
       "Roma",
       "Enzo",
-      "F8 Tributo",
-      "LaFerrari"
+      "F8 Tributo"
     ],
     "correctAnswer": "Roma",
-    "explanation": "Roma is the correct answer to this cars question.",
+    "explanation": "Roma is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1877,19 +1878,19 @@
     ]
   },
   {
-    "id": 10095,
+    "id": 5095,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which racing circuit hosts the Monaco Grand Prix?",
     "answers": [
-      "Circuit de Monaco",
       "Silverstone Circuit",
       "Spa-Francorchamps",
+      "Circuit de Monaco",
       "Monza"
     ],
     "correctAnswer": "Circuit de Monaco",
-    "explanation": "Circuit de Monaco is the correct answer to this cars question.",
+    "explanation": "Circuit de Monaco is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1897,19 +1898,19 @@
     ]
   },
   {
-    "id": 10096,
+    "id": 5096,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Aventador Ultimae?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Aventador Ultimae?",
     "answers": [
-      "Lamborghini",
-      "Ferrari",
       "Pagani",
-      "Maserati"
+      "Maserati",
+      "Ferrari",
+      "Lamborghini"
     ],
     "correctAnswer": "Lamborghini",
-    "explanation": "Lamborghini is the correct answer to this cars question.",
+    "explanation": "Lamborghini is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1917,19 +1918,19 @@
     ]
   },
   {
-    "id": 10097,
+    "id": 5097,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which car manufacturer created the Senna hypercar?",
+    "text": "What car manufacturer created the Senna hypercar?",
     "answers": [
       "McLaren",
+      "Porsche",
       "Ferrari",
-      "Bugatti",
-      "Porsche"
+      "Bugatti"
     ],
     "correctAnswer": "McLaren",
-    "explanation": "McLaren is the correct answer to this cars question.",
+    "explanation": "McLaren is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1937,19 +1938,19 @@
     ]
   },
   {
-    "id": 10098,
+    "id": 5098,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which legendary rally car was driven by Tommi Mäkinen to multiple championships?",
     "answers": [
-      "Mitsubishi Lancer Evolution",
       "Subaru Impreza WRX STI",
+      "Mitsubishi Lancer Evolution",
       "Ford Escort RS Cosworth",
       "Lancia Delta Integrale"
     ],
     "correctAnswer": "Mitsubishi Lancer Evolution",
-    "explanation": "Mitsubishi Lancer Evolution is the correct answer to this cars question.",
+    "explanation": "Mitsubishi Lancer Evolution is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -1957,19 +1958,19 @@
     ]
   },
   {
-    "id": 10099,
+    "id": 5099,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the GT500 Mustang?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the GT500 Mustang?",
     "answers": [
-      "Ford",
-      "Chevrolet",
       "Dodge",
-      "Cadillac"
+      "Cadillac",
+      "Ford",
+      "Chevrolet"
     ],
     "correctAnswer": "Ford",
-    "explanation": "Ford is the correct answer to this cars question.",
+    "explanation": "Ford is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -1977,19 +1978,19 @@
     ]
   },
   {
-    "id": 10100,
+    "id": 5100,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which Japanese automaker created the luxury brand Acura?",
     "answers": [
-      "Honda",
+      "Mazda",
       "Toyota",
       "Nissan",
-      "Mazda"
+      "Honda"
     ],
     "correctAnswer": "Honda",
-    "explanation": "Honda is the correct answer to this cars question.",
+    "explanation": "Honda is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -1997,11 +1998,11 @@
     ]
   },
   {
-    "id": 10101,
+    "id": 5101,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Charger Hellcat?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Charger Hellcat?",
     "answers": [
       "Dodge",
       "Ford",
@@ -2009,7 +2010,7 @@
       "Cadillac"
     ],
     "correctAnswer": "Dodge",
-    "explanation": "Dodge is the correct answer to this cars question.",
+    "explanation": "Dodge is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2017,19 +2018,19 @@
     ]
   },
   {
-    "id": 10102,
+    "id": 5102,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which Japanese sports car is known for the nickname “Fairlady Z”?",
     "answers": [
-      "Nissan Z",
-      "Toyota Supra",
       "Honda NSX",
-      "Mazda RX-7"
+      "Nissan Z",
+      "Mazda RX-7",
+      "Toyota Supra"
     ],
     "correctAnswer": "Nissan Z",
-    "explanation": "Nissan Z is the correct answer to this cars question.",
+    "explanation": "Nissan Z is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2037,19 +2038,19 @@
     ]
   },
   {
-    "id": 10103,
+    "id": 5103,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Ferrari hypercar was released in celebration of Ferrari’s 50th anniversary?",
     "answers": [
-      "F50",
+      "LaFerrari",
       "F40",
-      "Enzo",
-      "LaFerrari"
+      "F50",
+      "Enzo"
     ],
     "correctAnswer": "F50",
-    "explanation": "F50 is the correct answer to this cars question.",
+    "explanation": "F50 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2057,19 +2058,19 @@
     ]
   },
   {
-    "id": 10104,
+    "id": 5104,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the WRX?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the WRX?",
     "answers": [
-      "Subaru",
       "Honda",
       "Toyota",
-      "Mazda"
+      "Mazda",
+      "Subaru"
     ],
     "correctAnswer": "Subaru",
-    "explanation": "Subaru is the correct answer to this cars question.",
+    "explanation": "Subaru is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2077,19 +2078,19 @@
     ]
   },
   {
-    "id": 10105,
+    "id": 5105,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which hypercar manufacturer created the Agera RS?",
     "answers": [
       "Koenigsegg",
-      "Bugatti",
       "Pagani",
-      "Rimac"
+      "Rimac",
+      "Bugatti"
     ],
     "correctAnswer": "Koenigsegg",
-    "explanation": "Koenigsegg is the correct answer to this cars question.",
+    "explanation": "Koenigsegg is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2097,19 +2098,19 @@
     ]
   },
   {
-    "id": 10106,
+    "id": 5106,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which iconic BMW performance division is represented by the letter “M”?",
     "answers": [
+      "Munich",
       "Motorsport",
       "Mechanical",
-      "Master",
-      "Munich"
+      "Master"
     ],
     "correctAnswer": "Motorsport",
-    "explanation": "Motorsport is the correct answer to this cars question.",
+    "explanation": "Motorsport is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2117,19 +2118,19 @@
     ]
   },
   {
-    "id": 10107,
+    "id": 5107,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "text": "Which company manufactures the Skyline GT-R?",
     "answers": [
-      "Nissan",
       "Toyota",
       "Mazda",
+      "Nissan",
       "Honda"
     ],
     "correctAnswer": "Nissan",
-    "explanation": "Nissan is the correct answer to this cars question.",
+    "explanation": "Nissan is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2137,19 +2138,19 @@
     ]
   },
   {
-    "id": 10108,
+    "id": 5108,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which race is known as “The Greatest Spectacle in Racing”?",
     "answers": [
-      "Indianapolis 500",
-      "24 Hours of Le Mans",
       "Monaco Grand Prix",
-      "Daytona 500"
+      "Daytona 500",
+      "24 Hours of Le Mans",
+      "Indianapolis 500"
     ],
     "correctAnswer": "Indianapolis 500",
-    "explanation": "Indianapolis 500 is the correct answer to this cars question.",
+    "explanation": "Indianapolis 500 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2157,19 +2158,19 @@
     ]
   },
   {
-    "id": 10109,
+    "id": 5109,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Lamborghini introduced the modern V12 flagship line before the Aventador?",
     "answers": [
       "Murciélago",
+      "Huracán",
       "Gallardo",
-      "Diablo",
-      "Huracán"
+      "Diablo"
     ],
     "correctAnswer": "Murciélago",
-    "explanation": "Murciélago is the correct answer to this cars question.",
+    "explanation": "Murciélago is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2177,19 +2178,19 @@
     ]
   },
   {
-    "id": 10110,
+    "id": 5110,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Civic Type R FK8?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Civic Type R FK8?",
     "answers": [
-      "Honda",
       "Toyota",
+      "Honda",
       "Mazda",
       "Subaru"
     ],
     "correctAnswer": "Honda",
-    "explanation": "Honda is the correct answer to this cars question.",
+    "explanation": "Honda is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2197,19 +2198,19 @@
     ]
   },
   {
-    "id": 10111,
+    "id": 5111,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which famous American car tuner is associated with high-performance Mustangs?",
     "answers": [
-      "Shelby",
-      "Brabus",
       "RUF",
-      "Mugen"
+      "Mugen",
+      "Shelby",
+      "Brabus"
     ],
     "correctAnswer": "Shelby",
-    "explanation": "Shelby is the correct answer to this cars question.",
+    "explanation": "Shelby is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2217,19 +2218,19 @@
     ]
   },
   {
-    "id": 10112,
+    "id": 5112,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Porsche model is named after the Carrera Panamericana race?",
     "answers": [
-      "Carrera",
+      "Targa",
       "Turbo",
       "Spyder",
-      "Targa"
+      "Carrera"
     ],
     "correctAnswer": "Carrera",
-    "explanation": "Carrera is the correct answer to this cars question.",
+    "explanation": "Carrera is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2237,11 +2238,11 @@
     ]
   },
   {
-    "id": 10113,
+    "id": 5113,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Chiron Super Sport?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Chiron Super Sport?",
     "answers": [
       "Bugatti",
       "Koenigsegg",
@@ -2249,7 +2250,7 @@
       "Pagani"
     ],
     "correctAnswer": "Bugatti",
-    "explanation": "Bugatti is the correct answer to this cars question.",
+    "explanation": "Bugatti is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2257,19 +2258,19 @@
     ]
   },
   {
-    "id": 10114,
+    "id": 5114,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which car culture term refers to excessive negative wheel camber?",
+    "text": "What car culture term refers to excessive negative wheel camber?",
     "answers": [
-      "Stance",
-      "Lift kit",
       "Sleeper",
-      "Turbo lag"
+      "Stance",
+      "Turbo lag",
+      "Lift kit"
     ],
     "correctAnswer": "Stance",
-    "explanation": "Stance is the correct answer to this cars question.",
+    "explanation": "Stance is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2277,19 +2278,19 @@
     ]
   },
   {
-    "id": 10115,
+    "id": 5115,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Honda sports car was Ayrton Senna involved in developing?",
     "answers": [
-      "Honda NSX",
+      "Honda Integra Type R",
       "Honda S2000",
-      "Honda Prelude",
-      "Honda Integra Type R"
+      "Honda NSX",
+      "Honda Prelude"
     ],
     "correctAnswer": "Honda NSX",
-    "explanation": "Honda NSX is the correct answer to this cars question.",
+    "explanation": "Honda NSX is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2297,19 +2298,19 @@
     ]
   },
   {
-    "id": 10116,
+    "id": 5116,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the 720S supercar?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the 720S supercar?",
     "answers": [
-      "McLaren",
       "Ferrari",
       "Lamborghini",
-      "Porsche"
+      "Porsche",
+      "McLaren"
     ],
     "correctAnswer": "McLaren",
-    "explanation": "McLaren is the correct answer to this cars question.",
+    "explanation": "McLaren is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2317,19 +2318,19 @@
     ]
   },
   {
-    "id": 10117,
+    "id": 5117,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which drivetrain system is Subaru most famous for?",
     "answers": [
       "Symmetrical All-Wheel Drive",
-      "Rear-wheel drive",
       "Front-wheel drive",
-      "Hydraulic drive"
+      "Hydraulic drive",
+      "Rear-wheel drive"
     ],
     "correctAnswer": "Symmetrical All-Wheel Drive",
-    "explanation": "Symmetrical All-Wheel Drive is the correct answer to this cars question.",
+    "explanation": "Symmetrical All-Wheel Drive is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2337,19 +2338,19 @@
     ]
   },
   {
-    "id": 10118,
+    "id": 5118,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which famous Italian racetrack is known as the “Temple of Speed”?",
     "answers": [
+      "Vallelunga",
       "Monza",
       "Imola",
-      "Mugello",
-      "Vallelunga"
+      "Mugello"
     ],
     "correctAnswer": "Monza",
-    "explanation": "Monza is the correct answer to this cars question.",
+    "explanation": "Monza is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2357,19 +2358,19 @@
     ]
   },
   {
-    "id": 10119,
+    "id": 5119,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker created the GT-R50 in collaboration with Italdesign?",
+    "difficulty": "medium",
+    "text": "Which automotive company created the GT-R50 in collaboration with Italdesign?",
     "answers": [
-      "Nissan",
       "Toyota",
       "Honda",
+      "Nissan",
       "Mazda"
     ],
     "correctAnswer": "Nissan",
-    "explanation": "Nissan is the correct answer to this cars question.",
+    "explanation": "Nissan is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2377,19 +2378,19 @@
     ]
   },
   {
-    "id": 10120,
+    "id": 5120,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which Ferrari model is named after the company founder?",
     "answers": [
-      "Enzo",
-      "Roma",
       "F8 Tributo",
-      "Daytona SP3"
+      "Daytona SP3",
+      "Roma",
+      "Enzo"
     ],
     "correctAnswer": "Enzo",
-    "explanation": "Enzo is the correct answer to this cars question.",
+    "explanation": "Enzo is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2397,19 +2398,19 @@
     ]
   },
   {
-    "id": 10121,
+    "id": 5121,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Integra Type R?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Integra Type R?",
     "answers": [
       "Honda",
+      "Subaru",
       "Toyota",
-      "Mazda",
-      "Subaru"
+      "Mazda"
     ],
     "correctAnswer": "Honda",
-    "explanation": "Honda is the correct answer to this cars question.",
+    "explanation": "Honda is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2417,19 +2418,19 @@
     ]
   },
   {
-    "id": 10122,
+    "id": 5122,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which famous racing driver was nicknamed “The Intimidator” in NASCAR?",
     "answers": [
-      "Dale Earnhardt",
       "Jeff Gordon",
+      "Dale Earnhardt",
       "Richard Petty",
       "Jimmie Johnson"
     ],
     "correctAnswer": "Dale Earnhardt",
-    "explanation": "Dale Earnhardt is the correct answer to this cars question.",
+    "explanation": "Dale Earnhardt is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2437,19 +2438,19 @@
     ]
   },
   {
-    "id": 10123,
+    "id": 5123,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Japanese sports coupe is known by the chassis code FD3S?",
     "answers": [
-      "Mazda RX-7",
-      "Toyota Supra",
       "Nissan Silvia",
-      "Honda NSX"
+      "Honda NSX",
+      "Mazda RX-7",
+      "Toyota Supra"
     ],
     "correctAnswer": "Mazda RX-7",
-    "explanation": "Mazda RX-7 is the correct answer to this cars question.",
+    "explanation": "Mazda RX-7 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2457,19 +2458,19 @@
     ]
   },
   {
-    "id": 10124,
+    "id": 5124,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "text": "Which company manufactures the Bronco?",
     "answers": [
-      "Ford",
+      "GMC",
       "Jeep",
       "Chevrolet",
-      "GMC"
+      "Ford"
     ],
     "correctAnswer": "Ford",
-    "explanation": "Ford is the correct answer to this cars question.",
+    "explanation": "Ford is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2477,7 +2478,7 @@
     ]
   },
   {
-    "id": 10125,
+    "id": 5125,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
@@ -2489,7 +2490,7 @@
       "Genesis"
     ],
     "correctAnswer": "Lexus",
-    "explanation": "Lexus is the correct answer to this cars question.",
+    "explanation": "Lexus is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2497,19 +2498,19 @@
     ]
   },
   {
-    "id": 10126,
+    "id": 5126,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
-    "text": "Which car company created the legendary F1 road car in the 1990s?",
+    "difficulty": "medium",
+    "text": "What car company created the legendary F1 road car in the 1990s?",
     "answers": [
-      "McLaren",
-      "Ferrari",
       "Porsche",
-      "Lotus"
+      "McLaren",
+      "Lotus",
+      "Ferrari"
     ],
     "correctAnswer": "McLaren",
-    "explanation": "McLaren is the correct answer to this cars question.",
+    "explanation": "McLaren is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2517,19 +2518,19 @@
     ]
   },
   {
-    "id": 10127,
+    "id": 5127,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the STI badge?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the STI badge?",
     "answers": [
-      "Subaru",
+      "Mazda",
       "Toyota",
-      "Honda",
-      "Mazda"
+      "Subaru",
+      "Honda"
     ],
     "correctAnswer": "Subaru",
-    "explanation": "Subaru is the correct answer to this cars question.",
+    "explanation": "Subaru is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2537,19 +2538,19 @@
     ]
   },
   {
-    "id": 10128,
+    "id": 5128,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which German tuner is famous for modifying Mercedes-Benz vehicles?",
     "answers": [
-      "Brabus",
       "RUF",
       "ABT",
-      "Alpina"
+      "Alpina",
+      "Brabus"
     ],
     "correctAnswer": "Brabus",
-    "explanation": "Brabus is the correct answer to this cars question.",
+    "explanation": "Brabus is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2557,19 +2558,19 @@
     ]
   },
   {
-    "id": 10129,
+    "id": 5129,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Ferrari model replaced the 458 Italia?",
     "answers": [
       "488 GTB",
-      "F8 Tributo",
       "California",
-      "Roma"
+      "Roma",
+      "F8 Tributo"
     ],
     "correctAnswer": "488 GTB",
-    "explanation": "488 GTB is the correct answer to this cars question.",
+    "explanation": "488 GTB is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2577,19 +2578,19 @@
     ]
   },
   {
-    "id": 10130,
+    "id": 5130,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Supra GR?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Supra GR?",
     "answers": [
+      "Mazda",
       "Toyota",
       "Nissan",
-      "Honda",
-      "Mazda"
+      "Honda"
     ],
     "correctAnswer": "Toyota",
-    "explanation": "Toyota is the correct answer to this cars question.",
+    "explanation": "Toyota is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2597,19 +2598,19 @@
     ]
   },
   {
-    "id": 10131,
+    "id": 5131,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which famous racetrack hosts the Daytona 500?",
     "answers": [
-      "Daytona International Speedway",
       "Talladega Superspeedway",
       "Indianapolis Motor Speedway",
+      "Daytona International Speedway",
       "Charlotte Motor Speedway"
     ],
     "correctAnswer": "Daytona International Speedway",
-    "explanation": "Daytona International Speedway is the correct answer to this cars question.",
+    "explanation": "Daytona International Speedway is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2617,19 +2618,19 @@
     ]
   },
   {
-    "id": 10132,
+    "id": 5132,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which iconic Japanese sports car used pop-up headlights and a rotary engine?",
     "answers": [
-      "Mazda RX-7 FD",
-      "Toyota Supra MK4",
       "Honda NSX",
-      "Nissan 300ZX"
+      "Nissan 300ZX",
+      "Toyota Supra MK4",
+      "Mazda RX-7 FD"
     ],
     "correctAnswer": "Mazda RX-7 FD",
-    "explanation": "Mazda RX-7 FD is the correct answer to this cars question.",
+    "explanation": "Mazda RX-7 FD is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2637,19 +2638,19 @@
     ]
   },
   {
-    "id": 10133,
+    "id": 5133,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "text": "Which company manufactures the GT500 Shelby Mustang?",
     "answers": [
       "Ford",
+      "Pontiac",
       "Chevrolet",
-      "Dodge",
-      "Pontiac"
+      "Dodge"
     ],
     "correctAnswer": "Ford",
-    "explanation": "Ford is the correct answer to this cars question.",
+    "explanation": "Ford is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2657,19 +2658,19 @@
     ]
   },
   {
-    "id": 10134,
+    "id": 5134,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which automaker created the famous quattro rally cars?",
+    "text": "Which automotive company created the famous quattro rally cars?",
     "answers": [
-      "Audi",
       "Lancia",
+      "Audi",
       "Subaru",
       "Mitsubishi"
     ],
     "correctAnswer": "Audi",
-    "explanation": "Audi is the correct answer to this cars question.",
+    "explanation": "Audi is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2677,19 +2678,19 @@
     ]
   },
   {
-    "id": 10135,
+    "id": 5135,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Porsche hypercar used a naturally aspirated V10 engine?",
     "answers": [
-      "Carrera GT",
-      "918 Spyder",
       "959",
-      "911 GT1"
+      "911 GT1",
+      "Carrera GT",
+      "918 Spyder"
     ],
     "correctAnswer": "Carrera GT",
-    "explanation": "Carrera GT is the correct answer to this cars question.",
+    "explanation": "Carrera GT is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2697,19 +2698,19 @@
     ]
   },
   {
-    "id": 10136,
+    "id": 5136,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Huracán Tecnica?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Huracán Tecnica?",
     "answers": [
-      "Lamborghini",
+      "Pagani",
       "Ferrari",
       "McLaren",
-      "Pagani"
+      "Lamborghini"
     ],
     "correctAnswer": "Lamborghini",
-    "explanation": "Lamborghini is the correct answer to this cars question.",
+    "explanation": "Lamborghini is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2717,11 +2718,11 @@
     ]
   },
   {
-    "id": 10137,
+    "id": 5137,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which car culture term refers to a car modified to look slow but actually be very fast?",
+    "text": "What car culture term refers to a car modified to look slow but actually be very fast?",
     "answers": [
       "Sleeper",
       "Stance",
@@ -2729,7 +2730,7 @@
       "Lowrider"
     ],
     "correctAnswer": "Sleeper",
-    "explanation": "Sleeper is the correct answer to this cars question.",
+    "explanation": "Sleeper is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2737,19 +2738,19 @@
     ]
   },
   {
-    "id": 10138,
+    "id": 5138,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Nissan Skyline generation is most associated with the R32 chassis?",
     "answers": [
-      "Skyline GT-R R32",
-      "Skyline GT-R R34",
       "Skyline GT-R R35",
-      "Skyline GT-R Hakosuka"
+      "Skyline GT-R R32",
+      "Skyline GT-R Hakosuka",
+      "Skyline GT-R R34"
     ],
     "correctAnswer": "Skyline GT-R R32",
-    "explanation": "Skyline GT-R R32 is the correct answer to this cars question.",
+    "explanation": "Skyline GT-R R32 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2757,19 +2758,19 @@
     ]
   },
   {
-    "id": 10139,
+    "id": 5139,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "text": "Which company manufactures the 86 sports coupe alongside Subaru?",
     "answers": [
-      "Toyota",
+      "Nissan",
       "Honda",
-      "Mazda",
-      "Nissan"
+      "Toyota",
+      "Mazda"
     ],
     "correctAnswer": "Toyota",
-    "explanation": "Toyota is the correct answer to this cars question.",
+    "explanation": "Toyota is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2777,19 +2778,19 @@
     ]
   },
   {
-    "id": 10140,
+    "id": 5140,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which famous Formula 1 team is based in Maranello, Italy?",
     "answers": [
-      "Ferrari",
       "Mercedes",
       "McLaren",
-      "Red Bull Racing"
+      "Red Bull Racing",
+      "Ferrari"
     ],
     "correctAnswer": "Ferrari",
-    "explanation": "Ferrari is the correct answer to this cars question.",
+    "explanation": "Ferrari is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2797,19 +2798,19 @@
     ]
   },
   {
-    "id": 10141,
+    "id": 5141,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the 370Z Nismo?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the 370Z Nismo?",
     "answers": [
       "Nissan",
-      "Toyota",
       "Honda",
-      "Mazda"
+      "Mazda",
+      "Toyota"
     ],
     "correctAnswer": "Nissan",
-    "explanation": "Nissan is the correct answer to this cars question.",
+    "explanation": "Nissan is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2817,19 +2818,19 @@
     ]
   },
   {
-    "id": 10142,
+    "id": 5142,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which supercar manufacturer created the Regera hybrid hypercar?",
     "answers": [
+      "McLaren",
       "Koenigsegg",
       "Bugatti",
-      "Pagani",
-      "McLaren"
+      "Pagani"
     ],
     "correctAnswer": "Koenigsegg",
-    "explanation": "Koenigsegg is the correct answer to this cars question.",
+    "explanation": "Koenigsegg is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2837,19 +2838,19 @@
     ]
   },
   {
-    "id": 10143,
+    "id": 5143,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which famous tuner company specializes in modifying Porsche vehicles?",
     "answers": [
-      "RUF",
       "Brabus",
       "Mugen",
+      "RUF",
       "TRD"
     ],
     "correctAnswer": "RUF",
-    "explanation": "RUF is the correct answer to this cars question.",
+    "explanation": "RUF is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2857,19 +2858,19 @@
     ]
   },
   {
-    "id": 10144,
+    "id": 5144,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the RS6 Avant performance wagon?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the RS6 Avant performance wagon?",
     "answers": [
-      "Audi",
-      "BMW",
       "Mercedes-Benz",
-      "Volvo"
+      "Volvo",
+      "BMW",
+      "Audi"
     ],
     "correctAnswer": "Audi",
-    "explanation": "Audi is the correct answer to this cars question.",
+    "explanation": "Audi is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2877,19 +2878,19 @@
     ]
   },
   {
-    "id": 10145,
+    "id": 5145,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which Japanese automaker created the famous GT-R badge?",
     "answers": [
       "Nissan",
+      "Mazda",
       "Toyota",
-      "Honda",
-      "Mazda"
+      "Honda"
     ],
     "correctAnswer": "Nissan",
-    "explanation": "Nissan is the correct answer to this cars question.",
+    "explanation": "Nissan is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2897,19 +2898,19 @@
     ]
   },
   {
-    "id": 10146,
+    "id": 5146,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which classic rally car is associated with the Martini Racing livery?",
     "answers": [
-      "Lancia Delta Integrale",
       "Subaru Impreza WRX STI",
+      "Lancia Delta Integrale",
       "Audi Quattro",
       "Ford RS200"
     ],
     "correctAnswer": "Lancia Delta Integrale",
-    "explanation": "Lancia Delta Integrale is the correct answer to this cars question.",
+    "explanation": "Lancia Delta Integrale is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2917,19 +2918,19 @@
     ]
   },
   {
-    "id": 10147,
+    "id": 5147,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the GT2 RS?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the GT2 RS?",
     "answers": [
-      "Porsche",
-      "Ferrari",
       "McLaren",
-      "Audi"
+      "Audi",
+      "Porsche",
+      "Ferrari"
     ],
     "correctAnswer": "Porsche",
-    "explanation": "Porsche is the correct answer to this cars question.",
+    "explanation": "Porsche is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2937,19 +2938,19 @@
     ]
   },
   {
-    "id": 10148,
+    "id": 5148,
     "category": "cars",
     "premium": true,
     "difficulty": "medium",
     "text": "Which famous drifting event originated in Japan?",
     "answers": [
-      "D1 Grand Prix",
+      "Super GT",
       "Formula Drift",
       "Gymkhana Grid",
-      "Super GT"
+      "D1 Grand Prix"
     ],
     "correctAnswer": "D1 Grand Prix",
-    "explanation": "D1 Grand Prix is the correct answer to this cars question.",
+    "explanation": "D1 Grand Prix is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -2957,10 +2958,10 @@
     ]
   },
   {
-    "id": 10149,
+    "id": 5149,
     "category": "cars",
     "premium": true,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "text": "Which Ferrari V12 grand tourer replaced the F12 Berlinetta?",
     "answers": [
       "812 Superfast",
@@ -2969,7 +2970,7 @@
       "F8 Tributo"
     ],
     "correctAnswer": "812 Superfast",
-    "explanation": "812 Superfast is the correct answer to this cars question.",
+    "explanation": "812 Superfast is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -2977,19 +2978,19 @@
     ]
   },
   {
-    "id": 10150,
+    "id": 5150,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Type R badge for the Integra and Civic?",
+    "difficulty": "medium",
+    "text": "Which automotive company produces the Type R badge for the Integra and Civic?",
     "answers": [
-      "Honda",
-      "Toyota",
       "Subaru",
-      "Mazda"
+      "Honda",
+      "Mazda",
+      "Toyota"
     ],
     "correctAnswer": "Honda",
-    "explanation": "Honda is the correct answer to this cars question.",
+    "explanation": "Honda is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -2997,19 +2998,19 @@
     ]
   },
   {
-    "id": 10151,
+    "id": 5151,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which engine is famously associated with the Nissan Skyline GT-R R34?",
     "answers": [
-      "RB26DETT",
+      "K20A",
       "2JZ-GTE",
-      "13B-REW",
-      "K20A"
+      "RB26DETT",
+      "13B-REW"
     ],
     "correctAnswer": "RB26DETT",
-    "explanation": "RB26DETT is the correct answer to this cars question.",
+    "explanation": "RB26DETT is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3017,19 +3018,19 @@
     ]
   },
   {
-    "id": 10152,
+    "id": 5152,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which endurance racing class includes hypercars like the Ferrari 499P?",
     "answers": [
-      "Le Mans Hypercar",
       "GT3",
       "Formula E",
-      "Touring Car"
+      "Touring Car",
+      "Le Mans Hypercar"
     ],
     "correctAnswer": "Le Mans Hypercar",
-    "explanation": "Le Mans Hypercar is the correct answer to this cars question.",
+    "explanation": "Le Mans Hypercar is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3037,19 +3038,19 @@
     ]
   },
   {
-    "id": 10153,
+    "id": 5153,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the C63 AMG?",
+    "difficulty": "hard",
+    "text": "Which automotive company produces the C63 AMG?",
     "answers": [
       "Mercedes-Benz",
-      "BMW",
       "Audi",
-      "Lexus"
+      "Lexus",
+      "BMW"
     ],
     "correctAnswer": "Mercedes-Benz",
-    "explanation": "Mercedes-Benz is the correct answer to this cars question.",
+    "explanation": "Mercedes-Benz is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3057,19 +3058,19 @@
     ]
   },
   {
-    "id": 10154,
+    "id": 5154,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which movie franchise made the Toyota Supra and Dodge Charger iconic to a new generation?",
     "answers": [
+      "Rush",
       "Fast & Furious",
       "Transformers",
-      "Gone in 60 Seconds",
-      "Rush"
+      "Gone in 60 Seconds"
     ],
     "correctAnswer": "Fast & Furious",
-    "explanation": "Fast & Furious is the correct answer to this cars question.",
+    "explanation": "Fast & Furious is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3077,19 +3078,19 @@
     ]
   },
   {
-    "id": 10155,
+    "id": 5155,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which Porsche race car became famous for its pink “Pig” livery at Le Mans?",
     "answers": [
-      "917/20",
       "935",
       "956",
+      "917/20",
       "911 RSR"
     ],
     "correctAnswer": "917/20",
-    "explanation": "917/20 is the correct answer to this cars question.",
+    "explanation": "917/20 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3097,19 +3098,19 @@
     ]
   },
   {
-    "id": 10156,
+    "id": 5156,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "hard",
     "text": "Which company manufactures the Challenger Scat Pack?",
     "answers": [
-      "Dodge",
-      "Ford",
       "Chevrolet",
-      "Pontiac"
+      "Pontiac",
+      "Ford",
+      "Dodge"
     ],
     "correctAnswer": "Dodge",
-    "explanation": "Dodge is the correct answer to this cars question.",
+    "explanation": "Dodge is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3117,39 +3118,40 @@
     ]
   },
   {
-    "id": 10157,
-    "category": "cars",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which Japanese automaker created the luxury brand Genesis?",
-    "answers": [
-      "Hyundai",
-      "Toyota",
-      "Honda",
-      "Nissan"
-    ],
-    "correctAnswer": "Hyundai",
-    "explanation": "Hyundai is the correct answer to this cars question.",
-    "tags": [
-      "cars",
-      "medium",
-      "hyundai"
-    ]
-  },
-  {
-    "id": 10158,
+    "id": 5157,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which legendary Group B rally car was nicknamed the “Yellowbird”?",
+    "text": "Which automotive company created the luxury brand Genesis?",
     "answers": [
-      "RUF CTR",
+      "Hyundai",
+      "Nissan",
+      "Toyota",
+      "Honda"
+    ],
+    "correctAnswer": "Hyundai",
+    "explanation": "Genesis began as Hyundai's luxury brand before becoming a standalone marque.",
+    "tags": [
+      "cars",
+      "medium",
+      "hyundai",
+      "genesis"
+    ]
+  },
+  {
+    "id": 5158,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which famous Porsche-based sports car was nicknamed the “Yellowbird”?",
+    "answers": [
       "Audi Sport Quattro",
+      "RUF CTR",
       "Lancia 037",
       "Peugeot 205 T16"
     ],
     "correctAnswer": "RUF CTR",
-    "explanation": "RUF CTR is the correct answer to this cars question.",
+    "explanation": "The RUF CTR earned the nickname “Yellowbird” and became famous for its extreme performance.",
     "tags": [
       "cars",
       "hard",
@@ -3157,19 +3159,19 @@
     ]
   },
   {
-    "id": 10159,
+    "id": 5159,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Veloster N?",
+    "difficulty": "hard",
+    "text": "Which automotive company produces the Veloster N?",
     "answers": [
-      "Hyundai",
-      "Kia",
       "Honda",
-      "Toyota"
+      "Toyota",
+      "Hyundai",
+      "Kia"
     ],
     "correctAnswer": "Hyundai",
-    "explanation": "Hyundai is the correct answer to this cars question.",
+    "explanation": "Hyundai is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3177,19 +3179,19 @@
     ]
   },
   {
-    "id": 10160,
+    "id": 5160,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which famous Formula 1 driver is known as “The Iceman”?",
     "answers": [
-      "Kimi Räikkönen",
+      "Nico Rosberg",
       "Mika Häkkinen",
       "Valtteri Bottas",
-      "Nico Rosberg"
+      "Kimi Räikkönen"
     ],
     "correctAnswer": "Kimi Räikkönen",
-    "explanation": "Kimi Räikkönen is the correct answer to this cars question.",
+    "explanation": "Kimi Räikkönen is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3197,11 +3199,11 @@
     ]
   },
   {
-    "id": 10161,
+    "id": 5161,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the GR Corolla hot hatch?",
+    "difficulty": "hard",
+    "text": "Which automotive company produces the GR Corolla hot hatch?",
     "answers": [
       "Toyota",
       "Honda",
@@ -3209,7 +3211,7 @@
       "Subaru"
     ],
     "correctAnswer": "Toyota",
-    "explanation": "Toyota is the correct answer to this cars question.",
+    "explanation": "Toyota is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3217,19 +3219,19 @@
     ]
   },
   {
-    "id": 10162,
+    "id": 5162,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which classic Nissan sports car is commonly known by the chassis code S13?",
     "answers": [
-      "Nissan Silvia",
-      "Nissan Skyline GT-R",
       "Nissan 300ZX",
-      "Nissan Fairlady Z"
+      "Nissan Silvia",
+      "Nissan Fairlady Z",
+      "Nissan Skyline GT-R"
     ],
     "correctAnswer": "Nissan Silvia",
-    "explanation": "Nissan Silvia is the correct answer to this cars question.",
+    "explanation": "Nissan Silvia is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3237,19 +3239,19 @@
     ]
   },
   {
-    "id": 10163,
+    "id": 5163,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which Ferrari model introduced the side strakes made famous in the 1980s?",
     "answers": [
-      "Testarossa",
+      "512 BB",
       "F40",
-      "308 GTS",
-      "512 BB"
+      "Testarossa",
+      "308 GTS"
     ],
     "correctAnswer": "Testarossa",
-    "explanation": "Testarossa is the correct answer to this cars question.",
+    "explanation": "Testarossa is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3257,19 +3259,19 @@
     ]
   },
   {
-    "id": 10164,
+    "id": 5164,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Golf R?",
+    "difficulty": "hard",
+    "text": "Which automotive company produces the Golf R?",
     "answers": [
-      "Volkswagen",
       "Audi",
       "BMW",
-      "Seat"
+      "Seat",
+      "Volkswagen"
     ],
     "correctAnswer": "Volkswagen",
-    "explanation": "Volkswagen is the correct answer to this cars question.",
+    "explanation": "Volkswagen is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3277,19 +3279,19 @@
     ]
   },
   {
-    "id": 10165,
+    "id": 5165,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which famous Japanese road became iconic because of street racing culture in Tokyo?",
     "answers": [
       "Wangan",
-      "Touge Pass",
       "Shuto Loop",
-      "Akina Pass"
+      "Akina Pass",
+      "Touge Pass"
     ],
     "correctAnswer": "Wangan",
-    "explanation": "Wangan is the correct answer to this cars question.",
+    "explanation": "Wangan is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3297,19 +3299,19 @@
     ]
   },
   {
-    "id": 10166,
+    "id": 5166,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which Porsche variant is abbreviated as GT3 RS?",
     "answers": [
+      "Gran Touring Road Spec",
       "Gran Turismo Rennsport",
       "Grand Touring Rally Sport",
-      "German Track Racing Series",
-      "Gran Touring Road Spec"
+      "German Track Racing Series"
     ],
     "correctAnswer": "Gran Turismo Rennsport",
-    "explanation": "Gran Turismo Rennsport is the correct answer to this cars question.",
+    "explanation": "Gran Turismo Rennsport is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3317,19 +3319,19 @@
     ]
   },
   {
-    "id": 10167,
+    "id": 5167,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "hard",
     "text": "Which company manufactures the Charger Daytona EV?",
     "answers": [
-      "Dodge",
       "Ford",
       "Chevrolet",
+      "Dodge",
       "Tesla"
     ],
     "correctAnswer": "Dodge",
-    "explanation": "Dodge is the correct answer to this cars question.",
+    "explanation": "Dodge is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3337,19 +3339,19 @@
     ]
   },
   {
-    "id": 10168,
+    "id": 5168,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which Japanese automaker created the GR performance division?",
     "answers": [
-      "Toyota",
-      "Honda",
       "Mazda",
-      "Subaru"
+      "Subaru",
+      "Honda",
+      "Toyota"
     ],
     "correctAnswer": "Toyota",
-    "explanation": "Toyota is the correct answer to this cars question.",
+    "explanation": "Toyota is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3357,19 +3359,19 @@
     ]
   },
   {
-    "id": 10169,
+    "id": 5169,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which legendary BMW chassis code is associated with the first M3?",
     "answers": [
       "E30",
+      "G80",
       "E46",
-      "F80",
-      "G80"
+      "F80"
     ],
     "correctAnswer": "E30",
-    "explanation": "E30 is the correct answer to this cars question.",
+    "explanation": "E30 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3377,19 +3379,19 @@
     ]
   },
   {
-    "id": 10170,
+    "id": 5170,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the GTI hot hatch?",
+    "difficulty": "hard",
+    "text": "Which automotive company produces the GTI hot hatch?",
     "answers": [
-      "Volkswagen",
       "Ford",
+      "Volkswagen",
       "Honda",
       "Renault"
     ],
     "correctAnswer": "Volkswagen",
-    "explanation": "Volkswagen is the correct answer to this cars question.",
+    "explanation": "Volkswagen is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3397,19 +3399,19 @@
     ]
   },
   {
-    "id": 10171,
+    "id": 5171,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which supercar manufacturer created the Valkyrie hypercar?",
     "answers": [
-      "Aston Martin",
-      "McLaren",
       "Ferrari",
-      "Pagani"
+      "Pagani",
+      "Aston Martin",
+      "McLaren"
     ],
     "correctAnswer": "Aston Martin",
-    "explanation": "Aston Martin is the correct answer to this cars question.",
+    "explanation": "Aston Martin is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3417,19 +3419,19 @@
     ]
   },
   {
-    "id": 10172,
+    "id": 5172,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which Audi performance division competes with BMW M and Mercedes-AMG?",
     "answers": [
-      "Audi Sport",
+      "Vorsprung",
       "quattro GmbH",
       "RS Line",
-      "Vorsprung"
+      "Audi Sport"
     ],
     "correctAnswer": "Audi Sport",
-    "explanation": "Audi Sport is the correct answer to this cars question.",
+    "explanation": "Audi Sport is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3437,11 +3439,11 @@
     ]
   },
   {
-    "id": 10173,
+    "id": 5173,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Supra A80?",
+    "difficulty": "hard",
+    "text": "Which automotive company produces the Supra A80?",
     "answers": [
       "Toyota",
       "Honda",
@@ -3449,7 +3451,7 @@
       "Nissan"
     ],
     "correctAnswer": "Toyota",
-    "explanation": "Toyota is the correct answer to this cars question.",
+    "explanation": "Toyota is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3457,19 +3459,19 @@
     ]
   },
   {
-    "id": 10174,
+    "id": 5174,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which famous endurance race is held at Daytona?",
     "answers": [
-      "24 Hours of Daytona",
-      "12 Hours of Sebring",
       "Bathurst 1000",
-      "24 Hours of Nürburgring"
+      "24 Hours of Daytona",
+      "24 Hours of Nürburgring",
+      "12 Hours of Sebring"
     ],
     "correctAnswer": "24 Hours of Daytona",
-    "explanation": "24 Hours of Daytona is the correct answer to this cars question.",
+    "explanation": "24 Hours of Daytona is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3477,19 +3479,19 @@
     ]
   },
   {
-    "id": 10175,
+    "id": 5175,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which Japanese sports car is powered by Honda’s K20 engine in many tuning builds?",
     "answers": [
-      "Honda Civic Type R",
+      "Nissan Silvia",
       "Mazda RX-7",
-      "Toyota Supra",
-      "Nissan Silvia"
+      "Honda Civic Type R",
+      "Toyota Supra"
     ],
     "correctAnswer": "Honda Civic Type R",
-    "explanation": "Honda Civic Type R is the correct answer to this cars question.",
+    "explanation": "Honda Civic Type R is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3497,19 +3499,19 @@
     ]
   },
   {
-    "id": 10176,
+    "id": 5176,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the M4 Competition?",
+    "difficulty": "hard",
+    "text": "Which automotive company produces the M4 Competition?",
     "answers": [
-      "BMW",
       "Audi",
       "Mercedes-Benz",
-      "Lexus"
+      "Lexus",
+      "BMW"
     ],
     "correctAnswer": "BMW",
-    "explanation": "BMW is the correct answer to this cars question.",
+    "explanation": "BMW is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3517,19 +3519,19 @@
     ]
   },
   {
-    "id": 10177,
+    "id": 5177,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which famous tuner company is associated with Subaru performance upgrades?",
     "answers": [
       "STI",
-      "TRD",
       "Mugen",
-      "NISMO"
+      "NISMO",
+      "TRD"
     ],
     "correctAnswer": "STI",
-    "explanation": "STI is the correct answer to this cars question.",
+    "explanation": "STI is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3537,19 +3539,19 @@
     ]
   },
   {
-    "id": 10178,
+    "id": 5178,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which McLaren road car held the world speed record during the 1990s?",
     "answers": [
+      "Senna",
       "McLaren F1",
       "P1",
-      "720S",
-      "Senna"
+      "720S"
     ],
     "correctAnswer": "McLaren F1",
-    "explanation": "McLaren F1 is the correct answer to this cars question.",
+    "explanation": "McLaren F1 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3557,19 +3559,19 @@
     ]
   },
   {
-    "id": 10179,
+    "id": 5179,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "hard",
     "text": "Which company manufactures the 911 Dakar?",
     "answers": [
-      "Porsche",
       "Audi",
       "BMW",
+      "Porsche",
       "Mercedes-Benz"
     ],
     "correctAnswer": "Porsche",
-    "explanation": "Porsche is the correct answer to this cars question.",
+    "explanation": "Porsche is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3577,19 +3579,19 @@
     ]
   },
   {
-    "id": 10180,
+    "id": 5180,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which famous Japanese street racing manga inspired the anime Wangan Midnight?",
     "answers": [
-      "Wangan Midnight",
-      "Initial D",
       "Over Rev!",
-      "MF Ghost"
+      "MF Ghost",
+      "Initial D",
+      "Wangan Midnight"
     ],
     "correctAnswer": "Wangan Midnight",
-    "explanation": "Wangan Midnight is the correct answer to this cars question.",
+    "explanation": "Wangan Midnight is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3597,59 +3599,60 @@
     ]
   },
   {
-    "id": 10181,
+    "id": 5181,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Civic Type R FL5?",
+    "difficulty": "hard",
+    "text": "Which Japanese performance car is strongly associated with the 13B rotary engine?",
     "answers": [
-      "Honda",
-      "Toyota",
-      "Mazda",
-      "Subaru"
+      "Mazda RX-7",
+      "Honda NSX",
+      "Toyota Supra",
+      "Nissan Skyline GT-R"
     ],
-    "correctAnswer": "Honda",
-    "explanation": "Honda is the correct answer to this cars question.",
-    "tags": [
-      "cars",
-      "easy",
-      "honda"
-    ]
-  },
-  {
-    "id": 10182,
-    "category": "cars",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which famous racing driver is known as “The Doctor” in MotoGP?",
-    "answers": [
-      "Valentino Rossi",
-      "Marc Márquez",
-      "Jorge Lorenzo",
-      "Casey Stoner"
-    ],
-    "correctAnswer": "Valentino Rossi",
-    "explanation": "Valentino Rossi is the correct answer to this cars question.",
+    "correctAnswer": "Mazda RX-7",
+    "explanation": "The Mazda RX-7 is one of the most famous production cars associated with Mazda's 13B rotary engine.",
     "tags": [
       "cars",
       "medium",
-      "valentino-rossi"
+      "mazda",
+      "rotary"
     ]
   },
   {
-    "id": 10183,
+    "id": 5182,
+    "category": "cars",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which famous rally driver was nicknamed “The Flying Finn”?",
+    "answers": [
+      "Valentino Rossi",
+      "Ari Vatanen",
+      "Lewis Hamilton",
+      "Dale Earnhardt"
+    ],
+    "correctAnswer": "Ari Vatanen",
+    "explanation": "Ari Vatanen is one of the famous Finnish rally drivers associated with the “Flying Finn” nickname.",
+    "tags": [
+      "cars",
+      "medium",
+      "rally"
+    ]
+  },
+  {
+    "id": 5183,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which legendary Japanese sports car was sold in America as the Acura NSX?",
     "answers": [
-      "Honda NSX",
-      "Toyota Supra",
       "Mazda RX-7",
-      "Nissan GT-R"
+      "Nissan GT-R",
+      "Honda NSX",
+      "Toyota Supra"
     ],
     "correctAnswer": "Honda NSX",
-    "explanation": "Honda NSX is the correct answer to this cars question.",
+    "explanation": "Honda NSX is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3657,19 +3660,19 @@
     ]
   },
   {
-    "id": 10184,
+    "id": 5184,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Elantra N?",
+    "difficulty": "hard",
+    "text": "Which automotive company produces the Elantra N?",
     "answers": [
-      "Hyundai",
+      "Toyota",
       "Kia",
       "Honda",
-      "Toyota"
+      "Hyundai"
     ],
     "correctAnswer": "Hyundai",
-    "explanation": "Hyundai is the correct answer to this cars question.",
+    "explanation": "Hyundai is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3677,10 +3680,10 @@
     ]
   },
   {
-    "id": 10185,
+    "id": 5185,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which famous Japanese mountain-road racing style inspired Initial D?",
     "answers": [
       "Touge",
@@ -3689,7 +3692,7 @@
       "Time Attack"
     ],
     "correctAnswer": "Touge",
-    "explanation": "Touge is the correct answer to this cars question.",
+    "explanation": "Touge is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3697,19 +3700,19 @@
     ]
   },
   {
-    "id": 10186,
+    "id": 5186,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which Ferrari model replaced the 488 GTB?",
     "answers": [
-      "F8 Tributo",
-      "Roma",
       "812 Superfast",
-      "296 GTB"
+      "F8 Tributo",
+      "296 GTB",
+      "Roma"
     ],
     "correctAnswer": "F8 Tributo",
-    "explanation": "F8 Tributo is the correct answer to this cars question.",
+    "explanation": "F8 Tributo is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3717,19 +3720,19 @@
     ]
   },
   {
-    "id": 10187,
+    "id": 5187,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "hard",
     "text": "Which company manufactures the AMG One hypercar?",
     "answers": [
-      "Mercedes-Benz",
+      "Porsche",
       "BMW",
-      "Audi",
-      "Porsche"
+      "Mercedes-Benz",
+      "Audi"
     ],
     "correctAnswer": "Mercedes-Benz",
-    "explanation": "Mercedes-Benz is the correct answer to this cars question.",
+    "explanation": "Mercedes-Benz is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3737,19 +3740,19 @@
     ]
   },
   {
-    "id": 10188,
+    "id": 5188,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which Japanese automaker created the NISMO performance division?",
     "answers": [
-      "Nissan",
       "Toyota",
       "Honda",
-      "Mazda"
+      "Mazda",
+      "Nissan"
     ],
     "correctAnswer": "Nissan",
-    "explanation": "Nissan is the correct answer to this cars question.",
+    "explanation": "Nissan is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3757,19 +3760,19 @@
     ]
   },
   {
-    "id": 10189,
+    "id": 5189,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which famous rally event climbs a mountain in Colorado each year?",
     "answers": [
       "Pikes Peak International Hill Climb",
-      "Dakar Rally",
       "Monte Carlo Rally",
-      "Safari Rally"
+      "Safari Rally",
+      "Dakar Rally"
     ],
     "correctAnswer": "Pikes Peak International Hill Climb",
-    "explanation": "Pikes Peak International Hill Climb is the correct answer to this cars question.",
+    "explanation": "Pikes Peak International Hill Climb is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3777,19 +3780,19 @@
     ]
   },
   {
-    "id": 10190,
+    "id": 5190,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Cayman GT4?",
+    "difficulty": "hard",
+    "text": "Which automotive company produces the Cayman GT4?",
     "answers": [
+      "Audi",
       "Porsche",
       "Ferrari",
-      "McLaren",
-      "Audi"
+      "McLaren"
     ],
     "correctAnswer": "Porsche",
-    "explanation": "Porsche is the correct answer to this cars question.",
+    "explanation": "Porsche is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3797,19 +3800,19 @@
     ]
   },
   {
-    "id": 10191,
+    "id": 5191,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which famous engine family powers many modern BMW M performance cars?",
     "answers": [
-      "S58",
       "2JZ",
       "RB26",
+      "S58",
       "K20"
     ],
     "correctAnswer": "S58",
-    "explanation": "S58 is the correct answer to this cars question.",
+    "explanation": "S58 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3817,19 +3820,19 @@
     ]
   },
   {
-    "id": 10192,
+    "id": 5192,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which Lamborghini replaced the Aventador as the flagship V12 model?",
     "answers": [
-      "Revuelto",
-      "Huracán",
       "Gallardo",
-      "Murciélago"
+      "Murciélago",
+      "Huracán",
+      "Revuelto"
     ],
     "correctAnswer": "Revuelto",
-    "explanation": "Revuelto is the correct answer to this cars question.",
+    "explanation": "Revuelto is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3837,19 +3840,19 @@
     ]
   },
   {
-    "id": 10193,
+    "id": 5193,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the RS7 Sportback?",
+    "difficulty": "hard",
+    "text": "Which automotive company produces the RS7 Sportback?",
     "answers": [
       "Audi",
+      "Volkswagen",
       "BMW",
-      "Mercedes-Benz",
-      "Volkswagen"
+      "Mercedes-Benz"
     ],
     "correctAnswer": "Audi",
-    "explanation": "Audi is the correct answer to this cars question.",
+    "explanation": "Audi is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3857,19 +3860,19 @@
     ]
   },
   {
-    "id": 10194,
+    "id": 5194,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which famous Japanese tuning style focuses on exaggerated wide-body kits and extreme visuals?",
     "answers": [
-      "Bosozoku",
       "Touge",
+      "Bosozoku",
       "VIP",
       "Shakotan"
     ],
     "correctAnswer": "Bosozoku",
-    "explanation": "Bosozoku is the correct answer to this cars question.",
+    "explanation": "Bosozoku is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3877,19 +3880,19 @@
     ]
   },
   {
-    "id": 10195,
+    "id": 5195,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which Porsche model became famous for winning the Paris-Dakar Rally in the 1980s?",
     "answers": [
-      "959",
-      "911 Carrera RS",
       "944 Turbo",
-      "917K"
+      "917K",
+      "959",
+      "911 Carrera RS"
     ],
     "correctAnswer": "959",
-    "explanation": "959 is the correct answer to this cars question.",
+    "explanation": "959 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3897,19 +3900,19 @@
     ]
   },
   {
-    "id": 10196,
+    "id": 5196,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which automaker produces the Supra GRMN concept?",
+    "difficulty": "hard",
+    "text": "Which automotive company produces the Supra GRMN concept?",
     "answers": [
-      "Toyota",
+      "Mazda",
       "Honda",
       "Nissan",
-      "Mazda"
+      "Toyota"
     ],
     "correctAnswer": "Toyota",
-    "explanation": "Toyota is the correct answer to this cars question.",
+    "explanation": "Toyota is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3917,10 +3920,10 @@
     ]
   },
   {
-    "id": 10197,
+    "id": 5197,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which famous Formula 1 team uses papaya orange as its signature color?",
     "answers": [
       "McLaren",
@@ -3929,7 +3932,7 @@
       "Alpine"
     ],
     "correctAnswer": "McLaren",
-    "explanation": "McLaren is the correct answer to this cars question.",
+    "explanation": "McLaren is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",
@@ -3937,19 +3940,19 @@
     ]
   },
   {
-    "id": 10198,
+    "id": 5198,
     "category": "cars",
     "premium": true,
     "difficulty": "hard",
     "text": "Which Nissan Skyline generation is commonly referred to as the “Kenmeri”?",
     "answers": [
-      "C110 Skyline GT-R",
-      "R32 Skyline GT-R",
       "R34 Skyline GT-R",
-      "Hakosuka GT-R"
+      "C110 Skyline GT-R",
+      "Hakosuka GT-R",
+      "R32 Skyline GT-R"
     ],
     "correctAnswer": "C110 Skyline GT-R",
-    "explanation": "C110 Skyline GT-R is the correct answer to this cars question.",
+    "explanation": "C110 Skyline GT-R is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "hard",
@@ -3957,19 +3960,19 @@
     ]
   },
   {
-    "id": 10199,
+    "id": 5199,
     "category": "cars",
     "premium": true,
-    "difficulty": "easy",
+    "difficulty": "hard",
     "text": "Which company manufactures the LC500 convertible?",
     "answers": [
-      "Lexus",
+      "Genesis",
       "Infiniti",
-      "Acura",
-      "Genesis"
+      "Lexus",
+      "Acura"
     ],
     "correctAnswer": "Lexus",
-    "explanation": "Lexus is the correct answer to this cars question.",
+    "explanation": "Lexus is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "easy",
@@ -3977,19 +3980,19 @@
     ]
   },
   {
-    "id": 10200,
+    "id": 5200,
     "category": "cars",
     "premium": true,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "text": "Which famous motorsport event is held annually at Mount Panorama in Australia?",
     "answers": [
-      "Bathurst 1000",
       "24 Hours of Le Mans",
       "Monaco Grand Prix",
-      "Nürburgring 24 Hours"
+      "Nürburgring 24 Hours",
+      "Bathurst 1000"
     ],
     "correctAnswer": "Bathurst 1000",
-    "explanation": "Bathurst 1000 is the correct answer to this cars question.",
+    "explanation": "Bathurst 1000 is the correct answer based on the car model, brand, motorsport, or automotive fact being tested.",
     "tags": [
       "cars",
       "medium",

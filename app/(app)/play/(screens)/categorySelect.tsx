@@ -1,4 +1,3 @@
-
 // app/(app)/play/(screens)/categorySelect.tsx
 
 import React from "react";
@@ -10,131 +9,153 @@ import {
   ScrollView,
   Image,
   ImageBackground,
+  useWindowDimensions,
 } from "react-native";
-
+import { LinearGradient } from "expo-linear-gradient";
 import { useRouter } from "expo-router";
+
 import { PLAYABLE_CATEGORIES, CATEGORIES } from "@/data/categories";
 
 const BG = require("../../../../assets/premium/atmospheres/premium_section_bg.webp");
 
+const HORIZONTAL_PADDING = 18;
+const TILE_GAP = 8;
+const COLUMN_COUNT = 3;
+
 export default function CategorySelect() {
   const router = useRouter();
+  const { width } = useWindowDimensions();
 
-  const comingSoonCount = CATEGORIES.filter(
-    (c) => !c.hasQuestions
-  ).length;
+  const comingSoonCount = CATEGORIES.filter((c) => !c.hasQuestions).length;
+  const tileWidth = Math.floor(
+    (width - HORIZONTAL_PADDING * 2 - TILE_GAP * (COLUMN_COUNT - 1)) /
+      COLUMN_COUNT
+  );
+  const tileHeight = Math.round(tileWidth * 0.86);
 
   return (
-    <ImageBackground
-      source={BG}
-      style={styles.root}
-      resizeMode="cover"
-    >
-      <View style={styles.overlay} />
+    <ImageBackground source={BG} style={styles.root} resizeMode="cover">
+      <LinearGradient
+        colors={[
+          "rgba(0,0,0,0.66)",
+          "rgba(3,6,24,0.42)",
+          "rgba(0,0,0,0.78)",
+        ]}
+        style={StyleSheet.absoluteFillObject}
+      />
 
       <ScrollView
         contentContainerStyle={styles.container}
         showsVerticalScrollIndicator={false}
       >
-        <View style={styles.hero}>
-          <Text style={styles.eyebrow}>TRIVIAWORLD</Text>
-
-          <Text style={styles.title}>
-            Choose Your{"\n"}Category
-          </Text>
-
-          <Text style={styles.subtitle}>
-            Pick a trivia world and start your next challenge.
-          </Text>
+        <View style={styles.headerRow}>
+          <Text style={styles.eyebrow}>QUICK PLAY</Text>
+          <Text style={styles.title}>Choose a World</Text>
+          <Text style={styles.subtitle}>Cinematic worlds. Fast start. Clear identity.</Text>
         </View>
 
         <Pressable
           style={({ pressed }) => [
-            styles.featuredCard,
-            pressed && styles.cardPressed,
+            styles.randomCard,
+            pressed && styles.randomCardPressed,
           ]}
           onPress={() => router.push("/play/quick?category=random")}
         >
-          <View style={styles.featuredGlow} />
-
-          <View style={styles.featuredContent}>
-            <Text style={styles.featuredLabel}>
-              QUICK START
-            </Text>
-
-            <Text style={styles.featuredTitle}>
-              Random Mix
-            </Text>
-
-            <Text style={styles.featuredText}>
-              Instant random category challenge
-            </Text>
+          <LinearGradient
+            colors={[
+              "rgba(214,169,58,0.18)",
+              "rgba(55,139,255,0.12)",
+              "rgba(6,13,31,0.88)",
+            ]}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={StyleSheet.absoluteFillObject}
+          />
+          <View style={styles.randomOrb} />
+          <View style={styles.randomTextBlock}>
+            <Text style={styles.randomKicker}>INSTANT CATEGORY MIX</Text>
+            <Text style={styles.randomTitle}>Random Mix</Text>
           </View>
-
-          <Text style={styles.featuredArrow}>›</Text>
+          <Text style={styles.randomArrow}>›</Text>
         </Pressable>
 
         <View style={styles.grid}>
           {PLAYABLE_CATEGORIES.map((category) => (
             <Pressable
               key={category.id}
-              onPress={() =>
-                router.push(
-                  `/play/quick?category=${category.id}`
-                )
-              }
+              onPress={() => router.push(`/play/quick?category=${category.id}`)}
+              accessibilityLabel={`${category.label} category`}
+              accessibilityHint="Starts a quick play run in this category"
               style={({ pressed }) => [
-                styles.card,
+                styles.worldTile,
                 {
+                  width: tileWidth,
+                  height: tileHeight,
                   shadowColor: category.color,
+                  borderColor: `${category.color}A8`,
                 },
-                pressed && styles.tilePressed,
+                pressed && styles.worldTilePressed,
               ]}
             >
-              <View
-                style={[
-                  styles.cardGlow,
-                  {
-                    shadowColor: category.color,
-                  },
-                ]}
+              {category.icon ? (
+                <Image
+                  source={category.icon}
+                  style={styles.cardArt}
+                  resizeMode="cover"
+                />
+              ) : (
+                <View style={styles.fallbackArt}>
+                  <Text style={styles.fallbackIcon}>★</Text>
+                </View>
+              )}
+
+              <LinearGradient
+                pointerEvents="none"
+                colors={["rgba(2,6,14,0.22)", "rgba(2,6,14,0.04)", "rgba(2,6,14,0)"]}
+                locations={[0, 0.44, 1]}
+                start={{ x: 0, y: 0.5 }}
+                end={{ x: 1, y: 0.5 }}
+                style={StyleSheet.absoluteFill}
+              />
+              <LinearGradient
+                pointerEvents="none"
+                colors={["rgba(0,0,0,0)", "rgba(0,0,0,0.10)", "rgba(0,0,0,0.48)"]}
+                locations={[0, 0.48, 1]}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 0, y: 1 }}
+                style={StyleSheet.absoluteFill}
+              />
+              <LinearGradient
+                pointerEvents="none"
+                colors={["rgba(255,214,110,0.18)", "rgba(33,190,255,0.14)", "rgba(0,0,0,0)"]}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 1 }}
+                style={StyleSheet.absoluteFill}
               />
 
-              <View style={styles.iconWrap}>
-                {category.icon ? (
-                  <Image
-                    source={category.icon}
-                    style={styles.iconImage}
-                    resizeMode="contain"
-                  />
-                ) : (
-                  <Text style={styles.fallbackIcon}>
-                    ★
-                  </Text>
-                )}
-              </View>
+              <View pointerEvents="none" style={[styles.artAccent, { backgroundColor: category.color }]} />
+              <View pointerEvents="none" style={[styles.artBorderGlow, { borderColor: `${category.color}99` }]} />
 
-              <Text
-                style={styles.cardTitle}
-                numberOfLines={1}
-                adjustsFontSizeToFit
-                minimumFontScale={0.72}
-              >
-                {category.label}
-              </Text>
+              <View style={styles.labelBand}>
+                <Text
+                  style={styles.worldLabel}
+                  numberOfLines={1}
+                  adjustsFontSizeToFit
+                  minimumFontScale={0.68}
+                >
+                  {category.label}
+                </Text>
+              </View>
             </Pressable>
           ))}
         </View>
 
         {comingSoonCount > 0 && (
           <View style={styles.notice}>
-            <Text style={styles.noticeTitle}>
-              More Worlds Incoming
-            </Text>
-
+            <Text style={styles.noticeTitle}>More Worlds Incoming</Text>
             <Text style={styles.noticeText}>
-              {comingSoonCount} future categories are hidden
-              until their question packs are completed.
+              {comingSoonCount} locked worlds will unlock when their question packs
+              are ready.
             </Text>
           </View>
         )}
@@ -148,243 +169,216 @@ export default function CategorySelect() {
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor: "#050816",
-  },
-
-  overlay: {
-    ...StyleSheet.absoluteFillObject,
-    backgroundColor: "rgba(0,0,0,0.62)",
+    backgroundColor: "#02040D",
   },
 
   container: {
-    paddingTop: 48,
-    paddingHorizontal: 16,
-    paddingBottom: 112,
+    paddingTop: 42,
+    paddingHorizontal: HORIZONTAL_PADDING,
+    paddingBottom: 92,
   },
 
-  hero: {
-    marginBottom: 18,
+  headerRow: {
+    marginBottom: 10,
   },
 
   eyebrow: {
     color: "#D6A93A",
-    fontSize: 12,
+    fontSize: 10,
     fontWeight: "900",
     letterSpacing: 1.6,
-    marginBottom: 5,
+    marginBottom: 3,
   },
 
   title: {
-    fontSize: 28,
-    lineHeight: 33,
-    fontWeight: "900",
     color: "#FFFFFF",
-    letterSpacing: -0.8,
-    marginBottom: 6,
+    fontSize: 26,
+    lineHeight: 29,
+    fontWeight: "900",
+    letterSpacing: -0.7,
   },
 
   subtitle: {
-    color: "#B8C3E6",
-    fontSize: 14,
-    lineHeight: 20,
-    fontWeight: "700",
-    maxWidth: "92%",
+    color: "#AEBBE6",
+    fontSize: 12,
+    lineHeight: 16,
+    fontWeight: "800",
+    marginTop: 3,
   },
 
-  featuredCard: {
-    minHeight: 88,
-    borderRadius: 20,
-    padding: 16,
-
-    marginBottom: 18,
-
+  randomCard: {
+    minHeight: 62,
+    borderRadius: 21,
+    marginBottom: 10,
+    paddingHorizontal: 16,
     overflow: "hidden",
-
-    backgroundColor: "rgba(8,17,34,0.86)",
-
-    borderWidth: 1,
-    borderColor: "rgba(214,169,58,0.24)",
-
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-
+    borderWidth: 1,
+    borderColor: "rgba(214,169,58,0.34)",
+    backgroundColor: "rgba(6,13,31,0.84)",
     shadowColor: "#D6A93A",
-    shadowOpacity: 0.10,
-    shadowRadius: 10,
-    shadowOffset: { width: 0, height: 5 },
-
-    elevation: 5,
+    shadowOpacity: 0.13,
+    shadowRadius: 14,
+    shadowOffset: { width: 0, height: 7 },
+    elevation: 7,
   },
 
-  featuredGlow: {
+  randomCardPressed: {
+    transform: [{ scale: 0.985 }],
+    opacity: 0.94,
+  },
+
+  randomOrb: {
     position: "absolute",
-    right: -18,
-    top: -14,
-
-    width: 84,
-    height: 84,
-    borderRadius: 42,
-
-    backgroundColor: "rgba(86,166,255,0.08)",
+    right: 38,
+    top: -34,
+    width: 104,
+    height: 104,
+    borderRadius: 52,
+    backgroundColor: "rgba(86,166,255,0.10)",
   },
 
-  featuredContent: {
+  randomTextBlock: {
     flex: 1,
   },
 
-  featuredLabel: {
+  randomKicker: {
     color: "#D6A93A",
-    fontSize: 10,
+    fontSize: 9,
     fontWeight: "900",
-    letterSpacing: 0.9,
-    marginBottom: 4,
-  },
-
-  featuredTitle: {
-    color: "#FFFFFF",
-    fontSize: 24,
-    fontWeight: "900",
+    letterSpacing: 1.15,
     marginBottom: 2,
   },
 
-  featuredText: {
-    color: "#AAB8E8",
-    fontSize: 12,
-    fontWeight: "700",
+  randomTitle: {
+    color: "#FFFFFF",
+    fontSize: 21,
+    lineHeight: 24,
+    fontWeight: "900",
+    letterSpacing: -0.45,
   },
 
-  featuredArrow: {
-    color: "#D6A93A",
+  randomArrow: {
+    color: "#F7D86B",
     fontSize: 30,
-    fontWeight: "700",
+    lineHeight: 31,
+    fontWeight: "900",
     marginLeft: 10,
   },
 
   grid: {
     flexDirection: "row",
     flexWrap: "wrap",
-    justifyContent: "space-between",
-    rowGap: 10,
+    columnGap: TILE_GAP,
+    rowGap: TILE_GAP,
   },
 
-  card: {
-    width: "31%",
-    height: 108,
-
-    borderRadius: 20,
-
-    paddingHorizontal: 6,
-    paddingVertical: 8,
-
+  worldTile: {
     overflow: "hidden",
-
-    backgroundColor: "rgba(10,18,36,0.92)",
-
-    borderWidth: 1.2,
-
-    alignItems: "center",
-    justifyContent: "center",
-
-    shadowColor: "#000",
-    shadowOpacity: 0.14,
-    shadowRadius: 9,
-    shadowOffset: { width: 0, height: 4 },
-
-    elevation: 4,
+    borderRadius: 14,
+    backgroundColor: "#07111F",
+    borderWidth: 1,
+    shadowOpacity: 0.30,
+    shadowRadius: 15,
+    shadowOffset: { width: 0, height: 8 },
+    elevation: 8,
   },
 
-  tilePressed: {
-    transform: [{ scale: 0.96 }],
+  worldTilePressed: {
+    transform: [{ scale: 0.965 }],
     opacity: 0.9,
   },
 
-  cardPressed: {
-    transform: [{ scale: 0.985 }],
-    opacity: 0.92,
+  cardArt: {
+    ...StyleSheet.absoluteFillObject,
+    width: "100%",
+    height: "100%",
+    opacity: 1,
   },
 
-  cardGlow: {
-    position: "absolute",
-    top: -22,
-    right: -22,
-
-    width: 44,
-    height: 44,
-
-    borderRadius: 29,
-
-    backgroundColor: "rgba(86,166,255,0.05)",
-
-    shadowOpacity: 0.28,
-    shadowRadius: 10,
-    shadowOffset: { width: 0, height: 0 },
-  },
-
-  iconWrap: {
-    width: 70,
-    height: 70,
-
-    borderRadius: 22,
-
-    backgroundColor: "rgba(18,28,52,0.22)",
-
+  fallbackArt: {
+    ...StyleSheet.absoluteFillObject,
     alignItems: "center",
     justifyContent: "center",
-
-    marginBottom: 6,
-
-    borderWidth: 1,
-    borderColor: "rgba(143,183,217,0.025)",
-  },
-
-  iconImage: {
-    width: 68,
-    height: 68,
+    backgroundColor: "#07111F",
   },
 
   fallbackIcon: {
     color: "#D6A93A",
-    fontSize: 36,
+    fontSize: 34,
     fontWeight: "900",
+    textShadowColor: "rgba(214,169,58,0.35)",
+    textShadowRadius: 12,
   },
 
-  cardTitle: {
-    color: "#EAF3FF",
+  artAccent: {
+    position: "absolute",
+    left: 10,
+    right: 10,
+    top: 0,
+    height: 1,
+    opacity: 0.92,
+  },
+
+  artBorderGlow: {
+    ...StyleSheet.absoluteFillObject,
+    borderRadius: 14,
+    borderWidth: 1,
+    opacity: 0.95,
+  },
+
+  labelBand: {
+    position: "absolute",
+    left: 7,
+    right: 7,
+    bottom: 7,
+    minHeight: 22,
+    borderRadius: 999,
+    alignItems: "center",
+    justifyContent: "center",
+    paddingHorizontal: 5,
+    backgroundColor: "rgba(1,3,13,0.70)",
+    borderWidth: 1,
+    borderColor: "rgba(159,231,255,0.28)",
+  },
+
+  worldLabel: {
+    color: "#F1F6FF",
     fontSize: 11,
     lineHeight: 13,
     fontWeight: "900",
     textAlign: "center",
+    letterSpacing: -0.18,
+    textShadowColor: "rgba(0,0,0,0.95)",
+    textShadowRadius: 8,
   },
 
   notice: {
-    marginTop: 18,
-
+    marginTop: 12,
     borderRadius: 20,
-
-    padding: 14,
-
-    backgroundColor: "rgba(10,18,36,0.92)",
-
+    padding: 13,
+    backgroundColor: "rgba(7,15,32,0.70)",
     borderWidth: 1,
-    borderColor: "rgba(214,169,58,0.20)",
+    borderColor: "rgba(214,169,58,0.22)",
   },
 
   noticeTitle: {
     color: "#D6A93A",
     fontWeight: "900",
-    fontSize: 15,
-    marginBottom: 4,
+    fontSize: 14,
+    marginBottom: 3,
   },
 
   noticeText: {
     color: "#AAB8E8",
-    fontSize: 13,
-    lineHeight: 18,
-    fontWeight: "700",
+    fontSize: 12,
+    lineHeight: 17,
+    fontWeight: "800",
   },
 
   bottomSpacer: {
-    height: 42,
+    height: 28,
   },
 });

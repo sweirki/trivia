@@ -3,6 +3,7 @@ type ArenaPayload = Record<string, unknown>;
 
 import { create } from "zustand";
 import { buildArenaQuestions } from "@/questions/gameplayQuestions";
+import { ARENA_MODE_CONFIG } from "@/arena/arenaEconomyRules";
 
 // TYPES ---------------------------------------------
 
@@ -20,6 +21,8 @@ interface ArenaOpponent {
   name: string;
   avatar: string;
   difficulty: string;
+  title?: string;
+  style?: string;
   score: number;
   sr: number; // ⭐ ADD THIS
 }
@@ -124,6 +127,8 @@ export const useArenaStore = create<ArenaStoreState>((set, get) => ({
       name: opp.name,
       avatar: opp.avatar,
       difficulty: opp.difficulty,
+      title: opp.title,
+      style: opp.style,
       score: 0,
       sr: opp.sr ?? 0,
     },
@@ -196,7 +201,7 @@ startRankedMatch: async () => {
   get().setOpponent(bot);
 
   // LOAD QUESTIONS FROM Q-ENGINE (Q10)
-  get().loadQuestions(buildArenaQuestions("ranked", 5));
+  get().loadQuestions(buildArenaQuestions("ranked", ARENA_MODE_CONFIG.ranked.questions ?? 7));
 
   set({ matchState: "countdown" });
 
@@ -281,6 +286,8 @@ startRankedMatch: async () => {
       powerReveal: false,
     }),
 }));
+
+
 
 
 

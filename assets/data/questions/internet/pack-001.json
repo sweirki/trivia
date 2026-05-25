@@ -1,6 +1,6 @@
 [
   {
-    "id": 62501,
+    "id": 22501,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -14,73 +14,65 @@
     "correctAnswer": "Google",
     "explanation": "Google is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "google"
+      "internet"
     ]
   },
   {
-    "id": 62502,
+    "id": 22502,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "What does the abbreviation 'URL' stand for?",
     "answers": [
-      "Uniform Resource Locator",
       "Universal Routing Link",
+      "Uniform Resource Locator",
       "Unified Reference Language",
       "User Redirect Location"
     ],
     "correctAnswer": "Uniform Resource Locator",
     "explanation": "Uniform Resource Locator is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "easy",
-      "uniform-resource"
+      "internet"
     ]
   },
   {
-    "id": 62503,
+    "id": 22503,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which social media platform is known for short videos and viral trends?",
     "answers": [
-      "TikTok",
       "LinkedIn",
       "Reddit",
+      "TikTok",
       "Pinterest"
     ],
     "correctAnswer": "TikTok",
     "explanation": "TikTok is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "tiktok"
+      "internet"
     ]
   },
   {
-    "id": 62504,
+    "id": 22504,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What does 'VPN' stand for in internet technology?",
     "answers": [
-      "Virtual Private Network",
       "Verified Personal Node",
       "Virtual Public Navigation",
-      "Variable Processing Network"
+      "Variable Processing Network",
+      "Virtual Private Network"
     ],
     "correctAnswer": "Virtual Private Network",
     "explanation": "Virtual Private Network is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "virtual-private"
+      "internet"
     ]
   },
   {
-    "id": 62505,
+    "id": 22505,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -94,73 +86,65 @@
     "correctAnswer": "Google",
     "explanation": "Google is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "google"
+      "internet"
     ]
   },
   {
-    "id": 62506,
+    "id": 22506,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is mainly used for professional networking and job searching?",
     "answers": [
-      "LinkedIn",
       "Snapchat",
+      "LinkedIn",
       "Discord",
       "Reddit"
     ],
     "correctAnswer": "LinkedIn",
     "explanation": "LinkedIn is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "linkedin"
+      "internet"
     ]
   },
   {
-    "id": 62507,
+    "id": 22507,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the name of Amazon's cloud computing service platform?",
     "answers": [
-      "AWS",
       "Azure",
       "Cloudflare",
+      "AWS",
       "Firebase"
     ],
     "correctAnswer": "AWS",
     "explanation": "AWS is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "aws"
+      "internet"
     ]
   },
   {
-    "id": 62508,
+    "id": 22508,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which website is widely known for online encyclopedia articles edited by users?",
     "answers": [
-      "Wikipedia",
       "Reddit",
       "Quora",
-      "Medium"
+      "Medium",
+      "Wikipedia"
     ],
     "correctAnswer": "Wikipedia",
     "explanation": "Wikipedia is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "wikipedia"
+      "internet"
     ]
   },
   {
-    "id": 62509,
+    "id": 22509,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
@@ -174,73 +158,65 @@
     "correctAnswer": "Meta",
     "explanation": "Meta is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "medium",
-      "meta"
+      "internet"
     ]
   },
   {
-    "id": 62510,
+    "id": 22510,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "What is the common symbol used in email addresses?",
     "answers": [
-      "@",
       "#",
+      "@",
       "&",
       "%"
     ],
     "correctAnswer": "@",
     "explanation": "@ is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "easy",
-      "general"
+      "internet"
     ]
   },
   {
-    "id": 62511,
+    "id": 22511,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is famous for community discussion forums called subreddits?",
     "answers": [
-      "Reddit",
       "Tumblr",
       "Pinterest",
+      "Reddit",
       "Threads"
     ],
     "correctAnswer": "Reddit",
     "explanation": "Reddit is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "reddit"
+      "internet"
     ]
   },
   {
-    "id": 62512,
+    "id": 22512,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What does 'HTTP' stand for?",
     "answers": [
-      "HyperText Transfer Protocol",
       "HighText Transmission Process",
       "Hyperlink Transfer Program",
-      "Host Transfer Protocol"
+      "Host Transfer Protocol",
+      "HyperText Transfer Protocol"
     ],
     "correctAnswer": "HyperText Transfer Protocol",
     "explanation": "HyperText Transfer Protocol is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "hypertext-transfer"
+      "internet"
     ]
   },
   {
-    "id": 62513,
+    "id": 22513,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -254,73 +230,65 @@
     "correctAnswer": "Twitch",
     "explanation": "Twitch is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "twitch"
+      "internet"
     ]
   },
   {
-    "id": 62514,
+    "id": 22514,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "Which internet company created the Firefox browser?",
     "answers": [
-      "Mozilla",
       "Google",
+      "Mozilla",
       "Opera",
       "Apple"
     ],
     "correctAnswer": "Mozilla",
     "explanation": "Mozilla is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "medium",
-      "mozilla"
+      "internet"
     ]
   },
   {
-    "id": 62515,
+    "id": 22515,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the messaging app WhatsApp?",
     "answers": [
-      "Meta",
       "Google",
       "Telegram",
+      "Meta",
       "Microsoft"
     ],
     "correctAnswer": "Meta",
     "explanation": "Meta is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "meta"
+      "internet"
     ]
   },
   {
-    "id": 62516,
+    "id": 22516,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What does the term 'streaming' refer to online?",
     "answers": [
-      "Watching or listening without downloading fully",
       "Uploading files to a server",
       "Compressing video files",
-      "Sharing offline storage"
+      "Sharing offline storage",
+      "Watching or listening without downloading fully"
     ],
     "correctAnswer": "Watching or listening without downloading fully",
     "explanation": "Watching or listening without downloading fully is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "watching-listening"
+      "internet"
     ]
   },
   {
-    "id": 62517,
+    "id": 22517,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -334,73 +302,65 @@
     "correctAnswer": "Google",
     "explanation": "Google is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "google"
+      "internet"
     ]
   },
   {
-    "id": 62518,
+    "id": 22518,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "Which platform is known for disappearing photo and video messages?",
     "answers": [
-      "Snapchat",
       "Discord",
+      "Snapchat",
       "Telegram",
       "Tumblr"
     ],
     "correctAnswer": "Snapchat",
     "explanation": "Snapchat is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "medium",
-      "snapchat"
+      "internet"
     ]
   },
   {
-    "id": 62519,
+    "id": 22519,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which website is commonly used for watching user-uploaded videos?",
     "answers": [
-      "YouTube",
       "Dropbox",
       "Wikipedia",
+      "YouTube",
       "Flickr"
     ],
     "correctAnswer": "YouTube",
     "explanation": "YouTube is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "youtube"
+      "internet"
     ]
   },
   {
-    "id": 62520,
+    "id": 22520,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "What does the 'S' in HTTPS stand for?",
     "answers": [
-      "Secure",
       "System",
       "Signal",
-      "Shared"
+      "Shared",
+      "Secure"
     ],
     "correctAnswer": "Secure",
     "explanation": "Secure is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "hard",
-      "secure"
+      "internet"
     ]
   },
   {
-    "id": 62521,
+    "id": 22521,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -414,72 +374,65 @@
     "correctAnswer": "X",
     "explanation": "X is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy"
+      "internet"
     ]
   },
   {
-    "id": 62522,
+    "id": 22522,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the primary purpose of a web browser?",
     "answers": [
-      "Accessing websites",
       "Editing videos",
+      "Accessing websites",
       "Creating hardware",
       "Managing printers"
     ],
     "correctAnswer": "Accessing websites",
     "explanation": "Accessing websites is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "accessing-websites"
+      "internet"
     ]
   },
   {
-    "id": 62523,
+    "id": 22523,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is best known for video calls and online meetings?",
     "answers": [
-      "Zoom",
       "Spotify",
       "Reddit",
+      "Zoom",
       "Pinterest"
     ],
     "correctAnswer": "Zoom",
     "explanation": "Zoom is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "zoom"
+      "internet"
     ]
   },
   {
-    "id": 62524,
+    "id": 22524,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "Which company owns the social media platform Facebook?",
     "answers": [
-      "Meta",
       "Alphabet",
       "Apple",
-      "Tencent"
+      "Tencent",
+      "Meta"
     ],
     "correctAnswer": "Meta",
     "explanation": "Meta is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "medium",
-      "meta"
+      "internet"
     ]
   },
   {
-    "id": 62525,
+    "id": 22525,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -493,73 +446,65 @@
     "correctAnswer": "Domain name",
     "explanation": "Domain name is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "easy",
-      "domain-name"
+      "internet"
     ]
   },
   {
-    "id": 62526,
+    "id": 22526,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "Which platform is widely used for open-source code hosting?",
     "answers": [
-      "GitHub",
       "Dropbox",
+      "GitHub",
       "PayPal",
       "Spotify"
     ],
     "correctAnswer": "GitHub",
     "explanation": "GitHub is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "medium",
-      "github"
+      "internet"
     ]
   },
   {
-    "id": 62527,
+    "id": 22527,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which app is mainly known for voice and text communication among gaming communities?",
     "answers": [
-      "Discord",
       "Excel",
       "Photoshop",
+      "Discord",
       "Safari"
     ],
     "correctAnswer": "Discord",
     "explanation": "Discord is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "discord"
+      "internet"
     ]
   },
   {
-    "id": 62528,
+    "id": 22528,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which protocol is primarily used for sending email across the internet?",
     "answers": [
-      "SMTP",
       "FTP",
       "HTML",
-      "SSH"
+      "SSH",
+      "SMTP"
     ],
     "correctAnswer": "SMTP",
     "explanation": "SMTP is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "smtp"
+      "internet"
     ]
   },
   {
-    "id": 62529,
+    "id": 22529,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -573,73 +518,65 @@
     "correctAnswer": "Pinterest",
     "explanation": "Pinterest is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "pinterest"
+      "internet"
     ]
   },
   {
-    "id": 62530,
+    "id": 22530,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the term for unwanted bulk email messages?",
     "answers": [
-      "Spam",
       "Cache",
+      "Spam",
       "Cookies",
       "Bandwidth"
     ],
     "correctAnswer": "Spam",
     "explanation": "Spam is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "spam"
+      "internet"
     ]
   },
   {
-    "id": 62531,
+    "id": 22531,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which service is primarily used for online video streaming of movies and TV series?",
     "answers": [
-      "Netflix",
       "Wikipedia",
       "GitHub",
+      "Netflix",
       "Dropbox"
     ],
     "correctAnswer": "Netflix",
     "explanation": "Netflix is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "netflix"
+      "internet"
     ]
   },
   {
-    "id": 62532,
+    "id": 22532,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "Which company created the messaging platform Telegram?",
     "answers": [
-      "Telegram Messenger",
       "Meta",
       "Google",
-      "Microsoft"
+      "Microsoft",
+      "Telegram Messenger"
     ],
     "correctAnswer": "Telegram Messenger",
     "explanation": "Telegram Messenger is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "medium",
-      "telegram-messenger"
+      "internet"
     ]
   },
   {
-    "id": 62533,
+    "id": 22533,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -653,73 +590,65 @@
     "correctAnswer": "Quora",
     "explanation": "Quora is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "quora"
+      "internet"
     ]
   },
   {
-    "id": 62534,
+    "id": 22534,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is a common purpose of cookies on websites?",
     "answers": [
-      "Storing user preferences",
       "Increasing screen brightness",
+      "Storing user preferences",
       "Repairing hardware",
       "Charging batteries"
     ],
     "correctAnswer": "Storing user preferences",
     "explanation": "Storing user preferences is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "storing-user"
+      "internet"
     ]
   },
   {
-    "id": 62535,
+    "id": 22535,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is best known for short-form disappearing stories and snaps?",
     "answers": [
-      "Snapchat",
       "Pinterest",
       "LinkedIn",
+      "Snapchat",
       "Medium"
     ],
     "correctAnswer": "Snapchat",
     "explanation": "Snapchat is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "snapchat"
+      "internet"
     ]
   },
   {
-    "id": 62536,
+    "id": 22536,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "What does 'DNS' stand for?",
     "answers": [
-      "Domain Name System",
       "Digital Network Security",
       "Direct Node Service",
-      "Data Navigation Structure"
+      "Data Navigation Structure",
+      "Domain Name System"
     ],
     "correctAnswer": "Domain Name System",
     "explanation": "Domain Name System is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "hard",
-      "domain-name"
+      "internet"
     ]
   },
   {
-    "id": 62537,
+    "id": 22537,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -733,73 +662,65 @@
     "correctAnswer": "TikTok",
     "explanation": "TikTok is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "tiktok"
+      "internet"
     ]
   },
   {
-    "id": 62538,
+    "id": 22538,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "Which company owns the social platform Threads?",
     "answers": [
-      "Meta",
       "Google",
+      "Meta",
       "ByteDance",
       "Tencent"
     ],
     "correctAnswer": "Meta",
     "explanation": "Meta is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "medium",
-      "meta"
+      "internet"
     ]
   },
   {
-    "id": 62539,
+    "id": 22539,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "What is the main function of a search engine?",
     "answers": [
-      "Finding information online",
       "Editing photos",
       "Building websites physically",
+      "Finding information online",
       "Manufacturing computers"
     ],
     "correctAnswer": "Finding information online",
     "explanation": "Finding information online is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "easy",
-      "finding-information"
+      "internet"
     ]
   },
   {
-    "id": 62540,
+    "id": 22540,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which internet company owns the professional platform LinkedIn?",
     "answers": [
-      "Microsoft",
       "Google",
       "Meta",
-      "Amazon"
+      "Amazon",
+      "Microsoft"
     ],
     "correctAnswer": "Microsoft",
     "explanation": "Microsoft is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "microsoft"
+      "internet"
     ]
   },
   {
-    "id": 62541,
+    "id": 22541,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -813,73 +734,65 @@
     "correctAnswer": "Discord Inc.",
     "explanation": "Discord Inc. is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "discord-inc"
+      "internet"
     ]
   },
   {
-    "id": 62542,
+    "id": 22542,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is best known for user-created communities called servers?",
     "answers": [
-      "Discord",
       "Pinterest",
+      "Discord",
       "LinkedIn",
       "Netflix"
     ],
     "correctAnswer": "Discord",
     "explanation": "Discord is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "discord"
+      "internet"
     ]
   },
   {
-    "id": 62543,
+    "id": 22543,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What does 'Wi-Fi' primarily allow devices to do?",
     "answers": [
-      "Connect wirelessly to networks",
       "Increase battery life",
       "Create physical storage",
+      "Connect wirelessly to networks",
       "Repair software automatically"
     ],
     "correctAnswer": "Connect wirelessly to networks",
     "explanation": "Connect wirelessly to networks is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "connect-wirelessly"
+      "internet"
     ]
   },
   {
-    "id": 62544,
+    "id": 22544,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is mainly associated with online shopping and fast delivery services?",
     "answers": [
-      "Amazon",
       "Spotify",
       "Zoom",
-      "Wikipedia"
+      "Wikipedia",
+      "Amazon"
     ],
     "correctAnswer": "Amazon",
     "explanation": "Amazon is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "amazon"
+      "internet"
     ]
   },
   {
-    "id": 62545,
+    "id": 22545,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
@@ -893,73 +806,65 @@
     "correctAnswer": "Microsoft",
     "explanation": "Microsoft is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "medium",
-      "microsoft"
+      "internet"
     ]
   },
   {
-    "id": 62546,
+    "id": 22546,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is widely known for online music streaming playlists?",
     "answers": [
-      "Spotify",
       "Dropbox",
+      "Spotify",
       "GitHub",
       "Zoom"
     ],
     "correctAnswer": "Spotify",
     "explanation": "Spotify is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "spotify"
+      "internet"
     ]
   },
   {
-    "id": 62547,
+    "id": 22547,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main purpose of cloud storage services?",
     "answers": [
-      "Saving files online",
       "Improving monitor quality",
       "Repairing hardware",
+      "Saving files online",
       "Cooling computers"
     ],
     "correctAnswer": "Saving files online",
     "explanation": "Saving files online is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "saving-files"
+      "internet"
     ]
   },
   {
-    "id": 62548,
+    "id": 22548,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which online service is best known for file storage and sharing?",
     "answers": [
-      "Dropbox",
       "Netflix",
       "Reddit",
-      "Pinterest"
+      "Pinterest",
+      "Dropbox"
     ],
     "correctAnswer": "Dropbox",
     "explanation": "Dropbox is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "dropbox"
+      "internet"
     ]
   },
   {
-    "id": 62549,
+    "id": 22549,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
@@ -973,73 +878,65 @@
     "correctAnswer": "HTTPS",
     "explanation": "HTTPS is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "https"
+      "internet"
     ]
   },
   {
-    "id": 62550,
+    "id": 22550,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is known for short vertical videos called Reels?",
     "answers": [
-      "Instagram",
       "LinkedIn",
+      "Instagram",
       "Quora",
       "Wikipedia"
     ],
     "correctAnswer": "Instagram",
     "explanation": "Instagram is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "instagram"
+      "internet"
     ]
   },
   {
-    "id": 62551,
+    "id": 22551,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is phishing primarily designed to do?",
     "answers": [
-      "Steal personal information",
       "Speed up internet access",
       "Improve streaming quality",
+      "Steal personal information",
       "Create websites automatically"
     ],
     "correctAnswer": "Steal personal information",
     "explanation": "Steal personal information is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "steal-personal"
+      "internet"
     ]
   },
   {
-    "id": 62552,
+    "id": 22552,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the iCloud online storage service?",
     "answers": [
-      "Apple",
       "Google",
       "Microsoft",
-      "Amazon"
+      "Amazon",
+      "Apple"
     ],
     "correctAnswer": "Apple",
     "explanation": "Apple is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "apple"
+      "internet"
     ]
   },
   {
-    "id": 62553,
+    "id": 22553,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
@@ -1053,73 +950,65 @@
     "correctAnswer": "Google",
     "explanation": "Google is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "medium",
-      "google"
+      "internet"
     ]
   },
   {
-    "id": 62554,
+    "id": 22554,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is best known for hosting open discussion threads called AMAs?",
     "answers": [
-      "Reddit",
       "Pinterest",
+      "Reddit",
       "LinkedIn",
       "TikTok"
     ],
     "correctAnswer": "Reddit",
     "explanation": "Reddit is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "reddit"
+      "internet"
     ]
   },
   {
-    "id": 62555,
+    "id": 22555,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "What does 'IP' stand for in IP address?",
     "answers": [
-      "Internet Protocol",
       "Internal Program",
       "Integrated Process",
+      "Internet Protocol",
       "Internet Provider"
     ],
     "correctAnswer": "Internet Protocol",
     "explanation": "Internet Protocol is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "hard",
-      "internet-protocol"
+      "internet"
     ]
   },
   {
-    "id": 62556,
+    "id": 22556,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is primarily used for video conferencing in workplaces and schools?",
     "answers": [
-      "Zoom",
       "Spotify",
       "Steam",
-      "Pinterest"
+      "Pinterest",
+      "Zoom"
     ],
     "correctAnswer": "Zoom",
     "explanation": "Zoom is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "zoom"
+      "internet"
     ]
   },
   {
-    "id": 62557,
+    "id": 22557,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
@@ -1133,73 +1022,65 @@
     "correctAnswer": "Google Docs",
     "explanation": "Google Docs is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "medium",
-      "google-docs"
+      "internet"
     ]
   },
   {
-    "id": 62558,
+    "id": 22558,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the Windows operating system?",
     "answers": [
-      "Microsoft",
       "Apple",
+      "Microsoft",
       "Google",
       "IBM"
     ],
     "correctAnswer": "Microsoft",
     "explanation": "Microsoft is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "microsoft"
+      "internet"
     ]
   },
   {
-    "id": 62559,
+    "id": 22559,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of two-factor authentication online?",
     "answers": [
-      "Adding extra account security",
       "Increasing internet speed",
       "Compressing video files",
+      "Adding extra account security",
       "Improving sound quality"
     ],
     "correctAnswer": "Adding extra account security",
     "explanation": "Adding extra account security is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "adding-extra"
+      "internet"
     ]
   },
   {
-    "id": 62560,
+    "id": 22560,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is mainly associated with user-created chat servers and voice channels?",
     "answers": [
-      "Discord",
       "Threads",
       "Pinterest",
-      "Quora"
+      "Quora",
+      "Discord"
     ],
     "correctAnswer": "Discord",
     "explanation": "Discord is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "discord"
+      "internet"
     ]
   },
   {
-    "id": 62561,
+    "id": 22561,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
@@ -1213,73 +1094,65 @@
     "correctAnswer": "FTP",
     "explanation": "FTP is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "ftp"
+      "internet"
     ]
   },
   {
-    "id": 62562,
+    "id": 22562,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which streaming platform is famous for original series like Stranger Things?",
     "answers": [
-      "Netflix",
       "Twitch",
+      "Netflix",
       "YouTube",
       "Vimeo"
     ],
     "correctAnswer": "Netflix",
     "explanation": "Netflix is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "netflix"
+      "internet"
     ]
   },
   {
-    "id": 62563,
+    "id": 22563,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main function of a password manager?",
     "answers": [
-      "Securely storing passwords",
       "Cleaning computer screens",
       "Increasing battery capacity",
+      "Securely storing passwords",
       "Boosting internet speed"
     ],
     "correctAnswer": "Securely storing passwords",
     "explanation": "Securely storing passwords is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "securely-storing"
+      "internet"
     ]
   },
   {
-    "id": 62564,
+    "id": 22564,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is known for online game sales and digital libraries on PC?",
     "answers": [
-      "Steam",
       "Dropbox",
       "Quora",
-      "Slack"
+      "Slack",
+      "Steam"
     ],
     "correctAnswer": "Steam",
     "explanation": "Steam is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "steam"
+      "internet"
     ]
   },
   {
-    "id": 62565,
+    "id": 22565,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
@@ -1293,73 +1166,65 @@
     "correctAnswer": "Reducing local browsing history storage",
     "explanation": "Reducing local browsing history storage is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "reducing-local"
+      "internet"
     ]
   },
   {
-    "id": 62566,
+    "id": 22566,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the online meeting platform Teams?",
     "answers": [
-      "Microsoft",
       "Google",
+      "Microsoft",
       "Zoom",
       "Meta"
     ],
     "correctAnswer": "Microsoft",
     "explanation": "Microsoft is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "microsoft"
+      "internet"
     ]
   },
   {
-    "id": 62567,
+    "id": 22567,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "What does 'ISP' stand for?",
     "answers": [
-      "Internet Service Provider",
       "Internal Server Program",
       "Integrated System Processor",
+      "Internet Service Provider",
       "Internet Storage Platform"
     ],
     "correctAnswer": "Internet Service Provider",
     "explanation": "Internet Service Provider is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "hard",
-      "internet-service"
+      "internet"
     ]
   },
   {
-    "id": 62568,
+    "id": 22568,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is best known for sharing short looping GIF-style clips?",
     "answers": [
-      "Giphy",
       "Dropbox",
       "GitHub",
-      "Zoom"
+      "Zoom",
+      "Giphy"
     ],
     "correctAnswer": "Giphy",
     "explanation": "Giphy is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "giphy"
+      "internet"
     ]
   },
   {
-    "id": 62569,
+    "id": 22569,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
@@ -1373,73 +1238,65 @@
     "correctAnswer": "Protecting against unauthorized access",
     "explanation": "Protecting against unauthorized access is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "protecting-against"
+      "internet"
     ]
   },
   {
-    "id": 62570,
+    "id": 22570,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which website is mainly known for crowdfunding creative projects?",
     "answers": [
-      "Kickstarter",
       "Wikipedia",
+      "Kickstarter",
       "Discord",
       "Steam"
     ],
     "correctAnswer": "Kickstarter",
     "explanation": "Kickstarter is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "kickstarter"
+      "internet"
     ]
   },
   {
-    "id": 62571,
+    "id": 22571,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "Which company operates the video streaming platform Prime Video?",
     "answers": [
-      "Amazon",
       "Google",
       "Apple",
+      "Amazon",
       "Netflix"
     ],
     "correctAnswer": "Amazon",
     "explanation": "Amazon is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "medium",
-      "amazon"
+      "internet"
     ]
   },
   {
-    "id": 62572,
+    "id": 22572,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is famous for creators posting short tutorial and lifestyle videos?",
     "answers": [
-      "TikTok",
       "LinkedIn",
       "GitHub",
-      "Dropbox"
+      "Dropbox",
+      "TikTok"
     ],
     "correctAnswer": "TikTok",
     "explanation": "TikTok is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "tiktok"
+      "internet"
     ]
   },
   {
-    "id": 62573,
+    "id": 22573,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
@@ -1453,73 +1310,65 @@
     "correctAnswer": ".com",
     "explanation": ".com is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "com"
+      "internet"
     ]
   },
   {
-    "id": 62574,
+    "id": 22574,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which online encyclopedia allows users to edit many articles collaboratively?",
     "answers": [
-      "Wikipedia",
       "Netflix",
+      "Wikipedia",
       "Spotify",
       "Steam"
     ],
     "correctAnswer": "Wikipedia",
     "explanation": "Wikipedia is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "wikipedia"
+      "internet"
     ]
   },
   {
-    "id": 62575,
+    "id": 22575,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of captcha systems online?",
     "answers": [
-      "Distinguishing humans from bots",
       "Improving speaker volume",
       "Compressing web images",
+      "Distinguishing humans from bots",
       "Backing up files"
     ],
     "correctAnswer": "Distinguishing humans from bots",
     "explanation": "Distinguishing humans from bots is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "distinguishing-humans"
+      "internet"
     ]
   },
   {
-    "id": 62576,
+    "id": 22576,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is mainly used for sharing professional resumes and career updates?",
     "answers": [
-      "LinkedIn",
       "TikTok",
       "Snapchat",
-      "Pinterest"
+      "Pinterest",
+      "LinkedIn"
     ],
     "correctAnswer": "LinkedIn",
     "explanation": "LinkedIn is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "linkedin"
+      "internet"
     ]
   },
   {
-    "id": 62577,
+    "id": 22577,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
@@ -1533,73 +1382,65 @@
     "correctAnswer": "POP3",
     "explanation": "POP3 is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "pop3"
+      "internet"
     ]
   },
   {
-    "id": 62578,
+    "id": 22578,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is best known for livestreaming gameplay and esports events?",
     "answers": [
-      "Twitch",
       "Pinterest",
+      "Twitch",
       "Threads",
       "Quora"
     ],
     "correctAnswer": "Twitch",
     "explanation": "Twitch is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "twitch"
+      "internet"
     ]
   },
   {
-    "id": 62579,
+    "id": 22579,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is a chatbot primarily designed to do?",
     "answers": [
-      "Simulate conversations with users",
       "Repair internet cables",
       "Increase monitor brightness",
+      "Simulate conversations with users",
       "Compress audio files"
     ],
     "correctAnswer": "Simulate conversations with users",
     "explanation": "Simulate conversations with users is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "simulate-conversations"
+      "internet"
     ]
   },
   {
-    "id": 62580,
+    "id": 22580,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company operates the cloud storage service OneDrive?",
     "answers": [
-      "Microsoft",
       "Google",
       "Apple",
-      "Amazon"
+      "Amazon",
+      "Microsoft"
     ],
     "correctAnswer": "Microsoft",
     "explanation": "Microsoft is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "microsoft"
+      "internet"
     ]
   },
   {
-    "id": 62581,
+    "id": 22581,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -1613,73 +1454,65 @@
     "correctAnswer": "YouTube",
     "explanation": "YouTube is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "youtube"
+      "internet"
     ]
   },
   {
-    "id": 62582,
+    "id": 22582,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of a QR code?",
     "answers": [
-      "Quickly storing and sharing information",
       "Increasing internet speed",
+      "Quickly storing and sharing information",
       "Repairing software bugs",
       "Blocking online ads"
     ],
     "correctAnswer": "Quickly storing and sharing information",
     "explanation": "Quickly storing and sharing information is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "quickly-storing"
+      "internet"
     ]
   },
   {
-    "id": 62583,
+    "id": 22583,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which social platform is famous for image-based posts and stories?",
     "answers": [
-      "Instagram",
       "GitHub",
       "Reddit",
+      "Instagram",
       "Discord"
     ],
     "correctAnswer": "Instagram",
     "explanation": "Instagram is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "instagram"
+      "internet"
     ]
   },
   {
-    "id": 62584,
+    "id": 22584,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which protocol is commonly used for secure remote server access?",
     "answers": [
-      "SSH",
       "SMTP",
       "HTTP",
-      "FTP"
+      "FTP",
+      "SSH"
     ],
     "correctAnswer": "SSH",
     "explanation": "SSH is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "ssh"
+      "internet"
     ]
   },
   {
-    "id": 62585,
+    "id": 22585,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -1693,73 +1526,65 @@
     "correctAnswer": "eBay",
     "explanation": "eBay is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "ebay"
+      "internet"
     ]
   },
   {
-    "id": 62586,
+    "id": 22586,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is bandwidth used to measure in networking?",
     "answers": [
-      "Data transfer capacity",
       "Screen resolution",
+      "Data transfer capacity",
       "Battery health",
       "Storage temperature"
     ],
     "correctAnswer": "Data transfer capacity",
     "explanation": "Data transfer capacity is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "data-transfer"
+      "internet"
     ]
   },
   {
-    "id": 62587,
+    "id": 22587,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which app is widely used for encrypted messaging and channels?",
     "answers": [
-      "Telegram",
       "Pinterest",
       "Spotify",
+      "Telegram",
       "Zoom"
     ],
     "correctAnswer": "Telegram",
     "explanation": "Telegram is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "telegram"
+      "internet"
     ]
   },
   {
-    "id": 62588,
+    "id": 22588,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main purpose of a search engine index?",
     "answers": [
-      "Organizing web pages for searching",
       "Repairing websites",
       "Streaming live video",
-      "Encrypting passwords"
+      "Encrypting passwords",
+      "Organizing web pages for searching"
     ],
     "correctAnswer": "Organizing web pages for searching",
     "explanation": "Organizing web pages for searching is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "organizing-web"
+      "internet"
     ]
   },
   {
-    "id": 62589,
+    "id": 22589,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -1773,73 +1598,65 @@
     "correctAnswer": "Disney",
     "explanation": "Disney is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "disney"
+      "internet"
     ]
   },
   {
-    "id": 62590,
+    "id": 22590,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which internet term refers to malicious software?",
     "answers": [
-      "Malware",
       "Bandwidth",
+      "Malware",
       "Cache",
       "Cookie"
     ],
     "correctAnswer": "Malware",
     "explanation": "Malware is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "malware"
+      "internet"
     ]
   },
   {
-    "id": 62591,
+    "id": 22591,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which website is known for user-created tutorial and educational videos?",
     "answers": [
-      "YouTube",
       "Steam",
       "Dropbox",
+      "YouTube",
       "Discord"
     ],
     "correctAnswer": "YouTube",
     "explanation": "YouTube is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "youtube"
+      "internet"
     ]
   },
   {
-    "id": 62592,
+    "id": 22592,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main purpose of a router in a home network?",
     "answers": [
-      "Directing internet traffic",
       "Cooling devices",
       "Charging batteries",
-      "Editing documents"
+      "Editing documents",
+      "Directing internet traffic"
     ],
     "correctAnswer": "Directing internet traffic",
     "explanation": "Directing internet traffic is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "directing-internet"
+      "internet"
     ]
   },
   {
-    "id": 62593,
+    "id": 22593,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -1853,73 +1670,65 @@
     "correctAnswer": "Snapchat",
     "explanation": "Snapchat is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "snapchat"
+      "internet"
     ]
   },
   {
-    "id": 62594,
+    "id": 22594,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is caching mainly used for online?",
     "answers": [
-      "Speeding up repeated access",
       "Blocking all websites",
+      "Speeding up repeated access",
       "Repairing servers",
       "Deleting cookies"
     ],
     "correctAnswer": "Speeding up repeated access",
     "explanation": "Speeding up repeated access is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "speeding-repeated"
+      "internet"
     ]
   },
   {
-    "id": 62595,
+    "id": 22595,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is widely used for collaborative team communication at work?",
     "answers": [
-      "Slack",
       "TikTok",
       "Netflix",
+      "Slack",
       "Pinterest"
     ],
     "correctAnswer": "Slack",
     "explanation": "Slack is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "slack"
+      "internet"
     ]
   },
   {
-    "id": 62596,
+    "id": 22596,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "What does 'HTML' stand for?",
     "answers": [
-      "HyperText Markup Language",
       "HighText Machine Language",
       "Hyper Transfer Main Link",
-      "Host Transfer Markup Logic"
+      "Host Transfer Markup Logic",
+      "HyperText Markup Language"
     ],
     "correctAnswer": "HyperText Markup Language",
     "explanation": "HyperText Markup Language is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "hard",
-      "hypertext-markup"
+      "internet"
     ]
   },
   {
-    "id": 62597,
+    "id": 22597,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -1933,73 +1742,65 @@
     "correctAnswer": "Apple",
     "explanation": "Apple is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "apple"
+      "internet"
     ]
   },
   {
-    "id": 62598,
+    "id": 22598,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of bookmarking a webpage?",
     "answers": [
-      "Saving it for quick access later",
       "Downloading the entire internet",
+      "Saving it for quick access later",
       "Blocking advertisements",
       "Changing website ownership"
     ],
     "correctAnswer": "Saving it for quick access later",
     "explanation": "Saving it for quick access later is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "saving-quick"
+      "internet"
     ]
   },
   {
-    "id": 62599,
+    "id": 22599,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which service is mainly associated with online document and file syncing?",
     "answers": [
-      "Google Drive",
       "Netflix",
       "Spotify",
+      "Google Drive",
       "Steam"
     ],
     "correctAnswer": "Google Drive",
     "explanation": "Google Drive is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "google-drive"
+      "internet"
     ]
   },
   {
-    "id": 62600,
+    "id": 22600,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which company originally created PayPal?",
     "answers": [
-      "Confinity",
       "Amazon",
       "Yahoo",
-      "IBM"
+      "IBM",
+      "Confinity"
     ],
     "correctAnswer": "Confinity",
     "explanation": "Confinity is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "confinity"
+      "internet"
     ]
   },
   {
-    "id": 62601,
+    "id": 22601,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -2013,73 +1814,65 @@
     "correctAnswer": "Reddit",
     "explanation": "Reddit is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "reddit"
+      "internet"
     ]
   },
   {
-    "id": 62602,
+    "id": 22602,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main purpose of antivirus software?",
     "answers": [
-      "Detecting and removing threats",
       "Increasing internet speed",
+      "Detecting and removing threats",
       "Improving screen brightness",
       "Streaming music"
     ],
     "correctAnswer": "Detecting and removing threats",
     "explanation": "Detecting and removing threats is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "detecting-removing"
+      "internet"
     ]
   },
   {
-    "id": 62603,
+    "id": 22603,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the Edge web browser?",
     "answers": [
-      "Microsoft",
       "Google",
       "Mozilla",
+      "Microsoft",
       "Apple"
     ],
     "correctAnswer": "Microsoft",
     "explanation": "Microsoft is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "microsoft"
+      "internet"
     ]
   },
   {
-    "id": 62604,
+    "id": 22604,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of a hashtag on social media?",
     "answers": [
-      "Grouping related content",
       "Deleting accounts",
       "Encrypting files",
-      "Blocking comments"
+      "Blocking comments",
+      "Grouping related content"
     ],
     "correctAnswer": "Grouping related content",
     "explanation": "Grouping related content is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "grouping-related"
+      "internet"
     ]
   },
   {
-    "id": 62605,
+    "id": 22605,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -2093,73 +1886,65 @@
     "correctAnswer": "Steam",
     "explanation": "Steam is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "steam"
+      "internet"
     ]
   },
   {
-    "id": 62606,
+    "id": 22606,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "What does 'CPU' stand for in computing?",
     "answers": [
-      "Central Processing Unit",
       "Core Program Utility",
+      "Central Processing Unit",
       "Computer Processing User",
       "Central Program Upload"
     ],
     "correctAnswer": "Central Processing Unit",
     "explanation": "Central Processing Unit is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "hard",
-      "central-processing"
+      "internet"
     ]
   },
   {
-    "id": 62607,
+    "id": 22607,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is best known for livestreaming gameplay content?",
     "answers": [
-      "Twitch",
       "Netflix",
       "Quora",
+      "Twitch",
       "LinkedIn"
     ],
     "correctAnswer": "Twitch",
     "explanation": "Twitch is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "twitch"
+      "internet"
     ]
   },
   {
-    "id": 62608,
+    "id": 22608,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is a common purpose of browser extensions?",
     "answers": [
-      "Adding extra browser features",
       "Repairing internet cables",
       "Replacing routers",
-      "Charging laptops"
+      "Charging laptops",
+      "Adding extra browser features"
     ],
     "correctAnswer": "Adding extra browser features",
     "explanation": "Adding extra browser features is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "adding-extra"
+      "internet"
     ]
   },
   {
-    "id": 62609,
+    "id": 22609,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -2173,73 +1958,65 @@
     "correctAnswer": "Instagram",
     "explanation": "Instagram is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "instagram"
+      "internet"
     ]
   },
   {
-    "id": 62610,
+    "id": 22610,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which company developed the Linux operating system kernel?",
     "answers": [
-      "Linus Torvalds",
       "Microsoft",
+      "Linus Torvalds",
       "IBM",
       "Apple"
     ],
     "correctAnswer": "Linus Torvalds",
     "explanation": "Linus Torvalds is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "linus-torvalds"
+      "internet"
     ]
   },
   {
-    "id": 62611,
+    "id": 22611,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the Kindle e-book platform?",
     "answers": [
-      "Amazon",
       "Apple",
       "Google",
+      "Amazon",
       "Sony"
     ],
     "correctAnswer": "Amazon",
     "explanation": "Amazon is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "amazon"
+      "internet"
     ]
   },
   {
-    "id": 62612,
+    "id": 22612,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the primary purpose of a CAPTCHA challenge?",
     "answers": [
-      "Preventing automated bot activity",
       "Speeding up downloads",
       "Reducing screen glare",
-      "Increasing storage"
+      "Increasing storage",
+      "Preventing automated bot activity"
     ],
     "correctAnswer": "Preventing automated bot activity",
     "explanation": "Preventing automated bot activity is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "preventing-automated"
+      "internet"
     ]
   },
   {
-    "id": 62613,
+    "id": 22613,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -2253,73 +2030,65 @@
     "correctAnswer": "GitHub",
     "explanation": "GitHub is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "github"
+      "internet"
     ]
   },
   {
-    "id": 62614,
+    "id": 22614,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the function of a hyperlink on a webpage?",
     "answers": [
-      "Connecting to another resource",
       "Cooling a processor",
+      "Connecting to another resource",
       "Compressing images",
       "Blocking cookies"
     ],
     "correctAnswer": "Connecting to another resource",
     "explanation": "Connecting to another resource is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "connecting-another"
+      "internet"
     ]
   },
   {
-    "id": 62615,
+    "id": 22615,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which online service is mainly used for cloud-based file backup?",
     "answers": [
-      "Dropbox",
       "Steam",
       "Spotify",
+      "Dropbox",
       "Pinterest"
     ],
     "correctAnswer": "Dropbox",
     "explanation": "Dropbox is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "dropbox"
+      "internet"
     ]
   },
   {
-    "id": 62616,
+    "id": 22616,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "What does 'LAN' stand for?",
     "answers": [
-      "Local Area Network",
       "Linked Access Node",
       "Local Access Navigation",
-      "Layered Area Network"
+      "Layered Area Network",
+      "Local Area Network"
     ],
     "correctAnswer": "Local Area Network",
     "explanation": "Local Area Network is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "hard",
-      "local-area"
+      "internet"
     ]
   },
   {
-    "id": 62617,
+    "id": 22617,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -2333,73 +2102,65 @@
     "correctAnswer": "Apple",
     "explanation": "Apple is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "apple"
+      "internet"
     ]
   },
   {
-    "id": 62618,
+    "id": 22618,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main purpose of online encryption?",
     "answers": [
-      "Protecting data from unauthorized access",
       "Increasing video resolution",
+      "Protecting data from unauthorized access",
       "Charging mobile devices",
       "Improving Wi-Fi range"
     ],
     "correctAnswer": "Protecting data from unauthorized access",
     "explanation": "Protecting data from unauthorized access is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "protecting-data"
+      "internet"
     ]
   },
   {
-    "id": 62619,
+    "id": 22619,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is known for crowdfunding technology and creative ideas?",
     "answers": [
-      "Kickstarter",
       "Steam",
       "Discord",
+      "Kickstarter",
       "Threads"
     ],
     "correctAnswer": "Kickstarter",
     "explanation": "Kickstarter is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "kickstarter"
+      "internet"
     ]
   },
   {
-    "id": 62620,
+    "id": 22620,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which internet term describes a large network attack overwhelming servers with traffic?",
     "answers": [
-      "DDoS attack",
       "Phishing",
       "Caching",
-      "Bookmarking"
+      "Bookmarking",
+      "DDoS attack"
     ],
     "correctAnswer": "DDoS attack",
     "explanation": "DDoS attack is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "ddos-attack"
+      "internet"
     ]
   },
   {
-    "id": 62621,
+    "id": 22621,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -2413,73 +2174,65 @@
     "correctAnswer": "TikTok",
     "explanation": "TikTok is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "tiktok"
+      "internet"
     ]
   },
   {
-    "id": 62622,
+    "id": 22622,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the primary purpose of a modem in a home network?",
     "answers": [
-      "Connecting to an internet provider",
       "Cooling computer hardware",
+      "Connecting to an internet provider",
       "Editing online videos",
       "Storing passwords"
     ],
     "correctAnswer": "Connecting to an internet provider",
     "explanation": "Connecting to an internet provider is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "connecting-internet"
+      "internet"
     ]
   },
   {
-    "id": 62623,
+    "id": 22623,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the Android mobile operating system?",
     "answers": [
-      "Google",
       "Apple",
       "Microsoft",
+      "Google",
       "Samsung"
     ],
     "correctAnswer": "Google",
     "explanation": "Google is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "google"
+      "internet"
     ]
   },
   {
-    "id": 62624,
+    "id": 22624,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "What does 'RAM' stand for in computing?",
     "answers": [
-      "Random Access Memory",
       "Rapid Application Module",
       "Remote Access Machine",
-      "Runtime Allocation Memory"
+      "Runtime Allocation Memory",
+      "Random Access Memory"
     ],
     "correctAnswer": "Random Access Memory",
     "explanation": "Random Access Memory is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "hard",
-      "random-access"
+      "internet"
     ]
   },
   {
-    "id": 62625,
+    "id": 22625,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -2493,73 +2246,65 @@
     "correctAnswer": "Google Drive",
     "explanation": "Google Drive is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "google-drive"
+      "internet"
     ]
   },
   {
-    "id": 62626,
+    "id": 22626,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of autofill features in browsers?",
     "answers": [
-      "Automatically entering saved information",
       "Repairing broken links",
+      "Automatically entering saved information",
       "Blocking internet ads",
       "Increasing network speed"
     ],
     "correctAnswer": "Automatically entering saved information",
     "explanation": "Automatically entering saved information is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "automatically-entering"
+      "internet"
     ]
   },
   {
-    "id": 62627,
+    "id": 22627,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the social platform WhatsApp?",
     "answers": [
-      "Meta",
       "Google",
       "Tencent",
+      "Meta",
       "Microsoft"
     ],
     "correctAnswer": "Meta",
     "explanation": "Meta is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "meta"
+      "internet"
     ]
   },
   {
-    "id": 62628,
+    "id": 22628,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which internet term refers to unauthorized attempts to guess passwords automatically?",
     "answers": [
-      "Brute-force attack",
       "Cloud syncing",
       "Caching",
-      "Bookmarking"
+      "Bookmarking",
+      "Brute-force attack"
     ],
     "correctAnswer": "Brute-force attack",
     "explanation": "Brute-force attack is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "brute-force"
+      "internet"
     ]
   },
   {
-    "id": 62629,
+    "id": 22629,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -2573,73 +2318,65 @@
     "correctAnswer": "LinkedIn",
     "explanation": "LinkedIn is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "linkedin"
+      "internet"
     ]
   },
   {
-    "id": 62630,
+    "id": 22630,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main purpose of a software update?",
     "answers": [
-      "Improving security and features",
       "Replacing hardware cables",
+      "Improving security and features",
       "Cleaning screens",
       "Increasing speaker volume"
     ],
     "correctAnswer": "Improving security and features",
     "explanation": "Improving security and features is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "improving-security"
+      "internet"
     ]
   },
   {
-    "id": 62631,
+    "id": 22631,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the video streaming platform Hulu?",
     "answers": [
-      "Disney",
       "Google",
       "Amazon",
+      "Disney",
       "Sony"
     ],
     "correctAnswer": "Disney",
     "explanation": "Disney is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "disney"
+      "internet"
     ]
   },
   {
-    "id": 62632,
+    "id": 22632,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main function of a web server?",
     "answers": [
-      "Hosting and delivering websites",
       "Cooling internet cables",
       "Charging mobile phones",
-      "Printing web pages"
+      "Printing web pages",
+      "Hosting and delivering websites"
     ],
     "correctAnswer": "Hosting and delivering websites",
     "explanation": "Hosting and delivering websites is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "hosting-delivering"
+      "internet"
     ]
   },
   {
-    "id": 62633,
+    "id": 22633,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -2653,72 +2390,65 @@
     "correctAnswer": "Discord",
     "explanation": "Discord is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "discord"
+      "internet"
     ]
   },
   {
-    "id": 62634,
+    "id": 22634,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "What does 'URL' identify on the internet?",
     "answers": [
-      "A web resource address",
       "A network password",
+      "A web resource address",
       "A hardware driver",
       "A storage device"
     ],
     "correctAnswer": "A web resource address",
     "explanation": "A web resource address is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "hard",
-      "web-resource"
+      "internet"
     ]
   },
   {
-    "id": 62635,
+    "id": 22635,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is known for short public text posts called tweets?",
     "answers": [
-      "X",
       "TikTok",
       "Instagram",
+      "X",
       "Pinterest"
     ],
     "correctAnswer": "X",
     "explanation": "X is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy"
+      "internet"
     ]
   },
   {
-    "id": 62636,
+    "id": 22636,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of a recycle bin or trash folder online?",
     "answers": [
-      "Temporarily storing deleted items",
       "Improving internet speed",
       "Repairing corrupted websites",
-      "Encrypting passwords"
+      "Encrypting passwords",
+      "Temporarily storing deleted items"
     ],
     "correctAnswer": "Temporarily storing deleted items",
     "explanation": "Temporarily storing deleted items is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "temporarily-storing"
+      "internet"
     ]
   },
   {
-    "id": 62637,
+    "id": 22637,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -2732,73 +2462,65 @@
     "correctAnswer": "Spotify",
     "explanation": "Spotify is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "spotify"
+      "internet"
     ]
   },
   {
-    "id": 62638,
+    "id": 22638,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which internet term describes software that secretly displays unwanted advertisements?",
     "answers": [
-      "Adware",
       "Firewall",
+      "Adware",
       "Bandwidth",
       "DNS"
     ],
     "correctAnswer": "Adware",
     "explanation": "Adware is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "adware"
+      "internet"
     ]
   },
   {
-    "id": 62639,
+    "id": 22639,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company operates the App Store for iPhones?",
     "answers": [
-      "Apple",
       "Google",
       "Samsung",
+      "Apple",
       "Microsoft"
     ],
     "correctAnswer": "Apple",
     "explanation": "Apple is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "apple"
+      "internet"
     ]
   },
   {
-    "id": 62640,
+    "id": 22640,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main purpose of browser tabs?",
     "answers": [
-      "Opening multiple webpages at once",
       "Boosting internet speed",
       "Cooling processors",
-      "Scanning for malware"
+      "Scanning for malware",
+      "Opening multiple webpages at once"
     ],
     "correctAnswer": "Opening multiple webpages at once",
     "explanation": "Opening multiple webpages at once is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "opening-multiple"
+      "internet"
     ]
   },
   {
-    "id": 62641,
+    "id": 22641,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -2812,73 +2534,65 @@
     "correctAnswer": "Microsoft",
     "explanation": "Microsoft is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "microsoft"
+      "internet"
     ]
   },
   {
-    "id": 62642,
+    "id": 22642,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of muting notifications in apps?",
     "answers": [
-      "Reducing alerts temporarily",
       "Deleting accounts",
+      "Reducing alerts temporarily",
       "Repairing internet connections",
       "Increasing storage space"
     ],
     "correctAnswer": "Reducing alerts temporarily",
     "explanation": "Reducing alerts temporarily is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "reducing-alerts"
+      "internet"
     ]
   },
   {
-    "id": 62643,
+    "id": 22643,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is best known for online crowdfunding campaigns?",
     "answers": [
-      "Kickstarter",
       "Spotify",
       "Reddit",
+      "Kickstarter",
       "Threads"
     ],
     "correctAnswer": "Kickstarter",
     "explanation": "Kickstarter is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "kickstarter"
+      "internet"
     ]
   },
   {
-    "id": 62644,
+    "id": 22644,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which term describes unauthorized software that records user keystrokes?",
     "answers": [
-      "Keylogger",
       "Firewall",
       "Router",
-      "Cookie"
+      "Cookie",
+      "Keylogger"
     ],
     "correctAnswer": "Keylogger",
     "explanation": "Keylogger is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "keylogger"
+      "internet"
     ]
   },
   {
-    "id": 62645,
+    "id": 22645,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -2892,73 +2606,65 @@
     "correctAnswer": "Google",
     "explanation": "Google is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "google"
+      "internet"
     ]
   },
   {
-    "id": 62646,
+    "id": 22646,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main purpose of dark mode in apps and websites?",
     "answers": [
-      "Reducing brightness and eye strain",
       "Increasing internet speed",
+      "Reducing brightness and eye strain",
       "Improving speaker quality",
       "Repairing screens"
     ],
     "correctAnswer": "Reducing brightness and eye strain",
     "explanation": "Reducing brightness and eye strain is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "reducing-brightness"
+      "internet"
     ]
   },
   {
-    "id": 62647,
+    "id": 22647,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which website is famous for collaborative coding repositories?",
     "answers": [
-      "GitHub",
       "Pinterest",
       "Spotify",
+      "GitHub",
       "Zoom"
     ],
     "correctAnswer": "GitHub",
     "explanation": "GitHub is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "github"
+      "internet"
     ]
   },
   {
-    "id": 62648,
+    "id": 22648,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "What does 'GUI' stand for in computing?",
     "answers": [
-      "Graphical User Interface",
       "General Utility Internet",
       "Global User Integration",
-      "Graphic Upload Infrastructure"
+      "Graphic Upload Infrastructure",
+      "Graphical User Interface"
     ],
     "correctAnswer": "Graphical User Interface",
     "explanation": "Graphical User Interface is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "hard",
-      "graphical-user"
+      "internet"
     ]
   },
   {
-    "id": 62649,
+    "id": 22649,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -2972,73 +2678,65 @@
     "correctAnswer": "Pinterest",
     "explanation": "Pinterest is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "pinterest"
+      "internet"
     ]
   },
   {
-    "id": 62650,
+    "id": 22650,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of syncing devices online?",
     "answers": [
-      "Keeping data updated across devices",
       "Increasing internet costs",
+      "Keeping data updated across devices",
       "Repairing hardware automatically",
       "Blocking all cookies"
     ],
     "correctAnswer": "Keeping data updated across devices",
     "explanation": "Keeping data updated across devices is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "keeping-data"
+      "internet"
     ]
   },
   {
-    "id": 62651,
+    "id": 22651,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the professional communication app Teams?",
     "answers": [
-      "Microsoft",
       "Google",
       "Zoom",
+      "Microsoft",
       "Slack"
     ],
     "correctAnswer": "Microsoft",
     "explanation": "Microsoft is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "microsoft"
+      "internet"
     ]
   },
   {
-    "id": 62652,
+    "id": 22652,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which term refers to fraudulent attempts to trick users into revealing information online?",
     "answers": [
-      "Phishing",
       "Caching",
       "Streaming",
-      "Bookmarking"
+      "Bookmarking",
+      "Phishing"
     ],
     "correctAnswer": "Phishing",
     "explanation": "Phishing is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "phishing"
+      "internet"
     ]
   },
   {
-    "id": 62653,
+    "id": 22653,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -3052,73 +2750,65 @@
     "correctAnswer": "Quora",
     "explanation": "Quora is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "quora"
+      "internet"
     ]
   },
   {
-    "id": 62654,
+    "id": 22654,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main purpose of clearing browser cookies?",
     "answers": [
-      "Removing stored website data",
       "Repairing damaged hardware",
+      "Removing stored website data",
       "Boosting processor speed",
       "Increasing battery capacity"
     ],
     "correctAnswer": "Removing stored website data",
     "explanation": "Removing stored website data is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "removing-stored"
+      "internet"
     ]
   },
   {
-    "id": 62655,
+    "id": 22655,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the streaming service Prime Video?",
     "answers": [
-      "Amazon",
       "Netflix",
       "Disney",
+      "Amazon",
       "Apple"
     ],
     "correctAnswer": "Amazon",
     "explanation": "Amazon is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "amazon"
+      "internet"
     ]
   },
   {
-    "id": 62656,
+    "id": 22656,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "What does 'PDF' stand for?",
     "answers": [
-      "Portable Document Format",
       "Personal Data File",
       "Printed Digital Form",
-      "Private Document Framework"
+      "Private Document Framework",
+      "Portable Document Format"
     ],
     "correctAnswer": "Portable Document Format",
     "explanation": "Portable Document Format is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "hard",
-      "portable-document"
+      "internet"
     ]
   },
   {
-    "id": 62657,
+    "id": 22657,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -3132,73 +2822,65 @@
     "correctAnswer": "Instagram",
     "explanation": "Instagram is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "instagram"
+      "internet"
     ]
   },
   {
-    "id": 62658,
+    "id": 22658,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main purpose of online backups?",
     "answers": [
-      "Protecting data from loss",
       "Increasing monitor brightness",
+      "Protecting data from loss",
       "Cooling network servers",
       "Repairing operating systems"
     ],
     "correctAnswer": "Protecting data from loss",
     "explanation": "Protecting data from loss is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "protecting-data"
+      "internet"
     ]
   },
   {
-    "id": 62659,
+    "id": 22659,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the Xbox gaming network services?",
     "answers": [
-      "Microsoft",
       "Sony",
       "Nintendo",
+      "Microsoft",
       "Google"
     ],
     "correctAnswer": "Microsoft",
     "explanation": "Microsoft is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "microsoft"
+      "internet"
     ]
   },
   {
-    "id": 62660,
+    "id": 22660,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which internet term refers to a temporary website outage caused by heavy traffic?",
     "answers": [
-      "Server overload",
       "Bookmarking",
       "Compression",
-      "Caching"
+      "Caching",
+      "Server overload"
     ],
     "correctAnswer": "Server overload",
     "explanation": "Server overload is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "server-overload"
+      "internet"
     ]
   },
   {
-    "id": 62661,
+    "id": 22661,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -3212,73 +2894,65 @@
     "correctAnswer": "Skype",
     "explanation": "Skype is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "skype"
+      "internet"
     ]
   },
   {
-    "id": 62662,
+    "id": 22662,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of a username on an online platform?",
     "answers": [
-      "Identifying a user account",
       "Increasing internet speed",
+      "Identifying a user account",
       "Repairing websites",
       "Compressing media files"
     ],
     "correctAnswer": "Identifying a user account",
     "explanation": "Identifying a user account is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "identifying-user"
+      "internet"
     ]
   },
   {
-    "id": 62663,
+    "id": 22663,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the Firefox web browser?",
     "answers": [
-      "Mozilla",
       "Google",
       "Microsoft",
+      "Mozilla",
       "Apple"
     ],
     "correctAnswer": "Mozilla",
     "explanation": "Mozilla is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "mozilla"
+      "internet"
     ]
   },
   {
-    "id": 62664,
+    "id": 22664,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which internet term describes software vulnerabilities exploited by attackers before fixes are released?",
     "answers": [
-      "Zero-day exploits",
       "Cookies",
       "Bookmarks",
-      "Firewalls"
+      "Firewalls",
+      "Zero-day exploits"
     ],
     "correctAnswer": "Zero-day exploits",
     "explanation": "Zero-day exploits is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "zero-day"
+      "internet"
     ]
   },
   {
-    "id": 62665,
+    "id": 22665,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -3292,73 +2966,65 @@
     "correctAnswer": "Discord",
     "explanation": "Discord is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "discord"
+      "internet"
     ]
   },
   {
-    "id": 62666,
+    "id": 22666,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of online account verification emails?",
     "answers": [
-      "Confirming user identity",
       "Improving download speed",
+      "Confirming user identity",
       "Repairing databases",
       "Blocking advertisements"
     ],
     "correctAnswer": "Confirming user identity",
     "explanation": "Confirming user identity is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "confirming-user"
+      "internet"
     ]
   },
   {
-    "id": 62667,
+    "id": 22667,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company operates the online payment service PayPal?",
     "answers": [
-      "PayPal Holdings",
       "Amazon",
       "Google",
+      "PayPal Holdings",
       "Meta"
     ],
     "correctAnswer": "PayPal Holdings",
     "explanation": "PayPal Holdings is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "paypal-holdings"
+      "internet"
     ]
   },
   {
-    "id": 62668,
+    "id": 22668,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "What does 'VPN' primarily help protect online?",
     "answers": [
-      "User privacy and connection security",
       "Computer battery life",
       "Screen resolution",
-      "Audio quality"
+      "Audio quality",
+      "User privacy and connection security"
     ],
     "correctAnswer": "User privacy and connection security",
     "explanation": "User privacy and connection security is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "hard",
-      "user-privacy"
+      "internet"
     ]
   },
   {
-    "id": 62669,
+    "id": 22669,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -3372,73 +3038,65 @@
     "correctAnswer": "YouTube",
     "explanation": "YouTube is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "youtube"
+      "internet"
     ]
   },
   {
-    "id": 62670,
+    "id": 22670,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main purpose of browser history?",
     "answers": [
-      "Tracking visited webpages",
       "Repairing software bugs",
+      "Tracking visited webpages",
       "Compressing videos",
       "Boosting internet speed"
     ],
     "correctAnswer": "Tracking visited webpages",
     "explanation": "Tracking visited webpages is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "tracking-visited"
+      "internet"
     ]
   },
   {
-    "id": 62671,
+    "id": 22671,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which online service is mainly associated with digital music playlists?",
     "answers": [
-      "Spotify",
       "GitHub",
       "Zoom",
+      "Spotify",
       "Steam"
     ],
     "correctAnswer": "Spotify",
     "explanation": "Spotify is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "spotify"
+      "internet"
     ]
   },
   {
-    "id": 62672,
+    "id": 22672,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which term describes fraudulent websites designed to imitate real services?",
     "answers": [
-      "Spoofed websites",
       "Bookmarks",
       "Caches",
-      "Routers"
+      "Routers",
+      "Spoofed websites"
     ],
     "correctAnswer": "Spoofed websites",
     "explanation": "Spoofed websites is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "spoofed-websites"
+      "internet"
     ]
   },
   {
-    "id": 62673,
+    "id": 22673,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -3452,73 +3110,65 @@
     "correctAnswer": "Instagram",
     "explanation": "Instagram is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "instagram"
+      "internet"
     ]
   },
   {
-    "id": 62674,
+    "id": 22674,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of saving drafts online?",
     "answers": [
-      "Preserving unfinished work",
       "Deleting temporary files",
+      "Preserving unfinished work",
       "Blocking malware",
       "Improving bandwidth"
     ],
     "correctAnswer": "Preserving unfinished work",
     "explanation": "Preserving unfinished work is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "preserving-unfinished"
+      "internet"
     ]
   },
   {
-    "id": 62675,
+    "id": 22675,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which company owns the cloud storage platform OneDrive?",
     "answers": [
-      "Microsoft",
       "Apple",
       "Google",
+      "Microsoft",
       "Amazon"
     ],
     "correctAnswer": "Microsoft",
     "explanation": "Microsoft is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "microsoft"
+      "internet"
     ]
   },
   {
-    "id": 62676,
+    "id": 22676,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which term refers to secretly mining cryptocurrency using another person's device?",
     "answers": [
-      "Cryptojacking",
       "Bookmarking",
       "Streaming",
-      "Spoofing"
+      "Spoofing",
+      "Cryptojacking"
     ],
     "correctAnswer": "Cryptojacking",
     "explanation": "Cryptojacking is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "cryptojacking"
+      "internet"
     ]
   },
   {
-    "id": 62677,
+    "id": 22677,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -3532,73 +3182,65 @@
     "correctAnswer": "GitHub",
     "explanation": "GitHub is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "github"
+      "internet"
     ]
   },
   {
-    "id": 62678,
+    "id": 22678,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main purpose of airplane mode on mobile devices?",
     "answers": [
-      "Disabling wireless communications",
       "Improving battery size",
+      "Disabling wireless communications",
       "Increasing storage",
       "Repairing apps"
     ],
     "correctAnswer": "Disabling wireless communications",
     "explanation": "Disabling wireless communications is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "disabling-wireless"
+      "internet"
     ]
   },
   {
-    "id": 62679,
+    "id": 22679,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is widely used for livestreaming esports and gaming?",
     "answers": [
-      "Twitch",
       "Threads",
       "Dropbox",
+      "Twitch",
       "Pinterest"
     ],
     "correctAnswer": "Twitch",
     "explanation": "Twitch is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "twitch"
+      "internet"
     ]
   },
   {
-    "id": 62680,
+    "id": 22680,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "What does '404' commonly indicate on a website?",
     "answers": [
-      "Page not found",
       "Successful login",
       "Server shutdown",
-      "Encrypted content"
+      "Encrypted content",
+      "Page not found"
     ],
     "correctAnswer": "Page not found",
     "explanation": "Page not found is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "hard",
-      "page-not"
+      "internet"
     ]
   },
   {
-    "id": 62681,
+    "id": 22681,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -3612,73 +3254,65 @@
     "correctAnswer": "Google",
     "explanation": "Google is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "google"
+      "internet"
     ]
   },
   {
-    "id": 62682,
+    "id": 22682,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of muting a user on social media?",
     "answers": [
-      "Hiding their posts without blocking them",
       "Deleting their account",
+      "Hiding their posts without blocking them",
       "Reporting malware",
       "Encrypting conversations"
     ],
     "correctAnswer": "Hiding their posts without blocking them",
     "explanation": "Hiding their posts without blocking them is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "hiding-their"
+      "internet"
     ]
   },
   {
-    "id": 62683,
+    "id": 22683,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which service is mainly used for online meetings and webinars?",
     "answers": [
-      "Zoom",
       "Spotify",
       "Dropbox",
+      "Zoom",
       "Steam"
     ],
     "correctAnswer": "Zoom",
     "explanation": "Zoom is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "zoom"
+      "internet"
     ]
   },
   {
-    "id": 62684,
+    "id": 22684,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which internet term describes misleading headlines designed to attract clicks?",
     "answers": [
-      "Clickbait",
       "Spoofing",
       "Caching",
-      "Bandwidth"
+      "Bandwidth",
+      "Clickbait"
     ],
     "correctAnswer": "Clickbait",
     "explanation": "Clickbait is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "clickbait"
+      "internet"
     ]
   },
   {
-    "id": 62685,
+    "id": 22685,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -3692,73 +3326,65 @@
     "correctAnswer": "Microsoft",
     "explanation": "Microsoft is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "microsoft"
+      "internet"
     ]
   },
   {
-    "id": 62686,
+    "id": 22686,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of a profile picture on social platforms?",
     "answers": [
-      "Representing a user visually",
       "Improving connection speed",
+      "Representing a user visually",
       "Blocking spam",
       "Repairing uploads"
     ],
     "correctAnswer": "Representing a user visually",
     "explanation": "Representing a user visually is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "representing-user"
+      "internet"
     ]
   },
   {
-    "id": 62687,
+    "id": 22687,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which app is mainly associated with encrypted private messaging?",
     "answers": [
-      "Signal",
       "Pinterest",
       "Threads",
+      "Signal",
       "Spotify"
     ],
     "correctAnswer": "Signal",
     "explanation": "Signal is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "signal"
+      "internet"
     ]
   },
   {
-    "id": 62688,
+    "id": 22688,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which term describes internet-connected devices such as smart speakers and smart lights?",
     "answers": [
-      "Internet of Things",
       "Cloud streaming",
       "Bandwidth routing",
-      "Hyperlink systems"
+      "Hyperlink systems",
+      "Internet of Things"
     ],
     "correctAnswer": "Internet of Things",
     "explanation": "Internet of Things is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "internet-things"
+      "internet"
     ]
   },
   {
-    "id": 62689,
+    "id": 22689,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -3772,73 +3398,65 @@
     "correctAnswer": "Google",
     "explanation": "Google is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "google"
+      "internet"
     ]
   },
   {
-    "id": 62690,
+    "id": 22690,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of reporting content on social platforms?",
     "answers": [
-      "Flagging possible rule violations",
       "Increasing upload speed",
+      "Flagging possible rule violations",
       "Repairing servers",
       "Compressing images"
     ],
     "correctAnswer": "Flagging possible rule violations",
     "explanation": "Flagging possible rule violations is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "flagging-possible"
+      "internet"
     ]
   },
   {
-    "id": 62691,
+    "id": 22691,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is famous for temporary disappearing photo stories?",
     "answers": [
-      "Snapchat",
       "LinkedIn",
       "GitHub",
+      "Snapchat",
       "Slack"
     ],
     "correctAnswer": "Snapchat",
     "explanation": "Snapchat is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "snapchat"
+      "internet"
     ]
   },
   {
-    "id": 62692,
+    "id": 22692,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which term describes software designed to secretly demand payment after locking files?",
     "answers": [
-      "Ransomware",
       "Adware",
       "Bookmarking",
-      "Caching"
+      "Caching",
+      "Ransomware"
     ],
     "correctAnswer": "Ransomware",
     "explanation": "Ransomware is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "ransomware"
+      "internet"
     ]
   },
   {
-    "id": 62693,
+    "id": 22693,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -3852,72 +3470,65 @@
     "correctAnswer": "Google",
     "explanation": "Google is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "google"
+      "internet"
     ]
   },
   {
-    "id": 62694,
+    "id": 22694,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the main purpose of a notification badge in an app?",
     "answers": [
-      "Showing unread activity",
       "Improving internet security",
+      "Showing unread activity",
       "Increasing storage space",
       "Cooling hardware"
     ],
     "correctAnswer": "Showing unread activity",
     "explanation": "Showing unread activity is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "showing-unread"
+      "internet"
     ]
   },
   {
-    "id": 62695,
+    "id": 22695,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is widely known for short public messages and trending topics?",
     "answers": [
-      "X",
       "Pinterest",
       "Discord",
+      "X",
       "Quora"
     ],
     "correctAnswer": "X",
     "explanation": "X is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy"
+      "internet"
     ]
   },
   {
-    "id": 62696,
+    "id": 22696,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which term describes a fake social media account pretending to be another person?",
     "answers": [
-      "Impersonation account",
       "Firewall",
       "Hyperlink",
-      "Bandwidth"
+      "Bandwidth",
+      "Impersonation account"
     ],
     "correctAnswer": "Impersonation account",
     "explanation": "Impersonation account is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "impersonation-account"
+      "internet"
     ]
   },
   {
-    "id": 62697,
+    "id": 22697,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
@@ -3931,69 +3542,61 @@
     "correctAnswer": "Wikipedia",
     "explanation": "Wikipedia is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "wikipedia"
+      "internet"
     ]
   },
   {
-    "id": 62698,
+    "id": 22698,
     "category": "internet",
     "premium": true,
     "difficulty": "medium",
     "text": "What is the purpose of pinning a post online?",
     "answers": [
-      "Keeping it visible at the top",
       "Deleting unwanted replies",
+      "Keeping it visible at the top",
       "Encrypting comments",
       "Increasing bandwidth"
     ],
     "correctAnswer": "Keeping it visible at the top",
     "explanation": "Keeping it visible at the top is the correct answer based on the facts asked in the question.",
     "tags": [
-      "internet",
-      "medium",
-      "keeping-visible"
+      "internet"
     ]
   },
   {
-    "id": 62699,
+    "id": 22699,
     "category": "internet",
     "premium": true,
     "difficulty": "easy",
     "text": "Which platform is mainly associated with visual inspiration boards and image collections?",
     "answers": [
-      "Pinterest",
       "LinkedIn",
       "Discord",
+      "Pinterest",
       "Steam"
     ],
     "correctAnswer": "Pinterest",
     "explanation": "Pinterest is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "easy",
-      "pinterest"
+      "internet"
     ]
   },
   {
-    "id": 62700,
+    "id": 22700,
     "category": "internet",
     "premium": true,
     "difficulty": "hard",
     "text": "Which internet term describes artificially generated traffic intended to manipulate popularity metrics?",
     "answers": [
-      "Bot traffic",
       "Bookmarking",
       "Streaming",
-      "Caching"
+      "Caching",
+      "Bot traffic"
     ],
     "correctAnswer": "Bot traffic",
     "explanation": "Bot traffic is the correct answer to this internet question.",
     "tags": [
-      "internet",
-      "hard",
-      "bot-traffic"
+      "internet"
     ]
   }
 ]

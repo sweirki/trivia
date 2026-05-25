@@ -70,3 +70,5 @@ describe("economyRules", () => {
     expect(getWeekKeyUTC(new Date("2026-01-05T12:00:00.000Z"))).toMatch(/^2026-W\d{2}$/);
   });
 });
+
+

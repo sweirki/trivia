@@ -1,26 +1,6 @@
 [
   {
-    "id": 75001,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known as the “King of Pop”?",
-    "answers": [
-      "Michael Jackson",
-      "Elvis Presley",
-      "Prince",
-      "Bruno Mars"
-    ],
-    "correctAnswer": "Michael Jackson",
-    "explanation": "Michael Jackson is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "michael-jackson"
-    ]
-  },
-  {
-    "id": 75002,
+    "id": 37501,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
@@ -40,14 +20,14 @@
     ]
   },
   {
-    "id": 75003,
+    "id": 37502,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which singer released the hit song “Shake It Off”?",
     "answers": [
-      "Taylor Swift",
       "Katy Perry",
+      "Taylor Swift",
       "Ariana Grande",
       "Dua Lipa"
     ],
@@ -60,15 +40,15 @@
     ]
   },
   {
-    "id": 75004,
+    "id": 37503,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
     "text": "Which rapper released the album To Pimp a Butterfly?",
     "answers": [
-      "Kendrick Lamar",
       "Drake",
       "J. Cole",
+      "Kendrick Lamar",
       "Travis Scott"
     ],
     "correctAnswer": "Kendrick Lamar",
@@ -80,16 +60,16 @@
     ]
   },
   {
-    "id": 75005,
+    "id": 37504,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which band performed the song “Bohemian Rhapsody”?",
     "answers": [
-      "Queen",
       "ABBA",
       "The Beatles",
-      "Journey"
+      "Journey",
+      "Queen"
     ],
     "correctAnswer": "Queen",
     "explanation": "Queen is the correct answer to this music question.",
@@ -100,7 +80,7 @@
     ]
   },
   {
-    "id": 75006,
+    "id": 37505,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
@@ -120,34 +100,14 @@
     ]
   },
   {
-    "id": 75007,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is famous for the song “Rolling in the Deep”?",
-    "answers": [
-      "Adele",
-      "Sia",
-      "Rihanna",
-      "Beyoncé"
-    ],
-    "correctAnswer": "Adele",
-    "explanation": "Adele is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "adele"
-    ]
-  },
-  {
-    "id": 75008,
+    "id": 37506,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
     "text": "Which band featured Freddie Mercury as lead vocalist?",
     "answers": [
-      "Queen",
       "The Rolling Stones",
+      "Queen",
       "U2",
       "Coldplay"
     ],
@@ -160,15 +120,15 @@
     ]
   },
   {
-    "id": 75009,
+    "id": 37507,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which singer released the album 25?",
     "answers": [
-      "Adele",
       "Taylor Swift",
       "Rihanna",
+      "Adele",
       "Beyoncé"
     ],
     "correctAnswer": "Adele",
@@ -180,16 +140,16 @@
     ]
   },
   {
-    "id": 75010,
+    "id": 37508,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
     "text": "Which artist released the hit song “Blinding Lights”?",
     "answers": [
-      "The Weeknd",
       "Drake",
       "Post Malone",
-      "Bruno Mars"
+      "Bruno Mars",
+      "The Weeknd"
     ],
     "correctAnswer": "The Weeknd",
     "explanation": "The Weeknd is the correct answer to this music question.",
@@ -200,7 +160,7 @@
     ]
   },
   {
-    "id": 75011,
+    "id": 37509,
     "category": "music",
     "premium": true,
     "difficulty": "hard",
@@ -220,14 +180,14 @@
     ]
   },
   {
-    "id": 75012,
+    "id": 37510,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which band sang “Yellow Submarine”?",
     "answers": [
-      "The Beatles",
       "Queen",
+      "The Beatles",
       "ABBA",
       "The Beach Boys"
     ],
@@ -240,15 +200,15 @@
     ]
   },
   {
-    "id": 75013,
+    "id": 37511,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
     "text": "Which artist released the album 1989?",
     "answers": [
-      "Taylor Swift",
       "Katy Perry",
       "Lorde",
+      "Taylor Swift",
       "Selena Gomez"
     ],
     "correctAnswer": "Taylor Swift",
@@ -260,16 +220,16 @@
     ]
   },
   {
-    "id": 75014,
+    "id": 37512,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which singer is known for the song “Bad Guy”?",
     "answers": [
-      "Billie Eilish",
       "Olivia Rodrigo",
       "Lorde",
-      "Halsey"
+      "Halsey",
+      "Billie Eilish"
     ],
     "correctAnswer": "Billie Eilish",
     "explanation": "Billie Eilish is the correct answer to this music question.",
@@ -280,7 +240,7 @@
     ]
   },
   {
-    "id": 75015,
+    "id": 37513,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
@@ -300,14 +260,14 @@
     ]
   },
   {
-    "id": 75016,
+    "id": 37514,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which singer performed “Umbrella” with Jay-Z?",
     "answers": [
-      "Rihanna",
       "Beyoncé",
+      "Rihanna",
       "Alicia Keys",
       "Sia"
     ],
@@ -320,15 +280,15 @@
     ]
   },
   {
-    "id": 75017,
+    "id": 37515,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
     "text": "Which artist released the album After Hours?",
     "answers": [
-      "The Weeknd",
       "Drake",
       "Kendrick Lamar",
+      "The Weeknd",
       "Frank Ocean"
     ],
     "correctAnswer": "The Weeknd",
@@ -340,16 +300,16 @@
     ]
   },
   {
-    "id": 75018,
+    "id": 37516,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which band is famous for the song “Hotel California”?",
     "answers": [
-      "Eagles",
       "Fleetwood Mac",
       "Journey",
-      "Chicago"
+      "Chicago",
+      "Eagles"
     ],
     "correctAnswer": "Eagles",
     "explanation": "Eagles is the correct answer to this music question.",
@@ -360,7 +320,7 @@
     ]
   },
   {
-    "id": 75019,
+    "id": 37517,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
@@ -380,14 +340,14 @@
     ]
   },
   {
-    "id": 75020,
+    "id": 37518,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which singer is known as “The Material Girl”?",
     "answers": [
-      "Madonna",
       "Cher",
+      "Madonna",
       "Lady Gaga",
       "Whitney Houston"
     ],
@@ -400,15 +360,15 @@
     ]
   },
   {
-    "id": 75021,
+    "id": 37519,
     "category": "music",
     "premium": true,
     "difficulty": "hard",
     "text": "Which composer wrote The Four Seasons?",
     "answers": [
-      "Antonio Vivaldi",
       "Mozart",
       "Beethoven",
+      "Antonio Vivaldi",
       "Bach"
     ],
     "correctAnswer": "Antonio Vivaldi",
@@ -420,16 +380,16 @@
     ]
   },
   {
-    "id": 75022,
+    "id": 37520,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which singer released the song “Firework”?",
     "answers": [
-      "Katy Perry",
       "Taylor Swift",
       "Ariana Grande",
-      "Demi Lovato"
+      "Demi Lovato",
+      "Katy Perry"
     ],
     "correctAnswer": "Katy Perry",
     "explanation": "Katy Perry is the correct answer to this music question.",
@@ -440,7 +400,7 @@
     ]
   },
   {
-    "id": 75023,
+    "id": 37521,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
@@ -460,14 +420,14 @@
     ]
   },
   {
-    "id": 75024,
+    "id": 37522,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which artist is known for the song “Shape of You”?",
     "answers": [
-      "Ed Sheeran",
       "Shawn Mendes",
+      "Ed Sheeran",
       "Justin Bieber",
       "Harry Styles"
     ],
@@ -480,15 +440,15 @@
     ]
   },
   {
-    "id": 75025,
+    "id": 37523,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
     "text": "Which rapper released the album Graduation?",
     "answers": [
-      "Kanye West",
       "Drake",
       "Eminem",
+      "Kanye West",
       "Jay-Z"
     ],
     "correctAnswer": "Kanye West",
@@ -500,16 +460,16 @@
     ]
   },
   {
-    "id": 75026,
+    "id": 37524,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which singer performed “Someone Like You”?",
     "answers": [
-      "Adele",
       "Sam Smith",
       "Sia",
-      "Lorde"
+      "Lorde",
+      "Adele"
     ],
     "correctAnswer": "Adele",
     "explanation": "Adele is the correct answer to this music question.",
@@ -520,7 +480,7 @@
     ]
   },
   {
-    "id": 75027,
+    "id": 37525,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
@@ -540,14 +500,14 @@
     ]
   },
   {
-    "id": 75028,
+    "id": 37526,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which artist released the song “Levitating”?",
     "answers": [
-      "Dua Lipa",
       "Doja Cat",
+      "Dua Lipa",
       "Billie Eilish",
       "Ariana Grande"
     ],
@@ -560,35 +520,15 @@
     ]
   },
   {
-    "id": 75029,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer is famous for the album Born This Way?",
-    "answers": [
-      "Lady Gaga",
-      "Madonna",
-      "Pink",
-      "Kesha"
-    ],
-    "correctAnswer": "Lady Gaga",
-    "explanation": "Lady Gaga is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "lady-gaga"
-    ]
-  },
-  {
-    "id": 75030,
+    "id": 37527,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which band sang “Sweet Child O’ Mine”?",
     "answers": [
-      "Guns N’ Roses",
       "Metallica",
       "Bon Jovi",
+      "Guns N’ Roses",
       "Aerosmith"
     ],
     "correctAnswer": "Guns N’ Roses",
@@ -600,16 +540,16 @@
     ]
   },
   {
-    "id": 75031,
+    "id": 37528,
     "category": "music",
     "premium": true,
     "difficulty": "hard",
     "text": "Which classical composer became deaf later in life?",
     "answers": [
-      "Beethoven",
       "Mozart",
       "Chopin",
-      "Tchaikovsky"
+      "Tchaikovsky",
+      "Beethoven"
     ],
     "correctAnswer": "Beethoven",
     "explanation": "Beethoven is the correct answer to this music question.",
@@ -620,7 +560,7 @@
     ]
   },
   {
-    "id": 75032,
+    "id": 37529,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
@@ -640,14 +580,14 @@
     ]
   },
   {
-    "id": 75033,
+    "id": 37530,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
     "text": "Which artist released the album Channel Orange?",
     "answers": [
-      "Frank Ocean",
       "Drake",
+      "Frank Ocean",
       "The Weeknd",
       "Tyler, the Creator"
     ],
@@ -660,15 +600,15 @@
     ]
   },
   {
-    "id": 75034,
+    "id": 37531,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which singer is known for the song “Poker Face”?",
     "answers": [
-      "Lady Gaga",
       "Katy Perry",
       "Madonna",
+      "Lady Gaga",
       "Pink"
     ],
     "correctAnswer": "Lady Gaga",
@@ -680,16 +620,16 @@
     ]
   },
   {
-    "id": 75035,
+    "id": 37532,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
     "text": "Which band released the album Nevermind?",
     "answers": [
-      "Nirvana",
       "Pearl Jam",
       "Green Day",
-      "Radiohead"
+      "Radiohead",
+      "Nirvana"
     ],
     "correctAnswer": "Nirvana",
     "explanation": "Nirvana is the correct answer to this music question.",
@@ -700,7 +640,7 @@
     ]
   },
   {
-    "id": 75036,
+    "id": 37533,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
@@ -720,14 +660,14 @@
     ]
   },
   {
-    "id": 75037,
+    "id": 37534,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
     "text": "Which artist released the album SOUR?",
     "answers": [
-      "Olivia Rodrigo",
       "Billie Eilish",
+      "Olivia Rodrigo",
       "Dua Lipa",
       "Doja Cat"
     ],
@@ -740,15 +680,15 @@
     ]
   },
   {
-    "id": 75038,
+    "id": 37535,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which singer is known for “Uptown Funk” with Mark Ronson?",
     "answers": [
-      "Bruno Mars",
       "The Weeknd",
       "Ed Sheeran",
+      "Bruno Mars",
       "Justin Bieber"
     ],
     "correctAnswer": "Bruno Mars",
@@ -760,16 +700,16 @@
     ]
   },
   {
-    "id": 75039,
+    "id": 37536,
     "category": "music",
     "premium": true,
     "difficulty": "medium",
     "text": "Which band released the song “Wonderwall”?",
     "answers": [
-      "Oasis",
       "Blur",
       "Radiohead",
-      "Coldplay"
+      "Coldplay",
+      "Oasis"
     ],
     "correctAnswer": "Oasis",
     "explanation": "Oasis is the correct answer to this music question.",
@@ -780,7 +720,7 @@
     ]
   },
   {
-    "id": 75040,
+    "id": 37537,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
@@ -800,14 +740,14 @@
     ]
   },
   {
-    "id": 75041,
+    "id": 37538,
     "category": "music",
     "premium": true,
     "difficulty": "hard",
     "text": "Which composer wrote Swan Lake?",
     "answers": [
-      "Tchaikovsky",
       "Beethoven",
+      "Tchaikovsky",
       "Mozart",
       "Debussy"
     ],
@@ -820,15 +760,15 @@
     ]
   },
   {
-    "id": 75042,
+    "id": 37539,
     "category": "music",
     "premium": true,
     "difficulty": "easy",
     "text": "Which artist released the song “Bad Romance”?",
     "answers": [
-      "Lady Gaga",
       "Katy Perry",
       "Rihanna",
+      "Lady Gaga",
       "Ariana Grande"
     ],
     "correctAnswer": "Lady Gaga",
@@ -837,3162 +777,6 @@
       "music",
       "easy",
       "lady-gaga"
-    ]
-  },
-  {
-    "id": 75043,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Lemonade?",
-    "answers": [
-      "Beyoncé",
-      "Rihanna",
-      "Alicia Keys",
-      "SZA"
-    ],
-    "correctAnswer": "Beyoncé",
-    "explanation": "Beyoncé is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "beyonc"
-    ]
-  },
-  {
-    "id": 75044,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band is famous for the song “Africa”?",
-    "answers": [
-      "Toto",
-      "Journey",
-      "Chicago",
-      "Queen"
-    ],
-    "correctAnswer": "Toto",
-    "explanation": "Toto is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "toto"
-    ]
-  },
-  {
-    "id": 75045,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album DAMN.?",
-    "answers": [
-      "Kendrick Lamar",
-      "Drake",
-      "J. Cole",
-      "Future"
-    ],
-    "correctAnswer": "Kendrick Lamar",
-    "explanation": "Kendrick Lamar is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "kendrick-lamar"
-    ]
-  },
-  {
-    "id": 75046,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “Rolling in the Deep”?",
-    "answers": [
-      "Adele",
-      "Sia",
-      "Beyoncé",
-      "Rihanna"
-    ],
-    "correctAnswer": "Adele",
-    "explanation": "Adele is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "adele"
-    ]
-  },
-  {
-    "id": 75047,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the song “Clocks”?",
-    "answers": [
-      "Coldplay",
-      "Muse",
-      "U2",
-      "Keane"
-    ],
-    "correctAnswer": "Coldplay",
-    "explanation": "Coldplay is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "coldplay"
-    ]
-  },
-  {
-    "id": 75048,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the song “Happy”?",
-    "answers": [
-      "Pharrell Williams",
-      "Bruno Mars",
-      "Justin Timberlake",
-      "Jason Derulo"
-    ],
-    "correctAnswer": "Pharrell Williams",
-    "explanation": "Pharrell Williams is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "pharrell-williams"
-    ]
-  },
-  {
-    "id": 75049,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer is known for the album Back to Black?",
-    "answers": [
-      "Amy Winehouse",
-      "Adele",
-      "Duffy",
-      "Lorde"
-    ],
-    "correctAnswer": "Amy Winehouse",
-    "explanation": "Amy Winehouse is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "amy-winehouse"
-    ]
-  },
-  {
-    "id": 75050,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band released the song “Don’t Stop Believin’”?",
-    "answers": [
-      "Journey",
-      "Queen",
-      "Bon Jovi",
-      "Foreigner"
-    ],
-    "correctAnswer": "Journey",
-    "explanation": "Journey is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "journey"
-    ]
-  },
-  {
-    "id": 75051,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote Clair de Lune?",
-    "answers": [
-      "Claude Debussy",
-      "Chopin",
-      "Mozart",
-      "Ravel"
-    ],
-    "correctAnswer": "Claude Debussy",
-    "explanation": "Claude Debussy is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "claude-debussy"
-    ]
-  },
-  {
-    "id": 75052,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer released the song “Roar”?",
-    "answers": [
-      "Katy Perry",
-      "Lady Gaga",
-      "Taylor Swift",
-      "Pink"
-    ],
-    "correctAnswer": "Katy Perry",
-    "explanation": "Katy Perry is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "katy-perry"
-    ]
-  },
-  {
-    "id": 75053,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Un Verano Sin Ti?",
-    "answers": [
-      "Bad Bunny",
-      "J Balvin",
-      "Maluma",
-      "Ozuna"
-    ],
-    "correctAnswer": "Bad Bunny",
-    "explanation": "Bad Bunny is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "bad-bunny"
-    ]
-  },
-  {
-    "id": 75054,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known for the song “Halo”?",
-    "answers": [
-      "Beyoncé",
-      "Rihanna",
-      "Alicia Keys",
-      "Kelly Clarkson"
-    ],
-    "correctAnswer": "Beyoncé",
-    "explanation": "Beyoncé is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "beyonc"
-    ]
-  },
-  {
-    "id": 75055,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the album American Idiot?",
-    "answers": [
-      "Green Day",
-      "Blink-182",
-      "Fall Out Boy",
-      "Paramore"
-    ],
-    "correctAnswer": "Green Day",
-    "explanation": "Green Day is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "green-day"
-    ]
-  },
-  {
-    "id": 75056,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist performed “As It Was”?",
-    "answers": [
-      "Harry Styles",
-      "Ed Sheeran",
-      "Shawn Mendes",
-      "Charlie Puth"
-    ],
-    "correctAnswer": "Harry Styles",
-    "explanation": "Harry Styles is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "harry-styles"
-    ]
-  },
-  {
-    "id": 75057,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Anti?",
-    "answers": [
-      "Rihanna",
-      "Beyoncé",
-      "SZA",
-      "Doja Cat"
-    ],
-    "correctAnswer": "Rihanna",
-    "explanation": "Rihanna is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "rihanna"
-    ]
-  },
-  {
-    "id": 75058,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known for “Thriller”?",
-    "answers": [
-      "Michael Jackson",
-      "Prince",
-      "Usher",
-      "Justin Timberlake"
-    ],
-    "correctAnswer": "Michael Jackson",
-    "explanation": "Michael Jackson is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "michael-jackson"
-    ]
-  },
-  {
-    "id": 75059,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the song “Creep”?",
-    "answers": [
-      "Radiohead",
-      "Muse",
-      "Coldplay",
-      "Oasis"
-    ],
-    "correctAnswer": "Radiohead",
-    "explanation": "Radiohead is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "radiohead"
-    ]
-  },
-  {
-    "id": 75060,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the hit song “Stay” with Justin Bieber?",
-    "answers": [
-      "The Kid LAROI",
-      "Post Malone",
-      "Drake",
-      "Jack Harlow"
-    ],
-    "correctAnswer": "The Kid LAROI",
-    "explanation": "The Kid LAROI is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "kid-laroi"
-    ]
-  },
-  {
-    "id": 75061,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote The Nutcracker ballet?",
-    "answers": [
-      "Tchaikovsky",
-      "Stravinsky",
-      "Beethoven",
-      "Brahms"
-    ],
-    "correctAnswer": "Tchaikovsky",
-    "explanation": "Tchaikovsky is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "tchaikovsky"
-    ]
-  },
-  {
-    "id": 75062,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “thank u, next”?",
-    "answers": [
-      "Ariana Grande",
-      "Dua Lipa",
-      "Doja Cat",
-      "Selena Gomez"
-    ],
-    "correctAnswer": "Ariana Grande",
-    "explanation": "Ariana Grande is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "ariana-grande"
-    ]
-  },
-  {
-    "id": 75063,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Starboy?",
-    "answers": [
-      "The Weeknd",
-      "Drake",
-      "Frank Ocean",
-      "Travis Scott"
-    ],
-    "correctAnswer": "The Weeknd",
-    "explanation": "The Weeknd is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "weeknd"
-    ]
-  },
-  {
-    "id": 75064,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band sang “Dancing Queen”?",
-    "answers": [
-      "ABBA",
-      "Boney M.",
-      "Bee Gees",
-      "Queen"
-    ],
-    "correctAnswer": "ABBA",
-    "explanation": "ABBA is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "abba"
-    ]
-  },
-  {
-    "id": 75065,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which rapper released the album The Marshall Mathers LP?",
-    "answers": [
-      "Eminem",
-      "50 Cent",
-      "Jay-Z",
-      "Nas"
-    ],
-    "correctAnswer": "Eminem",
-    "explanation": "Eminem is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "eminem"
-    ]
-  },
-  {
-    "id": 75066,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is famous for “All Too Well”?",
-    "answers": [
-      "Taylor Swift",
-      "Olivia Rodrigo",
-      "Adele",
-      "Lorde"
-    ],
-    "correctAnswer": "Taylor Swift",
-    "explanation": "Taylor Swift is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "taylor-swift"
-    ]
-  },
-  {
-    "id": 75067,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the album Hybrid Theory?",
-    "answers": [
-      "Linkin Park",
-      "Green Day",
-      "Papa Roach",
-      "Slipknot"
-    ],
-    "correctAnswer": "Linkin Park",
-    "explanation": "Linkin Park is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "linkin-park"
-    ]
-  },
-  {
-    "id": 75068,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the song “Watermelon Sugar”?",
-    "answers": [
-      "Harry Styles",
-      "Shawn Mendes",
-      "Ed Sheeran",
-      "Justin Bieber"
-    ],
-    "correctAnswer": "Harry Styles",
-    "explanation": "Harry Styles is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "harry-styles"
-    ]
-  },
-  {
-    "id": 75069,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album SOS in 2022?",
-    "answers": [
-      "SZA",
-      "Doja Cat",
-      "Rihanna",
-      "H.E.R."
-    ],
-    "correctAnswer": "SZA",
-    "explanation": "SZA is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "sza"
-    ]
-  },
-  {
-    "id": 75070,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known for “Born This Way”?",
-    "answers": [
-      "Lady Gaga",
-      "Madonna",
-      "Pink",
-      "Kesha"
-    ],
-    "correctAnswer": "Lady Gaga",
-    "explanation": "Lady Gaga is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "lady-gaga"
-    ]
-  },
-  {
-    "id": 75071,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote Ride of the Valkyries?",
-    "answers": [
-      "Richard Wagner",
-      "Mozart",
-      "Mahler",
-      "Verdi"
-    ],
-    "correctAnswer": "Richard Wagner",
-    "explanation": "Richard Wagner is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "richard-wagner"
-    ]
-  },
-  {
-    "id": 75072,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band released the song “Fix You”?",
-    "answers": [
-      "Coldplay",
-      "U2",
-      "Keane",
-      "Radiohead"
-    ],
-    "correctAnswer": "Coldplay",
-    "explanation": "Coldplay is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "coldplay"
-    ]
-  },
-  {
-    "id": 75073,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Random Access Memories?",
-    "answers": [
-      "Daft Punk",
-      "Justice",
-      "The Chemical Brothers",
-      "Deadmau5"
-    ],
-    "correctAnswer": "Daft Punk",
-    "explanation": "Daft Punk is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "daft-punk"
-    ]
-  },
-  {
-    "id": 75074,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “We Found Love” with Calvin Harris?",
-    "answers": [
-      "Rihanna",
-      "Beyoncé",
-      "Dua Lipa",
-      "Ariana Grande"
-    ],
-    "correctAnswer": "Rihanna",
-    "explanation": "Rihanna is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "rihanna"
-    ]
-  },
-  {
-    "id": 75075,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the song “Numb”?",
-    "answers": [
-      "Linkin Park",
-      "Green Day",
-      "Muse",
-      "Paramore"
-    ],
-    "correctAnswer": "Linkin Park",
-    "explanation": "Linkin Park is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "linkin-park"
-    ]
-  },
-  {
-    "id": 75076,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the song “Old Town Road”?",
-    "answers": [
-      "Lil Nas X",
-      "Post Malone",
-      "Drake",
-      "Jack Harlow"
-    ],
-    "correctAnswer": "Lil Nas X",
-    "explanation": "Lil Nas X is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "lil-nas"
-    ]
-  },
-  {
-    "id": 75077,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Fine Line?",
-    "answers": [
-      "Harry Styles",
-      "Shawn Mendes",
-      "Justin Bieber",
-      "Charlie Puth"
-    ],
-    "correctAnswer": "Harry Styles",
-    "explanation": "Harry Styles is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "harry-styles"
-    ]
-  },
-  {
-    "id": 75078,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band is known for the song “Take On Me”?",
-    "answers": [
-      "a-ha",
-      "Duran Duran",
-      "Toto",
-      "Wham!"
-    ],
-    "correctAnswer": "a-ha",
-    "explanation": "a-ha is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy"
-    ]
-  },
-  {
-    "id": 75079,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which rapper released the album Astroworld?",
-    "answers": [
-      "Travis Scott",
-      "Drake",
-      "Future",
-      "Lil Uzi Vert"
-    ],
-    "correctAnswer": "Travis Scott",
-    "explanation": "Travis Scott is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "travis-scott"
-    ]
-  },
-  {
-    "id": 75080,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “Blank Space”?",
-    "answers": [
-      "Taylor Swift",
-      "Ariana Grande",
-      "Olivia Rodrigo",
-      "Katy Perry"
-    ],
-    "correctAnswer": "Taylor Swift",
-    "explanation": "Taylor Swift is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "taylor-swift"
-    ]
-  },
-  {
-    "id": 75081,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote The Magic Flute?",
-    "answers": [
-      "Mozart",
-      "Beethoven",
-      "Bach",
-      "Haydn"
-    ],
-    "correctAnswer": "Mozart",
-    "explanation": "Mozart is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "mozart"
-    ]
-  },
-  {
-    "id": 75082,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer released the song “Since U Been Gone”?",
-    "answers": [
-      "Kelly Clarkson",
-      "Pink",
-      "Avril Lavigne",
-      "Demi Lovato"
-    ],
-    "correctAnswer": "Kelly Clarkson",
-    "explanation": "Kelly Clarkson is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "kelly-clarkson"
-    ]
-  },
-  {
-    "id": 75083,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the album Abbey Road?",
-    "answers": [
-      "The Beatles",
-      "The Rolling Stones",
-      "Queen",
-      "Pink Floyd"
-    ],
-    "correctAnswer": "The Beatles",
-    "explanation": "The Beatles is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "beatles"
-    ]
-  },
-  {
-    "id": 75084,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released “Peaches” featuring Daniel Caesar and Giveon?",
-    "answers": [
-      "Justin Bieber",
-      "Drake",
-      "The Weeknd",
-      "Shawn Mendes"
-    ],
-    "correctAnswer": "Justin Bieber",
-    "explanation": "Justin Bieber is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "justin-bieber"
-    ]
-  },
-  {
-    "id": 75085,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Happier Than Ever?",
-    "answers": [
-      "Billie Eilish",
-      "Olivia Rodrigo",
-      "Dua Lipa",
-      "Lorde"
-    ],
-    "correctAnswer": "Billie Eilish",
-    "explanation": "Billie Eilish is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "billie-eilish"
-    ]
-  },
-  {
-    "id": 75086,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band released the song “Livin’ on a Prayer”?",
-    "answers": [
-      "Bon Jovi",
-      "Journey",
-      "Aerosmith",
-      "Queen"
-    ],
-    "correctAnswer": "Bon Jovi",
-    "explanation": "Bon Jovi is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "bon-jovi"
-    ]
-  },
-  {
-    "id": 75087,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Igor?",
-    "answers": [
-      "Tyler, the Creator",
-      "Frank Ocean",
-      "Childish Gambino",
-      "Kendrick Lamar"
-    ],
-    "correctAnswer": "Tyler, the Creator",
-    "explanation": "Tyler, the Creator is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "tyler-creator"
-    ]
-  },
-  {
-    "id": 75088,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known for “Complicated”?",
-    "answers": [
-      "Avril Lavigne",
-      "Pink",
-      "Kelly Clarkson",
-      "Paramore"
-    ],
-    "correctAnswer": "Avril Lavigne",
-    "explanation": "Avril Lavigne is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "avril-lavigne"
-    ]
-  },
-  {
-    "id": 75089,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the song “Mr. Brightside”?",
-    "answers": [
-      "The Killers",
-      "Coldplay",
-      "Arctic Monkeys",
-      "Muse"
-    ],
-    "correctAnswer": "The Killers",
-    "explanation": "The Killers is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "killers"
-    ]
-  },
-  {
-    "id": 75090,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the hit song “Flowers”?",
-    "answers": [
-      "Miley Cyrus",
-      "Dua Lipa",
-      "Ariana Grande",
-      "SZA"
-    ],
-    "correctAnswer": "Miley Cyrus",
-    "explanation": "Miley Cyrus is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "miley-cyrus"
-    ]
-  },
-  {
-    "id": 75091,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote Boléro?",
-    "answers": [
-      "Maurice Ravel",
-      "Debussy",
-      "Stravinsky",
-      "Brahms"
-    ],
-    "correctAnswer": "Maurice Ravel",
-    "explanation": "Maurice Ravel is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "maurice-ravel"
-    ]
-  },
-  {
-    "id": 75092,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “Locked Out of Heaven”?",
-    "answers": [
-      "Bruno Mars",
-      "The Weeknd",
-      "Justin Timberlake",
-      "Ed Sheeran"
-    ],
-    "correctAnswer": "Bruno Mars",
-    "explanation": "Bruno Mars is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "bruno-mars"
-    ]
-  },
-  {
-    "id": 75093,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Melodrama?",
-    "answers": [
-      "Lorde",
-      "Billie Eilish",
-      "Olivia Rodrigo",
-      "Halsey"
-    ],
-    "correctAnswer": "Lorde",
-    "explanation": "Lorde is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "lorde"
-    ]
-  },
-  {
-    "id": 75094,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band sang “Another One Bites the Dust”?",
-    "answers": [
-      "Queen",
-      "AC/DC",
-      "Journey",
-      "Kiss"
-    ],
-    "correctAnswer": "Queen",
-    "explanation": "Queen is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "queen"
-    ]
-  },
-  {
-    "id": 75095,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album 30?",
-    "answers": [
-      "Adele",
-      "Taylor Swift",
-      "Sia",
-      "Rihanna"
-    ],
-    "correctAnswer": "Adele",
-    "explanation": "Adele is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "adele"
-    ]
-  },
-  {
-    "id": 75096,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the song “Believer”?",
-    "answers": [
-      "Imagine Dragons",
-      "OneRepublic",
-      "Coldplay",
-      "Maroon 5"
-    ],
-    "correctAnswer": "Imagine Dragons",
-    "explanation": "Imagine Dragons is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "imagine-dragons"
-    ]
-  },
-  {
-    "id": 75097,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the album A Night at the Opera?",
-    "answers": [
-      "Queen",
-      "Pink Floyd",
-      "Led Zeppelin",
-      "The Beatles"
-    ],
-    "correctAnswer": "Queen",
-    "explanation": "Queen is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "queen"
-    ]
-  },
-  {
-    "id": 75098,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is famous for “Call Me Maybe”?",
-    "answers": [
-      "Carly Rae Jepsen",
-      "Kesha",
-      "Selena Gomez",
-      "Demi Lovato"
-    ],
-    "correctAnswer": "Carly Rae Jepsen",
-    "explanation": "Carly Rae Jepsen is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "carly-rae"
-    ]
-  },
-  {
-    "id": 75099,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Views?",
-    "answers": [
-      "Drake",
-      "Kendrick Lamar",
-      "J. Cole",
-      "Future"
-    ],
-    "correctAnswer": "Drake",
-    "explanation": "Drake is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "drake"
-    ]
-  },
-  {
-    "id": 75100,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “Someone You Loved”?",
-    "answers": [
-      "Lewis Capaldi",
-      "Ed Sheeran",
-      "Sam Smith",
-      "Shawn Mendes"
-    ],
-    "correctAnswer": "Lewis Capaldi",
-    "explanation": "Lewis Capaldi is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "lewis-capaldi"
-    ]
-  },
-  {
-    "id": 75101,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer released the hit song “Royals”?",
-    "answers": [
-      "Lorde",
-      "Billie Eilish",
-      "Olivia Rodrigo",
-      "Halsey"
-    ],
-    "correctAnswer": "Lorde",
-    "explanation": "Lorde is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "lorde"
-    ]
-  },
-  {
-    "id": 75102,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the album OK Computer?",
-    "answers": [
-      "Radiohead",
-      "Coldplay",
-      "Muse",
-      "Oasis"
-    ],
-    "correctAnswer": "Radiohead",
-    "explanation": "Radiohead is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "radiohead"
-    ]
-  },
-  {
-    "id": 75103,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist performed the song “Senorita” with Camila Cabello?",
-    "answers": [
-      "Shawn Mendes",
-      "Justin Bieber",
-      "Harry Styles",
-      "Charlie Puth"
-    ],
-    "correctAnswer": "Shawn Mendes",
-    "explanation": "Shawn Mendes is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "shawn-mendes"
-    ]
-  },
-  {
-    "id": 75104,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which rapper released the album Illmatic?",
-    "answers": [
-      "Nas",
-      "Jay-Z",
-      "Eminem",
-      "50 Cent"
-    ],
-    "correctAnswer": "Nas",
-    "explanation": "Nas is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "nas"
-    ]
-  },
-  {
-    "id": 75105,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known for the song “Chandelier”?",
-    "answers": [
-      "Sia",
-      "Adele",
-      "Pink",
-      "Lorde"
-    ],
-    "correctAnswer": "Sia",
-    "explanation": "Sia is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "sia"
-    ]
-  },
-  {
-    "id": 75106,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Renaissance?",
-    "answers": [
-      "Beyoncé",
-      "Rihanna",
-      "SZA",
-      "Doja Cat"
-    ],
-    "correctAnswer": "Beyoncé",
-    "explanation": "Beyoncé is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "beyonc"
-    ]
-  },
-  {
-    "id": 75107,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band performed “Wake Me Up When September Ends”?",
-    "answers": [
-      "Green Day",
-      "Blink-182",
-      "Sum 41",
-      "Paramore"
-    ],
-    "correctAnswer": "Green Day",
-    "explanation": "Green Day is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "green-day"
-    ]
-  },
-  {
-    "id": 75108,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Blonde?",
-    "answers": [
-      "Frank Ocean",
-      "Drake",
-      "The Weeknd",
-      "Tyler, the Creator"
-    ],
-    "correctAnswer": "Frank Ocean",
-    "explanation": "Frank Ocean is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "frank-ocean"
-    ]
-  },
-  {
-    "id": 75109,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “Love Story”?",
-    "answers": [
-      "Taylor Swift",
-      "Katy Perry",
-      "Ariana Grande",
-      "Selena Gomez"
-    ],
-    "correctAnswer": "Taylor Swift",
-    "explanation": "Taylor Swift is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "taylor-swift"
-    ]
-  },
-  {
-    "id": 75110,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the song “Enter Sandman”?",
-    "answers": [
-      "Metallica",
-      "Iron Maiden",
-      "AC/DC",
-      "Slayer"
-    ],
-    "correctAnswer": "Metallica",
-    "explanation": "Metallica is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "metallica"
-    ]
-  },
-  {
-    "id": 75111,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote The Rite of Spring?",
-    "answers": [
-      "Igor Stravinsky",
-      "Tchaikovsky",
-      "Mahler",
-      "Debussy"
-    ],
-    "correctAnswer": "Igor Stravinsky",
-    "explanation": "Igor Stravinsky is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "igor-stravinsky"
-    ]
-  },
-  {
-    "id": 75112,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the song “Circles”?",
-    "answers": [
-      "Post Malone",
-      "Drake",
-      "The Weeknd",
-      "Justin Bieber"
-    ],
-    "correctAnswer": "Post Malone",
-    "explanation": "Post Malone is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "post-malone"
-    ]
-  },
-  {
-    "id": 75113,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Midnights?",
-    "answers": [
-      "Taylor Swift",
-      "Olivia Rodrigo",
-      "Billie Eilish",
-      "Lorde"
-    ],
-    "correctAnswer": "Taylor Swift",
-    "explanation": "Taylor Swift is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "taylor-swift"
-    ]
-  },
-  {
-    "id": 75114,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band is famous for the song “Thunderstruck”?",
-    "answers": [
-      "AC/DC",
-      "Metallica",
-      "Guns N’ Roses",
-      "Bon Jovi"
-    ],
-    "correctAnswer": "AC/DC",
-    "explanation": "AC/DC is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy"
-    ]
-  },
-  {
-    "id": 75115,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album The Fame?",
-    "answers": [
-      "Lady Gaga",
-      "Katy Perry",
-      "Madonna",
-      "Britney Spears"
-    ],
-    "correctAnswer": "Lady Gaga",
-    "explanation": "Lady Gaga is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "lady-gaga"
-    ]
-  },
-  {
-    "id": 75116,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “Stay With Me”?",
-    "answers": [
-      "Sam Smith",
-      "Lewis Capaldi",
-      "Ed Sheeran",
-      "Shawn Mendes"
-    ],
-    "correctAnswer": "Sam Smith",
-    "explanation": "Sam Smith is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "sam-smith"
-    ]
-  },
-  {
-    "id": 75117,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the album Back in Black?",
-    "answers": [
-      "AC/DC",
-      "Metallica",
-      "Queen",
-      "Kiss"
-    ],
-    "correctAnswer": "AC/DC",
-    "explanation": "AC/DC is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium"
-    ]
-  },
-  {
-    "id": 75118,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the song “bad habit” in 2021?",
-    "answers": [
-      "Steve Lacy",
-      "The Weeknd",
-      "Post Malone",
-      "Bruno Mars"
-    ],
-    "correctAnswer": "Steve Lacy",
-    "explanation": "Steve Lacy is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "steve-lacy"
-    ]
-  },
-  {
-    "id": 75119,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Dangerous Woman?",
-    "answers": [
-      "Ariana Grande",
-      "Dua Lipa",
-      "Selena Gomez",
-      "Camila Cabello"
-    ],
-    "correctAnswer": "Ariana Grande",
-    "explanation": "Ariana Grande is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "ariana-grande"
-    ]
-  },
-  {
-    "id": 75120,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band sang “Take Me Home, Country Roads”?",
-    "answers": [
-      "John Denver",
-      "Eagles",
-      "America",
-      "Creedence Clearwater Revival"
-    ],
-    "correctAnswer": "John Denver",
-    "explanation": "John Denver is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "john-denver"
-    ]
-  },
-  {
-    "id": 75121,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote the opera Carmen?",
-    "answers": [
-      "Georges Bizet",
-      "Verdi",
-      "Puccini",
-      "Mozart"
-    ],
-    "correctAnswer": "Georges Bizet",
-    "explanation": "Georges Bizet is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "georges-bizet"
-    ]
-  },
-  {
-    "id": 75122,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “Good 4 U”?",
-    "answers": [
-      "Olivia Rodrigo",
-      "Billie Eilish",
-      "Dua Lipa",
-      "Halsey"
-    ],
-    "correctAnswer": "Olivia Rodrigo",
-    "explanation": "Olivia Rodrigo is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "olivia-rodrigo"
-    ]
-  },
-  {
-    "id": 75123,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Man on the Moon: The End of Day?",
-    "answers": [
-      "Kid Cudi",
-      "Drake",
-      "Kanye West",
-      "Travis Scott"
-    ],
-    "correctAnswer": "Kid Cudi",
-    "explanation": "Kid Cudi is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "kid-cudi"
-    ]
-  },
-  {
-    "id": 75124,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known for the song “Tik Tok”?",
-    "answers": [
-      "Kesha",
-      "Lady Gaga",
-      "Katy Perry",
-      "Pink"
-    ],
-    "correctAnswer": "Kesha",
-    "explanation": "Kesha is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "kesha"
-    ]
-  },
-  {
-    "id": 75125,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the song “Seven Nation Army”?",
-    "answers": [
-      "The White Stripes",
-      "Arctic Monkeys",
-      "Muse",
-      "The Killers"
-    ],
-    "correctAnswer": "The White Stripes",
-    "explanation": "The White Stripes is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "white-stripes"
-    ]
-  },
-  {
-    "id": 75126,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist performed “Rockstar” with 21 Savage?",
-    "answers": [
-      "Post Malone",
-      "Drake",
-      "Travis Scott",
-      "Future"
-    ],
-    "correctAnswer": "Post Malone",
-    "explanation": "Post Malone is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "post-malone"
-    ]
-  },
-  {
-    "id": 75127,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Revival in 2015?",
-    "answers": [
-      "Selena Gomez",
-      "Demi Lovato",
-      "Ariana Grande",
-      "Camila Cabello"
-    ],
-    "correctAnswer": "Selena Gomez",
-    "explanation": "Selena Gomez is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "selena-gomez"
-    ]
-  },
-  {
-    "id": 75128,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band released the song “Hey Jude”?",
-    "answers": [
-      "The Beatles",
-      "Queen",
-      "The Rolling Stones",
-      "Pink Floyd"
-    ],
-    "correctAnswer": "The Beatles",
-    "explanation": "The Beatles is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "beatles"
-    ]
-  },
-  {
-    "id": 75129,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which rapper released the album 2014 Forest Hills Drive?",
-    "answers": [
-      "J. Cole",
-      "Drake",
-      "Kendrick Lamar",
-      "Logic"
-    ],
-    "correctAnswer": "J. Cole",
-    "explanation": "J. Cole is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "cole"
-    ]
-  },
-  {
-    "id": 75130,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “Shallow” with Bradley Cooper?",
-    "answers": [
-      "Lady Gaga",
-      "Adele",
-      "Pink",
-      "Rihanna"
-    ],
-    "correctAnswer": "Lady Gaga",
-    "explanation": "Lady Gaga is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "lady-gaga"
-    ]
-  },
-  {
-    "id": 75131,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote Eine kleine Nachtmusik?",
-    "answers": [
-      "Mozart",
-      "Beethoven",
-      "Haydn",
-      "Bach"
-    ],
-    "correctAnswer": "Mozart",
-    "explanation": "Mozart is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "mozart"
-    ]
-  },
-  {
-    "id": 75132,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the song “Sunflower” with Swae Lee?",
-    "answers": [
-      "Post Malone",
-      "Drake",
-      "The Weeknd",
-      "Lil Nas X"
-    ],
-    "correctAnswer": "Post Malone",
-    "explanation": "Post Malone is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "post-malone"
-    ]
-  },
-  {
-    "id": 75133,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the album The Joshua Tree?",
-    "answers": [
-      "U2",
-      "Coldplay",
-      "Queen",
-      "Oasis"
-    ],
-    "correctAnswer": "U2",
-    "explanation": "U2 is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium"
-    ]
-  },
-  {
-    "id": 75134,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known for “Sk8er Boi”?",
-    "answers": [
-      "Avril Lavigne",
-      "Kelly Clarkson",
-      "Pink",
-      "Paramore"
-    ],
-    "correctAnswer": "Avril Lavigne",
-    "explanation": "Avril Lavigne is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "avril-lavigne"
-    ]
-  },
-  {
-    "id": 75135,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Planet Her?",
-    "answers": [
-      "Doja Cat",
-      "SZA",
-      "Megan Thee Stallion",
-      "Cardi B"
-    ],
-    "correctAnswer": "Doja Cat",
-    "explanation": "Doja Cat is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "doja-cat"
-    ]
-  },
-  {
-    "id": 75136,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band performed “Radioactive”?",
-    "answers": [
-      "Imagine Dragons",
-      "OneRepublic",
-      "Coldplay",
-      "Maroon 5"
-    ],
-    "correctAnswer": "Imagine Dragons",
-    "explanation": "Imagine Dragons is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "imagine-dragons"
-    ]
-  },
-  {
-    "id": 75137,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Ctrl?",
-    "answers": [
-      "SZA",
-      "Doja Cat",
-      "Rihanna",
-      "H.E.R."
-    ],
-    "correctAnswer": "SZA",
-    "explanation": "SZA is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "sza"
-    ]
-  },
-  {
-    "id": 75138,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist performed “Sorry” in 2015?",
-    "answers": [
-      "Justin Bieber",
-      "Shawn Mendes",
-      "Harry Styles",
-      "Ed Sheeran"
-    ],
-    "correctAnswer": "Justin Bieber",
-    "explanation": "Justin Bieber is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "justin-bieber"
-    ]
-  },
-  {
-    "id": 75139,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the song “Somebody Told Me”?",
-    "answers": [
-      "The Killers",
-      "Arctic Monkeys",
-      "Muse",
-      "Coldplay"
-    ],
-    "correctAnswer": "The Killers",
-    "explanation": "The Killers is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "killers"
-    ]
-  },
-  {
-    "id": 75140,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known for “Without Me”?",
-    "answers": [
-      "Halsey",
-      "Lorde",
-      "Billie Eilish",
-      "Olivia Rodrigo"
-    ],
-    "correctAnswer": "Halsey",
-    "explanation": "Halsey is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "halsey"
-    ]
-  },
-  {
-    "id": 75141,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote The Barber of Seville?",
-    "answers": [
-      "Gioachino Rossini",
-      "Verdi",
-      "Puccini",
-      "Bizet"
-    ],
-    "correctAnswer": "Gioachino Rossini",
-    "explanation": "Gioachino Rossini is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "gioachino-rossini"
-    ]
-  },
-  {
-    "id": 75142,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the hit song “Heat Waves”?",
-    "answers": [
-      "Glass Animals",
-      "Imagine Dragons",
-      "OneRepublic",
-      "Coldplay"
-    ],
-    "correctAnswer": "Glass Animals",
-    "explanation": "Glass Animals is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "glass-animals"
-    ]
-  },
-  {
-    "id": 75143,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which rapper released the album Good Kid, M.A.A.D City?",
-    "answers": [
-      "Kendrick Lamar",
-      "J. Cole",
-      "Drake",
-      "Tyler, the Creator"
-    ],
-    "correctAnswer": "Kendrick Lamar",
-    "explanation": "Kendrick Lamar is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "kendrick-lamar"
-    ]
-  },
-  {
-    "id": 75144,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “What Makes You Beautiful” with One Direction?",
-    "answers": [
-      "Harry Styles",
-      "Niall Horan",
-      "Zayn Malik",
-      "Louis Tomlinson"
-    ],
-    "correctAnswer": "Harry Styles",
-    "explanation": "Harry Styles is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "harry-styles"
-    ]
-  },
-  {
-    "id": 75145,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the album Origin of Symmetry?",
-    "answers": [
-      "Muse",
-      "Radiohead",
-      "Coldplay",
-      "Oasis"
-    ],
-    "correctAnswer": "Muse",
-    "explanation": "Muse is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "muse"
-    ]
-  },
-  {
-    "id": 75146,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the song “Espresso” in 2024?",
-    "answers": [
-      "Sabrina Carpenter",
-      "Olivia Rodrigo",
-      "Dua Lipa",
-      "Ariana Grande"
-    ],
-    "correctAnswer": "Sabrina Carpenter",
-    "explanation": "Sabrina Carpenter is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "sabrina-carpenter"
-    ]
-  },
-  {
-    "id": 75147,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Reputation?",
-    "answers": [
-      "Taylor Swift",
-      "Ariana Grande",
-      "Katy Perry",
-      "Dua Lipa"
-    ],
-    "correctAnswer": "Taylor Swift",
-    "explanation": "Taylor Swift is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "taylor-swift"
-    ]
-  },
-  {
-    "id": 75148,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band sang “Sweet Dreams (Are Made of This)”?",
-    "answers": [
-      "Eurythmics",
-      "ABBA",
-      "Blondie",
-      "The Bangles"
-    ],
-    "correctAnswer": "Eurythmics",
-    "explanation": "Eurythmics is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "eurythmics"
-    ]
-  },
-  {
-    "id": 75149,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Because the Internet?",
-    "answers": [
-      "Childish Gambino",
-      "Drake",
-      "Tyler, the Creator",
-      "Frank Ocean"
-    ],
-    "correctAnswer": "Childish Gambino",
-    "explanation": "Childish Gambino is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "childish-gambino"
-    ]
-  },
-  {
-    "id": 75150,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known for “Jar of Hearts”?",
-    "answers": [
-      "Christina Perri",
-      "Adele",
-      "Kelly Clarkson",
-      "Pink"
-    ],
-    "correctAnswer": "Christina Perri",
-    "explanation": "Christina Perri is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "christina-perri"
-    ]
-  },
-  {
-    "id": 75151,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote The Planets suite?",
-    "answers": [
-      "Gustav Holst",
-      "Mahler",
-      "Debussy",
-      "Ravel"
-    ],
-    "correctAnswer": "Gustav Holst",
-    "explanation": "Gustav Holst is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "gustav-holst"
-    ]
-  },
-  {
-    "id": 75152,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the song “Flowers” in 2023?",
-    "answers": [
-      "Miley Cyrus",
-      "Ariana Grande",
-      "Dua Lipa",
-      "SZA"
-    ],
-    "correctAnswer": "Miley Cyrus",
-    "explanation": "Miley Cyrus is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "miley-cyrus"
-    ]
-  },
-  {
-    "id": 75153,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the album AM?",
-    "answers": [
-      "Arctic Monkeys",
-      "The Killers",
-      "Muse",
-      "Kings of Leon"
-    ],
-    "correctAnswer": "Arctic Monkeys",
-    "explanation": "Arctic Monkeys is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "arctic-monkeys"
-    ]
-  },
-  {
-    "id": 75154,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “Cool for the Summer”?",
-    "answers": [
-      "Demi Lovato",
-      "Selena Gomez",
-      "Ariana Grande",
-      "Kesha"
-    ],
-    "correctAnswer": "Demi Lovato",
-    "explanation": "Demi Lovato is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "demi-lovato"
-    ]
-  },
-  {
-    "id": 75155,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Beerbongs & Bentleys?",
-    "answers": [
-      "Post Malone",
-      "Drake",
-      "Future",
-      "Travis Scott"
-    ],
-    "correctAnswer": "Post Malone",
-    "explanation": "Post Malone is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "post-malone"
-    ]
-  },
-  {
-    "id": 75156,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band is known for the song “Everybody Wants to Rule the World”?",
-    "answers": [
-      "Tears for Fears",
-      "Duran Duran",
-      "a-ha",
-      "Wham!"
-    ],
-    "correctAnswer": "Tears for Fears",
-    "explanation": "Tears for Fears is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "tears-fears"
-    ]
-  },
-  {
-    "id": 75157,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Emails I Can’t Send?",
-    "answers": [
-      "Sabrina Carpenter",
-      "Olivia Rodrigo",
-      "Dua Lipa",
-      "Madison Beer"
-    ],
-    "correctAnswer": "Sabrina Carpenter",
-    "explanation": "Sabrina Carpenter is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "sabrina-carpenter"
-    ]
-  },
-  {
-    "id": 75158,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the song “Closer” with Halsey?",
-    "answers": [
-      "The Chainsmokers",
-      "Calvin Harris",
-      "Marshmello",
-      "Zedd"
-    ],
-    "correctAnswer": "The Chainsmokers",
-    "explanation": "The Chainsmokers is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "chainsmokers"
-    ]
-  },
-  {
-    "id": 75159,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the album Demon Days?",
-    "answers": [
-      "Gorillaz",
-      "Blur",
-      "Radiohead",
-      "Coldplay"
-    ],
-    "correctAnswer": "Gorillaz",
-    "explanation": "Gorillaz is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "gorillaz"
-    ]
-  },
-  {
-    "id": 75160,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “Havana”?",
-    "answers": [
-      "Camila Cabello",
-      "Selena Gomez",
-      "Demi Lovato",
-      "Ariana Grande"
-    ],
-    "correctAnswer": "Camila Cabello",
-    "explanation": "Camila Cabello is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "camila-cabello"
-    ]
-  },
-  {
-    "id": 75161,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote The Blue Danube?",
-    "answers": [
-      "Johann Strauss II",
-      "Chopin",
-      "Liszt",
-      "Brahms"
-    ],
-    "correctAnswer": "Johann Strauss II",
-    "explanation": "Johann Strauss II is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "johann-strauss"
-    ]
-  },
-  {
-    "id": 75162,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the song “Dance Monkey”?",
-    "answers": [
-      "Tones and I",
-      "Dua Lipa",
-      "Sia",
-      "Doja Cat"
-    ],
-    "correctAnswer": "Tones and I",
-    "explanation": "Tones and I is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "tones"
-    ]
-  },
-  {
-    "id": 75163,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Cry Baby?",
-    "answers": [
-      "Melanie Martinez",
-      "Halsey",
-      "Lorde",
-      "Billie Eilish"
-    ],
-    "correctAnswer": "Melanie Martinez",
-    "explanation": "Melanie Martinez is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "melanie-martinez"
-    ]
-  },
-  {
-    "id": 75164,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band released the song “Eye of the Tiger”?",
-    "answers": [
-      "Survivor",
-      "Journey",
-      "Foreigner",
-      "Boston"
-    ],
-    "correctAnswer": "Survivor",
-    "explanation": "Survivor is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "survivor"
-    ]
-  },
-  {
-    "id": 75165,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Ctrl in 2017?",
-    "answers": [
-      "SZA",
-      "Doja Cat",
-      "Rihanna",
-      "H.E.R."
-    ],
-    "correctAnswer": "SZA",
-    "explanation": "SZA is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "sza"
-    ]
-  },
-  {
-    "id": 75166,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known for “Wrecking Ball”?",
-    "answers": [
-      "Miley Cyrus",
-      "Demi Lovato",
-      "Selena Gomez",
-      "Pink"
-    ],
-    "correctAnswer": "Miley Cyrus",
-    "explanation": "Miley Cyrus is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "miley-cyrus"
-    ]
-  },
-  {
-    "id": 75167,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the album Parachutes?",
-    "answers": [
-      "Coldplay",
-      "Radiohead",
-      "Keane",
-      "Muse"
-    ],
-    "correctAnswer": "Coldplay",
-    "explanation": "Coldplay is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "coldplay"
-    ]
-  },
-  {
-    "id": 75168,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist performed “Paint the Town Red”?",
-    "answers": [
-      "Doja Cat",
-      "Cardi B",
-      "Megan Thee Stallion",
-      "Nicki Minaj"
-    ],
-    "correctAnswer": "Doja Cat",
-    "explanation": "Doja Cat is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "doja-cat"
-    ]
-  },
-  {
-    "id": 75169,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which rapper released the album Take Care?",
-    "answers": [
-      "Drake",
-      "Kendrick Lamar",
-      "J. Cole",
-      "Future"
-    ],
-    "correctAnswer": "Drake",
-    "explanation": "Drake is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "drake"
-    ]
-  },
-  {
-    "id": 75170,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band sang “I Want It That Way”?",
-    "answers": [
-      "Backstreet Boys",
-      "NSYNC",
-      "Westlife",
-      "Boyzone"
-    ],
-    "correctAnswer": "Backstreet Boys",
-    "explanation": "Backstreet Boys is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "backstreet-boys"
-    ]
-  },
-  {
-    "id": 75171,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote Peer Gynt?",
-    "answers": [
-      "Edvard Grieg",
-      "Sibelius",
-      "Mahler",
-      "Dvorak"
-    ],
-    "correctAnswer": "Edvard Grieg",
-    "explanation": "Edvard Grieg is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "edvard-grieg"
-    ]
-  },
-  {
-    "id": 75172,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer released the song “Espresso”?",
-    "answers": [
-      "Sabrina Carpenter",
-      "Olivia Rodrigo",
-      "Ariana Grande",
-      "Dua Lipa"
-    ],
-    "correctAnswer": "Sabrina Carpenter",
-    "explanation": "Sabrina Carpenter is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "sabrina-carpenter"
-    ]
-  },
-  {
-    "id": 75173,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Motomami?",
-    "answers": [
-      "Rosalía",
-      "Karol G",
-      "Shakira",
-      "Becky G"
-    ],
-    "correctAnswer": "Rosalía",
-    "explanation": "Rosalía is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "rosal"
-    ]
-  },
-  {
-    "id": 75174,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known for “Bad Blood”?",
-    "answers": [
-      "Taylor Swift",
-      "Katy Perry",
-      "Ariana Grande",
-      "Lorde"
-    ],
-    "correctAnswer": "Taylor Swift",
-    "explanation": "Taylor Swift is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "taylor-swift"
-    ]
-  },
-  {
-    "id": 75175,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the song “Do I Wanna Know?”?",
-    "answers": [
-      "Arctic Monkeys",
-      "The Killers",
-      "Muse",
-      "Oasis"
-    ],
-    "correctAnswer": "Arctic Monkeys",
-    "explanation": "Arctic Monkeys is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "arctic-monkeys"
-    ]
-  },
-  {
-    "id": 75176,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist performed “Savage Love”?",
-    "answers": [
-      "Jason Derulo",
-      "Justin Bieber",
-      "Shawn Mendes",
-      "Charlie Puth"
-    ],
-    "correctAnswer": "Jason Derulo",
-    "explanation": "Jason Derulo is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "jason-derulo"
-    ]
-  },
-  {
-    "id": 75177,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Future Nostalgia?",
-    "answers": [
-      "Dua Lipa",
-      "Billie Eilish",
-      "Olivia Rodrigo",
-      "Doja Cat"
-    ],
-    "correctAnswer": "Dua Lipa",
-    "explanation": "Dua Lipa is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "dua-lipa"
-    ]
-  },
-  {
-    "id": 75178,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band released the song “Africa”?",
-    "answers": [
-      "Toto",
-      "Journey",
-      "Chicago",
-      "Boston"
-    ],
-    "correctAnswer": "Toto",
-    "explanation": "Toto is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "toto"
-    ]
-  },
-  {
-    "id": 75179,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which rapper released the album The College Dropout?",
-    "answers": [
-      "Kanye West",
-      "Jay-Z",
-      "Nas",
-      "Drake"
-    ],
-    "correctAnswer": "Kanye West",
-    "explanation": "Kanye West is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "kanye-west"
-    ]
-  },
-  {
-    "id": 75180,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known for “Set Fire to the Rain”?",
-    "answers": [
-      "Adele",
-      "Sia",
-      "Rihanna",
-      "Beyoncé"
-    ],
-    "correctAnswer": "Adele",
-    "explanation": "Adele is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "adele"
-    ]
-  },
-  {
-    "id": 75181,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote Pictures at an Exhibition?",
-    "answers": [
-      "Modest Mussorgsky",
-      "Ravel",
-      "Tchaikovsky",
-      "Stravinsky"
-    ],
-    "correctAnswer": "Modest Mussorgsky",
-    "explanation": "Modest Mussorgsky is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "modest-mussorgsky"
-    ]
-  },
-  {
-    "id": 75182,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the song “Industry Baby” with Jack Harlow?",
-    "answers": [
-      "Lil Nas X",
-      "Drake",
-      "Post Malone",
-      "Future"
-    ],
-    "correctAnswer": "Lil Nas X",
-    "explanation": "Lil Nas X is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "lil-nas"
-    ]
-  },
-  {
-    "id": 75183,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the album The Black Parade?",
-    "answers": [
-      "My Chemical Romance",
-      "Fall Out Boy",
-      "Paramore",
-      "Panic! at the Disco"
-    ],
-    "correctAnswer": "My Chemical Romance",
-    "explanation": "My Chemical Romance is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "chemical-romance"
-    ]
-  },
-  {
-    "id": 75184,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “Price Tag” with B.o.B?",
-    "answers": [
-      "Jessie J",
-      "Kesha",
-      "Pink",
-      "Dua Lipa"
-    ],
-    "correctAnswer": "Jessie J",
-    "explanation": "Jessie J is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "jessie"
-    ]
-  },
-  {
-    "id": 75185,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Eternal Sunshine?",
-    "answers": [
-      "Ariana Grande",
-      "Dua Lipa",
-      "Olivia Rodrigo",
-      "Doja Cat"
-    ],
-    "correctAnswer": "Ariana Grande",
-    "explanation": "Ariana Grande is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "ariana-grande"
-    ]
-  },
-  {
-    "id": 75186,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band released the song “Zombie”?",
-    "answers": [
-      "The Cranberries",
-      "Paramore",
-      "No Doubt",
-      "Garbage"
-    ],
-    "correctAnswer": "The Cranberries",
-    "explanation": "The Cranberries is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "cranberries"
-    ]
-  },
-  {
-    "id": 75187,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Harry’s House?",
-    "answers": [
-      "Harry Styles",
-      "Shawn Mendes",
-      "Justin Bieber",
-      "Ed Sheeran"
-    ],
-    "correctAnswer": "Harry Styles",
-    "explanation": "Harry Styles is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "harry-styles"
-    ]
-  },
-  {
-    "id": 75188,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist performed “Cheap Thrills”?",
-    "answers": [
-      "Sia",
-      "Adele",
-      "Rihanna",
-      "Lorde"
-    ],
-    "correctAnswer": "Sia",
-    "explanation": "Sia is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "sia"
-    ]
-  },
-  {
-    "id": 75189,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the album Appetite for Destruction?",
-    "answers": [
-      "Guns N’ Roses",
-      "Metallica",
-      "AC/DC",
-      "Bon Jovi"
-    ],
-    "correctAnswer": "Guns N’ Roses",
-    "explanation": "Guns N’ Roses is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "guns-roses"
-    ]
-  },
-  {
-    "id": 75190,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer is known for “Party in the U.S.A.”?",
-    "answers": [
-      "Miley Cyrus",
-      "Demi Lovato",
-      "Selena Gomez",
-      "Kesha"
-    ],
-    "correctAnswer": "Miley Cyrus",
-    "explanation": "Miley Cyrus is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "miley-cyrus"
-    ]
-  },
-  {
-    "id": 75191,
-    "category": "music",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which composer wrote The Marriage of Figaro?",
-    "answers": [
-      "Mozart",
-      "Rossini",
-      "Puccini",
-      "Verdi"
-    ],
-    "correctAnswer": "Mozart",
-    "explanation": "Mozart is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "hard",
-      "mozart"
-    ]
-  },
-  {
-    "id": 75192,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the song “Starships”?",
-    "answers": [
-      "Nicki Minaj",
-      "Cardi B",
-      "Doja Cat",
-      "Megan Thee Stallion"
-    ],
-    "correctAnswer": "Nicki Minaj",
-    "explanation": "Nicki Minaj is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "nicki-minaj"
-    ]
-  },
-  {
-    "id": 75193,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which singer released the album Teenage Dream?",
-    "answers": [
-      "Katy Perry",
-      "Lady Gaga",
-      "Taylor Swift",
-      "Kesha"
-    ],
-    "correctAnswer": "Katy Perry",
-    "explanation": "Katy Perry is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "katy-perry"
-    ]
-  },
-  {
-    "id": 75194,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which band released the song “Counting Stars”?",
-    "answers": [
-      "OneRepublic",
-      "Coldplay",
-      "Maroon 5",
-      "Imagine Dragons"
-    ],
-    "correctAnswer": "OneRepublic",
-    "explanation": "OneRepublic is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "onerepublic"
-    ]
-  },
-  {
-    "id": 75195,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which artist released the album Born to Die?",
-    "answers": [
-      "Lana Del Rey",
-      "Lorde",
-      "Halsey",
-      "Billie Eilish"
-    ],
-    "correctAnswer": "Lana Del Rey",
-    "explanation": "Lana Del Rey is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "lana-del"
-    ]
-  },
-  {
-    "id": 75196,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “Photograph”?",
-    "answers": [
-      "Ed Sheeran",
-      "Shawn Mendes",
-      "Lewis Capaldi",
-      "Sam Smith"
-    ],
-    "correctAnswer": "Ed Sheeran",
-    "explanation": "Ed Sheeran is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "sheeran"
-    ]
-  },
-  {
-    "id": 75197,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which band released the song “Take Me Out”?",
-    "answers": [
-      "Franz Ferdinand",
-      "Arctic Monkeys",
-      "The Killers",
-      "Muse"
-    ],
-    "correctAnswer": "Franz Ferdinand",
-    "explanation": "Franz Ferdinand is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "franz-ferdinand"
-    ]
-  },
-  {
-    "id": 75198,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which artist released the hit song “greedy” in 2023?",
-    "answers": [
-      "Tate McRae",
-      "Olivia Rodrigo",
-      "Sabrina Carpenter",
-      "Doja Cat"
-    ],
-    "correctAnswer": "Tate McRae",
-    "explanation": "Tate McRae is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "tate-mcrae"
-    ]
-  },
-  {
-    "id": 75199,
-    "category": "music",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which rapper released the album Madvillainy with MF DOOM?",
-    "answers": [
-      "Madlib",
-      "Kendrick Lamar",
-      "Tyler, the Creator",
-      "Nas"
-    ],
-    "correctAnswer": "Madlib",
-    "explanation": "Madlib is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "medium",
-      "madlib"
-    ]
-  },
-  {
-    "id": 75200,
-    "category": "music",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which singer performed “Easy On Me”?",
-    "answers": [
-      "Adele",
-      "Sam Smith",
-      "Sia",
-      "Rihanna"
-    ],
-    "correctAnswer": "Adele",
-    "explanation": "Adele is the correct answer to this music question.",
-    "tags": [
-      "music",
-      "easy",
-      "adele"
     ]
   }
 ]

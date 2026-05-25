@@ -1,1 +1,4002 @@
-[]
+[
+  {
+    "id": 501,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which marine mammal is famous for using echolocation to hunt and navigate?",
+    "answers": [
+      "Bottlenose dolphin",
+      "Green sea turtle",
+      "Manta ray",
+      "Atlantic cod"
+    ],
+    "correctAnswer": "Bottlenose dolphin",
+    "explanation": "Dolphins use echolocation by producing clicks and interpreting returning echoes.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "senses"
+    ]
+  },
+  {
+    "id": 502,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What makes a platypus unusual among mammals?",
+    "answers": [
+      "It breathes through gills",
+      "It lays eggs",
+      "It changes color seasonally",
+      "It has feathers"
+    ],
+    "correctAnswer": "It lays eggs",
+    "explanation": "The platypus is one of the few egg-laying mammals, known as monotremes.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 503,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for building dams that reshape streams and wetlands?",
+    "answers": [
+      "Muskrat",
+      "Otter",
+      "Beaver",
+      "Capybara"
+    ],
+    "correctAnswer": "Beaver",
+    "explanation": "Beavers cut trees and build dams, creating wetland habitats used by many species.",
+    "tags": [
+      "animals",
+      "behavior",
+      "ecosystems"
+    ]
+  },
+  {
+    "id": 504,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the main defensive feature of a pangolin?",
+    "answers": [
+      "Venomous fangs",
+      "Ink clouds",
+      "Antler-like horns",
+      "Overlapping keratin scales"
+    ],
+    "correctAnswer": "Overlapping keratin scales",
+    "explanation": "Pangolins are covered in protective keratin scales and can curl into a ball when threatened.",
+    "tags": [
+      "animals",
+      "mammals",
+      "defense"
+    ]
+  },
+  {
+    "id": 505,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which big cat is best known for its black rosette markings?",
+    "answers": [
+      "Leopard",
+      "Cougar",
+      "Cheetah",
+      "Lion"
+    ],
+    "correctAnswer": "Leopard",
+    "explanation": "Leopards have rosette-shaped markings that help them blend into dappled habitats.",
+    "tags": [
+      "animals",
+      "big-cats",
+      "identification"
+    ]
+  },
+  {
+    "id": 506,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Why do meerkats often stand upright in groups?",
+    "answers": [
+      "To dry their wings",
+      "To watch for predators",
+      "To cool their feet",
+      "To attract fish"
+    ],
+    "correctAnswer": "To watch for predators",
+    "explanation": "Meerkats use sentries to scan for danger while others forage.",
+    "tags": [
+      "animals",
+      "behavior",
+      "mammals"
+    ]
+  },
+  {
+    "id": 507,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal has a blue tongue that helps startle predators?",
+    "answers": [
+      "Green iguana",
+      "Komodo dragon",
+      "Blue-tongued skink",
+      "Gila monster"
+    ],
+    "correctAnswer": "Blue-tongued skink",
+    "explanation": "Blue-tongued skinks flash their bright tongue as a warning display.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "defense"
+    ]
+  },
+  {
+    "id": 508,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What do baleen whales use baleen plates for?",
+    "answers": [
+      "Digging burrows",
+      "Storing oxygen",
+      "Cutting coral",
+      "Filtering small prey from water"
+    ],
+    "correctAnswer": "Filtering small prey from water",
+    "explanation": "Baleen plates strain krill and small fish from seawater.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "feeding"
+    ]
+  },
+  {
+    "id": 509,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which bird is commonly associated with delivering powerful kicks and living in Australia and New Guinea?",
+    "answers": [
+      "Cassowary",
+      "Pelican",
+      "Puffin",
+      "Flamingo"
+    ],
+    "correctAnswer": "Cassowary",
+    "explanation": "Cassowaries are large flightless birds with strong legs and dagger-like claws.",
+    "tags": [
+      "animals",
+      "birds",
+      "identification"
+    ]
+  },
+  {
+    "id": 510,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is the world’s largest living lizard?",
+    "answers": [
+      "Green iguana",
+      "Komodo dragon",
+      "Gila monster",
+      "Monitor gecko"
+    ],
+    "correctAnswer": "Komodo dragon",
+    "explanation": "The Komodo dragon is the largest living lizard and is native to several Indonesian islands.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "records"
+    ]
+  },
+  {
+    "id": 511,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the main purpose of a giraffe’s long neck in feeding?",
+    "answers": [
+      "Digging for roots",
+      "Carrying young",
+      "Reaching leaves high in trees",
+      "Catching flying insects"
+    ],
+    "correctAnswer": "Reaching leaves high in trees",
+    "explanation": "Giraffes browse leaves that many shorter herbivores cannot reach.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 512,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is famous for surviving extreme dryness by entering a state called anhydrobiosis?",
+    "answers": [
+      "Glass frog",
+      "Sea star",
+      "Firefly",
+      "Tardigrade"
+    ],
+    "correctAnswer": "Tardigrade",
+    "explanation": "Tardigrades can survive severe dehydration by entering a dormant tun state.",
+    "tags": [
+      "animals",
+      "survival",
+      "invertebrates"
+    ]
+  },
+  {
+    "id": 513,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is known as the fastest land animal?",
+    "answers": [
+      "Cheetah",
+      "Pronghorn",
+      "Greyhound",
+      "Lion"
+    ],
+    "correctAnswer": "Cheetah",
+    "explanation": "Cheetahs are built for short bursts of extremely high speed.",
+    "tags": [
+      "animals",
+      "records",
+      "mammals"
+    ]
+  },
+  {
+    "id": 514,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What causes flamingos to develop their pink color?",
+    "answers": [
+      "A layer of coral dust",
+      "Pigments from their food",
+      "A seasonal skin change",
+      "Sunlight on their feathers"
+    ],
+    "correctAnswer": "Pigments from their food",
+    "explanation": "Carotenoid pigments from algae and small crustaceans color flamingo feathers.",
+    "tags": [
+      "animals",
+      "birds",
+      "diet"
+    ]
+  },
+  {
+    "id": 515,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal uses a long sticky tongue to catch ants and termites?",
+    "answers": [
+      "Armadillo",
+      "Warthog",
+      "Giant anteater",
+      "Tapir"
+    ],
+    "correctAnswer": "Giant anteater",
+    "explanation": "Giant anteaters have long sticky tongues adapted for feeding on social insects.",
+    "tags": [
+      "animals",
+      "mammals",
+      "feeding"
+    ]
+  },
+  {
+    "id": 516,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which shark is the largest fish alive today?",
+    "answers": [
+      "Great white shark",
+      "Basking shark",
+      "Tiger shark",
+      "Whale shark"
+    ],
+    "correctAnswer": "Whale shark",
+    "explanation": "Whale sharks are the largest living fish and feed mainly by filtering plankton and small animals.",
+    "tags": [
+      "animals",
+      "fish",
+      "records"
+    ]
+  },
+  {
+    "id": 517,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is famous for its black-and-white body and bamboo-heavy diet?",
+    "answers": [
+      "Giant panda",
+      "Red panda",
+      "Sloth bear",
+      "Koala"
+    ],
+    "correctAnswer": "Giant panda",
+    "explanation": "Giant pandas are bears with a diet dominated by bamboo.",
+    "tags": [
+      "animals",
+      "mammals",
+      "diet"
+    ]
+  },
+  {
+    "id": 518,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What do sea otters often use to open hard-shelled prey?",
+    "answers": [
+      "Electric shocks",
+      "Stones",
+      "Coral branches",
+      "Their tails"
+    ],
+    "correctAnswer": "Stones",
+    "explanation": "Sea otters are known for using rocks as tools to crack open shellfish.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "tools"
+    ]
+  },
+  {
+    "id": 519,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which bird has the longest wingspan of any living bird?",
+    "answers": [
+      "Bald eagle",
+      "Andean condor",
+      "Wandering albatross",
+      "Great white pelican"
+    ],
+    "correctAnswer": "Wandering albatross",
+    "explanation": "The wandering albatross has the largest wingspan among living birds.",
+    "tags": [
+      "animals",
+      "birds",
+      "records"
+    ]
+  },
+  {
+    "id": 520,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which insect is famous for a long-distance multi-generation migration across North America?",
+    "answers": [
+      "Stag beetle",
+      "Cicada",
+      "Praying mantis",
+      "Monarch butterfly"
+    ],
+    "correctAnswer": "Monarch butterfly",
+    "explanation": "Monarch butterflies migrate across generations between breeding areas and overwintering sites.",
+    "tags": [
+      "animals",
+      "insects",
+      "migration"
+    ]
+  },
+  {
+    "id": 521,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a marsupial native to Australia and known for hopping?",
+    "answers": [
+      "Kangaroo",
+      "Capybara",
+      "Lemur",
+      "Gazelle"
+    ],
+    "correctAnswer": "Kangaroo",
+    "explanation": "Kangaroos are Australian marsupials adapted for powerful hopping.",
+    "tags": [
+      "animals",
+      "mammals",
+      "marsupials"
+    ]
+  },
+  {
+    "id": 522,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the main role of a queen bee in a honeybee colony?",
+    "answers": [
+      "Guarding the hive entrance",
+      "Laying eggs",
+      "Collecting nectar",
+      "Building every cell"
+    ],
+    "correctAnswer": "Laying eggs",
+    "explanation": "The queen bee is the colony’s primary egg-layer.",
+    "tags": [
+      "animals",
+      "insects",
+      "social-behavior"
+    ]
+  },
+  {
+    "id": 523,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is known for a pistol-like claw that creates a stunning bubble snap?",
+    "answers": [
+      "Mantis shrimp",
+      "Horseshoe crab",
+      "Pistol shrimp",
+      "Hermit crab"
+    ],
+    "correctAnswer": "Pistol shrimp",
+    "explanation": "Pistol shrimp snap a specialized claw so fast that it creates a powerful cavitation bubble.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 524,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is best known for changing skin color and moving its eyes independently?",
+    "answers": [
+      "Skink",
+      "Gecko",
+      "Iguana",
+      "Chameleon"
+    ],
+    "correctAnswer": "Chameleon",
+    "explanation": "Chameleons can shift color and move each eye separately, helping with communication and hunting.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 525,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a flightless bird from Antarctica?",
+    "answers": [
+      "Emperor penguin",
+      "Ostrich",
+      "Kiwi",
+      "Rhea"
+    ],
+    "correctAnswer": "Emperor penguin",
+    "explanation": "Emperor penguins are Antarctic flightless birds adapted to extreme cold.",
+    "tags": [
+      "animals",
+      "birds",
+      "habitat"
+    ]
+  },
+  {
+    "id": 526,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Why do wolves howl?",
+    "answers": [
+      "To attract insects",
+      "To communicate across distance",
+      "To cool their bodies",
+      "To sharpen their teeth"
+    ],
+    "correctAnswer": "To communicate across distance",
+    "explanation": "Howling helps wolves keep contact with pack members and mark presence.",
+    "tags": [
+      "animals",
+      "behavior",
+      "mammals"
+    ]
+  },
+  {
+    "id": 527,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal has the largest eye of any known living animal?",
+    "answers": [
+      "Giant manta ray",
+      "Blue whale",
+      "Colossal squid",
+      "Swordfish"
+    ],
+    "correctAnswer": "Colossal squid",
+    "explanation": "The colossal squid has extremely large eyes adapted for deep-ocean conditions.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "records"
+    ]
+  },
+  {
+    "id": 528,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which mammal is known for rolling into a ball when threatened?",
+    "answers": [
+      "Porcupine",
+      "Aardvark",
+      "Wombat",
+      "Armadillo"
+    ],
+    "correctAnswer": "Armadillo",
+    "explanation": "Some armadillos can curl up, using armored plates as protection.",
+    "tags": [
+      "animals",
+      "mammals",
+      "defense"
+    ]
+  },
+  {
+    "id": 529,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is famous for a pouch used to carry its young?",
+    "answers": [
+      "Kangaroo",
+      "Rabbit",
+      "Fox",
+      "Horse"
+    ],
+    "correctAnswer": "Kangaroo",
+    "explanation": "Female kangaroos carry developing young in a pouch.",
+    "tags": [
+      "animals",
+      "mammals",
+      "marsupials"
+    ]
+  },
+  {
+    "id": 530,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What do coral polyps build over time?",
+    "answers": [
+      "Ice tunnels",
+      "Coral reefs",
+      "River dams",
+      "Bird nests"
+    ],
+    "correctAnswer": "Coral reefs",
+    "explanation": "Coral polyps secrete calcium carbonate structures that can form reefs.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "ecosystems"
+    ]
+  },
+  {
+    "id": 531,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which bird is known for using tools to extract insects from wood?",
+    "answers": [
+      "Peacock",
+      "Barn owl",
+      "New Caledonian crow",
+      "Mute swan"
+    ],
+    "correctAnswer": "New Caledonian crow",
+    "explanation": "New Caledonian crows are famous for shaping and using tools to get food.",
+    "tags": [
+      "animals",
+      "birds",
+      "tools"
+    ]
+  },
+  {
+    "id": 532,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for spraying a strong-smelling liquid as defense?",
+    "answers": [
+      "Badger",
+      "Mongoose",
+      "Raccoon",
+      "Skunk"
+    ],
+    "correctAnswer": "Skunk",
+    "explanation": "Skunks defend themselves with a powerful musk spray from scent glands.",
+    "tags": [
+      "animals",
+      "mammals",
+      "defense"
+    ]
+  },
+  {
+    "id": 533,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which reptile is famous for a hard shell and slow movement?",
+    "answers": [
+      "Tortoise",
+      "Iguana",
+      "Cobra",
+      "Gecko"
+    ],
+    "correctAnswer": "Tortoise",
+    "explanation": "Tortoises are land reptiles protected by a heavy shell.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "identification"
+    ]
+  },
+  {
+    "id": 534,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the largest living primate?",
+    "answers": [
+      "Orangutan",
+      "Eastern gorilla",
+      "Chimpanzee",
+      "Mandrill"
+    ],
+    "correctAnswer": "Eastern gorilla",
+    "explanation": "Eastern gorillas are the largest living primates.",
+    "tags": [
+      "animals",
+      "primates",
+      "records"
+    ]
+  },
+  {
+    "id": 535,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What makes the axolotl famous in biology?",
+    "answers": [
+      "It flies as an adult",
+      "It has venomous claws",
+      "It can regenerate limbs",
+      "It produces silk"
+    ],
+    "correctAnswer": "It can regenerate limbs",
+    "explanation": "Axolotls can regenerate limbs and other tissues, making them important in biological research.",
+    "tags": [
+      "animals",
+      "amphibians",
+      "regeneration"
+    ]
+  },
+  {
+    "id": 536,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is best known for black-and-white stripes that may confuse biting flies and predators?",
+    "answers": [
+      "Gemsbok",
+      "Okapi",
+      "Tapir",
+      "Zebra"
+    ],
+    "correctAnswer": "Zebra",
+    "explanation": "Zebra stripes may help with recognition, camouflage effects, and deterring biting flies.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 537,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a large marine mammal with tusks?",
+    "answers": [
+      "Walrus",
+      "Sea lion",
+      "Manatee",
+      "Narwhal"
+    ],
+    "correctAnswer": "Walrus",
+    "explanation": "Walruses are large marine mammals with prominent tusks.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "mammals"
+    ]
+  },
+  {
+    "id": 538,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which fish is famous for swimming upstream to spawn?",
+    "answers": [
+      "Pufferfish",
+      "Salmon",
+      "Seahorse",
+      "Clownfish"
+    ],
+    "correctAnswer": "Salmon",
+    "explanation": "Many salmon migrate from the ocean into freshwater rivers to reproduce.",
+    "tags": [
+      "animals",
+      "fish",
+      "migration"
+    ]
+  },
+  {
+    "id": 539,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is a mammal but can glide between trees using a membrane?",
+    "answers": [
+      "Tree frog",
+      "Flying fish",
+      "Sugar glider",
+      "Draco lizard"
+    ],
+    "correctAnswer": "Sugar glider",
+    "explanation": "Sugar gliders use a membrane between their limbs to glide between trees.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 540,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Why do rattlesnakes shake their tails?",
+    "answers": [
+      "To call mates underwater",
+      "To dig burrows",
+      "To cool their scales",
+      "To warn potential threats"
+    ],
+    "correctAnswer": "To warn potential threats",
+    "explanation": "The rattle warns nearby animals before the snake needs to strike.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "defense"
+    ]
+  },
+  {
+    "id": 541,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is commonly known for carrying its home-like shell on its back?",
+    "answers": [
+      "Snail",
+      "Ant",
+      "Lizard",
+      "Frog"
+    ],
+    "correctAnswer": "Snail",
+    "explanation": "Many snails have shells that protect their soft bodies.",
+    "tags": [
+      "animals",
+      "mollusks",
+      "identification"
+    ]
+  },
+  {
+    "id": 542,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is famous for its ability to mimic sounds, including chainsaws and camera shutters?",
+    "answers": [
+      "Heron",
+      "Lyrebird",
+      "Toucan",
+      "Penguin"
+    ],
+    "correctAnswer": "Lyrebird",
+    "explanation": "Lyrebirds are exceptional mimics that can copy natural and artificial sounds.",
+    "tags": [
+      "animals",
+      "birds",
+      "behavior"
+    ]
+  },
+  {
+    "id": 543,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which mammal has venomous spurs on the males’ hind legs?",
+    "answers": [
+      "Echidna",
+      "Wolverine",
+      "Platypus",
+      "Tasmanian devil"
+    ],
+    "correctAnswer": "Platypus",
+    "explanation": "Male platypuses have venomous ankle spurs used mainly in competition.",
+    "tags": [
+      "animals",
+      "mammals",
+      "venom"
+    ]
+  },
+  {
+    "id": 544,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal uses ink as a defense mechanism?",
+    "answers": [
+      "Sea horse",
+      "Clam",
+      "Jellyfish",
+      "Octopus"
+    ],
+    "correctAnswer": "Octopus",
+    "explanation": "Octopuses can release ink clouds to distract predators and escape.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "defense"
+    ]
+  },
+  {
+    "id": 545,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is known for a long trunk?",
+    "answers": [
+      "Elephant",
+      "Hippo",
+      "Rhino",
+      "Tapir"
+    ],
+    "correctAnswer": "Elephant",
+    "explanation": "Elephants use their trunks for breathing, smelling, drinking, touching, and handling food.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 546,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which bird is famous for building elaborate display structures called bowers?",
+    "answers": [
+      "Woodpecker",
+      "Bowerbird",
+      "Pelican",
+      "Falcon"
+    ],
+    "correctAnswer": "Bowerbird",
+    "explanation": "Male bowerbirds build and decorate bowers to attract mates.",
+    "tags": [
+      "animals",
+      "birds",
+      "courtship"
+    ]
+  },
+  {
+    "id": 547,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal can run on water for short distances, earning the nickname Jesus lizard?",
+    "answers": [
+      "Monitor lizard",
+      "Horned lizard",
+      "Basilisk lizard",
+      "Frilled lizard"
+    ],
+    "correctAnswer": "Basilisk lizard",
+    "explanation": "Basilisk lizards can sprint across water using rapid foot movements.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 548,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What do leafcutter ants carry back to their nests?",
+    "answers": [
+      "Small stones",
+      "Drops of honey",
+      "Fish eggs",
+      "Pieces of leaves"
+    ],
+    "correctAnswer": "Pieces of leaves",
+    "explanation": "Leafcutter ants cut leaves and use them to grow fungus for food.",
+    "tags": [
+      "animals",
+      "insects",
+      "social-behavior"
+    ]
+  },
+  {
+    "id": 549,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a black-and-white seabird that often has a colorful beak?",
+    "answers": [
+      "Puffin",
+      "Swan",
+      "Heron",
+      "Ostrich"
+    ],
+    "correctAnswer": "Puffin",
+    "explanation": "Puffins are seabirds known for their colorful beaks during breeding season.",
+    "tags": [
+      "animals",
+      "birds",
+      "identification"
+    ]
+  },
+  {
+    "id": 550,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for having a prehensile tail and changing color slowly?",
+    "answers": [
+      "Moray eel",
+      "Seahorse",
+      "Lionfish",
+      "Clownfish"
+    ],
+    "correctAnswer": "Seahorse",
+    "explanation": "Seahorses use prehensile tails to grip seagrass and other structures.",
+    "tags": [
+      "animals",
+      "fish",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 551,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is often called a living fossil because a modern form was found after being known from fossils?",
+    "answers": [
+      "Hagfish",
+      "Arapaima",
+      "Coelacanth",
+      "Sturgeon"
+    ],
+    "correctAnswer": "Coelacanth",
+    "explanation": "Coelacanths were known from fossils before living specimens were documented in the 20th century.",
+    "tags": [
+      "animals",
+      "fish",
+      "evolution"
+    ]
+  },
+  {
+    "id": 552,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for producing silk from spinnerets?",
+    "answers": [
+      "Silkworm moth",
+      "Ant",
+      "Termite",
+      "Spider"
+    ],
+    "correctAnswer": "Spider",
+    "explanation": "Spiders produce silk through spinnerets for webs, egg sacs, draglines, and other uses.",
+    "tags": [
+      "animals",
+      "arachnids",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 553,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is the tallest living land animal?",
+    "answers": [
+      "Giraffe",
+      "Ostrich",
+      "Moose",
+      "Elephant"
+    ],
+    "correctAnswer": "Giraffe",
+    "explanation": "Giraffes are the tallest living land animals.",
+    "tags": [
+      "animals",
+      "records",
+      "mammals"
+    ]
+  },
+  {
+    "id": 554,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Why do porcupines have quills?",
+    "answers": [
+      "Attracting pollinators",
+      "Defense against predators",
+      "Storing water",
+      "Catching fish"
+    ],
+    "correctAnswer": "Defense against predators",
+    "explanation": "Porcupine quills are modified hairs that help deter predators.",
+    "tags": [
+      "animals",
+      "mammals",
+      "defense"
+    ]
+  },
+  {
+    "id": 555,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fish is known for the male carrying fertilized eggs?",
+    "answers": [
+      "Clownfish",
+      "Guppy",
+      "Seahorse",
+      "Catfish"
+    ],
+    "correctAnswer": "Seahorse",
+    "explanation": "In seahorses, males carry developing young in a brood pouch.",
+    "tags": [
+      "animals",
+      "fish",
+      "reproduction"
+    ]
+  },
+  {
+    "id": 556,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is famous for a powerful punch delivered by club-like appendages?",
+    "answers": [
+      "Blue crab",
+      "Sea urchin",
+      "Pistol shrimp",
+      "Mantis shrimp"
+    ],
+    "correctAnswer": "Mantis shrimp",
+    "explanation": "Mantis shrimp can strike prey with extremely fast, forceful appendages.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 557,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a bird but cannot fly and is native to New Zealand?",
+    "answers": [
+      "Kiwi",
+      "Macaw",
+      "Toucan",
+      "Puffin"
+    ],
+    "correctAnswer": "Kiwi",
+    "explanation": "Kiwis are flightless birds native to New Zealand.",
+    "tags": [
+      "animals",
+      "birds",
+      "habitat"
+    ]
+  },
+  {
+    "id": 558,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for sleeping upside down in caves or trees?",
+    "answers": [
+      "Sloth",
+      "Bat",
+      "Koala",
+      "Owl"
+    ],
+    "correctAnswer": "Bat",
+    "explanation": "Many bats roost upside down, allowing efficient takeoff and safe resting positions.",
+    "tags": [
+      "animals",
+      "mammals",
+      "behavior"
+    ]
+  },
+  {
+    "id": 559,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which amphibian is famous for keeping juvenile traits as an adult?",
+    "answers": [
+      "Common toad",
+      "Salamander newt",
+      "Axolotl",
+      "Poison dart frog"
+    ],
+    "correctAnswer": "Axolotl",
+    "explanation": "Axolotls show neoteny, retaining larval features such as external gills as adults.",
+    "tags": [
+      "animals",
+      "amphibians",
+      "biology"
+    ]
+  },
+  {
+    "id": 560,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for using its tail as a fat-storage reserve?",
+    "answers": [
+      "Marine iguana",
+      "Green anole",
+      "King cobra",
+      "Fat-tailed gecko"
+    ],
+    "correctAnswer": "Fat-tailed gecko",
+    "explanation": "Fat-tailed geckos store energy in their tails, which can help during food shortages.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 561,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is famous for making honey?",
+    "answers": [
+      "Honeybee",
+      "Dragonfly",
+      "Grasshopper",
+      "Ladybug"
+    ],
+    "correctAnswer": "Honeybee",
+    "explanation": "Honeybees produce honey from nectar and store it in their colonies.",
+    "tags": [
+      "animals",
+      "insects",
+      "behavior"
+    ]
+  },
+  {
+    "id": 562,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal has a long sticky tongue and armor-like plates?",
+    "answers": [
+      "Anteater",
+      "Pangolin",
+      "Aardvark",
+      "Armadillo"
+    ],
+    "correctAnswer": "Pangolin",
+    "explanation": "Pangolins have long sticky tongues and protective scales made of keratin.",
+    "tags": [
+      "animals",
+      "mammals",
+      "feeding"
+    ]
+  },
+  {
+    "id": 563,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which bird can hover while feeding from flowers?",
+    "answers": [
+      "Swallow",
+      "Kingfisher",
+      "Hummingbird",
+      "Sparrow"
+    ],
+    "correctAnswer": "Hummingbird",
+    "explanation": "Hummingbirds can hover with rapid wingbeats while drinking nectar.",
+    "tags": [
+      "animals",
+      "birds",
+      "flight"
+    ]
+  },
+  {
+    "id": 564,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is a group of lions usually called?",
+    "answers": [
+      "Herd",
+      "Colony",
+      "School",
+      "Pride"
+    ],
+    "correctAnswer": "Pride",
+    "explanation": "A group of lions is called a pride.",
+    "tags": [
+      "animals",
+      "mammals",
+      "groups"
+    ]
+  },
+  {
+    "id": 565,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a large bear adapted to Arctic sea ice?",
+    "answers": [
+      "Polar bear",
+      "Sloth bear",
+      "Sun bear",
+      "Brown bear"
+    ],
+    "correctAnswer": "Polar bear",
+    "explanation": "Polar bears are adapted to Arctic environments and hunting on sea ice.",
+    "tags": [
+      "animals",
+      "mammals",
+      "habitat"
+    ]
+  },
+  {
+    "id": 566,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for curling into a tight ball protected by scales?",
+    "answers": [
+      "Porcupine",
+      "Pangolin",
+      "Hedgehog",
+      "Armadillo"
+    ],
+    "correctAnswer": "Pangolin",
+    "explanation": "Pangolins curl into a ball so their scales shield them from predators.",
+    "tags": [
+      "animals",
+      "mammals",
+      "defense"
+    ]
+  },
+  {
+    "id": 567,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which reptile can squirt blood from near its eyes as a defense?",
+    "answers": [
+      "Basilisk lizard",
+      "Tokay gecko",
+      "Horned lizard",
+      "Gila monster"
+    ],
+    "correctAnswer": "Horned lizard",
+    "explanation": "Some horned lizards can eject blood from vessels near the eyes to deter predators.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "defense"
+    ]
+  },
+  {
+    "id": 568,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for forming large, highly organized colonies with workers and soldiers?",
+    "answers": [
+      "Cricket",
+      "Mayfly",
+      "Butterfly",
+      "Termite"
+    ],
+    "correctAnswer": "Termite",
+    "explanation": "Termites live in social colonies with specialized roles, including workers and soldiers.",
+    "tags": [
+      "animals",
+      "insects",
+      "social-behavior"
+    ]
+  },
+  {
+    "id": 569,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a slow-moving mammal known for hanging from trees?",
+    "answers": [
+      "Sloth",
+      "Gibbon",
+      "Koala",
+      "Lemur"
+    ],
+    "correctAnswer": "Sloth",
+    "explanation": "Sloths are slow-moving tree-dwelling mammals from Central and South America.",
+    "tags": [
+      "animals",
+      "mammals",
+      "behavior"
+    ]
+  },
+  {
+    "id": 570,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Why do camels have wide, padded feet?",
+    "answers": [
+      "To swim faster",
+      "To walk on sand more easily",
+      "To grip tree bark",
+      "To crack shells"
+    ],
+    "correctAnswer": "To walk on sand more easily",
+    "explanation": "Wide padded feet help distribute a camel’s weight on soft desert sand.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 571,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal has a shell made from fused ribs and vertebrae?",
+    "answers": [
+      "Snail",
+      "Crab",
+      "Turtle",
+      "Armadillo"
+    ],
+    "correctAnswer": "Turtle",
+    "explanation": "A turtle’s shell is part of its skeleton, formed from fused bones including ribs and vertebrae.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "anatomy"
+    ]
+  },
+  {
+    "id": 572,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which bird is known for drumming on trees with its beak?",
+    "answers": [
+      "Stork",
+      "Kingfisher",
+      "Pigeon",
+      "Woodpecker"
+    ],
+    "correctAnswer": "Woodpecker",
+    "explanation": "Woodpeckers drum and drill into wood for communication, nesting, and food.",
+    "tags": [
+      "animals",
+      "birds",
+      "behavior"
+    ]
+  },
+  {
+    "id": 573,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a black-and-white bear-like mammal from China?",
+    "answers": [
+      "Giant panda",
+      "Raccoon",
+      "Badger",
+      "Red panda"
+    ],
+    "correctAnswer": "Giant panda",
+    "explanation": "The giant panda is native to China and is famous for eating bamboo.",
+    "tags": [
+      "animals",
+      "mammals",
+      "identification"
+    ]
+  },
+  {
+    "id": 574,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is best known for a defensive cloud of ink and high intelligence?",
+    "answers": [
+      "Jellyfish",
+      "Octopus",
+      "Oyster",
+      "Lobster"
+    ],
+    "correctAnswer": "Octopus",
+    "explanation": "Octopuses are intelligent cephalopods that can use ink to escape predators.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "intelligence"
+    ]
+  },
+  {
+    "id": 575,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which mammal is known for square-shaped droppings?",
+    "answers": [
+      "Marmot",
+      "Koala",
+      "Wombat",
+      "Capybara"
+    ],
+    "correctAnswer": "Wombat",
+    "explanation": "Wombats are famous for producing cube-shaped droppings.",
+    "tags": [
+      "animals",
+      "mammals",
+      "unusual-facts"
+    ]
+  },
+  {
+    "id": 576,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is famous for migrating in huge herds across the Serengeti?",
+    "answers": [
+      "Bison",
+      "Yak",
+      "Moose",
+      "Wildebeest"
+    ],
+    "correctAnswer": "Wildebeest",
+    "explanation": "Wildebeest migrate in large numbers across East African grasslands.",
+    "tags": [
+      "animals",
+      "mammals",
+      "migration"
+    ]
+  },
+  {
+    "id": 577,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which common farm bird is widely kept for eggs?",
+    "answers": [
+      "Chicken",
+      "Peacock",
+      "Turkey",
+      "Goose"
+    ],
+    "correctAnswer": "Chicken",
+    "explanation": "Chickens are domesticated birds commonly raised for eggs and meat.",
+    "tags": [
+      "animals",
+      "birds",
+      "domestic"
+    ]
+  },
+  {
+    "id": 578,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal uses venomous tentacles to capture prey?",
+    "answers": [
+      "Clam",
+      "Jellyfish",
+      "Sea cucumber",
+      "Starfish"
+    ],
+    "correctAnswer": "Jellyfish",
+    "explanation": "Jellyfish use stinging cells on their tentacles to capture prey and defend themselves.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "venom"
+    ]
+  },
+  {
+    "id": 579,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which bird is known for a spectacular courtship dance in tropical New Guinea?",
+    "answers": [
+      "Snowy owl",
+      "Cormorant",
+      "Bird-of-paradise",
+      "Albatross"
+    ],
+    "correctAnswer": "Bird-of-paradise",
+    "explanation": "Many birds-of-paradise perform elaborate dances and displays to attract mates.",
+    "tags": [
+      "animals",
+      "birds",
+      "courtship"
+    ]
+  },
+  {
+    "id": 580,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal has a long snout and feeds heavily on ants and termites but is not an anteater?",
+    "answers": [
+      "Warthog",
+      "Hyrax",
+      "Tapir",
+      "Aardvark"
+    ],
+    "correctAnswer": "Aardvark",
+    "explanation": "Aardvarks are nocturnal African mammals that feed largely on ants and termites.",
+    "tags": [
+      "animals",
+      "mammals",
+      "feeding"
+    ]
+  },
+  {
+    "id": 581,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is known for black-and-white stripes and living in African grasslands?",
+    "answers": [
+      "Zebra",
+      "Skunk",
+      "Tiger",
+      "Okapi"
+    ],
+    "correctAnswer": "Zebra",
+    "explanation": "Zebras are striped equids commonly associated with African grasslands.",
+    "tags": [
+      "animals",
+      "mammals",
+      "identification"
+    ]
+  },
+  {
+    "id": 582,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for being the largest rodent in the world?",
+    "answers": [
+      "Beaver",
+      "Capybara",
+      "Porcupine",
+      "Marmot"
+    ],
+    "correctAnswer": "Capybara",
+    "explanation": "Capybaras are the largest living rodents and are native to South America.",
+    "tags": [
+      "animals",
+      "mammals",
+      "records"
+    ]
+  },
+  {
+    "id": 583,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which shark species is known for an unusually shaped head that may improve sensory detection?",
+    "answers": [
+      "Bull shark",
+      "Goblin shark",
+      "Hammerhead shark",
+      "Tiger shark"
+    ],
+    "correctAnswer": "Hammerhead shark",
+    "explanation": "Hammerhead sharks have wide heads that support sensory organs and broad vision.",
+    "tags": [
+      "animals",
+      "fish",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 584,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for living in groups called mobs and standing watch for danger?",
+    "answers": [
+      "Hyrax",
+      "Mongoose",
+      "Prairie dog",
+      "Meerkat"
+    ],
+    "correctAnswer": "Meerkat",
+    "explanation": "Meerkats live socially and use sentries to watch for predators.",
+    "tags": [
+      "animals",
+      "mammals",
+      "social-behavior"
+    ]
+  },
+  {
+    "id": 585,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a marine mammal known for barking and balancing balls in shows?",
+    "answers": [
+      "Sea lion",
+      "Seal",
+      "Walrus",
+      "Otter"
+    ],
+    "correctAnswer": "Sea lion",
+    "explanation": "Sea lions are social marine mammals known for loud calls and trainable behavior.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "mammals"
+    ]
+  },
+  {
+    "id": 586,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal can detach and later regrow its tail as a defense strategy?",
+    "answers": [
+      "Crocodile",
+      "Gecko",
+      "Chameleon",
+      "Tortoise"
+    ],
+    "correctAnswer": "Gecko",
+    "explanation": "Many geckos can shed their tails to distract predators and later regenerate them.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "defense"
+    ]
+  },
+  {
+    "id": 587,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which insect has a life cycle famous for underground years followed by mass emergence?",
+    "answers": [
+      "Honeybee",
+      "Monarch butterfly",
+      "Periodical cicada",
+      "Dung beetle"
+    ],
+    "correctAnswer": "Periodical cicada",
+    "explanation": "Periodical cicadas spend many years underground before emerging together in large numbers.",
+    "tags": [
+      "animals",
+      "insects",
+      "life-cycle"
+    ]
+  },
+  {
+    "id": 588,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is best known for a huge mouth and semi-aquatic life in Africa?",
+    "answers": [
+      "Rhinoceros",
+      "Tapir",
+      "Manatee",
+      "Hippopotamus"
+    ],
+    "correctAnswer": "Hippopotamus",
+    "explanation": "Hippos spend much of the day in water and are native to Africa.",
+    "tags": [
+      "animals",
+      "mammals",
+      "habitat"
+    ]
+  },
+  {
+    "id": 589,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a small amphibian often known for jumping and croaking?",
+    "answers": [
+      "Frog",
+      "Mouse",
+      "Snail",
+      "Lizard"
+    ],
+    "correctAnswer": "Frog",
+    "explanation": "Frogs are amphibians known for jumping, calling, and living near water.",
+    "tags": [
+      "animals",
+      "amphibians",
+      "identification"
+    ]
+  },
+  {
+    "id": 590,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a long spiral tusk that is actually a tooth?",
+    "answers": [
+      "Orca",
+      "Narwhal",
+      "Walrus",
+      "Elephant seal"
+    ],
+    "correctAnswer": "Narwhal",
+    "explanation": "The narwhal’s tusk is an elongated tooth, usually found in males.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 591,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal’s venomous bite is associated with Komodo dragon hunting?",
+    "answers": [
+      "Gila monster",
+      "King cobra",
+      "Komodo dragon",
+      "Monitor gecko"
+    ],
+    "correctAnswer": "Komodo dragon",
+    "explanation": "Komodo dragons have venom glands and powerful bites that help subdue prey.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "predators"
+    ]
+  },
+  {
+    "id": 592,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which bird is famous for carrying fish in a large throat pouch?",
+    "answers": [
+      "Flamingo",
+      "Heron",
+      "Puffin",
+      "Pelican"
+    ],
+    "correctAnswer": "Pelican",
+    "explanation": "Pelicans use their large throat pouches to scoop fish from water.",
+    "tags": [
+      "animals",
+      "birds",
+      "feeding"
+    ]
+  },
+  {
+    "id": 593,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is the largest living animal on Earth?",
+    "answers": [
+      "Blue whale",
+      "Giraffe",
+      "African elephant",
+      "Whale shark"
+    ],
+    "correctAnswer": "Blue whale",
+    "explanation": "The blue whale is the largest animal known to live on Earth.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "records"
+    ]
+  },
+  {
+    "id": 594,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for strong claws and digging complex underground burrows called setts?",
+    "answers": [
+      "Otter",
+      "Badger",
+      "Fox",
+      "Weasel"
+    ],
+    "correctAnswer": "Badger",
+    "explanation": "Badgers dig and live in burrow systems called setts.",
+    "tags": [
+      "animals",
+      "mammals",
+      "behavior"
+    ]
+  },
+  {
+    "id": 595,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is famous for a transparent head in deep-sea environments?",
+    "answers": [
+      "Oarfish",
+      "Lanternfish",
+      "Barreleye fish",
+      "Anglerfish"
+    ],
+    "correctAnswer": "Barreleye fish",
+    "explanation": "Barreleye fish have a transparent head that helps them look upward through the water.",
+    "tags": [
+      "animals",
+      "fish",
+      "deep-sea"
+    ]
+  },
+  {
+    "id": 596,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for living in colonies and using scent trails to guide others?",
+    "answers": [
+      "Dragonfly",
+      "Moth",
+      "Grasshopper",
+      "Ant"
+    ],
+    "correctAnswer": "Ant",
+    "explanation": "Ants use chemical trails to coordinate movement and food gathering.",
+    "tags": [
+      "animals",
+      "insects",
+      "social-behavior"
+    ]
+  },
+  {
+    "id": 597,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a domesticated canine often called a human companion?",
+    "answers": [
+      "Dog",
+      "Wolf",
+      "Fox",
+      "Jackal"
+    ],
+    "correctAnswer": "Dog",
+    "explanation": "Dogs are domesticated canines closely associated with humans.",
+    "tags": [
+      "animals",
+      "domestic",
+      "mammals"
+    ]
+  },
+  {
+    "id": 598,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal uses webbed feet and waterproof fur for swimming?",
+    "answers": [
+      "Hedgehog",
+      "Otter",
+      "Mole",
+      "Rabbit"
+    ],
+    "correctAnswer": "Otter",
+    "explanation": "Otters have adaptations such as webbed feet and dense fur for aquatic life.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 599,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which insect is famous for navigating using polarized light and a dance language?",
+    "answers": [
+      "Termite",
+      "Firefly",
+      "Honeybee",
+      "Mosquito"
+    ],
+    "correctAnswer": "Honeybee",
+    "explanation": "Honeybees communicate food locations with waggle dances and use visual cues for navigation.",
+    "tags": [
+      "animals",
+      "insects",
+      "communication"
+    ]
+  },
+  {
+    "id": 600,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a powerful tail and armored back in rivers and wetlands?",
+    "answers": [
+      "Iguana",
+      "Tuatara",
+      "Monitor lizard",
+      "Crocodile"
+    ],
+    "correctAnswer": "Crocodile",
+    "explanation": "Crocodiles have armored bodies and strong tails for swimming.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 601,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a black-and-white bird that waddles and swims expertly?",
+    "answers": [
+      "Penguin",
+      "Swan",
+      "Goose",
+      "Puffin"
+    ],
+    "correctAnswer": "Penguin",
+    "explanation": "Penguins are flightless birds adapted for swimming.",
+    "tags": [
+      "animals",
+      "birds",
+      "marine-life"
+    ]
+  },
+  {
+    "id": 602,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for eating eucalyptus leaves almost exclusively?",
+    "answers": [
+      "Possum",
+      "Koala",
+      "Sloth",
+      "Lemur"
+    ],
+    "correctAnswer": "Koala",
+    "explanation": "Koalas feed mainly on eucalyptus leaves and are native to Australia.",
+    "tags": [
+      "animals",
+      "mammals",
+      "diet"
+    ]
+  },
+  {
+    "id": 603,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is the only mammal capable of true sustained flight?",
+    "answers": [
+      "Flying squirrel",
+      "Sugar glider",
+      "Bat",
+      "Colugo"
+    ],
+    "correctAnswer": "Bat",
+    "explanation": "Bats are the only mammals capable of powered, sustained flight.",
+    "tags": [
+      "animals",
+      "mammals",
+      "flight"
+    ]
+  },
+  {
+    "id": 604,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which bird is famous for turning its head far around due to flexible neck anatomy?",
+    "answers": [
+      "Crow",
+      "Duck",
+      "Eagle",
+      "Owl"
+    ],
+    "correctAnswer": "Owl",
+    "explanation": "Owls can rotate their heads far because of specialized neck and blood-vessel adaptations.",
+    "tags": [
+      "animals",
+      "birds",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 605,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal has a mane and is often called the king of beasts?",
+    "answers": [
+      "Lion",
+      "Cheetah",
+      "Tiger",
+      "Leopard"
+    ],
+    "correctAnswer": "Lion",
+    "explanation": "Male lions are known for their manes and social prides.",
+    "tags": [
+      "animals",
+      "big-cats",
+      "identification"
+    ]
+  },
+  {
+    "id": 606,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for bright warning colors and toxic skin secretions?",
+    "answers": [
+      "Tree frog",
+      "Poison dart frog",
+      "Salamander",
+      "Bullfrog"
+    ],
+    "correctAnswer": "Poison dart frog",
+    "explanation": "Poison dart frogs use warning colors that signal toxicity to predators.",
+    "tags": [
+      "animals",
+      "amphibians",
+      "defense"
+    ]
+  },
+  {
+    "id": 607,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which marine animal has three hearts and blue blood?",
+    "answers": [
+      "Sea star",
+      "Jellyfish",
+      "Octopus",
+      "Lobster"
+    ],
+    "correctAnswer": "Octopus",
+    "explanation": "Octopuses have three hearts and copper-based blue blood.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "anatomy"
+    ]
+  },
+  {
+    "id": 608,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is best known for a long neck and ossicones on its head?",
+    "answers": [
+      "Llama",
+      "Okapi",
+      "Antelope",
+      "Giraffe"
+    ],
+    "correctAnswer": "Giraffe",
+    "explanation": "Giraffes have horn-like ossicones and extremely long necks.",
+    "tags": [
+      "animals",
+      "mammals",
+      "anatomy"
+    ]
+  },
+  {
+    "id": 609,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a striped big cat native to Asia most famously?",
+    "answers": [
+      "Tiger",
+      "Lion",
+      "Jaguar",
+      "Cheetah"
+    ],
+    "correctAnswer": "Tiger",
+    "explanation": "Tigers are striped big cats native to Asia.",
+    "tags": [
+      "animals",
+      "big-cats",
+      "identification"
+    ]
+  },
+  {
+    "id": 610,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is famous for dam-building and orange front teeth?",
+    "answers": [
+      "Muskrat",
+      "Beaver",
+      "Nutria",
+      "Capybara"
+    ],
+    "correctAnswer": "Beaver",
+    "explanation": "Beavers have strong orange incisors and build dams and lodges.",
+    "tags": [
+      "animals",
+      "mammals",
+      "behavior"
+    ]
+  },
+  {
+    "id": 611,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which bird is known for the longest non-stop migration recorded among birds?",
+    "answers": [
+      "Frigatebird",
+      "Arctic tern",
+      "Bar-tailed godwit",
+      "Swallow"
+    ],
+    "correctAnswer": "Bar-tailed godwit",
+    "explanation": "Bar-tailed godwits are known for extremely long non-stop migratory flights.",
+    "tags": [
+      "animals",
+      "birds",
+      "migration"
+    ]
+  },
+  {
+    "id": 612,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for using camouflage and a lightning-fast tongue to catch insects?",
+    "answers": [
+      "Gecko",
+      "Skink",
+      "Iguana",
+      "Chameleon"
+    ],
+    "correctAnswer": "Chameleon",
+    "explanation": "Chameleons use camouflage, independent eye movement, and fast tongues to catch prey.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "hunting"
+    ]
+  },
+  {
+    "id": 613,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is an amphibian with a long tail and moist skin?",
+    "answers": [
+      "Salamander",
+      "Gecko",
+      "Snake",
+      "Tortoise"
+    ],
+    "correctAnswer": "Salamander",
+    "explanation": "Salamanders are amphibians with moist skin and usually long tails.",
+    "tags": [
+      "animals",
+      "amphibians",
+      "classification"
+    ]
+  },
+  {
+    "id": 614,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for making loud calls that can travel through rainforest canopies?",
+    "answers": [
+      "Mandrill",
+      "Howler monkey",
+      "Gibbon",
+      "Macaque"
+    ],
+    "correctAnswer": "Howler monkey",
+    "explanation": "Howler monkeys use enlarged throat structures to produce loud calls.",
+    "tags": [
+      "animals",
+      "primates",
+      "communication"
+    ]
+  },
+  {
+    "id": 615,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal has a bill that detects electric signals from prey?",
+    "answers": [
+      "Pelican",
+      "Swordfish",
+      "Platypus",
+      "Duck"
+    ],
+    "correctAnswer": "Platypus",
+    "explanation": "Platypuses use electroreceptors in their bills to detect prey underwater.",
+    "tags": [
+      "animals",
+      "mammals",
+      "senses"
+    ]
+  },
+  {
+    "id": 616,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for carrying babies on its back in water?",
+    "answers": [
+      "Otter",
+      "Frog",
+      "Crocodile",
+      "Swan"
+    ],
+    "correctAnswer": "Swan",
+    "explanation": "Swans and some other waterbirds may carry cygnets on their backs.",
+    "tags": [
+      "animals",
+      "birds",
+      "parenting"
+    ]
+  },
+  {
+    "id": 617,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a reptile with no legs?",
+    "answers": [
+      "Snake",
+      "Worm",
+      "Frog",
+      "Eel"
+    ],
+    "correctAnswer": "Snake",
+    "explanation": "Snakes are legless reptiles.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "classification"
+    ]
+  },
+  {
+    "id": 618,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a venomous stinger at the end of its tail?",
+    "answers": [
+      "Centipede",
+      "Scorpion",
+      "Spider",
+      "Wasp"
+    ],
+    "correctAnswer": "Scorpion",
+    "explanation": "Scorpions are arachnids with venomous tail stingers.",
+    "tags": [
+      "animals",
+      "arachnids",
+      "venom"
+    ]
+  },
+  {
+    "id": 619,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which mammal lays eggs and has spines?",
+    "answers": [
+      "Hedgehog",
+      "Porcupine",
+      "Echidna",
+      "Platypus"
+    ],
+    "correctAnswer": "Echidna",
+    "explanation": "Echidnas are spiny monotremes, a small group of egg-laying mammals.",
+    "tags": [
+      "animals",
+      "mammals",
+      "monotremes"
+    ]
+  },
+  {
+    "id": 620,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for living in a matriarchal herd led by older females most famously?",
+    "answers": [
+      "Horse",
+      "Lion",
+      "Bison",
+      "Elephant"
+    ],
+    "correctAnswer": "Elephant",
+    "explanation": "Elephant herds are often led by experienced older females called matriarchs.",
+    "tags": [
+      "animals",
+      "mammals",
+      "social-behavior"
+    ]
+  },
+  {
+    "id": 621,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a common pet known for purring?",
+    "answers": [
+      "Cat",
+      "Dog",
+      "Rabbit",
+      "Hamster"
+    ],
+    "correctAnswer": "Cat",
+    "explanation": "Domestic cats commonly purr during relaxed or social moments.",
+    "tags": [
+      "animals",
+      "domestic",
+      "mammals"
+    ]
+  },
+  {
+    "id": 622,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is famous for inflated throat sacs used in display on islands such as the Galápagos?",
+    "answers": [
+      "Cormorant",
+      "Frigatebird",
+      "Albatross",
+      "Pelican"
+    ],
+    "correctAnswer": "Frigatebird",
+    "explanation": "Male frigatebirds inflate red throat pouches during courtship displays.",
+    "tags": [
+      "animals",
+      "birds",
+      "courtship"
+    ]
+  },
+  {
+    "id": 623,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fish is famous for producing a strong electric shock?",
+    "answers": [
+      "Pufferfish",
+      "Moray eel",
+      "Electric eel",
+      "Sturgeon"
+    ],
+    "correctAnswer": "Electric eel",
+    "explanation": "Electric eels can generate strong electric discharges for hunting and defense.",
+    "tags": [
+      "animals",
+      "fish",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 624,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a hard exoskeleton and sideways walking?",
+    "answers": [
+      "Snail",
+      "Squid",
+      "Sea cucumber",
+      "Crab"
+    ],
+    "correctAnswer": "Crab",
+    "explanation": "Crabs have hard exoskeletons and many species move sideways efficiently.",
+    "tags": [
+      "animals",
+      "crustaceans",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 625,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a large herbivore with a horn or horns on its nose?",
+    "answers": [
+      "Rhinoceros",
+      "Tapir",
+      "Buffalo",
+      "Hippopotamus"
+    ],
+    "correctAnswer": "Rhinoceros",
+    "explanation": "Rhinoceroses are large herbivores known for horns made of keratin.",
+    "tags": [
+      "animals",
+      "mammals",
+      "identification"
+    ]
+  },
+  {
+    "id": 626,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal’s name means “river horse” in Greek?",
+    "answers": [
+      "Manatee",
+      "Hippopotamus",
+      "Crocodile",
+      "Capybara"
+    ],
+    "correctAnswer": "Hippopotamus",
+    "explanation": "The word hippopotamus comes from Greek roots meaning river horse.",
+    "tags": [
+      "animals",
+      "mammals",
+      "word-origin"
+    ]
+  },
+  {
+    "id": 627,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which bird is famous for a booming call made by inflating an air sac on its chest?",
+    "answers": [
+      "Bald eagle",
+      "Kingfisher",
+      "Greater sage-grouse",
+      "Emu"
+    ],
+    "correctAnswer": "Greater sage-grouse",
+    "explanation": "Male greater sage-grouse perform displays using inflated chest air sacs.",
+    "tags": [
+      "animals",
+      "birds",
+      "courtship"
+    ]
+  },
+  {
+    "id": 628,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for chewing through wood and having iron-hardened orange teeth?",
+    "answers": [
+      "Rabbit",
+      "Capybara",
+      "Squirrel",
+      "Beaver"
+    ],
+    "correctAnswer": "Beaver",
+    "explanation": "Beaver incisors contain iron-rich enamel, giving them an orange color and durability.",
+    "tags": [
+      "animals",
+      "mammals",
+      "anatomy"
+    ]
+  },
+  {
+    "id": 629,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a fish often kept in bowls or aquariums?",
+    "answers": [
+      "Goldfish",
+      "Hermit crab",
+      "Frog",
+      "Newt"
+    ],
+    "correctAnswer": "Goldfish",
+    "explanation": "Goldfish are domesticated freshwater fish commonly kept in aquariums.",
+    "tags": [
+      "animals",
+      "fish",
+      "domestic"
+    ]
+  },
+  {
+    "id": 630,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for blowing bubbles or making bubble nets to catch fish?",
+    "answers": [
+      "Orca",
+      "Humpback whale",
+      "Dolphin",
+      "Manatee"
+    ],
+    "correctAnswer": "Humpback whale",
+    "explanation": "Humpback whales can use bubble-net feeding to corral prey.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "feeding"
+    ]
+  },
+  {
+    "id": 631,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which small mammal has venomous saliva and is among the few venomous mammals?",
+    "answers": [
+      "Pika",
+      "Hyrax",
+      "Solenodon",
+      "Meerkat"
+    ],
+    "correctAnswer": "Solenodon",
+    "explanation": "Solenodons are rare mammals with venomous saliva delivered through grooves in their teeth.",
+    "tags": [
+      "animals",
+      "mammals",
+      "venom"
+    ]
+  },
+  {
+    "id": 632,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is famous for playing dead as a defense?",
+    "answers": [
+      "Marmot",
+      "Raccoon",
+      "Badger",
+      "Opossum"
+    ],
+    "correctAnswer": "Opossum",
+    "explanation": "Opossums may enter an involuntary death-like state when threatened.",
+    "tags": [
+      "animals",
+      "mammals",
+      "defense"
+    ]
+  },
+  {
+    "id": 633,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which bird is known for a large colorful tail display?",
+    "answers": [
+      "Peacock",
+      "Turkey",
+      "Pheasant",
+      "Rooster"
+    ],
+    "correctAnswer": "Peacock",
+    "explanation": "Male peafowl, called peacocks, display large colorful tail feathers.",
+    "tags": [
+      "animals",
+      "birds",
+      "courtship"
+    ]
+  },
+  {
+    "id": 634,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for thick blubber that helps insulate it in cold seas?",
+    "answers": [
+      "Dolphinfish",
+      "Seal",
+      "Penguin",
+      "Sea turtle"
+    ],
+    "correctAnswer": "Seal",
+    "explanation": "Seals use blubber for insulation and energy storage in cold aquatic environments.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 635,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is a reptile native to New Zealand and represents an ancient lineage?",
+    "answers": [
+      "Gila monster",
+      "Komodo dragon",
+      "Tuatara",
+      "Marine iguana"
+    ],
+    "correctAnswer": "Tuatara",
+    "explanation": "Tuatara are reptiles from an ancient lineage distinct from lizards and snakes.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "evolution"
+    ]
+  },
+  {
+    "id": 636,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for warning colors and a painful sting despite its small size?",
+    "answers": [
+      "Moth",
+      "Grasshopper",
+      "Termite",
+      "Wasp"
+    ],
+    "correctAnswer": "Wasp",
+    "explanation": "Many wasps use bright warning colors and can deliver painful stings.",
+    "tags": [
+      "animals",
+      "insects",
+      "defense"
+    ]
+  },
+  {
+    "id": 637,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a long-necked bird often seen standing in shallow water?",
+    "answers": [
+      "Heron",
+      "Pigeon",
+      "Parrot",
+      "Ostrich"
+    ],
+    "correctAnswer": "Heron",
+    "explanation": "Herons are long-legged wading birds often found in shallow water.",
+    "tags": [
+      "animals",
+      "birds",
+      "habitat"
+    ]
+  },
+  {
+    "id": 638,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal stores food in expandable cheek pouches?",
+    "answers": [
+      "Mole",
+      "Hamster",
+      "Rabbit",
+      "Hedgehog"
+    ],
+    "correctAnswer": "Hamster",
+    "explanation": "Hamsters use cheek pouches to carry food.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 639,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal has teeth that grow continuously and must be worn down by gnawing?",
+    "answers": [
+      "Carnivore",
+      "Primate",
+      "Rodent",
+      "Marsupial"
+    ],
+    "correctAnswer": "Rodent",
+    "explanation": "Rodents have continuously growing incisors that are worn down by gnawing.",
+    "tags": [
+      "animals",
+      "mammals",
+      "anatomy"
+    ]
+  },
+  {
+    "id": 640,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a ringed tail and living in groups called troops?",
+    "answers": [
+      "Coati",
+      "Mongoose",
+      "Raccoon",
+      "Ring-tailed lemur"
+    ],
+    "correctAnswer": "Ring-tailed lemur",
+    "explanation": "Ring-tailed lemurs live in social groups and use their tails for visual communication.",
+    "tags": [
+      "animals",
+      "primates",
+      "social-behavior"
+    ]
+  },
+  {
+    "id": 641,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a bird of prey with excellent eyesight and sharp talons?",
+    "answers": [
+      "Eagle",
+      "Ostrich",
+      "Swan",
+      "Flamingo"
+    ],
+    "correctAnswer": "Eagle",
+    "explanation": "Eagles are raptors with strong talons and keen eyesight.",
+    "tags": [
+      "animals",
+      "birds",
+      "predators"
+    ]
+  },
+  {
+    "id": 642,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for changing sex in some species, especially on coral reefs?",
+    "answers": [
+      "Tuna",
+      "Clownfish",
+      "Seahorse",
+      "Catfish"
+    ],
+    "correctAnswer": "Clownfish",
+    "explanation": "Clownfish live in social groups where sex change can occur under certain conditions.",
+    "tags": [
+      "animals",
+      "fish",
+      "reproduction"
+    ]
+  },
+  {
+    "id": 643,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is famous for producing light through bioluminescence to attract mates?",
+    "answers": [
+      "Cicada",
+      "Cricket",
+      "Firefly",
+      "Dragonfly"
+    ],
+    "correctAnswer": "Firefly",
+    "explanation": "Fireflies produce light through chemical reactions and often use flashes in mating signals.",
+    "tags": [
+      "animals",
+      "insects",
+      "bioluminescence"
+    ]
+  },
+  {
+    "id": 644,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a long flexible snout and is related to horses and rhinos?",
+    "answers": [
+      "Okapi",
+      "Anteater",
+      "Aardvark",
+      "Tapir"
+    ],
+    "correctAnswer": "Tapir",
+    "explanation": "Tapirs are odd-toed ungulates related to horses and rhinoceroses.",
+    "tags": [
+      "animals",
+      "mammals",
+      "evolution"
+    ]
+  },
+  {
+    "id": 645,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a large flightless bird from Africa?",
+    "answers": [
+      "Ostrich",
+      "Emu",
+      "Cassowary",
+      "Kiwi"
+    ],
+    "correctAnswer": "Ostrich",
+    "explanation": "Ostriches are large flightless birds native to Africa.",
+    "tags": [
+      "animals",
+      "birds",
+      "records"
+    ]
+  },
+  {
+    "id": 646,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for living in eucalyptus forests and carrying young in a pouch?",
+    "answers": [
+      "Wombat",
+      "Koala",
+      "Bandicoot",
+      "Quokka"
+    ],
+    "correctAnswer": "Koala",
+    "explanation": "Koalas are Australian marsupials that live in eucalyptus forests.",
+    "tags": [
+      "animals",
+      "mammals",
+      "marsupials"
+    ]
+  },
+  {
+    "id": 647,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which marine animal has stinging cells called nematocysts?",
+    "answers": [
+      "Clam",
+      "Octopus",
+      "Jellyfish",
+      "Sea cucumber"
+    ],
+    "correctAnswer": "Jellyfish",
+    "explanation": "Jellyfish use nematocysts in their tentacles to sting prey and predators.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "venom"
+    ]
+  },
+  {
+    "id": 648,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for using mud wallows to cool down and protect its skin?",
+    "answers": [
+      "Giraffe",
+      "Gazelle",
+      "Panda",
+      "Rhinoceros"
+    ],
+    "correctAnswer": "Rhinoceros",
+    "explanation": "Rhinos often wallow in mud, which helps cool them and protect their skin.",
+    "tags": [
+      "animals",
+      "mammals",
+      "behavior"
+    ]
+  },
+  {
+    "id": 649,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a small striped mammal famous for a strong odor defense?",
+    "answers": [
+      "Skunk",
+      "Mongoose",
+      "Ferret",
+      "Chipmunk"
+    ],
+    "correctAnswer": "Skunk",
+    "explanation": "Skunks are known for spraying a strong-smelling defensive fluid.",
+    "tags": [
+      "animals",
+      "mammals",
+      "defense"
+    ]
+  },
+  {
+    "id": 650,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for forming schools to reduce individual predation risk?",
+    "answers": [
+      "Lizards",
+      "Fish",
+      "Frogs",
+      "Snails"
+    ],
+    "correctAnswer": "Fish",
+    "explanation": "Many fish form schools, which can confuse predators and improve survival.",
+    "tags": [
+      "animals",
+      "fish",
+      "behavior"
+    ]
+  },
+  {
+    "id": 651,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which bird has a bill adapted for filtering tiny organisms from water?",
+    "answers": [
+      "Falcon",
+      "Woodpecker",
+      "Flamingo",
+      "Crow"
+    ],
+    "correctAnswer": "Flamingo",
+    "explanation": "Flamingos use specialized bills to filter small organisms and algae from water.",
+    "tags": [
+      "animals",
+      "birds",
+      "feeding"
+    ]
+  },
+  {
+    "id": 652,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for digging with powerful forelimbs and poor eyesight underground?",
+    "answers": [
+      "Badger",
+      "Hedgehog",
+      "Rabbit",
+      "Mole"
+    ],
+    "correctAnswer": "Mole",
+    "explanation": "Moles are adapted for underground life with powerful digging limbs.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 653,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a reptile with a hard shell that often lives in water?",
+    "answers": [
+      "Turtle",
+      "Otter",
+      "Toad",
+      "Crab"
+    ],
+    "correctAnswer": "Turtle",
+    "explanation": "Turtles are shelled reptiles, many of which live in or near water.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "classification"
+    ]
+  },
+  {
+    "id": 654,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for using echolocation while flying at night?",
+    "answers": [
+      "Owl",
+      "Bat",
+      "Moth",
+      "Flying squirrel"
+    ],
+    "correctAnswer": "Bat",
+    "explanation": "Many bats use echolocation to navigate and hunt insects in darkness.",
+    "tags": [
+      "animals",
+      "mammals",
+      "senses"
+    ]
+  },
+  {
+    "id": 655,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is famous for an extremely slow metabolism and algae growing in its fur?",
+    "answers": [
+      "Panda",
+      "Manatee",
+      "Sloth",
+      "Koala"
+    ],
+    "correctAnswer": "Sloth",
+    "explanation": "Sloths have slow metabolisms, and algae can grow in their fur, aiding camouflage.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 656,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for defensive spines and rolling into a ball?",
+    "answers": [
+      "Echidna",
+      "Porcupine",
+      "Armadillo",
+      "Hedgehog"
+    ],
+    "correctAnswer": "Hedgehog",
+    "explanation": "Hedgehogs can curl into a spiny ball to protect themselves.",
+    "tags": [
+      "animals",
+      "mammals",
+      "defense"
+    ]
+  },
+  {
+    "id": 657,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a common amphibian with bumpy skin and short hops?",
+    "answers": [
+      "Toad",
+      "Snake",
+      "Turtle",
+      "Mouse"
+    ],
+    "correctAnswer": "Toad",
+    "explanation": "Toads are amphibians often recognized by drier, bumpier skin than many frogs.",
+    "tags": [
+      "animals",
+      "amphibians",
+      "identification"
+    ]
+  },
+  {
+    "id": 658,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for living in a colony with a single egg-laying queen?",
+    "answers": [
+      "Prairie dog",
+      "Naked mole-rat",
+      "Beaver",
+      "Meerkat"
+    ],
+    "correctAnswer": "Naked mole-rat",
+    "explanation": "Naked mole-rats have a rare mammalian social system with a breeding queen.",
+    "tags": [
+      "animals",
+      "mammals",
+      "social-behavior"
+    ]
+  },
+  {
+    "id": 659,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fish is known for inflating its body as a defense?",
+    "answers": [
+      "Sturgeon",
+      "Lionfish",
+      "Pufferfish",
+      "Clownfish"
+    ],
+    "correctAnswer": "Pufferfish",
+    "explanation": "Pufferfish can inflate their bodies, making them harder for predators to swallow.",
+    "tags": [
+      "animals",
+      "fish",
+      "defense"
+    ]
+  },
+  {
+    "id": 660,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which bird is famous for catching fish by diving headfirst into water?",
+    "answers": [
+      "Woodpecker",
+      "Sparrow",
+      "Parrot",
+      "Kingfisher"
+    ],
+    "correctAnswer": "Kingfisher",
+    "explanation": "Kingfishers often dive from perches to catch fish and aquatic prey.",
+    "tags": [
+      "animals",
+      "birds",
+      "feeding"
+    ]
+  },
+  {
+    "id": 661,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a mammal known for black mask-like markings and clever paws?",
+    "answers": [
+      "Raccoon",
+      "Otter",
+      "Lemur",
+      "Badger"
+    ],
+    "correctAnswer": "Raccoon",
+    "explanation": "Raccoons are mammals known for dexterous front paws and mask-like facial markings.",
+    "tags": [
+      "animals",
+      "mammals",
+      "identification"
+    ]
+  },
+  {
+    "id": 662,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for long tusks and digging for shellfish on the seafloor?",
+    "answers": [
+      "Manatee",
+      "Walrus",
+      "Narwhal",
+      "Sea lion"
+    ],
+    "correctAnswer": "Walrus",
+    "explanation": "Walruses use sensitive whiskers and strong bodies to find food on the seafloor.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "feeding"
+    ]
+  },
+  {
+    "id": 663,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is an arachnid but not a true spider, often called daddy longlegs?",
+    "answers": [
+      "Tarantula",
+      "Scorpion",
+      "Harvestman",
+      "Mite"
+    ],
+    "correctAnswer": "Harvestman",
+    "explanation": "Harvestmen are arachnids but are not true spiders.",
+    "tags": [
+      "animals",
+      "arachnids",
+      "classification"
+    ]
+  },
+  {
+    "id": 664,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a pouch-like throat and dramatic diving for fish?",
+    "answers": [
+      "Cormorant",
+      "Swan",
+      "Flamingo",
+      "Brown pelican"
+    ],
+    "correctAnswer": "Brown pelican",
+    "explanation": "Brown pelicans dive into water and use a throat pouch to capture fish.",
+    "tags": [
+      "animals",
+      "birds",
+      "feeding"
+    ]
+  },
+  {
+    "id": 665,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a large gray mammal with a trunk and tusks?",
+    "answers": [
+      "Elephant",
+      "Tapir",
+      "Rhino",
+      "Hippo"
+    ],
+    "correctAnswer": "Elephant",
+    "explanation": "Elephants are large mammals with trunks and, in many species, tusks.",
+    "tags": [
+      "animals",
+      "mammals",
+      "identification"
+    ]
+  },
+  {
+    "id": 666,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a sticky toe pad system that helps it climb smooth surfaces?",
+    "answers": [
+      "Iguana",
+      "Gecko",
+      "Skink",
+      "Cobra"
+    ],
+    "correctAnswer": "Gecko",
+    "explanation": "Many geckos use microscopic structures on their toe pads to cling to surfaces.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 667,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is known for using mimicry to resemble leaves, sticks, or bark?",
+    "answers": [
+      "Ladybug",
+      "Cicada",
+      "Stick insect",
+      "Dragonfly"
+    ],
+    "correctAnswer": "Stick insect",
+    "explanation": "Stick insects rely on camouflage that makes them resemble twigs or leaves.",
+    "tags": [
+      "animals",
+      "insects",
+      "camouflage"
+    ]
+  },
+  {
+    "id": 668,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a powerful sense of smell and digging for insects in Australia?",
+    "answers": [
+      "Wallaby",
+      "Koala",
+      "Quokka",
+      "Echidna"
+    ],
+    "correctAnswer": "Echidna",
+    "explanation": "Echidnas use strong claws and sensitive snouts to find ants and termites.",
+    "tags": [
+      "animals",
+      "mammals",
+      "feeding"
+    ]
+  },
+  {
+    "id": 669,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a domestic animal commonly used for milk and wool?",
+    "answers": [
+      "Sheep",
+      "Pig",
+      "Chicken",
+      "Horse"
+    ],
+    "correctAnswer": "Sheep",
+    "explanation": "Sheep are domesticated mammals raised for wool, milk, and meat.",
+    "tags": [
+      "animals",
+      "domestic",
+      "mammals"
+    ]
+  },
+  {
+    "id": 670,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which marine mammal is known as the largest member of the dolphin family?",
+    "answers": [
+      "Beluga",
+      "Orca",
+      "Pilot whale",
+      "Narwhal"
+    ],
+    "correctAnswer": "Orca",
+    "explanation": "Orcas are the largest dolphins, despite often being called killer whales.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "classification"
+    ]
+  },
+  {
+    "id": 671,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is known for a tongue longer than its body in some species?",
+    "answers": [
+      "Frog",
+      "Gecko",
+      "Chameleon",
+      "Snake"
+    ],
+    "correctAnswer": "Chameleon",
+    "explanation": "Some chameleons have extremely long projectile tongues for catching prey.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 672,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for migrating from beaches to the ocean shortly after hatching?",
+    "answers": [
+      "Penguin",
+      "Seal",
+      "Crab",
+      "Sea turtle"
+    ],
+    "correctAnswer": "Sea turtle",
+    "explanation": "Sea turtle hatchlings move from nesting beaches toward the ocean.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "life-cycle"
+    ]
+  },
+  {
+    "id": 673,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a hoofed mammal often ridden by humans?",
+    "answers": [
+      "Horse",
+      "Deer",
+      "Goat",
+      "Cow"
+    ],
+    "correctAnswer": "Horse",
+    "explanation": "Horses are domesticated hoofed mammals used for riding, transport, and sport.",
+    "tags": [
+      "animals",
+      "domestic",
+      "mammals"
+    ]
+  },
+  {
+    "id": 674,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a prehensile nose-like upper lip?",
+    "answers": [
+      "Llama",
+      "Tapir",
+      "Rhino",
+      "Hippo"
+    ],
+    "correctAnswer": "Tapir",
+    "explanation": "Tapirs have a flexible snout formed by the nose and upper lip.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 675,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is famous for producing a pearl when an irritant is coated with nacre?",
+    "answers": [
+      "Nautilus",
+      "Sea slug",
+      "Oyster",
+      "Squid"
+    ],
+    "correctAnswer": "Oyster",
+    "explanation": "Pearls can form when oysters coat an irritant with layers of nacre.",
+    "tags": [
+      "animals",
+      "mollusks",
+      "biology"
+    ]
+  },
+  {
+    "id": 676,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for large ears that help release heat in hot climates?",
+    "answers": [
+      "Red fox",
+      "Gray wolf",
+      "Arctic fox",
+      "Fennec fox"
+    ],
+    "correctAnswer": "Fennec fox",
+    "explanation": "Fennec foxes have large ears that help with heat loss and hearing prey.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 677,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a bird known for colorful feathers and speech mimicry?",
+    "answers": [
+      "Parrot",
+      "Eagle",
+      "Pigeon",
+      "Duck"
+    ],
+    "correctAnswer": "Parrot",
+    "explanation": "Many parrots are colorful birds capable of mimicking sounds.",
+    "tags": [
+      "animals",
+      "birds",
+      "behavior"
+    ]
+  },
+  {
+    "id": 678,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for eating bamboo despite being classified as a bear?",
+    "answers": [
+      "Koala",
+      "Giant panda",
+      "Red panda",
+      "Sloth bear"
+    ],
+    "correctAnswer": "Giant panda",
+    "explanation": "Giant pandas are bears with digestive systems of carnivores but diets dominated by bamboo.",
+    "tags": [
+      "animals",
+      "mammals",
+      "diet"
+    ]
+  },
+  {
+    "id": 679,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is known for a saw-like snout used to detect and disturb prey?",
+    "answers": [
+      "Marlin",
+      "Needlefish",
+      "Sawfish",
+      "Swordfish"
+    ],
+    "correctAnswer": "Sawfish",
+    "explanation": "Sawfish use a long toothed rostrum to sense and manipulate prey.",
+    "tags": [
+      "animals",
+      "fish",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 680,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for closing its nostrils and ears while underwater?",
+    "answers": [
+      "Penguin",
+      "Frog",
+      "Otter",
+      "Crocodile"
+    ],
+    "correctAnswer": "Crocodile",
+    "explanation": "Crocodiles can close nostrils and ears when submerged.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 681,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a small jumping insect known for chirping?",
+    "answers": [
+      "Cricket",
+      "Ant",
+      "Bee",
+      "Butterfly"
+    ],
+    "correctAnswer": "Cricket",
+    "explanation": "Crickets are insects known for chirping sounds, often made by males.",
+    "tags": [
+      "animals",
+      "insects",
+      "communication"
+    ]
+  },
+  {
+    "id": 682,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a long migration from the Arctic to the Antarctic and back?",
+    "answers": [
+      "Albatross",
+      "Arctic tern",
+      "Puffin",
+      "Penguin"
+    ],
+    "correctAnswer": "Arctic tern",
+    "explanation": "Arctic terns make one of the longest annual migrations of any animal.",
+    "tags": [
+      "animals",
+      "birds",
+      "migration"
+    ]
+  },
+  {
+    "id": 683,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is known for having no true brain but a nerve net?",
+    "answers": [
+      "Sea urchin",
+      "Octopus",
+      "Jellyfish",
+      "Starfish"
+    ],
+    "correctAnswer": "Jellyfish",
+    "explanation": "Jellyfish lack a centralized brain and instead have a nerve net.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "biology"
+    ]
+  },
+  {
+    "id": 684,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is famous for using quills that detach easily when touched by predators?",
+    "answers": [
+      "Hedgehog",
+      "Echidna",
+      "Armadillo",
+      "Porcupine"
+    ],
+    "correctAnswer": "Porcupine",
+    "explanation": "Porcupines use detachable quills as a defense against predators.",
+    "tags": [
+      "animals",
+      "mammals",
+      "defense"
+    ]
+  },
+  {
+    "id": 685,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a large striped cat often found in Asia?",
+    "answers": [
+      "Tiger",
+      "Lion",
+      "Jaguar",
+      "Leopard"
+    ],
+    "correctAnswer": "Tiger",
+    "explanation": "Tigers are large striped cats native to Asia.",
+    "tags": [
+      "animals",
+      "big-cats",
+      "identification"
+    ]
+  },
+  {
+    "id": 686,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a long tongue and sleeping in trees with strong curved claws?",
+    "answers": [
+      "Lemur",
+      "Sloth",
+      "Anteater",
+      "Koala"
+    ],
+    "correctAnswer": "Sloth",
+    "explanation": "Sloths use long claws to hang from branches and move slowly through trees.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 687,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which mammal is famous for using echolocation in complete darkness while flying?",
+    "answers": [
+      "Flying squirrel",
+      "Sugar glider",
+      "Bat",
+      "Colugo"
+    ],
+    "correctAnswer": "Bat",
+    "explanation": "Many bats use echolocation to hunt and navigate during flight.",
+    "tags": [
+      "animals",
+      "mammals",
+      "senses"
+    ]
+  },
+  {
+    "id": 688,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for forming defensive balls of many individuals in cold weather?",
+    "answers": [
+      "Puffin",
+      "Seal",
+      "Meerkat",
+      "Emperor penguin"
+    ],
+    "correctAnswer": "Emperor penguin",
+    "explanation": "Emperor penguins huddle together to conserve heat during Antarctic winters.",
+    "tags": [
+      "animals",
+      "birds",
+      "survival"
+    ]
+  },
+  {
+    "id": 689,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a small animal that undergoes metamorphosis from caterpillar to adult?",
+    "answers": [
+      "Butterfly",
+      "Frog",
+      "Spider",
+      "Crab"
+    ],
+    "correctAnswer": "Butterfly",
+    "explanation": "Butterflies undergo metamorphosis from caterpillar to chrysalis to adult.",
+    "tags": [
+      "animals",
+      "insects",
+      "life-cycle"
+    ]
+  },
+  {
+    "id": 690,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for living in social packs and cooperating during hunts?",
+    "answers": [
+      "Leopard",
+      "Wolf",
+      "Fox",
+      "Badger"
+    ],
+    "correctAnswer": "Wolf",
+    "explanation": "Wolves live in packs and often cooperate when hunting and raising young.",
+    "tags": [
+      "animals",
+      "mammals",
+      "social-behavior"
+    ]
+  },
+  {
+    "id": 691,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is a fish that can produce antifreeze proteins in icy waters?",
+    "answers": [
+      "Goldfish",
+      "Barracuda",
+      "Antarctic icefish",
+      "Clownfish"
+    ],
+    "correctAnswer": "Antarctic icefish",
+    "explanation": "Some Antarctic fish survive icy water with antifreeze proteins in their blood.",
+    "tags": [
+      "animals",
+      "fish",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 692,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for large forward-facing eyes and silent flight?",
+    "answers": [
+      "Falcon",
+      "Eagle",
+      "Vulture",
+      "Owl"
+    ],
+    "correctAnswer": "Owl",
+    "explanation": "Owls have adaptations for night hunting, including large eyes and quiet flight feathers.",
+    "tags": [
+      "animals",
+      "birds",
+      "predators"
+    ]
+  },
+  {
+    "id": 693,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a large plant-eating mammal often associated with savannas and a long neck?",
+    "answers": [
+      "Giraffe",
+      "Zebra",
+      "Antelope",
+      "Rhino"
+    ],
+    "correctAnswer": "Giraffe",
+    "explanation": "Giraffes are tall herbivores adapted to browsing high vegetation.",
+    "tags": [
+      "animals",
+      "mammals",
+      "habitat"
+    ]
+  },
+  {
+    "id": 694,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a cooperative hunting strategy and black-and-white ocean coloration?",
+    "answers": [
+      "Seal",
+      "Orca",
+      "Penguin",
+      "Dolphin"
+    ],
+    "correctAnswer": "Orca",
+    "explanation": "Orcas are highly social predators that often hunt cooperatively.",
+    "tags": [
+      "animals",
+      "marine-life",
+      "predators"
+    ]
+  },
+  {
+    "id": 695,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is a mollusk with a chambered shell and tentacles?",
+    "answers": [
+      "Clam",
+      "Oyster",
+      "Nautilus",
+      "Sea slug"
+    ],
+    "correctAnswer": "Nautilus",
+    "explanation": "Nautiluses are cephalopod mollusks with chambered shells.",
+    "tags": [
+      "animals",
+      "mollusks",
+      "classification"
+    ]
+  },
+  {
+    "id": 696,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a bony casque on its head and powerful legs?",
+    "answers": [
+      "Ostrich",
+      "Emu",
+      "Rhea",
+      "Cassowary"
+    ],
+    "correctAnswer": "Cassowary",
+    "explanation": "Cassowaries have a helmet-like casque and strong legs with sharp claws.",
+    "tags": [
+      "animals",
+      "birds",
+      "anatomy"
+    ]
+  },
+  {
+    "id": 697,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which animal is a reptile famous for changing color?",
+    "answers": [
+      "Chameleon",
+      "Crocodile",
+      "Snake",
+      "Tortoise"
+    ],
+    "correctAnswer": "Chameleon",
+    "explanation": "Chameleons are reptiles well known for color changes used in communication and camouflage.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 698,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for living in freshwater and having a paddle-shaped tail?",
+    "answers": [
+      "Capybara",
+      "Beaver",
+      "Otter",
+      "Muskrat"
+    ],
+    "correctAnswer": "Beaver",
+    "explanation": "Beavers have paddle-like tails used in swimming, balance, and signaling.",
+    "tags": [
+      "animals",
+      "mammals",
+      "adaptations"
+    ]
+  },
+  {
+    "id": 699,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which animal is known for the loudest call among land animals?",
+    "answers": [
+      "Lion",
+      "Elephant",
+      "Howler monkey",
+      "Gibbon"
+    ],
+    "correctAnswer": "Howler monkey",
+    "explanation": "Howler monkeys produce some of the loudest calls of any land animal.",
+    "tags": [
+      "animals",
+      "primates",
+      "records"
+    ]
+  },
+  {
+    "id": 700,
+    "category": "animals",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which animal is known for a defensive hood display?",
+    "answers": [
+      "Viper",
+      "Boa constrictor",
+      "Python",
+      "Cobra"
+    ],
+    "correctAnswer": "Cobra",
+    "explanation": "Cobras spread a hood as a warning display when threatened.",
+    "tags": [
+      "animals",
+      "reptiles",
+      "defense"
+    ]
+  }
+]

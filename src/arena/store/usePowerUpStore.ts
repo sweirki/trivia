@@ -5,8 +5,11 @@ export interface PowerUp {
   qty: number;
 }
 
+export type UsedPowerUps = Record<string, number>;
+
 interface PowerUpState {
   powerups: Record<string, PowerUp>;
+  usedThisMatch: UsedPowerUps;
 
   /** Consume one power-up if available */
   usePowerUp: (type: string) => boolean;
@@ -17,7 +20,10 @@ interface PowerUpState {
   /** Add power-ups (rewards, shop, etc.) */
   addPowerUp: (type: string, amount: number) => void;
 
-  /** Reset all power-ups for a new match */
+  /** Reset only match usage counters for a new Power Arena run */
+  resetPowerUsage: () => void;
+
+  /** Reset all power-ups for a new match/debug refill */
   resetPowerUps: () => void;
 }
 
@@ -31,15 +37,22 @@ const INITIAL_POWERUPS: Record<string, PowerUp> = {
 
 export const usePowerUpStore = create<PowerUpState>((set, get) => ({
   powerups: { ...INITIAL_POWERUPS },
+  usedThisMatch: {},
 
   usePowerUp: (type) => {
     const p = get().powerups[type];
     if (!p || p.qty <= 0) return false;
 
+    const used = get().usedThisMatch;
+
     set({
       powerups: {
         ...get().powerups,
         [type]: { ...p, qty: p.qty - 1 },
+      },
+      usedThisMatch: {
+        ...used,
+        [type]: (used[type] ?? 0) + 1,
       },
     });
 
@@ -62,9 +75,9 @@ export const usePowerUpStore = create<PowerUpState>((set, get) => ({
     });
   },
 
+  resetPowerUsage: () => set({ usedThisMatch: {} }),
+
   resetPowerUps: () => {
-    set({ powerups: { ...INITIAL_POWERUPS } });
+    set({ powerups: { ...INITIAL_POWERUPS }, usedThisMatch: {} });
   },
 }));
-
-

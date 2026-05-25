@@ -1,0 +1,185 @@
+[
+  
+
+    
+  { "id": 751, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features the character Harry Potter?", "answers": ["The Hobbit", "Harry Potter and the Sorcerer's Stone", "Percy Jackson", "Fantastic Beasts"], "correct": "Harry Potter and the Sorcerer's Stone" },
+  { "id": 752, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which animated movie features a talking snowman named Olaf?", "answers": ["Moana", "Frozen", "Tangled", "Toy Story"], "correct": "Frozen" },
+  { "id": 753, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Who played Jack in the movie Titanic?", "answers": ["Brad Pitt", "Leonardo DiCaprio", "Tom Cruise", "Johnny Depp"], "correct": "Leonardo DiCaprio" },
+  { "id": 754, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features toys that come to life?", "answers": ["Cars", "Toy Story", "Shrek", "Monsters Inc."], "correct": "Toy Story" },
+  { "id": 755, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which superhero is known as the Dark Knight?", "answers": ["Superman", "Batman", "Spider-Man", "Iron Man"], "correct": "Batman" },
+
+  { "id": 756, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie won Best Picture at the 2020 Oscars?", "answers": ["1917", "Joker", "Parasite", "Once Upon a Time in Hollywood"], "correct": "Parasite" },
+  { "id": 757, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Who directed the movie Jaws?", "answers": ["George Lucas", "Steven Spielberg", "James Cameron", "Ridley Scott"], "correct": "Steven Spielberg" },
+  { "id": 758, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features the quote 'I'll be back'?", "answers": ["RoboCop", "Predator", "The Terminator", "Die Hard"], "correct": "The Terminator" },
+  { "id": 759, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which film is about dreams within dreams?", "answers": ["Interstellar", "Inception", "Tenet", "The Matrix"], "correct": "Inception" },
+  { "id": 760, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Who played the Joker in The Dark Knight?", "answers": ["Joaquin Phoenix", "Jack Nicholson", "Heath Ledger", "Jared Leto"], "correct": "Heath Ledger" },
+
+  { "id": 761, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie was the first feature-length animated film by Disney?", "answers": ["Fantasia", "Snow White and the Seven Dwarfs", "Pinocchio", "Dumbo"], "correct": "Snow White and the Seven Dwarfs" },
+  { "id": 762, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which director is known for the movie Pulp Fiction?", "answers": ["Martin Scorsese", "Quentin Tarantino", "Francis Ford Coppola", "Guy Ritchie"], "correct": "Quentin Tarantino" },
+  { "id": 763, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features the character Travis Bickle?", "answers": ["Goodfellas", "Taxi Driver", "Scarface", "Heat"], "correct": "Taxi Driver" },
+  { "id": 764, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which film won the first Academy Award for Best Picture?", "answers": ["Wings", "Gone with the Wind", "Casablanca", "All Quiet on the Western Front"], "correct": "Wings" },
+  { "id": 765, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which actor starred in the movie The Godfather as Michael Corleone?", "answers": ["Robert De Niro", "Al Pacino", "Marlon Brando", "James Caan"], "correct": "Al Pacino" },
+
+  { "id": 766, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a green ogre named Shrek?", "answers": ["Ice Age", "Shrek", "Madagascar", "Kung Fu Panda"], "correct": "Shrek" },
+  { "id": 767, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie is about dinosaurs brought back to life?", "answers": ["King Kong", "Jurassic Park", "Godzilla", "Avatar"], "correct": "Jurassic Park" },
+  { "id": 768, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Who played Iron Man in the Marvel movies?", "answers": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"], "correct": "Robert Downey Jr." },
+  { "id": 769, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a clownfish named Nemo?", "answers": ["Shark Tale", "Finding Nemo", "The Little Mermaid", "Rio"], "correct": "Finding Nemo" },
+  { "id": 770, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features the song 'Let It Go'?", "answers": ["Frozen", "Moana", "Coco", "Tangled"], "correct": "Frozen" },
+
+  { "id": 771, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie series features a ring that must be destroyed?", "answers": ["Harry Potter", "The Hobbit", "The Lord of the Rings", "Game of Thrones"], "correct": "The Lord of the Rings" },
+  { "id": 772, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Who directed the movie Avatar?", "answers": ["Steven Spielberg", "James Cameron", "Ridley Scott", "Peter Jackson"], "correct": "James Cameron" },
+  { "id": 773, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features time travel using a DeLorean?", "answers": ["The Terminator", "Back to the Future", "Looper", "Timecop"], "correct": "Back to the Future" },
+  { "id": 774, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which actor played Forrest Gump?", "answers": ["Tom Cruise", "Tom Hanks", "Brad Pitt", "Matt Damon"], "correct": "Tom Hanks" },
+  { "id": 775, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie takes place mostly on the planet Pandora?", "answers": ["Star Wars", "Avatar", "Dune", "Guardians of the Galaxy"], "correct": "Avatar" },
+
+  { "id": 776, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie is famous for the line 'Rosebud'?", "answers": ["Casablanca", "Citizen Kane", "Gone with the Wind", "The Maltese Falcon"], "correct": "Citizen Kane" },
+  { "id": 777, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which director made the film 2001: A Space Odyssey?", "answers": ["Stanley Kubrick", "George Lucas", "Ridley Scott", "James Cameron"], "correct": "Stanley Kubrick" },
+  { "id": 778, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie won Best Picture in 1994?", "answers": ["Forrest Gump", "Pulp Fiction", "The Shawshank Redemption", "Four Weddings and a Funeral"], "correct": "Forrest Gump" },
+  { "id": 779, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which actor starred in the movie Cast Away?", "answers": ["Tom Hanks", "Robin Williams", "Harrison Ford", "Mel Gibson"], "correct": "Tom Hanks" },
+  { "id": 780, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie is set almost entirely inside a jury room?", "answers": ["The Verdict", "12 Angry Men", "A Few Good Men", "Primal Fear"], "correct": "12 Angry Men" },
+
+  { "id": 781, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a cowboy named Woody?", "answers": ["Cars", "Toy Story", "Finding Nemo", "Up"], "correct": "Toy Story" },
+  { "id": 782, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie is about a family of superheroes?", "answers": ["Megamind", "The Incredibles", "Big Hero 6", "Shrek"], "correct": "The Incredibles" },
+  { "id": 783, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features Simba as the main character?", "answers": ["Bambi", "The Lion King", "Madagascar", "Tarzan"], "correct": "The Lion King" },
+  { "id": 784, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a blue alien race called Na'vi?", "answers": ["Star Wars", "Avatar", "Guardians of the Galaxy", "Dune"], "correct": "Avatar" },
+  { "id": 785, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features Minions?", "answers": ["Shrek", "Despicable Me", "Ice Age", "Madagascar"], "correct": "Despicable Me" },
+
+  { "id": 786, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Who directed the movie Inception?", "answers": ["Christopher Nolan", "James Cameron", "Ridley Scott", "David Fincher"], "correct": "Christopher Nolan" },
+  { "id": 787, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie stars Keanu Reeves as Neo?", "answers": ["John Wick", "Speed", "The Matrix", "Constantine"], "correct": "The Matrix" },
+  { "id": 788, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie is set on a sinking cruise ship?", "answers": ["Poseidon", "Titanic", "The Perfect Storm", "Deep Blue Sea"], "correct": "Titanic" },
+  { "id": 789, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which actor played Wolverine in the X-Men movies?", "answers": ["Hugh Jackman", "Chris Hemsworth", "Ryan Reynolds", "Ben Affleck"], "correct": "Hugh Jackman" },
+  { "id": 790, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features a computer hacker named Trinity?", "answers": ["Hackers", "The Matrix", "Blade Runner", "Tron"], "correct": "The Matrix" },
+
+  { "id": 791, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie is based on a novel by Anthony Burgess?", "answers": ["1984", "A Clockwork Orange", "Brave New World", "Fahrenheit 451"], "correct": "A Clockwork Orange" },
+  { "id": 792, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which director made the movie Reservoir Dogs?", "answers": ["Guy Ritchie", "Quentin Tarantino", "Martin Scorsese", "David Lynch"], "correct": "Quentin Tarantino" },
+  { "id": 793, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a spinning top as a reality check?", "answers": ["Inception", "Tenet", "The Prestige", "Memento"], "correct": "Inception" },
+  { "id": 794, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which actor starred in the movie Blade Runner?", "answers": ["Harrison Ford", "Mel Gibson", "Bruce Willis", "Arnold Schwarzenegger"], "correct": "Harrison Ford" },
+  { "id": 795, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie won the Academy Award for Best Picture in 2000?", "answers": ["Gladiator", "American Beauty", "The Sixth Sense", "The Green Mile"], "correct": "American Beauty" },
+
+  { "id": 796, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a rat who becomes a chef?", "answers": ["Ratatouille", "Stuart Little", "Flushed Away", "Over the Hedge"], "correct": "Ratatouille" },
+  { "id": 797, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie is about emotions living inside a girl's head?", "answers": ["Soul", "Inside Out", "Up", "Coco"], "correct": "Inside Out" },
+  { "id": 798, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a robot named WALL-E?", "answers": ["Robots", "Big Hero 6", "WALL-E", "Astro Boy"], "correct": "WALL-E" },
+  { "id": 799, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a panda learning kung fu?", "answers": ["Kung Fu Panda", "Madagascar", "Mulan", "Zootopia"], "correct": "Kung Fu Panda" },
+  { "id": 800, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie is about a family traveling in a yellow van?", "answers": ["Little Miss Sunshine", "RV", "National Lampoon's Vacation", "Chef"], "correct": "Little Miss Sunshine" },
+
+  { "id": 801, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie stars Leonardo DiCaprio as a con artist?", "answers": ["The Aviator", "Catch Me If You Can", "Shutter Island", "The Wolf of Wall Street"], "correct": "Catch Me If You Can" },
+  { "id": 802, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which film features the character Maximus?", "answers": ["Troy", "Braveheart", "Gladiator", "300"], "correct": "Gladiator" },
+  { "id": 803, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie is about a dream-sharing device?", "answers": ["Inception", "Total Recall", "Source Code", "The Matrix"], "correct": "Inception" },
+  { "id": 804, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features a spaceship called the Millennium Falcon?", "answers": ["Star Trek", "Star Wars", "Guardians of the Galaxy", "Dune"], "correct": "Star Wars" },
+  { "id": 805, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which actor played Captain Jack Sparrow?", "answers": ["Orlando Bloom", "Johnny Depp", "Geoffrey Rush", "Javier Bardem"], "correct": "Johnny Depp" },
+
+  { "id": 806, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie is based on a Stephen King novella about prison life?", "answers": ["The Green Mile", "The Shawshank Redemption", "Misery", "Carrie"], "correct": "The Shawshank Redemption" },
+  { "id": 807, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a box that should not be opened?", "answers": ["Se7en", "The Game", "Saw", "Hellraiser"], "correct": "Se7en" },
+  { "id": 808, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which director is known for the movie Memento?", "answers": ["David Fincher", "Christopher Nolan", "Denis Villeneuve", "Darren Aronofsky"], "correct": "Christopher Nolan" },
+  { "id": 809, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a character named Tyler Durden?", "answers": ["Se7en", "Fight Club", "American Psycho", "The Game"], "correct": "Fight Club" },
+  { "id": 810, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which film won Best Picture at the 2017 Oscars?", "answers": ["La La Land", "Moonlight", "Arrival", "Manchester by the Sea"], "correct": "Moonlight" },
+
+  { "id": 811, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a talking donkey?", "answers": ["Shrek", "Madagascar", "Ice Age", "Sing"], "correct": "Shrek" },
+  { "id": 812, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a race car named Lightning McQueen?", "answers": ["Cars", "Planes", "Turbo", "Speed Racer"], "correct": "Cars" },
+  { "id": 813, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a house lifted by balloons?", "answers": ["Up", "Inside Out", "Wall-E", "Toy Story"], "correct": "Up" },
+  { "id": 814, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a young lion cub named Simba?", "answers": ["The Jungle Book", "The Lion King", "Madagascar", "Ice Age"], "correct": "The Lion King" },
+  { "id": 815, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a snowman named Olaf?", "answers": ["Frozen", "Tangled", "Moana", "Coco"], "correct": "Frozen" },
+
+  { "id": 816, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie is about a boxer named Rocky?", "answers": ["Raging Bull", "Creed", "Rocky", "Million Dollar Baby"], "correct": "Rocky" },
+  { "id": 817, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features a hotel caretaker who goes insane?", "answers": ["Psycho", "The Shining", "It", "Poltergeist"], "correct": "The Shining" },
+  { "id": 818, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie stars Brad Pitt and Edward Norton?", "answers": ["Seven", "Fight Club", "Snatch", "Troy"], "correct": "Fight Club" },
+  { "id": 819, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features a spinning hallway fight scene?", "answers": ["Inception", "Tenet", "The Matrix", "Doctor Strange"], "correct": "Inception" },
+  { "id": 820, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie is about dreams invading reality?", "answers": ["The Matrix", "Inception", "Paprika", "Source Code"], "correct": "Inception" },
+
+  { "id": 821, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a monologue about tears in rain?", "answers": ["Blade Runner", "The Matrix", "Ghost in the Shell", "Dune"], "correct": "Blade Runner" },
+  { "id": 822, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which director made the movie Apocalypse Now?", "answers": ["Stanley Kubrick", "Francis Ford Coppola", "Martin Scorsese", "Oliver Stone"], "correct": "Francis Ford Coppola" },
+  { "id": 823, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie is loosely based on Homer's Odyssey?", "answers": ["O Brother, Where Art Thou?", "Troy", "300", "Gladiator"], "correct": "O Brother, Where Art Thou?" },
+  { "id": 824, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie won Best Picture in 2019?", "answers": ["Green Book", "Roma", "Bohemian Rhapsody", "Black Panther"], "correct": "Green Book" },
+  { "id": 825, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a killer shark?", "answers": ["Deep Blue Sea", "Jaws", "The Meg", "Open Water"], "correct": "Jaws" },
+
+  { "id": 826, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a blue genie?", "answers": ["Aladdin", "Hercules", "Mulan", "Tarzan"], "correct": "Aladdin" },
+  { "id": 827, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a wooden puppet who wants to be real?", "answers": ["Pinocchio", "Dumbo", "Bambi", "Peter Pan"], "correct": "Pinocchio" },
+  { "id": 828, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a robot police officer?", "answers": ["RoboCop", "Terminator", "Chappie", "I, Robot"], "correct": "RoboCop" },
+  { "id": 829, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a princess with ice powers?", "answers": ["Frozen", "Brave", "Tangled", "Moana"], "correct": "Frozen" },
+  { "id": 830, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a talking snowman?", "answers": ["Frozen", "Happy Feet", "Ice Age", "Arthur Christmas"], "correct": "Frozen" },
+
+  { "id": 831, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie is about a war in Middle-earth?", "answers": ["The Hobbit", "The Lord of the Rings", "Willow", "Eragon"], "correct": "The Lord of the Rings" },
+  { "id": 832, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie stars Joaquin Phoenix as a troubled comedian?", "answers": ["Joker", "Her", "Gladiator", "Walk the Line"], "correct": "Joker" },
+  { "id": 833, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features a genetically engineered theme park?", "answers": ["Westworld", "Jurassic Park", "Avatar", "Congo"], "correct": "Jurassic Park" },
+  { "id": 834, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which actor starred in the movie The Martian?", "answers": ["Matt Damon", "Brad Pitt", "Leonardo DiCaprio", "Ryan Gosling"], "correct": "Matt Damon" },
+  { "id": 835, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie is about an astronaut stranded on Mars?", "answers": ["Gravity", "Interstellar", "The Martian", "Ad Astra"], "correct": "The Martian" },
+
+  { "id": 836, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a chess game with Death?", "answers": ["Seventh Seal", "Persona", "Fanny and Alexander", "Wild Strawberries"], "correct": "Seventh Seal" },
+  { "id": 837, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which director is known for the movie Mulholland Drive?", "answers": ["David Lynch", "David Fincher", "Paul Thomas Anderson", "Terrence Malick"], "correct": "David Lynch" },
+  { "id": 838, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a parasite metaphor in South Korea?", "answers": ["Memories of Murder", "Parasite", "Snowpiercer", "The Host"], "correct": "Parasite" },
+  { "id": 839, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which film is known for its long single takes?", "answers": ["Birdman", "1917", "Children of Men", "All of these"], "correct": "All of these" },
+  { "id": 840, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a man aging backwards?", "answers": ["Big Fish", "The Curious Case of Benjamin Button", "Forrest Gump", "Time Traveler's Wife"], "correct": "The Curious Case of Benjamin Button" },
+
+  { "id": 841, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features talking animals in a city?", "answers": ["Madagascar", "Zootopia", "Sing", "Rio"], "correct": "Zootopia" },
+  { "id": 842, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a princess named Belle?", "answers": ["Cinderella", "Beauty and the Beast", "Frozen", "Tangled"], "correct": "Beauty and the Beast" },
+  { "id": 843, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a wooden boy?", "answers": ["Pinocchio", "Dumbo", "Bambi", "Peter Pan"], "correct": "Pinocchio" },
+  { "id": 844, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a giant friendly robot?", "answers": ["Big Hero 6", "Iron Giant", "Transformers", "Wall-E"], "correct": "Iron Giant" },
+  { "id": 845, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a chef rat?", "answers": ["Ratatouille", "Flushed Away", "Stuart Little", "Over the Hedge"], "correct": "Ratatouille" },
+
+  { "id": 846, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features a boxer played by Sylvester Stallone?", "answers": ["Creed", "Rocky", "Raging Bull", "Million Dollar Baby"], "correct": "Rocky" },
+  { "id": 847, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features a time loop?", "answers": ["Edge of Tomorrow", "Looper", "Tenet", "Predestination"], "correct": "Edge of Tomorrow" },
+  { "id": 848, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie is about dreams and subconscious theft?", "answers": ["Inception", "Paprika", "The Matrix", "Source Code"], "correct": "Inception" },
+  { "id": 849, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features a giant ape?", "answers": ["Godzilla", "King Kong", "Rampage", "Jurassic Park"], "correct": "King Kong" },
+  { "id": 850, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie stars Ryan Gosling as a jazz pianist?", "answers": ["Whiplash", "La La Land", "Drive", "Blue Valentine"], "correct": "La La Land" },
+
+  { "id": 851, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a mysterious black monolith?", "answers": ["Interstellar", "2001: A Space Odyssey", "Solaris", "Arrival"], "correct": "2001: A Space Odyssey" },
+  { "id": 852, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which director made the movie The Grand Budapest Hotel?", "answers": ["Wes Anderson", "Noah Baumbach", "Paul Thomas Anderson", "Spike Jonze"], "correct": "Wes Anderson" },
+  { "id": 853, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie is about a drummer pushed to extremes?", "answers": ["Birdman", "Whiplash", "Black Swan", "La La Land"], "correct": "Whiplash" },
+  { "id": 854, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a bounty hunter named Deckard?", "answers": ["Blade Runner", "Dune", "Total Recall", "Minority Report"], "correct": "Blade Runner" },
+  { "id": 855, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie is set during the Vietnam War?", "answers": ["Platoon", "Apocalypse Now", "Full Metal Jacket", "All of these"], "correct": "All of these" },
+
+  { "id": 856, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features singing animals?", "answers": ["Sing", "Zootopia", "Madagascar", "Rio"], "correct": "Sing" },
+  { "id": 857, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a princess named Elsa?", "answers": ["Frozen", "Brave", "Tangled", "Moana"], "correct": "Frozen" },
+  { "id": 858, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a clownfish father searching for his son?", "answers": ["Finding Nemo", "Shark Tale", "Rio", "Happy Feet"], "correct": "Finding Nemo" },
+  { "id": 859, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a young wizard named Harry?", "answers": ["Percy Jackson", "Harry Potter", "The Hobbit", "Eragon"], "correct": "Harry Potter" },
+  { "id": 860, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features talking cars?", "answers": ["Cars", "Planes", "Turbo", "Speed Racer"], "correct": "Cars" },
+
+  { "id": 861, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features a heist inside dreams?", "answers": ["Inception", "The Prestige", "Tenet", "Ocean's Eleven"], "correct": "Inception" },
+  { "id": 862, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie stars Christian Bale as Batman?", "answers": ["Batman v Superman", "The Dark Knight", "Justice League", "Batman Forever"], "correct": "The Dark Knight" },
+  { "id": 863, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie is about a hotel concierge?", "answers": ["The Grand Budapest Hotel", "Lost in Translation", "Shining", "Room"], "correct": "The Grand Budapest Hotel" },
+  { "id": 864, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie stars Matthew McConaughey as an astronaut?", "answers": ["Gravity", "Interstellar", "The Martian", "Ad Astra"], "correct": "Interstellar" },
+  { "id": 865, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features a talking raccoon?", "answers": ["Guardians of the Galaxy", "Avengers", "Zootopia", "Ice Age"], "correct": "Guardians of the Galaxy" },
+
+  { "id": 866, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a surreal Hollywood nightmare?", "answers": ["Mulholland Drive", "Inland Empire", "Lost Highway", "Blue Velvet"], "correct": "Mulholland Drive" },
+  { "id": 867, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which director made the movie Fight Club?", "answers": ["David Fincher", "Christopher Nolan", "Martin Scorsese", "Quentin Tarantino"], "correct": "David Fincher" },
+  { "id": 868, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie is about an obsessive ballet dancer?", "answers": ["Black Swan", "Whiplash", "Birdman", "Perfect Blue"], "correct": "Black Swan" },
+  { "id": 869, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a cyborg assassin from the future?", "answers": ["RoboCop", "Terminator", "Blade Runner", "Predator"], "correct": "Terminator" },
+  { "id": 870, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie is known for its non-linear storytelling?", "answers": ["Pulp Fiction", "Memento", "Irreversible", "All of these"], "correct": "All of these" },
+
+  { "id": 871, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a princess with long blonde hair?", "answers": ["Frozen", "Tangled", "Cinderella", "Sleeping Beauty"], "correct": "Tangled" },
+  { "id": 872, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a blue hedgehog?", "answers": ["Sonic the Hedgehog", "Detective Pikachu", "Mario", "Wreck-It Ralph"], "correct": "Sonic the Hedgehog" },
+  { "id": 873, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a robot programmed to clean Earth?", "answers": ["Wall-E", "Chappie", "I, Robot", "Transformers"], "correct": "Wall-E" },
+  { "id": 874, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a giant ape climbing a skyscraper?", "answers": ["Godzilla", "King Kong", "Rampage", "Skyscraper"], "correct": "King Kong" },
+  { "id": 875, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a princess named Jasmine?", "answers": ["Aladdin", "Mulan", "Moana", "Brave"], "correct": "Aladdin" },
+
+  { "id": 876, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie stars Heath Ledger as a villain?", "answers": ["Batman Begins", "The Dark Knight", "Joker", "Inception"], "correct": "The Dark Knight" },
+  { "id": 877, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie is about musicians chasing success in Hollywood?", "answers": ["Whiplash", "La La Land", "Once", "A Star Is Born"], "correct": "La La Land" },
+  { "id": 878, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features a heist in Las Vegas?", "answers": ["Ocean's Eleven", "The Italian Job", "Heat", "Now You See Me"], "correct": "Ocean's Eleven" },
+  { "id": 879, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie stars Will Smith as a boxer?", "answers": ["Ali", "Concussion", "I Am Legend", "Hitch"], "correct": "Ali" },
+  { "id": 880, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie is about a computer-simulated reality?", "answers": ["The Matrix", "Inception", "Ready Player One", "Tron"], "correct": "The Matrix" },
+
+  { "id": 881, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a replicant hunter?", "answers": ["Blade Runner", "Total Recall", "Minority Report", "Dredd"], "correct": "Blade Runner" },
+  { "id": 882, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which director made the movie There Will Be Blood?", "answers": ["Wes Anderson", "Paul Thomas Anderson", "Coen Brothers", "David Fincher"], "correct": "Paul Thomas Anderson" },
+  { "id": 883, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie is about oil drilling in early California?", "answers": ["No Country for Old Men", "There Will Be Blood", "Gangs of New York", "The Assassination of Jesse James"], "correct": "There Will Be Blood" },
+  { "id": 884, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a famous hallway fight scene?", "answers": ["Oldboy", "The Raid", "Inception", "All of these"], "correct": "All of these" },
+  { "id": 885, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie won Best Picture in 2003?", "answers": ["Chicago", "The Pianist", "Gangs of New York", "The Lord of the Rings: The Two Towers"], "correct": "Chicago" },
+
+  { "id": 886, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a robot named Optimus Prime?", "answers": ["Transformers", "I, Robot", "Wall-E", "Terminator"], "correct": "Transformers" },
+  { "id": 887, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a talking pig named Babe?", "answers": ["Charlotte's Web", "Babe", "G-Force", "Stuart Little"], "correct": "Babe" },
+  { "id": 888, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a cowboy doll named Woody?", "answers": ["Toy Story", "Cars", "Up", "Finding Nemo"], "correct": "Toy Story" },
+  { "id": 889, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a clownfish?", "answers": ["Finding Nemo", "Shark Tale", "Happy Feet", "Rio"], "correct": "Finding Nemo" },
+  { "id": 890, "category": "Movies", "premium": false, "difficulty": "easy", "text": "Which movie features a princess named Cinderella?", "answers": ["Cinderella", "Snow White", "Sleeping Beauty", "Beauty and the Beast"], "correct": "Cinderella" },
+
+  { "id": 891, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie stars Leonardo DiCaprio in a dream world?", "answers": ["Shutter Island", "Inception", "The Revenant", "The Beach"], "correct": "Inception" },
+  { "id": 892, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features a dystopian future with hunger games?", "answers": ["Divergent", "The Hunger Games", "Maze Runner", "Battle Royale"], "correct": "The Hunger Games" },
+  { "id": 893, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features a musical set in Los Angeles?", "answers": ["La La Land", "Chicago", "Moulin Rouge", "Once"], "correct": "La La Land" },
+  { "id": 894, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie stars Tom Cruise as a fighter pilot?", "answers": ["Days of Thunder", "Top Gun", "Mission: Impossible", "Edge of Tomorrow"], "correct": "Top Gun" },
+  { "id": 895, "category": "Movies", "premium": false, "difficulty": "medium", "text": "Which movie features dinosaurs in a theme park?", "answers": ["King Kong", "Jurassic Park", "Godzilla", "Avatar"], "correct": "Jurassic Park" },
+
+  { "id": 896, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a cursed videotape?", "answers": ["The Ring", "It Follows", "Sinister", "The Grudge"], "correct": "The Ring" },
+  { "id": 897, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which director made the movie Psycho?", "answers": ["Stanley Kubrick", "Alfred Hitchcock", "Orson Welles", "Billy Wilder"], "correct": "Alfred Hitchcock" },
+  { "id": 898, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a giant worm on a desert planet?", "answers": ["Star Wars", "Dune", "Tremors", "Beetlejuice"], "correct": "Dune" },
+  { "id": 899, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie is about a memory-loss detective?", "answers": ["Se7en", "Memento", "Shutter Island", "Insomnia"], "correct": "Memento" },
+  { "id": 900, "category": "Movies", "premium": false, "difficulty": "hard", "text": "Which movie features a final line about hope in prison?", "answers": ["The Green Mile", "The Shawshank Redemption", "Escape from Alcatraz", "Cool Hand Luke"], "correct": "The Shawshank Redemption" }
+  
+]

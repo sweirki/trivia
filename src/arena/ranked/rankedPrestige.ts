@@ -10,7 +10,12 @@ export type RankedPrestigeState = {
   demoted: boolean;
   dangerZone: boolean;
   promotionPressure: boolean;
+  promotionMatch: boolean;
+  oneWinAway: boolean;
   shieldActive: boolean;
+  shieldConsumed: boolean;
+  demotionDanger: boolean;
+  breakthroughLabel: string | null;
   headline: string;
   subtext: string;
 };
@@ -24,7 +29,7 @@ export function getNextRank(rank: RankInfo): RankInfo | null {
     (item) =>
       item.league === rank.league &&
       item.division === rank.division &&
-      item.minSR === rank.minSR
+      item.minSR === rank.minSR,
   );
 
   if (index < 0 || index >= RANK_TABLE.length - 1) return null;
@@ -50,8 +55,21 @@ export function buildRankedPrestigeState(params: {
   rankBefore: RankInfo;
   rankAfter: RankInfo;
   winStreak: number;
+  shieldConsumed?: boolean;
+  promotionMatch?: boolean;
 }): RankedPrestigeState {
-  const { didWin, srBefore, srAfter, rankBefore, rankAfter, winStreak } = params;
+  const {
+    didWin,
+    srBefore,
+    srAfter,
+    rankBefore,
+    rankAfter,
+    winStreak,
+    shieldConsumed = false,
+  } = params;
+
+  const nextRankBefore = getNextRank(rankBefore);
+  const srToNextBefore = getSRToNext(srBefore, rankBefore);
   const nextRank = getNextRank(rankAfter);
   const srToNext = getSRToNext(srAfter, rankAfter);
   const progressPercent = getRankProgress(srAfter, rankAfter);
@@ -59,7 +77,15 @@ export function buildRankedPrestigeState(params: {
   const demoted = rankAfter.minSR < rankBefore.minSR;
   const dangerZone = srAfter <= rankAfter.minSR + 18 && srAfter > 0;
   const promotionPressure = srToNext !== null && srToNext <= 25;
-  const shieldActive = !didWin && srBefore <= rankBefore.minSR + 8 && rankBefore.minSR > 0;
+  const promotionMatch =
+    params.promotionMatch ||
+    (!!nextRankBefore && srToNextBefore !== null && srToNextBefore <= 28);
+  const oneWinAway = srToNext !== null && srToNext <= 22;
+  const demotionDanger = dangerZone && !shieldConsumed && rankAfter.minSR > 0;
+  const shieldActive = dangerZone && !demoted && rankAfter.minSR > 0;
+  const breakthroughLabel = promoted
+    ? `${formatRank(rankBefore)} → ${formatRank(rankAfter)}`
+    : null;
 
   let headline = didWin ? "Ranked Victory" : "Ranked Defeat";
   let subtext = didWin
@@ -67,16 +93,27 @@ export function buildRankedPrestigeState(params: {
     : "You lost Skill Rating, but your climb is still alive.";
 
   if (promoted) {
-    headline = "Promotion Unlocked";
-    subtext = `You climbed into ${formatRank(rankAfter)}.`;
+    headline = "Division Breakthrough";
+    subtext = `Promotion secured. You climbed into ${formatRank(rankAfter)}.`;
+  } else if (shieldConsumed) {
+    headline = "Shield Consumed";
+    subtext = "Your division shield absorbed the drop. Win the next match to rebuild safety.";
   } else if (demoted) {
     headline = "Demotion";
     subtext = `You dropped to ${formatRank(rankAfter)}. Win the next match to recover momentum.`;
+  } else if (promotionMatch && didWin) {
+    headline = "Promotion Pressure Won";
+    subtext = nextRank
+      ? `${srToNext} SR from ${formatRank(nextRank)}. The breakthrough is within reach.`
+      : "You handled the ladder pressure at the elite ceiling.";
+  } else if (oneWinAway) {
+    headline = "One Win Away";
+    subtext = `${srToNext} SR from ${nextRank ? formatRank(nextRank) : "the next rank"}. One clean win can do it.`;
   } else if (promotionPressure) {
     headline = "Promotion Match Near";
-    subtext = `${srToNext} SR from ${nextRank ? formatRank(nextRank) : "the next rank"}. One clean win can do it.`;
-  } else if (dangerZone) {
-    headline = "Danger Zone";
+    subtext = `${srToNext} SR from ${nextRank ? formatRank(nextRank) : "the next rank"}. Keep the pressure on.`;
+  } else if (demotionDanger) {
+    headline = "Demotion Danger";
     subtext = "You are close to the bottom of this division. Protect your rank.";
   } else if (winStreak >= 3) {
     headline = `${winStreak} Win Streak`;
@@ -92,9 +129,13 @@ export function buildRankedPrestigeState(params: {
     demoted,
     dangerZone,
     promotionPressure,
+    promotionMatch,
+    oneWinAway,
     shieldActive,
+    shieldConsumed,
+    demotionDanger,
+    breakthroughLabel,
     headline,
     subtext,
   };
 }
-

@@ -18,7 +18,24 @@ const POWER_RESULT_HERO = require("../../../../assets/images/arena/power/power_r
 
 type UsedPowerUps = Record<string, number>;
 
+function getPowerEfficiency(score: number, powerUpsUsed: number) {
+  const safeScore = Math.max(score, 0);
+  if (powerUpsUsed === 0) return safeScore >= 10 ? 100 : Math.min(75, safeScore * 6);
+  return Math.max(10, Math.min(100, Math.round((safeScore / Math.max(1, powerUpsUsed)) * 12)));
+}
+
 function getPowerTier(score: number, powerUpsUsed: number) {
+  const efficiency = getPowerEfficiency(score, powerUpsUsed);
+
+  if (score >= 10 && powerUpsUsed === 0) {
+    return {
+      label: "NO-POWER CONTROL",
+      headline: "Pure skill run",
+      subtext: "No tools spent. Clean answers carried the match.",
+      identity: "PURE",
+    };
+  }
+
   if (score >= 25 && powerUpsUsed <= 2) {
     return {
       label: "TACTICAL MASTERCLASS",
@@ -65,7 +82,7 @@ function getUsedPowerCount(value: unknown) {
 
 export default function PowerResult() {
   const { score, resetMatch } = usePowerArenaMatchStore();
-  const { usedThisMatch } = usePowerUpStore() as { usedThisMatch?: unknown };
+  const usedThisMatch = usePowerUpStore((state) => state.usedThisMatch);
   const rewardPower = useArenaRewardsEngine((state) => state.rewardPower);
   const previewPower = useArenaRewardsEngine((state) => state.previewPower);
 
@@ -78,12 +95,31 @@ export default function PowerResult() {
     () => getPowerTier(score, powerUpsUsed),
     [score, powerUpsUsed]
   );
+  const efficiencyScore = useMemo(
+    () => getPowerEfficiency(score, powerUpsUsed),
+    [powerUpsUsed, score]
+  );
+  const usedPowerLabels = useMemo(
+    () => Object.entries(usedThisMatch)
+      .filter(([, count]) => count > 0)
+      .map(([key, count]) => `${key} x${count}`),
+    [usedThisMatch]
+  );
 
   const rewardPreview = useMemo(
     () => previewPower({ score, powerUpsUsed }),
     [previewPower, powerUpsUsed, score]
   );
-  const recordLabel = score >= 20 ? "NEW POWER RECORD" : tier.label;
+  const recordLabel = powerUpsUsed === 0 && score >= 10
+    ? "NO-POWER BONUS"
+    : score >= 20
+      ? "POWER RECORD"
+      : tier.label;
+  const efficiencyHint = efficiencyScore >= 80
+    ? "Elite efficiency. Clean tool discipline improves Power prestige."
+    : powerUpsUsed <= 3
+      ? "Efficient loadout control improves token rewards."
+      : "Heavy power-up use lowers prestige efficiency.";
 
   const [rewardApplied, setRewardApplied] = useState({ coins: 0, arenaTokens: 0 });
   const rewardedRef = useRef(false);
@@ -142,6 +178,7 @@ export default function PowerResult() {
         <Text style={styles.badge}>{recordLabel}</Text>
         <Text style={styles.title}>{tier.headline}</Text>
         <Text style={styles.subtitle}>{tier.subtext}</Text>
+        <Text style={styles.subtitle}>{efficiencyHint}</Text>
       </ImageBackground>
 
       <View style={styles.statsRow}>
@@ -161,16 +198,24 @@ export default function PowerResult() {
         </View>
 
         <View style={styles.statCard}>
-          <Text style={styles.statLabel}>Style</Text>
-          <Text style={styles.statValueCyan}>{tier.identity}</Text>
+          <Text style={styles.statLabel}>Efficiency</Text>
+          <Text style={styles.statValueCyan}>{efficiencyScore}%</Text>
+        </View>
+
+        <View style={styles.statCard}>
+          <Text style={styles.statLabel}>Loadout</Text>
+          <Text style={styles.statValueCyan}>{powerUpsUsed}</Text>
         </View>
       </View>
 
       <LinearGradient colors={["#102A3D", "#091A30"]} style={styles.reportCard}>
         <Text style={styles.reportTitle}>Tactical Report</Text>
         <Text style={styles.reportText}>
-          You used {powerUpsUsed} power-up{powerUpsUsed === 1 ? "" : "s"}. Score,
-          timing, and resource control now drive your Power-Up prestige.
+          You used {powerUpsUsed} power-up{powerUpsUsed === 1 ? "" : "s"}.
+          Efficiency score: {efficiencyScore}%. Score, timing, and resource control now drive your Power-Up prestige.
+        </Text>
+        <Text style={styles.reportText}>
+          {usedPowerLabels.length ? `Tools used: ${usedPowerLabels.join(" • ")}` : "No tools used. Pure answer control run."}
         </Text>
       </LinearGradient>
 
@@ -307,3 +352,5 @@ const styles = StyleSheet.create({
   },
   secondaryText: { color: "#A7E8FF", fontSize: 15, fontWeight: "900" },
 });
+
+

@@ -1,5 +1,10 @@
 import { create } from "zustand";
 import { useArenaEconomyStore } from "./useArenaEconomyStore";
+import {
+  getPowerRewardPreview,
+  getRankedRewardPreview,
+  getSurvivalRewardPreview,
+} from "@/arena/arenaEconomyRules";
 
 // --------------------------------------------------
 // TYPES
@@ -44,30 +49,19 @@ const applyReward = (reward: ArenaRewardDelta) => {
   return reward;
 };
 
-const rankedReward = ({ didWin }: RankedResultPayload): ArenaRewardDelta => ({
-  // Ranked is a paid risk mode: winner gets a clean 2x-style payout.
-  // Loser receives no coins, preventing "farm while losing" behavior.
-  coins: didWin ? 200 : 0,
-  arenaTokens: didWin ? 2 : 0,
-});
+const rankedReward = ({ didWin }: RankedResultPayload): ArenaRewardDelta => {
+  const reward = getRankedRewardPreview(didWin);
+  return { coins: reward.coins, arenaTokens: reward.arenaTokens };
+};
 
 const survivalReward = ({ rounds }: SurvivalResultPayload): ArenaRewardDelta => {
-  if (rounds <= 0) return { coins: 0, arenaTokens: 0 };
-
-  const coins = Math.min(300, rounds * 12);
-  const arenaTokens = rounds >= 20 ? 4 : rounds >= 10 ? 2 : 0;
-
-  return { coins, arenaTokens };
+  const reward = getSurvivalRewardPreview(rounds);
+  return { coins: reward.coins, arenaTokens: reward.arenaTokens };
 };
 
 const powerReward = ({ score, powerUpsUsed }: PowerResultPayload): ArenaRewardDelta => {
-  const didStrongRun = score >= 12;
-  const didEfficientRun = score >= 18 && powerUpsUsed <= 3;
-
-  return {
-    coins: Math.max(0, score * 10),
-    arenaTokens: didEfficientRun ? 3 : didStrongRun ? 1 : 0,
-  };
+  const reward = getPowerRewardPreview(score, powerUpsUsed);
+  return { coins: reward.coins, arenaTokens: reward.arenaTokens };
 };
 
 export const useArenaRewardsEngine = create<ArenaRewardsEngine>(() => ({
@@ -79,3 +73,5 @@ export const useArenaRewardsEngine = create<ArenaRewardsEngine>(() => ({
   rewardSurvival: (data) => applyReward(survivalReward(data)),
   rewardPower: (data) => applyReward(powerReward(data)),
 }));
+
+

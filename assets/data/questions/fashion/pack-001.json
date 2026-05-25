@@ -1,6 +1,6 @@
 [
   {
-    "id": 25001,
+    "id": 57501,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
@@ -20,14 +20,14 @@
     ]
   },
   {
-    "id": 25002,
+    "id": 57502,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which sneaker brand created the Air Jordan line?",
     "answers": [
-      "Nike",
       "Adidas",
+      "Nike",
       "Puma",
       "Reebok"
     ],
@@ -40,15 +40,15 @@
     ]
   },
   {
-    "id": 25003,
+    "id": 57503,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
     "text": "Which Italian luxury brand is known for the Medusa logo?",
     "answers": [
-      "Versace",
       "Gucci",
       "Fendi",
+      "Versace",
       "Armani"
     ],
     "correctAnswer": "Versace",
@@ -60,16 +60,16 @@
     ]
   },
   {
-    "id": 25004,
+    "id": 57504,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which fashion item is traditionally made from denim?",
     "answers": [
-      "Jeans",
       "Blazer",
       "Scarf",
-      "Loafers"
+      "Loafers",
+      "Jeans"
     ],
     "correctAnswer": "Jeans",
     "explanation": "Jeans is the correct answer to this fashion question.",
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "id": 25005,
+    "id": 57505,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
@@ -100,14 +100,14 @@
     ]
   },
   {
-    "id": 25006,
+    "id": 57506,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which accessory is commonly worn around the neck to keep warm?",
     "answers": [
-      "Scarf",
       "Bracelet",
+      "Scarf",
       "Belt",
       "Wallet"
     ],
@@ -120,15 +120,15 @@
     ]
   },
   {
-    "id": 25007,
+    "id": 57507,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
     "text": "Which luxury fashion house created the Birkin bag?",
     "answers": [
-      "Hermès",
       "Louis Vuitton",
       "Chanel",
+      "Hermès",
       "Prada"
     ],
     "correctAnswer": "Hermès",
@@ -140,16 +140,16 @@
     ]
   },
   {
-    "id": 25008,
+    "id": 57508,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which shoe type is designed specifically for running?",
     "answers": [
-      "Sneakers",
       "Loafers",
       "Boots",
-      "Sandals"
+      "Sandals",
+      "Sneakers"
     ],
     "correctAnswer": "Sneakers",
     "explanation": "Sneakers is the correct answer to this fashion question.",
@@ -160,7 +160,7 @@
     ]
   },
   {
-    "id": 25009,
+    "id": 57509,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
@@ -180,14 +180,14 @@
     ]
   },
   {
-    "id": 25010,
+    "id": 57510,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which clothing item is typically worn with a suit?",
     "answers": [
-      "Tie",
       "Beanie",
+      "Tie",
       "Flip-flops",
       "Hoodie"
     ],
@@ -200,15 +200,15 @@
     ]
   },
   {
-    "id": 25011,
+    "id": 57511,
     "category": "fashion",
     "premium": true,
     "difficulty": "hard",
     "text": "Which designer founded the luxury brand Off-White?",
     "answers": [
-      "Virgil Abloh",
       "Tom Ford",
       "Raf Simons",
+      "Virgil Abloh",
       "Marc Jacobs"
     ],
     "correctAnswer": "Virgil Abloh",
@@ -220,16 +220,16 @@
     ]
   },
   {
-    "id": 25012,
+    "id": 57512,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which fashion accessory helps hold up pants?",
     "answers": [
-      "Belt",
       "Watch",
       "Scarf",
-      "Ring"
+      "Ring",
+      "Belt"
     ],
     "correctAnswer": "Belt",
     "explanation": "Belt is the correct answer to this fashion question.",
@@ -240,7 +240,7 @@
     ]
   },
   {
-    "id": 25013,
+    "id": 57513,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
@@ -260,14 +260,14 @@
     ]
   },
   {
-    "id": 25014,
+    "id": 57514,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which headwear item has a curved brim and adjustable strap?",
     "answers": [
-      "Baseball cap",
       "Beanie",
+      "Baseball cap",
       "Beret",
       "Fedora"
     ],
@@ -280,15 +280,15 @@
     ]
   },
   {
-    "id": 25015,
+    "id": 57515,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
     "text": "Which luxury fashion brand is associated with the bamboo handle bag?",
     "answers": [
-      "Gucci",
       "Prada",
       "Dior",
+      "Gucci",
       "Balmain"
     ],
     "correctAnswer": "Gucci",
@@ -300,16 +300,16 @@
     ]
   },
   {
-    "id": 25016,
+    "id": 57516,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which clothing item is commonly worn during cold weather and has sleeves and a zipper?",
     "answers": [
-      "Jacket",
       "Shorts",
       "Tank top",
-      "Sandals"
+      "Sandals",
+      "Jacket"
     ],
     "correctAnswer": "Jacket",
     "explanation": "Jacket is the correct answer to this fashion question.",
@@ -320,7 +320,7 @@
     ]
   },
   {
-    "id": 25017,
+    "id": 57517,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
@@ -340,14 +340,14 @@
     ]
   },
   {
-    "id": 25018,
+    "id": 57518,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which footwear is commonly worn at the beach?",
     "answers": [
-      "Sandals",
       "Dress shoes",
+      "Sandals",
       "Boots",
       "Loafers"
     ],
@@ -360,15 +360,15 @@
     ]
   },
   {
-    "id": 25019,
+    "id": 57519,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
     "text": "Which fashion brand is known for the “Triple S” sneaker?",
     "answers": [
-      "Balenciaga",
       "Nike",
       "Puma",
+      "Balenciaga",
       "New Balance"
     ],
     "correctAnswer": "Balenciaga",
@@ -380,16 +380,16 @@
     ]
   },
   {
-    "id": 25020,
+    "id": 57520,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which material is most commonly associated with leather jackets?",
     "answers": [
-      "Leather",
       "Denim",
       "Silk",
-      "Linen"
+      "Linen",
+      "Leather"
     ],
     "correctAnswer": "Leather",
     "explanation": "Leather is the correct answer to this fashion question.",
@@ -400,7 +400,7 @@
     ]
   },
   {
-    "id": 25021,
+    "id": 57521,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
@@ -420,14 +420,14 @@
     ]
   },
   {
-    "id": 25022,
+    "id": 57522,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
     "text": "Which sneaker brand created the Yeezy line in collaboration with Kanye West?",
     "answers": [
-      "Adidas",
       "Nike",
+      "Adidas",
       "Puma",
       "New Balance"
     ],
@@ -440,15 +440,15 @@
     ]
   },
   {
-    "id": 25023,
+    "id": 57523,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which clothing item is typically worn on the upper body and has buttons down the front?",
     "answers": [
-      "Shirt",
       "Skirt",
       "Shorts",
+      "Shirt",
       "Socks"
     ],
     "correctAnswer": "Shirt",
@@ -460,16 +460,16 @@
     ]
   },
   {
-    "id": 25024,
+    "id": 57524,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
     "text": "Which French luxury brand is famous for the Lady Dior handbag?",
     "answers": [
-      "Dior",
       "Chanel",
       "Louis Vuitton",
-      "Givenchy"
+      "Givenchy",
+      "Dior"
     ],
     "correctAnswer": "Dior",
     "explanation": "Dior is the correct answer to this fashion question.",
@@ -480,7 +480,7 @@
     ]
   },
   {
-    "id": 25025,
+    "id": 57525,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
@@ -500,14 +500,14 @@
     ]
   },
   {
-    "id": 25026,
+    "id": 57526,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
     "text": "Which luxury fashion brand uses a snake as one of its recurring design symbols?",
     "answers": [
-      "Gucci",
       "Versace",
+      "Gucci",
       "Fendi",
       "Balmain"
     ],
@@ -520,15 +520,15 @@
     ]
   },
   {
-    "id": 25027,
+    "id": 57527,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which footwear is designed for formal occasions and business wear?",
     "answers": [
-      "Dress shoes",
       "Flip-flops",
       "Slippers",
+      "Dress shoes",
       "Sneakers"
     ],
     "correctAnswer": "Dress shoes",
@@ -540,16 +540,16 @@
     ]
   },
   {
-    "id": 25028,
+    "id": 57528,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
     "text": "Which designer founded the fashion brand Calvin Klein?",
     "answers": [
-      "Calvin Klein",
       "Tom Ford",
       "Ralph Lauren",
-      "Michael Kors"
+      "Michael Kors",
+      "Calvin Klein"
     ],
     "correctAnswer": "Calvin Klein",
     "explanation": "Calvin Klein is the correct answer to this fashion question.",
@@ -560,7 +560,7 @@
     ]
   },
   {
-    "id": 25029,
+    "id": 57529,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
@@ -580,14 +580,14 @@
     ]
   },
   {
-    "id": 25030,
+    "id": 57530,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
     "text": "Which luxury fashion house is known for the “Baguette” bag?",
     "answers": [
-      "Fendi",
       "Prada",
+      "Fendi",
       "Dior",
       "Hermès"
     ],
@@ -600,15 +600,15 @@
     ]
   },
   {
-    "id": 25031,
+    "id": 57531,
     "category": "fashion",
     "premium": true,
     "difficulty": "hard",
     "text": "Which fashion designer became creative director of Louis Vuitton menswear after Virgil Abloh?",
     "answers": [
-      "Pharrell Williams",
       "Kim Jones",
       "Tom Ford",
+      "Pharrell Williams",
       "Hedi Slimane"
     ],
     "correctAnswer": "Pharrell Williams",
@@ -620,16 +620,16 @@
     ]
   },
   {
-    "id": 25032,
+    "id": 57532,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which clothing item is commonly worn for swimming?",
     "answers": [
-      "Swimsuit",
       "Blazer",
       "Jeans",
-      "Hoodie"
+      "Hoodie",
+      "Swimsuit"
     ],
     "correctAnswer": "Swimsuit",
     "explanation": "Swimsuit is the correct answer to this fashion question.",
@@ -640,7 +640,7 @@
     ]
   },
   {
-    "id": 25033,
+    "id": 57533,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
@@ -660,14 +660,14 @@
     ]
   },
   {
-    "id": 25034,
+    "id": 57534,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which type of pants are cut short above the knee?",
     "answers": [
-      "Shorts",
       "Jeans",
+      "Shorts",
       "Trousers",
       "Leggings"
     ],
@@ -680,15 +680,15 @@
     ]
   },
   {
-    "id": 25035,
+    "id": 57535,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
     "text": "Which luxury brand is known for its iconic trench coats?",
     "answers": [
-      "Burberry",
       "Prada",
       "Gucci",
+      "Burberry",
       "Versace"
     ],
     "correctAnswer": "Burberry",
@@ -700,16 +700,16 @@
     ]
   },
   {
-    "id": 25036,
+    "id": 57536,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which clothing item is typically worn on the feet inside shoes?",
     "answers": [
-      "Socks",
       "Gloves",
       "Tie",
-      "Scarf"
+      "Scarf",
+      "Socks"
     ],
     "correctAnswer": "Socks",
     "explanation": "Socks is the correct answer to this fashion question.",
@@ -720,7 +720,7 @@
     ]
   },
   {
-    "id": 25037,
+    "id": 57537,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
@@ -740,14 +740,14 @@
     ]
   },
   {
-    "id": 25038,
+    "id": 57538,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which accessory is commonly carried to hold money and cards?",
     "answers": [
-      "Wallet",
       "Scarf",
+      "Wallet",
       "Ring",
       "Bracelet"
     ],
@@ -760,15 +760,15 @@
     ]
   },
   {
-    "id": 25039,
+    "id": 57539,
     "category": "fashion",
     "premium": true,
     "difficulty": "medium",
     "text": "Which Italian luxury fashion house was founded by Giorgio Armani?",
     "answers": [
-      "Armani",
       "Versace",
       "Prada",
+      "Armani",
       "Dolce & Gabbana"
     ],
     "correctAnswer": "Armani",
@@ -780,16 +780,16 @@
     ]
   },
   {
-    "id": 25040,
+    "id": 57540,
     "category": "fashion",
     "premium": true,
     "difficulty": "easy",
     "text": "Which type of footwear usually covers the ankle and lower leg?",
     "answers": [
-      "Boots",
       "Sandals",
       "Loafers",
-      "Flip-flops"
+      "Flip-flops",
+      "Boots"
     ],
     "correctAnswer": "Boots",
     "explanation": "Boots is the correct answer to this fashion question.",
@@ -797,3206 +797,6 @@
       "fashion",
       "easy",
       "boots"
-    ]
-  },
-  {
-    "id": 25041,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which luxury fashion brand is famous for the quilted handbag design?",
-    "answers": [
-      "Chanel",
-      "Prada",
-      "Fendi",
-      "Versace"
-    ],
-    "correctAnswer": "Chanel",
-    "explanation": "Chanel is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "chanel"
-    ]
-  },
-  {
-    "id": 25042,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sneaker model made Nike’s Air Jordan line globally famous?",
-    "answers": [
-      "Air Jordan 1",
-      "Air Max 90",
-      "Dunk Low",
-      "Blazer Mid"
-    ],
-    "correctAnswer": "Air Jordan 1",
-    "explanation": "Air Jordan 1 is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "air-jordan"
-    ]
-  },
-  {
-    "id": 25043,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn around the waist to hold pants in place?",
-    "answers": [
-      "Belt",
-      "Scarf",
-      "Tie",
-      "Gloves"
-    ],
-    "correctAnswer": "Belt",
-    "explanation": "Belt is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "belt"
-    ]
-  },
-  {
-    "id": 25044,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury brand is known for the “Neverfull” tote bag?",
-    "answers": [
-      "Louis Vuitton",
-      "Hermès",
-      "Gucci",
-      "Balenciaga"
-    ],
-    "correctAnswer": "Louis Vuitton",
-    "explanation": "Louis Vuitton is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "louis-vuitton"
-    ]
-  },
-  {
-    "id": 25045,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of clothing is typically worn while sleeping?",
-    "answers": [
-      "Pajamas",
-      "Jeans",
-      "Blazer",
-      "Suit"
-    ],
-    "correctAnswer": "Pajamas",
-    "explanation": "Pajamas is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "pajamas"
-    ]
-  },
-  {
-    "id": 25046,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which fashion brand is associated with the “rockstud” design?",
-    "answers": [
-      "Valentino",
-      "Versace",
-      "Prada",
-      "Fendi"
-    ],
-    "correctAnswer": "Valentino",
-    "explanation": "Valentino is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "valentino"
-    ]
-  },
-  {
-    "id": 25047,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which accessory is worn on the wrist and can include charms?",
-    "answers": [
-      "Bracelet",
-      "Scarf",
-      "Necktie",
-      "Beanie"
-    ],
-    "correctAnswer": "Bracelet",
-    "explanation": "Bracelet is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "bracelet"
-    ]
-  },
-  {
-    "id": 25048,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which designer brand is famous for the “Le Smoking” tuxedo suit for women?",
-    "answers": [
-      "Yves Saint Laurent",
-      "Gucci",
-      "Dior",
-      "Givenchy"
-    ],
-    "correctAnswer": "Yves Saint Laurent",
-    "explanation": "Yves Saint Laurent is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "yves-saint"
-    ]
-  },
-  {
-    "id": 25049,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of footwear is usually worn inside the house for comfort?",
-    "answers": [
-      "Slippers",
-      "Boots",
-      "Loafers",
-      "Cleats"
-    ],
-    "correctAnswer": "Slippers",
-    "explanation": "Slippers is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "slippers"
-    ]
-  },
-  {
-    "id": 25050,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Cassette” bag?",
-    "answers": [
-      "Bottega Veneta",
-      "Fendi",
-      "Prada",
-      "Balmain"
-    ],
-    "correctAnswer": "Bottega Veneta",
-    "explanation": "Bottega Veneta is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "bottega-veneta"
-    ]
-  },
-  {
-    "id": 25051,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which designer founded the luxury streetwear brand Fear of God?",
-    "answers": [
-      "Jerry Lorenzo",
-      "Virgil Abloh",
-      "Nigo",
-      "Kim Jones"
-    ],
-    "correctAnswer": "Jerry Lorenzo",
-    "explanation": "Jerry Lorenzo is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "hard",
-      "jerry-lorenzo"
-    ]
-  },
-  {
-    "id": 25052,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn under a suit jacket?",
-    "answers": [
-      "Dress shirt",
-      "Tank top",
-      "Hoodie",
-      "Sweater vest"
-    ],
-    "correctAnswer": "Dress shirt",
-    "explanation": "Dress shirt is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "dress-shirt"
-    ]
-  },
-  {
-    "id": 25053,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sportswear brand created the Ultraboost running shoe?",
-    "answers": [
-      "Adidas",
-      "Nike",
-      "Asics",
-      "Puma"
-    ],
-    "correctAnswer": "Adidas",
-    "explanation": "Adidas is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "adidas"
-    ]
-  },
-  {
-    "id": 25054,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which item is worn over the eyes to protect from sunlight?",
-    "answers": [
-      "Sunglasses",
-      "Gloves",
-      "Earrings",
-      "Bracelets"
-    ],
-    "correctAnswer": "Sunglasses",
-    "explanation": "Sunglasses is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "sunglasses"
-    ]
-  },
-  {
-    "id": 25055,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury brand is famous for the “Speedy” handbag?",
-    "answers": [
-      "Louis Vuitton",
-      "Hermès",
-      "Gucci",
-      "Dior"
-    ],
-    "correctAnswer": "Louis Vuitton",
-    "explanation": "Louis Vuitton is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "louis-vuitton"
-    ]
-  },
-  {
-    "id": 25056,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing material is commonly used to make sweaters?",
-    "answers": [
-      "Wool",
-      "Leather",
-      "Denim",
-      "Plastic"
-    ],
-    "correctAnswer": "Wool",
-    "explanation": "Wool is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "wool"
-    ]
-  },
-  {
-    "id": 25057,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which designer brand is known for the “Rockrunner” sneakers?",
-    "answers": [
-      "Valentino",
-      "Balenciaga",
-      "Prada",
-      "Gucci"
-    ],
-    "correctAnswer": "Valentino",
-    "explanation": "Valentino is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "valentino"
-    ]
-  },
-  {
-    "id": 25058,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of hat is knitted and commonly worn in winter?",
-    "answers": [
-      "Beanie",
-      "Fedora",
-      "Beret",
-      "Top hat"
-    ],
-    "correctAnswer": "Beanie",
-    "explanation": "Beanie is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "beanie"
-    ]
-  },
-  {
-    "id": 25059,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is famous for the “Kelly” bag?",
-    "answers": [
-      "Hermès",
-      "Chanel",
-      "Dior",
-      "Prada"
-    ],
-    "correctAnswer": "Hermès",
-    "explanation": "Hermès is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "herm"
-    ]
-  },
-  {
-    "id": 25060,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn by athletes during workouts?",
-    "answers": [
-      "Tracksuit",
-      "Blazer",
-      "Tuxedo",
-      "Overcoat"
-    ],
-    "correctAnswer": "Tracksuit",
-    "explanation": "Tracksuit is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "tracksuit"
-    ]
-  },
-  {
-    "id": 25061,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which luxury fashion brand is famous for the “GG Marmont” bag line?",
-    "answers": [
-      "Gucci",
-      "Prada",
-      "Fendi",
-      "Balenciaga"
-    ],
-    "correctAnswer": "Gucci",
-    "explanation": "Gucci is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "gucci"
-    ]
-  },
-  {
-    "id": 25062,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sneaker collaboration made Travis Scott famous in the fashion world?",
-    "answers": [
-      "Nike x Travis Scott",
-      "Puma x Travis Scott",
-      "Adidas x Travis Scott",
-      "New Balance x Travis Scott"
-    ],
-    "correctAnswer": "Nike x Travis Scott",
-    "explanation": "Nike x Travis Scott is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "nike-travis"
-    ]
-  },
-  {
-    "id": 25063,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is typically worn around the neck with formal wear?",
-    "answers": [
-      "Tie",
-      "Bracelet",
-      "Watch",
-      "Beanie"
-    ],
-    "correctAnswer": "Tie",
-    "explanation": "Tie is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "tie"
-    ]
-  },
-  {
-    "id": 25064,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury brand is known for the “Book Tote” handbag?",
-    "answers": [
-      "Dior",
-      "Louis Vuitton",
-      "Prada",
-      "Versace"
-    ],
-    "correctAnswer": "Dior",
-    "explanation": "Dior is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "dior"
-    ]
-  },
-  {
-    "id": 25065,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of footwear is commonly used for hiking?",
-    "answers": [
-      "Boots",
-      "Loafers",
-      "Flip-flops",
-      "Sandals"
-    ],
-    "correctAnswer": "Boots",
-    "explanation": "Boots is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "boots"
-    ]
-  },
-  {
-    "id": 25066,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which Italian luxury brand is known for the triangle logo?",
-    "answers": [
-      "Prada",
-      "Gucci",
-      "Fendi",
-      "Versace"
-    ],
-    "correctAnswer": "Prada",
-    "explanation": "Prada is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "prada"
-    ]
-  },
-  {
-    "id": 25067,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which accessory is commonly used to carry books or laptops?",
-    "answers": [
-      "Backpack",
-      "Bracelet",
-      "Wallet",
-      "Ring"
-    ],
-    "correctAnswer": "Backpack",
-    "explanation": "Backpack is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "backpack"
-    ]
-  },
-  {
-    "id": 25068,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Peekaboo” bag?",
-    "answers": [
-      "Fendi",
-      "Chanel",
-      "Prada",
-      "Dior"
-    ],
-    "correctAnswer": "Fendi",
-    "explanation": "Fendi is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "fendi"
-    ]
-  },
-  {
-    "id": 25069,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item covers the hands and fingers during cold weather?",
-    "answers": [
-      "Gloves",
-      "Socks",
-      "Scarf",
-      "Belt"
-    ],
-    "correctAnswer": "Gloves",
-    "explanation": "Gloves is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "gloves"
-    ]
-  },
-  {
-    "id": 25070,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which fashion designer founded the brand Tommy Hilfiger?",
-    "answers": [
-      "Tommy Hilfiger",
-      "Ralph Lauren",
-      "Calvin Klein",
-      "Michael Kors"
-    ],
-    "correctAnswer": "Tommy Hilfiger",
-    "explanation": "Tommy Hilfiger is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "tommy-hilfiger"
-    ]
-  },
-  {
-    "id": 25071,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which Japanese designer founded the fashion label BAPE?",
-    "answers": [
-      "Nigo",
-      "Yohji Yamamoto",
-      "Kenzo Takada",
-      "Issey Miyake"
-    ],
-    "correctAnswer": "Nigo",
-    "explanation": "Nigo is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "hard",
-      "nigo"
-    ]
-  },
-  {
-    "id": 25072,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of clothing is sleeveless and often worn in summer?",
-    "answers": [
-      "Tank top",
-      "Hoodie",
-      "Blazer",
-      "Cardigan"
-    ],
-    "correctAnswer": "Tank top",
-    "explanation": "Tank top is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "tank-top"
-    ]
-  },
-  {
-    "id": 25073,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sportswear brand uses the slogan “Forever Faster”?",
-    "answers": [
-      "Puma",
-      "Nike",
-      "Adidas",
-      "Reebok"
-    ],
-    "correctAnswer": "Puma",
-    "explanation": "Puma is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "puma"
-    ]
-  },
-  {
-    "id": 25074,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which accessory is commonly worn to keep the head warm in winter?",
-    "answers": [
-      "Beanie",
-      "Necktie",
-      "Bracelet",
-      "Wallet"
-    ],
-    "correctAnswer": "Beanie",
-    "explanation": "Beanie is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "beanie"
-    ]
-  },
-  {
-    "id": 25075,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Jodie” bag?",
-    "answers": [
-      "Bottega Veneta",
-      "Hermès",
-      "Gucci",
-      "Prada"
-    ],
-    "correctAnswer": "Bottega Veneta",
-    "explanation": "Bottega Veneta is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "bottega-veneta"
-    ]
-  },
-  {
-    "id": 25076,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which fabric is commonly associated with soft winter sweaters?",
-    "answers": [
-      "Cashmere",
-      "Denim",
-      "Leather",
-      "Nylon"
-    ],
-    "correctAnswer": "Cashmere",
-    "explanation": "Cashmere is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "cashmere"
-    ]
-  },
-  {
-    "id": 25077,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury brand is famous for the “Ace” sneaker line?",
-    "answers": [
-      "Gucci",
-      "Balenciaga",
-      "Louis Vuitton",
-      "Prada"
-    ],
-    "correctAnswer": "Gucci",
-    "explanation": "Gucci is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "gucci"
-    ]
-  },
-  {
-    "id": 25078,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of shoe is open at the heel and commonly worn casually?",
-    "answers": [
-      "Slides",
-      "Boots",
-      "Loafers",
-      "Oxfords"
-    ],
-    "correctAnswer": "Slides",
-    "explanation": "Slides is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "slides"
-    ]
-  },
-  {
-    "id": 25079,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which fashion brand is famous for the “Nuptse” puffer jacket?",
-    "answers": [
-      "The North Face",
-      "Canada Goose",
-      "Moncler",
-      "Patagonia"
-    ],
-    "correctAnswer": "The North Face",
-    "explanation": "The North Face is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "north-face"
-    ]
-  },
-  {
-    "id": 25080,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is typically worn over a shirt and under a suit jacket?",
-    "answers": [
-      "Vest",
-      "Shorts",
-      "Sweatpants",
-      "Scarf"
-    ],
-    "correctAnswer": "Vest",
-    "explanation": "Vest is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "vest"
-    ]
-  },
-  {
-    "id": 25081,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which luxury brand is famous for the “Jackie” handbag line?",
-    "answers": [
-      "Gucci",
-      "Prada",
-      "Dior",
-      "Balenciaga"
-    ],
-    "correctAnswer": "Gucci",
-    "explanation": "Gucci is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "gucci"
-    ]
-  },
-  {
-    "id": 25082,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sneaker brand collaborated with Kanye West before the Yeezy partnership ended?",
-    "answers": [
-      "Adidas",
-      "Nike",
-      "Puma",
-      "Reebok"
-    ],
-    "correctAnswer": "Adidas",
-    "explanation": "Adidas is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "adidas"
-    ]
-  },
-  {
-    "id": 25083,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn to protect against rain?",
-    "answers": [
-      "Raincoat",
-      "Tank top",
-      "Vest",
-      "Sweater"
-    ],
-    "correctAnswer": "Raincoat",
-    "explanation": "Raincoat is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "raincoat"
-    ]
-  },
-  {
-    "id": 25084,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Puzzle” bag?",
-    "answers": [
-      "Loewe",
-      "Prada",
-      "Hermès",
-      "Versace"
-    ],
-    "correctAnswer": "Loewe",
-    "explanation": "Loewe is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "loewe"
-    ]
-  },
-  {
-    "id": 25085,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which accessory is commonly worn on a finger?",
-    "answers": [
-      "Ring",
-      "Scarf",
-      "Beanie",
-      "Wallet"
-    ],
-    "correctAnswer": "Ring",
-    "explanation": "Ring is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "ring"
-    ]
-  },
-  {
-    "id": 25086,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which fashion brand is famous for the “Old Skool” sneaker?",
-    "answers": [
-      "Vans",
-      "Converse",
-      "Nike",
-      "Puma"
-    ],
-    "correctAnswer": "Vans",
-    "explanation": "Vans is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "vans"
-    ]
-  },
-  {
-    "id": 25087,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of clothing is commonly worn at the gym?",
-    "answers": [
-      "Activewear",
-      "Tuxedo",
-      "Blazer",
-      "Overcoat"
-    ],
-    "correctAnswer": "Activewear",
-    "explanation": "Activewear is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "activewear"
-    ]
-  },
-  {
-    "id": 25088,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Le Cagole” bag?",
-    "answers": [
-      "Balenciaga",
-      "Prada",
-      "Fendi",
-      "Valentino"
-    ],
-    "correctAnswer": "Balenciaga",
-    "explanation": "Balenciaga is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "balenciaga"
-    ]
-  },
-  {
-    "id": 25089,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of footwear is designed specifically for basketball?",
-    "answers": [
-      "Basketball shoes",
-      "Loafers",
-      "Sandals",
-      "Dress shoes"
-    ],
-    "correctAnswer": "Basketball shoes",
-    "explanation": "Basketball shoes is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "basketball-shoes"
-    ]
-  },
-  {
-    "id": 25090,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which designer brand is famous for the “Tribute” sandals?",
-    "answers": [
-      "Saint Laurent",
-      "Gucci",
-      "Prada",
-      "Dior"
-    ],
-    "correctAnswer": "Saint Laurent",
-    "explanation": "Saint Laurent is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "saint-laurent"
-    ]
-  },
-  {
-    "id": 25091,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which fashion designer founded the luxury label A Bathing Ape?",
-    "answers": [
-      "Nigo",
-      "Virgil Abloh",
-      "Jerry Lorenzo",
-      "Takashi Murakami"
-    ],
-    "correctAnswer": "Nigo",
-    "explanation": "Nigo is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "hard",
-      "nigo"
-    ]
-  },
-  {
-    "id": 25092,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn around the neck for warmth or style?",
-    "answers": [
-      "Scarf",
-      "Bracelet",
-      "Wallet",
-      "Gloves"
-    ],
-    "correctAnswer": "Scarf",
-    "explanation": "Scarf is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "scarf"
-    ]
-  },
-  {
-    "id": 25093,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sportswear company created the “Stan Smith” sneaker?",
-    "answers": [
-      "Adidas",
-      "Nike",
-      "Puma",
-      "Reebok"
-    ],
-    "correctAnswer": "Adidas",
-    "explanation": "Adidas is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "adidas"
-    ]
-  },
-  {
-    "id": 25094,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of jacket is filled with insulating down feathers?",
-    "answers": [
-      "Puffer jacket",
-      "Blazer",
-      "Windbreaker",
-      "Cardigan"
-    ],
-    "correctAnswer": "Puffer jacket",
-    "explanation": "Puffer jacket is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "puffer-jacket"
-    ]
-  },
-  {
-    "id": 25095,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Amazona” bag?",
-    "answers": [
-      "Loewe",
-      "Gucci",
-      "Hermès",
-      "Balmain"
-    ],
-    "correctAnswer": "Loewe",
-    "explanation": "Loewe is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "loewe"
-    ]
-  },
-  {
-    "id": 25096,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of pants are made from blue denim fabric?",
-    "answers": [
-      "Jeans",
-      "Leggings",
-      "Joggers",
-      "Khakis"
-    ],
-    "correctAnswer": "Jeans",
-    "explanation": "Jeans is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "jeans"
-    ]
-  },
-  {
-    "id": 25097,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion brand is known for the “Hangisi” heels popularized in pop culture?",
-    "answers": [
-      "Manolo Blahnik",
-      "Jimmy Choo",
-      "Louboutin",
-      "Valentino"
-    ],
-    "correctAnswer": "Manolo Blahnik",
-    "explanation": "Manolo Blahnik is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "manolo-blahnik"
-    ]
-  },
-  {
-    "id": 25098,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn by runners and athletes during exercise?",
-    "answers": [
-      "Shorts",
-      "Blazer",
-      "Dress pants",
-      "Cardigan"
-    ],
-    "correctAnswer": "Shorts",
-    "explanation": "Shorts is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "shorts"
-    ]
-  },
-  {
-    "id": 25099,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is famous for the “Serpenti” jewelry collection?",
-    "answers": [
-      "Bulgari",
-      "Cartier",
-      "Tiffany & Co.",
-      "Van Cleef & Arpels"
-    ],
-    "correctAnswer": "Bulgari",
-    "explanation": "Bulgari is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "bulgari"
-    ]
-  },
-  {
-    "id": 25100,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which accessory is commonly used to carry personal items over the shoulder?",
-    "answers": [
-      "Handbag",
-      "Bracelet",
-      "Necktie",
-      "Beanie"
-    ],
-    "correctAnswer": "Handbag",
-    "explanation": "Handbag is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "handbag"
-    ]
-  },
-  {
-    "id": 25101,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which luxury brand is famous for the “Lady Dior” handbag?",
-    "answers": [
-      "Dior",
-      "Chanel",
-      "Gucci",
-      "Prada"
-    ],
-    "correctAnswer": "Dior",
-    "explanation": "Dior is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "dior"
-    ]
-  },
-  {
-    "id": 25102,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sneaker model is commonly associated with Nike’s collaboration with Travis Scott?",
-    "answers": [
-      "Air Jordan 1",
-      "Air Force 1",
-      "Dunk High",
-      "Blazer Low"
-    ],
-    "correctAnswer": "Air Jordan 1",
-    "explanation": "Air Jordan 1 is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "air-jordan"
-    ]
-  },
-  {
-    "id": 25103,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which item of clothing is typically worn over a shirt for formal occasions?",
-    "answers": [
-      "Blazer",
-      "Tank top",
-      "Shorts",
-      "Tracksuit"
-    ],
-    "correctAnswer": "Blazer",
-    "explanation": "Blazer is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "blazer"
-    ]
-  },
-  {
-    "id": 25104,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Cassandre” logo?",
-    "answers": [
-      "Saint Laurent",
-      "Versace",
-      "Balmain",
-      "Prada"
-    ],
-    "correctAnswer": "Saint Laurent",
-    "explanation": "Saint Laurent is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "saint-laurent"
-    ]
-  },
-  {
-    "id": 25105,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which accessory is commonly worn to protect the eyes from sunlight?",
-    "answers": [
-      "Sunglasses",
-      "Beanie",
-      "Scarf",
-      "Gloves"
-    ],
-    "correctAnswer": "Sunglasses",
-    "explanation": "Sunglasses is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "sunglasses"
-    ]
-  },
-  {
-    "id": 25106,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sportswear brand created the “Chuck Taylor All Star” sneaker?",
-    "answers": [
-      "Converse",
-      "Nike",
-      "Adidas",
-      "Vans"
-    ],
-    "correctAnswer": "Converse",
-    "explanation": "Converse is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "converse"
-    ]
-  },
-  {
-    "id": 25107,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of footwear is commonly worn with suits and tuxedos?",
-    "answers": [
-      "Dress shoes",
-      "Slides",
-      "Sneakers",
-      "Sandals"
-    ],
-    "correctAnswer": "Dress shoes",
-    "explanation": "Dress shoes is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "dress-shoes"
-    ]
-  },
-  {
-    "id": 25108,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Puzzle Fold Tote”?",
-    "answers": [
-      "Loewe",
-      "Gucci",
-      "Fendi",
-      "Balenciaga"
-    ],
-    "correctAnswer": "Loewe",
-    "explanation": "Loewe is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "loewe"
-    ]
-  },
-  {
-    "id": 25109,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn on the legs during athletic activities?",
-    "answers": [
-      "Leggings",
-      "Blazer",
-      "Cardigan",
-      "Vest"
-    ],
-    "correctAnswer": "Leggings",
-    "explanation": "Leggings is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "leggings"
-    ]
-  },
-  {
-    "id": 25110,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury brand is famous for the “Neverfull” and “Speedy” bags?",
-    "answers": [
-      "Louis Vuitton",
-      "Hermès",
-      "Prada",
-      "Dior"
-    ],
-    "correctAnswer": "Louis Vuitton",
-    "explanation": "Louis Vuitton is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "louis-vuitton"
-    ]
-  },
-  {
-    "id": 25111,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which fashion designer founded the brand Vetements?",
-    "answers": [
-      "Demna Gvasalia",
-      "Virgil Abloh",
-      "Tom Ford",
-      "Hedi Slimane"
-    ],
-    "correctAnswer": "Demna Gvasalia",
-    "explanation": "Demna Gvasalia is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "hard",
-      "demna-gvasalia"
-    ]
-  },
-  {
-    "id": 25112,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which item is commonly worn around the waist to support pants?",
-    "answers": [
-      "Belt",
-      "Scarf",
-      "Necklace",
-      "Watch"
-    ],
-    "correctAnswer": "Belt",
-    "explanation": "Belt is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "belt"
-    ]
-  },
-  {
-    "id": 25113,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which fashion brand is associated with the crocodile logo?",
-    "answers": [
-      "Lacoste",
-      "Polo Ralph Lauren",
-      "Tommy Hilfiger",
-      "Burberry"
-    ],
-    "correctAnswer": "Lacoste",
-    "explanation": "Lacoste is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "lacoste"
-    ]
-  },
-  {
-    "id": 25114,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of clothing is commonly worn to stay warm during winter?",
-    "answers": [
-      "Coat",
-      "Tank top",
-      "Shorts",
-      "Sandals"
-    ],
-    "correctAnswer": "Coat",
-    "explanation": "Coat is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "coat"
-    ]
-  },
-  {
-    "id": 25115,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Andiamo” bag?",
-    "answers": [
-      "Bottega Veneta",
-      "Prada",
-      "Dior",
-      "Fendi"
-    ],
-    "correctAnswer": "Bottega Veneta",
-    "explanation": "Bottega Veneta is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "bottega-veneta"
-    ]
-  },
-  {
-    "id": 25116,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which footwear is designed specifically for soccer players?",
-    "answers": [
-      "Cleats",
-      "Loafers",
-      "Slides",
-      "Slippers"
-    ],
-    "correctAnswer": "Cleats",
-    "explanation": "Cleats is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "cleats"
-    ]
-  },
-  {
-    "id": 25117,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury jewelry brand is famous for the “Love Bracelet”?",
-    "answers": [
-      "Cartier",
-      "Bulgari",
-      "Tiffany & Co.",
-      "Pandora"
-    ],
-    "correctAnswer": "Cartier",
-    "explanation": "Cartier is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "cartier"
-    ]
-  },
-  {
-    "id": 25118,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which item is commonly used to carry school supplies on the back?",
-    "answers": [
-      "Backpack",
-      "Wallet",
-      "Bracelet",
-      "Beanie"
-    ],
-    "correctAnswer": "Backpack",
-    "explanation": "Backpack is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "backpack"
-    ]
-  },
-  {
-    "id": 25119,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion brand is famous for monogram canvas luggage?",
-    "answers": [
-      "Louis Vuitton",
-      "Prada",
-      "Versace",
-      "Balmain"
-    ],
-    "correctAnswer": "Louis Vuitton",
-    "explanation": "Louis Vuitton is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "louis-vuitton"
-    ]
-  },
-  {
-    "id": 25120,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn under a blazer and tie?",
-    "answers": [
-      "Dress shirt",
-      "Tank top",
-      "Sweatshirt",
-      "Tracksuit"
-    ],
-    "correctAnswer": "Dress shirt",
-    "explanation": "Dress shirt is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "dress-shirt"
-    ]
-  },
-  {
-    "id": 25121,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which luxury fashion brand is known for the iconic “CC” logo?",
-    "answers": [
-      "Chanel",
-      "Dior",
-      "Prada",
-      "Balenciaga"
-    ],
-    "correctAnswer": "Chanel",
-    "explanation": "Chanel is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "chanel"
-    ]
-  },
-  {
-    "id": 25122,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sneaker brand collaborated with rapper Bad Bunny on popular sneaker releases?",
-    "answers": [
-      "Adidas",
-      "Nike",
-      "Puma",
-      "Converse"
-    ],
-    "correctAnswer": "Adidas",
-    "explanation": "Adidas is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "adidas"
-    ]
-  },
-  {
-    "id": 25123,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn around the neck for formal events?",
-    "answers": [
-      "Tie",
-      "Bracelet",
-      "Beanie",
-      "Belt"
-    ],
-    "correctAnswer": "Tie",
-    "explanation": "Tie is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "tie"
-    ]
-  },
-  {
-    "id": 25124,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury brand is known for the “Le 5 à 7” handbag?",
-    "answers": [
-      "Saint Laurent",
-      "Prada",
-      "Versace",
-      "Fendi"
-    ],
-    "correctAnswer": "Saint Laurent",
-    "explanation": "Saint Laurent is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "saint-laurent"
-    ]
-  },
-  {
-    "id": 25125,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of footwear is commonly worn at the beach or pool?",
-    "answers": [
-      "Flip-flops",
-      "Boots",
-      "Loafers",
-      "Dress shoes"
-    ],
-    "correctAnswer": "Flip-flops",
-    "explanation": "Flip-flops is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "flip-flops"
-    ]
-  },
-  {
-    "id": 25126,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is famous for the “Rockstud” heels?",
-    "answers": [
-      "Valentino",
-      "Gucci",
-      "Balenciaga",
-      "Prada"
-    ],
-    "correctAnswer": "Valentino",
-    "explanation": "Valentino is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "valentino"
-    ]
-  },
-  {
-    "id": 25127,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which accessory is commonly worn to keep hands warm in winter?",
-    "answers": [
-      "Gloves",
-      "Bracelets",
-      "Necklaces",
-      "Wallets"
-    ],
-    "correctAnswer": "Gloves",
-    "explanation": "Gloves is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "gloves"
-    ]
-  },
-  {
-    "id": 25128,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which fashion brand is associated with the slogan “The North Face Never Stop Exploring”?",
-    "answers": [
-      "The North Face",
-      "Patagonia",
-      "Columbia",
-      "Moncler"
-    ],
-    "correctAnswer": "The North Face",
-    "explanation": "The North Face is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "north-face"
-    ]
-  },
-  {
-    "id": 25129,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which item is commonly worn on the head to block sunlight?",
-    "answers": [
-      "Hat",
-      "Scarf",
-      "Gloves",
-      "Belt"
-    ],
-    "correctAnswer": "Hat",
-    "explanation": "Hat is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "hat"
-    ]
-  },
-  {
-    "id": 25130,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury brand is famous for the “Horsebit Loafer”?",
-    "answers": [
-      "Gucci",
-      "Prada",
-      "Ferragamo",
-      "Louis Vuitton"
-    ],
-    "correctAnswer": "Gucci",
-    "explanation": "Gucci is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "gucci"
-    ]
-  },
-  {
-    "id": 25131,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which designer became artistic director of menswear at Dior in 2018?",
-    "answers": [
-      "Kim Jones",
-      "Virgil Abloh",
-      "Tom Ford",
-      "Raf Simons"
-    ],
-    "correctAnswer": "Kim Jones",
-    "explanation": "Kim Jones is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "hard",
-      "kim-jones"
-    ]
-  },
-  {
-    "id": 25132,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn while exercising or jogging?",
-    "answers": [
-      "Tracksuit",
-      "Blazer",
-      "Dress shirt",
-      "Overcoat"
-    ],
-    "correctAnswer": "Tracksuit",
-    "explanation": "Tracksuit is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "tracksuit"
-    ]
-  },
-  {
-    "id": 25133,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sportswear brand created the “Air Max” sneaker line?",
-    "answers": [
-      "Nike",
-      "Adidas",
-      "Puma",
-      "Asics"
-    ],
-    "correctAnswer": "Nike",
-    "explanation": "Nike is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "nike"
-    ]
-  },
-  {
-    "id": 25134,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is sleeveless and commonly worn in hot weather?",
-    "answers": [
-      "Tank top",
-      "Cardigan",
-      "Sweater",
-      "Blazer"
-    ],
-    "correctAnswer": "Tank top",
-    "explanation": "Tank top is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "tank-top"
-    ]
-  },
-  {
-    "id": 25135,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury brand is famous for the “J’adore” fragrance line?",
-    "answers": [
-      "Dior",
-      "Chanel",
-      "Gucci",
-      "Prada"
-    ],
-    "correctAnswer": "Dior",
-    "explanation": "Dior is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "dior"
-    ]
-  },
-  {
-    "id": 25136,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of jacket is lightweight and designed to block wind?",
-    "answers": [
-      "Windbreaker",
-      "Blazer",
-      "Cardigan",
-      "Vest"
-    ],
-    "correctAnswer": "Windbreaker",
-    "explanation": "Windbreaker is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "windbreaker"
-    ]
-  },
-  {
-    "id": 25137,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Le Bambino” handbag?",
-    "answers": [
-      "Jacquemus",
-      "Prada",
-      "Balenciaga",
-      "Fendi"
-    ],
-    "correctAnswer": "Jacquemus",
-    "explanation": "Jacquemus is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "jacquemus"
-    ]
-  },
-  {
-    "id": 25138,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which item is commonly used to carry cash and credit cards?",
-    "answers": [
-      "Wallet",
-      "Beanie",
-      "Bracelet",
-      "Scarf"
-    ],
-    "correctAnswer": "Wallet",
-    "explanation": "Wallet is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "wallet"
-    ]
-  },
-  {
-    "id": 25139,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is famous for the “Tribeca” bag?",
-    "answers": [
-      "Saint Laurent",
-      "Gucci",
-      "Prada",
-      "Hermès"
-    ],
-    "correctAnswer": "Saint Laurent",
-    "explanation": "Saint Laurent is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "saint-laurent"
-    ]
-  },
-  {
-    "id": 25140,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn on the legs and made from denim?",
-    "answers": [
-      "Jeans",
-      "Leggings",
-      "Shorts",
-      "Joggers"
-    ],
-    "correctAnswer": "Jeans",
-    "explanation": "Jeans is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "jeans"
-    ]
-  },
-  {
-    "id": 25141,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which luxury fashion brand is famous for the monogram canvas pattern featuring “LV” initials?",
-    "answers": [
-      "Louis Vuitton",
-      "Gucci",
-      "Prada",
-      "Dior"
-    ],
-    "correctAnswer": "Louis Vuitton",
-    "explanation": "Louis Vuitton is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "louis-vuitton"
-    ]
-  },
-  {
-    "id": 25142,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sneaker silhouette is most associated with Converse?",
-    "answers": [
-      "Chuck Taylor All Star",
-      "Air Force 1",
-      "Stan Smith",
-      "Old Skool"
-    ],
-    "correctAnswer": "Chuck Taylor All Star",
-    "explanation": "Chuck Taylor All Star is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "chuck-taylor"
-    ]
-  },
-  {
-    "id": 25143,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is typically worn over a shirt and tie in cold weather?",
-    "answers": [
-      "Coat",
-      "Tank top",
-      "Shorts",
-      "Slides"
-    ],
-    "correctAnswer": "Coat",
-    "explanation": "Coat is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "coat"
-    ]
-  },
-  {
-    "id": 25144,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury brand is known for the “Triomphe” logo?",
-    "answers": [
-      "Celine",
-      "Balenciaga",
-      "Fendi",
-      "Versace"
-    ],
-    "correctAnswer": "Celine",
-    "explanation": "Celine is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "celine"
-    ]
-  },
-  {
-    "id": 25145,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which accessory is commonly worn around the wrist to tell time?",
-    "answers": [
-      "Watch",
-      "Scarf",
-      "Belt",
-      "Wallet"
-    ],
-    "correctAnswer": "Watch",
-    "explanation": "Watch is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "watch"
-    ]
-  },
-  {
-    "id": 25146,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which fashion brand is known for the “Gel-Kayano” running shoe?",
-    "answers": [
-      "Asics",
-      "Nike",
-      "Puma",
-      "Reebok"
-    ],
-    "correctAnswer": "Asics",
-    "explanation": "Asics is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "asics"
-    ]
-  },
-  {
-    "id": 25147,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of clothing is commonly worn while sleeping?",
-    "answers": [
-      "Pajamas",
-      "Tracksuit",
-      "Blazer",
-      "Jeans"
-    ],
-    "correctAnswer": "Pajamas",
-    "explanation": "Pajamas is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "pajamas"
-    ]
-  },
-  {
-    "id": 25148,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Nylon Re-Edition” bag?",
-    "answers": [
-      "Prada",
-      "Dior",
-      "Gucci",
-      "Balmain"
-    ],
-    "correctAnswer": "Prada",
-    "explanation": "Prada is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "prada"
-    ]
-  },
-  {
-    "id": 25149,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of footwear is designed specifically for running and sports?",
-    "answers": [
-      "Sneakers",
-      "Loafers",
-      "Dress shoes",
-      "Sandals"
-    ],
-    "correctAnswer": "Sneakers",
-    "explanation": "Sneakers is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "sneakers"
-    ]
-  },
-  {
-    "id": 25150,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury jewelry brand is famous for the “T” collection?",
-    "answers": [
-      "Tiffany & Co.",
-      "Cartier",
-      "Bulgari",
-      "Pandora"
-    ],
-    "correctAnswer": "Tiffany & Co.",
-    "explanation": "Tiffany & Co. is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "tiffany"
-    ]
-  },
-  {
-    "id": 25151,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which designer founded the luxury brand Maison Margiela?",
-    "answers": [
-      "Martin Margiela",
-      "Jean Paul Gaultier",
-      "Hedi Slimane",
-      "Raf Simons"
-    ],
-    "correctAnswer": "Martin Margiela",
-    "explanation": "Martin Margiela is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "hard",
-      "martin-margiela"
-    ]
-  },
-  {
-    "id": 25152,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which accessory is commonly worn around the neck during winter?",
-    "answers": [
-      "Scarf",
-      "Bracelet",
-      "Ring",
-      "Wallet"
-    ],
-    "correctAnswer": "Scarf",
-    "explanation": "Scarf is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "scarf"
-    ]
-  },
-  {
-    "id": 25153,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sportswear brand created the “Gel-Lyte” sneaker line?",
-    "answers": [
-      "Asics",
-      "Nike",
-      "Adidas",
-      "Converse"
-    ],
-    "correctAnswer": "Asics",
-    "explanation": "Asics is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "asics"
-    ]
-  },
-  {
-    "id": 25154,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which item is commonly worn to protect hands during cold weather?",
-    "answers": [
-      "Gloves",
-      "Socks",
-      "Beanies",
-      "Belts"
-    ],
-    "correctAnswer": "Gloves",
-    "explanation": "Gloves is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "gloves"
-    ]
-  },
-  {
-    "id": 25155,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Puzzle Fold” design language?",
-    "answers": [
-      "Loewe",
-      "Prada",
-      "Gucci",
-      "Versace"
-    ],
-    "correctAnswer": "Loewe",
-    "explanation": "Loewe is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "loewe"
-    ]
-  },
-  {
-    "id": 25156,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of pants are designed for comfort and athletic wear?",
-    "answers": [
-      "Joggers",
-      "Dress pants",
-      "Khakis",
-      "Slacks"
-    ],
-    "correctAnswer": "Joggers",
-    "explanation": "Joggers is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "joggers"
-    ]
-  },
-  {
-    "id": 25157,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion brand is famous for the “Oblique” monogram?",
-    "answers": [
-      "Dior",
-      "Fendi",
-      "Prada",
-      "Balenciaga"
-    ],
-    "correctAnswer": "Dior",
-    "explanation": "Dior is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "dior"
-    ]
-  },
-  {
-    "id": 25158,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which item is commonly carried on the shoulder to hold personal belongings?",
-    "answers": [
-      "Handbag",
-      "Bracelet",
-      "Scarf",
-      "Beanie"
-    ],
-    "correctAnswer": "Handbag",
-    "explanation": "Handbag is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "handbag"
-    ]
-  },
-  {
-    "id": 25159,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Le Chiquito” mini bag?",
-    "answers": [
-      "Jacquemus",
-      "Prada",
-      "Versace",
-      "Hermès"
-    ],
-    "correctAnswer": "Jacquemus",
-    "explanation": "Jacquemus is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "jacquemus"
-    ]
-  },
-  {
-    "id": 25160,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of clothing is commonly worn under a blazer in business settings?",
-    "answers": [
-      "Dress shirt",
-      "Tank top",
-      "Hoodie",
-      "Tracksuit"
-    ],
-    "correctAnswer": "Dress shirt",
-    "explanation": "Dress shirt is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "dress-shirt"
-    ]
-  },
-  {
-    "id": 25161,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which luxury fashion house is famous for the “Camélia” flower motif?",
-    "answers": [
-      "Chanel",
-      "Dior",
-      "Gucci",
-      "Fendi"
-    ],
-    "correctAnswer": "Chanel",
-    "explanation": "Chanel is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "chanel"
-    ]
-  },
-  {
-    "id": 25162,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sneaker brand is known for the “990” series?",
-    "answers": [
-      "New Balance",
-      "Nike",
-      "Adidas",
-      "Puma"
-    ],
-    "correctAnswer": "New Balance",
-    "explanation": "New Balance is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "new-balance"
-    ]
-  },
-  {
-    "id": 25163,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn to keep warm and usually has long sleeves?",
-    "answers": [
-      "Sweater",
-      "Tank top",
-      "Shorts",
-      "Slides"
-    ],
-    "correctAnswer": "Sweater",
-    "explanation": "Sweater is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "sweater"
-    ]
-  },
-  {
-    "id": 25164,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury brand is known for the “Book Tote” featuring embroidered designs?",
-    "answers": [
-      "Dior",
-      "Louis Vuitton",
-      "Prada",
-      "Balenciaga"
-    ],
-    "correctAnswer": "Dior",
-    "explanation": "Dior is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "dior"
-    ]
-  },
-  {
-    "id": 25165,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which accessory is commonly worn on the head during cold weather?",
-    "answers": [
-      "Beanie",
-      "Bracelet",
-      "Wallet",
-      "Ring"
-    ],
-    "correctAnswer": "Beanie",
-    "explanation": "Beanie is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "beanie"
-    ]
-  },
-  {
-    "id": 25166,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sportswear company created the “Suede” sneaker line?",
-    "answers": [
-      "Puma",
-      "Nike",
-      "Reebok",
-      "Converse"
-    ],
-    "correctAnswer": "Puma",
-    "explanation": "Puma is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "puma"
-    ]
-  },
-  {
-    "id": 25167,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of jacket is commonly made from denim fabric?",
-    "answers": [
-      "Denim jacket",
-      "Puffer jacket",
-      "Raincoat",
-      "Blazer"
-    ],
-    "correctAnswer": "Denim jacket",
-    "explanation": "Denim jacket is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "denim-jacket"
-    ]
-  },
-  {
-    "id": 25168,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is famous for the “Peekaboo” handbag?",
-    "answers": [
-      "Fendi",
-      "Prada",
-      "Dior",
-      "Balmain"
-    ],
-    "correctAnswer": "Fendi",
-    "explanation": "Fendi is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "fendi"
-    ]
-  },
-  {
-    "id": 25169,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which footwear is commonly worn indoors for comfort?",
-    "answers": [
-      "Slippers",
-      "Boots",
-      "Cleats",
-      "Loafers"
-    ],
-    "correctAnswer": "Slippers",
-    "explanation": "Slippers is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "slippers"
-    ]
-  },
-  {
-    "id": 25170,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury jewelry brand is known for the “Panthère” collection?",
-    "answers": [
-      "Cartier",
-      "Bulgari",
-      "Pandora",
-      "Tiffany & Co."
-    ],
-    "correctAnswer": "Cartier",
-    "explanation": "Cartier is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "cartier"
-    ]
-  },
-  {
-    "id": 25171,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which designer became creative director of Bottega Veneta in 2021?",
-    "answers": [
-      "Matthieu Blazy",
-      "Daniel Lee",
-      "Kim Jones",
-      "Virgil Abloh"
-    ],
-    "correctAnswer": "Matthieu Blazy",
-    "explanation": "Matthieu Blazy is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "hard",
-      "matthieu-blazy"
-    ]
-  },
-  {
-    "id": 25172,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn by runners and athletes?",
-    "answers": [
-      "Shorts",
-      "Blazer",
-      "Cardigan",
-      "Vest"
-    ],
-    "correctAnswer": "Shorts",
-    "explanation": "Shorts is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "shorts"
-    ]
-  },
-  {
-    "id": 25173,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sneaker brand created the “Classic Leather” shoe?",
-    "answers": [
-      "Reebok",
-      "Nike",
-      "Adidas",
-      "Puma"
-    ],
-    "correctAnswer": "Reebok",
-    "explanation": "Reebok is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "reebok"
-    ]
-  },
-  {
-    "id": 25174,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which accessory is used to carry money and cards?",
-    "answers": [
-      "Wallet",
-      "Scarf",
-      "Gloves",
-      "Beanie"
-    ],
-    "correctAnswer": "Wallet",
-    "explanation": "Wallet is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "wallet"
-    ]
-  },
-  {
-    "id": 25175,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury brand is famous for the “Saffiano” leather texture?",
-    "answers": [
-      "Prada",
-      "Gucci",
-      "Dior",
-      "Versace"
-    ],
-    "correctAnswer": "Prada",
-    "explanation": "Prada is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "prada"
-    ]
-  },
-  {
-    "id": 25176,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn under formal jackets?",
-    "answers": [
-      "Dress shirt",
-      "Tank top",
-      "Tracksuit",
-      "Hoodie"
-    ],
-    "correctAnswer": "Dress shirt",
-    "explanation": "Dress shirt is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "dress-shirt"
-    ]
-  },
-  {
-    "id": 25177,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which fashion brand is famous for the “574” sneaker?",
-    "answers": [
-      "New Balance",
-      "Nike",
-      "Converse",
-      "Vans"
-    ],
-    "correctAnswer": "New Balance",
-    "explanation": "New Balance is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "new-balance"
-    ]
-  },
-  {
-    "id": 25178,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of outerwear is designed to protect against rain?",
-    "answers": [
-      "Raincoat",
-      "Cardigan",
-      "Vest",
-      "Sweater"
-    ],
-    "correctAnswer": "Raincoat",
-    "explanation": "Raincoat is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "raincoat"
-    ]
-  },
-  {
-    "id": 25179,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Le Bambimou” bag?",
-    "answers": [
-      "Jacquemus",
-      "Balenciaga",
-      "Prada",
-      "Fendi"
-    ],
-    "correctAnswer": "Jacquemus",
-    "explanation": "Jacquemus is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "jacquemus"
-    ]
-  },
-  {
-    "id": 25180,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which footwear is specifically designed for soccer players on grass fields?",
-    "answers": [
-      "Cleats",
-      "Loafers",
-      "Slides",
-      "Slippers"
-    ],
-    "correctAnswer": "Cleats",
-    "explanation": "Cleats is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "cleats"
-    ]
-  },
-  {
-    "id": 25181,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which luxury brand is famous for the “Classic Flap” handbag?",
-    "answers": [
-      "Chanel",
-      "Prada",
-      "Dior",
-      "Fendi"
-    ],
-    "correctAnswer": "Chanel",
-    "explanation": "Chanel is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "chanel"
-    ]
-  },
-  {
-    "id": 25182,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sneaker silhouette is most associated with Vans?",
-    "answers": [
-      "Old Skool",
-      "Air Force 1",
-      "Stan Smith",
-      "Superstar"
-    ],
-    "correctAnswer": "Old Skool",
-    "explanation": "Old Skool is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "old-skool"
-    ]
-  },
-  {
-    "id": 25183,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn on the legs and made from cotton or denim?",
-    "answers": [
-      "Pants",
-      "Scarf",
-      "Gloves",
-      "Vest"
-    ],
-    "correctAnswer": "Pants",
-    "explanation": "Pants is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "pants"
-    ]
-  },
-  {
-    "id": 25184,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is famous for the “Bamboo 1947” bag?",
-    "answers": [
-      "Gucci",
-      "Prada",
-      "Hermès",
-      "Balenciaga"
-    ],
-    "correctAnswer": "Gucci",
-    "explanation": "Gucci is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "gucci"
-    ]
-  },
-  {
-    "id": 25185,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which accessory is commonly worn around the neck for style or warmth?",
-    "answers": [
-      "Scarf",
-      "Bracelet",
-      "Ring",
-      "Wallet"
-    ],
-    "correctAnswer": "Scarf",
-    "explanation": "Scarf is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "scarf"
-    ]
-  },
-  {
-    "id": 25186,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sportswear brand created the “Gel-Nimbus” running shoe?",
-    "answers": [
-      "Asics",
-      "Nike",
-      "Puma",
-      "Adidas"
-    ],
-    "correctAnswer": "Asics",
-    "explanation": "Asics is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "asics"
-    ]
-  },
-  {
-    "id": 25187,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of clothing is commonly worn for swimming?",
-    "answers": [
-      "Swimsuit",
-      "Blazer",
-      "Tracksuit",
-      "Overcoat"
-    ],
-    "correctAnswer": "Swimsuit",
-    "explanation": "Swimsuit is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "swimsuit"
-    ]
-  },
-  {
-    "id": 25188,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury brand is known for the “Le Monogramme” collection?",
-    "answers": [
-      "Saint Laurent",
-      "Fendi",
-      "Dior",
-      "Versace"
-    ],
-    "correctAnswer": "Saint Laurent",
-    "explanation": "Saint Laurent is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "saint-laurent"
-    ]
-  },
-  {
-    "id": 25189,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which footwear is commonly worn casually and has rubber soles?",
-    "answers": [
-      "Sneakers",
-      "Loafers",
-      "Dress shoes",
-      "Cleats"
-    ],
-    "correctAnswer": "Sneakers",
-    "explanation": "Sneakers is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "sneakers"
-    ]
-  },
-  {
-    "id": 25190,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury jewelry brand is famous for the “Serpenti” snake-inspired collection?",
-    "answers": [
-      "Bulgari",
-      "Cartier",
-      "Tiffany & Co.",
-      "Pandora"
-    ],
-    "correctAnswer": "Bulgari",
-    "explanation": "Bulgari is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "bulgari"
-    ]
-  },
-  {
-    "id": 25191,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which designer founded the luxury label Off-White?",
-    "answers": [
-      "Virgil Abloh",
-      "Jerry Lorenzo",
-      "Demna Gvasalia",
-      "Tom Ford"
-    ],
-    "correctAnswer": "Virgil Abloh",
-    "explanation": "Virgil Abloh is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "hard",
-      "virgil-abloh"
-    ]
-  },
-  {
-    "id": 25192,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which item is commonly worn to protect the eyes from bright sunlight?",
-    "answers": [
-      "Sunglasses",
-      "Beanie",
-      "Bracelet",
-      "Gloves"
-    ],
-    "correctAnswer": "Sunglasses",
-    "explanation": "Sunglasses is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "sunglasses"
-    ]
-  },
-  {
-    "id": 25193,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which sneaker brand created the “Air Force 1” model?",
-    "answers": [
-      "Nike",
-      "Adidas",
-      "Puma",
-      "Reebok"
-    ],
-    "correctAnswer": "Nike",
-    "explanation": "Nike is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "nike"
-    ]
-  },
-  {
-    "id": 25194,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn over a shirt during business meetings?",
-    "answers": [
-      "Blazer",
-      "Tank top",
-      "Shorts",
-      "Swimsuit"
-    ],
-    "correctAnswer": "Blazer",
-    "explanation": "Blazer is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "blazer"
-    ]
-  },
-  {
-    "id": 25195,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury fashion house is known for the “Intrecciato” woven leather design?",
-    "answers": [
-      "Bottega Veneta",
-      "Prada",
-      "Balenciaga",
-      "Fendi"
-    ],
-    "correctAnswer": "Bottega Veneta",
-    "explanation": "Bottega Veneta is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "bottega-veneta"
-    ]
-  },
-  {
-    "id": 25196,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which accessory is commonly used to hold up pants?",
-    "answers": [
-      "Belt",
-      "Scarf",
-      "Watch",
-      "Bracelet"
-    ],
-    "correctAnswer": "Belt",
-    "explanation": "Belt is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "belt"
-    ]
-  },
-  {
-    "id": 25197,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which fashion brand is associated with the polo player logo?",
-    "answers": [
-      "Polo Ralph Lauren",
-      "Lacoste",
-      "Tommy Hilfiger",
-      "Burberry"
-    ],
-    "correctAnswer": "Polo Ralph Lauren",
-    "explanation": "Polo Ralph Lauren is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "polo-ralph"
-    ]
-  },
-  {
-    "id": 25198,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which type of outerwear is padded for warmth during winter?",
-    "answers": [
-      "Puffer jacket",
-      "Vest",
-      "Cardigan",
-      "Tank top"
-    ],
-    "correctAnswer": "Puffer jacket",
-    "explanation": "Puffer jacket is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "puffer-jacket"
-    ]
-  },
-  {
-    "id": 25199,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which luxury brand is known for the “Avenue Sling Bag”?",
-    "answers": [
-      "Louis Vuitton",
-      "Prada",
-      "Gucci",
-      "Dior"
-    ],
-    "correctAnswer": "Louis Vuitton",
-    "explanation": "Louis Vuitton is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "medium",
-      "louis-vuitton"
-    ]
-  },
-  {
-    "id": 25200,
-    "category": "fashion",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which clothing item is commonly worn under a suit jacket and tie?",
-    "answers": [
-      "Dress shirt",
-      "Hoodie",
-      "Tank top",
-      "Tracksuit"
-    ],
-    "correctAnswer": "Dress shirt",
-    "explanation": "Dress shirt is the correct answer to this fashion question.",
-    "tags": [
-      "fashion",
-      "easy",
-      "dress-shirt"
     ]
   }
 ]
