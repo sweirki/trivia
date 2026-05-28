@@ -17,6 +17,7 @@ import {
 
 import { useAuthStore } from "@/store/useAuthStore";
 import { usePurchaseStore } from "@/store/purchaseStore";
+import { warmFeedbackSounds } from "@/feedback";
 
 export default function Root() {
   const pathname = usePathname();
@@ -33,6 +34,7 @@ const user = useAuthStore((s) => s.user);
 useEffect(() => {
   setupProductionObservability();
   void trackEvent("app_opened");
+  warmFeedbackSounds();
 }, []);
 
 useEffect(() => {

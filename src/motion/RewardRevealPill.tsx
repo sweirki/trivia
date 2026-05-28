@@ -44,9 +44,9 @@ export default function RewardRevealPill({
       { translateY: interpolate(progress.value, [0, 1], [16, 0]) },
       { scale: pop.value },
     ],
-  }));
+  } as any));
 
-  return <Animated.View style={[style, animatedStyle]}>{children}</Animated.View>;
+  return <Animated.View style={[style as ViewStyle, animatedStyle]}>{children}</Animated.View>;
 }
 
 

@@ -54,10 +54,10 @@ const MIN_GAP_MS: Record<SoundKey, number> = {
 };
 
 const cache: Partial<Record<SoundKey, Audio.Sound>> = {};
-const queues: Partial<Record<SoundKey, Promise<void>>> = {};
 let lastPlayedAt: Partial<Record<SoundKey, number>> = {};
 let audioModeReady = false;
 let audioModePromise: Promise<void> | null = null;
+let preloadStarted = false;
 
 async function ensureAudioMode() {
   if (audioModeReady) return;
@@ -73,9 +73,7 @@ async function ensureAudioMode() {
       .then(() => {
         audioModeReady = true;
       })
-      .catch(() => {
-        // Audio feedback must never block gameplay.
-      })
+      .catch(() => undefined)
       .finally(() => {
         audioModePromise = null;
       });
@@ -109,21 +107,17 @@ async function playSoundNow(key: SoundKey) {
   lastPlayedAt[key] = now;
 
   const sound = await getSound(key);
-  const status = await sound.getStatusAsync();
 
-  if (!status.isLoaded) return;
-
-  // stopAsync before replay avoids Android/expo-av cases where setPositionAsync
-  // during an active sound silently fails or leaves the next sound muted.
-  if (status.isPlaying) {
-    await sound.stopAsync();
+  try {
+    await sound.replayAsync();
+  } catch {
+    try {
+      await sound.setPositionAsync(0);
+      await sound.playAsync();
+    } catch {
+      // Audio feedback must never block or crash gameplay.
+    }
   }
-
-  await sound.setStatusAsync({
-    positionMillis: 0,
-    volume: VOLUME[key],
-    shouldPlay: true,
-  });
 }
 
 export async function preloadFeedbackSounds(keys: SoundKey[] = ["tap", "correct", "wrong"]) {
@@ -136,15 +130,19 @@ export async function preloadFeedbackSounds(keys: SoundKey[] = ["tap", "correct"
   }
 }
 
-export function playSound(key: SoundKey) {
-  queues[key] = (queues[key] ?? Promise.resolve())
-    .catch(() => undefined)
-    .then(() => playSoundNow(key))
-    .catch(() => {
-      // Audio feedback must never block or crash gameplay.
-    });
+export function warmFeedbackSounds() {
+  if (preloadStarted) return;
+  preloadStarted = true;
 
-  return queues[key];
+  setTimeout(() => {
+    void preloadFeedbackSounds(["tap", "correct", "wrong", "reward", "streak"]);
+  }, 300);
+}
+
+export function playSound(key: SoundKey) {
+  setTimeout(() => {
+    void playSoundNow(key);
+  }, 0);
 }
 
 export async function unloadFeedbackSounds() {
@@ -164,19 +162,7 @@ export async function unloadFeedbackSounds() {
     delete cache[key as SoundKey];
   });
 
-  queues.tap = undefined;
-  queues.correct = undefined;
-  queues.wrong = undefined;
-  queues.reward = undefined;
-  queues.streak = undefined;
-  queues.levelUp = undefined;
-  queues.purchaseSuccess = undefined;
-  queues.arenaClutch = undefined;
-  queues.suddenDeath = undefined;
-  queues.tournamentWin = undefined;
-
   lastPlayedAt = {};
   audioModeReady = false;
+  preloadStarted = false;
 }
-
-

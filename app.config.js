@@ -1,7 +1,7 @@
 export default {
   name: "Trivia",
   slug: "trivia",
-  version: "1.0.0",
+  version: "1.0.1",
   orientation: "portrait",
   icon: "./assets/images/icon.png",
   userInterfaceStyle: "automatic",
@@ -15,7 +15,7 @@ export default {
 
   android: {
     package: "com.sweirki.trivia",
-    versionCode: 3,
+    versionCode: 4,
     permissions: ["BILLING"],
     adaptiveIcon: {
       foregroundImage: "./assets/images/adaptive-icon.png",
@@ -28,7 +28,7 @@ export default {
 
   ios: {
     supportsTablet: true,
-    buildNumber: "3",
+    buildNumber: "4",
   },
 
   web: {
