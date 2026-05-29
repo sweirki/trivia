@@ -27,6 +27,21 @@ function shortName(value?: string | null) {
   return `Player ${value.slice(-4).toUpperCase()}`;
 }
 
+function isBotUid(uid?: string | null) {
+  return Boolean(uid?.startsWith("bot-"));
+}
+
+function getTournamentPlayerName(tournament: any, uid?: string | null, fallback?: string | null) {
+  if (!uid) return "Player";
+
+  const player = tournament?.players?.find((p: any) => p.uid === uid);
+  const name = player?.username?.trim?.();
+
+  if (name) return name;
+  if (fallback && fallback.trim().length > 0) return fallback.trim();
+  return shortName(uid);
+}
+
 function getRoundInfo(match: TournamentMatch | null, bracket: any) {
   if (!match || !bracket) {
     return {
@@ -103,6 +118,30 @@ export default function TournamentMatchResult() {
     };
   }, []);
 
+  const playerUid = useMemo(() => {
+    if (!tournament) return null;
+
+    const humanPlayers =
+      tournament.players?.filter((p: any) => !isBotUid(p.uid)) ?? [];
+
+    // Current tournament mode is solo-human + bots. The single non-bot
+    // tournament participant is the authoritative player identity.
+    if (humanPlayers.length === 1) {
+      return humanPlayers[0].uid;
+    }
+
+    // Future multiplayer safety: only trust PlayerStore.uid if it exists
+    // inside this tournament.
+    if (
+      rawUid &&
+      humanPlayers.some((p: any) => p.uid === rawUid)
+    ) {
+      return rawUid;
+    }
+
+    return humanPlayers[0]?.uid ?? null;
+  }, [rawUid, tournament]);
+
   const match: TournamentMatch | null = useMemo(() => {
     if (!bracket) return null;
 
@@ -113,18 +152,23 @@ export default function TournamentMatchResult() {
     ];
 
     const completed = all.filter((m) => Boolean(m?.completed));
-    return completed.length ? completed[completed.length - 1] : null;
-  }, [bracket]);
+    if (!completed.length) return null;
 
-  const playerUid = useMemo(() => {
-    if (!match) return null;
+    // Bot-only matches can auto-resolve after the player's match. Never use
+    // the last completed bracket match blindly. Show the latest completed
+    // match that contains the real tournament player.
+    if (playerUid) {
+      const playerMatch = [...completed]
+        .reverse()
+        .find(
+          (m) => m.playerAUid === playerUid || m.playerBUid === playerUid
+        );
 
-    if (rawUid && (rawUid === match.playerAUid || rawUid === match.playerBUid)) {
-      return rawUid;
+      if (playerMatch) return playerMatch;
     }
 
-    return tournament?.players?.[0]?.uid ?? null;
-  }, [match, rawUid, tournament?.players]);
+    return completed[completed.length - 1];
+  }, [bracket, playerUid]);
 
   const didWin = Boolean(match && playerUid && match.winnerUid === playerUid);
   const round = useMemo(() => getRoundInfo(match, bracket), [match, bracket]);
@@ -169,8 +213,8 @@ export default function TournamentMatchResult() {
   const yourScore = youAreA ? match.scoreA : match.scoreB;
   const opponentScore = youAreA ? match.scoreB : match.scoreA;
   const opponentUid = youAreA ? match.playerBUid : match.playerAUid;
-  const playerName = displayName || shortName(playerUid);
-  const rivalName = shortName(opponentUid);
+  const playerName = getTournamentPlayerName(tournament, playerUid, displayName);
+  const rivalName = getTournamentPlayerName(tournament, opponentUid);
   const nextText = didWin
     ? isFinal
       ? "Champion ceremony unlocked"

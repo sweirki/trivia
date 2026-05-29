@@ -241,7 +241,36 @@ useEffect(() => {
     );
 
     if (matchId) {
-      submitMatchResult(matchId, latestScore, botScore);
+      const tournamentState = useTournamentStore.getState();
+      const tournamentBracket = tournamentState.bracket;
+      const allTournamentMatches = tournamentBracket
+        ? [
+            ...tournamentBracket.qualifiers,
+            ...tournamentBracket.semifinals,
+            ...(tournamentBracket.final ? [tournamentBracket.final] : []),
+          ]
+        : [];
+      const targetMatch = allTournamentMatches.find((m) => m.id === matchId);
+      const currentUserUid =
+        useAuthStore.getState().user?.uid ??
+        (player as any).uid ??
+        null;
+
+      const playerAIsBot = targetMatch?.playerAUid?.startsWith("bot-") ?? false;
+      const playerBIsBot = targetMatch?.playerBUid?.startsWith("bot-") ?? false;
+
+      const humanIsA =
+        targetMatch?.playerAUid === currentUserUid ||
+        (!playerAIsBot && playerBIsBot);
+      const humanIsB =
+        targetMatch?.playerBUid === currentUserUid ||
+        (!playerBIsBot && playerAIsBot);
+
+      submitMatchResult(
+        matchId,
+        humanIsB && !humanIsA ? botScore : latestScore,
+        humanIsB && !humanIsA ? latestScore : botScore
+      );
     }
   }
 

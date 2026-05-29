@@ -188,7 +188,7 @@ export default function HubScreen() {
 
   const todayStatus = useMemo(() => {
     if (!todayChallenge) return "Loading…";
-    if (lastDailyPlayDate === todayKey) return "Completed today ✓";
+    if (lastDailyPlayDate === todayKey) return "Done Today ✓";
     return "Play Now →";
   }, [lastDailyPlayDate, todayChallenge, todayKey]);
 
@@ -377,13 +377,18 @@ export default function HubScreen() {
               styles.pressed,
           ]}
         >
-          <View>
-            <Text style={styles.infoLabel}>🎯 Today’s Challenge</Text>
-            <Text style={styles.infoSub}>Daily streak pressure</Text>
+          <View style={styles.infoTextBlock}>
+            <Text style={styles.infoLabel} numberOfLines={1}>🎯 Today’s Challenge</Text>
+            <Text style={styles.infoSub} numberOfLines={1}>Daily streak pressure</Text>
           </View>
           <Text
+            numberOfLines={1}
+            adjustsFontSizeToFit
+            minimumFontScale={0.78}
             style={[
               styles.infoValue,
+              styles.infoValueRight,
+              styles.infoValueGold,
               todayChallenge &&
                 lastDailyPlayDate !== todayKey &&
                 styles.greenText,
@@ -396,13 +401,18 @@ export default function HubScreen() {
 
       <InfoCard title="This Week">
         <View style={styles.infoRow}>
-          <View>
-            <Text style={styles.infoLabel}>🗓️ Weekly Challenge</Text>
-            <Text style={styles.infoSub}>
+          <View style={styles.infoTextBlock}>
+            <Text style={styles.infoLabel} numberOfLines={1}>🗓️ Weekly Challenge</Text>
+            <Text style={styles.infoSub} numberOfLines={1}>
               Complete {weeklyTarget} Daily games this week
             </Text>
           </View>
-          <Text style={styles.infoValue}>
+          <Text
+            numberOfLines={1}
+            adjustsFontSizeToFit
+            minimumFontScale={0.78}
+            style={[styles.infoValue, styles.infoValueRight, styles.infoValueGold]}
+          >
             {Math.min(weeklyProgress, weeklyTarget)} / {weeklyTarget}
           </Text>
         </View>
@@ -438,10 +448,19 @@ export default function HubScreen() {
       {rankProgress.next && (
         <InfoCard title="Rank Progress">
           <View style={styles.infoRow}>
-            <Text style={styles.infoLabel}>
-              {rankProgress.current.name} → {rankProgress.next.name}
+            <View style={styles.infoTextBlock}>
+              <Text style={styles.infoLabel} numberOfLines={1}>
+                {rankProgress.current.name} → {rankProgress.next.name}
+              </Text>
+            </View>
+            <Text
+              numberOfLines={1}
+              adjustsFontSizeToFit
+              minimumFontScale={0.78}
+              style={[styles.infoValue, styles.infoValueRight, styles.infoValueGold]}
+            >
+              {rankProgress.remaining} XP
             </Text>
-            <Text style={styles.infoValue}>{rankProgress.remaining} XP</Text>
           </View>
 
           <View style={styles.bar}>
@@ -1132,14 +1151,14 @@ const styles = StyleSheet.create({
 
   infoCard: {
     borderWidth: 1,
-    borderColor: "rgba(190,231,255,0.22)",
+    borderColor: "rgba(143,230,255,0.28)",
     borderRadius: 22,
     padding: 16,
     marginTop: 14,
     overflow: "hidden",
-    shadowColor: "#000",
-    shadowOpacity: 0.38,
-    shadowRadius: 28,
+    shadowColor: "#1E8CFF",
+    shadowOpacity: 0.18,
+    shadowRadius: 24,
     shadowOffset: { width: 0, height: 10 },
     elevation: 7,
   },
@@ -1156,41 +1175,66 @@ const styles = StyleSheet.create({
 
   infoTitle: {
     color: "#CBEFFF",
-    fontSize: 12,
+    fontSize: 18,
     fontWeight: "900",
-    marginBottom: 12,
-    textShadowColor: "rgba(169,203,231,0.16)",
-    textShadowRadius: 7,
+    marginBottom: 14,
+    textShadowColor: "rgba(143,230,255,0.22)",
+    textShadowRadius: 8,
   },
 
   infoRow: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    gap: 12,
+    gap: 10,
+  },
+
+  infoTextBlock: {
+    flex: 1,
+    minWidth: 0,
+    paddingRight: 10,
   },
 
   infoLabel: {
-    color: "#F2F7FF",
-    fontSize: 11,
+    color: "#8FE6FF",
+    fontSize: 15,
+    lineHeight: 19,
     fontWeight: "900",
+    textShadowColor: "rgba(0,0,0,0.72)",
+    textShadowRadius: 6,
   },
 
   infoSub: {
-    color: "#A8BAD4",
-    fontSize: 12,
+    color: "#AAB8D4",
+    fontSize: 13,
+    lineHeight: 17,
     fontWeight: "800",
-    marginTop: 3,
+    marginTop: 4,
   },
 
   infoValue: {
     color: "#D5EFFF",
-    fontSize: 12,
+    fontSize: 14,
+    lineHeight: 18,
     fontWeight: "900",
+    textAlign: "right",
+  },
+
+  infoValueRight: {
+    flexShrink: 0,
+    maxWidth: 150,
+  },
+
+  infoValueGold: {
+    color: "#FFD66E",
+    textShadowColor: "rgba(255,214,110,0.24)",
+    textShadowRadius: 8,
   },
 
   greenText: {
     color: "#35F2A1",
+    textShadowColor: "rgba(53,242,161,0.25)",
+    textShadowRadius: 8,
   },
 
   bar: {
@@ -1206,9 +1250,9 @@ const styles = StyleSheet.create({
   barFill: {
     height: "100%",
     backgroundColor: "#8FE6FF",
-    shadowColor: "#A9CBE7",
-    shadowOpacity: 0.5,
-    shadowRadius: 8,
+    shadowColor: "#8FE6FF",
+    shadowOpacity: 0.62,
+    shadowRadius: 9,
   },
 
   claimButton: {

@@ -38,6 +38,24 @@ function formatCategoryLabel(category?: string | null) {
   return String(category ?? "trivia").replaceAll("_", " ");
 }
 
+type RewardTileProps = {
+  label: string;
+  value: number;
+  tone?: "gold" | "blue" | "violet";
+};
+
+function RewardTile({ label, value, tone = "gold" }: RewardTileProps) {
+  if (value <= 0) return null;
+
+  return (
+    <View style={[styles.rewardTile, tone === "blue" && styles.rewardTileBlue, tone === "violet" && styles.rewardTileViolet]}>
+      <View pointerEvents="none" style={styles.rewardTileGlow} />
+      <Text style={styles.rewardValue}>+{value}</Text>
+      <Text style={styles.rewardLabel}>{label}</Text>
+    </View>
+  );
+}
+
 export default function ResultsScreen() {
   const daily = usePlayerStore((s) => s.daily);
   const tickets = usePlayerStore((s) => s.tickets);
@@ -129,9 +147,9 @@ export default function ResultsScreen() {
     }
 
     return {
-      badge: "RESET",
-      title: "Next Run Wins",
-      message: "Shake it off and pick a category you can dominate.",
+      badge: "NEXT RUN",
+      title: "Reset And Strike Back",
+      message: "Shake it off. Pick a cleaner category and chase the reward pace.",
     };
   }, [dailyResult, mode, summary.accuracy]);
 
@@ -213,6 +231,7 @@ export default function ResultsScreen() {
 
   const runLabel = formatModeLabel(mode);
   const categoryLabel = formatCategoryLabel(category);
+  const hasRewards = earnedXP > 0 || earnedCoins > 0 || earnedGems > 0 || earnedTickets > 0;
 
   return (
     <ImageBackground
@@ -224,6 +243,7 @@ export default function ResultsScreen() {
       <View style={styles.overlay} />
       <View style={styles.topGlow} />
       <View style={styles.bottomGlow} />
+      <View style={styles.goldAtmosphere} />
 
       {postGameOffer ? (
         <Modal
@@ -242,9 +262,7 @@ export default function ResultsScreen() {
                 </View>
 
                 <View style={styles.offerBadge}>
-                  <Text style={styles.offerBadgeText}>
-                    {postGameOffer.badge}
-                  </Text>
+                  <Text style={styles.offerBadgeText}>{postGameOffer.badge}</Text>
                 </View>
 
                 <Text style={styles.offerTitle}>{postGameOffer.title}</Text>
@@ -282,106 +300,101 @@ export default function ResultsScreen() {
 
       <SafeAreaView style={styles.safe}>
         <ScrollView
-          contentContainerStyle={[styles.content, { paddingBottom: 84 + insets.bottom }]}
+          contentContainerStyle={[styles.content, { paddingBottom: 88 + insets.bottom }]}
           showsVerticalScrollIndicator={false}
         >
-          <View style={styles.headerBlock}>
-            <View style={styles.emblemHalo}>
-              <ImageBackground
-                source={EMBLEM}
-                style={styles.emblem}
-                resizeMode="contain"
-              />
+          <View style={styles.heroCard}>
+            <View pointerEvents="none" style={styles.heroBlueGlow} />
+            <View pointerEvents="none" style={styles.heroGoldGlow} />
+
+            <View style={styles.heroTopRow}>
+              <View style={styles.emblemHalo}>
+                <ImageBackground source={EMBLEM} style={styles.emblem} resizeMode="contain" />
+              </View>
+
+              <View style={styles.heroCopy}>
+                <Text style={styles.heroKicker}>RUN COMPLETE</Text>
+                <Text style={styles.heroMode} numberOfLines={1}>
+                  {runLabel} • {categoryLabel}
+                </Text>
+              </View>
+
+              <View style={styles.accuracyPill}>
+                <Text style={styles.accuracyPillValue}>{summary.accuracy}%</Text>
+                <Text style={styles.accuracyPillLabel}>ACC</Text>
+              </View>
             </View>
 
-            <Text style={styles.title}>RESULTS</Text>
+            <View style={styles.scoreStage}>
+              <Text style={styles.scoreLabel}>SCORE</Text>
+              <Animated.Text style={[styles.score, scoreStyle]}>{score}</Animated.Text>
+              <Text style={styles.scoreSub}>
+                {summary.correct} correct • {summary.wrong} wrong
+              </Text>
+            </View>
+          </View>
 
-            <Animated.Text style={[styles.score, scoreStyle]}>
-              {score}
-            </Animated.Text>
+          <View style={styles.sectionHeaderRow}>
+            <Text style={styles.sectionTitle}>Rewards Earned</Text>
+            <Text style={styles.sectionHint}>{hasRewards ? "Claimed" : "No bonus"}</Text>
+          </View>
 
-            <Text style={styles.meta}>
-              {runLabel} • {categoryLabel}
-            </Text>
+          <View style={styles.rewardPanel}>
+            <View pointerEvents="none" style={styles.rewardPanelGlow} />
+            {hasRewards ? (
+              <View style={styles.rewardGrid}>
+                <RewardTile label="XP" value={earnedXP} tone="blue" />
+                <RewardTile label="COINS" value={earnedCoins} />
+                <RewardTile label="GEMS" value={earnedGems} tone="violet" />
+                <RewardTile label="TICKETS" value={earnedTickets} tone="gold" />
+              </View>
+            ) : (
+              <View style={styles.emptyRewardBox}>
+                <Text style={styles.emptyRewardTitle}>No Rewards This Run</Text>
+                <Text style={styles.emptyRewardText}>A stronger run will unlock better payout momentum.</Text>
+              </View>
+            )}
+          </View>
 
-            <View style={styles.performanceStrip}>
-              <Text style={styles.performanceBadge}>{performance.badge}</Text>
+          <View style={styles.performanceCard}>
+            <View style={styles.performanceHeader}>
+              <View style={styles.performanceBadge}>
+                <Text style={styles.performanceBadgeText}>{performance.badge}</Text>
+              </View>
               <Text style={styles.performanceTitle}>{performance.title}</Text>
-              <Text style={styles.performanceText}>{performance.message}</Text>
             </View>
 
-            {mode === "daily" && dailyResult ? (
-              <View style={styles.dailyStrip}>
-                <Text style={styles.dailyTitle}>Daily Complete</Text>
-                <Text style={styles.dailyText}>
-                  {Math.round(dailyResult.accuracy * 100)}% • 🔥 {daily.streak}{" "}
-                  days
-                </Text>
-              </View>
-            ) : null}
-          </View>
+            <Text style={styles.performanceText}>{performance.message}</Text>
 
-          <View style={styles.resultCard}>
-            <View style={styles.statGrid}>
+            <View style={styles.statRow}>
               <View style={styles.statTile}>
+                <Text style={styles.statValue}>{summary.correct}</Text>
                 <Text style={styles.statLabel}>Correct</Text>
-                <Text style={styles.statValue}>
-                  {summary.correct} / {summary.total}
-                </Text>
               </View>
-
               <View style={styles.statTile}>
-                <Text style={styles.statLabel}>Wrong</Text>
                 <Text style={styles.statValue}>{summary.wrong}</Text>
+                <Text style={styles.statLabel}>Wrong</Text>
               </View>
-
-              <View style={styles.statTileWide}>
+              <View style={[styles.statTile, styles.statTileGold]}>
+                <Text style={styles.statValueGold}>{summary.accuracy}%</Text>
                 <Text style={styles.statLabel}>Accuracy</Text>
-                <Text style={styles.statValue}>{summary.accuracy}%</Text>
               </View>
-            </View>
-
-            <View style={styles.divider} />
-
-            <View style={styles.rewardGrid}>
-              {earnedXP > 0 ? (
-                <View style={styles.rewardPill}>
-                  <Text style={styles.rewardLabel}>XP</Text>
-                  <Text style={styles.rewardValue}>+{earnedXP}</Text>
-                </View>
-              ) : null}
-
-              {earnedCoins > 0 ? (
-                <View style={styles.rewardPill}>
-                  <Text style={styles.rewardLabel}>COINS</Text>
-                  <Text style={styles.rewardValue}>+{earnedCoins}</Text>
-                </View>
-              ) : null}
-
-              {earnedGems > 0 ? (
-                <View style={styles.rewardPill}>
-                  <Text style={styles.rewardLabel}>GEMS</Text>
-                  <Text style={styles.rewardValue}>+{earnedGems}</Text>
-                </View>
-              ) : null}
-
-              {earnedTickets > 0 ? (
-                <View style={styles.rewardPill}>
-                  <Text style={styles.rewardLabel}>TICKETS</Text>
-                  <Text style={styles.rewardValue}>+{earnedTickets}</Text>
-                </View>
-              ) : null}
             </View>
           </View>
+
+          {mode === "daily" && dailyResult ? (
+            <View style={styles.dailyStrip}>
+              <Text style={styles.dailyTitle}>Daily Complete</Text>
+              <Text style={styles.dailyText}>
+                {Math.round(dailyResult.accuracy * 100)}% • 🔥 {daily.streak} days
+              </Text>
+            </View>
+          ) : null}
 
           {retentionSummary ? (
             <View style={styles.motivationBox}>
-              <Text style={styles.motivationTitle}>
-                {retentionSummary.title}
-              </Text>
-              <Text style={styles.motivationText}>
-                {retentionSummary.message}
-              </Text>
+              <Text style={styles.motivationTitle}>{retentionSummary.title}</Text>
+              <Text style={styles.motivationText}>{retentionSummary.message}</Text>
             </View>
           ) : null}
 
@@ -392,17 +405,11 @@ export default function ResultsScreen() {
               onPress={openOffer}
             >
               <View style={styles.inlineOfferBadge}>
-                <Text style={styles.inlineOfferBadgeText}>
-                  {postGameOffer.badge}
-                </Text>
+                <Text style={styles.inlineOfferBadgeText}>{postGameOffer.badge}</Text>
               </View>
               <View style={styles.inlineOfferCopy}>
-                <Text style={styles.inlineOfferTitle}>
-                  {postGameOffer.title}
-                </Text>
-                <Text style={styles.inlineOfferText}>
-                  {postGameOffer.primaryLabel}
-                </Text>
+                <Text style={styles.inlineOfferTitle}>{postGameOffer.title}</Text>
+                <Text style={styles.inlineOfferText}>{postGameOffer.primaryLabel}</Text>
               </View>
               <Text style={styles.inlineOfferArrow}>›</Text>
             </TouchableOpacity>
@@ -416,6 +423,7 @@ export default function ResultsScreen() {
               activeOpacity={0.88}
             >
               <Text style={styles.primaryText}>Play Again</Text>
+              <Text style={styles.primarySub}>Choose a category and run it back</Text>
             </TouchableOpacity>
 
             <TouchableOpacity
@@ -436,32 +444,42 @@ export default function ResultsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#070B18",
+    backgroundColor: "#060B18",
   },
 
   overlay: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: "rgba(0,0,0,0.54)",
+    backgroundColor: "rgba(0,0,0,0.50)",
   },
 
   topGlow: {
     position: "absolute",
-    top: -90,
-    left: -70,
-    width: 230,
-    height: 230,
-    borderRadius: 115,
-    backgroundColor: "rgba(68,145,255,0.16)",
+    top: -95,
+    left: -80,
+    width: 250,
+    height: 250,
+    borderRadius: 125,
+    backgroundColor: "rgba(68,145,255,0.18)",
   },
 
   bottomGlow: {
     position: "absolute",
-    right: -80,
-    bottom: -110,
-    width: 260,
-    height: 260,
-    borderRadius: 130,
-    backgroundColor: "rgba(245,196,81,0.11)",
+    right: -90,
+    bottom: -120,
+    width: 290,
+    height: 290,
+    borderRadius: 145,
+    backgroundColor: "rgba(245,196,81,0.13)",
+  },
+
+  goldAtmosphere: {
+    position: "absolute",
+    left: 36,
+    right: 36,
+    top: 120,
+    height: 160,
+    borderRadius: 100,
+    backgroundColor: "rgba(245,196,81,0.045)",
   },
 
   safe: {
@@ -470,27 +488,62 @@ const styles = StyleSheet.create({
 
   content: {
     flexGrow: 1,
-    paddingHorizontal: 14,
-    paddingTop: 8,
-    paddingBottom: 30,
-    justifyContent: "flex-start",
+    paddingHorizontal: 16,
+    paddingTop: 10,
+    paddingBottom: 34,
   },
 
-  headerBlock: {
+  heroCard: {
+    minHeight: 246,
+    borderRadius: 28,
+    overflow: "hidden",
+    padding: 16,
+    marginBottom: 14,
+    backgroundColor: "rgba(9,18,38,0.95)",
+    borderWidth: 1.3,
+    borderColor: "rgba(245,196,81,0.34)",
+    shadowColor: "#56A6FF",
+    shadowOpacity: 0.18,
+    shadowRadius: 20,
+    shadowOffset: { width: 0, height: 10 },
+    elevation: 10,
+  },
+
+  heroBlueGlow: {
+    position: "absolute",
+    top: -70,
+    right: -52,
+    width: 180,
+    height: 180,
+    borderRadius: 90,
+    backgroundColor: "rgba(86,166,255,0.16)",
+  },
+
+  heroGoldGlow: {
+    position: "absolute",
+    left: -65,
+    bottom: -78,
+    width: 210,
+    height: 210,
+    borderRadius: 105,
+    backgroundColor: "rgba(245,196,81,0.11)",
+  },
+
+  heroTopRow: {
+    flexDirection: "row",
     alignItems: "center",
-    marginBottom: 12,
+    gap: 11,
   },
 
   emblemHalo: {
     width: 58,
     height: 58,
-    borderRadius: 29,
+    borderRadius: 22,
     alignItems: "center",
     justifyContent: "center",
-    marginBottom: 4,
-    backgroundColor: "rgba(245,196,81,0.08)",
+    backgroundColor: "rgba(245,196,81,0.10)",
     borderWidth: 1,
-    borderColor: "rgba(245,196,81,0.18)",
+    borderColor: "rgba(245,196,81,0.28)",
   },
 
   emblem: {
@@ -498,75 +551,307 @@ const styles = StyleSheet.create({
     height: 50,
   },
 
-  title: {
-    fontSize: 13,
-    fontWeight: "900",
-    textAlign: "center",
+  heroCopy: {
+    flex: 1,
+    minWidth: 0,
+  },
+
+  heroKicker: {
     color: "#F5C451",
-    letterSpacing: 1.1,
+    fontSize: 10,
+    fontWeight: "900",
+    letterSpacing: 1.4,
     marginBottom: 3,
   },
 
-  score: {
-    fontSize: 28,
-    lineHeight: 17,
-    fontWeight: "900",
-    textAlign: "center",
-    color: "#FFFFFF",
-    textShadowColor: "rgba(86,166,255,0.42)",
-    textShadowRadius: 14,
-  },
-
-  meta: {
-    textAlign: "center",
+  heroMode: {
     color: "#DCE7FF",
     fontSize: 13,
-    fontWeight: "800",
-    marginTop: 2,
+    fontWeight: "900",
     textTransform: "capitalize",
   },
 
-  performanceStrip: {
-    width: "100%",
-    marginTop: 10,
-    borderRadius: 15,
-    paddingHorizontal: 14,
-    paddingVertical: 10,
-    backgroundColor: "rgba(12,23,48,0.86)",
+  accuracyPill: {
+    minWidth: 58,
+    borderRadius: 18,
+    paddingVertical: 8,
+    paddingHorizontal: 9,
+    alignItems: "center",
+    backgroundColor: "rgba(13,28,56,0.84)",
     borderWidth: 1,
-    borderColor: "rgba(86,166,255,0.24)",
+    borderColor: "rgba(143,203,255,0.28)",
   },
 
-  performanceBadge: {
+  accuracyPillValue: {
+    color: "#FFFFFF",
+    fontSize: 14,
+    fontWeight: "900",
+  },
+
+  accuracyPillLabel: {
+    color: "#8FCBFF",
+    fontSize: 9,
+    fontWeight: "900",
+    letterSpacing: 0.8,
+    marginTop: 1,
+  },
+
+  scoreStage: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    paddingTop: 16,
+  },
+
+  scoreLabel: {
+    color: "#8FCBFF",
+    fontSize: 11,
+    fontWeight: "900",
+    letterSpacing: 2.0,
+    marginBottom: 2,
+  },
+
+  score: {
+    color: "#FFFFFF",
+    fontSize: 62,
+    lineHeight: 70,
+    fontWeight: "900",
+    textAlign: "center",
+    textShadowColor: "rgba(86,166,255,0.48)",
+    textShadowRadius: 18,
+  },
+
+  scoreSub: {
+    color: "#DCE7FF",
+    fontSize: 12,
+    fontWeight: "800",
+    marginTop: 2,
+  },
+
+  sectionHeaderRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginBottom: 8,
+    paddingHorizontal: 2,
+  },
+
+  sectionTitle: {
+    color: "#F4FAFF",
+    fontSize: 14,
+    fontWeight: "900",
+    letterSpacing: -0.1,
+  },
+
+  sectionHint: {
     color: "#8FCBFF",
     fontSize: 10,
     fontWeight: "900",
     letterSpacing: 0.9,
+    textTransform: "uppercase",
+  },
+
+  rewardPanel: {
+    overflow: "hidden",
+    borderRadius: 24,
+    padding: 12,
+    marginBottom: 12,
+    backgroundColor: "rgba(11,22,46,0.95)",
+    borderWidth: 1.2,
+    borderColor: "rgba(245,196,81,0.27)",
+    shadowColor: "#F5C451",
+    shadowOpacity: 0.12,
+    shadowRadius: 14,
+    shadowOffset: { width: 0, height: 7 },
+    elevation: 7,
+  },
+
+  rewardPanelGlow: {
+    position: "absolute",
+    top: -48,
+    right: -42,
+    width: 140,
+    height: 140,
+    borderRadius: 70,
+    backgroundColor: "rgba(245,196,81,0.12)",
+  },
+
+  rewardGrid: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 9,
+  },
+
+  rewardTile: {
+    flexGrow: 1,
+    minWidth: "47%",
+    minHeight: 76,
+    borderRadius: 20,
+    overflow: "hidden",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "rgba(245,196,81,0.13)",
+    borderWidth: 1,
+    borderColor: "rgba(245,196,81,0.30)",
+  },
+
+  rewardTileBlue: {
+    backgroundColor: "rgba(86,166,255,0.13)",
+    borderColor: "rgba(86,166,255,0.30)",
+  },
+
+  rewardTileViolet: {
+    backgroundColor: "rgba(169,119,255,0.13)",
+    borderColor: "rgba(169,119,255,0.30)",
+  },
+
+  rewardTileGlow: {
+    position: "absolute",
+    top: 0,
+    left: 16,
+    right: 16,
+    height: 1,
+    backgroundColor: "rgba(255,255,255,0.38)",
+  },
+
+  rewardValue: {
+    color: "#FFFFFF",
+    fontSize: 24,
+    fontWeight: "900",
+    lineHeight: 28,
+    textShadowColor: "rgba(0,0,0,0.78)",
+    textShadowRadius: 8,
+  },
+
+  rewardLabel: {
+    color: "#F5C451",
+    fontSize: 10,
+    fontWeight: "900",
+    letterSpacing: 0.9,
+    marginTop: 3,
+  },
+
+  emptyRewardBox: {
+    minHeight: 82,
+    alignItems: "center",
+    justifyContent: "center",
+    paddingHorizontal: 12,
+  },
+
+  emptyRewardTitle: {
+    color: "#F5C451",
+    fontSize: 14,
+    fontWeight: "900",
+    marginBottom: 4,
+  },
+
+  emptyRewardText: {
+    color: "#DCE7FF",
+    fontSize: 12,
+    fontWeight: "700",
     textAlign: "center",
-    marginBottom: 3,
+    lineHeight: 17,
+  },
+
+  performanceCard: {
+    borderRadius: 24,
+    padding: 14,
+    marginBottom: 12,
+    backgroundColor: "rgba(12,23,48,0.93)",
+    borderWidth: 1.2,
+    borderColor: "rgba(86,166,255,0.25)",
+    shadowColor: "#56A6FF",
+    shadowOpacity: 0.11,
+    shadowRadius: 14,
+    shadowOffset: { width: 0, height: 7 },
+    elevation: 6,
+  },
+
+  performanceHeader: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 9,
+    marginBottom: 8,
+  },
+
+  performanceBadge: {
+    borderRadius: 999,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    backgroundColor: "rgba(143,203,255,0.14)",
+    borderWidth: 1,
+    borderColor: "rgba(143,203,255,0.24)",
+  },
+
+  performanceBadgeText: {
+    color: "#8FCBFF",
+    fontSize: 9,
+    fontWeight: "900",
+    letterSpacing: 0.9,
   },
 
   performanceTitle: {
+    flex: 1,
     color: "#F5C451",
-    fontSize: 13,
+    fontSize: 17,
     fontWeight: "900",
-    textAlign: "center",
   },
 
   performanceText: {
     color: "#DCE7FF",
-    fontSize: 12,
-    fontWeight: "700",
-    lineHeight: 17,
-    textAlign: "center",
+    fontSize: 12.5,
+    fontWeight: "750",
+    lineHeight: 18,
+    marginBottom: 12,
+  },
+
+  statRow: {
+    flexDirection: "row",
+    gap: 8,
+  },
+
+  statTile: {
+    flex: 1,
+    minHeight: 64,
+    borderRadius: 18,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "rgba(18,29,58,0.92)",
+    borderWidth: 1,
+    borderColor: "rgba(86,166,255,0.20)",
+  },
+
+  statTileGold: {
+    backgroundColor: "rgba(245,196,81,0.10)",
+    borderColor: "rgba(245,196,81,0.22)",
+  },
+
+  statValue: {
+    color: "#FFFFFF",
+    fontSize: 18,
+    fontWeight: "900",
+  },
+
+  statValueGold: {
+    color: "#F5C451",
+    fontSize: 18,
+    fontWeight: "900",
+  },
+
+  statLabel: {
+    color: "#AAB8E8",
+    fontSize: 9.5,
+    fontWeight: "900",
+    letterSpacing: 0.5,
     marginTop: 3,
+    textTransform: "uppercase",
   },
 
   dailyStrip: {
-    marginTop: 8,
-    borderRadius: 16,
+    marginBottom: 12,
+    borderRadius: 18,
     paddingHorizontal: 14,
-    paddingVertical: 8,
+    paddingVertical: 10,
     backgroundColor: "rgba(245,196,81,0.12)",
     borderWidth: 1,
     borderColor: "rgba(245,196,81,0.22)",
@@ -587,106 +872,13 @@ const styles = StyleSheet.create({
     marginTop: 2,
   },
 
-  resultCard: {
-    backgroundColor: "rgba(13,20,42,0.95)",
-    borderRadius: 16,
-    padding: 12,
-    marginBottom: 9,
-    borderWidth: 1.2,
-    borderColor: "rgba(245,196,81,0.24)",
-    shadowColor: "#56A6FF",
-    shadowOpacity: 0.12,
-    shadowRadius: 14,
-    shadowOffset: { width: 0, height: 8 },
-    elevation: 7,
-  },
-
-  statGrid: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 7,
-  },
-
-  statTile: {
-    flex: 1,
-    minWidth: "47%",
-    borderRadius: 17,
-    paddingVertical: 10,
-    paddingHorizontal: 12,
-    backgroundColor: "rgba(18,29,58,0.92)",
-    borderWidth: 1,
-    borderColor: "rgba(86,166,255,0.20)",
-  },
-
-  statTileWide: {
-    width: "100%",
-    borderRadius: 17,
-    paddingVertical: 10,
-    paddingHorizontal: 12,
-    backgroundColor: "rgba(245,196,81,0.10)",
-    borderWidth: 1,
-    borderColor: "rgba(245,196,81,0.20)",
-  },
-
-  statLabel: {
-    color: "#AAB8E8",
-    fontSize: 11,
-    fontWeight: "900",
-    letterSpacing: 0.6,
-    marginBottom: 3,
-    textTransform: "uppercase",
-  },
-
-  statValue: {
-    color: "#FFFFFF",
-    fontSize: 11,
-    fontWeight: "900",
-  },
-
-  divider: {
-    height: 1,
-    backgroundColor: "rgba(255,255,255,0.08)",
-    marginVertical: 11,
-  },
-
-  rewardGrid: {
-    flexDirection: "row",
-    gap: 8,
-    flexWrap: "wrap",
-  },
-
-  rewardPill: {
-    flexGrow: 1,
-    minWidth: "47%",
-    borderRadius: 16,
-    paddingVertical: 10,
-    alignItems: "center",
-    backgroundColor: "rgba(18,29,58,0.92)",
-    borderWidth: 1,
-    borderColor: "rgba(245,196,81,0.16)",
-  },
-
-  rewardLabel: {
-    color: "#AAB8E8",
-    fontSize: 10,
-    fontWeight: "900",
-    letterSpacing: 0.7,
-    marginBottom: 3,
-  },
-
-  rewardValue: {
-    color: "#FFFFFF",
-    fontSize: 13,
-    fontWeight: "900",
-  },
-
   motivationBox: {
     backgroundColor: "rgba(12,23,48,0.90)",
-    borderRadius: 18,
+    borderRadius: 20,
     borderWidth: 1,
     borderColor: "rgba(86,166,255,0.25)",
-    padding: 12,
-    marginBottom: 10,
+    padding: 13,
+    marginBottom: 12,
   },
 
   motivationTitle: {
@@ -710,25 +902,29 @@ const styles = StyleSheet.create({
     alignItems: "center",
     gap: 10,
     backgroundColor: "rgba(13,20,42,0.94)",
-    borderRadius: 18,
+    borderRadius: 20,
     borderWidth: 1,
     borderColor: "rgba(245,196,81,0.28)",
-    paddingVertical: 11,
+    paddingVertical: 12,
     paddingHorizontal: 12,
-    marginBottom: 12,
+    marginBottom: 13,
   },
 
   inlineOfferBadge: {
     borderRadius: 999,
     paddingHorizontal: 9,
     paddingVertical: 6,
-    backgroundColor: "rgba(245,196,81,0.95)",
+    backgroundColor: "rgba(79,195,255,0.95)",
+    alignItems: "center",
+    justifyContent: "center",
   },
 
   inlineOfferBadgeText: {
-    color: "#111827",
+    color: "#04111F",
     fontSize: 9,
     fontWeight: "900",
+    textAlign: "center",
+    includeFontPadding: false,
   },
 
   inlineOfferCopy: {
@@ -761,30 +957,38 @@ const styles = StyleSheet.create({
   },
 
   primaryBtn: {
-    minHeight: 46,
-    borderRadius: 16,
+    minHeight: 62,
+    borderRadius: 20,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "rgba(245,196,81,0.96)",
+    backgroundColor: "rgba(79,195,255,0.98)",
     borderWidth: 1.5,
-    borderColor: "rgba(255,230,150,0.75)",
-    shadowColor: "#F5C451",
-    shadowOpacity: 0.18,
-    shadowRadius: 12,
-    shadowOffset: { width: 0, height: 6 },
-    elevation: 7,
+    borderColor: "rgba(143,216,255,0.86)",
+    shadowColor: "#4FC3FF",
+    shadowOpacity: 0.26,
+    shadowRadius: 15,
+    shadowOffset: { width: 0, height: 7 },
+    elevation: 8,
   },
 
   primaryText: {
-    color: "#111827",
+    color: "#04111F",
     textAlign: "center",
-    fontSize: 13,
+    fontSize: 15,
     fontWeight: "900",
   },
 
+  primarySub: {
+    color: "rgba(4,17,31,0.72)",
+    textAlign: "center",
+    fontSize: 10,
+    fontWeight: "900",
+    marginTop: 2,
+  },
+
   secondaryBtn: {
-    minHeight: 44,
-    borderRadius: 16,
+    minHeight: 48,
+    borderRadius: 18,
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "rgba(13,20,42,0.90)",
@@ -863,6 +1067,9 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontWeight: "900",
     letterSpacing: 0.8,
+    textAlign: "center",
+    includeFontPadding: false,
+    textAlignVertical: "center",
     textShadowColor: "rgba(245,196,81,0.35)",
     textShadowRadius: 10,
   },
@@ -872,17 +1079,21 @@ const styles = StyleSheet.create({
     borderRadius: 999,
     paddingHorizontal: 10,
     paddingVertical: 5,
-    backgroundColor: "rgba(245,196,81,0.96)",
+    backgroundColor: "rgba(79,195,255,0.96)",
     marginBottom: 9,
     borderWidth: 1,
-    borderColor: "rgba(255,230,150,0.75)",
+    borderColor: "rgba(143,216,255,0.78)",
+    alignItems: "center",
+    justifyContent: "center",
   },
 
   offerBadgeText: {
-    color: "#111827",
+    color: "#04111F",
     fontSize: 10,
     fontWeight: "900",
     letterSpacing: 0.7,
+    textAlign: "center",
+    includeFontPadding: false,
   },
 
   offerTitle: {
@@ -933,23 +1144,24 @@ const styles = StyleSheet.create({
   offerPrimaryBtn: {
     height: 50,
     borderRadius: 18,
-    backgroundColor: "rgba(245,196,81,0.96)",
+    backgroundColor: "rgba(79,195,255,0.96)",
     alignItems: "center",
     justifyContent: "center",
     marginBottom: 10,
     borderWidth: 1.5,
-    borderColor: "rgba(255,230,150,0.75)",
-    shadowColor: "#F5C451",
-    shadowOpacity: 0.18,
+    borderColor: "rgba(143,216,255,0.78)",
+    shadowColor: "#4FC3FF",
+    shadowOpacity: 0.20,
     shadowRadius: 12,
     shadowOffset: { width: 0, height: 6 },
     elevation: 7,
   },
 
   offerPrimaryText: {
-    color: "#111827",
+    color: "#04111F",
     fontSize: 11,
     fontWeight: "900",
+    textAlign: "center",
   },
 
   offerSecondaryBtn: {
@@ -968,5 +1180,3 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
 });
-
-

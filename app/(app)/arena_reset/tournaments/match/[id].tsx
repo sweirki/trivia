@@ -81,6 +81,18 @@ function displayName(value?: string | null) {
   return value;
 }
 
+function getTournamentPlayerName(tournament: any, uid?: string | null) {
+  if (!uid) return "TBD";
+
+  const player = tournament?.players?.find((p: any) => p.uid === uid);
+  const name = player?.username?.trim?.();
+
+  if (name) return name;
+  if (uid.startsWith("bot-")) return "Arena Rival";
+
+  return displayName(uid);
+}
+
 export default function TournamentMatchScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const hasLaunchedRef = useRef(false);
@@ -208,7 +220,7 @@ export default function TournamentMatchScreen() {
       <View style={styles.vsCard}>
         <View style={styles.playerBox}>
           <Text style={styles.avatar}>🙂</Text>
-          <Text style={styles.playerName}>{displayName(match.playerAUid)}</Text>
+          <Text style={styles.playerName}>{getTournamentPlayerName(tournament, match.playerAUid)}</Text>
         </View>
 
         <View style={styles.vsCenter}>
@@ -218,7 +230,7 @@ export default function TournamentMatchScreen() {
 
         <View style={styles.playerBox}>
           <Text style={styles.avatar}>🤖</Text>
-          <Text style={styles.playerName}>{displayName(match.playerBUid)}</Text>
+          <Text style={styles.playerName}>{getTournamentPlayerName(tournament, match.playerBUid)}</Text>
         </View>
       </View>
 

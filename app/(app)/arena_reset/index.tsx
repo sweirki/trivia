@@ -318,58 +318,66 @@ export default function ArenaHub() {
         </View>
       </LinearGradient>
 
-      <Animated.View
-        style={[
-          styles.seasonLiveCard,
-          seasonExpired && styles.seasonLiveCardExpired,
-          {
-            opacity: glowAnim,
-            transform: [{ scale: pulseAnim }],
-          },
-        ]}
-      >
-        <View style={{ flex: 1 }}>
-          <Text style={styles.seasonLiveLabel}>SEASON STATUS</Text>
-          <Text style={styles.seasonLiveTitle}>
-            {seasonExpired ? `Season ${season} Complete` : `Season ${season} Ends In`}
-          </Text>
-          {seasonExpired ? (
-            <Text style={styles.seasonLiveBody}>
-              Close the season, lock your peak, and start the next climb.
+      <View style={styles.seasonOverviewCard}>
+        <View pointerEvents="none" style={styles.seasonOverviewGlow} />
+        <View style={styles.seasonOverviewHeader}>
+          <View style={styles.seasonOverviewCopy}>
+            <Text style={styles.seasonOverviewLabel}>SEASON OVERVIEW</Text>
+            <Text style={styles.seasonOverviewTitle}>
+              {seasonExpired ? `Season ${season} Complete` : `Season ${season} • ${seasonCountdown} left`}
             </Text>
-          ) : null}
+            <Text style={styles.seasonOverviewBody} numberOfLines={2}>
+              Peak {highestRankLabel} • {seasonReward.title} • {weeklyProgress}/{weeklyGoal} weekly push
+            </Text>
+          </View>
+
+          {seasonExpired ? (
+            <TouchableOpacity
+              style={styles.seasonOverviewButton}
+              activeOpacity={0.88}
+              onPress={() => {
+                const snapshot = resetSeason();
+                showThemedAlert(
+                  "Season Closed",
+                  `Season ${snapshot.season} locked at ${snapshot.highestRankLabel}. Claim ${snapshot.tokenReward} arena tokens from the season card.`,
+                  "success",
+                );
+              }}
+            >
+              <Text style={styles.seasonOverviewButtonText}>Start Next</Text>
+            </TouchableOpacity>
+          ) : (
+            <Text style={styles.seasonOverviewCountdown}>{seasonCountdown}</Text>
+          )}
         </View>
-        {seasonExpired ? (
-          <TouchableOpacity
-            style={styles.seasonResetButton}
-            activeOpacity={0.88}
-            onPress={() => {
-              const snapshot = resetSeason();
-              showThemedAlert(
-                "Season Closed",
-                `Season ${snapshot.season} locked at ${snapshot.highestRankLabel}. Claim ${snapshot.tokenReward} arena tokens from the season card.`,
-                "success",
-              );
-            }}
-          >
-            <Text style={styles.seasonResetButtonText}>Start Next</Text>
-          </TouchableOpacity>
-        ) : (
-          <Text style={styles.seasonCountdown}>{seasonCountdown}</Text>
-        )}
-      </Animated.View>
+
+        <View style={styles.seasonOverviewStats}>
+          <View style={styles.seasonOverviewStat}>
+            <Text style={styles.seasonOverviewStatValue}>{weeklyProgress}/{weeklyGoal}</Text>
+            <Text style={styles.seasonOverviewStatLabel}>Weekly</Text>
+          </View>
+          <View style={styles.seasonOverviewStat}>
+            <Text style={styles.seasonOverviewStatValue}>🔥 {safeDailyStreak}</Text>
+            <Text style={styles.seasonOverviewStatLabel}>Streak</Text>
+          </View>
+          <View style={styles.seasonOverviewStat}>
+            <Text style={styles.seasonOverviewStatValueGold}>{highestRankLabel}</Text>
+            <Text style={styles.seasonOverviewStatLabel}>Peak</Text>
+          </View>
+        </View>
+      </View>
 
       <LinearGradient
-        colors={["rgba(247,211,106,0.18)", "rgba(12,28,56,0.98)"]}
-        style={styles.majorCard}
+        colors={["rgba(247,211,106,0.15)", "rgba(12,28,56,0.96)"]}
+        style={styles.dailyCompactCard}
       >
         <View style={styles.cardHeaderRow}>
           <Text style={styles.majorLabel}>DAILY ARENA</Text>
           <Text style={styles.countdownText}>Refreshes daily</Text>
         </View>
 
-        <Text style={styles.majorTitle}>Daily Competitive Push</Text>
-        <Text style={styles.majorBody}>
+        <Text style={styles.dailyCompactTitle}>Daily Competitive Push</Text>
+        <Text style={styles.dailyCompactBody} numberOfLines={2}>
           Play today’s ranked pressure run and keep momentum alive.
         </Text>
 
@@ -402,57 +410,56 @@ export default function ArenaHub() {
         </TouchableOpacity>
       </LinearGradient>
 
-      <View style={styles.energyGrid}>
-        <View style={[styles.energyCard, weeklyAlmostDone && styles.glowBlue]}>
-          <Text style={styles.energyTitle}>Weekly Push</Text>
-          <Text style={styles.energyValue}>
-            {weeklyProgress}/{weeklyGoal}
-          </Text>
+      <View style={styles.modesWrapper}>
+        <Text style={styles.sectionTitle}>Choose Arena</Text>
 
-          <AnimatedProgressBar
-            percent={weeklyPercent}
-            height={s(7)}
-            fillColor="#4FC3F7"
-            trackColor="rgba(190,231,255,0.16)"
-            glowColor="#4FC3F7"
-            style={styles.smallBar}
+        <ArenaModeCard
+          testID="arena-mode-ranked"
+          art={RANKED_MODE_ART}
+          accent="#D6A93A"
+          title="Ranked Arena"
+          subtitle={`Entry: ${formatArenaCost("ranked")} • ${ARENA_MODE_CONFIG.ranked.rewardLabel}.`}
+          tag={getArenaLiveEventModeTag("ranked", activeLiveEvent) ?? (isNearPromotion ? "PROMOTION" : isDangerZone ? "PROTECT" : "COMPETITIVE")}
+          onPress={() => {
+            router.push("/(app)/arena_reset/ranked");
+          }}
+        />
+
+        <ArenaModeCard
+          art={SURVIVAL_MODE_ART}
+          accent="#8FE6FF"
+          title="Survival Arena"
+          subtitle={`Entry: ${formatArenaCost("survival")} • ${ARENA_MODE_CONFIG.survival.rewardLabel}.`}
+          tag="HIGH SCORE"
+          onPress={() => {
+            router.push("/(app)/arena_reset/survival");
+          }}
+        />
+
+        <ArenaModeCard
+          art={POWER_MODE_ART}
+          accent="#4FC3F7"
+          title="Power-Up Arena"
+          subtitle={`Entry: ${formatArenaCost("power")} • ${ARENA_MODE_CONFIG.power.rewardLabel}.`}
+          tag="STRATEGY"
+          onPress={() => {
+            router.push("/(app)/arena_reset/power");
+          }}
+        />
+
+        <Animated.View style={{ transform: [{ scale: pulseAnim }] }}>
+          <ArenaModeCard
+            testID="arena-mode-tournaments"
+            art={TOURNAMENT_MODE_ART}
+            accent="#D6A93A"
+            title="Tournaments"
+            subtitle={`Entry: ${formatArenaCost("tournament")} • ${ARENA_MODE_CONFIG.tournament.rewardLabel}.`}
+            tag="LIVE EVENT"
+            onPress={() => {
+              router.push("/(app)/arena_reset/tournaments");
+            }}
           />
-
-          <Text style={styles.energyHint} numberOfLines={2}>
-            {weeklyAlmostDone
-              ? "One more run for the weekly chest."
-              : "Build weekly arena momentum."}
-          </Text>
-        </View>
-
-        <View style={[styles.energyCard, isOnFire && styles.glowOrange]}>
-          <Text style={styles.energyTitle}>Streak Heat</Text>
-          <Text style={styles.energyValue}>🔥 {safeDailyStreak}</Text>
-          <Text style={styles.energyHint} numberOfLines={2}>
-            {isOnFire
-              ? "You are on fire. Keep the chain alive."
-              : "Play daily to start your streak."}
-          </Text>
-        </View>
-      </View>
-
-      <View style={styles.prestigeRow}>
-        <View style={styles.prestigeCard}>
-          <Text style={styles.prestigeLabel}>SEASON PEAK</Text>
-          <Text style={styles.prestigeTitle}>{highestRankLabel}</Text>
-          <Text style={styles.prestigeText} numberOfLines={2}>
-            Peak SR {highestSR}. {seasonReward.profileLabel} becomes your
-            end-season flex.
-          </Text>
-        </View>
-
-        <View style={styles.prestigeCard}>
-          <Text style={styles.prestigeLabelBlue}>REWARD TIER</Text>
-          <Text style={styles.prestigeTitle}>{seasonReward.title}</Text>
-          <Text style={styles.prestigeText} numberOfLines={2}>
-            {seasonReward.rewardLabel}. {seasonMotivation}
-          </Text>
-        </View>
+        </Animated.View>
       </View>
 
       {lastSeasonSnapshot ? (
@@ -521,58 +528,6 @@ export default function ArenaHub() {
         <Text style={styles.eventReward}>{activeLiveEvent.rewardLabel}</Text>
       </Animated.View>
 
-      <View style={styles.modesWrapper}>
-        <Text style={styles.sectionTitle}>Choose Arena</Text>
-
-        <ArenaModeCard
-          testID="arena-mode-ranked"
-          art={RANKED_MODE_ART}
-          accent="#D6A93A"
-          title="Ranked Arena"
-          subtitle={`Entry: ${formatArenaCost("ranked")} • ${ARENA_MODE_CONFIG.ranked.rewardLabel}.`}
-          tag={getArenaLiveEventModeTag("ranked", activeLiveEvent) ?? (isNearPromotion ? "PROMOTION" : isDangerZone ? "PROTECT" : "COMPETITIVE")}
-          onPress={() => {
-            router.push("/(app)/arena_reset/ranked");
-          }}
-        />
-
-        <ArenaModeCard
-          art={SURVIVAL_MODE_ART}
-          accent="#8FE6FF"
-          title="Survival Arena"
-          subtitle={`Entry: ${formatArenaCost("survival")} • ${ARENA_MODE_CONFIG.survival.rewardLabel}.`}
-          tag="HIGH SCORE"
-          onPress={() => {
-            router.push("/(app)/arena_reset/survival");
-          }}
-        />
-
-        <ArenaModeCard
-          art={POWER_MODE_ART}
-          accent="#4FC3F7"
-          title="Power-Up Arena"
-          subtitle={`Entry: ${formatArenaCost("power")} • ${ARENA_MODE_CONFIG.power.rewardLabel}.`}
-          tag="STRATEGY"
-          onPress={() => {
-            router.push("/(app)/arena_reset/power");
-          }}
-        />
-
-        <Animated.View style={{ transform: [{ scale: pulseAnim }] }}>
-          <ArenaModeCard
-            testID="arena-mode-tournaments"
-            art={TOURNAMENT_MODE_ART}
-            accent="#D6A93A"
-            title="Tournaments"
-            subtitle={`Entry: ${formatArenaCost("tournament")} • ${ARENA_MODE_CONFIG.tournament.rewardLabel}.`}
-            tag="LIVE EVENT"
-            onPress={() => {
-              router.push("/(app)/arena_reset/tournaments");
-            }}
-          />
-        </Animated.View>
-      </View>
-
       {themedAlert}
     </ScrollView>
   );
@@ -584,7 +539,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: s(14),
     paddingTop: s(28),
-    paddingBottom: s(40),
+    paddingBottom: s(150),
   },
 
   loadingContainer: {
@@ -1058,6 +1013,133 @@ const styles = StyleSheet.create({
     fontWeight: "900",
     marginBottom: s(10),
     letterSpacing: -0.2,
+  },
+
+  seasonOverviewCard: {
+    width: "100%",
+    borderRadius: s(22),
+    padding: s(14),
+    marginBottom: s(12),
+    overflow: "hidden",
+    backgroundColor: "rgba(12,28,56,0.94)",
+    borderWidth: 1,
+    borderColor: "rgba(143,230,255,0.30)",
+    shadowColor: "#4DA3FF",
+    shadowOpacity: 0.12,
+    shadowRadius: s(12),
+    shadowOffset: { width: 0, height: 0 },
+    elevation: 4,
+  },
+  seasonOverviewGlow: {
+    position: "absolute",
+    top: -54,
+    right: -42,
+    width: s(150),
+    height: s(150),
+    borderRadius: s(75),
+    backgroundColor: "rgba(143,230,255,0.10)",
+  },
+  seasonOverviewHeader: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: s(10),
+  },
+  seasonOverviewCopy: {
+    flex: 1,
+    minWidth: 0,
+  },
+  seasonOverviewLabel: {
+    color: "#8FE6FF",
+    fontSize: s(10),
+    fontWeight: "900",
+    letterSpacing: 1,
+  },
+  seasonOverviewTitle: {
+    color: "#FFFFFF",
+    fontSize: s(15),
+    fontWeight: "900",
+    marginTop: s(4),
+  },
+  seasonOverviewBody: {
+    color: "#BBD7FF",
+    fontSize: s(10.5),
+    fontWeight: "800",
+    lineHeight: s(15),
+    marginTop: s(4),
+  },
+  seasonOverviewCountdown: {
+    color: "#FFD36B",
+    fontSize: s(22),
+    fontWeight: "900",
+  },
+  seasonOverviewButton: {
+    backgroundColor: "#8FEAFF",
+    borderRadius: s(13),
+    paddingHorizontal: s(12),
+    paddingVertical: s(9),
+    borderWidth: 1,
+    borderColor: "#C6F1FF",
+  },
+  seasonOverviewButtonText: {
+    color: "#062033",
+    fontSize: s(11),
+    fontWeight: "900",
+  },
+  seasonOverviewStats: {
+    flexDirection: "row",
+    gap: s(8),
+    marginTop: s(12),
+  },
+  seasonOverviewStat: {
+    flex: 1,
+    minHeight: s(56),
+    borderRadius: s(16),
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "rgba(8,19,40,0.72)",
+    borderWidth: 1,
+    borderColor: "rgba(190,231,255,0.18)",
+  },
+  seasonOverviewStatValue: {
+    color: "#FFFFFF",
+    fontSize: s(15),
+    fontWeight: "900",
+  },
+  seasonOverviewStatValueGold: {
+    color: "#FFD36B",
+    fontSize: s(13),
+    fontWeight: "900",
+    textAlign: "center",
+  },
+  seasonOverviewStatLabel: {
+    color: "#9DB6D8",
+    fontSize: s(9),
+    fontWeight: "900",
+    letterSpacing: 0.5,
+    textTransform: "uppercase",
+    marginTop: s(3),
+  },
+  dailyCompactCard: {
+    width: "100%",
+    borderRadius: s(20),
+    padding: s(14),
+    borderWidth: 1,
+    borderColor: "rgba(247,211,106,0.32)",
+    marginBottom: s(12),
+    overflow: "hidden",
+  },
+  dailyCompactTitle: {
+    color: "#FFFFFF",
+    fontSize: s(17),
+    fontWeight: "900",
+    marginTop: s(8),
+  },
+  dailyCompactBody: {
+    color: "#D8E7FF",
+    fontSize: s(11.5),
+    fontWeight: "800",
+    lineHeight: s(16),
+    marginTop: s(4),
   },
 
   cosmeticStrip: {
