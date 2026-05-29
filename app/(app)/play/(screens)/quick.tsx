@@ -11,6 +11,7 @@ import {
   View,
 } from "react-native";
 import { useRouter, useLocalSearchParams } from "expo-router";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 import type { QuickMode } from "@/store/useQuickGameStore";
 import { useQuickGameStore } from "@/store/useQuickGameStore";
@@ -77,6 +78,7 @@ const MODES: {
 
 export default function QuickPlay() {
   const router = useRouter();
+  const insets = useSafeAreaInsets();
   const { category: paramCategory } = useLocalSearchParams();
 
   const setCategory = useQuickGameStore((s) => s.setCategory);
@@ -114,7 +116,7 @@ export default function QuickPlay() {
     resetGame();
     initGame(mode, categoryId);
 
-    router.push("/play/game");
+    router.replace("/(app)/play/(screens)/game" as any);
   };
 
   const requestedCategory = Array.isArray(paramCategory) ? paramCategory[0] : paramCategory;
@@ -124,7 +126,7 @@ export default function QuickPlay() {
   return (
     <Animated.ScrollView
       style={[styles.root, { opacity: fade }]}
-      contentContainerStyle={styles.container}
+      contentContainerStyle={[styles.container, { paddingBottom: 96 + insets.bottom }]}
       showsVerticalScrollIndicator={false}
     >
       <ImageBackground source={HERO} style={styles.hero} imageStyle={styles.heroImage}>
@@ -143,7 +145,7 @@ export default function QuickPlay() {
         </View>
 
         <Pressable
-          onPress={() => router.push("/play/categorySelect")}
+          onPress={() => router.replace("/(app)/play/(screens)/categorySelect" as any)}
           style={({ pressed }) => [styles.changePill, pressed && styles.pressed]}
         >
           <Text style={styles.changeText}>Change</Text>
@@ -191,7 +193,7 @@ export default function QuickPlay() {
       )}
 
       <Pressable
-        onPress={() => router.push("/play/categorySelect")}
+        onPress={() => router.replace("/(app)/play/(screens)/categorySelect" as any)}
         style={({ pressed }) => [styles.backPill, pressed && styles.pressed]}
       >
         <Text style={styles.backText}>Categories</Text>
@@ -209,11 +211,11 @@ const styles = StyleSheet.create({
   },
   container: {
     paddingHorizontal: 18,
-    paddingTop: 34,
-    paddingBottom: 44,
+    paddingTop: 28,
+    paddingBottom: 96,
   },
   hero: {
-    height: 176,
+    minHeight: 170,
     borderRadius: 24,
     overflow: "hidden",
     marginBottom: 18,
@@ -241,7 +243,7 @@ const styles = StyleSheet.create({
   },
   title: {
     color: "#FFFFFF",
-    fontSize: 30,
+    fontSize: 19,
     fontWeight: "900",
     letterSpacing: -0.7,
     marginBottom: 8,
@@ -250,9 +252,9 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     color: "#D7E6F5",
-    fontSize: 13,
+    fontSize: 11,
     fontWeight: "800",
-    lineHeight: 20,
+    lineHeight: 15,
     maxWidth: "82%",
     textShadowColor: "rgba(0,0,0,0.45)",
     textShadowRadius: 7,
@@ -296,7 +298,7 @@ const styles = StyleSheet.create({
     marginTop: 2,
   },
   modeCard: {
-    height: 108,
+    minHeight: 112,
     borderRadius: 19,
     overflow: "hidden",
     backgroundColor: "#101722",
@@ -324,17 +326,18 @@ const styles = StyleSheet.create({
   },
   modeTitle: {
     color: "#EFF5FA",
-    fontSize: 20,
+    fontSize: 14,
+    lineHeight: 17,
     fontWeight: "900",
     letterSpacing: -0.35,
   },
   modeSubtitle: {
     color: "#AEBFD1",
-    fontSize: 12,
+    fontSize: 10,
     fontWeight: "700",
-    lineHeight: 18,
+    lineHeight: 14,
     marginTop: 5,
-    maxWidth: "78%",
+    maxWidth: "82%",
   },
   modeAccentBar: {
     width: 44,
@@ -374,7 +377,7 @@ const styles = StyleSheet.create({
   },
   backText: {
     color: "#D6E6F5",
-    fontSize: 14,
+    fontSize: 12,
     fontWeight: "800",
   },
   pressed: {

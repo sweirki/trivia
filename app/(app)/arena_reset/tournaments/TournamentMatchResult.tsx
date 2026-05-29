@@ -90,10 +90,10 @@ export default function TournamentMatchResult() {
   const [showCTA, setShowCTA] = useState(false);
 
   useEffect(() => {
-    const t1 = setTimeout(() => setShowScore(true), 350);
-    const t2 = setTimeout(() => setShowPath(true), 750);
-    const t3 = setTimeout(() => setShowRewards(true), 1100);
-    const t4 = setTimeout(() => setShowCTA(true), 1450);
+    const t1 = setTimeout(() => setShowScore(true), 120);
+    const t2 = setTimeout(() => setShowPath(true), 260);
+    const t3 = setTimeout(() => setShowRewards(true), 400);
+    const t4 = setTimeout(() => setShowCTA(true), 540);
 
     return () => {
       clearTimeout(t1);
@@ -314,7 +314,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
   },
   title: {
-    fontSize: 24,
+    fontSize: 17,
     fontWeight: "900",
     color: "#fff",
     textAlign: "center",
@@ -351,7 +351,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    marginBottom: 18,
+    marginBottom: 10,
   },
   eyebrow: {
     color: "#D6A93A",
@@ -377,7 +377,7 @@ const styles = StyleSheet.create({
     borderColor: "rgba(247,201,72,0.45)",
     justifyContent: "center",
     alignItems: "center",
-    marginBottom: 18,
+    marginBottom: 10,
   },
   trophySlotLoss: {
     width: 86,
@@ -388,7 +388,7 @@ const styles = StyleSheet.create({
     borderColor: "rgba(255,107,107,0.38)",
     justifyContent: "center",
     alignItems: "center",
-    marginBottom: 18,
+    marginBottom: 10,
   },
   trophyIcon: {
     fontSize: 42,
@@ -401,13 +401,13 @@ const styles = StyleSheet.create({
   },
   contextText: {
     color: "rgba(255,255,255,0.74)",
-    fontSize: 15,
-    lineHeight: 22,
+    fontSize: 11.5,
+    lineHeight: 17,
   },
   scoreBox: {
     backgroundColor: "#151520",
     borderRadius: 26,
-    padding: 18,
+    padding: 12,
     borderWidth: 1,
     borderColor: "rgba(255,255,255,0.08)",
     flexDirection: "row",
@@ -482,7 +482,7 @@ const styles = StyleSheet.create({
   panel: {
     backgroundColor: "#11111A",
     borderRadius: 22,
-    padding: 18,
+    padding: 12,
     borderWidth: 1,
     borderColor: "rgba(247,201,72,0.14)",
     marginBottom: 14,
@@ -491,11 +491,11 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    marginBottom: 18,
+    marginBottom: 10,
   },
   panelTitle: {
     color: "#FFFFFF",
-    fontSize: 18,
+    fontSize: 13,
     fontWeight: "900",
   },
   stepText: {
@@ -506,7 +506,7 @@ const styles = StyleSheet.create({
   pathRow: {
     flexDirection: "row",
     justifyContent: "space-between",
-    marginBottom: 18,
+    marginBottom: 10,
   },
   pathItem: {
     flex: 1,
@@ -562,7 +562,7 @@ const styles = StyleSheet.create({
   },
   unlockTitle: {
     color: "#FFFFFF",
-    fontSize: 15,
+    fontSize: 11.5,
     fontWeight: "900",
     marginBottom: 6,
   },
@@ -577,7 +577,7 @@ const styles = StyleSheet.create({
     padding: 16,
     borderWidth: 1,
     borderColor: "rgba(255,255,255,0.08)",
-    marginBottom: 18,
+    marginBottom: 10,
     flexDirection: "row",
     alignItems: "center",
   },
@@ -593,14 +593,14 @@ const styles = StyleSheet.create({
     marginRight: 14,
   },
   rewardIcon: {
-    fontSize: 30,
+    fontSize: 11.5,
   },
   rewardTextWrap: {
     flex: 1,
   },
   rewardTitle: {
     color: "#FFFFFF",
-    fontSize: 16,
+    fontSize: 12,
     fontWeight: "900",
     marginBottom: 6,
   },
@@ -621,7 +621,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "rgba(255,231,158,0.42)",
     borderRadius: 20,
-    paddingVertical: 16,
+    paddingVertical: 10,
     alignItems: "center",
     shadowColor: "#D6A93A",
     shadowOpacity: 0.24,

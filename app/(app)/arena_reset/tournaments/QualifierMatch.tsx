@@ -13,6 +13,7 @@ import { router, useLocalSearchParams } from "expo-router";
 
 import { useArenaStore } from "@/arena/store/useArenaStore";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
+import { buildArenaQuestions } from "@/questions/gameplayQuestions";
 import { s } from "@/arena/theme/arenaSizing";
 
 
@@ -44,7 +45,7 @@ export default function TournamentMatch() {
 
 
 
-  const [timeLeft, setTimeLeft] = useState(10);
+  const [timeLeft, setTimeLeft] = useState(8);
 
   // --------------------------------------------
   // DERIVED MATCH CONTEXT (UI ONLY)
@@ -70,25 +71,9 @@ export default function TournamentMatch() {
 useEffect(() => {
   if (!tournament || !matchId) return;
 
-  const qs = [
-    {
-      question: "Which planet is closest to the Sun?",
-      answers: ["Mercury", "Venus", "Earth", "Mars"],
-      correctAnswer: "Mercury",
-    },
-    {
-      question: "How many continents are there?",
-      answers: ["5", "6", "7", "8"],
-      correctAnswer: "7",
-    },
-    {
-      question: "What is the capital of Japan?",
-      answers: ["Tokyo", "Osaka", "Kyoto", "Nagoya"],
-      correctAnswer: "Tokyo",
-    },
-  ];
+  const tournamentQuestions = buildArenaQuestions("tournament", 5);
 
-  loadQuestions(qs);
+    loadQuestions(tournamentQuestions);
   setMatchState("in-match");
 }, [tournament, matchId, loadQuestions, setMatchState]);
 
@@ -103,7 +88,7 @@ useEffect(() => {
   useEffect(() => {
     if (matchState !== "in-match") return;
 
-    setTimeLeft(10);
+    setTimeLeft(8);
 
     const id = setInterval(() => {
       setTimeLeft((t) => {
@@ -122,27 +107,32 @@ useEffect(() => {
   // ANSWER HANDLING
   // --------------------------------------------
   const handleAnswer = (ans: string) => {
-    if (ans === q.correctAnswer) {
+    const wasCorrect = ans === q.correctAnswer;
+
+    if (wasCorrect) {
       updatePlayerScore(1);
     }
-    nextQuestionOrEnd();
+
+    nextQuestionOrEnd(wasCorrect);
   };
 
   // --------------------------------------------
   // END / RESOLVE
   // --------------------------------------------
-  const nextQuestionOrEnd = () => {
+  const nextQuestionOrEnd = (lastAnswerCorrect = false) => {
     const last = currentQuestionIndex === questions.length - 1;
 
     if (last) {
       const winnerId = player?.id ?? null;
       if (winnerId && matchId) {
-        submitMatchResult(matchId, 1, 0);
+        const finalPlayerScore = (player?.score ?? 0) + (lastAnswerCorrect ? 1 : 0);
+      const finalOpponentScore = Math.max(0, questions.length - finalPlayerScore);
+      submitMatchResult(matchId, finalPlayerScore, finalOpponentScore);
 
       }
 
       resetArena();
-      router.replace("/(app)/arena_reset/tournaments/bracket" as any);
+      router.replace("/(app)/arena_reset/tournaments/TournamentBracket" as any);
 
       return;
     }

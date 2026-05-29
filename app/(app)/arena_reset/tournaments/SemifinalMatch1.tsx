@@ -12,6 +12,7 @@ const tournamentMatchBg = require("../../../../assets/images/arena/tournaments/t
 import { router } from "expo-router";
 import { useArenaStore } from "@/arena/store/useArenaStore";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
+import { buildArenaQuestions } from "@/questions/gameplayQuestions";
 
 
 type TournamentQuestion = {
@@ -28,6 +29,7 @@ export default function SemifinalMatch1() {
     nextQuestion,
     updatePlayerScore,
     updateOpponentScore,
+    player: arenaPlayer,
     setMatchState,
     matchState,
   } = useArenaStore();
@@ -38,7 +40,7 @@ export default function SemifinalMatch1() {
 }));
 
 
-  const [timeLeft, setTimeLeft] = useState(10);
+  const [timeLeft, setTimeLeft] = useState(8);
   const [player, setPlayer] = useState(null);
   const [opponent, setOpponent] = useState(null);
 
@@ -54,25 +56,9 @@ setPlayer(players[0] ?? null);
 setOpponent(players[1] ?? null);
 
 
-    const sampleQs = [
-      {
-        question: "Which gas do plants absorb?",
-        answers: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
-        correctAnswer: "Carbon Dioxide",
-      },
-      {
-        question: "Which ocean is the largest?",
-        answers: ["Atlantic", "Indian", "Pacific", "Arctic"],
-        correctAnswer: "Pacific",
-      },
-      {
-        question: "Who painted the Mona Lisa?",
-        answers: ["Van Gogh", "Da Vinci", "Picasso", "Michelangelo"],
-        correctAnswer: "Da Vinci",
-      },
-    ];
+    const tournamentQuestions = buildArenaQuestions("tournament", 5);
 
-    loadQuestions(sampleQs);
+    loadQuestions(tournamentQuestions);
     setMatchState("in-match");
   }, []);
 
@@ -86,7 +72,7 @@ setOpponent(players[1] ?? null);
   useEffect(() => {
     if (matchState !== "in-match") return;
 
-    setTimeLeft(10);
+    setTimeLeft(8);
 
     const interval = setInterval(() => {
       setTimeLeft((t) => {
@@ -107,7 +93,7 @@ setOpponent(players[1] ?? null);
   useEffect(() => {
     if (!opponent || !q) return;
 
-    const randomDelay = Math.floor(Math.random() * 3000) + 1000; // AI answers 1–4 sec
+    const randomDelay = Math.floor(Math.random() * 700) + 450; // AI answers 1–4 sec
     const willAnswerCorrect = Math.random() < 0.65;
 
     const timer = setTimeout(() => {
@@ -121,10 +107,13 @@ setOpponent(players[1] ?? null);
   // PLAYER ANSWER
   // ------------------------------------------------
   const handleAnswer = (ans) => {
-    if (ans === q.correctAnswer) {
+    const wasCorrect = ans === q.correctAnswer;
+
+    if (wasCorrect) {
       updatePlayerScore(1);
     }
-    nextStageOrNextQuestion();
+
+    nextStageOrNextQuestion(wasCorrect);
   };
 
   const handleWrong = () => {
@@ -134,11 +123,13 @@ setOpponent(players[1] ?? null);
   // ------------------------------------------------
   // CHECK END OF QUESTIONS → GO TO MATCH 2
   // ------------------------------------------------
-  const nextStageOrNextQuestion = () => {
+  const nextStageOrNextQuestion = (lastAnswerCorrect = false) => {
     const last = currentQuestionIndex === questions.length - 1;
 
     if (last) {
-     submitMatchResult("S1", 1, 0);
+     const finalPlayerScore = (arenaPlayer?.score ?? 0) + (lastAnswerCorrect ? 1 : 0);
+      const finalOpponentScore = Math.max(0, questions.length - finalPlayerScore);
+      submitMatchResult("S1", finalPlayerScore, finalOpponentScore);
 
       router.replace("/(app)/arena_reset/tournaments/SemifinalMatch2");
       return;
@@ -191,8 +182,8 @@ setOpponent(players[1] ?? null);
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 72,
-    paddingHorizontal: 20,
+    paddingTop: 38,
+    paddingHorizontal: 16,
     backgroundColor: "#050716",
   },
 
@@ -206,7 +197,7 @@ const styles = StyleSheet.create({
 
   title: {
     color: "#D6A93A",
-    fontSize: 32,
+    fontSize: 14,
     fontWeight: "800",
     textAlign: "center",
     marginBottom: 6,
@@ -214,35 +205,35 @@ const styles = StyleSheet.create({
 
   vs: {
     color: "#6EC7F2",
-    fontSize: 18,
+    fontSize: 12,
     textAlign: "center",
-    marginBottom: 20,
+    marginBottom: 12,
   },
 
   timer: {
     color: "#D6A93A",
-    fontSize: 24,
+    fontSize: 16,
     textAlign: "center",
-    marginBottom: 20,
+    marginBottom: 12,
   },
 
   question: {
     color: "#fff",
-    fontSize: 22,
-    marginBottom: 30,
+    fontSize: 15,
+    marginBottom: 16,
     textAlign: "center",
   },
 
   answerBtn: {
     backgroundColor: "#1c1c29",
-    padding: 16,
+    padding: 10,
     borderRadius: 12,
-    marginVertical: 6,
+    marginVertical: 4,
   },
 
   answerText: {
     color: "#fff",
-    fontSize: 18,
+    fontSize: 12,
     textAlign: "center",
   },
 });

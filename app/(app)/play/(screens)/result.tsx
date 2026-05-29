@@ -10,6 +10,7 @@ import {
 } from "react-native";
 import { Text } from "@/theme";
 import { useRouter } from "expo-router";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { useEntitlementStore } from "@/store/entitlementStore";
 import { getPostGameSmartOffer } from "@/offers/smartOffers";
@@ -51,6 +52,7 @@ export default function ResultsScreen() {
   const [offerVisible, setOfferVisible] = useState(false);
 
   const router = useRouter();
+  const insets = useSafeAreaInsets();
 
   const answerHistory = useQuickGameStore((s) => s.answerHistory);
   const score = useQuickGameStore((s) => s.score);
@@ -188,13 +190,15 @@ export default function ResultsScreen() {
   };
 
   const playAgain = () => {
+    setOfferVisible(false);
     cleanupAndReset();
-    router.replace("./categorySelect");
+    router.replace("/(app)/play/(screens)/categorySelect");
   };
 
   const goHome = () => {
+    setOfferVisible(false);
     cleanupAndReset();
-    router.replace("/hub");
+    router.replace("/(app)/hub");
   };
 
   const openOffer = () => {
@@ -278,7 +282,7 @@ export default function ResultsScreen() {
 
       <SafeAreaView style={styles.safe}>
         <ScrollView
-          contentContainerStyle={styles.content}
+          contentContainerStyle={[styles.content, { paddingBottom: 84 + insets.bottom }]}
           showsVerticalScrollIndicator={false}
         >
           <View style={styles.headerBlock}>
@@ -466,10 +470,10 @@ const styles = StyleSheet.create({
 
   content: {
     flexGrow: 1,
-    paddingHorizontal: 18,
-    paddingTop: 16,
-    paddingBottom: 24,
-    justifyContent: "center",
+    paddingHorizontal: 14,
+    paddingTop: 8,
+    paddingBottom: 30,
+    justifyContent: "flex-start",
   },
 
   headerBlock: {
@@ -478,9 +482,9 @@ const styles = StyleSheet.create({
   },
 
   emblemHalo: {
-    width: 86,
-    height: 86,
-    borderRadius: 43,
+    width: 58,
+    height: 58,
+    borderRadius: 29,
     alignItems: "center",
     justifyContent: "center",
     marginBottom: 4,
@@ -490,12 +494,12 @@ const styles = StyleSheet.create({
   },
 
   emblem: {
-    width: 76,
-    height: 76,
+    width: 50,
+    height: 50,
   },
 
   title: {
-    fontSize: 14,
+    fontSize: 13,
     fontWeight: "900",
     textAlign: "center",
     color: "#F5C451",
@@ -504,8 +508,8 @@ const styles = StyleSheet.create({
   },
 
   score: {
-    fontSize: 48,
-    lineHeight: 52,
+    fontSize: 28,
+    lineHeight: 17,
     fontWeight: "900",
     textAlign: "center",
     color: "#FFFFFF",
@@ -525,7 +529,7 @@ const styles = StyleSheet.create({
   performanceStrip: {
     width: "100%",
     marginTop: 10,
-    borderRadius: 20,
+    borderRadius: 15,
     paddingHorizontal: 14,
     paddingVertical: 10,
     backgroundColor: "rgba(12,23,48,0.86)",
@@ -544,7 +548,7 @@ const styles = StyleSheet.create({
 
   performanceTitle: {
     color: "#F5C451",
-    fontSize: 16,
+    fontSize: 13,
     fontWeight: "900",
     textAlign: "center",
   },
@@ -585,9 +589,9 @@ const styles = StyleSheet.create({
 
   resultCard: {
     backgroundColor: "rgba(13,20,42,0.95)",
-    borderRadius: 24,
-    padding: 14,
-    marginBottom: 10,
+    borderRadius: 16,
+    padding: 12,
+    marginBottom: 9,
     borderWidth: 1.2,
     borderColor: "rgba(245,196,81,0.24)",
     shadowColor: "#56A6FF",
@@ -600,7 +604,7 @@ const styles = StyleSheet.create({
   statGrid: {
     flexDirection: "row",
     flexWrap: "wrap",
-    gap: 8,
+    gap: 7,
   },
 
   statTile: {
@@ -635,7 +639,7 @@ const styles = StyleSheet.create({
 
   statValue: {
     color: "#FFFFFF",
-    fontSize: 18,
+    fontSize: 11,
     fontWeight: "900",
   },
 
@@ -672,7 +676,7 @@ const styles = StyleSheet.create({
 
   rewardValue: {
     color: "#FFFFFF",
-    fontSize: 17,
+    fontSize: 13,
     fontWeight: "900",
   },
 
@@ -757,8 +761,8 @@ const styles = StyleSheet.create({
   },
 
   primaryBtn: {
-    height: 54,
-    borderRadius: 18,
+    minHeight: 46,
+    borderRadius: 16,
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "rgba(245,196,81,0.96)",
@@ -774,13 +778,13 @@ const styles = StyleSheet.create({
   primaryText: {
     color: "#111827",
     textAlign: "center",
-    fontSize: 17,
+    fontSize: 13,
     fontWeight: "900",
   },
 
   secondaryBtn: {
-    height: 52,
-    borderRadius: 18,
+    minHeight: 44,
+    borderRadius: 16,
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "rgba(13,20,42,0.90)",
@@ -791,7 +795,7 @@ const styles = StyleSheet.create({
   secondaryText: {
     color: "#F5C451",
     textAlign: "center",
-    fontSize: 16,
+    fontSize: 13,
     fontWeight: "900",
   },
 
@@ -856,7 +860,7 @@ const styles = StyleSheet.create({
 
   offerEmblemText: {
     color: "#F5C451",
-    fontSize: 18,
+    fontSize: 11,
     fontWeight: "900",
     letterSpacing: 0.8,
     textShadowColor: "rgba(245,196,81,0.35)",
@@ -883,7 +887,7 @@ const styles = StyleSheet.create({
 
   offerTitle: {
     color: "#F5C451",
-    fontSize: 20,
+    fontSize: 11.5,
     fontWeight: "900",
     textAlign: "center",
     marginBottom: 6,
@@ -944,7 +948,7 @@ const styles = StyleSheet.create({
 
   offerPrimaryText: {
     color: "#111827",
-    fontSize: 15,
+    fontSize: 11,
     fontWeight: "900",
   },
 

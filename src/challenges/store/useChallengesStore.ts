@@ -389,14 +389,18 @@ export const useChallengesStore = create<ChallengesState>((set, get) => ({
     });
   },
 
-  completeChallenge: async (id, myScore) => {
+  completeChallenge: async (id, myScore, providedOpponentScore) => {
     const { active, history, incoming } = get();
     const challenge = active.find((c) => c.id === id);
     if (!challenge) return;
 
     const myUid = auth.currentUser?.uid ?? null;
-    let opponentScore = 0;
-    let result: ChallengeResult = 'waiting';
+    let opponentScore =
+      typeof providedOpponentScore === 'number' ? providedOpponentScore : 0;
+    let result: ChallengeResult =
+      typeof providedOpponentScore === 'number'
+        ? getChallengeResult(myScore, providedOpponentScore)
+        : 'waiting';
 
     if (myUid && challenge.type !== 'daily') {
       try {
@@ -438,6 +442,21 @@ export const useChallengesStore = create<ChallengesState>((set, get) => ({
           }
         }
       } catch {}
+    }
+
+    if (
+      result !== 'waiting' &&
+      !get().rewardedChallengeIds.includes(id) &&
+      (challenge.type === 'daily' || typeof providedOpponentScore === 'number')
+    ) {
+      const reward = getRewardForResult(result);
+      usePlayerStore.getState().applyReward(
+        reward.xp,
+        reward.coins,
+        reward.gems,
+        reward.tickets
+      );
+      set({ rewardedChallengeIds: [...get().rewardedChallengeIds, id] });
     }
 
     const updatedActive = active.filter((c) => c.id !== id);

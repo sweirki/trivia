@@ -127,7 +127,7 @@ export default function TournamentMatchScreen() {
       if (hasLaunchedRef.current) return;
       hasLaunchedRef.current = true;
 
-      initTournamentGame("general", tournament?.config.questionsPerMatch ?? 10);
+      initTournamentGame("general", Math.min(tournament?.config.questionsPerMatch ?? 5, 5));
       router.push({
         pathname: "/(app)/play/game",
         params: { id: match?.id },
@@ -137,7 +137,7 @@ export default function TournamentMatchScreen() {
 
     const timer = setTimeout(
       () => setCountdown((value) => (value === null ? null : value - 1)),
-      1000
+      350
     );
 
     return () => clearTimeout(timer);
@@ -145,7 +145,7 @@ export default function TournamentMatchScreen() {
 
   const handleStartCountdown = () => {
     if (!match || hasLaunchedRef.current) return;
-    setCountdown(3);
+    setCountdown(1);
   };
 
   if (!tournament || !match) {

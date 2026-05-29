@@ -44,7 +44,7 @@ const reportCompetitiveResult = (_result: CompetitiveResult) => {};
 
 export default function RankedResult() {
   const { daily } = useLocalSearchParams<{ daily?: string }>();
-  const { player, opponent, questions, resetArena } = useArenaStore();
+  const { player, opponent, questions, lastRankedResult, resetArena } = useArenaStore();
   const {
     sr,
     rank,
@@ -65,13 +65,22 @@ export default function RankedResult() {
     (state) => state.lastDailyPlayedAt,
   );
 
-  const playerScore = player?.score ?? 0;
-  const opponentScore = opponent?.score ?? 0;
+  const playerScore = lastRankedResult?.playerScore ?? player?.score ?? 0;
+  const opponentScore = lastRankedResult?.opponentScore ?? opponent?.score ?? 0;
+  const opponentSRForResult = lastRankedResult?.opponentSR ?? opponent?.sr ?? sr;
+  const opponentIdForResult = lastRankedResult?.opponentId ?? opponent?.id;
+  const opponentNameForResult = lastRankedResult?.opponentName ?? opponent?.name ?? "Arena Rival";
+  const opponentTitleForResult = lastRankedResult?.opponentTitle ?? opponent?.title;
+  const opponentStyleForResult = lastRankedResult?.opponentStyle ?? opponent?.style;
   const didWin = playerScore > opponentScore;
   const isDraw = playerScore === opponentScore;
   const srBefore = sr;
   const rankBefore = rank;
-  const questionsAnswered = Math.max(1, questions.length || 7);
+  const questionsAnswered = Math.max(
+  1,
+  lastRankedResult?.questionsAnswered ??
+    (questions.length > 0 ? questions.length : 7)
+);
   const rankedContext = useMemo(
     () => ({ playerScore, opponentScore, questionsAnswered }),
     [opponentScore, playerScore, questionsAnswered],
@@ -104,7 +113,7 @@ export default function RankedResult() {
     if (appliedRef.current) return;
     appliedRef.current = true;
 
-    const opponentSR = opponent?.sr ?? srBefore;
+    const opponentSR = opponentSRForResult;
     const breakdown = didWin
       ? addWin(opponentSR, rankedContext)
       : isDraw
@@ -159,10 +168,10 @@ export default function RankedResult() {
     });
 
     useArenaRivalHistoryStore.getState().recordMatch({
-      rivalId: opponent?.id,
-      rivalName: opponent?.name ?? "Arena Rival",
-      rivalTitle: opponent?.title,
-      rivalStyle: opponent?.style,
+      rivalId: opponentIdForResult,
+      rivalName: opponentNameForResult,
+      rivalTitle: opponentTitleForResult,
+      rivalStyle: opponentStyleForResult,
       outcome: didWin ? "win" : isDraw ? "draw" : "loss",
       playerScore,
       rivalScore: opponentScore,
@@ -201,7 +210,11 @@ export default function RankedResult() {
     didWin,
     isDraw,
     heroPulse,
-    opponent?.sr,
+    opponentSRForResult,
+    opponentIdForResult,
+    opponentNameForResult,
+    opponentTitleForResult,
+    opponentStyleForResult,
     opponentScore,
     playerScore,
     questionsAnswered,
@@ -548,14 +561,14 @@ const styles = StyleSheet.create({
     backgroundColor: "#071226",
   },
   content: {
-    paddingTop: 42,
-    paddingHorizontal: 14,
-    paddingBottom: 190,
+    paddingTop: 28,
+    paddingHorizontal: 12,
+    paddingBottom: 56,
   },
   hero: {
-    minHeight: 178,
+    minHeight: 138,
     borderRadius: 20,
-    padding: 15,
+    padding: 11,
     overflow: "hidden",
     marginBottom: 10,
     borderWidth: 1,
@@ -572,12 +585,12 @@ const styles = StyleSheet.create({
     letterSpacing: 1.3,
   },
   ceremonyIcon: {
-    fontSize: 28,
+    fontSize: 20,
     marginTop: 5,
   },
   resultTitle: {
     color: "#FFFFFF",
-    fontSize: 21,
+    fontSize: 14,
     fontWeight: "900",
     marginTop: 4,
     textAlign: "center",
@@ -655,7 +668,7 @@ const styles = StyleSheet.create({
   },
   score: {
     color: "#FFFFFF",
-    fontSize: 24,
+    fontSize: 19,
     fontWeight: "900",
     marginTop: 2,
   },
@@ -673,8 +686,8 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
   seasonPanel: {
-    marginTop: 12,
-    padding: 14,
+    marginTop: 8,
+    padding: 10,
     borderRadius: 18,
     backgroundColor: "rgba(8,18,34,0.88)",
     borderWidth: 1,
@@ -757,7 +770,7 @@ const styles = StyleSheet.create({
   },
   breakthroughText: {
     color: "#F7C948",
-    fontSize: 17,
+    fontSize: 14,
     fontWeight: "900",
     marginTop: 5,
   },
@@ -837,12 +850,12 @@ const styles = StyleSheet.create({
     fontWeight: "800",
   },
   srChange: {
-    fontSize: 24,
+    fontSize: 19,
     fontWeight: "900",
   },
   srNow: {
     color: "#FFFFFF",
-    fontSize: 18,
+    fontSize: 15,
     fontWeight: "900",
   },
   rowBetween: {

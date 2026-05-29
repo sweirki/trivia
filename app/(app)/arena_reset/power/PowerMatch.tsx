@@ -14,7 +14,7 @@ import { usePowerUpStore } from "@/arena/store/usePowerUpStore";
 import { usePowerArenaMatchStore } from "@/arena/power/store/usePowerArenaMatchStore";
 import { feedback } from "@/feedback";
 
-const INTRO_COUNTDOWN_START = 3;
+const INTRO_COUNTDOWN_START = 1;
 
 const POWER_INTRO_HERO = require("../../../../assets/images/arena/power/power_intro_hero.webp");
 const POWER_MATCH_HEADER = require("../../../../assets/images/arena/power/power_match_header.webp");
@@ -81,26 +81,25 @@ function isCorrectPick(picked: string, question: PowerQuestion) {
 }
 
 export default function PowerMatch() {
-  const {
-    questions,
-    currentIndex,
-    timeLeft,
-    tick,
-    answerQuestion,
-    matchEnded,
-    activateFreeze,
-    activateShield,
-    activateDoubleScore,
-    rerollQuestion,
-    revealTwoWrong,
-    eliminatedIndexes,
-    freezeActive,
-    shieldActive,
-    doubleScoreActive,
-    score,
-  } = usePowerArenaMatchStore();
+  const questions = usePowerArenaMatchStore((state) => state.questions);
+  const currentIndex = usePowerArenaMatchStore((state) => state.currentIndex);
+  const timeLeft = usePowerArenaMatchStore((state) => state.timeLeft);
+  const tick = usePowerArenaMatchStore((state) => state.tick);
+  const answerQuestion = usePowerArenaMatchStore((state) => state.answerQuestion);
+  const matchEnded = usePowerArenaMatchStore((state) => state.matchEnded);
+  const activateFreeze = usePowerArenaMatchStore((state) => state.activateFreeze);
+  const activateShield = usePowerArenaMatchStore((state) => state.activateShield);
+  const activateDoubleScore = usePowerArenaMatchStore((state) => state.activateDoubleScore);
+  const rerollQuestion = usePowerArenaMatchStore((state) => state.rerollQuestion);
+  const revealTwoWrong = usePowerArenaMatchStore((state) => state.revealTwoWrong);
+  const eliminatedIndexes = usePowerArenaMatchStore((state) => state.eliminatedIndexes);
+  const freezeActive = usePowerArenaMatchStore((state) => state.freezeActive);
+  const shieldActive = usePowerArenaMatchStore((state) => state.shieldActive);
+  const doubleScoreActive = usePowerArenaMatchStore((state) => state.doubleScoreActive);
+  const score = usePowerArenaMatchStore((state) => state.score);
 
-  const { usePowerUp, hasPowerUp } = usePowerUpStore();
+  const usePowerUp = usePowerUpStore((state) => state.usePowerUp);
+  const hasPowerUp = usePowerUpStore((state) => state.hasPowerUp);
 
   const [introVisible, setIntroVisible] = useState(true);
   const [introCountdown, setIntroCountdown] = useState(INTRO_COUNTDOWN_START);
@@ -145,7 +144,7 @@ export default function PowerMatch() {
 
         return value - 1;
       });
-    }, 900);
+    }, 350);
 
     return () => clearInterval(interval);
   }, [introVisible]);
@@ -163,7 +162,7 @@ export default function PowerMatch() {
 
     const timeout = setTimeout(() => {
       setMomentText(null);
-    }, 1200);
+    }, 650);
 
     return () => clearTimeout(timeout);
   }, [momentText]);
@@ -482,7 +481,7 @@ function PowerButton({
 const styles = StyleSheet.create({
   containerIntro: {
     flex: 1,
-    paddingTop: 92,
+    paddingTop: 38,
     paddingHorizontal: 16,
     backgroundColor: "#060716",
   },
@@ -492,16 +491,16 @@ const styles = StyleSheet.create({
   },
   content: {
     paddingHorizontal: 16,
-    paddingTop: 42,
-    paddingBottom: 118,
+    paddingTop: 28,
+    paddingBottom: 48,
   },
   introCard: {
-    minHeight: 350,
+    minHeight: 245,
     backgroundColor: "#081426",
     borderRadius: 24,
     borderWidth: 1,
     borderColor: "rgba(79,195,247,0.72)",
-    padding: 20,
+    padding: 15,
     alignItems: "center",
     justifyContent: "center",
     overflow: "hidden",
@@ -518,7 +517,7 @@ const styles = StyleSheet.create({
   },
   introTitle: {
     color: "#FFFFFF",
-    fontSize: 26,
+    fontSize: 20,
     fontWeight: "900",
     textAlign: "center",
     textShadowColor: "rgba(0,0,0,0.95)",
@@ -567,7 +566,7 @@ const styles = StyleSheet.create({
   },
   countdownBig: {
     color: "#4FC3F7",
-    fontSize: 46,
+    fontSize: 30,
     fontWeight: "900",
     textShadowColor: "rgba(79,195,247,0.78)",
     textShadowRadius: 16,
@@ -586,12 +585,12 @@ const styles = StyleSheet.create({
     fontWeight: "800",
   },
   headerCard: {
-    minHeight: 142,
+    minHeight: 96,
     backgroundColor: "#101827",
     borderRadius: 18,
     borderWidth: 1,
     borderColor: "rgba(79,195,247,0.46)",
-    padding: 14,
+    padding: 10,
     marginBottom: 10,
     overflow: "hidden",
     justifyContent: "flex-end",
@@ -614,7 +613,7 @@ const styles = StyleSheet.create({
   },
   header: {
     color: "#FFFFFF",
-    fontSize: 21,
+    fontSize: 12,
     fontWeight: "900",
     flex: 1,
     textShadowColor: "rgba(0,0,0,0.95)",
@@ -663,7 +662,7 @@ const styles = StyleSheet.create({
   },
   dangerText: { color: "#FF5C7A" },
   momentCard: {
-    minHeight: 70,
+    minHeight: 48,
     borderRadius: 14,
     borderWidth: 1,
     borderColor: "rgba(247,201,72,0.64)",
@@ -702,21 +701,21 @@ const styles = StyleSheet.create({
   questionWrap: {
     backgroundColor: "#151521",
     borderRadius: 15,
-    padding: 12,
+    padding: 9,
     borderWidth: 1,
     borderColor: "#27273B",
     marginBottom: 8,
   },
   question: {
     color: "#FFFFFF",
-    fontSize: 17,
-    lineHeight: 22,
+    fontSize: 13,
+    lineHeight: 17,
     textAlign: "center",
     fontWeight: "800",
   },
   answerBtn: {
     backgroundColor: "#1c1c29",
-    paddingVertical: 10,
+    paddingVertical: 8,
     paddingHorizontal: 12,
     borderRadius: 12,
     marginVertical: 3,
@@ -727,7 +726,7 @@ const styles = StyleSheet.create({
   answerText: {
     color: "#FFFFFF",
     textAlign: "center",
-    fontSize: 15,
+    fontSize: 12,
     fontWeight: "700",
   },
   eliminatedText: { color: "#8b8b9d" },
@@ -763,7 +762,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 4,
     borderRadius: 11,
     alignItems: "center",
-    minHeight: 72,
+    minHeight: 58,
   },
   pUpDisabled: { opacity: 0.35 },
   pUpActive: {

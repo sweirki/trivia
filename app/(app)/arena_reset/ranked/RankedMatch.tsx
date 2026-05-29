@@ -11,14 +11,17 @@ const RANKED_VS_BACKGROUND = require("../../../../assets/images/arena/ranked/ran
 const RIVAL_CARD_ART = require("../../../../assets/images/arena/ranked/rival_card_art.webp");
 const RANKED_MATCH_HEADER = require("../../../../assets/images/arena/ranked/ranked_match_header.webp");
 
-const QUESTION_TIME = 15;
-const INTRO_COUNTDOWN_START = 3;
+const QUESTION_TIME = 12;
+const INTRO_COUNTDOWN_START = 1;
 
 
 type RankedQuestion = {
-  text: string;
-  answers: string[];
-  correct: string;
+  text?: string;
+  question?: string;
+  answers?: string[];
+  options?: string[];
+  correct?: string;
+  correctAnswer?: string;
 };
 
 type RivalRevealState = "idle" | "thinking" | "correct" | "wrong" | "timeout";
@@ -33,16 +36,14 @@ const RIVALS = [
 
 export default function RankedMatch() {
   const { daily } = useLocalSearchParams<{ daily?: string }>();
-  const {
-    questions,
-    currentQuestionIndex,
-    matchState,
-    startRankedMatch,
-    updatePlayerScore,
-    updateOpponentScore,
-    nextQuestion,
-    opponent,
-  } = useArenaStore();
+  const questions = useArenaStore((state) => state.questions);
+  const currentQuestionIndex = useArenaStore((state) => state.currentQuestionIndex);
+  const matchState = useArenaStore((state) => state.matchState);
+  const startRankedMatch = useArenaStore((state) => state.startRankedMatch);
+  const updatePlayerScore = useArenaStore((state) => state.updatePlayerScore);
+  const updateOpponentScore = useArenaStore((state) => state.updateOpponentScore);
+  const nextQuestion = useArenaStore((state) => state.nextQuestion);
+  const opponent = useArenaStore((state) => state.opponent);
 
   const [timeLeft, setTimeLeft] = useState(QUESTION_TIME);
   const [introVisible, setIntroVisible] = useState(true);
@@ -55,8 +56,11 @@ export default function RankedMatch() {
   const revealTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const advanceTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const q = questions[currentQuestionIndex] as RankedQuestion;
-  const blocked = !q;
+  const q = questions[currentQuestionIndex] as RankedQuestion | undefined;
+  const questionText = typeof q?.text === "string" ? q.text : typeof q?.question === "string" ? q.question : "";
+  const answers = Array.isArray(q?.answers) ? q.answers : Array.isArray(q?.options) ? q.options : [];
+  const correctAnswer = typeof q?.correct === "string" ? q.correct : typeof q?.correctAnswer === "string" ? q.correctAnswer : "";
+  const blocked = !q || !questionText || answers.length === 0 || !correctAnswer;
 
   const fallbackRivalName = useMemo(() => {
     const index = Math.floor(Math.random() * RIVALS.length);
@@ -85,7 +89,7 @@ export default function RankedMatch() {
 
         return value - 1;
       });
-    }, 900);
+    }, 350);
 
     return () => clearInterval(interval);
   }, [introVisible]);
@@ -93,11 +97,17 @@ export default function RankedMatch() {
   useEffect(() => {
     if (introVisible) return;
     if (matchStartedRef.current) return;
-    if (matchState !== "idle") return;
+
+    // Only create a new ranked match when there is no active question set.
+    // Previous builds restarted during countdown/loading and wiped real scores.
+    if (questions.length > 0) return;
+    if (matchState === "finished") return;
 
     matchStartedRef.current = true;
-    startRankedMatch();
-  }, [introVisible, matchState, startRankedMatch]);
+    startRankedMatch().finally(() => {
+      matchStartedRef.current = false;
+    });
+  }, [introVisible, matchState, questions.length, startRankedMatch]);
 
   const resolveRankedTurn = (isCorrect: boolean, answerLabel?: string) => {
     if (!q) return;
@@ -112,7 +122,7 @@ export default function RankedMatch() {
     }
 
     const decision = useArenaOpponentAI.getState().getAnswerForQuestion(currentQuestionIndex);
-    const revealDelay = Math.max(520, Math.min(decision.delayMs, 1350));
+    const revealDelay = Math.max(180, Math.min(decision.delayMs, 520));
 
     revealTimeoutRef.current = setTimeout(() => {
       if (!decision.willAnswer) {
@@ -128,7 +138,7 @@ export default function RankedMatch() {
         setSelectedAnswer(null);
         setRivalReveal("idle");
         nextQuestion();
-      }, 560);
+      }, 220);
     }, revealDelay);
   };
 
@@ -170,20 +180,29 @@ export default function RankedMatch() {
     q,
   ]);
 
+  const routedToResultRef = useRef(false);
+
   useEffect(() => {
-    if (matchState === "finished") {
-      router.replace({
-        pathname: "/(app)/arena_reset/ranked/RankedResult",
-        params: daily === "1" ? { daily: "1" } : undefined,
-      });
-    }
+    if (matchState !== "finished") return;
+    if (routedToResultRef.current) return;
+
+    routedToResultRef.current = true;
+  
+
+    if (revealTimeoutRef.current) clearTimeout(revealTimeoutRef.current);
+    if (advanceTimeoutRef.current) clearTimeout(advanceTimeoutRef.current);
+
+    router.replace({
+      pathname: "/(app)/arena_reset/ranked/RankedResult",
+      params: daily === "1" ? { daily: "1" } : undefined,
+    });
   }, [daily, matchState]);
 
   const handleAnswer = (answer: string) => {
     if (!q) return;
     if (answeredRef.current) return;
 
-    const isCorrect = answer === q.correct;
+    const isCorrect = answer === correctAnswer;
 
     if (isCorrect) {
       if (timeLeft <= 2) {
@@ -241,7 +260,16 @@ export default function RankedMatch() {
   return (
     <View style={styles.container}>
       {blocked ? (
-        <Text style={styles.loadingText}>Loading ranked battle...</Text>
+        <View style={styles.blockedState}>
+          <Text style={styles.loadingText}>Loading ranked battle...</Text>
+          <TouchableOpacity
+            style={styles.retryButton}
+            onPress={() => startRankedMatch()}
+            activeOpacity={0.9}
+          >
+            <Text style={styles.retryText}>Retry</Text>
+          </TouchableOpacity>
+        </View>
       ) : (
         <>
           <ImageBackground source={RANKED_MATCH_HEADER} resizeMode="cover" imageStyle={styles.matchHeaderImage} style={styles.matchHeader}>
@@ -271,9 +299,9 @@ export default function RankedMatch() {
             </Text>
           </View>
 
-          <Text style={styles.question}>{typeof q.text === "string" ? q.text : ""}</Text>
+          <Text style={styles.question}>{questionText}</Text>
 
-          {(Array.isArray(q.answers) ? q.answers : []).map((ans: string) => (
+          {answers.map((ans: string) => (
             <TouchableOpacity
               key={ans}
               style={[
@@ -297,8 +325,8 @@ export default function RankedMatch() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 70,
-    paddingHorizontal: 20,
+    paddingTop: 28,
+    paddingHorizontal: 16,
     backgroundColor: "#071226",
   },
 
@@ -324,7 +352,7 @@ const styles = StyleSheet.create({
   },
   introLabel: {
     color: "#FFD54F",
-    fontSize: 12,
+    fontSize: 11,
     fontWeight: "900",
     letterSpacing: 1.2,
     marginBottom: 10,
@@ -332,7 +360,7 @@ const styles = StyleSheet.create({
 
   introTitle: {
     color: "#fff",
-    fontSize: 42,
+    fontSize: 30,
     fontWeight: "900",
     marginBottom: 18,
   },
@@ -410,13 +438,13 @@ const styles = StyleSheet.create({
 
   stakesText: {
     color: "#E8DDB5",
-    fontSize: 13,
+    fontSize: 11,
     lineHeight: 19,
   },
 
   countdownBig: {
     color: "#FFD54F",
-    fontSize: 54,
+    fontSize: 32,
     fontWeight: "900",
     marginTop: 22,
   },
@@ -427,8 +455,8 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     borderWidth: 1,
     borderColor: "rgba(143,230,255,0.22)",
-    padding: 16,
-    marginBottom: 18,
+    padding: 12,
+    marginBottom: 10,
   },
 
   matchHeaderImage: {
@@ -444,21 +472,21 @@ const styles = StyleSheet.create({
 
   header: {
     color: "#fff",
-    fontSize: 28,
+    fontSize: 11,
     fontWeight: "900",
   },
 
   rivalText: {
     color: "#aaa8bc",
-    fontSize: 13,
+    fontSize: 11,
     marginTop: 5,
   },
 
   timer: {
     color: "#FF5C7A",
-    fontSize: 26,
+    fontSize: 11,
     textAlign: "center",
-    marginVertical: 15,
+    marginVertical: 8,
     fontWeight: "900",
   },
 
@@ -467,9 +495,9 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "rgba(143,230,255,0.18)",
     backgroundColor: "rgba(9,24,45,0.82)",
-    paddingHorizontal: 14,
-    paddingVertical: 10,
-    marginBottom: 10,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    marginBottom: 8,
   },
 
   rivalStatusActive: {
@@ -487,25 +515,25 @@ const styles = StyleSheet.create({
 
   rivalStatusText: {
     color: "#E7F8FF",
-    fontSize: 13,
+    fontSize: 11,
     fontWeight: "800",
     marginTop: 3,
   },
 
   question: {
     color: "#fff",
-    fontSize: 20,
-    marginVertical: 20,
+    fontSize: 11,
+    marginVertical: 8,
     textAlign: "center",
-    lineHeight: 28,
+    lineHeight: 15,
     fontWeight: "800",
   },
 
   answerButton: {
     backgroundColor: "rgba(16,35,61,0.94)",
-    padding: 15,
+    padding: 9,
     borderRadius: 14,
-    marginVertical: 6,
+    marginVertical: 4,
     borderWidth: 1,
     borderColor: "rgba(143,230,255,0.18)",
   },
@@ -521,9 +549,31 @@ const styles = StyleSheet.create({
 
   answerText: {
     color: "#fff",
-    fontSize: 17,
+    fontSize: 11,
+    lineHeight: 15,
     textAlign: "center",
     fontWeight: "700",
+  },
+
+  blockedState: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    paddingHorizontal: 24,
+  },
+
+  retryButton: {
+    marginTop: 18,
+    backgroundColor: "#F7C948",
+    borderRadius: 999,
+    paddingHorizontal: 28,
+    paddingVertical: 12,
+  },
+
+  retryText: {
+    color: "#071226",
+    fontSize: 16,
+    fontWeight: "900",
   },
 });
 

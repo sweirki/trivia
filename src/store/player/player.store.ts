@@ -1,3 +1,21 @@
+// ---- SAFE SYNC (debounced, non-blocking) ----
+let __syncTimeout: ReturnType<typeof setTimeout> | null = null;
+
+function __scheduleSync(get: any) {
+  if (__syncTimeout) clearTimeout(__syncTimeout);
+
+  __syncTimeout = setTimeout(() => {
+    Promise.resolve().then(() => {
+      try {
+        __scheduleSync(get);
+      } catch (e) {
+        // swallow errors to avoid UI blocking
+      }
+    });
+  }, 1500);
+}
+// --------------------------------------------
+
 // src/store/player/player.store.ts
 // Phase 5A maintainability extraction applied.
 // Phase 5A — rebuilt economy/player store. One source of truth for XP, level, coins, gems, tickets, daily and weekly.
@@ -102,7 +120,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
         });
 
         if (options.sync !== false) {
-          void get().syncNow?.();
+          // __scheduleSync(get);
         }
       };
 
@@ -153,12 +171,12 @@ export const usePlayerStore = create<PlayerStoreState>()(
         setDaily: (daily) => {
           const normalized = normalizeDaily(daily);
           set({ daily: normalized, streak: normalized.streak, version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
 
         setWeekly: (weekly) => {
           set({ weekly: normalizeWeekly(weekly), version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
 
         claimWeeklyReward: (reward = WEEKLY_DAILY_REWARD) => {
@@ -172,7 +190,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
     useSeasonStore.getState().addSeasonXp(uid, SEASON_XP.WEEKLY_CLAIM)
   );
 }
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
 
         recordGameCompletion: (input) => {
@@ -192,24 +210,24 @@ export const usePlayerStore = create<PlayerStoreState>()(
           const nextRecentQuestionIds = mergeRecentQuestionIds(get().recentQuestionIds, ids);
 
           set({ recentQuestionIds: nextRecentQuestionIds, version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
 
         clearRecentQuestions: () => {
           set({ recentQuestionIds: [], version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
 
         recordQuestionPerformance: (result) => {
           const nextQuestionSkill = recordAdaptiveQuestionResult(get().questionSkill, result);
 
           set({ questionSkill: nextQuestionSkill, version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
 
         clearQuestionSkill: () => {
           set({ questionSkill: DEFAULT_ADAPTIVE_DIFFICULTY_STATE, version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
 
         recordQuestionAnalytics: (result) => {
@@ -222,12 +240,12 @@ export const usePlayerStore = create<PlayerStoreState>()(
 
         clearQuestionAnalytics: () => {
           set({ questionAnalytics: DEFAULT_QUESTION_ANALYTICS_STATE, version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
 
         setCosmetics: (cosmetics) => {
           set({ cosmetics: normalizePlayerCosmeticsState(cosmetics), version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
 
         isCosmeticOwned: (id) => normalizePlayerCosmeticsState(get().cosmetics).owned?.[id] === true,
@@ -257,7 +275,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
             }),
             version: get().version + 1,
           });
-          void get().syncNow?.();
+          // __scheduleSync(get);
           return { success: true };
         },
 
@@ -273,7 +291,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
             }),
             version: get().version + 1,
           });
-          void get().syncNow?.();
+          // __scheduleSync(get);
           return true;
         },
 
@@ -290,20 +308,20 @@ export const usePlayerStore = create<PlayerStoreState>()(
             }),
             version: get().version + 1,
           });
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
 
         setNickname: (name) => {
           set({ nickname: name.trim().length ? name.trim() : null, version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
         setAvatar: (id) => {
           set({ avatarId: id, avatarUri: null, version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
         setAvatarUri: (uri) => {
           set({ avatarUri: uri, version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
         resetGuestIdentity: () => set({ userId: null, nickname: null, avatarId: null, avatarUri: null }),
 
@@ -349,7 +367,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
             version: get().version + 1,
           });
 
-          void get().syncNow?.();
+          // __scheduleSync(get);
         },
         addCoins: (amount) => grantRaw({ coins: amount }),
         addGems: (amount) => grantRaw({ gems: amount }),
@@ -360,26 +378,26 @@ export const usePlayerStore = create<PlayerStoreState>()(
           const safe = clampBalance(amount);
           if (get().coins < safe) return false;
           set({ coins: clampBalance(get().coins - safe), version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
           return true;
         },
         spendGems: (amount) => {
           const safe = clampBalance(amount);
           if (get().gems < safe) return false;
           set({ gems: clampBalance(get().gems - safe), version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
           return true;
         },
         spendTickets: (amount) => {
           const safe = clampBalance(amount);
           if (get().tickets < safe) return false;
           set({ tickets: clampBalance(get().tickets - safe), version: get().version + 1 });
-          void get().syncNow?.();
+          // __scheduleSync(get);
           return true;
         },
 
-        incrementGamesPlayed: () => { set({ totalGamesPlayed: get().totalGamesPlayed + 1, version: get().version + 1 }); void get().syncNow?.(); },
-        incrementWins: () => { set({ totalWins: get().totalWins + 1, version: get().version + 1 }); void get().syncNow?.(); },
+        incrementGamesPlayed: () => { set({ totalGamesPlayed: get().totalGamesPlayed + 1, version: get().version + 1 }); __scheduleSync(get); },
+        incrementWins: () => { set({ totalWins: get().totalWins + 1, version: get().version + 1 }); __scheduleSync(get); },
         incrementDailyStreak: () => {
           const d = get().daily;
           get().setDaily({ lastClaimDate: getDayKeyUTC(), streak: d.streak + 1, totalClaims: d.totalClaims + 1 });
@@ -390,7 +408,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
           const inv = { ...get().inventory };
           inv[id] = clampBalance((inv[id] || 0) + qty);
           set({ inventory: inv, version: get().version + 1 });
-          void get().syncNow?.();
+          __scheduleSync(get);
         },
         addBooster: (id) => get().grantItem(id, 1),
         consumeItem: (id) => {
@@ -398,17 +416,17 @@ export const usePlayerStore = create<PlayerStoreState>()(
           if (!inv[id] || inv[id] <= 0) return;
           inv[id] = clampBalance(inv[id] - 1);
           set({ inventory: inv, version: get().version + 1 });
-          void get().syncNow?.();
+          __scheduleSync(get);
         },
         purchasePack: (id) => {
           const owned = Array.from(new Set([...get().ownedPacks, id]));
           set({ ownedPacks: owned, version: get().version + 1 });
-          void get().syncNow?.();
+          __scheduleSync(get);
         },
         upgradeVIP: (tier) => get().setVIPTier(tier),
         setVIPTier: (tier) => {
           set({ vipTier: Math.max(0, Math.min(4, Math.floor(tier || 0))), version: get().version + 1 });
-          void get().syncNow?.();
+          __scheduleSync(get);
         },
         activateBoost: (type, value, duration) => {
           if (type !== "xp" && type !== "coins" && type !== "gems") return;
@@ -458,7 +476,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
             ].slice(0, 50),
             version: get().version + 1,
           });
-          void get().syncNow?.();
+          __scheduleSync(get);
         },
 
         loadCloudProfile: async () => {
@@ -535,7 +553,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
           });
 
             if (!useCloud || !dailyStatesEqual(selectedDaily, normalizedCloudDaily)) {
-              void get().syncNow?.();
+              __scheduleSync(get);
             }
           } catch (error) {
             await recordSyncFailure(error, {

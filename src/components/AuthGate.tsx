@@ -5,6 +5,7 @@ import {
   StyleSheet,
   Modal,
   Pressable,
+  Image,
 } from "react-native";
 import { router, usePathname } from "expo-router";
 
@@ -35,6 +36,8 @@ export default function AuthGate({ children }: AuthGateProps) {
 
   const didInitRef = useRef(false);
   const [showMergePrompt, setShowMergePrompt] = useState(false);
+  const [bootSplashVisible, setBootSplashVisible] = useState(true);
+  const [bootProgress, setBootProgress] = useState(12);
 
   useEffect(() => {
     if (didInitRef.current) return;
@@ -42,6 +45,21 @@ export default function AuthGate({ children }: AuthGateProps) {
     didInitRef.current = true;
     initAuth();
   }, [initAuth]);
+
+  useEffect(() => {
+    const progressTimer = setInterval(() => {
+      setBootProgress((value) => Math.min(96, value + 7));
+    }, 120);
+
+    const minimumSplashTimer = setTimeout(() => {
+      setBootSplashVisible(false);
+    }, 1500);
+
+    return () => {
+      clearInterval(progressTimer);
+      clearTimeout(minimumSplashTimer);
+    };
+  }, []);
 
   useEffect(() => {
     if (needsMergePrompt) {
@@ -74,10 +92,20 @@ export default function AuthGate({ children }: AuthGateProps) {
     router.replace("/login");
   };
 
-  if (loading) {
+  if (loading || bootSplashVisible) {
     return (
-      <View style={styles.center}>
-        <ActivityIndicator size="large" />
+      <View style={styles.bootSplash}>
+        <View style={styles.bootGlow} />
+        <Image
+          source={require("../../assets/images/splash-icon.png")}
+          style={styles.bootLogo}
+          resizeMode="contain"
+        />
+        <Text style={styles.bootTitle}>TriviaWorld</Text>
+        <Text style={styles.bootSubtitle}>Preparing your arena…</Text>
+        <View style={styles.bootProgressTrack}>
+          <View style={[styles.bootProgressFill, { width: `${bootProgress}%` }]} />
+        </View>
       </View>
     );
   }
@@ -142,6 +170,57 @@ export default function AuthGate({ children }: AuthGateProps) {
 }
 
 const styles = StyleSheet.create({
+  bootSplash: {
+    flex: 1,
+    backgroundColor: "#07111F",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 28,
+  },
+
+  bootGlow: {
+    position: "absolute",
+    width: 260,
+    height: 260,
+    borderRadius: 130,
+    backgroundColor: "rgba(246,196,83,0.10)",
+  },
+
+  bootLogo: {
+    width: 150,
+    height: 150,
+    marginBottom: 14,
+  },
+
+  bootTitle: {
+    color: "#F6C453",
+    fontSize: 20,
+    fontWeight: "900",
+    letterSpacing: 0.6,
+  },
+
+  bootSubtitle: {
+    color: "#AAB8E8",
+    fontSize: 12,
+    fontWeight: "800",
+    marginTop: 6,
+    marginBottom: 18,
+  },
+
+  bootProgressTrack: {
+    width: "72%",
+    height: 8,
+    borderRadius: 999,
+    backgroundColor: "rgba(255,255,255,0.12)",
+    overflow: "hidden",
+  },
+
+  bootProgressFill: {
+    height: "100%",
+    borderRadius: 999,
+    backgroundColor: "#F6C453",
+  },
+
   center: {
     flex: 1,
     justifyContent: "center",

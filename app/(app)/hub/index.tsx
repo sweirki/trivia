@@ -13,6 +13,7 @@ import {
 } from "react-native";
 import { useRouter } from "expo-router";
 import { LinearGradient } from "expo-linear-gradient";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 import { auth } from "@/firebase/firebase";
 import { ACHIEVEMENT_META } from "@/data/achievementMeta";
@@ -48,6 +49,7 @@ const SHOP_ART = require("../../../assets/images/modes/shop_mode_art.webp");
 
 export default function HubScreen() {
   const router = useRouter();
+  const insets = useSafeAreaInsets();
 
   const user = useAuthStore((s) => s.user);
   const isGuest = useAuthStore((s) => s.isGuest);
@@ -163,7 +165,7 @@ export default function HubScreen() {
       useNativeDriver: false,
     }).start();
 
-    Animated.loop(
+    const pulseLoop = Animated.loop(
       Animated.sequence([
         Animated.timing(pulse, {
           toValue: 1,
@@ -178,7 +180,10 @@ export default function HubScreen() {
           useNativeDriver: true,
         }),
       ]),
-    ).start();
+    );
+
+    pulseLoop.start();
+    return () => pulseLoop.stop();
   }, [fade, pulse, xpAnim, xpPercent]);
 
   const todayStatus = useMemo(() => {
@@ -199,7 +204,7 @@ export default function HubScreen() {
     <Animated.ScrollView
       testID="screen-hub"
       style={[styles.container, { opacity: fade }]}
-      contentContainerStyle={styles.content}
+      contentContainerStyle={[styles.content, { paddingBottom: 96 + insets.bottom }]}
       showsVerticalScrollIndicator={false}
     >
       <View style={styles.topBar}>
@@ -748,7 +753,7 @@ const styles = StyleSheet.create({
   content: {
     paddingHorizontal: 17,
     paddingTop: 20,
-    paddingBottom: 64,
+    paddingBottom: 96,
   },
 
   topBar: {
@@ -886,9 +891,9 @@ const styles = StyleSheet.create({
 
   heroTitle: {
     color: "#F4FAFF",
-    fontSize: 23,
+    fontSize: 18,
     fontWeight: "900",
-    letterSpacing: -0.45,
+    letterSpacing: -0.35,
   },
 
   heroSub: {
@@ -918,7 +923,7 @@ const styles = StyleSheet.create({
 
   progressLevel: {
     color: "#A9CBE7",
-    fontSize: 14,
+    fontSize: 12,
     fontWeight: "900",
   },
 
@@ -954,7 +959,7 @@ const styles = StyleSheet.create({
 
   sectionTitle: {
     color: "#F4FAFF",
-    fontSize: 18,
+    fontSize: 15,
     fontWeight: "900",
   },
 
@@ -979,13 +984,13 @@ const styles = StyleSheet.create({
   },
 
   modeCardLarge: {
-    height: 140,
+    minHeight: 136,
     marginBottom: 16,
   },
 
   modeCardCompact: {
     width: "48%",
-    height: 118,
+    minHeight: 124,
     marginBottom: 14,
     borderColor: "rgba(190,231,255,0.28)",
   },
@@ -1043,44 +1048,47 @@ const styles = StyleSheet.create({
 
   modeOverlay: {
     flex: 1,
-    padding: 16,
+    padding: 15,
     justifyContent: "center",
   },
 
   modeOverlayCompact: {
-    padding: 13,
+    padding: 12,
     justifyContent: "flex-end",
     backgroundColor: "transparent",
   },
 
   modeCopy: {
-    maxWidth: "64%",
+    maxWidth: "70%",
   },
 
   modeTitle: {
     color: "#F4FAFF",
-    fontSize: 24,
+    fontSize: 17,
+    lineHeight: 21,
     fontWeight: "900",
     letterSpacing: -0.35,
   },
 
  modeTitleCompact: {
   color: "#FFFFFF",
-  fontSize: 17,
+  fontSize: 12,
+  lineHeight: 15,
     textShadowColor: "rgba(0,0,0,0.95)",
     textShadowRadius: 8,
   },
 
   modeSub: {
     color: "#C1D6ED",
-    fontSize: 13,
+    fontSize: 12,
     fontWeight: "800",
     marginTop: 4,
   },
 
   modeSubCompact: {
     color: "#BDD4EC",
-    fontSize: 11,
+    fontSize: 9,
+    lineHeight: 12,
     textShadowColor: "rgba(0,0,0,0.86)",
     textShadowRadius: 6,
   },
@@ -1099,7 +1107,7 @@ const styles = StyleSheet.create({
 
   ctaText: {
     color: "#061223",
-    fontSize: 12,
+    fontSize: 11,
     fontWeight: "900",
   },
 
@@ -1148,7 +1156,7 @@ const styles = StyleSheet.create({
 
   infoTitle: {
     color: "#CBEFFF",
-    fontSize: 17,
+    fontSize: 12,
     fontWeight: "900",
     marginBottom: 12,
     textShadowColor: "rgba(169,203,231,0.16)",
@@ -1164,7 +1172,7 @@ const styles = StyleSheet.create({
 
   infoLabel: {
     color: "#F2F7FF",
-    fontSize: 13,
+    fontSize: 11,
     fontWeight: "900",
   },
 
@@ -1213,7 +1221,7 @@ const styles = StyleSheet.create({
 
   claimText: {
     color: "#111827",
-    fontSize: 14,
+    fontSize: 12,
     fontWeight: "900",
   },
 
@@ -1235,7 +1243,7 @@ const styles = StyleSheet.create({
 
   achievementTitle: {
     color: "#A9CBE7",
-    fontSize: 14,
+    fontSize: 12,
     fontWeight: "900",
     marginBottom: 5,
   },

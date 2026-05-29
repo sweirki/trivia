@@ -9,6 +9,7 @@ import {
   ImageBackground,
   Easing,
 } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useRouter } from "expo-router";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
 import { useLocalSearchParams } from "expo-router";
@@ -29,6 +30,7 @@ import { trackEvent } from "@/observability";
 const GAME_BG = require("../../../assets/premium/atmospheres/premium_question_bg.webp");
 
 export default function GameScreen() {
+  const insets = useSafeAreaInsets();
  const gameStartRef = useRef<number>(Date.now());
  const didFinalizeRef = useRef(false);
  const answerFeedbackTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -48,12 +50,14 @@ export default function GameScreen() {
   const timeLeft = useQuickGameStore((s) => s.timeLeft);
   const gameOver = useQuickGameStore((s) => s.gameOver);
   const handleAnswer = useQuickGameStore((s) => s.handleAnswer);
-  const { id: matchId, challengeId } = useLocalSearchParams<{
+  const { id: matchId, challengeId, runId } = useLocalSearchParams<{
   id?: string;
   challengeId?: string;
+  runId?: string;
 }>();
 
   const current = questions[idx];
+  const runKey = `${runId ?? "direct"}:${mode ?? "none"}:${category ?? "none"}:${questions.length}:${questions[0]?.id ?? "empty"}`;
 
   const vipTier = usePlayerStore((s) => s.vipTier);
   const boosts = usePlayerStore((s) => s.activeBoosts);
@@ -83,6 +87,13 @@ export default function GameScreen() {
     return () => clearTimeout(t);
   }, []);
 
+  useEffect(() => {
+    if (!gameOver && questions.length > 0) {
+      didFinalizeRef.current = false;
+      gameStartRef.current = Date.now();
+    }
+  }, [runKey, gameOver, questions.length]);
+
   // ---------------------------------------------------------
   // ANIMATIONS
   // ---------------------------------------------------------
@@ -107,7 +118,7 @@ export default function GameScreen() {
   }, 1200);
 
   return () => clearTimeout(t);
-}, [challengeId, matchId, mode, questions.length]);
+}, [challengeId, matchId, mode, questions.length, runKey]);
 
   const timerPulse = useRef(new Animated.Value(1)).current;
 
@@ -188,160 +199,141 @@ export default function GameScreen() {
 
 
   // ---------------------------------------------------------
-  // GAME OVER — single finalization authority
-  // ---------------------------------------------------------
-  useEffect(() => {
-    if (!gameOver || didFinalizeRef.current) return;
+ // ---------------------------------------------------------
+// GAME OVER — navigate first, process heavy work after
+// ---------------------------------------------------------
+useEffect(() => {
+  if (!gameOver || didFinalizeRef.current) return;
 
-    didFinalizeRef.current = true;
+  didFinalizeRef.current = true;
 
-    requestAnimationFrame(() => {
-      router.replace("/(app)/play/(screens)/result");
+  const quick = useQuickGameStore.getState();
+  const latestScore = quick.score;
+  const totalQuestions = quick.questions.length;
+  const correctCount = quick.answerHistory.filter((answer) => answer.correct).length;
+  const latestMode = quick.mode;
+  const latestStreak = quick.streak;
+
+  const accuracy = totalQuestions === 0 ? 0 : correctCount / totalQuestions;
+
+  const reward = getGameCompletionReward({
+    mode: latestMode,
+    totalQuestions,
+    correct: correctCount,
+    accuracy,
+    perfect: totalQuestions > 0 && correctCount === totalQuestions,
+  });
+
+  useQuickGameStore.setState(() => ({
+    earnedXP: reward.xp,
+    earnedCoins: reward.coins,
+    earnedGems: reward.gems,
+    earnedTickets: reward.tickets,
+  }));
+
+  const player = usePlayerStore.getState();
+
+  if (quick.gameContext === "tournament") {
+    const totalQ = totalQuestions || 10;
+    const botScore = Math.max(
+      0,
+      Math.min(totalQ, latestScore + (Math.floor(Math.random() * 3) - 2))
+    );
+
+    if (matchId) {
+      submitMatchResult(matchId, latestScore, botScore);
+    }
+  }
+
+  if (reward.xp || reward.coins || reward.gems || reward.tickets) {
+    player.applyReward(reward.xp, reward.coins, reward.gems, reward.tickets);
+  }
+
+  useHistoryStore.getState().addResult({
+    mode: latestMode ?? "classic",
+    category: quick.category ?? undefined,
+    score: latestScore,
+    questions: totalQuestions,
+    correct: correctCount,
+    totalQuestions,
+    correctCount,
+    accuracy,
+    won: latestScore > 0,
+    xp: reward.xp,
+    coins: reward.coins,
+  } as any);
+
+  player.incrementGamesPlayed();
+
+  if (latestScore > 0) {
+    player.incrementWins();
+  }
+
+  if (challengeId) {
+    useChallengesStore
+      .getState()
+      .completeChallenge(String(challengeId), latestScore);
+  }
+
+  if (latestMode === "daily") {
+    quick.setDailyResult({
+      accuracy,
+      passed: accuracy >= 0.8,
+      perfect: accuracy === 1,
     });
 
-    const t = setTimeout(() => {
-      const quick = useQuickGameStore.getState();
-      const latestScore = quick.score;
-      const totalQuestions = quick.questions.length;
-      const correctCount = quick.answerHistory.filter((answer) => answer.correct).length;
-      const latestMode = quick.mode;
-      const latestStreak = quick.streak;
+    const store = usePlayerStore.getState();
+    const currentWeek = getWeekKeyUTC();
+    const today = getDayKeyUTC();
+    const lastDailyPlayDate = (store.weekly as any).lastDailyPlayDate ?? null;
 
-      if (quick.gameContext === "tournament") {
-        const totalQ = totalQuestions || 10;
-        const botScore = Math.max(
-          0,
-          Math.min(totalQ, latestScore + (Math.floor(Math.random() * 3) - 2))
-        );
-
-        if (matchId) {
-          submitMatchResult(matchId, latestScore, botScore);
-        }
-      }
-
-      const player = usePlayerStore.getState();
-      const accuracy = totalQuestions === 0 ? 0 : correctCount / totalQuestions;
-      const reward = getGameCompletionReward({
-        mode: latestMode,
-        totalQuestions,
-        correct: correctCount,
-        accuracy,
-        perfect: totalQuestions > 0 && correctCount === totalQuestions,
-      });
-
-      const recordGameCompletion = (player as any).recordGameCompletion;
-      const retentionBonus =
-        typeof recordGameCompletion === "function"
-          ? recordGameCompletion({
-              accuracy,
-              won: latestScore > 0,
-            })
-          : { xp: 0, coins: 0, gems: 0, tickets: 0 };
-
-      const totalEarnedXP = reward.xp + retentionBonus.xp;
-      const totalEarnedCoins = reward.coins + retentionBonus.coins;
-      const totalEarnedGems = reward.gems + retentionBonus.gems;
-      const totalEarnedTickets = reward.tickets + retentionBonus.tickets;
-
-      useQuickGameStore.setState((state: any) => ({
-        earnedXP: state.earnedXP + totalEarnedXP,
-        earnedCoins: state.earnedCoins + totalEarnedCoins,
-        earnedGems: state.earnedGems + totalEarnedGems,
-        earnedTickets: state.earnedTickets + totalEarnedTickets,
-      }));
-
-      if (reward.xp || reward.coins || reward.gems || reward.tickets) {
-        player.applyReward(reward.xp, reward.coins, reward.gems, reward.tickets);
-      }
-
-      useHistoryStore.getState().addResult({
-        mode: latestMode ?? "classic",
-        category: quick.category ?? undefined,
-        score: latestScore,
-
-        questions: totalQuestions,
-        correct: correctCount,
-
-        totalQuestions,
-        correctCount,
-        accuracy,
-        won: latestScore > 0,
-        xp: totalEarnedXP,
-        coins: totalEarnedCoins,
+    if (store.weekly.weekKey !== currentWeek) {
+      store.setWeekly({
+        weekKey: currentWeek,
+        progress: 1,
+        claimed: false,
+        lastDailyPlayDate: today,
       } as any);
+    } else if (lastDailyPlayDate !== today) {
+      store.setWeekly({
+        ...store.weekly,
+        progress: store.weekly.progress + 1,
+        lastDailyPlayDate: today,
+      } as any);
+    }
+  }
 
-      player.incrementGamesPlayed();
+  const uid = useAuthStore.getState().user?.uid ?? null;
+  const playerState = usePlayerStore.getState();
 
-      if (latestScore > 0) {
-        player.incrementWins();
-      }
+  void onGameFinished({
+    userId: uid,
+    won: latestScore > 0,
+    correctCount,
+    totalQuestions,
+    durationMs: Date.now() - gameStartRef.current,
+    totalGamesPlayed: playerState.totalGamesPlayed,
+    totalWins: playerState.totalWins,
+    winStreak: latestStreak,
+  });
 
-      if (challengeId) {
-        useChallengesStore
-          .getState()
-          .completeChallenge(String(challengeId), latestScore);
-      }
+  void trackEvent("game_completed", {
+    mode: latestMode ?? "classic",
+    score: latestScore,
+    totalQuestions,
+    correctCount,
+    accuracy,
+    durationMs: Date.now() - gameStartRef.current,
+    earnedXP: reward.xp,
+    earnedCoins: reward.coins,
+    earnedGems: reward.gems,
+    earnedTickets: reward.tickets,
+    challenge: Boolean(challengeId),
+    tournament: Boolean(matchId),
+  });
 
-      const uid = useAuthStore.getState().user?.uid ?? null;
-      const playerState = usePlayerStore.getState();
-
-      onGameFinished({
-        userId: uid,
-        won: latestScore > 0,
-        correctCount,
-        totalQuestions,
-        durationMs: Date.now() - gameStartRef.current,
-        totalGamesPlayed: playerState.totalGamesPlayed,
-        totalWins: playerState.totalWins,
-        winStreak: latestStreak,
-      });
-
-      if (latestMode === "daily") {
-        quick.setDailyResult({
-          accuracy,
-          passed: accuracy >= 0.8,
-          perfect: accuracy === 1,
-        });
-
-        const store = usePlayerStore.getState();
-        const currentWeek = getWeekKeyUTC();
-        const today = getDayKeyUTC();
-        const lastDailyPlayDate = (store.weekly as any).lastDailyPlayDate ?? null;
-
-        if (store.weekly.weekKey !== currentWeek) {
-          store.setWeekly({
-            weekKey: currentWeek,
-            progress: 1,
-            claimed: false,
-            lastDailyPlayDate: today,
-          } as any);
-        } else if (lastDailyPlayDate !== today) {
-          store.setWeekly({
-            ...store.weekly,
-            progress: store.weekly.progress + 1,
-            lastDailyPlayDate: today,
-          } as any);
-        }
-      }
-
-      void trackEvent("game_completed", {
-        mode: latestMode ?? "classic",
-        score: latestScore,
-        totalQuestions,
-        correctCount,
-        accuracy,
-        durationMs: Date.now() - gameStartRef.current,
-        earnedXP: totalEarnedXP,
-        earnedCoins: totalEarnedCoins,
-        earnedGems: totalEarnedGems,
-        earnedTickets: totalEarnedTickets,
-        challenge: Boolean(challengeId),
-        tournament: Boolean(matchId),
-      });
-    }, 150);
-
-    return () => clearTimeout(t);
-  }, [gameOver, matchId, challengeId, router, submitMatchResult]);
+  router.replace({ pathname: "/(app)/play/(screens)/result", params: { runId: runId ?? `${Date.now()}` } } as any);
+}, [gameOver, matchId, challengeId, router, submitMatchResult, runId, runKey]);
 
 
   // ---------------------------------------------------------
@@ -387,7 +379,7 @@ export default function GameScreen() {
       feedback.wrong();
     }
 
-    const feedbackDelay = isSuddenDeathLoss ? 700 : 250;
+    const feedbackDelay = isSuddenDeathLoss ? 350 : 120;
 
     answerFeedbackTimeoutRef.current = setTimeout(() => {
       const handledCorrect = handleAnswer(ans);
@@ -433,6 +425,7 @@ export default function GameScreen() {
       style={styles.container}
       resizeMode="cover"
     >
+<View pointerEvents="none" style={styles.topGlow} />
       <View style={styles.screenShade} />
 
       <Animated.View
@@ -450,7 +443,7 @@ export default function GameScreen() {
           <Text style={styles.loading}>Loading…</Text>
         </View>
       ) : (
-        <View style={styles.content}>
+        <View style={[styles.content, { paddingTop: insets.top + 18, paddingBottom: insets.bottom + 12 }]}>
           <View style={styles.header}>
             <View style={styles.hudPill}>
               <Text style={styles.hudLabel}>SCORE</Text>
@@ -499,64 +492,69 @@ export default function GameScreen() {
             )}
           </View>
 
-          <Animated.View style={[styles.questionCard, { opacity: fadeAnim }]}>
-            <View pointerEvents="none" style={styles.cardGlow} />
-            <Text style={styles.question}>{current.text}</Text>
+          <View style={styles.playSurface}>
+            <View pointerEvents="none" style={styles.surfaceSheen} />
+            <View pointerEvents="none" style={styles.surfaceGoldGlow} />
 
-            <View style={styles.progressTrack}>
-              <View style={[styles.progressFill, { width: progressPercent as any }]} />
-            </View>
-          </Animated.View>
+            <Animated.View style={[styles.questionCard, { opacity: fadeAnim }]}>
+              <View pointerEvents="none" style={styles.cardGlow} />
+              <Text style={styles.question}>{current.text}</Text>
 
-          <Animated.View style={[styles.answers, { opacity: fadeAnim }]}>
-            {current.answers.map((a: string, i: number) => (
-              <TouchableOpacity
-                key={`${a}-${i}`}
-                testID={`game-answer-${i}`}
-                onPress={() => onAnswer(a)}
-                activeOpacity={0.86}
-                disabled={locked}
+              <View style={styles.progressTrack}>
+                <View style={[styles.progressFill, { width: progressPercent as any }]} />
+              </View>
+            </Animated.View>
+
+            <Animated.View style={[styles.answers, { opacity: fadeAnim }]}>
+              {current.answers.map((a: string, i: number) => (
+                <TouchableOpacity
+                  key={`${a}-${i}`}
+                  testID={`game-answer-${i}`}
+                  onPress={() => onAnswer(a)}
+                  activeOpacity={0.86}
+                  disabled={locked}
+                  style={[
+                    styles.answerBtn,
+                    locked && styles.answerLocked,
+                    boosts.xp > 0 && styles.answerBoosted,
+                    selectedAnswer === a && styles.answerPressed,
+                    selectedAnswer === a &&
+                      answerFeedback?.tone === "correct" &&
+                      styles.answerCorrect,
+                    selectedAnswer === a &&
+                      answerFeedback?.tone === "wrong" &&
+                      styles.answerWrong,
+                  ]}
+                >
+                  <View style={styles.answerLetter}>
+                    <Text style={styles.answerLetterText}>
+                      {String.fromCharCode(65 + i)}
+                    </Text>
+                  </View>
+
+                  <Text style={styles.answerText} numberOfLines={2}>
+                    {a}
+                  </Text>
+
+                  <Text style={styles.answerArrow}>›</Text>
+                </TouchableOpacity>
+              ))}
+            </Animated.View>
+
+            {answerFeedback && (
+              <View
                 style={[
-                  styles.answerBtn,
-                  locked && styles.answerLocked,
-                  boosts.xp > 0 && styles.answerBoosted,
-                  selectedAnswer === a && styles.answerPressed,
-                  selectedAnswer === a &&
-                    answerFeedback?.tone === "correct" &&
-                    styles.answerCorrect,
-                  selectedAnswer === a &&
-                    answerFeedback?.tone === "wrong" &&
-                    styles.answerWrong,
+                  styles.answerFeedback,
+                  answerFeedback.tone === "correct" && styles.answerFeedbackCorrect,
+                  answerFeedback.tone === "wrong" && styles.answerFeedbackWrong,
+                  answerFeedback.tone === "sudden" && styles.answerFeedbackSudden,
                 ]}
               >
-                <View style={styles.answerLetter}>
-                  <Text style={styles.answerLetterText}>
-                    {String.fromCharCode(65 + i)}
-                  </Text>
-                </View>
-
-                <Text style={styles.answerText} numberOfLines={2}>
-                  {a}
-                </Text>
-
-                <Text style={styles.answerArrow}>›</Text>
-              </TouchableOpacity>
-            ))}
-          </Animated.View>
-
-          {answerFeedback && (
-            <View
-              style={[
-                styles.answerFeedback,
-                answerFeedback.tone === "correct" && styles.answerFeedbackCorrect,
-                answerFeedback.tone === "wrong" && styles.answerFeedbackWrong,
-                answerFeedback.tone === "sudden" && styles.answerFeedbackSudden,
-              ]}
-            >
-              <Text style={styles.answerFeedbackText}>{answerFeedback.text}</Text>
-            </View>
-          )}
-          <View pointerEvents="none" style={styles.bottomAtmosphere}>
+                <Text style={styles.answerFeedbackText}>{answerFeedback.text}</Text>
+              </View>
+            )}
+          </View>
+          <View pointerEvents="none" style={styles.bottomContainer}>
             <View style={styles.bottomGlowLeft} />
             <View style={styles.bottomGlowRight} />
             <Text style={styles.bottomHint}>
@@ -573,6 +571,20 @@ export default function GameScreen() {
 // STYLES
 // ---------------------------------------------------------
 const styles = StyleSheet.create({
+ bottomContainer:{
+  alignItems:'center',
+  marginTop: 18,
+},
+
+topGlow: {
+  position: "absolute",
+  top: -60,
+  left: -40,
+  right: -40,
+  height: 200,
+  backgroundColor: "rgba(86,166,255,0.18)",
+  borderRadius: 200,
+},
   container: {
     flex: 1,
     backgroundColor: "#070B18",
@@ -586,52 +598,57 @@ const styles = StyleSheet.create({
 
   screenShade: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: "rgba(0,0,0,0.48)",
+    backgroundColor: "rgba(0,0,0,0.25)",
   },
 
   content: {
-    flex: 1,
-    paddingHorizontal: 18,
-    paddingTop: 72,
-    paddingBottom: 22,
-  },
+  flex: 1,
+  paddingHorizontal: 16,
+  paddingTop: 12,
+  paddingBottom: 16,
+},
 
   header: {
-    height: 70,
+    height: 54,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
   },
 
   hudPill: {
-    minWidth: 82,
+    minWidth: 76,
     borderRadius: 18,
-    paddingHorizontal: 12,
-    paddingVertical: 8,
-    backgroundColor: "rgba(10,18,34,0.88)",
+    paddingHorizontal: 11,
+    paddingVertical: 7,
+    backgroundColor: "rgba(10,22,43,0.90)",
     borderWidth: 1,
-    borderColor: "rgba(245,185,66,0.16)",
+    borderColor: "rgba(190,231,255,0.24)",
     alignItems: "center",
+    shadowColor: "#000",
+    shadowOpacity: 0.24,
+    shadowRadius: 12,
+    shadowOffset: { width: 0, height: 6 },
+    elevation: 5,
   },
 
   hudLabel: {
-    color: "#8FA3D8",
+    color: "#9FD9FF",
     fontSize: 9,
     fontWeight: "900",
-    letterSpacing: 0.7,
+    letterSpacing: 0.85,
   },
 
   hudValue: {
     color: "#FFFFFF",
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "900",
     marginTop: 1,
   },
 
   timerOrb: {
-    width: 66,
-    height: 66,
-    borderRadius: 33,
+    width: 48,
+    height: 48,
+    borderRadius: 18,
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "rgba(12,20,40,0.92)",
@@ -651,7 +668,7 @@ const styles = StyleSheet.create({
 
   timerText: {
     color: "#FFFFFF",
-    fontSize: 24,
+    fontSize: 11,
     fontWeight: "900",
   },
 
@@ -660,9 +677,9 @@ const styles = StyleSheet.create({
   },
 
   modeOrb: {
-    minWidth: 66,
-    height: 46,
-    borderRadius: 23,
+    minWidth: 56,
+    height: 30,
+    borderRadius: 18,
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "rgba(245,185,66,0.12)",
@@ -682,8 +699,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "space-between",
     gap: 8,
-    marginTop: 14,
-    marginBottom: 14,
+    marginTop: 12,
+    marginBottom: 16,
   },
 
   categoryChip: {
@@ -732,39 +749,74 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
 
-  questionCard: {
-    borderRadius: 24,
-    padding: 20,
-    minHeight: 160,
-    justifyContent: "center",
-    backgroundColor: "rgba(10,20,34,0.90)",
-    borderWidth: 1.2,
-    borderColor: "rgba(245,185,66,0.20)",
+  playSurface: {
+    borderRadius: 26,
+    padding: 12,
+    marginTop: 4,
+    backgroundColor: "rgba(7,17,31,0.72)",
+    borderWidth: 1,
+    borderColor: "rgba(190,231,255,0.18)",
     overflow: "hidden",
-    marginBottom: 18,
     shadowColor: "#000",
     shadowOpacity: 0.26,
-    shadowRadius: 14,
-    shadowOffset: { width: 0, height: 8 },
+    shadowRadius: 18,
+    shadowOffset: { width: 0, height: 9 },
+    elevation: 7,
+  },
+
+  surfaceSheen: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(159,231,255,0.035)",
+  },
+
+  surfaceGoldGlow: {
+    position: "absolute",
+    top: -46,
+    left: -30,
+    width: 150,
+    height: 120,
+    borderRadius: 90,
+    backgroundColor: "rgba(255,214,110,0.08)",
+  },
+
+  questionCard: {
+    borderRadius: 22,
+    paddingHorizontal: 17,
+    paddingTop: 18,
+    paddingBottom: 15,
+    minHeight: 132,
+    justifyContent: "center",
+    backgroundColor: "rgba(7,17,31,0.92)",
+    borderWidth: 1.2,
+    borderColor: "rgba(255,214,110,0.34)",
+    overflow: "hidden",
+    marginBottom: 12,
+    shadowColor: "#1E8CFF",
+    shadowOpacity: 0.18,
+    shadowRadius: 18,
+    shadowOffset: { width: 0, height: 9 },
     elevation: 8,
   },
 
   cardGlow: {
     position: "absolute",
-    top: -50,
-    right: -35,
-    width: 125,
-    height: 125,
-    borderRadius: 63,
-    backgroundColor: "rgba(86,166,255,0.08)",
+    top: -64,
+    right: -42,
+    width: 150,
+    height: 150,
+    borderRadius: 75,
+    backgroundColor: "rgba(159,231,255,0.13)",
   },
 
   question: {
     color: "#FFFFFF",
-    fontSize: 22,
-    lineHeight: 30,
+    fontSize: 20,
+    lineHeight: 27,
     fontWeight: "900",
-    marginBottom: 18,
+    marginBottom: 15,
+    letterSpacing: -0.2,
+    textShadowColor: "rgba(0,0,0,0.88)",
+    textShadowRadius: 8,
   },
 
   progressTrack: {
@@ -784,19 +836,19 @@ const styles = StyleSheet.create({
   },
 
   answerBtn: {
-    minHeight: 64,
+    minHeight: 62,
     borderRadius: 20,
-    paddingHorizontal: 14,
+    paddingHorizontal: 13,
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "rgba(7,26,38,0.94)",
+    backgroundColor: "rgba(10,25,46,0.94)",
     borderWidth: 1.2,
-    borderColor: "rgba(86,166,255,0.22)",
+    borderColor: "rgba(190,231,255,0.24)",
     shadowColor: "#000",
-    shadowOpacity: 0.20,
-    shadowRadius: 9,
-    shadowOffset: { width: 0, height: 5 },
-    elevation: 5,
+    shadowOpacity: 0.24,
+    shadowRadius: 12,
+    shadowOffset: { width: 0, height: 6 },
+    elevation: 6,
   },
 
   answerLocked: {
@@ -828,15 +880,15 @@ const styles = StyleSheet.create({
     borderRadius: 18,
     alignItems: "center",
     justifyContent: "center",
-    marginRight: 14,
-    backgroundColor: "rgba(86,166,255,0.16)",
+    marginRight: 12,
+    backgroundColor: "rgba(159,231,255,0.13)",
     borderWidth: 1,
-    borderColor: "rgba(86,166,255,0.32)",
+    borderColor: "rgba(159,231,255,0.34)",
   },
 
   answerLetterText: {
-    color: "#66B3FF",
-    fontSize: 15,
+    color: "#9FE7FF",
+    fontSize: 14,
     fontWeight: "900",
   },
 
@@ -844,22 +896,22 @@ const styles = StyleSheet.create({
     flex: 1,
     color: "#FFFFFF",
     fontSize: 16,
-    lineHeight: 20,
-    fontWeight: "800",
+    lineHeight: 21,
+    fontWeight: "900",
   },
 
   answerArrow: {
     color: "#91A4D7",
-    fontSize: 25,
+    fontSize: 18,
     fontWeight: "800",
     marginLeft: 8,
   },
 
   answerFeedback: {
-    marginTop: 14,
+    marginTop: 8,
     paddingVertical: 10,
-    paddingHorizontal: 14,
-    borderRadius: 18,
+    paddingHorizontal: 11,
+    borderRadius: 15,
     borderWidth: 1,
     alignSelf: "stretch",
   },
@@ -889,12 +941,12 @@ const styles = StyleSheet.create({
 
 
   bottomAtmosphere: {
-    flex: 1,
-    minHeight: 120,
-    marginTop: 20,
+    flex: 0,
+    minHeight: 28,
+    marginTop: 6,
     justifyContent: "flex-end",
     alignItems: "center",
-    paddingBottom: 16,
+    paddingBottom: 0,
     overflow: "hidden",
   },
 
@@ -920,14 +972,14 @@ const styles = StyleSheet.create({
 
   bottomHint: {
     color: "rgba(220,230,245,0.42)",
-    fontSize: 10,
+    fontSize: 9,
     fontWeight: "900",
-    letterSpacing: 1.6,
+    letterSpacing: 1.3,
   },
 
   loading: {
     color: "white",
-    fontSize: 20,
+    fontSize: 11,
     fontWeight: "800",
   },
 

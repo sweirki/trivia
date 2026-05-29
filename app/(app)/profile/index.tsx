@@ -236,7 +236,7 @@ export default function ProfileScreen() {
   }, [xpAnim, xpPercent]);
 
   useEffect(() => {
-    Animated.loop(
+    const pulseLoop = Animated.loop(
       Animated.sequence([
         Animated.timing(pulse, {
           toValue: 1,
@@ -251,7 +251,10 @@ export default function ProfileScreen() {
           useNativeDriver: true,
         }),
       ]),
-    ).start();
+    );
+
+    pulseLoop.start();
+    return () => pulseLoop.stop();
   }, [pulse]);
 
   return (

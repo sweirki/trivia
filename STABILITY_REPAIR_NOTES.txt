@@ -1,0 +1,54 @@
+Trivia Sweirki t13 stability repair notes
+
+Scope: logic/performance stabilization only. No UI redesign.
+
+Changed files:
+1. app/(app)/play/game.tsx
+   - Removed delayed setTimeout finalization after gameOver.
+   - Coins, XP, gems, tickets, history, challenge completion, daily completion, achievements, analytics, and tournament match submission now finalize before navigation to Result.
+   - Reason: delayed finalization could be cancelled during route replacement/unmount, causing coins or tournament progress to be skipped.
+
+2. app/(app)/arena_reset/ranked/index.tsx
+   - Ranked match is now started before routing to RankedMatch.
+   - Reason: avoids the match screen mounting before the ranked question/opponent state is ready, reducing double-start/stale-state risk.
+
+3. app/(app)/arena_reset/ranked/RankedMatch.tsx
+   - Replaced broad useArenaStore() subscription with narrow selectors.
+   - Reason: reduces unnecessary re-renders from unrelated arena store changes.
+
+4. app/(app)/arena_reset/survival/SurvivalMatch.tsx
+   - Replaced broad useArenaStore() subscription with narrow selectors.
+   - Reason: reduces unnecessary re-renders from unrelated arena store changes.
+
+5. app/(app)/arena_reset/power/PowerMatch.tsx
+   - Replaced broad usePowerArenaMatchStore() and usePowerUpStore() subscriptions with narrow selectors.
+   - Reason: reduces unnecessary re-renders during timer/power-up state updates.
+
+6. app/(app)/hub/index.tsx
+   - Added cleanup for the pulse Animated.loop.
+   - Reason: prevents animation loops from continuing after unmount/remount.
+
+7. app/(app)/more/index.tsx
+   - Added cleanup for the pulse Animated.loop.
+   - Reason: prevents animation loops from continuing after unmount/remount.
+
+8. app/(app)/profile/index.tsx
+   - Added cleanup for the pulse Animated.loop.
+   - Reason: prevents animation loops from continuing after unmount/remount.
+
+9. src/components/XPShine.tsx
+   - Added cleanup for the shine Animated.loop.
+   - Reason: prevents persistent animation loop after component unmount.
+
+10. src/components/GoldParticles.tsx
+   - Moved particle creation and animation loop startup out of render and into memo/effect with cleanup.
+   - Reason: rendering previously recreated random particles/Animated.Values and started loops during render, a serious lag/memory risk.
+
+Verification performed in this environment:
+- Parsed 384 TS/TSX files with the TypeScript parser: PASSED.
+- Full tsc typecheck could not run because node_modules/dependency type packages are not included in the uploaded zip:
+  missing expo/tsconfig.base, expo-router, jest, node types.
+
+Important:
+- This zip is testable in your local project after installing dependencies.
+- I cannot honestly guarantee 100% runtime stability without running it on device/emulator with your installed dependencies.

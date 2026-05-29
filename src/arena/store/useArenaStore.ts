@@ -36,6 +36,17 @@ interface ArenaPlayer {
 }
 
 
+type LastRankedResult = {
+  playerScore: number;
+  opponentScore: number;
+  questionsAnswered: number;
+  opponentId?: string;
+  opponentName?: string;
+  opponentTitle?: string;
+  opponentStyle?: string;
+  opponentSR?: number;
+};
+
 interface ArenaStoreState {
   mode: ArenaMode;
   matchState: ArenaMatchState;
@@ -47,6 +58,7 @@ interface ArenaStoreState {
   currentQuestionIndex: number;
 
   isArenaLoading: boolean;
+  lastRankedResult: LastRankedResult | null;
 
   // POWER-UP STATES
   powerShield: boolean;
@@ -107,6 +119,7 @@ export const useArenaStore = create<ArenaStoreState>((set, get) => ({
   currentQuestionIndex: 0,
 
   isArenaLoading: false,
+  lastRankedResult: null,
 
   // POWER-UP FLAGS -----------------------------------
   powerShield: false,
@@ -163,7 +176,24 @@ export const useArenaStore = create<ArenaStoreState>((set, get) => ({
     const total = get().questions.length;
 
     if (current + 1 >= total) {
-      set({ matchState: "finished" });
+      const state = get();
+      if (state.mode === "ranked") {
+        set({
+          matchState: "finished",
+          lastRankedResult: {
+            playerScore: state.player.score,
+            opponentScore: state.opponent?.score ?? 0,
+            questionsAnswered: total,
+            opponentId: state.opponent?.id,
+            opponentName: state.opponent?.name,
+            opponentTitle: state.opponent?.title,
+            opponentStyle: state.opponent?.style,
+            opponentSR: state.opponent?.sr,
+          },
+        });
+      } else {
+        set({ matchState: "finished" });
+      }
       return;
     }
 
@@ -188,7 +218,27 @@ export const useArenaStore = create<ArenaStoreState>((set, get) => ({
         : null,
     })),
 
-  endMatch: () => set({ matchState: "finished" }),
+  endMatch: () => {
+    const state = get();
+    if (state.mode === "ranked") {
+      set({
+        matchState: "finished",
+        lastRankedResult: {
+          playerScore: state.player.score,
+          opponentScore: state.opponent?.score ?? 0,
+          questionsAnswered: state.questions.length,
+          opponentId: state.opponent?.id,
+          opponentName: state.opponent?.name,
+          opponentTitle: state.opponent?.title,
+          opponentStyle: state.opponent?.style,
+          opponentSR: state.opponent?.sr,
+        },
+      });
+      return;
+    }
+
+    set({ matchState: "finished" });
+  },
 
   // RANKED MODE --------------------------------------
 startRankedMatch: async () => {
@@ -197,15 +247,38 @@ startRankedMatch: async () => {
   const ai =
     require("./useArenaOpponentAI").useArenaOpponentAI.getState();
 
+  // Always reset first. Without this, a previous/half-started ranked run can
+  // leave the match screen with matchState !== "idle" and zero questions.
+  set({
+    mode: "ranked",
+    matchState: "loading",
+    questions: [],
+    currentQuestionIndex: 0,
+    player: { id: "player", score: 0, streak: 0, powerupsUsed: 0 },
+    opponent: null,
+    lastRankedResult: null,
+  });
+
   const bot = ai.generateOpponent(rankSystem.sr);
   get().setOpponent(bot);
 
-  // LOAD QUESTIONS FROM Q-ENGINE (Q10)
-  get().loadQuestions(buildArenaQuestions("ranked", ARENA_MODE_CONFIG.ranked.questions ?? 7));
+  let rankedQuestions = buildArenaQuestions(
+    "ranked",
+    ARENA_MODE_CONFIG.ranked.questions ?? 7
+  );
+
+  // Production safety net: never enter ranked with the old hardcoded five
+  // placeholder questions. If this ever logs, the real question registry/packs
+  // are not loading and should be fixed instead of silently showing repeats.
+  if (!rankedQuestions.length) {
+    console.warn("[arena] Ranked question pool is empty. Check questionRegistry packs and question guards.");
+    set({ matchState: "idle", isArenaLoading: false });
+    return;
+  }
+
+  get().loadQuestions(rankedQuestions);
 
   set({ matchState: "countdown" });
-
-  await new Promise((res) => setTimeout(res, 1500));
 
   set({ matchState: "in-match" });
 },
@@ -253,10 +326,20 @@ startRankedMatch: async () => {
 
 
   survivalCorrect: () => {
-    const { player } = get();
+    const { player, currentQuestionIndex, questions } = get();
+    const nextIndex = currentQuestionIndex + 1;
+
+    if (nextIndex >= questions.length) {
+      set({
+        player: { ...player, score: player.score + 1, streak: player.streak + 1 },
+        matchState: "finished",
+      });
+      return;
+    }
+
     set({
       player: { ...player, score: player.score + 1, streak: player.streak + 1 },
-      currentQuestionIndex: get().currentQuestionIndex + 1,
+      currentQuestionIndex: nextIndex,
     });
   },
 
@@ -284,6 +367,7 @@ startRankedMatch: async () => {
       powerDouble: false,
       powerReroll: false,
       powerReveal: false,
+      lastRankedResult: null,
     }),
 }));
 

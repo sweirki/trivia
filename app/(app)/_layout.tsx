@@ -35,7 +35,7 @@ export default function AppLayout() {
 
   return (
     <>
-      <Stack screenOptions={{ headerShown: false }} />
+      <Stack screenOptions={{ headerShown: false, animation: "fade", gestureEnabled: false }} />
 
       <Modal transparent visible={showChallengeModal} animationType="fade">
         <View style={styles.backdrop}>

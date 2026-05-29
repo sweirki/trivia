@@ -12,6 +12,7 @@ const tournamentMatchBg = require("../../../../assets/images/arena/tournaments/t
 import { router } from "expo-router";
 import { useArenaStore } from "@/arena/store/useArenaStore";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
+import { buildArenaQuestions } from "@/questions/gameplayQuestions";
 
 
 type TournamentQuestion = {
@@ -28,6 +29,7 @@ export default function FinalMatch() {
     nextQuestion,
     updatePlayerScore,
     updateOpponentScore,
+    player: arenaPlayer,
     matchState,
     setMatchState,
   } = useArenaStore();
@@ -38,7 +40,7 @@ export default function FinalMatch() {
 }));
 
 
-  const [timeLeft, setTimeLeft] = useState(10);
+  const [timeLeft, setTimeLeft] = useState(8);
   const [player, setPlayer] = useState(null);
   const [opponent, setOpponent] = useState(null);
 
@@ -53,30 +55,9 @@ setPlayer(players[0] ?? null);
 setOpponent(players[1] ?? null);
 
 
-    const finalQs = [
-      {
-        question: "What is the capital of Australia?",
-        answers: ["Sydney", "Melbourne", "Canberra", "Perth"],
-        correctAnswer: "Canberra",
-      },
-      {
-        question: "Which element has the chemical symbol 'Fe'?",
-        answers: ["Silver", "Fluorine", "Iron", "Gold"],
-        correctAnswer: "Iron",
-      },
-      {
-        question: "Who discovered gravity?",
-        answers: ["Newton", "Tesla", "Einstein", "Bohr"],
-        correctAnswer: "Newton",
-      },
-      {
-        question: "Which continent is the Sahara Desert located on?",
-        answers: ["Asia", "Africa", "Australia", "South America"],
-        correctAnswer: "Africa",
-      },
-    ];
+    const tournamentQuestions = buildArenaQuestions("tournament", 5);
 
-    loadQuestions(finalQs);
+    loadQuestions(tournamentQuestions);
     setMatchState("in-match");
   }, []);
 
@@ -90,7 +71,7 @@ setOpponent(players[1] ?? null);
   useEffect(() => {
     if (matchState !== "in-match") return;
 
-    setTimeLeft(10);
+    setTimeLeft(8);
 
     const interval = setInterval(() => {
       setTimeLeft((t) => {
@@ -111,7 +92,7 @@ setOpponent(players[1] ?? null);
   useEffect(() => {
     if (!opponent || !q) return;
 
-    const delay = Math.floor(Math.random() * 2500) + 1200; // 1.2–3.7 sec
+    const delay = Math.floor(Math.random() * 750) + 500; // 1.2–3.7 sec
     const willAnswerCorrect = Math.random() < 0.73; // grand finals bot is stronger
 
     const timer = setTimeout(() => {
@@ -125,10 +106,13 @@ setOpponent(players[1] ?? null);
   // PLAYER ANSWERS
   // ------------------------------------------------
   const handleAnswer = (ans: string) => {
-    if (ans === q.correctAnswer) {
+    const wasCorrect = ans === q.correctAnswer;
+
+    if (wasCorrect) {
       updatePlayerScore(1);
     }
-    nextOrFinish();
+
+    nextOrFinish(wasCorrect);
   };
 
   const handleWrong = () => {
@@ -138,11 +122,13 @@ setOpponent(players[1] ?? null);
   // ------------------------------------------------
   // CHECK IF MATCH IS OVER → CHAMPION DECIDED
   // ------------------------------------------------
-  const nextOrFinish = () => {
+  const nextOrFinish = (lastAnswerCorrect = false) => {
     const last = currentQuestionIndex === questions.length - 1;
 
     if (last) {
-     submitMatchResult("F", 1, 0);
+     const finalPlayerScore = (arenaPlayer?.score ?? 0) + (lastAnswerCorrect ? 1 : 0);
+      const finalOpponentScore = Math.max(0, questions.length - finalPlayerScore);
+      submitMatchResult("F", finalPlayerScore, finalOpponentScore);
 router.replace("/(app)/arena_reset/tournaments/TournamentSummary");
 
       return;
@@ -196,8 +182,8 @@ router.replace("/(app)/arena_reset/tournaments/TournamentSummary");
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 72,
-    paddingHorizontal: 20,
+    paddingTop: 38,
+    paddingHorizontal: 16,
     backgroundColor: "#050716",
   },
 
@@ -211,7 +197,7 @@ const styles = StyleSheet.create({
 
   title: {
     color: "#D6A93A",
-    fontSize: 34,
+    fontSize: 15,
     fontWeight: "900",
     textAlign: "center",
     marginBottom: 14,
@@ -219,35 +205,35 @@ const styles = StyleSheet.create({
 
   vs: {
     color: "#6EC7F2",
-    fontSize: 20,
+    fontSize: 14,
     textAlign: "center",
-    marginBottom: 20,
+    marginBottom: 12,
   },
 
   timer: {
     color: "#D6A93A",
-    fontSize: 26,
+    fontSize: 17,
     textAlign: "center",
-    marginBottom: 25,
+    marginBottom: 14,
   },
 
   question: {
     color: "#fff",
-    fontSize: 22,
-    marginBottom: 30,
+    fontSize: 15,
+    marginBottom: 16,
     textAlign: "center",
   },
 
   answerBtn: {
     backgroundColor: "#1c1c29",
-    padding: 16,
+    padding: 10,
     borderRadius: 12,
-    marginVertical: 6,
+    marginVertical: 4,
   },
 
   answerText: {
     color: "#fff",
-    fontSize: 18,
+    fontSize: 12,
     textAlign: "center",
   },
 });

@@ -14,8 +14,9 @@ export default {
   newArchEnabled: true,
 
   android: {
+    icon: "./assets/images/icon.png",
     package: "com.sweirki.trivia",
-    versionCode: 10,
+    versionCode: 4,
     permissions: ["BILLING"],
     adaptiveIcon: {
       foregroundImage: "./assets/images/adaptive-icon.png",
@@ -28,7 +29,7 @@ export default {
 
   ios: {
     supportsTablet: true,
-    buildNumber: "10",
+    buildNumber: "4",
   },
 
   web: {

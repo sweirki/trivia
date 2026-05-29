@@ -5,7 +5,7 @@ export default function XPShine() {
   const opacity = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
-    Animated.loop(
+    const loop = Animated.loop(
       Animated.sequence([
         Animated.timing(opacity, {
           toValue: 1,
@@ -18,8 +18,11 @@ export default function XPShine() {
           useNativeDriver: true,
         }),
       ])
-    ).start();
-  }, []);
+    );
+
+    loop.start();
+    return () => loop.stop();
+  }, [opacity]);
 
   return (
     <Animated.View

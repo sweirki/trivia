@@ -35,6 +35,35 @@ export type GameplayQuestionOptions = {
   preferredDifficulty?: Difficulty;
 };
 
+const ARENA_RECENT_LIMIT = 80;
+const recentArenaQuestionIdsByMode: Partial<
+  Record<Extract<QuestionSessionMode, "ranked" | "survival" | "tournament"> | "power", Array<string | number>>
+> = {};
+
+function createSessionSeed(label: string) {
+  return `${label}:${Date.now()}:${Math.random().toString(36).slice(2)}:${typeof performance !== "undefined" ? performance.now() : 0}`;
+}
+
+function rememberArenaQuestions(
+  mode: Extract<QuestionSessionMode, "ranked" | "survival" | "tournament"> | "power",
+  questions: GameplayQuestion[]
+) {
+  const previous = recentArenaQuestionIdsByMode[mode] ?? [];
+  const next = [
+    ...questions.map((question) => question.id),
+    ...previous,
+  ];
+
+  recentArenaQuestionIdsByMode[mode] = Array.from(new Set(next)).slice(0, ARENA_RECENT_LIMIT);
+}
+
+function getRecentArenaQuestionIds(
+  mode: Extract<QuestionSessionMode, "ranked" | "survival" | "tournament"> | "power"
+) {
+  return recentArenaQuestionIdsByMode[mode] ?? [];
+}
+
+
 function toGameplayQuestion(question: NormalizedQuestion): GameplayQuestion {
   return {
     id: question.id,
@@ -88,21 +117,79 @@ export function buildArenaQuestions(
   mode: Extract<QuestionSessionMode, "ranked" | "survival" | "tournament">,
   count = mode === "survival" ? 25 : 5
 ): GameplayQuestion[] {
-  return buildGameplayQuestions({
+  const recentIds = getRecentArenaQuestionIds(mode);
+  const seed = createSessionSeed(`arena:${mode}`);
+
+  let questions = buildGameplayQuestions({
     mode,
     count,
     allowPremium: false,
-    seed: `arena:${mode}:${Date.now()}`,
+    seed,
+    excludeQuestionIds: recentIds,
   });
+
+  // If every available question was excluded because the player has played many
+  // matches in a row, retry without the recent-id exclusion. This keeps the mode
+  // playable while still strongly reducing immediate repeats.
+  if (questions.length < count) {
+    questions = buildGameplayQuestions({
+      mode,
+      count,
+      allowPremium: false,
+      seed: createSessionSeed(`arena:${mode}:retry`),
+    });
+  }
+
+  // Last resort: do not fall back to hardcoded placeholder questions. Use the
+  // real question pool even if the free/premium flagging is wrong in packaged
+  // data, otherwise ranked can repeat the same five fallback questions forever.
+  if (questions.length < count) {
+    questions = buildGameplayQuestions({
+      mode,
+      count,
+      allowPremium: true,
+      seed: createSessionSeed(`arena:${mode}:all-access`),
+      excludeQuestionIds: recentIds,
+    });
+  }
+
+  rememberArenaQuestions(mode, questions);
+  return questions;
 }
 
 export function buildPowerArenaQuestions(count = 5): GameplayQuestion[] {
-  return buildGameplayQuestions({
+  const recentIds = getRecentArenaQuestionIds("power");
+  const seed = createSessionSeed("arena:power");
+
+  let questions = buildGameplayQuestions({
     mode: "ranked",
     count,
     allowPremium: false,
-    seed: `arena:power:${Date.now()}`,
+    seed,
+    excludeQuestionIds: recentIds,
   });
+
+  if (questions.length < count) {
+    questions = buildGameplayQuestions({
+      mode: "ranked",
+      count,
+      allowPremium: false,
+      seed: createSessionSeed("arena:power:retry"),
+    });
+  }
+
+  if (questions.length < count) {
+    questions = buildGameplayQuestions({
+      mode: "ranked",
+      count,
+      allowPremium: true,
+      seed: createSessionSeed("arena:power:all-access"),
+      excludeQuestionIds: recentIds,
+    });
+  }
+
+  rememberArenaQuestions("power", questions);
+  return questions;
 }
 
 

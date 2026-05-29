@@ -11,8 +11,8 @@ import { router } from "expo-router";
 import { useArenaStore } from "@/arena/store/useArenaStore";
 import { feedback } from "@/feedback";
 
-const BASE_QUESTION_TIME = 12;
-const INTRO_COUNTDOWN_START = 3;
+const BASE_QUESTION_TIME = 10;
+const INTRO_COUNTDOWN_START = 1;
 
 const SURVIVAL_INTRO_ART = require("../../../../assets/images/arena/survival/survival_intro_hero.webp");
 const SURVIVAL_MATCH_HEADER_ART = require("../../../../assets/images/arena/survival/survival_match_header.webp");
@@ -27,9 +27,9 @@ type SurvivalQuestion = {
 };
 
 function getRoundTime(round: number) {
-  if (round >= 15) return 7;
-  if (round >= 10) return 8;
-  if (round >= 6) return 10;
+  if (round >= 15) return 6;
+  if (round >= 10) return 7;
+  if (round >= 6) return 8;
   return BASE_QUESTION_TIME;
 }
 
@@ -48,14 +48,12 @@ function getDangerColor(level: string) {
 }
 
 export default function SurvivalMatch() {
-  const {
-    questions,
-    currentQuestionIndex,
-    matchState,
-    startSurvival,
-    survivalCorrect,
-    survivalWrong,
-  } = useArenaStore();
+  const questions = useArenaStore((state) => state.questions);
+  const currentQuestionIndex = useArenaStore((state) => state.currentQuestionIndex);
+  const matchState = useArenaStore((state) => state.matchState);
+  const startSurvival = useArenaStore((state) => state.startSurvival);
+  const survivalCorrect = useArenaStore((state) => state.survivalCorrect);
+  const survivalWrong = useArenaStore((state) => state.survivalWrong);
 
   const [introVisible, setIntroVisible] = useState(true);
   const [introCountdown, setIntroCountdown] = useState(INTRO_COUNTDOWN_START);
@@ -102,7 +100,7 @@ export default function SurvivalMatch() {
 
         return value - 1;
       });
-    }, 900);
+    }, 350);
 
     return () => clearInterval(interval);
   }, [introVisible]);
@@ -308,17 +306,17 @@ export default function SurvivalMatch() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 84,
-    paddingHorizontal: 16,
+    paddingTop: 34,
+    paddingHorizontal: 14,
     backgroundColor: "#061426",
   },
 
   introCard: {
-    minHeight: 330,
+    minHeight: 250,
     borderRadius: 24,
     borderWidth: 1,
     borderColor: "rgba(255,112,67,0.62)",
-    padding: 20,
+    padding: 15,
     alignItems: "center",
     justifyContent: "center",
     overflow: "hidden",
@@ -330,13 +328,13 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: "900",
     letterSpacing: 1.2,
-    marginBottom: 10,
+    marginBottom: 8,
     textShadowColor: "rgba(0,0,0,0.9)",
     textShadowRadius: 8,
   },
   introTitle: {
     color: "#FFFFFF",
-    fontSize: 25,
+    fontSize: 19,
     fontWeight: "900",
     textAlign: "center",
     textShadowColor: "rgba(0,0,0,0.95)",
@@ -344,11 +342,11 @@ const styles = StyleSheet.create({
   },
   introBody: {
     color: "#D8F2FF",
-    fontSize: 13,
+    fontSize: 11,
     fontWeight: "800",
     lineHeight: 19,
     textAlign: "center",
-    marginTop: 12,
+    marginTop: 8,
     maxWidth: 285,
     textShadowColor: "rgba(0,0,0,0.9)",
     textShadowRadius: 7,
@@ -366,7 +364,7 @@ const styles = StyleSheet.create({
   },
   countdownBig: {
     color: "#FFD54F",
-    fontSize: 48,
+    fontSize: 30,
     fontWeight: "900",
     textShadowColor: "rgba(0,0,0,0.85)",
     textShadowRadius: 8,
@@ -387,11 +385,11 @@ const styles = StyleSheet.create({
   },
 
   headerCard: {
-    minHeight: 122,
+    minHeight: 70,
     borderRadius: 20,
     borderWidth: 1.5,
-    padding: 14,
-    marginBottom: 10,
+    padding: 10,
+    marginBottom: 8,
     overflow: "hidden",
     backgroundColor: "#08182C",
     justifyContent: "flex-end",
@@ -407,7 +405,7 @@ const styles = StyleSheet.create({
   },
   header: {
     color: "#FFFFFF",
-    fontSize: 23,
+    fontSize: 16,
     fontWeight: "900",
     textShadowColor: "rgba(0,0,0,0.95)",
     textShadowRadius: 9,
@@ -450,15 +448,15 @@ const styles = StyleSheet.create({
 
   question: {
     color: "#FFFFFF",
-    fontSize: 18,
-    marginVertical: 12,
+    fontSize: 14,
+    marginVertical: 8,
     textAlign: "center",
-    lineHeight: 24,
+    lineHeight: 19,
     fontWeight: "900",
   },
   answerButton: {
     backgroundColor: "#0B2B45",
-    padding: 13,
+    padding: 10,
     borderRadius: 13,
     marginVertical: 5,
     borderWidth: 1,
@@ -466,18 +464,18 @@ const styles = StyleSheet.create({
   },
   answerText: {
     color: "#FFFFFF",
-    fontSize: 15,
+    fontSize: 12,
     textAlign: "center",
     fontWeight: "800",
   },
 
   pressureCard: {
-    minHeight: 94,
+    minHeight: 70,
     borderRadius: 15,
-    padding: 13,
+    padding: 10,
     borderWidth: 1,
     borderColor: "rgba(255,112,67,0.38)",
-    marginTop: 12,
+    marginTop: 8,
     overflow: "hidden",
     backgroundColor: "#0F1E34",
     justifyContent: "flex-end",
@@ -485,7 +483,7 @@ const styles = StyleSheet.create({
   pressureImage: { borderRadius: 15 },
   pressureTitle: {
     color: "#FFD54F",
-    fontSize: 15,
+    fontSize: 12,
     fontWeight: "900",
     marginBottom: 5,
     textShadowColor: "rgba(0,0,0,0.85)",
@@ -493,9 +491,9 @@ const styles = StyleSheet.create({
   },
   pressureText: {
     color: "#D8F2FF",
-    fontSize: 13,
+    fontSize: 11,
     fontWeight: "700",
-    lineHeight: 18,
+    lineHeight: 15,
     textShadowColor: "rgba(0,0,0,0.8)",
     textShadowRadius: 6,
   },

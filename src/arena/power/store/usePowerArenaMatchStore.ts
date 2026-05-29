@@ -38,7 +38,7 @@ type PowerArenaMatchActions = {
   resetMatch: () => void;
 };
 
-const INITIAL_TIME = 15;
+const INITIAL_TIME = 10;
 
 export const usePowerArenaMatchStore = create<
   PowerArenaMatchState & PowerArenaMatchActions
@@ -80,7 +80,10 @@ export const usePowerArenaMatchStore = create<
         doubleScoreActive: false,
       });
     } else if (shieldActive) {
+      // Shield protects the miss, but the question must still resolve.
+      // Leaving the same question active allowed repeated attempts and fake scoring.
       set({ shieldActive: false });
+      get().nextQuestion();
       return;
     }
 

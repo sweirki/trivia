@@ -157,32 +157,20 @@ export const usePurchaseStore = create<PurchaseState>((set) => ({
     const player = usePlayerStore.getState();
     const entitlements = useEntitlementStore.getState();
 
-    set({ isPurchasing: true });
+    const gemPack = STORE_CONFIG.gems.find(
+      (item) => item.id === productId || item.revenueCatId === productId
+    );
 
-    try {
-      const gemPack = STORE_CONFIG.gems.find(
-        (item) => item.id === productId || item.revenueCatId === productId
-      );
+    const isRevenueCatProduct =
+      Boolean(gemPack) ||
+      productId === "starter_bundle" ||
+      STORE_CONFIG.vip.id === productId ||
+      STORE_CONFIG.vip.revenueCatId === productId;
 
-      const isRevenueCatProduct =
-        Boolean(gemPack) ||
-        productId === "starter_bundle" ||
-        STORE_CONFIG.vip.id === productId ||
-        STORE_CONFIG.vip.revenueCatId === productId;
-
-      if (isRevenueCatProduct) {
-        if (!revenueCatService.isSupported()) {
-          return result({
-            success: false,
-            reason: "REAL_PURCHASE_NOT_CONNECTED",
-            message:
-              "RevenueCat purchases are available on iOS and Android builds only.",
-          });
-        }
-
-        return await applyRevenueCatProduct(productId);
-      }
-
+    // Local economy purchases must feel instant and must not enter the
+    // RevenueCat/loading path. Tickets, bundles, and boosts update the
+    // Zustand stores synchronously, then background sync can happen later.
+    if (!isRevenueCatProduct) {
       const ticketPack = STORE_CONFIG.tickets.find(
         (item) => item.id === productId
       );
@@ -280,6 +268,21 @@ export const usePurchaseStore = create<PurchaseState>((set) => ({
         reason: "NOT_FOUND",
         message: "Product not found.",
       });
+    }
+
+    set({ isPurchasing: true });
+
+    try {
+      if (!revenueCatService.isSupported()) {
+        return result({
+          success: false,
+          reason: "REAL_PURCHASE_NOT_CONNECTED",
+          message:
+            "RevenueCat purchases are available on iOS and Android builds only.",
+        });
+      }
+
+      return await applyRevenueCatProduct(productId);
     } catch (error: unknown) {
       return getPurchaseErrorMessage(error);
     } finally {

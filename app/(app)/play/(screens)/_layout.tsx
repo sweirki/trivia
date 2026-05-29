@@ -10,6 +10,7 @@ export default function ScreensLayout() {
     >
       <Stack.Screen name="categorySelect" />
       <Stack.Screen name="quick" />
+      <Stack.Screen name="game" />
       <Stack.Screen name="result" />
 
     </Stack>

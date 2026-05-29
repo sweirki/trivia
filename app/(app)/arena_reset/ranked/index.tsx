@@ -22,11 +22,15 @@ import { s } from "@/arena/theme/arenaSizing";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
 import { useThemedAlert } from "@/components/ThemedAlert";
 import AnimatedProgressBar from "@/components/AnimatedProgressBar";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { usePlayerStore } from "@/store/usePlayerStore";
+import { ARENA_MODE_CONFIG, formatArenaCost } from "@/arena/arenaEconomyRules";
 
 const RANKED_ENTRY_HERO = require("../../../../assets/images/arena/ranked/ranked_entry_hero.webp");
 const PRESTIGE_PANEL_ART = require("../../../../assets/images/arena/ranked/prestige_panel_art.webp");
 
 export default function RankedArenaEntry() {
+  const insets = useSafeAreaInsets();
   const { rank, sr, winStreak } = useArenaRankSystem();
   const { setMode, startRankedMatch } = useArenaStore();
   const { daily } = useLocalSearchParams<{ daily?: string }>();
@@ -66,17 +70,38 @@ export default function RankedArenaEntry() {
       return;
     }
 
+
+
+    if (!usePlayerStore.getState().spendTickets(ARENA_MODE_CONFIG.ranked.tickets)) {
+      showThemedAlert(
+        "Not enough tickets",
+        `Ranked Arena requires ${formatArenaCost("ranked")}.`,
+        "warning"
+      );
+      return;
+    }
+
     setMode("ranked");
     setSearching(true);
-    await startRankedMatch();
-    router.push({
-      pathname: "/(app)/arena_reset/ranked/RankedMatch",
-      params: isDailyArenaEntry ? { daily: "1" } : undefined,
-    });
+
+    try {
+      await startRankedMatch();
+      router.push({
+        pathname: "/(app)/arena_reset/ranked/RankedMatch",
+        params: isDailyArenaEntry ? { daily: "1" } : undefined,
+      });
+    } catch {
+      setSearching(false);
+      showThemedAlert(
+        "Ranked Start Failed",
+        "Please try starting the ranked match again.",
+        "error"
+      );
+    }
   };
 
   return (
-    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+    <ScrollView style={styles.container} contentContainerStyle={[styles.content, { paddingBottom: 112 + insets.bottom }]}>
       <ImageBackground source={RANKED_ENTRY_HERO} resizeMode="cover" imageStyle={styles.heroImage} style={styles.heroCard}>
         <LinearGradient
           pointerEvents="none"
@@ -163,7 +188,7 @@ const styles = StyleSheet.create({
   content: {
     paddingTop: s(42),
     paddingHorizontal: s(18),
-    paddingBottom: s(142),
+    paddingBottom: s(112),
   },
   heroCard: {
     minHeight: s(170),

@@ -1,5 +1,1 @@
-export const ARENA_SCALE = 0.70; // 25% reduction (LOCKED)
-
-
-
-
+export const ARENA_SCALE = 0.62; // unified compact mobile arena scale

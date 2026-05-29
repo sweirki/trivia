@@ -126,15 +126,18 @@ export default function TournamentSummary() {
     feedbackPlayedRef.current = true;
     summary.userIsChampion ? feedback.tournamentWin() : feedback.reward();
   }, [summary]);
+const handleExit = () => {
+  if (hasExitedRef.current) return;
+  hasExitedRef.current = true;
 
-  const handleExit = () => {
-    if (hasExitedRef.current) return;
-    hasExitedRef.current = true;
+  feedback.tap();
 
-    feedback.tap();
+  router.replace("/(app)/arena_reset");
+
+  setTimeout(() => {
     resetTournament();
-    router.replace("/(app)/arena_reset");
-  };
+  }, 0);
+};
 
   if (!isReady || !summary) {
     return (

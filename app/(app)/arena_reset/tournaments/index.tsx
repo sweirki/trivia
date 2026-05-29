@@ -16,6 +16,8 @@ import { s } from "@/arena/theme/arenaSizing";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
 import { useAuthStore } from "@/store/useAuthStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
+import { ARENA_MODE_CONFIG, formatArenaCost } from "@/arena/arenaEconomyRules";
+import { useThemedAlert } from "@/components/ThemedAlert";
 
 const EVENT_ROTATION = [
   {
@@ -43,7 +45,7 @@ export default function TournamentEntry() {
   const lifecycle = useTournamentStore((state) => state.lifecycle);
 
   const [countdown, setCountdown] = useState("LIVE NOW");
-
+const { showThemedAlert, themedAlert } = useThemedAlert();
   const currentEvent = useMemo(() => {
     const day = new Date().getDay();
 
@@ -115,6 +117,26 @@ export default function TournamentEntry() {
     const username = player.nickname ?? user?.displayName ?? "You";
 
     if (store.lifecycle === "OPEN") {
+  const ticketsRequired = ARENA_MODE_CONFIG.tournament.tickets;
+  const playerStore = usePlayerStore.getState();
+
+  if (playerStore.tickets < ticketsRequired) {
+    showThemedAlert(
+      "Not enough tickets",
+      `Tournament entry requires ${formatArenaCost("tournament")}.`,
+      "warning"
+    );
+    return;
+  }
+
+  const alreadyJoined = Boolean(
+    store.tournament?.players.some((p) => p.uid === uid)
+  );
+
+  if (!alreadyJoined) {
+    playerStore.spendTickets(ticketsRequired);
+  }
+
       store.joinTournament(uid, username);
       store.lockTournament();
       store.startTournament();
@@ -226,6 +248,7 @@ export default function TournamentEntry() {
 
         <Text style={styles.joinButtonSubtext}>Compete. Survive. Climb.</Text>
       </TouchableOpacity>
+      {themedAlert}
     </ScrollView>
   );
 }

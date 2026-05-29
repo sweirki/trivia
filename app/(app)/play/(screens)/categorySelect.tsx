@@ -59,7 +59,7 @@ export default function CategorySelect() {
             styles.randomCard,
             pressed && styles.randomCardPressed,
           ]}
-          onPress={() => router.push("/play/quick?category=random")}
+          onPress={() => router.replace("/(app)/play/(screens)/quick?category=random" as any)}
         >
           <LinearGradient
             colors={[
@@ -83,7 +83,7 @@ export default function CategorySelect() {
           {PLAYABLE_CATEGORIES.map((category) => (
             <Pressable
               key={category.id}
-              onPress={() => router.push(`/play/quick?category=${category.id}`)}
+              onPress={() => router.replace(`/(app)/play/(screens)/quick?category=${category.id}` as any)}
               accessibilityLabel={`${category.label} category`}
               accessibilityHint="Starts a quick play run in this category"
               style={({ pressed }) => [

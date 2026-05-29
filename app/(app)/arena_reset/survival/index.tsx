@@ -11,16 +11,29 @@ import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
 import { useArenaStore } from "@/arena/store/useArenaStore";
 import { s } from "@/arena/theme/arenaSizing";
+import { usePlayerStore } from "@/store/usePlayerStore";
+import { ARENA_MODE_CONFIG, formatArenaCost } from "@/arena/arenaEconomyRules";
+import { useThemedAlert } from "@/components/ThemedAlert";
 
 const SURVIVAL_INTRO_ART = require("../../../../assets/images/arena/survival/survival_intro_hero.webp");
 const SURVIVAL_PRESSURE_ART = require("../../../../assets/images/arena/survival/survival_pressure_panel.webp");
 
 export default function SurvivalEntry() {
+  const { showThemedAlert, themedAlert } = useThemedAlert();
   const { player, setMode } = useArenaStore();
   const bestStreak = player.streak ?? 0;
   const nextMilestone = bestStreak < 5 ? 5 : bestStreak < 10 ? 10 : 20;
 
   const handleStart = () => {
+    if (!usePlayerStore.getState().spendTickets(ARENA_MODE_CONFIG.survival.tickets)) {
+      showThemedAlert(
+        "Not enough tickets",
+        `Survival Arena requires ${formatArenaCost("survival")}.`,
+        "warning"
+      );
+      return;
+    }
+
     useArenaStore.getState().resetArena();
     setMode("survival");
     router.push("/(app)/arena_reset/survival/SurvivalMatch");
@@ -114,6 +127,7 @@ export default function SurvivalEntry() {
           <Text style={styles.startSubtext}>Hold the streak. Beat the fear.</Text>
         </LinearGradient>
       </TouchableOpacity>
+      {themedAlert}
     </ScrollView>
   );
 }

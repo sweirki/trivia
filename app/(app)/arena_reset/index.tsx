@@ -532,19 +532,6 @@ export default function ArenaHub() {
           subtitle={`Entry: ${formatArenaCost("ranked")} • ${ARENA_MODE_CONFIG.ranked.rewardLabel}.`}
           tag={getArenaLiveEventModeTag("ranked", activeLiveEvent) ?? (isNearPromotion ? "PROMOTION" : isDangerZone ? "PROTECT" : "COMPETITIVE")}
           onPress={() => {
-            if (
-              !usePlayerStore
-                .getState()
-                .spendTickets(ARENA_MODE_CONFIG.ranked.tickets)
-            ) {
-              showThemedAlert(
-                "Not enough tickets",
-                `Ranked Arena requires ${formatArenaCost("ranked")}.`,
-                "warning",
-              );
-              return;
-            }
-
             router.push("/(app)/arena_reset/ranked");
           }}
         />
@@ -556,22 +543,7 @@ export default function ArenaHub() {
           subtitle={`Entry: ${formatArenaCost("survival")} • ${ARENA_MODE_CONFIG.survival.rewardLabel}.`}
           tag="HIGH SCORE"
           onPress={() => {
-            if (
-              !usePlayerStore
-                .getState()
-                .spendTickets(ARENA_MODE_CONFIG.survival.tickets)
-            ) {
-              showThemedAlert(
-                "Not enough tickets",
-                `Survival Arena requires ${formatArenaCost("survival")}.`,
-                "warning",
-              );
-              return;
-            }
-
-            useArenaStore.getState().resetArena();
-            useArenaStore.getState().setMode("survival");
-            router.push("/(app)/arena_reset/survival/SurvivalMatch");
+            router.push("/(app)/arena_reset/survival");
           }}
         />
 
@@ -582,19 +554,6 @@ export default function ArenaHub() {
           subtitle={`Entry: ${formatArenaCost("power")} • ${ARENA_MODE_CONFIG.power.rewardLabel}.`}
           tag="STRATEGY"
           onPress={() => {
-            if (
-              !usePlayerStore
-                .getState()
-                .spendTickets(ARENA_MODE_CONFIG.power.tickets)
-            ) {
-              showThemedAlert(
-                "Not enough tickets",
-                `Power-Up Arena requires ${formatArenaCost("power")} to enter.`,
-                "warning",
-              );
-              return;
-            }
-
             router.push("/(app)/arena_reset/power");
           }}
         />
@@ -608,19 +567,6 @@ export default function ArenaHub() {
             subtitle={`Entry: ${formatArenaCost("tournament")} • ${ARENA_MODE_CONFIG.tournament.rewardLabel}.`}
             tag="LIVE EVENT"
             onPress={() => {
-              if (
-                !usePlayerStore
-                  .getState()
-                  .spendTickets(ARENA_MODE_CONFIG.tournament.tickets)
-              ) {
-                showThemedAlert(
-                  "Not enough tickets",
-                  `Tournament entry requires ${formatArenaCost("tournament")}.`,
-                  "warning",
-                );
-                return;
-              }
-
               router.push("/(app)/arena_reset/tournaments");
             }}
           />

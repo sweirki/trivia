@@ -14,6 +14,9 @@ import { useArenaStore } from "@/arena/store/useArenaStore";
 import { usePowerUpStore } from "@/arena/store/usePowerUpStore";
 import { usePowerArenaMatchStore } from "@/arena/power/store/usePowerArenaMatchStore";
 import { buildPowerArenaQuestions } from "@/questions/gameplayQuestions";
+import { usePlayerStore } from "@/store/usePlayerStore";
+import { ARENA_MODE_CONFIG, formatArenaCost } from "@/arena/arenaEconomyRules";
+import { useThemedAlert } from "@/components/ThemedAlert";
 
 const POWER_ENTRY_HERO = require("../../../../assets/images/arena/power/power_entry_hero.webp");
 const POWER_LOADOUT_PANEL = require("../../../../assets/images/arena/power/power_loadout_panel.webp");
@@ -39,6 +42,7 @@ function buildMatchQuestions() {
 }
 
 export default function PowerUpArenaEntry() {
+  const { showThemedAlert, themedAlert } = useThemedAlert();
   const { setMode } = useArenaStore();
   const { powerups, resetPowerUsage } = usePowerUpStore();
 
@@ -49,6 +53,15 @@ export default function PowerUpArenaEntry() {
   );
 
   const handleStart = () => {
+    if (!usePlayerStore.getState().spendTickets(ARENA_MODE_CONFIG.power.tickets)) {
+      showThemedAlert(
+        "Not enough tickets",
+        `Power-Up Arena requires ${formatArenaCost("power")}.`,
+        "warning"
+      );
+      return;
+    }
+
     setMode("power");
     resetPowerUsage();
     usePowerArenaMatchStore.getState().startMatch(buildMatchQuestions());
@@ -180,6 +193,7 @@ export default function PowerUpArenaEntry() {
           <Text style={styles.startSubtext}>Outplay. Outthink. Overpower.</Text>
         </LinearGradient>
       </TouchableOpacity>
+      {themedAlert}
     </ScrollView>
   );
 }
@@ -226,7 +240,7 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     color: "#DDF6FF",
-    fontSize: 15,
+    fontSize: 12,
     lineHeight: 22,
     marginTop: 8,
     fontWeight: "700",
@@ -268,7 +282,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
     backgroundColor: "#121824",
     borderRadius: 20,
-    padding: 18,
+    padding: 13,
     overflow: "hidden",
     borderWidth: 1,
     borderColor: "rgba(79, 195, 247, 0.26)",
@@ -278,7 +292,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
     backgroundColor: "#121824",
     borderRadius: 20,
-    padding: 18,
+    padding: 13,
     borderWidth: 1,
     borderColor: "rgba(79, 195, 247, 0.18)",
   },
@@ -286,7 +300,7 @@ const styles = StyleSheet.create({
     marginTop: 14,
     backgroundColor: "#17140D",
     borderRadius: 20,
-    padding: 18,
+    padding: 13,
     overflow: "hidden",
     borderWidth: 1,
     borderColor: "rgba(247, 201, 72, 0.34)",
@@ -307,7 +321,7 @@ const styles = StyleSheet.create({
   },
   panelTitle: {
     color: "#FFFFFF",
-    fontSize: 19,
+    fontSize: 12,
     fontWeight: "900",
   },
   countBadge: {
@@ -330,12 +344,12 @@ const styles = StyleSheet.create({
   },
   emptyTitle: {
     color: "#FFFFFF",
-    fontSize: 15,
+    fontSize: 12,
     fontWeight: "800",
   },
   emptyText: {
     color: "#C8C8D8",
-    fontSize: 13,
+    fontSize: 10.5,
     lineHeight: 19,
     marginTop: 5,
   },
@@ -360,12 +374,12 @@ const styles = StyleSheet.create({
   secondaryButtonText: {
     color: "#A7E8FF",
     textAlign: "center",
-    fontSize: 15,
+    fontSize: 12,
     fontWeight: "900",
   },
   panelText: {
     color: "#C8C8D8",
-    fontSize: 14,
+    fontSize: 11,
     lineHeight: 22,
     marginTop: 6,
     fontWeight: "600",
@@ -373,8 +387,8 @@ const styles = StyleSheet.create({
   rewardTitle: { color: "#F7C948", fontSize: 18, fontWeight: "900" },
   rewardText: {
     color: "#D8D1B6",
-    fontSize: 14,
-    lineHeight: 21,
+    fontSize: 11,
+    lineHeight: 17,
     marginTop: 7,
     fontWeight: "600",
   },
