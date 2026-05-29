@@ -15,7 +15,7 @@ export default {
 
   android: {
     package: "com.sweirki.trivia",
-    versionCode: 4,
+    versionCode: 10,
     permissions: ["BILLING"],
     adaptiveIcon: {
       foregroundImage: "./assets/images/adaptive-icon.png",
@@ -28,7 +28,7 @@ export default {
 
   ios: {
     supportsTablet: true,
-    buildNumber: "4",
+    buildNumber: "10",
   },
 
   web: {
