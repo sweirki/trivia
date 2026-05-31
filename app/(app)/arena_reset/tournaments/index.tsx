@@ -256,7 +256,7 @@ const { showThemedAlert, themedAlert } = useThemedAlert();
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    backgroundColor: "#050716",
+    backgroundColor: "#071426",
   },
 
   content: {
@@ -290,7 +290,7 @@ const styles = StyleSheet.create({
   },
 
   liveTag: {
-    color: "#FF8A65",
+    color: "#7FE7FF",
     fontSize: s(12),
     fontWeight: "800",
     marginBottom: s(10),
@@ -323,13 +323,13 @@ const styles = StyleSheet.create({
   },
 
   countdownValue: {
-    color: "#D6A93A",
+    color: "#7FE7FF",
     fontSize: s(19),
     fontWeight: "800",
   },
 
   sectionCard: {
-    backgroundColor: "#121724",
+    backgroundColor: "rgba(8, 26, 46, 0.90)",
     borderRadius: s(16),
     padding: s(16),
     marginBottom: s(12),
@@ -343,7 +343,7 @@ const styles = StyleSheet.create({
   },
 
   rewardCoins: {
-    color: "#D6A93A",
+    color: "#7FE7FF",
     fontSize: s(26),
     fontWeight: "900",
   },
@@ -364,29 +364,29 @@ const styles = StyleSheet.create({
     overflow: "hidden",
     backgroundColor: "#131019",
     borderWidth: 1,
-    borderColor: "rgba(214,169,58,0.45)",
+    borderColor: "rgba(126,231,255,0.45)",
     borderRadius: s(16),
     padding: s(15),
     marginBottom: s(18),
   },
 
   warningTitle: {
-    color: "#D6A93A",
+    color: "#7FE7FF",
     fontSize: s(18),
     fontWeight: "800",
     marginBottom: s(10),
   },
 
   warningText: {
-    color: "#E8DDB5",
+    color: "#CFEAFF",
     fontSize: s(14),
     lineHeight: s(19),
   },
 
   joinButton: {
-    backgroundColor: "#D6A93A",
+    backgroundColor: "#2F8FC6",
     borderWidth: 1,
-    borderColor: "rgba(255,231,158,0.42)",
+    borderColor: "rgba(143,216,255,0.50)",
     borderRadius: s(14),
     paddingVertical: s(12),
     alignItems: "center",
@@ -394,13 +394,13 @@ const styles = StyleSheet.create({
   },
 
   joinButtonText: {
-    color: "#0B1020",
+    color: "#04111E",
     fontSize: s(19),
     fontWeight: "900",
   },
 
   joinButtonSubtext: {
-    color: "#3d2c00",
+    color: "#073044",
     fontSize: s(13),
     fontWeight: "700",
     marginTop: s(4),

@@ -77,6 +77,17 @@ type CloudPlayerState = Partial<PlayerStoreState> & {
   updatedAt?: unknown;
 };
 
+const TEST_TICKETS_EMAIL = "michuae@yahoo.com";
+const TEST_TICKETS_BALANCE = 999999;
+
+function isTestingTicketsAccount() {
+  return auth.currentUser?.email?.toLowerCase?.() === TEST_TICKETS_EMAIL;
+}
+
+function getTicketBalance(value: number) {
+  return isTestingTicketsAccount() ? TEST_TICKETS_BALANCE : value;
+}
+
 let playerSyncPromise: Promise<void> | null = null;
 let playerSyncPending = false;
 
@@ -109,7 +120,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
           level: progress.level,
           coins: clampBalance(get().coins + rewardDelta.coins),
           gems: clampBalance(get().gems + rewardDelta.gems),
-          tickets: clampBalance(get().tickets + rewardDelta.tickets),
+          tickets: getTicketBalance(clampBalance(get().tickets + rewardDelta.tickets)),
           claimedLevelRewards: Array.from(
             new Set([...get().claimedLevelRewards, ...levelRewards.map((reward) => reward.level)])
           ),
@@ -134,7 +145,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
         level: STARTING_ECONOMY.level,
         coins: STARTING_ECONOMY.coins,
         gems: STARTING_ECONOMY.gems,
-        tickets: STARTING_ECONOMY.tickets,
+        tickets: getTicketBalance(STARTING_ECONOMY.tickets),
 
         vipTier: 0,
         ownedPacks: [],
@@ -389,6 +400,13 @@ export const usePlayerStore = create<PlayerStoreState>()(
           return true;
         },
         spendTickets: (amount) => {
+          if (isTestingTicketsAccount()) {
+            if (get().tickets < TEST_TICKETS_BALANCE) {
+              set({ tickets: TEST_TICKETS_BALANCE, version: get().version + 1 });
+            }
+            return true;
+          }
+
           const safe = clampBalance(amount);
           if (get().tickets < safe) return false;
           set({ tickets: clampBalance(get().tickets - safe), version: get().version + 1 });
@@ -522,7 +540,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
             level: Math.max(1, Math.floor(useCloud ? cloud.level ?? local.level : local.level)),
             coins: clampBalance(useCloud ? cloud.coins ?? local.coins : local.coins),
             gems: clampBalance(useCloud ? cloud.gems ?? local.gems : local.gems),
-            tickets: clampBalance(useCloud ? cloud.tickets ?? local.tickets : local.tickets),
+            tickets: getTicketBalance(clampBalance(useCloud ? cloud.tickets ?? local.tickets : local.tickets)),
             vipTier: Math.max(0, Math.min(4, Math.floor(useCloud ? cloud.vipTier ?? local.vipTier : local.vipTier))),
             ownedPacks: useCloud && Array.isArray(cloud.ownedPacks) ? cloud.ownedPacks : local.ownedPacks,
             inventory: { ...defaultInventory, ...(useCloud ? cloud.inventory ?? local.inventory : local.inventory) },
@@ -574,7 +592,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
             level: get().level,
             coins: get().coins,
             gems: get().gems,
-            tickets: get().tickets,
+            tickets: getTicketBalance(get().tickets),
             daily: get().daily,
             weekly: get().weekly,
             retention: get().retention,
@@ -681,7 +699,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
           level: Math.max(1, Math.floor(state?.level ?? STARTING_ECONOMY.level)),
           coins: clampBalance(state?.coins ?? STARTING_ECONOMY.coins),
           gems: clampBalance(state?.gems ?? STARTING_ECONOMY.gems),
-          tickets: clampBalance(state?.tickets ?? STARTING_ECONOMY.tickets),
+          tickets: getTicketBalance(clampBalance(state?.tickets ?? STARTING_ECONOMY.tickets)),
           daily: normalizeDaily(state?.daily),
           streak: normalizeDaily(state?.daily).streak,
           weekly: normalizeWeekly(state?.weekly),

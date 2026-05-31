@@ -97,6 +97,34 @@ export const limitQuestionsForMode = (mode: QuickMode, questions: QuickQuestion[
 };
 
 
+
+const difficultyRank = (difficulty: Difficulty) => {
+  if (difficulty === "expert") return 4;
+  if (difficulty === "hard") return 3;
+  if (difficulty === "medium") return 2;
+  return 1;
+};
+
+const buildTournamentFallbackQuestions = (
+  fallbackQuestions: QuickQuestion[],
+  count: number,
+  excludeQuestionIds: Array<string | number> = []
+) => {
+  const excludedIds = new Set(excludeQuestionIds.map((id) => String(id)));
+  const fresh = fallbackQuestions.filter((question) => !excludedIds.has(String(question.id)));
+  const pool = fresh.length >= Math.min(count, fallbackQuestions.length) ? fresh : fallbackQuestions;
+
+  const competitive = pool
+    .filter((question) => question.difficulty !== "easy")
+    .sort((a, b) => difficultyRank(b.difficulty) - difficultyRank(a.difficulty));
+
+  const backup = pool
+    .filter((question) => question.difficulty === "easy")
+    .sort((a, b) => String(a.id).localeCompare(String(b.id)));
+
+  return shuffle([...competitive, ...backup]).slice(0, count);
+};
+
 export const buildCuratedQuestionsForMode = (
   mode: QuickMode,
   category: string,
@@ -109,17 +137,20 @@ export const buildCuratedQuestionsForMode = (
     seed?: string | number;
   } = {}
 ) => {
-  const sessionMode: QuestionSessionMode =
-    mode === "ranked" ||
-    mode === "survival" ||
-    mode === "daily" ||
-    mode === "speed" ||
-    mode === "timed60" ||
-    mode === "timed90" ||
-    mode === "sudden" ||
-    mode === "classic"
-      ? mode
-      : "classic";
+  const isTournamentSession = typeof options.tournamentCount === "number";
+
+  const sessionMode: QuestionSessionMode = isTournamentSession
+    ? "tournament"
+    : mode === "ranked" ||
+      mode === "survival" ||
+      mode === "daily" ||
+      mode === "speed" ||
+      mode === "timed60" ||
+      mode === "timed90" ||
+      mode === "sudden" ||
+      mode === "classic"
+        ? mode
+        : "classic";
 
   const count =
     typeof options.tournamentCount === "number"
@@ -147,7 +178,26 @@ export const buildCuratedQuestionsForMode = (
           seed: options.seed,
         });
 
-    if (session.questions.length) return session.questions as QuickQuestion[];
+    if (session.questions.length) {
+      const questions = session.questions as QuickQuestion[];
+
+      if (isTournamentSession) {
+        const easyCount = questions.filter((question) => question.difficulty === "easy").length;
+        const competitiveCount = questions.length - easyCount;
+
+        // If the registry still returned too many easy questions, rebuild from
+        // the local category pool with medium/hard/expert first.
+        if (questions.length && competitiveCount < Math.ceil(questions.length * 0.8)) {
+          return buildTournamentFallbackQuestions(
+            fallbackQuestions,
+            count,
+            options.excludeQuestionIds
+          );
+        }
+      }
+
+      return questions;
+    }
   } catch (error) {
     console.warn("[QuickGame] Curated question session failed, using provided fallback:", error);
   }
@@ -157,6 +207,10 @@ export const buildCuratedQuestionsForMode = (
   const fallbackPool = freshFallbackQuestions.length >= Math.min(count, fallbackQuestions.length)
     ? freshFallbackQuestions
     : fallbackQuestions;
+
+  if (isTournamentSession) {
+    return buildTournamentFallbackQuestions(fallbackPool, count, options.excludeQuestionIds);
+  }
 
   return limitQuestionsForMode(mode, shuffle(fallbackPool));
 };

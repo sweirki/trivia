@@ -60,7 +60,10 @@ const MODE_DIFFICULTY_PLANS: Record<QuestionSessionMode, Difficulty[]> = {
   ranked: ["medium", "medium", "hard", "hard", "expert"],
   survival: ["easy", "medium", "medium", "hard", "hard", "expert"],
   daily: ["easy", "medium", "medium", "hard", "hard", "expert", "medium"],
-  tournament: ["medium", "medium", "hard", "hard", "expert"],
+
+  // Tournament must feel earned. No easy questions unless the category has
+  // no playable medium/hard/expert questions left after filtering.
+  tournament: ["hard", "medium", "hard", "expert", "hard", "medium", "hard", "expert", "hard", "expert"],
 };
 
 function normalizeId(id: string | number) {
@@ -173,7 +176,21 @@ export function buildQuestionSession(options: QuestionSessionOptions): QuestionS
     (question) => options.allowPremium !== false || !question.premium
   );
 
-  const workingPool = basePool.length >= Math.min(requestedCount, 1) ? basePool : fallbackPool;
+  const normalWorkingPool = basePool.length >= Math.min(requestedCount, 1) ? basePool : fallbackPool;
+
+  // Tournament-specific hard gate: prioritize medium/hard/expert only.
+  // If there are enough non-easy questions, easy questions are removed from
+  // the available pool entirely so a champion run cannot feel like Quick Play.
+  const tournamentHardPool =
+    options.mode === "tournament"
+      ? normalWorkingPool.filter((question) => question.difficulty !== "easy")
+      : normalWorkingPool;
+
+  const workingPool =
+    options.mode === "tournament" && tournamentHardPool.length >= Math.min(requestedCount, normalWorkingPool.length)
+      ? tournamentHardPool
+      : normalWorkingPool;
+
   const available = shuffleWithRng(workingPool, rng);
   const selected: NormalizedQuestion[] = [];
   const selectedIds = new Set<string>();
@@ -182,9 +199,16 @@ export function buildQuestionSession(options: QuestionSessionOptions): QuestionS
   const usedCategories = new Set<string>();
 
   for (const targetDifficulty of difficultyPlan) {
-    const candidates = available.filter(
+    const unusedCandidates = available.filter(
       (question) => !selectedIds.has(normalizeId(question.id))
     );
+
+    const candidates =
+      options.mode === "tournament"
+        ? unusedCandidates.filter((question) => question.difficulty === targetDifficulty).length
+          ? unusedCandidates.filter((question) => question.difficulty === targetDifficulty)
+          : unusedCandidates.filter((question) => question.difficulty !== "easy")
+        : unusedCandidates;
 
     const next = pickWeightedQuestion(candidates, {
       targetDifficulty,

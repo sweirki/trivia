@@ -82,23 +82,31 @@ interface TournamentStoreState {
   resetTournament: () => void;
 }
 
-const BOT_NAMES = [
-  "Nova Bot",
-  "Blitz Bot",
-  "Echo Bot",
-  "Vortex Bot",
-  "Pixel Bot",
-  "Comet Bot",
-  "Titan Bot",
-  "Orbit Bot",
+const RIVAL_NAMES = [
+  "Astra",
+  "Kairo",
+  "Orion",
+  "Mira",
+  "Vega",
+  "Riven",
+  "Nyx",
+  "Drake",
+  "Luna",
+  "Kai",
+  "Nova",
+  "Soren",
+  "Aria",
+  "Blaze",
+  "Vera",
+  "Cruz",
 ];
 
 function isBotUid(uid?: string | null) {
   return Boolean(uid?.startsWith("bot-"));
 }
 
-function getBotName(index: number) {
-  return BOT_NAMES[index % BOT_NAMES.length];
+function getRivalName(index: number) {
+  return RIVAL_NAMES[index % RIVAL_NAMES.length];
 }
 
 function fillTournamentPlayers(tournament: Tournament) {
@@ -114,7 +122,7 @@ function fillTournamentPlayers(tournament: Tournament) {
       existingUids.add(uid);
       players.push({
         uid,
-        username: getBotName(botIndex - 1),
+        username: getRivalName(botIndex - 1),
         eliminated: false,
       });
     }

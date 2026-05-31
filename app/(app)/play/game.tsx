@@ -29,6 +29,52 @@ import { trackEvent } from "@/observability";
 
 const GAME_BG = require("../../../assets/premium/atmospheres/premium_question_bg.webp");
 
+function clampScore(value: number, total: number) {
+  return Math.max(0, Math.min(total, Math.round(value)));
+}
+
+function getTournamentRoundForMatch(bracket: any, matchId?: string | string[] | null) {
+  const id = Array.isArray(matchId) ? matchId[0] : matchId;
+  if (!bracket || !id) return "qualifier";
+  if (bracket.final?.id === id) return "final";
+  if ((bracket.semifinals ?? []).some((m: any) => m.id === id)) return "semifinal";
+  return "qualifier";
+}
+
+function buildTournamentRivalScore(params: {
+  playerScore: number;
+  totalQuestions: number;
+  round: "qualifier" | "semifinal" | "final" | string;
+}) {
+  const total = Math.max(1, params.totalQuestions || 5);
+  const playerScore = clampScore(params.playerScore, total);
+  const roll = Math.random();
+  const jitter = Math.floor(Math.random() * 3) - 1;
+
+  const pressure =
+    params.round === "final"
+      ? 0.78
+      : params.round === "semifinal"
+        ? 0.66
+        : 0.54;
+
+  const baseline = Math.round(total * pressure) + jitter;
+
+  const duelSwing =
+    params.round === "final"
+      ? Math.floor(Math.random() * 4)
+      : params.round === "semifinal"
+        ? Math.floor(Math.random() * 4) - 1
+        : Math.floor(Math.random() * 5) - 2;
+
+  let rivalScore = Math.max(baseline, playerScore + duelSwing);
+
+  // Rare stumble keeps fights believable without making every match impossible.
+  if (roll < 0.16) rivalScore -= params.round === "final" ? 1 : 2;
+
+  return clampScore(rivalScore, total);
+}
+
 export default function GameScreen() {
   const insets = useSafeAreaInsets();
  const gameStartRef = useRef<number>(Date.now());
@@ -234,11 +280,7 @@ useEffect(() => {
   const player = usePlayerStore.getState();
 
   if (quick.gameContext === "tournament") {
-    const totalQ = totalQuestions || 10;
-    const botScore = Math.max(
-      0,
-      Math.min(totalQ, latestScore + (Math.floor(Math.random() * 3) - 2))
-    );
+    const totalQ = totalQuestions || 5;
 
     if (matchId) {
       const tournamentState = useTournamentStore.getState();
@@ -251,6 +293,12 @@ useEffect(() => {
           ]
         : [];
       const targetMatch = allTournamentMatches.find((m) => m.id === matchId);
+      const round = getTournamentRoundForMatch(tournamentBracket, matchId);
+      const rivalScore = buildTournamentRivalScore({
+        playerScore: latestScore,
+        totalQuestions: totalQ,
+        round,
+      });
       const currentUserUid =
         useAuthStore.getState().user?.uid ??
         (player as any).uid ??
@@ -268,8 +316,8 @@ useEffect(() => {
 
       submitMatchResult(
         matchId,
-        humanIsB && !humanIsA ? botScore : latestScore,
-        humanIsB && !humanIsA ? latestScore : botScore
+        humanIsB && !humanIsA ? rivalScore : latestScore,
+        humanIsB && !humanIsA ? latestScore : rivalScore
       );
     }
   }

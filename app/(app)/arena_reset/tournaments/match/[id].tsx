@@ -63,7 +63,7 @@ function getRoundTone(round: string) {
     icon: "🏆",
     liveTag: "QUALIFIER",
     title: "WIN TO ADVANCE",
-    subtitle: "Start your run. Survive the bracket. Build prestige.",
+    subtitle: "Start your run. Survive the path. Build prestige.",
     accent: "#6EC7F2",
     cardColor: "#0E1B24",
     pressureTitle: "Opening Round",
@@ -87,8 +87,9 @@ function getTournamentPlayerName(tournament: any, uid?: string | null) {
   const player = tournament?.players?.find((p: any) => p.uid === uid);
   const name = player?.username?.trim?.();
 
-  if (name) return name;
+  if (name && !/bot/i.test(name)) return name;
   if (uid.startsWith("bot-")) return "Arena Rival";
+  if (uid.length > 14) return "Player";
 
   return displayName(uid);
 }
@@ -219,7 +220,7 @@ export default function TournamentMatchScreen() {
 
       <View style={styles.vsCard}>
         <View style={styles.playerBox}>
-          <Text style={styles.avatar}>🙂</Text>
+          <Text style={styles.avatar}>⚔️</Text>
           <Text style={styles.playerName}>{getTournamentPlayerName(tournament, match.playerAUid)}</Text>
         </View>
 
@@ -229,7 +230,7 @@ export default function TournamentMatchScreen() {
         </View>
 
         <View style={styles.playerBox}>
-          <Text style={styles.avatar}>🤖</Text>
+          <Text style={styles.avatar}>⚔️</Text>
           <Text style={styles.playerName}>{getTournamentPlayerName(tournament, match.playerBUid)}</Text>
         </View>
       </View>
@@ -250,7 +251,7 @@ export default function TournamentMatchScreen() {
         <Text style={styles.rulesTitle}>Match Stakes</Text>
         <Text style={styles.rule}>• {tournament.config.questionsPerMatch} questions</Text>
         <Text style={styles.rule}>• {tournament.config.timePerQuestion}s pressure per question</Text>
-        <Text style={styles.rule}>• Winner advances through the bracket</Text>
+        <Text style={styles.rule}>• Winner advances along the Champion Path</Text>
         <Text style={styles.rule}>
           • {isFinal ? "Winner becomes tournament champion" : "Finals build future champion prestige"}
         </Text>
@@ -285,7 +286,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#050716",
   },
   content: {
-    paddingTop: s(44),
+    paddingTop: s(76),
     paddingHorizontal: s(18),
     paddingBottom: s(132),
   },
@@ -319,7 +320,7 @@ const styles = StyleSheet.create({
   },
 
   liveTag: {
-    fontSize: s(11),
+    fontSize: s(14),
     fontWeight: "900",
     letterSpacing: 1,
     marginBottom: s(8),
@@ -331,12 +332,12 @@ const styles = StyleSheet.create({
     marginBottom: s(6),
   },
   heroTitle: {
-    fontSize: s(16),
+    fontSize: s(18),
     fontWeight: "900",
   },
   heroSub: {
     color: "#D4D2E2",
-    fontSize: s(13),
+    fontSize: s(14),
     lineHeight: s(19),
     marginTop: s(6),
   },
@@ -351,7 +352,7 @@ const styles = StyleSheet.create({
   },
   finalBadgeText: {
     color: "#D6A93A",
-    fontSize: s(11),
+    fontSize: s(14),
     fontWeight: "900",
     letterSpacing: 0.8,
   },
@@ -377,7 +378,7 @@ const styles = StyleSheet.create({
   },
   assetLabel: {
     color: "#9B9BAD",
-    fontSize: s(11),
+    fontSize: s(14),
     fontWeight: "800",
   },
   rewardSlot: {
@@ -406,7 +407,7 @@ const styles = StyleSheet.create({
   },
   rewardSub: {
     color: "#CFC39A",
-    fontSize: s(11),
+    fontSize: s(14),
     textAlign: "center",
   },
   vsCard: {
@@ -430,7 +431,7 @@ const styles = StyleSheet.create({
   },
   playerName: {
     color: "#FFFFFF",
-    fontSize: s(12),
+    fontSize: s(14),
     fontWeight: "800",
     textAlign: "center",
   },
@@ -444,7 +445,7 @@ const styles = StyleSheet.create({
   },
   stakes: {
     color: "#9B9BAD",
-    fontSize: s(10),
+    fontSize: s(11),
     textAlign: "center",
     marginTop: s(4),
   },
@@ -457,13 +458,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   },
   pressureTitle: {
-    fontSize: s(16),
+    fontSize: s(18),
     fontWeight: "900",
     marginBottom: s(8),
   },
   pressureText: {
     color: "#D4D2E2",
-    fontSize: s(13),
+    fontSize: s(14),
     lineHeight: s(20),
   },
   rulesCard: {
@@ -474,13 +475,13 @@ const styles = StyleSheet.create({
   },
   rulesTitle: {
     color: "#FFFFFF",
-    fontSize: s(16),
+    fontSize: s(18),
     fontWeight: "900",
     marginBottom: s(10),
   },
   rule: {
     color: "#B8B8CA",
-    fontSize: s(12),
+    fontSize: s(14),
     lineHeight: s(20),
   },
   playBtn: {
@@ -491,12 +492,12 @@ const styles = StyleSheet.create({
   },
   playText: {
     color: "#050512",
-    fontSize: s(17),
+    fontSize: s(18),
     fontWeight: "900",
   },
   playSub: {
     color: "#2B2200",
-    fontSize: s(10),
+    fontSize: s(11),
     fontWeight: "800",
     marginTop: s(3),
   },
@@ -513,20 +514,20 @@ const styles = StyleSheet.create({
   },
   countdownSub: {
     color: "#B8B8CA",
-    fontSize: s(12),
+    fontSize: s(14),
     fontWeight: "800",
   },
   secondaryButton: {
     marginTop: s(20),
-    backgroundColor: "#D6A93A",
+    backgroundColor: "#2F8FC6",
     borderWidth: 1,
-    borderColor: "rgba(255,231,158,0.42)",
+    borderColor: "rgba(143,216,255,0.50)",
     borderRadius: s(14),
     paddingVertical: s(14),
     paddingHorizontal: s(18),
   },
   secondaryText: {
-    color: "#050512",
+    color: "#04111E",
     fontWeight: "900",
   },
   error: {
