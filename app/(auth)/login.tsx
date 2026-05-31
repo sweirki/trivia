@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Pressable, StyleSheet, TextInput, View } from "react-native";
+import { Pressable, ScrollView, StyleSheet, TextInput, View } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 import { useRouter } from "expo-router";
 import { Text } from "@/theme";
 import { useAuthStore } from "@/store/useAuthStore";
@@ -32,39 +33,54 @@ export default function LoginScreen() {
   };
 
   return (
-    <View style={styles.root}>
-      <View style={styles.header}>
-        <Text style={styles.title}>Welcome back</Text>
-        <Text style={styles.subtitle}>Sign in to continue your progress</Text>
-      </View>
+    <LinearGradient colors={["#020817", "#051625", "#071A2A"]} style={styles.root}>
+      <ScrollView contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled" showsVerticalScrollIndicator={false}>
+        <View style={styles.heroGlow} />
+        <View style={styles.header}>
+          <Text style={styles.eyebrow}>TRIVIA SWEIRKI</Text>
+          <Text style={styles.title}>Welcome back</Text>
+          <Text style={styles.subtitle}>Sign in to keep your season progress synced.</Text>
+        </View>
 
-      <View style={styles.card}>
-        <TextInput placeholder="Email" placeholderTextColor="#6B7280" style={styles.input} autoCapitalize="none" keyboardType="email-address" value={email} onChangeText={setEmail} />
-        <TextInput placeholder="Password" placeholderTextColor="#6B7280" style={styles.input} secureTextEntry value={password} onChangeText={setPassword} />
-      </View>
+        <View style={styles.panel}>
+          <View style={styles.panelTopLine} />
+          <Text style={styles.panelLabel}>PLAYER ACCOUNT</Text>
+          <TextInput placeholder="Email" placeholderTextColor="#6F7C8E" style={styles.input} autoCapitalize="none" keyboardType="email-address" value={email} onChangeText={setEmail} />
+          <TextInput placeholder="Password" placeholderTextColor="#6F7C8E" style={styles.input} secureTextEntry value={password} onChangeText={setPassword} />
+        </View>
 
-      <Pressable onPress={onLogin} disabled={loading} style={({ pressed }) => [styles.primaryBtn, pressed && { opacity: 0.85 }]}>
-        <Text style={styles.primaryText}>{loading ? "Signing in..." : "Sign in"}</Text>
-      </Pressable>
+        <Pressable onPress={onLogin} disabled={loading} style={({ pressed }) => [styles.primaryBtn, pressed && styles.pressed, loading && styles.disabled]}>
+          <LinearGradient colors={["#22D3EE", "#0EA5E9"]} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={styles.primaryGradient}>
+            <Text style={styles.primaryText}>{loading ? "Signing in..." : "Sign in"}</Text>
+          </LinearGradient>
+        </Pressable>
 
-      <Pressable onPress={() => router.push("/(auth)/forgot")}><Text style={styles.link}>Forgot password?</Text></Pressable>
-      <Pressable onPress={() => router.replace("/(auth)/signup")}><Text style={styles.link}>Create an account</Text></Pressable>
+        <Pressable onPress={() => router.push("/(auth)/forgot")} style={styles.linkHit}><Text style={styles.link}>Forgot password?</Text></Pressable>
+        <Pressable onPress={() => router.replace("/(auth)/signup")} style={styles.linkHit}><Text style={styles.linkStrong}>Create an account</Text></Pressable>
+      </ScrollView>
       {themedAlert}
-    </View>
+    </LinearGradient>
   );
 }
 
 const styles = StyleSheet.create({
-  root: { flex: 1, backgroundColor: "#0B1220", paddingHorizontal: 20 },
-  header: { marginTop: 72, alignItems: "center", marginBottom: 28 },
-  title: { fontSize: 19, fontWeight: "800", color: "#F6C453" },
-  subtitle: { marginTop: 4, fontSize: 11, color: "#9AA3B2", textAlign: "center" },
-  card: { backgroundColor: "#141C2E", borderRadius: 16, padding: 14, borderWidth: 1, borderColor: "#24304C", marginBottom: 16 },
-  input: { backgroundColor: "#1B243A", borderRadius: 12, paddingVertical: 10, paddingHorizontal: 12, color: "#FFFFFF", borderWidth: 1, borderColor: "#24304C", marginBottom: 10, fontSize: 13 },
-  primaryBtn: { marginTop: 4, paddingVertical: 12, borderRadius: 16, backgroundColor: "#F6C453" },
-  primaryText: { textAlign: "center", fontSize: 14, fontWeight: "800", color: "#0B1220" },
-  link: { marginTop: 10, fontSize: 11, color: "#9AA3B2", textAlign: "center" },
+  root: { flex: 1 },
+  content: { flexGrow: 1, paddingHorizontal: 24, paddingTop: 72, paddingBottom: 36 },
+  heroGlow: { position: "absolute", top: -80, alignSelf: "center", width: 260, height: 260, borderRadius: 130, backgroundColor: "rgba(34,211,238,0.10)" },
+  header: { alignItems: "center", marginBottom: 28 },
+  eyebrow: { fontSize: 10, fontWeight: "900", letterSpacing: 2.4, color: "#22D3EE" },
+  title: { marginTop: 10, fontSize: 28, fontWeight: "900", color: "#F8FAFC", textAlign: "center" },
+  subtitle: { marginTop: 8, fontSize: 12, color: "#A7B4C5", textAlign: "center", lineHeight: 18 },
+  panel: { borderRadius: 22, padding: 16, marginBottom: 18, backgroundColor: "rgba(15,23,42,0.88)", borderWidth: 1, borderColor: "rgba(34,211,238,0.22)", shadowColor: "#22D3EE", shadowOpacity: 0.18, shadowRadius: 18, shadowOffset: { width: 0, height: 10 }, elevation: 5, overflow: "hidden" },
+  panelTopLine: { position: "absolute", top: 0, left: 20, right: 20, height: 1, backgroundColor: "rgba(246,196,83,0.55)" },
+  panelLabel: { marginBottom: 12, fontSize: 10, fontWeight: "900", letterSpacing: 1.3, color: "#F6C453" },
+  input: { minHeight: 48, backgroundColor: "rgba(20,30,52,0.96)", borderRadius: 15, paddingVertical: 12, paddingHorizontal: 14, color: "#FFFFFF", borderWidth: 1, borderColor: "rgba(148,163,184,0.18)", marginBottom: 10, fontSize: 14, fontWeight: "700" },
+  primaryBtn: { borderRadius: 18, overflow: "hidden", shadowColor: "#22D3EE", shadowOpacity: 0.25, shadowRadius: 18, shadowOffset: { width: 0, height: 9 }, elevation: 4 },
+  primaryGradient: { paddingVertical: 15, borderRadius: 18 },
+  primaryText: { textAlign: "center", fontSize: 14, fontWeight: "900", color: "#03111F" },
+  pressed: { opacity: 0.88, transform: [{ scale: 0.995 }] },
+  disabled: { opacity: 0.65 },
+  linkHit: { paddingTop: 16 },
+  link: { fontSize: 12, color: "#A7B4C5", textAlign: "center", fontWeight: "700" },
+  linkStrong: { fontSize: 12, color: "#F6C453", textAlign: "center", fontWeight: "800" },
 });
-
-
-

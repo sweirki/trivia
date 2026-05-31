@@ -23,6 +23,7 @@ import {
   getRankLabel,
 } from "@/arena/season/arenaSeasonPrestige";
 import AnimatedProgressBar from "@/components/AnimatedProgressBar";
+import { useAchievementEventsStore } from "@/achievements/achievementEventsStore";
 import {
   buildRankedPrestigeState,
   getRankProgress,
@@ -133,6 +134,13 @@ export default function RankedResult() {
     setSrAfter(updatedSR);
     setRankAfter(updatedRankState.rank);
     setStreakAfter(updatedRankState.winStreak);
+
+    useAchievementEventsStore.getState().recordRankedResult({
+      didWin,
+      promoted: breakdown.promotionMatch && didWin,
+      highestSR: updatedRankState.highestSR,
+      rankLeague: updatedRankState.highestRank?.league ?? updatedRankState.rank?.league,
+    });
 
     const listener = srAnim.addListener(({ value }) => {
       setSrDisplay(Math.round(value));
@@ -246,19 +254,27 @@ export default function RankedResult() {
     [didWin, srBefore, srAfter, rankBefore, rankAfter, streakAfter, integrityBreakdown],
   );
 
-  const resultTitle = isDraw
-    ? "NARROW BATTLE"
-    : didWin
-      ? "VICTORY CLAIMED"
-      : "DEFEAT RECORDED";
+  const resultTitle = prestige.promoted
+    ? "PROMOTION ACHIEVED"
+    : prestige.shieldConsumed
+      ? "DIVISION SHIELD HELD"
+      : isDraw
+        ? "NARROW BATTLE"
+        : didWin
+          ? "VICTORY CLAIMED"
+          : "DEFEAT RECORDED";
 
-  const resultSubtitle = isDraw
-    ? "Close fight. Refocus and take the next one."
-    : didWin
-      ? "Momentum gained. Your season climb moves forward."
-      : "Recover quickly. Protect your division.";
+  const resultSubtitle = prestige.promoted
+    ? `${prestige.rankLabel} unlocked. Your ladder identity just moved up.`
+    : prestige.shieldConsumed
+      ? "Demotion blocked. The division survives, but the next match matters."
+      : isDraw
+        ? "Close fight. Refocus and take the next one."
+        : didWin
+          ? "Momentum gained. Your season climb moves forward."
+          : "Recover quickly. Protect your division.";
 
-  const ceremonyIcon = didWin ? "🏆" : isDraw ? "⚔️" : "🛡️";
+  const ceremonyIcon = prestige.promoted ? "👑" : prestige.shieldConsumed ? "🛡️" : didWin ? "🏆" : isDraw ? "⚔️" : "🛡️";
 
   const pressureMessage = prestige.promoted
     ? "Promotion secured. Your new division is unlocked — now defend it."
@@ -355,6 +371,33 @@ export default function RankedResult() {
           </View>
         </ImageBackground>
       </Animated.View>
+
+      {(prestige.promoted || prestige.shieldConsumed || prestige.oneWinAway) && (
+        <LinearGradient
+          colors={
+            prestige.promoted
+              ? ["rgba(247,201,72,0.24)", "rgba(10,24,48,0.96)"]
+              : ["rgba(143,234,255,0.18)", "rgba(10,24,48,0.96)"]
+          }
+          style={styles.celebrationPanel}
+        >
+          <Text style={styles.celebrationEyebrow}>RANKED MOMENT</Text>
+          <Text style={styles.celebrationTitle}>
+            {prestige.promoted
+              ? "New Division Unlocked"
+              : prestige.shieldConsumed
+                ? "Demotion Protection Activated"
+                : "Promotion Match Within Reach"}
+          </Text>
+          <Text style={styles.celebrationText}>
+            {prestige.promoted
+              ? `You climbed into ${prestige.rankLabel}. Defend the badge and build the streak.`
+              : prestige.shieldConsumed
+                ? "Your shield absorbed the fall. Stabilize now before the ladder punishes the next loss."
+                : "One clean win can turn pressure into promotion."}
+          </Text>
+        </LinearGradient>
+      )}
 
       <View style={styles.scoreBox}>
         <View style={styles.scoreColumn}>
@@ -561,7 +604,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#071226",
   },
   content: {
-    paddingTop: 28,
+    paddingTop: 76,
     paddingHorizontal: 12,
     paddingBottom: 56,
   },
@@ -644,6 +687,32 @@ const styles = StyleSheet.create({
     borderRadius: 999,
     fontSize: 9,
     fontWeight: "900",
+  },
+  celebrationPanel: {
+    borderRadius: 18,
+    padding: 12,
+    marginBottom: 10,
+    borderWidth: 1,
+    borderColor: "rgba(247,201,72,0.30)",
+  },
+  celebrationEyebrow: {
+    color: "#F7C948",
+    fontSize: 9,
+    fontWeight: "900",
+    letterSpacing: 1.1,
+    marginBottom: 5,
+  },
+  celebrationTitle: {
+    color: "#FFFFFF",
+    fontSize: 16,
+    fontWeight: "900",
+  },
+  celebrationText: {
+    color: "#D8E7FF",
+    fontSize: 11.5,
+    lineHeight: 16,
+    fontWeight: "700",
+    marginTop: 6,
   },
   scoreBox: {
     backgroundColor: "rgba(10,24,48,0.92)",

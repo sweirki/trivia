@@ -325,7 +325,7 @@ export default function RankedMatch() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 28,
+    paddingTop: 76,
     paddingHorizontal: 16,
     backgroundColor: "#071226",
   },

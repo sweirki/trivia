@@ -6,6 +6,7 @@ const tournamentPrestigePanel = require("../../../../assets/images/arena/tournam
 
 import { router } from "expo-router";
 import { feedback } from "@/feedback";
+import { useAchievementEventsStore } from "@/achievements/achievementEventsStore";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { getPlacementLabel, getTournamentPlacementReward } from "@/arena/tournaments/tournamentPrestige";
@@ -89,10 +90,21 @@ export default function TournamentSummary() {
     };
   }, [bracket, currentUid, isReady, tournament]);
 
+  const achievementRecordedRef = useRef(false);
+
   useEffect(() => {
     if (!summary || feedbackPlayedRef.current) return;
     feedbackPlayedRef.current = true;
     summary.userIsChampion ? feedback.tournamentWin() : feedback.reward();
+
+    if (!achievementRecordedRef.current) {
+      achievementRecordedRef.current = true;
+      useAchievementEventsStore.getState().recordTournamentResult({
+        entered: true,
+        finalist: !!summary.userStanding && summary.userStanding.position <= 2,
+        champion: summary.userIsChampion,
+      });
+    }
   }, [summary]);
 
   const handleExit = () => {
@@ -119,10 +131,18 @@ export default function TournamentSummary() {
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
         <ImageBackground source={tournamentResultHero} imageStyle={styles.heroImage} style={styles.hero}>
           <View style={styles.heroShade} />
-          <Text style={styles.eyebrow}>LIVE EVENT COMPLETE</Text>
-          <Text style={styles.title}>{summary.userIsChampion ? "You Are Champion" : "Tournament Complete"}</Text>
+          <Text style={styles.eyebrow}>{summary.userIsChampion ? "CHAMPION CEREMONY" : "LIVE EVENT COMPLETE"}</Text>
+          <Text style={styles.title}>{summary.userIsChampion ? "Champion Crowned" : "Tournament Complete"}</Text>
           <Text style={styles.subtitle}>🏆 {summary.cupTitle}</Text>
         </ImageBackground>
+
+        {summary.userIsChampion && (
+          <LinearGradient colors={["rgba(247,201,72,0.24)", "rgba(10,24,44,0.96)"]} style={styles.championMoment}>
+            <Text style={styles.championMomentEyebrow}>PRESTIGE MOMENT</Text>
+            <Text style={styles.championMomentTitle}>Champion Path Complete</Text>
+            <Text style={styles.championMomentText}>Crown secured. Your tournament history now carries a champion finish.</Text>
+          </LinearGradient>
+        )}
 
         <View style={styles.championCard}>
           <View style={styles.crownSlot}><Text style={styles.crownIcon}>👑</Text></View>
@@ -183,6 +203,10 @@ const styles = StyleSheet.create({
   eyebrow: { color: "#7FE7FF", fontSize: 12, fontWeight: "900", letterSpacing: 1.4, marginBottom: 8 },
   title: { color: "#FFFFFF", fontSize: 27, fontWeight: "900" },
   subtitle: { color: "rgba(255,255,255,0.78)", fontSize: 15, fontWeight: "800", marginTop: 6 },
+  championMoment: { borderRadius: 18, padding: 14, borderWidth: 1, borderColor: "rgba(247,201,72,0.38)", marginBottom: 12 },
+  championMomentEyebrow: { color: "#F7C948", fontSize: 11, fontWeight: "900", letterSpacing: 1.2, marginBottom: 5 },
+  championMomentTitle: { color: "#FFFFFF", fontSize: 20, fontWeight: "900" },
+  championMomentText: { color: "rgba(255,255,255,0.74)", fontSize: 13, lineHeight: 18, fontWeight: "700", marginTop: 6 },
   championCard: { backgroundColor: "rgba(10, 24, 44, 0.94)", borderRadius: 18, padding: 13, flexDirection: "row", alignItems: "center", borderWidth: 1, borderColor: "rgba(126,231,255,0.14)", marginBottom: 12 },
   cardEyebrow: { color: "#7FE7FF", fontSize: 11, fontWeight: "900", letterSpacing: 1.2, marginBottom: 4 },
   crownSlot: { width: 54, height: 54, borderRadius: 27, backgroundColor: "rgba(126,231,255,0.12)", borderWidth: 1, borderColor: "rgba(126,231,255,0.35)", alignItems: "center", justifyContent: "center", marginRight: 13 },
@@ -198,7 +222,7 @@ const styles = StyleSheet.create({
   standingsCard: { backgroundColor: "rgba(10, 24, 44, 0.94)", borderRadius: 18, padding: 13, marginBottom: 12 },
   row: { flexDirection: "row", alignItems: "center", paddingVertical: 8, borderTopWidth: 1, borderTopColor: "rgba(255,255,255,0.06)" },
   position: { width: 30, color: "#AEB0C2", fontSize: 18, fontWeight: "900" },
-  gold: { color: "#7FE7FF" },
+  gold: { color: "#F7C948" },
   silver: { color: "#B9C1CB" },
   bronze: { color: "#D89B5E" },
   playerMeta: { flex: 1 },

@@ -1,11 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { View, Animated, StyleSheet } from "react-native";
 import { usePlayerStore } from "@/store/usePlayerStore";
-import { useTheme } from "@/theme";
 
 export default function XPProgressBar() {
-  const theme = useTheme();
-
   const xp = usePlayerStore((s) => s.xp);
   const level = usePlayerStore((s) => s.level);
 
@@ -27,10 +24,7 @@ export default function XPProgressBar() {
 
   return (
     <View
-      style={[
-        styles.container,
-        { backgroundColor: theme.colors.backgroundSoft },
-      ]}
+style={styles.container}
     >
       <Animated.View
         style={[
@@ -40,8 +34,8 @@ export default function XPProgressBar() {
               inputRange: [0, 1],
               outputRange: ["0%", "100%"],
             }),
-            backgroundColor: theme.colors.gold,
-            shadowColor: theme.colors.gold,
+            backgroundColor: "#F6C453",
+            shadowColor: "#F6C453",
           },
         ]}
       />
@@ -53,12 +47,15 @@ const styles = StyleSheet.create({
   container: {
     height: 14,
     width: "100%",
-    borderRadius: 7,
+    borderRadius: 999,
     overflow: "hidden",
+    backgroundColor: "rgba(6,14,29,0.85)",
+    borderWidth: 1,
+    borderColor: "rgba(159,231,255,0.16)",
   },
   fill: {
     height: "100%",
-    borderRadius: 7,
+    borderRadius: 999,
   },
 });
 

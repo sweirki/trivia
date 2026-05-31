@@ -53,7 +53,7 @@ export default function PurchaseModal({ visible, item, onConfirm, onClose }) {
 const styles = StyleSheet.create({
   overlay: {
     flex: 1,
-    backgroundColor: "rgba(0,0,0,0.65)",
+    backgroundColor: "rgba(2, 6, 23, 0.84)",
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
@@ -61,33 +61,41 @@ const styles = StyleSheet.create({
 
   card: {
     width: "100%",
-    backgroundColor: "#111",
-    borderRadius: 18,
-    padding: 28,
-    borderWidth: 1,
-    borderColor: "#FFD700",
+    maxWidth: 390,
+    backgroundColor: "#101827",
+    borderRadius: 26,
+    padding: 22,
+    borderWidth: 1.5,
+    borderColor: "rgba(246,196,83,0.42)",
+    shadowColor: "#F6C453",
+    shadowOpacity: 0.22,
+    shadowRadius: 18,
+    shadowOffset: { width: 0, height: 8 },
+    elevation: 10,
   },
 
   title: {
-    fontSize: 22,
+    fontSize: 21,
     fontWeight: "900",
-    color: "#FFD700",
+    color: "#F6C453",
     marginBottom: 16,
     textAlign: "center",
+    letterSpacing: 0.2,
   },
 
   itemLabel: {
-    color: "#FFF",
-    fontSize: 18,
+    color: "#F4FAFF",
+    fontSize: 17,
+    fontWeight: "800",
     marginTop: 8,
     textAlign: "center",
   },
 
   price: {
-    color: "#FFD700",
+    color: "#F6C453",
     textAlign: "center",
     fontSize: 20,
-    fontWeight: "800",
+    fontWeight: "900",
     marginTop: 6,
     marginBottom: 20,
   },
@@ -95,41 +103,36 @@ const styles = StyleSheet.create({
   buttons: {
     flexDirection: "row",
     justifyContent: "space-between",
+    gap: 12,
   },
 
   cancelBtn: {
     flex: 1,
-    paddingVertical: 12,
-    borderRadius: 10,
-    backgroundColor: "#444",
-    marginRight: 8,
+    paddingVertical: 13,
+    borderRadius: 16,
+    backgroundColor: "rgba(27,36,58,0.95)",
+    borderWidth: 1,
+    borderColor: "rgba(159,231,255,0.18)",
   },
 
   cancelText: {
     textAlign: "center",
-    color: "#DDD",
-    fontSize: 16,
-    fontWeight: "700",
+    color: "#D8E7FF",
+    fontSize: 14,
+    fontWeight: "900",
   },
 
   confirmBtn: {
     flex: 1,
-    paddingVertical: 12,
-    borderRadius: 10,
-    backgroundColor: "#FFD700",
-    marginLeft: 8,
+    paddingVertical: 13,
+    borderRadius: 16,
+    backgroundColor: "#00D4FF",
   },
 
   confirmText: {
     textAlign: "center",
-    color: "#000",
-    fontSize: 16,
+    color: "#07111F",
+    fontSize: 14,
     fontWeight: "900",
   },
 });
-
-
-
-
-
-

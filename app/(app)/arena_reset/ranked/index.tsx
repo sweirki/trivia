@@ -53,7 +53,7 @@ export default function RankedArenaEntry() {
 
   const nextRank = getNextRank(rank);
   const progress = getRankProgress(sr, rank);
-  const rivalNames = ["ShadowFox","MindStrike","QuizNova","NovaIQ","BlitzKing"];
+  const rivalNames = ["ShadowFox", "MindStrike", "QuizNova", "NovaIQ", "BlitzKing"];
   const rival = rivalNames[sr % rivalNames.length];
   const promotionPressure = progress >= 75;
   const dangerPressure = progress <= 18;
@@ -143,6 +143,29 @@ export default function RankedArenaEntry() {
       </View>
 
       <View style={styles.panel}>
+        <View style={styles.rowBetween}>
+          <Text style={styles.panelTitle}>Match Preview</Text>
+          <Text style={styles.panelMeta}>LIVE DUEL</Text>
+        </View>
+        <View style={styles.previewGrid}>
+          <View style={styles.previewTile}>
+            <Text style={styles.previewLabel}>Rival</Text>
+            <Text style={styles.previewValue}>{rival}</Text>
+          </View>
+          <View style={styles.previewTile}>
+            <Text style={styles.previewLabel}>Stakes</Text>
+            <Text style={styles.previewValue}>
+              {promotionPressure ? "Promotion" : dangerZone ? "Protection" : "Climb"}
+            </Text>
+          </View>
+          <View style={styles.previewTile}>
+            <Text style={styles.previewLabel}>Entry</Text>
+            <Text style={styles.previewValue}>{formatArenaCost("ranked")}</Text>
+          </View>
+        </View>
+      </View>
+
+      <View style={styles.panel}>
         <Text style={styles.panelTitle}>Prestige Rules</Text>
         <Text style={styles.ruleLine}>• Win matches to gain SR and climb divisions.</Text>
         <Text style={styles.ruleLine}>• 3+ win streaks add bonus SR.</Text>
@@ -160,7 +183,7 @@ export default function RankedArenaEntry() {
         />
         <Text style={styles.rewardTitle}>Season Prestige</Text>
         <Text style={styles.rewardSubtitle}>
-          Your highest rank this season will become a profile flex, reward tier, and tournament seed later.
+          Your highest rank this season powers profile prestige, reward tiers, and tournament seeding.
         </Text>
       </ImageBackground>
 
@@ -186,7 +209,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#071226",
   },
   content: {
-    paddingTop: s(42),
+    paddingTop: s(102),
     paddingHorizontal: s(18),
     paddingBottom: s(112),
   },
@@ -302,6 +325,35 @@ const styles = StyleSheet.create({
     color: "#B8B5C8",
     fontSize: s(14),
     marginTop: s(10),
+  },
+  previewGrid: {
+    flexDirection: "row",
+    gap: s(10),
+    marginTop: s(14),
+  },
+  previewTile: {
+    flex: 1,
+    minHeight: s(72),
+    borderRadius: s(16),
+    paddingHorizontal: s(10),
+    paddingVertical: s(12),
+    backgroundColor: "rgba(4,14,30,0.72)",
+    borderWidth: 1,
+    borderColor: "rgba(111,216,255,0.18)",
+    justifyContent: "center",
+  },
+  previewLabel: {
+    color: "#8FB7D9",
+    fontSize: s(10),
+    fontWeight: "900",
+    letterSpacing: 1,
+    textTransform: "uppercase",
+  },
+  previewValue: {
+    color: "#F4FAFF",
+    fontSize: s(14),
+    fontWeight: "900",
+    marginTop: s(7),
   },
   ruleLine: {
     color: "#B8B5C8",

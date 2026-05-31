@@ -1,14 +1,11 @@
 // A+++++ LevelUpModal — fully synced with new PlayerStore
 import React, { useEffect, useState } from "react";
 import { View, Text, Modal, StyleSheet, TouchableOpacity } from "react-native";
-import { useTheme } from "@/theme";
 import ConfettiView from "./ConfettiView";
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { feedback } from "@/feedback";
 
 export default function LevelUpModal({ visible, onClose }) {
-  const theme = useTheme();
-
   const level = usePlayerStore((s) => s.level);
   const vipTier = usePlayerStore((s) => s.vipTier);
 
@@ -32,11 +29,11 @@ export default function LevelUpModal({ visible, onClose }) {
   return (
     <Modal transparent visible={visible} animationType="fade">
       <View style={styles.overlay}>
-        <View style={[styles.card, { backgroundColor: theme.colors.backgroundSoft }]}>
+        <View style={styles.card}>
 
           <ConfettiView trigger={visible} />
 
-          <Text style={[styles.level, { color: theme.colors.gold }]}>
+          <Text style={styles.level}>
             LEVEL {level}
           </Text>
 
@@ -46,7 +43,7 @@ export default function LevelUpModal({ visible, onClose }) {
             </Text>
           )}
 
-          <Text style={[styles.msg, { color: theme.colors.text }]}>
+          <Text style={styles.msg}>
             You leveled up!
           </Text>
 
@@ -73,53 +70,65 @@ export default function LevelUpModal({ visible, onClose }) {
 const styles = StyleSheet.create({
   overlay: {
     flex: 1,
-    backgroundColor: "rgba(0,0,0,0.65)",
+    backgroundColor: "rgba(2, 6, 23, 0.84)",
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
   },
   card: {
     width: "100%",
-    borderRadius: 20,
-    padding: 30,
+    maxWidth: 390,
+    borderRadius: 26,
+    padding: 26,
     alignItems: "center",
+    backgroundColor: "#101827",
+    borderWidth: 1.5,
+    borderColor: "rgba(246,196,83,0.42)",
+    shadowColor: "#F6C453",
+    shadowOpacity: 0.24,
+    shadowRadius: 20,
+    shadowOffset: { width: 0, height: 8 },
+    elevation: 10,
   },
   level: {
+    color: "#F6C453",
     fontSize: 32,
     fontWeight: "900",
+    letterSpacing: 0.6,
   },
   vip: {
-    fontSize: 16,
-    color: "#FFD700",
+    fontSize: 14,
+    color: "#F6C453",
     marginTop: 8,
+    fontWeight: "900",
   },
   msg: {
+    color: "#F4FAFF",
     fontSize: 22,
     marginTop: 12,
-    fontWeight: "700",
+    fontWeight: "900",
   },
   reward: {
-    fontSize: 18,
+    fontSize: 17,
     marginTop: 12,
-    color: "#FFD700",
-    fontWeight: "800",
+    color: "#F6C453",
+    fontWeight: "900",
+    textAlign: "center",
   },
   button: {
-    backgroundColor: "#FFD700",
-    paddingVertical: 14,
+    backgroundColor: "#00D4FF",
+    paddingVertical: 13,
     paddingHorizontal: 40,
-    borderRadius: 12,
-    marginTop: 25,
+    borderRadius: 16,
+    marginTop: 24,
+    minWidth: 170,
+    alignItems: "center",
   },
   buttonTxt: {
-    color: "#000",
-    fontSize: 18,
-    fontWeight: "700",
+    color: "#07111F",
+    fontSize: 14,
+    fontWeight: "900",
+    letterSpacing: 0.4,
+    textTransform: "uppercase",
   },
 });
-
-
-
-
-
-

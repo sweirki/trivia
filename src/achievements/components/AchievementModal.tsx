@@ -36,12 +36,20 @@ export default function AchievementModal({ visible, achievement, onClose }: Prop
           />
 
           <View style={styles.topGlow} />
+          <View style={styles.medalRing}>
+            <Text style={styles.medalIcon}>★</Text>
+          </View>
           <Text style={styles.kicker}>ACHIEVEMENT UNLOCKED</Text>
           <Text style={styles.title}>{achievement.title ?? achievement.name ?? "Achievement"}</Text>
           <Text style={styles.desc}>{achievement.description ?? "You unlocked a new achievement."}</Text>
 
+          <View style={styles.rewardStrip}>
+            <Text style={styles.rewardPill}>PROFILE BADGE</Text>
+            <Text style={styles.rewardPillGold}>PRESTIGE +</Text>
+          </View>
+
           <Pressable style={({ pressed }) => [styles.button, pressed && styles.pressed]} onPress={onClose}>
-            <Text style={styles.buttonText}>Close</Text>
+            <Text style={styles.buttonText}>Claim Moment</Text>
           </Pressable>
         </View>
       </View>
@@ -80,6 +88,26 @@ const styles = StyleSheet.create({
     height: 1,
     backgroundColor: "rgba(255,214,110,0.82)",
   },
+  medalRing: {
+    width: 74,
+    height: 74,
+    borderRadius: 37,
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 14,
+    backgroundColor: "rgba(255,214,110,0.14)",
+    borderWidth: 1,
+    borderColor: "rgba(255,214,110,0.62)",
+    shadowColor: "#FFD66E",
+    shadowOpacity: 0.28,
+    shadowRadius: 18,
+    shadowOffset: { width: 0, height: 8 },
+  },
+  medalIcon: {
+    color: "#FFD66E",
+    fontSize: 34,
+    fontWeight: "900",
+  },
   kicker: {
     color: "#9FE7FF",
     fontSize: 10,
@@ -104,6 +132,37 @@ const styles = StyleSheet.create({
     textAlign: "center",
     marginTop: 10,
     marginBottom: 20,
+  },
+  rewardStrip: {
+    flexDirection: "row",
+    gap: 8,
+    marginBottom: 20,
+  },
+  rewardPill: {
+    color: "#9FE7FF",
+    fontSize: 10,
+    fontWeight: "900",
+    letterSpacing: 0.8,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    borderRadius: 999,
+    overflow: "hidden",
+    backgroundColor: "rgba(159,231,255,0.12)",
+    borderWidth: 1,
+    borderColor: "rgba(159,231,255,0.28)",
+  },
+  rewardPillGold: {
+    color: "#FFD66E",
+    fontSize: 10,
+    fontWeight: "900",
+    letterSpacing: 0.8,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    borderRadius: 999,
+    overflow: "hidden",
+    backgroundColor: "rgba(255,214,110,0.12)",
+    borderWidth: 1,
+    borderColor: "rgba(255,214,110,0.34)",
   },
   button: {
     minWidth: 142,

@@ -50,18 +50,28 @@ export function ThemedAccountModal({ visible, title, message, actions }: Props) 
 }
 
 const styles = StyleSheet.create({
-  overlay: { flex: 1, backgroundColor: "rgba(2, 6, 23, 0.78)", alignItems: "center", justifyContent: "center", padding: 22 },
-  card: { width: "100%", maxWidth: 380, borderRadius: 22, backgroundColor: "#101827", borderWidth: 1, borderColor: "#2B3654", padding: 18 },
-  title: { fontSize: 18, fontWeight: "900", color: "#F6C453", textAlign: "center" },
-  message: { marginTop: 10, fontSize: 13, color: "#CBD5E1", textAlign: "center", lineHeight: 19 },
-  actions: { marginTop: 18, gap: 10 },
-  button: { paddingVertical: 12, paddingHorizontal: 14, borderRadius: 15, backgroundColor: "#1B243A", borderWidth: 1, borderColor: "#2B3654" },
-  primary: { backgroundColor: "#F6C453", borderColor: "#F6C453" },
-  danger: { backgroundColor: "#991B1B", borderColor: "#B91C1C" },
-  buttonText: { color: "#F6C453", fontWeight: "800", textAlign: "center" },
+  overlay: { flex: 1, backgroundColor: "rgba(2, 6, 23, 0.84)", alignItems: "center", justifyContent: "center", padding: 22 },
+  card: {
+    width: "100%",
+    maxWidth: 390,
+    borderRadius: 26,
+    backgroundColor: "#101827",
+    borderWidth: 1.5,
+    borderColor: "rgba(159,231,255,0.28)",
+    padding: 22,
+    shadowColor: "#1E8CFF",
+    shadowOpacity: 0.2,
+    shadowRadius: 18,
+    shadowOffset: { width: 0, height: 8 },
+    elevation: 10,
+  },
+  title: { fontSize: 21, fontWeight: "900", color: "#F4FAFF", textAlign: "center" },
+  message: { marginTop: 10, fontSize: 14, color: "#CBD5E1", textAlign: "center", lineHeight: 21, fontWeight: "700" },
+  actions: { marginTop: 20, gap: 10 },
+  button: { paddingVertical: 13, paddingHorizontal: 14, borderRadius: 16, backgroundColor: "rgba(27,36,58,0.95)", borderWidth: 1, borderColor: "rgba(159,231,255,0.18)" },
+  primary: { backgroundColor: "#00D4FF", borderColor: "#00D4FF" },
+  danger: { backgroundColor: "#991B1B", borderColor: "#EF4444" },
+  buttonText: { color: "#D8E7FF", fontWeight: "900", textAlign: "center" },
   primaryText: { color: "#07111F" },
   dangerText: { color: "#FFFFFF" },
 });
-
-
-

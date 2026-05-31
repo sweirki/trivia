@@ -15,8 +15,10 @@ import { LinearGradient } from "expo-linear-gradient";
 import { useRouter } from "expo-router";
 import { Text, View, useTheme } from "@/theme";
 import { evaluateDailyClaim } from "@/daily/dailyLogic";
+import { resolveDailyRewardState } from "@/daily/dailyService";
 
 import { usePlayerStore } from "@/store/usePlayerStore";
+import { useDailyRewardStore } from "@/store/useDailyRewardStore";
 import { getDailyReward } from "@/daily/rewardTable";
 
 import ClaimButton from "@/daily/components/ClaimButton";
@@ -39,21 +41,31 @@ type DailyReward = {
   tickets?: number;
 };
 
-function usePlayerStoreHydrated() {
-  const [hydrated, setHydrated] = useState(
-    () => (usePlayerStore as any).persist?.hasHydrated?.() ?? true,
-  );
+function useDailyStoresHydrated() {
+  const [hydrated, setHydrated] = useState(() => {
+    const playerHydrated = (usePlayerStore as any).persist?.hasHydrated?.() ?? true;
+    const legacyHydrated = (useDailyRewardStore as any).persist?.hasHydrated?.() ?? true;
+    return playerHydrated && legacyHydrated;
+  });
 
   useEffect(() => {
-    const persistApi = (usePlayerStore as any).persist;
-    if (!persistApi?.onFinishHydration) return;
+    const playerPersist = (usePlayerStore as any).persist;
+    const legacyPersist = (useDailyRewardStore as any).persist;
 
-    setHydrated(persistApi.hasHydrated?.() ?? true);
-    const unsubscribe = persistApi.onFinishHydration(() => {
-      setHydrated(true);
-    });
+    const updateHydration = () => {
+      const playerHydrated = playerPersist?.hasHydrated?.() ?? true;
+      const legacyHydrated = legacyPersist?.hasHydrated?.() ?? true;
+      setHydrated(playerHydrated && legacyHydrated);
+    };
 
-    return () => unsubscribe?.();
+    updateHydration();
+    const unsubPlayer = playerPersist?.onFinishHydration?.(updateHydration);
+    const unsubLegacy = legacyPersist?.onFinishHydration?.(updateHydration);
+
+    return () => {
+      unsubPlayer?.();
+      unsubLegacy?.();
+    };
   }, []);
 
   return hydrated;
@@ -165,9 +177,14 @@ function RewardTile({
 export default function DailyRewardsScreen() {
   const router = useRouter();
   const theme = useTheme();
-  const hydrated = usePlayerStoreHydrated();
+  const hydrated = useDailyStoresHydrated();
 
   const daily = usePlayerStore((s) => s.daily);
+
+  useEffect(() => {
+    if (!hydrated) return;
+    resolveDailyRewardState();
+  }, [hydrated]);
   const syncing = usePlayerStore((s) => s.syncing);
   const streak = daily?.streak ?? 0;
   const lastClaimDate = daily?.lastClaimDate ?? null;
@@ -363,7 +380,7 @@ const styles = StyleSheet.create({
   },
   content: {
     paddingHorizontal: 16,
-    paddingTop: 14,
+    paddingTop: 56,
     paddingBottom: 72,
   },
   backButton: {
@@ -378,11 +395,11 @@ const styles = StyleSheet.create({
     fontWeight: "900",
   },
   heroCard: {
-    minHeight: 216,
+    minHeight: 176,
     borderRadius: 26,
     borderWidth: 1,
     borderColor: "rgba(190,231,255,0.28)",
-    padding: 16,
+    padding: 13,
     marginBottom: 12,
     overflow: "hidden",
     backgroundColor: "#0A1830",
@@ -415,8 +432,8 @@ const styles = StyleSheet.create({
   },
   title: {
     color: "#FFFFFF",
-    fontSize: 28,
-    lineHeight: 34,
+    fontSize: 23,
+    lineHeight: 28,
     marginBottom: 0,
     textShadowColor: "rgba(0,0,0,0.95)",
     textShadowRadius: 10,
@@ -434,9 +451,9 @@ const styles = StyleSheet.create({
   subtitle: {
     color: "#D8E7FF",
     marginTop: 6,
-    fontSize: 12,
-    fontWeight: "800",
-    lineHeight: 17,
+    fontSize: 11,
+    fontWeight: "700",
+    lineHeight: 16,
     textShadowColor: "rgba(0,0,0,0.8)",
     textShadowRadius: 7,
   },
@@ -456,12 +473,12 @@ const styles = StyleSheet.create({
   },
   statValue: {
     color: "#F7D36A",
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: "900",
   },
   statValueBlue: {
     color: "#8FE6FF",
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: "900",
   },
   statLabel: {
@@ -486,7 +503,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   statusTitle: {
-    color: "#FFFFFF",
+    color: "#EAF6FF",
     fontSize: 15,
     fontWeight: "900",
   },
@@ -516,7 +533,7 @@ const styles = StyleSheet.create({
   },
   rewardTile: {
     width: "31.8%",
-    height: 118,
+    height: 104,
     borderRadius: 20,
     borderWidth: 1,
     borderColor: "rgba(120,176,230,0.30)",
@@ -582,10 +599,10 @@ const styles = StyleSheet.create({
     paddingTop: 6,
   },
   rewardTileValue: {
-    color: "#FFFFFF",
-    fontSize: 28,
+    color: "#EAF6FF",
+    fontSize: 23,
     fontWeight: "900",
-    lineHeight: 31,
+    lineHeight: 26,
     letterSpacing: -0.45,
     textShadowColor: "rgba(0,0,0,0.98)",
     textShadowRadius: 9,
@@ -608,7 +625,7 @@ const styles = StyleSheet.create({
     textShadowRadius: 6,
   },
   rewardInfo: {
-    minHeight: 122,
+    minHeight: 100,
     marginBottom: 12,
     borderRadius: 21,
     borderWidth: 1,
@@ -634,7 +651,7 @@ const styles = StyleSheet.create({
     textShadowRadius: 7,
   },
   rewardValue: {
-    color: "#FFFFFF",
+    color: "#EAF6FF",
     marginTop: 8,
     fontSize: 15,
     fontWeight: "900",

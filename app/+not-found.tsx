@@ -1,34 +1,7 @@
-import { StyleSheet } from 'react-native';
-import { Text, View } from '@/theme';
+import { Redirect } from "expo-router";
 
 export default function NotFoundScreen() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>404 - Not Found</Text>
-      <Text style={styles.subtitle}>This page does not exist.</Text>
-    </View>
-  );
+  // Production fallback: if an old/restored route no longer exists, send the player
+  // back to the real premium hub instead of showing legacy starter screens or 404 UI.
+  return <Redirect href="/(app)/hub" />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 20
-  },
-  title: {
-    fontSize: 26,
-    fontWeight: '700'
-  },
-  subtitle: {
-    marginTop: 10,
-    fontSize: 16
-  }
-});
-
-
-
-
-
-

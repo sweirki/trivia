@@ -2,6 +2,7 @@ import { Stack, useRouter } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { Modal, Pressable, StyleSheet, Text, View } from 'react-native';
 import { useChallengesStore } from '@/challenges/store/useChallengesStore';
+import GlobalAchievementUnlockLayer from '@/achievements/components/GlobalAchievementUnlockLayer';
 
 export default function AppLayout() {
   const router = useRouter();
@@ -36,6 +37,7 @@ export default function AppLayout() {
   return (
     <>
       <Stack screenOptions={{ headerShown: false, animation: "fade", gestureEnabled: false }} />
+      <GlobalAchievementUnlockLayer />
 
       <Modal transparent visible={showChallengeModal} animationType="fade">
         <View style={styles.backdrop}>
@@ -65,18 +67,24 @@ export default function AppLayout() {
 const styles = StyleSheet.create({
   backdrop: {
     flex: 1,
-    backgroundColor: 'rgba(0,0,0,0.72)',
+    backgroundColor: 'rgba(2, 6, 23, 0.84)',
     justifyContent: 'center',
     alignItems: 'center',
     padding: 24,
   },
   card: {
     width: '100%',
-    borderRadius: 22,
+    maxWidth: 390,
+    borderRadius: 26,
     padding: 22,
-    backgroundColor: '#101623',
-    borderWidth: 1,
-    borderColor: 'rgba(143,183,217,0.26)',
+    backgroundColor: '#101827',
+    borderWidth: 1.5,
+    borderColor: 'rgba(159,231,255,0.28)',
+    shadowColor: '#1E8CFF',
+    shadowOpacity: 0.22,
+    shadowRadius: 18,
+    shadowOffset: { width: 0, height: 8 },
+    elevation: 10,
   },
   emoji: {
     fontSize: 34,
@@ -84,17 +92,18 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   title: {
-    color: '#8FB7D9',
+    color: '#F4FAFF',
     fontSize: 22,
     fontWeight: '900',
     textAlign: 'center',
   },
   body: {
-    color: '#E5E7EB',
-    fontSize: 15,
+    color: '#CBD5E1',
+    fontSize: 14,
+    fontWeight: '700',
     textAlign: 'center',
     marginTop: 10,
-    lineHeight: 22,
+    lineHeight: 21,
   },
   actions: {
     flexDirection: 'row',
@@ -103,27 +112,24 @@ const styles = StyleSheet.create({
   },
   button: {
     flex: 1,
-    paddingVertical: 12,
-    borderRadius: 14,
+    paddingVertical: 13,
+    borderRadius: 16,
     alignItems: 'center',
   },
   primary: {
-    backgroundColor: '#8FB7D9',
+    backgroundColor: '#00D4FF',
   },
   secondary: {
-    backgroundColor: '#1A2032',
+    backgroundColor: 'rgba(27,36,58,0.95)',
     borderWidth: 1,
-    borderColor: '#333',
+    borderColor: 'rgba(159,231,255,0.18)',
   },
   primaryText: {
-    color: '#111',
+    color: '#07111F',
     fontWeight: '900',
   },
   secondaryText: {
-    color: '#E5E7EB',
-    fontWeight: '800',
+    color: '#D8E7FF',
+    fontWeight: '900',
   },
 });
-
-
-

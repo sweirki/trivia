@@ -12,7 +12,7 @@ import { useArenaStore } from "@/arena/store/useArenaStore";
 import { feedback } from "@/feedback";
 
 const BASE_QUESTION_TIME = 10;
-const INTRO_COUNTDOWN_START = 1;
+const INTRO_COUNTDOWN_START = 3;
 
 const SURVIVAL_INTRO_ART = require("../../../../assets/images/arena/survival/survival_intro_hero.webp");
 const SURVIVAL_MATCH_HEADER_ART = require("../../../../assets/images/arena/survival/survival_match_header.webp");
@@ -100,7 +100,7 @@ export default function SurvivalMatch() {
 
         return value - 1;
       });
-    }, 350);
+    }, 1000);
 
     return () => clearInterval(interval);
   }, [introVisible]);
@@ -306,7 +306,7 @@ export default function SurvivalMatch() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 34,
+    paddingTop: 62,
     paddingHorizontal: 14,
     backgroundColor: "#061426",
   },

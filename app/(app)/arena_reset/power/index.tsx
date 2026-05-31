@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   ImageBackground,
   ScrollView,
@@ -44,13 +44,17 @@ function buildMatchQuestions() {
 export default function PowerUpArenaEntry() {
   const { showThemedAlert, themedAlert } = useThemedAlert();
   const { setMode } = useArenaStore();
-  const { powerups, resetPowerUsage } = usePowerUpStore();
+  const { powerups, resetPowerUps } = usePowerUpStore();
 
   const equipped = getPowerUpEntries(powerups as PowerUpMap);
   const totalPowerups = equipped.reduce(
     (sum, [, item]) => sum + (item?.qty ?? 0),
     0
   );
+
+  useEffect(() => {
+    resetPowerUps();
+  }, [resetPowerUps]);
 
   const handleStart = () => {
     if (!usePlayerStore.getState().spendTickets(ARENA_MODE_CONFIG.power.tickets)) {
@@ -63,7 +67,7 @@ export default function PowerUpArenaEntry() {
     }
 
     setMode("power");
-    resetPowerUsage();
+    resetPowerUps();
     usePowerArenaMatchStore.getState().startMatch(buildMatchQuestions());
     router.push("/(app)/arena_reset/power/PowerMatch");
   };
@@ -94,8 +98,8 @@ export default function PowerUpArenaEntry() {
         <Text style={styles.eyebrow}>POWER-UP ARENA</Text>
         <Text style={styles.title}>Control the Chaos.</Text>
         <Text style={styles.subtitle}>
-          Freeze time, shield mistakes, reroll danger, and turn smart strategy
-          into arena dominance.
+          Every power-up is a weapon. Use it too early and you may regret it.
+          Use it too late and the arena wins.
         </Text>
 
         <View style={styles.pillRow}>
@@ -132,9 +136,9 @@ export default function PowerUpArenaEntry() {
 
         {equipped.length === 0 ? (
           <View style={styles.emptyLoadout}>
-            <Text style={styles.emptyTitle}>No power-ups equipped</Text>
+            <Text style={styles.emptyTitle}>ENTERING UNARMED</Text>
             <Text style={styles.emptyText}>
-              You can still play, but stocked players have more clutch moments.
+              No power-ups equipped. Every answer must carry the run.
             </Text>
           </View>
         ) : (
@@ -176,10 +180,9 @@ export default function PowerUpArenaEntry() {
           colors={["rgba(30,22,2,0.48)", "rgba(10,10,4,0.92)"]}
           style={StyleSheet.absoluteFillObject}
         />
-        <Text style={styles.rewardTitle}>Prestige Hook</Text>
+        <Text style={styles.rewardTitle}>Power Prestige</Text>
         <Text style={styles.rewardText}>
-          Power-Up wins should become future badges, profile flexes, and limited
-          event achievements.
+          Clean timing, smart shields, and controlled surges build your Power Arena identity.
         </Text>
       </ImageBackground>
 
@@ -204,7 +207,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#070713",
   },
   content: {
-    paddingTop: 48,
+    paddingTop: 90,
     paddingHorizontal: 18,
     paddingBottom: 128,
   },

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Pressable, StyleSheet, View } from "react-native";
+import { Pressable, ScrollView, StyleSheet, View } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 import { useRouter } from "expo-router";
 import { Text } from "@/theme";
 import { useAuthStore } from "@/store/useAuthStore";
@@ -58,43 +59,62 @@ export default function VerifyEmailScreen() {
   };
 
   return (
-    <View style={styles.root}>
-      <Text style={styles.title}>Verify your email</Text>
-      <Text style={styles.subtitle}>{user?.email}</Text>
-      <Text style={styles.message}>{message}</Text>
+    <LinearGradient colors={["#020817", "#051625", "#071A2A"]} style={styles.root}>
+      <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
+        <View style={styles.heroGlow} />
+        <View style={styles.header}>
+          <Text style={styles.eyebrow}>ACCOUNT SECURITY</Text>
+          <Text style={styles.title}>Verify your email</Text>
+          <Text style={styles.subtitle}>{user?.email}</Text>
+        </View>
 
-      <Pressable onPress={onRefresh} disabled={busy} style={styles.primaryBtn}>
-        <Text style={styles.primaryText}>{busy ? "Checking..." : "I verified"}</Text>
-      </Pressable>
+        <View style={styles.panel}>
+          <View style={styles.panelTopLine} />
+          <Text style={styles.panelLabel}>VERIFICATION STATUS</Text>
+          <Text style={styles.message}>{message}</Text>
+        </View>
 
-      <Pressable onPress={onResend} disabled={busy || cooldown > 0} style={[styles.secondaryBtn, (busy || cooldown > 0) && styles.disabledBtn]}>
-        <Text style={styles.secondaryText}>{cooldown > 0 ? `Resend in ${cooldown}s` : "Resend email"}</Text>
-      </Pressable>
+        <Pressable onPress={onRefresh} disabled={busy} style={({ pressed }) => [styles.primaryBtn, pressed && styles.pressed, busy && styles.disabled]}>
+          <LinearGradient colors={["#22D3EE", "#0EA5E9"]} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={styles.primaryGradient}>
+            <Text style={styles.primaryText}>{busy ? "Checking..." : "I verified"}</Text>
+          </LinearGradient>
+        </Pressable>
 
-      <Text style={styles.note}>Repeated taps can make Firebase delay or throttle emails. One resend per minute is safer.</Text>
+        <Pressable onPress={onResend} disabled={busy || cooldown > 0} style={({ pressed }) => [styles.secondaryBtn, pressed && styles.pressed, (busy || cooldown > 0) && styles.disabled]}>
+          <Text style={styles.secondaryText}>{cooldown > 0 ? `Resend in ${cooldown}s` : "Resend email"}</Text>
+        </Pressable>
 
-      <ThemedAccountModal
-        visible={modal !== null}
-        title={modal?.title ?? ""}
-        message={modal?.message ?? ""}
-        actions={[{ label: "OK", variant: "primary", onPress: () => setModal(null) }]}
-      />
-    </View>
+        <Text style={styles.note}>Repeated taps can make Firebase delay or throttle emails. One resend per minute is safer.</Text>
+
+        <ThemedAccountModal
+          visible={modal !== null}
+          title={modal?.title ?? ""}
+          message={modal?.message ?? ""}
+          actions={[{ label: "OK", variant: "primary", onPress: () => setModal(null) }]}
+        />
+      </ScrollView>
+    </LinearGradient>
   );
 }
 
 const styles = StyleSheet.create({
-  root: { flex: 1, backgroundColor: "#0B1220", padding: 24, justifyContent: "center" },
-  title: { fontSize: 22, fontWeight: "800", color: "#F6C453", textAlign: "center" },
-  subtitle: { marginTop: 8, fontSize: 13, color: "#FFFFFF", textAlign: "center" },
-  message: { marginTop: 16, fontSize: 12, color: "#CBD5E1", textAlign: "center", lineHeight: 18 },
-  note: { marginTop: 12, fontSize: 10, color: "#64748B", textAlign: "center", lineHeight: 15 },
-  primaryBtn: { marginTop: 24, paddingVertical: 13, borderRadius: 16, backgroundColor: "#F6C453" },
-  primaryText: { textAlign: "center", fontWeight: "800", color: "#0B1220" },
-  secondaryBtn: { marginTop: 12, paddingVertical: 12, borderRadius: 16, backgroundColor: "#1B243A", borderWidth: 1, borderColor: "#24304C" },
-  disabledBtn: { opacity: 0.55 },
-  secondaryText: { textAlign: "center", fontWeight: "700", color: "#F6C453" },
+  root: { flex: 1 },
+  content: { flexGrow: 1, justifyContent: "center", paddingHorizontal: 24, paddingTop: 64, paddingBottom: 36 },
+  heroGlow: { position: "absolute", top: 40, alignSelf: "center", width: 260, height: 260, borderRadius: 130, backgroundColor: "rgba(34,211,238,0.10)" },
+  header: { alignItems: "center", marginBottom: 24 },
+  eyebrow: { fontSize: 10, fontWeight: "900", letterSpacing: 2.4, color: "#22D3EE" },
+  title: { marginTop: 10, fontSize: 28, fontWeight: "900", color: "#F8FAFC", textAlign: "center" },
+  subtitle: { marginTop: 8, fontSize: 13, color: "#F6C453", textAlign: "center", fontWeight: "800" },
+  panel: { borderRadius: 22, padding: 18, marginBottom: 18, backgroundColor: "rgba(15,23,42,0.88)", borderWidth: 1, borderColor: "rgba(34,211,238,0.22)", shadowColor: "#22D3EE", shadowOpacity: 0.18, shadowRadius: 18, shadowOffset: { width: 0, height: 10 }, elevation: 5, overflow: "hidden" },
+  panelTopLine: { position: "absolute", top: 0, left: 20, right: 20, height: 1, backgroundColor: "rgba(246,196,83,0.55)" },
+  panelLabel: { marginBottom: 12, fontSize: 10, fontWeight: "900", letterSpacing: 1.3, color: "#F6C453" },
+  message: { fontSize: 13, color: "#CBD5E1", textAlign: "center", lineHeight: 20, fontWeight: "700" },
+  note: { marginTop: 14, fontSize: 10, color: "#6F7C8E", textAlign: "center", lineHeight: 15 },
+  primaryBtn: { borderRadius: 18, overflow: "hidden", shadowColor: "#22D3EE", shadowOpacity: 0.25, shadowRadius: 18, shadowOffset: { width: 0, height: 9 }, elevation: 4 },
+  primaryGradient: { paddingVertical: 15, borderRadius: 18 },
+  primaryText: { textAlign: "center", fontSize: 14, fontWeight: "900", color: "#03111F" },
+  secondaryBtn: { marginTop: 12, paddingVertical: 14, borderRadius: 18, backgroundColor: "rgba(15,23,42,0.88)", borderWidth: 1, borderColor: "rgba(246,196,83,0.38)" },
+  secondaryText: { textAlign: "center", fontWeight: "900", color: "#F6C453" },
+  pressed: { opacity: 0.88, transform: [{ scale: 0.995 }] },
+  disabled: { opacity: 0.55 },
 });
-
-
-

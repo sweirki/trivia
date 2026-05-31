@@ -149,7 +149,7 @@ export default function TournamentBracket() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#071426" },
   center: { flex: 1, backgroundColor: "#071426", justifyContent: "center", alignItems: "center" },
-  content: { paddingTop: s(84), paddingHorizontal: s(16), paddingBottom: s(34) },
+  content: { paddingTop: s(126), paddingHorizontal: s(16), paddingBottom: s(34) },
   info: { color: "#fff", fontSize: s(18), fontWeight: "900" },
   hero: { overflow: "hidden", borderRadius: s(22), padding: s(16), borderWidth: 1, borderColor: "rgba(126,231,255,0.28)", marginBottom: s(14) },
   heroImage: { borderRadius: s(22) },

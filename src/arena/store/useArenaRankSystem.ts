@@ -8,6 +8,7 @@ import {
   getRankLabel,
 } from "@/arena/season/arenaSeasonPrestige";
 import { useArenaEconomyStore } from "@/arena/store/useArenaEconomyStore";
+import { useAchievementEventsStore } from "@/achievements/achievementEventsStore";
 
 // ------------------------------------
 // TYPES
@@ -424,6 +425,8 @@ export const useArenaRankSystem = create<ArenaRankState>()(
         if (snapshot.tokenReward > 0) {
           useArenaEconomyStore.getState().earnArenaTokens(snapshot.tokenReward);
         }
+
+        useAchievementEventsStore.getState().recordSeasonReward();
 
         const claimedSnapshot = { ...snapshot, claimedAt: Date.now() };
         set((state) => ({

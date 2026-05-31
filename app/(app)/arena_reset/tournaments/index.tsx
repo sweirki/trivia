@@ -260,7 +260,7 @@ const styles = StyleSheet.create({
   },
 
   content: {
-    paddingTop: s(44),
+    paddingTop: s(104),
     paddingBottom: s(190),
     paddingHorizontal: s(16),
   },

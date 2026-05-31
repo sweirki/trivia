@@ -2,6 +2,7 @@ import { doc, getDoc, setDoc, updateDoc, serverTimestamp } from 'firebase/firest
 import { db } from "@/firebase/firebase";
 
 import { UserAchievement } from './achievementTypes';
+import { queueAchievementUnlock } from './achievementUnlockQueue';
 
 /**
  * Path helper
@@ -42,6 +43,8 @@ export async function unlockAchievement(
     },
     { merge: true }
   );
+
+  queueAchievementUnlock(achievementId);
 }
 
 /**
@@ -61,6 +64,7 @@ export async function updateAchievementProgress(
   }
 
   const unlocked = progress >= threshold;
+  const wasUnlocked = snap.exists() && snap.data().unlocked === true;
 
  await setDoc(
   ref,
@@ -74,7 +78,9 @@ export async function updateAchievementProgress(
   { merge: true }
 );
 
-
+  if (unlocked && !wasUnlocked) {
+    queueAchievementUnlock(achievementId);
+  }
 }
 
 

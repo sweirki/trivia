@@ -16,6 +16,7 @@ import SectionHeader from "@/components/SectionHeader";
 import { auth, db } from "@/firebase/firebase";
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { useHistoryStore } from "@/store/historyStore";
+import { useAchievementEventsStore } from "@/achievements/achievementEventsStore";
 import AchievementBadge from "./AchievementBadge";
 import AchievementModal from "./AchievementModal";
 import { ACHIEVEMENTS } from "../../achievements/achievementDefinitions";
@@ -23,7 +24,7 @@ import { ACHIEVEMENTS } from "../../achievements/achievementDefinitions";
 const HERO_ART = require("../../../assets/images/lobby/achievements_card_art.webp");
 const LOBBY_ART = require("../../../assets/images/lobby/lobby_hero_banner.webp");
 
-type AchievementGroup = "START" | "VOLUME" | "SKILL" | "HABIT" | "ECONOMY";
+type AchievementGroup = "START" | "VOLUME" | "SKILL" | "HABIT" | "ECONOMY" | "RANKED" | "TOURNAMENT" | "SURVIVAL" | "POWER" | "SEASON";
 
 const GROUPS: Array<{ id: AchievementGroup; title: string; sub: string }> = [
   { id: "START", title: "Start", sub: "First milestones" },
@@ -31,6 +32,11 @@ const GROUPS: Array<{ id: AchievementGroup; title: string; sub: string }> = [
   { id: "SKILL", title: "Skill", sub: "Elite performance" },
   { id: "HABIT", title: "Habit", sub: "Return rhythm" },
   { id: "ECONOMY", title: "Economy", sub: "Rewards and ownership" },
+  { id: "RANKED", title: "Ranked Arena", sub: "Ladder climb and promotion moments" },
+  { id: "TOURNAMENT", title: "Tournament", sub: "Champion Path prestige" },
+  { id: "SURVIVAL", title: "Survival", sub: "Endurance milestones" },
+  { id: "POWER", title: "Power Arena", sub: "Tactical power mastery" },
+  { id: "SEASON", title: "Season Prestige", sub: "Long-term season rewards" },
 ];
 
 function getMaxWinStreak(history: any[]) {
@@ -55,12 +61,14 @@ function getLocalUnlockedIds({
   totalWins,
   dailyStreak,
   coins,
+  arenaStats,
 }: {
   history: any[];
   totalGamesPlayed: number;
   totalWins: number;
   dailyStreak: number;
   coins: number;
+  arenaStats: ReturnType<typeof useAchievementEventsStore.getState>;
 }) {
   const unlocked = new Set<string>();
   const losses = Math.max(0, totalGamesPlayed - totalWins);
@@ -109,6 +117,30 @@ function getLocalUnlockedIds({
 
   if (coins >= 1000) unlocked.add("G5_04_SAVER");
 
+  if (arenaStats.rankedWins >= 1) unlocked.add("G6_01_RANKED_FIRST_WIN");
+  if (arenaStats.rankedPromotions >= 1) unlocked.add("G6_02_RANKED_PROMOTION");
+  if (arenaStats.highestRankedSR >= 400) unlocked.add("G6_03_RANKED_SILVER");
+  if (arenaStats.highestRankedSR >= 800) unlocked.add("G6_04_RANKED_GOLD");
+  if (arenaStats.highestRankedSR >= 1600) unlocked.add("G6_05_RANKED_DIAMOND");
+
+  if (arenaStats.tournamentsEntered >= 1) unlocked.add("G7_01_TOURNAMENT_ENTERED");
+  if (arenaStats.tournamentFinals >= 1) unlocked.add("G7_02_TOURNAMENT_FINALIST");
+  if (arenaStats.tournamentChampionships >= 1) unlocked.add("G7_03_TOURNAMENT_CHAMPION");
+  if (arenaStats.tournamentChampionships >= 10) unlocked.add("G7_04_TOURNAMENT_CHAMPION_10");
+
+  if (arenaStats.survivalBestRounds >= 10) unlocked.add("G8_01_SURVIVAL_10");
+  if (arenaStats.survivalBestRounds >= 20) unlocked.add("G8_02_SURVIVAL_20");
+  if (arenaStats.survivalBestRounds >= 30) unlocked.add("G8_03_SURVIVAL_30");
+  if (arenaStats.survivalBestRounds >= 40) unlocked.add("G8_04_SURVIVAL_40");
+
+  if (arenaStats.powerRuns >= 1) unlocked.add("G9_01_POWER_FIRST_RUN");
+  if (arenaStats.powerBestScore >= 18) unlocked.add("G9_02_POWER_CONTROLLED_CHAOS");
+  if (arenaStats.powerMasterclassRuns >= 1) unlocked.add("G9_03_POWER_MASTERCLASS");
+  if (arenaStats.noPowerControlRuns >= 1) unlocked.add("G9_04_POWER_NO_TOOLS");
+
+  if (arenaStats.rankedWins >= 1 || arenaStats.tournamentsEntered >= 1) unlocked.add("G10_01_SEASON_STARTED");
+  if (arenaStats.seasonRewardsClaimed >= 1) unlocked.add("G10_02_SEASON_REWARD");
+
   return Array.from(unlocked);
 }
 
@@ -118,6 +150,7 @@ export default function AchievementsScreen() {
   const dailyStreak = usePlayerStore((s) => s.daily?.streak ?? 0);
   const coins = usePlayerStore((s) => s.coins);
   const history = useHistoryStore((s) => s.history);
+  const arenaStats = useAchievementEventsStore((s) => s);
 
   const [cloudUnlockedIds, setCloudUnlockedIds] = useState<string[]>([]);
   const [modalVisible, setModalVisible] = useState(false);
@@ -157,10 +190,11 @@ export default function AchievementsScreen() {
       totalWins,
       dailyStreak,
       coins,
+      arenaStats,
     });
 
     return Array.from(new Set([...cloudUnlockedIds, ...localUnlockedIds]));
-  }, [cloudUnlockedIds, coins, dailyStreak, history, totalGamesPlayed, totalWins]);
+  }, [arenaStats, cloudUnlockedIds, coins, dailyStreak, history, totalGamesPlayed, totalWins]);
 
   const unlockedCount = unlockedIds.length;
   const totalCount = ACHIEVEMENTS.length;

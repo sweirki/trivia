@@ -229,75 +229,97 @@ const styles = StyleSheet.create({
 
   guestChoiceScreen: {
     flex: 1,
-    backgroundColor: "#0B1220",
+    backgroundColor: "#07111F",
     justifyContent: "center",
     padding: 24,
   },
 
   guestChoiceCard: {
-    backgroundColor: "#141C2E",
-    borderRadius: 24,
+    backgroundColor: "#101827",
+    borderRadius: 26,
     padding: 22,
-    borderWidth: 1,
-    borderColor: "#24304C",
+    borderWidth: 1.5,
+    borderColor: "rgba(159,231,255,0.28)",
+    shadowColor: "#1E8CFF",
+    shadowOpacity: 0.18,
+    shadowRadius: 18,
+    shadowOffset: { width: 0, height: 8 },
+    elevation: 10,
   },
 
   overlay: {
     flex: 1,
-    backgroundColor: "rgba(0,0,0,0.6)",
+    backgroundColor: "rgba(2, 6, 23, 0.84)",
     justifyContent: "center",
     padding: 24,
   },
 
   card: {
-    backgroundColor: "#141C2E",
-    borderRadius: 20,
-    padding: 20,
-    borderWidth: 1,
-    borderColor: "#24304C",
+    backgroundColor: "#101827",
+    borderRadius: 26,
+    padding: 22,
+    borderWidth: 1.5,
+    borderColor: "rgba(159,231,255,0.28)",
+    shadowColor: "#1E8CFF",
+    shadowOpacity: 0.2,
+    shadowRadius: 18,
+    shadowOffset: { width: 0, height: 8 },
+    elevation: 10,
   },
 
   title: {
-    fontSize: 18,
-    fontWeight: "800",
-    color: "#F6C453",
+    fontSize: 21,
+    fontWeight: "900",
+    color: "#F4FAFF",
     textAlign: "center",
   },
 
   subtitle: {
-    marginTop: 6,
-    fontSize: 12,
-    color: "#9AA3B2",
+    marginTop: 8,
+    fontSize: 14,
+    lineHeight: 21,
+    color: "#CBD5E1",
+    fontWeight: "700",
     textAlign: "center",
   },
 
   stats: {
     marginVertical: 16,
     alignItems: "center",
+    borderRadius: 18,
+    backgroundColor: "rgba(6,14,29,0.72)",
+    borderWidth: 1,
+    borderColor: "rgba(159,231,255,0.14)",
+    padding: 14,
   },
 
   stat: {
     fontSize: 13,
-    color: "#FFFFFF",
+    color: "#D8E7FF",
+    fontWeight: "800",
   },
 
   primaryBtn: {
     marginTop: 12,
-    paddingVertical: 12,
+    paddingVertical: 13,
     borderRadius: 16,
-    backgroundColor: "#F6C453",
+    backgroundColor: "#00D4FF",
   },
 
   primaryText: {
     textAlign: "center",
     fontSize: 14,
-    fontWeight: "800",
-    color: "#0B1220",
+    fontWeight: "900",
+    color: "#07111F",
   },
 
   secondaryBtn: {
     marginTop: 10,
-    paddingVertical: 10,
+    paddingVertical: 12,
+    borderRadius: 16,
+    backgroundColor: "rgba(27,36,58,0.95)",
+    borderWidth: 1,
+    borderColor: "rgba(159,231,255,0.18)",
   },
 
   secondaryOutlineBtn: {
@@ -305,22 +327,20 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     borderRadius: 16,
     borderWidth: 1,
-    borderColor: "#F6C453",
+    borderColor: "#00D4FF",
   },
 
   secondaryOutlineText: {
     textAlign: "center",
     fontSize: 14,
-    fontWeight: "800",
-    color: "#F6C453",
+    fontWeight: "900",
+    color: "#00D4FF",
   },
 
   secondaryText: {
     textAlign: "center",
     fontSize: 13,
-    color: "#9AA3B2",
+    fontWeight: "900",
+    color: "#D8E7FF",
   },
 });
-
-
-

@@ -14,6 +14,7 @@ type DailyRewardState = {
 
   canClaim: () => boolean;
   claim: () => boolean;
+  syncFromPlayerDaily: (daily: { lastClaimDate: string | null; streak: number }) => void;
 };
 
 function parseDayKey(day: string) {
@@ -28,6 +29,13 @@ export const useDailyRewardStore = create<DailyRewardState>()(
     (set, get) => ({
       lastClaimDay: null,
       streak: 0,
+
+      syncFromPlayerDaily: (daily) => {
+        set({
+          lastClaimDay: daily.lastClaimDate,
+          streak: Math.max(0, Math.floor(daily.streak || 0)),
+        });
+      },
 
       canClaim: () => {
         const today = getDayKeyUTC();

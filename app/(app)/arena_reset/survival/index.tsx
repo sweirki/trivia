@@ -134,7 +134,7 @@ export default function SurvivalEntry() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#061426" },
-  content: { paddingTop: s(46), paddingHorizontal: s(18), paddingBottom: s(40) },
+  content: { paddingTop: s(74), paddingHorizontal: s(18), paddingBottom: s(40) },
 
   heroCard: {
     minHeight: s(210),

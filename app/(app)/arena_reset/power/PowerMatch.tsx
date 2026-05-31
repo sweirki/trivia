@@ -481,7 +481,7 @@ function PowerButton({
 const styles = StyleSheet.create({
   containerIntro: {
     flex: 1,
-    paddingTop: 38,
+    paddingTop: 80,
     paddingHorizontal: 16,
     backgroundColor: "#060716",
   },
@@ -491,7 +491,7 @@ const styles = StyleSheet.create({
   },
   content: {
     paddingHorizontal: 16,
-    paddingTop: 28,
+    paddingTop: 70,
     paddingBottom: 48,
   },
   introCard: {

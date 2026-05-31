@@ -1,6 +1,8 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
   ImageBackground,
+  Modal,
+  Pressable,
   ScrollView,
   StyleSheet,
   Text,
@@ -13,6 +15,8 @@ import { router } from "expo-router";
 import { usePowerUpStore } from "@/arena/store/usePowerUpStore";
 import { useArenaRewardsEngine } from "@/arena/store/useArenaRewardsEngine";
 import { usePowerArenaMatchStore } from "@/arena/power/store/usePowerArenaMatchStore";
+import { ARENA_MODE_CONFIG, formatArenaCost } from "@/arena/arenaEconomyRules";
+import { useAchievementEventsStore } from "@/achievements/achievementEventsStore";
 
 const POWER_RESULT_HERO = require("../../../../assets/images/arena/power/power_result_hero.webp");
 
@@ -30,7 +34,7 @@ function getPowerTier(score: number, powerUpsUsed: number) {
   if (score >= 10 && powerUpsUsed === 0) {
     return {
       label: "NO-POWER CONTROL",
-      headline: "Pure skill run",
+      headline: "TACTICAL VICTORY",
       subtext: "No tools spent. Clean answers carried the match.",
       identity: "PURE",
     };
@@ -39,7 +43,7 @@ function getPowerTier(score: number, powerUpsUsed: number) {
   if (score >= 25 && powerUpsUsed <= 2) {
     return {
       label: "TACTICAL MASTERCLASS",
-      headline: "Clean power control",
+      headline: "POWER MASTERCLASS",
       subtext: "High score, low waste. Elite arena discipline.",
       identity: "PERFECT",
     };
@@ -47,8 +51,8 @@ function getPowerTier(score: number, powerUpsUsed: number) {
 
   if (score >= 18) {
     return {
-      label: "POWER SURGE",
-      headline: "Chaos controlled",
+      label: "CONTROLLED CHAOS",
+      headline: "CONTROLLED CHAOS",
       subtext: "Strong score. Better timing can turn this into a trophy run.",
       identity: "CLUTCH",
     };
@@ -56,16 +60,16 @@ function getPowerTier(score: number, powerUpsUsed: number) {
 
   if (powerUpsUsed >= 4) {
     return {
-      label: "AGGRESSIVE RUN",
-      headline: "Arsenal active",
+      label: "ARSENAL DEPLOYED",
+      headline: "ARSENAL DEPLOYED",
       subtext: "You went all-in. Save one tool for the finish next time.",
       identity: "AGGRESSIVE",
     };
   }
 
   return {
-    label: "RUN COMPLETE",
-    headline: "Power run recorded",
+    label: "POWER RUN COMPLETE",
+    headline: "TACTICAL RUN RECORDED",
     subtext: "Build cleaner combos and preserve tools for higher prestige.",
     identity: "CONTROL",
   };
@@ -115,6 +119,8 @@ export default function PowerResult() {
     : score >= 20
       ? "POWER RECORD"
       : tier.label;
+  const powerTicketCost = ARENA_MODE_CONFIG.power.tickets;
+  const powerCostLabel = formatArenaCost("power");
   const efficiencyHint = efficiencyScore >= 80
     ? "Elite efficiency. Clean tool discipline improves Power prestige."
     : powerUpsUsed <= 3
@@ -122,6 +128,7 @@ export default function PowerResult() {
       : "Heavy power-up use lowers prestige efficiency.";
 
   const [rewardApplied, setRewardApplied] = useState({ coins: 0, arenaTokens: 0 });
+  const [confirmReplayVisible, setConfirmReplayVisible] = useState(false);
   const rewardedRef = useRef(false);
 
   const awardOnce = () => {
@@ -130,6 +137,11 @@ export default function PowerResult() {
     rewardedRef.current = true;
     const reward = rewardPower({ score, powerUpsUsed });
     setRewardApplied(reward);
+    useAchievementEventsStore.getState().recordPowerResult({
+      score,
+      powerUpsUsed,
+      efficiency: efficiencyScore,
+    });
   };
 
   useEffect(() => {
@@ -142,7 +154,12 @@ export default function PowerResult() {
     router.replace("/(app)/arena_reset");
   };
 
-  const handleReplay = () => {
+  const handleReplayPress = () => {
+    setConfirmReplayVisible(true);
+  };
+
+  const handleConfirmReplay = () => {
+    setConfirmReplayVisible(false);
     awardOnce();
     resetMatch();
     router.replace("/(app)/arena_reset/power");
@@ -219,15 +236,59 @@ export default function PowerResult() {
         </Text>
       </LinearGradient>
 
-      <TouchableOpacity style={styles.primaryButton} onPress={handleReplay} activeOpacity={0.9}>
+      <TouchableOpacity style={styles.primaryButton} onPress={handleReplayPress} activeOpacity={0.9}>
         <LinearGradient colors={["#66D8FF", "#1A9AD6"]} style={styles.primaryFill}>
-          <Text style={styles.primaryText}>Chase Higher Prestige</Text>
+          <Text style={styles.primaryText}>Begin New Power Run</Text>
+          <Text style={styles.primarySubtext}>Costs {powerCostLabel}</Text>
         </LinearGradient>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.secondaryButton} onPress={handleExit} activeOpacity={0.9}>
         <Text style={styles.secondaryText}>Return to Arena</Text>
       </TouchableOpacity>
+
+      <Modal
+        transparent
+        visible={confirmReplayVisible}
+        animationType="fade"
+        onRequestClose={() => setConfirmReplayVisible(false)}
+      >
+        <View style={styles.modalOverlay}>
+          <View style={styles.confirmCard}>
+            <LinearGradient
+              colors={["rgba(20, 43, 72, 0.98)", "rgba(6, 20, 38, 0.99)"]}
+              style={styles.confirmFill}
+            >
+              <Text style={styles.confirmKicker}>POWER ARENA</Text>
+              <Text style={styles.confirmTitle}>Begin New Power Run?</Text>
+              <Text style={styles.confirmMessage}>
+                This will consume {powerTicketCost} ticket{powerTicketCost === 1 ? "" : "s"}.
+              </Text>
+              <Text style={styles.confirmSubMessage}>
+                A fresh Power run starts with your current loadout. Your completed result is already saved.
+              </Text>
+
+              <View style={styles.confirmActions}>
+                <Pressable
+                  style={({ pressed }) => [styles.cancelButton, pressed && styles.pressed]}
+                  onPress={() => setConfirmReplayVisible(false)}
+                >
+                  <Text style={styles.cancelText}>Cancel</Text>
+                </Pressable>
+
+                <Pressable
+                  style={({ pressed }) => [styles.confirmButton, pressed && styles.pressed]}
+                  onPress={handleConfirmReplay}
+                >
+                  <LinearGradient colors={["#66D8FF", "#1A9AD6"]} style={styles.confirmButtonFill}>
+                    <Text style={styles.confirmButtonText}>Begin Run</Text>
+                  </LinearGradient>
+                </Pressable>
+              </View>
+            </LinearGradient>
+          </View>
+        </View>
+      </Modal>
     </ScrollView>
   );
 }
@@ -238,7 +299,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#060716",
   },
   content: {
-    paddingTop: 36,
+    paddingTop: 78,
     paddingHorizontal: 14,
     paddingBottom: 50,
   },
@@ -341,6 +402,109 @@ const styles = StyleSheet.create({
   },
   primaryFill: { paddingVertical: 15, alignItems: "center" },
   primaryText: { color: "#061018", fontSize: 16, fontWeight: "900" },
+  primarySubtext: {
+    color: "rgba(6,16,24,0.75)",
+    fontSize: 11,
+    fontWeight: "800",
+    marginTop: 3,
+  },
+
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: "rgba(1, 6, 20, 0.88)",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 20,
+  },
+  confirmCard: {
+    width: "100%",
+    maxWidth: 390,
+    borderRadius: 24,
+    overflow: "hidden",
+    borderWidth: 1.5,
+    borderColor: "rgba(79,195,247,0.58)",
+    shadowColor: "#4FC3F7",
+    shadowOpacity: 0.35,
+    shadowRadius: 22,
+    shadowOffset: { width: 0, height: 10 },
+    elevation: 14,
+    backgroundColor: "#061426",
+  },
+  confirmFill: {
+    paddingHorizontal: 20,
+    paddingTop: 22,
+    paddingBottom: 18,
+  },
+  confirmKicker: {
+    color: "#4FC3F7",
+    fontSize: 10.5,
+    fontWeight: "900",
+    letterSpacing: 1.6,
+    textAlign: "center",
+  },
+  confirmTitle: {
+    color: "#FFFFFF",
+    fontSize: 21,
+    fontWeight: "900",
+    textAlign: "center",
+    marginTop: 9,
+  },
+  confirmMessage: {
+    color: "#D8F2FF",
+    fontSize: 15,
+    fontWeight: "900",
+    textAlign: "center",
+    marginTop: 10,
+  },
+  confirmSubMessage: {
+    color: "#BBD7FF",
+    fontSize: 12.5,
+    fontWeight: "700",
+    lineHeight: 18,
+    textAlign: "center",
+    marginTop: 8,
+  },
+  confirmActions: {
+    flexDirection: "row",
+    gap: 10,
+    marginTop: 20,
+  },
+  cancelButton: {
+    flex: 1,
+    minHeight: 46,
+    borderRadius: 15,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "rgba(16, 27, 45, 0.92)",
+    borderWidth: 1,
+    borderColor: "rgba(79,195,247,0.22)",
+  },
+  cancelText: {
+    color: "#D8F2FF",
+    fontSize: 13,
+    fontWeight: "900",
+  },
+  confirmButton: {
+    flex: 1.25,
+    minHeight: 46,
+    borderRadius: 15,
+    overflow: "hidden",
+  },
+  confirmButtonFill: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  confirmButtonText: {
+    color: "#061018",
+    fontSize: 13,
+    fontWeight: "900",
+  },
+  pressed: {
+    opacity: 0.86,
+    transform: [{ scale: 0.99 }],
+  },
+
   secondaryButton: {
     marginTop: 12,
     borderRadius: 14,

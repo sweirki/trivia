@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, StyleSheet, Modal, TouchableOpacity } from "react-native";
-import { useTheme } from "@/theme";
-
 import { useQuickGameStore } from "@/store/useQuickGameStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
 
@@ -10,8 +8,6 @@ import XPProgressBar from "./XPProgressBar";
 import { feedback, playRewardFeedback } from "@/feedback";
 
 export default function ResultModal({ visible, onNext }) {
-  const theme = useTheme();
-
   const getSummary = useQuickGameStore((s) => s.getSummary);
   const { correct, wrong, accuracy, total } = getSummary();
 
@@ -84,31 +80,31 @@ useEffect(() => {
   return (
     <Modal transparent visible={visible} animationType="fade">
       <View style={styles.overlay}>
-        <View style={[styles.card, { backgroundColor: theme.colors.backgroundSoft }]}>
+        <View style={styles.card}>
           
           {showConfetti && <ConfettiView />}
 
-          <Text style={[styles.title, { color: theme.colors.text }]}>Results</Text>
-          <Text style={[styles.subtitle, { color: theme.colors.textMuted }]}>
+          <Text style={styles.title}>Results</Text>
+          <Text style={styles.subtitle}>
             Level {level}
           </Text>
 
           <View style={styles.statsBox}>
-            <Text style={[styles.stat, { color: theme.colors.text }]}>Correct: {correct}</Text>
-            <Text style={[styles.stat, { color: theme.colors.text }]}>Wrong: {wrong}</Text>
-            <Text style={[styles.stat, { color: theme.colors.text }]}>Accuracy: {accuracy}%</Text>
-            <Text style={[styles.stat, { color: theme.colors.text }]}>Total: {total}</Text>
+            <Text style={styles.stat}>Correct: {correct}</Text>
+            <Text style={styles.stat}>Wrong: {wrong}</Text>
+            <Text style={styles.stat}>Accuracy: {accuracy}%</Text>
+            <Text style={styles.stat}>Total: {total}</Text>
           </View>
 
          <View style={styles.rewardsBox}>
   {earnedTickets > 0 && (
-    <Text style={[styles.reward, { color: theme.colors.text }]}>
+    <Text style={styles.reward}>
       +{earnedTickets} Ticket 🎟
     </Text>
   )}
-  <Text style={[styles.reward, { color: theme.colors.text }]}>+{earnedXP} XP</Text>
-  <Text style={[styles.reward, { color: theme.colors.text }]}>+{earnedCoins} Coins</Text>
-  <Text style={[styles.reward, { color: theme.colors.text }]}>+{earnedGems} Gems</Text>
+  <Text style={styles.reward}>+{earnedXP} XP</Text>
+  <Text style={styles.reward}>+{earnedCoins} Coins</Text>
+  <Text style={styles.reward}>+{earnedGems} Gems</Text>
 </View>
 
 
@@ -117,7 +113,7 @@ useEffect(() => {
           </View>
 
           {justLeveledUp && (
-            <Text style={[styles.levelUpText, { color: theme.colors.gold }]}>
+            <Text style={styles.levelUpText}>
               LEVEL UP! 🎉
             </Text>
           )}
@@ -143,65 +139,93 @@ useEffect(() => {
 const styles = StyleSheet.create({
   overlay: {
     flex: 1,
-    backgroundColor: "rgba(0,0,0,0.65)",
+    backgroundColor: "rgba(2, 6, 23, 0.84)",
     justifyContent: "center",
     alignItems: "center",
     padding: 20,
   },
   card: {
     width: "100%",
-    borderRadius: 18,
-    padding: 25,
+    maxWidth: 390,
+    borderRadius: 26,
+    padding: 22,
     alignItems: "center",
     position: "relative",
+    backgroundColor: "#101827",
+    borderWidth: 1.5,
+    borderColor: "rgba(159,231,255,0.28)",
+    shadowColor: "#1E8CFF",
+    shadowOpacity: 0.22,
+    shadowRadius: 18,
+    shadowOffset: { width: 0, height: 8 },
+    elevation: 10,
   },
   title: {
-    fontSize: 28,
-    fontWeight: "800",
+    color: "#F4FAFF",
+    fontSize: 26,
+    fontWeight: "900",
     marginBottom: 4,
+    letterSpacing: -0.3,
   },
   subtitle: {
-    fontSize: 16,
-    marginBottom: 20,
+    color: "#9FE7FF",
+    fontSize: 12,
+    fontWeight: "900",
+    letterSpacing: 1.2,
+    marginBottom: 18,
+    textTransform: "uppercase",
   },
   statsBox: {
     width: "100%",
     marginBottom: 12,
+    borderRadius: 18,
+    backgroundColor: "rgba(6,14,29,0.72)",
+    borderWidth: 1,
+    borderColor: "rgba(159,231,255,0.14)",
+    padding: 14,
   },
   stat: {
-    fontSize: 16,
+    color: "#D8E7FF",
+    fontSize: 14,
+    fontWeight: "800",
     marginVertical: 2,
   },
   rewardsBox: {
     width: "100%",
-    marginBottom: 18,
+    marginBottom: 16,
+    borderRadius: 18,
+    backgroundColor: "rgba(246,196,83,0.08)",
+    borderWidth: 1,
+    borderColor: "rgba(246,196,83,0.24)",
+    padding: 14,
   },
   reward: {
-    fontSize: 17,
-    fontWeight: "700",
+    color: "#F6C453",
+    fontSize: 15,
+    fontWeight: "900",
     marginVertical: 1,
   },
   levelUpText: {
-    fontSize: 22,
+    color: "#F6C453",
+    fontSize: 20,
     fontWeight: "900",
     marginTop: 10,
+    letterSpacing: 0.6,
   },
   button: {
-    backgroundColor: "#FFD700",
-    paddingVertical: 14,
-    paddingHorizontal: 40,
-    borderRadius: 12,
-    marginTop: 15,
+    backgroundColor: "#00D4FF",
+    paddingVertical: 13,
+    paddingHorizontal: 38,
+    borderRadius: 16,
+    marginTop: 16,
+    minWidth: 160,
+    alignItems: "center",
   },
   buttonText: {
-    color: "#000",
-    fontSize: 18,
-    fontWeight: "700",
+    color: "#07111F",
+    fontSize: 14,
+    fontWeight: "900",
+    letterSpacing: 0.4,
+    textTransform: "uppercase",
   },
 });
-
-
-
-
-
-

@@ -305,20 +305,28 @@ startRankedMatch: async () => {
 
   // SURVIVAL MODE ------------------------------------
  startSurvival: () => {
-  // Reset to idle state immediately to avoid white screen
-  set({ matchState: "idle" });
-
-  // Load questions from Q-engine (Q10)
   const questions = buildArenaQuestions("survival", 25);
 
-  // After setting idle state, start game logic
+  if (!questions.length) {
+    console.warn("[arena] Survival question pool is empty. Check questionRegistry packs and question guards.");
+    set({
+      mode: "survival",
+      matchState: "idle",
+      isArenaLoading: false,
+      questions: [],
+      currentQuestionIndex: 0,
+      player: { id: "player", score: 0, streak: 0, powerupsUsed: 0 },
+    });
+    return;
+  }
+
   set({
-    isArenaLoading: false,      // Clears loading state
-    matchState: "in-match",     // Move directly to in-match
+    mode: "survival",
+    isArenaLoading: false,
+    matchState: "in-match",
     questions,
     currentQuestionIndex: 0,
     player: { id: "player", score: 0, streak: 0, powerupsUsed: 0 },
-
   });
 },
 
