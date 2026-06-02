@@ -1,3602 +1,2402 @@
 [
   {
-    "id": 43501,
-    "category": "science",
+    "id": 44941,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a competitive science trivia round, which fact correctly matches photosphere?",
+    "answers": [
+      "mechanical wave that travels through matter",
+      "visible surface layer of the Sun",
+      "bending of waves as they enter a new medium",
+      "stream of charged particles released by the Sun"
+    ],
+    "correctAnswer": "visible surface layer of the Sun",
+    "explanation": "The correct match for photosphere is: visible surface layer of the Sun.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44942,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #244",
+    "text": "Which idea is most connected to fossil?",
     "answers": [
-      "Electron",
-      "Neutron",
-      "Photon",
-      "Proton"
+      "past organisms",
+      "attraction and repulsion",
+      "hearing and compression",
+      "electric charge"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "past organisms",
+    "explanation": "fossil is closely connected to past organisms.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "earth science"
     ]
   },
   {
-    "id": 43502,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #245",
-    "answers": [
-      "Neptune",
-      "Jupiter",
-      "Mars",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43503,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #246",
-    "answers": [
-      "Ag",
-      "Pb",
-      "Au",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43504,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #247",
-    "answers": [
-      "Photon",
-      "Proton",
-      "Neutron",
-      "Electron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43505,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #248",
-    "answers": [
-      "Jupiter",
-      "Neptune",
-      "Mars",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43506,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #249",
-    "answers": [
-      "Pb",
-      "Au",
-      "Fe",
-      "Ag"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43507,
-    "category": "science",
+    "id": 44943,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #250",
+    "text": "Which science term is best described as movement of Earth's lithospheric plates?",
     "answers": [
-      "Proton",
-      "Neutron",
-      "Electron",
-      "Photon"
+      "thermometer",
+      "acceleration",
+      "vaccine",
+      "plate tectonics"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "plate tectonics",
+    "explanation": "plate tectonics is best described as movement of Earth's lithospheric plates.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "earth science"
     ]
   },
   {
-    "id": 43508,
-    "category": "science",
+    "id": 44944,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which scientific context is strongly associated with frequency?",
+    "answers": [
+      "mirrors",
+      "molecules",
+      "hertz",
+      "solar orbit"
+    ],
+    "correctAnswer": "hertz",
+    "explanation": "frequency is strongly associated with hertz.",
+    "tags": [
+      "science",
+      "context",
+      "physics"
+    ]
+  },
+  {
+    "id": 44945,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #251",
+    "text": "Which scientific context is strongly associated with ecosystem?",
     "answers": [
-      "Saturn",
-      "Mars",
-      "Neptune",
-      "Jupiter"
+      "evaporation and precipitation",
+      "food webs",
+      "magma",
+      "orbital motion"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "food webs",
+    "explanation": "ecosystem is strongly associated with food webs.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "ecology"
     ]
   },
   {
-    "id": 43509,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #252",
-    "answers": [
-      "Au",
-      "Ag",
-      "Pb",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43510,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #253",
-    "answers": [
-      "Photon",
-      "Electron",
-      "Proton",
-      "Neutron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43511,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #254",
-    "answers": [
-      "Neptune",
-      "Mars",
-      "Jupiter",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43512,
-    "category": "science",
+    "id": 44946,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #255",
+    "text": "Which science term is best described as recorded observations or measurements?",
     "answers": [
-      "Ag",
-      "Pb",
-      "Fe",
-      "Au"
+      "ribosome",
+      "fossil",
+      "data",
+      "inertia"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "data",
+    "explanation": "data is best described as recorded observations or measurements.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "scientific method"
     ]
   },
   {
-    "id": 43513,
-    "category": "science",
+    "id": 44947,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines circuits with flow of electric charge?",
+    "answers": [
+      "electric current",
+      "cell membrane",
+      "base",
+      "keystone species"
+    ],
+    "correctAnswer": "electric current",
+    "explanation": "electric current fits this profile because it is associated with circuits and described as flow of electric charge.",
+    "tags": [
+      "science",
+      "profile",
+      "physics"
+    ]
+  },
+  {
+    "id": 44948,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #256",
+    "text": "Which science profile combines nervous system with nerve cell that transmits signals?",
     "answers": [
-      "Electron",
-      "Neutron",
-      "Photon",
-      "Proton"
+      "kinetic energy",
+      "DNA",
+      "asteroid",
+      "neuron"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "neuron",
+    "explanation": "neuron fits this profile because it is associated with nervous system and described as nerve cell that transmits signals.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "biology"
     ]
   },
   {
-    "id": 43514,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #257",
-    "answers": [
-      "Mars",
-      "Jupiter",
-      "Saturn",
-      "Neptune"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43515,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #258",
-    "answers": [
-      "Ag",
-      "Pb",
-      "Au",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43516,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #259",
-    "answers": [
-      "Neutron",
-      "Proton",
-      "Photon",
-      "Electron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43517,
-    "category": "science",
+    "id": 44949,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #260",
+    "text": "Which idea is most connected to peer review?",
     "answers": [
-      "Jupiter",
-      "Saturn",
-      "Mars",
-      "Neptune"
+      "prokaryotic life",
+      "astronomical scale",
+      "scientific reliability",
+      "energy loss as heat"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "scientific reliability",
+    "explanation": "peer review is closely connected to scientific reliability.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "scientific method"
     ]
   },
   {
-    "id": 43518,
-    "category": "science",
+    "id": 44950,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which idea is most connected to reflection?",
+    "answers": [
+      "amino acid assembly",
+      "prokaryotic life",
+      "heavy element formation",
+      "wave direction change"
+    ],
+    "correctAnswer": "wave direction change",
+    "explanation": "reflection is closely connected to wave direction change.",
+    "tags": [
+      "science",
+      "concepts",
+      "physics"
+    ]
+  },
+  {
+    "id": 44951,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #261",
+    "text": "Which field of science is most closely linked to bacteria?",
     "answers": [
-      "Fe",
-      "Au",
-      "Ag",
-      "Pb"
+      "physics",
+      "scientific method",
+      "astronomy",
+      "medicine"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "medicine",
+    "explanation": "bacteria is most closely linked here to medicine.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "medicine"
     ]
   },
   {
-    "id": 43519,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #262",
-    "answers": [
-      "Proton",
-      "Neutron",
-      "Electron",
-      "Photon"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43520,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #263",
-    "answers": [
-      "Saturn",
-      "Neptune",
-      "Mars",
-      "Jupiter"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43521,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #264",
-    "answers": [
-      "Au",
-      "Pb",
-      "Fe",
-      "Ag"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43522,
-    "category": "science",
+    "id": 44952,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #265",
+    "text": "Which science term is best described as processes that transform rocks between major types?",
     "answers": [
-      "Photon",
-      "Electron",
-      "Proton",
-      "Neutron"
+      "electromagnetic spectrum",
+      "photosphere",
+      "rock cycle",
+      "frequency"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "rock cycle",
+    "explanation": "rock cycle is best described as processes that transform rocks between major types.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "earth science"
     ]
   },
   {
-    "id": 43523,
-    "category": "science",
+    "id": 44953,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines physics with orbits and falling objects?",
+    "answers": [
+      "reflection",
+      "isotope",
+      "gravity",
+      "periodic table"
+    ],
+    "correctAnswer": "gravity",
+    "explanation": "gravity matches that profile through physics and orbits and falling objects.",
+    "tags": [
+      "science",
+      "profile",
+      "physics"
+    ]
+  },
+  {
+    "id": 44954,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #266",
+    "text": "Which idea is most connected to vaccine?",
     "answers": [
-      "Mars",
-      "Neptune",
-      "Jupiter",
-      "Saturn"
+      "astronomical imaging",
+      "disease prevention",
+      "community structure",
+      "element patterns"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "disease prevention",
+    "explanation": "vaccine is closely connected to disease prevention.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "medicine"
     ]
   },
   {
-    "id": 43524,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #267",
-    "answers": [
-      "Fe",
-      "Ag",
-      "Pb",
-      "Au"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43525,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #268",
-    "answers": [
-      "Electron",
-      "Neutron",
-      "Proton",
-      "Photon"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43526,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #269",
-    "answers": [
-      "Mars",
-      "Jupiter",
-      "Neptune",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43527,
-    "category": "science",
+    "id": 44955,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #270",
+    "text": "Which science profile combines scientific tools with cell observation?",
     "answers": [
-      "Pb",
-      "Fe",
-      "Au",
-      "Ag"
+      "microscope",
+      "resistance",
+      "sound wave",
+      "homeostasis"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "microscope",
+    "explanation": "microscope matches that profile through scientific tools and cell observation.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "scientific tools"
     ]
   },
   {
-    "id": 43528,
-    "category": "science",
+    "id": 44956,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines Newton's first law with tendency of an object to resist changes in motion?",
+    "answers": [
+      "inertia",
+      "kinetic energy",
+      "voltage",
+      "barometer"
+    ],
+    "correctAnswer": "inertia",
+    "explanation": "inertia fits this profile because it is associated with Newton's first law and described as tendency of an object to resist changes in motion.",
+    "tags": [
+      "science",
+      "profile",
+      "physics"
+    ]
+  },
+  {
+    "id": 44957,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #271",
+    "text": "Which idea is most connected to molecule?",
     "answers": [
-      "Photon",
-      "Neutron",
-      "Proton",
-      "Electron"
+      "nutrient cycling",
+      "bonded matter",
+      "rocky debris",
+      "electrical impulses"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "bonded matter",
+    "explanation": "molecule is closely connected to bonded matter.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "chemistry"
     ]
   },
   {
-    "id": 43529,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #272",
-    "answers": [
-      "Jupiter",
-      "Neptune",
-      "Mars",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43530,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #273",
-    "answers": [
-      "Pb",
-      "Au",
-      "Fe",
-      "Ag"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43531,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #274",
-    "answers": [
-      "Neutron",
-      "Proton",
-      "Electron",
-      "Photon"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43532,
-    "category": "science",
+    "id": 44958,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #275",
+    "text": "Which scientific context is strongly associated with mutation?",
     "answers": [
-      "Mars",
-      "Neptune",
-      "Saturn",
-      "Jupiter"
+      "genetic variation",
+      "Newton's first law",
+      "Newton's laws",
+      "data collection"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "genetic variation",
+    "explanation": "mutation is strongly associated with genetic variation.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "biology"
     ]
   },
   {
-    "id": 43533,
-    "category": "science",
+    "id": 44959,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a competitive science trivia round, which fact correctly matches weathering?",
+    "answers": [
+      "large system of stars, gas, dust, and dark matter",
+      "breakdown of rocks at Earth's surface",
+      "a nucleic acid involved in protein production",
+      "evaluation of research by experts before publication"
+    ],
+    "correctAnswer": "breakdown of rocks at Earth's surface",
+    "explanation": "The correct match for weathering is: breakdown of rocks at Earth's surface.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "earth science"
+    ]
+  },
+  {
+    "id": 44960,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #276",
+    "text": "Which science profile combines molecules with bond formed by sharing electrons?",
     "answers": [
-      "Au",
-      "Pb",
-      "Ag",
-      "Fe"
+      "enzyme",
+      "friction",
+      "covalent bond",
+      "galaxy"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "covalent bond",
+    "explanation": "covalent bond fits this profile because it is associated with molecules and described as bond formed by sharing electrons.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "chemistry"
     ]
   },
   {
-    "id": 43534,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #277",
-    "answers": [
-      "Proton",
-      "Electron",
-      "Photon",
-      "Neutron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43535,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #278",
-    "answers": [
-      "Neptune",
-      "Mars",
-      "Jupiter",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43536,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #279",
-    "answers": [
-      "Fe",
-      "Pb",
-      "Ag",
-      "Au"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43537,
-    "category": "science",
+    "id": 44961,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #280",
+    "text": "Which scientific context is strongly associated with inertia?",
     "answers": [
-      "Electron",
-      "Proton",
-      "Neutron",
-      "Photon"
+      "observing space",
+      "stellar evolution",
+      "active site",
+      "Newton's first law"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "Newton's first law",
+    "explanation": "inertia is strongly associated with Newton's first law.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "physics"
     ]
   },
   {
-    "id": 43538,
-    "category": "science",
+    "id": 44962,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which field of science is most closely linked to exoplanet?",
+    "answers": [
+      "chemistry",
+      "astronomy",
+      "medicine",
+      "physics"
+    ],
+    "correctAnswer": "astronomy",
+    "explanation": "exoplanet is most closely linked here to astronomy.",
+    "tags": [
+      "science",
+      "fields",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44963,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #281",
+    "text": "Which science profile combines biology with oxygen and glucose production?",
     "answers": [
-      "Neptune",
-      "Jupiter",
-      "Saturn",
-      "Mars"
+      "photosynthesis",
+      "acceleration",
+      "control group",
+      "frequency"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "photosynthesis",
+    "explanation": "photosynthesis matches that profile through biology and oxygen and glucose production.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "biology"
     ]
   },
   {
-    "id": 43539,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #282",
-    "answers": [
-      "Pb",
-      "Fe",
-      "Au",
-      "Ag"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43540,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #283",
-    "answers": [
-      "Proton",
-      "Photon",
-      "Neutron",
-      "Electron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43541,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #284",
-    "answers": [
-      "Jupiter",
-      "Mars",
-      "Neptune",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43542,
-    "category": "science",
+    "id": 44964,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #285",
+    "text": "Which science term is best described as planet orbiting a star outside our solar system?",
     "answers": [
-      "Fe",
-      "Au",
-      "Ag",
-      "Pb"
+      "mutation",
+      "water cycle",
+      "greenhouse effect",
+      "exoplanet"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "exoplanet",
+    "explanation": "exoplanet is best described as planet orbiting a star outside our solar system.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "astronomy"
     ]
   },
   {
-    "id": 43543,
-    "category": "science",
+    "id": 44965,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science term is best described as evaluation of research by experts before publication?",
+    "answers": [
+      "peer review",
+      "ecosystem",
+      "black hole",
+      "base"
+    ],
+    "correctAnswer": "peer review",
+    "explanation": "peer review is best described as evaluation of research by experts before publication.",
+    "tags": [
+      "science",
+      "terms",
+      "scientific method"
+    ]
+  },
+  {
+    "id": 44966,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #286",
+    "text": "In a competitive science trivia round, which fact correctly matches volcano?",
     "answers": [
-      "Proton",
-      "Photon",
-      "Electron",
-      "Neutron"
+      "movement of weathered material by wind, water, ice, or gravity",
+      "capacity to do work",
+      "opening where magma, gases, and ash reach the surface",
+      "layer of gases surrounding Earth"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "opening where magma, gases, and ash reach the surface",
+    "explanation": "The correct match for volcano is: opening where magma, gases, and ash reach the surface.",
     "tags": [
-      "science"
+      "science",
+      "knowledge-match",
+      "earth science"
     ]
   },
   {
-    "id": 43544,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #287",
-    "answers": [
-      "Mars",
-      "Saturn",
-      "Neptune",
-      "Jupiter"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43545,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #288",
-    "answers": [
-      "Au",
-      "Fe",
-      "Pb",
-      "Ag"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43546,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #289",
-    "answers": [
-      "Photon",
-      "Electron",
-      "Neutron",
-      "Proton"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43547,
-    "category": "science",
+    "id": 44967,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #290",
+    "text": "In a competitive science trivia round, which fact correctly matches visible light?",
     "answers": [
-      "Mars",
-      "Saturn",
-      "Jupiter",
-      "Neptune"
+      "stored energy due to position or condition",
+      "uniform mixture of solute and solvent",
+      "movement of Earth's lithospheric plates",
+      "part of the electromagnetic spectrum humans can see"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "part of the electromagnetic spectrum humans can see",
+    "explanation": "The correct match for visible light is: part of the electromagnetic spectrum humans can see.",
     "tags": [
-      "science"
+      "science",
+      "knowledge-match",
+      "physics"
     ]
   },
   {
-    "id": 43548,
-    "category": "science",
+    "id": 44968,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which idea is most connected to data?",
+    "answers": [
+      "community structure",
+      "amperes",
+      "energy flow",
+      "analysis"
+    ],
+    "correctAnswer": "analysis",
+    "explanation": "data is closely connected to analysis.",
+    "tags": [
+      "science",
+      "concepts",
+      "scientific method"
+    ]
+  },
+  {
+    "id": 44969,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #291",
+    "text": "Which science term is best described as uniform mixture of solute and solvent?",
     "answers": [
-      "Ag",
-      "Pb",
-      "Fe",
-      "Au"
+      "solution",
+      "asteroid",
+      "solar wind",
+      "momentum"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "solution",
+    "explanation": "solution is best described as uniform mixture of solute and solvent.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "chemistry"
     ]
   },
   {
-    "id": 43549,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #292",
-    "answers": [
-      "Electron",
-      "Neutron",
-      "Proton",
-      "Photon"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43550,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #293",
-    "answers": [
-      "Saturn",
-      "Jupiter",
-      "Mars",
-      "Neptune"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43551,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #294",
-    "answers": [
-      "Fe",
-      "Ag",
-      "Au",
-      "Pb"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43552,
-    "category": "science",
+    "id": 44970,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #295",
+    "text": "Which scientific context is strongly associated with natural selection?",
     "answers": [
-      "Photon",
-      "Proton",
-      "Neutron",
-      "Electron"
+      "star formation",
+      "evolution",
+      "lenses",
+      "cosmic distance"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "evolution",
+    "explanation": "natural selection is strongly associated with evolution.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "biology"
     ]
   },
   {
-    "id": 43553,
-    "category": "science",
+    "id": 44971,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which field of science is most closely linked to photosynthesis?",
+    "answers": [
+      "medicine",
+      "earth science",
+      "ecology",
+      "biology"
+    ],
+    "correctAnswer": "biology",
+    "explanation": "photosynthesis is most closely linked here to biology.",
+    "tags": [
+      "science",
+      "fields",
+      "biology"
+    ]
+  },
+  {
+    "id": 44972,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #296",
+    "text": "Which science profile combines chemistry with sour or corrosive chemistry?",
     "answers": [
-      "Jupiter",
-      "Saturn",
-      "Mars",
-      "Neptune"
+      "keystone species",
+      "momentum",
+      "biodiversity",
+      "acid"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "acid",
+    "explanation": "acid matches that profile through chemistry and sour or corrosive chemistry.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "chemistry"
     ]
   },
   {
-    "id": 43554,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #297",
-    "answers": [
-      "Fe",
-      "Au",
-      "Pb",
-      "Ag"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43555,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #298",
-    "answers": [
-      "Neutron",
-      "Proton",
-      "Electron",
-      "Photon"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43556,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #299",
-    "answers": [
-      "Mars",
-      "Saturn",
-      "Neptune",
-      "Jupiter"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43557,
-    "category": "science",
+    "id": 44973,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #300",
+    "text": "Which science profile combines astronomy with cosmic structure?",
     "answers": [
-      "Au",
-      "Ag",
-      "Fe",
-      "Pb"
+      "peer review",
+      "bacteria",
+      "moon",
+      "galaxy"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "galaxy",
+    "explanation": "galaxy matches that profile through astronomy and cosmic structure.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "astronomy"
     ]
   },
   {
-    "id": 43558,
-    "category": "science",
+    "id": 44974,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science term is best described as explosive death of a massive star?",
+    "answers": [
+      "neutron",
+      "RNA",
+      "supernova",
+      "solution"
+    ],
+    "correctAnswer": "supernova",
+    "explanation": "supernova is best described as explosive death of a massive star.",
+    "tags": [
+      "science",
+      "terms",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44975,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #301",
+    "text": "Which scientific context is strongly associated with atmosphere?",
     "answers": [
-      "Photon",
-      "Electron",
-      "Neutron",
-      "Proton"
+      "protons, neutrons, and electrons",
+      "orbital motion",
+      "motion",
+      "air pressure and weather"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "air pressure and weather",
+    "explanation": "atmosphere is strongly associated with air pressure and weather.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "earth science"
     ]
   },
   {
-    "id": 43559,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #302",
-    "answers": [
-      "Saturn",
-      "Neptune",
-      "Jupiter",
-      "Mars"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43560,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #303",
-    "answers": [
-      "Pb",
-      "Fe",
-      "Ag",
-      "Au"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43561,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #304",
-    "answers": [
-      "Electron",
-      "Photon",
-      "Neutron",
-      "Proton"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43562,
-    "category": "science",
+    "id": 44976,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #305",
+    "text": "Which science profile combines microbiology with single-celled organisms, some helpful and some harmful?",
     "answers": [
-      "Saturn",
-      "Jupiter",
-      "Neptune",
-      "Mars"
+      "pH scale",
+      "data",
+      "wavelength",
+      "bacteria"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "bacteria",
+    "explanation": "bacteria fits this profile because it is associated with microbiology and described as single-celled organisms, some helpful and some harmful.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "medicine"
     ]
   },
   {
-    "id": 43563,
-    "category": "science",
+    "id": 44977,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a competitive science trivia round, which fact correctly matches mutation?",
+    "answers": [
+      "a change in genetic material",
+      "rocky object orbiting the Sun, often in belts",
+      "bond formed by sharing electrons",
+      "preparation that trains the immune system to recognize a pathogen"
+    ],
+    "correctAnswer": "a change in genetic material",
+    "explanation": "The correct match for mutation is: a change in genetic material.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "biology"
+    ]
+  },
+  {
+    "id": 44978,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #306",
+    "text": "Which field of science is most closely linked to wavelength?",
     "answers": [
-      "Fe",
-      "Ag",
-      "Au",
-      "Pb"
+      "astronomy",
+      "scientific tools",
+      "physics",
+      "biology"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "physics",
+    "explanation": "wavelength is most closely linked here to physics.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "physics"
     ]
   },
   {
-    "id": 43564,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #307",
-    "answers": [
-      "Proton",
-      "Photon",
-      "Neutron",
-      "Electron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43565,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #308",
-    "answers": [
-      "Jupiter",
-      "Neptune",
-      "Mars",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43566,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #309",
-    "answers": [
-      "Fe",
-      "Au",
-      "Pb",
-      "Ag"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43567,
-    "category": "science",
+    "id": 44979,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #310",
+    "text": "Which science profile combines body regulation with maintenance of stable internal conditions?",
     "answers": [
-      "Proton",
-      "Neutron",
-      "Electron",
-      "Photon"
+      "centrifuge",
+      "mitochondria",
+      "homeostasis",
+      "visible light"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "homeostasis",
+    "explanation": "homeostasis fits this profile because it is associated with body regulation and described as maintenance of stable internal conditions.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "biology"
     ]
   },
   {
-    "id": 43568,
-    "category": "science",
+    "id": 44980,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which scientific context is strongly associated with mitochondria?",
+    "answers": [
+      "hydrogen ion concentration",
+      "cellular respiration",
+      "surface contact",
+      "moving objects"
+    ],
+    "correctAnswer": "cellular respiration",
+    "explanation": "mitochondria is strongly associated with cellular respiration.",
+    "tags": [
+      "science",
+      "context",
+      "biology"
+    ]
+  },
+  {
+    "id": 44981,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #311",
+    "text": "Which field of science is most closely linked to theory?",
     "answers": [
-      "Saturn",
-      "Mars",
-      "Neptune",
-      "Jupiter"
+      "scientific tools",
+      "scientific method",
+      "medicine",
+      "chemistry"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "scientific method",
+    "explanation": "theory is most closely linked here to scientific method.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "scientific method"
     ]
   },
   {
-    "id": 43569,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #312",
-    "answers": [
-      "Au",
-      "Ag",
-      "Fe",
-      "Pb"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43570,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #313",
-    "answers": [
-      "Neutron",
-      "Electron",
-      "Proton",
-      "Photon"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43571,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #314",
-    "answers": [
-      "Saturn",
-      "Mars",
-      "Jupiter",
-      "Neptune"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43572,
-    "category": "science",
+    "id": 44982,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #315",
+    "text": "Which science profile combines physics with oscillation rate?",
     "answers": [
-      "Ag",
-      "Fe",
-      "Pb",
-      "Au"
+      "plate tectonics",
+      "neutron",
+      "atom",
+      "frequency"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "frequency",
+    "explanation": "frequency matches that profile through physics and oscillation rate.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "physics"
     ]
   },
   {
-    "id": 43573,
-    "category": "science",
+    "id": 44983,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines data collection with factor that can change in an experiment?",
+    "answers": [
+      "energy",
+      "variable",
+      "data",
+      "kinetic energy"
+    ],
+    "correctAnswer": "variable",
+    "explanation": "variable fits this profile because it is associated with data collection and described as factor that can change in an experiment.",
+    "tags": [
+      "science",
+      "profile",
+      "scientific method"
+    ]
+  },
+  {
+    "id": 44984,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #316",
+    "text": "Which scientific context is strongly associated with DNA?",
     "answers": [
-      "Electron",
-      "Neutron",
-      "Photon",
-      "Proton"
+      "data collection",
+      "double helix",
+      "scientific framework",
+      "redox reactions"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "double helix",
+    "explanation": "DNA is strongly associated with double helix.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "biology"
     ]
   },
   {
-    "id": 43574,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #317",
-    "answers": [
-      "Neptune",
-      "Jupiter",
-      "Mars",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43575,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #318",
-    "answers": [
-      "Ag",
-      "Pb",
-      "Au",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43576,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #319",
-    "answers": [
-      "Proton",
-      "Photon",
-      "Neutron",
-      "Electron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43577,
-    "category": "science",
+    "id": 44985,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #320",
+    "text": "Which field of science is most closely linked to antibiotic?",
     "answers": [
-      "Jupiter",
-      "Neptune",
-      "Mars",
-      "Saturn"
+      "biology",
+      "astronomy",
+      "medicine",
+      "ecology"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "medicine",
+    "explanation": "antibiotic is most closely linked here to medicine.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "medicine"
     ]
   },
   {
-    "id": 43578,
-    "category": "science",
+    "id": 44986,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines small solar system body with rocky object orbiting the Sun, often in belts?",
+    "answers": [
+      "light-year",
+      "thermometer",
+      "electromagnetic spectrum",
+      "asteroid"
+    ],
+    "correctAnswer": "asteroid",
+    "explanation": "asteroid fits this profile because it is associated with small solar system body and described as rocky object orbiting the Sun, often in belts.",
+    "tags": [
+      "science",
+      "profile",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44987,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #321",
+    "text": "Which scientific context is strongly associated with variable?",
     "answers": [
-      "Fe",
-      "Au",
-      "Pb",
-      "Ag"
+      "evolution",
+      "spectra",
+      "data collection",
+      "evaporation and precipitation"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "data collection",
+    "explanation": "variable is strongly associated with data collection.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "scientific method"
     ]
   },
   {
-    "id": 43579,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #322",
-    "answers": [
-      "Neutron",
-      "Photon",
-      "Electron",
-      "Proton"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43580,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #323",
-    "answers": [
-      "Mars",
-      "Neptune",
-      "Saturn",
-      "Jupiter"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43581,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #324",
-    "answers": [
-      "Au",
-      "Pb",
-      "Ag",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43582,
-    "category": "science",
+    "id": 44988,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #325",
+    "text": "Which scientific context is strongly associated with carbon cycle?",
     "answers": [
-      "Photon",
-      "Electron",
-      "Proton",
-      "Neutron"
+      "biogeochemical cycling",
+      "physical and chemical processes",
+      "planet discovery",
+      "dissolving"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "biogeochemical cycling",
+    "explanation": "carbon cycle is strongly associated with biogeochemical cycling.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "ecology"
     ]
   },
   {
-    "id": 43583,
-    "category": "science",
+    "id": 44989,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines weather prediction with instrument used to measure air pressure?",
+    "answers": [
+      "barometer",
+      "momentum",
+      "voltage",
+      "exoplanet"
+    ],
+    "correctAnswer": "barometer",
+    "explanation": "barometer fits this profile because it is associated with weather prediction and described as instrument used to measure air pressure.",
+    "tags": [
+      "science",
+      "profile",
+      "scientific tools"
+    ]
+  },
+  {
+    "id": 44990,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #326",
+    "text": "Which scientific context is strongly associated with vaccine?",
     "answers": [
-      "Neptune",
-      "Saturn",
-      "Jupiter",
-      "Mars"
+      "immunity",
+      "small solar system body",
+      "work and heat",
+      "igneous, sedimentary, metamorphic"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "immunity",
+    "explanation": "vaccine is strongly associated with immunity.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "medicine"
     ]
   },
   {
-    "id": 43584,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #327",
-    "answers": [
-      "Fe",
-      "Ag",
-      "Pb",
-      "Au"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43585,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #328",
-    "answers": [
-      "Electron",
-      "Neutron",
-      "Photon",
-      "Proton"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43586,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #329",
-    "answers": [
-      "Neptune",
-      "Jupiter",
-      "Saturn",
-      "Mars"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43587,
-    "category": "science",
+    "id": 44991,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #330",
+    "text": "Which science term is best described as instrument used to view very small objects?",
     "answers": [
-      "Fe",
-      "Ag",
-      "Au",
-      "Pb"
+      "microscope",
+      "enzyme",
+      "black hole",
+      "atmosphere"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "microscope",
+    "explanation": "microscope is best described as instrument used to view very small objects.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "scientific tools"
     ]
   },
   {
-    "id": 43588,
-    "category": "science",
+    "id": 44992,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which scientific context is strongly associated with galaxy?",
+    "answers": [
+      "Milky Way",
+      "chemical bonding",
+      "ecological balance",
+      "Newton's laws"
+    ],
+    "correctAnswer": "Milky Way",
+    "explanation": "galaxy is strongly associated with Milky Way.",
+    "tags": [
+      "science",
+      "context",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44993,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #331",
+    "text": "Which field of science is most closely linked to electric current?",
     "answers": [
-      "Photon",
-      "Neutron",
-      "Proton",
-      "Electron"
+      "biology",
+      "earth science",
+      "physics",
+      "medicine"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "physics",
+    "explanation": "electric current is most closely linked here to physics.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "physics"
     ]
   },
   {
-    "id": 43589,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #332",
-    "answers": [
-      "Jupiter",
-      "Mars",
-      "Neptune",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43590,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #333",
-    "answers": [
-      "Ag",
-      "Au",
-      "Pb",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43591,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #334",
-    "answers": [
-      "Photon",
-      "Proton",
-      "Electron",
-      "Neutron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43592,
-    "category": "science",
+    "id": 44994,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #335",
+    "text": "Which science term is best described as well-supported explanation backed by evidence?",
     "answers": [
-      "Mars",
-      "Saturn",
-      "Neptune",
-      "Jupiter"
+      "supernova",
+      "control group",
+      "theory",
+      "potential energy"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "theory",
+    "explanation": "theory is best described as well-supported explanation backed by evidence.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "scientific method"
     ]
   },
   {
-    "id": 43593,
-    "category": "science",
+    "id": 44995,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines sedimentary rock with preserved evidence of ancient life?",
+    "answers": [
+      "isotope",
+      "peer review",
+      "keystone species",
+      "fossil"
+    ],
+    "correctAnswer": "fossil",
+    "explanation": "fossil fits this profile because it is associated with sedimentary rock and described as preserved evidence of ancient life.",
+    "tags": [
+      "science",
+      "profile",
+      "earth science"
+    ]
+  },
+  {
+    "id": 44996,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #336",
+    "text": "Which science profile combines physics with mass and speed?",
     "answers": [
-      "Au",
-      "Ag",
-      "Fe",
-      "Pb"
+      "mitochondria",
+      "sound wave",
+      "kinetic energy",
+      "telescope"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "kinetic energy",
+    "explanation": "kinetic energy matches that profile through physics and mass and speed.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "physics"
     ]
   },
   {
-    "id": 43594,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #337",
-    "answers": [
-      "Neutron",
-      "Electron",
-      "Photon",
-      "Proton"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43595,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #338",
-    "answers": [
-      "Mars",
-      "Neptune",
-      "Jupiter",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43596,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #339",
-    "answers": [
-      "Pb",
-      "Ag",
-      "Fe",
-      "Au"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43597,
-    "category": "science",
+    "id": 44997,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #340",
+    "text": "Which field of science is most closely linked to magnetism?",
     "answers": [
-      "Electron",
-      "Proton",
-      "Photon",
-      "Neutron"
+      "medicine",
+      "ecology",
+      "physics",
+      "scientific tools"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "physics",
+    "explanation": "magnetism is most closely linked here to physics.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "physics"
     ]
   },
   {
-    "id": 43598,
-    "category": "science",
+    "id": 44998,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science term is best described as substance that accepts hydrogen ions or produces hydroxide ions?",
+    "answers": [
+      "resistance",
+      "base",
+      "black hole",
+      "gravity"
+    ],
+    "correctAnswer": "base",
+    "explanation": "base is best described as substance that accepts hydrogen ions or produces hydroxide ions.",
+    "tags": [
+      "science",
+      "terms",
+      "chemistry"
+    ]
+  },
+  {
+    "id": 44999,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #341",
+    "text": "Which science profile combines biogeochemical cycling with movement of carbon through living things, oceans, air, and rocks?",
     "answers": [
-      "Neptune",
-      "Jupiter",
-      "Saturn",
-      "Mars"
+      "control group",
+      "hypothesis",
+      "carbon cycle",
+      "virus"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "carbon cycle",
+    "explanation": "carbon cycle fits this profile because it is associated with biogeochemical cycling and described as movement of carbon through living things, oceans, air, and rocks.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "ecology"
     ]
   },
   {
-    "id": 43599,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #342",
-    "answers": [
-      "Pb",
-      "Ag",
-      "Au",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43600,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #343",
-    "answers": [
-      "Photon",
-      "Neutron",
-      "Proton",
-      "Electron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43601,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #344",
-    "answers": [
-      "Jupiter",
-      "Mars",
-      "Neptune",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43602,
-    "category": "science",
+    "id": 45000,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #345",
+    "text": "Which scientific context is strongly associated with solar wind?",
     "answers": [
-      "Ag",
-      "Au",
-      "Pb",
-      "Fe"
+      "space weather",
+      "atomic mass",
+      "mirrors",
+      "Newton's first law"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "space weather",
+    "explanation": "solar wind is strongly associated with space weather.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "astronomy"
     ]
   },
   {
-    "id": 43603,
-    "category": "science",
+    "id": 45001,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines chemistry with shared electron pairs?",
+    "answers": [
+      "covalent bond",
+      "comet",
+      "friction",
+      "natural selection"
+    ],
+    "correctAnswer": "covalent bond",
+    "explanation": "covalent bond matches that profile through chemistry and shared electron pairs.",
+    "tags": [
+      "science",
+      "profile",
+      "chemistry"
+    ]
+  },
+  {
+    "id": 45002,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #346",
+    "text": "Which science term is best described as the molecule that stores genetic information?",
     "answers": [
-      "Proton",
-      "Photon",
-      "Electron",
-      "Neutron"
+      "comet",
+      "hormone",
+      "plate tectonics",
+      "DNA"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "DNA",
+    "explanation": "DNA is best described as the molecule that stores genetic information.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "biology"
     ]
   },
   {
-    "id": 43604,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #347",
-    "answers": [
-      "Saturn",
-      "Neptune",
-      "Mars",
-      "Jupiter"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43605,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #348",
-    "answers": [
-      "Au",
-      "Pb",
-      "Ag",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43606,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #349",
-    "answers": [
-      "Photon",
-      "Electron",
-      "Proton",
-      "Neutron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43607,
-    "category": "science",
+    "id": 45003,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #350",
+    "text": "Which idea is most connected to energy?",
     "answers": [
-      "Saturn",
-      "Neptune",
-      "Jupiter",
-      "Mars"
+      "evolutionary raw material",
+      "rocky debris",
+      "physical change",
+      "tectonic stress release"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "physical change",
+    "explanation": "energy is closely connected to physical change.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "physics"
     ]
   },
   {
-    "id": 43608,
-    "category": "science",
+    "id": 45004,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which scientific context is strongly associated with solution?",
+    "answers": [
+      "dissolving",
+      "space weather",
+      "hertz",
+      "ecosystem resilience"
+    ],
+    "correctAnswer": "dissolving",
+    "explanation": "solution is strongly associated with dissolving.",
+    "tags": [
+      "science",
+      "context",
+      "chemistry"
+    ]
+  },
+  {
+    "id": 45005,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #351",
+    "text": "Which science profile combines cosmic distance with distance light travels in one year?",
     "answers": [
-      "Pb",
-      "Ag",
-      "Fe",
-      "Au"
+      "plate tectonics",
+      "pH scale",
+      "light-year",
+      "keystone species"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "light-year",
+    "explanation": "light-year fits this profile because it is associated with cosmic distance and described as distance light travels in one year.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "astronomy"
     ]
   },
   {
-    "id": 43609,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #352",
-    "answers": [
-      "Electron",
-      "Proton",
-      "Photon",
-      "Neutron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43610,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #353",
-    "answers": [
-      "Mars",
-      "Jupiter",
-      "Saturn",
-      "Neptune"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43611,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #354",
-    "answers": [
-      "Pb",
-      "Fe",
-      "Au",
-      "Ag"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43612,
-    "category": "science",
+    "id": 45006,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #355",
+    "text": "Which science profile combines biology with amino acid assembly?",
     "answers": [
-      "Neutron",
-      "Proton",
-      "Photon",
-      "Electron"
+      "planet",
+      "telescope",
+      "biodiversity",
+      "ribosome"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "ribosome",
+    "explanation": "ribosome matches that profile through biology and amino acid assembly.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "biology"
     ]
   },
   {
-    "id": 43613,
-    "category": "science",
+    "id": 45007,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines evolution with process where advantageous traits become more common over generations?",
+    "answers": [
+      "electric current",
+      "natural selection",
+      "earthquake",
+      "peer review"
+    ],
+    "correctAnswer": "natural selection",
+    "explanation": "natural selection fits this profile because it is associated with evolution and described as process where advantageous traits become more common over generations.",
+    "tags": [
+      "science",
+      "profile",
+      "biology"
+    ]
+  },
+  {
+    "id": 45008,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #356",
+    "text": "Which field of science is most closely linked to black hole?",
     "answers": [
-      "Jupiter",
-      "Neptune",
-      "Saturn",
-      "Mars"
+      "astronomy",
+      "earth science",
+      "biology",
+      "medicine"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "astronomy",
+    "explanation": "black hole is most closely linked here to astronomy.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "astronomy"
     ]
   },
   {
-    "id": 43614,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #357",
-    "answers": [
-      "Ag",
-      "Au",
-      "Pb",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43615,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #358",
-    "answers": [
-      "Proton",
-      "Neutron",
-      "Electron",
-      "Photon"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43616,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #359",
-    "answers": [
-      "Mars",
-      "Neptune",
-      "Saturn",
-      "Jupiter"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43617,
-    "category": "science",
+    "id": 45009,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #360",
+    "text": "Which science profile combines physics with frequency relationship?",
     "answers": [
-      "Au",
-      "Pb",
-      "Fe",
-      "Ag"
+      "wavelength",
+      "gravity",
+      "microscope",
+      "RNA"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "wavelength",
+    "explanation": "wavelength matches that profile through physics and frequency relationship.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "physics"
     ]
   },
   {
-    "id": 43618,
-    "category": "science",
+    "id": 45010,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which scientific context is strongly associated with photosphere?",
+    "answers": [
+      "ions",
+      "Newton's laws",
+      "small solar system body",
+      "solar observation"
+    ],
+    "correctAnswer": "solar observation",
+    "explanation": "photosphere is strongly associated with solar observation.",
+    "tags": [
+      "science",
+      "context",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 45011,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #361",
+    "text": "Which scientific context is strongly associated with neutron?",
     "answers": [
-      "Proton",
-      "Electron",
-      "Photon",
-      "Neutron"
+      "double helix",
+      "small solar system body",
+      "isotopes",
+      "cosmic distance"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "isotopes",
+    "explanation": "neutron is strongly associated with isotopes.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "chemistry"
     ]
   },
   {
-    "id": 43619,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #362",
-    "answers": [
-      "Mars",
-      "Neptune",
-      "Jupiter",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43620,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #363",
-    "answers": [
-      "Ag",
-      "Pb",
-      "Fe",
-      "Au"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43621,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #364",
-    "answers": [
-      "Electron",
-      "Neutron",
-      "Proton",
-      "Photon"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43622,
-    "category": "science",
+    "id": 45012,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #365",
+    "text": "Which field of science is most closely linked to solution?",
     "answers": [
-      "Saturn",
-      "Jupiter",
-      "Mars",
-      "Neptune"
+      "ecology",
+      "chemistry",
+      "biology",
+      "astronomy"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "chemistry",
+    "explanation": "solution is most closely linked here to chemistry.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "chemistry"
     ]
   },
   {
-    "id": 43623,
-    "category": "science",
+    "id": 45013,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which field of science is most closely linked to greenhouse effect?",
+    "answers": [
+      "ecology",
+      "chemistry",
+      "scientific method",
+      "earth science"
+    ],
+    "correctAnswer": "earth science",
+    "explanation": "greenhouse effect is most closely linked here to earth science.",
+    "tags": [
+      "science",
+      "fields",
+      "earth science"
+    ]
+  },
+  {
+    "id": 45014,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #366",
+    "text": "Which idea is most connected to black hole?",
     "answers": [
-      "Fe",
-      "Ag",
-      "Au",
-      "Pb"
+      "nuclear mass",
+      "global water movement",
+      "extreme gravity",
+      "past organisms"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "extreme gravity",
+    "explanation": "black hole is closely connected to extreme gravity.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "astronomy"
     ]
   },
   {
-    "id": 43624,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #367",
-    "answers": [
-      "Photon",
-      "Neutron",
-      "Proton",
-      "Electron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43625,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #368",
-    "answers": [
-      "Jupiter",
-      "Saturn",
-      "Neptune",
-      "Mars"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43626,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #369",
-    "answers": [
-      "Ag",
-      "Au",
-      "Fe",
-      "Pb"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43627,
-    "category": "science",
+    "id": 45015,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #370",
+    "text": "Which scientific context is strongly associated with control group?",
     "answers": [
-      "Photon",
-      "Neutron",
-      "Electron",
-      "Proton"
+      "selective permeability",
+      "experimental design",
+      "hydrogen ion concentration",
+      "landscape change"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "experimental design",
+    "explanation": "control group is strongly associated with experimental design.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "scientific method"
     ]
   },
   {
-    "id": 43628,
-    "category": "science",
+    "id": 45016,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science term is best described as visible surface layer of the Sun?",
+    "answers": [
+      "black hole",
+      "reflection",
+      "photosphere",
+      "ionic bond"
+    ],
+    "correctAnswer": "photosphere",
+    "explanation": "photosphere is best described as visible surface layer of the Sun.",
+    "tags": [
+      "science",
+      "terms",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 45017,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #371",
+    "text": "Which field of science is most closely linked to pH scale?",
     "answers": [
-      "Saturn",
-      "Mars",
-      "Neptune",
-      "Jupiter"
+      "ecology",
+      "physics",
+      "chemistry",
+      "medicine"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "chemistry",
+    "explanation": "pH scale is most closely linked here to chemistry.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "chemistry"
     ]
   },
   {
-    "id": 43629,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #372",
-    "answers": [
-      "Au",
-      "Fe",
-      "Ag",
-      "Pb"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43630,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #373",
-    "answers": [
-      "Neutron",
-      "Electron",
-      "Photon",
-      "Proton"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43631,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #374",
-    "answers": [
-      "Mars",
-      "Neptune",
-      "Jupiter",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43632,
-    "category": "science",
+    "id": 45018,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #375",
+    "text": "Which idea is most connected to telescope?",
     "answers": [
-      "Pb",
-      "Ag",
-      "Fe",
-      "Au"
+      "astronomical imaging",
+      "astronomical scale",
+      "scientific prediction",
+      "frequency relationship"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "astronomical imaging",
+    "explanation": "telescope is closely connected to astronomical imaging.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "astronomy"
     ]
   },
   {
-    "id": 43633,
-    "category": "science",
+    "id": 45019,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines solar observation with visible surface layer of the Sun?",
+    "answers": [
+      "gravity",
+      "kinetic energy",
+      "photosphere",
+      "reflection"
+    ],
+    "correctAnswer": "photosphere",
+    "explanation": "photosphere fits this profile because it is associated with solar observation and described as visible surface layer of the Sun.",
+    "tags": [
+      "science",
+      "profile",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 45020,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #376",
+    "text": "Which science term is best described as breakdown of rocks at Earth's surface?",
     "answers": [
-      "Electron",
-      "Proton",
-      "Neutron",
-      "Photon"
+      "weathering",
+      "friction",
+      "solar wind",
+      "centrifuge"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "weathering",
+    "explanation": "weathering is best described as breakdown of rocks at Earth's surface.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "earth science"
     ]
   },
   {
-    "id": 43634,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #377",
-    "answers": [
-      "Neptune",
-      "Jupiter",
-      "Saturn",
-      "Mars"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43635,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #378",
-    "answers": [
-      "Ag",
-      "Pb",
-      "Au",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43636,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #379",
-    "answers": [
-      "Neutron",
-      "Proton",
-      "Photon",
-      "Electron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43637,
-    "category": "science",
+    "id": 45021,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #380",
+    "text": "Which science term is best described as instrument used to measure temperature?",
     "answers": [
-      "Jupiter",
-      "Mars",
-      "Saturn",
-      "Neptune"
+      "nebula",
+      "visible light",
+      "ecosystem",
+      "thermometer"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "thermometer",
+    "explanation": "thermometer is best described as instrument used to measure temperature.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "scientific tools"
     ]
   },
   {
-    "id": 43638,
-    "category": "science",
+    "id": 45022,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which field of science is most closely linked to fossil?",
+    "answers": [
+      "chemistry",
+      "physics",
+      "earth science",
+      "scientific method"
+    ],
+    "correctAnswer": "earth science",
+    "explanation": "fossil is most closely linked here to earth science.",
+    "tags": [
+      "science",
+      "fields",
+      "earth science"
+    ]
+  },
+  {
+    "id": 45023,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #381",
+    "text": "In a competitive science trivia round, which fact correctly matches force?",
     "answers": [
-      "Fe",
-      "Au",
-      "Pb",
-      "Ag"
+      "movement of Earth's lithospheric plates",
+      "warming caused by gases trapping heat in the atmosphere",
+      "push or pull that can change motion",
+      "two or more atoms chemically bonded"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "push or pull that can change motion",
+    "explanation": "The correct match for force is: push or pull that can change motion.",
     "tags": [
-      "science"
+      "science",
+      "knowledge-match",
+      "physics"
     ]
   },
   {
-    "id": 43639,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #382",
-    "answers": [
-      "Proton",
-      "Photon",
-      "Electron",
-      "Neutron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43640,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #383",
-    "answers": [
-      "Neptune",
-      "Mars",
-      "Saturn",
-      "Jupiter"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43641,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #384",
-    "answers": [
-      "Au",
-      "Ag",
-      "Pb",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43642,
-    "category": "science",
+    "id": 45024,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #385",
+    "text": "Which science profile combines scientific tools with degrees?",
     "answers": [
-      "Proton",
-      "Electron",
-      "Photon",
-      "Neutron"
+      "thermometer",
+      "ecosystem",
+      "energy",
+      "volcano"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "thermometer",
+    "explanation": "thermometer matches that profile through scientific tools and degrees.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "scientific tools"
     ]
   },
   {
-    "id": 43643,
-    "category": "science",
+    "id": 45025,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which idea is most connected to neutron?",
+    "answers": [
+      "energy flow",
+      "disease prevention",
+      "nuclear mass",
+      "electrostatic attraction"
+    ],
+    "correctAnswer": "nuclear mass",
+    "explanation": "neutron is closely connected to nuclear mass.",
+    "tags": [
+      "science",
+      "concepts",
+      "chemistry"
+    ]
+  },
+  {
+    "id": 45026,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #386",
+    "text": "Which science profile combines astronomy with sunlight source?",
     "answers": [
-      "Saturn",
-      "Mars",
-      "Jupiter",
-      "Neptune"
+      "weathering",
+      "photosphere",
+      "homeostasis",
+      "carbon cycle"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "photosphere",
+    "explanation": "photosphere matches that profile through astronomy and sunlight source.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "astronomy"
     ]
   },
   {
-    "id": 43644,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #387",
-    "answers": [
-      "Fe",
-      "Ag",
-      "Pb",
-      "Au"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43645,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #388",
-    "answers": [
-      "Electron",
-      "Neutron",
-      "Photon",
-      "Proton"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43646,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #389",
-    "answers": [
-      "Saturn",
-      "Jupiter",
-      "Mars",
-      "Neptune"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43647,
-    "category": "science",
+    "id": 45027,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #390",
+    "text": "In a competitive science trivia round, which fact correctly matches atom?",
     "answers": [
-      "Pb",
-      "Fe",
-      "Au",
-      "Ag"
+      "factor that can change in an experiment",
+      "substance that accepts hydrogen ions or produces hydroxide ions",
+      "atoms of the same element with different neutron numbers",
+      "the basic unit of an element"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "the basic unit of an element",
+    "explanation": "The correct match for atom is: the basic unit of an element.",
     "tags": [
-      "science"
+      "science",
+      "knowledge-match",
+      "chemistry"
     ]
   },
   {
-    "id": 43648,
-    "category": "science",
+    "id": 45028,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which scientific context is strongly associated with resistance?",
+    "answers": [
+      "observing space",
+      "sedimentary rock",
+      "atomic number",
+      "Ohm's law"
+    ],
+    "correctAnswer": "Ohm's law",
+    "explanation": "resistance is strongly associated with Ohm's law.",
+    "tags": [
+      "science",
+      "context",
+      "physics"
+    ]
+  },
+  {
+    "id": 45029,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #391",
+    "text": "In a competitive science trivia round, which fact correctly matches moon?",
     "answers": [
-      "Proton",
-      "Photon",
-      "Neutron",
-      "Electron"
+      "preserved evidence of ancient life",
+      "loss of electrons in a chemical reaction",
+      "natural satellite orbiting a planet",
+      "organelles that release usable energy from food"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "natural satellite orbiting a planet",
+    "explanation": "The correct match for moon is: natural satellite orbiting a planet.",
     "tags": [
-      "science"
+      "science",
+      "knowledge-match",
+      "astronomy"
     ]
   },
   {
-    "id": 43649,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #392",
-    "answers": [
-      "Jupiter",
-      "Saturn",
-      "Neptune",
-      "Mars"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43650,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #393",
-    "answers": [
-      "Ag",
-      "Au",
-      "Fe",
-      "Pb"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43651,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #394",
-    "answers": [
-      "Proton",
-      "Neutron",
-      "Electron",
-      "Photon"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43652,
-    "category": "science",
+    "id": 45030,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #395",
+    "text": "Which science profile combines stellar energy with massive glowing ball of plasma powered by nuclear fusion?",
     "answers": [
-      "Mars",
-      "Saturn",
-      "Neptune",
-      "Jupiter"
+      "covalent bond",
+      "osmosis",
+      "water cycle",
+      "star"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "star",
+    "explanation": "star fits this profile because it is associated with stellar energy and described as massive glowing ball of plasma powered by nuclear fusion.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "astronomy"
     ]
   },
   {
-    "id": 43653,
-    "category": "science",
+    "id": 45031,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which idea is most connected to gravity?",
+    "answers": [
+      "orbits and falling objects",
+      "amperes",
+      "motion transfer",
+      "change in speed"
+    ],
+    "correctAnswer": "orbits and falling objects",
+    "explanation": "gravity is closely connected to orbits and falling objects.",
+    "tags": [
+      "science",
+      "concepts",
+      "physics"
+    ]
+  },
+  {
+    "id": 45032,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #396",
+    "text": "Which science profile combines event horizon with region where gravity is so strong light cannot escape?",
     "answers": [
-      "Au",
-      "Fe",
-      "Pb",
-      "Ag"
+      "black hole",
+      "wavelength",
+      "photosynthesis",
+      "biodiversity"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "black hole",
+    "explanation": "black hole fits this profile because it is associated with event horizon and described as region where gravity is so strong light cannot escape.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "astronomy"
     ]
   },
   {
-    "id": 43654,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #397",
-    "answers": [
-      "Photon",
-      "Electron",
-      "Proton",
-      "Neutron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43655,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #398",
-    "answers": [
-      "Saturn",
-      "Mars",
-      "Jupiter",
-      "Neptune"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43656,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #399",
-    "answers": [
-      "Ag",
-      "Pb",
-      "Fe",
-      "Au"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43657,
-    "category": "science",
+    "id": 45033,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #400",
+    "text": "Which science profile combines astronomy with heavy element formation?",
     "answers": [
-      "Electron",
-      "Neutron",
-      "Proton",
-      "Photon"
+      "friction",
+      "supernova",
+      "black hole",
+      "ecosystem"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "supernova",
+    "explanation": "supernova matches that profile through astronomy and heavy element formation.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "astronomy"
     ]
   },
   {
-    "id": 43658,
-    "category": "science",
+    "id": 45034,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a competitive science trivia round, which fact correctly matches nebula?",
+    "answers": [
+      "maintenance of stable internal conditions",
+      "cloud of gas and dust in space",
+      "baseline group used for comparison in an experiment",
+      "the molecule that stores genetic information"
+    ],
+    "correctAnswer": "cloud of gas and dust in space",
+    "explanation": "The correct match for nebula is: cloud of gas and dust in space.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 45035,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #401",
+    "text": "Which idea is most connected to visible light?",
     "answers": [
-      "Saturn",
-      "Jupiter",
-      "Neptune",
-      "Mars"
+      "species richness",
+      "fair testing",
+      "color perception",
+      "climate regulation"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "color perception",
+    "explanation": "visible light is closely connected to color perception.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "physics"
     ]
   },
   {
-    "id": 43659,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #402",
-    "answers": [
-      "Ag",
-      "Fe",
-      "Au",
-      "Pb"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43660,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #403",
-    "answers": [
-      "Proton",
-      "Neutron",
-      "Photon",
-      "Electron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43661,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #404",
-    "answers": [
-      "Jupiter",
-      "Neptune",
-      "Saturn",
-      "Mars"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43662,
-    "category": "science",
+    "id": 45036,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #405",
+    "text": "In a competitive science trivia round, which fact correctly matches neutron?",
     "answers": [
-      "Fe",
-      "Au",
-      "Pb",
-      "Ag"
+      "neutral particle in an atomic nucleus",
+      "force linked to magnetic fields and moving charges",
+      "infectious agent that replicates inside host cells",
+      "bond formed by electron transfer between atoms"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "neutral particle in an atomic nucleus",
+    "explanation": "The correct match for neutron is: neutral particle in an atomic nucleus.",
     "tags": [
-      "science"
+      "science",
+      "knowledge-match",
+      "chemistry"
     ]
   },
   {
-    "id": 43663,
-    "category": "science",
+    "id": 45037,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which idea is most connected to theory?",
+    "answers": [
+      "astronomical imaging",
+      "degrees",
+      "broad explanation",
+      "cellular transport"
+    ],
+    "correctAnswer": "broad explanation",
+    "explanation": "theory is closely connected to broad explanation.",
+    "tags": [
+      "science",
+      "concepts",
+      "scientific method"
+    ]
+  },
+  {
+    "id": 45038,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #406",
+    "text": "Which idea is most connected to pH scale?",
     "answers": [
-      "Neutron",
-      "Proton",
-      "Electron",
-      "Photon"
+      "testing relationships",
+      "acid-base chemistry",
+      "shared electron pairs",
+      "body signaling"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "acid-base chemistry",
+    "explanation": "pH scale is closely connected to acid-base chemistry.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "chemistry"
     ]
   },
   {
-    "id": 43664,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #407",
-    "answers": [
-      "Saturn",
-      "Mars",
-      "Neptune",
-      "Jupiter"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43665,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #408",
-    "answers": [
-      "Au",
-      "Pb",
-      "Ag",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43666,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #409",
-    "answers": [
-      "Photon",
-      "Electron",
-      "Neutron",
-      "Proton"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43667,
-    "category": "science",
+    "id": 45039,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #410",
+    "text": "Which field of science is most closely linked to ribosome?",
     "answers": [
-      "Mars",
-      "Saturn",
-      "Jupiter",
-      "Neptune"
+      "earth science",
+      "medicine",
+      "scientific method",
+      "biology"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "biology",
+    "explanation": "ribosome is most closely linked here to biology.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "biology"
     ]
   },
   {
-    "id": 43668,
-    "category": "science",
+    "id": 45040,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines laboratory separation with device that spins samples to separate components by density?",
+    "answers": [
+      "centrifuge",
+      "data",
+      "acceleration",
+      "gravity"
+    ],
+    "correctAnswer": "centrifuge",
+    "explanation": "centrifuge fits this profile because it is associated with laboratory separation and described as device that spins samples to separate components by density.",
+    "tags": [
+      "science",
+      "profile",
+      "scientific tools"
+    ]
+  },
+  {
+    "id": 45041,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #411",
+    "text": "Which idea is most connected to inertia?",
     "answers": [
-      "Fe",
-      "Pb",
-      "Ag",
-      "Au"
+      "astronomical imaging",
+      "activation energy",
+      "homogeneous mixtures",
+      "motion persistence"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "motion persistence",
+    "explanation": "inertia is closely connected to motion persistence.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "physics"
     ]
   },
   {
-    "id": 43669,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #412",
-    "answers": [
-      "Electron",
-      "Photon",
-      "Proton",
-      "Neutron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43670,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #413",
-    "answers": [
-      "Neptune",
-      "Jupiter",
-      "Saturn",
-      "Mars"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43671,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #414",
-    "answers": [
-      "Fe",
-      "Ag",
-      "Au",
-      "Pb"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43672,
-    "category": "science",
+    "id": 45042,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #415",
+    "text": "Which science profile combines planet discovery with planet orbiting a star outside our solar system?",
     "answers": [
-      "Proton",
-      "Photon",
-      "Neutron",
-      "Electron"
+      "electron",
+      "carbon cycle",
+      "exoplanet",
+      "voltage"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "exoplanet",
+    "explanation": "exoplanet fits this profile because it is associated with planet discovery and described as planet orbiting a star outside our solar system.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "astronomy"
     ]
   },
   {
-    "id": 43673,
-    "category": "science",
+    "id": 45043,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science term is best described as the variety of life in an area?",
+    "answers": [
+      "friction",
+      "biodiversity",
+      "osmosis",
+      "solution"
+    ],
+    "correctAnswer": "biodiversity",
+    "explanation": "biodiversity is best described as the variety of life in an area.",
+    "tags": [
+      "science",
+      "terms",
+      "ecology"
+    ]
+  },
+  {
+    "id": 45044,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #416",
+    "text": "Which field of science is most closely linked to moon?",
     "answers": [
-      "Jupiter",
-      "Mars",
-      "Saturn",
-      "Neptune"
+      "astronomy",
+      "physics",
+      "medicine",
+      "chemistry"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "astronomy",
+    "explanation": "moon is most closely linked here to astronomy.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "astronomy"
     ]
   },
   {
-    "id": 43674,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #417",
-    "answers": [
-      "Pb",
-      "Au",
-      "Ag",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43675,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #418",
-    "answers": [
-      "Neutron",
-      "Photon",
-      "Electron",
-      "Proton"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43676,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #419",
-    "answers": [
-      "Saturn",
-      "Neptune",
-      "Mars",
-      "Jupiter"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43677,
-    "category": "science",
+    "id": 45045,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #420",
+    "text": "Which idea is most connected to proton?",
     "answers": [
-      "Au",
-      "Pb",
-      "Ag",
-      "Fe"
+      "element identity",
+      "activation energy",
+      "light and radiation",
+      "earthquakes and mountains"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "element identity",
+    "explanation": "proton is closely connected to element identity.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "chemistry"
     ]
   },
   {
-    "id": 43678,
-    "category": "science",
+    "id": 45046,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which idea is most connected to moon?",
+    "answers": [
+      "global water movement",
+      "tides and phases",
+      "shared electron pairs",
+      "ice and dust"
+    ],
+    "correctAnswer": "tides and phases",
+    "explanation": "moon is closely connected to tides and phases.",
+    "tags": [
+      "science",
+      "concepts",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 45047,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #421",
+    "text": "Which scientific context is strongly associated with atom?",
     "answers": [
-      "Photon",
-      "Electron",
-      "Proton",
-      "Neutron"
+      "chloroplasts",
+      "orbital motion",
+      "protons, neutrons, and electrons",
+      "event horizon"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "protons, neutrons, and electrons",
+    "explanation": "atom is strongly associated with protons, neutrons, and electrons.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "chemistry"
     ]
   },
   {
-    "id": 43679,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #422",
-    "answers": [
-      "Neptune",
-      "Mars",
-      "Jupiter",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43680,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #423",
-    "answers": [
-      "Ag",
-      "Fe",
-      "Pb",
-      "Au"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43681,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #424",
-    "answers": [
-      "Electron",
-      "Proton",
-      "Photon",
-      "Neutron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43682,
-    "category": "science",
+    "id": 45048,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #425",
+    "text": "Which science term is best described as electric potential difference?",
     "answers": [
-      "Neptune",
-      "Jupiter",
-      "Mars",
-      "Saturn"
+      "covalent bond",
+      "comet",
+      "carbon cycle",
+      "voltage"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "voltage",
+    "explanation": "voltage is best described as electric potential difference.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "physics"
     ]
   },
   {
-    "id": 43683,
-    "category": "science",
+    "id": 45049,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which idea is most connected to force?",
+    "answers": [
+      "mass and speed",
+      "bonded matter",
+      "interaction and motion",
+      "transport of sediment"
+    ],
+    "correctAnswer": "interaction and motion",
+    "explanation": "force is closely connected to interaction and motion.",
+    "tags": [
+      "science",
+      "concepts",
+      "physics"
+    ]
+  },
+  {
+    "id": 45050,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #426",
+    "text": "Which scientific context is strongly associated with bacteria?",
     "answers": [
-      "Ag",
-      "Pb",
-      "Au",
-      "Fe"
+      "lenses",
+      "double helix",
+      "moving objects",
+      "microbiology"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "microbiology",
+    "explanation": "bacteria is strongly associated with microbiology.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "medicine"
     ]
   },
   {
-    "id": 43684,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #427",
-    "answers": [
-      "Photon",
-      "Proton",
-      "Neutron",
-      "Electron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43685,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #428",
-    "answers": [
-      "Jupiter",
-      "Saturn",
-      "Neptune",
-      "Mars"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43686,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #429",
-    "answers": [
-      "Pb",
-      "Au",
-      "Fe",
-      "Ag"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43687,
-    "category": "science",
+    "id": 45051,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #430",
+    "text": "Which field of science is most closely linked to asteroid?",
     "answers": [
-      "Proton",
-      "Neutron",
-      "Electron",
-      "Photon"
+      "astronomy",
+      "medicine",
+      "ecology",
+      "chemistry"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "astronomy",
+    "explanation": "asteroid is most closely linked here to astronomy.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "astronomy"
     ]
   },
   {
-    "id": 43688,
-    "category": "science",
+    "id": 45052,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which field of science is most closely linked to voltage?",
+    "answers": [
+      "scientific method",
+      "medicine",
+      "physics",
+      "astronomy"
+    ],
+    "correctAnswer": "physics",
+    "explanation": "voltage is most closely linked here to physics.",
+    "tags": [
+      "science",
+      "fields",
+      "physics"
+    ]
+  },
+  {
+    "id": 45053,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #431",
+    "text": "Which idea is most connected to virus?",
     "answers": [
-      "Saturn",
-      "Mars",
-      "Neptune",
-      "Jupiter"
+      "genetic material and protein coat",
+      "circuit control",
+      "electrostatic attraction",
+      "heredity and instructions"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "genetic material and protein coat",
+    "explanation": "virus is closely connected to genetic material and protein coat.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "medicine"
     ]
   },
   {
-    "id": 43689,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #432",
-    "answers": [
-      "Au",
-      "Ag",
-      "Fe",
-      "Pb"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43690,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #433",
-    "answers": [
-      "Proton",
-      "Electron",
-      "Neutron",
-      "Photon"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43691,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #434",
-    "answers": [
-      "Saturn",
-      "Neptune",
-      "Jupiter",
-      "Mars"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43692,
-    "category": "science",
+    "id": 45054,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #435",
+    "text": "Which science profile combines astronomy with rocky debris?",
     "answers": [
-      "Fe",
-      "Pb",
-      "Ag",
-      "Au"
+      "asteroid",
+      "nitrogen fixation",
+      "exoplanet",
+      "erosion"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "asteroid",
+    "explanation": "asteroid matches that profile through astronomy and rocky debris.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "astronomy"
     ]
   },
   {
-    "id": 43693,
-    "category": "science",
+    "id": 45055,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a competitive science trivia round, which fact correctly matches theory?",
+    "answers": [
+      "evaluation of research by experts before publication",
+      "well-supported explanation backed by evidence",
+      "bending of waves as they enter a new medium",
+      "instrument that collects light from distant objects"
+    ],
+    "correctAnswer": "well-supported explanation backed by evidence",
+    "explanation": "The correct match for theory is: well-supported explanation backed by evidence.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "scientific method"
+    ]
+  },
+  {
+    "id": 45056,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #436",
+    "text": "Which science term is best described as preparation that trains the immune system to recognize a pathogen?",
     "answers": [
-      "Electron",
-      "Neutron",
-      "Proton",
-      "Photon"
+      "ribosome",
+      "supernova",
+      "vaccine",
+      "periodic table"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "vaccine",
+    "explanation": "vaccine is best described as preparation that trains the immune system to recognize a pathogen.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "medicine"
     ]
   },
   {
-    "id": 43694,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #437",
-    "answers": [
-      "Neptune",
-      "Jupiter",
-      "Mars",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43695,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #438",
-    "answers": [
-      "Ag",
-      "Fe",
-      "Au",
-      "Pb"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43696,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #439",
-    "answers": [
-      "Proton",
-      "Neutron",
-      "Photon",
-      "Electron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 43697,
-    "category": "science",
+    "id": 45057,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #440",
+    "text": "Which science term is best described as stream of charged particles released by the Sun?",
     "answers": [
-      "Jupiter",
-      "Mars",
-      "Neptune",
-      "Saturn"
+      "kinetic energy",
+      "carbon cycle",
+      "resistance",
+      "solar wind"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "solar wind",
+    "explanation": "solar wind is best described as stream of charged particles released by the Sun.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "astronomy"
     ]
   },
   {
-    "id": 43698,
-    "category": "science",
+    "id": 45058,
+    "category": "Science",
     "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #441",
+    "difficulty": "easy",
+    "text": "Which science term is best described as testable explanation for observations?",
     "answers": [
-      "Pb",
-      "Au",
-      "Fe",
-      "Ag"
+      "hypothesis",
+      "data",
+      "ribosome",
+      "centrifuge"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "hypothesis",
+    "explanation": "hypothesis is best described as testable explanation for observations.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "scientific method"
     ]
   },
   {
-    "id": 43699,
-    "category": "science",
+    "id": 45059,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #442",
+    "text": "Which science profile combines physics with motion persistence?",
     "answers": [
-      "Proton",
-      "Photon",
-      "Electron",
-      "Neutron"
+      "wavelength",
+      "homeostasis",
+      "inertia",
+      "potential energy"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "inertia",
+    "explanation": "inertia matches that profile through physics and motion persistence.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "physics"
     ]
   },
   {
-    "id": 43700,
-    "category": "science",
+    "id": 45060,
+    "category": "Science",
     "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #443",
+    "difficulty": "hard",
+    "text": "Which idea is most connected to rock cycle?",
     "answers": [
-      "Neptune",
-      "Saturn",
-      "Mars",
-      "Jupiter"
+      "oxygen and glucose production",
+      "fair testing",
+      "geologic recycling",
+      "degrees"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "geologic recycling",
+    "explanation": "rock cycle is closely connected to geologic recycling.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "earth science"
     ]
   }
 ]

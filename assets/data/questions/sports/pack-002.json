@@ -1,1 +1,6402 @@
-[]
+[
+  {
+    "id": 75848,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports item would fit a question about top-level motorcycle road racing?",
+    "answers": [
+      "Figure skating",
+      "Football / Soccer",
+      "Taekwondo",
+      "MotoGP"
+    ],
+    "correctAnswer": "MotoGP",
+    "explanation": "MotoGP is correct because MotoGP is associated with top-level motorcycle road racing and lean angles and lap speed.",
+    "tags": [
+      "sports",
+      "motorsport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75849,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a ranked sports round, which fact correctly matches Football / Soccer?",
+    "answers": [
+      "teams score by running bases after hitting the ball",
+      "players use clubs to complete holes in few strokes",
+      "athletes lift maximum weights in snatch and clean and jerk",
+      "players score by getting the ball into a goal mostly with their feet"
+    ],
+    "correctAnswer": "players score by getting the ball into a goal mostly with their feet",
+    "explanation": "players score by getting the ball into a goal mostly with their feet is correct because Football / Soccer is associated with players score by getting the ball into a goal mostly with their feet and World Cup and club football.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75850,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports item would fit a question about players use clubs to complete holes in few strokes?",
+    "answers": [
+      "Marathon",
+      "Golf",
+      "Gymnastics",
+      "Fencing"
+    ],
+    "correctAnswer": "Golf",
+    "explanation": "Golf is correct because Golf is associated with players use clubs to complete holes in few strokes and pars, birdies, and greens.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75851,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which clue best supports Taekwondo as the answer?",
+    "answers": [
+      "teams try to ground the ball over a high net",
+      "kicking-focused martial art and Olympic sport",
+      "athletes use throws and holds to score",
+      "skiers race downhill through gates"
+    ],
+    "correctAnswer": "kicking-focused martial art and Olympic sport",
+    "explanation": "kicking-focused martial art and Olympic sport is correct because Taekwondo is associated with kicking-focused martial art and Olympic sport and speed and high kicks.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75852,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer matches the sports clue 'players compete professionally in video games' and avoids ambiguity?",
+    "answers": [
+      "Field hockey",
+      "Esports",
+      "Fencing",
+      "Badminton"
+    ],
+    "correctAnswer": "Esports",
+    "explanation": "Esports is correct because Esports is associated with players compete professionally in video games and strategy, mechanics, and teamwork.",
+    "tags": [
+      "sports",
+      "mind-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75853,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is connected to court with net and the label ball-sport?",
+    "answers": [
+      "Taekwondo",
+      "Surfing",
+      "Volleyball",
+      "Archery"
+    ],
+    "correctAnswer": "Volleyball",
+    "explanation": "Volleyball is correct because Volleyball is associated with teams try to ground the ball over a high net and sets, spikes, and blocks.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75854,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer is best described as running, jumping, and throwing events?",
+    "answers": [
+      "Fencing",
+      "Snowboarding",
+      "Athletics",
+      "MMA"
+    ],
+    "correctAnswer": "Athletics",
+    "explanation": "Athletics is correct because Athletics is associated with running, jumping, and throwing events and sprints and field events.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75855,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer is linked to ring and described by fighters punch within weight classes and rounds?",
+    "answers": [
+      "Formula 1",
+      "Weightlifting",
+      "Boxing",
+      "Archery"
+    ],
+    "correctAnswer": "Boxing",
+    "explanation": "Boxing is correct because Boxing is associated with fighters punch within weight classes and rounds and knockouts and judging.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75856,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports option is correctly linked to the clue 'running / endurance pacing'?",
+    "answers": [
+      "Figure skating",
+      "Marathon",
+      "Field hockey",
+      "Cycling"
+    ],
+    "correctAnswer": "Marathon",
+    "explanation": "Marathon is correct because Marathon is associated with long-distance race of 42.195 kilometers and endurance pacing.",
+    "tags": [
+      "sports",
+      "running",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75857,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports option matches the origin clue 'board' and the type clue 'mind sport'?",
+    "answers": [
+      "Darts",
+      "Wrestling",
+      "Surfing",
+      "Chess"
+    ],
+    "correctAnswer": "Chess",
+    "explanation": "Chess is correct because Chess is associated with players move pieces to checkmate the opponent's king and strategy and calculation.",
+    "tags": [
+      "sports",
+      "mind-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75858,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports question would have MMA as the cleanest answer?",
+    "answers": [
+      "teams carry, pass, kick, and tackle for territory and tries",
+      "top-level motorcycle road racing",
+      "athletes shoot arrows at a target",
+      "fighters combine striking, wrestling, and submissions"
+    ],
+    "correctAnswer": "fighters combine striking, wrestling, and submissions",
+    "explanation": "fighters combine striking, wrestling, and submissions is correct because MMA is associated with fighters combine striking, wrestling, and submissions and mixed martial arts strategy.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75859,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer pairs with both competitive gaming and strategy, mechanics, and teamwork?",
+    "answers": [
+      "Archery",
+      "Esports",
+      "Football / Soccer",
+      "Basketball"
+    ],
+    "correctAnswer": "Esports",
+    "explanation": "Esports is correct because Esports is associated with players compete professionally in video games and strategy, mechanics, and teamwork.",
+    "tags": [
+      "sports",
+      "mind-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75860,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports item is linked to the description 'players compete professionally in video games'?",
+    "answers": [
+      "Cricket",
+      "Esports",
+      "Tennis",
+      "Darts"
+    ],
+    "correctAnswer": "Esports",
+    "explanation": "Esports is correct because Esports is associated with players compete professionally in video games and strategy, mechanics, and teamwork.",
+    "tags": [
+      "sports",
+      "mind-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75861,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fact would be fair and correct for Ski jumping?",
+    "answers": [
+      "long-distance race of 42.195 kilometers",
+      "athletes compete in squat, bench press, and deadlift",
+      "athletes ride breaking waves on boards",
+      "athletes launch from a ramp and fly for distance and style"
+    ],
+    "correctAnswer": "athletes launch from a ramp and fly for distance and style",
+    "explanation": "athletes launch from a ramp and fly for distance and style is correct because Ski jumping is associated with athletes launch from a ramp and fly for distance and style and aerodynamics and landing.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75862,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports clue points to halfpipe and slopestyle?",
+    "answers": [
+      "Swimming",
+      "American football",
+      "Boxing",
+      "Snowboarding"
+    ],
+    "correctAnswer": "Snowboarding",
+    "explanation": "Snowboarding is correct because Snowboarding is associated with athletes ride a single board on snow and halfpipe and slopestyle.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75863,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports topic is represented by Boxing?",
+    "answers": [
+      "ball-sport",
+      "combat-sport",
+      "endurance-sport",
+      "bat-and-ball"
+    ],
+    "correctAnswer": "combat-sport",
+    "explanation": "combat-sport is correct because Boxing is associated with fighters punch within weight classes and rounds and knockouts and judging.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75864,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports concept is correctly paired with players use sticks to move a ball toward goal?",
+    "answers": [
+      "Chess",
+      "Field hockey",
+      "Ski jumping",
+      "Taekwondo"
+    ],
+    "correctAnswer": "Field hockey",
+    "explanation": "Field hockey is correct because Field hockey is associated with players use sticks to move a ball toward goal and penalty corners.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75865,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports item is linked to the description 'long-distance race of 42.195 kilometers'?",
+    "answers": [
+      "Marathon",
+      "MMA",
+      "Cycling",
+      "Archery"
+    ],
+    "correctAnswer": "Marathon",
+    "explanation": "Marathon is correct because Marathon is associated with long-distance race of 42.195 kilometers and endurance pacing.",
+    "tags": [
+      "sports",
+      "running",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75866,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports option matches the origin clue 'ring' and the type clue 'combat sport'?",
+    "answers": [
+      "Tennis",
+      "Powerlifting",
+      "Snowboarding",
+      "Boxing"
+    ],
+    "correctAnswer": "Boxing",
+    "explanation": "Boxing is correct because Boxing is associated with fighters punch within weight classes and rounds and knockouts and judging.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75867,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fact about Figure skating is true?",
+    "answers": [
+      "speed and high kicks",
+      "scoring segments and accuracy",
+      "wave selection and balance",
+      "artistry and technical elements"
+    ],
+    "correctAnswer": "artistry and technical elements",
+    "explanation": "artistry and technical elements is correct because Figure skating is associated with skaters combine jumps, spins, and choreography and artistry and technical elements.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75868,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer pairs with both team sport and penalty corners?",
+    "answers": [
+      "Field hockey",
+      "Sailing",
+      "Darts",
+      "Wrestling"
+    ],
+    "correctAnswer": "Field hockey",
+    "explanation": "Field hockey is correct because Field hockey is associated with players use sticks to move a ball toward goal and penalty corners.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75869,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer best matches this sports category clue: winter sport, snow slopes, halfpipe and slopestyle?",
+    "answers": [
+      "Alpine skiing",
+      "Powerlifting",
+      "Snowboarding",
+      "Volleyball"
+    ],
+    "correctAnswer": "Snowboarding",
+    "explanation": "Snowboarding is correct because Snowboarding is associated with athletes ride a single board on snow and halfpipe and slopestyle.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75870,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports concept is correctly paired with fighters punch within weight classes and rounds?",
+    "answers": [
+      "MotoGP",
+      "Sailing",
+      "Boxing",
+      "Swimming"
+    ],
+    "correctAnswer": "Boxing",
+    "explanation": "Boxing is correct because Boxing is associated with fighters punch within weight classes and rounds and knockouts and judging.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75871,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer belongs with the theme 'explosive strength'?",
+    "answers": [
+      "Alpine skiing",
+      "Figure skating",
+      "Esports",
+      "Weightlifting"
+    ],
+    "correctAnswer": "Weightlifting",
+    "explanation": "Weightlifting is correct because Weightlifting is associated with athletes lift maximum weights in snatch and clean and jerk and explosive strength.",
+    "tags": [
+      "sports",
+      "strength-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75872,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which category label best applies to Sailing?",
+    "answers": [
+      "endurance-sport",
+      "action-sport",
+      "water-sport",
+      "precision-sport"
+    ],
+    "correctAnswer": "water-sport",
+    "explanation": "water-sport is correct because Sailing is associated with boats use wind power to race or navigate and wind strategy and boat handling.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75873,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer matches the sports clue 'top-level motorcycle road racing' and avoids ambiguity?",
+    "answers": [
+      "MotoGP",
+      "Powerlifting",
+      "Formula 1",
+      "Cycling"
+    ],
+    "correctAnswer": "MotoGP",
+    "explanation": "MotoGP is correct because MotoGP is associated with top-level motorcycle road racing and lean angles and lap speed.",
+    "tags": [
+      "sports",
+      "motorsport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75874,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which fact about Chess is true?",
+    "answers": [
+      "World Cup and club football",
+      "strategy and calculation",
+      "artistry and technical elements",
+      "quick reflexes and rallies"
+    ],
+    "correctAnswer": "strategy and calculation",
+    "explanation": "strategy and calculation is correct because Chess is associated with players move pieces to checkmate the opponent's king and strategy and calculation.",
+    "tags": [
+      "sports",
+      "mind-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75875,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports item is linked to the description 'running, jumping, and throwing events'?",
+    "answers": [
+      "Athletics",
+      "Rugby Union",
+      "Skateboarding",
+      "MMA"
+    ],
+    "correctAnswer": "Athletics",
+    "explanation": "Athletics is correct because Athletics is associated with running, jumping, and throwing events and sprints and field events.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75876,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fact about Weightlifting is true?",
+    "answers": [
+      "strategy, mechanics, and teamwork",
+      "scoring segments and accuracy",
+      "explosive strength",
+      "wind strategy and boat handling"
+    ],
+    "correctAnswer": "explosive strength",
+    "explanation": "explosive strength is correct because Weightlifting is associated with athletes lift maximum weights in snatch and clean and jerk and explosive strength.",
+    "tags": [
+      "sports",
+      "strength-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75877,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports concept is correctly paired with long-distance race of 42.195 kilometers?",
+    "answers": [
+      "Figure skating",
+      "Tennis",
+      "Rowing",
+      "Marathon"
+    ],
+    "correctAnswer": "Marathon",
+    "explanation": "Marathon is correct because Marathon is associated with long-distance race of 42.195 kilometers and endurance pacing.",
+    "tags": [
+      "sports",
+      "running",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75878,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What classification best separates Swimming from other sports answers?",
+    "answers": [
+      "aquatic sport",
+      "precision sport",
+      "bat-and-ball sport",
+      "judged sport"
+    ],
+    "correctAnswer": "aquatic sport",
+    "explanation": "aquatic sport is correct because Swimming is associated with athletes race through water using defined strokes and freestyle, breaststroke, and butterfly.",
+    "tags": [
+      "sports",
+      "aquatic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75879,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports option matches the origin clue 'piste' and the type clue 'combat sport'?",
+    "answers": [
+      "Fencing",
+      "MMA",
+      "Darts",
+      "Gymnastics"
+    ],
+    "correctAnswer": "Fencing",
+    "explanation": "Fencing is correct because Fencing is associated with athletes score touches using swords and foil, epee, and sabre.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75880,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For a global sports trivia audience, which answer matches ice rink and artistry and technical elements?",
+    "answers": [
+      "Football / Soccer",
+      "Formula 1",
+      "Figure skating",
+      "Tennis"
+    ],
+    "correctAnswer": "Figure skating",
+    "explanation": "Figure skating is correct because Figure skating is associated with skaters combine jumps, spins, and choreography and artistry and technical elements.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75881,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of sports entry best fits Wrestling?",
+    "answers": [
+      "aquatic sport",
+      "combat sport",
+      "running event",
+      "mind sport"
+    ],
+    "correctAnswer": "combat sport",
+    "explanation": "combat sport is correct because Wrestling is associated with athletes grapple to control or pin opponents and takedowns and pins.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75882,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which clue would identify Darts without ambiguity?",
+    "answers": [
+      "artistry and technical elements",
+      "knockouts and judging",
+      "scoring segments and accuracy",
+      "spin and fast reactions"
+    ],
+    "correctAnswer": "scoring segments and accuracy",
+    "explanation": "scoring segments and accuracy is correct because Darts is associated with players throw darts at a circular board and scoring segments and accuracy.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75883,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is connected to mat and the label combat-sport?",
+    "answers": [
+      "Wrestling",
+      "Rugby Union",
+      "Swimming",
+      "Fencing"
+    ],
+    "correctAnswer": "Wrestling",
+    "explanation": "Wrestling is correct because Wrestling is associated with athletes grapple to control or pin opponents and takedowns and pins.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75884,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports choice fits the description 'ippon and leverage' most precisely?",
+    "answers": [
+      "Fencing",
+      "Badminton",
+      "Athletics",
+      "Judo"
+    ],
+    "correctAnswer": "Judo",
+    "explanation": "Judo is correct because Judo is associated with athletes use throws and holds to score and ippon and leverage.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75885,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports profile combines ocean waves with wave selection and balance?",
+    "answers": [
+      "Surfing",
+      "Esports",
+      "MMA",
+      "Taekwondo"
+    ],
+    "correctAnswer": "Surfing",
+    "explanation": "Surfing is correct because Surfing is associated with athletes ride breaking waves on boards and wave selection and balance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75886,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue would identify Esports without ambiguity?",
+    "answers": [
+      "strategy, mechanics, and teamwork",
+      "touchdowns and tackles",
+      "wind strategy and boat handling",
+      "World Cup and club football"
+    ],
+    "correctAnswer": "strategy, mechanics, and teamwork",
+    "explanation": "strategy, mechanics, and teamwork is correct because Esports is associated with players compete professionally in video games and strategy, mechanics, and teamwork.",
+    "tags": [
+      "sports",
+      "mind-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75887,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports item would fit a question about athletes ride breaking waves on boards?",
+    "answers": [
+      "Figure skating",
+      "Gymnastics",
+      "Surfing",
+      "American football"
+    ],
+    "correctAnswer": "Surfing",
+    "explanation": "Surfing is correct because Surfing is associated with athletes ride breaking waves on boards and wave selection and balance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75888,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What classification best separates Tennis from other sports answers?",
+    "answers": [
+      "martial art",
+      "action sport",
+      "racket sport",
+      "strength sport"
+    ],
+    "correctAnswer": "racket sport",
+    "explanation": "racket sport is correct because Tennis is associated with players hit a ball over a net using rackets and Grand Slam tournaments.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75889,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue would identify Tennis without ambiguity?",
+    "answers": [
+      "power plays and checking",
+      "takedowns and pins",
+      "speed and high kicks",
+      "Grand Slam tournaments"
+    ],
+    "correctAnswer": "Grand Slam tournaments",
+    "explanation": "Grand Slam tournaments is correct because Tennis is associated with players hit a ball over a net using rackets and Grand Slam tournaments.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75890,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which theme is most connected to Volleyball?",
+    "answers": [
+      "pit strategy and aerodynamics",
+      "mixed martial arts strategy",
+      "sets, spikes, and blocks",
+      "speed and high kicks"
+    ],
+    "correctAnswer": "sets, spikes, and blocks",
+    "explanation": "sets, spikes, and blocks is correct because Volleyball is associated with teams try to ground the ball over a high net and sets, spikes, and blocks.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75891,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which clue best supports Table tennis as the answer?",
+    "answers": [
+      "athletes grapple to control or pin opponents",
+      "teams try to ground the ball over a high net",
+      "athletes compete in squat, bench press, and deadlift",
+      "players hit a light ball across a small table"
+    ],
+    "correctAnswer": "players hit a light ball across a small table",
+    "explanation": "players hit a light ball across a small table is correct because Table tennis is associated with players hit a light ball across a small table and spin and fast reactions.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75892,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which detail is accurate for Rowing?",
+    "answers": [
+      "freestyle, breaststroke, and butterfly",
+      "sets, spikes, and blocks",
+      "pitching and home runs",
+      "synchronization and endurance"
+    ],
+    "correctAnswer": "synchronization and endurance",
+    "explanation": "synchronization and endurance is correct because Rowing is associated with crews propel narrow boats using oars and synchronization and endurance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75893,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which setting or origin is most strongly linked to Darts?",
+    "answers": [
+      "ice rink",
+      "throwing area",
+      "piste",
+      "platform"
+    ],
+    "correctAnswer": "throwing area",
+    "explanation": "throwing area is correct because Darts is associated with players throw darts at a circular board and scoring segments and accuracy.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75894,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What classification best separates Cycling from other sports answers?",
+    "answers": [
+      "mind sport",
+      "strength sport",
+      "endurance sport",
+      "motorsport"
+    ],
+    "correctAnswer": "endurance sport",
+    "explanation": "endurance sport is correct because Cycling is associated with athletes race on bicycles and pelotons and time trials.",
+    "tags": [
+      "sports",
+      "endurance-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75895,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is connected to street or park course and the label action-sport?",
+    "answers": [
+      "Skateboarding",
+      "Volleyball",
+      "Ski jumping",
+      "Cycling"
+    ],
+    "correctAnswer": "Skateboarding",
+    "explanation": "Skateboarding is correct because Skateboarding is associated with riders perform tricks on skateboards and style and technical tricks.",
+    "tags": [
+      "sports",
+      "action-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75896,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which theme is most connected to Figure skating?",
+    "answers": [
+      "quick reflexes and rallies",
+      "speed and edge control",
+      "foil, epee, and sabre",
+      "artistry and technical elements"
+    ],
+    "correctAnswer": "artistry and technical elements",
+    "explanation": "artistry and technical elements is correct because Figure skating is associated with skaters combine jumps, spins, and choreography and artistry and technical elements.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75897,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fact about American football is true?",
+    "answers": [
+      "sets, spikes, and blocks",
+      "aerodynamics and landing",
+      "touchdowns and tackles",
+      "quick reflexes and rallies"
+    ],
+    "correctAnswer": "touchdowns and tackles",
+    "explanation": "touchdowns and tackles is correct because American football is associated with teams advance the ball by passing or running over set downs and touchdowns and tackles.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75898,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue would identify Judo without ambiguity?",
+    "answers": [
+      "scrums and lineouts",
+      "ippon and leverage",
+      "power plays and checking",
+      "sprints and field events"
+    ],
+    "correctAnswer": "ippon and leverage",
+    "explanation": "ippon and leverage is correct because Judo is associated with athletes use throws and holds to score and ippon and leverage.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75899,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports topic is represented by Basketball?",
+    "answers": [
+      "action-sport",
+      "ball-sport",
+      "motorsport",
+      "endurance-sport"
+    ],
+    "correctAnswer": "ball-sport",
+    "explanation": "ball-sport is correct because Basketball is associated with teams score by shooting a ball through a hoop and fast transitions and rebounds.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75900,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "If the clue is racing lanes plus water sport, which answer fits best?",
+    "answers": [
+      "Rowing",
+      "Figure skating",
+      "Volleyball",
+      "Darts"
+    ],
+    "correctAnswer": "Rowing",
+    "explanation": "Rowing is correct because Rowing is associated with crews propel narrow boats using oars and synchronization and endurance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75901,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer correctly completes this sports profile: stadium, track and field sport, ___?",
+    "answers": [
+      "Golf",
+      "Athletics",
+      "Football / Soccer",
+      "Rowing"
+    ],
+    "correctAnswer": "Athletics",
+    "explanation": "Athletics is correct because Athletics is associated with running, jumping, and throwing events and sprints and field events.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75902,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which clue would identify Archery without ambiguity?",
+    "answers": [
+      "scoring segments and accuracy",
+      "power plays and checking",
+      "spin and fast reactions",
+      "accuracy and release control"
+    ],
+    "correctAnswer": "accuracy and release control",
+    "explanation": "accuracy and release control is correct because Archery is associated with athletes shoot arrows at a target and accuracy and release control.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75903,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer pairs with both racket sport and quick reflexes and rallies?",
+    "answers": [
+      "Marathon",
+      "Badminton",
+      "Golf",
+      "Athletics"
+    ],
+    "correctAnswer": "Badminton",
+    "explanation": "Badminton is correct because Badminton is associated with players hit a shuttlecock over a net and quick reflexes and rallies.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75904,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue best supports Alpine skiing as the answer?",
+    "answers": [
+      "crews propel narrow boats using oars",
+      "skiers race downhill through gates",
+      "running, jumping, and throwing events",
+      "players move pieces to checkmate the opponent's king"
+    ],
+    "correctAnswer": "skiers race downhill through gates",
+    "explanation": "skiers race downhill through gates is correct because Alpine skiing is associated with skiers race downhill through gates and speed and edge control.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75905,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports item is linked to the description 'teams advance the ball by passing or running over set downs'?",
+    "answers": [
+      "Skateboarding",
+      "Ski jumping",
+      "American football",
+      "Figure skating"
+    ],
+    "correctAnswer": "American football",
+    "explanation": "American football is correct because American football is associated with teams advance the ball by passing or running over set downs and touchdowns and tackles.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75906,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which phrase best describes Snowboarding?",
+    "answers": [
+      "riders perform tricks on skateboards",
+      "athletes lift maximum weights in snatch and clean and jerk",
+      "athletes grapple to control or pin opponents",
+      "athletes ride a single board on snow"
+    ],
+    "correctAnswer": "athletes ride a single board on snow",
+    "explanation": "athletes ride a single board on snow is correct because Snowboarding is associated with athletes ride a single board on snow and halfpipe and slopestyle.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75907,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer completes this sports match: Judo -> ?",
+    "answers": [
+      "power plays and checking",
+      "ippon and leverage",
+      "wave selection and balance",
+      "strategy, mechanics, and teamwork"
+    ],
+    "correctAnswer": "ippon and leverage",
+    "explanation": "ippon and leverage is correct because Judo is associated with athletes use throws and holds to score and ippon and leverage.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75908,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports option is most closely tied to racing lanes?",
+    "answers": [
+      "Boxing",
+      "Badminton",
+      "Judo",
+      "Rowing"
+    ],
+    "correctAnswer": "Rowing",
+    "explanation": "Rowing is correct because Rowing is associated with crews propel narrow boats using oars and synchronization and endurance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75909,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer correctly completes this sports profile: indoor court, racket sport, ___?",
+    "answers": [
+      "Skateboarding",
+      "Taekwondo",
+      "Formula 1",
+      "Badminton"
+    ],
+    "correctAnswer": "Badminton",
+    "explanation": "Badminton is correct because Badminton is associated with players hit a shuttlecock over a net and quick reflexes and rallies.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75910,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports profile combines open water with wind strategy and boat handling?",
+    "answers": [
+      "Alpine skiing",
+      "Sailing",
+      "Archery",
+      "Ski jumping"
+    ],
+    "correctAnswer": "Sailing",
+    "explanation": "Sailing is correct because Sailing is associated with boats use wind power to race or navigate and wind strategy and boat handling.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75911,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer matches the sports clue 'athletes perform routines on apparatus or floor' and avoids ambiguity?",
+    "answers": [
+      "Gymnastics",
+      "Weightlifting",
+      "Boxing",
+      "Archery"
+    ],
+    "correctAnswer": "Gymnastics",
+    "explanation": "Gymnastics is correct because Gymnastics is associated with athletes perform routines on apparatus or floor and difficulty and execution scoring.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75912,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports option is correctly linked to the clue 'ball-sport / fast transitions and rebounds'?",
+    "answers": [
+      "Table tennis",
+      "Volleyball",
+      "Taekwondo",
+      "Basketball"
+    ],
+    "correctAnswer": "Basketball",
+    "explanation": "Basketball is correct because Basketball is associated with teams score by shooting a ball through a hoop and fast transitions and rebounds.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75913,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports topic is represented by Cycling?",
+    "answers": [
+      "martial-art",
+      "endurance-sport",
+      "running",
+      "water-sport"
+    ],
+    "correctAnswer": "endurance-sport",
+    "explanation": "endurance-sport is correct because Cycling is associated with athletes race on bicycles and pelotons and time trials.",
+    "tags": [
+      "sports",
+      "endurance-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75914,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports item is linked to the description 'fighters combine striking, wrestling, and submissions'?",
+    "answers": [
+      "Cycling",
+      "Golf",
+      "Rowing",
+      "MMA"
+    ],
+    "correctAnswer": "MMA",
+    "explanation": "MMA is correct because MMA is associated with fighters combine striking, wrestling, and submissions and mixed martial arts strategy.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75915,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer should be selected for the clue 'cage or ring / combat-sport'?",
+    "answers": [
+      "MMA",
+      "Marathon",
+      "Darts",
+      "Cricket"
+    ],
+    "correctAnswer": "MMA",
+    "explanation": "MMA is correct because MMA is associated with fighters combine striking, wrestling, and submissions and mixed martial arts strategy.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75916,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer pairs with both winter sport and speed and edge control?",
+    "answers": [
+      "Archery",
+      "Skateboarding",
+      "Fencing",
+      "Alpine skiing"
+    ],
+    "correctAnswer": "Alpine skiing",
+    "explanation": "Alpine skiing is correct because Alpine skiing is associated with skiers race downhill through gates and speed and edge control.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75917,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports option is most closely tied to platform?",
+    "answers": [
+      "Archery",
+      "Wrestling",
+      "Table tennis",
+      "Weightlifting"
+    ],
+    "correctAnswer": "Weightlifting",
+    "explanation": "Weightlifting is correct because Weightlifting is associated with athletes lift maximum weights in snatch and clean and jerk and explosive strength.",
+    "tags": [
+      "sports",
+      "strength-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75918,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which option is a clean match for MotoGP?",
+    "answers": [
+      "roads or tracks",
+      "racing circuits",
+      "mountain slopes",
+      "range"
+    ],
+    "correctAnswer": "racing circuits",
+    "explanation": "racing circuits is correct because MotoGP is associated with top-level motorcycle road racing and lean angles and lap speed.",
+    "tags": [
+      "sports",
+      "motorsport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75919,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which fact about Gymnastics is true?",
+    "answers": [
+      "pit strategy and aerodynamics",
+      "difficulty and execution scoring",
+      "strategy and calculation",
+      "scoring segments and accuracy"
+    ],
+    "correctAnswer": "difficulty and execution scoring",
+    "explanation": "difficulty and execution scoring is correct because Gymnastics is associated with athletes perform routines on apparatus or floor and difficulty and execution scoring.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75920,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which clue would identify Basketball without ambiguity?",
+    "answers": [
+      "synchronization and endurance",
+      "World Cup and club football",
+      "ippon and leverage",
+      "fast transitions and rebounds"
+    ],
+    "correctAnswer": "fast transitions and rebounds",
+    "explanation": "fast transitions and rebounds is correct because Basketball is associated with teams score by shooting a ball through a hoop and fast transitions and rebounds.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75921,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer would belong in a set about endurance-sport?",
+    "answers": [
+      "Cycling",
+      "Basketball",
+      "Weightlifting",
+      "Judo"
+    ],
+    "correctAnswer": "Cycling",
+    "explanation": "Cycling is correct because Cycling is associated with athletes race on bicycles and pelotons and time trials.",
+    "tags": [
+      "sports",
+      "endurance-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75922,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer best matches this sports category clue: aquatic sport, pool, freestyle, breaststroke, and butterfly?",
+    "answers": [
+      "Swimming",
+      "Cycling",
+      "Golf",
+      "Boxing"
+    ],
+    "correctAnswer": "Swimming",
+    "explanation": "Swimming is correct because Swimming is associated with athletes race through water using defined strokes and freestyle, breaststroke, and butterfly.",
+    "tags": [
+      "sports",
+      "aquatic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75923,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports clue points to wind strategy and boat handling?",
+    "answers": [
+      "Volleyball",
+      "Sailing",
+      "Rowing",
+      "Alpine skiing"
+    ],
+    "correctAnswer": "Sailing",
+    "explanation": "Sailing is correct because Sailing is associated with boats use wind power to race or navigate and wind strategy and boat handling.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75924,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer best matches this sports category clue: combat sport, ring, knockouts and judging?",
+    "answers": [
+      "Esports",
+      "Formula 1",
+      "Marathon",
+      "Boxing"
+    ],
+    "correctAnswer": "Boxing",
+    "explanation": "Boxing is correct because Boxing is associated with fighters punch within weight classes and rounds and knockouts and judging.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75925,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is linked to arena apparatus and described by athletes perform routines on apparatus or floor?",
+    "answers": [
+      "Field hockey",
+      "Gymnastics",
+      "Basketball",
+      "Wrestling"
+    ],
+    "correctAnswer": "Gymnastics",
+    "explanation": "Gymnastics is correct because Gymnastics is associated with athletes perform routines on apparatus or floor and difficulty and execution scoring.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75926,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports concept is correctly paired with athletes lift maximum weights in snatch and clean and jerk?",
+    "answers": [
+      "Powerlifting",
+      "American football",
+      "Weightlifting",
+      "Golf"
+    ],
+    "correctAnswer": "Weightlifting",
+    "explanation": "Weightlifting is correct because Weightlifting is associated with athletes lift maximum weights in snatch and clean and jerk and explosive strength.",
+    "tags": [
+      "sports",
+      "strength-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75927,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which theme is most connected to Basketball?",
+    "answers": [
+      "sets, spikes, and blocks",
+      "World Cup and club football",
+      "speed and high kicks",
+      "fast transitions and rebounds"
+    ],
+    "correctAnswer": "fast transitions and rebounds",
+    "explanation": "fast transitions and rebounds is correct because Basketball is associated with teams score by shooting a ball through a hoop and fast transitions and rebounds.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75928,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue would identify Snowboarding without ambiguity?",
+    "answers": [
+      "power plays and checking",
+      "wickets and innings",
+      "halfpipe and slopestyle",
+      "takedowns and pins"
+    ],
+    "correctAnswer": "halfpipe and slopestyle",
+    "explanation": "halfpipe and slopestyle is correct because Snowboarding is associated with athletes ride a single board on snow and halfpipe and slopestyle.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75929,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What classification best separates Ski jumping from other sports answers?",
+    "answers": [
+      "winter sport",
+      "track and field sport",
+      "team sport",
+      "competitive gaming"
+    ],
+    "correctAnswer": "winter sport",
+    "explanation": "winter sport is correct because Ski jumping is associated with athletes launch from a ramp and fly for distance and style and aerodynamics and landing.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75930,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which phrase best describes Fencing?",
+    "answers": [
+      "athletes ride breaking waves on boards",
+      "athletes lift maximum weights in snatch and clean and jerk",
+      "athletes race through water using defined strokes",
+      "athletes score touches using swords"
+    ],
+    "correctAnswer": "athletes score touches using swords",
+    "explanation": "athletes score touches using swords is correct because Fencing is associated with athletes score touches using swords and foil, epee, and sabre.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75931,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which category label best applies to Ski jumping?",
+    "answers": [
+      "endurance-sport",
+      "winter-sport",
+      "strength-sport",
+      "motorsport"
+    ],
+    "correctAnswer": "winter-sport",
+    "explanation": "winter-sport is correct because Ski jumping is associated with athletes launch from a ramp and fly for distance and style and aerodynamics and landing.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75932,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports concept is correctly paired with teams carry, pass, kick, and tackle for territory and tries?",
+    "answers": [
+      "Powerlifting",
+      "MotoGP",
+      "Swimming",
+      "Rugby Union"
+    ],
+    "correctAnswer": "Rugby Union",
+    "explanation": "Rugby Union is correct because Rugby Union is associated with teams carry, pass, kick, and tackle for territory and tries and scrums and lineouts.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75933,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports concept is correctly paired with teams advance the ball by passing or running over set downs?",
+    "answers": [
+      "Football / Soccer",
+      "American football",
+      "Taekwondo",
+      "Ice hockey"
+    ],
+    "correctAnswer": "American football",
+    "explanation": "American football is correct because American football is associated with teams advance the ball by passing or running over set downs and touchdowns and tackles.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75934,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer belongs with the theme 'pitching and home runs'?",
+    "answers": [
+      "Tennis",
+      "Judo",
+      "Baseball",
+      "Powerlifting"
+    ],
+    "correctAnswer": "Baseball",
+    "explanation": "Baseball is correct because Baseball is associated with teams score by running bases after hitting the ball and pitching and home runs.",
+    "tags": [
+      "sports",
+      "bat-and-ball",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75935,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports concept is associated with racket-sport and table court?",
+    "answers": [
+      "MotoGP",
+      "Table tennis",
+      "Athletics",
+      "Skateboarding"
+    ],
+    "correctAnswer": "Table tennis",
+    "explanation": "Table tennis is correct because Table tennis is associated with players hit a light ball across a small table and spin and fast reactions.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75936,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer belongs with the theme 'knockouts and judging'?",
+    "answers": [
+      "Archery",
+      "Marathon",
+      "Football / Soccer",
+      "Boxing"
+    ],
+    "correctAnswer": "Boxing",
+    "explanation": "Boxing is correct because Boxing is associated with fighters punch within weight classes and rounds and knockouts and judging.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75937,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is defined by teams try to ground the ball over a high net and linked to sets, spikes, and blocks?",
+    "answers": [
+      "Sailing",
+      "Snowboarding",
+      "Field hockey",
+      "Volleyball"
+    ],
+    "correctAnswer": "Volleyball",
+    "explanation": "Volleyball is correct because Volleyball is associated with teams try to ground the ball over a high net and sets, spikes, and blocks.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75938,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer is linked to throwing area and described by players throw darts at a circular board?",
+    "answers": [
+      "Darts",
+      "Powerlifting",
+      "Cricket",
+      "Archery"
+    ],
+    "correctAnswer": "Darts",
+    "explanation": "Darts is correct because Darts is associated with players throw darts at a circular board and scoring segments and accuracy.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75939,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports option is most closely tied to rugby field?",
+    "answers": [
+      "Rugby Union",
+      "American football",
+      "Skateboarding",
+      "Powerlifting"
+    ],
+    "correctAnswer": "Rugby Union",
+    "explanation": "Rugby Union is correct because Rugby Union is associated with teams carry, pass, kick, and tackle for territory and tries and scrums and lineouts.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75940,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer has the strongest connection to bat-and-ball sport?",
+    "answers": [
+      "Football / Soccer",
+      "Cricket",
+      "Sailing",
+      "Field hockey"
+    ],
+    "correctAnswer": "Cricket",
+    "explanation": "Cricket is correct because Cricket is associated with batters score runs while bowlers try to dismiss them and wickets and innings.",
+    "tags": [
+      "sports",
+      "bat-and-ball",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75941,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer best matches this sports category clue: strength sport, platform, explosive strength?",
+    "answers": [
+      "Powerlifting",
+      "Sailing",
+      "Athletics",
+      "Weightlifting"
+    ],
+    "correctAnswer": "Weightlifting",
+    "explanation": "Weightlifting is correct because Weightlifting is associated with athletes lift maximum weights in snatch and clean and jerk and explosive strength.",
+    "tags": [
+      "sports",
+      "strength-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75942,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fact would be fair and correct for Snowboarding?",
+    "answers": [
+      "athletes perform routines on apparatus or floor",
+      "athletes ride a single board on snow",
+      "players use clubs to complete holes in few strokes",
+      "teams try to ground the ball over a high net"
+    ],
+    "correctAnswer": "athletes ride a single board on snow",
+    "explanation": "athletes ride a single board on snow is correct because Snowboarding is associated with athletes ride a single board on snow and halfpipe and slopestyle.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75943,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which category label best applies to Judo?",
+    "answers": [
+      "olympic-sport",
+      "water-sport",
+      "strength-sport",
+      "martial-art"
+    ],
+    "correctAnswer": "martial-art",
+    "explanation": "martial-art is correct because Judo is associated with athletes use throws and holds to score and ippon and leverage.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75944,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports option is most closely tied to open water?",
+    "answers": [
+      "Formula 1",
+      "Wrestling",
+      "Sailing",
+      "Archery"
+    ],
+    "correctAnswer": "Sailing",
+    "explanation": "Sailing is correct because Sailing is associated with boats use wind power to race or navigate and wind strategy and boat handling.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75945,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports concept is correctly paired with athletes race on bicycles?",
+    "answers": [
+      "Volleyball",
+      "Rowing",
+      "Alpine skiing",
+      "Cycling"
+    ],
+    "correctAnswer": "Cycling",
+    "explanation": "Cycling is correct because Cycling is associated with athletes race on bicycles and pelotons and time trials.",
+    "tags": [
+      "sports",
+      "endurance-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75946,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which phrase best describes MMA?",
+    "answers": [
+      "athletes shoot arrows at a target",
+      "fighters combine striking, wrestling, and submissions",
+      "skiers race downhill through gates",
+      "teams carry, pass, kick, and tackle for territory and tries"
+    ],
+    "correctAnswer": "fighters combine striking, wrestling, and submissions",
+    "explanation": "fighters combine striking, wrestling, and submissions is correct because MMA is associated with fighters combine striking, wrestling, and submissions and mixed martial arts strategy.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75947,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which clue would identify Swimming without ambiguity?",
+    "answers": [
+      "wave selection and balance",
+      "lean angles and lap speed",
+      "strategy, mechanics, and teamwork",
+      "freestyle, breaststroke, and butterfly"
+    ],
+    "correctAnswer": "freestyle, breaststroke, and butterfly",
+    "explanation": "freestyle, breaststroke, and butterfly is correct because Swimming is associated with athletes race through water using defined strokes and freestyle, breaststroke, and butterfly.",
+    "tags": [
+      "sports",
+      "aquatic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75948,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which clue best supports Cricket as the answer?",
+    "answers": [
+      "athletes score touches using swords",
+      "fighters punch within weight classes and rounds",
+      "batters score runs while bowlers try to dismiss them",
+      "players use clubs to complete holes in few strokes"
+    ],
+    "correctAnswer": "batters score runs while bowlers try to dismiss them",
+    "explanation": "batters score runs while bowlers try to dismiss them is correct because Cricket is associated with batters score runs while bowlers try to dismiss them and wickets and innings.",
+    "tags": [
+      "sports",
+      "bat-and-ball",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75949,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which category label best applies to Athletics?",
+    "answers": [
+      "action-sport",
+      "ball-sport",
+      "olympic-sport",
+      "running"
+    ],
+    "correctAnswer": "olympic-sport",
+    "explanation": "olympic-sport is correct because Athletics is associated with running, jumping, and throwing events and sprints and field events.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75950,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the correct sports match for the clue 'freestyle, breaststroke, and butterfly'?",
+    "answers": [
+      "Archery",
+      "Figure skating",
+      "Athletics",
+      "Swimming"
+    ],
+    "correctAnswer": "Swimming",
+    "explanation": "Swimming is correct because Swimming is associated with athletes race through water using defined strokes and freestyle, breaststroke, and butterfly.",
+    "tags": [
+      "sports",
+      "aquatic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75951,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer correctly completes this sports profile: course, precision sport, ___?",
+    "answers": [
+      "Formula 1",
+      "Surfing",
+      "Golf",
+      "Athletics"
+    ],
+    "correctAnswer": "Golf",
+    "explanation": "Golf is correct because Golf is associated with players use clubs to complete holes in few strokes and pars, birdies, and greens.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75952,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the correct sports match for the clue 'World Cup and club football'?",
+    "answers": [
+      "Football / Soccer",
+      "Swimming",
+      "Skateboarding",
+      "Judo"
+    ],
+    "correctAnswer": "Football / Soccer",
+    "explanation": "Football / Soccer is correct because Football / Soccer is associated with players score by getting the ball into a goal mostly with their feet and World Cup and club football.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75953,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer has the strongest connection to track and field sport?",
+    "answers": [
+      "Fencing",
+      "Boxing",
+      "Surfing",
+      "Athletics"
+    ],
+    "correctAnswer": "Athletics",
+    "explanation": "Athletics is correct because Athletics is associated with running, jumping, and throwing events and sprints and field events.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75954,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports option is most closely tied to throwing area?",
+    "answers": [
+      "Cycling",
+      "Alpine skiing",
+      "Formula 1",
+      "Darts"
+    ],
+    "correctAnswer": "Darts",
+    "explanation": "Darts is correct because Darts is associated with players throw darts at a circular board and scoring segments and accuracy.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75955,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue best supports Sailing as the answer?",
+    "answers": [
+      "boats use wind power to race or navigate",
+      "riders perform tricks on skateboards",
+      "athletes use throws and holds to score",
+      "players move pieces to checkmate the opponent's king"
+    ],
+    "correctAnswer": "boats use wind power to race or navigate",
+    "explanation": "boats use wind power to race or navigate is correct because Sailing is associated with boats use wind power to race or navigate and wind strategy and boat handling.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75956,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What classification best separates Table tennis from other sports answers?",
+    "answers": [
+      "combat sport",
+      "judged sport",
+      "racket sport",
+      "winter sport"
+    ],
+    "correctAnswer": "racket sport",
+    "explanation": "racket sport is correct because Table tennis is associated with players hit a light ball across a small table and spin and fast reactions.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75957,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of sports entry best fits Formula 1?",
+    "answers": [
+      "judged sport",
+      "martial art",
+      "action sport",
+      "motorsport"
+    ],
+    "correctAnswer": "motorsport",
+    "explanation": "motorsport is correct because Formula 1 is associated with single-seat cars compete in Grand Prix races and pit strategy and aerodynamics.",
+    "tags": [
+      "sports",
+      "motorsport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75958,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of sports entry best fits Swimming?",
+    "answers": [
+      "aquatic sport",
+      "motorsport",
+      "running event",
+      "water sport"
+    ],
+    "correctAnswer": "aquatic sport",
+    "explanation": "aquatic sport is correct because Swimming is associated with athletes race through water using defined strokes and freestyle, breaststroke, and butterfly.",
+    "tags": [
+      "sports",
+      "aquatic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75959,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which phrase best describes Football / Soccer?",
+    "answers": [
+      "running, jumping, and throwing events",
+      "teams advance the ball by passing or running over set downs",
+      "athletes launch from a ramp and fly for distance and style",
+      "players score by getting the ball into a goal mostly with their feet"
+    ],
+    "correctAnswer": "players score by getting the ball into a goal mostly with their feet",
+    "explanation": "players score by getting the ball into a goal mostly with their feet is correct because Football / Soccer is associated with players score by getting the ball into a goal mostly with their feet and World Cup and club football.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75960,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer is most naturally connected to speed and edge control?",
+    "answers": [
+      "Fencing",
+      "Football / Soccer",
+      "Boxing",
+      "Alpine skiing"
+    ],
+    "correctAnswer": "Alpine skiing",
+    "explanation": "Alpine skiing is correct because Alpine skiing is associated with skiers race downhill through gates and speed and edge control.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75961,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which theme is most connected to Baseball?",
+    "answers": [
+      "maximal strength",
+      "pitching and home runs",
+      "halfpipe and slopestyle",
+      "World Cup and club football"
+    ],
+    "correctAnswer": "pitching and home runs",
+    "explanation": "pitching and home runs is correct because Baseball is associated with teams score by running bases after hitting the ball and pitching and home runs.",
+    "tags": [
+      "sports",
+      "bat-and-ball",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75962,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which option is a clean match for Rugby Union?",
+    "answers": [
+      "indoor court",
+      "turf field",
+      "court with net",
+      "rugby field"
+    ],
+    "correctAnswer": "rugby field",
+    "explanation": "rugby field is correct because Rugby Union is associated with teams carry, pass, kick, and tackle for territory and tries and scrums and lineouts.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75963,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which clue best supports Marathon as the answer?",
+    "answers": [
+      "long-distance race of 42.195 kilometers",
+      "teams advance the ball by passing or running over set downs",
+      "athletes ride a single board on snow",
+      "skaters combine jumps, spins, and choreography"
+    ],
+    "correctAnswer": "long-distance race of 42.195 kilometers",
+    "explanation": "long-distance race of 42.195 kilometers is correct because Marathon is associated with long-distance race of 42.195 kilometers and endurance pacing.",
+    "tags": [
+      "sports",
+      "running",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75964,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is connected to board and the label mind-sport?",
+    "answers": [
+      "Football / Soccer",
+      "Swimming",
+      "Chess",
+      "Powerlifting"
+    ],
+    "correctAnswer": "Chess",
+    "explanation": "Chess is correct because Chess is associated with players move pieces to checkmate the opponent's king and strategy and calculation.",
+    "tags": [
+      "sports",
+      "mind-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75965,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports option is most closely tied to turf field?",
+    "answers": [
+      "MotoGP",
+      "Snowboarding",
+      "Sailing",
+      "Field hockey"
+    ],
+    "correctAnswer": "Field hockey",
+    "explanation": "Field hockey is correct because Field hockey is associated with players use sticks to move a ball toward goal and penalty corners.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75966,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports concept is correctly paired with single-seat cars compete in Grand Prix races?",
+    "answers": [
+      "Skateboarding",
+      "Marathon",
+      "American football",
+      "Formula 1"
+    ],
+    "correctAnswer": "Formula 1",
+    "explanation": "Formula 1 is correct because Formula 1 is associated with single-seat cars compete in Grand Prix races and pit strategy and aerodynamics.",
+    "tags": [
+      "sports",
+      "motorsport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75967,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports option is correctly linked to the clue 'precision-sport / scoring segments and accuracy'?",
+    "answers": [
+      "Tennis",
+      "Darts",
+      "Taekwondo",
+      "Rowing"
+    ],
+    "correctAnswer": "Darts",
+    "explanation": "Darts is correct because Darts is associated with players throw darts at a circular board and scoring segments and accuracy.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75968,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer completes this sports match: Volleyball -> ?",
+    "answers": [
+      "quick reflexes and rallies",
+      "wickets and innings",
+      "sets, spikes, and blocks",
+      "sprints and field events"
+    ],
+    "correctAnswer": "sets, spikes, and blocks",
+    "explanation": "sets, spikes, and blocks is correct because Volleyball is associated with teams try to ground the ball over a high net and sets, spikes, and blocks.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75969,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports option matches the origin clue 'racing lanes' and the type clue 'water sport'?",
+    "answers": [
+      "MotoGP",
+      "Rowing",
+      "Fencing",
+      "Snowboarding"
+    ],
+    "correctAnswer": "Rowing",
+    "explanation": "Rowing is correct because Rowing is associated with crews propel narrow boats using oars and synchronization and endurance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75970,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which setting or origin is most strongly linked to MMA?",
+    "answers": [
+      "turf field",
+      "roads or tracks",
+      "course",
+      "cage or ring"
+    ],
+    "correctAnswer": "cage or ring",
+    "explanation": "cage or ring is correct because MMA is associated with fighters combine striking, wrestling, and submissions and mixed martial arts strategy.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75971,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports profile combines ice rink with artistry and technical elements?",
+    "answers": [
+      "Athletics",
+      "Taekwondo",
+      "Figure skating",
+      "Football / Soccer"
+    ],
+    "correctAnswer": "Figure skating",
+    "explanation": "Figure skating is correct because Figure skating is associated with skaters combine jumps, spins, and choreography and artistry and technical elements.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75972,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "If the clue is ice rink plus judged sport, which answer fits best?",
+    "answers": [
+      "Golf",
+      "Figure skating",
+      "Volleyball",
+      "Archery"
+    ],
+    "correctAnswer": "Figure skating",
+    "explanation": "Figure skating is correct because Figure skating is associated with skaters combine jumps, spins, and choreography and artistry and technical elements.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75973,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer best completes the sports pair: Volleyball and court with net?",
+    "answers": [
+      "maximal strength",
+      "sets, spikes, and blocks",
+      "synchronization and endurance",
+      "pit strategy and aerodynamics"
+    ],
+    "correctAnswer": "sets, spikes, and blocks",
+    "explanation": "sets, spikes, and blocks is correct because Volleyball is associated with teams try to ground the ball over a high net and sets, spikes, and blocks.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75974,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports choice fits the description 'style and technical tricks' most precisely?",
+    "answers": [
+      "Skateboarding",
+      "Taekwondo",
+      "Volleyball",
+      "Formula 1"
+    ],
+    "correctAnswer": "Skateboarding",
+    "explanation": "Skateboarding is correct because Skateboarding is associated with riders perform tricks on skateboards and style and technical tricks.",
+    "tags": [
+      "sports",
+      "action-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75975,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer completes this sports match: MotoGP -> ?",
+    "answers": [
+      "mixed martial arts strategy",
+      "scoring segments and accuracy",
+      "lean angles and lap speed",
+      "pit strategy and aerodynamics"
+    ],
+    "correctAnswer": "lean angles and lap speed",
+    "explanation": "lean angles and lap speed is correct because MotoGP is associated with top-level motorcycle road racing and lean angles and lap speed.",
+    "tags": [
+      "sports",
+      "motorsport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75976,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports choice fits the description 'foil, epee, and sabre' most precisely?",
+    "answers": [
+      "Figure skating",
+      "Basketball",
+      "Fencing",
+      "MotoGP"
+    ],
+    "correctAnswer": "Fencing",
+    "explanation": "Fencing is correct because Fencing is associated with athletes score touches using swords and foil, epee, and sabre.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75977,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports concept is correctly paired with athletes ride breaking waves on boards?",
+    "answers": [
+      "Surfing",
+      "Ski jumping",
+      "Rowing",
+      "Ice hockey"
+    ],
+    "correctAnswer": "Surfing",
+    "explanation": "Surfing is correct because Surfing is associated with athletes ride breaking waves on boards and wave selection and balance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75978,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer pairs with both racket sport and spin and fast reactions?",
+    "answers": [
+      "Fencing",
+      "Esports",
+      "Table tennis",
+      "MotoGP"
+    ],
+    "correctAnswer": "Table tennis",
+    "explanation": "Table tennis is correct because Table tennis is associated with players hit a light ball across a small table and spin and fast reactions.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75979,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer pairs with both team sport and touchdowns and tackles?",
+    "answers": [
+      "Wrestling",
+      "Darts",
+      "Skateboarding",
+      "American football"
+    ],
+    "correctAnswer": "American football",
+    "explanation": "American football is correct because American football is associated with teams advance the ball by passing or running over set downs and touchdowns and tackles.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75980,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of sports entry best fits Rowing?",
+    "answers": [
+      "endurance sport",
+      "water sport",
+      "mind sport",
+      "winter sport"
+    ],
+    "correctAnswer": "water sport",
+    "explanation": "water sport is correct because Rowing is associated with crews propel narrow boats using oars and synchronization and endurance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75981,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What classification best separates Badminton from other sports answers?",
+    "answers": [
+      "action sport",
+      "track and field sport",
+      "racket sport",
+      "bat-and-ball sport"
+    ],
+    "correctAnswer": "racket sport",
+    "explanation": "racket sport is correct because Badminton is associated with players hit a shuttlecock over a net and quick reflexes and rallies.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75982,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports question would have Rugby Union as the cleanest answer?",
+    "answers": [
+      "kicking-focused martial art and Olympic sport",
+      "teams carry, pass, kick, and tackle for territory and tries",
+      "athletes launch from a ramp and fly for distance and style",
+      "athletes grapple to control or pin opponents"
+    ],
+    "correctAnswer": "teams carry, pass, kick, and tackle for territory and tries",
+    "explanation": "teams carry, pass, kick, and tackle for territory and tries is correct because Rugby Union is associated with teams carry, pass, kick, and tackle for territory and tries and scrums and lineouts.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75983,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In a ranked sports round, which fact correctly matches Golf?",
+    "answers": [
+      "players use clubs to complete holes in few strokes",
+      "teams score by shooting a ball through a hoop",
+      "players hit a ball over a net using rackets",
+      "players compete professionally in video games"
+    ],
+    "correctAnswer": "players use clubs to complete holes in few strokes",
+    "explanation": "players use clubs to complete holes in few strokes is correct because Golf is associated with players use clubs to complete holes in few strokes and pars, birdies, and greens.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75984,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer is most naturally connected to ippon and leverage?",
+    "answers": [
+      "Snowboarding",
+      "Judo",
+      "Wrestling",
+      "Archery"
+    ],
+    "correctAnswer": "Judo",
+    "explanation": "Judo is correct because Judo is associated with athletes use throws and holds to score and ippon and leverage.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75985,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is linked to indoor court and described by players hit a shuttlecock over a net?",
+    "answers": [
+      "Chess",
+      "Cricket",
+      "Ski jumping",
+      "Badminton"
+    ],
+    "correctAnswer": "Badminton",
+    "explanation": "Badminton is correct because Badminton is associated with players hit a shuttlecock over a net and quick reflexes and rallies.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75986,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer completes this sports match: Table tennis -> ?",
+    "answers": [
+      "wave selection and balance",
+      "spin and fast reactions",
+      "penalty corners",
+      "strategy, mechanics, and teamwork"
+    ],
+    "correctAnswer": "spin and fast reactions",
+    "explanation": "spin and fast reactions is correct because Table tennis is associated with players hit a light ball across a small table and spin and fast reactions.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75987,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer is best described as players use sticks to move a ball toward goal?",
+    "answers": [
+      "Ice hockey",
+      "Darts",
+      "Field hockey",
+      "Figure skating"
+    ],
+    "correctAnswer": "Field hockey",
+    "explanation": "Field hockey is correct because Field hockey is associated with players use sticks to move a ball toward goal and penalty corners.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75988,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is best described as teams try to ground the ball over a high net?",
+    "answers": [
+      "Baseball",
+      "Figure skating",
+      "Volleyball",
+      "Weightlifting"
+    ],
+    "correctAnswer": "Volleyball",
+    "explanation": "Volleyball is correct because Volleyball is associated with teams try to ground the ball over a high net and sets, spikes, and blocks.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75989,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of sports entry best fits Rugby Union?",
+    "answers": [
+      "judged sport",
+      "team sport",
+      "track and field sport",
+      "competitive gaming"
+    ],
+    "correctAnswer": "team sport",
+    "explanation": "team sport is correct because Rugby Union is associated with teams carry, pass, kick, and tackle for territory and tries and scrums and lineouts.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75990,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports item would fit a question about fighters punch within weight classes and rounds?",
+    "answers": [
+      "Boxing",
+      "Cycling",
+      "Snowboarding",
+      "Rowing"
+    ],
+    "correctAnswer": "Boxing",
+    "explanation": "Boxing is correct because Boxing is associated with fighters punch within weight classes and rounds and knockouts and judging.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75991,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer matches the sports clue 'teams try to ground the ball over a high net' and avoids ambiguity?",
+    "answers": [
+      "Judo",
+      "Golf",
+      "Volleyball",
+      "Esports"
+    ],
+    "correctAnswer": "Volleyball",
+    "explanation": "Volleyball is correct because Volleyball is associated with teams try to ground the ball over a high net and sets, spikes, and blocks.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75992,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports question would have Wrestling as the cleanest answer?",
+    "answers": [
+      "athletes grapple to control or pin opponents",
+      "athletes race through water using defined strokes",
+      "athletes score touches using swords",
+      "long-distance race of 42.195 kilometers"
+    ],
+    "correctAnswer": "athletes grapple to control or pin opponents",
+    "explanation": "athletes grapple to control or pin opponents is correct because Wrestling is associated with athletes grapple to control or pin opponents and takedowns and pins.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75993,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer best matches this sports category clue: precision sport, range, accuracy and release control?",
+    "answers": [
+      "Surfing",
+      "Volleyball",
+      "Archery",
+      "Skateboarding"
+    ],
+    "correctAnswer": "Archery",
+    "explanation": "Archery is correct because Archery is associated with athletes shoot arrows at a target and accuracy and release control.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75994,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of sports entry best fits Snowboarding?",
+    "answers": [
+      "endurance sport",
+      "winter sport",
+      "water sport",
+      "competitive gaming"
+    ],
+    "correctAnswer": "winter sport",
+    "explanation": "winter sport is correct because Snowboarding is associated with athletes ride a single board on snow and halfpipe and slopestyle.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75995,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which theme is most connected to Badminton?",
+    "answers": [
+      "Grand Slam tournaments",
+      "quick reflexes and rallies",
+      "strategy, mechanics, and teamwork",
+      "accuracy and release control"
+    ],
+    "correctAnswer": "quick reflexes and rallies",
+    "explanation": "quick reflexes and rallies is correct because Badminton is associated with players hit a shuttlecock over a net and quick reflexes and rallies.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75996,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which theme is most connected to Ice hockey?",
+    "answers": [
+      "foil, epee, and sabre",
+      "power plays and checking",
+      "explosive strength",
+      "spin and fast reactions"
+    ],
+    "correctAnswer": "power plays and checking",
+    "explanation": "power plays and checking is correct because Ice hockey is associated with players skate and shoot a puck into a goal and power plays and checking.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75997,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer best completes the sports pair: Swimming and pool?",
+    "answers": [
+      "lean angles and lap speed",
+      "foil, epee, and sabre",
+      "sprints and field events",
+      "freestyle, breaststroke, and butterfly"
+    ],
+    "correctAnswer": "freestyle, breaststroke, and butterfly",
+    "explanation": "freestyle, breaststroke, and butterfly is correct because Swimming is associated with athletes race through water using defined strokes and freestyle, breaststroke, and butterfly.",
+    "tags": [
+      "sports",
+      "aquatic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75998,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports question would have Tennis as the cleanest answer?",
+    "answers": [
+      "skaters combine jumps, spins, and choreography",
+      "players hit a ball over a net using rackets",
+      "teams advance the ball by passing or running over set downs",
+      "boats use wind power to race or navigate"
+    ],
+    "correctAnswer": "players hit a ball over a net using rackets",
+    "explanation": "players hit a ball over a net using rackets is correct because Tennis is associated with players hit a ball over a net using rackets and Grand Slam tournaments.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 75999,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a ranked sports round, which fact correctly matches Boxing?",
+    "answers": [
+      "fighters punch within weight classes and rounds",
+      "skiers race downhill through gates",
+      "athletes ride breaking waves on boards",
+      "athletes grapple to control or pin opponents"
+    ],
+    "correctAnswer": "fighters punch within weight classes and rounds",
+    "explanation": "fighters punch within weight classes and rounds is correct because Boxing is associated with fighters punch within weight classes and rounds and knockouts and judging.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76000,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer should be selected for the clue 'open water / water-sport'?",
+    "answers": [
+      "Sailing",
+      "Snowboarding",
+      "Rowing",
+      "Ice hockey"
+    ],
+    "correctAnswer": "Sailing",
+    "explanation": "Sailing is correct because Sailing is associated with boats use wind power to race or navigate and wind strategy and boat handling.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76001,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports question would have Cycling as the cleanest answer?",
+    "answers": [
+      "athletes race on bicycles",
+      "skiers race downhill through gates",
+      "crews propel narrow boats using oars",
+      "players throw darts at a circular board"
+    ],
+    "correctAnswer": "athletes race on bicycles",
+    "explanation": "athletes race on bicycles is correct because Cycling is associated with athletes race on bicycles and pelotons and time trials.",
+    "tags": [
+      "sports",
+      "endurance-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76002,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which clue best supports Snowboarding as the answer?",
+    "answers": [
+      "athletes ride a single board on snow",
+      "running, jumping, and throwing events",
+      "players hit a shuttlecock over a net",
+      "teams advance the ball by passing or running over set downs"
+    ],
+    "correctAnswer": "athletes ride a single board on snow",
+    "explanation": "athletes ride a single board on snow is correct because Snowboarding is associated with athletes ride a single board on snow and halfpipe and slopestyle.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76003,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports choice fits the description 'takedowns and pins' most precisely?",
+    "answers": [
+      "Wrestling",
+      "Snowboarding",
+      "Fencing",
+      "American football"
+    ],
+    "correctAnswer": "Wrestling",
+    "explanation": "Wrestling is correct because Wrestling is associated with athletes grapple to control or pin opponents and takedowns and pins.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76004,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer correctly completes this sports profile: snow ramp, winter sport, ___?",
+    "answers": [
+      "Chess",
+      "Ski jumping",
+      "Surfing",
+      "Football / Soccer"
+    ],
+    "correctAnswer": "Ski jumping",
+    "explanation": "Ski jumping is correct because Ski jumping is associated with athletes launch from a ramp and fly for distance and style and aerodynamics and landing.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76005,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer is connected to piste and the label combat-sport?",
+    "answers": [
+      "Badminton",
+      "Fencing",
+      "Golf",
+      "Boxing"
+    ],
+    "correctAnswer": "Fencing",
+    "explanation": "Fencing is correct because Fencing is associated with athletes score touches using swords and foil, epee, and sabre.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76006,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer is the strongest match for Table tennis in sports trivia?",
+    "answers": [
+      "players hit a light ball across a small table",
+      "athletes race through water using defined strokes",
+      "teams try to ground the ball over a high net",
+      "athletes ride breaking waves on boards"
+    ],
+    "correctAnswer": "players hit a light ball across a small table",
+    "explanation": "players hit a light ball across a small table is correct because Table tennis is associated with players hit a light ball across a small table and spin and fast reactions.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76007,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer is defined by teams score by shooting a ball through a hoop and linked to fast transitions and rebounds?",
+    "answers": [
+      "Basketball",
+      "Surfing",
+      "Chess",
+      "Marathon"
+    ],
+    "correctAnswer": "Basketball",
+    "explanation": "Basketball is correct because Basketball is associated with teams score by shooting a ball through a hoop and fast transitions and rebounds.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76008,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the correct sports match for the clue 'foil, epee, and sabre'?",
+    "answers": [
+      "Table tennis",
+      "Fencing",
+      "Ice hockey",
+      "Athletics"
+    ],
+    "correctAnswer": "Fencing",
+    "explanation": "Fencing is correct because Fencing is associated with athletes score touches using swords and foil, epee, and sabre.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76009,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports topic is represented by Wrestling?",
+    "answers": [
+      "aquatic-sport",
+      "combat-sport",
+      "bat-and-ball",
+      "running"
+    ],
+    "correctAnswer": "combat-sport",
+    "explanation": "combat-sport is correct because Wrestling is associated with athletes grapple to control or pin opponents and takedowns and pins.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76010,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer is the strongest match for Snowboarding in sports trivia?",
+    "answers": [
+      "skaters combine jumps, spins, and choreography",
+      "athletes score touches using swords",
+      "athletes ride a single board on snow",
+      "teams try to ground the ball over a high net"
+    ],
+    "correctAnswer": "athletes ride a single board on snow",
+    "explanation": "athletes ride a single board on snow is correct because Snowboarding is associated with athletes ride a single board on snow and halfpipe and slopestyle.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76011,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the correct sports match for the clue 'explosive strength'?",
+    "answers": [
+      "Weightlifting",
+      "Darts",
+      "Ice hockey",
+      "Athletics"
+    ],
+    "correctAnswer": "Weightlifting",
+    "explanation": "Weightlifting is correct because Weightlifting is associated with athletes lift maximum weights in snatch and clean and jerk and explosive strength.",
+    "tags": [
+      "sports",
+      "strength-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76012,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue would identify Badminton without ambiguity?",
+    "answers": [
+      "quick reflexes and rallies",
+      "pit strategy and aerodynamics",
+      "Grand Slam tournaments",
+      "sprints and field events"
+    ],
+    "correctAnswer": "quick reflexes and rallies",
+    "explanation": "quick reflexes and rallies is correct because Badminton is associated with players hit a shuttlecock over a net and quick reflexes and rallies.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76013,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports profile combines action sport with riders perform tricks on skateboards?",
+    "answers": [
+      "Golf",
+      "Skateboarding",
+      "Field hockey",
+      "Darts"
+    ],
+    "correctAnswer": "Skateboarding",
+    "explanation": "Skateboarding is correct because Skateboarding is associated with riders perform tricks on skateboards and style and technical tricks.",
+    "tags": [
+      "sports",
+      "action-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76014,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which theme is most connected to Cycling?",
+    "answers": [
+      "wickets and innings",
+      "speed and edge control",
+      "penalty corners",
+      "pelotons and time trials"
+    ],
+    "correctAnswer": "pelotons and time trials",
+    "explanation": "pelotons and time trials is correct because Cycling is associated with athletes race on bicycles and pelotons and time trials.",
+    "tags": [
+      "sports",
+      "endurance-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76015,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which fact about Field hockey is true?",
+    "answers": [
+      "penalty corners",
+      "pelotons and time trials",
+      "explosive strength",
+      "style and technical tricks"
+    ],
+    "correctAnswer": "penalty corners",
+    "explanation": "penalty corners is correct because Field hockey is associated with players use sticks to move a ball toward goal and penalty corners.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76016,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer would belong in a set about water-sport?",
+    "answers": [
+      "Formula 1",
+      "Cricket",
+      "Surfing",
+      "Wrestling"
+    ],
+    "correctAnswer": "Surfing",
+    "explanation": "Surfing is correct because Surfing is associated with athletes ride breaking waves on boards and wave selection and balance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76017,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What classification best separates Esports from other sports answers?",
+    "answers": [
+      "bat-and-ball sport",
+      "competitive gaming",
+      "action sport",
+      "precision sport"
+    ],
+    "correctAnswer": "competitive gaming",
+    "explanation": "competitive gaming is correct because Esports is associated with players compete professionally in video games and strategy, mechanics, and teamwork.",
+    "tags": [
+      "sports",
+      "mind-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76018,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue would identify Ice hockey without ambiguity?",
+    "answers": [
+      "synchronization and endurance",
+      "wickets and innings",
+      "accuracy and release control",
+      "power plays and checking"
+    ],
+    "correctAnswer": "power plays and checking",
+    "explanation": "power plays and checking is correct because Ice hockey is associated with players skate and shoot a puck into a goal and power plays and checking.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76019,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports topic is represented by Gymnastics?",
+    "answers": [
+      "olympic-sport",
+      "endurance-sport",
+      "contact-sport",
+      "action-sport"
+    ],
+    "correctAnswer": "olympic-sport",
+    "explanation": "olympic-sport is correct because Gymnastics is associated with athletes perform routines on apparatus or floor and difficulty and execution scoring.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76020,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of sports entry best fits Archery?",
+    "answers": [
+      "bat-and-ball sport",
+      "winter sport",
+      "precision sport",
+      "mind sport"
+    ],
+    "correctAnswer": "precision sport",
+    "explanation": "precision sport is correct because Archery is associated with athletes shoot arrows at a target and accuracy and release control.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76021,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer completes this sports match: Alpine skiing -> ?",
+    "answers": [
+      "explosive strength",
+      "pit strategy and aerodynamics",
+      "speed and edge control",
+      "knockouts and judging"
+    ],
+    "correctAnswer": "speed and edge control",
+    "explanation": "speed and edge control is correct because Alpine skiing is associated with skiers race downhill through gates and speed and edge control.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76022,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fact would be fair and correct for Baseball?",
+    "answers": [
+      "teams score by running bases after hitting the ball",
+      "athletes compete in squat, bench press, and deadlift",
+      "riders perform tricks on skateboards",
+      "teams advance the ball by passing or running over set downs"
+    ],
+    "correctAnswer": "teams score by running bases after hitting the ball",
+    "explanation": "teams score by running bases after hitting the ball is correct because Baseball is associated with teams score by running bases after hitting the ball and pitching and home runs.",
+    "tags": [
+      "sports",
+      "bat-and-ball",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76023,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which clue would identify Taekwondo without ambiguity?",
+    "answers": [
+      "artistry and technical elements",
+      "speed and high kicks",
+      "maximal strength",
+      "lean angles and lap speed"
+    ],
+    "correctAnswer": "speed and high kicks",
+    "explanation": "speed and high kicks is correct because Taekwondo is associated with kicking-focused martial art and Olympic sport and speed and high kicks.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76024,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports profile combines mat with takedowns and pins?",
+    "answers": [
+      "Boxing",
+      "Basketball",
+      "Wrestling",
+      "Skateboarding"
+    ],
+    "correctAnswer": "Wrestling",
+    "explanation": "Wrestling is correct because Wrestling is associated with athletes grapple to control or pin opponents and takedowns and pins.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76025,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer completes this sports match: Taekwondo -> ?",
+    "answers": [
+      "speed and high kicks",
+      "pelotons and time trials",
+      "wind strategy and boat handling",
+      "quick reflexes and rallies"
+    ],
+    "correctAnswer": "speed and high kicks",
+    "explanation": "speed and high kicks is correct because Taekwondo is associated with kicking-focused martial art and Olympic sport and speed and high kicks.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76026,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports option matches the origin clue 'stadium' and the type clue 'track and field sport'?",
+    "answers": [
+      "Tennis",
+      "Marathon",
+      "Athletics",
+      "Ski jumping"
+    ],
+    "correctAnswer": "Athletics",
+    "explanation": "Athletics is correct because Athletics is associated with running, jumping, and throwing events and sprints and field events.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76027,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports question would have Gymnastics as the cleanest answer?",
+    "answers": [
+      "athletes ride a single board on snow",
+      "athletes perform routines on apparatus or floor",
+      "teams score by running bases after hitting the ball",
+      "riders perform tricks on skateboards"
+    ],
+    "correctAnswer": "athletes perform routines on apparatus or floor",
+    "explanation": "athletes perform routines on apparatus or floor is correct because Gymnastics is associated with athletes perform routines on apparatus or floor and difficulty and execution scoring.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76028,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the correct sports match for the clue 'quick reflexes and rallies'?",
+    "answers": [
+      "Powerlifting",
+      "Figure skating",
+      "Badminton",
+      "Surfing"
+    ],
+    "correctAnswer": "Badminton",
+    "explanation": "Badminton is correct because Badminton is associated with players hit a shuttlecock over a net and quick reflexes and rallies.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76029,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports topic is represented by Surfing?",
+    "answers": [
+      "ball-sport",
+      "olympic-sport",
+      "water-sport",
+      "combat-sport"
+    ],
+    "correctAnswer": "water-sport",
+    "explanation": "water-sport is correct because Surfing is associated with athletes ride breaking waves on boards and wave selection and balance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76030,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer belongs with the theme 'synchronization and endurance'?",
+    "answers": [
+      "Surfing",
+      "Rowing",
+      "Swimming",
+      "Field hockey"
+    ],
+    "correctAnswer": "Rowing",
+    "explanation": "Rowing is correct because Rowing is associated with crews propel narrow boats using oars and synchronization and endurance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76031,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer is linked to board and described by players move pieces to checkmate the opponent's king?",
+    "answers": [
+      "Cricket",
+      "Surfing",
+      "Football / Soccer",
+      "Chess"
+    ],
+    "correctAnswer": "Chess",
+    "explanation": "Chess is correct because Chess is associated with players move pieces to checkmate the opponent's king and strategy and calculation.",
+    "tags": [
+      "sports",
+      "mind-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76032,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports question would have Sailing as the cleanest answer?",
+    "answers": [
+      "athletes grapple to control or pin opponents",
+      "players score by getting the ball into a goal mostly with their feet",
+      "boats use wind power to race or navigate",
+      "athletes ride a single board on snow"
+    ],
+    "correctAnswer": "boats use wind power to race or navigate",
+    "explanation": "boats use wind power to race or navigate is correct because Sailing is associated with boats use wind power to race or navigate and wind strategy and boat handling.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76033,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which setting or origin is most strongly linked to Alpine skiing?",
+    "answers": [
+      "snow slopes",
+      "mat",
+      "mountain slopes",
+      "roads or tracks"
+    ],
+    "correctAnswer": "mountain slopes",
+    "explanation": "mountain slopes is correct because Alpine skiing is associated with skiers race downhill through gates and speed and edge control.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76034,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports option is correctly linked to the clue 'martial-art / speed and high kicks'?",
+    "answers": [
+      "Taekwondo",
+      "Baseball",
+      "Swimming",
+      "MotoGP"
+    ],
+    "correctAnswer": "Taekwondo",
+    "explanation": "Taekwondo is correct because Taekwondo is associated with kicking-focused martial art and Olympic sport and speed and high kicks.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76035,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer is most naturally connected to aerodynamics and landing?",
+    "answers": [
+      "Wrestling",
+      "Figure skating",
+      "Fencing",
+      "Ski jumping"
+    ],
+    "correctAnswer": "Ski jumping",
+    "explanation": "Ski jumping is correct because Ski jumping is associated with athletes launch from a ramp and fly for distance and style and aerodynamics and landing.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76036,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is best described as athletes shoot arrows at a target?",
+    "answers": [
+      "Archery",
+      "Formula 1",
+      "Badminton",
+      "Football / Soccer"
+    ],
+    "correctAnswer": "Archery",
+    "explanation": "Archery is correct because Archery is associated with athletes shoot arrows at a target and accuracy and release control.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76037,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer best matches this sports category clue: track and field sport, stadium, sprints and field events?",
+    "answers": [
+      "Ice hockey",
+      "Field hockey",
+      "Athletics",
+      "MMA"
+    ],
+    "correctAnswer": "Athletics",
+    "explanation": "Athletics is correct because Athletics is associated with running, jumping, and throwing events and sprints and field events.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76038,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer best completes the sports pair: Figure skating and ice rink?",
+    "answers": [
+      "wave selection and balance",
+      "ippon and leverage",
+      "artistry and technical elements",
+      "sprints and field events"
+    ],
+    "correctAnswer": "artistry and technical elements",
+    "explanation": "artistry and technical elements is correct because Figure skating is associated with skaters combine jumps, spins, and choreography and artistry and technical elements.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76039,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports concept is associated with endurance-sport and roads or tracks?",
+    "answers": [
+      "Field hockey",
+      "Rugby Union",
+      "Cycling",
+      "Powerlifting"
+    ],
+    "correctAnswer": "Cycling",
+    "explanation": "Cycling is correct because Cycling is associated with athletes race on bicycles and pelotons and time trials.",
+    "tags": [
+      "sports",
+      "endurance-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76040,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What classification best separates MotoGP from other sports answers?",
+    "answers": [
+      "aquatic sport",
+      "precision sport",
+      "motorsport",
+      "bat-and-ball sport"
+    ],
+    "correctAnswer": "motorsport",
+    "explanation": "motorsport is correct because MotoGP is associated with top-level motorcycle road racing and lean angles and lap speed.",
+    "tags": [
+      "sports",
+      "motorsport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76041,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports concept is correctly paired with kicking-focused martial art and Olympic sport?",
+    "answers": [
+      "Cycling",
+      "Powerlifting",
+      "Taekwondo",
+      "Field hockey"
+    ],
+    "correctAnswer": "Taekwondo",
+    "explanation": "Taekwondo is correct because Taekwondo is associated with kicking-focused martial art and Olympic sport and speed and high kicks.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76042,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports clue points to aerodynamics and landing?",
+    "answers": [
+      "Archery",
+      "Badminton",
+      "Wrestling",
+      "Ski jumping"
+    ],
+    "correctAnswer": "Ski jumping",
+    "explanation": "Ski jumping is correct because Ski jumping is associated with athletes launch from a ramp and fly for distance and style and aerodynamics and landing.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76043,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the correct sports match for the clue 'mixed martial arts strategy'?",
+    "answers": [
+      "Boxing",
+      "Taekwondo",
+      "Athletics",
+      "MMA"
+    ],
+    "correctAnswer": "MMA",
+    "explanation": "MMA is correct because MMA is associated with fighters combine striking, wrestling, and submissions and mixed martial arts strategy.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76044,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports topic is represented by Rowing?",
+    "answers": [
+      "ball-sport",
+      "aquatic-sport",
+      "strength-sport",
+      "water-sport"
+    ],
+    "correctAnswer": "water-sport",
+    "explanation": "water-sport is correct because Rowing is associated with crews propel narrow boats using oars and synchronization and endurance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76045,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer correctly completes this sports profile: mat, combat sport, ___?",
+    "answers": [
+      "Ice hockey",
+      "Baseball",
+      "Wrestling",
+      "Golf"
+    ],
+    "correctAnswer": "Wrestling",
+    "explanation": "Wrestling is correct because Wrestling is associated with athletes grapple to control or pin opponents and takedowns and pins.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76046,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports topic is represented by Sailing?",
+    "answers": [
+      "winter-sport",
+      "water-sport",
+      "bat-and-ball",
+      "ball-sport"
+    ],
+    "correctAnswer": "water-sport",
+    "explanation": "water-sport is correct because Sailing is associated with boats use wind power to race or navigate and wind strategy and boat handling.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76047,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer belongs with the theme 'mixed martial arts strategy'?",
+    "answers": [
+      "MMA",
+      "Formula 1",
+      "Wrestling",
+      "Marathon"
+    ],
+    "correctAnswer": "MMA",
+    "explanation": "MMA is correct because MMA is associated with fighters combine striking, wrestling, and submissions and mixed martial arts strategy.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76048,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which detail is accurate for Tennis?",
+    "answers": [
+      "Grand Slam tournaments",
+      "sprints and field events",
+      "World Cup and club football",
+      "freestyle, breaststroke, and butterfly"
+    ],
+    "correctAnswer": "Grand Slam tournaments",
+    "explanation": "Grand Slam tournaments is correct because Tennis is associated with players hit a ball over a net using rackets and Grand Slam tournaments.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76049,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which clue would identify American football without ambiguity?",
+    "answers": [
+      "pars, birdies, and greens",
+      "touchdowns and tackles",
+      "quick reflexes and rallies",
+      "synchronization and endurance"
+    ],
+    "correctAnswer": "touchdowns and tackles",
+    "explanation": "touchdowns and tackles is correct because American football is associated with teams advance the ball by passing or running over set downs and touchdowns and tackles.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76050,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer correctly completes this sports profile: ocean waves, water sport, ___?",
+    "answers": [
+      "Rowing",
+      "Taekwondo",
+      "Marathon",
+      "Surfing"
+    ],
+    "correctAnswer": "Surfing",
+    "explanation": "Surfing is correct because Surfing is associated with athletes ride breaking waves on boards and wave selection and balance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76051,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is best described as riders perform tricks on skateboards?",
+    "answers": [
+      "Ski jumping",
+      "Ice hockey",
+      "Skateboarding",
+      "Table tennis"
+    ],
+    "correctAnswer": "Skateboarding",
+    "explanation": "Skateboarding is correct because Skateboarding is associated with riders perform tricks on skateboards and style and technical tricks.",
+    "tags": [
+      "sports",
+      "action-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76052,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which clue would identify Football / Soccer without ambiguity?",
+    "answers": [
+      "quick reflexes and rallies",
+      "power plays and checking",
+      "foil, epee, and sabre",
+      "World Cup and club football"
+    ],
+    "correctAnswer": "World Cup and club football",
+    "explanation": "World Cup and club football is correct because Football / Soccer is associated with players score by getting the ball into a goal mostly with their feet and World Cup and club football.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76053,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which option is a clean match for Gymnastics?",
+    "answers": [
+      "snow ramp",
+      "tatami mat",
+      "course",
+      "arena apparatus"
+    ],
+    "correctAnswer": "arena apparatus",
+    "explanation": "arena apparatus is correct because Gymnastics is associated with athletes perform routines on apparatus or floor and difficulty and execution scoring.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76054,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In a ranked sports round, which fact correctly matches Formula 1?",
+    "answers": [
+      "single-seat cars compete in Grand Prix races",
+      "athletes ride a single board on snow",
+      "players skate and shoot a puck into a goal",
+      "athletes compete in squat, bench press, and deadlift"
+    ],
+    "correctAnswer": "single-seat cars compete in Grand Prix races",
+    "explanation": "single-seat cars compete in Grand Prix races is correct because Formula 1 is associated with single-seat cars compete in Grand Prix races and pit strategy and aerodynamics.",
+    "tags": [
+      "sports",
+      "motorsport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76055,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fact would be fair and correct for Table tennis?",
+    "answers": [
+      "players throw darts at a circular board",
+      "players use clubs to complete holes in few strokes",
+      "players hit a light ball across a small table",
+      "skaters combine jumps, spins, and choreography"
+    ],
+    "correctAnswer": "players hit a light ball across a small table",
+    "explanation": "players hit a light ball across a small table is correct because Table tennis is associated with players hit a light ball across a small table and spin and fast reactions.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76056,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer is most naturally connected to wind strategy and boat handling?",
+    "answers": [
+      "Chess",
+      "Tennis",
+      "Taekwondo",
+      "Sailing"
+    ],
+    "correctAnswer": "Sailing",
+    "explanation": "Sailing is correct because Sailing is associated with boats use wind power to race or navigate and wind strategy and boat handling.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76057,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer completes this sports match: Football / Soccer -> ?",
+    "answers": [
+      "halfpipe and slopestyle",
+      "endurance pacing",
+      "World Cup and club football",
+      "takedowns and pins"
+    ],
+    "correctAnswer": "World Cup and club football",
+    "explanation": "World Cup and club football is correct because Football / Soccer is associated with players score by getting the ball into a goal mostly with their feet and World Cup and club football.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76058,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer is defined by athletes score touches using swords and linked to foil, epee, and sabre?",
+    "answers": [
+      "Fencing",
+      "Athletics",
+      "Cricket",
+      "Football / Soccer"
+    ],
+    "correctAnswer": "Fencing",
+    "explanation": "Fencing is correct because Fencing is associated with athletes score touches using swords and foil, epee, and sabre.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76059,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "If the clue is racing circuits plus motorsport, which answer fits best?",
+    "answers": [
+      "MotoGP",
+      "Formula 1",
+      "MMA",
+      "Darts"
+    ],
+    "correctAnswer": "Formula 1",
+    "explanation": "Formula 1 is correct because Formula 1 is associated with single-seat cars compete in Grand Prix races and pit strategy and aerodynamics.",
+    "tags": [
+      "sports",
+      "motorsport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76060,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports option is correctly linked to the clue 'winter-sport / speed and edge control'?",
+    "answers": [
+      "Baseball",
+      "Alpine skiing",
+      "Cycling",
+      "Esports"
+    ],
+    "correctAnswer": "Alpine skiing",
+    "explanation": "Alpine skiing is correct because Alpine skiing is associated with skiers race downhill through gates and speed and edge control.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76061,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What type of sports entry best fits Figure skating?",
+    "answers": [
+      "martial art",
+      "racket sport",
+      "judged sport",
+      "aquatic sport"
+    ],
+    "correctAnswer": "judged sport",
+    "explanation": "judged sport is correct because Figure skating is associated with skaters combine jumps, spins, and choreography and artistry and technical elements.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76062,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer best matches this sports category clue: team sport, global stadiums, World Cup and club football?",
+    "answers": [
+      "Football / Soccer",
+      "American football",
+      "Baseball",
+      "Marathon"
+    ],
+    "correctAnswer": "Football / Soccer",
+    "explanation": "Football / Soccer is correct because Football / Soccer is associated with players score by getting the ball into a goal mostly with their feet and World Cup and club football.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76063,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue would identify Fencing without ambiguity?",
+    "answers": [
+      "pars, birdies, and greens",
+      "foil, epee, and sabre",
+      "wind strategy and boat handling",
+      "World Cup and club football"
+    ],
+    "correctAnswer": "foil, epee, and sabre",
+    "explanation": "foil, epee, and sabre is correct because Fencing is associated with athletes score touches using swords and foil, epee, and sabre.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76064,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports option is correctly linked to the clue 'combat-sport / knockouts and judging'?",
+    "answers": [
+      "MMA",
+      "Formula 1",
+      "Boxing",
+      "MotoGP"
+    ],
+    "correctAnswer": "Boxing",
+    "explanation": "Boxing is correct because Boxing is associated with fighters punch within weight classes and rounds and knockouts and judging.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76065,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports item would fit a question about teams advance the ball by passing or running over set downs?",
+    "answers": [
+      "Judo",
+      "American football",
+      "Wrestling",
+      "Cricket"
+    ],
+    "correctAnswer": "American football",
+    "explanation": "American football is correct because American football is associated with teams advance the ball by passing or running over set downs and touchdowns and tackles.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76066,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is defined by teams score by running bases after hitting the ball and linked to pitching and home runs?",
+    "answers": [
+      "Formula 1",
+      "Baseball",
+      "Esports",
+      "Volleyball"
+    ],
+    "correctAnswer": "Baseball",
+    "explanation": "Baseball is correct because Baseball is associated with teams score by running bases after hitting the ball and pitching and home runs.",
+    "tags": [
+      "sports",
+      "bat-and-ball",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76067,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports profile combines precision sport with players throw darts at a circular board?",
+    "answers": [
+      "Darts",
+      "Taekwondo",
+      "Cricket",
+      "Ski jumping"
+    ],
+    "correctAnswer": "Darts",
+    "explanation": "Darts is correct because Darts is associated with players throw darts at a circular board and scoring segments and accuracy.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76068,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports topic is represented by Powerlifting?",
+    "answers": [
+      "mind-sport",
+      "ball-sport",
+      "martial-art",
+      "strength-sport"
+    ],
+    "correctAnswer": "strength-sport",
+    "explanation": "strength-sport is correct because Powerlifting is associated with athletes compete in squat, bench press, and deadlift and maximal strength.",
+    "tags": [
+      "sports",
+      "strength-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76069,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is defined by single-seat cars compete in Grand Prix races and linked to pit strategy and aerodynamics?",
+    "answers": [
+      "Ice hockey",
+      "Table tennis",
+      "Archery",
+      "Formula 1"
+    ],
+    "correctAnswer": "Formula 1",
+    "explanation": "Formula 1 is correct because Formula 1 is associated with single-seat cars compete in Grand Prix races and pit strategy and aerodynamics.",
+    "tags": [
+      "sports",
+      "motorsport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76070,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports choice fits the description 'mixed martial arts strategy' most precisely?",
+    "answers": [
+      "Sailing",
+      "MMA",
+      "Swimming",
+      "Volleyball"
+    ],
+    "correctAnswer": "MMA",
+    "explanation": "MMA is correct because MMA is associated with fighters combine striking, wrestling, and submissions and mixed martial arts strategy.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76071,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer is the strongest match for Rowing in sports trivia?",
+    "answers": [
+      "crews propel narrow boats using oars",
+      "teams score by shooting a ball through a hoop",
+      "players hit a ball over a net using rackets",
+      "athletes ride a single board on snow"
+    ],
+    "correctAnswer": "crews propel narrow boats using oars",
+    "explanation": "crews propel narrow boats using oars is correct because Rowing is associated with crews propel narrow boats using oars and synchronization and endurance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76072,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports profile combines judged sport with skaters combine jumps, spins, and choreography?",
+    "answers": [
+      "Skateboarding",
+      "Figure skating",
+      "Snowboarding",
+      "Baseball"
+    ],
+    "correctAnswer": "Figure skating",
+    "explanation": "Figure skating is correct because Figure skating is associated with skaters combine jumps, spins, and choreography and artistry and technical elements.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76073,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fact about Volleyball is true?",
+    "answers": [
+      "pars, birdies, and greens",
+      "penalty corners",
+      "style and technical tricks",
+      "sets, spikes, and blocks"
+    ],
+    "correctAnswer": "sets, spikes, and blocks",
+    "explanation": "sets, spikes, and blocks is correct because Volleyball is associated with teams try to ground the ball over a high net and sets, spikes, and blocks.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76074,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer best matches this sports category clue: water sport, ocean waves, wave selection and balance?",
+    "answers": [
+      "Surfing",
+      "Cycling",
+      "Boxing",
+      "Alpine skiing"
+    ],
+    "correctAnswer": "Surfing",
+    "explanation": "Surfing is correct because Surfing is associated with athletes ride breaking waves on boards and wave selection and balance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76075,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which category label best applies to Boxing?",
+    "answers": [
+      "racket-sport",
+      "contact-sport",
+      "ball-sport",
+      "combat-sport"
+    ],
+    "correctAnswer": "combat-sport",
+    "explanation": "combat-sport is correct because Boxing is associated with fighters punch within weight classes and rounds and knockouts and judging.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76076,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer is defined by athletes race through water using defined strokes and linked to freestyle, breaststroke, and butterfly?",
+    "answers": [
+      "Figure skating",
+      "Swimming",
+      "Fencing",
+      "Alpine skiing"
+    ],
+    "correctAnswer": "Swimming",
+    "explanation": "Swimming is correct because Swimming is associated with athletes race through water using defined strokes and freestyle, breaststroke, and butterfly.",
+    "tags": [
+      "sports",
+      "aquatic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76077,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For a global sports trivia audience, which answer matches ring and knockouts and judging?",
+    "answers": [
+      "Boxing",
+      "Snowboarding",
+      "Golf",
+      "Darts"
+    ],
+    "correctAnswer": "Boxing",
+    "explanation": "Boxing is correct because Boxing is associated with fighters punch within weight classes and rounds and knockouts and judging.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76078,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In a ranked sports round, which fact correctly matches Archery?",
+    "answers": [
+      "players compete professionally in video games",
+      "athletes shoot arrows at a target",
+      "athletes lift maximum weights in snatch and clean and jerk",
+      "athletes race on bicycles"
+    ],
+    "correctAnswer": "athletes shoot arrows at a target",
+    "explanation": "athletes shoot arrows at a target is correct because Archery is associated with athletes shoot arrows at a target and accuracy and release control.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76079,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer is most naturally connected to explosive strength?",
+    "answers": [
+      "Weightlifting",
+      "Marathon",
+      "Golf",
+      "Baseball"
+    ],
+    "correctAnswer": "Weightlifting",
+    "explanation": "Weightlifting is correct because Weightlifting is associated with athletes lift maximum weights in snatch and clean and jerk and explosive strength.",
+    "tags": [
+      "sports",
+      "strength-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76080,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a ranked sports round, which fact correctly matches Tennis?",
+    "answers": [
+      "players use sticks to move a ball toward goal",
+      "players move pieces to checkmate the opponent's king",
+      "teams score by shooting a ball through a hoop",
+      "players hit a ball over a net using rackets"
+    ],
+    "correctAnswer": "players hit a ball over a net using rackets",
+    "explanation": "players hit a ball over a net using rackets is correct because Tennis is associated with players hit a ball over a net using rackets and Grand Slam tournaments.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76081,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which category label best applies to Surfing?",
+    "answers": [
+      "olympic-sport",
+      "running",
+      "racket-sport",
+      "water-sport"
+    ],
+    "correctAnswer": "water-sport",
+    "explanation": "water-sport is correct because Surfing is associated with athletes ride breaking waves on boards and wave selection and balance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76082,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer completes this sports match: Sailing -> ?",
+    "answers": [
+      "wind strategy and boat handling",
+      "wickets and innings",
+      "mixed martial arts strategy",
+      "sprints and field events"
+    ],
+    "correctAnswer": "wind strategy and boat handling",
+    "explanation": "wind strategy and boat handling is correct because Sailing is associated with boats use wind power to race or navigate and wind strategy and boat handling.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76083,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer is connected to indoor court and the label racket-sport?",
+    "answers": [
+      "Table tennis",
+      "Badminton",
+      "Cricket",
+      "Judo"
+    ],
+    "correctAnswer": "Badminton",
+    "explanation": "Badminton is correct because Badminton is associated with players hit a shuttlecock over a net and quick reflexes and rallies.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76084,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer matches the sports clue 'skaters combine jumps, spins, and choreography' and avoids ambiguity?",
+    "answers": [
+      "Figure skating",
+      "Football / Soccer",
+      "Chess",
+      "MMA"
+    ],
+    "correctAnswer": "Figure skating",
+    "explanation": "Figure skating is correct because Figure skating is associated with skaters combine jumps, spins, and choreography and artistry and technical elements.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76085,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fact would be fair and correct for Volleyball?",
+    "answers": [
+      "players move pieces to checkmate the opponent's king",
+      "athletes ride breaking waves on boards",
+      "athletes launch from a ramp and fly for distance and style",
+      "teams try to ground the ball over a high net"
+    ],
+    "correctAnswer": "teams try to ground the ball over a high net",
+    "explanation": "teams try to ground the ball over a high net is correct because Volleyball is associated with teams try to ground the ball over a high net and sets, spikes, and blocks.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76086,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports clue points to scoring segments and accuracy?",
+    "answers": [
+      "Chess",
+      "American football",
+      "Darts",
+      "Swimming"
+    ],
+    "correctAnswer": "Darts",
+    "explanation": "Darts is correct because Darts is associated with players throw darts at a circular board and scoring segments and accuracy.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76087,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer pairs with both combat sport and foil, epee, and sabre?",
+    "answers": [
+      "Archery",
+      "Sailing",
+      "Fencing",
+      "Cycling"
+    ],
+    "correctAnswer": "Fencing",
+    "explanation": "Fencing is correct because Fencing is associated with athletes score touches using swords and foil, epee, and sabre.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76088,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports item is linked to the description 'skiers race downhill through gates'?",
+    "answers": [
+      "Fencing",
+      "Alpine skiing",
+      "American football",
+      "Table tennis"
+    ],
+    "correctAnswer": "Alpine skiing",
+    "explanation": "Alpine skiing is correct because Alpine skiing is associated with skiers race downhill through gates and speed and edge control.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76089,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports question would have Table tennis as the cleanest answer?",
+    "answers": [
+      "players move pieces to checkmate the opponent's king",
+      "athletes perform routines on apparatus or floor",
+      "players skate and shoot a puck into a goal",
+      "players hit a light ball across a small table"
+    ],
+    "correctAnswer": "players hit a light ball across a small table",
+    "explanation": "players hit a light ball across a small table is correct because Table tennis is associated with players hit a light ball across a small table and spin and fast reactions.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76090,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer matches the sports clue 'athletes race through water using defined strokes' and avoids ambiguity?",
+    "answers": [
+      "Gymnastics",
+      "Alpine skiing",
+      "Swimming",
+      "Figure skating"
+    ],
+    "correctAnswer": "Swimming",
+    "explanation": "Swimming is correct because Swimming is associated with athletes race through water using defined strokes and freestyle, breaststroke, and butterfly.",
+    "tags": [
+      "sports",
+      "aquatic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76091,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which clue best supports Basketball as the answer?",
+    "answers": [
+      "teams score by shooting a ball through a hoop",
+      "teams score by running bases after hitting the ball",
+      "athletes score touches using swords",
+      "athletes use throws and holds to score"
+    ],
+    "correctAnswer": "teams score by shooting a ball through a hoop",
+    "explanation": "teams score by shooting a ball through a hoop is correct because Basketball is associated with teams score by shooting a ball through a hoop and fast transitions and rebounds.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76092,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer completes this sports match: MMA -> ?",
+    "answers": [
+      "pit strategy and aerodynamics",
+      "speed and edge control",
+      "mixed martial arts strategy",
+      "freestyle, breaststroke, and butterfly"
+    ],
+    "correctAnswer": "mixed martial arts strategy",
+    "explanation": "mixed martial arts strategy is correct because MMA is associated with fighters combine striking, wrestling, and submissions and mixed martial arts strategy.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76093,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer matches the sports clue 'kicking-focused martial art and Olympic sport' and avoids ambiguity?",
+    "answers": [
+      "Cycling",
+      "Taekwondo",
+      "Fencing",
+      "Boxing"
+    ],
+    "correctAnswer": "Taekwondo",
+    "explanation": "Taekwondo is correct because Taekwondo is associated with kicking-focused martial art and Olympic sport and speed and high kicks.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76094,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which clue would identify Powerlifting without ambiguity?",
+    "answers": [
+      "difficulty and execution scoring",
+      "maximal strength",
+      "foil, epee, and sabre",
+      "wind strategy and boat handling"
+    ],
+    "correctAnswer": "maximal strength",
+    "explanation": "maximal strength is correct because Powerlifting is associated with athletes compete in squat, bench press, and deadlift and maximal strength.",
+    "tags": [
+      "sports",
+      "strength-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76095,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which option is a clean match for Rowing?",
+    "answers": [
+      "racing lanes",
+      "turf field",
+      "roads or tracks",
+      "mountain slopes"
+    ],
+    "correctAnswer": "racing lanes",
+    "explanation": "racing lanes is correct because Rowing is associated with crews propel narrow boats using oars and synchronization and endurance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76096,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer has the strongest connection to judged sport?",
+    "answers": [
+      "Ice hockey",
+      "Field hockey",
+      "Gymnastics",
+      "American football"
+    ],
+    "correctAnswer": "Gymnastics",
+    "explanation": "Gymnastics is correct because Gymnastics is associated with athletes perform routines on apparatus or floor and difficulty and execution scoring.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76097,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which option is a clean match for Surfing?",
+    "answers": [
+      "platform",
+      "mountain slopes",
+      "table court",
+      "ocean waves"
+    ],
+    "correctAnswer": "ocean waves",
+    "explanation": "ocean waves is correct because Surfing is associated with athletes ride breaking waves on boards and wave selection and balance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76098,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports choice fits the description 'speed and high kicks' most precisely?",
+    "answers": [
+      "Chess",
+      "Rowing",
+      "Taekwondo",
+      "Marathon"
+    ],
+    "correctAnswer": "Taekwondo",
+    "explanation": "Taekwondo is correct because Taekwondo is associated with kicking-focused martial art and Olympic sport and speed and high kicks.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76099,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is best described as players compete professionally in video games?",
+    "answers": [
+      "Fencing",
+      "Field hockey",
+      "Formula 1",
+      "Esports"
+    ],
+    "correctAnswer": "Esports",
+    "explanation": "Esports is correct because Esports is associated with players compete professionally in video games and strategy, mechanics, and teamwork.",
+    "tags": [
+      "sports",
+      "mind-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76100,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer is connected to racing circuits and the label motorsport?",
+    "answers": [
+      "Tennis",
+      "Chess",
+      "Formula 1",
+      "Volleyball"
+    ],
+    "correctAnswer": "Formula 1",
+    "explanation": "Formula 1 is correct because Formula 1 is associated with single-seat cars compete in Grand Prix races and pit strategy and aerodynamics.",
+    "tags": [
+      "sports",
+      "motorsport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76101,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports item is linked to the description 'athletes perform routines on apparatus or floor'?",
+    "answers": [
+      "Figure skating",
+      "Gymnastics",
+      "Powerlifting",
+      "Surfing"
+    ],
+    "correctAnswer": "Gymnastics",
+    "explanation": "Gymnastics is correct because Gymnastics is associated with athletes perform routines on apparatus or floor and difficulty and execution scoring.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76102,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports question would have Rowing as the cleanest answer?",
+    "answers": [
+      "skiers race downhill through gates",
+      "crews propel narrow boats using oars",
+      "single-seat cars compete in Grand Prix races",
+      "athletes score touches using swords"
+    ],
+    "correctAnswer": "crews propel narrow boats using oars",
+    "explanation": "crews propel narrow boats using oars is correct because Rowing is associated with crews propel narrow boats using oars and synchronization and endurance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76103,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports concept is associated with precision-sport and course?",
+    "answers": [
+      "Swimming",
+      "Volleyball",
+      "Golf",
+      "Field hockey"
+    ],
+    "correctAnswer": "Golf",
+    "explanation": "Golf is correct because Golf is associated with players use clubs to complete holes in few strokes and pars, birdies, and greens.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76104,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer pairs with both combat sport and knockouts and judging?",
+    "answers": [
+      "Chess",
+      "Ice hockey",
+      "Rugby Union",
+      "Boxing"
+    ],
+    "correctAnswer": "Boxing",
+    "explanation": "Boxing is correct because Boxing is associated with fighters punch within weight classes and rounds and knockouts and judging.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76105,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer pairs with both precision sport and accuracy and release control?",
+    "answers": [
+      "Surfing",
+      "Archery",
+      "Cycling",
+      "Judo"
+    ],
+    "correctAnswer": "Archery",
+    "explanation": "Archery is correct because Archery is associated with athletes shoot arrows at a target and accuracy and release control.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76106,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer pairs with both winter sport and aerodynamics and landing?",
+    "answers": [
+      "Esports",
+      "Ski jumping",
+      "Baseball",
+      "Taekwondo"
+    ],
+    "correctAnswer": "Ski jumping",
+    "explanation": "Ski jumping is correct because Ski jumping is associated with athletes launch from a ramp and fly for distance and style and aerodynamics and landing.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76107,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which detail is accurate for Badminton?",
+    "answers": [
+      "power plays and checking",
+      "Grand Slam tournaments",
+      "quick reflexes and rallies",
+      "wind strategy and boat handling"
+    ],
+    "correctAnswer": "quick reflexes and rallies",
+    "explanation": "quick reflexes and rallies is correct because Badminton is associated with players hit a shuttlecock over a net and quick reflexes and rallies.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76108,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For a global sports trivia audience, which answer matches street or park course and style and technical tricks?",
+    "answers": [
+      "Sailing",
+      "Skateboarding",
+      "Tennis",
+      "Cricket"
+    ],
+    "correctAnswer": "Skateboarding",
+    "explanation": "Skateboarding is correct because Skateboarding is associated with riders perform tricks on skateboards and style and technical tricks.",
+    "tags": [
+      "sports",
+      "action-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76109,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer correctly completes this sports profile: piste, combat sport, ___?",
+    "answers": [
+      "Fencing",
+      "Baseball",
+      "Volleyball",
+      "Field hockey"
+    ],
+    "correctAnswer": "Fencing",
+    "explanation": "Fencing is correct because Fencing is associated with athletes score touches using swords and foil, epee, and sabre.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76110,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What classification best separates Darts from other sports answers?",
+    "answers": [
+      "water sport",
+      "racket sport",
+      "running event",
+      "precision sport"
+    ],
+    "correctAnswer": "precision sport",
+    "explanation": "precision sport is correct because Darts is associated with players throw darts at a circular board and scoring segments and accuracy.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76111,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which category label best applies to Tennis?",
+    "answers": [
+      "racket-sport",
+      "bat-and-ball",
+      "olympic-sport",
+      "aquatic-sport"
+    ],
+    "correctAnswer": "racket-sport",
+    "explanation": "racket-sport is correct because Tennis is associated with players hit a ball over a net using rackets and Grand Slam tournaments.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76112,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports topic is represented by Rugby Union?",
+    "answers": [
+      "contact-sport",
+      "aquatic-sport",
+      "mind-sport",
+      "martial-art"
+    ],
+    "correctAnswer": "contact-sport",
+    "explanation": "contact-sport is correct because Rugby Union is associated with teams carry, pass, kick, and tackle for territory and tries and scrums and lineouts.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76113,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fact would be fair and correct for Judo?",
+    "answers": [
+      "athletes compete in squat, bench press, and deadlift",
+      "athletes perform routines on apparatus or floor",
+      "athletes launch from a ramp and fly for distance and style",
+      "athletes use throws and holds to score"
+    ],
+    "correctAnswer": "athletes use throws and holds to score",
+    "explanation": "athletes use throws and holds to score is correct because Judo is associated with athletes use throws and holds to score and ippon and leverage.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76114,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which setting or origin is most strongly linked to Tennis?",
+    "answers": [
+      "roads or tracks",
+      "court",
+      "combat mat",
+      "street or park course"
+    ],
+    "correctAnswer": "court",
+    "explanation": "court is correct because Tennis is associated with players hit a ball over a net using rackets and Grand Slam tournaments.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76115,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports profile combines table court with spin and fast reactions?",
+    "answers": [
+      "Volleyball",
+      "Judo",
+      "Table tennis",
+      "Golf"
+    ],
+    "correctAnswer": "Table tennis",
+    "explanation": "Table tennis is correct because Table tennis is associated with players hit a light ball across a small table and spin and fast reactions.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76116,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "If the clue is tatami mat plus martial art, which answer fits best?",
+    "answers": [
+      "Powerlifting",
+      "Judo",
+      "Field hockey",
+      "Wrestling"
+    ],
+    "correctAnswer": "Judo",
+    "explanation": "Judo is correct because Judo is associated with athletes use throws and holds to score and ippon and leverage.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76117,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer correctly completes this sports profile: global stadiums, team sport, ___?",
+    "answers": [
+      "Darts",
+      "Table tennis",
+      "Athletics",
+      "Football / Soccer"
+    ],
+    "correctAnswer": "Football / Soccer",
+    "explanation": "Football / Soccer is correct because Football / Soccer is associated with players score by getting the ball into a goal mostly with their feet and World Cup and club football.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76118,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports concept is correctly paired with crews propel narrow boats using oars?",
+    "answers": [
+      "Chess",
+      "Golf",
+      "Badminton",
+      "Rowing"
+    ],
+    "correctAnswer": "Rowing",
+    "explanation": "Rowing is correct because Rowing is associated with crews propel narrow boats using oars and synchronization and endurance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76119,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports clue points to speed and high kicks?",
+    "answers": [
+      "Basketball",
+      "Skateboarding",
+      "Swimming",
+      "Taekwondo"
+    ],
+    "correctAnswer": "Taekwondo",
+    "explanation": "Taekwondo is correct because Taekwondo is associated with kicking-focused martial art and Olympic sport and speed and high kicks.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76120,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports topic is represented by Snowboarding?",
+    "answers": [
+      "mind-sport",
+      "olympic-sport",
+      "contact-sport",
+      "winter-sport"
+    ],
+    "correctAnswer": "winter-sport",
+    "explanation": "winter-sport is correct because Snowboarding is associated with athletes ride a single board on snow and halfpipe and slopestyle.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76121,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the correct sports match for the clue 'pitching and home runs'?",
+    "answers": [
+      "MMA",
+      "Volleyball",
+      "Judo",
+      "Baseball"
+    ],
+    "correctAnswer": "Baseball",
+    "explanation": "Baseball is correct because Baseball is associated with teams score by running bases after hitting the ball and pitching and home runs.",
+    "tags": [
+      "sports",
+      "bat-and-ball",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76122,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fact about Skateboarding is true?",
+    "answers": [
+      "style and technical tricks",
+      "aerodynamics and landing",
+      "accuracy and release control",
+      "wind strategy and boat handling"
+    ],
+    "correctAnswer": "style and technical tricks",
+    "explanation": "style and technical tricks is correct because Skateboarding is associated with riders perform tricks on skateboards and style and technical tricks.",
+    "tags": [
+      "sports",
+      "action-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76123,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which phrase best describes Athletics?",
+    "answers": [
+      "batters score runs while bowlers try to dismiss them",
+      "running, jumping, and throwing events",
+      "skiers race downhill through gates",
+      "athletes grapple to control or pin opponents"
+    ],
+    "correctAnswer": "running, jumping, and throwing events",
+    "explanation": "running, jumping, and throwing events is correct because Athletics is associated with running, jumping, and throwing events and sprints and field events.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76124,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which category label best applies to Cricket?",
+    "answers": [
+      "motorsport",
+      "bat-and-ball",
+      "racket-sport",
+      "contact-sport"
+    ],
+    "correctAnswer": "bat-and-ball",
+    "explanation": "bat-and-ball is correct because Cricket is associated with batters score runs while bowlers try to dismiss them and wickets and innings.",
+    "tags": [
+      "sports",
+      "bat-and-ball",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76125,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports item is linked to the description 'athletes use throws and holds to score'?",
+    "answers": [
+      "Judo",
+      "Figure skating",
+      "Weightlifting",
+      "Formula 1"
+    ],
+    "correctAnswer": "Judo",
+    "explanation": "Judo is correct because Judo is associated with athletes use throws and holds to score and ippon and leverage.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76126,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer belongs with the theme 'freestyle, breaststroke, and butterfly'?",
+    "answers": [
+      "Darts",
+      "Basketball",
+      "Swimming",
+      "Alpine skiing"
+    ],
+    "correctAnswer": "Swimming",
+    "explanation": "Swimming is correct because Swimming is associated with athletes race through water using defined strokes and freestyle, breaststroke, and butterfly.",
+    "tags": [
+      "sports",
+      "aquatic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76127,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports profile combines turf field with penalty corners?",
+    "answers": [
+      "Field hockey",
+      "Surfing",
+      "Marathon",
+      "Darts"
+    ],
+    "correctAnswer": "Field hockey",
+    "explanation": "Field hockey is correct because Field hockey is associated with players use sticks to move a ball toward goal and penalty corners.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76128,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports option is correctly linked to the clue 'water-sport / wave selection and balance'?",
+    "answers": [
+      "Sailing",
+      "Field hockey",
+      "Figure skating",
+      "Surfing"
+    ],
+    "correctAnswer": "Surfing",
+    "explanation": "Surfing is correct because Surfing is associated with athletes ride breaking waves on boards and wave selection and balance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76129,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports question would have Weightlifting as the cleanest answer?",
+    "answers": [
+      "athletes lift maximum weights in snatch and clean and jerk",
+      "teams carry, pass, kick, and tackle for territory and tries",
+      "players throw darts at a circular board",
+      "kicking-focused martial art and Olympic sport"
+    ],
+    "correctAnswer": "athletes lift maximum weights in snatch and clean and jerk",
+    "explanation": "athletes lift maximum weights in snatch and clean and jerk is correct because Weightlifting is associated with athletes lift maximum weights in snatch and clean and jerk and explosive strength.",
+    "tags": [
+      "sports",
+      "strength-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76130,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which clue best supports Darts as the answer?",
+    "answers": [
+      "running, jumping, and throwing events",
+      "fighters punch within weight classes and rounds",
+      "players compete professionally in video games",
+      "players throw darts at a circular board"
+    ],
+    "correctAnswer": "players throw darts at a circular board",
+    "explanation": "players throw darts at a circular board is correct because Darts is associated with players throw darts at a circular board and scoring segments and accuracy.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76131,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer is connected to open water and the label water-sport?",
+    "answers": [
+      "Gymnastics",
+      "Sailing",
+      "Weightlifting",
+      "Field hockey"
+    ],
+    "correctAnswer": "Sailing",
+    "explanation": "Sailing is correct because Sailing is associated with boats use wind power to race or navigate and wind strategy and boat handling.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76132,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports question would have Golf as the cleanest answer?",
+    "answers": [
+      "players score by getting the ball into a goal mostly with their feet",
+      "crews propel narrow boats using oars",
+      "players use clubs to complete holes in few strokes",
+      "batters score runs while bowlers try to dismiss them"
+    ],
+    "correctAnswer": "players use clubs to complete holes in few strokes",
+    "explanation": "players use clubs to complete holes in few strokes is correct because Golf is associated with players use clubs to complete holes in few strokes and pars, birdies, and greens.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76133,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer is best described as players use clubs to complete holes in few strokes?",
+    "answers": [
+      "MotoGP",
+      "Ice hockey",
+      "Rugby Union",
+      "Golf"
+    ],
+    "correctAnswer": "Golf",
+    "explanation": "Golf is correct because Golf is associated with players use clubs to complete holes in few strokes and pars, birdies, and greens.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76134,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer is connected to ocean waves and the label water-sport?",
+    "answers": [
+      "Surfing",
+      "Ski jumping",
+      "Basketball",
+      "Fencing"
+    ],
+    "correctAnswer": "Surfing",
+    "explanation": "Surfing is correct because Surfing is associated with athletes ride breaking waves on boards and wave selection and balance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76135,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports option matches the origin clue 'snow slopes' and the type clue 'winter sport'?",
+    "answers": [
+      "Gymnastics",
+      "Fencing",
+      "Snowboarding",
+      "Judo"
+    ],
+    "correctAnswer": "Snowboarding",
+    "explanation": "Snowboarding is correct because Snowboarding is associated with athletes ride a single board on snow and halfpipe and slopestyle.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76136,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports concept is associated with action-sport and street or park course?",
+    "answers": [
+      "Skateboarding",
+      "Sailing",
+      "Field hockey",
+      "Swimming"
+    ],
+    "correctAnswer": "Skateboarding",
+    "explanation": "Skateboarding is correct because Skateboarding is associated with riders perform tricks on skateboards and style and technical tricks.",
+    "tags": [
+      "sports",
+      "action-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76137,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a ranked sports round, which fact correctly matches Ski jumping?",
+    "answers": [
+      "athletes launch from a ramp and fly for distance and style",
+      "long-distance race of 42.195 kilometers",
+      "players use sticks to move a ball toward goal",
+      "players hit a shuttlecock over a net"
+    ],
+    "correctAnswer": "athletes launch from a ramp and fly for distance and style",
+    "explanation": "athletes launch from a ramp and fly for distance and style is correct because Ski jumping is associated with athletes launch from a ramp and fly for distance and style and aerodynamics and landing.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76138,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which phrase best describes Badminton?",
+    "answers": [
+      "boats use wind power to race or navigate",
+      "athletes compete in squat, bench press, and deadlift",
+      "athletes shoot arrows at a target",
+      "players hit a shuttlecock over a net"
+    ],
+    "correctAnswer": "players hit a shuttlecock over a net",
+    "explanation": "players hit a shuttlecock over a net is correct because Badminton is associated with players hit a shuttlecock over a net and quick reflexes and rallies.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76139,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which category label best applies to Volleyball?",
+    "answers": [
+      "ball-sport",
+      "endurance-sport",
+      "racket-sport",
+      "mind-sport"
+    ],
+    "correctAnswer": "ball-sport",
+    "explanation": "ball-sport is correct because Volleyball is associated with teams try to ground the ball over a high net and sets, spikes, and blocks.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76140,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports clue points to synchronization and endurance?",
+    "answers": [
+      "Sailing",
+      "Baseball",
+      "Taekwondo",
+      "Rowing"
+    ],
+    "correctAnswer": "Rowing",
+    "explanation": "Rowing is correct because Rowing is associated with crews propel narrow boats using oars and synchronization and endurance.",
+    "tags": [
+      "sports",
+      "water-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76141,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which theme is most connected to MMA?",
+    "answers": [
+      "mixed martial arts strategy",
+      "penalty corners",
+      "endurance pacing",
+      "takedowns and pins"
+    ],
+    "correctAnswer": "mixed martial arts strategy",
+    "explanation": "mixed martial arts strategy is correct because MMA is associated with fighters combine striking, wrestling, and submissions and mixed martial arts strategy.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76142,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports clue points to fast transitions and rebounds?",
+    "answers": [
+      "Fencing",
+      "Basketball",
+      "Athletics",
+      "Baseball"
+    ],
+    "correctAnswer": "Basketball",
+    "explanation": "Basketball is correct because Basketball is associated with teams score by shooting a ball through a hoop and fast transitions and rebounds.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76143,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer is linked to court with net and described by teams try to ground the ball over a high net?",
+    "answers": [
+      "Volleyball",
+      "Athletics",
+      "Archery",
+      "Figure skating"
+    ],
+    "correctAnswer": "Volleyball",
+    "explanation": "Volleyball is correct because Volleyball is associated with teams try to ground the ball over a high net and sets, spikes, and blocks.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76144,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports question would have Field hockey as the cleanest answer?",
+    "answers": [
+      "players use clubs to complete holes in few strokes",
+      "players use sticks to move a ball toward goal",
+      "players hit a ball over a net using rackets",
+      "athletes shoot arrows at a target"
+    ],
+    "correctAnswer": "players use sticks to move a ball toward goal",
+    "explanation": "players use sticks to move a ball toward goal is correct because Field hockey is associated with players use sticks to move a ball toward goal and penalty corners.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76145,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer is most naturally connected to scrums and lineouts?",
+    "answers": [
+      "Rowing",
+      "Rugby Union",
+      "Boxing",
+      "Table tennis"
+    ],
+    "correctAnswer": "Rugby Union",
+    "explanation": "Rugby Union is correct because Rugby Union is associated with teams carry, pass, kick, and tackle for territory and tries and scrums and lineouts.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76146,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fact about Baseball is true?",
+    "answers": [
+      "difficulty and execution scoring",
+      "quick reflexes and rallies",
+      "pitching and home runs",
+      "wind strategy and boat handling"
+    ],
+    "correctAnswer": "pitching and home runs",
+    "explanation": "pitching and home runs is correct because Baseball is associated with teams score by running bases after hitting the ball and pitching and home runs.",
+    "tags": [
+      "sports",
+      "bat-and-ball",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76147,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports topic is represented by Football / Soccer?",
+    "answers": [
+      "winter-sport",
+      "endurance-sport",
+      "strength-sport",
+      "ball-sport"
+    ],
+    "correctAnswer": "ball-sport",
+    "explanation": "ball-sport is correct because Football / Soccer is associated with players score by getting the ball into a goal mostly with their feet and World Cup and club football.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76148,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which detail is accurate for Chess?",
+    "answers": [
+      "touchdowns and tackles",
+      "quick reflexes and rallies",
+      "power plays and checking",
+      "strategy and calculation"
+    ],
+    "correctAnswer": "strategy and calculation",
+    "explanation": "strategy and calculation is correct because Chess is associated with players move pieces to checkmate the opponent's king and strategy and calculation.",
+    "tags": [
+      "sports",
+      "mind-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76149,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which setting or origin is most strongly linked to MotoGP?",
+    "answers": [
+      "gridiron field",
+      "racing circuits",
+      "ice rink",
+      "mountain slopes"
+    ],
+    "correctAnswer": "racing circuits",
+    "explanation": "racing circuits is correct because MotoGP is associated with top-level motorcycle road racing and lean angles and lap speed.",
+    "tags": [
+      "sports",
+      "motorsport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76150,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which theme is most connected to Football / Soccer?",
+    "answers": [
+      "wickets and innings",
+      "pit strategy and aerodynamics",
+      "World Cup and club football",
+      "speed and high kicks"
+    ],
+    "correctAnswer": "World Cup and club football",
+    "explanation": "World Cup and club football is correct because Football / Soccer is associated with players score by getting the ball into a goal mostly with their feet and World Cup and club football.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76151,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports topic is represented by Field hockey?",
+    "answers": [
+      "ball-sport",
+      "strength-sport",
+      "motorsport",
+      "winter-sport"
+    ],
+    "correctAnswer": "ball-sport",
+    "explanation": "ball-sport is correct because Field hockey is associated with players use sticks to move a ball toward goal and penalty corners.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76152,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer is most naturally connected to touchdowns and tackles?",
+    "answers": [
+      "American football",
+      "Volleyball",
+      "Snowboarding",
+      "Figure skating"
+    ],
+    "correctAnswer": "American football",
+    "explanation": "American football is correct because American football is associated with teams advance the ball by passing or running over set downs and touchdowns and tackles.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76153,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer is defined by skiers race downhill through gates and linked to speed and edge control?",
+    "answers": [
+      "Sailing",
+      "Tennis",
+      "Figure skating",
+      "Alpine skiing"
+    ],
+    "correctAnswer": "Alpine skiing",
+    "explanation": "Alpine skiing is correct because Alpine skiing is associated with skiers race downhill through gates and speed and edge control.",
+    "tags": [
+      "sports",
+      "winter-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76154,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which category label best applies to Wrestling?",
+    "answers": [
+      "bat-and-ball",
+      "strength-sport",
+      "mind-sport",
+      "combat-sport"
+    ],
+    "correctAnswer": "combat-sport",
+    "explanation": "combat-sport is correct because Wrestling is associated with athletes grapple to control or pin opponents and takedowns and pins.",
+    "tags": [
+      "sports",
+      "combat-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76155,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of sports entry best fits Badminton?",
+    "answers": [
+      "racket sport",
+      "precision sport",
+      "team sport",
+      "judged sport"
+    ],
+    "correctAnswer": "racket sport",
+    "explanation": "racket sport is correct because Badminton is associated with players hit a shuttlecock over a net and quick reflexes and rallies.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76156,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which option is a clean match for Taekwondo?",
+    "answers": [
+      "board",
+      "digital arenas",
+      "rugby field",
+      "combat mat"
+    ],
+    "correctAnswer": "combat mat",
+    "explanation": "combat mat is correct because Taekwondo is associated with kicking-focused martial art and Olympic sport and speed and high kicks.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76157,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports answer should be selected for the clue 'table court / racket-sport'?",
+    "answers": [
+      "Table tennis",
+      "Gymnastics",
+      "Tennis",
+      "MotoGP"
+    ],
+    "correctAnswer": "Table tennis",
+    "explanation": "Table tennis is correct because Table tennis is associated with players hit a light ball across a small table and spin and fast reactions.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76158,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which detail is accurate for Volleyball?",
+    "answers": [
+      "ippon and leverage",
+      "strategy and calculation",
+      "aerodynamics and landing",
+      "sets, spikes, and blocks"
+    ],
+    "correctAnswer": "sets, spikes, and blocks",
+    "explanation": "sets, spikes, and blocks is correct because Volleyball is associated with teams try to ground the ball over a high net and sets, spikes, and blocks.",
+    "tags": [
+      "sports",
+      "ball-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76159,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports option matches the origin clue 'tatami mat' and the type clue 'martial art'?",
+    "answers": [
+      "Field hockey",
+      "MMA",
+      "Judo",
+      "Taekwondo"
+    ],
+    "correctAnswer": "Judo",
+    "explanation": "Judo is correct because Judo is associated with athletes use throws and holds to score and ippon and leverage.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76160,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which sports item would fit a question about teams score by running bases after hitting the ball?",
+    "answers": [
+      "Baseball",
+      "Cycling",
+      "MotoGP",
+      "Volleyball"
+    ],
+    "correctAnswer": "Baseball",
+    "explanation": "Baseball is correct because Baseball is associated with teams score by running bases after hitting the ball and pitching and home runs.",
+    "tags": [
+      "sports",
+      "bat-and-ball",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76161,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer belongs with the theme 'touchdowns and tackles'?",
+    "answers": [
+      "Basketball",
+      "Athletics",
+      "American football",
+      "Marathon"
+    ],
+    "correctAnswer": "American football",
+    "explanation": "American football is correct because American football is associated with teams advance the ball by passing or running over set downs and touchdowns and tackles.",
+    "tags": [
+      "sports",
+      "contact-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76162,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports answer should be selected for the clue 'tatami mat / martial-art'?",
+    "answers": [
+      "Chess",
+      "Weightlifting",
+      "Judo",
+      "Alpine skiing"
+    ],
+    "correctAnswer": "Judo",
+    "explanation": "Judo is correct because Judo is associated with athletes use throws and holds to score and ippon and leverage.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76163,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "If the clue is course plus precision sport, which answer fits best?",
+    "answers": [
+      "Golf",
+      "Archery",
+      "Taekwondo",
+      "Swimming"
+    ],
+    "correctAnswer": "Golf",
+    "explanation": "Golf is correct because Golf is associated with players use clubs to complete holes in few strokes and pars, birdies, and greens.",
+    "tags": [
+      "sports",
+      "precision-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76164,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer pairs with both martial art and ippon and leverage?",
+    "answers": [
+      "Ice hockey",
+      "Basketball",
+      "Judo",
+      "Marathon"
+    ],
+    "correctAnswer": "Judo",
+    "explanation": "Judo is correct because Judo is associated with athletes use throws and holds to score and ippon and leverage.",
+    "tags": [
+      "sports",
+      "martial-art",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76165,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which sports topic is represented by Badminton?",
+    "answers": [
+      "racket-sport",
+      "martial-art",
+      "strength-sport",
+      "bat-and-ball"
+    ],
+    "correctAnswer": "racket-sport",
+    "explanation": "racket-sport is correct because Badminton is associated with players hit a shuttlecock over a net and quick reflexes and rallies.",
+    "tags": [
+      "sports",
+      "racket-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76166,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer best matches this sports category clue: judged sport, arena apparatus, difficulty and execution scoring?",
+    "answers": [
+      "Swimming",
+      "Formula 1",
+      "Gymnastics",
+      "Figure skating"
+    ],
+    "correctAnswer": "Gymnastics",
+    "explanation": "Gymnastics is correct because Gymnastics is associated with athletes perform routines on apparatus or floor and difficulty and execution scoring.",
+    "tags": [
+      "sports",
+      "olympic-sport",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 76167,
+    "category": "Sports",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which sports answer has the strongest connection to competitive gaming?",
+    "answers": [
+      "MMA",
+      "Surfing",
+      "Esports",
+      "Rowing"
+    ],
+    "correctAnswer": "Esports",
+    "explanation": "Esports is correct because Esports is associated with players compete professionally in video games and strategy, mechanics, and teamwork.",
+    "tags": [
+      "sports",
+      "mind-sport",
+      "gold-standard"
+    ]
+  }
+]

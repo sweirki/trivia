@@ -5,7 +5,8 @@ appId: ${APP_ID}
 - assertVisible:
     id: "screen-hub"
 
-- tapOn: "Arena · Competitive"
+- tapOn:
+    id: "hub-arena-button"
 
 - assertVisible:
     id: "screen-arena"

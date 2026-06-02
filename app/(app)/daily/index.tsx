@@ -20,6 +20,9 @@ import { resolveDailyRewardState } from "@/daily/dailyService";
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { useDailyRewardStore } from "@/store/useDailyRewardStore";
 import { getDailyReward } from "@/daily/rewardTable";
+import { useEntitlementStore } from "@/store/entitlementStore";
+import { clampBalance } from "@/economy/economyRules";
+import { VIP_DAILY_BONUS_TICKETS, applyVipRewardPerks, getVipPerks } from "@/economy/vipPerks";
 
 import ClaimButton from "@/daily/components/ClaimButton";
 import RewardFX from "@/daily/components/RewardFX";
@@ -78,6 +81,24 @@ function formatReward(reward: DailyReward) {
   if ((reward.tickets ?? 0) > 0) parts.push(`+${reward.tickets} Ticket`);
 
   return parts.join(" • ");
+}
+
+
+function getDisplayedDailyReward(reward: DailyReward, isVIPActive: boolean, vipTier: number): DailyReward {
+  const perks = getVipPerks(isVIPActive, vipTier);
+  const adjusted = applyVipRewardPerks(
+    {
+      xp: reward.xp,
+      coins: reward.coins,
+      gems: reward.gems ?? 0,
+      tickets: reward.tickets ?? 0,
+    },
+    perks,
+  );
+
+  return perks.dailyBonusSlot
+    ? { ...adjusted, tickets: clampBalance(adjusted.tickets + VIP_DAILY_BONUS_TICKETS) }
+    : adjusted;
 }
 
 function getRewardState({
@@ -192,20 +213,22 @@ export default function DailyRewardsScreen() {
 
   const today = getDayKeyUTC();
   const evaluation = evaluateDailyClaim(lastClaimDate, today, streak);
+  const isVIPActive = useEntitlementStore((s) => s.isVIPActive());
+  const vipTier = useEntitlementStore((s) => s.getVIPTier());
 
   const [fxTrigger, setFxTrigger] = useState(false);
   const [rewardResult, setRewardResult] = useState<DailyReward | null>(null);
 
   const displayDay = evaluation.nextStreak;
-  const todayReward = getDailyReward(displayDay) as DailyReward;
+  const todayReward = getDisplayedDailyReward(getDailyReward(displayDay) as DailyReward, isVIPActive, vipTier);
 
   const rewardDays = useMemo(
     () =>
       [1, 2, 3, 4, 5, 6, 7].map((day) => ({
         day,
-        reward: getDailyReward(day) as DailyReward,
+        reward: getDisplayedDailyReward(getDailyReward(day) as DailyReward, isVIPActive, vipTier),
       })),
-    [],
+    [isVIPActive, vipTier],
   );
 
   const statusTitle = !hydrated

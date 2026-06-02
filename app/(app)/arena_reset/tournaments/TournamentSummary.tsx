@@ -5,6 +5,7 @@ const tournamentResultHero = require("../../../../assets/images/arena/tournament
 const tournamentPrestigePanel = require("../../../../assets/images/arena/tournaments/tournament_prestige_panel.webp");
 
 import { router } from "expo-router";
+import { LinearGradient } from "expo-linear-gradient";
 import { feedback } from "@/feedback";
 import { useAchievementEventsStore } from "@/achievements/achievementEventsStore";
 import { useTournamentStore } from "@/arena/store/useTournamentStore";

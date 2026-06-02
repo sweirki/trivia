@@ -48,18 +48,18 @@ useEffect(() => {
 }, [syncRevenueCatEntitlements]);
 const user = useAuthStore((s) => s.user);
 
-/* useEffect(() => {
+useEffect(() => {
   setupProductionObservability();
   void trackEvent("app_opened");
   warmFeedbackSounds();
-}, []); */
+}, []);
 
-/* useEffect(() => {
+useEffect(() => {
   void trackScreenView(pathname || "unknown");
   void addCrashBreadcrumb("navigation.screen_viewed", { screenName: pathname || "unknown" });
-}, [pathname]); */
+}, [pathname]);
 
-/* useEffect(() => {
+useEffect(() => {
   const userId = user?.uid ?? null;
 
   void setAnalyticsUserId(userId);
@@ -68,7 +68,7 @@ const user = useAuthStore((s) => s.user);
   if (!user) return;
 
   loadCloudProfile();
-}, [loadCloudProfile, user]); */
+}, [loadCloudProfile, user]);
 
 
   return (

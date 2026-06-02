@@ -1,16 +1,19 @@
 // ---- SAFE SYNC (debounced, non-blocking) ----
 let __syncTimeout: ReturnType<typeof setTimeout> | null = null;
 
-function __scheduleSync(get: any) {
+function __scheduleSync(get: () => PlayerStoreState) {
   if (__syncTimeout) clearTimeout(__syncTimeout);
 
   __syncTimeout = setTimeout(() => {
-    Promise.resolve().then(() => {
-      try {
-        __scheduleSync(get);
-      } catch (e) {
-        // swallow errors to avoid UI blocking
-      }
+    __syncTimeout = null;
+    void get().syncNow().catch((error) => {
+      void recordSyncFailure(error, {
+        area: "player",
+        userId: auth.currentUser?.uid ?? null,
+        localVersion: readPlayerVersion(get().version),
+        queueSize: get().offlineQueue.length,
+        reason: "debounced_sync_failed",
+      });
     });
   }, 1500);
 }
@@ -77,17 +80,6 @@ type CloudPlayerState = Partial<PlayerStoreState> & {
   updatedAt?: unknown;
 };
 
-const TEST_TICKETS_EMAIL = "michuae@yahoo.com";
-const TEST_TICKETS_BALANCE = 999999;
-
-function isTestingTicketsAccount() {
-  return auth.currentUser?.email?.toLowerCase?.() === TEST_TICKETS_EMAIL;
-}
-
-function getTicketBalance(value: number) {
-  return isTestingTicketsAccount() ? TEST_TICKETS_BALANCE : value;
-}
-
 let playerSyncPromise: Promise<void> | null = null;
 let playerSyncPending = false;
 
@@ -120,7 +112,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
           level: progress.level,
           coins: clampBalance(get().coins + rewardDelta.coins),
           gems: clampBalance(get().gems + rewardDelta.gems),
-          tickets: getTicketBalance(clampBalance(get().tickets + rewardDelta.tickets)),
+          tickets: clampBalance(get().tickets + rewardDelta.tickets),
           claimedLevelRewards: Array.from(
             new Set([...get().claimedLevelRewards, ...levelRewards.map((reward) => reward.level)])
           ),
@@ -131,7 +123,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
         });
 
         if (options.sync !== false) {
-          // __scheduleSync(get);
+          __scheduleSync(get);
         }
       };
 
@@ -145,7 +137,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
         level: STARTING_ECONOMY.level,
         coins: STARTING_ECONOMY.coins,
         gems: STARTING_ECONOMY.gems,
-        tickets: getTicketBalance(STARTING_ECONOMY.tickets),
+        tickets: STARTING_ECONOMY.tickets,
 
         vipTier: 0,
         ownedPacks: [],
@@ -182,12 +174,12 @@ export const usePlayerStore = create<PlayerStoreState>()(
         setDaily: (daily) => {
           const normalized = normalizeDaily(daily);
           set({ daily: normalized, streak: normalized.streak, version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
         },
 
         setWeekly: (weekly) => {
           set({ weekly: normalizeWeekly(weekly), version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
         },
 
         claimWeeklyReward: (reward = WEEKLY_DAILY_REWARD) => {
@@ -201,7 +193,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
     useSeasonStore.getState().addSeasonXp(uid, SEASON_XP.WEEKLY_CLAIM)
   );
 }
-          // __scheduleSync(get);
+          __scheduleSync(get);
         },
 
         recordGameCompletion: (input) => {
@@ -221,24 +213,24 @@ export const usePlayerStore = create<PlayerStoreState>()(
           const nextRecentQuestionIds = mergeRecentQuestionIds(get().recentQuestionIds, ids);
 
           set({ recentQuestionIds: nextRecentQuestionIds, version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
         },
 
         clearRecentQuestions: () => {
           set({ recentQuestionIds: [], version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
         },
 
         recordQuestionPerformance: (result) => {
           const nextQuestionSkill = recordAdaptiveQuestionResult(get().questionSkill, result);
 
           set({ questionSkill: nextQuestionSkill, version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
         },
 
         clearQuestionSkill: () => {
           set({ questionSkill: DEFAULT_ADAPTIVE_DIFFICULTY_STATE, version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
         },
 
         recordQuestionAnalytics: (result) => {
@@ -251,12 +243,12 @@ export const usePlayerStore = create<PlayerStoreState>()(
 
         clearQuestionAnalytics: () => {
           set({ questionAnalytics: DEFAULT_QUESTION_ANALYTICS_STATE, version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
         },
 
         setCosmetics: (cosmetics) => {
           set({ cosmetics: normalizePlayerCosmeticsState(cosmetics), version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
         },
 
         isCosmeticOwned: (id) => normalizePlayerCosmeticsState(get().cosmetics).owned?.[id] === true,
@@ -286,7 +278,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
             }),
             version: get().version + 1,
           });
-          // __scheduleSync(get);
+          __scheduleSync(get);
           return { success: true };
         },
 
@@ -302,7 +294,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
             }),
             version: get().version + 1,
           });
-          // __scheduleSync(get);
+          __scheduleSync(get);
           return true;
         },
 
@@ -319,20 +311,20 @@ export const usePlayerStore = create<PlayerStoreState>()(
             }),
             version: get().version + 1,
           });
-          // __scheduleSync(get);
+          __scheduleSync(get);
         },
 
         setNickname: (name) => {
           set({ nickname: name.trim().length ? name.trim() : null, version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
         },
         setAvatar: (id) => {
           set({ avatarId: id, avatarUri: null, version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
         },
         setAvatarUri: (uri) => {
           set({ avatarUri: uri, version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
         },
         resetGuestIdentity: () => set({ userId: null, nickname: null, avatarId: null, avatarUri: null }),
 
@@ -369,7 +361,12 @@ export const usePlayerStore = create<PlayerStoreState>()(
           );
 
           const vipPerks = getVipPerks(entitlements.isVIPActive(), entitlements.getVIPTier());
-          grantRaw(applyVipRewardPerks(boostAdjusted, vipPerks), { sync: false });
+          const vipAdjustedReward = applyVipRewardPerks(boostAdjusted, vipPerks);
+          const dailyReward = vipPerks.dailyBonusSlot
+            ? { ...vipAdjustedReward, tickets: clampBalance(vipAdjustedReward.tickets + 2) }
+            : vipAdjustedReward;
+
+          grantRaw(dailyReward, { sync: false });
 
           const normalizedDaily = normalizeDaily(daily);
           set({
@@ -378,7 +375,9 @@ export const usePlayerStore = create<PlayerStoreState>()(
             version: get().version + 1,
           });
 
-          // __scheduleSync(get);
+          __scheduleSync(get);
+
+          return dailyReward;
         },
         addCoins: (amount) => grantRaw({ coins: amount }),
         addGems: (amount) => grantRaw({ gems: amount }),
@@ -389,28 +388,21 @@ export const usePlayerStore = create<PlayerStoreState>()(
           const safe = clampBalance(amount);
           if (get().coins < safe) return false;
           set({ coins: clampBalance(get().coins - safe), version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
           return true;
         },
         spendGems: (amount) => {
           const safe = clampBalance(amount);
           if (get().gems < safe) return false;
           set({ gems: clampBalance(get().gems - safe), version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
           return true;
         },
         spendTickets: (amount) => {
-          if (isTestingTicketsAccount()) {
-            if (get().tickets < TEST_TICKETS_BALANCE) {
-              set({ tickets: TEST_TICKETS_BALANCE, version: get().version + 1 });
-            }
-            return true;
-          }
-
           const safe = clampBalance(amount);
           if (get().tickets < safe) return false;
           set({ tickets: clampBalance(get().tickets - safe), version: get().version + 1 });
-          // __scheduleSync(get);
+          __scheduleSync(get);
           return true;
         },
 
@@ -540,7 +532,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
             level: Math.max(1, Math.floor(useCloud ? cloud.level ?? local.level : local.level)),
             coins: clampBalance(useCloud ? cloud.coins ?? local.coins : local.coins),
             gems: clampBalance(useCloud ? cloud.gems ?? local.gems : local.gems),
-            tickets: getTicketBalance(clampBalance(useCloud ? cloud.tickets ?? local.tickets : local.tickets)),
+            tickets: clampBalance(useCloud ? cloud.tickets ?? local.tickets : local.tickets),
             vipTier: Math.max(0, Math.min(4, Math.floor(useCloud ? cloud.vipTier ?? local.vipTier : local.vipTier))),
             ownedPacks: useCloud && Array.isArray(cloud.ownedPacks) ? cloud.ownedPacks : local.ownedPacks,
             inventory: { ...defaultInventory, ...(useCloud ? cloud.inventory ?? local.inventory : local.inventory) },
@@ -592,7 +584,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
             level: get().level,
             coins: get().coins,
             gems: get().gems,
-            tickets: getTicketBalance(get().tickets),
+            tickets: get().tickets,
             daily: get().daily,
             weekly: get().weekly,
             retention: get().retention,
@@ -699,7 +691,7 @@ export const usePlayerStore = create<PlayerStoreState>()(
           level: Math.max(1, Math.floor(state?.level ?? STARTING_ECONOMY.level)),
           coins: clampBalance(state?.coins ?? STARTING_ECONOMY.coins),
           gems: clampBalance(state?.gems ?? STARTING_ECONOMY.gems),
-          tickets: getTicketBalance(clampBalance(state?.tickets ?? STARTING_ECONOMY.tickets)),
+          tickets: clampBalance(state?.tickets ?? STARTING_ECONOMY.tickets),
           daily: normalizeDaily(state?.daily),
           streak: normalizeDaily(state?.daily).streak,
           weekly: normalizeWeekly(state?.weekly),

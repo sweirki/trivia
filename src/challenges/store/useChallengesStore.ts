@@ -21,6 +21,10 @@ import {
 } from 'firebase/firestore';
 import { notifyChallengeWaiting } from '@/notifications/challengeNotifications';
 
+let remoteChallengesLoadPromise: Promise<void> | null = null;
+let remoteChallengesLastLoadedAt = 0;
+const REMOTE_CHALLENGES_STALE_MS = 15_000;
+
 type ChallengeResult = 'win' | 'loss' | 'draw' | 'waiting';
 
 type ChallengeStatePayload = {
@@ -162,59 +166,71 @@ export const useChallengesStore = create<ChallengesState>((set, get) => ({
     const myUid = auth.currentUser?.uid;
     if (!myUid) return;
 
-    const incomingQuery = query(
-      collection(db, 'challenge_requests'),
-      where('to', '==', myUid),
-      where('status', '==', 'incoming')
-    );
+    const now = Date.now();
+    if (remoteChallengesLoadPromise) return remoteChallengesLoadPromise;
+    if (now - remoteChallengesLastLoadedAt < REMOTE_CHALLENGES_STALE_MS) return;
 
-    const activeQuery = query(
-      collection(db, 'challenge_requests'),
-      where('users', 'array-contains', myUid),
-      where('status', '==', 'active')
-    );
+    remoteChallengesLoadPromise = (async () => {
+      const incomingQuery = query(
+        collection(db, 'challenge_requests'),
+        where('to', '==', myUid),
+        where('status', '==', 'incoming')
+      );
 
-    const completedQuery = query(
-      collection(db, 'challenge_requests'),
-      where('users', 'array-contains', myUid),
-      where('status', '==', 'completed')
-    );
+      const activeQuery = query(
+        collection(db, 'challenge_requests'),
+        where('users', 'array-contains', myUid),
+        where('status', '==', 'active')
+      );
 
-    const [incomingSnap, activeSnap, completedSnap] = await Promise.all([
-      getDocs(incomingQuery),
-      getDocs(activeQuery),
-      getDocs(completedQuery),
-    ]);
+      const completedQuery = query(
+        collection(db, 'challenge_requests'),
+        where('users', 'array-contains', myUid),
+        where('status', '==', 'completed')
+      );
 
-    const remoteIncoming = incomingSnap.docs
-      .filter((snap) => !isExpired(snap.data()))
-      .map((snap) => toChallenge(snap.id, snap.data(), 'incoming', myUid));
+      const [incomingSnap, activeSnap, completedSnap] = await Promise.all([
+        getDocs(incomingQuery),
+        getDocs(activeQuery),
+        getDocs(completedQuery),
+      ]);
 
-    const remoteActive = activeSnap.docs
-      .filter((snap) => {
-        const data = snap.data() as ChallengeDoc;
-        return !isExpired(data) && !data.completedAtBy?.[myUid];
-      })
-      .map((snap) => toChallenge(snap.id, snap.data(), 'active', myUid));
+      const remoteIncoming = incomingSnap.docs
+        .filter((snap) => !isExpired(snap.data()))
+        .map((snap) => toChallenge(snap.id, snap.data(), 'incoming', myUid));
 
-    const remoteCompleted = completedSnap.docs.map((snap) =>
-      toChallenge(snap.id, snap.data(), 'completed', myUid)
-    );
+      const remoteActive = activeSnap.docs
+        .filter((snap) => {
+          const data = snap.data() as ChallengeDoc;
+          return !isExpired(data) && !data.completedAtBy?.[myUid];
+        })
+        .map((snap) => toChallenge(snap.id, snap.data(), 'active', myUid));
 
-    const localDailyActive = get().active.filter((c) => c.type === 'daily');
+      const remoteCompleted = completedSnap.docs.map((snap) =>
+        toChallenge(snap.id, snap.data(), 'completed', myUid)
+      );
 
-    const incoming = dedupeById(remoteIncoming);
-    const active = dedupeById([...localDailyActive, ...remoteActive]);
-    const history = dedupeById([...remoteCompleted, ...get().history]);
+      const localDailyActive = get().active.filter((c) => c.type === 'daily');
 
-    set({ incoming, active, history });
+      const incoming = dedupeById(remoteIncoming);
+      const active = dedupeById([...localDailyActive, ...remoteActive]);
+      const history = dedupeById([...remoteCompleted, ...get().history]);
 
-    saveChallenges({
-      incoming,
-      active,
-      history,
-      rewardedChallengeIds: get().rewardedChallengeIds,
+      set({ incoming, active, history });
+
+      remoteChallengesLastLoadedAt = Date.now();
+
+      saveChallenges({
+        incoming,
+        active,
+        history,
+        rewardedChallengeIds: get().rewardedChallengeIds,
+      });
+    })().finally(() => {
+      remoteChallengesLoadPromise = null;
     });
+
+    return remoteChallengesLoadPromise;
   },
 
   subscribeRemoteChallenges: () => {

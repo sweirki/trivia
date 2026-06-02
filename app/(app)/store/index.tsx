@@ -349,7 +349,9 @@ export default function StoreScreen() {
             </View>
 
             {smartOffers.map((offer) => {
-              const starterDisabled = offer.productId === "bundle_starter" && coins < 99;
+              const starterBundle = STORE_CONFIG.bundles.find((item) => item.id === "bundle_starter");
+              const starterCost = starterBundle?.cost ?? 275;
+              const starterDisabled = offer.productId === "bundle_starter" && coins < starterCost;
               return (
                 <ProductCard
                   artKey={activeHero.asset}
@@ -357,7 +359,7 @@ export default function StoreScreen() {
                   key={offer.id}
                   title={offer.title}
                   subtitle={offer.message}
-                  meta={offer.productId === "bundle_starter" ? "Cost: 99 COINS" : offer.storeTab === "vip" ? vipStatusLabel : undefined}
+                  meta={offer.productId === "bundle_starter" ? `Cost: ${starterCost} COINS` : offer.storeTab === "vip" ? vipStatusLabel : undefined}
                   buttonLabel={offer.primaryLabel}
                   disabled={starterDisabled}
                   onPress={() => {

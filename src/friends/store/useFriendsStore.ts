@@ -31,6 +31,10 @@ function getFriendlyError(error: unknown, fallback: string) {
   return error instanceof Error && error.message ? error.message : fallback;
 }
 
+let remoteFriendsLoadPromise: Promise<void> | null = null;
+let remoteFriendsLastLoadedAt = 0;
+const REMOTE_FRIENDS_STALE_MS = 30_000;
+
 function getCurrentUsername() {
   const user = auth.currentUser;
   return user?.displayName || user?.email?.split("@")[0] || "Player";
@@ -46,7 +50,7 @@ interface FriendsState {
 
   setRequests: (items: FriendRequest[]) => void;
   ensureMyFriendCode: () => Promise<string | null>;
-  loadRemote: () => Promise<void>;
+  loadRemote: (options?: { force?: boolean }) => Promise<void>;
   sendFriendRequestByCode: (friendCode: string) => Promise<boolean>;
   acceptRequest: (id: string) => Promise<void>;
   rejectRequest: (id: string) => Promise<void>;
@@ -98,73 +102,84 @@ export const useFriendsStore = create<FriendsState>((set, get) => ({
     return friendCode;
   },
 
-  loadRemote: async () => {
+  loadRemote: async (options = {}) => {
     const user = auth.currentUser;
     if (!user) {
       set({ error: "Please sign in first." });
       return;
     }
 
-    set({ loading: true, error: null });
+    const now = Date.now();
+    if (remoteFriendsLoadPromise) return remoteFriendsLoadPromise;
+    if (!options.force && now - remoteFriendsLastLoadedAt < REMOTE_FRIENDS_STALE_MS) return;
 
-    try {
-      const myCode = await get().ensureMyFriendCode();
-      if (!myCode) {
-        set({ loading: false });
-        return;
-      }
+    remoteFriendsLoadPromise = (async () => {
+      set({ loading: true, error: null });
 
-      const incomingQuery = query(
-        collection(db, "friend_requests"),
-        where("to", "==", user.uid),
-        where("status", "==", "pending")
-      );
+      try {
+        const myCode = await get().ensureMyFriendCode();
+        if (!myCode) {
+          set({ loading: false });
+          return;
+        }
 
-      const outgoingQuery = query(
-        collection(db, "friend_requests"),
-        where("from", "==", user.uid),
-        where("status", "==", "pending")
-      );
-
-      const friendshipsQuery = query(
-        collection(db, "friendships"),
-        where("users", "array-contains", user.uid),
-        where("status", "==", "accepted")
-      );
-
-      const [incomingSnap, outgoingSnap, friendshipsSnap] = await Promise.all([
-        getDocs(incomingQuery),
-        getDocs(outgoingQuery),
-        getDocs(friendshipsQuery),
-      ]);
-
-      const requests = incomingSnap.docs.map(mapIncomingRequest);
-      const sentRequests = outgoingSnap.docs.map(mapSentRequest);
-      const friendIds = getFriendIdsFromFriendships(
-        friendshipsSnap.docs,
-        user.uid
-      );
-
-      let friends: Friend[] = [];
-
-      if (friendIds.length > 0) {
-        const playersQuery = query(
-          collection(db, "players"),
-          where(documentId(), "in", friendIds.slice(0, 10))
+        const incomingQuery = query(
+          collection(db, "friend_requests"),
+          where("to", "==", user.uid),
+          where("status", "==", "pending")
         );
 
-        const playersSnap = await getDocs(playersQuery);
-        friends = playersSnap.docs.map(mapFriend);
-      }
+        const outgoingQuery = query(
+          collection(db, "friend_requests"),
+          where("from", "==", user.uid),
+          where("status", "==", "pending")
+        );
 
-      set({ friends, requests, sentRequests, loading: false, error: null });
-      saveItem(StorageKeys.FRIENDS, { friends, requests });
-    } catch (error) {
-      set({
-        loading: false,
-        error: getFriendlyError(error, "Failed to load friends."),
-      });
-    }
+        const friendshipsQuery = query(
+          collection(db, "friendships"),
+          where("users", "array-contains", user.uid),
+          where("status", "==", "accepted")
+        );
+
+        const [incomingSnap, outgoingSnap, friendshipsSnap] = await Promise.all([
+          getDocs(incomingQuery),
+          getDocs(outgoingQuery),
+          getDocs(friendshipsQuery),
+        ]);
+
+        const requests = incomingSnap.docs.map(mapIncomingRequest);
+        const sentRequests = outgoingSnap.docs.map(mapSentRequest);
+        const friendIds = getFriendIdsFromFriendships(
+          friendshipsSnap.docs,
+          user.uid
+        );
+
+        let friends: Friend[] = [];
+
+        if (friendIds.length > 0) {
+          const playersQuery = query(
+            collection(db, "players"),
+            where(documentId(), "in", friendIds.slice(0, 10))
+          );
+
+          const playersSnap = await getDocs(playersQuery);
+          friends = playersSnap.docs.map(mapFriend);
+        }
+
+        remoteFriendsLastLoadedAt = Date.now();
+        set({ friends, requests, sentRequests, loading: false, error: null });
+        saveItem(StorageKeys.FRIENDS, { friends, requests });
+      } catch (error) {
+        set({
+          loading: false,
+          error: getFriendlyError(error, "Failed to load friends."),
+        });
+      }
+    })().finally(() => {
+      remoteFriendsLoadPromise = null;
+    });
+
+    return remoteFriendsLoadPromise;
   },
 
   sendFriendRequestByCode: async (friendCode) => {
@@ -231,7 +246,7 @@ export const useFriendsStore = create<FriendsState>((set, get) => ({
         { merge: true }
       );
 
-      await get().loadRemote();
+      await get().loadRemote({ force: true });
       return true;
     } catch (error) {
       set({
@@ -273,7 +288,7 @@ export const useFriendsStore = create<FriendsState>((set, get) => ({
         updatedAt: Date.now(),
       });
 
-      await get().loadRemote();
+      await get().loadRemote({ force: true });
     } catch (error) {
       set({
         loading: false,
@@ -291,7 +306,7 @@ export const useFriendsStore = create<FriendsState>((set, get) => ({
         updatedAt: Date.now(),
       });
 
-      await get().loadRemote();
+      await get().loadRemote({ force: true });
     } catch (error) {
       set({
         loading: false,

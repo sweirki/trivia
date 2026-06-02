@@ -1,740 +1,3802 @@
 [
   {
-    "id": 31001,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which animal is larger?",
-    "answers": [
-      "Elephant",
-      "Rabbit",
-      "Cat",
-      "Dog"
-    ],
-    "correctAnswer": "Elephant",
-    "explanation": "Elephant is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "easy",
-      "elephant"
-    ]
-  },
-  {
-    "id": 31002,
-    "category": "logic",
+    "id": 43501,
+    "category": "Logic",
     "premium": true,
     "difficulty": "medium",
-    "text": "If a pizza has 8 slices and you eat 3, how many remain?",
+    "text": "What particle carries a negative electric charge? #244",
     "answers": [
-      "4",
-      "5",
-      "3",
-      "6"
+      "Electron",
+      "Neutron",
+      "Photon",
+      "Proton"
     ],
-    "correctAnswer": "5",
-    "explanation": "The correct answer is 5.",
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
       "medium"
     ]
   },
   {
-    "id": 31003,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which number is between 40 and 50?",
-    "answers": [
-      "55",
-      "35",
-      "45",
-      "60"
-    ],
-    "correctAnswer": "45",
-    "explanation": "45 is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "easy"
-    ]
-  },
-  {
-    "id": 31004,
-    "category": "logic",
+    "id": 43502,
+    "category": "Logic",
     "premium": true,
     "difficulty": "hard",
-    "text": "A man was born in 1990 and died in 1990 at age 30. How is this possible?",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #245",
     "answers": [
-      "He was born twice",
-      "The dates are wrong",
-      "He traveled through time",
-      "1990 was a hospital room number"
+      "Neptune",
+      "Jupiter",
+      "Mars",
+      "Saturn"
     ],
-    "correctAnswer": "1990 was a hospital room number",
-    "explanation": "The correct answer is 1990 was a hospital room number.",
-    "tags": [
-      "logic",
-      "hard",
-      "1990-was"
-    ]
-  },
-  {
-    "id": 31005,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which direction is opposite of east?",
-    "answers": [
-      "West",
-      "North",
-      "South",
-      "Up"
-    ],
-    "correctAnswer": "West",
-    "explanation": "West is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "easy",
-      "west"
-    ]
-  },
-  {
-    "id": 31006,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which number comes next: 4, 8, 12, 16, ?",
-    "answers": [
-      "18",
-      "20",
-      "22",
-      "24"
-    ],
-    "correctAnswer": "20",
-    "explanation": "20 is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "medium"
-    ]
-  },
-  {
-    "id": 31007,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "How many days are there in a week?",
-    "answers": [
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
-    "correctAnswer": "7",
-    "explanation": "The correct answer is 7.",
-    "tags": [
-      "logic",
-      "easy"
-    ]
-  },
-  {
-    "id": 31008,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "If a car travels 60 kilometers in 1 hour, how far does it travel in 2 hours?",
-    "answers": [
-      "100 kilometers",
-      "90 kilometers",
-      "140 kilometers",
-      "120 kilometers"
-    ],
-    "correctAnswer": "120 kilometers",
-    "explanation": "The correct answer is 120 kilometers.",
-    "tags": [
-      "logic",
-      "medium",
-      "120-kilometers"
-    ]
-  },
-  {
-    "id": 31009,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which number is smaller than 1?",
-    "answers": [
-      "0",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": "0",
-    "explanation": "0 is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "easy"
-    ]
-  },
-  {
-    "id": 31010,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which number comes next: 2, 5, 10, 17, 26, ?",
-    "answers": [
-      "35",
-      "37",
-      "38",
-      "40"
-    ],
-    "correctAnswer": "37",
-    "explanation": "37 is the correct answer to this logic question.",
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
       "hard"
     ]
   },
   {
-    "id": 31011,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which item is coldest?",
-    "answers": [
-      "Steam",
-      "Fire",
-      "Ice",
-      "Soup"
-    ],
-    "correctAnswer": "Ice",
-    "explanation": "Ice is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "easy",
-      "ice"
-    ]
-  },
-  {
-    "id": 31012,
-    "category": "logic",
+    "id": 43503,
+    "category": "Logic",
     "premium": true,
     "difficulty": "medium",
-    "text": "If every bicycle has 2 wheels, how many wheels do 5 bicycles have?",
+    "text": "What is the chemical symbol for gold? #246",
     "answers": [
-      "8",
-      "12",
-      "15",
-      "10"
+      "Ag",
+      "Pb",
+      "Au",
+      "Fe"
     ],
-    "correctAnswer": "10",
-    "explanation": "The correct answer is 10.",
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
       "medium"
     ]
   },
   {
-    "id": 31013,
-    "category": "logic",
+    "id": 43504,
+    "category": "Logic",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which number is a multiple of 5?",
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #247",
     "answers": [
-      "25",
-      "22",
-      "18",
-      "13"
+      "Photon",
+      "Proton",
+      "Neutron",
+      "Electron"
     ],
-    "correctAnswer": "25",
-    "explanation": "25 is the correct answer to this logic question.",
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
-      "easy"
+      "medium"
     ]
   },
   {
-    "id": 31014,
-    "category": "logic",
+    "id": 43505,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #248",
+    "answers": [
+      "Jupiter",
+      "Neptune",
+      "Mars",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43506,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #249",
+    "answers": [
+      "Pb",
+      "Au",
+      "Fe",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43507,
+    "category": "Logic",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which number completes the sequence: 13, 16, 21, 28, 37, ?",
+    "text": "What particle carries a negative electric charge? #250",
     "answers": [
-      "46",
-      "48",
-      "49",
-      "50"
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Photon"
     ],
-    "correctAnswer": "48",
-    "explanation": "48 is the correct answer to this logic question.",
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
       "hard"
     ]
   },
   {
-    "id": 31015,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which shape has five sides?",
-    "answers": [
-      "Hexagon",
-      "Triangle",
-      "Pentagon",
-      "Circle"
-    ],
-    "correctAnswer": "Pentagon",
-    "explanation": "Pentagon is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "easy",
-      "pentagon"
-    ]
-  },
-  {
-    "id": 31016,
-    "category": "logic",
+    "id": 43508,
+    "category": "Logic",
     "premium": true,
     "difficulty": "medium",
-    "text": "If Tom is older than Sarah and Sarah is older than Ben, who is youngest?",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #251",
     "answers": [
-      "Sarah",
-      "Tom",
-      "They are the same age",
-      "Ben"
+      "Saturn",
+      "Mars",
+      "Neptune",
+      "Jupiter"
     ],
-    "correctAnswer": "Ben",
-    "explanation": "The correct answer is Ben.",
-    "tags": [
-      "logic",
-      "medium",
-      "ben"
-    ]
-  },
-  {
-    "id": 31017,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which number equals 7 multiplied by 2?",
-    "answers": [
-      "14",
-      "12",
-      "16",
-      "18"
-    ],
-    "correctAnswer": "14",
-    "explanation": "14 is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "easy"
-    ]
-  },
-  {
-    "id": 31018,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which number comes next: 50, 45, 40, 35, ?",
-    "answers": [
-      "25",
-      "30",
-      "32",
-      "28"
-    ],
-    "correctAnswer": "30",
-    "explanation": "30 is the correct answer to this logic question.",
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
       "medium"
     ]
   },
   {
-    "id": 31019,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which word is the opposite of 'fast'?",
-    "answers": [
-      "Quick",
-      "Rapid",
-      "Slow",
-      "Swift"
-    ],
-    "correctAnswer": "Slow",
-    "explanation": "Slow is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "easy",
-      "slow"
-    ]
-  },
-  {
-    "id": 31020,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What has many teeth but cannot bite?",
-    "answers": [
-      "A shark",
-      "A zipper",
-      "A saw",
-      "A comb"
-    ],
-    "correctAnswer": "A comb",
-    "explanation": "A comb is the correct answer based on the facts asked in the question.",
-    "tags": [
-      "logic",
-      "hard",
-      "comb"
-    ]
-  },
-  {
-    "id": 31021,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "How many months are in a year?",
-    "answers": [
-      "12",
-      "10",
-      "11",
-      "13"
-    ],
-    "correctAnswer": "12",
-    "explanation": "The correct answer is 12.",
-    "tags": [
-      "logic",
-      "easy"
-    ]
-  },
-  {
-    "id": 31022,
-    "category": "logic",
+    "id": 43509,
+    "category": "Logic",
     "premium": true,
     "difficulty": "medium",
-    "text": "If one shirt costs $15, how much do 3 shirts cost?",
+    "text": "What is the chemical symbol for gold? #252",
     "answers": [
-      "30",
-      "45",
-      "50",
-      "40"
+      "Au",
+      "Ag",
+      "Pb",
+      "Fe"
     ],
-    "correctAnswer": "45",
-    "explanation": "The correct answer is 45.",
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
       "medium"
     ]
   },
   {
-    "id": 31023,
-    "category": "logic",
+    "id": 43510,
+    "category": "Logic",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which number is divisible by 10?",
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #253",
     "answers": [
-      "43",
-      "47",
-      "40",
-      "49"
+      "Photon",
+      "Electron",
+      "Proton",
+      "Neutron"
     ],
-    "correctAnswer": "40",
-    "explanation": "40 is the correct answer to this logic question.",
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
-      "easy"
+      "medium"
     ]
   },
   {
-    "id": 31024,
-    "category": "logic",
+    "id": 43511,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #254",
+    "answers": [
+      "Neptune",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43512,
+    "category": "Logic",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which number comes next: 6, 12, 24, 48, ?",
+    "text": "What is the chemical symbol for gold? #255",
     "answers": [
-      "72",
-      "84",
-      "100",
-      "96"
+      "Ag",
+      "Pb",
+      "Fe",
+      "Au"
     ],
-    "correctAnswer": "96",
-    "explanation": "96 is the correct answer to this logic question.",
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
       "hard"
     ]
   },
   {
-    "id": 31025,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which is the tallest animal?",
-    "answers": [
-      "Giraffe",
-      "Elephant",
-      "Horse",
-      "Lion"
-    ],
-    "correctAnswer": "Giraffe",
-    "explanation": "Giraffe is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "easy",
-      "giraffe"
-    ]
-  },
-  {
-    "id": 31026,
-    "category": "logic",
+    "id": 43513,
+    "category": "Logic",
     "premium": true,
     "difficulty": "medium",
-    "text": "If a rectangle has 4 sides, how many sides do 3 rectangles have in total?",
+    "text": "What particle carries a negative electric charge? #256",
     "answers": [
-      "8",
-      "12",
-      "10",
-      "16"
+      "Electron",
+      "Neutron",
+      "Photon",
+      "Proton"
     ],
-    "correctAnswer": "12",
-    "explanation": "The correct answer is 12.",
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
       "medium"
     ]
   },
   {
-    "id": 31027,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which number is greater than 200?",
-    "answers": [
-      "150",
-      "180",
-      "250",
-      "190"
-    ],
-    "correctAnswer": "250",
-    "explanation": "250 is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "easy",
-      "250"
-    ]
-  },
-  {
-    "id": 31028,
-    "category": "logic",
+    "id": 43514,
+    "category": "Logic",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which number comes next: 15, 30, 45, 60, ?",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #257",
     "answers": [
-      "70",
-      "80",
-      "90",
-      "75"
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Neptune"
     ],
-    "correctAnswer": "75",
-    "explanation": "75 is the correct answer to this logic question.",
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
       "medium"
     ]
   },
   {
-    "id": 31029,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which item is used to cut paper?",
-    "answers": [
-      "Scissors",
-      "Spoon",
-      "Plate",
-      "Cup"
-    ],
-    "correctAnswer": "Scissors",
-    "explanation": "Scissors is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "easy",
-      "scissors"
-    ]
-  },
-  {
-    "id": 31030,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "The more you take away from me, the bigger I become. What am I?",
-    "answers": [
-      "A shadow",
-      "A hole",
-      "A cloud",
-      "A mountain"
-    ],
-    "correctAnswer": "A hole",
-    "explanation": "The correct answer is A hole.",
-    "tags": [
-      "logic",
-      "hard",
-      "hole"
-    ]
-  },
-  {
-    "id": 31031,
-    "category": "logic",
+    "id": 43515,
+    "category": "Logic",
     "premium": true,
     "difficulty": "medium",
-    "text": "If one pack contains 9 batteries, how many batteries are in 4 packs?",
+    "text": "What is the chemical symbol for gold? #258",
     "answers": [
-      "32",
-      "40",
-      "36",
-      "28"
+      "Ag",
+      "Pb",
+      "Au",
+      "Fe"
     ],
-    "correctAnswer": "36",
-    "explanation": "The correct answer is 36.",
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
       "medium"
     ]
   },
   {
-    "id": 31032,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which number is closest to zero?",
-    "answers": [
-      "5",
-      "10",
-      "20",
-      "1"
-    ],
-    "correctAnswer": "1",
-    "explanation": "1 is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "easy"
-    ]
-  },
-  {
-    "id": 31033,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which number completes the pattern: 2, 6, 18, 54, ?",
-    "answers": [
-      "162",
-      "108",
-      "144",
-      "216"
-    ],
-    "correctAnswer": "162",
-    "explanation": "162 is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "hard",
-      "162"
-    ]
-  },
-  {
-    "id": 31034,
-    "category": "logic",
+    "id": 43516,
+    "category": "Logic",
     "premium": true,
     "difficulty": "medium",
-    "text": "If Anna reads 20 pages each day, how many pages does she read in 5 days?",
+    "text": "What particle carries a negative electric charge? #259",
     "answers": [
-      "80",
-      "100",
-      "90",
-      "120"
+      "Neutron",
+      "Proton",
+      "Photon",
+      "Electron"
     ],
-    "correctAnswer": "100",
-    "explanation": "The correct answer is 100.",
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
-      "medium",
-      "100"
+      "medium"
     ]
   },
   {
-    "id": 31035,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which number comes next: 6, 12, 18, 24, ?",
-    "answers": [
-      "28",
-      "32",
-      "30",
-      "36"
-    ],
-    "correctAnswer": "30",
-    "explanation": "30 is the correct answer to this logic question.",
-    "tags": [
-      "logic",
-      "easy"
-    ]
-  },
-  {
-    "id": 31036,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "If all birds have wings and a robin is a bird, what does a robin have?",
-    "answers": [
-      "Scales",
-      "Wheels",
-      "Fins",
-      "Wings"
-    ],
-    "correctAnswer": "Wings",
-    "explanation": "The correct answer is Wings.",
-    "tags": [
-      "logic",
-      "medium",
-      "wings"
-    ]
-  },
-  {
-    "id": 31037,
-    "category": "logic",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "What is 8 multiplied by 3?",
-    "answers": [
-      "24",
-      "18",
-      "21",
-      "27"
-    ],
-    "correctAnswer": "24",
-    "explanation": "24 is the correct answer based on the facts asked in the question.",
-    "tags": [
-      "logic",
-      "easy"
-    ]
-  },
-  {
-    "id": 31038,
-    "category": "logic",
+    "id": 43517,
+    "category": "Logic",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which number comes next: 1, 3, 6, 10, 15, ?",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #260",
     "answers": [
-      "20",
-      "21",
-      "22",
-      "24"
+      "Jupiter",
+      "Saturn",
+      "Mars",
+      "Neptune"
     ],
-    "correctAnswer": "21",
-    "explanation": "21 is the correct answer to this logic question.",
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
     "tags": [
       "logic",
       "hard"
+    ]
+  },
+  {
+    "id": 43518,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #261",
+    "answers": [
+      "Fe",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43519,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #262",
+    "answers": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43520,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #263",
+    "answers": [
+      "Saturn",
+      "Neptune",
+      "Mars",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43521,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #264",
+    "answers": [
+      "Au",
+      "Pb",
+      "Fe",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43522,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #265",
+    "answers": [
+      "Photon",
+      "Electron",
+      "Proton",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43523,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #266",
+    "answers": [
+      "Mars",
+      "Neptune",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43524,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #267",
+    "answers": [
+      "Fe",
+      "Ag",
+      "Pb",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43525,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #268",
+    "answers": [
+      "Electron",
+      "Neutron",
+      "Proton",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43526,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #269",
+    "answers": [
+      "Mars",
+      "Jupiter",
+      "Neptune",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43527,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #270",
+    "answers": [
+      "Pb",
+      "Fe",
+      "Au",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43528,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #271",
+    "answers": [
+      "Photon",
+      "Neutron",
+      "Proton",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43529,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #272",
+    "answers": [
+      "Jupiter",
+      "Neptune",
+      "Mars",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43530,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #273",
+    "answers": [
+      "Pb",
+      "Au",
+      "Fe",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43531,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #274",
+    "answers": [
+      "Neutron",
+      "Proton",
+      "Electron",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43532,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #275",
+    "answers": [
+      "Mars",
+      "Neptune",
+      "Saturn",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43533,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #276",
+    "answers": [
+      "Au",
+      "Pb",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43534,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #277",
+    "answers": [
+      "Proton",
+      "Electron",
+      "Photon",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43535,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #278",
+    "answers": [
+      "Neptune",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43536,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #279",
+    "answers": [
+      "Fe",
+      "Pb",
+      "Ag",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43537,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #280",
+    "answers": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43538,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #281",
+    "answers": [
+      "Neptune",
+      "Jupiter",
+      "Saturn",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43539,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #282",
+    "answers": [
+      "Pb",
+      "Fe",
+      "Au",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43540,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #283",
+    "answers": [
+      "Proton",
+      "Photon",
+      "Neutron",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43541,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #284",
+    "answers": [
+      "Jupiter",
+      "Mars",
+      "Neptune",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43542,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #285",
+    "answers": [
+      "Fe",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43543,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #286",
+    "answers": [
+      "Proton",
+      "Photon",
+      "Electron",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43544,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #287",
+    "answers": [
+      "Mars",
+      "Saturn",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43545,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #288",
+    "answers": [
+      "Au",
+      "Fe",
+      "Pb",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43546,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #289",
+    "answers": [
+      "Photon",
+      "Electron",
+      "Neutron",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43547,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #290",
+    "answers": [
+      "Mars",
+      "Saturn",
+      "Jupiter",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43548,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #291",
+    "answers": [
+      "Ag",
+      "Pb",
+      "Fe",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43549,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #292",
+    "answers": [
+      "Electron",
+      "Neutron",
+      "Proton",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43550,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #293",
+    "answers": [
+      "Saturn",
+      "Jupiter",
+      "Mars",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43551,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #294",
+    "answers": [
+      "Fe",
+      "Ag",
+      "Au",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43552,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #295",
+    "answers": [
+      "Photon",
+      "Proton",
+      "Neutron",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43553,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #296",
+    "answers": [
+      "Jupiter",
+      "Saturn",
+      "Mars",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43554,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #297",
+    "answers": [
+      "Fe",
+      "Au",
+      "Pb",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43555,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #298",
+    "answers": [
+      "Neutron",
+      "Proton",
+      "Electron",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43556,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #299",
+    "answers": [
+      "Mars",
+      "Saturn",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43557,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #300",
+    "answers": [
+      "Au",
+      "Ag",
+      "Fe",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43558,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #301",
+    "answers": [
+      "Photon",
+      "Electron",
+      "Neutron",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43559,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #302",
+    "answers": [
+      "Saturn",
+      "Neptune",
+      "Jupiter",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43560,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #303",
+    "answers": [
+      "Pb",
+      "Fe",
+      "Ag",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43561,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #304",
+    "answers": [
+      "Electron",
+      "Photon",
+      "Neutron",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43562,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #305",
+    "answers": [
+      "Saturn",
+      "Jupiter",
+      "Neptune",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43563,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #306",
+    "answers": [
+      "Fe",
+      "Ag",
+      "Au",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43564,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #307",
+    "answers": [
+      "Proton",
+      "Photon",
+      "Neutron",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43565,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #308",
+    "answers": [
+      "Jupiter",
+      "Neptune",
+      "Mars",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43566,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #309",
+    "answers": [
+      "Fe",
+      "Au",
+      "Pb",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43567,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #310",
+    "answers": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43568,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #311",
+    "answers": [
+      "Saturn",
+      "Mars",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43569,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #312",
+    "answers": [
+      "Au",
+      "Ag",
+      "Fe",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43570,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #313",
+    "answers": [
+      "Neutron",
+      "Electron",
+      "Proton",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43571,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #314",
+    "answers": [
+      "Saturn",
+      "Mars",
+      "Jupiter",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43572,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #315",
+    "answers": [
+      "Ag",
+      "Fe",
+      "Pb",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43573,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #316",
+    "answers": [
+      "Electron",
+      "Neutron",
+      "Photon",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43574,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #317",
+    "answers": [
+      "Neptune",
+      "Jupiter",
+      "Mars",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43575,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #318",
+    "answers": [
+      "Ag",
+      "Pb",
+      "Au",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43576,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #319",
+    "answers": [
+      "Proton",
+      "Photon",
+      "Neutron",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43577,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #320",
+    "answers": [
+      "Jupiter",
+      "Neptune",
+      "Mars",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43578,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #321",
+    "answers": [
+      "Fe",
+      "Au",
+      "Pb",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43579,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #322",
+    "answers": [
+      "Neutron",
+      "Photon",
+      "Electron",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43580,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #323",
+    "answers": [
+      "Mars",
+      "Neptune",
+      "Saturn",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43581,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #324",
+    "answers": [
+      "Au",
+      "Pb",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43582,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #325",
+    "answers": [
+      "Photon",
+      "Electron",
+      "Proton",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43583,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #326",
+    "answers": [
+      "Neptune",
+      "Saturn",
+      "Jupiter",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43584,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #327",
+    "answers": [
+      "Fe",
+      "Ag",
+      "Pb",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43585,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #328",
+    "answers": [
+      "Electron",
+      "Neutron",
+      "Photon",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43586,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #329",
+    "answers": [
+      "Neptune",
+      "Jupiter",
+      "Saturn",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43587,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #330",
+    "answers": [
+      "Fe",
+      "Ag",
+      "Au",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43588,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #331",
+    "answers": [
+      "Photon",
+      "Neutron",
+      "Proton",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43589,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #332",
+    "answers": [
+      "Jupiter",
+      "Mars",
+      "Neptune",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43590,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #333",
+    "answers": [
+      "Ag",
+      "Au",
+      "Pb",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43591,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #334",
+    "answers": [
+      "Photon",
+      "Proton",
+      "Electron",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43592,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #335",
+    "answers": [
+      "Mars",
+      "Saturn",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43593,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #336",
+    "answers": [
+      "Au",
+      "Ag",
+      "Fe",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43594,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #337",
+    "answers": [
+      "Neutron",
+      "Electron",
+      "Photon",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43595,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #338",
+    "answers": [
+      "Mars",
+      "Neptune",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43596,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #339",
+    "answers": [
+      "Pb",
+      "Ag",
+      "Fe",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43597,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #340",
+    "answers": [
+      "Electron",
+      "Proton",
+      "Photon",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43598,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #341",
+    "answers": [
+      "Neptune",
+      "Jupiter",
+      "Saturn",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43599,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #342",
+    "answers": [
+      "Pb",
+      "Ag",
+      "Au",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43600,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #343",
+    "answers": [
+      "Photon",
+      "Neutron",
+      "Proton",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43601,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #344",
+    "answers": [
+      "Jupiter",
+      "Mars",
+      "Neptune",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43602,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #345",
+    "answers": [
+      "Ag",
+      "Au",
+      "Pb",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43603,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #346",
+    "answers": [
+      "Proton",
+      "Photon",
+      "Electron",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43604,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #347",
+    "answers": [
+      "Saturn",
+      "Neptune",
+      "Mars",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43605,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #348",
+    "answers": [
+      "Au",
+      "Pb",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43606,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #349",
+    "answers": [
+      "Photon",
+      "Electron",
+      "Proton",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43607,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #350",
+    "answers": [
+      "Saturn",
+      "Neptune",
+      "Jupiter",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43608,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #351",
+    "answers": [
+      "Pb",
+      "Ag",
+      "Fe",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43609,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #352",
+    "answers": [
+      "Electron",
+      "Proton",
+      "Photon",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43610,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #353",
+    "answers": [
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43611,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #354",
+    "answers": [
+      "Pb",
+      "Fe",
+      "Au",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43612,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #355",
+    "answers": [
+      "Neutron",
+      "Proton",
+      "Photon",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43613,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #356",
+    "answers": [
+      "Jupiter",
+      "Neptune",
+      "Saturn",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43614,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #357",
+    "answers": [
+      "Ag",
+      "Au",
+      "Pb",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43615,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #358",
+    "answers": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43616,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #359",
+    "answers": [
+      "Mars",
+      "Neptune",
+      "Saturn",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43617,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #360",
+    "answers": [
+      "Au",
+      "Pb",
+      "Fe",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43618,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #361",
+    "answers": [
+      "Proton",
+      "Electron",
+      "Photon",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43619,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #362",
+    "answers": [
+      "Mars",
+      "Neptune",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43620,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #363",
+    "answers": [
+      "Ag",
+      "Pb",
+      "Fe",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43621,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #364",
+    "answers": [
+      "Electron",
+      "Neutron",
+      "Proton",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43622,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #365",
+    "answers": [
+      "Saturn",
+      "Jupiter",
+      "Mars",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43623,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #366",
+    "answers": [
+      "Fe",
+      "Ag",
+      "Au",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43624,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #367",
+    "answers": [
+      "Photon",
+      "Neutron",
+      "Proton",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43625,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #368",
+    "answers": [
+      "Jupiter",
+      "Saturn",
+      "Neptune",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43626,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #369",
+    "answers": [
+      "Ag",
+      "Au",
+      "Fe",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43627,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #370",
+    "answers": [
+      "Photon",
+      "Neutron",
+      "Electron",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43628,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #371",
+    "answers": [
+      "Saturn",
+      "Mars",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43629,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #372",
+    "answers": [
+      "Au",
+      "Fe",
+      "Ag",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43630,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #373",
+    "answers": [
+      "Neutron",
+      "Electron",
+      "Photon",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43631,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #374",
+    "answers": [
+      "Mars",
+      "Neptune",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43632,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #375",
+    "answers": [
+      "Pb",
+      "Ag",
+      "Fe",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43633,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #376",
+    "answers": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43634,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #377",
+    "answers": [
+      "Neptune",
+      "Jupiter",
+      "Saturn",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43635,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #378",
+    "answers": [
+      "Ag",
+      "Pb",
+      "Au",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43636,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #379",
+    "answers": [
+      "Neutron",
+      "Proton",
+      "Photon",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43637,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #380",
+    "answers": [
+      "Jupiter",
+      "Mars",
+      "Saturn",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43638,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #381",
+    "answers": [
+      "Fe",
+      "Au",
+      "Pb",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43639,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #382",
+    "answers": [
+      "Proton",
+      "Photon",
+      "Electron",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43640,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #383",
+    "answers": [
+      "Neptune",
+      "Mars",
+      "Saturn",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43641,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #384",
+    "answers": [
+      "Au",
+      "Ag",
+      "Pb",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43642,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #385",
+    "answers": [
+      "Proton",
+      "Electron",
+      "Photon",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43643,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #386",
+    "answers": [
+      "Saturn",
+      "Mars",
+      "Jupiter",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43644,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #387",
+    "answers": [
+      "Fe",
+      "Ag",
+      "Pb",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43645,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #388",
+    "answers": [
+      "Electron",
+      "Neutron",
+      "Photon",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43646,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #389",
+    "answers": [
+      "Saturn",
+      "Jupiter",
+      "Mars",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43647,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #390",
+    "answers": [
+      "Pb",
+      "Fe",
+      "Au",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43648,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #391",
+    "answers": [
+      "Proton",
+      "Photon",
+      "Neutron",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43649,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #392",
+    "answers": [
+      "Jupiter",
+      "Saturn",
+      "Neptune",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43650,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #393",
+    "answers": [
+      "Ag",
+      "Au",
+      "Fe",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43651,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #394",
+    "answers": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43652,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #395",
+    "answers": [
+      "Mars",
+      "Saturn",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43653,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #396",
+    "answers": [
+      "Au",
+      "Fe",
+      "Pb",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43654,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #397",
+    "answers": [
+      "Photon",
+      "Electron",
+      "Proton",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43655,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #398",
+    "answers": [
+      "Saturn",
+      "Mars",
+      "Jupiter",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43656,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #399",
+    "answers": [
+      "Ag",
+      "Pb",
+      "Fe",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43657,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #400",
+    "answers": [
+      "Electron",
+      "Neutron",
+      "Proton",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43658,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #401",
+    "answers": [
+      "Saturn",
+      "Jupiter",
+      "Neptune",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43659,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #402",
+    "answers": [
+      "Ag",
+      "Fe",
+      "Au",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43660,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #403",
+    "answers": [
+      "Proton",
+      "Neutron",
+      "Photon",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43661,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #404",
+    "answers": [
+      "Jupiter",
+      "Neptune",
+      "Saturn",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43662,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #405",
+    "answers": [
+      "Fe",
+      "Au",
+      "Pb",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43663,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #406",
+    "answers": [
+      "Neutron",
+      "Proton",
+      "Electron",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43664,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #407",
+    "answers": [
+      "Saturn",
+      "Mars",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43665,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #408",
+    "answers": [
+      "Au",
+      "Pb",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43666,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #409",
+    "answers": [
+      "Photon",
+      "Electron",
+      "Neutron",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43667,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #410",
+    "answers": [
+      "Mars",
+      "Saturn",
+      "Jupiter",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43668,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #411",
+    "answers": [
+      "Fe",
+      "Pb",
+      "Ag",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43669,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #412",
+    "answers": [
+      "Electron",
+      "Photon",
+      "Proton",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43670,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #413",
+    "answers": [
+      "Neptune",
+      "Jupiter",
+      "Saturn",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43671,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #414",
+    "answers": [
+      "Fe",
+      "Ag",
+      "Au",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43672,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #415",
+    "answers": [
+      "Proton",
+      "Photon",
+      "Neutron",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43673,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #416",
+    "answers": [
+      "Jupiter",
+      "Mars",
+      "Saturn",
+      "Neptune"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43674,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #417",
+    "answers": [
+      "Pb",
+      "Au",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43675,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #418",
+    "answers": [
+      "Neutron",
+      "Photon",
+      "Electron",
+      "Proton"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43676,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #419",
+    "answers": [
+      "Saturn",
+      "Neptune",
+      "Mars",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43677,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #420",
+    "answers": [
+      "Au",
+      "Pb",
+      "Ag",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43678,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #421",
+    "answers": [
+      "Photon",
+      "Electron",
+      "Proton",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43679,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #422",
+    "answers": [
+      "Neptune",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43680,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #423",
+    "answers": [
+      "Ag",
+      "Fe",
+      "Pb",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43681,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #424",
+    "answers": [
+      "Electron",
+      "Proton",
+      "Photon",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43682,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #425",
+    "answers": [
+      "Neptune",
+      "Jupiter",
+      "Mars",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43683,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #426",
+    "answers": [
+      "Ag",
+      "Pb",
+      "Au",
+      "Fe"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43684,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #427",
+    "answers": [
+      "Photon",
+      "Proton",
+      "Neutron",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43685,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #428",
+    "answers": [
+      "Jupiter",
+      "Saturn",
+      "Neptune",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43686,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #429",
+    "answers": [
+      "Pb",
+      "Au",
+      "Fe",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43687,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What particle carries a negative electric charge? #430",
+    "answers": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43688,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #431",
+    "answers": [
+      "Saturn",
+      "Mars",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43689,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #432",
+    "answers": [
+      "Au",
+      "Ag",
+      "Fe",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43690,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #433",
+    "answers": [
+      "Proton",
+      "Electron",
+      "Neutron",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43691,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #434",
+    "answers": [
+      "Saturn",
+      "Neptune",
+      "Jupiter",
+      "Mars"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43692,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the chemical symbol for gold? #435",
+    "answers": [
+      "Fe",
+      "Pb",
+      "Ag",
+      "Au"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43693,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #436",
+    "answers": [
+      "Electron",
+      "Neutron",
+      "Proton",
+      "Photon"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43694,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #437",
+    "answers": [
+      "Neptune",
+      "Jupiter",
+      "Mars",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43695,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #438",
+    "answers": [
+      "Ag",
+      "Fe",
+      "Au",
+      "Pb"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43696,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #439",
+    "answers": [
+      "Proton",
+      "Neutron",
+      "Photon",
+      "Electron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43697,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #440",
+    "answers": [
+      "Jupiter",
+      "Mars",
+      "Neptune",
+      "Saturn"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "hard"
+    ]
+  },
+  {
+    "id": 43698,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the chemical symbol for gold? #441",
+    "answers": [
+      "Pb",
+      "Au",
+      "Fe",
+      "Ag"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43699,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What particle carries a negative electric charge? #442",
+    "answers": [
+      "Proton",
+      "Photon",
+      "Electron",
+      "Neutron"
+    ],
+    "correctAnswer": "Electron",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
+    ]
+  },
+  {
+    "id": 43700,
+    "category": "Logic",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which planet is known for its giant storm called the Great Red Spot? #443",
+    "answers": [
+      "Neptune",
+      "Saturn",
+      "Mars",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "tags": [
+      "logic",
+      "medium"
     ]
   }
 ]

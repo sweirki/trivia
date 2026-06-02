@@ -36,7 +36,8 @@ appId: ${APP_ID}
     visible:
       id: "screen-hub"
     timeout: 10000
-- tapOn: "Arena · Competitive"
+-  tapOn:
+    id: "hub-arena-button"
 - extendedWaitUntil:
     visible:
       id: "screen-arena"

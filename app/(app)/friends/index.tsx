@@ -4,6 +4,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   Animated,
   Image,
+  InteractionManager,
+  Pressable,
   StyleSheet,
   Text,
   TextInput,
@@ -16,8 +18,6 @@ import { addDoc, collection } from 'firebase/firestore';
 import { LinearGradient } from 'expo-linear-gradient';
 
 import ScreenShell from '@/components/ScreenShell';
-import GoldCard from '@/components/GoldCard';
-import PrimaryButton from '@/components/PrimaryButton';
 
 import { auth, db } from '@/firebase/firebase';
 import { useChallengesStore } from '@/challenges/store/useChallengesStore';
@@ -42,11 +42,18 @@ const formatTimeLeft = (expiresAt?: number) => {
   return `Expires in ${hours}h ${minutes}m`;
 };
 
-function SectionTitle({ title, count }: { title: string; count?: number }) {
+function SectionTitle({ title, count, icon }: { title: string; count?: number; icon?: string }) {
   return (
     <View style={styles.sectionHeader}>
-      <Text style={styles.sectionKicker}>{title}</Text>
-      {typeof count === 'number' && <Text style={styles.sectionCount}>{count}</Text>}
+      <View style={styles.sectionTitleRow}>
+        {!!icon && <Text style={styles.sectionIcon}>{icon}</Text>}
+        <Text style={[styles.sectionKicker,{color: icon==='👥'?'#6EE7FF':icon==='⚔'?'#FFB84D':icon==='🔥'?'#6DFF8B':icon==='🏆'?'#C57CFF':'#FFD66E'}]}>{title}</Text>
+      </View>
+      {typeof count === 'number' && (
+        <LinearGradient colors={["rgba(110,231,255,0.22)", "rgba(197,124,255,0.14)"]} style={styles.sectionCount}>
+          <Text style={styles.sectionCountText}>{count}</Text>
+        </LinearGradient>
+      )}
     </View>
   );
 }
@@ -60,21 +67,73 @@ function EmptyState({ message }: { message: string }) {
   );
 }
 
+function PremiumPanel({ children, style }: { children: ReactNode; style?: any }) {
+  return (
+    <LinearGradient
+      colors={["rgba(28,12,50,0.96)", "rgba(8,11,34,0.98)", "rgba(5,20,34,0.96)"]}
+      start={{ x: 0, y: 0 }}
+      end={{ x: 1, y: 1 }}
+      style={[styles.panel, style]}
+    >
+      <LinearGradient
+        pointerEvents="none"
+        colors={["rgba(255,214,110,0.09)", "rgba(197,124,255,0.07)", "rgba(110,231,255,0.04)"]}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={StyleSheet.absoluteFill}
+      />
+      {children}
+    </LinearGradient>
+  );
+}
+
+function PremiumButton({
+  title,
+  onPress,
+  variant = 'primary',
+  disabled = false,
+  style,
+}: {
+  title?: string;
+  onPress?: () => void;
+  variant?: 'primary' | 'secondary' | 'ghost' | 'danger';
+  size?: 'sm' | 'md' | 'lg';
+  disabled?: boolean;
+  loading?: boolean;
+  style?: any;
+  textStyle?: any;
+}) {
+const colors: readonly [string, string] =
+  variant === 'danger'
+    ? ["#FF5B6E", "#9F1D32"]
+    : variant === 'secondary' || variant === 'ghost'
+    ? ["#A648FF", "#5719A8"]
+    : ["#FFD66E", "#C47A12"];
+    
+  return (
+    <Pressable
+      disabled={disabled}
+      onPress={onPress}
+      style={({ pressed }) => [styles.buttonShell, disabled && styles.disabled, pressed && !disabled && styles.pressed, style]}
+    >
+      <LinearGradient colors={colors} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={styles.buttonFill}>
+        <Text style={[styles.buttonText, variant === 'primary' && styles.buttonTextDark]}>{title}</Text>
+      </LinearGradient>
+    </Pressable>
+  );
+}
+
 function PlayerBadge({ text }: { text: string }) {
   const letter = text.trim().charAt(0).toUpperCase() || '?';
   return (
-    <View style={styles.playerBadge}>
+    <LinearGradient colors={["rgba(110,231,255,0.24)", "rgba(197,124,255,0.16)"]} style={styles.playerBadge}>
       <Text style={styles.playerBadgeText}>{letter}</Text>
-    </View>
+    </LinearGradient>
   );
 }
 
 function SocialCard({ children }: { children: ReactNode }) {
-  return (
-    <GoldCard variant="soft" padding="md" style={styles.socialCard}>
-      {children}
-    </GoldCard>
-  );
+  return <PremiumPanel style={styles.socialCard}>{children}</PremiumPanel>;
 }
 
 export default function FriendsScreen() {
@@ -101,7 +160,6 @@ export default function FriendsScreen() {
   const incomingChallenges = useChallengesStore((s) => s.incoming);
   const activeChallenges = useChallengesStore((s) => s.active);
   const history = useChallengesStore((s) => s.history);
-  const loadRemoteChallenges = useChallengesStore((s) => s.loadRemoteChallenges);
   const subscribeRemoteChallenges = useChallengesStore((s) => s.subscribeRemoteChallenges);
   const acceptChallenge = useChallengesStore((s) => s.acceptChallenge);
   const declineChallenge = useChallengesStore((s) => s.declineChallenge);
@@ -111,21 +169,39 @@ export default function FriendsScreen() {
     [history]
   );
 
-  useEffect(() => {
-    loadRemote();
-    loadRemoteChallenges();
-  }, [loadRemote, loadRemoteChallenges]);
+  const lastFriendsRefreshAt = useRef(0);
 
   useEffect(() => {
-    const unsubscribe = subscribeRemoteChallenges();
-    return () => unsubscribe();
-  }, [subscribeRemoteChallenges]);
+    let cancelled = false;
+    let unsubscribe: (() => void) | null = null;
+
+    const task = InteractionManager.runAfterInteractions(() => {
+      if (cancelled) return;
+
+      lastFriendsRefreshAt.current = Date.now();
+      void loadRemote();
+      unsubscribe = subscribeRemoteChallenges();
+    });
+
+    return () => {
+      cancelled = true;
+      task.cancel();
+      if (unsubscribe) unsubscribe();
+    };
+  }, [loadRemote, subscribeRemoteChallenges]);
 
   useFocusEffect(
     useCallback(() => {
-      loadRemote();
-      loadRemoteChallenges();
-    }, [loadRemote, loadRemoteChallenges])
+      const task = InteractionManager.runAfterInteractions(() => {
+        const now = Date.now();
+        if (now - lastFriendsRefreshAt.current < 30_000) return;
+
+        lastFriendsRefreshAt.current = now;
+        void loadRemote();
+      });
+
+      return () => task.cancel();
+    }, [loadRemote])
   );
 
   useEffect(() => {
@@ -251,7 +327,7 @@ export default function FriendsScreen() {
           <Text style={styles.heroLabel}>FRIEND CODE</Text>
           <View style={styles.codeRow}>
             <Text style={styles.friendCode}>{myFriendCode || 'Loading...'}</Text>
-            <PrimaryButton
+            <PremiumButton
               title={copied ? 'Copied' : 'Copy'}
               size="sm"
               onPress={onCopyCode}
@@ -263,7 +339,7 @@ export default function FriendsScreen() {
         </View>
       </View>
 
-      <GoldCard variant="soft" padding="md" style={styles.addCard}>
+      <PremiumPanel style={styles.addCard}>
         <Text style={styles.cardLabel}>ADD FRIEND</Text>
         <View style={styles.addRow}>
           <TextInput
@@ -276,7 +352,7 @@ export default function FriendsScreen() {
             autoCapitalize="characters"
             style={styles.input}
           />
-          <PrimaryButton
+          <PremiumButton
             title={loading ? '...' : 'Send'}
             size="sm"
             onPress={onSend}
@@ -285,9 +361,9 @@ export default function FriendsScreen() {
           />
         </View>
         {!!error && <Text style={styles.errorText}>{error}</Text>}
-      </GoldCard>
+      </PremiumPanel>
 
-      <SectionTitle title="Friend Requests" count={requests.length} />
+      <SectionTitle title="Friend Requests" count={requests.length} icon="👥" />
       {requests.length === 0 ? (
         <EmptyState message="No incoming requests." />
       ) : (
@@ -301,14 +377,14 @@ export default function FriendsScreen() {
               </View>
             </View>
             <View style={styles.actions}>
-              <PrimaryButton title="Accept" size="sm" onPress={() => acceptRequest(r.id)} style={styles.actionButton} />
-              <PrimaryButton title="Reject" size="sm" variant="danger" onPress={() => rejectRequest(r.id)} />
+              <PremiumButton title="Accept" size="sm" onPress={() => acceptRequest(r.id)} style={styles.actionButton} />
+              <PremiumButton title="Reject" size="sm" variant="danger" onPress={() => rejectRequest(r.id)} />
             </View>
           </SocialCard>
         ))
       )}
 
-      <SectionTitle title="Challenge Requests" count={incomingChallenges.length} />
+      <SectionTitle title="Challenge Requests" count={incomingChallenges.length} icon="⚔" />
       {incomingChallenges.length === 0 ? (
         <EmptyState message="No challenge requests." />
       ) : (
@@ -326,15 +402,15 @@ export default function FriendsScreen() {
                 <Text style={styles.timerText}>{formatTimeLeft(challenge.expiresAt)}</Text>
               </View>
               <View style={styles.actions}>
-                <PrimaryButton title="Accept" size="sm" onPress={() => acceptChallenge(challenge.id)} style={styles.actionButton} />
-                <PrimaryButton title="Decline" size="sm" variant="danger" onPress={() => declineChallenge(challenge.id)} />
+                <PremiumButton title="Accept" size="sm" onPress={() => acceptChallenge(challenge.id)} style={styles.actionButton} />
+                <PremiumButton title="Decline" size="sm" variant="danger" onPress={() => declineChallenge(challenge.id)} />
               </View>
             </SocialCard>
           );
         })
       )}
 
-      <SectionTitle title="Active Challenges" count={activeChallenges.length} />
+      <SectionTitle title="Active Challenges" count={activeChallenges.length} icon="🔥" />
       {activeChallenges.length === 0 ? (
         <EmptyState message="No active challenges." />
       ) : (
@@ -352,14 +428,14 @@ export default function FriendsScreen() {
                 {challenge.type !== 'daily' && <Text style={styles.timerText}>{formatTimeLeft(challenge.expiresAt)}</Text>}
               </View>
               <View style={styles.actions}>
-                <PrimaryButton title="Play" size="sm" onPress={() => playChallenge(challenge.id, challenge.category)} />
+                <PremiumButton title="Play" size="sm" onPress={() => playChallenge(challenge.id, challenge.category)} />
               </View>
             </SocialCard>
           );
         })
       )}
 
-      <SectionTitle title="Sent Requests" count={sentRequests.length} />
+      <SectionTitle title="Sent Requests" count={sentRequests.length} icon="✈" />
       {sentRequests.length === 0 ? (
         <EmptyState message="No pending sent requests." />
       ) : (
@@ -377,7 +453,7 @@ export default function FriendsScreen() {
         ))
       )}
 
-      <SectionTitle title="Friends List" count={friends.length} />
+      <SectionTitle title="Friends List" count={friends.length} icon="⭐" />
       {friends.length === 0 ? (
         <View style={styles.emptyHero}>
           <Image source={LOBBY_HERO_ART} style={styles.emptyHeroArt} resizeMode="cover" />
@@ -402,7 +478,7 @@ export default function FriendsScreen() {
                 <Text style={styles.itemText}>{f.username}</Text>
                 {!!f.friendCode && <Text style={styles.subText}>{f.friendCode}</Text>}
               </View>
-              <PrimaryButton
+              <PremiumButton
                 title={challengeSentId === f.id ? 'Sent' : 'Challenge'}
                 size="sm"
                 onPress={() => sendChallenge(f)}
@@ -414,13 +490,13 @@ export default function FriendsScreen() {
 
       {completedChallenges.length > 0 && (
         <Animated.View style={{ opacity: historyFade }}>
-          <SectionTitle title="Completed Challenges" count={completedChallenges.length} />
+          <SectionTitle title="Completed Challenges" count={completedChallenges.length} icon="🏆" />
 
           {completedChallenges.map((c, i) => {
             const challenge = c as Challenge;
 
             return (
-              <GoldCard key={`history-${challenge.id}-${i}`} variant="soft" padding="md" style={styles.historyCard}>
+              <PremiumPanel key={`history-${challenge.id}-${i}`} style={styles.historyCard}>
                 <View style={styles.historyTopRow}>
                   <Text style={styles.matchupText} numberOfLines={1}>
                     {challenge.from.username || 'Friend'} vs {challenge.to.username}
@@ -447,9 +523,9 @@ export default function FriendsScreen() {
                 </Text>
 
                 <View style={styles.actions}>
-                  <PrimaryButton title="Rematch" size="sm" variant="secondary" onPress={() => rematch(challenge)} />
+                  <PremiumButton title="Rematch" size="sm" variant="secondary" onPress={() => rematch(challenge)} />
                 </View>
-              </GoldCard>
+              </PremiumPanel>
             );
           })}
         </Animated.View>
@@ -460,45 +536,48 @@ export default function FriendsScreen() {
 
 const styles = StyleSheet.create({
   content: {
-    paddingTop: 18,
-    paddingBottom: 54,
+    paddingTop: 44,
+    paddingBottom: 58,
   },
   header: {
     flexDirection: 'row',
     alignItems: 'flex-start',
     justifyContent: 'space-between',
     gap: 12,
-    marginBottom: 14,
+    marginBottom: 12,
   },
   kicker: {
-    color: '#7E8EA7',
+    color: '#A9B8D2',
     fontSize: 10,
     fontWeight: '900',
-    letterSpacing: 1.55,
-    marginBottom: 3,
+    letterSpacing: 1.7,
+    marginBottom: 4,
   },
   title: {
-    color: '#F4FAFF',
-    fontSize: 30,
+    color: '#FFFFFF',
+    fontSize: 24,
     fontWeight: '900',
-    letterSpacing: -0.5,
+    letterSpacing: -0.55,
+    textShadowColor: 'rgba(197,124,255,0.38)',
+    textShadowRadius: 10,
   },
   subtitle: {
     color: '#9FE7FF',
-    fontSize: 12,
-    fontWeight: '800',
-    marginTop: 3,
+    fontSize: 13,
+    fontWeight: '700',
+    lineHeight: 18,
+    marginTop: 4,
   },
   liveBadge: {
     flexDirection: 'row',
     alignItems: 'center',
     borderRadius: 999,
     borderWidth: 1,
-    borderColor: 'rgba(79,231,189,0.34)',
-    backgroundColor: 'rgba(79,231,189,0.12)',
+    borderColor: 'rgba(79,231,189,0.42)',
+    backgroundColor: 'rgba(79,231,189,0.13)',
     paddingHorizontal: 10,
     paddingVertical: 6,
-    marginTop: 6,
+    marginTop: 7,
   },
   liveDot: {
     width: 7,
@@ -511,17 +590,27 @@ const styles = StyleSheet.create({
     color: '#4FE7BD',
     fontSize: 10,
     fontWeight: '900',
-    letterSpacing: 0.6,
+    letterSpacing: 0.7,
+  },
+  panel: {
+    overflow: 'hidden',
+    borderWidth: 1,
+    borderColor: 'rgba(255,214,110,0.22)',
+    shadowColor: '#C57CFF',
+    shadowOpacity: 0.13,
+    shadowRadius: 14,
+    shadowOffset: { width: 0, height: 8 },
+    elevation: 6,
   },
   heroCard: {
-    minHeight: 152,
+    minHeight: 128,
     borderRadius: 24,
     overflow: 'hidden',
     backgroundColor: '#07111F',
     borderWidth: 1,
-    borderColor: 'rgba(110,169,255,0.34)',
-    marginBottom: 12,
-    shadowColor: '#1E8CFF',
+    borderColor: 'rgba(197,124,255,0.46)',
+    marginBottom: 10,
+    shadowColor: '#C57CFF',
     shadowOpacity: 0.18,
     shadowRadius: 16,
     shadowOffset: { width: 0, height: 9 },
@@ -536,13 +625,13 @@ const styles = StyleSheet.create({
   heroInner: {
     flex: 1,
     justifyContent: 'flex-end',
-    padding: 16,
+    padding: 15,
   },
   heroLabel: {
     color: '#9FE7FF',
     fontSize: 10,
     fontWeight: '900',
-    letterSpacing: 1.2,
+    letterSpacing: 1.25,
     marginBottom: 4,
     textShadowColor: 'rgba(0,0,0,0.95)',
     textShadowRadius: 7,
@@ -554,50 +643,50 @@ const styles = StyleSheet.create({
   friendCode: {
     flex: 1,
     color: '#FFD66E',
-    fontSize: 24,
+    fontSize: 15,
     fontWeight: '900',
-    letterSpacing: 1.8,
+    letterSpacing: 1.7,
     textShadowColor: 'rgba(0,0,0,0.95)',
     textShadowRadius: 8,
   },
   inlineButton: {
+    minWidth: 76,
     marginLeft: 10,
   },
   helperText: {
     color: '#D8E7FF',
     fontSize: 11,
     fontWeight: '700',
-    marginTop: 5,
-    opacity: 0.9,
+    marginTop: 4,
+    opacity: 0.92,
     textShadowColor: 'rgba(0,0,0,0.85)',
     textShadowRadius: 6,
   },
   addCard: {
-    backgroundColor: 'rgba(7,17,31,0.82)',
-    borderColor: 'rgba(159,231,255,0.16)',
-    borderRadius: 18,
-    marginBottom: 12,
+    borderRadius: 20,
+    padding: 13,
+    marginBottom: 11,
   },
   cardLabel: {
-    color: '#7E8EA7',
+    color: '#C57CFF',
     fontSize: 10,
     fontWeight: '900',
-    letterSpacing: 1.25,
+    letterSpacing: 1.35,
     marginBottom: 9,
   },
   addRow: {
     flexDirection: 'row',
     alignItems: 'center',
+    gap: 8,
   },
   input: {
     flex: 1,
-    height: 42,
+    height: 43,
     borderWidth: 1,
     borderRadius: 15,
     paddingHorizontal: 13,
-    marginRight: 8,
-    backgroundColor: 'rgba(216,231,255,0.06)',
-    borderColor: 'rgba(159,231,255,0.16)',
+    backgroundColor: 'rgba(4,7,24,0.58)',
+    borderColor: 'rgba(197,124,255,0.28)',
     color: '#F4FAFF',
     fontSize: 12,
     fontWeight: '900',
@@ -616,34 +705,41 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    marginTop: 14,
-    marginBottom: 8,
+    marginTop: 12,
+    marginBottom: 7,
+  },
+  sectionTitleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 7,
+  },
+  sectionIcon: {
+    fontSize: 15,
   },
   sectionKicker: {
-    color: '#D8E7FF',
+    color: '#F4FAFF',
     fontSize: 13,
     fontWeight: '900',
-    letterSpacing: 0.35,
+    letterSpacing: 0.3,
   },
   sectionCount: {
-    minWidth: 26,
-    textAlign: 'center',
-    overflow: 'hidden',
+    minWidth: 27,
+    height: 24,
     borderRadius: 999,
-    paddingHorizontal: 8,
-    paddingVertical: 3,
-    color: '#9FE7FF',
-    backgroundColor: 'rgba(159,231,255,0.1)',
+    alignItems: 'center',
+    justifyContent: 'center',
     borderWidth: 1,
-    borderColor: 'rgba(159,231,255,0.18)',
-    fontSize: 10,
+    borderColor: 'rgba(110,231,255,0.24)',
+  },
+  sectionCountText: {
+    color: '#9FE7FF',
+    fontSize: 11,
     fontWeight: '900',
   },
   socialCard: {
-    marginBottom: 9,
-    backgroundColor: 'rgba(7,17,31,0.78)',
-    borderColor: 'rgba(110,169,255,0.2)',
-    borderRadius: 18,
+    borderRadius: 19,
+    padding: 12,
+    marginBottom: 8,
   },
   playerRow: {
     flexDirection: 'row',
@@ -651,18 +747,17 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   playerBadge: {
-    width: 38,
-    height: 38,
-    borderRadius: 15,
+    width: 42,
+    height: 42,
+    borderRadius: 16,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'rgba(159,231,255,0.1)',
     borderWidth: 1,
-    borderColor: 'rgba(159,231,255,0.24)',
+    borderColor: 'rgba(110,231,255,0.28)',
   },
   playerBadgeText: {
     color: '#9FE7FF',
-    fontSize: 15,
+    fontSize: 16,
     fontWeight: '900',
   },
   playerCopy: {
@@ -670,13 +765,13 @@ const styles = StyleSheet.create({
     minWidth: 0,
   },
   itemText: {
-    color: '#F4FAFF',
+    color: '#FFFFFF',
     fontSize: 14,
     fontWeight: '900',
-    letterSpacing: -0.12,
+    letterSpacing: -0.08,
   },
   subText: {
-    color: '#91A1BB',
+    color: '#A9B8D2',
     fontSize: 11,
     fontWeight: '700',
     marginTop: 3,
@@ -697,40 +792,73 @@ const styles = StyleSheet.create({
   actions: {
     flexDirection: 'row',
     flexWrap: 'wrap',
+    gap: 8,
     marginTop: 10,
   },
-  actionButton: {
-    marginRight: 9,
+  actionButton: {},
+  buttonShell: {
+    minWidth: 86,
+    borderRadius: 15,
+    overflow: 'hidden',
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.18)',
+    shadowColor: '#FFD66E',
+    shadowOpacity: 0.18,
+    shadowRadius: 8,
+    shadowOffset: { width: 0, height: 4 },
+    elevation: 4,
+  },
+  buttonFill: {
+    minHeight: 42,
+    paddingHorizontal: 13,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  buttonText: {
+    color: '#FFFFFF',
+    fontSize: 12,
+    fontWeight: '900',
+    letterSpacing: 0.2,
+  },
+  buttonTextDark: {
+    color: '#160D28',
+  },
+  pressed: {
+    opacity: 0.88,
+    transform: [{ scale: 0.985 }],
+  },
+  disabled: {
+    opacity: 0.55,
   },
   emptyBox: {
     flexDirection: 'row',
     alignItems: 'center',
-    minHeight: 44,
+    minHeight: 42,
     borderRadius: 16,
     paddingHorizontal: 13,
     marginBottom: 8,
-    backgroundColor: 'rgba(216,231,255,0.045)',
+    backgroundColor: 'rgba(17,18,42,0.72)',
     borderWidth: 1,
-    borderColor: 'rgba(216,231,255,0.08)',
+    borderColor: 'rgba(197,124,255,0.18)',
   },
   emptyDot: {
     width: 6,
     height: 6,
     borderRadius: 3,
-    backgroundColor: 'rgba(159,231,255,0.72)',
+    backgroundColor: '#9FE7FF',
     marginRight: 9,
   },
   emptyText: {
-    color: '#8B9AB3',
+    color: '#A9B8D2',
     fontSize: 11.5,
-    fontWeight: '700',
+    fontWeight: '800',
   },
   emptyHero: {
-    minHeight: 118,
+    minHeight: 112,
     borderRadius: 22,
     overflow: 'hidden',
     borderWidth: 1,
-    borderColor: 'rgba(110,169,255,0.2)',
+    borderColor: 'rgba(197,124,255,0.26)',
     backgroundColor: '#07111F',
     marginBottom: 10,
   },
@@ -746,7 +874,7 @@ const styles = StyleSheet.create({
     padding: 14,
   },
   emptyHeroTitle: {
-    color: '#F4FAFF',
+    color: '#FFFFFF',
     fontSize: 16,
     fontWeight: '900',
   },
@@ -756,13 +884,12 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     lineHeight: 15,
     marginTop: 4,
-    maxWidth: '82%',
+    maxWidth: '84%',
   },
   historyCard: {
-    marginBottom: 10,
-    backgroundColor: 'rgba(7,17,31,0.78)',
-    borderColor: 'rgba(255,214,110,0.18)',
-    borderRadius: 18,
+    borderRadius: 20,
+    padding: 14,
+    marginBottom: 9,
   },
   historyTopRow: {
     flexDirection: 'row',
@@ -772,55 +899,54 @@ const styles = StyleSheet.create({
   },
   matchupText: {
     flex: 1,
-    color: '#F4FAFF',
-    fontSize: 13,
+    color: '#FFFFFF',
+    fontSize: 14,
     fontWeight: '900',
+  },
+  resultBadge: {
+    overflow: 'hidden',
+    borderRadius: 999,
+    paddingHorizontal: 9,
+    paddingVertical: 4,
+    color: '#FFFFFF',
+    fontSize: 9,
+    fontWeight: '900',
+    letterSpacing: 0.5,
+  },
+  winBadge: {
+    backgroundColor: '#16A34A',
+  },
+  lossBadge: {
+    backgroundColor: '#DC2626',
+  },
+  drawBadge: {
+    backgroundColor: '#7C3AED',
+  },
+  waitingBadge: {
+    backgroundColor: '#64748B',
   },
   scoreRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 10,
+    gap: 18,
+    marginTop: 12,
   },
   scoreText: {
-    color: '#F4FAFF',
-    fontSize: 25,
+    color: '#FFFFFF',
+    fontSize: 27,
     fontWeight: '900',
   },
   scoreDash: {
     color: '#FFD66E',
-    fontSize: 20,
+    fontSize: 22,
     fontWeight: '900',
-    marginHorizontal: 14,
-  },
-  resultBadge: {
-    overflow: 'hidden',
-    borderRadius: 999,
-    paddingVertical: 4,
-    paddingHorizontal: 9,
-    fontSize: 10,
-    fontWeight: '900',
-    color: '#fff',
-  },
-  winBadge: {
-    backgroundColor: 'rgba(40,185,118,0.9)',
-  },
-  lossBadge: {
-    backgroundColor: 'rgba(224,75,75,0.9)',
-  },
-  drawBadge: {
-    backgroundColor: 'rgba(204,155,48,0.9)',
-  },
-  waitingBadge: {
-    backgroundColor: 'rgba(126,142,167,0.9)',
   },
   rewardText: {
     color: '#FFD66E',
-    fontSize: 11,
+    fontSize: 12,
     fontWeight: '900',
+    marginTop: 7,
     textAlign: 'center',
-    marginTop: 6,
   },
 });
-
-

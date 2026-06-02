@@ -87,7 +87,7 @@ export async function claimDailyReward() {
     totalClaims: daily.totalClaims + 1,
   };
 
-  store.applyDailyReward(updatedDaily, {
+  const awardedReward = store.applyDailyReward(updatedDaily, {
   xp: reward.xp,
   coins: reward.coins,
   gems: reward.gems,
@@ -105,7 +105,8 @@ void usePlayerStore.getState().syncNow?.();
 
   return {
     success: true as const,
-    reward,
+    reward: awardedReward,
+    baseReward: reward,
     streak: nextStreak,
     isNewStreak: evaluation.isNewStreak,
   };

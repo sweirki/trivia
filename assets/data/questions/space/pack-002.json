@@ -1,1 +1,6402 @@
-[]
+[
+  {
+    "id": 73348,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the correct space match for the clue 'runaway greenhouse effect'?",
+    "answers": [
+      "Venus",
+      "Betelgeuse",
+      "Uranus",
+      "Crab Nebula"
+    ],
+    "correctAnswer": "Venus",
+    "explanation": "Venus is correct because Venus is associated with hottest planet due to thick carbon dioxide atmosphere and runaway greenhouse effect.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73349,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the correct space match for the clue 'short orbital period'?",
+    "answers": [
+      "Eagle Nebula",
+      "Earth",
+      "Pluto",
+      "Hot Jupiter"
+    ],
+    "correctAnswer": "Hot Jupiter",
+    "explanation": "Hot Jupiter is correct because Hot Jupiter is associated with gas giant orbiting very close to its star and short orbital period.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73350,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer should be selected for the clue 'Serpens / nebulae'?",
+    "answers": [
+      "Io",
+      "Ceres",
+      "Black hole",
+      "Eagle Nebula"
+    ],
+    "correctAnswer": "Eagle Nebula",
+    "explanation": "Eagle Nebula is correct because Eagle Nebula is associated with nebula famous for the Pillars of Creation and star-forming gas columns.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73351,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which option is a clean match for White dwarf?",
+    "answers": [
+      "stellar remnants",
+      "stellar evolution",
+      "asteroid belt",
+      "Orion"
+    ],
+    "correctAnswer": "stellar evolution",
+    "explanation": "stellar evolution is correct because White dwarf is associated with dense remnant core of a Sun-like star and Earth-sized stellar corpse.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73352,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space item is linked to the description 'largest body in the asteroid belt'?",
+    "answers": [
+      "Hot Jupiter",
+      "Betelgeuse",
+      "Ceres",
+      "Proxima Centauri"
+    ],
+    "correctAnswer": "Ceres",
+    "explanation": "Ceres is correct because Ceres is associated with largest body in the asteroid belt and bright salt deposits.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73353,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer completes this space match: Ganymede -> ?",
+    "answers": [
+      "moon larger than Mercury",
+      "Earth-sized stellar corpse",
+      "heavy element formation",
+      "biosphere and liquid water"
+    ],
+    "correctAnswer": "moon larger than Mercury",
+    "explanation": "moon larger than Mercury is correct because Ganymede is associated with largest moon in the solar system and moon larger than Mercury.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73354,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space profile combines stellar event with explosive death of a star?",
+    "answers": [
+      "Europa",
+      "Black hole",
+      "Neutron star",
+      "Supernova"
+    ],
+    "correctAnswer": "Supernova",
+    "explanation": "Supernova is correct because Supernova is associated with explosive death of a star and heavy element formation.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73355,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What classification best separates Exoplanet from other space answers?",
+    "answers": [
+      "compact object",
+      "stellar remnant",
+      "dwarf planet",
+      "planet type"
+    ],
+    "correctAnswer": "planet type",
+    "explanation": "planet type is correct because Exoplanet is associated with planet orbiting a star outside the solar system and distant world detection.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73356,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In a ranked space round, which fact correctly matches Neutron star?",
+    "answers": [
+      "icy moon with water-rich geysers",
+      "extremely bright active galactic nucleus",
+      "red supergiant in Orion",
+      "ultra-dense remnant made mostly of neutrons"
+    ],
+    "correctAnswer": "ultra-dense remnant made mostly of neutrons",
+    "explanation": "ultra-dense remnant made mostly of neutrons is correct because Neutron star is associated with ultra-dense remnant made mostly of neutrons and extreme density.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73357,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What classification best separates White dwarf from other space answers?",
+    "answers": [
+      "planet",
+      "stellar remnant",
+      "exoplanet type",
+      "nebula"
+    ],
+    "correctAnswer": "stellar remnant",
+    "explanation": "stellar remnant is correct because White dwarf is associated with dense remnant core of a Sun-like star and Earth-sized stellar corpse.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73358,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which category label best applies to Kuiper Belt?",
+    "answers": [
+      "small-bodies",
+      "galaxies",
+      "planetary-science",
+      "space-weather"
+    ],
+    "correctAnswer": "small-bodies",
+    "explanation": "small-bodies is correct because Kuiper Belt is associated with distant region of icy bodies beyond Neptune and Pluto-like worlds.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73359,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which category label best applies to Enceladus?",
+    "answers": [
+      "space-weather",
+      "moons",
+      "cosmology",
+      "stars"
+    ],
+    "correctAnswer": "moons",
+    "explanation": "moons is correct because Enceladus is associated with icy moon with water-rich geysers and subsurface ocean clues.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73360,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What classification best separates Pluto from other space answers?",
+    "answers": [
+      "planet type",
+      "atmospheric phenomenon",
+      "compact object",
+      "dwarf planet"
+    ],
+    "correctAnswer": "dwarf planet",
+    "explanation": "dwarf planet is correct because Pluto is associated with icy dwarf planet reclassified in 2006 and Tombaugh Regio and Kuiper Belt orbit.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73361,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer pairs with both planet and extreme axial tilt?",
+    "answers": [
+      "Neutron star",
+      "Sirius",
+      "Venus",
+      "Uranus"
+    ],
+    "correctAnswer": "Uranus",
+    "explanation": "Uranus is correct because Uranus is associated with ice giant rotating almost on its side and extreme axial tilt.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73362,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space item is linked to the description 'rocky object orbiting the Sun'?",
+    "answers": [
+      "Asteroid",
+      "Aurora",
+      "Solar flare",
+      "Exoplanet"
+    ],
+    "correctAnswer": "Asteroid",
+    "explanation": "Asteroid is correct because Asteroid is associated with rocky object orbiting the Sun and asteroid belt objects.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73363,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer would belong in a set about space-weather?",
+    "answers": [
+      "Neutron star",
+      "Milky Way",
+      "Mars",
+      "Aurora"
+    ],
+    "correctAnswer": "Aurora",
+    "explanation": "Aurora is correct because Aurora is associated with glowing lights from charged particles and atmosphere and space weather display.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73364,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space profile combines active galaxy core with extremely bright active galactic nucleus?",
+    "answers": [
+      "Pluto",
+      "Quasar",
+      "Kuiper Belt",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "Quasar",
+    "explanation": "Quasar is correct because Quasar is associated with extremely bright active galactic nucleus and supermassive black hole power.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73365,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "If the clue is extreme gravity plus compact object, which answer fits best?",
+    "answers": [
+      "Asteroid",
+      "Black hole",
+      "Saturn",
+      "Enceladus"
+    ],
+    "correctAnswer": "Black hole",
+    "explanation": "Black hole is correct because Black hole is associated with region where gravity prevents light escaping and event horizon.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73366,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which theme is most connected to Orion Nebula?",
+    "answers": [
+      "future galactic merger",
+      "magnetic energy release",
+      "extreme axial tilt",
+      "active star formation"
+    ],
+    "correctAnswer": "active star formation",
+    "explanation": "active star formation is correct because Orion Nebula is associated with bright stellar nursery visible in Orion and active star formation.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73367,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer best completes the space pair: Ceres and asteroid belt?",
+    "answers": [
+      "supermassive black hole power",
+      "bright salt deposits",
+      "astrobiology interest",
+      "heavy element formation"
+    ],
+    "correctAnswer": "bright salt deposits",
+    "explanation": "bright salt deposits is correct because Ceres is associated with largest body in the asteroid belt and bright salt deposits.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73368,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space item would fit a question about nearest large spiral galaxy to the Milky Way?",
+    "answers": [
+      "Betelgeuse",
+      "Io",
+      "Sirius",
+      "Andromeda Galaxy"
+    ],
+    "correctAnswer": "Andromeda Galaxy",
+    "explanation": "Andromeda Galaxy is correct because Andromeda Galaxy is associated with nearest large spiral galaxy to the Milky Way and future galactic merger.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73369,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fact would be fair and correct for Polaris?",
+    "answers": [
+      "current North Star",
+      "ice giant rotating almost on its side",
+      "dense remnant core of a Sun-like star",
+      "rotating neutron star emitting regular beams"
+    ],
+    "correctAnswer": "current North Star",
+    "explanation": "current North Star is correct because Polaris is associated with current North Star and navigation near north celestial pole.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73370,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is most naturally connected to organic chemistry and surface liquids?",
+    "answers": [
+      "Mercury",
+      "Uranus",
+      "Earth",
+      "Titan"
+    ],
+    "correctAnswer": "Titan",
+    "explanation": "Titan is correct because Titan is associated with moon with thick atmosphere and methane lakes and organic chemistry and surface liquids.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73371,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is defined by closest known star to the Sun and linked to red dwarf neighbor?",
+    "answers": [
+      "Hot Jupiter",
+      "Proxima Centauri",
+      "Quasar",
+      "Crab Nebula"
+    ],
+    "correctAnswer": "Proxima Centauri",
+    "explanation": "Proxima Centauri is correct because Proxima Centauri is associated with closest known star to the Sun and red dwarf neighbor.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73372,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space profile combines galaxy with nearest large spiral galaxy to the Milky Way?",
+    "answers": [
+      "Ceres",
+      "Andromeda Galaxy",
+      "Venus",
+      "Uranus"
+    ],
+    "correctAnswer": "Andromeda Galaxy",
+    "explanation": "Andromeda Galaxy is correct because Andromeda Galaxy is associated with nearest large spiral galaxy to the Milky Way and future galactic merger.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73373,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer matches the space clue 'hypothetical distant shell of icy bodies' and avoids ambiguity?",
+    "answers": [
+      "Saturn",
+      "Proxima Centauri",
+      "Oort Cloud",
+      "Jupiter"
+    ],
+    "correctAnswer": "Oort Cloud",
+    "explanation": "Oort Cloud is correct because Oort Cloud is associated with hypothetical distant shell of icy bodies and long-period comet source.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73374,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is defined by hottest planet due to thick carbon dioxide atmosphere and linked to runaway greenhouse effect?",
+    "answers": [
+      "Venus",
+      "Io",
+      "Mercury",
+      "Andromeda Galaxy"
+    ],
+    "correctAnswer": "Venus",
+    "explanation": "Venus is correct because Venus is associated with hottest planet due to thick carbon dioxide atmosphere and runaway greenhouse effect.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73375,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is best described as icy dwarf planet reclassified in 2006?",
+    "answers": [
+      "Pluto",
+      "Saturn",
+      "Jupiter",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "Pluto",
+    "explanation": "Pluto is correct because Pluto is associated with icy dwarf planet reclassified in 2006 and Tombaugh Regio and Kuiper Belt orbit.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73376,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which phrase best describes Titan?",
+    "answers": [
+      "moon with thick atmosphere and methane lakes",
+      "gas giant orbiting very close to its star",
+      "glowing lights from charged particles and atmosphere",
+      "bright stellar nursery visible in Orion"
+    ],
+    "correctAnswer": "moon with thick atmosphere and methane lakes",
+    "explanation": "moon with thick atmosphere and methane lakes is correct because Titan is associated with moon with thick atmosphere and methane lakes and organic chemistry and surface liquids.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73377,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which option is a clean match for Earth?",
+    "answers": [
+      "Canis Major",
+      "polar skies",
+      "Kuiper Belt",
+      "inner solar system"
+    ],
+    "correctAnswer": "inner solar system",
+    "explanation": "inner solar system is correct because Earth is associated with only known world with life and surface oceans and biosphere and liquid water.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73378,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which clue best supports Triton as the answer?",
+    "answers": [
+      "extremely bright active galactic nucleus",
+      "hottest planet due to thick carbon dioxide atmosphere",
+      "icy moon with water-rich geysers",
+      "large moon with retrograde orbit"
+    ],
+    "correctAnswer": "large moon with retrograde orbit",
+    "explanation": "large moon with retrograde orbit is correct because Triton is associated with large moon with retrograde orbit and captured Kuiper Belt object candidate.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73379,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space concept is correctly paired with largest body in the asteroid belt?",
+    "answers": [
+      "Black hole",
+      "Ceres",
+      "Milky Way",
+      "Comet"
+    ],
+    "correctAnswer": "Ceres",
+    "explanation": "Ceres is correct because Ceres is associated with largest body in the asteroid belt and bright salt deposits.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73380,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space option matches the origin clue 'Canis Major' and the type clue 'star'?",
+    "answers": [
+      "Crab Nebula",
+      "Sirius",
+      "Kuiper Belt",
+      "White dwarf"
+    ],
+    "correctAnswer": "Sirius",
+    "explanation": "Sirius is correct because Sirius is associated with brightest star in Earth's night sky and prominent nearby star system.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73381,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space clue points to active star formation?",
+    "answers": [
+      "Supernova",
+      "Oort Cloud",
+      "Ceres",
+      "Orion Nebula"
+    ],
+    "correctAnswer": "Orion Nebula",
+    "explanation": "Orion Nebula is correct because Orion Nebula is associated with bright stellar nursery visible in Orion and active star formation.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73382,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer best completes the space pair: Ganymede and Jupiter system?",
+    "answers": [
+      "future supernova candidate",
+      "rovers and dust storms",
+      "long-period comet source",
+      "moon larger than Mercury"
+    ],
+    "correctAnswer": "moon larger than Mercury",
+    "explanation": "moon larger than Mercury is correct because Ganymede is associated with largest moon in the solar system and moon larger than Mercury.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73383,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue best supports Comet as the answer?",
+    "answers": [
+      "nearest large spiral galaxy to the Milky Way",
+      "icy body that forms a tail near the Sun",
+      "smallest planet and closest to the Sun",
+      "region where gravity prevents light escaping"
+    ],
+    "correctAnswer": "icy body that forms a tail near the Sun",
+    "explanation": "icy body that forms a tail near the Sun is correct because Comet is associated with icy body that forms a tail near the Sun and ice, dust, and sunlight.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73384,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is most naturally connected to Great Red Spot and gas giant storms?",
+    "answers": [
+      "Neutron star",
+      "Triton",
+      "Jupiter",
+      "Polaris"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Jupiter is correct because Jupiter is associated with largest planet in the solar system and Great Red Spot and gas giant storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73385,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space option is most closely tied to Canis Major?",
+    "answers": [
+      "Pulsar",
+      "Milky Way",
+      "Sirius",
+      "Andromeda Galaxy"
+    ],
+    "correctAnswer": "Sirius",
+    "explanation": "Sirius is correct because Sirius is associated with brightest star in Earth's night sky and prominent nearby star system.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73386,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space topic is represented by Kuiper Belt?",
+    "answers": [
+      "small-bodies",
+      "moons",
+      "planetary-science",
+      "cosmology"
+    ],
+    "correctAnswer": "small-bodies",
+    "explanation": "small-bodies is correct because Kuiper Belt is associated with distant region of icy bodies beyond Neptune and Pluto-like worlds.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73387,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In a ranked space round, which fact correctly matches Ganymede?",
+    "answers": [
+      "brightest star in Earth's night sky",
+      "current North Star",
+      "largest moon in the solar system",
+      "explosive death of a star"
+    ],
+    "correctAnswer": "largest moon in the solar system",
+    "explanation": "largest moon in the solar system is correct because Ganymede is associated with largest moon in the solar system and moon larger than Mercury.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73388,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space option is correctly linked to the clue 'cosmology / supermassive black hole power'?",
+    "answers": [
+      "Betelgeuse",
+      "Kuiper Belt",
+      "White dwarf",
+      "Quasar"
+    ],
+    "correctAnswer": "Quasar",
+    "explanation": "Quasar is correct because Quasar is associated with extremely bright active galactic nucleus and supermassive black hole power.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73389,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which phrase best describes Quasar?",
+    "answers": [
+      "gas giant famous for its bright rings",
+      "extremely bright active galactic nucleus",
+      "nebula famous for the Pillars of Creation",
+      "distant region of icy bodies beyond Neptune"
+    ],
+    "correctAnswer": "extremely bright active galactic nucleus",
+    "explanation": "extremely bright active galactic nucleus is correct because Quasar is associated with extremely bright active galactic nucleus and supermassive black hole power.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73390,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer completes this space match: Asteroid -> ?",
+    "answers": [
+      "Pluto-like worlds",
+      "biosphere and liquid water",
+      "asteroid belt objects",
+      "future supernova candidate"
+    ],
+    "correctAnswer": "asteroid belt objects",
+    "explanation": "asteroid belt objects is correct because Asteroid is associated with rocky object orbiting the Sun and asteroid belt objects.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73391,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer has the strongest connection to small body?",
+    "answers": [
+      "Orion Nebula",
+      "Exoplanet",
+      "Asteroid",
+      "White dwarf"
+    ],
+    "correctAnswer": "Asteroid",
+    "explanation": "Asteroid is correct because Asteroid is associated with rocky object orbiting the Sun and asteroid belt objects.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73392,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What classification best separates Titan from other space answers?",
+    "answers": [
+      "atmospheric phenomenon",
+      "star",
+      "moon",
+      "small body"
+    ],
+    "correctAnswer": "moon",
+    "explanation": "moon is correct because Titan is associated with moon with thick atmosphere and methane lakes and organic chemistry and surface liquids.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73393,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space concept is correctly paired with bright stellar nursery visible in Orion?",
+    "answers": [
+      "Earth",
+      "Saturn",
+      "Proxima Centauri",
+      "Orion Nebula"
+    ],
+    "correctAnswer": "Orion Nebula",
+    "explanation": "Orion Nebula is correct because Orion Nebula is associated with bright stellar nursery visible in Orion and active star formation.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73394,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a ranked space round, which fact correctly matches Pulsar?",
+    "answers": [
+      "ultra-dense remnant made mostly of neutrons",
+      "icy moon with a likely subsurface ocean",
+      "gas giant famous for its bright rings",
+      "rotating neutron star emitting regular beams"
+    ],
+    "correctAnswer": "rotating neutron star emitting regular beams",
+    "explanation": "rotating neutron star emitting regular beams is correct because Pulsar is associated with rotating neutron star emitting regular beams and lighthouse-like radio pulses.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73395,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is defined by ice giant rotating almost on its side and linked to extreme axial tilt?",
+    "answers": [
+      "Black hole",
+      "Asteroid",
+      "Uranus",
+      "Saturn"
+    ],
+    "correctAnswer": "Uranus",
+    "explanation": "Uranus is correct because Uranus is associated with ice giant rotating almost on its side and extreme axial tilt.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73396,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "If the clue is Alpha Centauri system plus star, which answer fits best?",
+    "answers": [
+      "Proxima Centauri",
+      "Crab Nebula",
+      "Aurora",
+      "Saturn"
+    ],
+    "correctAnswer": "Proxima Centauri",
+    "explanation": "Proxima Centauri is correct because Proxima Centauri is associated with closest known star to the Sun and red dwarf neighbor.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73397,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space item would fit a question about red supergiant in Orion?",
+    "answers": [
+      "Saturn",
+      "Earth",
+      "Aurora",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "Betelgeuse",
+    "explanation": "Betelgeuse is correct because Betelgeuse is associated with red supergiant in Orion and future supernova candidate.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73398,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "For a global space trivia audience, which answer matches Local Group and future galactic merger?",
+    "answers": [
+      "Exoplanet",
+      "Andromeda Galaxy",
+      "Neutron star",
+      "Hot Jupiter"
+    ],
+    "correctAnswer": "Andromeda Galaxy",
+    "explanation": "Andromeda Galaxy is correct because Andromeda Galaxy is associated with nearest large spiral galaxy to the Milky Way and future galactic merger.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73399,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space profile combines moon with moon with thick atmosphere and methane lakes?",
+    "answers": [
+      "Mars",
+      "Titan",
+      "Betelgeuse",
+      "Ceres"
+    ],
+    "correctAnswer": "Titan",
+    "explanation": "Titan is correct because Titan is associated with moon with thick atmosphere and methane lakes and organic chemistry and surface liquids.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73400,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space topic is represented by Venus?",
+    "answers": [
+      "small-bodies",
+      "planetary-science",
+      "exoplanets",
+      "galaxies"
+    ],
+    "correctAnswer": "planetary-science",
+    "explanation": "planetary-science is correct because Venus is associated with hottest planet due to thick carbon dioxide atmosphere and runaway greenhouse effect.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73401,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is most naturally connected to star-forming gas columns?",
+    "answers": [
+      "Triton",
+      "Supernova",
+      "Eagle Nebula",
+      "Sun"
+    ],
+    "correctAnswer": "Eagle Nebula",
+    "explanation": "Eagle Nebula is correct because Eagle Nebula is associated with nebula famous for the Pillars of Creation and star-forming gas columns.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73402,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer best completes the space pair: Solar flare and solar activity?",
+    "answers": [
+      "prominent nearby star system",
+      "biosphere and liquid water",
+      "extreme density",
+      "magnetic energy release"
+    ],
+    "correctAnswer": "magnetic energy release",
+    "explanation": "magnetic energy release is correct because Solar flare is associated with sudden burst of radiation from the Sun and magnetic energy release.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73403,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space option matches the origin clue 'extreme gravity' and the type clue 'compact object'?",
+    "answers": [
+      "Sirius",
+      "Ganymede",
+      "Black hole",
+      "Proxima Centauri"
+    ],
+    "correctAnswer": "Black hole",
+    "explanation": "Black hole is correct because Black hole is associated with region where gravity prevents light escaping and event horizon.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73404,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which option is a clean match for Triton?",
+    "answers": [
+      "stellar evolution",
+      "extreme gravity",
+      "Neptune system",
+      "outer solar system"
+    ],
+    "correctAnswer": "Neptune system",
+    "explanation": "Neptune system is correct because Triton is associated with large moon with retrograde orbit and captured Kuiper Belt object candidate.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73405,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space concept is correctly paired with distant region of icy bodies beyond Neptune?",
+    "answers": [
+      "Black hole",
+      "Kuiper Belt",
+      "Orion Nebula",
+      "Enceladus"
+    ],
+    "correctAnswer": "Kuiper Belt",
+    "explanation": "Kuiper Belt is correct because Kuiper Belt is associated with distant region of icy bodies beyond Neptune and Pluto-like worlds.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73406,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space option is most closely tied to Saturn system?",
+    "answers": [
+      "Oort Cloud",
+      "Asteroid",
+      "Venus",
+      "Titan"
+    ],
+    "correctAnswer": "Titan",
+    "explanation": "Titan is correct because Titan is associated with moon with thick atmosphere and methane lakes and organic chemistry and surface liquids.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73407,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which setting or origin is most strongly linked to Crab Nebula?",
+    "answers": [
+      "Saturn system",
+      "Alpha Centauri system",
+      "Taurus",
+      "stellar evolution"
+    ],
+    "correctAnswer": "Taurus",
+    "explanation": "Taurus is correct because Crab Nebula is associated with supernova remnant from a recorded 1054 event and pulsar wind nebula.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73408,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which phrase best describes Betelgeuse?",
+    "answers": [
+      "red supergiant in Orion",
+      "planet orbiting a star outside the solar system",
+      "large moon with retrograde orbit",
+      "only known world with life and surface oceans"
+    ],
+    "correctAnswer": "red supergiant in Orion",
+    "explanation": "red supergiant in Orion is correct because Betelgeuse is associated with red supergiant in Orion and future supernova candidate.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73409,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which category label best applies to Hot Jupiter?",
+    "answers": [
+      "nebulae",
+      "moons",
+      "exoplanets",
+      "space-weather"
+    ],
+    "correctAnswer": "exoplanets",
+    "explanation": "exoplanets is correct because Hot Jupiter is associated with gas giant orbiting very close to its star and short orbital period.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73410,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer best matches this space category clue: moon, Jupiter system, moon larger than Mercury?",
+    "answers": [
+      "Sirius",
+      "Polaris",
+      "Comet",
+      "Ganymede"
+    ],
+    "correctAnswer": "Ganymede",
+    "explanation": "Ganymede is correct because Ganymede is associated with largest moon in the solar system and moon larger than Mercury.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73411,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fact would be fair and correct for Asteroid?",
+    "answers": [
+      "explosive death of a star",
+      "hottest planet due to thick carbon dioxide atmosphere",
+      "rocky object orbiting the Sun",
+      "star powered by nuclear fusion"
+    ],
+    "correctAnswer": "rocky object orbiting the Sun",
+    "explanation": "rocky object orbiting the Sun is correct because Asteroid is associated with rocky object orbiting the Sun and asteroid belt objects.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73412,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which category label best applies to Eagle Nebula?",
+    "answers": [
+      "nebulae",
+      "cosmology",
+      "galaxies",
+      "planetary-science"
+    ],
+    "correctAnswer": "nebulae",
+    "explanation": "nebulae is correct because Eagle Nebula is associated with nebula famous for the Pillars of Creation and star-forming gas columns.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73413,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space option is correctly linked to the clue 'planetary-science / rovers and dust storms'?",
+    "answers": [
+      "Hot Jupiter",
+      "Triton",
+      "Sirius",
+      "Mars"
+    ],
+    "correctAnswer": "Mars",
+    "explanation": "Mars is correct because Mars is associated with red planet with polar ice and ancient river evidence and rovers and dust storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73414,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space concept is associated with stars and solar system center?",
+    "answers": [
+      "Pulsar",
+      "Pluto",
+      "Supernova",
+      "Sun"
+    ],
+    "correctAnswer": "Sun",
+    "explanation": "Sun is correct because Sun is associated with star powered by nuclear fusion and solar wind and sunlight.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73415,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which clue best supports Oort Cloud as the answer?",
+    "answers": [
+      "rocky object orbiting the Sun",
+      "nearest large spiral galaxy to the Milky Way",
+      "dense remnant core of a Sun-like star",
+      "hypothetical distant shell of icy bodies"
+    ],
+    "correctAnswer": "hypothetical distant shell of icy bodies",
+    "explanation": "hypothetical distant shell of icy bodies is correct because Oort Cloud is associated with hypothetical distant shell of icy bodies and long-period comet source.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73416,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which phrase best describes Neutron star?",
+    "answers": [
+      "explosive death of a star",
+      "dense remnant core of a Sun-like star",
+      "ultra-dense remnant made mostly of neutrons",
+      "only known world with life and surface oceans"
+    ],
+    "correctAnswer": "ultra-dense remnant made mostly of neutrons",
+    "explanation": "ultra-dense remnant made mostly of neutrons is correct because Neutron star is associated with ultra-dense remnant made mostly of neutrons and extreme density.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73417,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fact about Supernova is true?",
+    "answers": [
+      "heavy element formation",
+      "astrobiology interest",
+      "Pluto-like worlds",
+      "bright salt deposits"
+    ],
+    "correctAnswer": "heavy element formation",
+    "explanation": "heavy element formation is correct because Supernova is associated with explosive death of a star and heavy element formation.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73418,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is linked to Jupiter system and described by most volcanically active world in the solar system?",
+    "answers": [
+      "Kuiper Belt",
+      "Quasar",
+      "Eagle Nebula",
+      "Io"
+    ],
+    "correctAnswer": "Io",
+    "explanation": "Io is correct because Io is associated with most volcanically active world in the solar system and tidal heating.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73419,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space item would fit a question about brightest star in Earth's night sky?",
+    "answers": [
+      "Saturn",
+      "Sirius",
+      "Pluto",
+      "Jupiter"
+    ],
+    "correctAnswer": "Sirius",
+    "explanation": "Sirius is correct because Sirius is associated with brightest star in Earth's night sky and prominent nearby star system.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73420,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space concept is correctly paired with icy body that forms a tail near the Sun?",
+    "answers": [
+      "Crab Nebula",
+      "Exoplanet",
+      "Comet",
+      "Proxima Centauri"
+    ],
+    "correctAnswer": "Comet",
+    "explanation": "Comet is correct because Comet is associated with icy body that forms a tail near the Sun and ice, dust, and sunlight.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73421,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer would belong in a set about exoplanets?",
+    "answers": [
+      "Neptune",
+      "Milky Way",
+      "Pluto",
+      "Exoplanet"
+    ],
+    "correctAnswer": "Exoplanet",
+    "explanation": "Exoplanet is correct because Exoplanet is associated with planet orbiting a star outside the solar system and distant world detection.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73422,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer should be selected for the clue 'outer solar system / planetary-science'?",
+    "answers": [
+      "Andromeda Galaxy",
+      "Europa",
+      "Eagle Nebula",
+      "Jupiter"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Jupiter is correct because Jupiter is associated with largest planet in the solar system and Great Red Spot and gas giant storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73423,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is best described as red supergiant in Orion?",
+    "answers": [
+      "Saturn",
+      "Ganymede",
+      "Exoplanet",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "Betelgeuse",
+    "explanation": "Betelgeuse is correct because Betelgeuse is associated with red supergiant in Orion and future supernova candidate.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73424,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which theme is most connected to Ceres?",
+    "answers": [
+      "bright salt deposits",
+      "pulsar wind nebula",
+      "Great Red Spot and gas giant storms",
+      "organic chemistry and surface liquids"
+    ],
+    "correctAnswer": "bright salt deposits",
+    "explanation": "bright salt deposits is correct because Ceres is associated with largest body in the asteroid belt and bright salt deposits.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73425,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is linked to Ursa Minor and described by current North Star?",
+    "answers": [
+      "Polaris",
+      "Sun",
+      "Pluto",
+      "Earth"
+    ],
+    "correctAnswer": "Polaris",
+    "explanation": "Polaris is correct because Polaris is associated with current North Star and navigation near north celestial pole.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73426,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "If the clue is outer solar system plus region, which answer fits best?",
+    "answers": [
+      "Comet",
+      "Sirius",
+      "Kuiper Belt",
+      "Earth"
+    ],
+    "correctAnswer": "Kuiper Belt",
+    "explanation": "Kuiper Belt is correct because Kuiper Belt is associated with distant region of icy bodies beyond Neptune and Pluto-like worlds.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73427,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which option is a clean match for Proxima Centauri?",
+    "answers": [
+      "Alpha Centauri system",
+      "Local Group",
+      "Kuiper Belt",
+      "Canis Major"
+    ],
+    "correctAnswer": "Alpha Centauri system",
+    "explanation": "Alpha Centauri system is correct because Proxima Centauri is associated with closest known star to the Sun and red dwarf neighbor.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73428,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which fact would be fair and correct for Andromeda Galaxy?",
+    "answers": [
+      "nearest large spiral galaxy to the Milky Way",
+      "moon with thick atmosphere and methane lakes",
+      "icy moon with water-rich geysers",
+      "dense remnant core of a Sun-like star"
+    ],
+    "correctAnswer": "nearest large spiral galaxy to the Milky Way",
+    "explanation": "nearest large spiral galaxy to the Milky Way is correct because Andromeda Galaxy is associated with nearest large spiral galaxy to the Milky Way and future galactic merger.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73429,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer is the strongest match for Kuiper Belt in space trivia?",
+    "answers": [
+      "ultra-dense remnant made mostly of neutrons",
+      "distant ice giant with very fast winds",
+      "distant region of icy bodies beyond Neptune",
+      "glowing lights from charged particles and atmosphere"
+    ],
+    "correctAnswer": "distant region of icy bodies beyond Neptune",
+    "explanation": "distant region of icy bodies beyond Neptune is correct because Kuiper Belt is associated with distant region of icy bodies beyond Neptune and Pluto-like worlds.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73430,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which phrase best describes Orion Nebula?",
+    "answers": [
+      "red supergiant in Orion",
+      "bright stellar nursery visible in Orion",
+      "largest moon in the solar system",
+      "icy dwarf planet reclassified in 2006"
+    ],
+    "correctAnswer": "bright stellar nursery visible in Orion",
+    "explanation": "bright stellar nursery visible in Orion is correct because Orion Nebula is associated with bright stellar nursery visible in Orion and active star formation.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73431,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer should be selected for the clue 'inner solar system / planetary-science'?",
+    "answers": [
+      "Orion Nebula",
+      "Mars",
+      "Andromeda Galaxy",
+      "Mercury"
+    ],
+    "correctAnswer": "Mercury",
+    "explanation": "Mercury is correct because Mercury is associated with smallest planet and closest to the Sun and cratered surface and temperature swings.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73432,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer pairs with both moon and astrobiology interest?",
+    "answers": [
+      "Milky Way",
+      "Europa",
+      "Asteroid",
+      "Enceladus"
+    ],
+    "correctAnswer": "Europa",
+    "explanation": "Europa is correct because Europa is associated with icy moon with a likely subsurface ocean and astrobiology interest.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73433,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of space entry best fits Solar flare?",
+    "answers": [
+      "solar event",
+      "region",
+      "planet type",
+      "moon"
+    ],
+    "correctAnswer": "solar event",
+    "explanation": "solar event is correct because Solar flare is associated with sudden burst of radiation from the Sun and magnetic energy release.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73434,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space question would have Black hole as the cleanest answer?",
+    "answers": [
+      "brightest star in Earth's night sky",
+      "region where gravity prevents light escaping",
+      "icy body that forms a tail near the Sun",
+      "star powered by nuclear fusion"
+    ],
+    "correctAnswer": "region where gravity prevents light escaping",
+    "explanation": "region where gravity prevents light escaping is correct because Black hole is associated with region where gravity prevents light escaping and event horizon.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73435,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space choice fits the description 'captured Kuiper Belt object candidate' most precisely?",
+    "answers": [
+      "Triton",
+      "Black hole",
+      "Kuiper Belt",
+      "Hot Jupiter"
+    ],
+    "correctAnswer": "Triton",
+    "explanation": "Triton is correct because Triton is associated with large moon with retrograde orbit and captured Kuiper Belt object candidate.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73436,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What classification best separates Orion Nebula from other space answers?",
+    "answers": [
+      "stellar event",
+      "nebula",
+      "moon",
+      "stellar remnant"
+    ],
+    "correctAnswer": "nebula",
+    "explanation": "nebula is correct because Orion Nebula is associated with bright stellar nursery visible in Orion and active star formation.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73437,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is best described as glowing lights from charged particles and atmosphere?",
+    "answers": [
+      "Eagle Nebula",
+      "Supernova",
+      "Solar flare",
+      "Aurora"
+    ],
+    "correctAnswer": "Aurora",
+    "explanation": "Aurora is correct because Aurora is associated with glowing lights from charged particles and atmosphere and space weather display.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73438,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is most naturally connected to runaway greenhouse effect?",
+    "answers": [
+      "Mars",
+      "Ganymede",
+      "Venus",
+      "Enceladus"
+    ],
+    "correctAnswer": "Venus",
+    "explanation": "Venus is correct because Venus is associated with hottest planet due to thick carbon dioxide atmosphere and runaway greenhouse effect.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73439,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is linked to Local Group and described by nearest large spiral galaxy to the Milky Way?",
+    "answers": [
+      "Asteroid",
+      "Supernova",
+      "Andromeda Galaxy",
+      "Black hole"
+    ],
+    "correctAnswer": "Andromeda Galaxy",
+    "explanation": "Andromeda Galaxy is correct because Andromeda Galaxy is associated with nearest large spiral galaxy to the Milky Way and future galactic merger.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73440,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue would identify Ceres without ambiguity?",
+    "answers": [
+      "prominent nearby star system",
+      "long-period comet source",
+      "bright salt deposits",
+      "event horizon"
+    ],
+    "correctAnswer": "bright salt deposits",
+    "explanation": "bright salt deposits is correct because Ceres is associated with largest body in the asteroid belt and bright salt deposits.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73441,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space question would have Pluto as the cleanest answer?",
+    "answers": [
+      "extremely bright active galactic nucleus",
+      "icy dwarf planet reclassified in 2006",
+      "barred spiral galaxy containing the solar system",
+      "distant ice giant with very fast winds"
+    ],
+    "correctAnswer": "icy dwarf planet reclassified in 2006",
+    "explanation": "icy dwarf planet reclassified in 2006 is correct because Pluto is associated with icy dwarf planet reclassified in 2006 and Tombaugh Regio and Kuiper Belt orbit.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73442,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which setting or origin is most strongly linked to Enceladus?",
+    "answers": [
+      "Saturn system",
+      "Kuiper Belt",
+      "outer solar system",
+      "Serpens"
+    ],
+    "correctAnswer": "Saturn system",
+    "explanation": "Saturn system is correct because Enceladus is associated with icy moon with water-rich geysers and subsurface ocean clues.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73443,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is defined by nearest large spiral galaxy to the Milky Way and linked to future galactic merger?",
+    "answers": [
+      "Polaris",
+      "Andromeda Galaxy",
+      "Io",
+      "Asteroid"
+    ],
+    "correctAnswer": "Andromeda Galaxy",
+    "explanation": "Andromeda Galaxy is correct because Andromeda Galaxy is associated with nearest large spiral galaxy to the Milky Way and future galactic merger.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73444,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fact about Pluto is true?",
+    "answers": [
+      "extreme density",
+      "organic chemistry and surface liquids",
+      "Tombaugh Regio and Kuiper Belt orbit",
+      "long-period comet source"
+    ],
+    "correctAnswer": "Tombaugh Regio and Kuiper Belt orbit",
+    "explanation": "Tombaugh Regio and Kuiper Belt orbit is correct because Pluto is associated with icy dwarf planet reclassified in 2006 and Tombaugh Regio and Kuiper Belt orbit.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73445,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fact would be fair and correct for Triton?",
+    "answers": [
+      "bright stellar nursery visible in Orion",
+      "large moon with retrograde orbit",
+      "icy moon with a likely subsurface ocean",
+      "current North Star"
+    ],
+    "correctAnswer": "large moon with retrograde orbit",
+    "explanation": "large moon with retrograde orbit is correct because Triton is associated with large moon with retrograde orbit and captured Kuiper Belt object candidate.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73446,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue would identify Enceladus without ambiguity?",
+    "answers": [
+      "ice, dust, and sunlight",
+      "Tombaugh Regio and Kuiper Belt orbit",
+      "lighthouse-like radio pulses",
+      "subsurface ocean clues"
+    ],
+    "correctAnswer": "subsurface ocean clues",
+    "explanation": "subsurface ocean clues is correct because Enceladus is associated with icy moon with water-rich geysers and subsurface ocean clues.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73447,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer belongs with the theme 'Earth-sized stellar corpse'?",
+    "answers": [
+      "Neptune",
+      "White dwarf",
+      "Neutron star",
+      "Europa"
+    ],
+    "correctAnswer": "White dwarf",
+    "explanation": "White dwarf is correct because White dwarf is associated with dense remnant core of a Sun-like star and Earth-sized stellar corpse.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73448,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "For a global space trivia audience, which answer matches Jupiter system and moon larger than Mercury?",
+    "answers": [
+      "Ganymede",
+      "Earth",
+      "Milky Way",
+      "Uranus"
+    ],
+    "correctAnswer": "Ganymede",
+    "explanation": "Ganymede is correct because Ganymede is associated with largest moon in the solar system and moon larger than Mercury.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73449,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In a ranked space round, which fact correctly matches Mars?",
+    "answers": [
+      "hypothetical distant shell of icy bodies",
+      "red planet with polar ice and ancient river evidence",
+      "icy body that forms a tail near the Sun",
+      "icy moon with a likely subsurface ocean"
+    ],
+    "correctAnswer": "red planet with polar ice and ancient river evidence",
+    "explanation": "red planet with polar ice and ancient river evidence is correct because Mars is associated with red planet with polar ice and ancient river evidence and rovers and dust storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73450,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In a ranked space round, which fact correctly matches Sun?",
+    "answers": [
+      "nearest large spiral galaxy to the Milky Way",
+      "star powered by nuclear fusion",
+      "sudden burst of radiation from the Sun",
+      "most volcanically active world in the solar system"
+    ],
+    "correctAnswer": "star powered by nuclear fusion",
+    "explanation": "star powered by nuclear fusion is correct because Sun is associated with star powered by nuclear fusion and solar wind and sunlight.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73451,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer correctly completes this space profile: Local Group, galaxy, ___?",
+    "answers": [
+      "Black hole",
+      "Proxima Centauri",
+      "Milky Way",
+      "Exoplanet"
+    ],
+    "correctAnswer": "Milky Way",
+    "explanation": "Milky Way is correct because Milky Way is associated with barred spiral galaxy containing the solar system and home galaxy.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73452,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer correctly completes this space profile: solar activity, solar event, ___?",
+    "answers": [
+      "Jupiter",
+      "Sirius",
+      "Solar flare",
+      "Titan"
+    ],
+    "correctAnswer": "Solar flare",
+    "explanation": "Solar flare is correct because Solar flare is associated with sudden burst of radiation from the Sun and magnetic energy release.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73453,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is connected to outer solar system and the label small-bodies?",
+    "answers": [
+      "Uranus",
+      "Kuiper Belt",
+      "Exoplanet",
+      "Neptune"
+    ],
+    "correctAnswer": "Kuiper Belt",
+    "explanation": "Kuiper Belt is correct because Kuiper Belt is associated with distant region of icy bodies beyond Neptune and Pluto-like worlds.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73454,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of space entry best fits Pluto?",
+    "answers": [
+      "moon",
+      "dwarf planet",
+      "planet type",
+      "exoplanet type"
+    ],
+    "correctAnswer": "dwarf planet",
+    "explanation": "dwarf planet is correct because Pluto is associated with icy dwarf planet reclassified in 2006 and Tombaugh Regio and Kuiper Belt orbit.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73455,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which setting or origin is most strongly linked to Neutron star?",
+    "answers": [
+      "solar system debris",
+      "Ursa Minor",
+      "stellar remnants",
+      "solar system center"
+    ],
+    "correctAnswer": "stellar remnants",
+    "explanation": "stellar remnants is correct because Neutron star is associated with ultra-dense remnant made mostly of neutrons and extreme density.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73456,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space profile combines solar activity with magnetic energy release?",
+    "answers": [
+      "Kuiper Belt",
+      "Orion Nebula",
+      "Solar flare",
+      "Jupiter"
+    ],
+    "correctAnswer": "Solar flare",
+    "explanation": "Solar flare is correct because Solar flare is associated with sudden burst of radiation from the Sun and magnetic energy release.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73457,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space choice fits the description 'extreme density' most precisely?",
+    "answers": [
+      "Earth",
+      "Io",
+      "Sun",
+      "Neutron star"
+    ],
+    "correctAnswer": "Neutron star",
+    "explanation": "Neutron star is correct because Neutron star is associated with ultra-dense remnant made mostly of neutrons and extreme density.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73458,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the correct space match for the clue 'star-forming gas columns'?",
+    "answers": [
+      "Neptune",
+      "Betelgeuse",
+      "Eagle Nebula",
+      "Andromeda Galaxy"
+    ],
+    "correctAnswer": "Eagle Nebula",
+    "explanation": "Eagle Nebula is correct because Eagle Nebula is associated with nebula famous for the Pillars of Creation and star-forming gas columns.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73459,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space concept is correctly paired with hypothetical distant shell of icy bodies?",
+    "answers": [
+      "Saturn",
+      "Quasar",
+      "Oort Cloud",
+      "Asteroid"
+    ],
+    "correctAnswer": "Oort Cloud",
+    "explanation": "Oort Cloud is correct because Oort Cloud is associated with hypothetical distant shell of icy bodies and long-period comet source.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73460,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is linked to extrasolar systems and described by planet orbiting a star outside the solar system?",
+    "answers": [
+      "Asteroid",
+      "Quasar",
+      "Exoplanet",
+      "Proxima Centauri"
+    ],
+    "correctAnswer": "Exoplanet",
+    "explanation": "Exoplanet is correct because Exoplanet is associated with planet orbiting a star outside the solar system and distant world detection.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73461,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer belongs with the theme 'biosphere and liquid water'?",
+    "answers": [
+      "Mars",
+      "Earth",
+      "Andromeda Galaxy",
+      "Milky Way"
+    ],
+    "correctAnswer": "Earth",
+    "explanation": "Earth is correct because Earth is associated with only known world with life and surface oceans and biosphere and liquid water.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73462,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which clue would identify Comet without ambiguity?",
+    "answers": [
+      "bright salt deposits",
+      "navigation near north celestial pole",
+      "solar wind and sunlight",
+      "ice, dust, and sunlight"
+    ],
+    "correctAnswer": "ice, dust, and sunlight",
+    "explanation": "ice, dust, and sunlight is correct because Comet is associated with icy body that forms a tail near the Sun and ice, dust, and sunlight.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73463,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the correct space match for the clue 'space weather display'?",
+    "answers": [
+      "Mars",
+      "Neptune",
+      "Aurora",
+      "Crab Nebula"
+    ],
+    "correctAnswer": "Aurora",
+    "explanation": "Aurora is correct because Aurora is associated with glowing lights from charged particles and atmosphere and space weather display.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73464,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer completes this space match: Milky Way -> ?",
+    "answers": [
+      "home galaxy",
+      "heavy element formation",
+      "active star formation",
+      "tidal heating"
+    ],
+    "correctAnswer": "home galaxy",
+    "explanation": "home galaxy is correct because Milky Way is associated with barred spiral galaxy containing the solar system and home galaxy.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73465,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer correctly completes this space profile: polar skies, atmospheric phenomenon, ___?",
+    "answers": [
+      "Exoplanet",
+      "Aurora",
+      "Black hole",
+      "Quasar"
+    ],
+    "correctAnswer": "Aurora",
+    "explanation": "Aurora is correct because Aurora is associated with glowing lights from charged particles and atmosphere and space weather display.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73466,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer completes this space match: Neutron star -> ?",
+    "answers": [
+      "asteroid belt objects",
+      "star-forming gas columns",
+      "extreme density",
+      "ice, dust, and sunlight"
+    ],
+    "correctAnswer": "extreme density",
+    "explanation": "extreme density is correct because Neutron star is associated with ultra-dense remnant made mostly of neutrons and extreme density.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73467,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer should be selected for the clue 'Ursa Minor / stars'?",
+    "answers": [
+      "Neptune",
+      "Eagle Nebula",
+      "Io",
+      "Polaris"
+    ],
+    "correctAnswer": "Polaris",
+    "explanation": "Polaris is correct because Polaris is associated with current North Star and navigation near north celestial pole.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73468,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which clue best supports White dwarf as the answer?",
+    "answers": [
+      "closest known star to the Sun",
+      "nebula famous for the Pillars of Creation",
+      "dense remnant core of a Sun-like star",
+      "only known world with life and surface oceans"
+    ],
+    "correctAnswer": "dense remnant core of a Sun-like star",
+    "explanation": "dense remnant core of a Sun-like star is correct because White dwarf is associated with dense remnant core of a Sun-like star and Earth-sized stellar corpse.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73469,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is defined by smallest planet and closest to the Sun and linked to cratered surface and temperature swings?",
+    "answers": [
+      "Mercury",
+      "Sirius",
+      "Supernova",
+      "Kuiper Belt"
+    ],
+    "correctAnswer": "Mercury",
+    "explanation": "Mercury is correct because Mercury is associated with smallest planet and closest to the Sun and cratered surface and temperature swings.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73470,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which fact would be fair and correct for Milky Way?",
+    "answers": [
+      "barred spiral galaxy containing the solar system",
+      "nearest large spiral galaxy to the Milky Way",
+      "ultra-dense remnant made mostly of neutrons",
+      "region where gravity prevents light escaping"
+    ],
+    "correctAnswer": "barred spiral galaxy containing the solar system",
+    "explanation": "barred spiral galaxy containing the solar system is correct because Milky Way is associated with barred spiral galaxy containing the solar system and home galaxy.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73471,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which phrase best describes Triton?",
+    "answers": [
+      "star powered by nuclear fusion",
+      "large moon with retrograde orbit",
+      "barred spiral galaxy containing the solar system",
+      "moon with thick atmosphere and methane lakes"
+    ],
+    "correctAnswer": "large moon with retrograde orbit",
+    "explanation": "large moon with retrograde orbit is correct because Triton is associated with large moon with retrograde orbit and captured Kuiper Belt object candidate.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73472,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is best described as large moon with retrograde orbit?",
+    "answers": [
+      "Ganymede",
+      "Kuiper Belt",
+      "Earth",
+      "Triton"
+    ],
+    "correctAnswer": "Triton",
+    "explanation": "Triton is correct because Triton is associated with large moon with retrograde orbit and captured Kuiper Belt object candidate.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73473,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer should be selected for the clue 'Canis Major / stars'?",
+    "answers": [
+      "Triton",
+      "Sun",
+      "Milky Way",
+      "Sirius"
+    ],
+    "correctAnswer": "Sirius",
+    "explanation": "Sirius is correct because Sirius is associated with brightest star in Earth's night sky and prominent nearby star system.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73474,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer matches the space clue 'star powered by nuclear fusion' and avoids ambiguity?",
+    "answers": [
+      "Neutron star",
+      "Earth",
+      "Sun",
+      "Milky Way"
+    ],
+    "correctAnswer": "Sun",
+    "explanation": "Sun is correct because Sun is associated with star powered by nuclear fusion and solar wind and sunlight.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73475,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space profile combines Serpens with star-forming gas columns?",
+    "answers": [
+      "Eagle Nebula",
+      "Asteroid",
+      "Exoplanet",
+      "White dwarf"
+    ],
+    "correctAnswer": "Eagle Nebula",
+    "explanation": "Eagle Nebula is correct because Eagle Nebula is associated with nebula famous for the Pillars of Creation and star-forming gas columns.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73476,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer best matches this space category clue: solar event, solar activity, magnetic energy release?",
+    "answers": [
+      "Solar flare",
+      "Ceres",
+      "Kuiper Belt",
+      "Enceladus"
+    ],
+    "correctAnswer": "Solar flare",
+    "explanation": "Solar flare is correct because Solar flare is associated with sudden burst of radiation from the Sun and magnetic energy release.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73477,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space clue points to bright salt deposits?",
+    "answers": [
+      "Quasar",
+      "Ceres",
+      "Asteroid",
+      "Saturn"
+    ],
+    "correctAnswer": "Ceres",
+    "explanation": "Ceres is correct because Ceres is associated with largest body in the asteroid belt and bright salt deposits.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73478,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is linked to inner solar system and described by red planet with polar ice and ancient river evidence?",
+    "answers": [
+      "Saturn",
+      "Mars",
+      "Pulsar",
+      "Quasar"
+    ],
+    "correctAnswer": "Mars",
+    "explanation": "Mars is correct because Mars is associated with red planet with polar ice and ancient river evidence and rovers and dust storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73479,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which option is a clean match for Black hole?",
+    "answers": [
+      "extrasolar systems",
+      "extreme gravity",
+      "outer solar system",
+      "outer solar system boundary"
+    ],
+    "correctAnswer": "extreme gravity",
+    "explanation": "extreme gravity is correct because Black hole is associated with region where gravity prevents light escaping and event horizon.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73480,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is most naturally connected to rovers and dust storms?",
+    "answers": [
+      "Mars",
+      "Earth",
+      "Enceladus",
+      "Black hole"
+    ],
+    "correctAnswer": "Mars",
+    "explanation": "Mars is correct because Mars is associated with red planet with polar ice and ancient river evidence and rovers and dust storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73481,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer best completes the space pair: Polaris and Ursa Minor?",
+    "answers": [
+      "home galaxy",
+      "navigation near north celestial pole",
+      "Pluto-like worlds",
+      "lighthouse-like radio pulses"
+    ],
+    "correctAnswer": "navigation near north celestial pole",
+    "explanation": "navigation near north celestial pole is correct because Polaris is associated with current North Star and navigation near north celestial pole.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73482,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer should be selected for the clue 'outer solar system / small-bodies'?",
+    "answers": [
+      "Kuiper Belt",
+      "White dwarf",
+      "Europa",
+      "Enceladus"
+    ],
+    "correctAnswer": "Kuiper Belt",
+    "explanation": "Kuiper Belt is correct because Kuiper Belt is associated with distant region of icy bodies beyond Neptune and Pluto-like worlds.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73483,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fact about Polaris is true?",
+    "answers": [
+      "navigation near north celestial pole",
+      "future supernova candidate",
+      "deep blue methane-rich atmosphere",
+      "future galactic merger"
+    ],
+    "correctAnswer": "navigation near north celestial pole",
+    "explanation": "navigation near north celestial pole is correct because Polaris is associated with current North Star and navigation near north celestial pole.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73484,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which detail is accurate for Quasar?",
+    "answers": [
+      "extreme axial tilt",
+      "star-forming gas columns",
+      "supermassive black hole power",
+      "solar wind and sunlight"
+    ],
+    "correctAnswer": "supermassive black hole power",
+    "explanation": "supermassive black hole power is correct because Quasar is associated with extremely bright active galactic nucleus and supermassive black hole power.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73485,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space item is linked to the description 'icy body that forms a tail near the Sun'?",
+    "answers": [
+      "Comet",
+      "Io",
+      "Jupiter",
+      "Pulsar"
+    ],
+    "correctAnswer": "Comet",
+    "explanation": "Comet is correct because Comet is associated with icy body that forms a tail near the Sun and ice, dust, and sunlight.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73486,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space concept is correctly paired with extremely bright active galactic nucleus?",
+    "answers": [
+      "Asteroid",
+      "Hot Jupiter",
+      "Solar flare",
+      "Quasar"
+    ],
+    "correctAnswer": "Quasar",
+    "explanation": "Quasar is correct because Quasar is associated with extremely bright active galactic nucleus and supermassive black hole power.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73487,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which category label best applies to Sun?",
+    "answers": [
+      "stars",
+      "planetary-science",
+      "space-weather",
+      "cosmology"
+    ],
+    "correctAnswer": "stars",
+    "explanation": "stars is correct because Sun is associated with star powered by nuclear fusion and solar wind and sunlight.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73488,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer best matches this space category clue: planet type, extrasolar systems, distant world detection?",
+    "answers": [
+      "Andromeda Galaxy",
+      "Ceres",
+      "Supernova",
+      "Exoplanet"
+    ],
+    "correctAnswer": "Exoplanet",
+    "explanation": "Exoplanet is correct because Exoplanet is associated with planet orbiting a star outside the solar system and distant world detection.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73489,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is best described as ice giant rotating almost on its side?",
+    "answers": [
+      "Titan",
+      "Quasar",
+      "Venus",
+      "Uranus"
+    ],
+    "correctAnswer": "Uranus",
+    "explanation": "Uranus is correct because Uranus is associated with ice giant rotating almost on its side and extreme axial tilt.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73490,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is best described as barred spiral galaxy containing the solar system?",
+    "answers": [
+      "Quasar",
+      "Enceladus",
+      "Proxima Centauri",
+      "Milky Way"
+    ],
+    "correctAnswer": "Milky Way",
+    "explanation": "Milky Way is correct because Milky Way is associated with barred spiral galaxy containing the solar system and home galaxy.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73491,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In a ranked space round, which fact correctly matches Asteroid?",
+    "answers": [
+      "rocky object orbiting the Sun",
+      "icy body that forms a tail near the Sun",
+      "bright stellar nursery visible in Orion",
+      "planet orbiting a star outside the solar system"
+    ],
+    "correctAnswer": "rocky object orbiting the Sun",
+    "explanation": "rocky object orbiting the Sun is correct because Asteroid is associated with rocky object orbiting the Sun and asteroid belt objects.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73492,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space topic is represented by Milky Way?",
+    "answers": [
+      "galaxies",
+      "exoplanets",
+      "planetary-science",
+      "nebulae"
+    ],
+    "correctAnswer": "galaxies",
+    "explanation": "galaxies is correct because Milky Way is associated with barred spiral galaxy containing the solar system and home galaxy.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73493,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a ranked space round, which fact correctly matches Orion Nebula?",
+    "answers": [
+      "hypothetical distant shell of icy bodies",
+      "distant ice giant with very fast winds",
+      "bright stellar nursery visible in Orion",
+      "current North Star"
+    ],
+    "correctAnswer": "bright stellar nursery visible in Orion",
+    "explanation": "bright stellar nursery visible in Orion is correct because Orion Nebula is associated with bright stellar nursery visible in Orion and active star formation.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73494,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space question would have Milky Way as the cleanest answer?",
+    "answers": [
+      "barred spiral galaxy containing the solar system",
+      "closest known star to the Sun",
+      "gas giant orbiting very close to its star",
+      "distant ice giant with very fast winds"
+    ],
+    "correctAnswer": "barred spiral galaxy containing the solar system",
+    "explanation": "barred spiral galaxy containing the solar system is correct because Milky Way is associated with barred spiral galaxy containing the solar system and home galaxy.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73495,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer is the strongest match for Quasar in space trivia?",
+    "answers": [
+      "extremely bright active galactic nucleus",
+      "distant region of icy bodies beyond Neptune",
+      "sudden burst of radiation from the Sun",
+      "largest body in the asteroid belt"
+    ],
+    "correctAnswer": "extremely bright active galactic nucleus",
+    "explanation": "extremely bright active galactic nucleus is correct because Quasar is associated with extremely bright active galactic nucleus and supermassive black hole power.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73496,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What classification best separates Ceres from other space answers?",
+    "answers": [
+      "stellar event",
+      "dwarf planet",
+      "stellar remnant",
+      "nebula"
+    ],
+    "correctAnswer": "dwarf planet",
+    "explanation": "dwarf planet is correct because Ceres is associated with largest body in the asteroid belt and bright salt deposits.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73497,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer best matches this space category clue: compact object, extreme gravity, event horizon?",
+    "answers": [
+      "Venus",
+      "Titan",
+      "Black hole",
+      "Sirius"
+    ],
+    "correctAnswer": "Black hole",
+    "explanation": "Black hole is correct because Black hole is associated with region where gravity prevents light escaping and event horizon.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73498,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer is the strongest match for Comet in space trivia?",
+    "answers": [
+      "only known world with life and surface oceans",
+      "red planet with polar ice and ancient river evidence",
+      "icy body that forms a tail near the Sun",
+      "sudden burst of radiation from the Sun"
+    ],
+    "correctAnswer": "icy body that forms a tail near the Sun",
+    "explanation": "icy body that forms a tail near the Sun is correct because Comet is associated with icy body that forms a tail near the Sun and ice, dust, and sunlight.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73499,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is defined by red supergiant in Orion and linked to future supernova candidate?",
+    "answers": [
+      "Solar flare",
+      "Betelgeuse",
+      "Neutron star",
+      "Polaris"
+    ],
+    "correctAnswer": "Betelgeuse",
+    "explanation": "Betelgeuse is correct because Betelgeuse is associated with red supergiant in Orion and future supernova candidate.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73500,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space item is linked to the description 'rotating neutron star emitting regular beams'?",
+    "answers": [
+      "Enceladus",
+      "Pulsar",
+      "Milky Way",
+      "Quasar"
+    ],
+    "correctAnswer": "Pulsar",
+    "explanation": "Pulsar is correct because Pulsar is associated with rotating neutron star emitting regular beams and lighthouse-like radio pulses.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73501,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space profile combines star with red supergiant in Orion?",
+    "answers": [
+      "Proxima Centauri",
+      "Betelgeuse",
+      "White dwarf",
+      "Exoplanet"
+    ],
+    "correctAnswer": "Betelgeuse",
+    "explanation": "Betelgeuse is correct because Betelgeuse is associated with red supergiant in Orion and future supernova candidate.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73502,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What classification best separates Black hole from other space answers?",
+    "answers": [
+      "stellar event",
+      "solar event",
+      "dwarf planet",
+      "compact object"
+    ],
+    "correctAnswer": "compact object",
+    "explanation": "compact object is correct because Black hole is associated with region where gravity prevents light escaping and event horizon.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73503,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space choice fits the description 'rovers and dust storms' most precisely?",
+    "answers": [
+      "Neutron star",
+      "Pluto",
+      "Mars",
+      "Andromeda Galaxy"
+    ],
+    "correctAnswer": "Mars",
+    "explanation": "Mars is correct because Mars is associated with red planet with polar ice and ancient river evidence and rovers and dust storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73504,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space choice fits the description 'magnetic energy release' most precisely?",
+    "answers": [
+      "Asteroid",
+      "Proxima Centauri",
+      "Solar flare",
+      "Aurora"
+    ],
+    "correctAnswer": "Solar flare",
+    "explanation": "Solar flare is correct because Solar flare is associated with sudden burst of radiation from the Sun and magnetic energy release.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73505,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is most naturally connected to heavy element formation?",
+    "answers": [
+      "Aurora",
+      "Hot Jupiter",
+      "Proxima Centauri",
+      "Supernova"
+    ],
+    "correctAnswer": "Supernova",
+    "explanation": "Supernova is correct because Supernova is associated with explosive death of a star and heavy element formation.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73506,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer best completes the space pair: Comet and solar system debris?",
+    "answers": [
+      "ice, dust, and sunlight",
+      "runaway greenhouse effect",
+      "prominent nearby star system",
+      "future supernova candidate"
+    ],
+    "correctAnswer": "ice, dust, and sunlight",
+    "explanation": "ice, dust, and sunlight is correct because Comet is associated with icy body that forms a tail near the Sun and ice, dust, and sunlight.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73507,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fact would be fair and correct for Saturn?",
+    "answers": [
+      "largest moon in the solar system",
+      "gas giant famous for its bright rings",
+      "supernova remnant from a recorded 1054 event",
+      "red supergiant in Orion"
+    ],
+    "correctAnswer": "gas giant famous for its bright rings",
+    "explanation": "gas giant famous for its bright rings is correct because Saturn is associated with gas giant famous for its bright rings and icy ring particles.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73508,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which option is a clean match for Sun?",
+    "answers": [
+      "stellar evolution",
+      "solar system center",
+      "polar skies",
+      "outer solar system boundary"
+    ],
+    "correctAnswer": "solar system center",
+    "explanation": "solar system center is correct because Sun is associated with star powered by nuclear fusion and solar wind and sunlight.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73509,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space concept is associated with cosmology and extreme gravity?",
+    "answers": [
+      "Betelgeuse",
+      "Black hole",
+      "Pluto",
+      "Eagle Nebula"
+    ],
+    "correctAnswer": "Black hole",
+    "explanation": "Black hole is correct because Black hole is associated with region where gravity prevents light escaping and event horizon.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73510,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer belongs with the theme 'astrobiology interest'?",
+    "answers": [
+      "Asteroid",
+      "Enceladus",
+      "Europa",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "Europa",
+    "explanation": "Europa is correct because Europa is associated with icy moon with a likely subsurface ocean and astrobiology interest.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73511,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space item is linked to the description 'ultra-dense remnant made mostly of neutrons'?",
+    "answers": [
+      "White dwarf",
+      "Oort Cloud",
+      "Enceladus",
+      "Neutron star"
+    ],
+    "correctAnswer": "Neutron star",
+    "explanation": "Neutron star is correct because Neutron star is associated with ultra-dense remnant made mostly of neutrons and extreme density.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73512,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer should be selected for the clue 'distant universe / cosmology'?",
+    "answers": [
+      "Titan",
+      "Quasar",
+      "Pulsar",
+      "Exoplanet"
+    ],
+    "correctAnswer": "Quasar",
+    "explanation": "Quasar is correct because Quasar is associated with extremely bright active galactic nucleus and supermassive black hole power.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73513,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space option matches the origin clue 'Ursa Minor' and the type clue 'star'?",
+    "answers": [
+      "Uranus",
+      "Polaris",
+      "Sun",
+      "Hot Jupiter"
+    ],
+    "correctAnswer": "Polaris",
+    "explanation": "Polaris is correct because Polaris is associated with current North Star and navigation near north celestial pole.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73514,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fact about Exoplanet is true?",
+    "answers": [
+      "distant world detection",
+      "cratered surface and temperature swings",
+      "tidal heating",
+      "Tombaugh Regio and Kuiper Belt orbit"
+    ],
+    "correctAnswer": "distant world detection",
+    "explanation": "distant world detection is correct because Exoplanet is associated with planet orbiting a star outside the solar system and distant world detection.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73515,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space question would have Sun as the cleanest answer?",
+    "answers": [
+      "star powered by nuclear fusion",
+      "red planet with polar ice and ancient river evidence",
+      "distant region of icy bodies beyond Neptune",
+      "icy dwarf planet reclassified in 2006"
+    ],
+    "correctAnswer": "star powered by nuclear fusion",
+    "explanation": "star powered by nuclear fusion is correct because Sun is associated with star powered by nuclear fusion and solar wind and sunlight.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73516,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is linked to outer solar system and described by distant ice giant with very fast winds?",
+    "answers": [
+      "Orion Nebula",
+      "Sun",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctAnswer": "Neptune",
+    "explanation": "Neptune is correct because Neptune is associated with distant ice giant with very fast winds and deep blue methane-rich atmosphere.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73517,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of space entry best fits Comet?",
+    "answers": [
+      "moon",
+      "atmospheric phenomenon",
+      "star",
+      "small body"
+    ],
+    "correctAnswer": "small body",
+    "explanation": "small body is correct because Comet is associated with icy body that forms a tail near the Sun and ice, dust, and sunlight.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73518,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space choice fits the description 'distant world detection' most precisely?",
+    "answers": [
+      "Uranus",
+      "Venus",
+      "Mercury",
+      "Exoplanet"
+    ],
+    "correctAnswer": "Exoplanet",
+    "explanation": "Exoplanet is correct because Exoplanet is associated with planet orbiting a star outside the solar system and distant world detection.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73519,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which detail is accurate for Earth?",
+    "answers": [
+      "pulsar wind nebula",
+      "bright salt deposits",
+      "astrobiology interest",
+      "biosphere and liquid water"
+    ],
+    "correctAnswer": "biosphere and liquid water",
+    "explanation": "biosphere and liquid water is correct because Earth is associated with only known world with life and surface oceans and biosphere and liquid water.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73520,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space concept is associated with cosmology and stellar remnants?",
+    "answers": [
+      "Uranus",
+      "Neutron star",
+      "Triton",
+      "Milky Way"
+    ],
+    "correctAnswer": "Neutron star",
+    "explanation": "Neutron star is correct because Neutron star is associated with ultra-dense remnant made mostly of neutrons and extreme density.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73521,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer best completes the space pair: Io and Jupiter system?",
+    "answers": [
+      "tidal heating",
+      "organic chemistry and surface liquids",
+      "Earth-sized stellar corpse",
+      "cratered surface and temperature swings"
+    ],
+    "correctAnswer": "tidal heating",
+    "explanation": "tidal heating is correct because Io is associated with most volcanically active world in the solar system and tidal heating.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73522,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space item is linked to the description 'red supergiant in Orion'?",
+    "answers": [
+      "Crab Nebula",
+      "Venus",
+      "Ceres",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "Betelgeuse",
+    "explanation": "Betelgeuse is correct because Betelgeuse is associated with red supergiant in Orion and future supernova candidate.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73523,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer matches the space clue 'large moon with retrograde orbit' and avoids ambiguity?",
+    "answers": [
+      "Triton",
+      "Black hole",
+      "Andromeda Galaxy",
+      "Aurora"
+    ],
+    "correctAnswer": "Triton",
+    "explanation": "Triton is correct because Triton is associated with large moon with retrograde orbit and captured Kuiper Belt object candidate.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73524,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space item would fit a question about gas giant orbiting very close to its star?",
+    "answers": [
+      "Uranus",
+      "Hot Jupiter",
+      "Polaris",
+      "Triton"
+    ],
+    "correctAnswer": "Hot Jupiter",
+    "explanation": "Hot Jupiter is correct because Hot Jupiter is associated with gas giant orbiting very close to its star and short orbital period.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73525,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is most naturally connected to Pluto-like worlds?",
+    "answers": [
+      "Kuiper Belt",
+      "Pluto",
+      "Neutron star",
+      "Crab Nebula"
+    ],
+    "correctAnswer": "Kuiper Belt",
+    "explanation": "Kuiper Belt is correct because Kuiper Belt is associated with distant region of icy bodies beyond Neptune and Pluto-like worlds.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73526,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is linked to outer solar system and described by distant region of icy bodies beyond Neptune?",
+    "answers": [
+      "Europa",
+      "Kuiper Belt",
+      "Sirius",
+      "Uranus"
+    ],
+    "correctAnswer": "Kuiper Belt",
+    "explanation": "Kuiper Belt is correct because Kuiper Belt is associated with distant region of icy bodies beyond Neptune and Pluto-like worlds.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73527,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space question would have Andromeda Galaxy as the cleanest answer?",
+    "answers": [
+      "dense remnant core of a Sun-like star",
+      "nearest large spiral galaxy to the Milky Way",
+      "current North Star",
+      "largest moon in the solar system"
+    ],
+    "correctAnswer": "nearest large spiral galaxy to the Milky Way",
+    "explanation": "nearest large spiral galaxy to the Milky Way is correct because Andromeda Galaxy is associated with nearest large spiral galaxy to the Milky Way and future galactic merger.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73528,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What is the correct space match for the clue 'future supernova candidate'?",
+    "answers": [
+      "Betelgeuse",
+      "Pulsar",
+      "Oort Cloud",
+      "Jupiter"
+    ],
+    "correctAnswer": "Betelgeuse",
+    "explanation": "Betelgeuse is correct because Betelgeuse is associated with red supergiant in Orion and future supernova candidate.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73529,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is defined by star powered by nuclear fusion and linked to solar wind and sunlight?",
+    "answers": [
+      "Proxima Centauri",
+      "Sun",
+      "Pulsar",
+      "Enceladus"
+    ],
+    "correctAnswer": "Sun",
+    "explanation": "Sun is correct because Sun is associated with star powered by nuclear fusion and solar wind and sunlight.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73530,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space choice fits the description 'Great Red Spot and gas giant storms' most precisely?",
+    "answers": [
+      "Sirius",
+      "Jupiter",
+      "Hot Jupiter",
+      "Ceres"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Jupiter is correct because Jupiter is associated with largest planet in the solar system and Great Red Spot and gas giant storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73531,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer belongs with the theme 'pulsar wind nebula'?",
+    "answers": [
+      "Quasar",
+      "Crab Nebula",
+      "Mercury",
+      "Hot Jupiter"
+    ],
+    "correctAnswer": "Crab Nebula",
+    "explanation": "Crab Nebula is correct because Crab Nebula is associated with supernova remnant from a recorded 1054 event and pulsar wind nebula.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73532,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer completes this space match: Quasar -> ?",
+    "answers": [
+      "supermassive black hole power",
+      "navigation near north celestial pole",
+      "future supernova candidate",
+      "extreme density"
+    ],
+    "correctAnswer": "supermassive black hole power",
+    "explanation": "supermassive black hole power is correct because Quasar is associated with extremely bright active galactic nucleus and supermassive black hole power.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73533,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer belongs with the theme 'tidal heating'?",
+    "answers": [
+      "Comet",
+      "White dwarf",
+      "Asteroid",
+      "Io"
+    ],
+    "correctAnswer": "Io",
+    "explanation": "Io is correct because Io is associated with most volcanically active world in the solar system and tidal heating.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73534,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which detail is accurate for White dwarf?",
+    "answers": [
+      "heavy element formation",
+      "lighthouse-like radio pulses",
+      "biosphere and liquid water",
+      "Earth-sized stellar corpse"
+    ],
+    "correctAnswer": "Earth-sized stellar corpse",
+    "explanation": "Earth-sized stellar corpse is correct because White dwarf is associated with dense remnant core of a Sun-like star and Earth-sized stellar corpse.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73535,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer is the strongest match for Milky Way in space trivia?",
+    "answers": [
+      "ultra-dense remnant made mostly of neutrons",
+      "star powered by nuclear fusion",
+      "barred spiral galaxy containing the solar system",
+      "icy body that forms a tail near the Sun"
+    ],
+    "correctAnswer": "barred spiral galaxy containing the solar system",
+    "explanation": "barred spiral galaxy containing the solar system is correct because Milky Way is associated with barred spiral galaxy containing the solar system and home galaxy.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73536,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is linked to outer solar system and described by ice giant rotating almost on its side?",
+    "answers": [
+      "Earth",
+      "Sirius",
+      "Europa",
+      "Uranus"
+    ],
+    "correctAnswer": "Uranus",
+    "explanation": "Uranus is correct because Uranus is associated with ice giant rotating almost on its side and extreme axial tilt.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73537,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer belongs with the theme 'lighthouse-like radio pulses'?",
+    "answers": [
+      "Polaris",
+      "Pulsar",
+      "Crab Nebula",
+      "Quasar"
+    ],
+    "correctAnswer": "Pulsar",
+    "explanation": "Pulsar is correct because Pulsar is associated with rotating neutron star emitting regular beams and lighthouse-like radio pulses.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73538,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer best matches this space category clue: planet, outer solar system, Great Red Spot and gas giant storms?",
+    "answers": [
+      "Jupiter",
+      "Mercury",
+      "Triton",
+      "Eagle Nebula"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Jupiter is correct because Jupiter is associated with largest planet in the solar system and Great Red Spot and gas giant storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73539,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer best matches this space category clue: planet, outer solar system, deep blue methane-rich atmosphere?",
+    "answers": [
+      "Mars",
+      "Pluto",
+      "Neptune",
+      "Ganymede"
+    ],
+    "correctAnswer": "Neptune",
+    "explanation": "Neptune is correct because Neptune is associated with distant ice giant with very fast winds and deep blue methane-rich atmosphere.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73540,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer would belong in a set about small-bodies?",
+    "answers": [
+      "Asteroid",
+      "Jupiter",
+      "Solar flare",
+      "Eagle Nebula"
+    ],
+    "correctAnswer": "Asteroid",
+    "explanation": "Asteroid is correct because Asteroid is associated with rocky object orbiting the Sun and asteroid belt objects.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73541,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space choice fits the description 'organic chemistry and surface liquids' most precisely?",
+    "answers": [
+      "Hot Jupiter",
+      "Titan",
+      "Uranus",
+      "Io"
+    ],
+    "correctAnswer": "Titan",
+    "explanation": "Titan is correct because Titan is associated with moon with thick atmosphere and methane lakes and organic chemistry and surface liquids.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73542,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer belongs with the theme 'subsurface ocean clues'?",
+    "answers": [
+      "Enceladus",
+      "Venus",
+      "Betelgeuse",
+      "Ceres"
+    ],
+    "correctAnswer": "Enceladus",
+    "explanation": "Enceladus is correct because Enceladus is associated with icy moon with water-rich geysers and subsurface ocean clues.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73543,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is defined by rotating neutron star emitting regular beams and linked to lighthouse-like radio pulses?",
+    "answers": [
+      "Pulsar",
+      "Solar flare",
+      "Pluto",
+      "Triton"
+    ],
+    "correctAnswer": "Pulsar",
+    "explanation": "Pulsar is correct because Pulsar is associated with rotating neutron star emitting regular beams and lighthouse-like radio pulses.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73544,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fact would be fair and correct for Betelgeuse?",
+    "answers": [
+      "gas giant orbiting very close to its star",
+      "red supergiant in Orion",
+      "rocky object orbiting the Sun",
+      "barred spiral galaxy containing the solar system"
+    ],
+    "correctAnswer": "red supergiant in Orion",
+    "explanation": "red supergiant in Orion is correct because Betelgeuse is associated with red supergiant in Orion and future supernova candidate.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73545,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is most naturally connected to captured Kuiper Belt object candidate?",
+    "answers": [
+      "Neutron star",
+      "Oort Cloud",
+      "Enceladus",
+      "Triton"
+    ],
+    "correctAnswer": "Triton",
+    "explanation": "Triton is correct because Triton is associated with large moon with retrograde orbit and captured Kuiper Belt object candidate.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73546,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space concept is correctly paired with moon with thick atmosphere and methane lakes?",
+    "answers": [
+      "Titan",
+      "Oort Cloud",
+      "Quasar",
+      "Milky Way"
+    ],
+    "correctAnswer": "Titan",
+    "explanation": "Titan is correct because Titan is associated with moon with thick atmosphere and methane lakes and organic chemistry and surface liquids.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73547,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which phrase best describes Sun?",
+    "answers": [
+      "icy moon with water-rich geysers",
+      "rotating neutron star emitting regular beams",
+      "star powered by nuclear fusion",
+      "largest planet in the solar system"
+    ],
+    "correctAnswer": "star powered by nuclear fusion",
+    "explanation": "star powered by nuclear fusion is correct because Sun is associated with star powered by nuclear fusion and solar wind and sunlight.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73548,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which category label best applies to Ganymede?",
+    "answers": [
+      "cosmology",
+      "moons",
+      "stars",
+      "galaxies"
+    ],
+    "correctAnswer": "moons",
+    "explanation": "moons is correct because Ganymede is associated with largest moon in the solar system and moon larger than Mercury.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73549,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fact about Mars is true?",
+    "answers": [
+      "organic chemistry and surface liquids",
+      "navigation near north celestial pole",
+      "rovers and dust storms",
+      "event horizon"
+    ],
+    "correctAnswer": "rovers and dust storms",
+    "explanation": "rovers and dust storms is correct because Mars is associated with red planet with polar ice and ancient river evidence and rovers and dust storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73550,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space profile combines planet with red planet with polar ice and ancient river evidence?",
+    "answers": [
+      "Neutron star",
+      "Comet",
+      "Ceres",
+      "Mars"
+    ],
+    "correctAnswer": "Mars",
+    "explanation": "Mars is correct because Mars is associated with red planet with polar ice and ancient river evidence and rovers and dust storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73551,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which fact about Pulsar is true?",
+    "answers": [
+      "astrobiology interest",
+      "lighthouse-like radio pulses",
+      "pulsar wind nebula",
+      "Tombaugh Regio and Kuiper Belt orbit"
+    ],
+    "correctAnswer": "lighthouse-like radio pulses",
+    "explanation": "lighthouse-like radio pulses is correct because Pulsar is associated with rotating neutron star emitting regular beams and lighthouse-like radio pulses.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73552,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is defined by nebula famous for the Pillars of Creation and linked to star-forming gas columns?",
+    "answers": [
+      "Supernova",
+      "Eagle Nebula",
+      "Sirius",
+      "Aurora"
+    ],
+    "correctAnswer": "Eagle Nebula",
+    "explanation": "Eagle Nebula is correct because Eagle Nebula is associated with nebula famous for the Pillars of Creation and star-forming gas columns.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73553,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer completes this space match: Io -> ?",
+    "answers": [
+      "solar wind and sunlight",
+      "rovers and dust storms",
+      "short orbital period",
+      "tidal heating"
+    ],
+    "correctAnswer": "tidal heating",
+    "explanation": "tidal heating is correct because Io is associated with most volcanically active world in the solar system and tidal heating.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73554,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer should be selected for the clue 'Orion / stars'?",
+    "answers": [
+      "Exoplanet",
+      "Supernova",
+      "Aurora",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "Betelgeuse",
+    "explanation": "Betelgeuse is correct because Betelgeuse is associated with red supergiant in Orion and future supernova candidate.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73555,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space topic is represented by Proxima Centauri?",
+    "answers": [
+      "space-weather",
+      "exoplanets",
+      "cosmology",
+      "stars"
+    ],
+    "correctAnswer": "stars",
+    "explanation": "stars is correct because Proxima Centauri is associated with closest known star to the Sun and red dwarf neighbor.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73556,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer correctly completes this space profile: asteroid belt, dwarf planet, ___?",
+    "answers": [
+      "Aurora",
+      "Mars",
+      "Ceres",
+      "Black hole"
+    ],
+    "correctAnswer": "Ceres",
+    "explanation": "Ceres is correct because Ceres is associated with largest body in the asteroid belt and bright salt deposits.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73557,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer completes this space match: Titan -> ?",
+    "answers": [
+      "cratered surface and temperature swings",
+      "organic chemistry and surface liquids",
+      "Pluto-like worlds",
+      "red dwarf neighbor"
+    ],
+    "correctAnswer": "organic chemistry and surface liquids",
+    "explanation": "organic chemistry and surface liquids is correct because Titan is associated with moon with thick atmosphere and methane lakes and organic chemistry and surface liquids.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73558,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer should be selected for the clue 'Jupiter system / moons'?",
+    "answers": [
+      "Andromeda Galaxy",
+      "Neutron star",
+      "Europa",
+      "Oort Cloud"
+    ],
+    "correctAnswer": "Europa",
+    "explanation": "Europa is correct because Europa is associated with icy moon with a likely subsurface ocean and astrobiology interest.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73559,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space topic is represented by Neutron star?",
+    "answers": [
+      "galaxies",
+      "cosmology",
+      "planetary-science",
+      "moons"
+    ],
+    "correctAnswer": "cosmology",
+    "explanation": "cosmology is correct because Neutron star is associated with ultra-dense remnant made mostly of neutrons and extreme density.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73560,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which fact would be fair and correct for Proxima Centauri?",
+    "answers": [
+      "red supergiant in Orion",
+      "closest known star to the Sun",
+      "barred spiral galaxy containing the solar system",
+      "ice giant rotating almost on its side"
+    ],
+    "correctAnswer": "closest known star to the Sun",
+    "explanation": "closest known star to the Sun is correct because Proxima Centauri is associated with closest known star to the Sun and red dwarf neighbor.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73561,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space clue points to long-period comet source?",
+    "answers": [
+      "Oort Cloud",
+      "Titan",
+      "Sirius",
+      "Saturn"
+    ],
+    "correctAnswer": "Oort Cloud",
+    "explanation": "Oort Cloud is correct because Oort Cloud is associated with hypothetical distant shell of icy bodies and long-period comet source.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73562,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which clue best supports Hot Jupiter as the answer?",
+    "answers": [
+      "large moon with retrograde orbit",
+      "explosive death of a star",
+      "gas giant orbiting very close to its star",
+      "most volcanically active world in the solar system"
+    ],
+    "correctAnswer": "gas giant orbiting very close to its star",
+    "explanation": "gas giant orbiting very close to its star is correct because Hot Jupiter is associated with gas giant orbiting very close to its star and short orbital period.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73563,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space item is linked to the description 'ice giant rotating almost on its side'?",
+    "answers": [
+      "Oort Cloud",
+      "Uranus",
+      "Solar flare",
+      "Proxima Centauri"
+    ],
+    "correctAnswer": "Uranus",
+    "explanation": "Uranus is correct because Uranus is associated with ice giant rotating almost on its side and extreme axial tilt.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73564,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "What classification best separates Milky Way from other space answers?",
+    "answers": [
+      "galaxy",
+      "dwarf planet",
+      "solar event",
+      "moon"
+    ],
+    "correctAnswer": "galaxy",
+    "explanation": "galaxy is correct because Milky Way is associated with barred spiral galaxy containing the solar system and home galaxy.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73565,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which clue best supports Pulsar as the answer?",
+    "answers": [
+      "extremely bright active galactic nucleus",
+      "ultra-dense remnant made mostly of neutrons",
+      "star powered by nuclear fusion",
+      "rotating neutron star emitting regular beams"
+    ],
+    "correctAnswer": "rotating neutron star emitting regular beams",
+    "explanation": "rotating neutron star emitting regular beams is correct because Pulsar is associated with rotating neutron star emitting regular beams and lighthouse-like radio pulses.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73566,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is connected to inner solar system and the label planetary-science?",
+    "answers": [
+      "Proxima Centauri",
+      "Milky Way",
+      "Venus",
+      "Mercury"
+    ],
+    "correctAnswer": "Mercury",
+    "explanation": "Mercury is correct because Mercury is associated with smallest planet and closest to the Sun and cratered surface and temperature swings.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73567,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space question would have Comet as the cleanest answer?",
+    "answers": [
+      "most volcanically active world in the solar system",
+      "planet orbiting a star outside the solar system",
+      "distant ice giant with very fast winds",
+      "icy body that forms a tail near the Sun"
+    ],
+    "correctAnswer": "icy body that forms a tail near the Sun",
+    "explanation": "icy body that forms a tail near the Sun is correct because Comet is associated with icy body that forms a tail near the Sun and ice, dust, and sunlight.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73568,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer is the strongest match for Pulsar in space trivia?",
+    "answers": [
+      "nearest large spiral galaxy to the Milky Way",
+      "red supergiant in Orion",
+      "region where gravity prevents light escaping",
+      "rotating neutron star emitting regular beams"
+    ],
+    "correctAnswer": "rotating neutron star emitting regular beams",
+    "explanation": "rotating neutron star emitting regular beams is correct because Pulsar is associated with rotating neutron star emitting regular beams and lighthouse-like radio pulses.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73569,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer completes this space match: Betelgeuse -> ?",
+    "answers": [
+      "short orbital period",
+      "future supernova candidate",
+      "rovers and dust storms",
+      "Great Red Spot and gas giant storms"
+    ],
+    "correctAnswer": "future supernova candidate",
+    "explanation": "future supernova candidate is correct because Betelgeuse is associated with red supergiant in Orion and future supernova candidate.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73570,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer matches the space clue 'distant region of icy bodies beyond Neptune' and avoids ambiguity?",
+    "answers": [
+      "Kuiper Belt",
+      "Sirius",
+      "Quasar",
+      "Titan"
+    ],
+    "correctAnswer": "Kuiper Belt",
+    "explanation": "Kuiper Belt is correct because Kuiper Belt is associated with distant region of icy bodies beyond Neptune and Pluto-like worlds.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73571,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space profile combines Jupiter system with moon larger than Mercury?",
+    "answers": [
+      "Earth",
+      "Oort Cloud",
+      "Ganymede",
+      "Orion Nebula"
+    ],
+    "correctAnswer": "Ganymede",
+    "explanation": "Ganymede is correct because Ganymede is associated with largest moon in the solar system and moon larger than Mercury.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73572,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In a ranked space round, which fact correctly matches Earth?",
+    "answers": [
+      "largest body in the asteroid belt",
+      "moon with thick atmosphere and methane lakes",
+      "only known world with life and surface oceans",
+      "icy body that forms a tail near the Sun"
+    ],
+    "correctAnswer": "only known world with life and surface oceans",
+    "explanation": "only known world with life and surface oceans is correct because Earth is associated with only known world with life and surface oceans and biosphere and liquid water.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73573,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is best described as bright stellar nursery visible in Orion?",
+    "answers": [
+      "Oort Cloud",
+      "Orion Nebula",
+      "Neptune",
+      "Proxima Centauri"
+    ],
+    "correctAnswer": "Orion Nebula",
+    "explanation": "Orion Nebula is correct because Orion Nebula is associated with bright stellar nursery visible in Orion and active star formation.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73574,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which option is a clean match for Supernova?",
+    "answers": [
+      "stellar evolution",
+      "outer solar system boundary",
+      "Neptune system",
+      "solar activity"
+    ],
+    "correctAnswer": "stellar evolution",
+    "explanation": "stellar evolution is correct because Supernova is associated with explosive death of a star and heavy element formation.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73575,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is best described as distant region of icy bodies beyond Neptune?",
+    "answers": [
+      "Kuiper Belt",
+      "Saturn",
+      "Neutron star",
+      "Mars"
+    ],
+    "correctAnswer": "Kuiper Belt",
+    "explanation": "Kuiper Belt is correct because Kuiper Belt is associated with distant region of icy bodies beyond Neptune and Pluto-like worlds.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73576,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer completes this space match: Ceres -> ?",
+    "answers": [
+      "bright salt deposits",
+      "heavy element formation",
+      "asteroid belt objects",
+      "short orbital period"
+    ],
+    "correctAnswer": "bright salt deposits",
+    "explanation": "bright salt deposits is correct because Ceres is associated with largest body in the asteroid belt and bright salt deposits.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73577,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer matches the space clue 'hottest planet due to thick carbon dioxide atmosphere' and avoids ambiguity?",
+    "answers": [
+      "Supernova",
+      "Venus",
+      "Neutron star",
+      "Mars"
+    ],
+    "correctAnswer": "Venus",
+    "explanation": "Venus is correct because Venus is associated with hottest planet due to thick carbon dioxide atmosphere and runaway greenhouse effect.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73578,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer best completes the space pair: Titan and Saturn system?",
+    "answers": [
+      "asteroid belt objects",
+      "bright salt deposits",
+      "organic chemistry and surface liquids",
+      "future supernova candidate"
+    ],
+    "correctAnswer": "organic chemistry and surface liquids",
+    "explanation": "organic chemistry and surface liquids is correct because Titan is associated with moon with thick atmosphere and methane lakes and organic chemistry and surface liquids.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73579,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space topic is represented by White dwarf?",
+    "answers": [
+      "small-bodies",
+      "stars",
+      "space-weather",
+      "cosmology"
+    ],
+    "correctAnswer": "cosmology",
+    "explanation": "cosmology is correct because White dwarf is associated with dense remnant core of a Sun-like star and Earth-sized stellar corpse.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73580,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which phrase best describes Milky Way?",
+    "answers": [
+      "barred spiral galaxy containing the solar system",
+      "icy moon with a likely subsurface ocean",
+      "rocky object orbiting the Sun",
+      "supernova remnant from a recorded 1054 event"
+    ],
+    "correctAnswer": "barred spiral galaxy containing the solar system",
+    "explanation": "barred spiral galaxy containing the solar system is correct because Milky Way is associated with barred spiral galaxy containing the solar system and home galaxy.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73581,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space profile combines atmospheric phenomenon with glowing lights from charged particles and atmosphere?",
+    "answers": [
+      "Aurora",
+      "Oort Cloud",
+      "Neutron star",
+      "Asteroid"
+    ],
+    "correctAnswer": "Aurora",
+    "explanation": "Aurora is correct because Aurora is associated with glowing lights from charged particles and atmosphere and space weather display.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73582,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which category label best applies to Saturn?",
+    "answers": [
+      "nebulae",
+      "galaxies",
+      "planetary-science",
+      "small-bodies"
+    ],
+    "correctAnswer": "planetary-science",
+    "explanation": "planetary-science is correct because Saturn is associated with gas giant famous for its bright rings and icy ring particles.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73583,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space concept is associated with nebulae and Serpens?",
+    "answers": [
+      "Milky Way",
+      "Earth",
+      "Eagle Nebula",
+      "White dwarf"
+    ],
+    "correctAnswer": "Eagle Nebula",
+    "explanation": "Eagle Nebula is correct because Eagle Nebula is associated with nebula famous for the Pillars of Creation and star-forming gas columns.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73584,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer pairs with both solar event and magnetic energy release?",
+    "answers": [
+      "Betelgeuse",
+      "Solar flare",
+      "Quasar",
+      "Orion Nebula"
+    ],
+    "correctAnswer": "Solar flare",
+    "explanation": "Solar flare is correct because Solar flare is associated with sudden burst of radiation from the Sun and magnetic energy release.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73585,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space option is correctly linked to the clue 'galaxies / future galactic merger'?",
+    "answers": [
+      "Orion Nebula",
+      "Earth",
+      "Pluto",
+      "Andromeda Galaxy"
+    ],
+    "correctAnswer": "Andromeda Galaxy",
+    "explanation": "Andromeda Galaxy is correct because Andromeda Galaxy is associated with nearest large spiral galaxy to the Milky Way and future galactic merger.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73586,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which setting or origin is most strongly linked to Milky Way?",
+    "answers": [
+      "solar system debris",
+      "outer solar system",
+      "Local Group",
+      "Taurus"
+    ],
+    "correctAnswer": "Local Group",
+    "explanation": "Local Group is correct because Milky Way is associated with barred spiral galaxy containing the solar system and home galaxy.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73587,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue would identify Europa without ambiguity?",
+    "answers": [
+      "astrobiology interest",
+      "solar wind and sunlight",
+      "supermassive black hole power",
+      "extreme axial tilt"
+    ],
+    "correctAnswer": "astrobiology interest",
+    "explanation": "astrobiology interest is correct because Europa is associated with icy moon with a likely subsurface ocean and astrobiology interest.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73588,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which setting or origin is most strongly linked to Quasar?",
+    "answers": [
+      "Neptune system",
+      "distant universe",
+      "asteroid belt",
+      "Local Group"
+    ],
+    "correctAnswer": "distant universe",
+    "explanation": "distant universe is correct because Quasar is associated with extremely bright active galactic nucleus and supermassive black hole power.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73589,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer correctly completes this space profile: inner solar system, planet, ___?",
+    "answers": [
+      "Aurora",
+      "Mercury",
+      "Sun",
+      "Mars"
+    ],
+    "correctAnswer": "Mercury",
+    "explanation": "Mercury is correct because Mercury is associated with smallest planet and closest to the Sun and cratered surface and temperature swings.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73590,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer should be selected for the clue 'stellar evolution / cosmology'?",
+    "answers": [
+      "Mars",
+      "White dwarf",
+      "Saturn",
+      "Ganymede"
+    ],
+    "correctAnswer": "White dwarf",
+    "explanation": "White dwarf is correct because White dwarf is associated with dense remnant core of a Sun-like star and Earth-sized stellar corpse.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73591,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer matches the space clue 'rotating neutron star emitting regular beams' and avoids ambiguity?",
+    "answers": [
+      "Ganymede",
+      "Neutron star",
+      "Pulsar",
+      "Earth"
+    ],
+    "correctAnswer": "Pulsar",
+    "explanation": "Pulsar is correct because Pulsar is associated with rotating neutron star emitting regular beams and lighthouse-like radio pulses.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73592,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer matches the space clue 'smallest planet and closest to the Sun' and avoids ambiguity?",
+    "answers": [
+      "Pluto",
+      "Enceladus",
+      "Mercury",
+      "Triton"
+    ],
+    "correctAnswer": "Mercury",
+    "explanation": "Mercury is correct because Mercury is associated with smallest planet and closest to the Sun and cratered surface and temperature swings.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73593,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is connected to Taurus and the label nebulae?",
+    "answers": [
+      "Crab Nebula",
+      "Quasar",
+      "Aurora",
+      "Oort Cloud"
+    ],
+    "correctAnswer": "Crab Nebula",
+    "explanation": "Crab Nebula is correct because Crab Nebula is associated with supernova remnant from a recorded 1054 event and pulsar wind nebula.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73594,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is defined by planet orbiting a star outside the solar system and linked to distant world detection?",
+    "answers": [
+      "Exoplanet",
+      "Enceladus",
+      "Crab Nebula",
+      "Supernova"
+    ],
+    "correctAnswer": "Exoplanet",
+    "explanation": "Exoplanet is correct because Exoplanet is associated with planet orbiting a star outside the solar system and distant world detection.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73595,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is linked to solar system debris and described by icy body that forms a tail near the Sun?",
+    "answers": [
+      "Eagle Nebula",
+      "Saturn",
+      "Pulsar",
+      "Comet"
+    ],
+    "correctAnswer": "Comet",
+    "explanation": "Comet is correct because Comet is associated with icy body that forms a tail near the Sun and ice, dust, and sunlight.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73596,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of space entry best fits Aurora?",
+    "answers": [
+      "solar event",
+      "planet",
+      "region",
+      "atmospheric phenomenon"
+    ],
+    "correctAnswer": "atmospheric phenomenon",
+    "explanation": "atmospheric phenomenon is correct because Aurora is associated with glowing lights from charged particles and atmosphere and space weather display.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73597,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer completes this space match: Exoplanet -> ?",
+    "answers": [
+      "Pluto-like worlds",
+      "distant world detection",
+      "asteroid belt objects",
+      "Great Red Spot and gas giant storms"
+    ],
+    "correctAnswer": "distant world detection",
+    "explanation": "distant world detection is correct because Exoplanet is associated with planet orbiting a star outside the solar system and distant world detection.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73598,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer belongs with the theme 'event horizon'?",
+    "answers": [
+      "Black hole",
+      "Hot Jupiter",
+      "Polaris",
+      "Enceladus"
+    ],
+    "correctAnswer": "Black hole",
+    "explanation": "Black hole is correct because Black hole is associated with region where gravity prevents light escaping and event horizon.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73599,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is connected to distant universe and the label cosmology?",
+    "answers": [
+      "Quasar",
+      "Saturn",
+      "Black hole",
+      "Oort Cloud"
+    ],
+    "correctAnswer": "Quasar",
+    "explanation": "Quasar is correct because Quasar is associated with extremely bright active galactic nucleus and supermassive black hole power.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73600,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer is the strongest match for Asteroid in space trivia?",
+    "answers": [
+      "icy moon with water-rich geysers",
+      "rocky object orbiting the Sun",
+      "hypothetical distant shell of icy bodies",
+      "planet orbiting a star outside the solar system"
+    ],
+    "correctAnswer": "rocky object orbiting the Sun",
+    "explanation": "rocky object orbiting the Sun is correct because Asteroid is associated with rocky object orbiting the Sun and asteroid belt objects.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73601,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which category label best applies to Proxima Centauri?",
+    "answers": [
+      "cosmology",
+      "exoplanets",
+      "small-bodies",
+      "stars"
+    ],
+    "correctAnswer": "stars",
+    "explanation": "stars is correct because Proxima Centauri is associated with closest known star to the Sun and red dwarf neighbor.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73602,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer matches the space clue 'current North Star' and avoids ambiguity?",
+    "answers": [
+      "Solar flare",
+      "Polaris",
+      "Titan",
+      "Enceladus"
+    ],
+    "correctAnswer": "Polaris",
+    "explanation": "Polaris is correct because Polaris is associated with current North Star and navigation near north celestial pole.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73603,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer matches the space clue 'red planet with polar ice and ancient river evidence' and avoids ambiguity?",
+    "answers": [
+      "Uranus",
+      "Hot Jupiter",
+      "Mars",
+      "Io"
+    ],
+    "correctAnswer": "Mars",
+    "explanation": "Mars is correct because Mars is associated with red planet with polar ice and ancient river evidence and rovers and dust storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73604,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which clue best supports Sirius as the answer?",
+    "answers": [
+      "glowing lights from charged particles and atmosphere",
+      "region where gravity prevents light escaping",
+      "brightest star in Earth's night sky",
+      "sudden burst of radiation from the Sun"
+    ],
+    "correctAnswer": "brightest star in Earth's night sky",
+    "explanation": "brightest star in Earth's night sky is correct because Sirius is associated with brightest star in Earth's night sky and prominent nearby star system.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73605,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is best described as largest planet in the solar system?",
+    "answers": [
+      "Triton",
+      "Polaris",
+      "Jupiter",
+      "Uranus"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Jupiter is correct because Jupiter is associated with largest planet in the solar system and Great Red Spot and gas giant storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73606,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer matches the space clue 'supernova remnant from a recorded 1054 event' and avoids ambiguity?",
+    "answers": [
+      "Earth",
+      "Crab Nebula",
+      "White dwarf",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "Crab Nebula",
+    "explanation": "Crab Nebula is correct because Crab Nebula is associated with supernova remnant from a recorded 1054 event and pulsar wind nebula.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73607,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which fact about Enceladus is true?",
+    "answers": [
+      "future galactic merger",
+      "biosphere and liquid water",
+      "subsurface ocean clues",
+      "short orbital period"
+    ],
+    "correctAnswer": "subsurface ocean clues",
+    "explanation": "subsurface ocean clues is correct because Enceladus is associated with icy moon with water-rich geysers and subsurface ocean clues.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73608,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer has the strongest connection to stellar event?",
+    "answers": [
+      "Comet",
+      "Milky Way",
+      "Supernova",
+      "Ceres"
+    ],
+    "correctAnswer": "Supernova",
+    "explanation": "Supernova is correct because Supernova is associated with explosive death of a star and heavy element formation.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73609,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which option is a clean match for Milky Way?",
+    "answers": [
+      "Local Group",
+      "solar activity",
+      "Saturn system",
+      "asteroid belt"
+    ],
+    "correctAnswer": "Local Group",
+    "explanation": "Local Group is correct because Milky Way is associated with barred spiral galaxy containing the solar system and home galaxy.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73610,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which answer is the strongest match for Mercury in space trivia?",
+    "answers": [
+      "smallest planet and closest to the Sun",
+      "ultra-dense remnant made mostly of neutrons",
+      "nearest large spiral galaxy to the Milky Way",
+      "nebula famous for the Pillars of Creation"
+    ],
+    "correctAnswer": "smallest planet and closest to the Sun",
+    "explanation": "smallest planet and closest to the Sun is correct because Mercury is associated with smallest planet and closest to the Sun and cratered surface and temperature swings.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73611,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space choice fits the description 'tidal heating' most precisely?",
+    "answers": [
+      "Io",
+      "Exoplanet",
+      "Aurora",
+      "Neutron star"
+    ],
+    "correctAnswer": "Io",
+    "explanation": "Io is correct because Io is associated with most volcanically active world in the solar system and tidal heating.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73612,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space topic is represented by Titan?",
+    "answers": [
+      "cosmology",
+      "moons",
+      "stars",
+      "space-weather"
+    ],
+    "correctAnswer": "moons",
+    "explanation": "moons is correct because Titan is associated with moon with thick atmosphere and methane lakes and organic chemistry and surface liquids.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73613,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space question would have Enceladus as the cleanest answer?",
+    "answers": [
+      "current North Star",
+      "bright stellar nursery visible in Orion",
+      "planet orbiting a star outside the solar system",
+      "icy moon with water-rich geysers"
+    ],
+    "correctAnswer": "icy moon with water-rich geysers",
+    "explanation": "icy moon with water-rich geysers is correct because Enceladus is associated with icy moon with water-rich geysers and subsurface ocean clues.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73614,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What type of space entry best fits Milky Way?",
+    "answers": [
+      "exoplanet type",
+      "star",
+      "galaxy",
+      "region"
+    ],
+    "correctAnswer": "galaxy",
+    "explanation": "galaxy is correct because Milky Way is associated with barred spiral galaxy containing the solar system and home galaxy.",
+    "tags": [
+      "space",
+      "galaxies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73615,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space topic is represented by Earth?",
+    "answers": [
+      "small-bodies",
+      "planetary-science",
+      "cosmology",
+      "galaxies"
+    ],
+    "correctAnswer": "planetary-science",
+    "explanation": "planetary-science is correct because Earth is associated with only known world with life and surface oceans and biosphere and liquid water.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73616,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space item would fit a question about distant region of icy bodies beyond Neptune?",
+    "answers": [
+      "Kuiper Belt",
+      "Milky Way",
+      "Earth",
+      "Triton"
+    ],
+    "correctAnswer": "Kuiper Belt",
+    "explanation": "Kuiper Belt is correct because Kuiper Belt is associated with distant region of icy bodies beyond Neptune and Pluto-like worlds.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73617,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In a ranked space round, which fact correctly matches White dwarf?",
+    "answers": [
+      "dense remnant core of a Sun-like star",
+      "red supergiant in Orion",
+      "ice giant rotating almost on its side",
+      "explosive death of a star"
+    ],
+    "correctAnswer": "dense remnant core of a Sun-like star",
+    "explanation": "dense remnant core of a Sun-like star is correct because White dwarf is associated with dense remnant core of a Sun-like star and Earth-sized stellar corpse.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73618,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer best matches this space category clue: compact object, stellar remnants, lighthouse-like radio pulses?",
+    "answers": [
+      "Pulsar",
+      "Titan",
+      "Neptune",
+      "Solar flare"
+    ],
+    "correctAnswer": "Pulsar",
+    "explanation": "Pulsar is correct because Pulsar is associated with rotating neutron star emitting regular beams and lighthouse-like radio pulses.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73619,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space topic is represented by Jupiter?",
+    "answers": [
+      "small-bodies",
+      "stars",
+      "planetary-science",
+      "nebulae"
+    ],
+    "correctAnswer": "planetary-science",
+    "explanation": "planetary-science is correct because Jupiter is associated with largest planet in the solar system and Great Red Spot and gas giant storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73620,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer is linked to solar system debris and described by rocky object orbiting the Sun?",
+    "answers": [
+      "Asteroid",
+      "Kuiper Belt",
+      "Enceladus",
+      "Solar flare"
+    ],
+    "correctAnswer": "Asteroid",
+    "explanation": "Asteroid is correct because Asteroid is associated with rocky object orbiting the Sun and asteroid belt objects.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73621,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer is the strongest match for Ceres in space trivia?",
+    "answers": [
+      "barred spiral galaxy containing the solar system",
+      "largest moon in the solar system",
+      "largest body in the asteroid belt",
+      "ice giant rotating almost on its side"
+    ],
+    "correctAnswer": "largest body in the asteroid belt",
+    "explanation": "largest body in the asteroid belt is correct because Ceres is associated with largest body in the asteroid belt and bright salt deposits.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73622,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What classification best separates Crab Nebula from other space answers?",
+    "answers": [
+      "planet",
+      "nebula",
+      "moon",
+      "compact object"
+    ],
+    "correctAnswer": "nebula",
+    "explanation": "nebula is correct because Crab Nebula is associated with supernova remnant from a recorded 1054 event and pulsar wind nebula.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73623,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer has the strongest connection to nebula?",
+    "answers": [
+      "Crab Nebula",
+      "White dwarf",
+      "Polaris",
+      "Orion Nebula"
+    ],
+    "correctAnswer": "Orion Nebula",
+    "explanation": "Orion Nebula is correct because Orion Nebula is associated with bright stellar nursery visible in Orion and active star formation.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73624,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In a ranked space round, which fact correctly matches Neptune?",
+    "answers": [
+      "dense remnant core of a Sun-like star",
+      "icy moon with water-rich geysers",
+      "distant ice giant with very fast winds",
+      "rocky object orbiting the Sun"
+    ],
+    "correctAnswer": "distant ice giant with very fast winds",
+    "explanation": "distant ice giant with very fast winds is correct because Neptune is associated with distant ice giant with very fast winds and deep blue methane-rich atmosphere.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73625,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space option is most closely tied to stellar remnants?",
+    "answers": [
+      "Crab Nebula",
+      "White dwarf",
+      "Earth",
+      "Neutron star"
+    ],
+    "correctAnswer": "Neutron star",
+    "explanation": "Neutron star is correct because Neutron star is associated with ultra-dense remnant made mostly of neutrons and extreme density.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73626,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which theme is most connected to Earth?",
+    "answers": [
+      "runaway greenhouse effect",
+      "biosphere and liquid water",
+      "navigation near north celestial pole",
+      "solar wind and sunlight"
+    ],
+    "correctAnswer": "biosphere and liquid water",
+    "explanation": "biosphere and liquid water is correct because Earth is associated with only known world with life and surface oceans and biosphere and liquid water.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73627,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which fact would be fair and correct for Neptune?",
+    "answers": [
+      "distant ice giant with very fast winds",
+      "sudden burst of radiation from the Sun",
+      "moon with thick atmosphere and methane lakes",
+      "rotating neutron star emitting regular beams"
+    ],
+    "correctAnswer": "distant ice giant with very fast winds",
+    "explanation": "distant ice giant with very fast winds is correct because Neptune is associated with distant ice giant with very fast winds and deep blue methane-rich atmosphere.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73628,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What type of space entry best fits Eagle Nebula?",
+    "answers": [
+      "nebula",
+      "exoplanet type",
+      "galaxy",
+      "atmospheric phenomenon"
+    ],
+    "correctAnswer": "nebula",
+    "explanation": "nebula is correct because Eagle Nebula is associated with nebula famous for the Pillars of Creation and star-forming gas columns.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73629,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space concept is associated with planetary-science and inner solar system?",
+    "answers": [
+      "Quasar",
+      "Titan",
+      "Mercury",
+      "Ceres"
+    ],
+    "correctAnswer": "Mercury",
+    "explanation": "Mercury is correct because Mercury is associated with smallest planet and closest to the Sun and cratered surface and temperature swings.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73630,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer belongs with the theme 'prominent nearby star system'?",
+    "answers": [
+      "Polaris",
+      "Enceladus",
+      "Sirius",
+      "Saturn"
+    ],
+    "correctAnswer": "Sirius",
+    "explanation": "Sirius is correct because Sirius is associated with brightest star in Earth's night sky and prominent nearby star system.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73631,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which phrase best describes Solar flare?",
+    "answers": [
+      "brightest star in Earth's night sky",
+      "sudden burst of radiation from the Sun",
+      "smallest planet and closest to the Sun",
+      "closest known star to the Sun"
+    ],
+    "correctAnswer": "sudden burst of radiation from the Sun",
+    "explanation": "sudden burst of radiation from the Sun is correct because Solar flare is associated with sudden burst of radiation from the Sun and magnetic energy release.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73632,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which option is a clean match for Exoplanet?",
+    "answers": [
+      "stellar remnants",
+      "extrasolar systems",
+      "Orion",
+      "solar activity"
+    ],
+    "correctAnswer": "extrasolar systems",
+    "explanation": "extrasolar systems is correct because Exoplanet is associated with planet orbiting a star outside the solar system and distant world detection.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73633,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space clue points to prominent nearby star system?",
+    "answers": [
+      "Proxima Centauri",
+      "Earth",
+      "Sirius",
+      "Solar flare"
+    ],
+    "correctAnswer": "Sirius",
+    "explanation": "Sirius is correct because Sirius is associated with brightest star in Earth's night sky and prominent nearby star system.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73634,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space clue points to future supernova candidate?",
+    "answers": [
+      "Betelgeuse",
+      "Venus",
+      "Black hole",
+      "Europa"
+    ],
+    "correctAnswer": "Betelgeuse",
+    "explanation": "Betelgeuse is correct because Betelgeuse is associated with red supergiant in Orion and future supernova candidate.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73635,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer matches the space clue 'sudden burst of radiation from the Sun' and avoids ambiguity?",
+    "answers": [
+      "Proxima Centauri",
+      "Saturn",
+      "Solar flare",
+      "Mercury"
+    ],
+    "correctAnswer": "Solar flare",
+    "explanation": "Solar flare is correct because Solar flare is associated with sudden burst of radiation from the Sun and magnetic energy release.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73636,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space item is linked to the description 'icy moon with a likely subsurface ocean'?",
+    "answers": [
+      "Europa",
+      "Mars",
+      "Kuiper Belt",
+      "Neptune"
+    ],
+    "correctAnswer": "Europa",
+    "explanation": "Europa is correct because Europa is associated with icy moon with a likely subsurface ocean and astrobiology interest.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73637,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space option is most closely tied to Alpha Centauri system?",
+    "answers": [
+      "Milky Way",
+      "Solar flare",
+      "Proxima Centauri",
+      "Venus"
+    ],
+    "correctAnswer": "Proxima Centauri",
+    "explanation": "Proxima Centauri is correct because Proxima Centauri is associated with closest known star to the Sun and red dwarf neighbor.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73638,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space answer belongs with the theme 'supermassive black hole power'?",
+    "answers": [
+      "Sun",
+      "Quasar",
+      "Solar flare",
+      "Io"
+    ],
+    "correctAnswer": "Quasar",
+    "explanation": "Quasar is correct because Quasar is associated with extremely bright active galactic nucleus and supermassive black hole power.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73639,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space item would fit a question about rotating neutron star emitting regular beams?",
+    "answers": [
+      "Milky Way",
+      "Earth",
+      "Pulsar",
+      "Solar flare"
+    ],
+    "correctAnswer": "Pulsar",
+    "explanation": "Pulsar is correct because Pulsar is associated with rotating neutron star emitting regular beams and lighthouse-like radio pulses.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73640,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space profile combines extrasolar systems with distant world detection?",
+    "answers": [
+      "Exoplanet",
+      "Black hole",
+      "Titan",
+      "Asteroid"
+    ],
+    "correctAnswer": "Exoplanet",
+    "explanation": "Exoplanet is correct because Exoplanet is associated with planet orbiting a star outside the solar system and distant world detection.",
+    "tags": [
+      "space",
+      "exoplanets",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73641,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which clue would identify Venus without ambiguity?",
+    "answers": [
+      "event horizon",
+      "runaway greenhouse effect",
+      "supermassive black hole power",
+      "future supernova candidate"
+    ],
+    "correctAnswer": "runaway greenhouse effect",
+    "explanation": "runaway greenhouse effect is correct because Venus is associated with hottest planet due to thick carbon dioxide atmosphere and runaway greenhouse effect.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73642,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer belongs with the theme 'heavy element formation'?",
+    "answers": [
+      "Uranus",
+      "Aurora",
+      "Mars",
+      "Supernova"
+    ],
+    "correctAnswer": "Supernova",
+    "explanation": "Supernova is correct because Supernova is associated with explosive death of a star and heavy element formation.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73643,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is defined by icy body that forms a tail near the Sun and linked to ice, dust, and sunlight?",
+    "answers": [
+      "Saturn",
+      "Comet",
+      "Neutron star",
+      "Milky Way"
+    ],
+    "correctAnswer": "Comet",
+    "explanation": "Comet is correct because Comet is associated with icy body that forms a tail near the Sun and ice, dust, and sunlight.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73644,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer is the strongest match for Aurora in space trivia?",
+    "answers": [
+      "planet orbiting a star outside the solar system",
+      "glowing lights from charged particles and atmosphere",
+      "supernova remnant from a recorded 1054 event",
+      "extremely bright active galactic nucleus"
+    ],
+    "correctAnswer": "glowing lights from charged particles and atmosphere",
+    "explanation": "glowing lights from charged particles and atmosphere is correct because Aurora is associated with glowing lights from charged particles and atmosphere and space weather display.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73645,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which answer best matches this space category clue: nebula, Orion, active star formation?",
+    "answers": [
+      "Orion Nebula",
+      "Eagle Nebula",
+      "Exoplanet",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "Orion Nebula",
+    "explanation": "Orion Nebula is correct because Orion Nebula is associated with bright stellar nursery visible in Orion and active star formation.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73646,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space question would have White dwarf as the cleanest answer?",
+    "answers": [
+      "supernova remnant from a recorded 1054 event",
+      "dense remnant core of a Sun-like star",
+      "red supergiant in Orion",
+      "planet orbiting a star outside the solar system"
+    ],
+    "correctAnswer": "dense remnant core of a Sun-like star",
+    "explanation": "dense remnant core of a Sun-like star is correct because White dwarf is associated with dense remnant core of a Sun-like star and Earth-sized stellar corpse.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73647,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which category label best applies to Oort Cloud?",
+    "answers": [
+      "stars",
+      "exoplanets",
+      "cosmology",
+      "small-bodies"
+    ],
+    "correctAnswer": "small-bodies",
+    "explanation": "small-bodies is correct because Oort Cloud is associated with hypothetical distant shell of icy bodies and long-period comet source.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73648,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space profile combines stellar evolution with Earth-sized stellar corpse?",
+    "answers": [
+      "Pluto",
+      "Milky Way",
+      "White dwarf",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "White dwarf",
+    "explanation": "White dwarf is correct because White dwarf is associated with dense remnant core of a Sun-like star and Earth-sized stellar corpse.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73649,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which category label best applies to Neutron star?",
+    "answers": [
+      "small-bodies",
+      "stars",
+      "cosmology",
+      "planetary-science"
+    ],
+    "correctAnswer": "cosmology",
+    "explanation": "cosmology is correct because Neutron star is associated with ultra-dense remnant made mostly of neutrons and extreme density.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73650,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space choice fits the description 'space weather display' most precisely?",
+    "answers": [
+      "Saturn",
+      "Triton",
+      "Earth",
+      "Aurora"
+    ],
+    "correctAnswer": "Aurora",
+    "explanation": "Aurora is correct because Aurora is associated with glowing lights from charged particles and atmosphere and space weather display.",
+    "tags": [
+      "space",
+      "space-weather",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73651,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space answer is linked to Alpha Centauri system and described by closest known star to the Sun?",
+    "answers": [
+      "Proxima Centauri",
+      "Saturn",
+      "Sirius",
+      "Pulsar"
+    ],
+    "correctAnswer": "Proxima Centauri",
+    "explanation": "Proxima Centauri is correct because Proxima Centauri is associated with closest known star to the Sun and red dwarf neighbor.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73652,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space topic is represented by Black hole?",
+    "answers": [
+      "cosmology",
+      "moons",
+      "exoplanets",
+      "space-weather"
+    ],
+    "correctAnswer": "cosmology",
+    "explanation": "cosmology is correct because Black hole is associated with region where gravity prevents light escaping and event horizon.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73653,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which setting or origin is most strongly linked to Mars?",
+    "answers": [
+      "inner solar system",
+      "Jupiter system",
+      "Neptune system",
+      "polar skies"
+    ],
+    "correctAnswer": "inner solar system",
+    "explanation": "inner solar system is correct because Mars is associated with red planet with polar ice and ancient river evidence and rovers and dust storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73654,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which clue best supports Ganymede as the answer?",
+    "answers": [
+      "distant ice giant with very fast winds",
+      "rocky object orbiting the Sun",
+      "largest moon in the solar system",
+      "region where gravity prevents light escaping"
+    ],
+    "correctAnswer": "largest moon in the solar system",
+    "explanation": "largest moon in the solar system is correct because Ganymede is associated with largest moon in the solar system and moon larger than Mercury.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73655,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer belongs with the theme 'moon larger than Mercury'?",
+    "answers": [
+      "Exoplanet",
+      "Ganymede",
+      "Comet",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "Ganymede",
+    "explanation": "Ganymede is correct because Ganymede is associated with largest moon in the solar system and moon larger than Mercury.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73656,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which space concept is associated with planetary-science and Kuiper Belt?",
+    "answers": [
+      "Betelgeuse",
+      "Jupiter",
+      "Pluto",
+      "Aurora"
+    ],
+    "correctAnswer": "Pluto",
+    "explanation": "Pluto is correct because Pluto is associated with icy dwarf planet reclassified in 2006 and Tombaugh Regio and Kuiper Belt orbit.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73657,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space option is correctly linked to the clue 'cosmology / extreme density'?",
+    "answers": [
+      "Titan",
+      "Neutron star",
+      "Europa",
+      "Enceladus"
+    ],
+    "correctAnswer": "Neutron star",
+    "explanation": "Neutron star is correct because Neutron star is associated with ultra-dense remnant made mostly of neutrons and extreme density.",
+    "tags": [
+      "space",
+      "cosmology",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73658,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer pairs with both planet and cratered surface and temperature swings?",
+    "answers": [
+      "Supernova",
+      "Sun",
+      "Mercury",
+      "Pulsar"
+    ],
+    "correctAnswer": "Mercury",
+    "explanation": "Mercury is correct because Mercury is associated with smallest planet and closest to the Sun and cratered surface and temperature swings.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73659,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which category label best applies to Venus?",
+    "answers": [
+      "planetary-science",
+      "space-weather",
+      "small-bodies",
+      "moons"
+    ],
+    "correctAnswer": "planetary-science",
+    "explanation": "planetary-science is correct because Venus is associated with hottest planet due to thick carbon dioxide atmosphere and runaway greenhouse effect.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73660,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space item would fit a question about smallest planet and closest to the Sun?",
+    "answers": [
+      "Milky Way",
+      "Saturn",
+      "Mercury",
+      "Proxima Centauri"
+    ],
+    "correctAnswer": "Mercury",
+    "explanation": "Mercury is correct because Mercury is associated with smallest planet and closest to the Sun and cratered surface and temperature swings.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73661,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is linked to outer solar system and described by largest planet in the solar system?",
+    "answers": [
+      "Jupiter",
+      "Quasar",
+      "Europa",
+      "Aurora"
+    ],
+    "correctAnswer": "Jupiter",
+    "explanation": "Jupiter is correct because Jupiter is associated with largest planet in the solar system and Great Red Spot and gas giant storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73662,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer best matches this space category clue: star, Canis Major, prominent nearby star system?",
+    "answers": [
+      "Andromeda Galaxy",
+      "Sirius",
+      "Quasar",
+      "Kuiper Belt"
+    ],
+    "correctAnswer": "Sirius",
+    "explanation": "Sirius is correct because Sirius is associated with brightest star in Earth's night sky and prominent nearby star system.",
+    "tags": [
+      "space",
+      "stars",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73663,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space question would have Crab Nebula as the cleanest answer?",
+    "answers": [
+      "supernova remnant from a recorded 1054 event",
+      "closest known star to the Sun",
+      "ice giant rotating almost on its side",
+      "largest moon in the solar system"
+    ],
+    "correctAnswer": "supernova remnant from a recorded 1054 event",
+    "explanation": "supernova remnant from a recorded 1054 event is correct because Crab Nebula is associated with supernova remnant from a recorded 1054 event and pulsar wind nebula.",
+    "tags": [
+      "space",
+      "nebulae",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73664,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which space answer is defined by only known world with life and surface oceans and linked to biosphere and liquid water?",
+    "answers": [
+      "Neptune",
+      "Sun",
+      "Earth",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "Earth",
+    "explanation": "Earth is correct because Earth is associated with only known world with life and surface oceans and biosphere and liquid water.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73665,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which answer best completes the space pair: Mars and inner solar system?",
+    "answers": [
+      "rovers and dust storms",
+      "active star formation",
+      "astrobiology interest",
+      "distant world detection"
+    ],
+    "correctAnswer": "rovers and dust storms",
+    "explanation": "rovers and dust storms is correct because Mars is associated with red planet with polar ice and ancient river evidence and rovers and dust storms.",
+    "tags": [
+      "space",
+      "planetary-science",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73666,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which space option is correctly linked to the clue 'moons / organic chemistry and surface liquids'?",
+    "answers": [
+      "Pulsar",
+      "Oort Cloud",
+      "Orion Nebula",
+      "Titan"
+    ],
+    "correctAnswer": "Titan",
+    "explanation": "Titan is correct because Titan is associated with moon with thick atmosphere and methane lakes and organic chemistry and surface liquids.",
+    "tags": [
+      "space",
+      "moons",
+      "gold-standard"
+    ]
+  },
+  {
+    "id": 73667,
+    "category": "Space",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which detail is accurate for Comet?",
+    "answers": [
+      "solar wind and sunlight",
+      "bright salt deposits",
+      "deep blue methane-rich atmosphere",
+      "ice, dust, and sunlight"
+    ],
+    "correctAnswer": "ice, dust, and sunlight",
+    "explanation": "ice, dust, and sunlight is correct because Comet is associated with icy body that forms a tail near the Sun and ice, dust, and sunlight.",
+    "tags": [
+      "space",
+      "small-bodies",
+      "gold-standard"
+    ]
+  }
+]

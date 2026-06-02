@@ -16,7 +16,7 @@ export type HubModeTone = {
 };
 
 export const HUB_MODE_TONES: Record<
-  "quick" | "arena" | "daily" | "lobby" | "shop",
+  "quick" | "arena" | "daily" | "challenges" | "lobby" | "shop",
   HubModeTone
 > = {
   quick: {
@@ -51,6 +51,17 @@ export const HUB_MODE_TONES: Record<
       "rgba(0,0,0,0.04)",
     ],
     shade: ["rgba(2,14,18,0.01)", "rgba(3,14,18,0.18)", "rgba(3,10,18,0.58)"],
+  },
+  challenges: {
+    accent: "#FFD6F3",
+    glow: "#F46DFF",
+    artOpacity: 1,
+    sheen: [
+      "rgba(255,255,255,0.17)",
+      "rgba(244,109,255,0.08)",
+      "rgba(0,0,0,0.04)",
+    ],
+    shade: ["rgba(18,3,22,0.01)", "rgba(18,6,22,0.18)", "rgba(8,3,16,0.60)"],
   },
   lobby: {
     accent: "#D7D8FF",

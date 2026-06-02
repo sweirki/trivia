@@ -1,938 +1,7 @@
 [
   {
-    "id": 18001,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which country owns Greenland?",
-    "answers": [
-      "Iceland",
-      "Norway",
-      "Canada",
-      "Denmark"
-    ],
-    "correctAnswer": "Denmark",
-    "explanation": "Denmark is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18002,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which river flows through Egypt?",
-    "answers": [
-      "Nile",
-      "Tigris",
-      "Euphrates",
-      "Jordan"
-    ],
-    "correctAnswer": "Nile",
-    "explanation": "Nile is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18003,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which city is known as the Big Apple?",
-    "answers": [
-      "Los Angeles",
-      "New York City",
-      "Chicago",
-      "Boston"
-    ],
-    "correctAnswer": "New York City",
-    "explanation": "New York City is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18004,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which country is bordered by both the Atlantic and Pacific Oceans?",
-    "answers": [
-      "USA",
-      "Canada",
-      "Panama",
-      "Mexico"
-    ],
-    "correctAnswer": "Panama",
-    "explanation": "Panama is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18005,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which country has the most islands?",
-    "answers": [
-      "Indonesia",
-      "Philippines",
-      "Japan",
-      "Sweden"
-    ],
-    "correctAnswer": "Sweden",
-    "explanation": "Sweden is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18006,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which desert lies between Israel and Jordan?",
-    "answers": [
-      "Negev",
-      "Sahara",
-      "Arabian",
-      "Syrian"
-    ],
-    "correctAnswer": "Negev",
-    "explanation": "Negev is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18007,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which country has the highest average elevation?",
-    "answers": [
-      "Nepal",
-      "Bhutan",
-      "Bolivia",
-      "Switzerland"
-    ],
-    "correctAnswer": "Bhutan",
-    "explanation": "Bhutan is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18008,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which sea is shrinking rapidly due to irrigation?",
-    "answers": [
-      "Caspian Sea",
-      "Dead Sea",
-      "Aral Sea",
-      "Baltic Sea"
-    ],
-    "correctAnswer": "Aral Sea",
-    "explanation": "Aral Sea is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18009,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which African lake is the deepest?",
-    "answers": [
-      "Victoria",
-      "Malawi",
-      "Turkana",
-      "Tanganyika"
-    ],
-    "correctAnswer": "Tanganyika",
-    "explanation": "Tanganyika is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18010,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which country has the capital city of Lisbon?",
-    "answers": [
-      "Portugal",
-      "Spain",
-      "Italy",
-      "France"
-    ],
-    "correctAnswer": "Portugal",
-    "explanation": "Portugal is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18011,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which continent is the Amazon rainforest on?",
-    "answers": [
-      "Africa",
-      "South America",
-      "Asia",
-      "Europe"
-    ],
-    "correctAnswer": "South America",
-    "explanation": "South America is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18012,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which US state is known as the Sunshine State?",
-    "answers": [
-      "California",
-      "Arizona",
-      "Florida",
-      "Texas"
-    ],
-    "correctAnswer": "Florida",
-    "explanation": "Florida is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18013,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which country is famous for tulips and windmills?",
-    "answers": [
-      "Belgium",
-      "Denmark",
-      "Germany",
-      "Netherlands"
-    ],
-    "correctAnswer": "Netherlands",
-    "explanation": "Netherlands is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18014,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which ocean touches Antarctica?",
-    "answers": [
-      "Southern",
-      "Pacific",
-      "Atlantic",
-      "Indian"
-    ],
-    "correctAnswer": "Southern",
-    "explanation": "Southern is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18015,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which country has the city of Marrakech?",
-    "answers": [
-      "Tunisia",
-      "Morocco",
-      "Algeria",
-      "Egypt"
-    ],
-    "correctAnswer": "Morocco",
-    "explanation": "Morocco is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18016,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which mountain range runs across Spain and France?",
-    "answers": [
-      "Alps",
-      "Carpathians",
-      "Pyrenees",
-      "Apennines"
-    ],
-    "correctAnswer": "Pyrenees",
-    "explanation": "Pyrenees is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18017,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which river flows through Budapest?",
-    "answers": [
-      "Rhine",
-      "Vistula",
-      "Elbe",
-      "Danube"
-    ],
-    "correctAnswer": "Danube",
-    "explanation": "Danube is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18018,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which country is home to Mount Kilimanjaro?",
-    "answers": [
-      "Tanzania",
-      "Kenya",
-      "Uganda",
-      "Ethiopia"
-    ],
-    "correctAnswer": "Tanzania",
-    "explanation": "Tanzania is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18019,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which Asian country has the most people?",
-    "answers": [
-      "India",
-      "China",
-      "Indonesia",
-      "Pakistan"
-    ],
-    "correctAnswer": "China",
-    "explanation": "China is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18020,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which country borders both the Caspian Sea and the Black Sea?",
-    "answers": [
-      "Turkey",
-      "Azerbaijan",
-      "Russia",
-      "Kazakhstan"
-    ],
-    "correctAnswer": "Russia",
-    "explanation": "Russia is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18021,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which African country has the longest coastline?",
-    "answers": [
-      "South Africa",
-      "Morocco",
-      "Egypt",
-      "Somalia"
-    ],
-    "correctAnswer": "Somalia",
-    "explanation": "Somalia is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18022,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which country is known as the Land of a Thousand Lakes?",
-    "answers": [
-      "Finland",
-      "Canada",
-      "Sweden",
-      "Norway"
-    ],
-    "correctAnswer": "Finland",
-    "explanation": "Finland is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18023,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which country contains the Atacama Desert?",
-    "answers": [
-      "Peru",
-      "Chile",
-      "Bolivia",
-      "Argentina"
-    ],
-    "correctAnswer": "Chile",
-    "explanation": "Chile is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18024,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which Asian capital is sinking due to subsidence?",
-    "answers": [
-      "Bangkok",
-      "Manila",
-      "Jakarta",
-      "Hanoi"
-    ],
-    "correctAnswer": "Jakarta",
-    "explanation": "Jakarta is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18025,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which country has the capital city of Athens?",
-    "answers": [
-      "Italy",
-      "Turkey",
-      "Cyprus",
-      "Greece"
-    ],
-    "correctAnswer": "Greece",
-    "explanation": "Greece is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18026,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which continent has the fewest people?",
-    "answers": [
-      "Antarctica",
-      "Australia",
-      "Europe",
-      "South America"
-    ],
-    "correctAnswer": "Antarctica",
-    "explanation": "Antarctica is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18027,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which country is famous for Mount Everest?",
-    "answers": [
-      "India",
-      "Nepal",
-      "China",
-      "Bhutan"
-    ],
-    "correctAnswer": "Nepal",
-    "explanation": "Nepal is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18028,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which US state has the Grand Canyon?",
-    "answers": [
-      "Nevada",
-      "Utah",
-      "Arizona",
-      "Colorado"
-    ],
-    "correctAnswer": "Arizona",
-    "explanation": "Arizona is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18029,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which ocean borders Africa to the west?",
-    "answers": [
-      "Indian",
-      "Pacific",
-      "Southern",
-      "Atlantic"
-    ],
-    "correctAnswer": "Atlantic",
-    "explanation": "Atlantic is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18030,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which country has the capital city of Reykjavik?",
-    "answers": [
-      "Iceland",
-      "Norway",
-      "Finland",
-      "Sweden"
-    ],
-    "correctAnswer": "Iceland",
-    "explanation": "Iceland is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18031,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which mountain range is the longest in the world?",
-    "answers": [
-      "Rockies",
-      "Andes",
-      "Himalayas",
-      "Alps"
-    ],
-    "correctAnswer": "Andes",
-    "explanation": "Andes is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18032,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which African country was formerly known as Zaire?",
-    "answers": [
-      "Angola",
-      "Gabon",
-      "DR Congo",
-      "Congo"
-    ],
-    "correctAnswer": "DR Congo",
-    "explanation": "DR Congo is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18033,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which country borders the most other countries?",
-    "answers": [
-      "Russia",
-      "Brazil",
-      "Germany",
-      "China"
-    ],
-    "correctAnswer": "China",
-    "explanation": "China is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18034,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which river forms part of the border between the USA and Mexico?",
-    "answers": [
-      "Rio Grande",
-      "Colorado",
-      "Mississippi",
-      "Columbia"
-    ],
-    "correctAnswer": "Rio Grande",
-    "explanation": "Rio Grande is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18035,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which country has the highest waterfall in the world?",
-    "answers": [
-      "Brazil",
-      "Venezuela",
-      "USA",
-      "Peru"
-    ],
-    "correctAnswer": "Venezuela",
-    "explanation": "Venezuela is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18036,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which European country has the most lakes?",
-    "answers": [
-      "Sweden",
-      "Norway",
-      "Finland",
-      "Scotland"
-    ],
-    "correctAnswer": "Finland",
-    "explanation": "Finland is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18037,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which sea is located between Saudi Arabia and Africa?",
-    "answers": [
-      "Mediterranean",
-      "Arabian Sea",
-      "Black Sea",
-      "Red Sea"
-    ],
-    "correctAnswer": "Red Sea",
-    "explanation": "Red Sea is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18038,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which country is both in Europe and Asia?",
-    "answers": [
-      "All of these",
-      "Russia",
-      "Turkey",
-      "Kazakhstan"
-    ],
-    "correctAnswer": "All of these",
-    "explanation": "All of these is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18039,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which African country is completely landlocked?",
-    "answers": [
-      "Kenya",
-      "Chad",
-      "Ethiopia",
-      "Gabon"
-    ],
-    "correctAnswer": "Chad",
-    "explanation": "Chad is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 18040,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which country has the capital city of Bern?",
-    "answers": [
-      "Austria",
-      "Germany",
-      "Switzerland",
-      "Belgium"
-    ],
-    "correctAnswer": "Switzerland",
-    "explanation": "Switzerland is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18041,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which continent is also a country?",
-    "answers": [
-      "Europe",
-      "Africa",
-      "Asia",
-      "Australia"
-    ],
-    "correctAnswer": "Australia",
-    "explanation": "Australia is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18042,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which river flows through Rome?",
-    "answers": [
-      "Tiber",
-      "Po",
-      "Arno",
-      "Danube"
-    ],
-    "correctAnswer": "Tiber",
-    "explanation": "Tiber is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18043,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which country is famous for the fjords?",
-    "answers": [
-      "Sweden",
-      "Norway",
-      "Iceland",
-      "Finland"
-    ],
-    "correctAnswer": "Norway",
-    "explanation": "Norway is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18044,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which desert covers much of northern Africa?",
-    "answers": [
-      "Gobi",
-      "Kalahari",
-      "Sahara",
-      "Atacama"
-    ],
-    "correctAnswer": "Sahara",
-    "explanation": "Sahara is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 18045,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which country has the capital city of Prague?",
-    "answers": [
-      "Poland",
-      "Austria",
-      "Slovakia",
-      "Czech Republic"
-    ],
-    "correctAnswer": "Czech Republic",
-    "explanation": "Czech Republic is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18046,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which island nation lies southeast of India?",
-    "answers": [
-      "Sri Lanka",
-      "Indonesia",
-      "Maldives",
-      "Philippines"
-    ],
-    "correctAnswer": "Sri Lanka",
-    "explanation": "Sri Lanka is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18047,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which African river is the longest?",
-    "answers": [
-      "Congo",
-      "Nile",
-      "Niger",
-      "Zambezi"
-    ],
-    "correctAnswer": "Nile",
-    "explanation": "Nile is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18048,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which country contains the city of Dubrovnik?",
-    "answers": [
-      "Italy",
-      "Greece",
-      "Croatia",
-      "Slovenia"
-    ],
-    "correctAnswer": "Croatia",
-    "explanation": "Croatia is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 18049,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which European river flows through Vienna, Bratislava, and Budapest?",
-    "answers": [
-      "Rhine",
-      "Elbe",
-      "Po",
-      "Danube"
-    ],
-    "correctAnswer": "Danube",
-    "explanation": "Danube is the correct answer.",
-    "tags": [
-      "geography",
-      "medium"
-    ]
-  },
-  {
     "id": 18050,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "easy",
     "text": "Which country has the capital city Tokyo?",
@@ -952,7 +21,7 @@
   },
   {
     "id": 18051,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "easy",
     "text": "Which continent is Canada located on?",
@@ -969,5 +38,1908 @@
       "easy",
       "north-america"
     ]
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Northwest Territories?",
+    "answers": [
+      "Quebec City",
+      "Regina",
+      "Edmonton",
+      "Yellowknife"
+    ],
+    "correctAnswer": "Yellowknife",
+    "explanation": "Yellowknife is the capital of Northwest Territories.",
+    "tags": [
+      "geography",
+      "canada",
+      "capital"
+    ],
+    "id": 18052
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Nunavut?",
+    "answers": [
+      "Toronto",
+      "Victoria",
+      "Iqaluit",
+      "Yellowknife"
+    ],
+    "correctAnswer": "Iqaluit",
+    "explanation": "Iqaluit is the capital of Nunavut.",
+    "tags": [
+      "geography",
+      "canada",
+      "capital"
+    ],
+    "id": 18053
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Yukon?",
+    "answers": [
+      "Whitehorse",
+      "St. John's",
+      "Edmonton",
+      "Toronto"
+    ],
+    "correctAnswer": "Whitehorse",
+    "explanation": "Whitehorse is the capital of Yukon.",
+    "tags": [
+      "geography",
+      "canada",
+      "capital"
+    ],
+    "id": 18054
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which place is Barcelona located?",
+    "answers": [
+      "Louisiana",
+      "Vatican City",
+      "Maine",
+      "Spain"
+    ],
+    "correctAnswer": "Spain",
+    "explanation": "Barcelona is located in Spain.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18055
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which place is Munich located?",
+    "answers": [
+      "British Columbia",
+      "Germany",
+      "New Jersey",
+      "Iowa"
+    ],
+    "correctAnswer": "Germany",
+    "explanation": "Munich is located in Germany.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18056
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which place is Milan located?",
+    "answers": [
+      "Hungary",
+      "Italy",
+      "Saskatchewan",
+      "Manitoba"
+    ],
+    "correctAnswer": "Italy",
+    "explanation": "Milan is located in Italy.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18057
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Naples located?",
+    "answers": [
+      "Italy",
+      "Illinois",
+      "Utah",
+      "Alberta"
+    ],
+    "correctAnswer": "Italy",
+    "explanation": "Naples is located in Italy.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18058
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Marseille located?",
+    "answers": [
+      "Cyprus",
+      "France",
+      "New Jersey",
+      "Illinois"
+    ],
+    "correctAnswer": "France",
+    "explanation": "Marseille is located in France.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18059
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Lyon located?",
+    "answers": [
+      "Spain",
+      "France",
+      "New Hampshire",
+      "Iowa"
+    ],
+    "correctAnswer": "France",
+    "explanation": "Lyon is located in France.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18060
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Porto located?",
+    "answers": [
+      "Yukon",
+      "Portugal",
+      "Virginia",
+      "Estonia"
+    ],
+    "correctAnswer": "Portugal",
+    "explanation": "Porto is located in Portugal.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18061
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Seville located?",
+    "answers": [
+      "Slovakia",
+      "Liechtenstein",
+      "Oklahoma",
+      "Spain"
+    ],
+    "correctAnswer": "Spain",
+    "explanation": "Seville is located in Spain.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18062
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Valencia located?",
+    "answers": [
+      "South Carolina",
+      "Spain",
+      "Bosnia and Herzegovina",
+      "Oregon"
+    ],
+    "correctAnswer": "Spain",
+    "explanation": "Valencia is located in Spain.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18063
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Krakow located?",
+    "answers": [
+      "Pennsylvania",
+      "Poland",
+      "Wyoming",
+      "South Carolina"
+    ],
+    "correctAnswer": "Poland",
+    "explanation": "Krakow is located in Poland.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18064
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Gdansk located?",
+    "answers": [
+      "Poland",
+      "Northwest Territories",
+      "Malta",
+      "Montana"
+    ],
+    "correctAnswer": "Poland",
+    "explanation": "Gdansk is located in Poland.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18065
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Rotterdam located?",
+    "answers": [
+      "Netherlands",
+      "New York",
+      "Monaco",
+      "Alaska"
+    ],
+    "correctAnswer": "Netherlands",
+    "explanation": "Rotterdam is located in Netherlands.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18066
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Antwerp located?",
+    "answers": [
+      "Sweden",
+      "Romania",
+      "Belgium",
+      "New Brunswick"
+    ],
+    "correctAnswer": "Belgium",
+    "explanation": "Antwerp is located in Belgium.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18067
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Gothenburg located?",
+    "answers": [
+      "Texas",
+      "North Dakota",
+      "Sweden",
+      "San Marino"
+    ],
+    "correctAnswer": "Sweden",
+    "explanation": "Gothenburg is located in Sweden.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18068
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Bergen located?",
+    "answers": [
+      "Norway",
+      "New Brunswick",
+      "Montenegro",
+      "Texas"
+    ],
+    "correctAnswer": "Norway",
+    "explanation": "Bergen is located in Norway.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18069
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Cork located?",
+    "answers": [
+      "Bulgaria",
+      "Nevada",
+      "Ireland",
+      "Kansas"
+    ],
+    "correctAnswer": "Ireland",
+    "explanation": "Cork is located in Ireland.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18070
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Manchester located?",
+    "answers": [
+      "United Kingdom",
+      "Alberta",
+      "Maine",
+      "New York"
+    ],
+    "correctAnswer": "United Kingdom",
+    "explanation": "Manchester is located in United Kingdom.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18071
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Edinburgh located?",
+    "answers": [
+      "Hawaii",
+      "United Kingdom",
+      "Manitoba",
+      "Wisconsin"
+    ],
+    "correctAnswer": "United Kingdom",
+    "explanation": "Edinburgh is located in United Kingdom.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18072
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Glasgow located?",
+    "answers": [
+      "South Dakota",
+      "United Kingdom",
+      "Italy",
+      "Pennsylvania"
+    ],
+    "correctAnswer": "United Kingdom",
+    "explanation": "Glasgow is located in United Kingdom.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18073
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Florence located?",
+    "answers": [
+      "Tennessee",
+      "British Columbia",
+      "Idaho",
+      "Italy"
+    ],
+    "correctAnswer": "Italy",
+    "explanation": "Florence is located in Italy.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18074
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Venice located?",
+    "answers": [
+      "San Marino",
+      "South Dakota",
+      "New Jersey",
+      "Italy"
+    ],
+    "correctAnswer": "Italy",
+    "explanation": "Venice is located in Italy.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18075
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Salzburg located?",
+    "answers": [
+      "Latvia",
+      "California",
+      "Iceland",
+      "Austria"
+    ],
+    "correctAnswer": "Austria",
+    "explanation": "Salzburg is located in Austria.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18076
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Geneva located?",
+    "answers": [
+      "Liechtenstein",
+      "Switzerland",
+      "Saskatchewan",
+      "Ontario"
+    ],
+    "correctAnswer": "Switzerland",
+    "explanation": "Geneva is located in Switzerland.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18077
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Zurich located?",
+    "answers": [
+      "Montana",
+      "Switzerland",
+      "United Kingdom",
+      "Nova Scotia"
+    ],
+    "correctAnswer": "Switzerland",
+    "explanation": "Zurich is located in Switzerland.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18078
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which place is Chicago located?",
+    "answers": [
+      "Illinois",
+      "Iowa",
+      "Italy",
+      "Lithuania"
+    ],
+    "correctAnswer": "Illinois",
+    "explanation": "Chicago is located in Illinois.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18079
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which place is Los Angeles located?",
+    "answers": [
+      "California",
+      "United Kingdom",
+      "Louisiana",
+      "Cyprus"
+    ],
+    "correctAnswer": "California",
+    "explanation": "Los Angeles is located in California.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18080
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is San Francisco located?",
+    "answers": [
+      "New Mexico",
+      "California",
+      "Ukraine",
+      "Kansas"
+    ],
+    "correctAnswer": "California",
+    "explanation": "San Francisco is located in California.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18081
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which place is Seattle located?",
+    "answers": [
+      "Maryland",
+      "Kentucky",
+      "Washington",
+      "Iceland"
+    ],
+    "correctAnswer": "Washington",
+    "explanation": "Seattle is located in Washington.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18082
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Miami located?",
+    "answers": [
+      "Norway",
+      "Florida",
+      "Sweden",
+      "Cyprus"
+    ],
+    "correctAnswer": "Florida",
+    "explanation": "Miami is located in Florida.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18083
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Orlando located?",
+    "answers": [
+      "Nunavut",
+      "Florida",
+      "Spain",
+      "Latvia"
+    ],
+    "correctAnswer": "Florida",
+    "explanation": "Orlando is located in Florida.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18084
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Houston located?",
+    "answers": [
+      "Colorado",
+      "Texas",
+      "Alaska",
+      "Oklahoma"
+    ],
+    "correctAnswer": "Texas",
+    "explanation": "Houston is located in Texas.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18085
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Dallas located?",
+    "answers": [
+      "Texas",
+      "France",
+      "Maine",
+      "Nebraska"
+    ],
+    "correctAnswer": "Texas",
+    "explanation": "Dallas is located in Texas.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18086
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Austin located?",
+    "answers": [
+      "Belgium",
+      "Missouri",
+      "Connecticut",
+      "Texas"
+    ],
+    "correctAnswer": "Texas",
+    "explanation": "Austin is located in Texas.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18087
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Philadelphia located?",
+    "answers": [
+      "Wyoming",
+      "Pennsylvania",
+      "Denmark",
+      "Ohio"
+    ],
+    "correctAnswer": "Pennsylvania",
+    "explanation": "Philadelphia is located in Pennsylvania.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18088
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Pittsburgh located?",
+    "answers": [
+      "Nunavut",
+      "Croatia",
+      "Vatican City",
+      "Pennsylvania"
+    ],
+    "correctAnswer": "Pennsylvania",
+    "explanation": "Pittsburgh is located in Pennsylvania.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18089
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is New Orleans located?",
+    "answers": [
+      "Virginia",
+      "Minnesota",
+      "North Macedonia",
+      "Louisiana"
+    ],
+    "correctAnswer": "Louisiana",
+    "explanation": "New Orleans is located in Louisiana.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18090
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Las Vegas located?",
+    "answers": [
+      "Montana",
+      "Nevada",
+      "Liechtenstein",
+      "Pennsylvania"
+    ],
+    "correctAnswer": "Nevada",
+    "explanation": "Las Vegas is located in Nevada.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18091
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Phoenix located?",
+    "answers": [
+      "Rhode Island",
+      "Vatican City",
+      "Arizona",
+      "Hawaii"
+    ],
+    "correctAnswer": "Arizona",
+    "explanation": "Phoenix is located in Arizona.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18092
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Portland located?",
+    "answers": [
+      "Idaho",
+      "Florida",
+      "Oregon",
+      "Estonia"
+    ],
+    "correctAnswer": "Oregon",
+    "explanation": "Portland is located in Oregon.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18093
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Detroit located?",
+    "answers": [
+      "South Dakota",
+      "Monaco",
+      "Nevada",
+      "Michigan"
+    ],
+    "correctAnswer": "Michigan",
+    "explanation": "Detroit is located in Michigan.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18094
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Minneapolis located?",
+    "answers": [
+      "Iceland",
+      "Kansas",
+      "Minnesota",
+      "Sweden"
+    ],
+    "correctAnswer": "Minnesota",
+    "explanation": "Minneapolis is located in Minnesota.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18095
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Denver located?",
+    "answers": [
+      "South Carolina",
+      "Bosnia and Herzegovina",
+      "Colorado",
+      "Idaho"
+    ],
+    "correctAnswer": "Colorado",
+    "explanation": "Denver is located in Colorado.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18096
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which place is Boston located?",
+    "answers": [
+      "Massachusetts",
+      "Montenegro",
+      "Nova Scotia",
+      "Connecticut"
+    ],
+    "correctAnswer": "Massachusetts",
+    "explanation": "Boston is located in Massachusetts.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18097
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Nashville located?",
+    "answers": [
+      "Bosnia and Herzegovina",
+      "Delaware",
+      "Tennessee",
+      "Ireland"
+    ],
+    "correctAnswer": "Tennessee",
+    "explanation": "Nashville is located in Tennessee.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18098
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which place is Vancouver located?",
+    "answers": [
+      "British Columbia",
+      "Poland",
+      "United Kingdom",
+      "Oklahoma"
+    ],
+    "correctAnswer": "British Columbia",
+    "explanation": "Vancouver is located in British Columbia.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18099
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Calgary located?",
+    "answers": [
+      "New Hampshire",
+      "Liechtenstein",
+      "South Dakota",
+      "Alberta"
+    ],
+    "correctAnswer": "Alberta",
+    "explanation": "Calgary is located in Alberta.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18100
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Edmonton located?",
+    "answers": [
+      "Alberta",
+      "Poland",
+      "Bulgaria",
+      "Netherlands"
+    ],
+    "correctAnswer": "Alberta",
+    "explanation": "Edmonton is located in Alberta.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18101
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which place is Montreal located?",
+    "answers": [
+      "Indiana",
+      "Alberta",
+      "Quebec",
+      "Poland"
+    ],
+    "correctAnswer": "Quebec",
+    "explanation": "Montreal is located in Quebec.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18102
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Quebec City located?",
+    "answers": [
+      "Ireland",
+      "Slovenia",
+      "Quebec",
+      "Vatican City"
+    ],
+    "correctAnswer": "Quebec",
+    "explanation": "Quebec City is located in Quebec.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18103
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Ottawa located?",
+    "answers": [
+      "Ontario",
+      "Saskatchewan",
+      "North Dakota",
+      "Nebraska"
+    ],
+    "correctAnswer": "Ontario",
+    "explanation": "Ottawa is located in Ontario.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18104
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which place is Toronto located?",
+    "answers": [
+      "Ontario",
+      "New Mexico",
+      "Yukon",
+      "Romania"
+    ],
+    "correctAnswer": "Ontario",
+    "explanation": "Toronto is located in Ontario.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18105
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Halifax located?",
+    "answers": [
+      "Louisiana",
+      "Luxembourg",
+      "Nova Scotia",
+      "Moldova"
+    ],
+    "correctAnswer": "Nova Scotia",
+    "explanation": "Halifax is located in Nova Scotia.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18106
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Winnipeg located?",
+    "answers": [
+      "Monaco",
+      "South Dakota",
+      "Manitoba",
+      "Newfoundland and Labrador"
+    ],
+    "correctAnswer": "Manitoba",
+    "explanation": "Winnipeg is located in Manitoba.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18107
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Saskatoon located?",
+    "answers": [
+      "Nova Scotia",
+      "Saskatchewan",
+      "Vatican City",
+      "Yukon"
+    ],
+    "correctAnswer": "Saskatchewan",
+    "explanation": "Saskatoon is located in Saskatchewan.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18108
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is Victoria located?",
+    "answers": [
+      "Luxembourg",
+      "British Columbia",
+      "Iowa",
+      "Louisiana"
+    ],
+    "correctAnswer": "British Columbia",
+    "explanation": "Victoria is located in British Columbia.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18109
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which place is St. John's located?",
+    "answers": [
+      "Nova Scotia",
+      "New Brunswick",
+      "Serbia",
+      "Newfoundland and Labrador"
+    ],
+    "correctAnswer": "Newfoundland and Labrador",
+    "explanation": "St. John's is located in Newfoundland and Labrador.",
+    "tags": [
+      "geography",
+      "city-location"
+    ],
+    "id": 18110
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Alps located?",
+    "answers": [
+      "Missouri and Arkansas",
+      "the U.S.-Mexico border region",
+      "New Brunswick and Nova Scotia",
+      "Europe"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "the Alps is located in Europe.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18111
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Pyrenees located?",
+    "answers": [
+      "Scotland",
+      "eastern North America",
+      "between Spain and France",
+      "Sicily"
+    ],
+    "correctAnswer": "between Spain and France",
+    "explanation": "the Pyrenees is located in between Spain and France.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18112
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Apennines located?",
+    "answers": [
+      "Massachusetts",
+      "Italy",
+      "Russia",
+      "Nova Scotia"
+    ],
+    "correctAnswer": "Italy",
+    "explanation": "the Apennines is located in Italy.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18113
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Carpathian Mountains located?",
+    "answers": [
+      "Central and Eastern Europe",
+      "Poland",
+      "central North America",
+      "Quebec"
+    ],
+    "correctAnswer": "Central and Eastern Europe",
+    "explanation": "the Carpathian Mountains is located in Central and Eastern Europe.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18114
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Scottish Highlands located?",
+    "answers": [
+      "northern Europe",
+      "Russia",
+      "France",
+      "Scotland"
+    ],
+    "correctAnswer": "Scotland",
+    "explanation": "the Scottish Highlands is located in Scotland.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18115
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Rhine River located?",
+    "answers": [
+      "Massachusetts",
+      "Western Europe",
+      "Quebec",
+      "California and Nevada"
+    ],
+    "correctAnswer": "Western Europe",
+    "explanation": "the Rhine River is located in Western Europe.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18116
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Danube River located?",
+    "answers": [
+      "California",
+      "Maryland and Virginia",
+      "Central and Eastern Europe",
+      "southern Europe"
+    ],
+    "correctAnswer": "Central and Eastern Europe",
+    "explanation": "the Danube River is located in Central and Eastern Europe.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18117
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Seine River located?",
+    "answers": [
+      "France",
+      "Portugal and Spain",
+      "North Carolina",
+      "British Columbia"
+    ],
+    "correctAnswer": "France",
+    "explanation": "the Seine River is located in France.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18118
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Thames River located?",
+    "answers": [
+      "England",
+      "eastern North America",
+      "North Carolina",
+      "the southwestern United States"
+    ],
+    "correctAnswer": "England",
+    "explanation": "the Thames River is located in England.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18119
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Volga River located?",
+    "answers": [
+      "Nunavut",
+      "Massachusetts",
+      "Russia",
+      "Northwest Territories"
+    ],
+    "correctAnswer": "Russia",
+    "explanation": "the Volga River is located in Russia.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18120
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Po River located?",
+    "answers": [
+      "New York",
+      "central Canada",
+      "the southwestern United States",
+      "Italy"
+    ],
+    "correctAnswer": "Italy",
+    "explanation": "the Po River is located in Italy.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18121
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Tagus River located?",
+    "answers": [
+      "southern Europe",
+      "Nova Scotia",
+      "the Alps",
+      "Portugal and Spain"
+    ],
+    "correctAnswer": "Portugal and Spain",
+    "explanation": "the Tagus River is located in Portugal and Spain.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18122
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Douro River located?",
+    "answers": [
+      "Maryland and Virginia",
+      "Italy",
+      "the United States",
+      "Portugal and Spain"
+    ],
+    "correctAnswer": "Portugal and Spain",
+    "explanation": "the Douro River is located in Portugal and Spain.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18123
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Elbe River located?",
+    "answers": [
+      "Central Europe",
+      "Italy",
+      "Massachusetts",
+      "Russia"
+    ],
+    "correctAnswer": "Central Europe",
+    "explanation": "the Elbe River is located in Central Europe.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18124
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Vistula River located?",
+    "answers": [
+      "Missouri and Arkansas",
+      "Poland",
+      "California",
+      "France"
+    ],
+    "correctAnswer": "Poland",
+    "explanation": "the Vistula River is located in Poland.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18125
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Black Forest located?",
+    "answers": [
+      "Germany",
+      "Portugal and Spain",
+      "Manitoba",
+      "Arizona"
+    ],
+    "correctAnswer": "Germany",
+    "explanation": "the Black Forest is located in Germany.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18126
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Matterhorn located?",
+    "answers": [
+      "New Brunswick and Nova Scotia",
+      "the southwestern United States",
+      "Nova Scotia",
+      "the Alps"
+    ],
+    "correctAnswer": "the Alps",
+    "explanation": "the Matterhorn is located in the Alps.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18127
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is Mont Blanc located?",
+    "answers": [
+      "the southwestern United States",
+      "western Canada",
+      "Ontario",
+      "the Alps"
+    ],
+    "correctAnswer": "the Alps",
+    "explanation": "Mont Blanc is located in the Alps.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18128
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is Mount Etna located?",
+    "answers": [
+      "New Brunswick and Nova Scotia",
+      "Italy",
+      "Sicily",
+      "western Canada"
+    ],
+    "correctAnswer": "Sicily",
+    "explanation": "Mount Etna is located in Sicily.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18129
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Loire Valley located?",
+    "answers": [
+      "Western Europe",
+      "France",
+      "Washington",
+      "northern Europe"
+    ],
+    "correctAnswer": "France",
+    "explanation": "the Loire Valley is located in France.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18130
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the North Sea located?",
+    "answers": [
+      "Central Europe",
+      "northwestern Europe",
+      "Washington",
+      "Ontario"
+    ],
+    "correctAnswer": "northwestern Europe",
+    "explanation": "the North Sea is located in northwestern Europe.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18131
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Baltic Sea located?",
+    "answers": [
+      "the United States",
+      "northern Europe",
+      "Central and Eastern Europe",
+      "California and Nevada"
+    ],
+    "correctAnswer": "northern Europe",
+    "explanation": "the Baltic Sea is located in northern Europe.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18132
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Adriatic Sea located?",
+    "answers": [
+      "northern Europe",
+      "Portugal and Spain",
+      "North Carolina",
+      "between Italy and the Balkans"
+    ],
+    "correctAnswer": "between Italy and the Balkans",
+    "explanation": "the Adriatic Sea is located in between Italy and the Balkans.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18133
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Aegean Sea located?",
+    "answers": [
+      "Poland",
+      "Central Europe",
+      "Western Europe",
+      "between Greece and Turkey"
+    ],
+    "correctAnswer": "between Greece and Turkey",
+    "explanation": "the Aegean Sea is located in between Greece and Turkey.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18134
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Mediterranean Sea located?",
+    "answers": [
+      "Massachusetts",
+      "Portugal and Spain",
+      "southern Europe",
+      "Nunavut"
+    ],
+    "correctAnswer": "southern Europe",
+    "explanation": "the Mediterranean Sea is located in southern Europe.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18135
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Rocky Mountains located?",
+    "answers": [
+      "western North America",
+      "Northwest Territories",
+      "southern Europe",
+      "California"
+    ],
+    "correctAnswer": "western North America",
+    "explanation": "the Rocky Mountains is located in western North America.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18136
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Appalachian Mountains located?",
+    "answers": [
+      "eastern North America",
+      "Central Europe",
+      "western Canada",
+      "Ontario"
+    ],
+    "correctAnswer": "eastern North America",
+    "explanation": "the Appalachian Mountains is located in eastern North America.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18137
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Sierra Nevada located?",
+    "answers": [
+      "Nunavut",
+      "central North America",
+      "eastern Canada",
+      "California and Nevada"
+    ],
+    "correctAnswer": "California and Nevada",
+    "explanation": "the Sierra Nevada is located in California and Nevada.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18138
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Great Plains located?",
+    "answers": [
+      "Germany",
+      "California",
+      "California and Nevada",
+      "central North America"
+    ],
+    "correctAnswer": "central North America",
+    "explanation": "the Great Plains is located in central North America.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18139
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Mississippi River located?",
+    "answers": [
+      "northern Europe",
+      "the U.S.-Canada border region",
+      "the United States",
+      "Canada"
+    ],
+    "correctAnswer": "the United States",
+    "explanation": "the Mississippi River is located in the United States.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18140
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Missouri River located?",
+    "answers": [
+      "between Spain and France",
+      "Nova Scotia",
+      "eastern North America",
+      "the United States"
+    ],
+    "correctAnswer": "the United States",
+    "explanation": "the Missouri River is located in the United States.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18141
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Colorado River located?",
+    "answers": [
+      "Central and Eastern Europe",
+      "Canada",
+      "Ontario",
+      "the southwestern United States"
+    ],
+    "correctAnswer": "the southwestern United States",
+    "explanation": "the Colorado River is located in the southwestern United States.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18142
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Hudson River located?",
+    "answers": [
+      "British Columbia",
+      "New York",
+      "Sicily",
+      "the southwestern United States"
+    ],
+    "correctAnswer": "New York",
+    "explanation": "the Hudson River is located in New York.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18143
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Rio Grande located?",
+    "answers": [
+      "Northwest Territories",
+      "the U.S.-Mexico border region",
+      "Russia",
+      "Ontario"
+    ],
+    "correctAnswer": "the U.S.-Mexico border region",
+    "explanation": "the Rio Grande is located in the U.S.-Mexico border region.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18144
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Great Lakes located?",
+    "answers": [
+      "Alaska",
+      "California and Nevada",
+      "the U.S.-Canada border region",
+      "Italy"
+    ],
+    "correctAnswer": "the U.S.-Canada border region",
+    "explanation": "the Great Lakes is located in the U.S.-Canada border region.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18145
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is Lake Tahoe located?",
+    "answers": [
+      "eastern North America",
+      "the United States",
+      "Western Europe",
+      "California and Nevada"
+    ],
+    "correctAnswer": "California and Nevada",
+    "explanation": "Lake Tahoe is located in California and Nevada.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18146
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is Death Valley located?",
+    "answers": [
+      "California",
+      "western Canada",
+      "Russia",
+      "New York"
+    ],
+    "correctAnswer": "California",
+    "explanation": "Death Valley is located in California.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18147
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is Mount Rainier located?",
+    "answers": [
+      "the United States",
+      "Washington",
+      "eastern North America",
+      "Maryland and Virginia"
+    ],
+    "correctAnswer": "Washington",
+    "explanation": "Mount Rainier is located in Washington.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18148
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is Denali located?",
+    "answers": [
+      "Portugal and Spain",
+      "Sicily",
+      "Ontario",
+      "Alaska"
+    ],
+    "correctAnswer": "Alaska",
+    "explanation": "Denali is located in Alaska.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18149
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Florida Everglades located?",
+    "answers": [
+      "the U.S.-Canada border region",
+      "Western Europe",
+      "Florida",
+      "Europe"
+    ],
+    "correctAnswer": "Florida",
+    "explanation": "the Florida Everglades is located in Florida.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18150
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Where is the Grand Canyon located?",
+    "answers": [
+      "California",
+      "New York",
+      "Arizona",
+      "Ontario"
+    ],
+    "correctAnswer": "Arizona",
+    "explanation": "the Grand Canyon is located in Arizona.",
+    "tags": [
+      "geography",
+      "physical-geography"
+    ],
+    "id": 18151
   }
 ]

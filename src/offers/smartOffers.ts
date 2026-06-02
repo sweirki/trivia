@@ -28,6 +28,7 @@ export type PostGameOfferInput = StoreOfferInput & {
 };
 
 const clamp = (value: number) => Math.max(0, Math.floor(Number.isFinite(value) ? value : 0));
+const STARTER_BUNDLE_COST = 275;
 
 export function getStoreSmartOffers(input: StoreOfferInput): SmartOffer[] {
   const coins = clamp(input.coins);
@@ -43,9 +44,9 @@ export function getStoreSmartOffers(input: StoreOfferInput): SmartOffer[] {
       title: "Keep Playing Pack",
       message: "Your tickets are low. Refill now so the next session does not stop early.",
       badge: "LOW TICKETS",
-      primaryLabel: coins >= 99 ? "Get Starter Pack" : "View Ticket Packs",
-      storeTab: coins >= 99 ? "offers" : "tickets",
-      productId: coins >= 99 ? "bundle_starter" : undefined,
+      primaryLabel: coins >= STARTER_BUNDLE_COST ? "Get Starter Pack" : "View Ticket Packs",
+      storeTab: coins >= STARTER_BUNDLE_COST ? "offers" : "tickets",
+      productId: coins >= STARTER_BUNDLE_COST ? "bundle_starter" : undefined,
       priority: 100,
     });
   }
@@ -54,7 +55,7 @@ export function getStoreSmartOffers(input: StoreOfferInput): SmartOffer[] {
     offers.push({
       id: "vip_tease",
       title: "VIP Would Boost This Account",
-      message: "+20% gameplay XP, +10% gameplay coins, VIP badge, streak protection prepared, and future VIP-only offers.",
+      message: "+20% gameplay XP, +10% gameplay coins, +2 daily reward tickets, VIP badge, and future VIP-only offers.",
       badge: "VIP",
       primaryLabel: "Preview VIP",
       storeTab: "vip",
@@ -91,9 +92,9 @@ export function getStoreSmartOffers(input: StoreOfferInput): SmartOffer[] {
     title: "Starter Session Pack",
     message: "10 tickets plus a short 2x XP boost. Designed as the first smart offer for new and returning players.",
     badge: "STARTER",
-    primaryLabel: coins >= 99 ? "Buy for 99 Coins" : "Earn More Coins",
-    storeTab: coins >= 99 ? "offers" : "economy",
-    productId: coins >= 99 ? "bundle_starter" : undefined,
+    primaryLabel: coins >= STARTER_BUNDLE_COST ? `Buy for ${STARTER_BUNDLE_COST} Coins` : "Earn More Coins",
+    storeTab: coins >= STARTER_BUNDLE_COST ? "offers" : "economy",
+    productId: coins >= STARTER_BUNDLE_COST ? "bundle_starter" : undefined,
     priority: 50,
   });
 

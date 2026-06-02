@@ -1,3759 +1,2402 @@
 [
   {
-    "id": 42501,
-    "category": "science",
+    "id": 44701,
+    "category": "Science",
     "premium": true,
     "difficulty": "easy",
-    "text": "What gas do plants absorb from the atmosphere?",
+    "text": "Which science profile combines astronomy with light and heat?",
     "answers": [
-      "Carbon Dioxide",
-      "Oxygen",
-      "Nitrogen",
-      "Hydrogen"
+      "star",
+      "force",
+      "antibiotic",
+      "earthquake"
     ],
-    "correctAnswer": "Carbon Dioxide",
-    "explanation": "Carbon Dioxide is the correct answer.",
+    "correctAnswer": "star",
+    "explanation": "star matches that profile through astronomy and light and heat.",
     "tags": [
       "science",
-      "easy"
+      "profile",
+      "astronomy"
     ]
   },
   {
-    "id": 42502,
-    "category": "science",
+    "id": 44702,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which scientific context is strongly associated with nebula?",
+    "answers": [
+      "selective permeability",
+      "weather prediction",
+      "radio to gamma rays",
+      "star formation"
+    ],
+    "correctAnswer": "star formation",
+    "explanation": "nebula is strongly associated with star formation.",
+    "tags": [
+      "science",
+      "context",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44703,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which idea is most connected to hormone?",
+    "answers": [
+      "nuclear variation",
+      "color perception",
+      "body signaling",
+      "heredity and instructions"
+    ],
+    "correctAnswer": "body signaling",
+    "explanation": "hormone is closely connected to body signaling.",
+    "tags": [
+      "science",
+      "concepts",
+      "biology"
+    ]
+  },
+  {
+    "id": 44704,
+    "category": "Science",
     "premium": true,
     "difficulty": "easy",
-    "text": "What part of the human body pumps blood?",
+    "text": "Which science profile combines hydrogen ion concentration with scale measuring acidity or alkalinity?",
     "answers": [
-      "Lungs",
-      "Heart",
-      "Brain",
-      "Liver"
-    ],
-    "correctAnswer": "Heart",
-    "explanation": "Heart is the correct answer.",
-    "tags": [
-      "science",
-      "easy"
-    ]
-  },
-  {
-    "id": 42503,
-    "category": "science",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "What force pulls objects toward the Earth?",
-    "answers": [
-      "Magnetism",
-      "Friction",
-      "Gravity",
-      "Electricity"
-    ],
-    "correctAnswer": "Gravity",
-    "explanation": "Gravity is the correct answer.",
-    "tags": [
-      "science",
-      "easy"
-    ]
-  },
-  {
-    "id": 42504,
-    "category": "science",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "What is the chemical symbol for water?",
-    "answers": [
-      "O2",
-      "CO2",
-      "NaCl",
-      "H2O"
-    ],
-    "correctAnswer": "H2O",
-    "explanation": "H2O is the correct answer.",
-    "tags": [
-      "science",
-      "easy"
-    ]
-  },
-  {
-    "id": 42505,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What organ is responsible for filtering blood in the human body?",
-    "answers": [
-      "Kidneys",
-      "Heart",
-      "Lungs",
-      "Stomach"
-    ],
-    "correctAnswer": "Kidneys",
-    "explanation": "Kidneys is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42506,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of energy is stored in food?",
-    "answers": [
-      "Thermal",
-      "Chemical",
-      "Electrical",
-      "Nuclear"
-    ],
-    "correctAnswer": "Chemical",
-    "explanation": "Chemical is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42507,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What part of a cell contains genetic material?",
-    "answers": [
-      "Ribosome",
-      "Cytoplasm",
-      "Nucleus",
-      "Membrane"
-    ],
-    "correctAnswer": "Nucleus",
-    "explanation": "Nucleus is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42508,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What gas is most abundant in the Earth's atmosphere?",
-    "answers": [
-      "Oxygen",
-      "Carbon Dioxide",
-      "Hydrogen",
-      "Nitrogen"
-    ],
-    "correctAnswer": "Nitrogen",
-    "explanation": "Nitrogen is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42509,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What scientific instrument is used to measure temperature?",
-    "answers": [
-      "Thermometer",
-      "Barometer",
-      "Hygrometer",
-      "Altimeter"
-    ],
-    "correctAnswer": "Thermometer",
-    "explanation": "Thermometer is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42510,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What part of the human eye controls the amount of light entering?",
-    "answers": [
-      "Lens",
-      "Pupil",
-      "Retina",
-      "Cornea"
-    ],
-    "correctAnswer": "Pupil",
-    "explanation": "Pupil is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42511,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of rock is formed from cooled lava or magma?",
-    "answers": [
-      "Sedimentary",
-      "Metamorphic",
-      "Igneous",
-      "Fossil"
-    ],
-    "correctAnswer": "Igneous",
-    "explanation": "Igneous is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42512,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What vitamin is produced when human skin is exposed to sunlight?",
-    "answers": [
-      "Vitamin A",
-      "Vitamin B12",
-      "Vitamin C",
-      "Vitamin D"
-    ],
-    "correctAnswer": "Vitamin D",
-    "explanation": "Vitamin D is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42513,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What force resists motion between two surfaces in contact?",
-    "answers": [
-      "Friction",
-      "Gravity",
-      "Momentum",
-      "Inertia"
-    ],
-    "correctAnswer": "Friction",
-    "explanation": "Friction is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42514,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which organ in the human body produces insulin?",
-    "answers": [
-      "Liver",
-      "Pancreas",
-      "Kidneys",
-      "Stomach"
-    ],
-    "correctAnswer": "Pancreas",
-    "explanation": "Pancreas is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42515,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the process by which plants make their own food?",
-    "answers": [
-      "Respiration",
-      "Digestion",
-      "Photosynthesis",
-      "Fermentation"
-    ],
-    "correctAnswer": "Photosynthesis",
-    "explanation": "Photosynthesis is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42516,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the smallest unit of life?",
-    "answers": [
-      "Atom",
-      "Molecule",
-      "Tissue",
-      "Cell"
-    ],
-    "correctAnswer": "Cell",
-    "explanation": "Cell is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42517,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What term describes an animal that eats both plants and meat?",
-    "answers": [
-      "Omnivore",
-      "Herbivore",
-      "Carnivore",
-      "Insectivore"
-    ],
-    "correctAnswer": "Omnivore",
-    "explanation": "Omnivore is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42518,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What gas is released during photosynthesis?",
-    "answers": [
-      "Carbon Dioxide",
-      "Oxygen",
-      "Nitrogen",
-      "Hydrogen"
-    ],
-    "correctAnswer": "Oxygen",
-    "explanation": "Oxygen is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42519,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What branch of science studies living organisms?",
-    "answers": [
-      "Physics",
-      "Chemistry",
-      "Biology",
-      "Geology"
-    ],
-    "correctAnswer": "Biology",
-    "explanation": "Biology is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42520,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What device is used to observe very small objects?",
-    "answers": [
-      "Telescope",
-      "Periscope",
-      "Binoculars",
-      "Microscope"
-    ],
-    "correctAnswer": "Microscope",
-    "explanation": "Microscope is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42521,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of blood cells help fight infection?",
-    "answers": [
-      "White blood cells",
-      "Red blood cells",
-      "Platelets",
-      "Plasma"
-    ],
-    "correctAnswer": "White blood cells",
-    "explanation": "White blood cells is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42522,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the boiling point of water at sea level in Celsius?",
-    "answers": [
-      "50",
-      "100",
-      "75",
-      "150"
-    ],
-    "correctAnswer": "100",
-    "explanation": "100 is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42523,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What natural process causes erosion?",
-    "answers": [
-      "Wind",
-      "Water",
-      "All of the above",
-      "Ice"
-    ],
-    "correctAnswer": "All of the above",
-    "explanation": "All of the above is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42524,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What part of the brain controls balance and coordination?",
-    "answers": [
-      "Cerebrum",
-      "Medulla",
-      "Thalamus",
-      "Cerebellum"
-    ],
-    "correctAnswer": "Cerebellum",
-    "explanation": "Cerebellum is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42525,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the chemical symbol for sodium?",
-    "answers": [
-      "Na",
-      "So",
-      "S",
-      "Sn"
-    ],
-    "correctAnswer": "Na",
-    "explanation": "Na is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42526,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What law states that energy cannot be created or destroyed?",
-    "answers": [
-      "Law of Gravity",
-      "Law of Conservation of Energy",
-      "Law of Motion",
-      "Law of Thermodynamics"
-    ],
-    "correctAnswer": "Law of Conservation of Energy",
-    "explanation": "Law of Conservation of Energy is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42527,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What gas do humans exhale as a waste product?",
-    "answers": [
-      "Oxygen",
-      "Nitrogen",
-      "Carbon Dioxide",
-      "Helium"
-    ],
-    "correctAnswer": "Carbon Dioxide",
-    "explanation": "Carbon Dioxide is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42528,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What field of science deals with the study of matter and energy?",
-    "answers": [
-      "Biology",
-      "Chemistry",
-      "Astronomy",
-      "Physics"
-    ],
-    "correctAnswer": "Physics",
-    "explanation": "Physics is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42529,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What instrument is used to measure atmospheric pressure?",
-    "answers": [
-      "Barometer",
-      "Thermometer",
-      "Anemometer",
-      "Hygrometer"
-    ],
-    "correctAnswer": "Barometer",
-    "explanation": "Barometer is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42530,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of eclipse occurs when the Moon blocks the Sun?",
-    "answers": [
-      "Lunar eclipse",
-      "Solar eclipse",
-      "Partial eclipse",
-      "Annular eclipse"
-    ],
-    "correctAnswer": "Solar eclipse",
-    "explanation": "Solar eclipse is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42531,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What organ in plants is mainly responsible for photosynthesis?",
-    "answers": [
-      "Root",
-      "Stem",
-      "Leaf",
-      "Flower"
-    ],
-    "correctAnswer": "Leaf",
-    "explanation": "Leaf is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42532,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the main gas found in the air we breathe?",
-    "answers": [
-      "Oxygen",
-      "Carbon Dioxide",
-      "Hydrogen",
-      "Nitrogen"
-    ],
-    "correctAnswer": "Nitrogen",
-    "explanation": "Nitrogen is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42533,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of energy does a moving object have?",
-    "answers": [
-      "Kinetic energy",
-      "Potential energy",
-      "Chemical energy",
-      "Thermal energy"
-    ],
-    "correctAnswer": "Kinetic energy",
-    "explanation": "Kinetic energy is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42534,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What part of the atom has a positive electric charge?",
-    "answers": [
-      "Electron",
-      "Proton",
-      "Neutron",
-      "Nucleus"
-    ],
-    "correctAnswer": "Proton",
-    "explanation": "Proton is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42535,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What term describes a substance that speeds up a chemical reaction without being consumed?",
-    "answers": [
-      "Reactant",
-      "Product",
-      "Catalyst",
-      "Enzyme"
-    ],
-    "correctAnswer": "Catalyst",
-    "explanation": "Catalyst is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42536,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the name of the process by which liquid water turns into vapor?",
-    "answers": [
-      "Condensation",
-      "Sublimation",
-      "Precipitation",
-      "Evaporation"
-    ],
-    "correctAnswer": "Evaporation",
-    "explanation": "Evaporation is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42537,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What type of scientist studies weather and climate?",
-    "answers": [
-      "Meteorologist",
-      "Geologist",
-      "Biologist",
-      "Astronomer"
-    ],
-    "correctAnswer": "Meteorologist",
-    "explanation": "Meteorologist is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42538,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What unit is used to measure electric current?",
-    "answers": [
-      "Volt",
-      "Ampere",
-      "Ohm",
-      "Watt"
-    ],
-    "correctAnswer": "Ampere",
-    "explanation": "Ampere is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42539,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What part of the human body is responsible for producing red blood cells?",
-    "answers": [
-      "Heart",
-      "Liver",
-      "Bone marrow",
-      "Spleen"
-    ],
-    "correctAnswer": "Bone marrow",
-    "explanation": "Bone marrow is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42540,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of energy is stored in a stretched rubber band?",
-    "answers": [
-      "Kinetic energy",
-      "Thermal energy",
-      "Chemical energy",
-      "Elastic potential energy"
-    ],
-    "correctAnswer": "Elastic potential energy",
-    "explanation": "Elastic potential energy is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42541,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What layer of the Earth lies directly beneath the crust?",
-    "answers": [
-      "Mantle",
-      "Core",
-      "Outer core",
-      "Inner core"
-    ],
-    "correctAnswer": "Mantle",
-    "explanation": "Mantle is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42542,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the name of the galaxy that contains our solar system?",
-    "answers": [
-      "Andromeda",
-      "Milky Way",
-      "Triangulum",
-      "Sombrero"
-    ],
-    "correctAnswer": "Milky Way",
-    "explanation": "Milky Way is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42543,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What process causes water vapor to change into liquid droplets?",
-    "answers": [
-      "Evaporation",
-      "Freezing",
-      "Condensation",
-      "Sublimation"
-    ],
-    "correctAnswer": "Condensation",
-    "explanation": "Condensation is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42544,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What branch of biology focuses on the study of heredity?",
-    "answers": [
-      "Ecology",
-      "Botany",
-      "Zoology",
-      "Genetics"
-    ],
-    "correctAnswer": "Genetics",
-    "explanation": "Genetics is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42545,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What term describes the tendency of an object to resist changes in motion?",
-    "answers": [
-      "Inertia",
-      "Force",
-      "Acceleration",
-      "Velocity"
-    ],
-    "correctAnswer": "Inertia",
-    "explanation": "Inertia is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42546,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What instrument is used to measure earthquakes?",
-    "answers": [
-      "Barometer",
-      "Seismograph",
-      "Thermometer",
-      "Spectrometer"
-    ],
-    "correctAnswer": "Seismograph",
-    "explanation": "Seismograph is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42547,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the main function of the ozone layer?",
-    "answers": [
-      "Produce oxygen",
-      "Trap heat",
-      "Block harmful ultraviolet radiation",
-      "Create clouds"
-    ],
-    "correctAnswer": "Block harmful ultraviolet radiation",
-    "explanation": "Block harmful ultraviolet radiation is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42548,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What type of wave does not require a medium to travel?",
-    "answers": [
-      "Sound wave",
-      "Water wave",
-      "Mechanical wave",
-      "Electromagnetic wave"
-    ],
-    "correctAnswer": "Electromagnetic wave",
-    "explanation": "Electromagnetic wave is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42549,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What organ in the human body is primarily responsible for digestion?",
-    "answers": [
-      "Stomach",
-      "Heart",
-      "Lungs",
-      "Kidneys"
-    ],
-    "correctAnswer": "Stomach",
-    "explanation": "Stomach is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42550,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of simple machine is a ramp?",
-    "answers": [
-      "Lever",
-      "Inclined plane",
-      "Pulley",
-      "Wheel and axle"
-    ],
-    "correctAnswer": "Inclined plane",
-    "explanation": "Inclined plane is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42551,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What gas is essential for human respiration?",
-    "answers": [
-      "Nitrogen",
-      "Carbon Dioxide",
-      "Oxygen",
-      "Helium"
-    ],
-    "correctAnswer": "Oxygen",
-    "explanation": "Oxygen is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42552,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What planet has the strongest gravity in our solar system?",
-    "answers": [
-      "Earth",
-      "Saturn",
-      "Neptune",
-      "Jupiter"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Jupiter is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42553,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of rock forms from compressed layers of sediment?",
-    "answers": [
-      "Sedimentary",
-      "Igneous",
-      "Metamorphic",
-      "Volcanic"
-    ],
-    "correctAnswer": "Sedimentary",
-    "explanation": "Sedimentary is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42554,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the scientific term for an animal that is active during the night?",
-    "answers": [
-      "Diurnal",
-      "Nocturnal",
-      "Crepuscular",
-      "Herbivorous"
-    ],
-    "correctAnswer": "Nocturnal",
-    "explanation": "Nocturnal is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42555,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the name of the boundary between two tectonic plates?",
-    "answers": [
-      "Rift",
-      "Trench",
-      "Fault line",
-      "Crust"
-    ],
-    "correctAnswer": "Fault line",
-    "explanation": "Fault line is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42556,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What phenomenon causes light to bend when passing through different materials?",
-    "answers": [
-      "Reflection",
-      "Diffraction",
-      "Absorption",
-      "Refraction"
-    ],
-    "correctAnswer": "Refraction",
-    "explanation": "Refraction is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42557,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What part of the cell is responsible for energy production?",
-    "answers": [
-      "Mitochondria",
-      "Nucleus",
-      "Ribosome",
-      "Golgi apparatus"
-    ],
-    "correctAnswer": "Mitochondria",
-    "explanation": "Mitochondria is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42558,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the name of the process by which solids change directly into gas?",
-    "answers": [
-      "Evaporation",
-      "Sublimation",
-      "Condensation",
-      "Deposition"
-    ],
-    "correctAnswer": "Sublimation",
-    "explanation": "Sublimation is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42559,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of scientist studies fossils?",
-    "answers": [
-      "Biologist",
-      "Archaeologist",
-      "Paleontologist",
-      "Geologist"
-    ],
-    "correctAnswer": "Paleontologist",
-    "explanation": "Paleontologist is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42560,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What gas makes up most of the Sun?",
-    "answers": [
-      "Oxygen",
-      "Carbon Dioxide",
-      "Helium",
-      "Hydrogen"
-    ],
-    "correctAnswer": "Hydrogen",
-    "explanation": "Hydrogen is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42561,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What organ in the human body controls hormones?",
-    "answers": [
-      "Endocrine glands",
-      "Brain",
-      "Pancreas",
-      "Liver"
-    ],
-    "correctAnswer": "Endocrine glands",
-    "explanation": "Endocrine glands is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42562,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of energy is produced by moving electrons?",
-    "answers": [
-      "Thermal",
-      "Electrical",
-      "Chemical",
-      "Mechanical"
-    ],
-    "correctAnswer": "Electrical",
-    "explanation": "Electrical is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42563,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the main function of red blood cells?",
-    "answers": [
-      "Fight infection",
-      "Clot blood",
-      "Transport oxygen",
-      "Digest nutrients"
-    ],
-    "correctAnswer": "Transport oxygen",
-    "explanation": "Transport oxygen is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42564,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the chemical symbol for potassium?",
-    "answers": [
-      "P",
-      "Pt",
-      "Po",
-      "K"
-    ],
-    "correctAnswer": "K",
-    "explanation": "K is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42565,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What law states that for every action there is an equal and opposite reaction?",
-    "answers": [
-      "Newton's Third Law",
-      "Law of Inertia",
-      "Law of Acceleration",
-      "Law of Gravity"
-    ],
-    "correctAnswer": "Newton's Third Law",
-    "explanation": "Newton's Third Law is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42566,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What type of radiation is used in X-ray imaging?",
-    "answers": [
-      "Ultraviolet",
-      "X-ray",
-      "Gamma",
-      "Infrared"
-    ],
-    "correctAnswer": "X-ray",
-    "explanation": "X-ray is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42567,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What part of the plant transports water from roots to leaves?",
-    "answers": [
-      "Phloem",
-      "Stem",
-      "Xylem",
-      "Leaf vein"
-    ],
-    "correctAnswer": "Xylem",
-    "explanation": "Xylem is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42568,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the name of the force that opposes motion through a fluid?",
-    "answers": [
-      "Gravity",
-      "Friction",
-      "Lift",
-      "Drag"
-    ],
-    "correctAnswer": "Drag",
-    "explanation": "Drag is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42569,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What organ in the human body is responsible for removing waste from the blood?",
-    "answers": [
-      "Kidneys",
-      "Liver",
-      "Lungs",
-      "Pancreas"
-    ],
-    "correctAnswer": "Kidneys",
-    "explanation": "Kidneys is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42570,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of energy comes from the Sun?",
-    "answers": [
-      "Chemical",
-      "Solar",
-      "Nuclear",
-      "Mechanical"
-    ],
-    "correctAnswer": "Solar",
-    "explanation": "Solar is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42571,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What gas is needed for combustion to occur?",
-    "answers": [
-      "Nitrogen",
-      "Carbon Dioxide",
-      "Oxygen",
-      "Helium"
-    ],
-    "correctAnswer": "Oxygen",
-    "explanation": "Oxygen is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42572,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What layer of the atmosphere contains the ozone layer?",
-    "answers": [
-      "Troposphere",
-      "Mesosphere",
-      "Thermosphere",
-      "Stratosphere"
-    ],
-    "correctAnswer": "Stratosphere",
-    "explanation": "Stratosphere is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42573,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What part of the human skeleton protects the brain?",
-    "answers": [
-      "Skull",
-      "Ribs",
-      "Spine",
-      "Pelvis"
-    ],
-    "correctAnswer": "Skull",
-    "explanation": "Skull is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42574,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What term describes the change in frequency of a wave relative to an observer?",
-    "answers": [
-      "Refraction",
-      "Doppler effect",
-      "Interference",
-      "Resonance"
-    ],
-    "correctAnswer": "Doppler effect",
-    "explanation": "Doppler effect is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42575,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What type of bond involves the sharing of electrons between atoms?",
-    "answers": [
-      "Ionic bond",
-      "Hydrogen bond",
-      "Covalent bond",
-      "Metallic bond"
-    ],
-    "correctAnswer": "Covalent bond",
-    "explanation": "Covalent bond is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42576,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What organelle is responsible for protein synthesis in a cell?",
-    "answers": [
-      "Nucleus",
-      "Mitochondria",
-      "Lysosome",
-      "Ribosome"
-    ],
-    "correctAnswer": "Ribosome",
-    "explanation": "Ribosome is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42577,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What phenomenon explains why the sky appears blue?",
-    "answers": [
-      "Scattering",
-      "Reflection",
-      "Refraction",
-      "Diffusion"
-    ],
-    "correctAnswer": "Scattering",
-    "explanation": "Scattering is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42578,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the name of the process by which cells divide to produce two identical cells?",
-    "answers": [
-      "Meiosis",
-      "Mitosis",
-      "Fusion",
-      "Replication"
-    ],
-    "correctAnswer": "Mitosis",
-    "explanation": "Mitosis is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42579,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of animal has a backbone?",
-    "answers": [
-      "Invertebrate",
-      "Amphibian",
-      "Vertebrate",
-      "Reptile"
-    ],
-    "correctAnswer": "Vertebrate",
-    "explanation": "Vertebrate is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42580,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What part of the ear is responsible for hearing?",
-    "answers": [
-      "Eardrum",
-      "Ear canal",
-      "Auditory nerve",
-      "Cochlea"
-    ],
-    "correctAnswer": "Cochlea",
-    "explanation": "Cochlea is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42581,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What gas is commonly used to inflate balloons?",
-    "answers": [
-      "Helium",
-      "Oxygen",
-      "Hydrogen",
-      "Nitrogen"
-    ],
-    "correctAnswer": "Helium",
-    "explanation": "Helium is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42582,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of rock is marble?",
-    "answers": [
-      "Igneous",
-      "Metamorphic",
-      "Sedimentary",
-      "Volcanic"
-    ],
-    "correctAnswer": "Metamorphic",
-    "explanation": "Metamorphic is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42583,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What part of a plant anchors it in the ground?",
-    "answers": [
-      "Stem",
-      "Leaf",
-      "Root",
-      "Flower"
-    ],
-    "correctAnswer": "Root",
-    "explanation": "Root is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42584,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What law describes the relationship between pressure and volume of a gas?",
-    "answers": [
-      "Charles's Law",
-      "Newton's Law",
-      "Ohm's Law",
-      "Boyle's Law"
-    ],
-    "correctAnswer": "Boyle's Law",
-    "explanation": "Boyle's Law is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42585,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What type of electromagnetic wave has the shortest wavelength?",
-    "answers": [
-      "Gamma rays",
-      "Radio waves",
-      "Microwaves",
-      "X-rays"
-    ],
-    "correctAnswer": "Gamma rays",
-    "explanation": "Gamma rays is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42586,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What organ system controls movement and posture?",
-    "answers": [
-      "Digestive system",
-      "Muscular system",
-      "Nervous system",
-      "Circulatory system"
-    ],
-    "correctAnswer": "Muscular system",
-    "explanation": "Muscular system is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42587,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What chemical element has the atomic number 6?",
-    "answers": [
-      "Oxygen",
-      "Nitrogen",
-      "Carbon",
-      "Boron"
-    ],
-    "correctAnswer": "Carbon",
-    "explanation": "Carbon is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42588,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the name of the process that converts sugar into energy in cells?",
-    "answers": [
-      "Photosynthesis",
-      "Fermentation",
-      "Digestion",
-      "Respiration"
-    ],
-    "correctAnswer": "Respiration",
-    "explanation": "Respiration is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42589,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of energy is associated with an object’s position?",
-    "answers": [
-      "Potential energy",
-      "Kinetic energy",
-      "Thermal energy",
-      "Chemical energy"
-    ],
-    "correctAnswer": "Potential energy",
-    "explanation": "Potential energy is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42590,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What part of the human body produces bile?",
-    "answers": [
-      "Pancreas",
-      "Liver",
-      "Stomach",
-      "Gallbladder"
-    ],
-    "correctAnswer": "Liver",
-    "explanation": "Liver is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42591,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of organism makes its own food using sunlight?",
-    "answers": [
-      "Heterotroph",
-      "Decomposer",
-      "Autotroph",
-      "Parasite"
-    ],
-    "correctAnswer": "Autotroph",
-    "explanation": "Autotroph is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42592,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What planet has the most moons in our solar system?",
-    "answers": [
-      "Earth",
-      "Jupiter",
-      "Neptune",
-      "Saturn"
-    ],
-    "correctAnswer": "Saturn",
-    "explanation": "Saturn is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42593,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of weather instrument measures wind speed?",
-    "answers": [
-      "Anemometer",
-      "Barometer",
-      "Thermometer",
-      "Hygrometer"
-    ],
-    "correctAnswer": "Anemometer",
-    "explanation": "Anemometer is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42594,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What term describes a solution that cannot dissolve any more solute?",
-    "answers": [
-      "Dilute",
-      "Saturated",
-      "Unsaturated",
-      "Supersaturated"
-    ],
-    "correctAnswer": "Saturated",
-    "explanation": "Saturated is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42595,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What type of blood vessel carries blood away from the heart?",
-    "answers": [
-      "Vein",
-      "Capillary",
-      "Artery",
-      "Venule"
-    ],
-    "correctAnswer": "Artery",
-    "explanation": "Artery is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42596,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What phenomenon causes a moving sound source to change pitch?",
-    "answers": [
-      "Echo",
-      "Resonance",
-      "Interference",
-      "Doppler effect"
-    ],
-    "correctAnswer": "Doppler effect",
-    "explanation": "Doppler effect is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42597,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What part of the atom determines its chemical behavior?",
-    "answers": [
-      "Electrons",
-      "Protons",
-      "Neutrons",
-      "Nucleus"
-    ],
-    "correctAnswer": "Electrons",
-    "explanation": "Electrons is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42598,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the name of the process by which plants lose water through their leaves?",
-    "answers": [
-      "Respiration",
-      "Transpiration",
-      "Evaporation",
-      "Osmosis"
-    ],
-    "correctAnswer": "Transpiration",
-    "explanation": "Transpiration is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42599,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of scientist studies the Earth’s physical structure?",
-    "answers": [
-      "Astronomer",
-      "Meteorologist",
-      "Geologist",
-      "Ecologist"
-    ],
-    "correctAnswer": "Geologist",
-    "explanation": "Geologist is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42600,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the main function of the lungs?",
-    "answers": [
-      "Pump blood",
-      "Digest food",
-      "Filter waste",
-      "Exchange gases"
-    ],
-    "correctAnswer": "Exchange gases",
-    "explanation": "Exchange gases is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42601,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of energy is stored in fossil fuels?",
-    "answers": [
-      "Chemical",
-      "Mechanical",
-      "Thermal",
-      "Nuclear"
-    ],
-    "correctAnswer": "Chemical",
-    "explanation": "Chemical is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42602,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What layer of the Earth is the hottest?",
-    "answers": [
-      "Crust",
-      "Inner core",
-      "Mantle",
-      "Outer core"
-    ],
-    "correctAnswer": "Inner core",
-    "explanation": "Inner core is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42603,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the main source of energy for life on Earth?",
-    "answers": [
-      "Wind",
-      "Water",
-      "The Sun",
-      "Electricity"
-    ],
-    "correctAnswer": "The Sun",
-    "explanation": "The Sun is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42604,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What term describes an organism that breaks down dead matter?",
-    "answers": [
-      "Producer",
-      "Consumer",
-      "Parasite",
-      "Decomposer"
-    ],
-    "correctAnswer": "Decomposer",
-    "explanation": "Decomposer is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42605,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What law explains why a satellite stays in orbit?",
-    "answers": [
-      "Law of Gravity",
-      "Law of Inertia",
-      "Law of Conservation of Energy",
-      "Newton's First Law"
-    ],
-    "correctAnswer": "Law of Gravity",
-    "explanation": "Law of Gravity is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42606,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What part of the brain is responsible for conscious thought?",
-    "answers": [
-      "Cerebellum",
-      "Cerebrum",
-      "Medulla",
-      "Brainstem"
-    ],
-    "correctAnswer": "Cerebrum",
-    "explanation": "Cerebrum is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42607,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the term for the total mass of all organisms in an area?",
-    "answers": [
-      "Population",
-      "Community",
-      "Biomass",
-      "Biome"
-    ],
-    "correctAnswer": "Biomass",
-    "explanation": "Biomass is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42608,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What process converts atmospheric nitrogen into a form plants can use?",
-    "answers": [
-      "Photosynthesis",
-      "Respiration",
-      "Decomposition",
-      "Nitrogen fixation"
-    ],
-    "correctAnswer": "Nitrogen fixation",
-    "explanation": "Nitrogen fixation is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42609,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of blood cell is responsible for clotting?",
-    "answers": [
-      "Platelets",
-      "Red blood cells",
-      "White blood cells",
-      "Plasma"
-    ],
-    "correctAnswer": "Platelets",
-    "explanation": "Platelets is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42610,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What force keeps planets moving around the Sun?",
-    "answers": [
-      "Magnetism",
-      "Gravity",
-      "Friction",
-      "Inertia"
-    ],
-    "correctAnswer": "Gravity",
-    "explanation": "Gravity is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42611,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What part of the human body regulates body temperature?",
-    "answers": [
-      "Heart",
-      "Liver",
-      "Skin",
-      "Lungs"
-    ],
-    "correctAnswer": "Skin",
-    "explanation": "Skin is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42612,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of energy is produced by vibrating objects?",
-    "answers": [
-      "Light energy",
-      "Thermal energy",
-      "Electrical energy",
-      "Sound energy"
-    ],
-    "correctAnswer": "Sound energy",
-    "explanation": "Sound energy is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42613,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the main function of the large intestine?",
-    "answers": [
-      "Absorb water",
-      "Digest nutrients",
-      "Produce enzymes",
-      "Pump blood"
-    ],
-    "correctAnswer": "Absorb water",
-    "explanation": "Absorb water is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42614,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What term describes the speed of an object in a given direction?",
-    "answers": [
-      "Speed",
-      "Velocity",
-      "Acceleration",
-      "Momentum"
-    ],
-    "correctAnswer": "Velocity",
-    "explanation": "Velocity is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42615,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the smallest particle of an element that retains its properties?",
-    "answers": [
-      "Molecule",
-      "Ion",
-      "Atom",
-      "Electron"
-    ],
-    "correctAnswer": "Atom",
-    "explanation": "Atom is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42616,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What type of cell division produces reproductive cells?",
-    "answers": [
-      "Mitosis",
-      "Binary fission",
-      "Budding",
-      "Meiosis"
-    ],
-    "correctAnswer": "Meiosis",
-    "explanation": "Meiosis is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42617,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What phenomenon causes objects to float or sink in a fluid?",
-    "answers": [
-      "Buoyancy",
-      "Gravity",
-      "Density",
-      "Pressure"
-    ],
-    "correctAnswer": "Buoyancy",
-    "explanation": "Buoyancy is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42618,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What scientific term describes heat transfer through direct contact?",
-    "answers": [
-      "Radiation",
-      "Conduction",
-      "Convection",
-      "Insulation"
-    ],
-    "correctAnswer": "Conduction",
-    "explanation": "Conduction is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42619,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What organ in the human body produces urine?",
-    "answers": [
-      "Bladder",
-      "Liver",
-      "Kidneys",
-      "Pancreas"
-    ],
-    "correctAnswer": "Kidneys",
-    "explanation": "Kidneys is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42620,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of star is the Sun?",
-    "answers": [
-      "Red giant",
-      "White dwarf",
-      "Neutron star",
-      "Yellow dwarf"
-    ],
-    "correctAnswer": "Yellow dwarf",
-    "explanation": "Yellow dwarf is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42621,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What simple machine is a seesaw an example of?",
-    "answers": [
-      "Lever",
-      "Pulley",
-      "Inclined plane",
-      "Wheel and axle"
-    ],
-    "correctAnswer": "Lever",
-    "explanation": "Lever is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42622,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What gas is released when hydrogen burns in oxygen?",
-    "answers": [
-      "Oxygen",
-      "Water vapor",
-      "Hydrogen",
-      "Carbon dioxide"
-    ],
-    "correctAnswer": "Water vapor",
-    "explanation": "Water vapor is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42623,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What part of the human body contains the smallest bones?",
-    "answers": [
-      "Hand",
-      "Foot",
-      "Ear",
-      "Spine"
-    ],
-    "correctAnswer": "Ear",
-    "explanation": "Ear is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42624,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What term describes the total number of protons in an atom?",
-    "answers": [
-      "Atomic mass",
-      "Mass number",
-      "Isotope number",
-      "Atomic number"
-    ],
-    "correctAnswer": "Atomic number",
-    "explanation": "Atomic number is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42625,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What type of cloud is associated with thunderstorms?",
-    "answers": [
-      "Cumulonimbus",
-      "Stratus",
-      "Cirrus",
-      "Altostratus"
-    ],
-    "correctAnswer": "Cumulonimbus",
-    "explanation": "Cumulonimbus is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42626,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What principle explains why airplanes can fly?",
-    "answers": [
-      "Newton's First Law",
-      "Bernoulli's principle",
-      "Law of Gravity",
-      "Ohm's Law"
-    ],
-    "correctAnswer": "Bernoulli's principle",
-    "explanation": "Bernoulli's principle is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42627,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What part of the nervous system controls involuntary actions?",
-    "answers": [
-      "Central nervous system",
-      "Peripheral nervous system",
-      "Autonomic nervous system",
-      "Somatic nervous system"
-    ],
-    "correctAnswer": "Autonomic nervous system",
-    "explanation": "Autonomic nervous system is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42628,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the term for a group of atoms bonded together?",
-    "answers": [
-      "Element",
-      "Compound",
-      "Mixture",
-      "Molecule"
-    ],
-    "correctAnswer": "Molecule",
-    "explanation": "Molecule is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42629,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What organ in the human body stores bile?",
-    "answers": [
-      "Gallbladder",
-      "Liver",
-      "Pancreas",
-      "Stomach"
-    ],
-    "correctAnswer": "Gallbladder",
-    "explanation": "Gallbladder is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42630,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of energy travels in waves and can move through empty space?",
-    "answers": [
-      "Sound energy",
-      "Electromagnetic energy",
-      "Mechanical energy",
-      "Chemical energy"
-    ],
-    "correctAnswer": "Electromagnetic energy",
-    "explanation": "Electromagnetic energy is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42631,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What layer of the Earth is composed mainly of iron and nickel?",
-    "answers": [
-      "Crust",
-      "Mantle",
-      "Core",
-      "Lithosphere"
-    ],
-    "correctAnswer": "Core",
-    "explanation": "Core is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42632,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What process allows plants to absorb water through their roots?",
-    "answers": [
-      "Transpiration",
-      "Photosynthesis",
-      "Diffusion",
-      "Osmosis"
-    ],
-    "correctAnswer": "Osmosis",
-    "explanation": "Osmosis is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42633,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What part of the human brain controls breathing and heart rate?",
-    "answers": [
-      "Medulla",
-      "Cerebrum",
-      "Cerebellum",
-      "Thalamus"
-    ],
-    "correctAnswer": "Medulla",
-    "explanation": "Medulla is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42634,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What law describes how the force between two electric charges changes with distance?",
-    "answers": [
-      "Ohm's Law",
-      "Coulomb's Law",
-      "Faraday's Law",
-      "Ampere's Law"
-    ],
-    "correctAnswer": "Coulomb's Law",
-    "explanation": "Coulomb's Law is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42635,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What type of reaction absorbs energy from its surroundings?",
-    "answers": [
-      "Exothermic",
-      "Catalytic",
-      "Endothermic",
-      "Neutral"
-    ],
-    "correctAnswer": "Endothermic",
-    "explanation": "Endothermic is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42636,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the name of the pigment that gives plants their green color?",
-    "answers": [
-      "Carotene",
-      "Melanin",
-      "Hemoglobin",
-      "Chlorophyll"
-    ],
-    "correctAnswer": "Chlorophyll",
-    "explanation": "Chlorophyll is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42637,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What term describes the movement of molecules from high to low concentration?",
-    "answers": [
-      "Diffusion",
-      "Osmosis",
-      "Active transport",
-      "Filtration"
-    ],
-    "correctAnswer": "Diffusion",
-    "explanation": "Diffusion is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42638,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What scientific instrument is used to study stars and galaxies?",
-    "answers": [
-      "Microscope",
-      "Telescope",
-      "Spectrometer",
-      "Accelerometer"
-    ],
-    "correctAnswer": "Telescope",
-    "explanation": "Telescope is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42639,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What part of the human body produces adrenaline?",
-    "answers": [
-      "Thyroid",
-      "Pancreas",
-      "Adrenal glands",
-      "Pituitary gland"
-    ],
-    "correctAnswer": "Adrenal glands",
-    "explanation": "Adrenal glands is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42640,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What type of rock is formed by heat and pressure?",
-    "answers": [
-      "Igneous",
-      "Sedimentary",
-      "Volcanic",
-      "Metamorphic"
-    ],
-    "correctAnswer": "Metamorphic",
-    "explanation": "Metamorphic is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42641,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the main function of the circulatory system?",
-    "answers": [
-      "Transport nutrients and oxygen",
-      "Digest food",
-      "Remove waste",
-      "Control movement"
-    ],
-    "correctAnswer": "Transport nutrients and oxygen",
-    "explanation": "Transport nutrients and oxygen is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42642,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What gas is produced by animals during respiration?",
-    "answers": [
-      "Oxygen",
-      "Carbon Dioxide",
-      "Nitrogen",
-      "Hydrogen"
-    ],
-    "correctAnswer": "Carbon Dioxide",
-    "explanation": "Carbon Dioxide is the correct answer.",
-    "tags": [
-      "science",
-      "medium"
-    ]
-  },
-  {
-    "id": 42643,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What term describes the bending of waves around obstacles?",
-    "answers": [
-      "Reflection",
-      "Refraction",
-      "Diffraction",
-      "Interference"
-    ],
-    "correctAnswer": "Diffraction",
-    "explanation": "Diffraction is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42644,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What type of organism feeds on dead organic matter?",
-    "answers": [
-      "Producer",
-      "Consumer",
-      "Scavenger",
-      "Decomposer"
-    ],
-    "correctAnswer": "Decomposer",
-    "explanation": "Decomposer is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42645,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What part of the cell regulates what enters and leaves the cell?",
-    "answers": [
-      "Cell membrane",
-      "Nucleus",
-      "Cytoplasm",
-      "Cell wall"
-    ],
-    "correctAnswer": "Cell membrane",
-    "explanation": "Cell membrane is the correct answer.",
-    "tags": [
-      "science",
-      "hard"
-    ]
-  },
-  {
-    "id": 42646,
-    "category": "science",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "What is the name of the scale used to measure the acidity of a solution?",
-    "answers": [
-      "Richter scale",
       "pH scale",
-      "Kelvin scale",
-      "Fahrenheit scale"
+      "covalent bond",
+      "osmosis",
+      "isotope"
     ],
     "correctAnswer": "pH scale",
-    "explanation": "pH scale is the correct answer.",
+    "explanation": "pH scale fits this profile because it is associated with hydrogen ion concentration and described as scale measuring acidity or alkalinity.",
     "tags": [
       "science",
-      "hard"
+      "profile",
+      "chemistry"
     ]
   },
   {
-    "id": 42647,
-    "category": "science",
+    "id": 44705,
+    "category": "Science",
     "premium": true,
-    "difficulty": "hard",
-    "text": "What term describes a change in an organism caused by its environment?",
+    "difficulty": "medium",
+    "text": "Which science profile combines igneous, sedimentary, metamorphic with processes that transform rocks between major types?",
     "answers": [
-      "Mutation",
-      "Evolution",
-      "Adaptation",
-      "Variation"
+      "rock cycle",
+      "atom",
+      "bacteria",
+      "RNA"
     ],
-    "correctAnswer": "Adaptation",
-    "explanation": "Adaptation is the correct answer.",
+    "correctAnswer": "rock cycle",
+    "explanation": "rock cycle fits this profile because it is associated with igneous, sedimentary, metamorphic and described as processes that transform rocks between major types.",
     "tags": [
       "science",
-      "hard"
+      "profile",
+      "earth science"
     ]
   },
   {
-    "id": 42648,
-    "category": "science",
+    "id": 44706,
+    "category": "Science",
     "premium": true,
-    "difficulty": "medium",
-    "text": "What part of the human body is responsible for vision?",
+    "difficulty": "hard",
+    "text": "In a competitive science trivia round, which fact correctly matches energy?",
     "answers": [
-      "Brain",
-      "Optic nerve",
-      "Retina",
-      "Eyes"
+      "capacity to do work",
+      "positively charged particle in an atomic nucleus",
+      "testable explanation for observations",
+      "rate of change of velocity"
     ],
-    "correctAnswer": "Eyes",
-    "explanation": "Eyes is the correct answer.",
+    "correctAnswer": "capacity to do work",
+    "explanation": "The correct match for energy is: capacity to do work.",
     "tags": [
       "science",
-      "medium"
+      "knowledge-match",
+      "physics"
     ]
   },
   {
-    "id": 42649,
-    "category": "science",
+    "id": 44707,
+    "category": "Science",
     "premium": true,
-    "difficulty": "medium",
-    "text": "What type of energy is associated with heat?",
+    "difficulty": "easy",
+    "text": "Which scientific context is strongly associated with star?",
     "answers": [
-      "Thermal energy",
-      "Chemical energy",
-      "Mechanical energy",
-      "Electrical energy"
+      "mass and distance",
+      "active site",
+      "stellar energy",
+      "solar orbit"
     ],
-    "correctAnswer": "Thermal energy",
-    "explanation": "Thermal energy is the correct answer.",
+    "correctAnswer": "stellar energy",
+    "explanation": "star is strongly associated with stellar energy.",
     "tags": [
       "science",
-      "medium"
+      "context",
+      "astronomy"
     ]
   },
   {
-    "id": 42650,
-    "category": "science",
+    "id": 44708,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What gas is essential for photosynthesis?",
+    "text": "Which science profile combines physics with circuit control?",
     "answers": [
-      "Oxygen",
-      "Carbon Dioxide",
-      "Nitrogen",
-      "Hydrogen"
+      "resistance",
+      "momentum",
+      "enzyme",
+      "exoplanet"
     ],
-    "correctAnswer": "Carbon Dioxide",
-    "explanation": "Carbon Dioxide is the correct answer.",
+    "correctAnswer": "resistance",
+    "explanation": "resistance matches that profile through physics and circuit control.",
     "tags": [
       "science",
-      "medium"
+      "profile",
+      "physics"
     ]
   },
   {
-    "id": 42651,
-    "category": "science",
+    "id": 44709,
+    "category": "Science",
     "premium": true,
-    "difficulty": "medium",
-    "text": "What part of the atom has no electric charge?",
+    "difficulty": "hard",
+    "text": "Which science profile combines scientific method with testing relationships?",
     "answers": [
-      "Electron",
-      "Proton",
-      "Neutron",
-      "Nucleus"
+      "resistance",
+      "gravity",
+      "variable",
+      "mitochondria"
     ],
-    "correctAnswer": "Neutron",
-    "explanation": "Neutron is the correct answer.",
+    "correctAnswer": "variable",
+    "explanation": "variable matches that profile through scientific method and testing relationships.",
     "tags": [
       "science",
-      "medium"
+      "profile",
+      "scientific method"
     ]
   },
   {
-    "id": 42652,
-    "category": "science",
+    "id": 44710,
+    "category": "Science",
     "premium": true,
-    "difficulty": "medium",
-    "text": "What natural process turns liquid water into ice?",
+    "difficulty": "easy",
+    "text": "Which science profile combines surface contact with force opposing motion between surfaces?",
     "answers": [
-      "Condensation",
-      "Evaporation",
-      "Sublimation",
-      "Freezing"
+      "light-year",
+      "proton",
+      "friction",
+      "supernova"
     ],
-    "correctAnswer": "Freezing",
-    "explanation": "Freezing is the correct answer.",
+    "correctAnswer": "friction",
+    "explanation": "friction fits this profile because it is associated with surface contact and described as force opposing motion between surfaces.",
     "tags": [
       "science",
-      "medium"
+      "profile",
+      "physics"
     ]
   },
   {
-    "id": 42653,
-    "category": "science",
+    "id": 44711,
+    "category": "Science",
     "premium": true,
-    "difficulty": "hard",
-    "text": "What term describes the splitting of an atom’s nucleus?",
+    "difficulty": "medium",
+    "text": "Which science profile combines chemistry with electron transfer?",
     "answers": [
-      "Fission",
-      "Fusion",
-      "Radiation",
-      "Ionization"
+      "spectrometer",
+      "peer review",
+      "oxidation",
+      "friction"
     ],
-    "correctAnswer": "Fission",
-    "explanation": "Fission is the correct answer.",
+    "correctAnswer": "oxidation",
+    "explanation": "oxidation matches that profile through chemistry and electron transfer.",
     "tags": [
       "science",
-      "hard"
+      "profile",
+      "chemistry"
     ]
   },
   {
-    "id": 42654,
-    "category": "science",
+    "id": 44712,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What scientific law relates voltage, current, and resistance?",
+    "text": "Which science term is best described as number of wave cycles per second?",
     "answers": [
-      "Newton's Law",
-      "Ohm's Law",
-      "Faraday's Law",
-      "Coulomb's Law"
+      "frequency",
+      "hormone",
+      "keystone species",
+      "acceleration"
     ],
-    "correctAnswer": "Ohm's Law",
-    "explanation": "Ohm's Law is the correct answer.",
+    "correctAnswer": "frequency",
+    "explanation": "frequency is best described as number of wave cycles per second.",
     "tags": [
       "science",
-      "hard"
+      "terms",
+      "physics"
     ]
   },
   {
-    "id": 42655,
-    "category": "science",
+    "id": 44713,
+    "category": "Science",
     "premium": true,
-    "difficulty": "hard",
-    "text": "What part of the brain processes sensory information?",
+    "difficulty": "easy",
+    "text": "Which scientific context is strongly associated with force?",
     "answers": [
-      "Cerebellum",
-      "Medulla",
-      "Thalamus",
-      "Brainstem"
+      "Newton's laws",
+      "quality control",
+      "infection",
+      "ecosystem resilience"
     ],
-    "correctAnswer": "Thalamus",
-    "explanation": "Thalamus is the correct answer.",
+    "correctAnswer": "Newton's laws",
+    "explanation": "force is strongly associated with Newton's laws.",
     "tags": [
       "science",
-      "hard"
+      "context",
+      "physics"
     ]
   },
   {
-    "id": 42656,
-    "category": "science",
+    "id": 44714,
+    "category": "Science",
     "premium": true,
-    "difficulty": "hard",
-    "text": "What term describes the gradual change of species over time?",
+    "difficulty": "medium",
+    "text": "Which science profile combines ecological balance with a species with a large effect on its ecosystem?",
     "answers": [
-      "Adaptation",
-      "Mutation",
-      "Selection",
-      "Evolution"
+      "planet",
+      "spectrometer",
+      "keystone species",
+      "acid"
     ],
-    "correctAnswer": "Evolution",
-    "explanation": "Evolution is the correct answer.",
+    "correctAnswer": "keystone species",
+    "explanation": "keystone species fits this profile because it is associated with ecological balance and described as a species with a large effect on its ecosystem.",
     "tags": [
       "science",
-      "hard"
+      "profile",
+      "ecology"
     ]
   },
   {
-    "id": 42657,
-    "category": "science",
+    "id": 44715,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What scientific term describes the amount of matter in an object?",
+    "text": "Which science profile combines biology with cellular transport?",
     "answers": [
-      "Mass",
-      "Volume",
-      "Density",
-      "Weight"
+      "water cycle",
+      "moon",
+      "molecule",
+      "osmosis"
     ],
-    "correctAnswer": "Mass",
-    "explanation": "Mass is the correct answer.",
+    "correctAnswer": "osmosis",
+    "explanation": "osmosis matches that profile through biology and cellular transport.",
     "tags": [
       "science",
-      "hard"
+      "profile",
+      "biology"
     ]
   },
   {
-    "id": 42658,
-    "category": "science",
+    "id": 44716,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines biology with adaptation?",
+    "answers": [
+      "light-year",
+      "natural selection",
+      "proton",
+      "variable"
+    ],
+    "correctAnswer": "natural selection",
+    "explanation": "natural selection matches that profile through biology and adaptation.",
+    "tags": [
+      "science",
+      "profile",
+      "biology"
+    ]
+  },
+  {
+    "id": 44717,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #1",
+    "text": "Which idea is most connected to momentum?",
     "answers": [
-      "Neutron",
-      "Electron",
-      "Proton",
-      "Photon"
+      "acid-base chemistry",
+      "global water movement",
+      "interaction and motion",
+      "motion transfer"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "motion transfer",
+    "explanation": "momentum is closely connected to motion transfer.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "physics"
     ]
   },
   {
-    "id": 42659,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #2",
-    "answers": [
-      "Mars",
-      "Neptune",
-      "Jupiter",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42660,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #3",
-    "answers": [
-      "Fe",
-      "Ag",
-      "Pb",
-      "Au"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42661,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #4",
-    "answers": [
-      "Electron",
-      "Neutron",
-      "Photon",
-      "Proton"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42662,
-    "category": "science",
+    "id": 44718,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #5",
+    "text": "In a competitive science trivia round, which fact correctly matches hormone?",
     "answers": [
-      "Mars",
-      "Jupiter",
-      "Neptune",
-      "Saturn"
+      "rate of change of velocity",
+      "chemical messenger carried through the body",
+      "number of wave cycles per second",
+      "energy of motion"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "chemical messenger carried through the body",
+    "explanation": "The correct match for hormone is: chemical messenger carried through the body.",
     "tags": [
-      "science"
+      "science",
+      "knowledge-match",
+      "biology"
     ]
   },
   {
-    "id": 42663,
-    "category": "science",
+    "id": 44719,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which idea is most connected to planet?",
+    "answers": [
+      "world classification",
+      "orbits and falling objects",
+      "driving current",
+      "light and radiation"
+    ],
+    "correctAnswer": "world classification",
+    "explanation": "planet is closely connected to world classification.",
+    "tags": [
+      "science",
+      "concepts",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44720,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #6",
+    "text": "Which science profile combines ions with bond formed by electron transfer between atoms?",
     "answers": [
-      "Ag",
-      "Fe",
-      "Au",
-      "Pb"
+      "atom",
+      "ionic bond",
+      "force",
+      "resistance"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "ionic bond",
+    "explanation": "ionic bond fits this profile because it is associated with ions and described as bond formed by electron transfer between atoms.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "chemistry"
     ]
   },
   {
-    "id": 42664,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #7",
-    "answers": [
-      "Neutron",
-      "Proton",
-      "Photon",
-      "Electron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42665,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #8",
-    "answers": [
-      "Jupiter",
-      "Saturn",
-      "Mars",
-      "Neptune"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42666,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #9",
-    "answers": [
-      "Ag",
-      "Au",
-      "Fe",
-      "Pb"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42667,
-    "category": "science",
+    "id": 44721,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #10",
+    "text": "Which molecule stores genetic information in most living organisms?",
     "answers": [
-      "Proton",
-      "Neutron",
-      "Electron",
-      "Photon"
+      "Glucose",
+      "DNA",
+      "RNA",
+      "ATP"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "DNA",
+    "explanation": "DNA stores genetic information in most living organisms.",
     "tags": [
-      "science"
+      "science",
+      "biology",
+      "genetics"
     ]
   },
   {
-    "id": 42668,
-    "category": "science",
+    "id": 44722,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which idea is most connected to ribosome?",
+    "answers": [
+      "sediment formation",
+      "stored capacity",
+      "sample processing",
+      "amino acid assembly"
+    ],
+    "correctAnswer": "amino acid assembly",
+    "explanation": "ribosome is closely connected to amino acid assembly.",
+    "tags": [
+      "science",
+      "concepts",
+      "biology"
+    ]
+  },
+  {
+    "id": 44723,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #11",
+    "text": "Which field of science is most closely linked to kinetic energy?",
     "answers": [
-      "Saturn",
-      "Mars",
-      "Neptune",
-      "Jupiter"
+      "astronomy",
+      "physics",
+      "earth science",
+      "scientific tools"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "physics",
+    "explanation": "kinetic energy is most closely linked here to physics.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "physics"
     ]
   },
   {
-    "id": 42669,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #12",
-    "answers": [
-      "Au",
-      "Pb",
-      "Ag",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42670,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #13",
-    "answers": [
-      "Proton",
-      "Electron",
-      "Neutron",
-      "Photon"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42671,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #14",
-    "answers": [
-      "Saturn",
-      "Neptune",
-      "Jupiter",
-      "Mars"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42672,
-    "category": "science",
+    "id": 44724,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #15",
+    "text": "Which idea is most connected to plate tectonics?",
     "answers": [
-      "Ag",
-      "Pb",
-      "Fe",
-      "Au"
+      "earthquakes and mountains",
+      "astronomical scale",
+      "attraction and repulsion",
+      "past organisms"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "earthquakes and mountains",
+    "explanation": "plate tectonics is closely connected to earthquakes and mountains.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "earth science"
     ]
   },
   {
-    "id": 42673,
-    "category": "science",
+    "id": 44725,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines physics with physical change?",
+    "answers": [
+      "enzyme",
+      "ecosystem",
+      "energy",
+      "sound wave"
+    ],
+    "correctAnswer": "energy",
+    "explanation": "energy matches that profile through physics and physical change.",
+    "tags": [
+      "science",
+      "profile",
+      "physics"
+    ]
+  },
+  {
+    "id": 44726,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #16",
+    "text": "Which idea is most connected to refraction?",
     "answers": [
-      "Electron",
-      "Photon",
-      "Neutron",
-      "Proton"
+      "disease prevention",
+      "change in speed",
+      "planetary protection",
+      "motion transfer"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "change in speed",
+    "explanation": "refraction is closely connected to change in speed.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "physics"
     ]
   },
   {
-    "id": 42674,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #17",
-    "answers": [
-      "Mars",
-      "Jupiter",
-      "Saturn",
-      "Neptune"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42675,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #18",
-    "answers": [
-      "Ag",
-      "Pb",
-      "Au",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42676,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #19",
-    "answers": [
-      "Photon",
-      "Neutron",
-      "Proton",
-      "Electron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42677,
-    "category": "science",
+    "id": 44727,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #20",
+    "text": "In a competitive science trivia round, which fact correctly matches galaxy?",
     "answers": [
-      "Jupiter",
-      "Neptune",
-      "Saturn",
-      "Mars"
+      "large system of stars, gas, dust, and dark matter",
+      "bending of waves as they enter a new medium",
+      "testable explanation for observations",
+      "sudden shaking from movement along faults"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "large system of stars, gas, dust, and dark matter",
+    "explanation": "The correct match for galaxy is: large system of stars, gas, dust, and dark matter.",
     "tags": [
-      "science"
+      "science",
+      "knowledge-match",
+      "astronomy"
     ]
   },
   {
-    "id": 42678,
-    "category": "science",
+    "id": 44728,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which idea is most connected to solution?",
+    "answers": [
+      "frequency relationship",
+      "eruptions",
+      "homogeneous mixtures",
+      "carbon exchange"
+    ],
+    "correctAnswer": "homogeneous mixtures",
+    "explanation": "solution is closely connected to homogeneous mixtures.",
+    "tags": [
+      "science",
+      "concepts",
+      "chemistry"
+    ]
+  },
+  {
+    "id": 44729,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #21",
+    "text": "Which field of science is most closely linked to hypothesis?",
     "answers": [
-      "Pb",
-      "Au",
-      "Ag",
-      "Fe"
+      "physics",
+      "earth science",
+      "scientific method",
+      "medicine"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "scientific method",
+    "explanation": "hypothesis is most closely linked here to scientific method.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "scientific method"
     ]
   },
   {
-    "id": 42679,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #22",
-    "answers": [
-      "Proton",
-      "Photon",
-      "Electron",
-      "Neutron"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42680,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #23",
-    "answers": [
-      "Saturn",
-      "Mars",
-      "Neptune",
-      "Jupiter"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42681,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #24",
-    "answers": [
-      "Au",
-      "Fe",
-      "Ag",
-      "Pb"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42682,
-    "category": "science",
+    "id": 44730,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #25",
+    "text": "Which science term is best described as instrument used to measure air pressure?",
     "answers": [
-      "Neutron",
-      "Electron",
-      "Proton",
-      "Photon"
+      "barometer",
+      "mutation",
+      "energy",
+      "star"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "barometer",
+    "explanation": "barometer is best described as instrument used to measure air pressure.",
     "tags": [
-      "science"
+      "science",
+      "terms",
+      "scientific tools"
     ]
   },
   {
-    "id": 42683,
-    "category": "science",
+    "id": 44731,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines bacteria with drug used to treat bacterial infections?",
+    "answers": [
+      "antibiotic",
+      "ecosystem",
+      "peer review",
+      "solution"
+    ],
+    "correctAnswer": "antibiotic",
+    "explanation": "antibiotic fits this profile because it is associated with bacteria and described as drug used to treat bacterial infections.",
+    "tags": [
+      "science",
+      "profile",
+      "medicine"
+    ]
+  },
+  {
+    "id": 44732,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #26",
+    "text": "Which field of science is most closely linked to supernova?",
     "answers": [
-      "Mars",
-      "Saturn",
-      "Jupiter",
-      "Neptune"
+      "medicine",
+      "earth science",
+      "scientific method",
+      "astronomy"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "astronomy",
+    "explanation": "supernova is most closely linked here to astronomy.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "astronomy"
     ]
   },
   {
-    "id": 42684,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #27",
-    "answers": [
-      "Ag",
-      "Pb",
-      "Fe",
-      "Au"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42685,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #28",
-    "answers": [
-      "Electron",
-      "Neutron",
-      "Proton",
-      "Photon"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42686,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #29",
-    "answers": [
-      "Saturn",
-      "Jupiter",
-      "Mars",
-      "Neptune"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42687,
-    "category": "science",
+    "id": 44733,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What is the chemical symbol for gold? #30",
+    "text": "Which field of science is most closely linked to nebula?",
     "answers": [
-      "Fe",
-      "Pb",
-      "Au",
-      "Ag"
+      "ecology",
+      "astronomy",
+      "physics",
+      "medicine"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "astronomy",
+    "explanation": "nebula is most closely linked here to astronomy.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "astronomy"
     ]
   },
   {
-    "id": 42688,
-    "category": "science",
+    "id": 44734,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a competitive science trivia round, which fact correctly matches virus?",
+    "answers": [
+      "negatively charged particle around an atom",
+      "the basic unit of an element",
+      "infectious agent that replicates inside host cells",
+      "massive glowing ball of plasma powered by nuclear fusion"
+    ],
+    "correctAnswer": "infectious agent that replicates inside host cells",
+    "explanation": "The correct match for virus is: infectious agent that replicates inside host cells.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "medicine"
+    ]
+  },
+  {
+    "id": 44735,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #31",
+    "text": "Which field of science is most closely linked to volcano?",
     "answers": [
-      "Photon",
-      "Neutron",
-      "Proton",
-      "Electron"
+      "ecology",
+      "earth science",
+      "chemistry",
+      "medicine"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "earth science",
+    "explanation": "volcano is most closely linked here to earth science.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "earth science"
     ]
   },
   {
-    "id": 42689,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #32",
-    "answers": [
-      "Jupiter",
-      "Neptune",
-      "Mars",
-      "Saturn"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42690,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #33",
-    "answers": [
-      "Ag",
-      "Au",
-      "Pb",
-      "Fe"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42691,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #34",
-    "answers": [
-      "Photon",
-      "Neutron",
-      "Electron",
-      "Proton"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42692,
-    "category": "science",
+    "id": 44736,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #35",
+    "text": "Which scientific context is strongly associated with magnetism?",
     "answers": [
-      "Mars",
-      "Saturn",
-      "Neptune",
-      "Jupiter"
+      "circuits",
+      "poles and fields",
+      "water balance",
+      "seismic waves"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "poles and fields",
+    "explanation": "magnetism is strongly associated with poles and fields.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "physics"
     ]
   },
   {
-    "id": 42693,
-    "category": "science",
+    "id": 44737,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a competitive science trivia round, which fact correctly matches carbon cycle?",
+    "answers": [
+      "stream of charged particles released by the Sun",
+      "movement of carbon through living things, oceans, air, and rocks",
+      "large system of stars, gas, dust, and dark matter",
+      "instrument that measures properties of light"
+    ],
+    "correctAnswer": "movement of carbon through living things, oceans, air, and rocks",
+    "explanation": "The correct match for carbon cycle is: movement of carbon through living things, oceans, air, and rocks.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "ecology"
+    ]
+  },
+  {
+    "id": 44738,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #36",
+    "text": "Which idea is most connected to mitochondria?",
     "answers": [
-      "Au",
-      "Fe",
-      "Pb",
-      "Ag"
+      "transport of sediment",
+      "geologic recycling",
+      "change in speed",
+      "ATP production"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "ATP production",
+    "explanation": "mitochondria is closely connected to ATP production.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "biology"
     ]
   },
   {
-    "id": 42694,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #37",
-    "answers": [
-      "Neutron",
-      "Electron",
-      "Photon",
-      "Proton"
-    ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42695,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #38",
-    "answers": [
-      "Saturn",
-      "Neptune",
-      "Jupiter",
-      "Mars"
-    ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42696,
-    "category": "science",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #39",
-    "answers": [
-      "Pb",
-      "Ag",
-      "Fe",
-      "Au"
-    ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
-    "tags": [
-      "science"
-    ]
-  },
-  {
-    "id": 42697,
-    "category": "science",
+    "id": 44739,
+    "category": "Science",
     "premium": true,
     "difficulty": "hard",
-    "text": "What particle carries a negative electric charge? #40",
+    "text": "Which scientific context is strongly associated with ribosome?",
     "answers": [
-      "Electron",
-      "Photon",
-      "Neutron",
-      "Proton"
+      "protein synthesis",
+      "cellular respiration",
+      "ions",
+      "chemical bonding"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "protein synthesis",
+    "explanation": "ribosome is strongly associated with protein synthesis.",
     "tags": [
-      "science"
+      "science",
+      "context",
+      "biology"
     ]
   },
   {
-    "id": 42698,
-    "category": "science",
+    "id": 44740,
+    "category": "Science",
     "premium": true,
-    "difficulty": "medium",
-    "text": "Which planet is known for its giant storm called the Great Red Spot? #41",
+    "difficulty": "easy",
+    "text": "Which science profile combines chemistry with nuclear variation?",
     "answers": [
-      "Neptune",
-      "Jupiter",
-      "Saturn",
-      "Mars"
+      "base",
+      "neuron",
+      "mitochondria",
+      "isotope"
     ],
-    "correctAnswer": "Jupiter",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "isotope",
+    "explanation": "isotope matches that profile through chemistry and nuclear variation.",
     "tags": [
-      "science"
+      "science",
+      "profile",
+      "chemistry"
     ]
   },
   {
-    "id": 42699,
-    "category": "science",
+    "id": 44741,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the chemical symbol for gold? #42",
+    "text": "Which field of science is most closely linked to potential energy?",
     "answers": [
-      "Pb",
-      "Ag",
-      "Au",
-      "Fe"
+      "physics",
+      "scientific tools",
+      "ecology",
+      "biology"
     ],
-    "correctAnswer": "Au",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "physics",
+    "explanation": "potential energy is most closely linked here to physics.",
     "tags": [
-      "science"
+      "science",
+      "fields",
+      "physics"
     ]
   },
   {
-    "id": 42700,
-    "category": "science",
+    "id": 44742,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which scientific context is strongly associated with osmosis?",
+    "answers": [
+      "hertz",
+      "water balance",
+      "magnification",
+      "heat measurement"
+    ],
+    "correctAnswer": "water balance",
+    "explanation": "osmosis is strongly associated with water balance.",
+    "tags": [
+      "science",
+      "context",
+      "biology"
+    ]
+  },
+  {
+    "id": 44743,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines earth science with transport of sediment?",
+    "answers": [
+      "erosion",
+      "star",
+      "biodiversity",
+      "inertia"
+    ],
+    "correctAnswer": "erosion",
+    "explanation": "erosion matches that profile through earth science and transport of sediment.",
+    "tags": [
+      "science",
+      "profile",
+      "earth science"
+    ]
+  },
+  {
+    "id": 44744,
+    "category": "Science",
     "premium": true,
     "difficulty": "medium",
-    "text": "What particle carries a negative electric charge? #43",
+    "text": "Which idea is most connected to barometer?",
     "answers": [
-      "Photon",
-      "Neutron",
-      "Proton",
-      "Electron"
+      "light and radiation",
+      "atmospheric pressure",
+      "cell boundary control",
+      "degrees"
     ],
-    "correctAnswer": "Electron",
-    "explanation": "Curated expansion question for replayability and prestige gameplay.",
+    "correctAnswer": "atmospheric pressure",
+    "explanation": "barometer is closely connected to atmospheric pressure.",
     "tags": [
-      "science"
+      "science",
+      "concepts",
+      "scientific tools"
+    ]
+  },
+  {
+    "id": 44745,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which field of science is most closely linked to reflection?",
+    "answers": [
+      "earth science",
+      "chemistry",
+      "scientific method",
+      "physics"
+    ],
+    "correctAnswer": "physics",
+    "explanation": "reflection is most closely linked here to physics.",
+    "tags": [
+      "science",
+      "fields",
+      "physics"
+    ]
+  },
+  {
+    "id": 44746,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science term is best described as negatively charged particle around an atom?",
+    "answers": [
+      "friction",
+      "electron",
+      "planet",
+      "microscope"
+    ],
+    "correctAnswer": "electron",
+    "explanation": "electron is best described as negatively charged particle around an atom.",
+    "tags": [
+      "science",
+      "terms",
+      "chemistry"
+    ]
+  },
+  {
+    "id": 44747,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which idea is most connected to earthquake?",
+    "answers": [
+      "oxygen and glucose production",
+      "evolutionary raw material",
+      "tectonic stress release",
+      "extreme gravity"
+    ],
+    "correctAnswer": "tectonic stress release",
+    "explanation": "earthquake is closely connected to tectonic stress release.",
+    "tags": [
+      "science",
+      "concepts",
+      "earth science"
+    ]
+  },
+  {
+    "id": 44748,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which field of science is most closely linked to atmosphere?",
+    "answers": [
+      "ecology",
+      "astronomy",
+      "earth science",
+      "medicine"
+    ],
+    "correctAnswer": "earth science",
+    "explanation": "atmosphere is most closely linked here to earth science.",
+    "tags": [
+      "science",
+      "fields",
+      "earth science"
+    ]
+  },
+  {
+    "id": 44749,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a competitive science trivia round, which fact correctly matches asteroid?",
+    "answers": [
+      "maintenance of stable internal conditions",
+      "rocky object orbiting the Sun, often in belts",
+      "substance that accepts hydrogen ions or produces hydroxide ions",
+      "device that spins samples to separate components by density"
+    ],
+    "correctAnswer": "rocky object orbiting the Sun, often in belts",
+    "explanation": "The correct match for asteroid is: rocky object orbiting the Sun, often in belts.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44750,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science profile combines astronomy with charged particles?",
+    "answers": [
+      "barometer",
+      "solar wind",
+      "photosphere",
+      "planet"
+    ],
+    "correctAnswer": "solar wind",
+    "explanation": "solar wind matches that profile through astronomy and charged particles.",
+    "tags": [
+      "science",
+      "profile",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44751,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which science term is best described as push or pull that can change motion?",
+    "answers": [
+      "force",
+      "plate tectonics",
+      "oxidation",
+      "sound wave"
+    ],
+    "correctAnswer": "force",
+    "explanation": "force is best described as push or pull that can change motion.",
+    "tags": [
+      "science",
+      "terms",
+      "physics"
+    ]
+  },
+  {
+    "id": 44752,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines ecology with species richness?",
+    "answers": [
+      "oxidation",
+      "biodiversity",
+      "hormone",
+      "base"
+    ],
+    "correctAnswer": "biodiversity",
+    "explanation": "biodiversity matches that profile through ecology and species richness.",
+    "tags": [
+      "science",
+      "profile",
+      "ecology"
+    ]
+  },
+  {
+    "id": 44753,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science profile combines poles and fields with force linked to magnetic fields and moving charges?",
+    "answers": [
+      "carbon cycle",
+      "neuron",
+      "catalyst",
+      "magnetism"
+    ],
+    "correctAnswer": "magnetism",
+    "explanation": "magnetism fits this profile because it is associated with poles and fields and described as force linked to magnetic fields and moving charges.",
+    "tags": [
+      "science",
+      "profile",
+      "physics"
+    ]
+  },
+  {
+    "id": 44754,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In a competitive science trivia round, which fact correctly matches molecule?",
+    "answers": [
+      "factor that can change in an experiment",
+      "instrument that collects light from distant objects",
+      "recorded observations or measurements",
+      "two or more atoms chemically bonded"
+    ],
+    "correctAnswer": "two or more atoms chemically bonded",
+    "explanation": "The correct match for molecule is: two or more atoms chemically bonded.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "chemistry"
+    ]
+  },
+  {
+    "id": 44755,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which table organizes chemical elements by atomic number?",
+    "answers": [
+      "Rock cycle",
+      "pH scale",
+      "Food web",
+      "Periodic table"
+    ],
+    "correctAnswer": "Periodic table",
+    "explanation": "The periodic table organizes elements by atomic number.",
+    "tags": [
+      "science",
+      "chemistry",
+      "elements"
+    ]
+  },
+  {
+    "id": 44756,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science profile combines low pH with substance that donates hydrogen ions in water?",
+    "answers": [
+      "energy",
+      "proton",
+      "acid",
+      "mitochondria"
+    ],
+    "correctAnswer": "acid",
+    "explanation": "acid fits this profile because it is associated with low pH and described as substance that donates hydrogen ions in water.",
+    "tags": [
+      "science",
+      "profile",
+      "chemistry"
+    ]
+  },
+  {
+    "id": 44757,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which science term is best described as force linked to magnetic fields and moving charges?",
+    "answers": [
+      "magnetism",
+      "acceleration",
+      "planet",
+      "photosynthesis"
+    ],
+    "correctAnswer": "magnetism",
+    "explanation": "magnetism is best described as force linked to magnetic fields and moving charges.",
+    "tags": [
+      "science",
+      "terms",
+      "physics"
+    ]
+  },
+  {
+    "id": 44758,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a competitive science trivia round, which fact correctly matches greenhouse effect?",
+    "answers": [
+      "bond formed by electron transfer between atoms",
+      "range of all electromagnetic waves",
+      "warming caused by gases trapping heat in the atmosphere",
+      "baseline group used for comparison in an experiment"
+    ],
+    "correctAnswer": "warming caused by gases trapping heat in the atmosphere",
+    "explanation": "The correct match for greenhouse effect is: warming caused by gases trapping heat in the atmosphere.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "earth science"
+    ]
+  },
+  {
+    "id": 44759,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which field of science is most closely linked to galaxy?",
+    "answers": [
+      "scientific method",
+      "astronomy",
+      "ecology",
+      "physics"
+    ],
+    "correctAnswer": "astronomy",
+    "explanation": "galaxy is most closely linked here to astronomy.",
+    "tags": [
+      "science",
+      "fields",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44760,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which field of science is most closely linked to visible light?",
+    "answers": [
+      "scientific method",
+      "earth science",
+      "astronomy",
+      "physics"
+    ],
+    "correctAnswer": "physics",
+    "explanation": "visible light is most closely linked here to physics.",
+    "tags": [
+      "science",
+      "fields",
+      "physics"
+    ]
+  },
+  {
+    "id": 44761,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which scientific context is strongly associated with antibiotic?",
+    "answers": [
+      "poles and fields",
+      "evaporation and precipitation",
+      "planet discovery",
+      "bacteria"
+    ],
+    "correctAnswer": "bacteria",
+    "explanation": "antibiotic is strongly associated with bacteria.",
+    "tags": [
+      "science",
+      "context",
+      "medicine"
+    ]
+  },
+  {
+    "id": 44762,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which idea is most connected to magnetism?",
+    "answers": [
+      "change in speed",
+      "body signaling",
+      "alkaline chemistry",
+      "attraction and repulsion"
+    ],
+    "correctAnswer": "attraction and repulsion",
+    "explanation": "magnetism is closely connected to attraction and repulsion.",
+    "tags": [
+      "science",
+      "concepts",
+      "physics"
+    ]
+  },
+  {
+    "id": 44763,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which scientific context is strongly associated with black hole?",
+    "answers": [
+      "mass and distance",
+      "small solar system body",
+      "planet discovery",
+      "event horizon"
+    ],
+    "correctAnswer": "event horizon",
+    "explanation": "black hole is strongly associated with event horizon.",
+    "tags": [
+      "science",
+      "context",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44764,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which idea is most connected to biodiversity?",
+    "answers": [
+      "frequency relationship",
+      "species richness",
+      "matter structure",
+      "alkaline chemistry"
+    ],
+    "correctAnswer": "species richness",
+    "explanation": "biodiversity is closely connected to species richness.",
+    "tags": [
+      "science",
+      "concepts",
+      "ecology"
+    ]
+  },
+  {
+    "id": 44765,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science profile combines stellar evolution with explosive death of a massive star?",
+    "answers": [
+      "voltage",
+      "supernova",
+      "base",
+      "electromagnetic spectrum"
+    ],
+    "correctAnswer": "supernova",
+    "explanation": "supernova fits this profile because it is associated with stellar evolution and described as explosive death of a massive star.",
+    "tags": [
+      "science",
+      "profile",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44766,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which science profile combines evidence with recorded observations or measurements?",
+    "answers": [
+      "data",
+      "momentum",
+      "antibody",
+      "mitochondria"
+    ],
+    "correctAnswer": "data",
+    "explanation": "data fits this profile because it is associated with evidence and described as recorded observations or measurements.",
+    "tags": [
+      "science",
+      "profile",
+      "scientific method"
+    ]
+  },
+  {
+    "id": 44767,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines scientific method with scientific prediction?",
+    "answers": [
+      "spectrometer",
+      "nebula",
+      "RNA",
+      "hypothesis"
+    ],
+    "correctAnswer": "hypothesis",
+    "explanation": "hypothesis matches that profile through scientific method and scientific prediction.",
+    "tags": [
+      "science",
+      "profile",
+      "scientific method"
+    ]
+  },
+  {
+    "id": 44768,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science term is best described as atoms of the same element with different neutron numbers?",
+    "answers": [
+      "isotope",
+      "star",
+      "potential energy",
+      "catalyst"
+    ],
+    "correctAnswer": "isotope",
+    "explanation": "isotope is best described as atoms of the same element with different neutron numbers.",
+    "tags": [
+      "science",
+      "terms",
+      "chemistry"
+    ]
+  },
+  {
+    "id": 44769,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which field of science is most closely linked to plate tectonics?",
+    "answers": [
+      "biology",
+      "physics",
+      "scientific tools",
+      "earth science"
+    ],
+    "correctAnswer": "earth science",
+    "explanation": "plate tectonics is most closely linked here to earth science.",
+    "tags": [
+      "science",
+      "fields",
+      "earth science"
+    ]
+  },
+  {
+    "id": 44770,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which scientific context is strongly associated with potential energy?",
+    "answers": [
+      "Ohm's law",
+      "laboratory separation",
+      "height or compression",
+      "selective permeability"
+    ],
+    "correctAnswer": "height or compression",
+    "explanation": "potential energy is strongly associated with height or compression.",
+    "tags": [
+      "science",
+      "context",
+      "physics"
+    ]
+  },
+  {
+    "id": 44771,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science profile combines scientific method with analysis?",
+    "answers": [
+      "fossil",
+      "natural selection",
+      "data",
+      "kinetic energy"
+    ],
+    "correctAnswer": "data",
+    "explanation": "data matches that profile through scientific method and analysis.",
+    "tags": [
+      "science",
+      "profile",
+      "scientific method"
+    ]
+  },
+  {
+    "id": 44772,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which idea is most connected to ecosystem?",
+    "answers": [
+      "bonded matter",
+      "scientific reliability",
+      "cosmic structure",
+      "energy flow"
+    ],
+    "correctAnswer": "energy flow",
+    "explanation": "ecosystem is closely connected to energy flow.",
+    "tags": [
+      "science",
+      "concepts",
+      "ecology"
+    ]
+  },
+  {
+    "id": 44773,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines magma with opening where magma, gases, and ash reach the surface?",
+    "answers": [
+      "osmosis",
+      "centrifuge",
+      "volcano",
+      "acid"
+    ],
+    "correctAnswer": "volcano",
+    "explanation": "volcano fits this profile because it is associated with magma and described as opening where magma, gases, and ash reach the surface.",
+    "tags": [
+      "science",
+      "profile",
+      "earth science"
+    ]
+  },
+  {
+    "id": 44774,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which scientific context is strongly associated with keystone species?",
+    "answers": [
+      "ecosystem resilience",
+      "chloroplasts",
+      "microbiology",
+      "ecological balance"
+    ],
+    "correctAnswer": "ecological balance",
+    "explanation": "keystone species is strongly associated with ecological balance.",
+    "tags": [
+      "science",
+      "context",
+      "ecology"
+    ]
+  },
+  {
+    "id": 44775,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which field of science is most closely linked to RNA?",
+    "answers": [
+      "medicine",
+      "astronomy",
+      "scientific tools",
+      "biology"
+    ],
+    "correctAnswer": "biology",
+    "explanation": "RNA is most closely linked here to biology.",
+    "tags": [
+      "science",
+      "fields",
+      "biology"
+    ]
+  },
+  {
+    "id": 44776,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines selective permeability with a flexible barrier controlling what enters and leaves a cell?",
+    "answers": [
+      "neutron",
+      "cell membrane",
+      "kinetic energy",
+      "photosynthesis"
+    ],
+    "correctAnswer": "cell membrane",
+    "explanation": "cell membrane fits this profile because it is associated with selective permeability and described as a flexible barrier controlling what enters and leaves a cell.",
+    "tags": [
+      "science",
+      "profile",
+      "biology"
+    ]
+  },
+  {
+    "id": 44777,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science profile combines medicine with infection treatment?",
+    "answers": [
+      "carbon cycle",
+      "weathering",
+      "antibiotic",
+      "catalyst"
+    ],
+    "correctAnswer": "antibiotic",
+    "explanation": "antibiotic matches that profile through medicine and infection treatment.",
+    "tags": [
+      "science",
+      "profile",
+      "medicine"
+    ]
+  },
+  {
+    "id": 44778,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which science term is best described as factor that can change in an experiment?",
+    "answers": [
+      "photosphere",
+      "vaccine",
+      "hypothesis",
+      "variable"
+    ],
+    "correctAnswer": "variable",
+    "explanation": "variable is best described as factor that can change in an experiment.",
+    "tags": [
+      "science",
+      "terms",
+      "scientific method"
+    ]
+  },
+  {
+    "id": 44779,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which field of science is most closely linked to natural selection?",
+    "answers": [
+      "physics",
+      "biology",
+      "scientific method",
+      "earth science"
+    ],
+    "correctAnswer": "biology",
+    "explanation": "natural selection is most closely linked here to biology.",
+    "tags": [
+      "science",
+      "fields",
+      "biology"
+    ]
+  },
+  {
+    "id": 44780,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science term is best described as baseline group used for comparison in an experiment?",
+    "answers": [
+      "kinetic energy",
+      "molecule",
+      "electron",
+      "control group"
+    ],
+    "correctAnswer": "control group",
+    "explanation": "control group is best described as baseline group used for comparison in an experiment.",
+    "tags": [
+      "science",
+      "terms",
+      "scientific method"
+    ]
+  },
+  {
+    "id": 44781,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In a competitive science trivia round, which fact correctly matches resistance?",
+    "answers": [
+      "part of the electromagnetic spectrum humans can see",
+      "opposition to electric current",
+      "force linked to magnetic fields and moving charges",
+      "movement of water across a semipermeable membrane"
+    ],
+    "correctAnswer": "opposition to electric current",
+    "explanation": "The correct match for resistance is: opposition to electric current.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "physics"
+    ]
+  },
+  {
+    "id": 44782,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which scientific context is strongly associated with momentum?",
+    "answers": [
+      "water balance",
+      "data collection",
+      "collisions",
+      "microbiology"
+    ],
+    "correctAnswer": "collisions",
+    "explanation": "momentum is strongly associated with collisions.",
+    "tags": [
+      "science",
+      "context",
+      "physics"
+    ]
+  },
+  {
+    "id": 44783,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which idea is most connected to electric current?",
+    "answers": [
+      "charged particles",
+      "amperes",
+      "past organisms",
+      "color perception"
+    ],
+    "correctAnswer": "amperes",
+    "explanation": "electric current is closely connected to amperes.",
+    "tags": [
+      "science",
+      "concepts",
+      "physics"
+    ]
+  },
+  {
+    "id": 44784,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which idea is most connected to nitrogen fixation?",
+    "answers": [
+      "oscillation rate",
+      "cell observation",
+      "astronomical imaging",
+      "nutrient cycling"
+    ],
+    "correctAnswer": "nutrient cycling",
+    "explanation": "nitrogen fixation is closely connected to nutrient cycling.",
+    "tags": [
+      "science",
+      "concepts",
+      "ecology"
+    ]
+  },
+  {
+    "id": 44785,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines astronomy with distant worlds?",
+    "answers": [
+      "friction",
+      "exoplanet",
+      "acid",
+      "reflection"
+    ],
+    "correctAnswer": "exoplanet",
+    "explanation": "exoplanet matches that profile through astronomy and distant worlds.",
+    "tags": [
+      "science",
+      "profile",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44786,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which Earth process explains the movement of large crustal plates?",
+    "answers": [
+      "Water cycle",
+      "Photosynthesis",
+      "Osmosis",
+      "Plate tectonics"
+    ],
+    "correctAnswer": "Plate tectonics",
+    "explanation": "Plate tectonics explains the movement of Earth's lithospheric plates.",
+    "tags": [
+      "science",
+      "earth-science",
+      "tectonics"
+    ]
+  },
+  {
+    "id": 44787,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which science profile combines work and heat with capacity to do work?",
+    "answers": [
+      "energy",
+      "photosynthesis",
+      "hormone",
+      "electron"
+    ],
+    "correctAnswer": "energy",
+    "explanation": "energy fits this profile because it is associated with work and heat and described as capacity to do work.",
+    "tags": [
+      "science",
+      "profile",
+      "physics"
+    ]
+  },
+  {
+    "id": 44788,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science term is best described as instrument that measures properties of light?",
+    "answers": [
+      "photosynthesis",
+      "magnetism",
+      "atmosphere",
+      "spectrometer"
+    ],
+    "correctAnswer": "spectrometer",
+    "explanation": "spectrometer is best described as instrument that measures properties of light.",
+    "tags": [
+      "science",
+      "terms",
+      "scientific tools"
+    ]
+  },
+  {
+    "id": 44789,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which field of science is most closely linked to acceleration?",
+    "answers": [
+      "physics",
+      "chemistry",
+      "biology",
+      "ecology"
+    ],
+    "correctAnswer": "physics",
+    "explanation": "acceleration is most closely linked here to physics.",
+    "tags": [
+      "science",
+      "fields",
+      "physics"
+    ]
+  },
+  {
+    "id": 44790,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which field of science is most closely linked to friction?",
+    "answers": [
+      "scientific tools",
+      "biology",
+      "ecology",
+      "physics"
+    ],
+    "correctAnswer": "physics",
+    "explanation": "friction is most closely linked here to physics.",
+    "tags": [
+      "science",
+      "fields",
+      "physics"
+    ]
+  },
+  {
+    "id": 44791,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines scientific method with fair testing?",
+    "answers": [
+      "solar wind",
+      "control group",
+      "atom",
+      "biodiversity"
+    ],
+    "correctAnswer": "control group",
+    "explanation": "control group matches that profile through scientific method and fair testing.",
+    "tags": [
+      "science",
+      "profile",
+      "scientific method"
+    ]
+  },
+  {
+    "id": 44792,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science profile combines astronomy with astronomical imaging?",
+    "answers": [
+      "electromagnetic spectrum",
+      "telescope",
+      "erosion",
+      "photosphere"
+    ],
+    "correctAnswer": "telescope",
+    "explanation": "telescope matches that profile through astronomy and astronomical imaging.",
+    "tags": [
+      "science",
+      "profile",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44793,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which science profile combines physics with interaction and motion?",
+    "answers": [
+      "exoplanet",
+      "force",
+      "covalent bond",
+      "visible light"
+    ],
+    "correctAnswer": "force",
+    "explanation": "force matches that profile through physics and interaction and motion.",
+    "tags": [
+      "science",
+      "profile",
+      "physics"
+    ]
+  },
+  {
+    "id": 44794,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines biology with cell boundary control?",
+    "answers": [
+      "cell membrane",
+      "greenhouse effect",
+      "solution",
+      "fossil"
+    ],
+    "correctAnswer": "cell membrane",
+    "explanation": "cell membrane matches that profile through biology and cell boundary control.",
+    "tags": [
+      "science",
+      "profile",
+      "biology"
+    ]
+  },
+  {
+    "id": 44795,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science term is best described as large body orbiting a star and clearing its orbital neighborhood?",
+    "answers": [
+      "visible light",
+      "planet",
+      "spectrometer",
+      "refraction"
+    ],
+    "correctAnswer": "planet",
+    "explanation": "planet is best described as large body orbiting a star and clearing its orbital neighborhood.",
+    "tags": [
+      "science",
+      "terms",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44796,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which idea is most connected to ionic bond?",
+    "answers": [
+      "electrostatic attraction",
+      "community structure",
+      "amperes",
+      "rocky debris"
+    ],
+    "correctAnswer": "electrostatic attraction",
+    "explanation": "ionic bond is closely connected to electrostatic attraction.",
+    "tags": [
+      "science",
+      "concepts",
+      "chemistry"
+    ]
+  },
+  {
+    "id": 44797,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a competitive science trivia round, which fact correctly matches enzyme?",
+    "answers": [
+      "plants convert light energy into chemical energy",
+      "two or more atoms chemically bonded",
+      "a biological catalyst that speeds reactions",
+      "scale measuring acidity or alkalinity"
+    ],
+    "correctAnswer": "a biological catalyst that speeds reactions",
+    "explanation": "The correct match for enzyme is: a biological catalyst that speeds reactions.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "biology"
+    ]
+  },
+  {
+    "id": 44798,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which idea is most connected to photosphere?",
+    "answers": [
+      "bonded matter",
+      "sunlight source",
+      "acid-base chemistry",
+      "charged particles"
+    ],
+    "correctAnswer": "sunlight source",
+    "explanation": "photosphere is closely connected to sunlight source.",
+    "tags": [
+      "science",
+      "concepts",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44799,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which scientific context is strongly associated with nitrogen fixation?",
+    "answers": [
+      "high pH",
+      "magnification",
+      "soil bacteria",
+      "hydrogen ion concentration"
+    ],
+    "correctAnswer": "soil bacteria",
+    "explanation": "nitrogen fixation is strongly associated with soil bacteria.",
+    "tags": [
+      "science",
+      "context",
+      "ecology"
+    ]
+  },
+  {
+    "id": 44800,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines waves with distance between matching points of a wave?",
+    "answers": [
+      "cell membrane",
+      "fossil",
+      "wavelength",
+      "ecosystem"
+    ],
+    "correctAnswer": "wavelength",
+    "explanation": "wavelength fits this profile because it is associated with waves and described as distance between matching points of a wave.",
+    "tags": [
+      "science",
+      "profile",
+      "physics"
+    ]
+  },
+  {
+    "id": 44801,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science term is best described as force opposing motion between surfaces?",
+    "answers": [
+      "volcano",
+      "control group",
+      "friction",
+      "atmosphere"
+    ],
+    "correctAnswer": "friction",
+    "explanation": "friction is best described as force opposing motion between surfaces.",
+    "tags": [
+      "science",
+      "terms",
+      "physics"
+    ]
+  },
+  {
+    "id": 44802,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which scale measures acidity and alkalinity?",
+    "answers": [
+      "Richter scale",
+      "Beaufort scale",
+      "pH scale",
+      "Kelvin scale"
+    ],
+    "correctAnswer": "pH scale",
+    "explanation": "The pH scale measures acidity and alkalinity.",
+    "tags": [
+      "science",
+      "chemistry",
+      "acids-bases"
+    ]
+  },
+  {
+    "id": 44803,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines height or compression with stored energy due to position or condition?",
+    "answers": [
+      "pH scale",
+      "potential energy",
+      "RNA",
+      "volcano"
+    ],
+    "correctAnswer": "potential energy",
+    "explanation": "potential energy fits this profile because it is associated with height or compression and described as stored energy due to position or condition.",
+    "tags": [
+      "science",
+      "profile",
+      "physics"
+    ]
+  },
+  {
+    "id": 44804,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science profile combines physics with change in speed?",
+    "answers": [
+      "solution",
+      "natural selection",
+      "galaxy",
+      "refraction"
+    ],
+    "correctAnswer": "refraction",
+    "explanation": "refraction matches that profile through physics and change in speed.",
+    "tags": [
+      "science",
+      "profile",
+      "physics"
+    ]
+  },
+  {
+    "id": 44805,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which science profile combines astronomy with tides and phases?",
+    "answers": [
+      "moon",
+      "antibiotic",
+      "bacteria",
+      "asteroid"
+    ],
+    "correctAnswer": "moon",
+    "explanation": "moon matches that profile through astronomy and tides and phases.",
+    "tags": [
+      "science",
+      "profile",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44806,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which science profile combines physical and chemical processes with breakdown of rocks at Earth's surface?",
+    "answers": [
+      "electric current",
+      "carbon cycle",
+      "solution",
+      "weathering"
+    ],
+    "correctAnswer": "weathering",
+    "explanation": "weathering fits this profile because it is associated with physical and chemical processes and described as breakdown of rocks at Earth's surface.",
+    "tags": [
+      "science",
+      "profile",
+      "earth science"
+    ]
+  },
+  {
+    "id": 44807,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In a competitive science trivia round, which fact correctly matches antibody?",
+    "answers": [
+      "two or more atoms chemically bonded",
+      "preserved evidence of ancient life",
+      "baseline group used for comparison in an experiment",
+      "immune protein that binds specific targets"
+    ],
+    "correctAnswer": "immune protein that binds specific targets",
+    "explanation": "The correct match for antibody is: immune protein that binds specific targets.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "medicine"
+    ]
+  },
+  {
+    "id": 44808,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which science term is best described as part of the electromagnetic spectrum humans can see?",
+    "answers": [
+      "magnetism",
+      "kinetic energy",
+      "rock cycle",
+      "visible light"
+    ],
+    "correctAnswer": "visible light",
+    "explanation": "visible light is best described as part of the electromagnetic spectrum humans can see.",
+    "tags": [
+      "science",
+      "terms",
+      "physics"
+    ]
+  },
+  {
+    "id": 44809,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which idea is most connected to potential energy?",
+    "answers": [
+      "stored capacity",
+      "global water movement",
+      "sour or corrosive chemistry",
+      "hearing and compression"
+    ],
+    "correctAnswer": "stored capacity",
+    "explanation": "potential energy is closely connected to stored capacity.",
+    "tags": [
+      "science",
+      "concepts",
+      "physics"
+    ]
+  },
+  {
+    "id": 44810,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science profile combines medicine with pathogen recognition?",
+    "answers": [
+      "antibody",
+      "pH scale",
+      "water cycle",
+      "reflection"
+    ],
+    "correctAnswer": "antibody",
+    "explanation": "antibody matches that profile through medicine and pathogen recognition.",
+    "tags": [
+      "science",
+      "profile",
+      "medicine"
+    ]
+  },
+  {
+    "id": 44811,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which scientific context is strongly associated with friction?",
+    "answers": [
+      "moving objects",
+      "heat measurement",
+      "infrared radiation",
+      "surface contact"
+    ],
+    "correctAnswer": "surface contact",
+    "explanation": "friction is strongly associated with surface contact.",
+    "tags": [
+      "science",
+      "context",
+      "physics"
+    ]
+  },
+  {
+    "id": 44812,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In a competitive science trivia round, which fact correctly matches ecosystem?",
+    "answers": [
+      "recorded observations or measurements",
+      "energy of motion",
+      "breakdown of rocks at Earth's surface",
+      "a community of organisms interacting with their environment"
+    ],
+    "correctAnswer": "a community of organisms interacting with their environment",
+    "explanation": "The correct match for ecosystem is: a community of organisms interacting with their environment.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "ecology"
+    ]
+  },
+  {
+    "id": 44813,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which science profile combines chemical bonding with negatively charged particle around an atom?",
+    "answers": [
+      "electron",
+      "ionic bond",
+      "asteroid",
+      "proton"
+    ],
+    "correctAnswer": "electron",
+    "explanation": "electron fits this profile because it is associated with chemical bonding and described as negatively charged particle around an atom.",
+    "tags": [
+      "science",
+      "profile",
+      "chemistry"
+    ]
+  },
+  {
+    "id": 44814,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which field of science is most closely linked to homeostasis?",
+    "answers": [
+      "scientific tools",
+      "physics",
+      "biology",
+      "chemistry"
+    ],
+    "correctAnswer": "biology",
+    "explanation": "homeostasis is most closely linked here to biology.",
+    "tags": [
+      "science",
+      "fields",
+      "biology"
+    ]
+  },
+  {
+    "id": 44815,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which field of science is most closely linked to momentum?",
+    "answers": [
+      "scientific method",
+      "scientific tools",
+      "ecology",
+      "physics"
+    ],
+    "correctAnswer": "physics",
+    "explanation": "momentum is most closely linked here to physics.",
+    "tags": [
+      "science",
+      "fields",
+      "physics"
+    ]
+  },
+  {
+    "id": 44816,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which idea is most connected to spectrometer?",
+    "answers": [
+      "composition analysis",
+      "orbits and falling objects",
+      "motion persistence",
+      "earthquakes and mountains"
+    ],
+    "correctAnswer": "composition analysis",
+    "explanation": "spectrometer is closely connected to composition analysis.",
+    "tags": [
+      "science",
+      "concepts",
+      "scientific tools"
+    ]
+  },
+  {
+    "id": 44817,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In a competitive science trivia round, which fact correctly matches pH scale?",
+    "answers": [
+      "maintenance of stable internal conditions",
+      "organelles that release usable energy from food",
+      "tendency of an object to resist changes in motion",
+      "scale measuring acidity or alkalinity"
+    ],
+    "correctAnswer": "scale measuring acidity or alkalinity",
+    "explanation": "The correct match for pH scale is: scale measuring acidity or alkalinity.",
+    "tags": [
+      "science",
+      "knowledge-match",
+      "chemistry"
+    ]
+  },
+  {
+    "id": 44818,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which scientific context is strongly associated with exoplanet?",
+    "answers": [
+      "mirrors",
+      "planet discovery",
+      "immune response",
+      "cellular respiration"
+    ],
+    "correctAnswer": "planet discovery",
+    "explanation": "exoplanet is strongly associated with planet discovery.",
+    "tags": [
+      "science",
+      "context",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44819,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which idea is most connected to exoplanet?",
+    "answers": [
+      "heredity and instructions",
+      "distant worlds",
+      "climate regulation",
+      "ATP production"
+    ],
+    "correctAnswer": "distant worlds",
+    "explanation": "exoplanet is closely connected to distant worlds.",
+    "tags": [
+      "science",
+      "concepts",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 44820,
+    "category": "Science",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which science profile combines medicine with disease prevention?",
+    "answers": [
+      "vaccine",
+      "photosynthesis",
+      "light-year",
+      "homeostasis"
+    ],
+    "correctAnswer": "vaccine",
+    "explanation": "vaccine matches that profile through medicine and disease prevention.",
+    "tags": [
+      "science",
+      "profile",
+      "medicine"
     ]
   }
 ]

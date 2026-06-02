@@ -55,6 +55,48 @@ function getMaxWinStreak(history: any[]) {
   return best;
 }
 
+function getAchievementProgress(achievementId: string, {
+  history,
+  totalGamesPlayed,
+  totalWins,
+  dailyStreak,
+  coins,
+  arenaStats,
+}: {
+  history: any[];
+  totalGamesPlayed: number;
+  totalWins: number;
+  dailyStreak: number;
+  coins: number;
+  arenaStats: ReturnType<typeof useAchievementEventsStore.getState>;
+}) {
+  const maxWinStreak = getMaxWinStreak(history);
+
+  switch (achievementId) {
+    case "G2_01_10_GAMES":
+    case "G2_02_50_GAMES":
+    case "G2_03_100_GAMES":
+      return totalGamesPlayed;
+    case "G2_04_10_WINS":
+    case "G2_05_50_WINS":
+    case "G2_06_100_WINS":
+      return totalWins;
+    case "G3_03_WIN_STREAK_3":
+    case "G3_04_WIN_STREAK_5":
+      return maxWinStreak;
+    case "G4_01_3_DAY_STREAK":
+    case "G4_02_7_DAY_STREAK":
+    case "G4_03_14_DAY_STREAK":
+      return dailyStreak;
+    case "G5_04_SAVER":
+      return coins;
+    case "G7_04_TOURNAMENT_CHAMPION_10":
+      return arenaStats.tournamentChampionships;
+    default:
+      return 0;
+  }
+}
+
 function getLocalUnlockedIds({
   history,
   totalGamesPlayed,
@@ -290,7 +332,18 @@ export default function AchievementsScreen() {
                     style={({ pressed }) => [styles.badgeWrapper, pressed && styles.pressed]}
                     accessibilityLabel={`${ach.title}. ${ach.description}`}
                   >
-                    <AchievementBadge achievement={ach} unlocked={unlockedIds.includes(ach.id)} />
+                    <AchievementBadge
+                      achievement={ach}
+                      unlocked={unlockedIds.includes(ach.id)}
+                      currentProgress={getAchievementProgress(ach.id, {
+                        history,
+                        totalGamesPlayed,
+                        totalWins,
+                        dailyStreak,
+                        coins,
+                        arenaStats,
+                      })}
+                    />
                   </Pressable>
                 ))}
               </View>

@@ -467,6 +467,40 @@ export const useQuickGameStore = create<QuickGameState>()(
             return correct;
           }
 
+          if (nextIndex >= questions.length) {
+            clearGameTimer(timerId);
+
+            if (!isTournament) {
+              const summary: Summary = {
+                total: nextAnswerHistory.length,
+                correct: nextCorrectCount,
+                wrong: nextAnswerHistory.length - nextCorrectCount,
+                accuracy:
+                  nextAnswerHistory.length === 0
+                    ? 0
+                    : Math.round((nextCorrectCount / nextAnswerHistory.length) * 100),
+              };
+
+              const { bonusXP, bonusCoins } = calculateTimedBonus(mode, summary);
+              earnedXPDelta += bonusXP;
+              earnedCoinsDelta += bonusCoins;
+            }
+
+            set((currentState) => ({
+              answerHistory: nextAnswerHistory,
+              streak: newStreak,
+              combo: newCombo,
+              score: correct ? currentState.score + 1 : currentState.score,
+              earnedXP: currentState.earnedXP + earnedXPDelta,
+              earnedCoins: currentState.earnedCoins + earnedCoinsDelta,
+              earnedGems: currentState.earnedGems + earnedGemsDelta,
+              gameOver: true,
+              timerId: null,
+            }));
+
+            return correct;
+          }
+
           set((currentState) => ({
             answerHistory: nextAnswerHistory,
             streak: newStreak,
@@ -475,7 +509,7 @@ export const useQuickGameStore = create<QuickGameState>()(
             earnedXP: currentState.earnedXP + earnedXPDelta,
             earnedCoins: currentState.earnedCoins + earnedCoinsDelta,
             earnedGems: currentState.earnedGems + earnedGemsDelta,
-            idx: idx + 1 >= questions.length ? 0 : idx + 1,
+            idx: nextIndex,
           }));
 
           return correct;

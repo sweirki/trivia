@@ -1,5 +1,7 @@
 import { clampBalance, EconomyReward } from "./economyRules";
 
+export const VIP_DAILY_BONUS_TICKETS = 2;
+
 export type VipTier = 0 | 1;
 
 export type VipPerks = {
@@ -35,7 +37,7 @@ export const VIP_TIER_1_PERKS: VipPerks = {
   perks: [
     "+20% XP from gameplay rewards",
     "+10% coins from gameplay rewards",
-    "Extra daily reward slot prepared",
+    "+2 bonus tickets on daily reward claims",
     "1 streak protection buffer prepared",
     "Stronger comeback bonus prepared",
   ],

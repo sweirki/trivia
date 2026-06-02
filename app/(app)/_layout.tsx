@@ -6,24 +6,19 @@ import GlobalAchievementUnlockLayer from '@/achievements/components/GlobalAchiev
 
 export default function AppLayout() {
   const router = useRouter();
-  const loadRemoteChallenges = useChallengesStore((s) => s.loadRemoteChallenges);
   const [challengeCount, setChallengeCount] = useState(0);
   const [showChallengeModal, setShowChallengeModal] = useState(false);
 
   useEffect(() => {
-    const init = async () => {
-      await loadRemoteChallenges();
+    // Keep app startup lightweight. Do not fetch challenges globally here;
+    // Friends/Challenges screens hydrate their own data after first paint.
+    const incomingCount = useChallengesStore.getState().incoming.length;
 
-      const incomingCount = useChallengesStore.getState().incoming.length;
-
-      if (incomingCount > 0) {
-        setChallengeCount(incomingCount);
-        setShowChallengeModal(true);
-      }
-    };
-
-    init();
-  }, [loadRemoteChallenges]);
+    if (incomingCount > 0) {
+      setChallengeCount(incomingCount);
+      setShowChallengeModal(true);
+    }
+  }, []);
 
   const closeModal = () => {
     setShowChallengeModal(false);

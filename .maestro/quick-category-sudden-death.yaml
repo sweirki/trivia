@@ -14,11 +14,10 @@ appId: ${APP_ID}
       id: "screen-quick-play"
     timeout: 10000
 
+
 # Phase 12 regression focus: route must stay stable after Q9/Q10 migration.
-- assertVisible:
-    id: "quick-mode-sudden"
-- tapOn:
-    id: "quick-mode-sudden"
+- assertVisible: "Sudden Death"
+- tapOn: "Sudden Death"
 - extendedWaitUntil:
     visible:
       id: "screen-game"

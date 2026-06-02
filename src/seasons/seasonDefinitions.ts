@@ -12,9 +12,9 @@ export type SeasonDef = {
 
 // 🔒 SINGLE ACTIVE SEASON (extend later)
 export const CURRENT_SEASON: SeasonDef = {
-  id: "2026-01",
-  start: "2026-01-01T00:00:00.000Z",
-  end: "2026-01-31T23:59:59.999Z",
+  id: "2026-06",
+  start: "2026-06-01T00:00:00.000Z",
+  end: "2026-06-30T23:59:59.999Z",
   tiers: [
     { xp: 500, badgeId: "season_bronze" },
     { xp: 1500, badgeId: "season_silver" },

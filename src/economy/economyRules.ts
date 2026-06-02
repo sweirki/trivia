@@ -21,7 +21,7 @@ export const STARTING_ECONOMY = {
   level: 1,
   coins: 250,
   gems: 10,
-  tickets: 3,
+  tickets: 10,
 };
 
 export const MAX_BALANCE = 9_999_999;

@@ -6,6 +6,7 @@ import {
 } from "../seasonService";
 import { CURRENT_SEASON } from "../seasonDefinitions";
 import { resetSeasonForUser } from "../seasonResetService";
+import { isSeasonEnded } from "../utils/seasonTime";
 import { usePlayerStore } from "@/store/usePlayerStore";
 
 /**
@@ -66,7 +67,7 @@ export const useSeasonStore = create<SeasonState>((set, get) => ({
     set({
       season,
       loading: false,
-      ended: false,
+      ended: isSeasonEnded(),
       justLeveledUpTier: null,
     });
   },
@@ -77,7 +78,10 @@ export const useSeasonStore = create<SeasonState>((set, get) => ({
   addSeasonXp: async (uid, amount) => {
     const state = get();
     const season = state.season;
-    if (!season || state.ended) return;
+    if (!season || state.ended || isSeasonEnded()) {
+      if (!state.ended && isSeasonEnded()) set({ ended: true });
+      return;
+    }
 
     const prevTier = season.tier;
     const newXp = season.xp + amount;

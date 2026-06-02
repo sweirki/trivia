@@ -1,971 +1,2002 @@
 [
   {
-    "id": 17501,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
-    "difficulty": "easy",
-    "text": "What is the largest ocean on Earth?",
+    "difficulty": "medium",
+    "text": "What is the capital of Albania?",
     "answers": [
-      "Pacific",
-      "Atlantic",
-      "Indian",
-      "Arctic"
+      "Tallinn",
+      "Tirana",
+      "San Marino",
+      "Vienna"
     ],
-    "correctAnswer": "Pacific",
-    "explanation": "Pacific is the correct answer.",
+    "correctAnswer": "Tirana",
+    "explanation": "Tirana is the capital of Albania.",
     "tags": [
       "geography",
-      "easy"
-    ]
+      "europe",
+      "capital"
+    ],
+    "id": 65582
   },
   {
-    "id": 17502,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
-    "difficulty": "easy",
-    "text": "Which continent is Egypt located in?",
+    "difficulty": "medium",
+    "text": "What is the capital of Andorra?",
     "answers": [
-      "Asia",
-      "Africa",
-      "Europe",
-      "South America"
+      "Andorra la Vella",
+      "Copenhagen",
+      "Skopje",
+      "Helsinki"
     ],
-    "correctAnswer": "Africa",
-    "explanation": "Africa is the correct answer.",
+    "correctAnswer": "Andorra la Vella",
+    "explanation": "Andorra la Vella is the capital of Andorra.",
     "tags": [
       "geography",
-      "easy"
-    ]
+      "europe",
+      "capital"
+    ],
+    "id": 65583
   },
   {
-    "id": 17503,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
-    "difficulty": "easy",
-    "text": "What is the capital city of France?",
+    "difficulty": "medium",
+    "text": "What is the capital of Austria?",
     "answers": [
-      "Rome",
-      "Berlin",
+      "Vienna",
+      "Prague",
+      "Brussels",
+      "Andorra la Vella"
+    ],
+    "correctAnswer": "Vienna",
+    "explanation": "Vienna is the capital of Austria.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65584
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Belgium?",
+    "answers": [
+      "Vatican City",
+      "Budapest",
+      "Sarajevo",
+      "Brussels"
+    ],
+    "correctAnswer": "Brussels",
+    "explanation": "Brussels is the capital of Belgium.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65585
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Bulgaria?",
+    "answers": [
+      "Nicosia",
+      "Sofia",
+      "Tirana",
+      "Vilnius"
+    ],
+    "correctAnswer": "Sofia",
+    "explanation": "Sofia is the capital of Bulgaria.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65586
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Croatia?",
+    "answers": [
       "Paris",
-      "Madrid"
+      "Oslo",
+      "Zagreb",
+      "Vilnius"
+    ],
+    "correctAnswer": "Zagreb",
+    "explanation": "Zagreb is the capital of Croatia.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65587
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Czech Republic?",
+    "answers": [
+      "Zagreb",
+      "Prague",
+      "Bucharest",
+      "Copenhagen"
+    ],
+    "correctAnswer": "Prague",
+    "explanation": "Prague is the capital of Czech Republic.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65588
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Denmark?",
+    "answers": [
+      "Skopje",
+      "Copenhagen",
+      "Bern",
+      "Vienna"
+    ],
+    "correctAnswer": "Copenhagen",
+    "explanation": "Copenhagen is the capital of Denmark.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65589
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Estonia?",
+    "answers": [
+      "Luxembourg City",
+      "Sarajevo",
+      "Tallinn",
+      "San Marino"
+    ],
+    "correctAnswer": "Tallinn",
+    "explanation": "Tallinn is the capital of Estonia.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65590
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Finland?",
+    "answers": [
+      "Vienna",
+      "Helsinki",
+      "Sofia",
+      "Dublin"
+    ],
+    "correctAnswer": "Helsinki",
+    "explanation": "Helsinki is the capital of Finland.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65591
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital of France?",
+    "answers": [
+      "Prague",
+      "Bucharest",
+      "Vilnius",
+      "Paris"
     ],
     "correctAnswer": "Paris",
-    "explanation": "Paris is the correct answer.",
+    "explanation": "Paris is the capital of France.",
     "tags": [
       "geography",
-      "easy"
-    ]
+      "europe",
+      "capital"
+    ],
+    "id": 65592
   },
   {
-    "id": 17504,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "easy",
-    "text": "Which country has the largest population?",
+    "text": "What is the capital of Greece?",
     "answers": [
-      "USA",
-      "India",
-      "Russia",
-      "China"
+      "Athens",
+      "Vatican City",
+      "Vaduz",
+      "Sofia"
     ],
-    "correctAnswer": "China",
-    "explanation": "China is the correct answer.",
+    "correctAnswer": "Athens",
+    "explanation": "Athens is the capital of Greece.",
     "tags": [
       "geography",
-      "easy"
-    ]
+      "europe",
+      "capital"
+    ],
+    "id": 65593
   },
   {
-    "id": 17505,
-    "category": "geography",
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Hungary?",
+    "answers": [
+      "Bern",
+      "Paris",
+      "Budapest",
+      "Bucharest"
+    ],
+    "correctAnswer": "Budapest",
+    "explanation": "Budapest is the capital of Hungary.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65594
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Iceland?",
+    "answers": [
+      "Reykjavik",
+      "Dublin",
+      "Brussels",
+      "Amsterdam"
+    ],
+    "correctAnswer": "Reykjavik",
+    "explanation": "Reykjavik is the capital of Iceland.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65595
+  },
+  {
+    "category": "Geography",
     "premium": true,
     "difficulty": "easy",
-    "text": "Which continent is Australia part of?",
+    "text": "What is the capital of Ireland?",
     "answers": [
-      "Australia",
-      "Europe",
-      "Asia",
-      "Africa"
+      "Dublin",
+      "Sofia",
+      "Vilnius",
+      "Budapest"
     ],
-    "correctAnswer": "Australia",
-    "explanation": "Australia is the correct answer.",
+    "correctAnswer": "Dublin",
+    "explanation": "Dublin is the capital of Ireland.",
     "tags": [
       "geography",
-      "easy"
-    ]
+      "europe",
+      "capital"
+    ],
+    "id": 65596
   },
   {
-    "id": 17506,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which river is the longest in the world?",
+    "text": "What is the capital of Latvia?",
     "answers": [
-      "Amazon",
-      "Nile",
-      "Yangtze",
-      "Mississippi"
+      "Dublin",
+      "Sarajevo",
+      "Riga",
+      "Skopje"
     ],
-    "correctAnswer": "Nile",
-    "explanation": "Nile is the correct answer.",
+    "correctAnswer": "Riga",
+    "explanation": "Riga is the capital of Latvia.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "europe",
+      "capital"
+    ],
+    "id": 65597
   },
   {
-    "id": 17507,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which country is known as the Land of the Rising Sun?",
+    "text": "What is the capital of Lithuania?",
     "answers": [
-      "China",
-      "Thailand",
-      "Japan",
-      "South Korea"
+      "Lisbon",
+      "Vilnius",
+      "Nicosia",
+      "Bratislava"
     ],
-    "correctAnswer": "Japan",
-    "explanation": "Japan is the correct answer.",
+    "correctAnswer": "Vilnius",
+    "explanation": "Vilnius is the capital of Lithuania.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "europe",
+      "capital"
+    ],
+    "id": 65598
   },
   {
-    "id": 17508,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "What is the capital of Canada?",
+    "text": "What is the capital of Luxembourg?",
     "answers": [
-      "Toronto",
-      "Vancouver",
-      "Montreal",
-      "Ottawa"
+      "Luxembourg City",
+      "Zagreb",
+      "Copenhagen",
+      "Brussels"
     ],
-    "correctAnswer": "Ottawa",
-    "explanation": "Ottawa is the correct answer.",
+    "correctAnswer": "Luxembourg City",
+    "explanation": "Luxembourg City is the capital of Luxembourg.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "europe",
+      "capital"
+    ],
+    "id": 65599
   },
   {
-    "id": 17509,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which desert is the largest hot desert in the world?",
+    "text": "What is the capital of Malta?",
     "answers": [
-      "Sahara",
-      "Gobi",
-      "Kalahari",
-      "Arabian"
+      "Madrid",
+      "Sofia",
+      "Vaduz",
+      "Valletta"
     ],
-    "correctAnswer": "Sahara",
-    "explanation": "Sahara is the correct answer.",
+    "correctAnswer": "Valletta",
+    "explanation": "Valletta is the capital of Malta.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "europe",
+      "capital"
+    ],
+    "id": 65600
   },
   {
-    "id": 17510,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which mountain range separates Europe and Asia?",
+    "text": "What is the capital of Netherlands?",
     "answers": [
-      "Alps",
-      "Ural Mountains",
-      "Himalayas",
-      "Andes"
+      "Rome",
+      "Amsterdam",
+      "Sarajevo",
+      "Podgorica"
     ],
-    "correctAnswer": "Ural Mountains",
-    "explanation": "Ural Mountains is the correct answer.",
+    "correctAnswer": "Amsterdam",
+    "explanation": "Amsterdam is the capital of Netherlands.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "europe",
+      "capital"
+    ],
+    "id": 65601
   },
   {
-    "id": 17511,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
-    "difficulty": "hard",
-    "text": "Which country has the most natural lakes?",
+    "difficulty": "medium",
+    "text": "What is the capital of Norway?",
     "answers": [
-      "USA",
-      "Finland",
-      "Canada",
-      "Russia"
+      "Oslo",
+      "Riga",
+      "Skopje",
+      "Vatican City"
     ],
-    "correctAnswer": "Canada",
-    "explanation": "Canada is the correct answer.",
+    "correctAnswer": "Oslo",
+    "explanation": "Oslo is the capital of Norway.",
     "tags": [
       "geography",
-      "hard"
-    ]
+      "europe",
+      "capital"
+    ],
+    "id": 65602
   },
   {
-    "id": 17512,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
-    "difficulty": "hard",
-    "text": "What is the smallest independent country in the world?",
+    "difficulty": "medium",
+    "text": "What is the capital of Poland?",
+    "answers": [
+      "Warsaw",
+      "Paris",
+      "Bern",
+      "Madrid"
+    ],
+    "correctAnswer": "Warsaw",
+    "explanation": "Warsaw is the capital of Poland.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65603
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital of Portugal?",
+    "answers": [
+      "Berlin",
+      "Belgrade",
+      "Lisbon",
+      "Prague"
+    ],
+    "correctAnswer": "Lisbon",
+    "explanation": "Lisbon is the capital of Portugal.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65604
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Romania?",
+    "answers": [
+      "Bucharest",
+      "Warsaw",
+      "Paris",
+      "Helsinki"
+    ],
+    "correctAnswer": "Bucharest",
+    "explanation": "Bucharest is the capital of Romania.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65605
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Slovakia?",
+    "answers": [
+      "Bratislava",
+      "London",
+      "Andorra la Vella",
+      "Copenhagen"
+    ],
+    "correctAnswer": "Bratislava",
+    "explanation": "Bratislava is the capital of Slovakia.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65606
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Slovenia?",
+    "answers": [
+      "Chisinau",
+      "Dublin",
+      "Ljubljana",
+      "Brussels"
+    ],
+    "correctAnswer": "Ljubljana",
+    "explanation": "Ljubljana is the capital of Slovenia.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65607
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Sweden?",
+    "answers": [
+      "Paris",
+      "Rome",
+      "Sarajevo",
+      "Stockholm"
+    ],
+    "correctAnswer": "Stockholm",
+    "explanation": "Stockholm is the capital of Sweden.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65608
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Switzerland?",
+    "answers": [
+      "Luxembourg City",
+      "Bern",
+      "Bucharest",
+      "Vatican City"
+    ],
+    "correctAnswer": "Bern",
+    "explanation": "Bern is the capital of Switzerland.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65609
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Ukraine?",
+    "answers": [
+      "Reykjavik",
+      "Kyiv",
+      "Dublin",
+      "Copenhagen"
+    ],
+    "correctAnswer": "Kyiv",
+    "explanation": "Kyiv is the capital of Ukraine.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65610
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital of United Kingdom?",
+    "answers": [
+      "London",
+      "Reykjavik",
+      "Nicosia",
+      "Sarajevo"
+    ],
+    "correctAnswer": "London",
+    "explanation": "London is the capital of United Kingdom.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65611
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Serbia?",
+    "answers": [
+      "Reykjavik",
+      "Brussels",
+      "Belgrade",
+      "San Marino"
+    ],
+    "correctAnswer": "Belgrade",
+    "explanation": "Belgrade is the capital of Serbia.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65612
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Montenegro?",
+    "answers": [
+      "Sofia",
+      "London",
+      "Podgorica",
+      "Dublin"
+    ],
+    "correctAnswer": "Podgorica",
+    "explanation": "Podgorica is the capital of Montenegro.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65613
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of North Macedonia?",
+    "answers": [
+      "Tallinn",
+      "Podgorica",
+      "Budapest",
+      "Skopje"
+    ],
+    "correctAnswer": "Skopje",
+    "explanation": "Skopje is the capital of North Macedonia.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65614
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Bosnia and Herzegovina?",
+    "answers": [
+      "Sarajevo",
+      "Athens",
+      "Prague",
+      "Bratislava"
+    ],
+    "correctAnswer": "Sarajevo",
+    "explanation": "Sarajevo is the capital of Bosnia and Herzegovina.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65615
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Moldova?",
+    "answers": [
+      "Ljubljana",
+      "Oslo",
+      "Bratislava",
+      "Chisinau"
+    ],
+    "correctAnswer": "Chisinau",
+    "explanation": "Chisinau is the capital of Moldova.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65616
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Cyprus?",
+    "answers": [
+      "Vatican City",
+      "Prague",
+      "Brussels",
+      "Nicosia"
+    ],
+    "correctAnswer": "Nicosia",
+    "explanation": "Nicosia is the capital of Cyprus.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65617
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Liechtenstein?",
+    "answers": [
+      "Prague",
+      "Vaduz",
+      "Athens",
+      "Dublin"
+    ],
+    "correctAnswer": "Vaduz",
+    "explanation": "Vaduz is the capital of Liechtenstein.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65618
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Monaco?",
     "answers": [
       "Monaco",
+      "Tallinn",
+      "Ljubljana",
+      "Berlin"
+    ],
+    "correctAnswer": "Monaco",
+    "explanation": "Monaco is the capital of Monaco.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65619
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of San Marino?",
+    "answers": [
+      "Madrid",
+      "Skopje",
       "San Marino",
-      "Liechtenstein",
+      "Sofia"
+    ],
+    "correctAnswer": "San Marino",
+    "explanation": "San Marino is the capital of San Marino.",
+    "tags": [
+      "geography",
+      "europe",
+      "capital"
+    ],
+    "id": 65620
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Vatican City?",
+    "answers": [
+      "Zagreb",
+      "Paris",
+      "Dublin",
       "Vatican City"
     ],
     "correctAnswer": "Vatican City",
-    "explanation": "Vatican City is the correct answer.",
+    "explanation": "Vatican City is the capital of Vatican City.",
     "tags": [
       "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 17513,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which strait separates Asia from North America?",
-    "answers": [
-      "Bering Strait",
-      "Gibraltar",
-      "Bosporus",
-      "Malacca"
+      "europe",
+      "capital"
     ],
-    "correctAnswer": "Bering Strait",
-    "explanation": "Bering Strait is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
+    "id": 65621
   },
   {
-    "id": 17514,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which African country has the most pyramids?",
-    "answers": [
-      "Egypt",
-      "Sudan",
-      "Ethiopia",
-      "Libya"
-    ],
-    "correctAnswer": "Sudan",
-    "explanation": "Sudan is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 17515,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which capital city is the highest above sea level?",
-    "answers": [
-      "Quito",
-      "Bogotá",
-      "La Paz",
-      "Kathmandu"
-    ],
-    "correctAnswer": "La Paz",
-    "explanation": "La Paz is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 17516,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which ocean lies between Africa and Australia?",
-    "answers": [
-      "Pacific",
-      "Atlantic",
-      "Southern",
-      "Indian"
-    ],
-    "correctAnswer": "Indian",
-    "explanation": "Indian is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 17517,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "What is the capital of Italy?",
-    "answers": [
-      "Rome",
-      "Venice",
-      "Milan",
-      "Naples"
-    ],
-    "correctAnswer": "Rome",
-    "explanation": "Rome is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 17518,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which country is famous for the Great Wall?",
-    "answers": [
-      "Japan",
-      "China",
-      "India",
-      "Mongolia"
-    ],
-    "correctAnswer": "China",
-    "explanation": "China is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 17519,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which continent is the Sahara Desert located on?",
-    "answers": [
-      "Asia",
-      "Australia",
-      "Africa",
-      "South America"
-    ],
-    "correctAnswer": "Africa",
-    "explanation": "Africa is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 17520,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "What is the capital of Spain?",
-    "answers": [
-      "Barcelona",
-      "Seville",
-      "Valencia",
-      "Madrid"
-    ],
-    "correctAnswer": "Madrid",
-    "explanation": "Madrid is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 17521,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which country has the city of Istanbul?",
+    "text": "What is the capital of the U.S. state of Alabama?",
     "answers": [
-      "Turkey",
-      "Greece",
-      "Bulgaria",
-      "Italy"
+      "Sacramento",
+      "Des Moines",
+      "Montgomery",
+      "Lincoln"
     ],
-    "correctAnswer": "Turkey",
-    "explanation": "Turkey is the correct answer.",
+    "correctAnswer": "Montgomery",
+    "explanation": "Montgomery is the capital of Alabama.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "usa",
+      "capital"
+    ],
+    "id": 65622
   },
   {
-    "id": 17522,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which river flows through Paris?",
+    "text": "What is the capital of the U.S. state of Alaska?",
     "answers": [
-      "Thames",
-      "Seine",
-      "Danube",
-      "Rhine"
+      "Helena",
+      "Juneau",
+      "Baton Rouge",
+      "Santa Fe"
     ],
-    "correctAnswer": "Seine",
-    "explanation": "Seine is the correct answer.",
+    "correctAnswer": "Juneau",
+    "explanation": "Juneau is the capital of Alaska.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "usa",
+      "capital"
+    ],
+    "id": 65623
   },
   {
-    "id": 17523,
-    "category": "geography",
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital of the U.S. state of Arizona?",
+    "answers": [
+      "Phoenix",
+      "Annapolis",
+      "Honolulu",
+      "Indianapolis"
+    ],
+    "correctAnswer": "Phoenix",
+    "explanation": "Phoenix is the capital of Arizona.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65624
+  },
+  {
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which US state is the largest by area?",
+    "text": "What is the capital of the U.S. state of Arkansas?",
     "answers": [
-      "Texas",
-      "California",
-      "Alaska",
-      "Montana"
+      "Little Rock",
+      "Lansing",
+      "Sacramento",
+      "Madison"
     ],
-    "correctAnswer": "Alaska",
-    "explanation": "Alaska is the correct answer.",
+    "correctAnswer": "Little Rock",
+    "explanation": "Little Rock is the capital of Arkansas.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "usa",
+      "capital"
+    ],
+    "id": 65625
   },
   {
-    "id": 17524,
-    "category": "geography",
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital of the U.S. state of California?",
+    "answers": [
+      "Columbus",
+      "Sacramento",
+      "Boise",
+      "Bismarck"
+    ],
+    "correctAnswer": "Sacramento",
+    "explanation": "Sacramento is the capital of California.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65626
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital of the U.S. state of Colorado?",
+    "answers": [
+      "Sacramento",
+      "Denver",
+      "Columbia",
+      "Springfield"
+    ],
+    "correctAnswer": "Denver",
+    "explanation": "Denver is the capital of Colorado.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65627
+  },
+  {
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which sea is the saltiest?",
+    "text": "What is the capital of the U.S. state of Connecticut?",
     "answers": [
-      "Red Sea",
-      "Mediterranean",
-      "Black Sea",
-      "Dead Sea"
+      "Hartford",
+      "Lincoln",
+      "Harrisburg",
+      "Tallahassee"
     ],
-    "correctAnswer": "Dead Sea",
-    "explanation": "Dead Sea is the correct answer.",
+    "correctAnswer": "Hartford",
+    "explanation": "Hartford is the capital of Connecticut.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "usa",
+      "capital"
+    ],
+    "id": 65628
   },
   {
-    "id": 17525,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which country has the longest coastline?",
+    "text": "What is the capital of the U.S. state of Delaware?",
     "answers": [
-      "Canada",
-      "Russia",
-      "Australia",
-      "USA"
+      "Dover",
+      "Pierre",
+      "Denver",
+      "Carson City"
     ],
-    "correctAnswer": "Canada",
-    "explanation": "Canada is the correct answer.",
+    "correctAnswer": "Dover",
+    "explanation": "Dover is the capital of Delaware.",
     "tags": [
       "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 17526,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which mountain is the tallest above sea level?",
-    "answers": [
-      "K2",
-      "Mount Everest",
-      "Kangchenjunga",
-      "Lhotse"
+      "usa",
+      "capital"
     ],
-    "correctAnswer": "Mount Everest",
-    "explanation": "Mount Everest is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
+    "id": 65629
   },
   {
-    "id": 17527,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which country contains the most time zones?",
-    "answers": [
-      "USA",
-      "Russia",
-      "France",
-      "China"
-    ],
-    "correctAnswer": "France",
-    "explanation": "France is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 17528,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which river drains into the Black Sea?",
-    "answers": [
-      "Rhine",
-      "Volga",
-      "Po",
-      "Danube"
-    ],
-    "correctAnswer": "Danube",
-    "explanation": "Danube is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 17529,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which desert is the coldest in the world?",
-    "answers": [
-      "Antarctic Desert",
-      "Gobi",
-      "Atacama",
-      "Karakum"
-    ],
-    "correctAnswer": "Antarctic Desert",
-    "explanation": "Antarctic Desert is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 17530,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which country is completely surrounded by South Africa?",
-    "answers": [
-      "Eswatini",
-      "Lesotho",
-      "Botswana",
-      "Zimbabwe"
-    ],
-    "correctAnswer": "Lesotho",
-    "explanation": "Lesotho is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 17531,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "easy",
-    "text": "Which continent is the coldest?",
+    "text": "What is the capital of the U.S. state of Florida?",
     "answers": [
-      "Europe",
-      "Asia",
-      "Antarctica",
-      "North America"
+      "Salt Lake City",
+      "Lansing",
+      "Tallahassee",
+      "Olympia"
     ],
-    "correctAnswer": "Antarctica",
-    "explanation": "Antarctica is the correct answer.",
+    "correctAnswer": "Tallahassee",
+    "explanation": "Tallahassee is the capital of Florida.",
     "tags": [
       "geography",
-      "easy"
-    ]
+      "usa",
+      "capital"
+    ],
+    "id": 65630
   },
   {
-    "id": 17532,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "easy",
-    "text": "What is the capital of Germany?",
+    "text": "What is the capital of the U.S. state of Georgia?",
     "answers": [
-      "Munich",
-      "Frankfurt",
-      "Hamburg",
-      "Berlin"
+      "Tallahassee",
+      "Atlanta",
+      "Salt Lake City",
+      "Austin"
     ],
-    "correctAnswer": "Berlin",
-    "explanation": "Berlin is the correct answer.",
+    "correctAnswer": "Atlanta",
+    "explanation": "Atlanta is the capital of Georgia.",
     "tags": [
       "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 17533,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which ocean borders the west coast of the United States?",
-    "answers": [
-      "Pacific",
-      "Atlantic",
-      "Indian",
-      "Arctic"
+      "usa",
+      "capital"
     ],
-    "correctAnswer": "Pacific",
-    "explanation": "Pacific is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
+    "id": 65631
   },
   {
-    "id": 17534,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which country is shaped like a boot?",
-    "answers": [
-      "Spain",
-      "Italy",
-      "Greece",
-      "Portugal"
-    ],
-    "correctAnswer": "Italy",
-    "explanation": "Italy is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 17535,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which continent has the most countries?",
-    "answers": [
-      "Asia",
-      "Europe",
-      "Africa",
-      "South America"
-    ],
-    "correctAnswer": "Africa",
-    "explanation": "Africa is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 17536,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which river runs through London?",
+    "text": "What is the capital of the U.S. state of Hawaii?",
     "answers": [
-      "Seine",
-      "Rhine",
-      "Elbe",
-      "Thames"
+      "Sacramento",
+      "Cheyenne",
+      "Montgomery",
+      "Honolulu"
     ],
-    "correctAnswer": "Thames",
-    "explanation": "Thames is the correct answer.",
+    "correctAnswer": "Honolulu",
+    "explanation": "Honolulu is the capital of Hawaii.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "usa",
+      "capital"
+    ],
+    "id": 65632
   },
   {
-    "id": 17537,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which country has the capital city of Vienna?",
+    "text": "What is the capital of the U.S. state of Idaho?",
     "answers": [
-      "Austria",
-      "Germany",
-      "Hungary",
-      "Switzerland"
+      "Boise",
+      "Oklahoma City",
+      "Sacramento",
+      "Des Moines"
     ],
-    "correctAnswer": "Austria",
-    "explanation": "Austria is the correct answer.",
+    "correctAnswer": "Boise",
+    "explanation": "Boise is the capital of Idaho.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "usa",
+      "capital"
+    ],
+    "id": 65633
   },
   {
-    "id": 17538,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which continent contains the Amazon rainforest?",
+    "text": "What is the capital of the U.S. state of Illinois?",
     "answers": [
-      "Africa",
-      "South America",
-      "Asia",
-      "North America"
+      "Springfield",
+      "Frankfort",
+      "Sacramento",
+      "Jefferson City"
     ],
-    "correctAnswer": "South America",
-    "explanation": "South America is the correct answer.",
+    "correctAnswer": "Springfield",
+    "explanation": "Springfield is the capital of Illinois.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "usa",
+      "capital"
+    ],
+    "id": 65634
   },
   {
-    "id": 17539,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which country is Mount Fuji located in?",
+    "text": "What is the capital of the U.S. state of Indiana?",
     "answers": [
-      "China",
-      "South Korea",
-      "Japan",
-      "Nepal"
+      "Indianapolis",
+      "Olympia",
+      "Boston",
+      "Oklahoma City"
     ],
-    "correctAnswer": "Japan",
-    "explanation": "Japan is the correct answer.",
+    "correctAnswer": "Indianapolis",
+    "explanation": "Indianapolis is the capital of Indiana.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "usa",
+      "capital"
+    ],
+    "id": 65635
   },
   {
-    "id": 17540,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which sea separates Europe from Africa?",
+    "text": "What is the capital of the U.S. state of Iowa?",
     "answers": [
-      "Black Sea",
-      "Red Sea",
-      "Baltic Sea",
-      "Mediterranean Sea"
+      "Hartford",
+      "Des Moines",
+      "Salt Lake City",
+      "Tallahassee"
     ],
-    "correctAnswer": "Mediterranean Sea",
-    "explanation": "Mediterranean Sea is the correct answer.",
+    "correctAnswer": "Des Moines",
+    "explanation": "Des Moines is the capital of Iowa.",
     "tags": [
       "geography",
-      "medium"
-    ]
-  },
-  {
-    "id": 17541,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which country has three capital cities?",
-    "answers": [
-      "South Africa",
-      "Bolivia",
-      "Netherlands",
-      "Malaysia"
+      "usa",
+      "capital"
     ],
-    "correctAnswer": "South Africa",
-    "explanation": "South Africa is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
+    "id": 65636
   },
   {
-    "id": 17542,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which plateau is known as the Roof of the World?",
-    "answers": [
-      "Deccan Plateau",
-      "Tibetan Plateau",
-      "Colorado Plateau",
-      "Altiplano"
-    ],
-    "correctAnswer": "Tibetan Plateau",
-    "explanation": "Tibetan Plateau is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 17543,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which river is sacred to Hindus?",
-    "answers": [
-      "Indus",
-      "Brahmaputra",
-      "Ganges",
-      "Yamuna"
-    ],
-    "correctAnswer": "Ganges",
-    "explanation": "Ganges is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 17544,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which country lies on both sides of the Equator?",
-    "answers": [
-      "Brazil",
-      "Kenya",
-      "Ecuador",
-      "Indonesia"
-    ],
-    "correctAnswer": "Indonesia",
-    "explanation": "Indonesia is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 17545,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which European country has the most volcanoes?",
-    "answers": [
-      "Iceland",
-      "Italy",
-      "Greece",
-      "Spain"
-    ],
-    "correctAnswer": "Iceland",
-    "explanation": "Iceland is the correct answer.",
-    "tags": [
-      "geography",
-      "hard"
-    ]
-  },
-  {
-    "id": 17546,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which country has the city of Sydney?",
-    "answers": [
-      "USA",
-      "Australia",
-      "UK",
-      "New Zealand"
-    ],
-    "correctAnswer": "Australia",
-    "explanation": "Australia is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 17547,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which continent is Brazil located in?",
-    "answers": [
-      "North America",
-      "Europe",
-      "South America",
-      "Africa"
-    ],
-    "correctAnswer": "South America",
-    "explanation": "South America is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 17548,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "What is the capital of Japan?",
-    "answers": [
-      "Kyoto",
-      "Osaka",
-      "Nagoya",
-      "Tokyo"
-    ],
-    "correctAnswer": "Tokyo",
-    "explanation": "Tokyo is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 17549,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which mountain range is in South America?",
-    "answers": [
-      "Andes",
-      "Rockies",
-      "Alps",
-      "Himalayas"
-    ],
-    "correctAnswer": "Andes",
-    "explanation": "Andes is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 17550,
-    "category": "geography",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which ocean is the smallest?",
-    "answers": [
-      "Indian",
-      "Arctic",
-      "Atlantic",
-      "Pacific"
-    ],
-    "correctAnswer": "Arctic",
-    "explanation": "Arctic is the correct answer.",
-    "tags": [
-      "geography",
-      "easy"
-    ]
-  },
-  {
-    "id": 17551,
-    "category": "geography",
+    "category": "Geography",
     "premium": true,
     "difficulty": "medium",
-    "text": "Which African country was formerly known as Abyssinia?",
+    "text": "What is the capital of the U.S. state of Kansas?",
     "answers": [
-      "Sudan",
-      "Somalia",
-      "Ethiopia",
-      "Eritrea"
+      "Topeka",
+      "Madison",
+      "Salem",
+      "Atlanta"
     ],
-    "correctAnswer": "Ethiopia",
-    "explanation": "Ethiopia is the correct answer.",
+    "correctAnswer": "Topeka",
+    "explanation": "Topeka is the capital of Kansas.",
     "tags": [
       "geography",
-      "medium"
-    ]
+      "usa",
+      "capital"
+    ],
+    "id": 65637
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Kentucky?",
+    "answers": [
+      "Olympia",
+      "Saint Paul",
+      "Frankfort",
+      "Indianapolis"
+    ],
+    "correctAnswer": "Frankfort",
+    "explanation": "Frankfort is the capital of Kentucky.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65638
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Louisiana?",
+    "answers": [
+      "Denver",
+      "Frankfort",
+      "Little Rock",
+      "Baton Rouge"
+    ],
+    "correctAnswer": "Baton Rouge",
+    "explanation": "Baton Rouge is the capital of Louisiana.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65639
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Maine?",
+    "answers": [
+      "Augusta",
+      "Saint Paul",
+      "Montgomery",
+      "Tallahassee"
+    ],
+    "correctAnswer": "Augusta",
+    "explanation": "Augusta is the capital of Maine.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65640
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Maryland?",
+    "answers": [
+      "Olympia",
+      "Concord",
+      "Annapolis",
+      "Salem"
+    ],
+    "correctAnswer": "Annapolis",
+    "explanation": "Annapolis is the capital of Maryland.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65641
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital of the U.S. state of Massachusetts?",
+    "answers": [
+      "Oklahoma City",
+      "Boston",
+      "Atlanta",
+      "Richmond"
+    ],
+    "correctAnswer": "Boston",
+    "explanation": "Boston is the capital of Massachusetts.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65642
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Michigan?",
+    "answers": [
+      "Lansing",
+      "Concord",
+      "Tallahassee",
+      "Phoenix"
+    ],
+    "correctAnswer": "Lansing",
+    "explanation": "Lansing is the capital of Michigan.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65643
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Minnesota?",
+    "answers": [
+      "Saint Paul",
+      "Jackson",
+      "Montpelier",
+      "Indianapolis"
+    ],
+    "correctAnswer": "Saint Paul",
+    "explanation": "Saint Paul is the capital of Minnesota.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65644
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Mississippi?",
+    "answers": [
+      "Jackson",
+      "Carson City",
+      "Saint Paul",
+      "Salem"
+    ],
+    "correctAnswer": "Jackson",
+    "explanation": "Jackson is the capital of Mississippi.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65645
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Missouri?",
+    "answers": [
+      "Boise",
+      "Jefferson City",
+      "Juneau",
+      "Carson City"
+    ],
+    "correctAnswer": "Jefferson City",
+    "explanation": "Jefferson City is the capital of Missouri.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65646
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Montana?",
+    "answers": [
+      "Madison",
+      "Carson City",
+      "Helena",
+      "Salt Lake City"
+    ],
+    "correctAnswer": "Helena",
+    "explanation": "Helena is the capital of Montana.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65647
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Nebraska?",
+    "answers": [
+      "Jefferson City",
+      "Lincoln",
+      "Hartford",
+      "Richmond"
+    ],
+    "correctAnswer": "Lincoln",
+    "explanation": "Lincoln is the capital of Nebraska.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65648
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Nevada?",
+    "answers": [
+      "Santa Fe",
+      "Carson City",
+      "Springfield",
+      "Saint Paul"
+    ],
+    "correctAnswer": "Carson City",
+    "explanation": "Carson City is the capital of Nevada.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65649
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of New Hampshire?",
+    "answers": [
+      "Juneau",
+      "Springfield",
+      "Salt Lake City",
+      "Concord"
+    ],
+    "correctAnswer": "Concord",
+    "explanation": "Concord is the capital of New Hampshire.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65650
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of New Jersey?",
+    "answers": [
+      "Sacramento",
+      "Baton Rouge",
+      "Saint Paul",
+      "Trenton"
+    ],
+    "correctAnswer": "Trenton",
+    "explanation": "Trenton is the capital of New Jersey.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65651
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of New Mexico?",
+    "answers": [
+      "Juneau",
+      "Santa Fe",
+      "Frankfort",
+      "Dover"
+    ],
+    "correctAnswer": "Santa Fe",
+    "explanation": "Santa Fe is the capital of New Mexico.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65652
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital of the U.S. state of New York?",
+    "answers": [
+      "Phoenix",
+      "Columbia",
+      "Hartford",
+      "Albany"
+    ],
+    "correctAnswer": "Albany",
+    "explanation": "Albany is the capital of New York.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65653
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of North Carolina?",
+    "answers": [
+      "Bismarck",
+      "Raleigh",
+      "Columbia",
+      "Carson City"
+    ],
+    "correctAnswer": "Raleigh",
+    "explanation": "Raleigh is the capital of North Carolina.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65654
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of North Dakota?",
+    "answers": [
+      "Phoenix",
+      "Olympia",
+      "Frankfort",
+      "Bismarck"
+    ],
+    "correctAnswer": "Bismarck",
+    "explanation": "Bismarck is the capital of North Dakota.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65655
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Ohio?",
+    "answers": [
+      "Jackson",
+      "Carson City",
+      "Columbus",
+      "Sacramento"
+    ],
+    "correctAnswer": "Columbus",
+    "explanation": "Columbus is the capital of Ohio.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65656
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Oklahoma?",
+    "answers": [
+      "Salt Lake City",
+      "Dover",
+      "Oklahoma City",
+      "Charleston"
+    ],
+    "correctAnswer": "Oklahoma City",
+    "explanation": "Oklahoma City is the capital of Oklahoma.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65657
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Oregon?",
+    "answers": [
+      "Salt Lake City",
+      "Lincoln",
+      "Boston",
+      "Salem"
+    ],
+    "correctAnswer": "Salem",
+    "explanation": "Salem is the capital of Oregon.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65658
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Pennsylvania?",
+    "answers": [
+      "Oklahoma City",
+      "Tallahassee",
+      "Springfield",
+      "Harrisburg"
+    ],
+    "correctAnswer": "Harrisburg",
+    "explanation": "Harrisburg is the capital of Pennsylvania.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65659
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Rhode Island?",
+    "answers": [
+      "Providence",
+      "Montpelier",
+      "Madison",
+      "Boise"
+    ],
+    "correctAnswer": "Providence",
+    "explanation": "Providence is the capital of Rhode Island.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65660
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of South Carolina?",
+    "answers": [
+      "Annapolis",
+      "Augusta",
+      "Indianapolis",
+      "Columbia"
+    ],
+    "correctAnswer": "Columbia",
+    "explanation": "Columbia is the capital of South Carolina.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65661
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of South Dakota?",
+    "answers": [
+      "Trenton",
+      "Pierre",
+      "Montpelier",
+      "Concord"
+    ],
+    "correctAnswer": "Pierre",
+    "explanation": "Pierre is the capital of South Dakota.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65662
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Tennessee?",
+    "answers": [
+      "Nashville",
+      "Salt Lake City",
+      "Honolulu",
+      "Madison"
+    ],
+    "correctAnswer": "Nashville",
+    "explanation": "Nashville is the capital of Tennessee.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65663
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital of the U.S. state of Texas?",
+    "answers": [
+      "Cheyenne",
+      "Austin",
+      "Denver",
+      "Topeka"
+    ],
+    "correctAnswer": "Austin",
+    "explanation": "Austin is the capital of Texas.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65664
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Utah?",
+    "answers": [
+      "Phoenix",
+      "Atlanta",
+      "Salt Lake City",
+      "Juneau"
+    ],
+    "correctAnswer": "Salt Lake City",
+    "explanation": "Salt Lake City is the capital of Utah.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65665
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Vermont?",
+    "answers": [
+      "Trenton",
+      "Montpelier",
+      "Pierre",
+      "Lincoln"
+    ],
+    "correctAnswer": "Montpelier",
+    "explanation": "Montpelier is the capital of Vermont.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65666
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Virginia?",
+    "answers": [
+      "Richmond",
+      "Albany",
+      "Topeka",
+      "Helena"
+    ],
+    "correctAnswer": "Richmond",
+    "explanation": "Richmond is the capital of Virginia.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65667
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "What is the capital of the U.S. state of Washington?",
+    "answers": [
+      "Carson City",
+      "Olympia",
+      "Cheyenne",
+      "Hartford"
+    ],
+    "correctAnswer": "Olympia",
+    "explanation": "Olympia is the capital of Washington.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65668
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of West Virginia?",
+    "answers": [
+      "Topeka",
+      "Charleston",
+      "Oklahoma City",
+      "Little Rock"
+    ],
+    "correctAnswer": "Charleston",
+    "explanation": "Charleston is the capital of West Virginia.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65669
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Wisconsin?",
+    "answers": [
+      "Trenton",
+      "Madison",
+      "Austin",
+      "Bismarck"
+    ],
+    "correctAnswer": "Madison",
+    "explanation": "Madison is the capital of Wisconsin.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65670
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of the U.S. state of Wyoming?",
+    "answers": [
+      "Oklahoma City",
+      "Honolulu",
+      "Concord",
+      "Cheyenne"
+    ],
+    "correctAnswer": "Cheyenne",
+    "explanation": "Cheyenne is the capital of Wyoming.",
+    "tags": [
+      "geography",
+      "usa",
+      "capital"
+    ],
+    "id": 65671
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Alberta?",
+    "answers": [
+      "Iqaluit",
+      "St. John's",
+      "Halifax",
+      "Edmonton"
+    ],
+    "correctAnswer": "Edmonton",
+    "explanation": "Edmonton is the capital of Alberta.",
+    "tags": [
+      "geography",
+      "canada",
+      "capital"
+    ],
+    "id": 65672
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of British Columbia?",
+    "answers": [
+      "Victoria",
+      "Quebec City",
+      "Halifax",
+      "Winnipeg"
+    ],
+    "correctAnswer": "Victoria",
+    "explanation": "Victoria is the capital of British Columbia.",
+    "tags": [
+      "geography",
+      "canada",
+      "capital"
+    ],
+    "id": 65673
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Manitoba?",
+    "answers": [
+      "Whitehorse",
+      "Regina",
+      "Winnipeg",
+      "Toronto"
+    ],
+    "correctAnswer": "Winnipeg",
+    "explanation": "Winnipeg is the capital of Manitoba.",
+    "tags": [
+      "geography",
+      "canada",
+      "capital"
+    ],
+    "id": 65674
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of New Brunswick?",
+    "answers": [
+      "Winnipeg",
+      "Fredericton",
+      "St. John's",
+      "Charlottetown"
+    ],
+    "correctAnswer": "Fredericton",
+    "explanation": "Fredericton is the capital of New Brunswick.",
+    "tags": [
+      "geography",
+      "canada",
+      "capital"
+    ],
+    "id": 65675
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Newfoundland and Labrador?",
+    "answers": [
+      "Regina",
+      "Charlottetown",
+      "Toronto",
+      "St. John's"
+    ],
+    "correctAnswer": "St. John's",
+    "explanation": "St. John's is the capital of Newfoundland and Labrador.",
+    "tags": [
+      "geography",
+      "canada",
+      "capital"
+    ],
+    "id": 65676
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Nova Scotia?",
+    "answers": [
+      "Halifax",
+      "Charlottetown",
+      "Iqaluit",
+      "Fredericton"
+    ],
+    "correctAnswer": "Halifax",
+    "explanation": "Halifax is the capital of Nova Scotia.",
+    "tags": [
+      "geography",
+      "canada",
+      "capital"
+    ],
+    "id": 65677
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Ontario?",
+    "answers": [
+      "Quebec City",
+      "Toronto",
+      "Edmonton",
+      "Halifax"
+    ],
+    "correctAnswer": "Toronto",
+    "explanation": "Toronto is the capital of Ontario.",
+    "tags": [
+      "geography",
+      "canada",
+      "capital"
+    ],
+    "id": 65678
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Prince Edward Island?",
+    "answers": [
+      "Yellowknife",
+      "Regina",
+      "Charlottetown",
+      "Whitehorse"
+    ],
+    "correctAnswer": "Charlottetown",
+    "explanation": "Charlottetown is the capital of Prince Edward Island.",
+    "tags": [
+      "geography",
+      "canada",
+      "capital"
+    ],
+    "id": 65679
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Quebec?",
+    "answers": [
+      "Quebec City",
+      "Charlottetown",
+      "Toronto",
+      "St. John's"
+    ],
+    "correctAnswer": "Quebec City",
+    "explanation": "Quebec City is the capital of Quebec.",
+    "tags": [
+      "geography",
+      "canada",
+      "capital"
+    ],
+    "id": 65680
+  },
+  {
+    "category": "Geography",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "What is the capital of Saskatchewan?",
+    "answers": [
+      "Toronto",
+      "Iqaluit",
+      "Regina",
+      "Whitehorse"
+    ],
+    "correctAnswer": "Regina",
+    "explanation": "Regina is the capital of Saskatchewan.",
+    "tags": [
+      "geography",
+      "canada",
+      "capital"
+    ],
+    "id": 65681
   }
 ]

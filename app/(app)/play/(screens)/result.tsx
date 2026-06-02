@@ -489,12 +489,12 @@ const styles = StyleSheet.create({
   content: {
     flexGrow: 1,
     paddingHorizontal: 16,
-    paddingTop: 10,
+    paddingTop: 90,
     paddingBottom: 34,
   },
 
   heroCard: {
-    minHeight: 246,
+    minHeight: 210,
     borderRadius: 28,
     overflow: "hidden",
     padding: 16,
@@ -600,7 +600,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    paddingTop: 16,
+    paddingTop: 8,
   },
 
   scoreLabel: {
@@ -613,8 +613,8 @@ const styles = StyleSheet.create({
 
   score: {
     color: "#FFFFFF",
-    fontSize: 62,
-    lineHeight: 70,
+    fontSize: 48,
+    lineHeight: 54,
     fontWeight: "900",
     textAlign: "center",
     textShadowColor: "rgba(86,166,255,0.48)",
@@ -623,7 +623,7 @@ const styles = StyleSheet.create({
 
   scoreSub: {
     color: "#DCE7FF",
-    fontSize: 12,
+    fontSize: 11,
     fontWeight: "800",
     marginTop: 2,
   },
@@ -716,9 +716,9 @@ const styles = StyleSheet.create({
 
   rewardValue: {
     color: "#FFFFFF",
-    fontSize: 24,
+    fontSize: 18,
     fontWeight: "900",
-    lineHeight: 28,
+    lineHeight: 22,
     textShadowColor: "rgba(0,0,0,0.78)",
     textShadowRadius: 8,
   },
@@ -793,15 +793,15 @@ const styles = StyleSheet.create({
   performanceTitle: {
     flex: 1,
     color: "#F5C451",
-    fontSize: 17,
+    fontSize: 14,
     fontWeight: "900",
   },
 
   performanceText: {
     color: "#DCE7FF",
-    fontSize: 12.5,
-    fontWeight: "750",
-    lineHeight: 18,
+    fontSize: 11.5,
+    fontWeight: "700",
+    lineHeight: 16,
     marginBottom: 12,
   },
 
@@ -828,13 +828,13 @@ const styles = StyleSheet.create({
 
   statValue: {
     color: "#FFFFFF",
-    fontSize: 18,
+    fontSize: 15,
     fontWeight: "900",
   },
 
   statValueGold: {
     color: "#F5C451",
-    fontSize: 18,
+    fontSize: 15,
     fontWeight: "900",
   },
 
@@ -974,16 +974,16 @@ const styles = StyleSheet.create({
   primaryText: {
     color: "#04111F",
     textAlign: "center",
-    fontSize: 15,
+    fontSize: 13,
     fontWeight: "900",
   },
 
   primarySub: {
     color: "rgba(4,17,31,0.72)",
     textAlign: "center",
-    fontSize: 10,
+    fontSize: 9,
     fontWeight: "900",
-    marginTop: 2,
+    marginTop: 1,
   },
 
   secondaryBtn: {
@@ -999,7 +999,7 @@ const styles = StyleSheet.create({
   secondaryText: {
     color: "#F5C451",
     textAlign: "center",
-    fontSize: 13,
+    fontSize: 12,
     fontWeight: "900",
   },
 

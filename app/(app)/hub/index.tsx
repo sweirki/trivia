@@ -15,14 +15,11 @@ import { useRouter } from "expo-router";
 import { LinearGradient } from "expo-linear-gradient";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
-import { auth } from "@/firebase/firebase";
 import { ACHIEVEMENT_META } from "@/data/achievementMeta";
 import { useQuickGameStore } from "@/store/useQuickGameStore";
 import { useIdentityStore } from "@/identity/store/useIdentityStore";
 import { useAuthStore } from "@/store/useAuthStore";
 import { AVATARS } from "@/identity/avatars/avatarDefinitions";
-import { useSeasonStore } from "@/seasons/store/useSeasonStore";
-import { useSeasonCountdown } from "@/seasons/hooks/useSeasonCountdown";
 import { useChallengesStore } from "@/challenges/store/useChallengesStore";
 import { usePlayerStore } from "@/store/usePlayerStore";
 import { useEntitlementStore } from "@/store/entitlementStore";
@@ -44,6 +41,7 @@ const HUB_HERO = require("../../../assets/images/modes/hub_hero_banner.webp");
 const QUICK_PLAY_ART = require("../../../assets/images/modes/quick_play_card_art.webp");
 const ARENA_ART = require("../../../assets/images/modes/arena_mode_art.webp");
 const DAILY_ART = require("../../../assets/images/modes/daily_mode_art.webp");
+const CHALLENGES_ART = require("../../../assets/premium/hub/hub_mode_challenges.webp");
 const LOBBY_ART = require("../../../assets/images/modes/lobby_mode_art.webp");
 const SHOP_ART = require("../../../assets/images/modes/shop_mode_art.webp");
 
@@ -58,9 +56,6 @@ export default function HubScreen() {
     user && !isGuest && avatarId
       ? (AVATARS.find((a) => a.id === avatarId) ?? null)
       : null;
-
-  const { ended } = useSeasonCountdown();
-  const resetSeason = useSeasonStore((s) => s.resetSeason);
 
   const level = usePlayerStore((s) => s.level);
   const xp = usePlayerStore((s) => s.xp);
@@ -112,13 +107,6 @@ export default function HubScreen() {
   useEffect(() => {
     ensureTodayDailyChallenge();
   }, [ensureTodayDailyChallenge]);
-
-  useEffect(() => {
-    if (!ended) return;
-
-    const uid = auth.currentUser?.uid ?? null;
-    if (uid) resetSeason(uid);
-  }, [ended, resetSeason]);
 
   useEffect(() => {
     if (dailyStreak <= 0) return;
@@ -342,6 +330,16 @@ export default function HubScreen() {
           compact
           badge={lastClaimDate !== todayKey}
           onPress={() => router.push("/daily" as any)}
+        />
+
+        <ModeCard
+          testID="hub-challenges-button"
+          title="Challenges"
+          subtitle="Inbox • Active"
+          art={CHALLENGES_ART}
+          tone={HUB_MODE_TONES.challenges}
+          compact
+          onPress={() => router.push("/challenges" as any)}
         />
 
         <ModeCard
@@ -598,6 +596,7 @@ function ModeCard({
   const isArena = title === "Arena";
   const isDaily = title === "Daily";
   const isLobby = title === "Lobby";
+  const isChallenges = title === "Challenges";
 
   const glowStyle = pulse
     ? {
@@ -648,6 +647,7 @@ function ModeCard({
             isDaily && styles.dailyArtLayer,
             isArena && styles.arenaArtLayer,
             isLobby && styles.lobbyArtLayer,
+            isChallenges && styles.challengesArtLayer,
           ]}
         />
 
@@ -1102,6 +1102,12 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: "800",
     marginTop: 4,
+  },
+
+  challengesArtLayer: {
+    right: -18,
+    width: "118%",
+    opacity: 0.96,
   },
 
   modeSubCompact: {

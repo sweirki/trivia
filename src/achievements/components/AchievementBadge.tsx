@@ -20,6 +20,7 @@ type Achievement = {
 type Props = {
   achievement: Achievement;
   unlocked: boolean;
+  currentProgress?: number;
 };
 
 type Tone = "gold" | "cyan" | "violet" | "emerald";
@@ -115,11 +116,16 @@ function getToneColor(tone: Tone) {
 function AchievementArtCard({
   achievement,
   unlocked,
+  currentProgress = 0,
   art,
 }: Props & { art?: ImageSourcePropType }) {
   const title = achievement.title ?? achievement.name ?? "Achievement";
   const tone = achievement.id ? TONE_BY_ID[achievement.id] ?? "cyan" : "cyan";
   const accent = getToneColor(tone);
+  const isProgress = achievement.type === "progress" && Boolean(achievement.threshold);
+  const threshold = achievement.threshold ?? 0;
+  const safeProgress = Math.max(0, Math.min(currentProgress, threshold));
+  const progressPercent = threshold > 0 ? Math.min(100, Math.round((safeProgress / threshold) * 100)) : 0;
 
   return (
     <View style={[styles.card, unlocked ? styles.cardUnlocked : styles.cardLocked]}>
@@ -254,21 +260,35 @@ function AchievementArtCard({
           {achievement.description}
         </Text>
 
-        {achievement.type === "progress" && achievement.threshold ? (
-          <Text style={styles.goal}>Goal · {achievement.threshold}</Text>
+        {isProgress ? (
+          <View style={styles.progressBlock}>
+            <View style={styles.progressMetaRow}>
+              <Text style={styles.progressLabel}>{unlocked ? "Complete" : "Progress"}</Text>
+              <Text style={styles.progressCount}>{safeProgress}/{threshold}</Text>
+            </View>
+            <View style={styles.progressTrack}>
+              <View
+                style={[
+                  styles.progressFill,
+                  { width: `${progressPercent}%`, backgroundColor: unlocked ? accent : "#7FC7FF" },
+                ]}
+              />
+            </View>
+          </View>
         ) : null}
       </View>
     </View>
   );
 }
 
-export default function AchievementBadge({ achievement, unlocked }: Props) {
+export default function AchievementBadge({ achievement, unlocked, currentProgress = 0 }: Props) {
   const art = achievement.id ? ART_BY_ID[achievement.id] : undefined;
 
   return (
     <AchievementArtCard
       achievement={achievement}
       unlocked={unlocked}
+      currentProgress={currentProgress}
       art={art}
     />
   );
@@ -442,6 +462,42 @@ const styles = StyleSheet.create({
     textTransform: "uppercase",
     textShadowColor: "rgba(0,0,0,0.82)",
     textShadowRadius: 8,
+  },
+  progressBlock: {
+    marginTop: 7,
+  },
+  progressMetaRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: 6,
+    marginBottom: 4,
+  },
+  progressLabel: {
+    color: "#9FB3CE",
+    fontSize: 7.8,
+    lineHeight: 10,
+    fontWeight: "900",
+    letterSpacing: 0.55,
+    textTransform: "uppercase",
+  },
+  progressCount: {
+    color: "#F4FAFF",
+    fontSize: 8.8,
+    lineHeight: 11,
+    fontWeight: "900",
+  },
+  progressTrack: {
+    height: 5,
+    borderRadius: 999,
+    overflow: "hidden",
+    backgroundColor: "rgba(216,231,255,0.18)",
+    borderWidth: 1,
+    borderColor: "rgba(159,231,255,0.15)",
+  },
+  progressFill: {
+    height: "100%",
+    borderRadius: 999,
   },
 });
 

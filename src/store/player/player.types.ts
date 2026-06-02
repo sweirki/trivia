@@ -94,7 +94,7 @@ export interface PlayerStoreState {
   activeBoosts: { xp: number; coins: number; gems: number };
 
   applyReward: (xp: number, coins?: number, gems?: number, tickets?: number) => void;
-  applyDailyReward: (daily: DailyState, reward: RewardDelta) => void;
+  applyDailyReward: (daily: DailyState, reward: RewardDelta) => RewardDelta;
   addCoins: (amount: number) => void;
   addGems: (amount: number) => void;
   addTickets: (amount: number) => void;

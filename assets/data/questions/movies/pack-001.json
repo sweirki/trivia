@@ -1,2857 +1,7 @@
 [
   {
-    "id": 35001,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features the character Harry Potter?",
-    "answers": [
-      "Harry Potter and the Sorcerer's Stone",
-      "The Hobbit",
-      "Percy Jackson",
-      "Fantastic Beasts"
-    ],
-    "correctAnswer": "Harry Potter and the Sorcerer's Stone",
-    "explanation": "Harry Potter and the Sorcerer's Stone is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35002,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which animated movie features a talking snowman named Olaf?",
-    "answers": [
-      "Moana",
-      "Frozen",
-      "Tangled",
-      "Toy Story"
-    ],
-    "correctAnswer": "Frozen",
-    "explanation": "Frozen is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35003,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Who played Jack in the movie Titanic?",
-    "answers": [
-      "Brad Pitt",
-      "Tom Cruise",
-      "Leonardo DiCaprio",
-      "Johnny Depp"
-    ],
-    "correctAnswer": "Leonardo DiCaprio",
-    "explanation": "Leonardo DiCaprio is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35004,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features toys that come to life?",
-    "answers": [
-      "Cars",
-      "Shrek",
-      "Monsters Inc.",
-      "Toy Story"
-    ],
-    "correctAnswer": "Toy Story",
-    "explanation": "Toy Story is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35005,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which superhero is known as the Dark Knight?",
-    "answers": [
-      "Batman",
-      "Superman",
-      "Spider-Man",
-      "Iron Man"
-    ],
-    "correctAnswer": "Batman",
-    "explanation": "Batman is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35006,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie won Best Picture at the 2020 Oscars?",
-    "answers": [
-      "1917",
-      "Parasite",
-      "Joker",
-      "Once Upon a Time in Hollywood"
-    ],
-    "correctAnswer": "Parasite",
-    "explanation": "Parasite is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35007,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Who directed the movie Jaws?",
-    "answers": [
-      "George Lucas",
-      "James Cameron",
-      "Steven Spielberg",
-      "Ridley Scott"
-    ],
-    "correctAnswer": "Steven Spielberg",
-    "explanation": "Steven Spielberg is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35008,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features the quote 'I'll be back'?",
-    "answers": [
-      "RoboCop",
-      "Predator",
-      "Die Hard",
-      "The Terminator"
-    ],
-    "correctAnswer": "The Terminator",
-    "explanation": "The Terminator is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35009,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which film is about dreams within dreams?",
-    "answers": [
-      "Inception",
-      "Interstellar",
-      "Tenet",
-      "The Matrix"
-    ],
-    "correctAnswer": "Inception",
-    "explanation": "Inception is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35010,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Who played the Joker in The Dark Knight?",
-    "answers": [
-      "Joaquin Phoenix",
-      "Heath Ledger",
-      "Jack Nicholson",
-      "Jared Leto"
-    ],
-    "correctAnswer": "Heath Ledger",
-    "explanation": "Heath Ledger is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35011,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie was the first feature-length animated film by Disney?",
-    "answers": [
-      "Fantasia",
-      "Pinocchio",
-      "Snow White and the Seven Dwarfs",
-      "Dumbo"
-    ],
-    "correctAnswer": "Snow White and the Seven Dwarfs",
-    "explanation": "Snow White and the Seven Dwarfs is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35012,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which director is known for the movie Pulp Fiction?",
-    "answers": [
-      "Martin Scorsese",
-      "Francis Ford Coppola",
-      "Guy Ritchie",
-      "Quentin Tarantino"
-    ],
-    "correctAnswer": "Quentin Tarantino",
-    "explanation": "Quentin Tarantino is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35013,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features the character Travis Bickle?",
-    "answers": [
-      "Taxi Driver",
-      "Goodfellas",
-      "Scarface",
-      "Heat"
-    ],
-    "correctAnswer": "Taxi Driver",
-    "explanation": "Taxi Driver is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35014,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which film won the first Academy Award for Best Picture?",
-    "answers": [
-      "Gone with the Wind",
-      "Wings",
-      "Casablanca",
-      "All Quiet on the Western Front"
-    ],
-    "correctAnswer": "Wings",
-    "explanation": "Wings is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35015,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which actor starred in the movie The Godfather as Michael Corleone?",
-    "answers": [
-      "Robert De Niro",
-      "Marlon Brando",
-      "Al Pacino",
-      "James Caan"
-    ],
-    "correctAnswer": "Al Pacino",
-    "explanation": "Al Pacino is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35016,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a green ogre named Shrek?",
-    "answers": [
-      "Ice Age",
-      "Madagascar",
-      "Kung Fu Panda",
-      "Shrek"
-    ],
-    "correctAnswer": "Shrek",
-    "explanation": "Shrek is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35017,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie is about dinosaurs brought back to life?",
-    "answers": [
-      "Jurassic Park",
-      "King Kong",
-      "Godzilla",
-      "Avatar"
-    ],
-    "correctAnswer": "Jurassic Park",
-    "explanation": "Jurassic Park is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35018,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Who played Iron Man in the Marvel movies?",
-    "answers": [
-      "Chris Evans",
-      "Robert Downey Jr.",
-      "Chris Hemsworth",
-      "Mark Ruffalo"
-    ],
-    "correctAnswer": "Robert Downey Jr.",
-    "explanation": "Robert Downey Jr. is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35019,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a clownfish named Nemo?",
-    "answers": [
-      "Shark Tale",
-      "The Little Mermaid",
-      "Finding Nemo",
-      "Rio"
-    ],
-    "correctAnswer": "Finding Nemo",
-    "explanation": "Finding Nemo is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35020,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features the song 'Let It Go'?",
-    "answers": [
-      "Moana",
-      "Coco",
-      "Tangled",
-      "Frozen"
-    ],
-    "correctAnswer": "Frozen",
-    "explanation": "Frozen is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35021,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie series features a ring that must be destroyed?",
-    "answers": [
-      "The Lord of the Rings",
-      "Harry Potter",
-      "The Hobbit",
-      "Game of Thrones"
-    ],
-    "correctAnswer": "The Lord of the Rings",
-    "explanation": "The Lord of the Rings is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35022,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Who directed the movie Avatar?",
-    "answers": [
-      "Steven Spielberg",
-      "James Cameron",
-      "Ridley Scott",
-      "Peter Jackson"
-    ],
-    "correctAnswer": "James Cameron",
-    "explanation": "James Cameron is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35023,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features time travel using a DeLorean?",
-    "answers": [
-      "The Terminator",
-      "Looper",
-      "Back to the Future",
-      "Timecop"
-    ],
-    "correctAnswer": "Back to the Future",
-    "explanation": "Back to the Future is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35024,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which actor played Forrest Gump?",
-    "answers": [
-      "Tom Cruise",
-      "Brad Pitt",
-      "Matt Damon",
-      "Tom Hanks"
-    ],
-    "correctAnswer": "Tom Hanks",
-    "explanation": "Tom Hanks is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35025,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie takes place mostly on the planet Pandora?",
-    "answers": [
-      "Avatar",
-      "Star Wars",
-      "Dune",
-      "Guardians of the Galaxy"
-    ],
-    "correctAnswer": "Avatar",
-    "explanation": "Avatar is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35026,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie is famous for the line 'Rosebud'?",
-    "answers": [
-      "Casablanca",
-      "Citizen Kane",
-      "Gone with the Wind",
-      "The Maltese Falcon"
-    ],
-    "correctAnswer": "Citizen Kane",
-    "explanation": "Citizen Kane is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35027,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which director made the film 2001: A Space Odyssey?",
-    "answers": [
-      "George Lucas",
-      "Ridley Scott",
-      "Stanley Kubrick",
-      "James Cameron"
-    ],
-    "correctAnswer": "Stanley Kubrick",
-    "explanation": "Stanley Kubrick is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35028,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie won Best Picture in 1994?",
-    "answers": [
-      "Pulp Fiction",
-      "The Shawshank Redemption",
-      "Four Weddings and a Funeral",
-      "Forrest Gump"
-    ],
-    "correctAnswer": "Forrest Gump",
-    "explanation": "Forrest Gump is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35029,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which actor starred in the movie Cast Away?",
-    "answers": [
-      "Tom Hanks",
-      "Robin Williams",
-      "Harrison Ford",
-      "Mel Gibson"
-    ],
-    "correctAnswer": "Tom Hanks",
-    "explanation": "Tom Hanks is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35030,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie is set almost entirely inside a jury room?",
-    "answers": [
-      "The Verdict",
-      "12 Angry Men",
-      "A Few Good Men",
-      "Primal Fear"
-    ],
-    "correctAnswer": "12 Angry Men",
-    "explanation": "12 Angry Men is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35031,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a cowboy named Woody?",
-    "answers": [
-      "Cars",
-      "Finding Nemo",
-      "Toy Story",
-      "Up"
-    ],
-    "correctAnswer": "Toy Story",
-    "explanation": "Toy Story is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35032,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie is about a family of superheroes?",
-    "answers": [
-      "Megamind",
-      "Big Hero 6",
-      "Shrek",
-      "The Incredibles"
-    ],
-    "correctAnswer": "The Incredibles",
-    "explanation": "The Incredibles is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35033,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features Simba as the main character?",
-    "answers": [
-      "The Lion King",
-      "Bambi",
-      "Madagascar",
-      "Tarzan"
-    ],
-    "correctAnswer": "The Lion King",
-    "explanation": "The Lion King is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35034,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a blue alien race called Na'vi?",
-    "answers": [
-      "Star Wars",
-      "Avatar",
-      "Guardians of the Galaxy",
-      "Dune"
-    ],
-    "correctAnswer": "Avatar",
-    "explanation": "Avatar is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35035,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features Minions?",
-    "answers": [
-      "Shrek",
-      "Ice Age",
-      "Despicable Me",
-      "Madagascar"
-    ],
-    "correctAnswer": "Despicable Me",
-    "explanation": "Despicable Me is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35036,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Who directed the movie Inception?",
-    "answers": [
-      "James Cameron",
-      "Ridley Scott",
-      "David Fincher",
-      "Christopher Nolan"
-    ],
-    "correctAnswer": "Christopher Nolan",
-    "explanation": "Christopher Nolan is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35037,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie stars Keanu Reeves as Neo?",
-    "answers": [
-      "The Matrix",
-      "John Wick",
-      "Speed",
-      "Constantine"
-    ],
-    "correctAnswer": "The Matrix",
-    "explanation": "The Matrix is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35038,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie is set on a sinking cruise ship?",
-    "answers": [
-      "Poseidon",
-      "Titanic",
-      "The Perfect Storm",
-      "Deep Blue Sea"
-    ],
-    "correctAnswer": "Titanic",
-    "explanation": "Titanic is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35039,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which actor played Wolverine in the X-Men movies?",
-    "answers": [
-      "Chris Hemsworth",
-      "Ryan Reynolds",
-      "Hugh Jackman",
-      "Ben Affleck"
-    ],
-    "correctAnswer": "Hugh Jackman",
-    "explanation": "Hugh Jackman is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35040,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features a computer hacker named Trinity?",
-    "answers": [
-      "Hackers",
-      "Blade Runner",
-      "Tron",
-      "The Matrix"
-    ],
-    "correctAnswer": "The Matrix",
-    "explanation": "The Matrix is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35041,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie is based on a novel by Anthony Burgess?",
-    "answers": [
-      "A Clockwork Orange",
-      "1984",
-      "Brave New World",
-      "Fahrenheit 451"
-    ],
-    "correctAnswer": "A Clockwork Orange",
-    "explanation": "A Clockwork Orange is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35042,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which director made the movie Reservoir Dogs?",
-    "answers": [
-      "Guy Ritchie",
-      "Quentin Tarantino",
-      "Martin Scorsese",
-      "David Lynch"
-    ],
-    "correctAnswer": "Quentin Tarantino",
-    "explanation": "Quentin Tarantino is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35043,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a spinning top as a reality check?",
-    "answers": [
-      "Tenet",
-      "The Prestige",
-      "Inception",
-      "Memento"
-    ],
-    "correctAnswer": "Inception",
-    "explanation": "Inception is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35044,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which actor starred in the movie Blade Runner?",
-    "answers": [
-      "Mel Gibson",
-      "Bruce Willis",
-      "Arnold Schwarzenegger",
-      "Harrison Ford"
-    ],
-    "correctAnswer": "Harrison Ford",
-    "explanation": "Harrison Ford is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35045,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie won the Academy Award for Best Picture in 2000?",
-    "answers": [
-      "American Beauty",
-      "Gladiator",
-      "The Sixth Sense",
-      "The Green Mile"
-    ],
-    "correctAnswer": "American Beauty",
-    "explanation": "American Beauty is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35046,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a rat who becomes a chef?",
-    "answers": [
-      "Stuart Little",
-      "Ratatouille",
-      "Flushed Away",
-      "Over the Hedge"
-    ],
-    "correctAnswer": "Ratatouille",
-    "explanation": "Ratatouille is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35047,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie is about emotions living inside a girl's head?",
-    "answers": [
-      "Soul",
-      "Up",
-      "Inside Out",
-      "Coco"
-    ],
-    "correctAnswer": "Inside Out",
-    "explanation": "Inside Out is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35048,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a robot named WALL-E?",
-    "answers": [
-      "Robots",
-      "Big Hero 6",
-      "Astro Boy",
-      "WALL-E"
-    ],
-    "correctAnswer": "WALL-E",
-    "explanation": "WALL-E is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35049,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a panda learning kung fu?",
-    "answers": [
-      "Kung Fu Panda",
-      "Madagascar",
-      "Mulan",
-      "Zootopia"
-    ],
-    "correctAnswer": "Kung Fu Panda",
-    "explanation": "Kung Fu Panda is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35050,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie is about a family traveling in a yellow van?",
-    "answers": [
-      "RV",
-      "Little Miss Sunshine",
-      "National Lampoon's Vacation",
-      "Chef"
-    ],
-    "correctAnswer": "Little Miss Sunshine",
-    "explanation": "Little Miss Sunshine is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35051,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie stars Leonardo DiCaprio as a con artist?",
-    "answers": [
-      "The Aviator",
-      "Shutter Island",
-      "Catch Me If You Can",
-      "The Wolf of Wall Street"
-    ],
-    "correctAnswer": "Catch Me If You Can",
-    "explanation": "Catch Me If You Can is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35052,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which film features the character Maximus?",
-    "answers": [
-      "Troy",
-      "Braveheart",
-      "300",
-      "Gladiator"
-    ],
-    "correctAnswer": "Gladiator",
-    "explanation": "Gladiator is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35053,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie is about a dream-sharing device?",
-    "answers": [
-      "Inception",
-      "Total Recall",
-      "Source Code",
-      "The Matrix"
-    ],
-    "correctAnswer": "Inception",
-    "explanation": "Inception is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35054,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features a spaceship called the Millennium Falcon?",
-    "answers": [
-      "Star Trek",
-      "Star Wars",
-      "Guardians of the Galaxy",
-      "Dune"
-    ],
-    "correctAnswer": "Star Wars",
-    "explanation": "Star Wars is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35055,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which actor played Captain Jack Sparrow?",
-    "answers": [
-      "Orlando Bloom",
-      "Geoffrey Rush",
-      "Johnny Depp",
-      "Javier Bardem"
-    ],
-    "correctAnswer": "Johnny Depp",
-    "explanation": "Johnny Depp is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35056,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie is based on a Stephen King novella about prison life?",
-    "answers": [
-      "The Green Mile",
-      "Misery",
-      "Carrie",
-      "The Shawshank Redemption"
-    ],
-    "correctAnswer": "The Shawshank Redemption",
-    "explanation": "The Shawshank Redemption is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35057,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a box that should not be opened?",
-    "answers": [
-      "Se7en",
-      "The Game",
-      "Saw",
-      "Hellraiser"
-    ],
-    "correctAnswer": "Se7en",
-    "explanation": "Se7en is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35058,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which director is known for the movie Memento?",
-    "answers": [
-      "David Fincher",
-      "Christopher Nolan",
-      "Denis Villeneuve",
-      "Darren Aronofsky"
-    ],
-    "correctAnswer": "Christopher Nolan",
-    "explanation": "Christopher Nolan is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35059,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a character named Tyler Durden?",
-    "answers": [
-      "Se7en",
-      "American Psycho",
-      "Fight Club",
-      "The Game"
-    ],
-    "correctAnswer": "Fight Club",
-    "explanation": "Fight Club is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35060,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which film won Best Picture at the 2017 Oscars?",
-    "answers": [
-      "La La Land",
-      "Arrival",
-      "Manchester by the Sea",
-      "Moonlight"
-    ],
-    "correctAnswer": "Moonlight",
-    "explanation": "Moonlight is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35061,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a talking donkey?",
-    "answers": [
-      "Shrek",
-      "Madagascar",
-      "Ice Age",
-      "Sing"
-    ],
-    "correctAnswer": "Shrek",
-    "explanation": "Shrek is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35062,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a race car named Lightning McQueen?",
-    "answers": [
-      "Planes",
-      "Cars",
-      "Turbo",
-      "Speed Racer"
-    ],
-    "correctAnswer": "Cars",
-    "explanation": "Cars is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35063,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a house lifted by balloons?",
-    "answers": [
-      "Inside Out",
-      "Wall-E",
-      "Up",
-      "Toy Story"
-    ],
-    "correctAnswer": "Up",
-    "explanation": "Up is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35064,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a young lion cub named Simba?",
-    "answers": [
-      "The Jungle Book",
-      "Madagascar",
-      "Ice Age",
-      "The Lion King"
-    ],
-    "correctAnswer": "The Lion King",
-    "explanation": "The Lion King is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35065,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a snowman named Olaf?",
-    "answers": [
-      "Frozen",
-      "Tangled",
-      "Moana",
-      "Coco"
-    ],
-    "correctAnswer": "Frozen",
-    "explanation": "Frozen is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35066,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie is about a boxer named Rocky?",
-    "answers": [
-      "Raging Bull",
-      "Rocky",
-      "Creed",
-      "Million Dollar Baby"
-    ],
-    "correctAnswer": "Rocky",
-    "explanation": "Rocky is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35067,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features a hotel caretaker who goes insane?",
-    "answers": [
-      "Psycho",
-      "It",
-      "The Shining",
-      "Poltergeist"
-    ],
-    "correctAnswer": "The Shining",
-    "explanation": "The Shining is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35068,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie stars Brad Pitt and Edward Norton?",
-    "answers": [
-      "Seven",
-      "Snatch",
-      "Troy",
-      "Fight Club"
-    ],
-    "correctAnswer": "Fight Club",
-    "explanation": "Fight Club is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35069,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features a spinning hallway fight scene?",
-    "answers": [
-      "Inception",
-      "Tenet",
-      "The Matrix",
-      "Doctor Strange"
-    ],
-    "correctAnswer": "Inception",
-    "explanation": "Inception is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35070,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie is about dreams invading reality?",
-    "answers": [
-      "The Matrix",
-      "Inception",
-      "Paprika",
-      "Source Code"
-    ],
-    "correctAnswer": "Inception",
-    "explanation": "Inception is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35071,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a monologue about tears in rain?",
-    "answers": [
-      "The Matrix",
-      "Ghost in the Shell",
-      "Blade Runner",
-      "Dune"
-    ],
-    "correctAnswer": "Blade Runner",
-    "explanation": "Blade Runner is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35072,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which director made the movie Apocalypse Now?",
-    "answers": [
-      "Stanley Kubrick",
-      "Martin Scorsese",
-      "Oliver Stone",
-      "Francis Ford Coppola"
-    ],
-    "correctAnswer": "Francis Ford Coppola",
-    "explanation": "Francis Ford Coppola is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35073,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie is loosely based on Homer's Odyssey?",
-    "answers": [
-      "O Brother, Where Art Thou?",
-      "Troy",
-      "300",
-      "Gladiator"
-    ],
-    "correctAnswer": "O Brother, Where Art Thou?",
-    "explanation": "O Brother, Where Art Thou? is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35074,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie won Best Picture in 2019?",
-    "answers": [
-      "Roma",
-      "Green Book",
-      "Bohemian Rhapsody",
-      "Black Panther"
-    ],
-    "correctAnswer": "Green Book",
-    "explanation": "Green Book is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35075,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a killer shark?",
-    "answers": [
-      "Deep Blue Sea",
-      "The Meg",
-      "Jaws",
-      "Open Water"
-    ],
-    "correctAnswer": "Jaws",
-    "explanation": "Jaws is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35076,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a blue genie?",
-    "answers": [
-      "Hercules",
-      "Mulan",
-      "Tarzan",
-      "Aladdin"
-    ],
-    "correctAnswer": "Aladdin",
-    "explanation": "Aladdin is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35077,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a wooden puppet who wants to be real?",
-    "answers": [
-      "Pinocchio",
-      "Dumbo",
-      "Bambi",
-      "Peter Pan"
-    ],
-    "correctAnswer": "Pinocchio",
-    "explanation": "Pinocchio is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35078,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a robot police officer?",
-    "answers": [
-      "Terminator",
-      "RoboCop",
-      "Chappie",
-      "I, Robot"
-    ],
-    "correctAnswer": "RoboCop",
-    "explanation": "RoboCop is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35079,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a princess with ice powers?",
-    "answers": [
-      "Brave",
-      "Tangled",
-      "Frozen",
-      "Moana"
-    ],
-    "correctAnswer": "Frozen",
-    "explanation": "Frozen is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35080,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a talking snowman?",
-    "answers": [
-      "Happy Feet",
-      "Ice Age",
-      "Arthur Christmas",
-      "Frozen"
-    ],
-    "correctAnswer": "Frozen",
-    "explanation": "Frozen is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35081,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie is about a war in Middle-earth?",
-    "answers": [
-      "The Lord of the Rings",
-      "The Hobbit",
-      "Willow",
-      "Eragon"
-    ],
-    "correctAnswer": "The Lord of the Rings",
-    "explanation": "The Lord of the Rings is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35082,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie stars Joaquin Phoenix as a troubled comedian?",
-    "answers": [
-      "Her",
-      "Joker",
-      "Gladiator",
-      "Walk the Line"
-    ],
-    "correctAnswer": "Joker",
-    "explanation": "Joker is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35083,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features a genetically engineered theme park?",
-    "answers": [
-      "Westworld",
-      "Avatar",
-      "Jurassic Park",
-      "Congo"
-    ],
-    "correctAnswer": "Jurassic Park",
-    "explanation": "Jurassic Park is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35084,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which actor starred in the movie The Martian?",
-    "answers": [
-      "Brad Pitt",
-      "Leonardo DiCaprio",
-      "Ryan Gosling",
-      "Matt Damon"
-    ],
-    "correctAnswer": "Matt Damon",
-    "explanation": "Matt Damon is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35085,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie is about an astronaut stranded on Mars?",
-    "answers": [
-      "The Martian",
-      "Gravity",
-      "Interstellar",
-      "Ad Astra"
-    ],
-    "correctAnswer": "The Martian",
-    "explanation": "The Martian is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35086,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a chess game with Death?",
-    "answers": [
-      "Persona",
-      "Seventh Seal",
-      "Fanny and Alexander",
-      "Wild Strawberries"
-    ],
-    "correctAnswer": "Seventh Seal",
-    "explanation": "Seventh Seal is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35087,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which director is known for the movie Mulholland Drive?",
-    "answers": [
-      "David Fincher",
-      "Paul Thomas Anderson",
-      "David Lynch",
-      "Terrence Malick"
-    ],
-    "correctAnswer": "David Lynch",
-    "explanation": "David Lynch is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35088,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a parasite metaphor in South Korea?",
-    "answers": [
-      "Memories of Murder",
-      "Snowpiercer",
-      "The Host",
-      "Parasite"
-    ],
-    "correctAnswer": "Parasite",
-    "explanation": "Parasite is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35089,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which film is known for its long single takes?",
-    "answers": [
-      "All of these",
-      "Birdman",
-      "1917",
-      "Children of Men"
-    ],
-    "correctAnswer": "All of these",
-    "explanation": "All of these is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35090,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a man aging backwards?",
-    "answers": [
-      "Big Fish",
-      "The Curious Case of Benjamin Button",
-      "Forrest Gump",
-      "Time Traveler's Wife"
-    ],
-    "correctAnswer": "The Curious Case of Benjamin Button",
-    "explanation": "The Curious Case of Benjamin Button is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35091,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features talking animals in a city?",
-    "answers": [
-      "Madagascar",
-      "Sing",
-      "Zootopia",
-      "Rio"
-    ],
-    "correctAnswer": "Zootopia",
-    "explanation": "Zootopia is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35092,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a princess named Belle?",
-    "answers": [
-      "Cinderella",
-      "Frozen",
-      "Tangled",
-      "Beauty and the Beast"
-    ],
-    "correctAnswer": "Beauty and the Beast",
-    "explanation": "Beauty and the Beast is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35093,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a wooden boy?",
-    "answers": [
-      "Pinocchio",
-      "Dumbo",
-      "Bambi",
-      "Peter Pan"
-    ],
-    "correctAnswer": "Pinocchio",
-    "explanation": "Pinocchio is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35094,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a giant friendly robot?",
-    "answers": [
-      "Big Hero 6",
-      "Iron Giant",
-      "Transformers",
-      "Wall-E"
-    ],
-    "correctAnswer": "Iron Giant",
-    "explanation": "Iron Giant is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35095,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a chef rat?",
-    "answers": [
-      "Flushed Away",
-      "Stuart Little",
-      "Ratatouille",
-      "Over the Hedge"
-    ],
-    "correctAnswer": "Ratatouille",
-    "explanation": "Ratatouille is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35096,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features a boxer played by Sylvester Stallone?",
-    "answers": [
-      "Creed",
-      "Raging Bull",
-      "Million Dollar Baby",
-      "Rocky"
-    ],
-    "correctAnswer": "Rocky",
-    "explanation": "Rocky is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35097,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features a time loop?",
-    "answers": [
-      "Edge of Tomorrow",
-      "Looper",
-      "Tenet",
-      "Predestination"
-    ],
-    "correctAnswer": "Edge of Tomorrow",
-    "explanation": "Edge of Tomorrow is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35098,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie is about dreams and subconscious theft?",
-    "answers": [
-      "Paprika",
-      "Inception",
-      "The Matrix",
-      "Source Code"
-    ],
-    "correctAnswer": "Inception",
-    "explanation": "Inception is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35099,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features a giant ape?",
-    "answers": [
-      "Godzilla",
-      "Rampage",
-      "King Kong",
-      "Jurassic Park"
-    ],
-    "correctAnswer": "King Kong",
-    "explanation": "King Kong is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35100,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie stars Ryan Gosling as a jazz pianist?",
-    "answers": [
-      "Whiplash",
-      "Drive",
-      "Blue Valentine",
-      "La La Land"
-    ],
-    "correctAnswer": "La La Land",
-    "explanation": "La La Land is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35101,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a mysterious black monolith?",
-    "answers": [
-      "2001: A Space Odyssey",
-      "Interstellar",
-      "Solaris",
-      "Arrival"
-    ],
-    "correctAnswer": "2001: A Space Odyssey",
-    "explanation": "2001: A Space Odyssey is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35102,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which director made the movie The Grand Budapest Hotel?",
-    "answers": [
-      "Noah Baumbach",
-      "Wes Anderson",
-      "Paul Thomas Anderson",
-      "Spike Jonze"
-    ],
-    "correctAnswer": "Wes Anderson",
-    "explanation": "Wes Anderson is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35103,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie is about a drummer pushed to extremes?",
-    "answers": [
-      "Birdman",
-      "Black Swan",
-      "Whiplash",
-      "La La Land"
-    ],
-    "correctAnswer": "Whiplash",
-    "explanation": "Whiplash is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35104,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a bounty hunter named Deckard?",
-    "answers": [
-      "Dune",
-      "Total Recall",
-      "Minority Report",
-      "Blade Runner"
-    ],
-    "correctAnswer": "Blade Runner",
-    "explanation": "Blade Runner is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35105,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie is set during the Vietnam War?",
-    "answers": [
-      "All of these",
-      "Platoon",
-      "Apocalypse Now",
-      "Full Metal Jacket"
-    ],
-    "correctAnswer": "All of these",
-    "explanation": "All of these is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35106,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features singing animals?",
-    "answers": [
-      "Zootopia",
-      "Sing",
-      "Madagascar",
-      "Rio"
-    ],
-    "correctAnswer": "Sing",
-    "explanation": "Sing is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35107,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a princess named Elsa?",
-    "answers": [
-      "Brave",
-      "Tangled",
-      "Frozen",
-      "Moana"
-    ],
-    "correctAnswer": "Frozen",
-    "explanation": "Frozen is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35108,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a clownfish father searching for his son?",
-    "answers": [
-      "Shark Tale",
-      "Rio",
-      "Happy Feet",
-      "Finding Nemo"
-    ],
-    "correctAnswer": "Finding Nemo",
-    "explanation": "Finding Nemo is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35109,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a young wizard named Harry?",
-    "answers": [
-      "Harry Potter",
-      "Percy Jackson",
-      "The Hobbit",
-      "Eragon"
-    ],
-    "correctAnswer": "Harry Potter",
-    "explanation": "Harry Potter is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35110,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features talking cars?",
-    "answers": [
-      "Planes",
-      "Cars",
-      "Turbo",
-      "Speed Racer"
-    ],
-    "correctAnswer": "Cars",
-    "explanation": "Cars is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35111,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features a heist inside dreams?",
-    "answers": [
-      "The Prestige",
-      "Tenet",
-      "Inception",
-      "Ocean's Eleven"
-    ],
-    "correctAnswer": "Inception",
-    "explanation": "Inception is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35112,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie stars Christian Bale as Batman?",
-    "answers": [
-      "Batman v Superman",
-      "Justice League",
-      "Batman Forever",
-      "The Dark Knight"
-    ],
-    "correctAnswer": "The Dark Knight",
-    "explanation": "The Dark Knight is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35113,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie is about a hotel concierge?",
-    "answers": [
-      "The Grand Budapest Hotel",
-      "Lost in Translation",
-      "Shining",
-      "Room"
-    ],
-    "correctAnswer": "The Grand Budapest Hotel",
-    "explanation": "The Grand Budapest Hotel is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35114,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie stars Matthew McConaughey as an astronaut?",
-    "answers": [
-      "Gravity",
-      "Interstellar",
-      "The Martian",
-      "Ad Astra"
-    ],
-    "correctAnswer": "Interstellar",
-    "explanation": "Interstellar is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35115,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features a talking raccoon?",
-    "answers": [
-      "Avengers",
-      "Zootopia",
-      "Guardians of the Galaxy",
-      "Ice Age"
-    ],
-    "correctAnswer": "Guardians of the Galaxy",
-    "explanation": "Guardians of the Galaxy is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35116,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a surreal Hollywood nightmare?",
-    "answers": [
-      "Inland Empire",
-      "Lost Highway",
-      "Blue Velvet",
-      "Mulholland Drive"
-    ],
-    "correctAnswer": "Mulholland Drive",
-    "explanation": "Mulholland Drive is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35117,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which director made the movie Fight Club?",
-    "answers": [
-      "David Fincher",
-      "Christopher Nolan",
-      "Martin Scorsese",
-      "Quentin Tarantino"
-    ],
-    "correctAnswer": "David Fincher",
-    "explanation": "David Fincher is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35118,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie is about an obsessive ballet dancer?",
-    "answers": [
-      "Whiplash",
-      "Black Swan",
-      "Birdman",
-      "Perfect Blue"
-    ],
-    "correctAnswer": "Black Swan",
-    "explanation": "Black Swan is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35119,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a cyborg assassin from the future?",
-    "answers": [
-      "RoboCop",
-      "Blade Runner",
-      "Terminator",
-      "Predator"
-    ],
-    "correctAnswer": "Terminator",
-    "explanation": "Terminator is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35120,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie is known for its non-linear storytelling?",
-    "answers": [
-      "Pulp Fiction",
-      "Memento",
-      "Irreversible",
-      "All of these"
-    ],
-    "correctAnswer": "All of these",
-    "explanation": "All of these is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35121,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a princess with long blonde hair?",
-    "answers": [
-      "Tangled",
-      "Frozen",
-      "Cinderella",
-      "Sleeping Beauty"
-    ],
-    "correctAnswer": "Tangled",
-    "explanation": "Tangled is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35122,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a blue hedgehog?",
-    "answers": [
-      "Detective Pikachu",
-      "Sonic the Hedgehog",
-      "Mario",
-      "Wreck-It Ralph"
-    ],
-    "correctAnswer": "Sonic the Hedgehog",
-    "explanation": "Sonic the Hedgehog is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35123,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a robot programmed to clean Earth?",
-    "answers": [
-      "Chappie",
-      "I, Robot",
-      "Wall-E",
-      "Transformers"
-    ],
-    "correctAnswer": "Wall-E",
-    "explanation": "Wall-E is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35124,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a giant ape climbing a skyscraper?",
-    "answers": [
-      "Godzilla",
-      "Rampage",
-      "Skyscraper",
-      "King Kong"
-    ],
-    "correctAnswer": "King Kong",
-    "explanation": "King Kong is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35125,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a princess named Jasmine?",
-    "answers": [
-      "Aladdin",
-      "Mulan",
-      "Moana",
-      "Brave"
-    ],
-    "correctAnswer": "Aladdin",
-    "explanation": "Aladdin is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35126,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie stars Heath Ledger as a villain?",
-    "answers": [
-      "Batman Begins",
-      "The Dark Knight",
-      "Joker",
-      "Inception"
-    ],
-    "correctAnswer": "The Dark Knight",
-    "explanation": "The Dark Knight is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35127,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie is about musicians chasing success in Hollywood?",
-    "answers": [
-      "Whiplash",
-      "Once",
-      "La La Land",
-      "A Star Is Born"
-    ],
-    "correctAnswer": "La La Land",
-    "explanation": "La La Land is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35128,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features a heist in Las Vegas?",
-    "answers": [
-      "The Italian Job",
-      "Heat",
-      "Now You See Me",
-      "Ocean's Eleven"
-    ],
-    "correctAnswer": "Ocean's Eleven",
-    "explanation": "Ocean's Eleven is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35129,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie stars Will Smith as a boxer?",
-    "answers": [
-      "Ali",
-      "Concussion",
-      "I Am Legend",
-      "Hitch"
-    ],
-    "correctAnswer": "Ali",
-    "explanation": "Ali is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35130,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie is about a computer-simulated reality?",
-    "answers": [
-      "Inception",
-      "The Matrix",
-      "Ready Player One",
-      "Tron"
-    ],
-    "correctAnswer": "The Matrix",
-    "explanation": "The Matrix is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35131,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a replicant hunter?",
-    "answers": [
-      "Total Recall",
-      "Minority Report",
-      "Blade Runner",
-      "Dredd"
-    ],
-    "correctAnswer": "Blade Runner",
-    "explanation": "Blade Runner is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35132,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which director made the movie There Will Be Blood?",
-    "answers": [
-      "Wes Anderson",
-      "Coen Brothers",
-      "David Fincher",
-      "Paul Thomas Anderson"
-    ],
-    "correctAnswer": "Paul Thomas Anderson",
-    "explanation": "Paul Thomas Anderson is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35133,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie is about oil drilling in early California?",
-    "answers": [
-      "There Will Be Blood",
-      "No Country for Old Men",
-      "Gangs of New York",
-      "The Assassination of Jesse James"
-    ],
-    "correctAnswer": "There Will Be Blood",
-    "explanation": "There Will Be Blood is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35134,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a famous hallway fight scene?",
-    "answers": [
-      "Oldboy",
-      "All of these",
-      "The Raid",
-      "Inception"
-    ],
-    "correctAnswer": "All of these",
-    "explanation": "All of these is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35135,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie won Best Picture in 2003?",
-    "answers": [
-      "The Pianist",
-      "Gangs of New York",
-      "Chicago",
-      "The Lord of the Rings: The Two Towers"
-    ],
-    "correctAnswer": "Chicago",
-    "explanation": "Chicago is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35136,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a robot named Optimus Prime?",
-    "answers": [
-      "I, Robot",
-      "Wall-E",
-      "Terminator",
-      "Transformers"
-    ],
-    "correctAnswer": "Transformers",
-    "explanation": "Transformers is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35137,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a talking pig named Babe?",
-    "answers": [
-      "Babe",
-      "Charlotte's Web",
-      "G-Force",
-      "Stuart Little"
-    ],
-    "correctAnswer": "Babe",
-    "explanation": "Babe is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35138,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a cowboy doll named Woody?",
-    "answers": [
-      "Cars",
-      "Toy Story",
-      "Up",
-      "Finding Nemo"
-    ],
-    "correctAnswer": "Toy Story",
-    "explanation": "Toy Story is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35139,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a clownfish?",
-    "answers": [
-      "Shark Tale",
-      "Happy Feet",
-      "Finding Nemo",
-      "Rio"
-    ],
-    "correctAnswer": "Finding Nemo",
-    "explanation": "Finding Nemo is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35140,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "easy",
-    "text": "Which movie features a princess named Cinderella?",
-    "answers": [
-      "Snow White",
-      "Sleeping Beauty",
-      "Beauty and the Beast",
-      "Cinderella"
-    ],
-    "correctAnswer": "Cinderella",
-    "explanation": "Cinderella is the correct answer.",
-    "tags": [
-      "movies",
-      "easy"
-    ]
-  },
-  {
-    "id": 35141,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie stars Leonardo DiCaprio in a dream world?",
-    "answers": [
-      "Inception",
-      "Shutter Island",
-      "The Revenant",
-      "The Beach"
-    ],
-    "correctAnswer": "Inception",
-    "explanation": "Inception is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35142,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features a dystopian future with hunger games?",
-    "answers": [
-      "Divergent",
-      "The Hunger Games",
-      "Maze Runner",
-      "Battle Royale"
-    ],
-    "correctAnswer": "The Hunger Games",
-    "explanation": "The Hunger Games is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35143,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features a musical set in Los Angeles?",
-    "answers": [
-      "Chicago",
-      "Moulin Rouge",
-      "La La Land",
-      "Once"
-    ],
-    "correctAnswer": "La La Land",
-    "explanation": "La La Land is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35144,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie stars Tom Cruise as a fighter pilot?",
-    "answers": [
-      "Days of Thunder",
-      "Mission: Impossible",
-      "Edge of Tomorrow",
-      "Top Gun"
-    ],
-    "correctAnswer": "Top Gun",
-    "explanation": "Top Gun is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35145,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "medium",
-    "text": "Which movie features dinosaurs in a theme park?",
-    "answers": [
-      "Jurassic Park",
-      "King Kong",
-      "Godzilla",
-      "Avatar"
-    ],
-    "correctAnswer": "Jurassic Park",
-    "explanation": "Jurassic Park is the correct answer.",
-    "tags": [
-      "movies",
-      "medium"
-    ]
-  },
-  {
-    "id": 35146,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a cursed videotape?",
-    "answers": [
-      "It Follows",
-      "The Ring",
-      "Sinister",
-      "The Grudge"
-    ],
-    "correctAnswer": "The Ring",
-    "explanation": "The Ring is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35147,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which director made the movie Psycho?",
-    "answers": [
-      "Stanley Kubrick",
-      "Orson Welles",
-      "Alfred Hitchcock",
-      "Billy Wilder"
-    ],
-    "correctAnswer": "Alfred Hitchcock",
-    "explanation": "Alfred Hitchcock is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35148,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a giant worm on a desert planet?",
-    "answers": [
-      "Star Wars",
-      "Tremors",
-      "Beetlejuice",
-      "Dune"
-    ],
-    "correctAnswer": "Dune",
-    "explanation": "Dune is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35149,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie is about a memory-loss detective?",
-    "answers": [
-      "Memento",
-      "Se7en",
-      "Shutter Island",
-      "Insomnia"
-    ],
-    "correctAnswer": "Memento",
-    "explanation": "Memento is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35150,
-    "category": "movies",
-    "premium": true,
-    "difficulty": "hard",
-    "text": "Which movie features a final line about hope in prison?",
-    "answers": [
-      "The Green Mile",
-      "The Shawshank Redemption",
-      "Escape from Alcatraz",
-      "Cool Hand Luke"
-    ],
-    "correctAnswer": "The Shawshank Redemption",
-    "explanation": "The Shawshank Redemption is the correct answer.",
-    "tags": [
-      "movies",
-      "hard"
-    ]
-  },
-  {
-    "id": 35151,
-    "category": "movies",
+    "id": 66459,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie features a theme park filled with cloned dinosaurs?",
@@ -2870,8 +20,8 @@
     ]
   },
   {
-    "id": 35152,
-    "category": "movies",
+    "id": 66460,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which actor played Tony Stark in the Marvel Cinematic Universe?",
@@ -2890,8 +40,8 @@
     ]
   },
   {
-    "id": 35153,
-    "category": "movies",
+    "id": 66461,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which animated movie follows a clownfish searching for his missing son?",
@@ -2910,8 +60,8 @@
     ]
   },
   {
-    "id": 35154,
-    "category": "movies",
+    "id": 66462,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which film won the Academy Award for Best Picture in 1998 after depicting the sinking of a famous ship?",
@@ -2930,8 +80,8 @@
     ]
   },
   {
-    "id": 35155,
-    "category": "movies",
+    "id": 66463,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which science fiction film features the line “There is no spoon”?",
@@ -2950,8 +100,8 @@
     ]
   },
   {
-    "id": 35156,
-    "category": "movies",
+    "id": 66464,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which Disney movie features a princess with magical long hair?",
@@ -2970,8 +120,8 @@
     ]
   },
   {
-    "id": 35157,
-    "category": "movies",
+    "id": 66465,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which actor played the Joker in The Dark Knight?",
@@ -2990,8 +140,8 @@
     ]
   },
   {
-    "id": 35158,
-    "category": "movies",
+    "id": 66466,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie franchise features the character Dom Toretto?",
@@ -3010,8 +160,8 @@
     ]
   },
   {
-    "id": 35159,
-    "category": "movies",
+    "id": 66467,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which film centers on dreams within dreams and was directed by Christopher Nolan?",
@@ -3030,8 +180,8 @@
     ]
   },
   {
-    "id": 35160,
-    "category": "movies",
+    "id": 66468,
+    "category": "Movies",
     "premium": true,
     "difficulty": "hard",
     "text": "Which 2007 film won the Academy Award for Best Picture and follows Anton Chigurh?",
@@ -3050,8 +200,8 @@
     ]
   },
   {
-    "id": 35161,
-    "category": "movies",
+    "id": 66469,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which actor portrayed Jack Sparrow in the Pirates of the Caribbean films?",
@@ -3070,8 +220,8 @@
     ]
   },
   {
-    "id": 35162,
-    "category": "movies",
+    "id": 66470,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie tells the story of a young lion named Simba?",
@@ -3090,8 +240,8 @@
     ]
   },
   {
-    "id": 35163,
-    "category": "movies",
+    "id": 66471,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which film follows astronauts traveling through a wormhole to save humanity?",
@@ -3110,8 +260,8 @@
     ]
   },
   {
-    "id": 35164,
-    "category": "movies",
+    "id": 66472,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie franchise includes the wizard Harry Potter?",
@@ -3130,8 +280,8 @@
     ]
   },
   {
-    "id": 35165,
-    "category": "movies",
+    "id": 66473,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which actor starred as Neo in The Matrix?",
@@ -3150,8 +300,8 @@
     ]
   },
   {
-    "id": 35166,
-    "category": "movies",
+    "id": 66474,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which Pixar movie is set largely inside the mind of a young girl?",
@@ -3170,8 +320,8 @@
     ]
   },
   {
-    "id": 35167,
-    "category": "movies",
+    "id": 66475,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which movie features the quote “Why so serious?”",
@@ -3190,8 +340,8 @@
     ]
   },
   {
-    "id": 35168,
-    "category": "movies",
+    "id": 66476,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie follows a boxer named Rocky Balboa?",
@@ -3210,8 +360,8 @@
     ]
   },
   {
-    "id": 35169,
-    "category": "movies",
+    "id": 66477,
+    "category": "Movies",
     "premium": true,
     "difficulty": "hard",
     "text": "Which director made the films Pulp Fiction and Kill Bill?",
@@ -3230,8 +380,8 @@
     ]
   },
   {
-    "id": 35170,
-    "category": "movies",
+    "id": 66478,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie features toys led by Woody and Buzz Lightyear?",
@@ -3250,8 +400,8 @@
     ]
   },
   {
-    "id": 35171,
-    "category": "movies",
+    "id": 66479,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which actor played Wolverine in the X-Men films for many years?",
@@ -3270,8 +420,8 @@
     ]
   },
   {
-    "id": 35172,
-    "category": "movies",
+    "id": 66480,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie centers on blue aliens living on Pandora?",
@@ -3290,8 +440,8 @@
     ]
   },
   {
-    "id": 35173,
-    "category": "movies",
+    "id": 66481,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which movie follows a lawyer defending a wrongly accused man in 1950s Alabama?",
@@ -3310,8 +460,8 @@
     ]
   },
   {
-    "id": 35174,
-    "category": "movies",
+    "id": 66482,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which animated movie features a family with superpowers?",
@@ -3330,8 +480,8 @@
     ]
   },
   {
-    "id": 35175,
-    "category": "movies",
+    "id": 66483,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which actor played the title role in the 2019 film Joker?",
@@ -3350,8 +500,8 @@
     ]
   },
   {
-    "id": 35176,
-    "category": "movies",
+    "id": 66484,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie follows a robot left alone cleaning Earth?",
@@ -3370,8 +520,8 @@
     ]
   },
   {
-    "id": 35177,
-    "category": "movies",
+    "id": 66485,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which film stars Leonardo DiCaprio as a frontiersman seeking revenge after a bear attack?",
@@ -3390,8 +540,8 @@
     ]
   },
   {
-    "id": 35178,
-    "category": "movies",
+    "id": 66486,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie franchise includes the Jedi and the Sith?",
@@ -3410,8 +560,8 @@
     ]
   },
   {
-    "id": 35179,
-    "category": "movies",
+    "id": 66487,
+    "category": "Movies",
     "premium": true,
     "difficulty": "hard",
     "text": "Which film won Best Picture at the Academy Awards in 2020, becoming the first non-English-language film to do so?",
@@ -3430,8 +580,8 @@
     ]
   },
   {
-    "id": 35180,
-    "category": "movies",
+    "id": 66488,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which Disney movie features a young woman named Moana sailing across the ocean?",
@@ -3450,8 +600,8 @@
     ]
   },
   {
-    "id": 35181,
-    "category": "movies",
+    "id": 66489,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which actor portrayed Deadpool in the Marvel films?",
@@ -3470,8 +620,8 @@
     ]
   },
   {
-    "id": 35182,
-    "category": "movies",
+    "id": 66490,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie features a family moving into a haunted hotel called the Overlook?",
@@ -3490,8 +640,8 @@
     ]
   },
   {
-    "id": 35183,
-    "category": "movies",
+    "id": 66491,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which movie follows a jazz drummer pushed to extremes by his demanding instructor?",
@@ -3510,8 +660,8 @@
     ]
   },
   {
-    "id": 35184,
-    "category": "movies",
+    "id": 66492,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which animated movie features emotions named Joy and Sadness?",
@@ -3530,8 +680,8 @@
     ]
   },
   {
-    "id": 35185,
-    "category": "movies",
+    "id": 66493,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which actor played John Wick in the action film series?",
@@ -3550,8 +700,8 @@
     ]
   },
   {
-    "id": 35186,
-    "category": "movies",
+    "id": 66494,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie follows a young deer named Bambi?",
@@ -3570,8 +720,8 @@
     ]
   },
   {
-    "id": 35187,
-    "category": "movies",
+    "id": 66495,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which science fiction movie stars Matt Damon stranded alone on Mars?",
@@ -3590,8 +740,8 @@
     ]
   },
   {
-    "id": 35188,
-    "category": "movies",
+    "id": 66496,
+    "category": "Movies",
     "premium": true,
     "difficulty": "hard",
     "text": "Which 1999 film revealed that its main character had been dead the entire time?",
@@ -3610,8 +760,8 @@
     ]
   },
   {
-    "id": 35189,
-    "category": "movies",
+    "id": 66497,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie follows a race car named Lightning McQueen?",
@@ -3630,8 +780,8 @@
     ]
   },
   {
-    "id": 35190,
-    "category": "movies",
+    "id": 66498,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which fantasy movie trilogy is based on books by J.R.R. Tolkien?",
@@ -3650,8 +800,8 @@
     ]
   },
   {
-    "id": 35191,
-    "category": "movies",
+    "id": 66499,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which movie features a giant shark terrorizing a beach town?",
@@ -3670,8 +820,8 @@
     ]
   },
   {
-    "id": 35192,
-    "category": "movies",
+    "id": 66500,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie features the superhero team known as the Avengers?",
@@ -3690,8 +840,8 @@
     ]
   },
   {
-    "id": 35193,
-    "category": "movies",
+    "id": 66501,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which animated film follows Miguel exploring the Land of the Dead?",
@@ -3710,8 +860,8 @@
     ]
   },
   {
-    "id": 35194,
-    "category": "movies",
+    "id": 66502,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which movie centers on a sinking ocean liner during its maiden voyage?",
@@ -3730,8 +880,8 @@
     ]
   },
   {
-    "id": 35195,
-    "category": "movies",
+    "id": 66503,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie features a treasure hunter named Indiana Jones?",
@@ -3750,8 +900,8 @@
     ]
   },
   {
-    "id": 35196,
-    "category": "movies",
+    "id": 66504,
+    "category": "Movies",
     "premium": true,
     "difficulty": "hard",
     "text": "Which director is known for the films Spirited Away and My Neighbor Totoro?",
@@ -3770,8 +920,8 @@
     ]
   },
   {
-    "id": 35197,
-    "category": "movies",
+    "id": 66505,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie follows a young wizard attending Hogwarts School?",
@@ -3790,8 +940,8 @@
     ]
   },
   {
-    "id": 35198,
-    "category": "movies",
+    "id": 66506,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which actor played Spider-Man in the MCU starting with Captain America: Civil War?",
@@ -3810,8 +960,8 @@
     ]
   },
   {
-    "id": 35199,
-    "category": "movies",
+    "id": 66507,
+    "category": "Movies",
     "premium": true,
     "difficulty": "easy",
     "text": "Which movie features a genie voiced by Robin Williams?",
@@ -3830,8 +980,8 @@
     ]
   },
   {
-    "id": 35200,
-    "category": "movies",
+    "id": 66508,
+    "category": "Movies",
     "premium": true,
     "difficulty": "medium",
     "text": "Which film follows an FBI trainee hunting a serial killer known as Buffalo Bill?",
@@ -3847,6 +997,1906 @@
       "movies",
       "medium",
       "silence-lambs"
+    ]
+  },
+  {
+    "id": 37201,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who directed the movie The Godfather?",
+    "answers": [
+      "The Wachowskis",
+      "Ridley Scott",
+      "Francis Ford Coppola",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Francis Ford Coppola",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37202,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which film features the character focus of Titanic?",
+    "answers": [
+      "Gladiator",
+      "The Godfather",
+      "Avatar",
+      "Titanic"
+    ],
+    "correctAnswer": "Titanic",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37203,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Inception is most associated with which film director?",
+    "answers": [
+      "Quentin Tarantino",
+      "Christopher Nolan",
+      "James Cameron",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37204,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie was directed by Christopher Nolan?",
+    "answers": [
+      "Inception",
+      "Avatar",
+      "The Dark Knight",
+      "Jurassic Park"
+    ],
+    "correctAnswer": "The Dark Knight",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37205,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In which year was Pulp Fiction originally released?",
+    "answers": [
+      "1993",
+      "1994",
+      "2008",
+      "2000"
+    ],
+    "correctAnswer": "1994",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37206,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who directed the movie Forrest Gump?",
+    "answers": [
+      "Robert Zemeckis",
+      "Steven Spielberg",
+      "Ridley Scott",
+      "Quentin Tarantino"
+    ],
+    "correctAnswer": "Robert Zemeckis",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37207,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which film features the character focus of The Matrix?",
+    "answers": [
+      "The Matrix",
+      "The Godfather",
+      "The Dark Knight",
+      "Pulp Fiction"
+    ],
+    "correctAnswer": "The Matrix",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37208,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Gladiator is most associated with which film director?",
+    "answers": [
+      "Ridley Scott",
+      "Christopher Nolan",
+      "Quentin Tarantino",
+      "The Wachowskis"
+    ],
+    "correctAnswer": "Ridley Scott",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37209,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie was directed by James Cameron?",
+    "answers": [
+      "Inception",
+      "Jurassic Park",
+      "Gladiator",
+      "Avatar"
+    ],
+    "correctAnswer": "Avatar",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37210,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which year was Jurassic Park originally released?",
+    "answers": [
+      "2009",
+      "2000",
+      "1993",
+      "2010"
+    ],
+    "correctAnswer": "1993",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37211,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who directed the movie The Godfather? (10)",
+    "answers": [
+      "Francis Ford Coppola",
+      "Robert Zemeckis",
+      "Ridley Scott",
+      "Quentin Tarantino"
+    ],
+    "correctAnswer": "Francis Ford Coppola",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37212,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film features the character focus of Titanic? (11)",
+    "answers": [
+      "Avatar",
+      "The Matrix",
+      "Jurassic Park",
+      "Titanic"
+    ],
+    "correctAnswer": "Titanic",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37213,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Inception is most associated with which film director? (12)",
+    "answers": [
+      "Francis Ford Coppola",
+      "Christopher Nolan",
+      "Quentin Tarantino",
+      "Robert Zemeckis"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37214,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie was directed by Christopher Nolan? (13)",
+    "answers": [
+      "Titanic",
+      "Avatar",
+      "The Dark Knight",
+      "Inception"
+    ],
+    "correctAnswer": "The Dark Knight",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37215,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In which year was Pulp Fiction originally released? (14)",
+    "answers": [
+      "1993",
+      "1997",
+      "2009",
+      "1994"
+    ],
+    "correctAnswer": "1994",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37216,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who directed the movie Forrest Gump? (15)",
+    "answers": [
+      "Quentin Tarantino",
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Robert Zemeckis"
+    ],
+    "correctAnswer": "Robert Zemeckis",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37217,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which film features the character focus of The Matrix? (16)",
+    "answers": [
+      "Jurassic Park",
+      "Inception",
+      "The Dark Knight",
+      "The Matrix"
+    ],
+    "correctAnswer": "The Matrix",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37218,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Gladiator is most associated with which film director? (17)",
+    "answers": [
+      "Robert Zemeckis",
+      "Quentin Tarantino",
+      "James Cameron",
+      "Ridley Scott"
+    ],
+    "correctAnswer": "Ridley Scott",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37219,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie was directed by James Cameron? (18)",
+    "answers": [
+      "Forrest Gump",
+      "The Godfather",
+      "Avatar",
+      "Inception"
+    ],
+    "correctAnswer": "Avatar",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37220,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which year was Jurassic Park originally released? (19)",
+    "answers": [
+      "1993",
+      "2009",
+      "2000",
+      "2010"
+    ],
+    "correctAnswer": "1993",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37221,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Who directed the movie The Godfather? (20)",
+    "answers": [
+      "Francis Ford Coppola",
+      "Steven Spielberg",
+      "Quentin Tarantino",
+      "James Cameron"
+    ],
+    "correctAnswer": "Francis Ford Coppola",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37222,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character focus of Titanic? (21)",
+    "answers": [
+      "Pulp Fiction",
+      "Titanic",
+      "The Matrix",
+      "Jurassic Park"
+    ],
+    "correctAnswer": "Titanic",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37223,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Inception is most associated with which film director? (22)",
+    "answers": [
+      "James Cameron",
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Francis Ford Coppola"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37224,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie was directed by Christopher Nolan? (23)",
+    "answers": [
+      "The Matrix",
+      "The Dark Knight",
+      "Gladiator",
+      "Forrest Gump"
+    ],
+    "correctAnswer": "The Dark Knight",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37225,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which year was Pulp Fiction originally released? (24)",
+    "answers": [
+      "1994",
+      "2009",
+      "1993",
+      "1999"
+    ],
+    "correctAnswer": "1994",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37226,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who directed the movie Forrest Gump? (25)",
+    "answers": [
+      "Christopher Nolan",
+      "Francis Ford Coppola",
+      "Robert Zemeckis",
+      "The Wachowskis"
+    ],
+    "correctAnswer": "Robert Zemeckis",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37227,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which film features the character focus of The Matrix? (26)",
+    "answers": [
+      "Jurassic Park",
+      "The Matrix",
+      "Pulp Fiction",
+      "Titanic"
+    ],
+    "correctAnswer": "The Matrix",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37228,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Gladiator is most associated with which film director? (27)",
+    "answers": [
+      "Quentin Tarantino",
+      "Ridley Scott",
+      "Steven Spielberg",
+      "Francis Ford Coppola"
+    ],
+    "correctAnswer": "Ridley Scott",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37229,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie was directed by James Cameron? (28)",
+    "answers": [
+      "Pulp Fiction",
+      "Gladiator",
+      "Avatar",
+      "Inception"
+    ],
+    "correctAnswer": "Avatar",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37230,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In which year was Jurassic Park originally released? (29)",
+    "answers": [
+      "1994",
+      "1993",
+      "2010",
+      "1972"
+    ],
+    "correctAnswer": "1993",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37231,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who directed the movie The Godfather? (30)",
+    "answers": [
+      "Francis Ford Coppola",
+      "Christopher Nolan",
+      "James Cameron",
+      "Robert Zemeckis"
+    ],
+    "correctAnswer": "Francis Ford Coppola",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37232,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character focus of Titanic? (31)",
+    "answers": [
+      "Titanic",
+      "Inception",
+      "The Godfather",
+      "The Dark Knight"
+    ],
+    "correctAnswer": "Titanic",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37233,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Inception is most associated with which film director? (32)",
+    "answers": [
+      "Robert Zemeckis",
+      "Christopher Nolan",
+      "Francis Ford Coppola",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37234,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie was directed by Christopher Nolan? (33)",
+    "answers": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "The Dark Knight",
+      "The Matrix"
+    ],
+    "correctAnswer": "The Dark Knight",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37235,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which year was Pulp Fiction originally released? (34)",
+    "answers": [
+      "1994",
+      "1972",
+      "2009",
+      "1999"
+    ],
+    "correctAnswer": "1994",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37236,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who directed the movie Forrest Gump? (35)",
+    "answers": [
+      "Ridley Scott",
+      "Steven Spielberg",
+      "Christopher Nolan",
+      "Robert Zemeckis"
+    ],
+    "correctAnswer": "Robert Zemeckis",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37237,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which film features the character focus of The Matrix? (36)",
+    "answers": [
+      "Inception",
+      "The Dark Knight",
+      "The Matrix",
+      "Forrest Gump"
+    ],
+    "correctAnswer": "The Matrix",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37238,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Gladiator is most associated with which film director? (37)",
+    "answers": [
+      "Christopher Nolan",
+      "James Cameron",
+      "Steven Spielberg",
+      "Ridley Scott"
+    ],
+    "correctAnswer": "Ridley Scott",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37239,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie was directed by James Cameron? (38)",
+    "answers": [
+      "Jurassic Park",
+      "The Dark Knight",
+      "Titanic",
+      "Avatar"
+    ],
+    "correctAnswer": "Avatar",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37240,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which year was Jurassic Park originally released? (39)",
+    "answers": [
+      "1993",
+      "1997",
+      "2010",
+      "1999"
+    ],
+    "correctAnswer": "1993",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37241,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who directed the movie The Godfather? (40)",
+    "answers": [
+      "James Cameron",
+      "Francis Ford Coppola",
+      "The Wachowskis",
+      "Quentin Tarantino"
+    ],
+    "correctAnswer": "Francis Ford Coppola",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37242,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film features the character focus of Titanic? (41)",
+    "answers": [
+      "The Dark Knight",
+      "Forrest Gump",
+      "Jurassic Park",
+      "Titanic"
+    ],
+    "correctAnswer": "Titanic",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37243,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Inception is most associated with which film director? (42)",
+    "answers": [
+      "James Cameron",
+      "Christopher Nolan",
+      "The Wachowskis",
+      "Ridley Scott"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37244,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie was directed by Christopher Nolan? (43)",
+    "answers": [
+      "Forrest Gump",
+      "The Dark Knight",
+      "Inception",
+      "Titanic"
+    ],
+    "correctAnswer": "The Dark Knight",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37245,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In which year was Pulp Fiction originally released? (44)",
+    "answers": [
+      "1999",
+      "1994",
+      "1997",
+      "2000"
+    ],
+    "correctAnswer": "1994",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37246,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who directed the movie Forrest Gump? (45)",
+    "answers": [
+      "The Wachowskis",
+      "Quentin Tarantino",
+      "Francis Ford Coppola",
+      "Robert Zemeckis"
+    ],
+    "correctAnswer": "Robert Zemeckis",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37247,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character focus of The Matrix? (46)",
+    "answers": [
+      "Gladiator",
+      "The Matrix",
+      "Titanic",
+      "Pulp Fiction"
+    ],
+    "correctAnswer": "The Matrix",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37248,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Gladiator is most associated with which film director? (47)",
+    "answers": [
+      "James Cameron",
+      "Ridley Scott",
+      "Quentin Tarantino",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Ridley Scott",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37249,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie was directed by James Cameron? (48)",
+    "answers": [
+      "The Matrix",
+      "The Godfather",
+      "Titanic",
+      "Avatar"
+    ],
+    "correctAnswer": "Avatar",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37250,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which year was Jurassic Park originally released? (49)",
+    "answers": [
+      "1993",
+      "1997",
+      "1994",
+      "2010"
+    ],
+    "correctAnswer": "1993",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37251,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who directed the movie The Godfather? (50)",
+    "answers": [
+      "Steven Spielberg",
+      "Robert Zemeckis",
+      "Quentin Tarantino",
+      "Francis Ford Coppola"
+    ],
+    "correctAnswer": "Francis Ford Coppola",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37252,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character focus of Titanic? (51)",
+    "answers": [
+      "Inception",
+      "Pulp Fiction",
+      "Avatar",
+      "Titanic"
+    ],
+    "correctAnswer": "Titanic",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37253,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Inception is most associated with which film director? (52)",
+    "answers": [
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Quentin Tarantino",
+      "Robert Zemeckis"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37254,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie was directed by Christopher Nolan? (53)",
+    "answers": [
+      "The Dark Knight",
+      "Titanic",
+      "Jurassic Park",
+      "Gladiator"
+    ],
+    "correctAnswer": "The Dark Knight",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37255,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which year was Pulp Fiction originally released? (54)",
+    "answers": [
+      "1994",
+      "2000",
+      "1999",
+      "2008"
+    ],
+    "correctAnswer": "1994",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37256,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Who directed the movie Forrest Gump? (55)",
+    "answers": [
+      "Steven Spielberg",
+      "Quentin Tarantino",
+      "Francis Ford Coppola",
+      "Robert Zemeckis"
+    ],
+    "correctAnswer": "Robert Zemeckis",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37257,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character focus of The Matrix? (56)",
+    "answers": [
+      "The Matrix",
+      "Forrest Gump",
+      "Pulp Fiction",
+      "Avatar"
+    ],
+    "correctAnswer": "The Matrix",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37258,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Gladiator is most associated with which film director? (57)",
+    "answers": [
+      "Ridley Scott",
+      "Robert Zemeckis",
+      "Steven Spielberg",
+      "Quentin Tarantino"
+    ],
+    "correctAnswer": "Ridley Scott",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37259,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie was directed by James Cameron? (58)",
+    "answers": [
+      "The Godfather",
+      "Avatar",
+      "Titanic",
+      "The Dark Knight"
+    ],
+    "correctAnswer": "Avatar",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37260,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which year was Jurassic Park originally released? (59)",
+    "answers": [
+      "1993",
+      "2010",
+      "1994",
+      "1972"
+    ],
+    "correctAnswer": "1993",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37261,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who directed the movie The Godfather? (60)",
+    "answers": [
+      "Francis Ford Coppola",
+      "Steven Spielberg",
+      "Quentin Tarantino",
+      "Christopher Nolan"
+    ],
+    "correctAnswer": "Francis Ford Coppola",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37262,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character focus of Titanic? (61)",
+    "answers": [
+      "The Dark Knight",
+      "Gladiator",
+      "The Matrix",
+      "Titanic"
+    ],
+    "correctAnswer": "Titanic",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37263,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Inception is most associated with which film director? (62)",
+    "answers": [
+      "The Wachowskis",
+      "Ridley Scott",
+      "Christopher Nolan",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37264,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie was directed by Christopher Nolan? (63)",
+    "answers": [
+      "The Matrix",
+      "The Dark Knight",
+      "Jurassic Park",
+      "Gladiator"
+    ],
+    "correctAnswer": "The Dark Knight",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37265,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which year was Pulp Fiction originally released? (64)",
+    "answers": [
+      "1972",
+      "2008",
+      "2000",
+      "1994"
+    ],
+    "correctAnswer": "1994",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37266,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who directed the movie Forrest Gump? (65)",
+    "answers": [
+      "James Cameron",
+      "Quentin Tarantino",
+      "Robert Zemeckis",
+      "Christopher Nolan"
+    ],
+    "correctAnswer": "Robert Zemeckis",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37267,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which film features the character focus of The Matrix? (66)",
+    "answers": [
+      "The Matrix",
+      "The Godfather",
+      "Jurassic Park",
+      "Titanic"
+    ],
+    "correctAnswer": "The Matrix",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37268,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Gladiator is most associated with which film director? (67)",
+    "answers": [
+      "James Cameron",
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Ridley Scott"
+    ],
+    "correctAnswer": "Ridley Scott",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37269,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which movie was directed by James Cameron? (68)",
+    "answers": [
+      "Titanic",
+      "Avatar",
+      "Inception",
+      "Gladiator"
+    ],
+    "correctAnswer": "Avatar",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37270,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which year was Jurassic Park originally released? (69)",
+    "answers": [
+      "1997",
+      "2000",
+      "1999",
+      "1993"
+    ],
+    "correctAnswer": "1993",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37271,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who directed the movie The Godfather? (70)",
+    "answers": [
+      "Francis Ford Coppola",
+      "Ridley Scott",
+      "Steven Spielberg",
+      "Christopher Nolan"
+    ],
+    "correctAnswer": "Francis Ford Coppola",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37272,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which film features the character focus of Titanic? (71)",
+    "answers": [
+      "Titanic",
+      "The Godfather",
+      "The Dark Knight",
+      "Avatar"
+    ],
+    "correctAnswer": "Titanic",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37273,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Inception is most associated with which film director? (72)",
+    "answers": [
+      "Quentin Tarantino",
+      "Christopher Nolan",
+      "Robert Zemeckis",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37274,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Which movie was directed by Christopher Nolan? (73)",
+    "answers": [
+      "Titanic",
+      "The Matrix",
+      "Forrest Gump",
+      "The Dark Knight"
+    ],
+    "correctAnswer": "The Dark Knight",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37275,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which year was Pulp Fiction originally released? (74)",
+    "answers": [
+      "2008",
+      "1993",
+      "1997",
+      "1994"
+    ],
+    "correctAnswer": "1994",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37276,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who directed the movie Forrest Gump? (75)",
+    "answers": [
+      "Robert Zemeckis",
+      "The Wachowskis",
+      "James Cameron",
+      "Quentin Tarantino"
+    ],
+    "correctAnswer": "Robert Zemeckis",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37277,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which film features the character focus of The Matrix? (76)",
+    "answers": [
+      "Avatar",
+      "Pulp Fiction",
+      "The Matrix",
+      "Titanic"
+    ],
+    "correctAnswer": "The Matrix",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37278,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Gladiator is most associated with which film director? (77)",
+    "answers": [
+      "Quentin Tarantino",
+      "Ridley Scott",
+      "Francis Ford Coppola",
+      "The Wachowskis"
+    ],
+    "correctAnswer": "Ridley Scott",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37279,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie was directed by James Cameron? (78)",
+    "answers": [
+      "Avatar",
+      "The Dark Knight",
+      "Jurassic Park",
+      "The Godfather"
+    ],
+    "correctAnswer": "Avatar",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37280,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In which year was Jurassic Park originally released? (79)",
+    "answers": [
+      "2000",
+      "1994",
+      "2008",
+      "1993"
+    ],
+    "correctAnswer": "1993",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37281,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Who directed the movie The Godfather? (80)",
+    "answers": [
+      "Francis Ford Coppola",
+      "Steven Spielberg",
+      "Ridley Scott",
+      "James Cameron"
+    ],
+    "correctAnswer": "Francis Ford Coppola",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37282,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film features the character focus of Titanic? (81)",
+    "answers": [
+      "Avatar",
+      "Pulp Fiction",
+      "Titanic",
+      "The Godfather"
+    ],
+    "correctAnswer": "Titanic",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37283,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Inception is most associated with which film director? (82)",
+    "answers": [
+      "Francis Ford Coppola",
+      "Christopher Nolan",
+      "The Wachowskis",
+      "Robert Zemeckis"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37284,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie was directed by Christopher Nolan? (83)",
+    "answers": [
+      "The Matrix",
+      "Gladiator",
+      "Forrest Gump",
+      "The Dark Knight"
+    ],
+    "correctAnswer": "The Dark Knight",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37285,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which year was Pulp Fiction originally released? (84)",
+    "answers": [
+      "2008",
+      "1994",
+      "2000",
+      "2010"
+    ],
+    "correctAnswer": "1994",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37286,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Who directed the movie Forrest Gump? (85)",
+    "answers": [
+      "Quentin Tarantino",
+      "The Wachowskis",
+      "James Cameron",
+      "Robert Zemeckis"
+    ],
+    "correctAnswer": "Robert Zemeckis",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37287,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film features the character focus of The Matrix? (86)",
+    "answers": [
+      "Forrest Gump",
+      "The Godfather",
+      "Avatar",
+      "The Matrix"
+    ],
+    "correctAnswer": "The Matrix",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37288,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "Gladiator is most associated with which film director? (87)",
+    "answers": [
+      "Ridley Scott",
+      "Robert Zemeckis",
+      "James Cameron",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Ridley Scott",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37289,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie was directed by James Cameron? (88)",
+    "answers": [
+      "The Dark Knight",
+      "Inception",
+      "Avatar",
+      "Gladiator"
+    ],
+    "correctAnswer": "Avatar",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37290,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "In which year was Jurassic Park originally released? (89)",
+    "answers": [
+      "2008",
+      "1972",
+      "1993",
+      "1994"
+    ],
+    "correctAnswer": "1993",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37291,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Who directed the movie The Godfather? (90)",
+    "answers": [
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Francis Ford Coppola",
+      "The Wachowskis"
+    ],
+    "correctAnswer": "Francis Ford Coppola",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37292,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film features the character focus of Titanic? (91)",
+    "answers": [
+      "Gladiator",
+      "Titanic",
+      "Forrest Gump",
+      "Avatar"
+    ],
+    "correctAnswer": "Titanic",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37293,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Inception is most associated with which film director? (92)",
+    "answers": [
+      "Francis Ford Coppola",
+      "Robert Zemeckis",
+      "Christopher Nolan",
+      "James Cameron"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37294,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie was directed by Christopher Nolan? (93)",
+    "answers": [
+      "Inception",
+      "The Dark Knight",
+      "Jurassic Park",
+      "The Matrix"
+    ],
+    "correctAnswer": "The Dark Knight",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37295,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "hard",
+    "text": "In which year was Pulp Fiction originally released? (94)",
+    "answers": [
+      "1994",
+      "2000",
+      "2009",
+      "1993"
+    ],
+    "correctAnswer": "1994",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "hard"
+    ]
+  },
+  {
+    "id": 37296,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Who directed the movie Forrest Gump? (95)",
+    "answers": [
+      "Francis Ford Coppola",
+      "Quentin Tarantino",
+      "Christopher Nolan",
+      "Robert Zemeckis"
+    ],
+    "correctAnswer": "Robert Zemeckis",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37297,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Which film features the character focus of The Matrix? (96)",
+    "answers": [
+      "Inception",
+      "Pulp Fiction",
+      "Avatar",
+      "The Matrix"
+    ],
+    "correctAnswer": "The Matrix",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37298,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "medium",
+    "text": "Gladiator is most associated with which film director? (97)",
+    "answers": [
+      "James Cameron",
+      "Quentin Tarantino",
+      "Francis Ford Coppola",
+      "Ridley Scott"
+    ],
+    "correctAnswer": "Ridley Scott",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "medium"
+    ]
+  },
+  {
+    "id": 37299,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "Which movie was directed by James Cameron? (98)",
+    "answers": [
+      "Avatar",
+      "The Godfather",
+      "The Dark Knight",
+      "Forrest Gump"
+    ],
+    "correctAnswer": "Avatar",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
+    ]
+  },
+  {
+    "id": 37300,
+    "category": "Movies",
+    "premium": true,
+    "difficulty": "easy",
+    "text": "In which year was Jurassic Park originally released? (99)",
+    "answers": [
+      "1994",
+      "2010",
+      "1993",
+      "2008"
+    ],
+    "correctAnswer": "1993",
+    "explanation": "This answer correctly matches the film-related clue.",
+    "tags": [
+      "movies",
+      "easy"
     ]
   }
 ]

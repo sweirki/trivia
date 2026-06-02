@@ -25,6 +25,7 @@ import { useHistoryStore } from "@/store/historyStore";
 import { CosmeticCategory } from "@/cosmetics/types";
 import { getEquippedCosmetic } from "@/cosmetics/cosmeticSelectors";
 import { getCosmeticAssetSource } from "@/cosmetics/cosmeticAssets";
+import { useAchievementEventsStore } from "@/achievements/achievementEventsStore";
 
 const PROFILE_PRESTIGE_BG = require("../../../assets/premium/atmospheres/profile_prestige_bg.webp");
 const PROFILE_ART = require("../../../assets/images/lobby/profile_card_art.webp");
@@ -128,15 +129,28 @@ function PrestigePanel({
   body,
   art,
   accent = GOLD,
+  onPress,
 }: {
   title: string;
   label: string;
   body: string;
   art: ImageSourcePropType;
   accent?: string;
+  onPress?: () => void;
 }) {
+  const Container = onPress ? Pressable : View;
+
   return (
-    <View style={styles.prestigePanel}>
+    <Container
+      onPress={onPress}
+      accessibilityRole={onPress ? "button" : undefined}
+      accessibilityLabel={onPress ? `${label}. ${title}` : undefined}
+      accessibilityHint={onPress ? "Opens season history" : undefined}
+      style={({ pressed }: { pressed?: boolean }) => [
+        styles.prestigePanel,
+        pressed && styles.pressed,
+      ]}
+    >
       <Image source={art} style={styles.panelArt} resizeMode="cover" />
       <LinearGradient
         pointerEvents="none"
@@ -152,7 +166,7 @@ function PrestigePanel({
         <Text style={styles.panelTitle}>{title}</Text>
         <Text style={styles.panelBody}>{body}</Text>
       </View>
-    </View>
+    </Container>
   );
 }
 
@@ -204,6 +218,17 @@ export default function ProfileScreen() {
   const xpRequired = level * 150 + level * level * 6;
   const xpPercent = xpRequired > 0 ? Math.min(xp / xpRequired, 1) : 0;
   const winRate = totalGamesPlayed > 0 ? Math.round((totalPlayerWins / totalGamesPlayed) * 100) : 0;
+  const highestRankLeague = useAchievementEventsStore((s) => s.highestRankLeague);
+  const highestRankedSR = useAchievementEventsStore((s) => s.highestRankedSR);
+  const survivalBestRounds = useAchievementEventsStore((s) => s.survivalBestRounds);
+  const powerBestScore = useAchievementEventsStore((s) => s.powerBestScore);
+  const peakRankLabel = highestRankLeague
+    ? `${highestRankLeague}${highestRankedSR > 0 ? ` · ${highestRankedSR} SR` : ""}`
+    : highestRankedSR > 0
+      ? `${highestRankedSR} SR`
+      : "-";
+  const bestSurvivalLabel = survivalBestRounds > 0 ? `${survivalBestRounds} Rounds` : "-";
+  const powerRecordLabel = powerBestScore > 0 ? `${powerBestScore} Score` : "-";
 
   const displayName = nickname ?? "Player";
   const identityAvatarId = useIdentityStore((s) => s.identity?.avatarId);
@@ -462,6 +487,21 @@ export default function ProfileScreen() {
               <Text style={styles.identityValue}>#{bestTournamentFinish || "-"}</Text>
               <Text style={styles.identityLabel}>Best Finish</Text>
             </View>
+            <View style={styles.identityCard}>
+              <Text style={styles.identityCrown}>◆</Text>
+              <Text style={styles.identityValueSmall} numberOfLines={1} adjustsFontSizeToFit>{peakRankLabel}</Text>
+              <Text style={styles.identityLabel}>Peak Rank</Text>
+            </View>
+            <View style={styles.identityCard}>
+              <Text style={styles.identityCrown}>⚡</Text>
+              <Text style={styles.identityValueSmall} numberOfLines={1} adjustsFontSizeToFit>{bestSurvivalLabel}</Text>
+              <Text style={styles.identityLabel}>Best Survival</Text>
+            </View>
+            <View style={styles.identityCard}>
+              <Text style={styles.identityCrown}>✦</Text>
+              <Text style={styles.identityValueSmall} numberOfLines={1} adjustsFontSizeToFit>{powerRecordLabel}</Text>
+              <Text style={styles.identityLabel}>Power Record</Text>
+            </View>
           </View>
 
           <SectionHeader title="Profile Hub" />
@@ -478,6 +518,7 @@ export default function ProfileScreen() {
             body="Compete in ranked seasons, tournaments, and global leaderboards to unlock elite rewards, borders, titles, and champion cosmetics."
             art={STADIUM_BG}
             accent={GOLD}
+            onPress={() => router.push("/seasons/history")}
           />
 
           <View style={styles.sectionCard}>
@@ -864,11 +905,13 @@ const styles = StyleSheet.create({
   },
   identityGrid: {
     flexDirection: "row",
+    flexWrap: "wrap",
     gap: 9,
     marginBottom: 16,
   },
   identityCard: {
-    flex: 1,
+    flexGrow: 1,
+    flexBasis: "31%",
     minHeight: 112,
     borderRadius: 20,
     backgroundColor: "rgba(7,17,31,0.88)",
@@ -892,6 +935,14 @@ const styles = StyleSheet.create({
     color: GOLD,
     fontSize: 18,
     fontWeight: "900",
+  },
+  identityValueSmall: {
+    color: GOLD,
+    fontSize: 13,
+    lineHeight: 17,
+    fontWeight: "900",
+    textAlign: "center",
+    maxWidth: "100%",
   },
   identityLabel: {
     color: "#9FB3CE",
